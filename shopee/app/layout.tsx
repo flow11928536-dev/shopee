@@ -123,6 +123,28 @@ export default function RootLayout({
           />
         ))}
       </head>
+      <head>
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TB069RRN2W" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-TB069RRN2W');
+            `,
+          }}
+        />
+        <link rel="preconnect" href="https://images.pexels.com" />
+        {baseSchemas.map((schema, i) => (
+          <script
+            key={i}
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+          />
+        ))}
+      </head>
       <body>
         <div className="flex min-h-screen flex-col bg-stone-50/50 text-stone-900 antialiased">
           <a
