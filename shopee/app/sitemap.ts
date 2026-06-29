@@ -32,26 +32,34 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  const categoryPages: MetadataRoute.Sitemap = allCategories.map((cat) => ({
-    url: `${SITE.url}/categoria/${cat}`,
-    lastModified: now,
-    changeFrequency: "daily",
-    priority: 0.9,
-  }));
+  const categoryPages: MetadataRoute.Sitemap = allCategories.map((cat) => {
+    const slug = cat.toLowerCase().trim().replace(/\s+/g, "-");
+
+    return {
+      url: `${SITE.url}/categoria/${slug}`,
+      lastModified: now,
+      changeFrequency: "daily",
+      priority: 0.9,
+    };
+  });
 
   const productPages: MetadataRoute.Sitemap = products.map((p) => ({
-    url: `${SITE.url}/confirmar-estoque/${p.slug}`,
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.6,
-  }));
-
+  url: `${SITE.url}/produto/${p.slug}`,
+  lastModified: now,
+  changeFrequency: "weekly",
+  priority: 0.7,
+}));
   const guidePages: MetadataRoute.Sitemap = getAllGuidesMeta().map((g) => ({
     url: `${SITE.url}/guia/${g.slug}`,
-    lastModified: now,
+    lastModified:  now,
     changeFrequency: "weekly",
-    priority: 0.7,
+    priority: 0.8,
   }));
 
-  return [...staticPages, ...categoryPages, ...guidePages, ...productPages];
+  return [
+    ...staticPages,
+    ...categoryPages,
+    ...guidePages,
+    ...productPages,
+  ];
 }

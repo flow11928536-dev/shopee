@@ -1,4 +1,5 @@
 import type { ProductGridProps } from "@/types";
+import type { Product } from "@/types"; // 👈 ADICIONA A IMPORTAÇÃO DO TIPO Product
 import { getProductsByCategory, getProductsBySlugs } from "@/data/products";
 import ProductCard from "./ProductCard";
 
@@ -9,32 +10,39 @@ export default function ProductGrid({
   title,
   subtitle,
   priorityFirst = false,
-}: ProductGridProps) {
-  let items = slugs
+  gridClassName = "grid-cols-2 sm:grid-cols-3 lg:grid-cols-4",
+  products: productsProp, // 👈 RECEBE A LISTA DE PRODUTOS PASSADA PELO CATEGORY PAGE
+}: ProductGridProps & { gridClassName?: string }) {
+  // SE FORNECEU productsProp, USA ELA; SENÃO, BUSCA POR CATEGORIA/SLUGS
+  const products = productsProp
+    ? productsProp
+    : slugs
     ? getProductsBySlugs(slugs)
-    : getProductsByCategory(category as Parameters<typeof getProductsByCategory>[0]);
+    : getProductsByCategory(category);
 
-  if (limit) items = items.slice(0, limit);
+  const items = limit ? products.slice(0, limit) : products;
+
   if (items.length === 0) return null;
 
   return (
-    <section aria-label={title ?? "Produtos"}>
+    <section aria-label={title ?? "Produtos"} className="w-full">
       {(title || subtitle) && (
-        <div className="mb-6">
+        <header className="mb-6">
           {title && (
             <h2 className="text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
               {title}
             </h2>
           )}
           {subtitle && <p className="mt-1.5 text-stone-500">{subtitle}</p>}
-        </div>
+        </header>
       )}
-      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-        {items.map((product, i) => (
+
+      <div className={`grid gap-4 ${gridClassName}`}>
+        {items.map((product) => (
           <ProductCard
             key={product.id}
             product={product}
-            priority={priorityFirst && i === 0}
+            priority={priorityFirst && items.indexOf(product) === 0}
           />
         ))}
       </div>

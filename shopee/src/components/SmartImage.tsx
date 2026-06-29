@@ -1,6 +1,3 @@
-"use client";
-
-import { useState } from "react";
 import Image from "next/image";
 import { cn } from "@/utils/cn";
 
@@ -18,49 +15,37 @@ export default function SmartImage({
   alt,
   className,
   priority = false,
-  sizes = "(max-width: 768px) 100vw, 25vw",
+  sizes = "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw",
   aspect = "4 / 3",
 }: SmartImageProps) {
-  const [loaded, setLoaded] = useState(false);
-
-  // Verifica se é URL externa ou local
-  const isExternal = src.startsWith("http://") || src.startsWith("https://");
+  const isExternal =
+    src.startsWith("http://") || src.startsWith("https://");
 
   return (
     <div
       className="relative w-full overflow-hidden bg-white"
       style={{ aspectRatio: aspect }}
     >
-      {!loaded && <div className="absolute inset-0 animate-pulse bg-stone-100" aria-hidden="true" />}
       {isExternal ? (
-        // Para imagens externas (Pexels etc.), usamos img normal
         <img
           src={src}
           alt={alt}
           sizes={sizes}
           loading={priority ? "eager" : "lazy"}
+          fetchPriority={priority ? "high" : "auto"}
           decoding="async"
-          onLoad={() => setLoaded(true)}
-          className={cn(
-            "h-full w-full object-contain transition-all duration-700 ease-out",
-            loaded ? "opacity-100" : "opacity-0",
-            className
-          )}
+          className={cn("h-full w-full object-contain", className)}
         />
       ) : (
-        // Para imagens locais, usamos next/image
         <Image
           src={src}
           alt={alt}
           fill
-          sizes={sizes}
           priority={priority}
-          onLoad={() => setLoaded(true)}
-          className={cn(
-            "object-contain transition-all duration-700 ease-out",
-            loaded ? "opacity-100" : "opacity-0",
-            className
-          )}
+          quality={85}
+          placeholder="empty"
+          sizes={sizes}
+          className={cn("object-contain", className)}
         />
       )}
     </div>

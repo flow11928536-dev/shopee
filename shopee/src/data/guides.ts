@@ -31,7 +31,7 @@ export const GUIDE_CLUSTERS: { cluster: number; titulo: string; slugs: string[] 
   },
   {
     cluster: 2,
-    titulo: "Dúvidas e Dicas (Tráfego + GEO)",
+    titulo: "Dúvidas e Dicas ",
     slugs: [
       "por-que-moveis-estalam",
       "como-envelopar-moveis",
@@ -1623,7 +1623,7 @@ const buildFromSeed = (slug: string, seed: GuideSeed): Guide => {
       type: "grid",
       title: "Combina Muito Bem",
       subtitle: "Cross-sell de eletrodomésticos e itens relacionados",
-      category: seed.cross,
+      category: "cozinhas",
       limit: 3,
     },
     {
@@ -1643,7 +1643,7 @@ const buildFromSeed = (slug: string, seed: GuideSeed): Guide => {
       title: "Aproveite Também",
       subtitle: "Ofertas complementares que vão bem com a sua escolha",
       category: comodo,
-      limit: 3,
+      limit: 4,
     },
     {
       type: "text",

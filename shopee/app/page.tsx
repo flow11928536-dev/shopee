@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CATEGORY_LABELS, SITE, allCategories } from "@/data/products";
-import { getAllGuidesMeta } from "@/data/guides";
 import ProductGrid from "@/components/ProductGrid";
+import HeroSlider from "@/components/HeroSlider";
 
 const CATEGORY_BANNERS: Record<string, string> = {
   cozinhas: "https://images.pexels.com/photos/7535073/pexels-photo-7535073.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
@@ -44,8 +44,6 @@ const jsonLd = {
 };
 
 export default function HomePage() {
-  const guides = getAllGuidesMeta().slice(0, 6);
-
   return (
     <>
       <script
@@ -53,47 +51,7 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      {/* HERO */}
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0">
-          <img
-            src={heroBanner}
-            alt="Sala de estar de alto padrão com sofá elegante e decoração moderna"
-            className="h-full w-full object-cover"
-            fetchPriority="high"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-stone-900/80 via-stone-900/50 to-transparent" />
-        </div>
-
-        <div className="relative mx-auto flex min-h-[72vh] max-w-7xl flex-col justify-center px-4 py-20 sm:px-6 lg:px-8">
-          <div className="max-w-xl">
-            <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-medium text-white backdrop-blur">
-              ✦ Curadoria · Marília-SP e todo o Brasil
-            </span>
-            <h1 className="mt-5 text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
-              Móveis de alto padrão pelo melhor preço
-            </h1>
-            <p className="mt-5 max-w-md text-lg leading-relaxed text-stone-200">
-              Selecionamos as melhores ofertas de móveis e eletrodomésticos do Mercado Livre e da
-              Shopee. Sem enrolação — só o que vale a pena.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Link
-                href="/categoria/cozinhas"
-                className="rounded-xl bg-white px-6 py-3 text-sm font-semibold text-stone-900 shadow-lg transition-all hover:-translate-y-0.5 hover:bg-stone-100"
-              >
-                Ver ofertas
-              </Link>
-              <Link
-                href="/guias"
-                className="rounded-xl border border-white/30 bg-white/10 px-6 py-3 text-sm font-semibold text-white backdrop-blur transition-all hover:bg-white/20"
-              >
-                Guias de compra
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      <HeroSlider />
 
       <div className="mx-auto max-w-7xl space-y-16 px-4 py-16 sm:px-6 lg:px-8">
         {/* CATEGORIAS — banners */}
@@ -124,15 +82,16 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* OFERTAS DESTAQUE */}
+        {/* OFERTAS DESTAQUE — AGORA COM 24 PRODUTOS (sem eletrodomésticos) */}
         <ProductGrid
           title="Ofertas em destaque"
           subtitle="As peças mais procuradas da semana com os maiores descontos"
-          category={["cozinhas", "guarda-roupas", "sofas", "paineis"]}
-          limit={8}
+          category={["cozinhas", "guarda-roupas", "sofas", "paineis", "quartos"]}
+          limit={24}
           priorityFirst
+          gridClassName="grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
         />
-
+          
         {/* BANNER PROMO */}
         <section className="overflow-hidden rounded-3xl bg-stone-900">
           <div className="grid items-center gap-6 md:grid-cols-2">
@@ -154,65 +113,34 @@ export default function HomePage() {
                 Ver eletrodomésticos
               </Link>
             </div>
-            <div className="h-56 md:h-full">
+            <div className="h-56 md:h-full bg-stone-900">
               <img
                 src="https://images.pexels.com/photos/3958962/pexels-photo-3958962.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
                 alt="Cozinha moderna equipada com eletrodomésticos em aço inox"
                 loading="lazy"
-                className="h-full w-full object-cover"
+                className="h-full w-full object-contain"
               />
             </div>
           </div>
         </section>
 
-        {/* ELETRO */}
+        {/* ELETRODOMÉSTICOS (exclusivo) */}
         <ProductGrid
           title="Eletrodomésticos em oferta"
           subtitle="Complete os ambientes com tecnologia e economia"
           category="eletrodomesticos"
-          limit={4}
+          limit={6}
+          gridClassName="grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
         />
 
-        {/* GUIAS */}
-        <section aria-label="Guias de compra">
-          <div className="flex items-end justify-between">
-            <div>
-              <h2 className="text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
-                Guias para comprar melhor
-              </h2>
-              <p className="mt-1.5 text-stone-500">Conteúdo honesto, de quem entende do assunto.</p>
-            </div>
-            <Link href="/guias" className="hidden text-sm font-semibold text-stone-900 hover:underline sm:block">
-              Ver todos →
-            </Link>
-          </div>
-          <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {guides.map((g) => (
-              <Link
-                key={g.slug}
-                href={`/guia/${g.slug}`}
-                className="group overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm transition-all duration-500 hover:-translate-y-1 hover:shadow-xl"
-              >
-                <div className="aspect-[16/9] overflow-hidden">
-                  <img
-                    src={g.heroImage}
-                    alt={g.h1}
-                    loading="lazy"
-                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
-                </div>
-                <div className="p-5">
-                  <span className="text-xs font-semibold uppercase tracking-wider text-stone-400">
-                    Guia
-                  </span>
-                  <h3 className="mt-1.5 line-clamp-2 font-semibold leading-snug text-stone-800">
-                    {g.h1}
-                  </h3>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </section>
+        {/* NOVIDADES (categorias que NÃO estão no primeiro grid) */}
+        <ProductGrid
+          title="Novidades para sua casa"
+          subtitle="Produtos recém-chegados com preços especiais"
+          category={["home-office", "area-externa"]}
+          limit={6}
+          gridClassName="grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+        />
       </div>
     </>
   );

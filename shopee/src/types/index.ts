@@ -15,35 +15,42 @@ export type ProductCategory =
   | "home-office"
   | "area-externa"
   | "quartos"
+  | "eletrodomesticos"
+  | "moveis-para-estudantes"
+  | "mdf-mdp";
+
+/** Categorias principais (ambientes) */
+export type MainCategory =
+  | "quarto"
+  | "sala"
+  | "cozinha"
+  | "escritorio"
+  | "area-externa"
   | "eletrodomesticos";
 
 /**
  * Estrutura OBRIGATÓRIA de cada produto.
- * Todos os componentes do site importam exclusivamente de `src/data/products.ts`.
  */
 export interface Product {
   id: string;
   slug: string;
+
   category: ProductCategory;
+  categories?: ProductCategory[];
+
+  mainCategory: MainCategory;
+
   name: string;
-  /** Caminho relativo dentro de /public/imagens/produtos/arquivo.webp */
   imageFile: string;
-  /** Imagem renderizada (CDN/stock) — usada como fallback visual de demonstração */
   displayImage: string;
-  /** Texto ALT descritivo para acessibilidade (WCAG AA) */
   alt: string;
   rating: number;
   reviews: number;
-  /** Percentual de desconto (0 a 100) */
   discount: number;
-  /** Preço atual em BRL */
   price: number;
-  /** Preço original (antes do desconto) em BRL */
   originalPrice: number;
   badge: string;
-  /** Plataforma de afiliados (selo de parceiro oficial) */
   platform: AffiliatePlatform;
-  /** Link de afiliado final — leitor é redirecionado para cá */
   affiliateLink: string;
   descricao: string;
   marca: string;
@@ -55,13 +62,13 @@ export interface Product {
 /** Props estritas do componente reutilizável ProductGrid */
 export interface ProductGridProps {
   category?: ProductCategory | ProductCategory[];
-  /** Lista explícita de slugs para cross-sell direcionado */
   slugs?: string[];
   limit?: number;
   title?: string;
   subtitle?: string;
-  /** Destaca o primeiro card como LCP (priority) */
   priorityFirst?: boolean;
+  /** Lista de produtos (para passar filtrado) */
+  products?: Product[];
 }
 
 /** Pergunta e resposta para blocos FAQ + Schema FAQPage */

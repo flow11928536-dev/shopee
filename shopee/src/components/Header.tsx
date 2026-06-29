@@ -55,6 +55,20 @@ export default function Header() {
           >
             Guias
           </Link>
+         <Link
+            href="/moveis-para-estudantes"
+            className="group mt-8 flex items-center justify-between rounded-2xl bg-gradient-to-r from-amber-500/10 to-amber-500/5 p-4 transition-all hover:bg-amber-500/20 border border-amber-200/30"
+          >
+            <div className="flex items-center gap-3">
+              <span className="text-2xl">🎓</span>
+              <div>
+                <span className="text-sm font-semibold text-amber-700">Móveis para Estudantes</span>
+                              </div>
+            </div>
+            <span className="rounded-full bg-amber-500 px-3 py-2 text-xs font-bold text-white transition group-hover:scale-105">
+              Ver →
+            </span>
+          </Link>
         </nav>
 
         <button
