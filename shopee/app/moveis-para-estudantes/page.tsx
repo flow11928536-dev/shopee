@@ -356,7 +356,7 @@ export default function MoveisParaEstudantesPage() {
                     <p className="text-xs text-stone-500">{depoimento.curso} · {depoimento.cidade}</p>
                   </div>
                 </div>
-                <p className="mt-3 text-sm text-stone-600 italic">"{depoimento.texto}"</p>
+                <p className="mt-1 text-stone-600">&ldquo;{depoimento.texto}&rdquo;</p>
               </div>
             ))}
           </div>
