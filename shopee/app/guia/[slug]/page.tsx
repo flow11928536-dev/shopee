@@ -125,6 +125,37 @@ function Callout({ block }: { block: Extract<GuideBlock, { type: "callout" }> })
   );
 }
 
+function VideoBlock({ block }: { block: Extract<GuideBlock, { type: "video" }> }) {
+  // Extrai o ID do vídeo do YouTube para colocar no player incorporado
+  let embedUrl = block.videoUrl;
+  if (block.videoUrl.includes("watch?v=")) {
+    const videoId = block.videoUrl.split("watch?v=")[1]?.split("&")[0];
+    embedUrl = `https://www.youtube.com/embed/${videoId}`;
+  } else if (block.videoUrl.includes("youtu.be/")) {
+    const videoId = block.videoUrl.split("youtu.be/")[1]?.split("?")[0];
+    embedUrl = `https://www.youtube.com/embed/${videoId}`;
+  }
+
+  return (
+    <div className="space-y-3">
+      {block.title && (
+        <h3 className="text-xl font-semibold tracking-tight text-stone-900">
+          {block.title}
+        </h3>
+      )}
+      <div className="relative aspect-video w-full overflow-hidden rounded-2xl border border-stone-200 shadow-sm">
+        <iframe
+          src={embedUrl}
+          title={block.title || "Vídeo explicativo"}
+          className="absolute inset-0 h-full w-full"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      </div>
+    </div>
+  );
+}
+
 export default function GuidePage({ params }: Props) {
   const guide = getGuide(params.slug);
 
@@ -193,10 +224,12 @@ export default function GuidePage({ params }: Props) {
       </header>
 
       {/* CORPO */}
+      {/* CORPO */}
       <article className="mx-auto max-w-3xl space-y-12 px-4 py-12 sm:px-6">
         {guide.blocks.map((block, i) => {
           if (block.type === "text") return <TextBlock key={i} block={block} />;
           if (block.type === "callout") return <Callout key={i} block={block} />;
+          if (block.type === "video") return <VideoBlock key={i} block={block} />;
           return (
             <div key={i} className="-mx-4 sm:mx-0">
               <div className="px-4 sm:px-0">

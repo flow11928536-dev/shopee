@@ -38,6 +38,7 @@ export const GUIDE_CLUSTERS: { cluster: number; titulo: string; slugs: string[] 
       "mdf-vs-mdp-diferenca",
       "como-restaurar-moveis-madeira",
       "como-pintar-moveis-madeira",
+      "guia-instalacao-painel-tv",
     ],
   },
   {
@@ -95,7 +96,10 @@ const guiaCozinhaPequena: Guide = {
       paragraphs: [
         "Vou ser direto com você: o segredo de uma cozinha pequena funcional não é comprar o armário mais bonito da loja, e sim escolher móveis que conversam com a planta do seu ambiente. Cada centímetro conta, e a diferença entre uma cozinha sufocante e uma cozinha gostosa de usar está nos detalhes de medida e organização.",
         "Antes de qualquer compra, pegue uma trena e anote três medidas: largura da parede principal, altura do pé-direito e a distância livre entre paredes opostas. Essas três informações vão evitar o erro mais comum de quem compra móveis online — receber uma cozinha que simplesmente não cabe.",
+    
       ],
+
+
     },
     {
       type: "grid",
@@ -104,6 +108,7 @@ const guiaCozinhaPequena: Guide = {
       category: "cozinhas",
       limit: 2,
     },
+    
     {
       type: "text",
       heading: "Como medir e planejar antes de comprar",
@@ -237,6 +242,8 @@ interface GuideSeed {
   faq: FaqItem[];
   grid1Cat: ProductCategory;
   bestSlugs: string[];
+  videoUrl?: string;
+  videoTitle?: string;
 }
 
 const IMG = {
@@ -329,7 +336,7 @@ const SEEDS: Record<string, GuideSeed> = {
     },
     faq: genericFaq("móveis para área externa"),
   },
-  "moveis-home-office-barato": {
+ "moveis-home-office-barato": {
     keyword: "móveis para home office barato",
     h1: "Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco",
     intro:
@@ -340,6 +347,8 @@ const SEEDS: Record<string, GuideSeed> = {
     ctaSlug: "escrivaninha-home-office-gavetas",
     grid1Cat: "home-office",
     bestSlugs: ["escrivaninha-home-office-gavetas", "cadeira-gamer-ergonomica-reclinavel"],
+    videoUrl: "COLOQUE_O_LINK_DO_SEU_VIDEO_DE_MESA_AQUI",
+    videoTitle: "Guia Prático: Como Escolher a Mesa Certa para Home Office",
     sub1: {
       heading: "O essencial: mesa e cadeira certas",
       paragraphs: [
@@ -380,7 +389,9 @@ const SEEDS: Record<string, GuideSeed> = {
     cross: CROSS_SELL["quarto"],
     ctaSlug: "guarda-roupa-casal-6-portas-mdp",
     grid1Cat: "guarda-roupas",
-    bestSlugs: ["guarda-roupa-casal-6-portas-mdp", "cama-box-bau-casal-bicama"],
+    bestSlugs: ["guarda-rupa-casal-6-portas-mdp", "cama-box-bau-casal-bicama"],
+    videoUrl: "https://www.youtube.com/embed/FAHI1scB6u4?si=yIAiRdln9keip9J2",
+    videoTitle: "Como Escolher o Guarda-Roupa Ideal para o Quarto de Casal",
     sub1: {
       heading: "Guarda-roupa: quantas portas você realmente precisa",
       paragraphs: [
@@ -964,6 +975,8 @@ const SEEDS: Record<string, GuideSeed> = {
     heroImage: IMG.sala,
     heroAlt: "Sala de estar mobilada com móveis comprados online com bom custo-benefício",
     cross: CROSS_SELL["sala"],
+    videoUrl: "https://www.youtube.com/embed/vMsyFy2-BSU?si=thtr5nPVx5OxFwGG",
+    videoTitle: "COMO ESCOLHER MESAS NA SHOPEE, MESAS INDICADAS POR UM MONTADOR",
     ctaSlug: "sofa-retratil-3-lugares-suede",
     grid1Cat: "sofas",
     bestSlugs: ["sofa-retratil-3-lugares-suede", "painel-rack-tv-65-polegadas"],
@@ -1550,6 +1563,73 @@ const SEEDS: Record<string, GuideSeed> = {
       },
     ],
   },
+  "guia-instalacao-painel-tv": {
+    keyword: "como instalar painel de TV",
+    h1: "Como Instalar Painel de TV: Guia Completo com Tipos de Bucha e Altura Ideal",
+    intro:
+      "Instalar um painel de TV na parede parece bicho de sete cabeça, mas não é. Sabendo a altura padrão de TV, escolhendo a bucha certa e com um passo a passo simples, você deixa sua sala parecendo um cinema e sem risco nenhum do seu aparelho ir para o chão. Vamos direto ao ponto!",
+    heroImage: IMG.sala,
+    heroAlt: "Painel de TV instalado na parede da sala com fios escondidos e organização",
+    cross: CROSS_SELL["sala"],
+    ctaSlug: "painel-rack-tv-65-polegadas",
+    grid1Cat: "paineis",
+    bestSlugs: ["painel-rack-tv-65-polegadas", "sofa-retratil-3-lugares-suede"],
+    sub1: {
+      heading: "Altura padrão de TV e distância ideal por tamanho de tela",
+      paragraphs: [
+        "A regra de ouro de qualquer marceneiro é: o centro da tela da TV deve ficar exatamente na altura dos olhos de quem está sentado no sofá. No padrão geral, isso dá cerca de 1,20m do chão. Mas se você quer um acabamento perfeito, vale ajustar de acordo com as polegadas do seu aparelho.",
+        "Medir a distância ideal garante que ninguém precise ficar esticando o pescoço para trás na hora do filme. Olha só esse guia rápido de altura para fixar o suporte:",
+      ],
+      bullets: [
+        "TV de 43 polegadas: O centro da tela deve ficar a 1,20m do chão.",
+        "TV de 50 polegadas: Fixe o centro do aparelho entre 1,20m e 1,25m de altura.",
+        "TV de 55 polegadas: Ajuste para que o meio da tela fique a 1,25m da base do piso.",
+        "TV de 65 polegadas: Tela maior pede o centro subindo para cerca de 1,30m.",
+        "TV de 75 polegadas: O eixo central da televisão deve ficar entre 1,30m e 1,35m.",
+      ],
+    },
+    sub2: {
+      heading: "Guia de ferramentas e qual bucha usar para cada parede",
+      paragraphs: [
+        "Amigo, escuta aqui: usar a bucha errada é o motivo número um de painel caindo e estragando a parede. Não economize nisso. Se a sua parede for de tijolo baiano (aquele tijolo oco cheio de furos), esqueça a bucha comum! Você precisa usar a bucha fissurada (bucha MU), que faz um nó travando o parafuso por dentro do bloco.",
+        "Se for parede de gesso acartonado, use apenas bucha para drywall, como a tipo toggle (borboleta) ou de expansão, fixando direto nos montantes de aço se o painel for muito pesado. Para paredes de concreto maciço, a bucha S resolve. Separe também: furadeira com impacto, brocas de vídea do tamanho certo, chave de fenda (ou parafusadeira) e um martelo.",
+      ],
+    },
+    callout: {
+      variant: "dica",
+      title: "💡 Dica de ouro do Marceneiro",
+      text: "Nunca confie no 'olhômetro'. Use um nível de bolha ou nível laser para riscar a parede antes de fazer o primeiro furo e use o prumo nas laterais. Painel torto acaba com a estética da sua sala e todo mundo repara de longe.",
+    },
+    sub3: {
+      heading: "Estilos de painel de TV: Ripado, Suspenso ou com Nicho?",
+      paragraphs: [
+        "A escolha do modelo muda totalmente o visual e a facilidade do passo a passo para instalar painel. O painel ripado em MDF está super em alta, trazendo elegância e modernidade. Já o painel suspenso é o salvador de salas pequenas, porque deixa o chão livre e facilita a limpeza.",
+        "Se você tem muitos aparelhos (videogame, receptor de TV, decodificador), escolha um modelo com nicho ou rack embutido para organizar tudo. Quanto ao material, painéis em MDF aceitam melhor furos e acabamentos premium, enquanto os de MDP são excelentes opções de ótimo custo-benefício para designs retos.",
+      ],
+    },
+    faq: [
+      {
+        question: "Qual a altura padrão de TV para fixar na parede?",
+        answer: "A altura padrão recomendada é de 1,20 metros do chão até o centro da tela da TV. Essa medida garante que a tela fique na linha dos olhos de quem está sentado confortavelmente no sofá.",
+      },
+      {
+        question: "Como instalar painel de TV em parede de drywall com segurança?",
+        answer: "Para instalar em drywall, use buchas específicas para gesso (como a bucha toggle). Para painéis pesados, o segredo é parafusar o suporte diretamente nos perfis de aço (montantes) que ficam escondidos atrás das placas.",
+      },
+      {
+        question: "Qual é a melhor bucha para parede de tijolo baiano?",
+        answer: "A melhor escolha é a bucha fissurada ou bucha inteligente (MU). Diferente da bucha comum, ela se deforma e cria um nó resistente dentro da parte oca do tijolo baiano, impedindo que o painel solte.",
+      },
+      {
+        question: "Como esconder os fios e cabos atrás do painel?",
+        answer: "Painéis de qualidade são fixados deixando um recuo de 2 a 5 cm em relação à parede. Você deve passar os cabos por trás do móvel usando as aberturas (passa-fios) até chegarem às tomadas embaixo.",
+      },
+      {
+        question: "Painel de TV de MDF ou MDP: qual é o melhor?",
+        answer: "Os dois são ótimos. O MDP é muito firme, aguenta bastante peso e é perfeito para painéis com linhas retas e bom preço. O MDF é indicado para painéis com acabamentos diferenciados, como os modelos ripados.",
+      },
+    ],
+  },
 };
 
 
@@ -1658,6 +1738,7 @@ const buildFromSeed = (slug: string, seed: GuideSeed): Guide => {
           ["Durabilidade", "Boa para uso diário", "Alta, longo prazo"],
           ["Faixa de preço", "Mais acessível", "Investimento maior"],
         ],
+        
       },
     },
     {
@@ -1666,7 +1747,17 @@ const buildFromSeed = (slug: string, seed: GuideSeed): Guide => {
       subtitle: "Nossa seleção campeã de avaliações",
       slugs: seed.bestSlugs,
     },
+    
   ];
+  // Injeta o vídeo automaticamente logo após o primeiro bloco de texto se ele existir
+  if (seed.videoUrl) {
+    blocks.splice(1, 0, {
+      type: "video",
+      videoUrl: seed.videoUrl,
+      title: seed.videoTitle
+    });
+  }
+  
 
   return {
     slug,

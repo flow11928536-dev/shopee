@@ -108,7 +108,14 @@ export interface GuideTextBlock {
   };
 }
 
-export type GuideBlock = GuideTextBlock | GuideGridBlock | GuideCalloutBlock;
+/** Bloco de vídeo do YouTube integrado no guia */
+export interface GuideVideoBlock {
+  type: "video";
+  videoUrl: string;
+  title?: string;
+}
+
+export type GuideBlock = GuideTextBlock | GuideGridBlock | GuideCalloutBlock | GuideVideoBlock;
 
 /** Estrutura completa de um guia dinâmico (/guia/[slug]) */
 export interface Guide {
