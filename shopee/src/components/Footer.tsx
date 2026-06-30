@@ -74,6 +74,18 @@ export default function Footer() {
           </p>
           <p className="mt-3 text-xs text-stone-400">
             © {new Date().getFullYear()} {SITE.name}. Todos os direitos reservados · {SITE.url.replace("https://", "")}
+            <span className="mx-2">·</span>
+            <a href="/llms.txt" className="hover:text-stone-600" target="_blank" rel="noopener noreferrer">
+              llms.txt
+            </a>
+            <span className="mx-1">·</span>
+            <a href="/llms-full.txt" className="hover:text-stone-600" target="_blank" rel="noopener noreferrer">
+              llms-full.txt
+            </a>
+            <span className="mx-1">·</span>
+            <a href="/llms-index.json" className="hover:text-stone-600" target="_blank" rel="noopener noreferrer">
+              llms-index.json
+            </a>
           </p>
         </div>
       </div>

@@ -169,6 +169,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={inter.variable}>
       <head>
+        <link rel="llms" href="/llms.txt" />
         <link rel="preconnect" href="https://images.pexels.com" />
         {baseSchemas.map((schema, i) => (
           <script
