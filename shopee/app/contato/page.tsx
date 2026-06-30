@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { SITE } from "@/data/products";
 
 export const metadata: Metadata = {
@@ -99,7 +100,7 @@ export default function ContatoPage() {
         <nav aria-label="Breadcrumb" className="mb-6">
           <ol className="flex items-center gap-2 text-sm text-stone-500">
             <li>
-              <a href="/" className="hover:underline">Início</a>
+              <Link href="/" className="hover:underline">Início</Link>
             </li>
             <li aria-hidden="true">/</li>
             <li className="text-stone-900 font-medium" aria-current="page">Contato</li>
@@ -120,7 +121,7 @@ export default function ContatoPage() {
             <p className="text-xs font-semibold uppercase tracking-widest text-stone-400">
               E-mail
             </p>
-            
+            <a
               href={`mailto:${SITE.email}`}
               className="mt-1 block text-lg font-medium text-stone-900 hover:underline"
             >
@@ -133,7 +134,7 @@ export default function ContatoPage() {
             <p className="text-xs font-semibold uppercase tracking-widest text-stone-400">
               WhatsApp
             </p>
-            
+            <a
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"

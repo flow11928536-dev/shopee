@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "generate-llms": "node scripts/generate-llms.mjs",
+    "generate-llms": "tsx scripts/generate-llms.mjs",
     "prebuild": "npm run generate-llms",
     "lint": "next lint"
   },
