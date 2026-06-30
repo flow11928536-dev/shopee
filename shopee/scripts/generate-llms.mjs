@@ -2,16 +2,10 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-// Obtém o diretório atual (porque estamos usando ES modules)
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-// Caminho para a pasta public
 const publicDir = path.join(__dirname, '../public');
 
-// ============================================================
-// DADOS (importados dinamicamente — agora com .ts)
-// ============================================================
 async function getData() {
   const { SITE, allCategories, CATEGORY_LABELS } = await import('../src/data/products.ts');
   const { getAllGuidesMeta } = await import('../src/data/guides.ts');
@@ -23,27 +17,30 @@ async function generateFiles() {
   const { SITE, allCategories, CATEGORY_LABELS, guides } = await getData();
   const baseUrl = SITE.url;
 
-  // ========== llms.txt ==========
+  // ========== llms.txt (modelo Answer.ai + Google) ==========
   const llmsLines = [
-    `# LLMS.txt for ${SITE.name}`,
-    `# Site: ${baseUrl}`,
-    `# Gerado em: ${new Date().toISOString()}`,
+    `# ${SITE.name}`,
     '',
-    '# Páginas principais',
-    baseUrl,
-    ...allCategories.map(cat => `${baseUrl}/categoria/${cat}`),
-    `${baseUrl}/guias`,
-    `${baseUrl}/moveis-para-estudantes`,
-    `${baseUrl}/politicas`,
-    `${baseUrl}/contato`,
+    `> ${SITE.description}`,
     '',
-    '# Guias',
-    ...guides.map(g => `${baseUrl}/guia/${g.slug}`),
+    '## Categorias Principais',
+    ...allCategories.map(cat => {
+      const label = CATEGORY_LABELS[cat] || cat;
+      const desc = `Confira as ofertas de ${label} com os melhores preços.`;
+      return `- [${label}](${baseUrl}/categoria/${cat}): ${desc}`;
+    }),
     '',
-    '# Arquivos complementares',
-    `${baseUrl}/robots.txt`,
-    `${baseUrl}/llms-full.txt`,
-    `${baseUrl}/llms-index.json`,
+    '## Guias',
+    ...guides.map(g => {
+      const desc = g.description || `Guia sobre ${g.h1}`;
+      return `- [${g.h1}](${baseUrl}/guia/${g.slug}): ${desc}`;
+    }),
+    '',
+    '## Links Opcionais',
+    `- [Contato](${baseUrl}/contato): Fale conosco por e-mail ou WhatsApp.`,
+    `- [Políticas e Transparência](${baseUrl}/politicas): Políticas de privacidade, afiliados e termos de uso.`,
+    `- [Móveis para Estudantes](${baseUrl}/moveis-para-estudantes): Guia completo para estudantes universitários.`,
+    `- [Sitemap](${baseUrl}/sitemap.xml): Mapa de todas as páginas do site.`,
   ];
   fs.writeFileSync(path.join(publicDir, 'llms.txt'), llmsLines.join('\n'));
 
