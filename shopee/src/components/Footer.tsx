@@ -2,6 +2,8 @@ import Link from "next/link";
 import { CATEGORY_LABELS, SITE, allCategories } from "@/data/products";
 
 export default function Footer() {
+  const whatsappLink = `https://wa.me/${SITE.whatsapp.replace(/\D/g, "")}`;
+
   return (
     <footer className="mt-20 border-t border-stone-200 bg-stone-50">
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
@@ -41,6 +43,7 @@ export default function Footer() {
             <h3 className="text-xs font-semibold uppercase tracking-widest text-stone-400">Institucional</h3>
             <ul className="mt-4 space-y-2.5">
               <li><Link href="/guias" className="text-sm text-stone-600 hover:text-stone-900">Guias de Compra</Link></li>
+              <li><Link href="/moveis-para-estudantes" className="text-sm text-stone-600 hover:text-stone-900">🎓 Móveis para Estudantes</Link></li>
               <li><Link href="/contato" className="text-sm text-stone-600 hover:text-stone-900">Contato</Link></li>
               <li><Link href="/politicas" className="text-sm text-stone-600 hover:text-stone-900">Políticas</Link></li>
             </ul>
@@ -53,7 +56,11 @@ export default function Footer() {
               <p>
                 <a href={`mailto:${SITE.email}`} className="hover:text-stone-900">{SITE.email}</a>
               </p>
-              <p>{SITE.whatsapp}</p>
+              <p>
+                <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="hover:text-stone-900">
+                  {SITE.whatsapp}
+                </a>
+              </p>
               <p className="text-xs text-stone-400">Atendemos toda a região de Marília e o estado de São Paulo.</p>
             </address>
           </div>

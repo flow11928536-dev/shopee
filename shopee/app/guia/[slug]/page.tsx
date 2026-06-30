@@ -31,8 +31,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: guide.seoTitle,
       description: guide.seoDescription,
       url: `${SITE.url}${path}`,
-      images: [{ url: guide.heroImage }],
       type: "article",
+      images: [
+        {
+          url: guide.heroImage,
+          width: 1200,
+          height: 627,
+          alt: guide.h1,
+        },
+      ],
     },
   };
 }
@@ -126,7 +133,6 @@ function Callout({ block }: { block: Extract<GuideBlock, { type: "callout" }> })
 }
 
 function VideoBlock({ block }: { block: Extract<GuideBlock, { type: "video" }> }) {
-  // Extrai o ID do vídeo do YouTube para colocar no player incorporado
   let embedUrl = block.videoUrl;
   if (block.videoUrl.includes("watch?v=")) {
     const videoId = block.videoUrl.split("watch?v=")[1]?.split("&")[0];
@@ -150,6 +156,7 @@ function VideoBlock({ block }: { block: Extract<GuideBlock, { type: "video" }> }
           className="absolute inset-0 h-full w-full"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
+          loading="lazy"
         />
       </div>
     </div>
@@ -158,23 +165,40 @@ function VideoBlock({ block }: { block: Extract<GuideBlock, { type: "video" }> }
 
 export default function GuidePage({ params }: Props) {
   const guide = getGuide(params.slug);
-
   if (!guide) notFound();
 
   const ctaProduct = getProductBySlug(guide.ctaSlug);
   const path = `/guia/${guide.slug}`;
+  const now = new Date().toISOString();
 
   const jsonLd = [
     {
       "@context": "https://schema.org",
       "@type": "Article",
+      "@id": `${SITE.url}${path}/#article`,
       headline: guide.h1,
       description: guide.seoDescription,
-      image: guide.heroImage,
+      image: {
+        "@type": "ImageObject",
+        url: guide.heroImage,
+        width: 1200,
+        height: 627,
+      },
+      url: `${SITE.url}${path}`,
       inLanguage: "pt-BR",
-      author: { "@type": "Organization", name: SITE.name },
+      datePublished: now,
+      dateModified: now,
+      author: {
+        "@type": "Organization",
+        "@id": `${SITE.url}/#organization`,
+        name: SITE.name,
+      },
       publisher: { "@id": `${SITE.url}/#organization` },
-      mainEntityOfPage: `${SITE.url}${path}`,
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": `${SITE.url}${path}`,
+      },
+      isPartOf: { "@id": `${SITE.url}/#website` },
     },
     {
       "@context": "https://schema.org",
@@ -206,10 +230,16 @@ export default function GuidePage({ params }: Props) {
         />
       ))}
 
-      {/* HERO do guia */}
       <header className="relative overflow-hidden border-b border-stone-200">
         <div className="absolute inset-0">
-          <img src={guide.heroImage} alt={guide.heroAlt} className="h-full w-full object-cover" fetchPriority="high" />
+          <img
+            src={guide.heroImage}
+            alt={guide.heroAlt}
+            width={1600}
+            height={900}
+            className="h-full w-full object-cover"
+            fetchPriority="high"
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-stone-900/85 via-stone-900/60 to-stone-900/40" />
         </div>
         <div className="relative mx-auto max-w-3xl px-4 py-16 sm:px-6 sm:py-20">
@@ -223,8 +253,6 @@ export default function GuidePage({ params }: Props) {
         </div>
       </header>
 
-      {/* CORPO */}
-      {/* CORPO */}
       <article className="mx-auto max-w-3xl space-y-12 px-4 py-12 sm:px-6">
         {guide.blocks.map((block, i) => {
           if (block.type === "text") return <TextBlock key={i} block={block} />;
@@ -247,7 +275,6 @@ export default function GuidePage({ params }: Props) {
 
         <Faq items={guide.faq} />
 
-        {/* CTA FINAL */}
         {ctaProduct && (
           <section className="overflow-hidden rounded-3xl bg-gradient-to-br from-stone-900 to-stone-800 p-8 text-center shadow-2xl sm:p-12">
             <h2 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">

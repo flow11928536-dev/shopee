@@ -1,0 +1,47 @@
+# LLMS-full.txt for Loja de Móveis Marília
+# Site: https://lojademoveismarilia.com.br
+# Lista completa de URLs com metadados
+# Gerado em: 2026-06-30T01:12:41.089Z
+
+## Página inicial
+- https://lojademoveismarilia.com.br - Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.
+
+## Categorias
+- https://lojademoveismarilia.com.br/categoria/guarda-roupas - Guarda-Roupas em oferta
+- https://lojademoveismarilia.com.br/categoria/cozinhas - Cozinhas em oferta
+- https://lojademoveismarilia.com.br/categoria/paineis - Painéis e Racks em oferta
+- https://lojademoveismarilia.com.br/categoria/quartos - Quartos em oferta
+- https://lojademoveismarilia.com.br/categoria/eletrodomesticos - Eletrodomésticos em oferta
+- https://lojademoveismarilia.com.br/categoria/home-office - Home Office em oferta
+
+## Guias e artigos
+- https://lojademoveismarilia.com.br/guia/moveis-area-externa - Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo
+- https://lojademoveismarilia.com.br/guia/moveis-planejados-vs-modulados - Móveis Planejados vs Modulados: Qual Vale Mais a Pena?
+- https://lojademoveismarilia.com.br/guia/moveis-home-office-barato - Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco
+- https://lojademoveismarilia.com.br/guia/moveis-cozinha-pequena - Móveis para Cozinha Pequena: Guia Completo para Aproveitar Cada Centímetro
+- https://lojademoveismarilia.com.br/guia/moveis-varanda-jardim - Móveis para Varanda e Jardim: Guia Completo para Montar o Espaço Externo
+- https://lojademoveismarilia.com.br/guia/moveis-quarto-casal - Móveis para Quarto de Casal: Conforto, Espaço e Organização
+- https://lojademoveismarilia.com.br/guia/moveis-quarto-infantil - Móveis para Quarto Infantil: Como Montar um Quarto Seguro e Funcional
+- https://lojademoveismarilia.com.br/guia/por-que-moveis-estalam - Por Que Móveis Estalam de Madrugada? A Explicação Real
+- https://lojademoveismarilia.com.br/guia/como-envelopar-moveis - Como Envelopar Móveis: Passo a Passo Completo para Renovar Sem Pintar
+- https://lojademoveismarilia.com.br/guia/mdf-vs-mdp-diferenca - MDF vs MDP: a Diferença que Define a Durabilidade dos Seus Móveis
+- https://lojademoveismarilia.com.br/guia/como-restaurar-moveis-madeira - Como Restaurar Móveis de Madeira: Do Arranhado ao Acabamento Novo
+- https://lojademoveismarilia.com.br/guia/como-pintar-moveis-madeira - Como Pintar Móveis de Madeira: Guia Completo para um Acabamento Profissional
+- https://lojademoveismarilia.com.br/guia/guia-instalacao-painel-tv - Como Instalar Painel de TV: Guia Completo com Tipos de Bucha e Altura Ideal
+- https://lojademoveismarilia.com.br/guia/melhores-lojas-moveis-online - Melhores Lojas de Móveis Online em 2024: Onde Comprar com Segurança
+- https://lojademoveismarilia.com.br/guia/moveis-outlet-pequenos-defeitos - Móveis Outlet com Pequenos Defeitos: Vale a Pena Comprar?
+- https://lojademoveismarilia.com.br/guia/moveis-frete-gratis-entrega-rapida - Móveis com Frete Grátis e Entrega Rápida: Como Encontrar e Não Cair em Armadilha
+- https://lojademoveismarilia.com.br/guia/moveis-usados-perto-de-mim - Móveis Usados Perto de Mim: Como Encontrar, Negociar e Não Se Arrepender
+- https://lojademoveismarilia.com.br/guia/lojas-moveis-sao-paulo - Lojas de Móveis em São Paulo: Os Melhores Endereços e Como Economizar
+- https://lojademoveismarilia.com.br/guia/lojas-moveis-curitiba - Lojas de Móveis em Curitiba: Onde Comprar e Como Economizar
+- https://lojademoveismarilia.com.br/guia/tipos-madeira-para-moveis - Tipos de Madeira para Móveis: Qual Usar em Cada Situação
+- https://lojademoveismarilia.com.br/guia/quanto-custa-moveis-planejados - Quanto Custam Móveis Planejados em 2024: Tabela de Preços por Cômodo
+- https://lojademoveismarilia.com.br/guia/moveis-de-pallet-como-fazer - Móveis de Pallet: Como Fazer do Zero com Segurança e Bom Resultado
+- https://lojademoveismarilia.com.br/guia/moveis-industriais-sala - Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira
+
+## Páginas estáticas
+- https://lojademoveismarilia.com.br/moveis-para-estudantes - Guia de móveis para estudantes
+- https://lojademoveismarilia.com.br/politicas - Políticas e transparência
+- https://lojademoveismarilia.com.br/contato - Fale conosco
+
+# Este arquivo é gerado automaticamente a partir dos dados do site.

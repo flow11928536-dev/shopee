@@ -1,0 +1,46 @@
+# LLMS.txt for Loja de Móveis Marília
+# Site: https://lojademoveismarilia.com.br
+# Gerado em: 2026-06-30T01:12:41.088Z
+
+# Páginas principais
+https://lojademoveismarilia.com.br
+https://lojademoveismarilia.com.br/categoria/guarda-roupas
+https://lojademoveismarilia.com.br/categoria/cozinhas
+https://lojademoveismarilia.com.br/categoria/paineis
+https://lojademoveismarilia.com.br/categoria/quartos
+https://lojademoveismarilia.com.br/categoria/eletrodomesticos
+https://lojademoveismarilia.com.br/categoria/home-office
+https://lojademoveismarilia.com.br/guias
+https://lojademoveismarilia.com.br/moveis-para-estudantes
+https://lojademoveismarilia.com.br/politicas
+https://lojademoveismarilia.com.br/contato
+
+# Guias
+https://lojademoveismarilia.com.br/guia/moveis-area-externa
+https://lojademoveismarilia.com.br/guia/moveis-planejados-vs-modulados
+https://lojademoveismarilia.com.br/guia/moveis-home-office-barato
+https://lojademoveismarilia.com.br/guia/moveis-cozinha-pequena
+https://lojademoveismarilia.com.br/guia/moveis-varanda-jardim
+https://lojademoveismarilia.com.br/guia/moveis-quarto-casal
+https://lojademoveismarilia.com.br/guia/moveis-quarto-infantil
+https://lojademoveismarilia.com.br/guia/por-que-moveis-estalam
+https://lojademoveismarilia.com.br/guia/como-envelopar-moveis
+https://lojademoveismarilia.com.br/guia/mdf-vs-mdp-diferenca
+https://lojademoveismarilia.com.br/guia/como-restaurar-moveis-madeira
+https://lojademoveismarilia.com.br/guia/como-pintar-moveis-madeira
+https://lojademoveismarilia.com.br/guia/guia-instalacao-painel-tv
+https://lojademoveismarilia.com.br/guia/melhores-lojas-moveis-online
+https://lojademoveismarilia.com.br/guia/moveis-outlet-pequenos-defeitos
+https://lojademoveismarilia.com.br/guia/moveis-frete-gratis-entrega-rapida
+https://lojademoveismarilia.com.br/guia/moveis-usados-perto-de-mim
+https://lojademoveismarilia.com.br/guia/lojas-moveis-sao-paulo
+https://lojademoveismarilia.com.br/guia/lojas-moveis-curitiba
+https://lojademoveismarilia.com.br/guia/tipos-madeira-para-moveis
+https://lojademoveismarilia.com.br/guia/quanto-custa-moveis-planejados
+https://lojademoveismarilia.com.br/guia/moveis-de-pallet-como-fazer
+https://lojademoveismarilia.com.br/guia/moveis-industriais-sala
+
+# Arquivos complementares
+https://lojademoveismarilia.com.br/robots.txt
+https://lojademoveismarilia.com.br/llms-full.txt
+https://lojademoveismarilia.com.br/llms-index.json

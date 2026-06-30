@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /_vercel/
+
+Sitemap: https://lojademoveismarilia.com.br/sitemap.xml
+Host: https://lojademoveismarilia.com.br
+
+# Arquivos para LLMs e crawlers inteligentes
+# llms.txt: https://lojademoveismarilia.com.br/llms.txt
+# llms-full.txt: https://lojademoveismarilia.com.br/llms-full.txt
+# llms-index.json: https://lojademoveismarilia.com.br/llms-index.json

@@ -1,5 +1,4 @@
 import type { ProductGridProps } from "@/types";
-import type { Product } from "@/types"; // 👈 ADICIONA A IMPORTAÇÃO DO TIPO Product
 import { getProductsByCategory, getProductsBySlugs } from "@/data/products";
 import ProductCard from "./ProductCard";
 
@@ -11,25 +10,32 @@ export default function ProductGrid({
   subtitle,
   priorityFirst = false,
   gridClassName = "grid-cols-2 sm:grid-cols-3 lg:grid-cols-4",
-  products: productsProp, // 👈 RECEBE A LISTA DE PRODUTOS PASSADA PELO CATEGORY PAGE
+  products: productsProp,
 }: ProductGridProps & { gridClassName?: string }) {
-  // SE FORNECEU productsProp, USA ELA; SENÃO, BUSCA POR CATEGORIA/SLUGS
+  // Se forneceu productsProp, usa ela; senão, busca por categoria ou slugs
   const products = productsProp
     ? productsProp
     : slugs
-    ? getProductsBySlugs(slugs)
-    : getProductsByCategory(category);
+      ? getProductsBySlugs(slugs)
+      : getProductsByCategory(category);
 
   const items = limit ? products.slice(0, limit) : products;
 
   if (items.length === 0) return null;
 
   return (
-    <section aria-label={title ?? "Produtos"} className="w-full">
+    <section
+      aria-label={title ?? "Produtos"}
+      aria-labelledby={title ? `grid-title-${title.replace(/\s+/g, "-")}` : undefined}
+      className="w-full"
+    >
       {(title || subtitle) && (
         <header className="mb-6">
           {title && (
-            <h2 className="text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
+            <h2
+              id={`grid-title-${title.replace(/\s+/g, "-")}`}
+              className="text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl"
+            >
               {title}
             </h2>
           )}
@@ -38,11 +44,11 @@ export default function ProductGrid({
       )}
 
       <div className={`grid gap-4 ${gridClassName}`}>
-        {items.map((product) => (
+        {items.map((product, index) => (
           <ProductCard
             key={product.id}
             product={product}
-            priority={priorityFirst && items.indexOf(product) === 0}
+            priority={priorityFirst && index === 0}
           />
         ))}
       </div>

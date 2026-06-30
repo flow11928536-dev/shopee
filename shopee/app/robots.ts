@@ -7,9 +7,22 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: "/confirmar-estoque/",
+        disallow: ["/confirmar-estoque/"],
       },
-      // IAs e crawlers de busca generativa são bem-vindos ao conteúdo dos guias
+
+      // Google
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+      },
+
+      // Bing
+      {
+        userAgent: "Bingbot",
+        allow: "/",
+      },
+
+      // IA e buscadores generativos
       {
         userAgent: "GPTBot",
         allow: "/",
@@ -23,6 +36,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
+
     sitemap: `${SITE.url}/sitemap.xml`,
   };
 }

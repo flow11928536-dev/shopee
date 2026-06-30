@@ -30,17 +30,38 @@ export const metadata: Metadata = {
     description:
       "Curadoria de móveis e eletrodomésticos com os melhores preços do Mercado Livre e Shopee. Cozinhas, guarda-roupas, sofás e guias honestos.",
     url: SITE.url,
-    images: [{ url: heroBanner }],
+    images: [
+      {
+        url: heroBanner,
+        width: 1600,
+        height: 900,
+        alt: "Móveis Marília - Curadoria de móveis de alto padrão",
+      },
+    ],
     type: "website",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  name: "Ofertas de Móveis e Decoração",
+  "@type": "WebPage",
+  "@id": `${SITE.url}/#webpage`,
+  name: "Móveis e Decoração de Alto Padrão | Móveis Marília",
   url: SITE.url,
   description: SITE.description,
+  isPartOf: { "@id": `${SITE.url}/#website` },
+  about: { "@id": `${SITE.url}/#organization` },
+  breadcrumb: {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Início",
+        item: SITE.url,
+      },
+    ],
+  },
 };
 
 export default function HomePage() {
@@ -54,14 +75,14 @@ export default function HomePage() {
       <HeroSlider />
 
       <div className="mx-auto max-w-7xl space-y-16 px-4 py-16 sm:px-6 lg:px-8">
-        {/* CATEGORIAS — banners */}
+        {/* CATEGORIAS */}
         <section aria-label="Navegue por categoria">
           <h2 className="text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
             Navegue por ambiente
           </h2>
           <p className="mt-1.5 text-stone-500">Encontre tudo para cada cômodo da sua casa.</p>
           <div className="mt-6 grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-4">
-            {allCategories.map((cat) => (
+            {allCategories.map((cat, index) => (
               <Link
                 key={cat}
                 href={`/categoria/${cat}`}
@@ -69,8 +90,10 @@ export default function HomePage() {
               >
                 <img
                   src={CATEGORY_BANNERS[cat]}
-                  alt={`Categoria ${CATEGORY_LABELS[cat]}`}
-                  loading="lazy"
+                  alt={`Móveis para ${CATEGORY_LABELS[cat]} - ver produtos`}
+                  loading={index < 4 ? "eager" : "lazy"}
+                  width={1200}
+                  height={627}
                   className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-stone-900/80 via-stone-900/10 to-transparent" />
@@ -80,9 +103,28 @@ export default function HomePage() {
               </Link>
             ))}
           </div>
+
+          {/* CARD MÓVEIS PARA ESTUDANTES */}
+          <Link
+            href="/moveis-para-estudantes"
+            className="group mt-6 flex items-center justify-between rounded-2xl border border-amber-200/50 bg-gradient-to-r from-amber-500/10 to-amber-500/5 p-5 transition-all hover:bg-amber-500/15 hover:shadow-md"
+          >
+            <div className="flex items-center gap-4">
+              <span className="text-3xl">🎓</span>
+              <div>
+                <span className="text-base font-semibold text-amber-700">Móveis para Estudantes</span>
+                <p className="mt-0.5 text-sm text-amber-600/80">
+                  Soluções práticas e econômicas para quarto, home office e estudo
+                </p>
+              </div>
+            </div>
+            <span className="rounded-full bg-amber-500 px-4 py-2 text-xs font-bold text-white transition group-hover:scale-105">
+              Ver →
+            </span>
+          </Link>
         </section>
 
-        {/* OFERTAS DESTAQUE — AGORA COM 24 PRODUTOS (sem eletrodomésticos) */}
+        {/* OFERTAS DESTAQUE */}
         <ProductGrid
           title="Ofertas em destaque"
           subtitle="As peças mais procuradas da semana com os maiores descontos"
@@ -91,9 +133,9 @@ export default function HomePage() {
           priorityFirst
           gridClassName="grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
         />
-          
+
         {/* BANNER PROMO */}
-        <section className="overflow-hidden rounded-3xl bg-stone-900">
+        <section className="overflow-hidden rounded-3xl bg-stone-900" aria-label="Semana do Eletro">
           <div className="grid items-center gap-6 md:grid-cols-2">
             <div className="p-8 sm:p-12">
               <span className="text-xs font-semibold uppercase tracking-widest text-amber-400">
@@ -118,13 +160,15 @@ export default function HomePage() {
                 src="https://images.pexels.com/photos/3958962/pexels-photo-3958962.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
                 alt="Cozinha moderna equipada com eletrodomésticos em aço inox"
                 loading="lazy"
+                width={1200}
+                height={627}
                 className="h-full w-full object-contain"
               />
             </div>
           </div>
         </section>
 
-        {/* ELETRODOMÉSTICOS (exclusivo) */}
+        {/* ELETRODOMÉSTICOS */}
         <ProductGrid
           title="Eletrodomésticos em oferta"
           subtitle="Complete os ambientes com tecnologia e economia"
@@ -133,7 +177,7 @@ export default function HomePage() {
           gridClassName="grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
         />
 
-        {/* NOVIDADES (categorias que NÃO estão no primeiro grid) */}
+        {/* NOVIDADES */}
         <ProductGrid
           title="Novidades para sua casa"
           subtitle="Produtos recém-chegados com preços especiais"

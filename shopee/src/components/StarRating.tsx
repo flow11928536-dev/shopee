@@ -1,21 +1,32 @@
+import { memo } from "react";
+
 interface StarRatingProps {
   rating: number;
   reviews?: number;
   size?: "sm" | "md";
 }
 
-/** Estrelas acessíveis com label ARIA para leitores de tela */
-export default function StarRating({ rating, reviews, size = "sm" }: StarRatingProps) {
+/**
+ * Componente de avaliação por estrelas acessível.
+ * O `aria-label` descreve a nota e o número de avaliações para leitores de tela.
+ * Os elementos visuais (estrelas, nota e contagem) são decorativos e marcados como `aria-hidden="true"`.
+ */
+function StarRating({ rating, reviews, size = "sm" }: StarRatingProps) {
   const full = Math.floor(rating);
   const half = rating - full >= 0.5;
   const dim = size === "sm" ? "h-3.5 w-3.5" : "h-5 w-5";
 
+  const label = `Avaliação ${rating.toFixed(1)} de 5 estrelas${
+    reviews ? ` (${reviews.toLocaleString("pt-BR")} avaliações)` : ""
+  }`;
+
   return (
-    <div
+    <span
       className="flex items-center gap-1.5"
-      aria-label={`Avaliação ${rating.toFixed(1)} de 5${reviews ? `, ${reviews} avaliações` : ""}`}
+      aria-label={label}
+      role="img"
     >
-      <div className="flex" role="img" aria-hidden="true">
+      <span className="flex" aria-hidden="true">
         {Array.from({ length: 5 }).map((_, i) => {
           const active = i < full || (i === full && half);
           return (
@@ -29,15 +40,25 @@ export default function StarRating({ rating, reviews, size = "sm" }: StarRatingP
             </svg>
           );
         })}
-      </div>
-      <span className={`font-semibold text-stone-700 ${size === "sm" ? "text-xs" : "text-sm"}`}>
+      </span>
+
+      <span
+        className={`font-semibold text-stone-700 ${size === "sm" ? "text-xs" : "text-sm"}`}
+        aria-hidden="true"
+      >
         {rating.toFixed(1)}
       </span>
+
       {reviews !== undefined && (
-        <span className={`text-stone-400 ${size === "sm" ? "text-xs" : "text-sm"}`}>
+        <span
+          className={`text-stone-400 ${size === "sm" ? "text-xs" : "text-sm"}`}
+          aria-hidden="true"
+        >
           ({reviews.toLocaleString("pt-BR")})
         </span>
       )}
-    </div>
+    </span>
   );
 }
+
+export default memo(StarRating);

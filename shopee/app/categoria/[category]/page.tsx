@@ -17,14 +17,12 @@ interface Props {
   params: { category: string };
 }
 
-// GERA TODAS AS CATEGORIAS (principais + subcategorias)
 export async function generateStaticParams() {
   return allCategorySlugs.map((slug) => ({
     category: slug,
   }));
 }
 
-// METADADOS DINÂMICOS
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const slug = params.category;
 
@@ -32,13 +30,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (main) {
     return {
       title: `${main.label} em Oferta | Móveis Marília`,
-      description: `Ofertas selecionadas de ${main.label} com os melhores preços.`,
+      description: `Ofertas selecionadas de ${main.label} com os melhores preços do Mercado Livre e Shopee. Cozinhas, sofás, guarda-roupas e muito mais.`,
       alternates: { canonical: `${SITE.url}/categoria/${slug}` },
       openGraph: {
         title: `${main.label} em Oferta | Móveis Marília`,
-        description: `Ofertas selecionadas de ${main.label}.`,
+        description: `Ofertas selecionadas de ${main.label} com os melhores preços.`,
         url: `${SITE.url}/categoria/${slug}`,
         type: "website",
+        images: [
+          {
+            url: `${SITE.url}/banners/og-image.png`,
+            width: 1200,
+            height: 630,
+            alt: `${main.label} em oferta - Móveis Marília`,
+          },
+        ],
       },
     };
   }
@@ -49,13 +55,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const parentLabel = parent ? parent.label : "";
     return {
       title: `${sub.label} em Oferta | Móveis Marília`,
-      description: `Ofertas selecionadas de ${sub.label} para ${parentLabel}.`,
+      description: `Ofertas selecionadas de ${sub.label} para ${parentLabel} com os melhores preços do Mercado Livre e Shopee.`,
       alternates: { canonical: `${SITE.url}/categoria/${slug}` },
       openGraph: {
         title: `${sub.label} em Oferta | Móveis Marília`,
-        description: `Ofertas selecionadas de ${sub.label}.`,
+        description: `Ofertas selecionadas de ${sub.label} para ${parentLabel}.`,
         url: `${SITE.url}/categoria/${slug}`,
         type: "website",
+        images: [
+          {
+            url: `${SITE.url}/banners/og-image.png`,
+            width: 1200,
+            height: 630,
+            alt: `${sub.label} em oferta - Móveis Marília`,
+          },
+        ],
       },
     };
   }
@@ -66,7 +80,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-// PÁGINA
 export default function CategoryPage({ params }: Props) {
   const slug = params.category;
 
@@ -82,40 +95,55 @@ export default function CategoryPage({ params }: Props) {
 
   if (main) {
     label = main.label;
-    // Busca produtos cuja categoria principal seja igual ao slug da main
     items = products.filter((p) => p.mainCategory === main.slug);
   } else if (sub) {
-  label = sub.label;
+    label = sub.label;
+    items = products.filter(
+      (p) =>
+        p.category === sub.slug ||
+        p.categories?.includes(sub.slug as ProductCategory)
+    );
+  }
 
-  items = products.filter(
-    (p) =>
-      p.category === sub.slug ||
-      p.categories?.includes(sub.slug as ProductCategory)
-  );
-}
-
-  // Se não encontrou nenhum produto, retorna 404
   if (items.length === 0) {
     notFound();
   }
 
   const path = `/categoria/${slug}`;
+  const parent = sub ? MAIN_CATEGORIES.find((c) => c.slug === sub.parent) : null;
+
+  // Breadcrumb com suporte a subcategoria
+  const breadcrumbItems = sub && parent
+    ? [
+        { position: 1, name: "Início", item: SITE.url },
+        { position: 2, name: parent.label, item: `${SITE.url}/categoria/${parent.slug}` },
+        { position: 3, name: label, item: `${SITE.url}${path}` },
+      ]
+    : [
+        { position: 1, name: "Início", item: SITE.url },
+        { position: 2, name: label, item: `${SITE.url}${path}` },
+      ];
 
   const jsonLd = [
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
+      "@id": `${SITE.url}${path}/#webpage`,
       name: `${label} em oferta`,
       url: `${SITE.url}${path}`,
-      description: `Ofertas selecionadas de ${label}.`,
+      description: `Ofertas selecionadas de ${label} com os melhores preços.`,
+      numberOfItems: items.length,
+      isPartOf: { "@id": `${SITE.url}/#website` },
     },
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Início", item: SITE.url },
-        { "@type": "ListItem", position: 2, name: label, item: `${SITE.url}${path}` },
-      ],
+      itemListElement: breadcrumbItems.map((b) => ({
+        "@type": "ListItem",
+        position: b.position,
+        name: b.name,
+        item: b.item,
+      })),
     },
   ];
 
@@ -134,6 +162,16 @@ export default function CategoryPage({ params }: Props) {
           <ol className="flex flex-wrap items-center gap-1.5">
             <li><Link href="/" className="hover:text-stone-900">Início</Link></li>
             <li aria-hidden="true">/</li>
+            {sub && parent && (
+              <>
+                <li>
+                  <Link href={`/categoria/${parent.slug}`} className="hover:text-stone-900">
+                    {parent.label}
+                  </Link>
+                </li>
+                <li aria-hidden="true">/</li>
+              </>
+            )}
             <li className="font-medium text-stone-700" aria-current="page">{label}</li>
           </ol>
         </nav>
@@ -148,7 +186,6 @@ export default function CategoryPage({ params }: Props) {
           </p>
         </header>
 
-        {/* Chips de navegação */}
         <div className="mt-6 flex flex-wrap gap-2">
           {main && (
             <>

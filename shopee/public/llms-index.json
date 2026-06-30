@@ -1,0 +1,204 @@
+{
+  "site": {
+    "name": "Loja de Móveis Marília",
+    "url": "https://lojademoveismarilia.com.br",
+    "description": "Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.",
+    "lastUpdated": "2026-06-30T01:12:41.090Z"
+  },
+  "categories": [
+    {
+      "slug": "guarda-roupas",
+      "label": "Guarda-Roupas",
+      "url": "https://lojademoveismarilia.com.br/categoria/guarda-roupas"
+    },
+    {
+      "slug": "cozinhas",
+      "label": "Cozinhas",
+      "url": "https://lojademoveismarilia.com.br/categoria/cozinhas"
+    },
+    {
+      "slug": "paineis",
+      "label": "Painéis e Racks",
+      "url": "https://lojademoveismarilia.com.br/categoria/paineis"
+    },
+    {
+      "slug": "quartos",
+      "label": "Quartos",
+      "url": "https://lojademoveismarilia.com.br/categoria/quartos"
+    },
+    {
+      "slug": "eletrodomesticos",
+      "label": "Eletrodomésticos",
+      "url": "https://lojademoveismarilia.com.br/categoria/eletrodomesticos"
+    },
+    {
+      "slug": "home-office",
+      "label": "Home Office",
+      "url": "https://lojademoveismarilia.com.br/categoria/home-office"
+    }
+  ],
+  "guides": [
+    {
+      "slug": "moveis-area-externa",
+      "title": "Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo",
+      "url": "https://lojademoveismarilia.com.br/guia/moveis-area-externa",
+      "description": ""
+    },
+    {
+      "slug": "moveis-planejados-vs-modulados",
+      "title": "Móveis Planejados vs Modulados: Qual Vale Mais a Pena?",
+      "url": "https://lojademoveismarilia.com.br/guia/moveis-planejados-vs-modulados",
+      "description": ""
+    },
+    {
+      "slug": "moveis-home-office-barato",
+      "title": "Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco",
+      "url": "https://lojademoveismarilia.com.br/guia/moveis-home-office-barato",
+      "description": ""
+    },
+    {
+      "slug": "moveis-cozinha-pequena",
+      "title": "Móveis para Cozinha Pequena: Guia Completo para Aproveitar Cada Centímetro",
+      "url": "https://lojademoveismarilia.com.br/guia/moveis-cozinha-pequena",
+      "description": ""
+    },
+    {
+      "slug": "moveis-varanda-jardim",
+      "title": "Móveis para Varanda e Jardim: Guia Completo para Montar o Espaço Externo",
+      "url": "https://lojademoveismarilia.com.br/guia/moveis-varanda-jardim",
+      "description": ""
+    },
+    {
+      "slug": "moveis-quarto-casal",
+      "title": "Móveis para Quarto de Casal: Conforto, Espaço e Organização",
+      "url": "https://lojademoveismarilia.com.br/guia/moveis-quarto-casal",
+      "description": ""
+    },
+    {
+      "slug": "moveis-quarto-infantil",
+      "title": "Móveis para Quarto Infantil: Como Montar um Quarto Seguro e Funcional",
+      "url": "https://lojademoveismarilia.com.br/guia/moveis-quarto-infantil",
+      "description": ""
+    },
+    {
+      "slug": "por-que-moveis-estalam",
+      "title": "Por Que Móveis Estalam de Madrugada? A Explicação Real",
+      "url": "https://lojademoveismarilia.com.br/guia/por-que-moveis-estalam",
+      "description": ""
+    },
+    {
+      "slug": "como-envelopar-moveis",
+      "title": "Como Envelopar Móveis: Passo a Passo Completo para Renovar Sem Pintar",
+      "url": "https://lojademoveismarilia.com.br/guia/como-envelopar-moveis",
+      "description": ""
+    },
+    {
+      "slug": "mdf-vs-mdp-diferenca",
+      "title": "MDF vs MDP: a Diferença que Define a Durabilidade dos Seus Móveis",
+      "url": "https://lojademoveismarilia.com.br/guia/mdf-vs-mdp-diferenca",
+      "description": ""
+    },
+    {
+      "slug": "como-restaurar-moveis-madeira",
+      "title": "Como Restaurar Móveis de Madeira: Do Arranhado ao Acabamento Novo",
+      "url": "https://lojademoveismarilia.com.br/guia/como-restaurar-moveis-madeira",
+      "description": ""
+    },
+    {
+      "slug": "como-pintar-moveis-madeira",
+      "title": "Como Pintar Móveis de Madeira: Guia Completo para um Acabamento Profissional",
+      "url": "https://lojademoveismarilia.com.br/guia/como-pintar-moveis-madeira",
+      "description": ""
+    },
+    {
+      "slug": "guia-instalacao-painel-tv",
+      "title": "Como Instalar Painel de TV: Guia Completo com Tipos de Bucha e Altura Ideal",
+      "url": "https://lojademoveismarilia.com.br/guia/guia-instalacao-painel-tv",
+      "description": ""
+    },
+    {
+      "slug": "melhores-lojas-moveis-online",
+      "title": "Melhores Lojas de Móveis Online em 2024: Onde Comprar com Segurança",
+      "url": "https://lojademoveismarilia.com.br/guia/melhores-lojas-moveis-online",
+      "description": ""
+    },
+    {
+      "slug": "moveis-outlet-pequenos-defeitos",
+      "title": "Móveis Outlet com Pequenos Defeitos: Vale a Pena Comprar?",
+      "url": "https://lojademoveismarilia.com.br/guia/moveis-outlet-pequenos-defeitos",
+      "description": ""
+    },
+    {
+      "slug": "moveis-frete-gratis-entrega-rapida",
+      "title": "Móveis com Frete Grátis e Entrega Rápida: Como Encontrar e Não Cair em Armadilha",
+      "url": "https://lojademoveismarilia.com.br/guia/moveis-frete-gratis-entrega-rapida",
+      "description": ""
+    },
+    {
+      "slug": "moveis-usados-perto-de-mim",
+      "title": "Móveis Usados Perto de Mim: Como Encontrar, Negociar e Não Se Arrepender",
+      "url": "https://lojademoveismarilia.com.br/guia/moveis-usados-perto-de-mim",
+      "description": ""
+    },
+    {
+      "slug": "lojas-moveis-sao-paulo",
+      "title": "Lojas de Móveis em São Paulo: Os Melhores Endereços e Como Economizar",
+      "url": "https://lojademoveismarilia.com.br/guia/lojas-moveis-sao-paulo",
+      "description": ""
+    },
+    {
+      "slug": "lojas-moveis-curitiba",
+      "title": "Lojas de Móveis em Curitiba: Onde Comprar e Como Economizar",
+      "url": "https://lojademoveismarilia.com.br/guia/lojas-moveis-curitiba",
+      "description": ""
+    },
+    {
+      "slug": "tipos-madeira-para-moveis",
+      "title": "Tipos de Madeira para Móveis: Qual Usar em Cada Situação",
+      "url": "https://lojademoveismarilia.com.br/guia/tipos-madeira-para-moveis",
+      "description": ""
+    },
+    {
+      "slug": "quanto-custa-moveis-planejados",
+      "title": "Quanto Custam Móveis Planejados em 2024: Tabela de Preços por Cômodo",
+      "url": "https://lojademoveismarilia.com.br/guia/quanto-custa-moveis-planejados",
+      "description": ""
+    },
+    {
+      "slug": "moveis-de-pallet-como-fazer",
+      "title": "Móveis de Pallet: Como Fazer do Zero com Segurança e Bom Resultado",
+      "url": "https://lojademoveismarilia.com.br/guia/moveis-de-pallet-como-fazer",
+      "description": ""
+    },
+    {
+      "slug": "moveis-industriais-sala",
+      "title": "Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira",
+      "url": "https://lojademoveismarilia.com.br/guia/moveis-industriais-sala",
+      "description": ""
+    }
+  ],
+  "pages": [
+    {
+      "slug": "moveis-para-estudantes",
+      "title": "Móveis para Estudantes",
+      "url": "https://lojademoveismarilia.com.br/moveis-para-estudantes",
+      "description": "Guia completo para estudantes universitários"
+    },
+    {
+      "slug": "politicas",
+      "title": "Políticas e Transparência",
+      "url": "https://lojademoveismarilia.com.br/politicas",
+      "description": "Políticas de privacidade e transparência do site"
+    },
+    {
+      "slug": "contato",
+      "title": "Contato",
+      "url": "https://lojademoveismarilia.com.br/contato",
+      "description": "Entre em contato conosco"
+    }
+  ],
+  "sitemap": "https://lojademoveismarilia.com.br/sitemap.xml",
+  "robots": "https://lojademoveismarilia.com.br/robots.txt",
+  "llmsTxt": "https://lojademoveismarilia.com.br/llms.txt",
+  "llmsFullTxt": "https://lojademoveismarilia.com.br/llms-full.txt"
+}

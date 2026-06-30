@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useCallback } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -22,11 +22,12 @@ interface Slide {
 }
 
 // ============================================================
-// 📦 DADOS DOS SLIDES
+// 📦 DADOS DOS SLIDES (pode ser movido para data/slides.ts)
 // ============================================================
 const slides: Slide[] = [
   {
-    image: "https://images.pexels.com/photos/8135492/pexels-photo-8135492.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1600",
+    image:
+      "https://images.pexels.com/photos/8135492/pexels-photo-8135492.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1600",
     alt: "Sala de estar de alto padrão",
     tag: "Curadoria · Marília-SP e todo o Brasil",
     title: "Móveis de alto padrão pelo",
@@ -43,7 +44,8 @@ const slides: Slide[] = [
     ],
   },
   {
-    image: "https://images.pexels.com/photos/7535073/pexels-photo-7535073.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1600",
+    image:
+      "https://images.pexels.com/photos/7535073/pexels-photo-7535073.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1600",
     alt: "Cozinha planejada moderna",
     tag: "Salas · Novidades da semana",
     title: "Salas que impressionam,",
@@ -60,7 +62,8 @@ const slides: Slide[] = [
     ],
   },
   {
-    image: "https://images.pexels.com/photos/7535012/pexels-photo-7535012.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1600",
+    image:
+      "https://images.pexels.com/photos/7535012/pexels-photo-7535012.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1600",
     alt: "Quarto de casal elegante",
     tag: "Quartos · Conforto garantido",
     title: "Durma melhor sem gastar",
@@ -77,7 +80,8 @@ const slides: Slide[] = [
     ],
   },
   {
-    image: "https://images.pexels.com/photos/31213677/pexels-photo-31213677.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1600",
+    image:
+      "https://images.pexels.com/photos/31213677/pexels-photo-31213677.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1600",
     alt: "Home office moderno",
     tag: "Home Office · Produtividade em casa",
     title: "Trabalhe em casa com",
@@ -94,7 +98,8 @@ const slides: Slide[] = [
     ],
   },
   {
-    image: "https://images.pexels.com/photos/8135496/pexels-photo-8135496.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1600",
+    image:
+      "https://images.pexels.com/photos/8135496/pexels-photo-8135496.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1600",
     alt: "Área externa premium",
     tag: "Área Externa · Verão todo ano",
     title: "Sua área externa",
@@ -126,6 +131,22 @@ export default function HeroSlider() {
   const totalSlides = slides.length;
   const slide = slides[current];
 
+  // ===== HANDLERS COM useCallback =====
+  const nextSlide = useCallback(() => {
+    setCurrent((prev) => (prev + 1) % totalSlides);
+  }, [totalSlides]);
+
+  const prevSlide = useCallback(() => {
+    setCurrent((prev) => (prev - 1 + totalSlides) % totalSlides);
+  }, [totalSlides]);
+
+  const goToSlide = useCallback((index: number) => {
+    setCurrent(index);
+  }, []);
+
+  const handleMouseEnter = useCallback(() => setIsPaused(true), []);
+  const handleMouseLeave = useCallback(() => setIsPaused(false), []);
+
   // ===== AUTOPLAY =====
   useEffect(() => {
     if (isPaused) {
@@ -133,35 +154,26 @@ export default function HeroSlider() {
       return;
     }
 
-    intervalRef.current = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % totalSlides);
-    }, SLIDE_INTERVAL);
+    intervalRef.current = setInterval(nextSlide, SLIDE_INTERVAL);
 
     return () => {
       if (intervalRef.current) clearInterval(intervalRef.current);
     };
-  }, [isPaused, totalSlides]);
+  }, [isPaused, nextSlide]);
 
-  // ===== PRÉ-CARREGAR IMAGENS =====
-  useEffect(() => {
-    slides.forEach((s) => {
-      const img = new window.Image();
-      img.src = s.image;
-    });
-  }, []);
-
-  // ===== PAUSE/RESUME =====
-  const handleMouseEnter = () => setIsPaused(true);
-  const handleMouseLeave = () => setIsPaused(false);
+  // ===== PRÉ-CARREGAR APENAS A PRIMEIRA IMAGEM (priority já faz isso) =====
+  // As demais imagens serão carregadas sob demanda pelo next/image com lazy loading.
+  // Removido o pré-carregamento manual de todas as imagens para evitar sobrecarga.
 
   return (
     <section
-      className="relative overflow-hidden bg-stone-950"
-      style={{ height: "450px" }}   // 👈 ALTURA REDUZIDA PARA 450px
+      className="relative overflow-hidden bg-stone-950 min-h-[300px] md:min-h-[380px] lg:min-h-[450px]"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      aria-roledescription="Carrossel de destaques"
+      aria-label="Destaques da loja"
     >
-      {/* ─── IMAGENS (TODAS RENDERIZADAS, SÓ MUDA OPACITY) ─── */}
+      {/* ─── IMAGENS (TODAS RENDERIZADAS, SÓ MUDA OPACIDADE) ─── */}
       <div className="absolute inset-0">
         {slides.map((s, index) => (
           <div
@@ -171,31 +183,43 @@ export default function HeroSlider() {
               opacity: index === current ? 1 : 0,
               zIndex: index === current ? 1 : 0,
             }}
+            aria-hidden={index !== current}
           >
             <Image
               src={s.image}
               alt={s.alt}
               fill
               priority={index === 0}
+              loading={index === 0 ? "eager" : "lazy"}
               sizes="100vw"
-              style={{ objectFit: "cover" }}
-              className="block"
+              className="block object-cover"
             />
           </div>
         ))}
         {/* Gradiente escuro */}
-        <div className="absolute inset-0 bg-gradient-to-r from-stone-950 via-stone-950/60 to-transparent z-[2]" />
+        <div
+          className="absolute inset-0 bg-gradient-to-r from-stone-950 via-stone-950/60 to-transparent z-[2]"
+          aria-hidden="true"
+        />
       </div>
 
-      {/* ─── CONTEÚDO (POSIÇÃO ABSOLUTA, NÃO REMONTA) ─── */}
-      <div className="absolute inset-0 z-10 mx-auto flex max-w-7xl items-center px-4 sm:px-6 lg:px-8">
+      {/* ─── CONTEÚDO COM ARIA-LIVE ─── */}
+      <div
+        className="absolute inset-0 z-10 mx-auto flex max-w-7xl items-center px-4 sm:px-6 lg:px-8"
+        aria-live="polite"
+        aria-atomic="true"
+      >
         <div className="max-w-xl">
           {/* Tag */}
           <span
             className="inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-medium backdrop-blur-sm"
             style={{ borderColor: `${slide.accent}44`, color: slide.accent }}
           >
-            <span className="h-1.5 w-1.5 rounded-full" style={{ background: slide.accent }} />
+            <span
+              className="h-1.5 w-1.5 rounded-full"
+              style={{ background: slide.accent }}
+              aria-hidden="true"
+            />
             {slide.tag}
           </span>
 
@@ -234,13 +258,19 @@ export default function HeroSlider() {
       </div>
 
       {/* ─── STATS ─── */}
-      <div className="absolute bottom-4 right-4 z-20 hidden gap-6 rounded-xl bg-stone-950/60 px-5 py-3 backdrop-blur-sm md:flex">
+      <div
+        className="absolute bottom-4 right-4 z-20 hidden gap-6 rounded-xl bg-stone-950/60 px-5 py-3 backdrop-blur-sm md:flex"
+        aria-hidden="true"
+      >
         {slide.stats.map((stat, i) => (
           <div key={i} className="flex items-center gap-4">
-            {i > 0 && <div className="h-8 w-px bg-stone-700" />}
+            {i > 0 && <div className="h-8 w-px bg-stone-700" aria-hidden="true" />}
             <div className="text-center">
               <div className="text-sm font-bold text-white">{stat.num}</div>
-              <div className="text-[10px] uppercase tracking-wider" style={{ color: slide.accent }}>
+              <div
+                className="text-[10px] uppercase tracking-wider"
+                style={{ color: slide.accent }}
+              >
                 {stat.label}
               </div>
             </div>
@@ -249,19 +279,26 @@ export default function HeroSlider() {
       </div>
 
       {/* ─── INDICADORES (DOTS) ─── */}
-      <div className="absolute bottom-4 left-1/2 z-20 flex -translate-x-1/2 gap-2">
+      <div
+        className="absolute bottom-4 left-1/2 z-20 flex -translate-x-1/2 gap-2"
+        role="tablist"
+        aria-label="Slides"
+      >
         {slides.map((_, i) => {
           const isActive = i === current;
           return (
             <button
               key={i}
-              onClick={() => setCurrent(i)}
-              className="h-1.5 rounded-full transition-all duration-300"
+              onClick={() => goToSlide(i)}
+              role="tab"
+              aria-selected={isActive}
+              aria-controls={`slide-${i}`}
+              aria-label={`Ir para o slide ${i + 1}`}
+              className="h-1.5 rounded-full transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-white"
               style={{
                 width: isActive ? 36 : 12,
                 background: isActive ? slide.accent : "#3a3a3a",
               }}
-              aria-label={`Slide ${i + 1}`}
             />
           );
         })}
@@ -269,18 +306,36 @@ export default function HeroSlider() {
 
       {/* ─── SETAS ─── */}
       <button
-        onClick={() => setCurrent((current - 1 + totalSlides) % totalSlides)}
-        className="absolute left-3 top-1/2 z-20 -translate-y-1/2 rounded-full bg-white/10 p-2 text-white backdrop-blur transition hover:bg-white/20 md:left-6"
-        aria-label="Anterior"
+        onClick={prevSlide}
+        className="absolute left-3 top-1/2 z-20 -translate-y-1/2 rounded-full bg-white/10 p-2 text-white backdrop-blur transition hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white md:left-6"
+        aria-label="Slide anterior"
       >
-        ‹
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={2.5}
+          stroke="currentColor"
+          className="h-5 w-5"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+        </svg>
       </button>
       <button
-        onClick={() => setCurrent((current + 1) % totalSlides)}
-        className="absolute right-3 top-1/2 z-20 -translate-y-1/2 rounded-full bg-white/10 p-2 text-white backdrop-blur transition hover:bg-white/20 md:right-6"
-        aria-label="Próximo"
+        onClick={nextSlide}
+        className="absolute right-3 top-1/2 z-20 -translate-y-1/2 rounded-full bg-white/10 p-2 text-white backdrop-blur transition hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white md:right-6"
+        aria-label="Próximo slide"
       >
-        ›
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={2.5}
+          stroke="currentColor"
+          className="h-5 w-5"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+        </svg>
       </button>
     </section>
   );

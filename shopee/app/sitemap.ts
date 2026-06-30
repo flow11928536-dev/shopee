@@ -5,6 +5,7 @@ import { getAllGuidesMeta } from "@/data/guides";
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
 
+  // Páginas estáticas
   const staticPages: MetadataRoute.Sitemap = [
     {
       url: SITE.url,
@@ -14,6 +15,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${SITE.url}/guias`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${SITE.url}/moveis-para-estudantes`,
       lastModified: now,
       changeFrequency: "weekly",
       priority: 0.8,
@@ -32,6 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
+  // Categorias
   const categoryPages: MetadataRoute.Sitemap = allCategories.map((cat) => {
     const slug = cat.toLowerCase().trim().replace(/\s+/g, "-");
 
@@ -43,17 +51,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
-  const productPages: MetadataRoute.Sitemap = products.map((p) => ({
-  url: `${SITE.url}/produto/${p.slug}`,
-  lastModified: now,
-  changeFrequency: "weekly",
-  priority: 0.7,
-}));
+  // Guias
   const guidePages: MetadataRoute.Sitemap = getAllGuidesMeta().map((g) => ({
     url: `${SITE.url}/guia/${g.slug}`,
-    lastModified:  now,
+    lastModified: now,
     changeFrequency: "weekly",
     priority: 0.8,
+  }));
+
+  // Produtos
+  const productPages: MetadataRoute.Sitemap = products.map((p) => ({
+    url: `${SITE.url}/produto/${p.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.7,
   }));
 
   return [

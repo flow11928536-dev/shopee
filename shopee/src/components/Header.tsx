@@ -55,20 +55,6 @@ export default function Header() {
           >
             Guias
           </Link>
-         <Link
-            href="/moveis-para-estudantes"
-            className="group mt-8 flex items-center justify-between rounded-2xl bg-gradient-to-r from-amber-500/10 to-amber-500/5 p-4 transition-all hover:bg-amber-500/20 border border-amber-200/30"
-          >
-            <div className="flex items-center gap-3">
-              <span className="text-2xl">🎓</span>
-              <div>
-                <span className="text-sm font-semibold text-amber-700">Móveis para Estudantes</span>
-                              </div>
-            </div>
-            <span className="rounded-full bg-amber-500 px-3 py-2 text-xs font-bold text-white transition group-hover:scale-105">
-              Ver →
-            </span>
-          </Link>
         </nav>
 
         <button
@@ -77,6 +63,7 @@ export default function Header() {
           className="rounded-lg p-2 text-stone-700 hover:bg-stone-100 lg:hidden"
           aria-label={open ? "Fechar menu" : "Abrir menu"}
           aria-expanded={open}
+          aria-controls="menu-mobile"
         >
           <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
             {open ? (
@@ -89,7 +76,7 @@ export default function Header() {
       </div>
 
       {open && (
-        <nav className="border-t border-stone-200 bg-white px-4 py-3 lg:hidden" aria-label="Menu móvel">
+        <nav id="menu-mobile" className="border-t border-stone-200 bg-white px-4 py-3 lg:hidden" aria-label="Menu móvel">
           <div className="grid grid-cols-2 gap-1">
             {navCats.map((cat) => (
               <Link
@@ -107,6 +94,13 @@ export default function Header() {
               className="rounded-lg px-3 py-2.5 text-sm font-semibold text-stone-900 hover:bg-stone-50"
             >
               Guias
+            </Link>
+            <Link
+              href="/moveis-para-estudantes"
+              onClick={() => setOpen(false)}
+              className="col-span-2 mt-1 rounded-lg px-3 py-2.5 text-sm font-semibold text-amber-700 hover:bg-amber-50"
+            >
+              🎓 Móveis para Estudantes
             </Link>
           </div>
         </nav>
