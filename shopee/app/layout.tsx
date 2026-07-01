@@ -125,7 +125,8 @@ const baseSchemas = [
   },
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    // Tipo mais específico que "LocalBusiness" genérico — sinaliza o nicho ao Google
+    "@type": "FurnitureStore",
     "@id": `${SITE.url}/#localbusiness`,
     name: SITE.name,
     image: `${SITE.url}/banners/logo.png`,
@@ -135,8 +136,12 @@ const baseSchemas = [
     priceRange: "R$R$",
     address: {
       "@type": "PostalAddress",
+      // Endereço aproximado (ajustar número exato se disponível)
+      streetAddress: SITE.address ?? "Avenida das Esmeraldas, próx. 2700 - Jardim Tangará",
       addressLocality: SITE.city,
       addressRegion: SITE.region,
+      // TODO: preencher com o CEP real dessa região
+      postalCode: SITE.postalCode ?? "17516-000",
       addressCountry: SITE.country,
     },
     geo: {
@@ -144,6 +149,27 @@ const baseSchemas = [
       latitude: SITE.geo.lat,
       longitude: SITE.geo.lng,
     },
+    // TODO: ajustar dias/horários reais de funcionamento
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+        ],
+        opens: "09:00",
+        closes: "18:00",
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: "Saturday",
+        opens: "09:00",
+        closes: "13:00",
+      },
+    ],
     areaServed: [
       { "@type": "City", name: "Marília" },
       { "@type": "State", name: "São Paulo" },
