@@ -4,15 +4,19 @@ export const SITE = {
   url: "https://lojademoveismarilia.com.br",
   name: "Loja de Móveis Marília",
   shortName: "Móveis Marília",
-  description: "Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.",
-  // ...campos que já existem (city, region, country, whatsapp, email, geo, etc.)
+  description:
+    "Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.",
+  city: "Marília",
+  region: "SP",
+  country: "BR",
   address: "Avenida das Esmeraldas, próx. 2700 - Jardim Tangará",
   postalCode: "17516-000",
+  email: "contato@lojademoveismarilia.com.br",
+  whatsapp: "5514996033296",
   geo: {
     lat: -22.2286908,
     lng: -49.9220343,
   },
-  // ...
 } as const;
 
 // ============================================================
