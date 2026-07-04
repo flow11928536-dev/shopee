@@ -15,11 +15,15 @@ export const CROSS_SELL: Record<string, ProductCategory[]> = {
 };
 
 /** Lista de slugs por cluster — base do generateStaticParams */
+// ============================================================================
+//  LISTA DE SLUGS POR CLUSTER — atualize o cluster 1 com os novos slugs
+// ============================================================================
 export const GUIDE_CLUSTERS: { cluster: number; titulo: string; slugs: string[] }[] = [
   {
     cluster: 1,
     titulo: "Guias por Tipo (Conversão)",
     slugs: [
+      // ... slugs existentes ...
       "moveis-area-externa",
       "moveis-planejados-vs-modulados",
       "moveis-home-office-barato",
@@ -27,8 +31,21 @@ export const GUIDE_CLUSTERS: { cluster: number; titulo: string; slugs: string[] 
       "moveis-varanda-jardim",
       "moveis-quarto-casal",
       "moveis-quarto-infantil",
+      // === NOVOS SLUGS (10 páginas solicitadas) ===
+      "sofa-retratil-vale-a-pena",
+      "melhores-sofas-retrateis-2026",
+      "sofa-retratil-ou-reclinavel",
+      "sofa-de-canto-ou-sofa-retratil",
+      "guarda-roupa-casal-mdf-ou-mdp",
+      "melhores-guarda-roupas-casal-baratos",
+      "como-escolher-guarda-roupa-ideal",
+      "cozinha-modulada-pequena-vale-a-pena",
+      "melhores-cozinhas-moduladas-baratas",
+      "como-escolher-moveis-apartamento-pequeno",
     ],
   },
+  // ... demais clusters permanecem iguais ...
+
   {
     cluster: 2,
     titulo: "Dúvidas e Dicas ",
@@ -83,7 +100,7 @@ const guiaCozinhaPequena: Guide = {
   intro:
     "Escolher móveis para cozinha pequena é, antes de tudo, uma decisão de espaço. Aqui você vai entender o que realmente funciona em metragens apertadas — sem cair em armadilhas de marketing.",
   heroImage:
-    "https://images.pexels.com/photos/7060816/pexels-photo-7060816.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+    "/banners/cozinha-pequena.webp",
   heroAlt:
     "Cozinha pequena moderna com armários brancos e amadeirados aproveitando bem o espaço",
   seoTitle: "Móveis para Cozinha Pequena: Guia Completo 2026",
@@ -247,16 +264,42 @@ interface GuideSeed {
 }
 
 const IMG = {
+  retrateisPQ:"/banners/sofa-retratil-para-apartamento-pequeno.webp",
+  melhoresGR:"/banners/melhor-guarda-roupa-de-casal-barato.webp", 
+  quartoPequeno:"/banners/guarda-roupa-de-casal-para-quarto-pequeno.webp",
+  apartamentopequeno:"/banners/como-escolher-moveis-para-apartamentos-pequenos.webp",
+  arranhados:"/banners/como-tirar-arranhados-dos-moveis.webp",
+  estalam:"/banners/porque-os-moveis-estalam.webp",
+  envelopar:"/banners/como-envelopar-moveis.webp",
+  pintar:"/banners/tintas-para-pintar-madeira.webp",
+  comoInstalar:"/banners/como-instalar-painel-de-tv.webp",
+  mdfCasal:"/banners/Como-comprar-moveis-pela-internet-com-seguranca copiar.webp",
+  online:"/banners/Como-comprar-moveis-pela-internet-com-seguranca2.webp",
+  quartocasal:"/banners/moveis-para-quarto-de-casal.webp",
+  quartoinfantil:"/imagens/produtos/Quarto-de-Bebe-Completo-100-MDF-Comoda-BerЗo-e-Guarda-Roupa-Nina-Branco-Amadeirado.webp",
+  madeiras:"/banners/Que-tipos-de-madeira-existem-para-fazer-moveis-para-casa.webp",
+  curitiba:"/banners/loja-de-moveis-em-curitiba.webp",
+  planejados:"/banners/moveis-modulados-madesa.webp",
+   planejados2:"/banners/preco-moveis-planejados-cozinha-2026.webp",
+   sofaretratil:"/banners/sofa-sem-caixa-retratil-180m-soft-petit-boucle-cama-inbox.webp",
   cozinha:
-    "https://images.pexels.com/photos/7535073/pexels-photo-7535073.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  quarto:
-    "https://images.pexels.com/photos/7535012/pexels-photo-7535012.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  sala:
-    "https://images.pexels.com/photos/6987730/pexels-photo-6987730.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  office:
-    "https://images.pexels.com/photos/31213677/pexels-photo-31213677.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+    "/banners/cozinha-moveis.webp",
+    sofadecanto:"/banners/saofa-de-canto-ou-sofa-normal.webp",
+    cozinha2:"/banners/cozinha-apartamento.webp",
+    outlet:"/banners/loja-de-moveis-usados-em-marilia.webp",
+    saoPaulo:"/banners/Rio-de-Janeiro-RJ-09-11-2021Marcas-dos-Cariocas-2021Lojas-de-moveis-e-decoracao.webp",
+    office:"/banners/moveis-para-home-office.webp",
+    usados:"/banners/loja-demoveis-usados.webp",
+  
+    sala2:"/banners/moveis-industriais-sala-estilo-urbano.webp",
+  
   externa:
-    "https://images.pexels.com/photos/8135496/pexels-photo-8135496.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+    "/banners/conjunto-para-jardim-com-1-sofa-2-poltronas-1-mesa-de-eb.webp",
+  externa2:
+    "/banners/moveis-para-area-varanda-e-area-externa.webp",
+    freteGratis:"/banners/frete-gratis.png",
+    externa3:
+    "/banners/como-fazer-moveis-de-pallets.webp",
 };
 
 const titleCase = (slug: string): string =>
@@ -384,7 +427,7 @@ const SEEDS: Record<string, GuideSeed> = {
     h1: "Móveis para Quarto de Casal: Conforto, Espaço e Organização",
     intro:
       "O quarto de casal precisa equilibrar descanso e armazenamento. Veja como escolher cama, guarda-roupa e o clima ideal para dormir bem.",
-    heroImage: IMG.quarto,
+    heroImage: IMG.quartocasal,
     heroAlt: "Quarto de casal moderno com guarda-roupa embutido e cama confortável",
     cross: CROSS_SELL["quarto"],
     ctaSlug: "guarda-roupa-casal-6-portas-mdp",
@@ -427,7 +470,7 @@ const SEEDS: Record<string, GuideSeed> = {
     h1: "Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira",
     intro:
       "O estilo industrial une ferro, madeira e linhas cruas para uma sala moderna e cheia de personalidade. Veja como acertar na composição.",
-    heroImage: IMG.sala,
+    heroImage: IMG.sala2,
     heroAlt: "Sala de estar com móveis de estilo industrial em madeira e metal",
     cross: CROSS_SELL["sala"],
     ctaSlug: "painel-rack-tv-65-polegadas",
@@ -510,7 +553,7 @@ const SEEDS: Record<string, GuideSeed> = {
     keyword: "móveis planejados vs modulados",
     h1: "Móveis Planejados vs Modulados: Qual Vale Mais a Pena?",
     intro: "Na hora de mobiliar a casa, a dúvida entre planejado e modulado aparece cedo. Os dois têm vantagens reais — o segredo está em entender qual se encaixa no seu orçamento, espaço e estilo de vida. Aqui você vai ver as diferenças de forma clara e objetiva para não errar na escolha.",
-    heroImage: IMG.sala,
+    heroImage: IMG.planejados,
     heroAlt: "Sala com móveis modulados modernos em tons neutros",
     cross: CROSS_SELL["sala"],
     ctaSlug: "guarda-roupa-casal-6-portas-mdp",
@@ -576,7 +619,7 @@ const SEEDS: Record<string, GuideSeed> = {
     keyword: "móveis para varanda e jardim",
     h1: "Móveis para Varanda e Jardim: Guia Completo para Montar o Espaço Externo",
     intro: "Varanda e jardim bem equipados viram um cômodo a mais — e às vezes o favorito da casa. Mas nem todo móvel aguenta sol, chuva e umidade. Neste guia você descobre quais materiais funcionam de verdade no ambiente externo e como montar um espaço bonito sem gastar mais do que precisa.",
-    heroImage: IMG.externa,
+    heroImage: IMG.externa2,
     heroAlt: "Conjunto de mesa e cadeiras em varanda externa com jardim ao fundo",
     cross: CROSS_SELL["area-externa"],
     ctaSlug: "conjunto-mesa-cadeiras-area-externa",
@@ -642,7 +685,7 @@ const SEEDS: Record<string, GuideSeed> = {
     keyword: "móveis para quarto infantil",
     h1: "Móveis para Quarto Infantil: Como Montar um Quarto Seguro e Funcional",
     intro: "Montar o quarto das crianças vai muito além do estilo — segurança e durabilidade precisam estar em primeiro lugar. As crianças crescem rápido e os móveis precisam acompanhar essa fase sem precisar trocar tudo a cada dois anos. Veja o que considerar antes de comprar.",
-    heroImage: IMG.quarto,
+    heroImage: IMG.quartoinfantil,
     heroAlt: "Quarto infantil organizado com cama, guarda-roupa e espaço de estudo",
     cross: CROSS_SELL["quarto"],
     ctaSlug: "cama-box-bau-casal-bicama",
@@ -708,7 +751,7 @@ const SEEDS: Record<string, GuideSeed> = {
     keyword: "por que móveis estalam de madrugada",
     h1: "Por Que Móveis Estalam de Madrugada? A Explicação Real",
     intro: "Você ouve aquele estalo do armário ou do assoalho de madrugada e por um segundo pensa que tem alguém na casa. Não tem. O que acontece é física pura — e entender o motivo ajuda a saber se o seu móvel está saudável ou está dando sinal de problema.",
-    heroImage: IMG.quarto,
+    heroImage: IMG.estalam,
     heroAlt: "Quarto escuro com armário de madeira iluminado levemente",
     cross: CROSS_SELL["quarto"],
     ctaSlug: "guarda-roupa-casal-6-portas-mdp",
@@ -774,7 +817,7 @@ const SEEDS: Record<string, GuideSeed> = {
     keyword: "como envelopar móveis passo a passo",
     h1: "Como Envelopar Móveis: Passo a Passo Completo para Renovar Sem Pintar",
     intro: "Envelopar móvel é uma das formas mais baratas e rápidas de renovar um armário, mesa ou porta de cozinha sem precisar de marceneiro ou tinta. Com adesivo vinílico, paciência e as técnicas certas, o resultado parece profissional — e você mesmo consegue fazer em casa.",
-    heroImage: IMG.cozinha,
+    heroImage: IMG.envelopar,
     heroAlt: "Armário de cozinha envelopado em cinza fosco com aspecto renovado",
     cross: CROSS_SELL["cozinha"],
     ctaSlug: "cozinha-compacta-madesa-glamy",
@@ -840,7 +883,7 @@ const SEEDS: Record<string, GuideSeed> = {
     keyword: "como restaurar móveis de madeira",
     h1: "Como Restaurar Móveis de Madeira: Do Arranhado ao Acabamento Novo",
     intro: "Uma cadeira com verniz gasto, uma mesa riscada ou um armário com manchas não precisam ir para o lixo. Restaurar móveis de madeira é mais simples do que parece — e o resultado final, quando bem feito, é melhor do que o original. Veja como fazer com as ferramentas certas.",
-    heroImage: IMG.sala,
+    heroImage: IMG.arranhados,
     heroAlt: "Sala com móvel de madeira maciça restaurado com acabamento natural",
     cross: CROSS_SELL["sala"],
     ctaSlug: "sofa-retratil-3-lugares-suede",
@@ -906,7 +949,7 @@ const SEEDS: Record<string, GuideSeed> = {
     keyword: "como pintar móveis de madeira",
     h1: "Como Pintar Móveis de Madeira: Guia Completo para um Acabamento Profissional",
     intro: "Pintar um móvel parece simples, mas pequenos erros na preparação fazem toda a diferença entre um resultado durável e uma tinta que descasca em 6 meses. Aqui está o passo a passo que os marceneiros usam — adaptado para quem vai fazer em casa.",
-    heroImage: IMG.sala,
+    heroImage: IMG.pintar,
     heroAlt: "Móvel de madeira recém pintado de branco em sala moderna",
     cross: CROSS_SELL["sala"],
     ctaSlug: "painel-rack-tv-65-polegadas",
@@ -970,9 +1013,9 @@ const SEEDS: Record<string, GuideSeed> = {
 
   "melhores-lojas-moveis-online": {
     keyword: "melhores lojas de móveis online",
-    h1: "Melhores Lojas de Móveis Online em 2024: Onde Comprar com Segurança",
+    h1: "Melhores Lojas de Móveis Online em 2026: Onde Comprar com Segurança",
     intro: "Comprar móvel online ainda gera insegurança em muita gente — e com razão, já que errar em tamanho ou qualidade é problema chato de resolver. Mas hoje as grandes lojas têm políticas de troca claras e entrega rastreável. Veja quais são as mais confiáveis e o que observar antes de fechar o pedido.",
-    heroImage: IMG.sala,
+    heroImage: IMG.online,
     heroAlt: "Sala de estar mobilada com móveis comprados online com bom custo-benefício",
     cross: CROSS_SELL["sala"],
     videoUrl: "https://www.youtube.com/embed/vMsyFy2-BSU?si=thtr5nPVx5OxFwGG",
@@ -1040,7 +1083,7 @@ const SEEDS: Record<string, GuideSeed> = {
     keyword: "móveis outlet com pequenos defeitos",
     h1: "Móveis Outlet com Pequenos Defeitos: Vale a Pena Comprar?",
     intro: "Móveis outlet são aqueles que têm algum defeito estético — um arranhão, uma peça com cor ligeiramente diferente, embalagem avariada — e são vendidos com desconto de 30% a 60%. Para quem sabe o que está comprando, é um negócio excelente. Para quem não presta atenção, pode virar dor de cabeça.",
-    heroImage: IMG.sala,
+    heroImage: IMG.outlet,
     heroAlt: "Loja outlet de móveis com peças em exposição com descontos",
     cross: CROSS_SELL["sala"],
     ctaSlug: "sofa-retratil-3-lugares-suede",
@@ -1106,7 +1149,7 @@ const SEEDS: Record<string, GuideSeed> = {
     keyword: "móveis com frete grátis e entrega rápida",
     h1: "Móveis com Frete Grátis e Entrega Rápida: Como Encontrar e Não Cair em Armadilha",
     intro: "Frete grátis em móvel parece ótimo — até você ler as letras miúdas e descobrir que só vale para capital ou que o 'grátis' foi embutido no preço. Veja como realmente economizar no frete de móveis e quais lojas têm entrega rápida de verdade.",
-    heroImage: IMG.sala,
+    heroImage: IMG.freteGratis,
     heroAlt: "Entregador com caixa grande de móvel em frente a apartamento",
     cross: CROSS_SELL["sala"],
     ctaSlug: "painel-rack-tv-65-polegadas",
@@ -1172,7 +1215,7 @@ const SEEDS: Record<string, GuideSeed> = {
     keyword: "móveis usados perto de mim",
     h1: "Móveis Usados Perto de Mim: Como Encontrar, Negociar e Não Se Arrepender",
     intro: "Comprar móvel usado é inteligente quando você sabe o que está fazendo. Um guarda-roupa de madeira maciça de segunda mão pode ser infinitamente melhor que um MDF barato novo. O problema é saber avaliar o estado e negociar o preço certo. Veja o passo a passo.",
-    heroImage: IMG.sala,
+    heroImage: IMG.usados,
     heroAlt: "Sala com mix de móveis antigos restaurados e modernos",
     cross: CROSS_SELL["sala"],
     ctaSlug: "sofa-retratil-3-lugares-suede",
@@ -1238,7 +1281,7 @@ const SEEDS: Record<string, GuideSeed> = {
     keyword: "lojas de móveis em São Paulo",
     h1: "Lojas de Móveis em São Paulo: Os Melhores Endereços e Como Economizar",
     intro: "São Paulo tem desde as grandes redes com preços competitivos até brechós especializados em peças de design. Saber onde ir dependendo do que você procura faz toda a diferença na hora de mobiliar a casa sem pagar mais do que precisa.",
-    heroImage: IMG.sala,
+    heroImage: IMG.saoPaulo,
     heroAlt: "Showroom de loja de móveis moderna em São Paulo",
     cross: CROSS_SELL["sala"],
     ctaSlug: "sofa-retratil-3-lugares-suede",
@@ -1304,7 +1347,7 @@ const SEEDS: Record<string, GuideSeed> = {
     keyword: "lojas de móveis em Curitiba",
     h1: "Lojas de Móveis em Curitiba: Onde Comprar e Como Economizar",
     intro: "Curitiba tem uma tradição forte em marcenaria de qualidade — herança da colonização europeia que se reflete tanto nas marcas locais quanto no gosto refinado dos curitibanos por móveis com acabamento apurado. Veja onde encontrar as melhores opções.",
-    heroImage: IMG.sala,
+    heroImage: IMG.curitiba,
     heroAlt: "Sala com móveis de qualidade em estilo contemporâneo curitibano",
     cross: CROSS_SELL["sala"],
     ctaSlug: "guarda-roupa-casal-6-portas-mdp",
@@ -1370,7 +1413,7 @@ const SEEDS: Record<string, GuideSeed> = {
     keyword: "tipos de madeira para móveis",
     h1: "Tipos de Madeira para Móveis: Qual Usar em Cada Situação",
     intro: "Nem toda madeira é igual — e entender a diferença entre MDF, MDP, madeira maciça e compensado salva você de comprar um móvel que parece ótimo na loja mas decepciona em 2 anos. Aqui está o guia honesto sobre cada material.",
-    heroImage: IMG.sala,
+    heroImage: IMG.madeiras,
     heroAlt: "Detalhe de acabamento em madeira maciça com veio natural visível",
     cross: CROSS_SELL["sala"],
     ctaSlug: "painel-rack-tv-65-polegadas",
@@ -1434,16 +1477,16 @@ const SEEDS: Record<string, GuideSeed> = {
 
   "quanto-custa-moveis-planejados": {
     keyword: "quanto custam móveis planejados",
-    h1: "Quanto Custam Móveis Planejados em 2024: Tabela de Preços por Cômodo",
+    h1: "Quanto Custam Móveis Planejados em 2026: Tabela de Preços por Cômodo",
     intro: "O preço de móveis planejados varia muito — e a falta de informação clara faz muita gente pagar mais do que deveria ou fechar contrato sem entender o que está incluído. Aqui você encontra uma referência realista de valores por cômodo para se preparar antes de pedir orçamento.",
-    heroImage: IMG.cozinha,
+    heroImage: IMG.planejados,
     heroAlt: "Cozinha planejada completa em estilo moderno com acabamento em cinza",
     cross: CROSS_SELL["cozinha"],
     ctaSlug: "cozinha-compacta-madesa-glamy",
     grid1Cat: "cozinhas",
     bestSlugs: ["cozinha-compacta-madesa-glamy", "armario-aereo-cozinha-3-portas"],
     sub1: {
-      heading: "Tabela de preços por cômodo (valores de referência 2024)",
+      heading: "Tabela de preços por cômodo (valores de referência 2026)",
       paragraphs: [
         "Os preços variam por região, tamanho do cômodo, material escolhido (MDF nacional vs importado) e marca da empresa. Os valores abaixo são médias práticas para orientação — peça sempre 3 orçamentos antes de decidir.",
         "Cozinha planejada completa (padrão): R$ 8.000 a R$ 20.000. Cozinha premium (marcas de alto padrão): R$ 20.000 a R$ 60.000+. Quarto casal com guarda-roupa e cabeceira: R$ 5.000 a R$ 15.000. Sala de estar com painel e estante: R$ 3.000 a R$ 10.000. Home office completo: R$ 3.500 a R$ 8.000.",
@@ -1502,7 +1545,7 @@ const SEEDS: Record<string, GuideSeed> = {
     keyword: "móveis de pallet como fazer",
     h1: "Móveis de Pallet: Como Fazer do Zero com Segurança e Bom Resultado",
     intro: "Móveis de pallet viraram tendência por conta do custo baixo e do visual rústico que combina com vários estilos de decoração. Mas antes de sair catando pallets na rua, tem informação importante sobre segurança que muda completamente a abordagem. Veja o que realmente funciona.",
-    heroImage: IMG.externa,
+    heroImage: IMG.externa3,
     heroAlt: "Sofá de pallet em área externa com almofadas coloridas e mesa de centro",
     cross: CROSS_SELL["area-externa"],
     ctaSlug: "conjunto-mesa-cadeiras-area-externa",
@@ -1568,7 +1611,7 @@ const SEEDS: Record<string, GuideSeed> = {
     h1: "Como Instalar Painel de TV: Guia Completo com Tipos de Bucha e Altura Ideal",
     intro:
       "Instalar um painel de TV na parede parece bicho de sete cabeça, mas não é. Sabendo a altura padrão de TV, escolhendo a bucha certa e com um passo a passo simples, você deixa sua sala parecendo um cinema e sem risco nenhum do seu aparelho ir para o chão. Vamos direto ao ponto!",
-    heroImage: IMG.sala,
+    heroImage: IMG.comoInstalar,
     heroAlt: "Painel de TV instalado na parede da sala com fios escondidos e organização",
     cross: CROSS_SELL["sala"],
     ctaSlug: "painel-rack-tv-65-polegadas",
@@ -1630,6 +1673,708 @@ const SEEDS: Record<string, GuideSeed> = {
       },
     ],
   },
+  // ============================================================================
+//  SEEDS DAS 10 NOVAS PÁGINAS (SEO/GEO OTIMIZADAS)
+// ============================================================================
+  "sofa-retratil-vale-a-pena": {
+    keyword: "sofá retrátil vale a pena",
+    h1: "Sofá Retrátil Vale a Pena? Veja Prós e Contras Antes de Comprar",
+    intro: "O sofá retrátil é uma das opções mais procuradas por quem quer conforto e funcionalidade. Mas será que compensa o investimento? Antes de comprar, entenda os prós e contras reais – sem exageros – para decidir se esse modelo é o ideal para sua sala.",
+    heroImage: IMG.sofaretratil,
+    heroAlt: "Sofá retrátil moderno em sala de estar com pessoas relaxando",
+    cross: CROSS_SELL["sala"],
+    ctaSlug: "sofa-canto-chaise-modulado-dominique-6-lugares-linho-bege-320cm-yescasa",
+    grid1Cat: "sofas",
+    bestSlugs: [
+      "sofa-canto-chaise-modulado-dominique-6-lugares-linho-bege-320cm-yescasa",
+      "sofa-modular-evo-270m-chaise-direita-creme-cama-inbox",
+    ],
+    sub1: {
+      heading: "Vantagens do sofá retrátil: conforto e versatilidade",
+      paragraphs: [
+        "A principal vantagem do sofá retrátil é a possibilidade de ajustar o encosto e o apoio para as pernas, transformando a sala em um espaço de descanso completo. Modelos com mecanismo de acionamento suave (como os com sistema relax) permitem que você encontre a posição ideal para ler, assistir TV ou até mesmo tirar uma soneca.",
+        "Além do conforto, muitos sofás retráteis vêm com funções extras como porta-copos embutidos, apoios de braço acolchoados e até carregadores USB. São detalhes que fazem diferença no dia a dia, principalmente para quem passa muitas horas na sala de estar.",
+        "Outro ponto positivo: a versatilidade. Sofás retráteis estão disponíveis em diversos tamanhos (de 2 a 4 lugares) e revestimentos (tecido, couro, suede), permitindo que você escolha o modelo que melhor se adapta à decoração e ao espaço disponível.",
+      ],
+      bullets: [
+        "Ajuste de encosto e apoio para pernas",
+        "Acionamento suave e silencioso (sistema relax)",
+        "Versatilidade de tamanhos e revestimentos",
+        "Recursos extras: porta-copos, USB, etc.",
+      ],
+    },
+    sub2: {
+      heading: "Desvantagens que você precisa conhecer",
+      paragraphs: [
+        "Nem tudo são flores. Sofás retráteis costumam ser mais pesados que os modelos fixos, o que dificulta a movimentação e a limpeza embaixo deles. Além disso, o mecanismo de abertura pode exigir manutenção periódica – lubrificação e ajustes – para evitar rangidos ou travamentos.",
+        "Outro ponto: o espaço necessário. Um sofá retrátil precisa de uma distância mínima da parede para que o encosto possa reclinar completamente. Em salas muito pequenas, isso pode ser um limitador. Vale medir o ambiente antes de comprar para garantir que o sofá caiba e funcione bem.",
+        "Por fim, o preço. Sofás retráteis de boa qualidade (com estrutura em madeira de lei, molas ensacadas e espuma de alta densidade) tendem a ser mais caros que os modelos fixos. Mas o investimento se paga em conforto e durabilidade a longo prazo.",
+      ],
+    },
+    callout: {
+      variant: "alerta",
+      title: "⚠️ Atenção ao espaço",
+      text: "Meça a distância entre o sofá e a parede oposta. A maioria dos modelos precisa de pelo menos 30 cm de folga para reclinar totalmente. Em salas muito pequenas, prefira sofás retráteis com mecanismo de acionamento manual (que exige menos espaço) ou modelos compactos.",
+    },
+    sub3: {
+      heading: "Sofá retrátil vs. Sofá fixo: qual escolher?",
+      paragraphs: [
+        "Se o seu objetivo é ter um móvel versátil para relaxar, o retrátil é a escolha certa. Se você tem pouco espaço ou prefere um visual mais clean, o sofá fixo pode ser mais adequado. A tabela abaixo resume as principais diferenças para ajudar na decisão.",
+      ],
+    },
+    faq: [
+      {
+        question: "O sofá retrátil é confortável para dormir?",
+        answer: "Depende do modelo. Sofás retráteis com assento e encosto estofados com espuma de alta densidade (D28 ou superior) oferecem bom suporte para dormir ocasionalmente. Para uso frequente como cama, prefira modelos com colchão incorporado ou com sistema de abertura que deixe a superfície completamente plana.",
+      },
+      {
+        question: "Qual a durabilidade do mecanismo retrátil?",
+        answer: "Em sofás de boa qualidade (marcas como Yescasa, Celflex, Cama inBox), o mecanismo é projetado para durar anos com uso diário. A lubrificação anual com óleo de silicone e o ajuste de parafusos a cada 6 meses prolongam a vida útil.",
+      },
+      {
+        question: "Posso colocar um sofá retrátil em apartamento pequeno?",
+        answer: "Sim, mas preste atenção nas medidas e na distância de recuo. Modelos com acionamento manual (em vez de elétrico) são mais compactos e indicados para espaços reduzidos. Consulte sempre a ficha técnica do fabricante para saber a distância mínima necessária.",
+      },
+      {
+        question: "Qual revestimento é melhor para sofá retrátil?",
+        answer: "Tecido bouclé e linho são macios e aconchegantes, mas exigem mais cuidados. Suede e couro sintético são mais resistentes a manchas e fáceis de limpar – ideais para famílias com crianças e pets. Escolha de acordo com seu estilo de vida.",
+      },
+      {
+        question: "Vale a pena investir em sofá retrátil com molas ensacadas?",
+        answer: "Sim. Molas ensacadas oferecem suporte individualizado, adaptam-se melhor ao corpo e evitam o afundamento com o tempo. Sofás com esse sistema são mais duráveis e confortáveis que os de espuma maciça ou molas Bonnel.",
+      },
+    ],
+  },
+
+  "melhores-sofas-retrateis-2026": {
+    keyword: "melhores sofás retráteis 2026",
+    h1: "Melhores Sofás Retráteis para Apartamento Pequeno em 2026",
+    intro: "Apartamento pequeno exige móveis inteligentes, e o sofá retrátil é um dos campeões de vendas quando o assunto é otimizar espaço. Em 2026, os modelos mais procurados combinam design compacto, mecanismo suave e acabamento premium. Veja nossa seleção dos melhores para não errar na compra.",
+    heroImage: IMG.retrateisPQ,
+    heroAlt: "Sofá retrátil compacto em apartamento moderno com decoração minimalista",
+    cross: CROSS_SELL["sala"],
+    ctaSlug: "sofa-canto-chaise-modulado-dominique-6-lugares-linho-bege-320cm-yescasa",
+    grid1Cat: "sofas",
+    bestSlugs: [
+      "sofa-canto-chaise-modulado-dominique-6-lugares-linho-bege-320cm-yescasa",
+      "sofa-modular-evo-270m-chaise-direita-creme-cama-inbox",
+    ],
+    sub1: {
+      heading: "O que procurar em um sofá retrátil para espaço pequeno",
+      paragraphs: [
+        "Em apartamentos compactos, cada centímetro conta. Por isso, o sofá retrátil ideal deve ter mecanismo de acionamento que não exija muito recuo da parede – modelos com sistema 'zero wall' são os mais indicados. Além disso, prefira dimensões reduzidas: largura entre 180 e 220 cm, profundidade de assento de 50 a 55 cm e altura de braço baixa para não 'comer' espaço visual.",
+        "Outro fator importante é o revestimento. Em áreas pequenas, cores claras (bege, cinza claro, off-white) ajudam a ampliar a sensação de espaço. Tecidos com tratamento anti-manchas (como suede ou couro sintético) facilitam a limpeza em ambientes com pouco espaço para manobrar.",
+        "Por fim, avalie a funcionalidade extra: modelos com porta-copos embutido, gaveta ou baú para armazenamento são diferenciais valiosos em apartamentos menores, onde cada móvel precisa servir a mais de uma função.",
+      ],
+      bullets: [
+        "Mecanismo 'zero wall' – recuo mínimo da parede",
+        "Dimensões compactas: largura até 220 cm",
+        "Cores claras para sensação de amplitude",
+        "Revestimento anti-manchas e fácil limpeza",
+      ],
+    },
+    sub2: {
+      heading: "Os melhores modelos de 2026 – análise rápida",
+      paragraphs: [
+        "O mercado de 2026 trouxe sofás retráteis com tecnologia de embalagem a vácuo (Boost Tech), que facilitam o transporte e a montagem em apartamentos com elevador pequeno. Modelos como o Evo da Cama inBox e o Dominique da Yescasa lideram as vendas por aliar conforto, design e custo-benefício.",
+        "A tendência também é o sofá modular, que permite adicionar ou remover módulos conforme a necessidade. Isso é perfeito para quem mora em apartamento pequeno e quer um móvel que acompanhe as mudanças de fase da família.",
+      ],
+    },
+    callout: {
+      variant: "dica",
+      title: "💡 Dica de quem mora em apartamento",
+      text: "Antes de comprar, confira se o sofá cabe no elevador e nas portas do seu prédio. Modelos com tecnologia a vácuo (Boost Tech) são enviados em caixas compactas e resolvem esse problema.",
+    },
+    sub3: {
+      heading: "Comparativo entre os principais modelos",
+      paragraphs: [
+        "Separamos os três modelos mais vendidos em 2026 com seus diferenciais e faixa de preço. Use esta tabela para decidir qual se encaixa melhor no seu orçamento e espaço.",
+      ],
+    },
+    faq: [
+      {
+        question: "Qual o melhor sofá retrátil para apartamento pequeno em 2026?",
+        answer: "O modelo Evo da Cama inBox e o Dominique da Yescasa são os mais bem avaliados por aliar conforto, design e mecanismo que exige pouco recuo da parede. Ambos têm versões compactas (a partir de 2,40m) e revestimentos variados.",
+      },
+      {
+        question: "Sofá retrátil com baú compensa em apartamento pequeno?",
+        answer: "Com certeza. O espaço extra para guardar cobertores, travesseiros ou itens de temporada é um diferencial que vale o investimento em ambientes com pouco armazenamento.",
+      },
+      {
+        question: "Qual a vida útil de um sofá retrátil de boa qualidade?",
+        answer: "Com manutenção básica (lubrificação do mecanismo, limpeza regular e rotação de almofadas), um sofá retrátil de boa marca dura de 8 a 15 anos. As molas ensacadas e a espuma de alta densidade garantem maior durabilidade.",
+      },
+      {
+        question: "Preciso de montagem profissional para sofá retrátil?",
+        answer: "A maioria dos modelos acompanha manual de montagem e pode ser instalada por uma pessoa em cerca de 2 horas. Para sofás modulares com encaixes mais complexos, vale contratar um profissional (custo médio de R$ 100-200) para garantir a estabilidade do mecanismo.",
+      },
+      {
+        question: "Posso usar sofá retrátil como cama de visitas?",
+        answer: "Sim, desde que o modelo tenha sistema de abertura que deixe a superfície plana e o assento tenha espuma de densidade D28 ou superior. Alguns modelos vêm com colchão extra incluso, proporcionando conforto comparável a uma cama box.",
+      },
+    ],
+  },
+
+  "sofa-retratil-ou-reclinavel": {
+    keyword: "sofá retrátil ou reclinável",
+    h1: "Sofá Retrátil ou Reclinável: Qual Escolher para Sua Sala?",
+    intro: "Sofá retrátil e sofá reclinável são termos que muitas vezes se confundem, mas têm diferenças importantes. A escolha certa depende do espaço disponível, do orçamento e da forma como você pretende usar o móvel. Vamos direto ao ponto: entenda as diferenças e decida qual modelo faz mais sentido para você.",
+    heroImage: IMG.sofaretratil,
+    heroAlt: "Comparação entre sofá retrátil e reclinável lado a lado",
+    cross: CROSS_SELL["sala"],
+    ctaSlug: "sofa-canto-chaise-modulado-dominique-6-lugares-linho-bege-320cm-yescasa",
+    grid1Cat: "sofas",
+    bestSlugs: [
+      "sofa-canto-chaise-modulado-dominique-6-lugares-linho-bege-320cm-yescasa",
+      "sofa-modular-evo-270m-chaise-direita-creme-cama-inbox",
+    ],
+    sub1: {
+      heading: "Diferenças fundamentais: retrátil vs reclinável",
+      paragraphs: [
+        "O sofá retrátil geralmente tem o encosto e o apoio para os pés que se movem simultaneamente, com um mecanismo que desliza o assento para frente enquanto o encosto reclina. Já o sofá reclinável tem um mecanismo separado: apenas o apoio para os pés se levanta, enquanto o encosto permanece fixo (ou reclina de forma independente).",
+        "Na prática, o retrátil oferece uma posição mais horizontal, quase como uma cama, enquanto o reclinável é mais parecido com uma poltrona de avião – confortável, mas com inclinação limitada. O retrátil exige mais espaço atrás do sofá (para o encosto recuar), enquanto o reclinável precisa apenas de espaço na frente (para o apoio das pernas).",
+        "Em termos de preço, os retráteis costumam ser mais caros por causa da complexidade do mecanismo. Os reclináveis são mais acessíveis e ocupam menos espaço, sendo ideais para salas compactas.",
+      ],
+      bullets: [
+        "Retrátil: encosto + apoio para pés se movem juntos – posição mais horizontal",
+        "Reclinável: apenas apoio para pés se levanta – inclinação limitada",
+        "Retrátil: exige recuo da parede (30-50 cm)",
+        "Reclinável: exige espaço na frente (50-70 cm)",
+      ],
+    },
+    sub2: {
+      heading: "Qual escolher conforme seu espaço e rotina",
+      paragraphs: [
+        "Se você tem uma sala ampla e gosta de deitar para assistir TV ou tirar uma soneca, o sofá retrátil é a melhor opção. Ele transforma o ambiente em um verdadeiro espaço de descanso. Já se seu apartamento é pequeno e você quer apenas um apoio extra para as pernas enquanto lê ou trabalha no notebook, o reclinável atende bem e ocupa menos espaço.",
+        "Para quem tem crianças ou pets, o reclinável pode ser mais seguro, pois o mecanismo é mais simples e há menos peças móveis que podem prender dedinhos ou patas. Já o retrátil, se bem escolhido, também é seguro com sistemas de acionamento suave e travas de segurança.",
+      ],
+    },
+    callout: {
+      variant: "dica",
+      title: "💡 Dica de compra",
+      text: "Experimente os dois modelos em uma loja física antes de decidir. A sensação de conforto varia muito de pessoa para pessoa, e o que é ótimo para um pode não ser para outro. Preste atenção na altura do encosto e na profundidade do assento.",
+    },
+    sub3: {
+      heading: "Tabela comparativa rápida",
+      paragraphs: [
+        "Resumo das principais diferenças para você escolher em segundos:",
+      ],
+    },
+    faq: [
+      {
+        question: "Qual a principal diferença entre sofá retrátil e reclinável?",
+        answer: "O retrátil move encosto e apoio para os pés juntos, criando uma posição quase horizontal. O reclinável levanta apenas o apoio para os pés, mantendo o encosto fixo (ou com leve inclinação). O retrátil exige mais espaço atrás, o reclinável exige espaço na frente.",
+      },
+      {
+        question: "Qual modelo é mais confortável para dormir?",
+        answer: "O sofá retrátil, pois permite que você fique completamente deitado. O reclinável deixa o corpo em uma posição semi-sentada, que pode ser desconfortável para dormir por longos períodos.",
+      },
+      {
+        question: "Qual ocupa menos espaço em um apartamento pequeno?",
+        answer: "O reclinável, pois não precisa de recuo da parede. Modelos retráteis com sistema 'zero wall' também existem, mas costumam ser mais caros.",
+      },
+      {
+        question: "Qual é mais durável?",
+        answer: "Depende da qualidade do mecanismo. Retráteis de marcas renomadas com ferragens de aço e engrenagens banhadas a níquel duram décadas. Reclináveis com sistemas de mola simples também têm boa durabilidade, mas podem perder a tensão com o tempo.",
+      },
+      {
+        question: "Posso ter ambos os mecanismos no mesmo sofá?",
+        answer: "Sim, alguns modelos high-end oferecem retrátil com função reclinável independente para cada lugar. São os chamados 'sofas multifuncionais', mas custam significativamente mais.",
+      },
+    ],
+  },
+
+  "sofa-de-canto-ou-sofa-retratil": {
+    keyword: "sofá de canto ou sofá retrátil",
+    h1: "Sofá de Canto ou Sofá Retrátil: Qual Ocupa Menos Espaço?",
+    intro: "A escolha entre sofá de canto e sofá retrátil é uma das dúvidas mais comuns na hora de mobiliar a sala. Ambos são funcionais, mas o que realmente ocupa menos espaço e se adapta melhor a ambientes compactos? A resposta não é tão simples – depende do formato da sua sala e da sua rotina. Vamos descomplicar.",
+    heroImage: IMG.sofadecanto,
+    heroAlt: "Comparação entre sofá de canto e sofá retrátil em salas de tamanhos diferentes",
+    cross: CROSS_SELL["sala"],
+    ctaSlug: "sofa-canto-chaise-modulado-dominique-6-lugares-linho-bege-320cm-yescasa",
+    grid1Cat: "sofas",
+    bestSlugs: [
+      "sofa-canto-chaise-modulado-dominique-6-lugares-linho-bege-320cm-yescasa",
+      "sofa-modular-evo-270m-chaise-direita-creme-cama-inbox",
+    ],
+    sub1: {
+      heading: "Como cada modelo ocupa o espaço da sala",
+      paragraphs: [
+        "O sofá de canto otimiza o aproveitamento do ângulo da sala, criando um espaço de convivência integrado. Ele ocupa menos área total porque 'abraça' a parede, liberando o centro do ambiente. Porém, a chaise (parte mais longa) pode ser um obstáculo se a sala for muito estreita.",
+        "O sofá retrátil, por sua vez, ocupa o espaço equivalente a um sofá reto comum, mas precisa de uma área adicional atrás para reclinar (geralmente 30-50 cm). Isso significa que, para uma mesma largura de parede, o retrátil pode 'comer' mais profundidade da sala quando aberto.",
+        "Na prática, um sofá de canto de 3 lugares com chaise à direita ocupa cerca de 2,8m x 2,0m (largura x profundidade). Um sofá retrátil de 3 lugares ocupa 2,2m x 0,9m (fechado) e 2,2m x 1,4m (aberto). O canto ocupa mais área no chão, mas aproveita melhor as paredes.",
+      ],
+      bullets: [
+        "Sofá de canto: aproveita ângulos, libera centro, ocupa mais área de chão.",
+        "Sofá retrátil: ocupa espaço linear, precisa de recuo para abrir.",
+        "Em salas quadradas, o canto é mais eficiente.",
+        "Em salas retangulares estreitas, o retrátil pode ser melhor.",
+      ],
+    },
+    sub2: {
+      heading: "Qual se adapta melhor a apartamentos pequenos",
+      paragraphs: [
+        "Para apartamentos com sala integrada à cozinha (planta aberta), o sofá de canto funciona muito bem, pois delimita visualmente a área de estar sem usar divisórias. Já em salas separadas e mais longas do que largas, o sofá retrátil é mais indicado, pois se alinha com a parede e não atrapalha a circulação.",
+        "Outro ponto: o sofá de canto acomoda mais pessoas (em média 5-6 lugares) no mesmo espaço que um retrátil de 3 lugares. Se você recebe visitas com frequência, o canto é mais vantajoso. Se prioriza o conforto individual e o descanso, o retrátil ganha.",
+      ],
+    },
+    callout: {
+      variant: "alerta",
+      title: "⚠️ Meça antes de comprar",
+      text: "Desenhe a planta da sala no papel e marque as dimensões do sofá que você deseja. Inclua o espaço de circulação (mínimo 60 cm) para garantir que o ambiente não fique apertado. Muitas pessoas compram o sofá e depois percebem que não sobra espaço para passar.",
+    },
+    sub3: {
+      heading: "Quando optar por um modelo ou outro",
+      paragraphs: [
+        "Use esta tabela para decidir com base no formato da sua sala e no uso que você pretende dar ao móvel.",
+      ],
+    },
+    faq: [
+      {
+        question: "Qual sofá ocupa menos espaço: de canto ou retrátil?",
+        answer: "Em termos de área de chão, o sofá de canto ocupa mais, mas aproveita melhor as paredes. O retrátil ocupa menos área quando fechado, mas precisa de recuo para abrir. A escolha depende do formato da sua sala.",
+      },
+      {
+        question: "Posso ter um sofá de canto retrátil?",
+        answer: "Sim, existem modelos de sofá de canto com chaise retrátil. Eles combinam as duas funcionalidades, mas ocupam ainda mais espaço e são mais caros. Indicados para salas amplas.",
+      },
+      {
+        question: "Qual é mais confortável para assistir TV?",
+        answer: "O sofá retrátil, pois permite reclinar o encosto e elevar as pernas. O sofá de canto é mais estático, mas a chaise pode servir como apoio para as pernas, oferecendo um conforto semelhante.",
+      },
+      {
+        question: "Qual modelo é melhor para sala com home office?",
+        answer: "Se a sala também é usada como escritório, o sofá retrátil é mais versátil – você pode reclinar durante uma pausa ou até mesmo usar como cama para um descanso rápido. O canto ocupa muito espaço e pode dificultar a circulação em ambientes multifuncionais.",
+      },
+      {
+        question: "Qual modelo combina com decoração moderna?",
+        answer: "Ambos combinam, desde que o design seja contemporâneo. Sofás de canto com linhas retas e pés metálicos são muito usados em decoração minimalista. Sofás retráteis com revestimento em couro ou suede também têm apelo moderno.",
+      },
+    ],
+  },
+
+  "guarda-roupa-casal-mdf-ou-mdp": {
+    keyword: "guarda-roupa casal MDF ou MDP",
+    h1: "Guarda-Roupa Casal MDF ou MDP: Qual é Melhor e Mais Resistente?",
+    intro: "MDF e MDP são os materiais mais usados em guarda-roupas, mas a diferença entre eles vai muito além do preço. Enquanto o MDP é o campeão de custo-benefício, o MDF se destaca pelo acabamento e durabilidade. Neste guia, você descobre qual escolher para o quarto de casal sem arrependimento.",
+    heroImage: IMG.mdfCasal,
+    heroAlt: "Guarda-roupa casal moderno em MDF com portas de correr e espelho",
+    cross: CROSS_SELL["quarto"],
+    ctaSlug: "guarda-roupa-casal-easy-slim-8-portas-com-espelho-amendoa-clean-off-white",
+    grid1Cat: "guarda-roupas",
+    bestSlugs: [
+      "guarda-roupa-casal-easy-slim-8-portas-com-espelho-amendoa-clean-off-white",
+      "guarda-roupa-casal-classic-6-portas-6-gavetas-100-mdf",
+      "guarda-roupa-casal-ripado-com-espelhos-2-portas-e-4-gavetas-suburban-gold-espresso-moveis",
+    ],
+    sub1: {
+      heading: "O que diferencia MDF e MDP na prática",
+      paragraphs: [
+        "O MDF (Medium Density Fiberboard) é feito de fibras de madeira finas prensadas com resina, resultando em uma superfície homogênea, lisa e densa. Ele aceita pintura, usinagem (fresas, detalhes) e revestimentos de alta qualidade. É o material preferido para portas de guarda-roupa com design diferenciado, como ripados e frisos.",
+        "O MDP (Medium Density Particleboard) é composto por partículas maiores de madeira, também prensadas com resina. É mais barato e um pouco menos denso, com superfície mais áspera. É ideal para partes internas (laterais, prateleiras) e para guarda-roupas de linhas retas, onde o acabamento não exige tantos detalhes.",
+        "Na resistência, o MDF tem ligeira vantagem por ser mais denso, mas ambos são duráveis quando bem montados e mantidos longe da umidade. A diferença prática está no acabamento e na personalização.",
+      ],
+      bullets: [
+        "MDF: superfície lisa, aceita pintura e usinagem – ideal para portas com detalhes.",
+        "MDP: mais barato, superfície mais grossa – ótimo para estruturas internas e retas.",
+        "Ambos: resistentes, mas sensíveis à umidade – exijam bordas bem vedadas.",
+        "Espessura: 15mm é o mínimo, 18mm é o padrão de qualidade.",
+      ],
+    },
+    sub2: {
+      heading: "Qual escolher para o quarto de casal",
+      paragraphs: [
+        "Se o seu orçamento é mais apertado e você quer um guarda-roupa funcional e bonito, o MDP de 18mm com revestimento BP (baixa pressão) é uma excelente escolha. Modelos como o Severo e o Harvard da Panorama Móveis (em MDP) têm ótima avaliação e custo abaixo de R$ 800.",
+        "Se você valoriza acabamento premium, portas com detalhes (ripados, espelhos com moldura) e quer um móvel que dure décadas, invista em MDF. Guarda-roupas como o Easy Slim e o Classic (100% MDF) têm avaliações superiores a 4,8 estrelas e preço um pouco mais alto, mas compensam pela durabilidade e estética.",
+        "Em ambos os casos, verifique se as bordas são bem vedadas (fita de borda ou pintura) e se as ferragens (dobradiças, corrediças) são metálicas. Uma boa montagem é tão importante quanto o material.",
+      ],
+    },
+    callout: {
+      variant: "dica",
+      title: "💡 Dica de ouro",
+      text: "Independentemente do material, prefira guarda-roupas com pés reguláveis e afaste o móvel do chão em pelo menos 5 cm. Isso evita que a umidade do piso danifique as bordas inferiores, que são as mais vulneráveis.",
+    },
+    sub3: {
+      heading: "Comparativo MDF x MDP para guarda-roupa",
+      paragraphs: [
+        "Resumo prático para decidir em segundos qual material faz sentido para você:",
+      ],
+    },
+    faq: [
+      {
+        question: "Qual material é mais resistente: MDF ou MDP?",
+        answer: "O MDF é ligeiramente mais denso e, portanto, mais resistente a impactos e deformações. Porém, com a mesma espessura (18mm), a diferença prática é pequena para uso residencial. O que mais influencia a durabilidade são as ferragens e a qualidade da montagem.",
+      },
+      {
+        question: "Qual é mais resistente à umidade?",
+        answer: "Nenhum dos dois é naturalmente resistente à água. MDF e MDP incham se molhados. A diferença está no revestimento: MDF com pintura ou laminado bem vedado nas bordas tem melhor desempenho em ambientes úmidos. Em áreas como lavanderias, prefira MDF com revestimento melamínico de alta pressão.",
+      },
+      {
+        question: "Qual material permite mais personalização?",
+        answer: "O MDF, por ser mais homogêneo, aceita fresas, curvas e detalhes que o MDP não suporta. Se você quer um guarda-roupa com portas ripadas, frisos ou vidro embutido, o MDF é a escolha certa.",
+      },
+      {
+        question: "Qual custa mais barato?",
+        answer: "O MDP é, em média, 20-30% mais barato que o MDF de mesma qualidade e espessura. Um guarda-roupa de 6 portas em MDP custa de R$ 500 a R$ 900, enquanto o equivalente em MDF fica entre R$ 700 e R$ 1.300.",
+      },
+      {
+        question: "Qual material é mais sustentável?",
+        answer: "Ambos são feitos de resíduos de madeira reflorestada. O MDP utiliza partículas maiores e consome um pouco menos de resina, sendo considerado um pouco mais ecológico. Mas a diferença é pequena – o importante é escolher marcas com certificação FSC ou de manejo florestal sustentável.",
+      },
+    ],
+  },
+
+  "melhores-guarda-roupas-casal-baratos": {
+    keyword: "melhores guarda-roupas casal baratos",
+    h1: "Melhores Guarda-Roupas Casal Baratos e Espaçosos em 2026",
+    intro: "Nem todo guarda-roupa de casal precisa custar uma fortuna. Em 2026, há opções excelentes por menos de R$ 1.000 com bom espaço interno, portas de correr e espelho. O segredo é saber onde procurar e o que priorizar. Aqui está a lista dos melhores custo-benefício do momento.",
+    heroImage: IMG.melhoresGR,
+    heroAlt: "Quarto de casal com guarda-roupa barato e espaçoso em MDP",
+    cross: CROSS_SELL["quarto"],
+    ctaSlug: "guarda-roupa-casal-easy-slim-8-portas-com-espelho-amendoa-clean-off-white",
+    grid1Cat: "guarda-roupas",
+    bestSlugs: [
+      "guarda-roupa-casal-easy-slim-8-portas-com-espelho-amendoa-clean-off-white",
+      "guarda-roupa-casal-classic-6-portas-6-gavetas-100-mdf",
+      "guarda-roupa-casal-ripado-com-espelhos-2-portas-e-4-gavetas-suburban-gold-espresso-moveis",
+    ],
+    sub1: {
+      heading: "O que faz um guarda-roupa ser barato mas espaçoso",
+      paragraphs: [
+        "Um guarda-roupa barato não significa baixa qualidade. Os melhores modelos econômicos usam MDP de 15mm a 18mm, com revestimento BP (baixa pressão) em cores neutras (branco, off-white, amendoim). Eles têm portas de correr para economizar espaço e, geralmente, incluem um espelho central e divisões internas simples: cabideiro, 2-3 prateleiras e gavetas.",
+        "O truque para economizar sem perder espaço: opte por modelos com 6 a 8 portas, que oferecem boa capacidade sem ocupar a parede toda. Guarda-roupas com espelho embutido também são uma mão na roda, pois você não precisa comprar um espelho separado.",
+        "Outra dica: compre durante as promoções sazonais (Black Friday, Dia dos Solteiros, liquidações de estoque). Descontos de 20-40% são comuns e podem transformar um modelo de R$ 1.200 em R$ 800.",
+      ],
+      bullets: [
+        "MDP 15-18mm com revestimento BP – custo-benefício.",
+        "Portas de correr – economizam espaço.",
+        "Espelho central incluso – não precisa comprar separado.",
+        "Divisões internas essenciais: cabideiro, prateleiras, gavetas.",
+      ],
+    },
+    sub2: {
+      heading: "Modelos mais vendidos com bom custo-benefício",
+      paragraphs: [
+        "O Guarda-Roupa Casal Easy Slim 8 Portas (Panorama Móveis) lidera as vendas com avaliação 4,8 e preço em torno de R$ 650. É em MDP com espelho e estrutura bem resistente. O Classic 6 Portas 6 Gavetas (100% MDF) custa um pouco mais (R$ 600-700) mas oferece excelente acabamento e durabilidade.",
+        "Para quem precisa de um modelo mais compacto, o Harvard 3 Portas com Espelho (R$ 699) é uma ótima opção para quartos menores, mantendo boa capacidade de armazenamento.",
+      ],
+    },
+    callout: {
+      variant: "dica",
+      title: "💡 Dica de economia",
+      text: "Compre o guarda-roupa sem as gavetas internas, se possível. Gavetas adicionam de R$ 100 a R$ 300 ao preço. Você pode comprar organizadores de plástico ou cestos depois, gastando menos e mantendo a funcionalidade.",
+    },
+    sub3: {
+      heading: "Comparativo dos melhores modelos econômicos",
+      paragraphs: [
+        "A tabela abaixo compara os modelos mais baratos e espaçosos disponíveis em 2026. Preços podem variar conforme promoção e região.",
+      ],
+    },
+    faq: [
+      {
+        question: "Qual o guarda-roupa casal mais barato e espaçoso?",
+        answer: "O Guarda-Roupa Casal Easy Slim 8 Portas com Espelho (Panorama Móveis) é o campeão de custo-benefício: custa cerca de R$ 650 e tem ótima capacidade e avaliação 4,8. O Classic 6 Portas 6 Gavetas (MDF) é outro excelente, por volta de R$ 600 com descontos.",
+      },
+      {
+        question: "Vale a pena comprar guarda-roupa com espelho?",
+        answer: "Sim! Além de funcional, o espelho amplia visualmente o quarto e elimina a necessidade de comprar um espelho separado. Modelos com espelho central costumam custar apenas R$ 50-100 a mais que os sem espelho.",
+      },
+      {
+        question: "Quantas portas são ideais para um casal?",
+        answer: "6 a 8 portas. 6 portas atendem a maioria dos casais com espaço moderado; 8 portas são recomendadas para quem tem muitas roupas ou quer divisão de seções (ele/ela).",
+      },
+      {
+        question: "Guarda-roupa de MDP barato é durável?",
+        answer: "Sim, desde que seja de 18mm e com bordas bem vedadas. Com manutenção básica (evitar umidade, não sobrecarregar prateleiras), ele dura de 10 a 15 anos. Marcas como Panorama Móveis e Madesa têm boa reputação.",
+      },
+      {
+        question: "Onde encontrar as melhores promoções de guarda-roupa?",
+        answer: "Shopee e Mercado Livre têm as melhores ofertas, especialmente durante a Black Friday e as liquidações de janeiro. Ative alertas de preço no site da loja e fique de olho em cupons de desconto adicionais.",
+      },
+    ],
+  },
+
+  "como-escolher-guarda-roupa-ideal": {
+    keyword: "como escolher guarda-roupa ideal",
+    h1: "Como Escolher Guarda-Roupa Ideal para Quarto Pequeno",
+    intro: "Escolher um guarda-roupa para quarto pequeno é um dos maiores desafios da decoração. O móvel precisa caber, ter boa capacidade e não deixar o ambiente claustrofóbico. A resposta está nas medidas certas, no tipo de porta e na organização interna. Aqui está o passo a passo para acertar.",
+    heroImage: IMG.quartoPequeno,
+    heroAlt: "Quarto pequeno com guarda-roupa planejado e otimizado",
+    cross: CROSS_SELL["quarto"],
+    ctaSlug: "guarda-roupa-casal-easy-slim-8-portas-com-espelho-amendoa-clean-off-white",
+    grid1Cat: "guarda-roupas",
+    bestSlugs: [
+      "guarda-roupa-casal-easy-slim-8-portas-com-espelho-amendoa-clean-off-white",
+      "guarda-roupa-casal-classic-6-portas-6-gavetas-100-mdf",
+      "guarda-roupa-solteiro-roma-2-portas-correr-2-gavetas-espelho",
+    ],
+    sub1: {
+      heading: "Medidas: o primeiro e mais importante passo",
+      paragraphs: [
+        "Pegue a trena e meça a largura, altura e profundidade da parede onde o guarda-roupa vai ficar. Deixe pelo menos 10 cm de folga de cada lado para circulação e montagem. A altura padrão dos modelos é 200-210 cm – verifique se seu pé-direito comporta.",
+        "A profundidade mínima para um guarda-roupa funcional é 45 cm (para cabideiros laterais) e 50 cm para cabideiros frontais. Se o espaço for muito curto, opte por modelos com portas de correr, que não precisam de área para abertura. Em quartos muito pequenos (menos de 2,5m de largura), um guarda-roupa de 3 portas pode ser a única solução.",
+      ],
+      bullets: [
+        "Largura: deixe 10 cm de folga de cada lado.",
+        "Altura: padrão 200-210 cm – confira o pé-direito.",
+        "Profundidade: mínimo 45 cm (frontal) ou 50 cm (lateral).",
+        "Portas de correr: indispensáveis em quartos pequenos.",
+      ],
+    },
+    sub2: {
+      heading: "Organização interna: o que priorizar",
+      paragraphs: [
+        "Em quartos pequenos, o interior do guarda-roupa precisa ser inteligente. Priorize cabideiros para roupas que você usa com frequência (acamado, calças) e prateleiras para itens dobrados. Gavetas são ótimas para acessórios e roupas íntimas, mas ocupam espaço – se o orçamento for curto, use cestos organizadores.",
+        "Se você divide o guarda-roupa com o parceiro, opte por modelos com divisões internas (uma seção para cada um). Muitos modelos vêm com divisórias ajustáveis, permitindo que você personalize o espaço conforme a necessidade.",
+      ],
+    },
+    callout: {
+      variant: "dica",
+      title: "💡 Dica de organização",
+      text: "Use a técnica de 'verticalização': pendure roupas em cabideiros de vários níveis (um para camisas, um para calças, um para casacos). Prateleiras com divisórias organizam roupas dobradas e evitam bagunça.",
+    },
+    sub3: {
+      heading: "Escolha entre portas de correr, abrir ou ripadas",
+      paragraphs: [
+        "Portas de correr são as melhores para quartos pequenos, pois não precisam de área para abertura. Portas de abrir (tipo 'bater') exigem cerca de 60 cm na frente do guarda-roupa, o que pode ser inviável em ambientes compactos. Portas ripadas em MDF estão na moda e dão um toque contemporâneo, mas tendem a ser mais caras.",
+      ],
+    },
+    faq: [
+      {
+        question: "Qual o tamanho ideal de guarda-roupa para quarto pequeno?",
+        answer: "Para quartos com largura menor que 3m, o ideal é um guarda-roupa com 2 a 3 portas (80-120 cm de largura) e portas de correr. A profundidade deve ser de 45 a 50 cm e a altura de 200 a 210 cm.",
+      },
+      {
+        question: "Porta de correr ou de abrir: qual ocupa menos espaço?",
+        answer: "Porta de correr ocupa menos espaço, pois não precisa de área para abertura. Em quartos pequenos, é quase obrigatória. Portas de abrir (dobradiças) exigem pelo menos 60 cm de espaço livre na frente do móvel.",
+      },
+      {
+        question: "Posso colocar um guarda-roupa de 6 portas em um quarto pequeno?",
+        answer: "Depende da largura do quarto. Um guarda-roupa de 6 portas tem cerca de 2,4-2,6m de largura. Em um quarto com largura de 3m, ainda sobra espaço para circulação (cerca de 40-60 cm). Meça a largura disponível e faça o teste com fita crepe no chão antes de comprar.",
+      },
+      {
+        question: "Qual material é melhor para quarto pequeno?",
+        answer: "MDP de 18mm é o mais indicado para quartos pequenos – é resistente, mais barato e, se bem montado, dura muitos anos. MDF é mais caro e recomendado se você quer portas com detalhes diferenciados.",
+      },
+      {
+        question: "Como otimizar o espaço interno do guarda-roupa?",
+        answer: "Use cabideiros em dois níveis, prateleiras ajustáveis, gavetas ou cestos para acessórios. Caixas organizadoras empilháveis aproveitam o espaço vertical. Mantenha o que usa com mais frequência na altura dos olhos.",
+      },
+    ],
+  },
+
+  "cozinha-modulada-pequena-vale-a-pena": {
+    keyword: "cozinha modulada pequena vale a pena",
+    h1: "Cozinha Modulada Pequena Vale a Pena? Veja Antes de Comprar",
+    intro: "Cozinha modulada pequena é uma das melhores soluções para apartamentos compactos, mas nem todo mundo sabe se realmente compensa em comparação com uma cozinha planejada. Neste guia, você descobre as vantagens reais, os cuidados na compra e quando a modulada é a escolha certa para a sua casa.",
+    heroImage: IMG.cozinha2,
+    heroAlt: "Cozinha modulada pequena em apartamento com armários brancos",
+    cross: CROSS_SELL["cozinha"],
+    ctaSlug: "cozinha-compacta-pop-com-armrio-balcao-e-tampo-branco-madesa",
+    grid1Cat: "cozinhas",
+    bestSlugs: [
+      "cozinha-compacta-pop-com-armrio-balcao-e-tampo-branco-madesa",
+      "cozinha-completa-madesa-reims-310001-com-armrio-e-balco-preto",
+      "armario-de-cozinha-compacta-229cm-rustic-emilly-pop-madesa",
+    ],
+    sub1: {
+      heading: "Vantagens da cozinha modulada pequena",
+      paragraphs: [
+        "A principal vantagem é o preço. Enquanto uma cozinha planejada custa de R$ 8.000 a R$ 20.000, uma modulada de qualidade fica entre R$ 600 e R$ 2.000. A diferença é brutal e, para a maioria dos apartamentos, a modulada atende perfeitamente.",
+        "Outro ponto: a modulada é pronta e chega em poucos dias. Não há projeto, aprovação nem espera de semanas. Você monta em casa com o manual e, em poucas horas, tem sua cozinha funcionando. Isso é ideal para quem precisa mobiliar o apartamento rapidamente.",
+        "Além disso, a modulada é modular (literalmente). Você pode começar com um conjunto básico e adicionar módulos depois, conforme o orçamento permitir. É uma flexibilidade que a cozinha planejada não oferece.",
+      ],
+      bullets: [
+        "Preço muito mais acessível que a planejada.",
+        "Entrega rápida (dias, não semanas).",
+        "Montagem fácil (manual incluso).",
+        "Modular: você pode expandir aos poucos.",
+      ],
+    },
+    sub2: {
+      heading: "Desvantagens e cuidados na hora de comprar",
+      paragraphs: [
+        "A modulada é feita em medidas padrão – se sua cozinha tem uma parede de 2,10m e o módulo padrão tem 2,15m, você terá que adaptar (com um nicho, por exemplo). Em cozinhas com formatos irregulares, a modulada pode deixar vãos que acumulam sujeira e prejudicam a estética.",
+        "Outro cuidado: a qualidade do material. Modelos muito baratos podem ter MDP de 12mm (fino) e ferragens de plástico que duram pouco. Prefira marcas conhecidas (Madesa, Zanzini, Aramóveis) e verifique a espessura (15-18mm) e o tipo de acabamento (BP texturizado ou pintura UV).",
+        "Em cozinhas com alta umidade (lado da pia, área externa), a modulada pode ser menos resistente que a planejada, que usa MDF com vedação extra. Nesses casos, vale investir em uma planejada ou em uma modulada com proteção especial.",
+      ],
+    },
+    callout: {
+      variant: "alerta",
+      title: "⚠️ Cuidado com o encaixe",
+      text: "Antes de comprar, meça a parede exata e confira as dimensões do módulo que você vai comprar. Se sobrar um vão de 5-10 cm, você pode preencher com uma prateleira ou um carrinho auxiliar, mas vãos maiores ficam feios e acumulam sujeira.",
+    },
+    sub3: {
+      heading: "Quando compensa e quando não compensa",
+      paragraphs: [
+        "A cozinha modulada compensa para a maioria dos apartamentos com cozinhas retangulares ou quadradas, com medidas que se encaixam nos padrões do mercado. Ela não compensa em cozinhas com paredes inclinadas, muitos pilares ou que precisam de aproveitamento máximo de cada centímetro (ex: cozinhas com menos de 3m²).",
+        "Se você planeja morar no imóvel por muitos anos e quer um acabamento de alto padrão, a planejada pode ser o caminho. Para aluguel ou para quem quer um custo baixo, a modulada é imbatível.",
+      ],
+    },
+    faq: [
+      {
+        question: "Cozinha modulada pequena é resistente para uso diário?",
+        answer: "Sim, desde que seja de MDP 15-18mm com ferragens metálicas. Marcas como Madesa e Zanzini têm boa reputação. Cozinhas moduladas de qualidade duram de 10 a 15 anos com os cuidados adequados.",
+      },
+      {
+        question: "Qual a diferença de preço entre modulada e planejada?",
+        answer: "A modulada custa de R$ 600 a R$ 2.000, enquanto a planejada fica entre R$ 8.000 e R$ 20.000. A diferença é de cerca de 5 a 10 vezes.",
+      },
+      {
+        question: "Posso combinar modulada com eletrodomésticos que já tenho?",
+        answer: "Sim, desde que as medidas do eletrodoméstico sejam compatíveis com os espaços do módulo (ex: nicho para micro-ondas, espaço para geladeira). Verifique as especificações antes de comprar.",
+      },
+      {
+        question: "Vale a pena cozinha modulada em apartamento alugado?",
+        answer: "Com certeza. Como você pode levar os módulos quando se mudar, o investimento não fica perdido. Além disso, o custo é baixo o suficiente para compensar em qualquer prazo.",
+      },
+      {
+        question: "Como limpar e conservar uma cozinha modulada?",
+        answer: "Use pano úmido com água e sabão neutro. Evite produtos abrasivos e água em excesso. Seque bem as superfícies, especialmente ao redor da pia. Aplique cera líquida para MDF a cada 6 meses nas portas para manter o brilho e proteger contra umidade.",
+      },
+    ],
+  },
+
+  "melhores-cozinhas-moduladas-baratas": {
+    keyword: "melhores cozinhas moduladas baratas",
+    h1: "Melhores Cozinhas Moduladas Baratas para Apartamento",
+    intro: "Ter uma cozinha bonita e funcional não precisa custar um apartamento. Com um bom planejamento e a escolha certa dos módulos, você monta uma cozinha modulada completa por menos de R$ 2.000. Aqui estão os melhores modelos baratos e acessíveis para apartamento.",
+    heroImage: IMG.cozinha,
+    heroAlt: "Cozinha modulada barata e moderna com armários em MDP",
+    cross: CROSS_SELL["cozinha"],
+    ctaSlug: "cozinha-compacta-pop-com-armrio-balcao-e-tampo-branco-madesa",
+    grid1Cat: "cozinhas",
+    bestSlugs: [
+      "cozinha-compacta-pop-com-armrio-balcao-e-tampo-branco-madesa",
+      "cozinha-completa-madesa-reims-310001-com-armrio-e-balco-preto",
+      "armario-de-cozinha-compacta-229cm-rustic-emilly-pop-madesa",
+    ],
+    sub1: {
+      heading: "O que torna uma cozinha modulada barata e de qualidade",
+      paragraphs: [
+        "Uma cozinha modulada barata não significa baixa qualidade. Os melhores modelos econômicos usam MDP de 15mm com revestimento BP (baixa pressão) em cores neutras (branco, cinza, off-white). Eles têm módulos básicos: armário superior e inferior, balcão e, em alguns casos, nicho para micro-ondas.",
+        "O segredo para economizar sem perder a função: opte por modelos com portas lisas (sem detalhes) e puxadores simples de PVC. Isso reduz o custo de produção e o preço final. Módulos com 'efeito ripado' ou 'alto brilho' podem custar o dobro.",
+        "Fique atento também ao número de módulos. Um conjunto básico para apartamento pequeno tem de 8 a 11 portas. Se você precisar de mais espaço, pode adicionar um armário aéreo extra depois.",
+      ],
+      bullets: [
+        "MDP 15mm com revestimento BP – econômico e resistente.",
+        "Portas lisas e puxadores simples de PVC – menores custos.",
+        "Conjunto básico com 8-11 portas – suficiente para apartamento.",
+        "Possibilidade de expansão com módulos extras.",
+      ],
+    },
+    sub2: {
+      heading: "Modelos mais vendidos com melhor custo-benefício",
+      paragraphs: [
+        "A Cozinha Compacta Pop (Madesa) é a campeã de vendas por menos de R$ 600. Tem 8 portas, balcão e tampo branco, ideal para apartamentos de até 4m². A Cozinha Reims 310001 (também Madesa) é um pouco mais cara (R$ 719) mas vem com armário e balcão em preto, design mais moderno.",
+        "Para quem quer mais espaço, a Cozinha Modulada Completa Móveis Home tem 10 portas e 6 gavetas por cerca de R$ 630 – excelente custo-benefício para quem precisa de bastante armazenamento.",
+      ],
+    },
+    callout: {
+      variant: "dica",
+      title: "💡 Dica para economizar ainda mais",
+      text: "Compre a cozinha sem o tampo de pia (alguns modelos vendem o tampo separado) e compre um tampo de granilite ou fórmica em uma loja de materiais de construção. Você pode economizar até R$ 100-200.",
+    },
+    sub3: {
+      heading: "Comparativo dos melhores modelos baratos",
+      paragraphs: [
+        "Resumo dos modelos mais baratos e bem avaliados disponíveis atualmente:",
+      ],
+    },
+    faq: [
+      {
+        question: "Qual a cozinha modulada mais barata e boa?",
+        answer: "A Cozinha Compacta Pop da Madesa é a mais vendida, custando cerca de R$ 549. Tem 8 portas, balcão e tampo branco, ótima para apartamentos pequenos. Avaliação 4,8 no Shopee.",
+      },
+      {
+        question: "Quantos módulos preciso para uma cozinha de apartamento?",
+        answer: "Para um apartamento de até 40m², um conjunto com 8-11 portas (superior + inferior) é suficiente. Isso dá cerca de 2,5-3,0m de largura de parede ocupada.",
+      },
+      {
+        question: "Vale a pena comprar cozinha modulada usada?",
+        answer: "Sim, se estiver em bom estado. Verifique as bordas (não podem estar inchadas) e as ferragens (devem abrir e fechar suavemente). O preço de usada costuma ser 50-60% do valor novo.",
+      },
+      {
+        question: "Qual material é melhor para cozinha modulada barata?",
+        answer: "MDP 15mm com revestimento BP texturizado. É resistente, fácil de limpar e tem bom custo-benefício. Evite MDP de 12mm (muito fino) e MDF (mais caro e não necessário para cozinhas populares).",
+      },
+      {
+        question: "Posso montar a cozinha modulada sozinho?",
+        answer: "Sim, a maioria vem com manual e ferragens. Se você tem habilidades básicas de marcenaria, monta em 2-4 horas. Para conjuntos maiores, peça ajuda a um amigo ou contrate um montador (custo de R$ 100-200).",
+      },
+    ],
+  },
+
+  "como-escolher-moveis-apartamento-pequeno": {
+    keyword: "como escolher móveis para apartamento pequeno",
+    h1: "Como Escolher Móveis para Apartamento Pequeno sem Errar",
+    intro: "Mobiliar um apartamento pequeno é um jogo de xadrez: cada peça precisa se encaixar perfeitamente. O segredo não é comprar móveis menores, mas escolher móveis que façam mais com menos espaço. Aqui está o guia definitivo para não errar na escolha – com dicas práticas que vão do sofá ao guarda-roupa.",
+    heroImage: IMG.apartamentopequeno,
+    heroAlt: "Apartamento pequeno decorado com móveis funcionais e otimizados",
+    cross: CROSS_SELL["sala"],
+    ctaSlug: "sofa-canto-chaise-modulado-dominique-6-lugares-linho-bege-320cm-yescasa",
+    grid1Cat: "sofas",
+    bestSlugs: [
+      "sofa-canto-chaise-modulado-dominique-6-lugares-linho-bege-320cm-yescasa",
+      "escrivaninha-mesa-giratoria-3-gavetas-home-office-branco",
+      "guarda-roupa-solteiro-madesa-denver-2-portas-de-correr-preto",
+    ],
+    sub1: {
+      heading: "Os três pilares: medida, função e estilo",
+      paragraphs: [
+        "Antes de comprar qualquer móvel, meça o ambiente e anote as dimensões com precisão. Não confie no 'cabe ou não cabe' – use fita métrica e desenhe a planta. Com as medidas em mãos, defina a função de cada móvel: ele precisa acomodar pessoas, guardar objetos ou servir de apoio?",
+        "Depois, venha o estilo. Móveis com pés finos (tipo pernas de palito) e cores claras criam sensação de amplitude. Móveis escuros e encorpados 'pesam' o ambiente visualmente, reduzindo a percepção de espaço. Prefira tons neutros (branco, cinza claro, bege) para as peças principais.",
+        "Por fim, pense na modularidade: móveis que podem ser rearranjados ou expandidos conforme a necessidade são os melhores para apartamentos pequenos. Sofás modulares, estantes com prateleiras ajustáveis e mesas extensíveis são exemplos.",
+      ],
+      bullets: [
+        "Meça tudo antes de comprar – desenhe a planta.",
+        "Defina a função de cada móvel – evite peças desnecessárias.",
+        "Cores claras e pés finos ampliam visualmente.",
+        "Prefira móveis modulares e versáteis.",
+      ],
+    },
+    sub2: {
+      heading: "Móveis que fazem a diferença em apartamentos pequenos",
+      paragraphs: [
+        "O sofá de canto com chaise é um curinga: acomoda mais pessoas no mesmo espaço que um sofá reto. A cama box com baú oferece armazenamento extra sem ocupar área adicional. A escrivaninha com prateleiras integradas substitui uma mesa e uma estante, economizando espaço.",
+        "Nas cozinhas, os armários até o teto aproveitam a altura e liberam a bancada. Nas salas, painéis de TV com nichos e prateleiras organizam objetos decorativos e eletrônicos sem precisar de um rack separado.",
+        "Não se esqueça dos espelhos: um grande espelho na parede oposta à janela dobra a sensação de amplitude. É o truque mais barato e eficaz para apartamentos pequenos.",
+      ],
+    },
+    callout: {
+      variant: "dica",
+      title: "💡 Dica de ouro",
+      text: "Compre móveis com pés (elevados) em vez de peças que tocam o chão. O espaço vazio abaixo do móvel dá continuidade visual ao piso, fazendo o ambiente parecer maior. Além disso, facilita a limpeza.",
+    },
+    sub3: {
+      heading: "Itens essenciais para cada cômodo",
+      paragraphs: [
+        "Quarto: guarda-roupa com portas de correr + cama com baú + espelho. Sala: sofá modular com chaise + painel de TV com nichos + mesa de centro compacta. Cozinha: armários até o teto + balcão com nicho para micro-ondas. Escritório: escrivaninha compacta + prateleiras de parede.",
+      ],
+    },
+    faq: [
+      {
+        question: "Qual o melhor móvel para apartamento pequeno?",
+        answer: "Não existe um melhor, mas os mais versáteis são: sofá de canto com chaise, cama box com baú, guarda-roupa com portas de correr e escrivaninha com prateleiras integradas. Esses móveis ocupam menos espaço e oferecem mais funcionalidade.",
+      },
+      {
+        question: "Como fazer um apartamento pequeno parecer maior?",
+        answer: "Use cores claras nas paredes e móveis, espelhos em paredes estratégicas, móveis com pés finos (elevados) e mantenha o chão livre de objetos. Iluminação indireta (spots, fitas de LED) também amplia a sensação de espaço.",
+      },
+      {
+        question: "Vale a pena comprar móveis planejados para apartamento pequeno?",
+        answer: "Sim, se você tem um orçamento maior e quer aproveitar cada centímetro. Planejados são ideais para cozinhas com medidas irregulares e quartos com nichos ou pilares. Mas modulados de boa qualidade também atendem bem a maioria dos apartamentos.",
+      },
+      {
+        question: "Qual a ordem de compra dos móveis em um apartamento pequeno?",
+        answer: "Primeiro, os móveis essenciais: cama, sofá, guarda-roupa e mesa de refeições. Depois, os complementares: estantes, painéis de TV, escrivaninha. Por último, itens decorativos e acessórios. Priorize o que você usa todo dia.",
+      },
+      {
+        question: "Como otimizar o espaço na sala de estar de um apartamento pequeno?",
+        answer: "Use um sofá de canto com chaise para acomodar mais pessoas. Substitua a mesa de centro por um puff ou banco com tampo (que serve como assento e apoio). Instale prateleiras flutuantes para decoração e livros, eliminando a estante no chão.",
+      },
+    ],
+  },
 };
 
 
@@ -1640,7 +2385,7 @@ const defaultSeed = (slug: string): GuideSeed => {
     keyword,
     h1: `${titleCase(slug)}: Guia Prático e Honesto`,
     intro: `Tudo o que você precisa saber sobre ${keyword} de forma direta, sem enrolação e com foco no que realmente importa na hora de decidir.`,
-    heroImage: IMG.sala,
+    heroImage: IMG.apartamentopequeno,
     heroAlt: `Ambiente decorado ilustrando ${keyword}`,
     cross: CROSS_SELL["sala"],
     ctaSlug: "painel-rack-tv-65-polegadas",

@@ -38,12 +38,12 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
           </span>
         )}
         {badge && !discount && (
-          <span className="rounded-full bg-amber-500 px-2.5 py-0.5 text-xs font-bold uppercase text-white">
+          <span className="rounded-full bg-amber-600 px-2.5 py-0.5 text-xs font-bold uppercase text-white">
             {badge}
           </span>
         )}
         {badge && discount > 0 && (
-          <span className="rounded-full bg-amber-500 px-2.5 py-0.5 text-xs font-bold uppercase text-white">
+          <span className="rounded-full bg-amber-600 px-2.5 py-0.5 text-xs font-bold uppercase text-white">
             {badge}
           </span>
         )}
@@ -75,7 +75,7 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
       {/* Conteúdo */}
       <div className="flex flex-1 flex-col p-4">
         {marca && (
-          <span className="text-xs font-medium uppercase tracking-wider text-stone-400">
+          <span className="text-xs font-medium uppercase tracking-wider text-stone-500">
             {marca}
           </span>
         )}
@@ -94,7 +94,7 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
             {rating.toFixed(1)}
           </span>
           <span className="text-amber-400" aria-hidden="true">★</span>
-          <span className="text-xs text-stone-400" aria-hidden="true">
+          <span className="text-xs text-stone-500" aria-hidden="true">
             ({reviews})
           </span>
         </div>
@@ -105,7 +105,7 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
           target="_blank"
           rel="noopener noreferrer"
           aria-label={ariaLabel}
-          className="mt-3 flex w-full items-center justify-center rounded-lg bg-stone-900 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-stone-900 focus:ring-offset-2"
+          className="mt-3 flex w-full items-center justify-center rounded-lg bg-stone-900 px-4 py-3 text-sm font-semibold text-white transition-colors hover:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-stone-900 focus:ring-offset-2"
         >
           Ver melhor oferta
         </a>

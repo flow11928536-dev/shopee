@@ -3,38 +3,269 @@
     "name": "Loja de Móveis Marília",
     "url": "https://lojademoveismarilia.com.br",
     "description": "Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.",
-    "lastUpdated": "2026-07-01T04:51:47.818Z"
+    "location": "Marília, SP – BR",
+    "contact": {
+      "email": "contato@lojademoveismarilia.com.br",
+      "whatsapp": "5514996033296"
+    },
+    "geo": {
+      "lat": -22.2286908,
+      "lng": -49.9220343
+    },
+    "lastUpdated": "2026-07-04T03:08:41.381Z"
   },
+  "expertise": [
+    "Curadoria de móveis e eletrodomésticos",
+    "Guias de compra e comparação baseados em dados de mercado",
+    "Dicas de decoração e organização por especialistas",
+    "Ofertas exclusivas de marketplace com análise de preço histórico",
+    "Análise de custo-benefício e durabilidade de produtos"
+  ],
+  "topics": [
+    "Sofás e Poltronas",
+    "Guarda-roupas e Armários",
+    "Cozinhas Planejadas",
+    "Mesas e Cadeiras",
+    "Home Office e Estudante",
+    "Quartos e Camas",
+    "Sala de Estar",
+    "Banheiro e Lavabo",
+    "Área Externa e Jardim",
+    "Móveis Sob Medida"
+  ],
+  "supportedSearches": [
+    "sofá retrátil vale a pena",
+    "melhor guarda-roupa casal",
+    "cozinha modulada pequena",
+    "móveis para apartamento pequeno",
+    "diferença entre MDF e MDP",
+    "móveis baratos para estudante",
+    "sofá chaise longue pequeno",
+    "guarda-roupa de correr 4 portas",
+    "cozinha americana planejada",
+    "escrivaninha good home office"
+  ],
   "categories": [
     {
       "slug": "guarda-roupas",
       "label": "Guarda-Roupas",
-      "url": "https://lojademoveismarilia.com.br/categoria/guarda-roupas"
+      "url": "https://lojademoveismarilia.com.br/categoria/guarda-roupas",
+      "description": "Encontre as melhores ofertas de Guarda-Roupas com preços competitivos e frete para todo Brasil.",
+      "relatedCategories": [],
+      "topics": [
+        "Comprar Guarda-Roupas",
+        "Ofertas de Guarda-Roupas",
+        "Dicas sobre Guarda-Roupas",
+        "Melhor Guarda-Roupas para comprar",
+        "Guarda-Roupas preço e qualidade"
+      ],
+      "searchIntent": "Usuários buscando Guarda-Roupas para comprar ou comparar preços, modelos e materiais antes de tomar decisão de compra.",
+      "relatedGuides": [
+        "melhores-guarda-roupas-casal-baratos"
+      ],
+      "entities": {
+        "materials": [],
+        "environments": [],
+        "brands": [
+          "Panorama Móveis",
+          "Suburban Gold",
+          "Móveis Marília"
+        ]
+      },
+      "contentScore": 40
     },
     {
       "slug": "cozinhas",
       "label": "Cozinhas",
-      "url": "https://lojademoveismarilia.com.br/categoria/cozinhas"
+      "url": "https://lojademoveismarilia.com.br/categoria/cozinhas",
+      "description": "Encontre as melhores ofertas de Cozinhas com preços competitivos e frete para todo Brasil.",
+      "relatedCategories": [],
+      "topics": [
+        "Comprar Cozinhas",
+        "Ofertas de Cozinhas",
+        "Dicas sobre Cozinhas",
+        "Melhor Cozinhas para comprar",
+        "Cozinhas preço e qualidade"
+      ],
+      "searchIntent": "Usuários buscando Cozinhas para comprar ou comparar preços, modelos e materiais antes de tomar decisão de compra.",
+      "relatedGuides": [
+        "melhores-cozinhas-moduladas-baratas"
+      ],
+      "entities": {
+        "materials": [],
+        "environments": [
+          "cozinha"
+        ],
+        "brands": [
+          "Madesa",
+          "Móveis Home",
+          "Aramóveis",
+          "AJL",
+          "Isis"
+        ]
+      },
+      "contentScore": 40
     },
     {
       "slug": "paineis",
       "label": "Painéis e Racks",
-      "url": "https://lojademoveismarilia.com.br/categoria/paineis"
+      "url": "https://lojademoveismarilia.com.br/categoria/paineis",
+      "description": "Encontre as melhores ofertas de Painéis e Racks com preços competitivos e frete para todo Brasil.",
+      "relatedCategories": [],
+      "topics": [
+        "Comprar Painéis e Racks",
+        "Ofertas de Painéis e Racks",
+        "Dicas sobre Painéis e Racks",
+        "Melhor Painéis e Racks para comprar",
+        "Painéis e Racks preço e qualidade"
+      ],
+      "searchIntent": "Usuários buscando Painéis e Racks para comprar ou comparar preços, modelos e materiais antes de tomar decisão de compra.",
+      "relatedGuides": [],
+      "entities": {
+        "materials": [],
+        "environments": [],
+        "brands": [
+          "Móveis Marília",
+          "Gelius Móveis",
+          "Linea Brasil"
+        ]
+      },
+      "contentScore": 20
     },
     {
       "slug": "quartos",
       "label": "Quartos",
-      "url": "https://lojademoveismarilia.com.br/categoria/quartos"
+      "url": "https://lojademoveismarilia.com.br/categoria/quartos",
+      "description": "Encontre as melhores ofertas de Quartos com preços competitivos e frete para todo Brasil.",
+      "relatedCategories": [],
+      "topics": [
+        "Comprar Quartos",
+        "Ofertas de Quartos",
+        "Dicas sobre Quartos",
+        "Melhor Quartos para comprar",
+        "Quartos preço e qualidade"
+      ],
+      "searchIntent": "Usuários buscando Quartos para comprar ou comparar preços, modelos e materiais antes de tomar decisão de compra.",
+      "relatedGuides": [],
+      "entities": {
+        "materials": [],
+        "environments": [
+          "quarto"
+        ],
+        "brands": [
+          "Móveis Marília",
+          "Aquarel",
+          "Nina",
+          "Ben",
+          "Uli",
+          "Multimoveis",
+          "Diamante",
+          "Probel",
+          "Hellen"
+        ]
+      },
+      "contentScore": 20
     },
     {
       "slug": "eletrodomesticos",
       "label": "Eletrodomésticos",
-      "url": "https://lojademoveismarilia.com.br/categoria/eletrodomesticos"
+      "url": "https://lojademoveismarilia.com.br/categoria/eletrodomesticos",
+      "description": "Encontre as melhores ofertas de Eletrodomésticos com preços competitivos e frete para todo Brasil.",
+      "relatedCategories": [],
+      "topics": [
+        "Comprar Eletrodomésticos",
+        "Ofertas de Eletrodomésticos",
+        "Dicas sobre Eletrodomésticos",
+        "Melhor Eletrodomésticos para comprar",
+        "Eletrodomésticos preço e qualidade"
+      ],
+      "searchIntent": "Usuários buscando Eletrodomésticos para comprar ou comparar preços, modelos e materiais antes de tomar decisão de compra.",
+      "relatedGuides": [],
+      "entities": {
+        "materials": [],
+        "environments": [],
+        "brands": [
+          "Philco",
+          "Consul",
+          "Wap",
+          "COMFCASA",
+          "Mondial",
+          "Brastemp",
+          "HQ",
+          "Midea",
+          "Gree"
+        ]
+      },
+      "contentScore": 20
     },
     {
       "slug": "home-office",
       "label": "Home Office",
-      "url": "https://lojademoveismarilia.com.br/categoria/home-office"
+      "url": "https://lojademoveismarilia.com.br/categoria/home-office",
+      "description": "Encontre as melhores ofertas de Home Office com preços competitivos e frete para todo Brasil.",
+      "relatedCategories": [],
+      "topics": [
+        "Comprar Home Office",
+        "Ofertas de Home Office",
+        "Dicas sobre Home Office",
+        "Melhor Home Office para comprar",
+        "Home Office preço e qualidade"
+      ],
+      "searchIntent": "Usuários buscando Home Office para comprar ou comparar preços, modelos e materiais antes de tomar decisão de compra.",
+      "relatedGuides": [
+        "moveis-home-office-barato"
+      ],
+      "entities": {
+        "materials": [],
+        "environments": [
+          "home office"
+        ],
+        "brands": [
+          "Móveis Marília",
+          "Madesa",
+          "Móveis Bela",
+          "Perfin",
+          "Maxi do Brasil",
+          "Loja do Tesouro",
+          "Estate",
+          "Móveis Albergoni",
+          "Office",
+          "Roma",
+          "Zanzini",
+          "Acacia",
+          "Espresso Móveis"
+        ]
+      },
+      "contentScore": 40
+    },
+    {
+      "slug": "sofas",
+      "label": "Sofás",
+      "url": "https://lojademoveismarilia.com.br/categoria/sofas",
+      "description": "Encontre as melhores ofertas de Sofás com preços competitivos e frete para todo Brasil.",
+      "relatedCategories": [],
+      "topics": [
+        "Comprar Sofás",
+        "Ofertas de Sofás",
+        "Dicas sobre Sofás",
+        "Melhor Sofás para comprar",
+        "Sofás preço e qualidade"
+      ],
+      "searchIntent": "Usuários buscando Sofás para comprar ou comparar preços, modelos e materiais antes de tomar decisão de compra.",
+      "relatedGuides": [
+        "melhores-sofas-retrateis-2026"
+      ],
+      "entities": {
+        "materials": [],
+        "environments": [],
+        "brands": [
+          "Yescasa",
+          "Montreal",
+          "Celflex",
+          "Cama inBox"
+        ]
+      },
+      "contentScore": 40
     }
   ],
   "guides": [
@@ -42,139 +273,706 @@
       "slug": "moveis-area-externa",
       "title": "Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo",
       "url": "https://lojademoveismarilia.com.br/guia/moveis-area-externa",
-      "description": ""
+      "description": "Guia completo sobre Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo.",
+      "keywords": [
+        "móveis para área externa"
+      ],
+      "category": "Cluster 1",
+      "summary": "Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo é uma página essencial do Loja de Móveis Marília. Guia completo sobre Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo",
+        "móveis para área externa"
+      ]
     },
     {
       "slug": "moveis-planejados-vs-modulados",
       "title": "Móveis Planejados vs Modulados: Qual Vale Mais a Pena?",
       "url": "https://lojademoveismarilia.com.br/guia/moveis-planejados-vs-modulados",
-      "description": ""
+      "description": "Guia completo sobre Móveis Planejados vs Modulados: Qual Vale Mais a Pena?.",
+      "keywords": [
+        "móveis planejados vs modulados"
+      ],
+      "category": "Cluster 1",
+      "summary": "Móveis Planejados vs Modulados: Qual Vale Mais a Pena? é uma página essencial do Loja de Móveis Marília. Guia completo sobre Móveis Planejados vs Modulados: Qual Vale Mais a Pena?. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Móveis Planejados vs Modulados: Qual Vale Mais a Pena?, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Móveis Planejados vs Modulados: Qual Vale Mais a Pena?",
+        "móveis planejados vs modulados"
+      ]
     },
     {
       "slug": "moveis-home-office-barato",
       "title": "Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco",
       "url": "https://lojademoveismarilia.com.br/guia/moveis-home-office-barato",
-      "description": ""
+      "description": "Guia completo sobre Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco.",
+      "keywords": [
+        "móveis para home office barato"
+      ],
+      "category": "Cluster 1",
+      "summary": "Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco é uma página essencial do Loja de Móveis Marília. Guia completo sobre Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [
+        "home-office"
+      ],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco",
+        "móveis para home office barato",
+        "Home Office"
+      ]
     },
     {
       "slug": "moveis-cozinha-pequena",
       "title": "Móveis para Cozinha Pequena: Guia Completo para Aproveitar Cada Centímetro",
       "url": "https://lojademoveismarilia.com.br/guia/moveis-cozinha-pequena",
-      "description": ""
+      "description": "Guia completo sobre Móveis para Cozinha Pequena: Guia Completo para Aproveitar Cada Centímetro.",
+      "keywords": [
+        "móveis para cozinha pequena"
+      ],
+      "category": "Cluster 1",
+      "summary": "Móveis para Cozinha Pequena: Guia Completo para Aproveitar Cada Centímetro é uma página essencial do Loja de Móveis Marília. Guia completo sobre Móveis para Cozinha Pequena: Guia Completo para Aproveitar Cada Centímetro. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Móveis para Cozinha Pequena: Guia Completo para Aproveitar Cada Centímetro, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Móveis para Cozinha Pequena: Guia Completo para Aproveitar Cada Centímetro",
+        "móveis para cozinha pequena"
+      ]
     },
     {
       "slug": "moveis-varanda-jardim",
       "title": "Móveis para Varanda e Jardim: Guia Completo para Montar o Espaço Externo",
       "url": "https://lojademoveismarilia.com.br/guia/moveis-varanda-jardim",
-      "description": ""
+      "description": "Guia completo sobre Móveis para Varanda e Jardim: Guia Completo para Montar o Espaço Externo.",
+      "keywords": [
+        "móveis para varanda e jardim"
+      ],
+      "category": "Cluster 1",
+      "summary": "Móveis para Varanda e Jardim: Guia Completo para Montar o Espaço Externo é uma página essencial do Loja de Móveis Marília. Guia completo sobre Móveis para Varanda e Jardim: Guia Completo para Montar o Espaço Externo. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Móveis para Varanda e Jardim: Guia Completo para Montar o Espaço Externo, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Móveis para Varanda e Jardim: Guia Completo para Montar o Espaço Externo",
+        "móveis para varanda e jardim"
+      ]
     },
     {
       "slug": "moveis-quarto-casal",
       "title": "Móveis para Quarto de Casal: Conforto, Espaço e Organização",
       "url": "https://lojademoveismarilia.com.br/guia/moveis-quarto-casal",
-      "description": ""
+      "description": "Guia completo sobre Móveis para Quarto de Casal: Conforto, Espaço e Organização.",
+      "keywords": [
+        "móveis para quarto de casal"
+      ],
+      "category": "Cluster 1",
+      "summary": "Móveis para Quarto de Casal: Conforto, Espaço e Organização é uma página essencial do Loja de Móveis Marília. Guia completo sobre Móveis para Quarto de Casal: Conforto, Espaço e Organização. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Móveis para Quarto de Casal: Conforto, Espaço e Organização, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Móveis para Quarto de Casal: Conforto, Espaço e Organização",
+        "móveis para quarto de casal"
+      ]
     },
     {
       "slug": "moveis-quarto-infantil",
       "title": "Móveis para Quarto Infantil: Como Montar um Quarto Seguro e Funcional",
       "url": "https://lojademoveismarilia.com.br/guia/moveis-quarto-infantil",
-      "description": ""
+      "description": "Guia completo sobre Móveis para Quarto Infantil: Como Montar um Quarto Seguro e Funcional.",
+      "keywords": [
+        "móveis para quarto infantil"
+      ],
+      "category": "Cluster 1",
+      "summary": "Móveis para Quarto Infantil: Como Montar um Quarto Seguro e Funcional é uma página essencial do Loja de Móveis Marília. Guia completo sobre Móveis para Quarto Infantil: Como Montar um Quarto Seguro e Funcional. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Móveis para Quarto Infantil: Como Montar um Quarto Seguro e Funcional, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Móveis para Quarto Infantil: Como Montar um Quarto Seguro e Funcional",
+        "móveis para quarto infantil"
+      ]
+    },
+    {
+      "slug": "sofa-retratil-vale-a-pena",
+      "title": "Sofá Retrátil Vale a Pena? Veja Prós e Contras Antes de Comprar",
+      "url": "https://lojademoveismarilia.com.br/guia/sofa-retratil-vale-a-pena",
+      "description": "Guia completo sobre Sofá Retrátil Vale a Pena? Veja Prós e Contras Antes de Comprar.",
+      "keywords": [
+        "sofá retrátil vale a pena"
+      ],
+      "category": "Cluster 1",
+      "summary": "Sofá Retrátil Vale a Pena? Veja Prós e Contras Antes de Comprar é uma página essencial do Loja de Móveis Marília. Guia completo sobre Sofá Retrátil Vale a Pena? Veja Prós e Contras Antes de Comprar. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Sofá Retrátil Vale a Pena? Veja Prós e Contras Antes de Comprar, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Sofá Retrátil Vale a Pena? Veja Prós e Contras Antes de Comprar",
+        "sofá retrátil vale a pena"
+      ]
+    },
+    {
+      "slug": "melhores-sofas-retrateis-2026",
+      "title": "Melhores Sofás Retráteis para Apartamento Pequeno em 2026",
+      "url": "https://lojademoveismarilia.com.br/guia/melhores-sofas-retrateis-2026",
+      "description": "Guia completo sobre Melhores Sofás Retráteis para Apartamento Pequeno em 2026.",
+      "keywords": [
+        "melhores sofás retráteis 2026"
+      ],
+      "category": "Cluster 1",
+      "summary": "Melhores Sofás Retráteis para Apartamento Pequeno em 2026 é uma página essencial do Loja de Móveis Marília. Guia completo sobre Melhores Sofás Retráteis para Apartamento Pequeno em 2026. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [
+        "sofas"
+      ],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Melhores Sofás Retráteis para Apartamento Pequeno em 2026, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Melhores Sofás Retráteis para Apartamento Pequeno em 2026",
+        "melhores sofás retráteis 2026",
+        "Sofás"
+      ]
+    },
+    {
+      "slug": "sofa-retratil-ou-reclinavel",
+      "title": "Sofá Retrátil ou Reclinável: Qual Escolher para Sua Sala?",
+      "url": "https://lojademoveismarilia.com.br/guia/sofa-retratil-ou-reclinavel",
+      "description": "Guia completo sobre Sofá Retrátil ou Reclinável: Qual Escolher para Sua Sala?.",
+      "keywords": [
+        "sofá retrátil ou reclinável"
+      ],
+      "category": "Cluster 1",
+      "summary": "Sofá Retrátil ou Reclinável: Qual Escolher para Sua Sala? é uma página essencial do Loja de Móveis Marília. Guia completo sobre Sofá Retrátil ou Reclinável: Qual Escolher para Sua Sala?. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Sofá Retrátil ou Reclinável: Qual Escolher para Sua Sala?, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Sofá Retrátil ou Reclinável: Qual Escolher para Sua Sala?",
+        "sofá retrátil ou reclinável"
+      ]
+    },
+    {
+      "slug": "sofa-de-canto-ou-sofa-retratil",
+      "title": "Sofá de Canto ou Sofá Retrátil: Qual Ocupa Menos Espaço?",
+      "url": "https://lojademoveismarilia.com.br/guia/sofa-de-canto-ou-sofa-retratil",
+      "description": "Guia completo sobre Sofá de Canto ou Sofá Retrátil: Qual Ocupa Menos Espaço?.",
+      "keywords": [
+        "sofá de canto ou sofá retrátil"
+      ],
+      "category": "Cluster 1",
+      "summary": "Sofá de Canto ou Sofá Retrátil: Qual Ocupa Menos Espaço? é uma página essencial do Loja de Móveis Marília. Guia completo sobre Sofá de Canto ou Sofá Retrátil: Qual Ocupa Menos Espaço?. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Sofá de Canto ou Sofá Retrátil: Qual Ocupa Menos Espaço?, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Sofá de Canto ou Sofá Retrátil: Qual Ocupa Menos Espaço?",
+        "sofá de canto ou sofá retrátil"
+      ]
+    },
+    {
+      "slug": "guarda-roupa-casal-mdf-ou-mdp",
+      "title": "Guarda-Roupa Casal MDF ou MDP: Qual é Melhor e Mais Resistente?",
+      "url": "https://lojademoveismarilia.com.br/guia/guarda-roupa-casal-mdf-ou-mdp",
+      "description": "Guia completo sobre Guarda-Roupa Casal MDF ou MDP: Qual é Melhor e Mais Resistente?.",
+      "keywords": [
+        "guarda-roupa casal MDF ou MDP"
+      ],
+      "category": "Cluster 1",
+      "summary": "Guarda-Roupa Casal MDF ou MDP: Qual é Melhor e Mais Resistente? é uma página essencial do Loja de Móveis Marília. Guia completo sobre Guarda-Roupa Casal MDF ou MDP: Qual é Melhor e Mais Resistente?. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Guarda-Roupa Casal MDF ou MDP: Qual é Melhor e Mais Resistente?, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Guarda-Roupa Casal MDF ou MDP: Qual é Melhor e Mais Resistente?",
+        "guarda-roupa casal MDF ou MDP"
+      ]
+    },
+    {
+      "slug": "melhores-guarda-roupas-casal-baratos",
+      "title": "Melhores Guarda-Roupas Casal Baratos e Espaçosos em 2026",
+      "url": "https://lojademoveismarilia.com.br/guia/melhores-guarda-roupas-casal-baratos",
+      "description": "Guia completo sobre Melhores Guarda-Roupas Casal Baratos e Espaçosos em 2026.",
+      "keywords": [
+        "melhores guarda-roupas casal baratos"
+      ],
+      "category": "Cluster 1",
+      "summary": "Melhores Guarda-Roupas Casal Baratos e Espaçosos em 2026 é uma página essencial do Loja de Móveis Marília. Guia completo sobre Melhores Guarda-Roupas Casal Baratos e Espaçosos em 2026. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [
+        "guarda-roupas"
+      ],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Melhores Guarda-Roupas Casal Baratos e Espaçosos em 2026, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Melhores Guarda-Roupas Casal Baratos e Espaçosos em 2026",
+        "melhores guarda-roupas casal baratos",
+        "Guarda-Roupas"
+      ]
+    },
+    {
+      "slug": "como-escolher-guarda-roupa-ideal",
+      "title": "Como Escolher Guarda-Roupa Ideal para Quarto Pequeno",
+      "url": "https://lojademoveismarilia.com.br/guia/como-escolher-guarda-roupa-ideal",
+      "description": "Guia completo sobre Como Escolher Guarda-Roupa Ideal para Quarto Pequeno.",
+      "keywords": [
+        "como escolher guarda-roupa ideal"
+      ],
+      "category": "Cluster 1",
+      "summary": "Como Escolher Guarda-Roupa Ideal para Quarto Pequeno é uma página essencial do Loja de Móveis Marília. Guia completo sobre Como Escolher Guarda-Roupa Ideal para Quarto Pequeno. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Como Escolher Guarda-Roupa Ideal para Quarto Pequeno, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Como Escolher Guarda-Roupa Ideal para Quarto Pequeno",
+        "como escolher guarda-roupa ideal"
+      ]
+    },
+    {
+      "slug": "cozinha-modulada-pequena-vale-a-pena",
+      "title": "Cozinha Modulada Pequena Vale a Pena? Veja Antes de Comprar",
+      "url": "https://lojademoveismarilia.com.br/guia/cozinha-modulada-pequena-vale-a-pena",
+      "description": "Guia completo sobre Cozinha Modulada Pequena Vale a Pena? Veja Antes de Comprar.",
+      "keywords": [
+        "cozinha modulada pequena vale a pena"
+      ],
+      "category": "Cluster 1",
+      "summary": "Cozinha Modulada Pequena Vale a Pena? Veja Antes de Comprar é uma página essencial do Loja de Móveis Marília. Guia completo sobre Cozinha Modulada Pequena Vale a Pena? Veja Antes de Comprar. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Cozinha Modulada Pequena Vale a Pena? Veja Antes de Comprar, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Cozinha Modulada Pequena Vale a Pena? Veja Antes de Comprar",
+        "cozinha modulada pequena vale a pena"
+      ]
+    },
+    {
+      "slug": "melhores-cozinhas-moduladas-baratas",
+      "title": "Melhores Cozinhas Moduladas Baratas para Apartamento",
+      "url": "https://lojademoveismarilia.com.br/guia/melhores-cozinhas-moduladas-baratas",
+      "description": "Guia completo sobre Melhores Cozinhas Moduladas Baratas para Apartamento.",
+      "keywords": [
+        "melhores cozinhas moduladas baratas"
+      ],
+      "category": "Cluster 1",
+      "summary": "Melhores Cozinhas Moduladas Baratas para Apartamento é uma página essencial do Loja de Móveis Marília. Guia completo sobre Melhores Cozinhas Moduladas Baratas para Apartamento. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [
+        "cozinhas"
+      ],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Melhores Cozinhas Moduladas Baratas para Apartamento, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Melhores Cozinhas Moduladas Baratas para Apartamento",
+        "melhores cozinhas moduladas baratas",
+        "Cozinhas"
+      ]
+    },
+    {
+      "slug": "como-escolher-moveis-apartamento-pequeno",
+      "title": "Como Escolher Móveis para Apartamento Pequeno sem Errar",
+      "url": "https://lojademoveismarilia.com.br/guia/como-escolher-moveis-apartamento-pequeno",
+      "description": "Guia completo sobre Como Escolher Móveis para Apartamento Pequeno sem Errar.",
+      "keywords": [
+        "como escolher móveis para apartamento pequeno"
+      ],
+      "category": "Cluster 1",
+      "summary": "Como Escolher Móveis para Apartamento Pequeno sem Errar é uma página essencial do Loja de Móveis Marília. Guia completo sobre Como Escolher Móveis para Apartamento Pequeno sem Errar. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Como Escolher Móveis para Apartamento Pequeno sem Errar, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Como Escolher Móveis para Apartamento Pequeno sem Errar",
+        "como escolher móveis para apartamento pequeno"
+      ]
     },
     {
       "slug": "por-que-moveis-estalam",
       "title": "Por Que Móveis Estalam de Madrugada? A Explicação Real",
       "url": "https://lojademoveismarilia.com.br/guia/por-que-moveis-estalam",
-      "description": ""
+      "description": "Guia completo sobre Por Que Móveis Estalam de Madrugada? A Explicação Real.",
+      "keywords": [
+        "por que móveis estalam de madrugada"
+      ],
+      "category": "Cluster 2",
+      "summary": "Por Que Móveis Estalam de Madrugada? A Explicação Real é uma página essencial do Loja de Móveis Marília. Guia completo sobre Por Que Móveis Estalam de Madrugada? A Explicação Real. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Por Que Móveis Estalam de Madrugada? A Explicação Real, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Por Que Móveis Estalam de Madrugada? A Explicação Real",
+        "por que móveis estalam de madrugada"
+      ]
     },
     {
       "slug": "como-envelopar-moveis",
       "title": "Como Envelopar Móveis: Passo a Passo Completo para Renovar Sem Pintar",
       "url": "https://lojademoveismarilia.com.br/guia/como-envelopar-moveis",
-      "description": ""
+      "description": "Guia completo sobre Como Envelopar Móveis: Passo a Passo Completo para Renovar Sem Pintar.",
+      "keywords": [
+        "como envelopar móveis passo a passo"
+      ],
+      "category": "Cluster 2",
+      "summary": "Como Envelopar Móveis: Passo a Passo Completo para Renovar Sem Pintar é uma página essencial do Loja de Móveis Marília. Guia completo sobre Como Envelopar Móveis: Passo a Passo Completo para Renovar Sem Pintar. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Como Envelopar Móveis: Passo a Passo Completo para Renovar Sem Pintar, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Como Envelopar Móveis: Passo a Passo Completo para Renovar Sem Pintar",
+        "como envelopar móveis passo a passo"
+      ]
     },
     {
       "slug": "mdf-vs-mdp-diferenca",
       "title": "MDF vs MDP: a Diferença que Define a Durabilidade dos Seus Móveis",
       "url": "https://lojademoveismarilia.com.br/guia/mdf-vs-mdp-diferenca",
-      "description": ""
+      "description": "Guia completo sobre MDF vs MDP: a Diferença que Define a Durabilidade dos Seus Móveis.",
+      "keywords": [
+        "diferença entre MDF e MDP"
+      ],
+      "category": "Cluster 2",
+      "summary": "MDF vs MDP: a Diferença que Define a Durabilidade dos Seus Móveis é uma página essencial do Loja de Móveis Marília. Guia completo sobre MDF vs MDP: a Diferença que Define a Durabilidade dos Seus Móveis. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre MDF vs MDP: a Diferença que Define a Durabilidade dos Seus Móveis, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "MDF vs MDP: a Diferença que Define a Durabilidade dos Seus Móveis",
+        "diferença entre MDF e MDP"
+      ]
     },
     {
       "slug": "como-restaurar-moveis-madeira",
       "title": "Como Restaurar Móveis de Madeira: Do Arranhado ao Acabamento Novo",
       "url": "https://lojademoveismarilia.com.br/guia/como-restaurar-moveis-madeira",
-      "description": ""
+      "description": "Guia completo sobre Como Restaurar Móveis de Madeira: Do Arranhado ao Acabamento Novo.",
+      "keywords": [
+        "como restaurar móveis de madeira"
+      ],
+      "category": "Cluster 2",
+      "summary": "Como Restaurar Móveis de Madeira: Do Arranhado ao Acabamento Novo é uma página essencial do Loja de Móveis Marília. Guia completo sobre Como Restaurar Móveis de Madeira: Do Arranhado ao Acabamento Novo. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Como Restaurar Móveis de Madeira: Do Arranhado ao Acabamento Novo, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Como Restaurar Móveis de Madeira: Do Arranhado ao Acabamento Novo",
+        "como restaurar móveis de madeira"
+      ]
     },
     {
       "slug": "como-pintar-moveis-madeira",
       "title": "Como Pintar Móveis de Madeira: Guia Completo para um Acabamento Profissional",
       "url": "https://lojademoveismarilia.com.br/guia/como-pintar-moveis-madeira",
-      "description": ""
+      "description": "Guia completo sobre Como Pintar Móveis de Madeira: Guia Completo para um Acabamento Profissional.",
+      "keywords": [
+        "como pintar móveis de madeira"
+      ],
+      "category": "Cluster 2",
+      "summary": "Como Pintar Móveis de Madeira: Guia Completo para um Acabamento Profissional é uma página essencial do Loja de Móveis Marília. Guia completo sobre Como Pintar Móveis de Madeira: Guia Completo para um Acabamento Profissional. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Como Pintar Móveis de Madeira: Guia Completo para um Acabamento Profissional, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Como Pintar Móveis de Madeira: Guia Completo para um Acabamento Profissional",
+        "como pintar móveis de madeira"
+      ]
     },
     {
       "slug": "guia-instalacao-painel-tv",
       "title": "Como Instalar Painel de TV: Guia Completo com Tipos de Bucha e Altura Ideal",
       "url": "https://lojademoveismarilia.com.br/guia/guia-instalacao-painel-tv",
-      "description": ""
+      "description": "Guia completo sobre Como Instalar Painel de TV: Guia Completo com Tipos de Bucha e Altura Ideal.",
+      "keywords": [
+        "como instalar painel de TV"
+      ],
+      "category": "Cluster 2",
+      "summary": "Como Instalar Painel de TV: Guia Completo com Tipos de Bucha e Altura Ideal é uma página essencial do Loja de Móveis Marília. Guia completo sobre Como Instalar Painel de TV: Guia Completo com Tipos de Bucha e Altura Ideal. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Como Instalar Painel de TV: Guia Completo com Tipos de Bucha e Altura Ideal, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Como Instalar Painel de TV: Guia Completo com Tipos de Bucha e Altura Ideal",
+        "como instalar painel de TV"
+      ]
     },
     {
       "slug": "melhores-lojas-moveis-online",
-      "title": "Melhores Lojas de Móveis Online em 2024: Onde Comprar com Segurança",
+      "title": "Melhores Lojas de Móveis Online em 2026: Onde Comprar com Segurança",
       "url": "https://lojademoveismarilia.com.br/guia/melhores-lojas-moveis-online",
-      "description": ""
+      "description": "Guia completo sobre Melhores Lojas de Móveis Online em 2026: Onde Comprar com Segurança.",
+      "keywords": [
+        "melhores lojas de móveis online"
+      ],
+      "category": "Cluster 3",
+      "summary": "Melhores Lojas de Móveis Online em 2026: Onde Comprar com Segurança é uma página essencial do Loja de Móveis Marília. Guia completo sobre Melhores Lojas de Móveis Online em 2026: Onde Comprar com Segurança. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Melhores Lojas de Móveis Online em 2026: Onde Comprar com Segurança, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Melhores Lojas de Móveis Online em 2026: Onde Comprar com Segurança",
+        "melhores lojas de móveis online"
+      ]
     },
     {
       "slug": "moveis-outlet-pequenos-defeitos",
       "title": "Móveis Outlet com Pequenos Defeitos: Vale a Pena Comprar?",
       "url": "https://lojademoveismarilia.com.br/guia/moveis-outlet-pequenos-defeitos",
-      "description": ""
+      "description": "Guia completo sobre Móveis Outlet com Pequenos Defeitos: Vale a Pena Comprar?.",
+      "keywords": [
+        "móveis outlet com pequenos defeitos"
+      ],
+      "category": "Cluster 3",
+      "summary": "Móveis Outlet com Pequenos Defeitos: Vale a Pena Comprar? é uma página essencial do Loja de Móveis Marília. Guia completo sobre Móveis Outlet com Pequenos Defeitos: Vale a Pena Comprar?. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Móveis Outlet com Pequenos Defeitos: Vale a Pena Comprar?, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Móveis Outlet com Pequenos Defeitos: Vale a Pena Comprar?",
+        "móveis outlet com pequenos defeitos"
+      ]
     },
     {
       "slug": "moveis-frete-gratis-entrega-rapida",
       "title": "Móveis com Frete Grátis e Entrega Rápida: Como Encontrar e Não Cair em Armadilha",
       "url": "https://lojademoveismarilia.com.br/guia/moveis-frete-gratis-entrega-rapida",
-      "description": ""
+      "description": "Guia completo sobre Móveis com Frete Grátis e Entrega Rápida: Como Encontrar e Não Cair em Armadilha.",
+      "keywords": [
+        "móveis com frete grátis e entrega rápida"
+      ],
+      "category": "Cluster 3",
+      "summary": "Móveis com Frete Grátis e Entrega Rápida: Como Encontrar e Não Cair em Armadilha é uma página essencial do Loja de Móveis Marília. Guia completo sobre Móveis com Frete Grátis e Entrega Rápida: Como Encontrar e Não Cair em Armadilha. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Móveis com Frete Grátis e Entrega Rápida: Como Encontrar e Não Cair em Armadilha, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Móveis com Frete Grátis e Entrega Rápida: Como Encontrar e Não Cair em Armadilha",
+        "móveis com frete grátis e entrega rápida"
+      ]
     },
     {
       "slug": "moveis-usados-perto-de-mim",
       "title": "Móveis Usados Perto de Mim: Como Encontrar, Negociar e Não Se Arrepender",
       "url": "https://lojademoveismarilia.com.br/guia/moveis-usados-perto-de-mim",
-      "description": ""
+      "description": "Guia completo sobre Móveis Usados Perto de Mim: Como Encontrar, Negociar e Não Se Arrepender.",
+      "keywords": [
+        "móveis usados perto de mim"
+      ],
+      "category": "Cluster 4",
+      "summary": "Móveis Usados Perto de Mim: Como Encontrar, Negociar e Não Se Arrepender é uma página essencial do Loja de Móveis Marília. Guia completo sobre Móveis Usados Perto de Mim: Como Encontrar, Negociar e Não Se Arrepender. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Móveis Usados Perto de Mim: Como Encontrar, Negociar e Não Se Arrepender, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Móveis Usados Perto de Mim: Como Encontrar, Negociar e Não Se Arrepender",
+        "móveis usados perto de mim"
+      ]
     },
     {
       "slug": "lojas-moveis-sao-paulo",
       "title": "Lojas de Móveis em São Paulo: Os Melhores Endereços e Como Economizar",
       "url": "https://lojademoveismarilia.com.br/guia/lojas-moveis-sao-paulo",
-      "description": ""
+      "description": "Guia completo sobre Lojas de Móveis em São Paulo: Os Melhores Endereços e Como Economizar.",
+      "keywords": [
+        "lojas de móveis em São Paulo"
+      ],
+      "category": "Cluster 4",
+      "summary": "Lojas de Móveis em São Paulo: Os Melhores Endereços e Como Economizar é uma página essencial do Loja de Móveis Marília. Guia completo sobre Lojas de Móveis em São Paulo: Os Melhores Endereços e Como Economizar. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Lojas de Móveis em São Paulo: Os Melhores Endereços e Como Economizar, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Lojas de Móveis em São Paulo: Os Melhores Endereços e Como Economizar",
+        "lojas de móveis em São Paulo"
+      ]
     },
     {
       "slug": "lojas-moveis-curitiba",
       "title": "Lojas de Móveis em Curitiba: Onde Comprar e Como Economizar",
       "url": "https://lojademoveismarilia.com.br/guia/lojas-moveis-curitiba",
-      "description": ""
+      "description": "Guia completo sobre Lojas de Móveis em Curitiba: Onde Comprar e Como Economizar.",
+      "keywords": [
+        "lojas de móveis em Curitiba"
+      ],
+      "category": "Cluster 4",
+      "summary": "Lojas de Móveis em Curitiba: Onde Comprar e Como Economizar é uma página essencial do Loja de Móveis Marília. Guia completo sobre Lojas de Móveis em Curitiba: Onde Comprar e Como Economizar. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Lojas de Móveis em Curitiba: Onde Comprar e Como Economizar, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Lojas de Móveis em Curitiba: Onde Comprar e Como Economizar",
+        "lojas de móveis em Curitiba"
+      ]
     },
     {
       "slug": "tipos-madeira-para-moveis",
       "title": "Tipos de Madeira para Móveis: Qual Usar em Cada Situação",
       "url": "https://lojademoveismarilia.com.br/guia/tipos-madeira-para-moveis",
-      "description": ""
+      "description": "Guia completo sobre Tipos de Madeira para Móveis: Qual Usar em Cada Situação.",
+      "keywords": [
+        "tipos de madeira para móveis"
+      ],
+      "category": "Cluster 5",
+      "summary": "Tipos de Madeira para Móveis: Qual Usar em Cada Situação é uma página essencial do Loja de Móveis Marília. Guia completo sobre Tipos de Madeira para Móveis: Qual Usar em Cada Situação. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Tipos de Madeira para Móveis: Qual Usar em Cada Situação, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Tipos de Madeira para Móveis: Qual Usar em Cada Situação",
+        "tipos de madeira para móveis"
+      ]
     },
     {
       "slug": "quanto-custa-moveis-planejados",
-      "title": "Quanto Custam Móveis Planejados em 2024: Tabela de Preços por Cômodo",
+      "title": "Quanto Custam Móveis Planejados em 2026: Tabela de Preços por Cômodo",
       "url": "https://lojademoveismarilia.com.br/guia/quanto-custa-moveis-planejados",
-      "description": ""
+      "description": "Guia completo sobre Quanto Custam Móveis Planejados em 2026: Tabela de Preços por Cômodo.",
+      "keywords": [
+        "quanto custam móveis planejados"
+      ],
+      "category": "Cluster 5",
+      "summary": "Quanto Custam Móveis Planejados em 2026: Tabela de Preços por Cômodo é uma página essencial do Loja de Móveis Marília. Guia completo sobre Quanto Custam Móveis Planejados em 2026: Tabela de Preços por Cômodo. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Quanto Custam Móveis Planejados em 2026: Tabela de Preços por Cômodo, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Quanto Custam Móveis Planejados em 2026: Tabela de Preços por Cômodo",
+        "quanto custam móveis planejados"
+      ]
     },
     {
       "slug": "moveis-de-pallet-como-fazer",
       "title": "Móveis de Pallet: Como Fazer do Zero com Segurança e Bom Resultado",
       "url": "https://lojademoveismarilia.com.br/guia/moveis-de-pallet-como-fazer",
-      "description": ""
+      "description": "Guia completo sobre Móveis de Pallet: Como Fazer do Zero com Segurança e Bom Resultado.",
+      "keywords": [
+        "móveis de pallet como fazer"
+      ],
+      "category": "Cluster 5",
+      "summary": "Móveis de Pallet: Como Fazer do Zero com Segurança e Bom Resultado é uma página essencial do Loja de Móveis Marília. Guia completo sobre Móveis de Pallet: Como Fazer do Zero com Segurança e Bom Resultado. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Móveis de Pallet: Como Fazer do Zero com Segurança e Bom Resultado, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Móveis de Pallet: Como Fazer do Zero com Segurança e Bom Resultado",
+        "móveis de pallet como fazer"
+      ]
     },
     {
       "slug": "moveis-industriais-sala",
       "title": "Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira",
       "url": "https://lojademoveismarilia.com.br/guia/moveis-industriais-sala",
-      "description": ""
+      "description": "Guia completo sobre Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira.",
+      "keywords": [
+        "móveis industriais para sala"
+      ],
+      "category": "Cluster 5",
+      "summary": "Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira é uma página essencial do Loja de Móveis Marília. Guia completo sobre Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira",
+        "móveis industriais para sala"
+      ]
     }
   ],
   "pages": [
@@ -182,23 +980,3107 @@
       "slug": "moveis-para-estudantes",
       "title": "Móveis para Estudantes",
       "url": "https://lojademoveismarilia.com.br/moveis-para-estudantes",
-      "description": "Guia completo para estudantes universitários"
+      "description": "Guia completo para estudantes universitários sobre móveis compactos, baratos e funcionais."
     },
     {
       "slug": "politicas",
       "title": "Políticas e Transparência",
       "url": "https://lojademoveismarilia.com.br/politicas",
-      "description": "Políticas de privacidade e transparência do site"
+      "description": "Políticas de privacidade, termos de uso e transparência do site."
     },
     {
       "slug": "contato",
       "title": "Contato",
       "url": "https://lojademoveismarilia.com.br/contato",
-      "description": "Entre em contato conosco"
+      "description": "Entre em contato conosco por e-mail ou WhatsApp para dúvidas e sugestões."
     }
   ],
+  "statistics": {
+    "totalCategories": 7,
+    "totalGuides": 33,
+    "totalPages": 4,
+    "generatedAt": "2026-07-04T03:08:41.380Z",
+    "lastUpdated": "2026-07-04T03:08:41.381Z",
+    "totalProducts": 61,
+    "avgPrice": 0
+  },
+  "relationships": {
+    "categoryToGuides": {
+      "guarda-roupas": [
+        "melhores-guarda-roupas-casal-baratos"
+      ],
+      "cozinhas": [
+        "melhores-cozinhas-moduladas-baratas"
+      ],
+      "paineis": [],
+      "quartos": [],
+      "eletrodomesticos": [],
+      "home-office": [
+        "moveis-home-office-barato"
+      ],
+      "sofas": [
+        "melhores-sofas-retrateis-2026"
+      ]
+    },
+    "guideToProducts": {
+      "moveis-area-externa": [],
+      "moveis-planejados-vs-modulados": [],
+      "moveis-home-office-barato": [],
+      "moveis-cozinha-pequena": [],
+      "moveis-varanda-jardim": [],
+      "moveis-quarto-casal": [],
+      "moveis-quarto-infantil": [],
+      "sofa-retratil-vale-a-pena": [],
+      "melhores-sofas-retrateis-2026": [],
+      "sofa-retratil-ou-reclinavel": [],
+      "sofa-de-canto-ou-sofa-retratil": [],
+      "guarda-roupa-casal-mdf-ou-mdp": [],
+      "melhores-guarda-roupas-casal-baratos": [],
+      "como-escolher-guarda-roupa-ideal": [],
+      "cozinha-modulada-pequena-vale-a-pena": [],
+      "melhores-cozinhas-moduladas-baratas": [],
+      "como-escolher-moveis-apartamento-pequeno": [],
+      "por-que-moveis-estalam": [],
+      "como-envelopar-moveis": [],
+      "mdf-vs-mdp-diferenca": [],
+      "como-restaurar-moveis-madeira": [],
+      "como-pintar-moveis-madeira": [],
+      "guia-instalacao-painel-tv": [],
+      "melhores-lojas-moveis-online": [],
+      "moveis-outlet-pequenos-defeitos": [],
+      "moveis-frete-gratis-entrega-rapida": [],
+      "moveis-usados-perto-de-mim": [],
+      "lojas-moveis-sao-paulo": [],
+      "lojas-moveis-curitiba": [],
+      "tipos-madeira-para-moveis": [],
+      "quanto-custa-moveis-planejados": [],
+      "moveis-de-pallet-como-fazer": [],
+      "moveis-industriais-sala": []
+    }
+  },
+  "faqTopics": [
+    {
+      "id": "geral-1",
+      "question": "Qual é a diferença entre MDF e MDP?",
+      "answer": "MDF (Medium Density Fiberboard) é feito de fibras de madeira finamente trituradas, resultando em superfície lisa e uniforme ideal para pintura. MDP (Medium Density Particleboard) utiliza partículas de madeira maiores, sendo mais econômico mas menos resistente à umidade."
+    },
+    {
+      "id": "geral-2",
+      "question": "Como escolher móveis para apartamento pequeno?",
+      "answer": "Priorize peças multifuncionais, com pés elevados para criar sensação de amplitude, cores claras e materiais leves. Sofás cama, mesas dobráveis e armários com portas de correr são excelentes opções."
+    },
+    {
+      "id": "cat-guarda-roupas-1",
+      "question": "Qual é o melhor material para Guarda-Roupas?",
+      "answer": "Para Guarda-Roupas, recomenda-se guarda-roupas em MDF para acabamentos superiores ou MDP para opções mais econômicas. Madeira maciça oferece maior durabilidade mas custo mais elevado."
+    },
+    {
+      "id": "cat-guarda-roupas-2",
+      "question": "Onde encontrar Guarda-Roupas com bom custo-benefício?",
+      "answer": "No Guarda-Roupas você encontra opções filtradas por preço, permitindo comparar custo-benefício entre diferentes vendedores do Mercado Livre e Shopee."
+    },
+    {
+      "id": "cat-cozinhas-1",
+      "question": "Qual é o melhor material para Cozinhas?",
+      "answer": "Para Cozinhas, recomenda-se cozinhas em MDF para acabamentos superiores ou MDP para opções mais econômicas. Madeira maciça oferece maior durabilidade mas custo mais elevado."
+    },
+    {
+      "id": "cat-cozinhas-2",
+      "question": "Onde encontrar Cozinhas com bom custo-benefício?",
+      "answer": "No Cozinhas você encontra opções filtradas por preço, permitindo comparar custo-benefício entre diferentes vendedores do Mercado Livre e Shopee."
+    },
+    {
+      "id": "cat-paineis-1",
+      "question": "Qual é o melhor material para Painéis e Racks?",
+      "answer": "Para Painéis e Racks, recomenda-se painéis e racks em MDF para acabamentos superiores ou MDP para opções mais econômicas. Madeira maciça oferece maior durabilidade mas custo mais elevado."
+    },
+    {
+      "id": "cat-paineis-2",
+      "question": "Onde encontrar Painéis e Racks com bom custo-benefício?",
+      "answer": "No Painéis e Racks você encontra opções filtradas por preço, permitindo comparar custo-benefício entre diferentes vendedores do Mercado Livre e Shopee."
+    },
+    {
+      "id": "cat-quartos-1",
+      "question": "Qual é o melhor material para Quartos?",
+      "answer": "Para Quartos, recomenda-se quartos em MDF para acabamentos superiores ou MDP para opções mais econômicas. Madeira maciça oferece maior durabilidade mas custo mais elevado."
+    },
+    {
+      "id": "cat-quartos-2",
+      "question": "Onde encontrar Quartos com bom custo-benefício?",
+      "answer": "No Quartos você encontra opções filtradas por preço, permitindo comparar custo-benefício entre diferentes vendedores do Mercado Livre e Shopee."
+    },
+    {
+      "id": "cat-eletrodomesticos-1",
+      "question": "Qual é o melhor material para Eletrodomésticos?",
+      "answer": "Para Eletrodomésticos, recomenda-se eletrodomésticos em MDF para acabamentos superiores ou MDP para opções mais econômicas. Madeira maciça oferece maior durabilidade mas custo mais elevado."
+    },
+    {
+      "id": "cat-eletrodomesticos-2",
+      "question": "Onde encontrar Eletrodomésticos com bom custo-benefício?",
+      "answer": "No Eletrodomésticos você encontra opções filtradas por preço, permitindo comparar custo-benefício entre diferentes vendedores do Mercado Livre e Shopee."
+    },
+    {
+      "id": "cat-home-office-1",
+      "question": "Qual é o melhor material para Home Office?",
+      "answer": "Para Home Office, recomenda-se home office em MDF para acabamentos superiores ou MDP para opções mais econômicas. Madeira maciça oferece maior durabilidade mas custo mais elevado."
+    },
+    {
+      "id": "cat-home-office-2",
+      "question": "Onde encontrar Home Office com bom custo-benefício?",
+      "answer": "No Home Office você encontra opções filtradas por preço, permitindo comparar custo-benefício entre diferentes vendedores do Mercado Livre e Shopee."
+    },
+    {
+      "id": "cat-sofas-1",
+      "question": "Qual é o melhor material para Sofás?",
+      "answer": "Para Sofás, recomenda-se sofás em MDF para acabamentos superiores ou MDP para opções mais econômicas. Madeira maciça oferece maior durabilidade mas custo mais elevado."
+    },
+    {
+      "id": "cat-sofas-2",
+      "question": "Onde encontrar Sofás com bom custo-benefício?",
+      "answer": "No Sofás você encontra opções filtradas por preço, permitindo comparar custo-benefício entre diferentes vendedores do Mercado Livre e Shopee."
+    }
+  ],
+  "knowledgeAreas": [
+    "Materiais de Construção e Acabamento",
+    "Design de Interiores e Ergonomia",
+    "Organização e Otimização de Espaços",
+    "Economia Doméstica e Consumo Consciente",
+    "Tendências de Mercado e Inovação em Móveis"
+  ],
+  "knowledgeGraph": {
+    "entities": {
+      "categories": [
+        {
+          "slug": "guarda-roupas",
+          "label": "Guarda-Roupas",
+          "url": "https://lojademoveismarilia.com.br/categoria/guarda-roupas",
+          "description": "Encontre as melhores ofertas de Guarda-Roupas com preços competitivos e frete para todo Brasil.",
+          "type": "Category"
+        },
+        {
+          "slug": "cozinhas",
+          "label": "Cozinhas",
+          "url": "https://lojademoveismarilia.com.br/categoria/cozinhas",
+          "description": "Encontre as melhores ofertas de Cozinhas com preços competitivos e frete para todo Brasil.",
+          "type": "Category"
+        },
+        {
+          "slug": "paineis",
+          "label": "Painéis e Racks",
+          "url": "https://lojademoveismarilia.com.br/categoria/paineis",
+          "description": "Encontre as melhores ofertas de Painéis e Racks com preços competitivos e frete para todo Brasil.",
+          "type": "Category"
+        },
+        {
+          "slug": "quartos",
+          "label": "Quartos",
+          "url": "https://lojademoveismarilia.com.br/categoria/quartos",
+          "description": "Encontre as melhores ofertas de Quartos com preços competitivos e frete para todo Brasil.",
+          "type": "Category"
+        },
+        {
+          "slug": "eletrodomesticos",
+          "label": "Eletrodomésticos",
+          "url": "https://lojademoveismarilia.com.br/categoria/eletrodomesticos",
+          "description": "Encontre as melhores ofertas de Eletrodomésticos com preços competitivos e frete para todo Brasil.",
+          "type": "Category"
+        },
+        {
+          "slug": "home-office",
+          "label": "Home Office",
+          "url": "https://lojademoveismarilia.com.br/categoria/home-office",
+          "description": "Encontre as melhores ofertas de Home Office com preços competitivos e frete para todo Brasil.",
+          "type": "Category"
+        },
+        {
+          "slug": "sofas",
+          "label": "Sofás",
+          "url": "https://lojademoveismarilia.com.br/categoria/sofas",
+          "description": "Encontre as melhores ofertas de Sofás com preços competitivos e frete para todo Brasil.",
+          "type": "Category"
+        }
+      ],
+      "guides": [
+        {
+          "slug": "moveis-area-externa",
+          "h1": "Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo",
+          "keyword": "móveis para área externa",
+          "cluster": 1,
+          "heroImage": "/banners/conjunto-para-jardim-com-1-sofa-2-poltronas-1-mesa-de-eb.webp",
+          "description": "Guia completo sobre Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo.",
+          "type": "Guide"
+        },
+        {
+          "slug": "moveis-planejados-vs-modulados",
+          "h1": "Móveis Planejados vs Modulados: Qual Vale Mais a Pena?",
+          "keyword": "móveis planejados vs modulados",
+          "cluster": 1,
+          "heroImage": "/banners/moveis-modulados-madesa.webp",
+          "description": "Guia completo sobre Móveis Planejados vs Modulados: Qual Vale Mais a Pena?.",
+          "type": "Guide"
+        },
+        {
+          "slug": "moveis-home-office-barato",
+          "h1": "Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco",
+          "keyword": "móveis para home office barato",
+          "cluster": 1,
+          "heroImage": "/banners/moveis-para-home-office.webp",
+          "description": "Guia completo sobre Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco.",
+          "type": "Guide"
+        },
+        {
+          "slug": "moveis-cozinha-pequena",
+          "h1": "Móveis para Cozinha Pequena: Guia Completo para Aproveitar Cada Centímetro",
+          "keyword": "móveis para cozinha pequena",
+          "cluster": 1,
+          "heroImage": "/banners/cozinha-pequena.webp",
+          "description": "Guia completo sobre Móveis para Cozinha Pequena: Guia Completo para Aproveitar Cada Centímetro.",
+          "type": "Guide"
+        },
+        {
+          "slug": "moveis-varanda-jardim",
+          "h1": "Móveis para Varanda e Jardim: Guia Completo para Montar o Espaço Externo",
+          "keyword": "móveis para varanda e jardim",
+          "cluster": 1,
+          "heroImage": "/banners/moveis-para-area-varanda-e-area-externa.webp",
+          "description": "Guia completo sobre Móveis para Varanda e Jardim: Guia Completo para Montar o Espaço Externo.",
+          "type": "Guide"
+        },
+        {
+          "slug": "moveis-quarto-casal",
+          "h1": "Móveis para Quarto de Casal: Conforto, Espaço e Organização",
+          "keyword": "móveis para quarto de casal",
+          "cluster": 1,
+          "heroImage": "/banners/moveis-para-quarto-de-casal.webp",
+          "description": "Guia completo sobre Móveis para Quarto de Casal: Conforto, Espaço e Organização.",
+          "type": "Guide"
+        },
+        {
+          "slug": "moveis-quarto-infantil",
+          "h1": "Móveis para Quarto Infantil: Como Montar um Quarto Seguro e Funcional",
+          "keyword": "móveis para quarto infantil",
+          "cluster": 1,
+          "heroImage": "/imagens/produtos/Quarto-de-Bebe-Completo-100-MDF-Comoda-BerЗo-e-Guarda-Roupa-Nina-Branco-Amadeirado.webp",
+          "description": "Guia completo sobre Móveis para Quarto Infantil: Como Montar um Quarto Seguro e Funcional.",
+          "type": "Guide"
+        },
+        {
+          "slug": "sofa-retratil-vale-a-pena",
+          "h1": "Sofá Retrátil Vale a Pena? Veja Prós e Contras Antes de Comprar",
+          "keyword": "sofá retrátil vale a pena",
+          "cluster": 1,
+          "heroImage": "/banners/sofa-sem-caixa-retratil-180m-soft-petit-boucle-cama-inbox.webp",
+          "description": "Guia completo sobre Sofá Retrátil Vale a Pena? Veja Prós e Contras Antes de Comprar.",
+          "type": "Guide"
+        },
+        {
+          "slug": "melhores-sofas-retrateis-2026",
+          "h1": "Melhores Sofás Retráteis para Apartamento Pequeno em 2026",
+          "keyword": "melhores sofás retráteis 2026",
+          "cluster": 1,
+          "heroImage": "/banners/sofa-retratil-para-apartamento-pequeno.webp",
+          "description": "Guia completo sobre Melhores Sofás Retráteis para Apartamento Pequeno em 2026.",
+          "type": "Guide"
+        },
+        {
+          "slug": "sofa-retratil-ou-reclinavel",
+          "h1": "Sofá Retrátil ou Reclinável: Qual Escolher para Sua Sala?",
+          "keyword": "sofá retrátil ou reclinável",
+          "cluster": 1,
+          "heroImage": "/banners/sofa-sem-caixa-retratil-180m-soft-petit-boucle-cama-inbox.webp",
+          "description": "Guia completo sobre Sofá Retrátil ou Reclinável: Qual Escolher para Sua Sala?.",
+          "type": "Guide"
+        },
+        {
+          "slug": "sofa-de-canto-ou-sofa-retratil",
+          "h1": "Sofá de Canto ou Sofá Retrátil: Qual Ocupa Menos Espaço?",
+          "keyword": "sofá de canto ou sofá retrátil",
+          "cluster": 1,
+          "heroImage": "/banners/saofa-de-canto-ou-sofa-normal.webp",
+          "description": "Guia completo sobre Sofá de Canto ou Sofá Retrátil: Qual Ocupa Menos Espaço?.",
+          "type": "Guide"
+        },
+        {
+          "slug": "guarda-roupa-casal-mdf-ou-mdp",
+          "h1": "Guarda-Roupa Casal MDF ou MDP: Qual é Melhor e Mais Resistente?",
+          "keyword": "guarda-roupa casal MDF ou MDP",
+          "cluster": 1,
+          "heroImage": "/banners/Como-comprar-moveis-pela-internet-com-seguranca copiar.webp",
+          "description": "Guia completo sobre Guarda-Roupa Casal MDF ou MDP: Qual é Melhor e Mais Resistente?.",
+          "type": "Guide"
+        },
+        {
+          "slug": "melhores-guarda-roupas-casal-baratos",
+          "h1": "Melhores Guarda-Roupas Casal Baratos e Espaçosos em 2026",
+          "keyword": "melhores guarda-roupas casal baratos",
+          "cluster": 1,
+          "heroImage": "/banners/melhor-guarda-roupa-de-casal-barato.webp",
+          "description": "Guia completo sobre Melhores Guarda-Roupas Casal Baratos e Espaçosos em 2026.",
+          "type": "Guide"
+        },
+        {
+          "slug": "como-escolher-guarda-roupa-ideal",
+          "h1": "Como Escolher Guarda-Roupa Ideal para Quarto Pequeno",
+          "keyword": "como escolher guarda-roupa ideal",
+          "cluster": 1,
+          "heroImage": "/banners/guarda-roupa-de-casal-para-quarto-pequeno.webp",
+          "description": "Guia completo sobre Como Escolher Guarda-Roupa Ideal para Quarto Pequeno.",
+          "type": "Guide"
+        },
+        {
+          "slug": "cozinha-modulada-pequena-vale-a-pena",
+          "h1": "Cozinha Modulada Pequena Vale a Pena? Veja Antes de Comprar",
+          "keyword": "cozinha modulada pequena vale a pena",
+          "cluster": 1,
+          "heroImage": "/banners/cozinha-apartamento.webp",
+          "description": "Guia completo sobre Cozinha Modulada Pequena Vale a Pena? Veja Antes de Comprar.",
+          "type": "Guide"
+        },
+        {
+          "slug": "melhores-cozinhas-moduladas-baratas",
+          "h1": "Melhores Cozinhas Moduladas Baratas para Apartamento",
+          "keyword": "melhores cozinhas moduladas baratas",
+          "cluster": 1,
+          "heroImage": "/banners/cozinha-moveis.webp",
+          "description": "Guia completo sobre Melhores Cozinhas Moduladas Baratas para Apartamento.",
+          "type": "Guide"
+        },
+        {
+          "slug": "como-escolher-moveis-apartamento-pequeno",
+          "h1": "Como Escolher Móveis para Apartamento Pequeno sem Errar",
+          "keyword": "como escolher móveis para apartamento pequeno",
+          "cluster": 1,
+          "heroImage": "/banners/como-escolher-moveis-para-apartamentos-pequenos.webp",
+          "description": "Guia completo sobre Como Escolher Móveis para Apartamento Pequeno sem Errar.",
+          "type": "Guide"
+        },
+        {
+          "slug": "por-que-moveis-estalam",
+          "h1": "Por Que Móveis Estalam de Madrugada? A Explicação Real",
+          "keyword": "por que móveis estalam de madrugada",
+          "cluster": 2,
+          "heroImage": "/banners/porque-os-moveis-estalam.webp",
+          "description": "Guia completo sobre Por Que Móveis Estalam de Madrugada? A Explicação Real.",
+          "type": "Guide"
+        },
+        {
+          "slug": "como-envelopar-moveis",
+          "h1": "Como Envelopar Móveis: Passo a Passo Completo para Renovar Sem Pintar",
+          "keyword": "como envelopar móveis passo a passo",
+          "cluster": 2,
+          "heroImage": "/banners/como-envelopar-moveis.webp",
+          "description": "Guia completo sobre Como Envelopar Móveis: Passo a Passo Completo para Renovar Sem Pintar.",
+          "type": "Guide"
+        },
+        {
+          "slug": "mdf-vs-mdp-diferenca",
+          "h1": "MDF vs MDP: a Diferença que Define a Durabilidade dos Seus Móveis",
+          "keyword": "diferença entre MDF e MDP",
+          "cluster": 2,
+          "heroImage": "/banners/cozinha-moveis.webp",
+          "description": "Guia completo sobre MDF vs MDP: a Diferença que Define a Durabilidade dos Seus Móveis.",
+          "type": "Guide"
+        },
+        {
+          "slug": "como-restaurar-moveis-madeira",
+          "h1": "Como Restaurar Móveis de Madeira: Do Arranhado ao Acabamento Novo",
+          "keyword": "como restaurar móveis de madeira",
+          "cluster": 2,
+          "heroImage": "/banners/como-tirar-arranhados-dos-moveis.webp",
+          "description": "Guia completo sobre Como Restaurar Móveis de Madeira: Do Arranhado ao Acabamento Novo.",
+          "type": "Guide"
+        },
+        {
+          "slug": "como-pintar-moveis-madeira",
+          "h1": "Como Pintar Móveis de Madeira: Guia Completo para um Acabamento Profissional",
+          "keyword": "como pintar móveis de madeira",
+          "cluster": 2,
+          "heroImage": "/banners/tintas-para-pintar-madeira.webp",
+          "description": "Guia completo sobre Como Pintar Móveis de Madeira: Guia Completo para um Acabamento Profissional.",
+          "type": "Guide"
+        },
+        {
+          "slug": "guia-instalacao-painel-tv",
+          "h1": "Como Instalar Painel de TV: Guia Completo com Tipos de Bucha e Altura Ideal",
+          "keyword": "como instalar painel de TV",
+          "cluster": 2,
+          "heroImage": "/banners/como-instalar-painel-de-tv.webp",
+          "description": "Guia completo sobre Como Instalar Painel de TV: Guia Completo com Tipos de Bucha e Altura Ideal.",
+          "type": "Guide"
+        },
+        {
+          "slug": "melhores-lojas-moveis-online",
+          "h1": "Melhores Lojas de Móveis Online em 2026: Onde Comprar com Segurança",
+          "keyword": "melhores lojas de móveis online",
+          "cluster": 3,
+          "heroImage": "/banners/Como-comprar-moveis-pela-internet-com-seguranca2.webp",
+          "description": "Guia completo sobre Melhores Lojas de Móveis Online em 2026: Onde Comprar com Segurança.",
+          "type": "Guide"
+        },
+        {
+          "slug": "moveis-outlet-pequenos-defeitos",
+          "h1": "Móveis Outlet com Pequenos Defeitos: Vale a Pena Comprar?",
+          "keyword": "móveis outlet com pequenos defeitos",
+          "cluster": 3,
+          "heroImage": "/banners/loja-de-moveis-usados-em-marilia.webp",
+          "description": "Guia completo sobre Móveis Outlet com Pequenos Defeitos: Vale a Pena Comprar?.",
+          "type": "Guide"
+        },
+        {
+          "slug": "moveis-frete-gratis-entrega-rapida",
+          "h1": "Móveis com Frete Grátis e Entrega Rápida: Como Encontrar e Não Cair em Armadilha",
+          "keyword": "móveis com frete grátis e entrega rápida",
+          "cluster": 3,
+          "heroImage": "/banners/frete-gratis.png",
+          "description": "Guia completo sobre Móveis com Frete Grátis e Entrega Rápida: Como Encontrar e Não Cair em Armadilha.",
+          "type": "Guide"
+        },
+        {
+          "slug": "moveis-usados-perto-de-mim",
+          "h1": "Móveis Usados Perto de Mim: Como Encontrar, Negociar e Não Se Arrepender",
+          "keyword": "móveis usados perto de mim",
+          "cluster": 4,
+          "heroImage": "/banners/loja-demoveis-usados.webp",
+          "description": "Guia completo sobre Móveis Usados Perto de Mim: Como Encontrar, Negociar e Não Se Arrepender.",
+          "type": "Guide"
+        },
+        {
+          "slug": "lojas-moveis-sao-paulo",
+          "h1": "Lojas de Móveis em São Paulo: Os Melhores Endereços e Como Economizar",
+          "keyword": "lojas de móveis em São Paulo",
+          "cluster": 4,
+          "heroImage": "/banners/Rio-de-Janeiro-RJ-09-11-2021Marcas-dos-Cariocas-2021Lojas-de-moveis-e-decoracao.webp",
+          "description": "Guia completo sobre Lojas de Móveis em São Paulo: Os Melhores Endereços e Como Economizar.",
+          "type": "Guide"
+        },
+        {
+          "slug": "lojas-moveis-curitiba",
+          "h1": "Lojas de Móveis em Curitiba: Onde Comprar e Como Economizar",
+          "keyword": "lojas de móveis em Curitiba",
+          "cluster": 4,
+          "heroImage": "/banners/loja-de-moveis-em-curitiba.webp",
+          "description": "Guia completo sobre Lojas de Móveis em Curitiba: Onde Comprar e Como Economizar.",
+          "type": "Guide"
+        },
+        {
+          "slug": "tipos-madeira-para-moveis",
+          "h1": "Tipos de Madeira para Móveis: Qual Usar em Cada Situação",
+          "keyword": "tipos de madeira para móveis",
+          "cluster": 5,
+          "heroImage": "/banners/Que-tipos-de-madeira-existem-para-fazer-moveis-para-casa.webp",
+          "description": "Guia completo sobre Tipos de Madeira para Móveis: Qual Usar em Cada Situação.",
+          "type": "Guide"
+        },
+        {
+          "slug": "quanto-custa-moveis-planejados",
+          "h1": "Quanto Custam Móveis Planejados em 2026: Tabela de Preços por Cômodo",
+          "keyword": "quanto custam móveis planejados",
+          "cluster": 5,
+          "heroImage": "/banners/moveis-modulados-madesa.webp",
+          "description": "Guia completo sobre Quanto Custam Móveis Planejados em 2026: Tabela de Preços por Cômodo.",
+          "type": "Guide"
+        },
+        {
+          "slug": "moveis-de-pallet-como-fazer",
+          "h1": "Móveis de Pallet: Como Fazer do Zero com Segurança e Bom Resultado",
+          "keyword": "móveis de pallet como fazer",
+          "cluster": 5,
+          "heroImage": "/banners/como-fazer-moveis-de-pallets.webp",
+          "description": "Guia completo sobre Móveis de Pallet: Como Fazer do Zero com Segurança e Bom Resultado.",
+          "type": "Guide"
+        },
+        {
+          "slug": "moveis-industriais-sala",
+          "h1": "Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira",
+          "keyword": "móveis industriais para sala",
+          "cluster": 5,
+          "heroImage": "/banners/moveis-industriais-sala-estilo-urbano.webp",
+          "description": "Guia completo sobre Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira.",
+          "type": "Guide"
+        }
+      ],
+      "products": [
+        {
+          "id": "p-imp-001",
+          "name": "Guarda-Roupa Casal 8 Portas com Espelho Premium",
+          "slug": "guarda-roupa-casal-easy-slim-8-portas-com-espelho-amendoa-clean-off-white",
+          "category": "guarda-roupas",
+          "mainCategory": "quarto",
+          "brand": "Panorama Móveis",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-002",
+          "name": "Guarda-roupa Casal Ripado com Espelhos 2 Portas e 4 Gavetas Suburban Gold Espresso Móveis",
+          "slug": "guarda-roupa-casal-ripado-com-espelhos-2-portas-e-4-gavetas-suburban-gold-espresso-moveis",
+          "category": "guarda-roupas",
+          "mainCategory": "quarto",
+          "brand": "Suburban Gold",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-003",
+          "name": "Guarda-Roupa Casal Classic 6 Portas 6 Gavetas 100% MDF - Panorama Móveis",
+          "slug": "guarda-roupa-casal-classic-6-portas-6-gavetas-100-mdf",
+          "category": "guarda-roupas",
+          "mainCategory": "quarto",
+          "brand": "Panorama Móveis",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-004",
+          "name": "Guarda-Roupa Casal Harvard 3 Portas 2 Gavetas com Espelho 100% MDF - Panorama Móveis",
+          "slug": "guarda-roupa-casal-harvard-3-portas-2-gavetas-com-espelho-100-mdf",
+          "category": "guarda-roupas",
+          "mainCategory": "quarto",
+          "brand": "Panorama Móveis",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-005",
+          "name": "Guarda-Roupa Casal Severo 6 Portas 6 Gavetas com Espelho",
+          "slug": "guarda-roupa-casal-severo-6-portas-6-gavetas-com-espelho",
+          "category": "guarda-roupas",
+          "mainCategory": "quarto",
+          "brand": "Móveis Marília",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-006",
+          "name": "Cozinha Compacta Pop com Armário, Balcão e Tampo Branco Madesa",
+          "slug": "cozinha-compacta-pop-com-armrio-balcao-e-tampo-branco-madesa",
+          "category": "cozinhas",
+          "mainCategory": "cozinha",
+          "brand": "Madesa",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-007",
+          "name": "Cozinha Completa Madesa Reims 310001 com Armário e Balcão - Preto",
+          "slug": "cozinha-completa-madesa-reims-310001-com-armrio-e-balco-preto",
+          "category": "cozinhas",
+          "mainCategory": "cozinha",
+          "brand": "Madesa",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-008",
+          "name": "Armário de Cozinha Compacta Emilly Top Madesa",
+          "slug": "armrio-de-cozinha-compacta-emilly-top-madesa",
+          "category": "cozinhas",
+          "mainCategory": "cozinha",
+          "brand": "Madesa",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-009",
+          "name": "Armário de Cozinha Compacta Rustic Preto Emilly Top Madesa",
+          "slug": "armrio-de-cozinha-compacta-rustic-preto-emilly-top-madesa",
+          "category": "cozinhas",
+          "mainCategory": "cozinha",
+          "brand": "Madesa",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-010",
+          "name": "Armário de Cozinha Compacta 229cm Rustic Emilly Pop Madesa",
+          "slug": "armrio-de-cozinha-compacta-229cm-rustic-emilly-pop-madesa",
+          "category": "cozinhas",
+          "mainCategory": "cozinha",
+          "brand": "Madesa",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-011",
+          "name": "Armário de Cozinha Completa 240 cm Suspenso Nice Madesa",
+          "slug": "armario-de-cozinha-completa-240-cm-suspenso-nice-madesa",
+          "category": "cozinhas",
+          "mainCategory": "cozinha",
+          "brand": "Madesa",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-012",
+          "name": "Cozinha Modulada Completa Móveis Home 100% MDF 10 Portas e 6 Gavetas",
+          "slug": "cozinha-modulada-completa-mveis-home-100-mdf-10-portas-e-6-gavetas",
+          "category": "cozinhas",
+          "mainCategory": "cozinha",
+          "brand": "Móveis Home",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-013",
+          "name": "Conjunto Sala de Jantar Mesa Tampo de Vidro 4 Cadeiras Rustic/Cinza/Silver Anaju Madesa",
+          "slug": "conjunto-sala-de-jantar-mesa-tampo-de-vidro-4-cadeiras-rustic-cinza-silver-anaju-madesa",
+          "category": "cozinhas",
+          "mainCategory": "cozinha",
+          "brand": "Madesa",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-014",
+          "name": "Conjunto Sala de Jantar Talita Madesa Mesa Tampo Madeira 4 Cadeiras Rustic/Preto",
+          "slug": "conjunto-sala-de-jantar-talita-madesa-mesa-tampo-madeira-4-cadeiras-rustic-preto",
+          "category": "cozinhas",
+          "mainCategory": "cozinha",
+          "brand": "Madesa",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-015",
+          "name": "Conjunto Sala de Jantar Bahamas Madesa Mesa Tampo de Madeira 6 Cadeiras",
+          "slug": "conjunto-sala-de-jantar-bahamas-madesa-mesa-tampo-de-madeira-6-cadeiras-rustic-preto",
+          "category": "cozinhas",
+          "mainCategory": "cozinha",
+          "brand": "Madesa",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-016",
+          "name": "Conjunto Sala Jantar Jaíne Madesa Mesa Tampo de Madeira com 6 Cadeiras",
+          "slug": "conjunto-sala-jantar-jaine-madesa-mesa-tampo-de-madeira-com-6-cadeiras",
+          "category": "cozinhas",
+          "mainCategory": "cozinha",
+          "brand": "Madesa",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-017",
+          "name": "Painel para TV até 90 Polegadas 229x250cm Ripado com LED 3 Gavetas 100% MDF",
+          "slug": "painel-para-tv-at-90-polegadas-229x250cm-ripado-com-led-3-gavetas-100-mdf-grafite-off-white",
+          "category": "paineis",
+          "mainCategory": "sala",
+          "brand": "Móveis Marília",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-018",
+          "name": "Painel Para Tv Até 90 Polegadas Impressão Ripada Com Lj",
+          "slug": "painel-para-tv-ate-90-polegadas-impressao-ripada-com-led",
+          "category": "paineis",
+          "mainCategory": "sala",
+          "brand": "Gelius Móveis",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-019",
+          "name": "Painel para TV Até 60 Polegadas 1 Porta 140 Cm Nature Ripado/Off White Linea Brasil",
+          "slug": "painel-para-tv-at-60-polegadas-1-porta-140-cm-nature-ripado-off-white-linea-brasil",
+          "category": "paineis",
+          "mainCategory": "sala",
+          "brand": "Linea Brasil",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-020",
+          "name": "Rack Painel para TV até 90 Polegadas LED 100% MDF 219cmx240cm 3 Gavetas com Rodízios Royal Requinte Branco Off",
+          "slug": "rack-painel-tv-90-polegadas-mdf-3-gavetas-branco-off",
+          "category": "paineis",
+          "mainCategory": "sala",
+          "brand": "Móveis Marília",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-021",
+          "name": "Painel Rack Estante P/ Sala P/ Tv De Até 60 Polegadas C Pés",
+          "slug": "painel-rack-estante-para-tv-ate-60-polegadas-com-pes",
+          "category": "paineis",
+          "mainCategory": "sala",
+          "brand": "",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-022",
+          "name": "Quarto de Bebê 3 Peças com Berço Capitonê Cômoda 4 Gavetas e Guarda Roupa 4 Portas",
+          "slug": "quarto-de-bebe-3-peas-com-bero-capitone-cemoda-4-gavetas-e-guarda-roupa-4-portas-4-gavetas-aquarel-nature-branco",
+          "category": "quartos",
+          "mainCategory": "quarto",
+          "brand": "Aquarel",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-023",
+          "name": "Quarto de Bebê Completo 100% MDF Cômoda Berço e Guarda Roupa Nina Branco",
+          "slug": "quarto-de-bebe-completo-100-mdf-comoda-bero-e-guarda-roupa-nina-branco-amadeirado",
+          "category": "quartos",
+          "mainCategory": "quarto",
+          "brand": "Nina",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-024",
+          "name": "Quarto Bebê Completo Berço Americano Ben 3 Em1 Guarda Roupa 4 Portas e Cômoda",
+          "slug": "quarto-bebe-completo-bero-americano-ben-3-em1-guarda-roupa-4-portas-e-cmoda",
+          "category": "quartos",
+          "mainCategory": "quarto",
+          "brand": "Ben",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-025",
+          "name": "Quarto de Bebê Completo com Guarda Roupa Uli 4 Portas Cômoda Uli 4 Gavetas",
+          "slug": "quarto-de-bebe-completo-com-guarda-roupa-uli-4-portas-comoda",
+          "category": "quartos",
+          "mainCategory": "quarto",
+          "brand": "Uli",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-026",
+          "name": "Quarto de Bebê Infantil Completo Encanto Multimoveis Branco",
+          "slug": "quarto-de-bebe-infantil-completo-encanto-multimoveis-branco",
+          "category": "quartos",
+          "mainCategory": "quarto",
+          "brand": "Multimoveis",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-027",
+          "name": "Quarto de Bebê com Cômoda 4 Gavetas e Berço Minicama 4 em 1",
+          "slug": "quarto-de-bebe-com-comoda-4-gavetas-e-bero-minicama-4-em-1",
+          "category": "quartos",
+          "mainCategory": "quarto",
+          "brand": "Móveis Marília",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-028",
+          "name": "Cômoda de Bebê Infantil 1 Porta com Janela 4 Gavetas 100% MDF",
+          "slug": "comoda-de-bebe-infantil-1-porta-com-janela-4-gavetas",
+          "category": "quartos",
+          "mainCategory": "quarto",
+          "brand": "Móveis Marília",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-029",
+          "name": "Cômoda Grécia 8 Gavetas com Corrediças Telescópicas Multiuso para Quarto MDP/MDF",
+          "slug": "comoda-grecia-8-gavetas-com-corredias-telescopicas-multiuso-para-quarto-mdp-mdf",
+          "category": "quartos",
+          "mainCategory": "quarto",
+          "brand": "Móveis Marília",
+          "price": 0,
+          "type": "Product"
+        },
+        {
+          "id": "p-imp-030",
+          "name": "Conjunto Gabinete Banheiro Diamante 80cm MDF + Espelheira + Cuba + Tampo de Vidro",
+          "slug": "conjunto-gabinete-banheiro-diamante-80cm-mdf-espelheira-cuba-tampo-de-vidro-temperado",
+          "category": "quartos",
+          "mainCategory": "quarto",
+          "brand": "Diamante",
+          "price": 0,
+          "type": "Product"
+        }
+      ],
+      "materials": [
+        {
+          "name": "mdf",
+          "type": "Material"
+        },
+        {
+          "name": "vidro",
+          "type": "Material"
+        },
+        {
+          "name": "madeira",
+          "type": "Material"
+        },
+        {
+          "name": "mdp",
+          "type": "Material"
+        },
+        {
+          "name": "aço",
+          "type": "Material"
+        },
+        {
+          "name": "plástico",
+          "type": "Material"
+        },
+        {
+          "name": "ferro",
+          "type": "Material"
+        },
+        {
+          "name": "couro",
+          "type": "Material"
+        },
+        {
+          "name": "alumínio",
+          "type": "Material"
+        },
+        {
+          "name": "tecido",
+          "type": "Material"
+        },
+        {
+          "name": "suede",
+          "type": "Material"
+        },
+        {
+          "name": "linho",
+          "type": "Material"
+        },
+        {
+          "name": "tecidos",
+          "type": "Material"
+        },
+        {
+          "name": "veludo",
+          "type": "Material"
+        }
+      ],
+      "environments": [
+        {
+          "name": "cozinha",
+          "type": "Environment"
+        },
+        {
+          "name": "sala",
+          "type": "Environment"
+        },
+        {
+          "name": "quarto",
+          "type": "Environment"
+        },
+        {
+          "name": "banheiro",
+          "type": "Environment"
+        },
+        {
+          "name": "estudo",
+          "type": "Environment"
+        },
+        {
+          "name": "escritório",
+          "type": "Environment"
+        },
+        {
+          "name": "home office",
+          "type": "Environment"
+        },
+        {
+          "name": "varanda",
+          "type": "Environment"
+        },
+        {
+          "name": "jardim",
+          "type": "Environment"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Panorama Móveis",
+          "type": "Brand"
+        },
+        {
+          "name": "Suburban Gold",
+          "type": "Brand"
+        },
+        {
+          "name": "Móveis Marília",
+          "type": "Brand"
+        },
+        {
+          "name": "Madesa",
+          "type": "Brand"
+        },
+        {
+          "name": "Móveis Home",
+          "type": "Brand"
+        },
+        {
+          "name": "Gelius Móveis",
+          "type": "Brand"
+        },
+        {
+          "name": "Linea Brasil",
+          "type": "Brand"
+        },
+        {
+          "name": "Aquarel",
+          "type": "Brand"
+        },
+        {
+          "name": "Nina",
+          "type": "Brand"
+        },
+        {
+          "name": "Ben",
+          "type": "Brand"
+        },
+        {
+          "name": "Uli",
+          "type": "Brand"
+        },
+        {
+          "name": "Multimoveis",
+          "type": "Brand"
+        },
+        {
+          "name": "Diamante",
+          "type": "Brand"
+        },
+        {
+          "name": "Aramóveis",
+          "type": "Brand"
+        },
+        {
+          "name": "Philco",
+          "type": "Brand"
+        },
+        {
+          "name": "Consul",
+          "type": "Brand"
+        },
+        {
+          "name": "Wap",
+          "type": "Brand"
+        },
+        {
+          "name": "COMFCASA",
+          "type": "Brand"
+        },
+        {
+          "name": "Mondial",
+          "type": "Brand"
+        },
+        {
+          "name": "Brastemp",
+          "type": "Brand"
+        },
+        {
+          "name": "HQ",
+          "type": "Brand"
+        },
+        {
+          "name": "Midea",
+          "type": "Brand"
+        },
+        {
+          "name": "Gree",
+          "type": "Brand"
+        },
+        {
+          "name": "Móveis Bela",
+          "type": "Brand"
+        },
+        {
+          "name": "Perfin",
+          "type": "Brand"
+        },
+        {
+          "name": "Maxi do Brasil",
+          "type": "Brand"
+        },
+        {
+          "name": "Loja do Tesouro",
+          "type": "Brand"
+        },
+        {
+          "name": "Estate",
+          "type": "Brand"
+        },
+        {
+          "name": "Móveis Albergoni",
+          "type": "Brand"
+        },
+        {
+          "name": "Office",
+          "type": "Brand"
+        },
+        {
+          "name": "Roma",
+          "type": "Brand"
+        },
+        {
+          "name": "Zanzini",
+          "type": "Brand"
+        },
+        {
+          "name": "Acacia",
+          "type": "Brand"
+        },
+        {
+          "name": "AJL",
+          "type": "Brand"
+        },
+        {
+          "name": "Isis",
+          "type": "Brand"
+        },
+        {
+          "name": "Probel",
+          "type": "Brand"
+        },
+        {
+          "name": "Hellen",
+          "type": "Brand"
+        },
+        {
+          "name": "Espresso Móveis",
+          "type": "Brand"
+        },
+        {
+          "name": "Yescasa",
+          "type": "Brand"
+        },
+        {
+          "name": "Montreal",
+          "type": "Brand"
+        },
+        {
+          "name": "Celflex",
+          "type": "Brand"
+        },
+        {
+          "name": "Cama inBox",
+          "type": "Brand"
+        }
+      ],
+      "colors": [
+        {
+          "name": "branco",
+          "type": "Color"
+        },
+        {
+          "name": "preto",
+          "type": "Color"
+        },
+        {
+          "name": "cinza",
+          "type": "Color"
+        },
+        {
+          "name": "marrom",
+          "type": "Color"
+        },
+        {
+          "name": "bege",
+          "type": "Color"
+        },
+        {
+          "name": "creme",
+          "type": "Color"
+        }
+      ],
+      "styles": [
+        {
+          "name": "moderno",
+          "type": "Style"
+        },
+        {
+          "name": "industrial",
+          "type": "Style"
+        },
+        {
+          "name": "contemporâneo",
+          "type": "Style"
+        },
+        {
+          "name": "minimalista",
+          "type": "Style"
+        },
+        {
+          "name": "boho",
+          "type": "Style"
+        },
+        {
+          "name": "rústico",
+          "type": "Style"
+        },
+        {
+          "name": "clássico",
+          "type": "Style"
+        }
+      ],
+      "benefits": [
+        {
+          "name": "resistente",
+          "type": "Benefit"
+        },
+        {
+          "name": "durável",
+          "type": "Benefit"
+        },
+        {
+          "name": "confortável",
+          "type": "Benefit"
+        },
+        {
+          "name": "ecológico",
+          "type": "Benefit"
+        },
+        {
+          "name": "fácil de montar",
+          "type": "Benefit"
+        },
+        {
+          "name": "com rodas",
+          "type": "Benefit"
+        },
+        {
+          "name": "sustentável",
+          "type": "Benefit"
+        },
+        {
+          "name": "impermeável",
+          "type": "Benefit"
+        },
+        {
+          "name": "ergonômico",
+          "type": "Benefit"
+        },
+        {
+          "name": "reclinável",
+          "type": "Benefit"
+        }
+      ]
+    },
+    "relationships": {
+      "categoryToGuide": [
+        {
+          "source": "guarda-roupas",
+          "target": [
+            "melhores-guarda-roupas-casal-baratos"
+          ],
+          "type": "hasGuide",
+          "weight": 1
+        },
+        {
+          "source": "cozinhas",
+          "target": [
+            "melhores-cozinhas-moduladas-baratas"
+          ],
+          "type": "hasGuide",
+          "weight": 1
+        },
+        {
+          "source": "paineis",
+          "target": [],
+          "type": "hasGuide",
+          "weight": 0
+        },
+        {
+          "source": "quartos",
+          "target": [],
+          "type": "hasGuide",
+          "weight": 0
+        },
+        {
+          "source": "eletrodomesticos",
+          "target": [],
+          "type": "hasGuide",
+          "weight": 0
+        },
+        {
+          "source": "home-office",
+          "target": [
+            "moveis-home-office-barato"
+          ],
+          "type": "hasGuide",
+          "weight": 1
+        },
+        {
+          "source": "sofas",
+          "target": [
+            "melhores-sofas-retrateis-2026"
+          ],
+          "type": "hasGuide",
+          "weight": 1
+        }
+      ],
+      "guideToProduct": [
+        {
+          "source": "moveis-area-externa",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "moveis-planejados-vs-modulados",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "moveis-home-office-barato",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "moveis-cozinha-pequena",
+          "target": [
+            "cozinha-compacta-pop-com-armrio-balcao-e-tampo-branco-madesa",
+            "cozinha-completa-madesa-reims-310001-com-armrio-e-balco-preto",
+            "armrio-de-cozinha-compacta-emilly-top-madesa",
+            "armrio-de-cozinha-compacta-rustic-preto-emilly-top-madesa",
+            "armrio-de-cozinha-compacta-229cm-rustic-emilly-pop-madesa",
+            "armario-de-cozinha-completa-240-cm-suspenso-nice-madesa",
+            "cozinha-modulada-completa-mveis-home-100-mdf-10-portas-e-6-gavetas",
+            "kit-armario-cozinha-suspensa-aramoveis-compacta-5-portas-1-gaveta-nanda-cinammo-grafite",
+            "armario-de-cozinha-completa-pop-zanzini-6-portas-2-gavetas-nature-off-white",
+            "armario-cozinha-ajl-preto-com-rodas-porta-microondas-2-portas"
+          ],
+          "type": "recommendsProduct",
+          "weight": 10
+        },
+        {
+          "source": "moveis-varanda-jardim",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "moveis-quarto-casal",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "moveis-quarto-infantil",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "sofa-retratil-vale-a-pena",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "melhores-sofas-retrateis-2026",
+          "target": [
+            "sofa-canto-chaise-modulado-dominique-6-lugares-linho-bege-320cm-yescasa",
+            "sofa-canto-9-lugares-com-puff-cancun-montreal-branco",
+            "sofa-canto-luna-organico-265cm-bege-claro-celflex",
+            "sofa-modular-evo-270m-chaise-direita-creme-cama-inbox"
+          ],
+          "type": "recommendsProduct",
+          "weight": 4
+        },
+        {
+          "source": "sofa-retratil-ou-reclinavel",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "sofa-de-canto-ou-sofa-retratil",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "guarda-roupa-casal-mdf-ou-mdp",
+          "target": [
+            "guarda-roupa-casal-easy-slim-8-portas-com-espelho-amendoa-clean-off-white",
+            "guarda-roupa-casal-ripado-com-espelhos-2-portas-e-4-gavetas-suburban-gold-espresso-moveis",
+            "guarda-roupa-casal-classic-6-portas-6-gavetas-100-mdf",
+            "guarda-roupa-casal-harvard-3-portas-2-gavetas-com-espelho-100-mdf",
+            "guarda-roupa-casal-severo-6-portas-6-gavetas-com-espelho",
+            "guarda-roupa-solteiro-madesa-denver-2-portas-de-correr-preto"
+          ],
+          "type": "recommendsProduct",
+          "weight": 6
+        },
+        {
+          "source": "melhores-guarda-roupas-casal-baratos",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "como-escolher-guarda-roupa-ideal",
+          "target": [
+            "guarda-roupa-casal-easy-slim-8-portas-com-espelho-amendoa-clean-off-white",
+            "guarda-roupa-casal-ripado-com-espelhos-2-portas-e-4-gavetas-suburban-gold-espresso-moveis",
+            "guarda-roupa-casal-classic-6-portas-6-gavetas-100-mdf",
+            "guarda-roupa-casal-harvard-3-portas-2-gavetas-com-espelho-100-mdf",
+            "guarda-roupa-casal-severo-6-portas-6-gavetas-com-espelho",
+            "guarda-roupa-solteiro-madesa-denver-2-portas-de-correr-preto"
+          ],
+          "type": "recommendsProduct",
+          "weight": 6
+        },
+        {
+          "source": "cozinha-modulada-pequena-vale-a-pena",
+          "target": [
+            "cozinha-compacta-pop-com-armrio-balcao-e-tampo-branco-madesa",
+            "cozinha-completa-madesa-reims-310001-com-armrio-e-balco-preto",
+            "armrio-de-cozinha-compacta-emilly-top-madesa",
+            "armrio-de-cozinha-compacta-rustic-preto-emilly-top-madesa",
+            "armrio-de-cozinha-compacta-229cm-rustic-emilly-pop-madesa",
+            "armario-de-cozinha-completa-240-cm-suspenso-nice-madesa",
+            "cozinha-modulada-completa-mveis-home-100-mdf-10-portas-e-6-gavetas",
+            "kit-armario-cozinha-suspensa-aramoveis-compacta-5-portas-1-gaveta-nanda-cinammo-grafite",
+            "armario-de-cozinha-completa-pop-zanzini-6-portas-2-gavetas-nature-off-white",
+            "armario-cozinha-ajl-preto-com-rodas-porta-microondas-2-portas"
+          ],
+          "type": "recommendsProduct",
+          "weight": 10
+        },
+        {
+          "source": "melhores-cozinhas-moduladas-baratas",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "como-escolher-moveis-apartamento-pequeno",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "por-que-moveis-estalam",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "como-envelopar-moveis",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "mdf-vs-mdp-diferenca",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "como-restaurar-moveis-madeira",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "como-pintar-moveis-madeira",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "guia-instalacao-painel-tv",
+          "target": [
+            "painel-para-tv-at-90-polegadas-229x250cm-ripado-com-led-3-gavetas-100-mdf-grafite-off-white",
+            "painel-para-tv-ate-90-polegadas-impressao-ripada-com-led",
+            "painel-para-tv-at-60-polegadas-1-porta-140-cm-nature-ripado-off-white-linea-brasil",
+            "rack-painel-tv-90-polegadas-mdf-3-gavetas-branco-off",
+            "painel-rack-estante-para-tv-ate-60-polegadas-com-pes"
+          ],
+          "type": "recommendsProduct",
+          "weight": 5
+        },
+        {
+          "source": "melhores-lojas-moveis-online",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "moveis-outlet-pequenos-defeitos",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "moveis-frete-gratis-entrega-rapida",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "moveis-usados-perto-de-mim",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "lojas-moveis-sao-paulo",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "lojas-moveis-curitiba",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "tipos-madeira-para-moveis",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "quanto-custa-moveis-planejados",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "moveis-de-pallet-como-fazer",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        },
+        {
+          "source": "moveis-industriais-sala",
+          "target": [],
+          "type": "recommendsProduct",
+          "weight": 0
+        }
+      ],
+      "categoryToMaterial": [
+        {
+          "source": "guarda-roupas",
+          "target": [],
+          "type": "usesMaterial",
+          "weight": 0
+        },
+        {
+          "source": "cozinhas",
+          "target": [],
+          "type": "usesMaterial",
+          "weight": 0
+        },
+        {
+          "source": "paineis",
+          "target": [],
+          "type": "usesMaterial",
+          "weight": 0
+        },
+        {
+          "source": "quartos",
+          "target": [],
+          "type": "usesMaterial",
+          "weight": 0
+        },
+        {
+          "source": "eletrodomesticos",
+          "target": [],
+          "type": "usesMaterial",
+          "weight": 0
+        },
+        {
+          "source": "home-office",
+          "target": [],
+          "type": "usesMaterial",
+          "weight": 0
+        },
+        {
+          "source": "sofas",
+          "target": [],
+          "type": "usesMaterial",
+          "weight": 0
+        }
+      ],
+      "productToBrand": [
+        {
+          "source": "guarda-roupa-casal-easy-slim-8-portas-com-espelho-amendoa-clean-off-white",
+          "target": "Panorama Móveis",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "guarda-roupa-casal-ripado-com-espelhos-2-portas-e-4-gavetas-suburban-gold-espresso-moveis",
+          "target": "Suburban Gold",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "guarda-roupa-casal-classic-6-portas-6-gavetas-100-mdf",
+          "target": "Panorama Móveis",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "guarda-roupa-casal-harvard-3-portas-2-gavetas-com-espelho-100-mdf",
+          "target": "Panorama Móveis",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "guarda-roupa-casal-severo-6-portas-6-gavetas-com-espelho",
+          "target": "Móveis Marília",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "cozinha-compacta-pop-com-armrio-balcao-e-tampo-branco-madesa",
+          "target": "Madesa",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "cozinha-completa-madesa-reims-310001-com-armrio-e-balco-preto",
+          "target": "Madesa",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "armrio-de-cozinha-compacta-emilly-top-madesa",
+          "target": "Madesa",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "armrio-de-cozinha-compacta-rustic-preto-emilly-top-madesa",
+          "target": "Madesa",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "armrio-de-cozinha-compacta-229cm-rustic-emilly-pop-madesa",
+          "target": "Madesa",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "armario-de-cozinha-completa-240-cm-suspenso-nice-madesa",
+          "target": "Madesa",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "cozinha-modulada-completa-mveis-home-100-mdf-10-portas-e-6-gavetas",
+          "target": "Móveis Home",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "conjunto-sala-de-jantar-mesa-tampo-de-vidro-4-cadeiras-rustic-cinza-silver-anaju-madesa",
+          "target": "Madesa",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "conjunto-sala-de-jantar-talita-madesa-mesa-tampo-madeira-4-cadeiras-rustic-preto",
+          "target": "Madesa",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "conjunto-sala-de-jantar-bahamas-madesa-mesa-tampo-de-madeira-6-cadeiras-rustic-preto",
+          "target": "Madesa",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "conjunto-sala-jantar-jaine-madesa-mesa-tampo-de-madeira-com-6-cadeiras",
+          "target": "Madesa",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "painel-para-tv-at-90-polegadas-229x250cm-ripado-com-led-3-gavetas-100-mdf-grafite-off-white",
+          "target": "Móveis Marília",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "painel-para-tv-ate-90-polegadas-impressao-ripada-com-led",
+          "target": "Gelius Móveis",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "painel-para-tv-at-60-polegadas-1-porta-140-cm-nature-ripado-off-white-linea-brasil",
+          "target": "Linea Brasil",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "rack-painel-tv-90-polegadas-mdf-3-gavetas-branco-off",
+          "target": "Móveis Marília",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "quarto-de-bebe-3-peas-com-bero-capitone-cemoda-4-gavetas-e-guarda-roupa-4-portas-4-gavetas-aquarel-nature-branco",
+          "target": "Aquarel",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "quarto-de-bebe-completo-100-mdf-comoda-bero-e-guarda-roupa-nina-branco-amadeirado",
+          "target": "Nina",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "quarto-bebe-completo-bero-americano-ben-3-em1-guarda-roupa-4-portas-e-cmoda",
+          "target": "Ben",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "quarto-de-bebe-completo-com-guarda-roupa-uli-4-portas-comoda",
+          "target": "Uli",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "quarto-de-bebe-infantil-completo-encanto-multimoveis-branco",
+          "target": "Multimoveis",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "quarto-de-bebe-com-comoda-4-gavetas-e-bero-minicama-4-em-1",
+          "target": "Móveis Marília",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "comoda-de-bebe-infantil-1-porta-com-janela-4-gavetas",
+          "target": "Móveis Marília",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "comoda-grecia-8-gavetas-com-corredias-telescopicas-multiuso-para-quarto-mdp-mdf",
+          "target": "Móveis Marília",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "conjunto-gabinete-banheiro-diamante-80cm-mdf-espelheira-cuba-tampo-de-vidro-temperado",
+          "target": "Diamante",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "kit-armario-cozinha-suspensa-aramoveis-compacta-5-portas-1-gaveta-nanda-cinammo-grafite",
+          "target": "Aramóveis",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "micro-ondas-philco-28l-limpa-facil-1100w-preto-pmo30p",
+          "target": "Philco",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "micro-ondas-consul-20l-espelhado-cm020bf",
+          "target": "Consul",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "liquidificador-wap-wb2000-2l-900w-vidro-cinza",
+          "target": "Wap",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "liquidificador-individual-moedor-cafe-1200w-1-5l",
+          "target": "COMFCASA",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "fritadeira-eletrica-mondial-oven-12l-preta",
+          "target": "Mondial",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "lava-loucas-brastemp-8-servicos-preta-blf08ae",
+          "target": "Brastemp",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "ar-condicionado-split-hq-9000-btu-frio",
+          "target": "HQ",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "ar-condicionado-midea-airvolution-9000-btu-frio",
+          "target": "Midea",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "ar-condicionado-gree-9000-btu-frio-wifi",
+          "target": "Gree",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "escrivaninha-mesa-giratoria-3-gavetas-home-office-branco",
+          "target": "Móveis Bela",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "escrivaninha-canto-industrial-mesa-escritorio-180cm",
+          "target": "Perfin",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "mesa-escrivaninha-paris-115cm-branco-nature",
+          "target": "Maxi do Brasil",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "livreiro-mesa-porta-livros-organizador-177cm",
+          "target": "Loja do Tesouro",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "estante-prateleira-aco-6-bandejas-90x198",
+          "target": "Estate",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "armario-multiuso-mdf-para-livros-e-decoracao-90cm",
+          "target": "Móveis Albergoni",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "kit-2-estantes-para-livros-5-prateleiras-188cm-121cm-office",
+          "target": "Office",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "guarda-roupa-solteiro-madesa-denver-2-portas-de-correr-preto",
+          "target": "Madesa",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "guarda-roupa-solteiro-roma-2-portas-correr-2-gavetas-espelho",
+          "target": "Roma",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "armario-para-lavanderia-2-portas-com-rodinhas-multiuso-branco",
+          "target": "Móveis Marília",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "armario-de-cozinha-completa-pop-zanzini-6-portas-2-gavetas-nature-off-white",
+          "target": "Zanzini",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "rack-para-tv-ate-50-polegadas-moderno-com-portas-e-nichos-120cm",
+          "target": "Acacia",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "armario-cozinha-ajl-preto-com-rodas-porta-microondas-2-portas",
+          "target": "AJL",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "balcao-fruteira-isis-2-portas-1-gaveta-com-cestos-metalicos-92cm",
+          "target": "Isis",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "cama-box-conjugada-solteiro-ortopedica-sleep-prime-88x188cm-probel",
+          "target": "Probel",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "cama-box-colchao-solteiro-espuma-d33-new-millennium-hellen-88x188x57cm",
+          "target": "Hellen",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "conjunto-4-pecas-escrivaninha-gaveteiro-2-estantes-freijo-marrom",
+          "target": "Espresso Móveis",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "sofa-canto-chaise-modulado-dominique-6-lugares-linho-bege-320cm-yescasa",
+          "target": "Yescasa",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "sofa-canto-9-lugares-com-puff-cancun-montreal-branco",
+          "target": "Montreal",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "sofa-canto-luna-organico-265cm-bege-claro-celflex",
+          "target": "Celflex",
+          "type": "madeBy",
+          "weight": 1
+        },
+        {
+          "source": "sofa-modular-evo-270m-chaise-direita-creme-cama-inbox",
+          "target": "Cama inBox",
+          "type": "madeBy",
+          "weight": 1
+        }
+      ],
+      "guideToBenefit": [
+        {
+          "source": "moveis-area-externa",
+          "target": [
+            "resistente"
+          ],
+          "type": "highlightsBenefit",
+          "weight": 1
+        },
+        {
+          "source": "moveis-planejados-vs-modulados",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "moveis-home-office-barato",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "moveis-cozinha-pequena",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "moveis-varanda-jardim",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "moveis-quarto-casal",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "moveis-quarto-infantil",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "sofa-retratil-vale-a-pena",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "melhores-sofas-retrateis-2026",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "sofa-retratil-ou-reclinavel",
+          "target": [
+            "reclinável"
+          ],
+          "type": "highlightsBenefit",
+          "weight": 1
+        },
+        {
+          "source": "sofa-de-canto-ou-sofa-retratil",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "guarda-roupa-casal-mdf-ou-mdp",
+          "target": [
+            "resistente"
+          ],
+          "type": "highlightsBenefit",
+          "weight": 1
+        },
+        {
+          "source": "melhores-guarda-roupas-casal-baratos",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "como-escolher-guarda-roupa-ideal",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "cozinha-modulada-pequena-vale-a-pena",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "melhores-cozinhas-moduladas-baratas",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "como-escolher-moveis-apartamento-pequeno",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "por-que-moveis-estalam",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "como-envelopar-moveis",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "mdf-vs-mdp-diferenca",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "como-restaurar-moveis-madeira",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "como-pintar-moveis-madeira",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "guia-instalacao-painel-tv",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "melhores-lojas-moveis-online",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "moveis-outlet-pequenos-defeitos",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "moveis-frete-gratis-entrega-rapida",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "moveis-usados-perto-de-mim",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "lojas-moveis-sao-paulo",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "lojas-moveis-curitiba",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "tipos-madeira-para-moveis",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "quanto-custa-moveis-planejados",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "moveis-de-pallet-como-fazer",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "moveis-industriais-sala",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        }
+      ]
+    }
+  },
+  "searchIntents": [
+    {
+      "category": "guarda-roupas",
+      "label": "Guarda-Roupas",
+      "searchTerms": [
+        "comprar Guarda-Roupas",
+        "melhor Guarda-Roupas",
+        "Guarda-Roupas barato",
+        "Guarda-Roupas preço",
+        "como escolher Guarda-Roupas",
+        "dicas de Guarda-Roupas",
+        "Guarda-Roupas para apartamento pequeno",
+        "Guarda-Roupas sob medida",
+        "o que é Guarda-Roupas",
+        "qual o melhor Guarda-Roupas"
+      ],
+      "relatedGuides": [
+        "melhores-guarda-roupas-casal-baratos"
+      ]
+    },
+    {
+      "category": "cozinhas",
+      "label": "Cozinhas",
+      "searchTerms": [
+        "comprar Cozinhas",
+        "melhor Cozinhas",
+        "Cozinhas barato",
+        "Cozinhas preço",
+        "como escolher Cozinhas",
+        "dicas de Cozinhas",
+        "Cozinhas para apartamento pequeno",
+        "Cozinhas sob medida",
+        "o que é Cozinhas",
+        "qual o melhor Cozinhas"
+      ],
+      "relatedGuides": [
+        "melhores-cozinhas-moduladas-baratas"
+      ]
+    },
+    {
+      "category": "paineis",
+      "label": "Painéis e Racks",
+      "searchTerms": [
+        "comprar Painéis e Racks",
+        "melhor Painéis e Racks",
+        "Painéis e Racks barato",
+        "Painéis e Racks preço",
+        "como escolher Painéis e Racks",
+        "dicas de Painéis e Racks",
+        "Painéis e Racks para apartamento pequeno",
+        "Painéis e Racks sob medida",
+        "o que é Painéis e Racks",
+        "qual o melhor Painéis e Racks"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "quartos",
+      "label": "Quartos",
+      "searchTerms": [
+        "comprar Quartos",
+        "melhor Quartos",
+        "Quartos barato",
+        "Quartos preço",
+        "como escolher Quartos",
+        "dicas de Quartos",
+        "Quartos para apartamento pequeno",
+        "Quartos sob medida",
+        "o que é Quartos",
+        "qual o melhor Quartos"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "eletrodomesticos",
+      "label": "Eletrodomésticos",
+      "searchTerms": [
+        "comprar Eletrodomésticos",
+        "melhor Eletrodomésticos",
+        "Eletrodomésticos barato",
+        "Eletrodomésticos preço",
+        "como escolher Eletrodomésticos",
+        "dicas de Eletrodomésticos",
+        "Eletrodomésticos para apartamento pequeno",
+        "Eletrodomésticos sob medida",
+        "o que é Eletrodomésticos",
+        "qual o melhor Eletrodomésticos"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "home-office",
+      "label": "Home Office",
+      "searchTerms": [
+        "comprar Home Office",
+        "melhor Home Office",
+        "Home Office barato",
+        "Home Office preço",
+        "como escolher Home Office",
+        "dicas de Home Office",
+        "Home Office para apartamento pequeno",
+        "Home Office sob medida",
+        "o que é Home Office",
+        "qual o melhor Home Office"
+      ],
+      "relatedGuides": [
+        "moveis-home-office-barato"
+      ]
+    },
+    {
+      "category": "sofas",
+      "label": "Sofás",
+      "searchTerms": [
+        "comprar Sofás",
+        "melhor Sofás",
+        "Sofás barato",
+        "Sofás preço",
+        "como escolher Sofás",
+        "dicas de Sofás",
+        "Sofás para apartamento pequeno",
+        "Sofás sob medida",
+        "o que é Sofás",
+        "qual o melhor Sofás"
+      ],
+      "relatedGuides": [
+        "melhores-sofas-retrateis-2026"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo",
+      "searchTerms": [
+        "Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo",
+        "o que é móveis para área externa:  peças resistentes ao tempo",
+        "como fazer móveis para área externa:  peças resistentes ao tempo",
+        "dicas sobre móveis para área externa:  peças resistentes ao tempo",
+        "tutorial móveis para área externa:  peças resistentes ao tempo",
+        "móveis para área externa:  peças resistentes ao tempo passo a passo"
+      ],
+      "relatedGuides": [
+        "moveis-area-externa"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Móveis Planejados vs Modulados: Qual Vale Mais a Pena?",
+      "searchTerms": [
+        "Móveis Planejados vs Modulados: Qual Vale Mais a Pena?",
+        "o que é móveis planejados vs modulados: qual vale mais a pena?",
+        "como fazer móveis planejados vs modulados: qual vale mais a pena?",
+        "dicas sobre móveis planejados vs modulados: qual vale mais a pena?",
+        "tutorial móveis planejados vs modulados: qual vale mais a pena?",
+        "móveis planejados vs modulados: qual vale mais a pena? passo a passo"
+      ],
+      "relatedGuides": [
+        "moveis-planejados-vs-modulados"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco",
+      "searchTerms": [
+        "Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco",
+        "o que é móveis para home office barato: monte um escritório produtivo gastando pouco",
+        "como fazer móveis para home office barato: monte um escritório produtivo gastando pouco",
+        "dicas sobre móveis para home office barato: monte um escritório produtivo gastando pouco",
+        "tutorial móveis para home office barato: monte um escritório produtivo gastando pouco",
+        "móveis para home office barato: monte um escritório produtivo gastando pouco passo a passo"
+      ],
+      "relatedGuides": [
+        "moveis-home-office-barato"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Móveis para Cozinha Pequena: Guia Completo para Aproveitar Cada Centímetro",
+      "searchTerms": [
+        "Móveis para Cozinha Pequena: Guia Completo para Aproveitar Cada Centímetro",
+        "o que é móveis para cozinha pequena:  completo para aproveitar cada centímetro",
+        "como fazer móveis para cozinha pequena:  completo para aproveitar cada centímetro",
+        "dicas sobre móveis para cozinha pequena:  completo para aproveitar cada centímetro",
+        "tutorial móveis para cozinha pequena:  completo para aproveitar cada centímetro",
+        "móveis para cozinha pequena:  completo para aproveitar cada centímetro passo a passo"
+      ],
+      "relatedGuides": [
+        "moveis-cozinha-pequena"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Móveis para Varanda e Jardim: Guia Completo para Montar o Espaço Externo",
+      "searchTerms": [
+        "Móveis para Varanda e Jardim: Guia Completo para Montar o Espaço Externo",
+        "o que é móveis para varanda e jardim:  completo para montar o espaço externo",
+        "como fazer móveis para varanda e jardim:  completo para montar o espaço externo",
+        "dicas sobre móveis para varanda e jardim:  completo para montar o espaço externo",
+        "tutorial móveis para varanda e jardim:  completo para montar o espaço externo",
+        "móveis para varanda e jardim:  completo para montar o espaço externo passo a passo"
+      ],
+      "relatedGuides": [
+        "moveis-varanda-jardim"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Móveis para Quarto de Casal: Conforto, Espaço e Organização",
+      "searchTerms": [
+        "Móveis para Quarto de Casal: Conforto, Espaço e Organização",
+        "o que é móveis para quarto de casal: conforto, espaço e organização",
+        "como fazer móveis para quarto de casal: conforto, espaço e organização",
+        "dicas sobre móveis para quarto de casal: conforto, espaço e organização",
+        "tutorial móveis para quarto de casal: conforto, espaço e organização",
+        "móveis para quarto de casal: conforto, espaço e organização passo a passo"
+      ],
+      "relatedGuides": [
+        "moveis-quarto-casal"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Móveis para Quarto Infantil: Como Montar um Quarto Seguro e Funcional",
+      "searchTerms": [
+        "Móveis para Quarto Infantil: Como Montar um Quarto Seguro e Funcional",
+        "o que é móveis para quarto infantil: como montar um quarto seguro e funcional",
+        "como fazer móveis para quarto infantil: como montar um quarto seguro e funcional",
+        "dicas sobre móveis para quarto infantil: como montar um quarto seguro e funcional",
+        "tutorial móveis para quarto infantil: como montar um quarto seguro e funcional",
+        "móveis para quarto infantil: como montar um quarto seguro e funcional passo a passo"
+      ],
+      "relatedGuides": [
+        "moveis-quarto-infantil"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Sofá Retrátil Vale a Pena? Veja Prós e Contras Antes de Comprar",
+      "searchTerms": [
+        "Sofá Retrátil Vale a Pena? Veja Prós e Contras Antes de Comprar",
+        "o que é sofá retrátil vale a pena? veja prós e contras antes de comprar",
+        "como fazer sofá retrátil vale a pena? veja prós e contras antes de comprar",
+        "dicas sobre sofá retrátil vale a pena? veja prós e contras antes de comprar",
+        "tutorial sofá retrátil vale a pena? veja prós e contras antes de comprar",
+        "sofá retrátil vale a pena? veja prós e contras antes de comprar passo a passo"
+      ],
+      "relatedGuides": [
+        "sofa-retratil-vale-a-pena"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Melhores Sofás Retráteis para Apartamento Pequeno em 2026",
+      "searchTerms": [
+        "Melhores Sofás Retráteis para Apartamento Pequeno em 2026",
+        "o que é melhores sofás retráteis para apartamento pequeno em 2026",
+        "como fazer melhores sofás retráteis para apartamento pequeno em 2026",
+        "dicas sobre melhores sofás retráteis para apartamento pequeno em 2026",
+        "tutorial melhores sofás retráteis para apartamento pequeno em 2026",
+        "melhores sofás retráteis para apartamento pequeno em 2026 passo a passo"
+      ],
+      "relatedGuides": [
+        "melhores-sofas-retrateis-2026"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Sofá Retrátil ou Reclinável: Qual Escolher para Sua Sala?",
+      "searchTerms": [
+        "Sofá Retrátil ou Reclinável: Qual Escolher para Sua Sala?",
+        "o que é sofá retrátil ou reclinável: qual escolher para sua sala?",
+        "como fazer sofá retrátil ou reclinável: qual escolher para sua sala?",
+        "dicas sobre sofá retrátil ou reclinável: qual escolher para sua sala?",
+        "tutorial sofá retrátil ou reclinável: qual escolher para sua sala?",
+        "sofá retrátil ou reclinável: qual escolher para sua sala? passo a passo"
+      ],
+      "relatedGuides": [
+        "sofa-retratil-ou-reclinavel"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Sofá de Canto ou Sofá Retrátil: Qual Ocupa Menos Espaço?",
+      "searchTerms": [
+        "Sofá de Canto ou Sofá Retrátil: Qual Ocupa Menos Espaço?",
+        "o que é sofá de canto ou sofá retrátil: qual ocupa menos espaço?",
+        "como fazer sofá de canto ou sofá retrátil: qual ocupa menos espaço?",
+        "dicas sobre sofá de canto ou sofá retrátil: qual ocupa menos espaço?",
+        "tutorial sofá de canto ou sofá retrátil: qual ocupa menos espaço?",
+        "sofá de canto ou sofá retrátil: qual ocupa menos espaço? passo a passo"
+      ],
+      "relatedGuides": [
+        "sofa-de-canto-ou-sofa-retratil"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Guarda-Roupa Casal MDF ou MDP: Qual é Melhor e Mais Resistente?",
+      "searchTerms": [
+        "Guarda-Roupa Casal MDF ou MDP: Qual é Melhor e Mais Resistente?",
+        "o que é guarda-roupa casal mdf ou mdp: qual é melhor e mais resistente?",
+        "como fazer guarda-roupa casal mdf ou mdp: qual é melhor e mais resistente?",
+        "dicas sobre guarda-roupa casal mdf ou mdp: qual é melhor e mais resistente?",
+        "tutorial guarda-roupa casal mdf ou mdp: qual é melhor e mais resistente?",
+        "guarda-roupa casal mdf ou mdp: qual é melhor e mais resistente? passo a passo"
+      ],
+      "relatedGuides": [
+        "guarda-roupa-casal-mdf-ou-mdp"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Melhores Guarda-Roupas Casal Baratos e Espaçosos em 2026",
+      "searchTerms": [
+        "Melhores Guarda-Roupas Casal Baratos e Espaçosos em 2026",
+        "o que é melhores guarda-roupas casal baratos e espaçosos em 2026",
+        "como fazer melhores guarda-roupas casal baratos e espaçosos em 2026",
+        "dicas sobre melhores guarda-roupas casal baratos e espaçosos em 2026",
+        "tutorial melhores guarda-roupas casal baratos e espaçosos em 2026",
+        "melhores guarda-roupas casal baratos e espaçosos em 2026 passo a passo"
+      ],
+      "relatedGuides": [
+        "melhores-guarda-roupas-casal-baratos"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Como Escolher Guarda-Roupa Ideal para Quarto Pequeno",
+      "searchTerms": [
+        "Como Escolher Guarda-Roupa Ideal para Quarto Pequeno",
+        "o que é guarda-roupa ideal para quarto pequeno",
+        "como fazer guarda-roupa ideal para quarto pequeno",
+        "dicas sobre guarda-roupa ideal para quarto pequeno",
+        "tutorial guarda-roupa ideal para quarto pequeno",
+        "guarda-roupa ideal para quarto pequeno passo a passo"
+      ],
+      "relatedGuides": [
+        "como-escolher-guarda-roupa-ideal"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Cozinha Modulada Pequena Vale a Pena? Veja Antes de Comprar",
+      "searchTerms": [
+        "Cozinha Modulada Pequena Vale a Pena? Veja Antes de Comprar",
+        "o que é cozinha modulada pequena vale a pena? veja antes de comprar",
+        "como fazer cozinha modulada pequena vale a pena? veja antes de comprar",
+        "dicas sobre cozinha modulada pequena vale a pena? veja antes de comprar",
+        "tutorial cozinha modulada pequena vale a pena? veja antes de comprar",
+        "cozinha modulada pequena vale a pena? veja antes de comprar passo a passo"
+      ],
+      "relatedGuides": [
+        "cozinha-modulada-pequena-vale-a-pena"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Melhores Cozinhas Moduladas Baratas para Apartamento",
+      "searchTerms": [
+        "Melhores Cozinhas Moduladas Baratas para Apartamento",
+        "o que é melhores cozinhas moduladas baratas para apartamento",
+        "como fazer melhores cozinhas moduladas baratas para apartamento",
+        "dicas sobre melhores cozinhas moduladas baratas para apartamento",
+        "tutorial melhores cozinhas moduladas baratas para apartamento",
+        "melhores cozinhas moduladas baratas para apartamento passo a passo"
+      ],
+      "relatedGuides": [
+        "melhores-cozinhas-moduladas-baratas"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Como Escolher Móveis para Apartamento Pequeno sem Errar",
+      "searchTerms": [
+        "Como Escolher Móveis para Apartamento Pequeno sem Errar",
+        "o que é móveis para apartamento pequeno sem errar",
+        "como fazer móveis para apartamento pequeno sem errar",
+        "dicas sobre móveis para apartamento pequeno sem errar",
+        "tutorial móveis para apartamento pequeno sem errar",
+        "móveis para apartamento pequeno sem errar passo a passo"
+      ],
+      "relatedGuides": [
+        "como-escolher-moveis-apartamento-pequeno"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Por Que Móveis Estalam de Madrugada? A Explicação Real",
+      "searchTerms": [
+        "Por Que Móveis Estalam de Madrugada? A Explicação Real",
+        "o que é por que móveis estalam de madrugada? a explicação real",
+        "como fazer por que móveis estalam de madrugada? a explicação real",
+        "dicas sobre por que móveis estalam de madrugada? a explicação real",
+        "tutorial por que móveis estalam de madrugada? a explicação real",
+        "por que móveis estalam de madrugada? a explicação real passo a passo"
+      ],
+      "relatedGuides": [
+        "por-que-moveis-estalam"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Como Envelopar Móveis: Passo a Passo Completo para Renovar Sem Pintar",
+      "searchTerms": [
+        "Como Envelopar Móveis: Passo a Passo Completo para Renovar Sem Pintar",
+        "o que é como envelopar móveis:  completo para renovar sem pintar",
+        "como fazer como envelopar móveis:  completo para renovar sem pintar",
+        "dicas sobre como envelopar móveis:  completo para renovar sem pintar",
+        "tutorial como envelopar móveis:  completo para renovar sem pintar",
+        "como envelopar móveis:  completo para renovar sem pintar passo a passo"
+      ],
+      "relatedGuides": [
+        "como-envelopar-moveis"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "MDF vs MDP: a Diferença que Define a Durabilidade dos Seus Móveis",
+      "searchTerms": [
+        "MDF vs MDP: a Diferença que Define a Durabilidade dos Seus Móveis",
+        "o que é mdf vs mdp: a diferença que define a durabilidade dos seus móveis",
+        "como fazer mdf vs mdp: a diferença que define a durabilidade dos seus móveis",
+        "dicas sobre mdf vs mdp: a diferença que define a durabilidade dos seus móveis",
+        "tutorial mdf vs mdp: a diferença que define a durabilidade dos seus móveis",
+        "mdf vs mdp: a diferença que define a durabilidade dos seus móveis passo a passo"
+      ],
+      "relatedGuides": [
+        "mdf-vs-mdp-diferenca"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Como Restaurar Móveis de Madeira: Do Arranhado ao Acabamento Novo",
+      "searchTerms": [
+        "Como Restaurar Móveis de Madeira: Do Arranhado ao Acabamento Novo",
+        "o que é como restaurar móveis de madeira: do arranhado ao acabamento novo",
+        "como fazer como restaurar móveis de madeira: do arranhado ao acabamento novo",
+        "dicas sobre como restaurar móveis de madeira: do arranhado ao acabamento novo",
+        "tutorial como restaurar móveis de madeira: do arranhado ao acabamento novo",
+        "como restaurar móveis de madeira: do arranhado ao acabamento novo passo a passo"
+      ],
+      "relatedGuides": [
+        "como-restaurar-moveis-madeira"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Como Pintar Móveis de Madeira: Guia Completo para um Acabamento Profissional",
+      "searchTerms": [
+        "Como Pintar Móveis de Madeira: Guia Completo para um Acabamento Profissional",
+        "o que é como pintar móveis de madeira:  completo para um acabamento profissional",
+        "como fazer como pintar móveis de madeira:  completo para um acabamento profissional",
+        "dicas sobre como pintar móveis de madeira:  completo para um acabamento profissional",
+        "tutorial como pintar móveis de madeira:  completo para um acabamento profissional",
+        "como pintar móveis de madeira:  completo para um acabamento profissional passo a passo"
+      ],
+      "relatedGuides": [
+        "como-pintar-moveis-madeira"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Como Instalar Painel de TV: Guia Completo com Tipos de Bucha e Altura Ideal",
+      "searchTerms": [
+        "Como Instalar Painel de TV: Guia Completo com Tipos de Bucha e Altura Ideal",
+        "o que é como instalar painel de tv:  completo com tipos de bucha e altura ideal",
+        "como fazer como instalar painel de tv:  completo com tipos de bucha e altura ideal",
+        "dicas sobre como instalar painel de tv:  completo com tipos de bucha e altura ideal",
+        "tutorial como instalar painel de tv:  completo com tipos de bucha e altura ideal",
+        "como instalar painel de tv:  completo com tipos de bucha e altura ideal passo a passo"
+      ],
+      "relatedGuides": [
+        "guia-instalacao-painel-tv"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Melhores Lojas de Móveis Online em 2026: Onde Comprar com Segurança",
+      "searchTerms": [
+        "Melhores Lojas de Móveis Online em 2026: Onde Comprar com Segurança",
+        "o que é melhores lojas de móveis online em 2026: onde comprar com segurança",
+        "como fazer melhores lojas de móveis online em 2026: onde comprar com segurança",
+        "dicas sobre melhores lojas de móveis online em 2026: onde comprar com segurança",
+        "tutorial melhores lojas de móveis online em 2026: onde comprar com segurança",
+        "melhores lojas de móveis online em 2026: onde comprar com segurança passo a passo"
+      ],
+      "relatedGuides": [
+        "melhores-lojas-moveis-online"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Móveis Outlet com Pequenos Defeitos: Vale a Pena Comprar?",
+      "searchTerms": [
+        "Móveis Outlet com Pequenos Defeitos: Vale a Pena Comprar?",
+        "o que é móveis outlet com pequenos defeitos: vale a pena comprar?",
+        "como fazer móveis outlet com pequenos defeitos: vale a pena comprar?",
+        "dicas sobre móveis outlet com pequenos defeitos: vale a pena comprar?",
+        "tutorial móveis outlet com pequenos defeitos: vale a pena comprar?",
+        "móveis outlet com pequenos defeitos: vale a pena comprar? passo a passo"
+      ],
+      "relatedGuides": [
+        "moveis-outlet-pequenos-defeitos"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Móveis com Frete Grátis e Entrega Rápida: Como Encontrar e Não Cair em Armadilha",
+      "searchTerms": [
+        "Móveis com Frete Grátis e Entrega Rápida: Como Encontrar e Não Cair em Armadilha",
+        "o que é móveis com frete grátis e entrega rápida: como encontrar e não cair em armadilha",
+        "como fazer móveis com frete grátis e entrega rápida: como encontrar e não cair em armadilha",
+        "dicas sobre móveis com frete grátis e entrega rápida: como encontrar e não cair em armadilha",
+        "tutorial móveis com frete grátis e entrega rápida: como encontrar e não cair em armadilha",
+        "móveis com frete grátis e entrega rápida: como encontrar e não cair em armadilha passo a passo"
+      ],
+      "relatedGuides": [
+        "moveis-frete-gratis-entrega-rapida"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Móveis Usados Perto de Mim: Como Encontrar, Negociar e Não Se Arrepender",
+      "searchTerms": [
+        "Móveis Usados Perto de Mim: Como Encontrar, Negociar e Não Se Arrepender",
+        "o que é móveis usados perto de mim: como encontrar, negociar e não se arrepender",
+        "como fazer móveis usados perto de mim: como encontrar, negociar e não se arrepender",
+        "dicas sobre móveis usados perto de mim: como encontrar, negociar e não se arrepender",
+        "tutorial móveis usados perto de mim: como encontrar, negociar e não se arrepender",
+        "móveis usados perto de mim: como encontrar, negociar e não se arrepender passo a passo"
+      ],
+      "relatedGuides": [
+        "moveis-usados-perto-de-mim"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Lojas de Móveis em São Paulo: Os Melhores Endereços e Como Economizar",
+      "searchTerms": [
+        "Lojas de Móveis em São Paulo: Os Melhores Endereços e Como Economizar",
+        "o que é lojas de móveis em são paulo: os melhores endereços e como economizar",
+        "como fazer lojas de móveis em são paulo: os melhores endereços e como economizar",
+        "dicas sobre lojas de móveis em são paulo: os melhores endereços e como economizar",
+        "tutorial lojas de móveis em são paulo: os melhores endereços e como economizar",
+        "lojas de móveis em são paulo: os melhores endereços e como economizar passo a passo"
+      ],
+      "relatedGuides": [
+        "lojas-moveis-sao-paulo"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Lojas de Móveis em Curitiba: Onde Comprar e Como Economizar",
+      "searchTerms": [
+        "Lojas de Móveis em Curitiba: Onde Comprar e Como Economizar",
+        "o que é lojas de móveis em curitiba: onde comprar e como economizar",
+        "como fazer lojas de móveis em curitiba: onde comprar e como economizar",
+        "dicas sobre lojas de móveis em curitiba: onde comprar e como economizar",
+        "tutorial lojas de móveis em curitiba: onde comprar e como economizar",
+        "lojas de móveis em curitiba: onde comprar e como economizar passo a passo"
+      ],
+      "relatedGuides": [
+        "lojas-moveis-curitiba"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Tipos de Madeira para Móveis: Qual Usar em Cada Situação",
+      "searchTerms": [
+        "Tipos de Madeira para Móveis: Qual Usar em Cada Situação",
+        "o que é tipos de madeira para móveis: qual usar em cada situação",
+        "como fazer tipos de madeira para móveis: qual usar em cada situação",
+        "dicas sobre tipos de madeira para móveis: qual usar em cada situação",
+        "tutorial tipos de madeira para móveis: qual usar em cada situação",
+        "tipos de madeira para móveis: qual usar em cada situação passo a passo"
+      ],
+      "relatedGuides": [
+        "tipos-madeira-para-moveis"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Quanto Custam Móveis Planejados em 2026: Tabela de Preços por Cômodo",
+      "searchTerms": [
+        "Quanto Custam Móveis Planejados em 2026: Tabela de Preços por Cômodo",
+        "o que é quanto custam móveis planejados em 2026: tabela de preços por cômodo",
+        "como fazer quanto custam móveis planejados em 2026: tabela de preços por cômodo",
+        "dicas sobre quanto custam móveis planejados em 2026: tabela de preços por cômodo",
+        "tutorial quanto custam móveis planejados em 2026: tabela de preços por cômodo",
+        "quanto custam móveis planejados em 2026: tabela de preços por cômodo passo a passo"
+      ],
+      "relatedGuides": [
+        "quanto-custa-moveis-planejados"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Móveis de Pallet: Como Fazer do Zero com Segurança e Bom Resultado",
+      "searchTerms": [
+        "Móveis de Pallet: Como Fazer do Zero com Segurança e Bom Resultado",
+        "o que é móveis de pallet: como fazer do zero com segurança e bom resultado",
+        "como fazer móveis de pallet: como fazer do zero com segurança e bom resultado",
+        "dicas sobre móveis de pallet: como fazer do zero com segurança e bom resultado",
+        "tutorial móveis de pallet: como fazer do zero com segurança e bom resultado",
+        "móveis de pallet: como fazer do zero com segurança e bom resultado passo a passo"
+      ],
+      "relatedGuides": [
+        "moveis-de-pallet-como-fazer"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira",
+      "searchTerms": [
+        "Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira",
+        "o que é móveis industriais para sala: estilo urbano com aço e madeira",
+        "como fazer móveis industriais para sala: estilo urbano com aço e madeira",
+        "dicas sobre móveis industriais para sala: estilo urbano com aço e madeira",
+        "tutorial móveis industriais para sala: estilo urbano com aço e madeira",
+        "móveis industriais para sala: estilo urbano com aço e madeira passo a passo"
+      ],
+      "relatedGuides": [
+        "moveis-industriais-sala"
+      ]
+    }
+  ],
+  "contentClusters": [
+    {
+      "category": "guarda-roupas",
+      "label": "Guarda-Roupas",
+      "guides": [
+        "melhores-guarda-roupas-casal-baratos"
+      ],
+      "guideTitles": [
+        "Melhores Guarda-Roupas Casal Baratos e Espaçosos em 2026"
+      ],
+      "count": 1,
+      "depth": "médio"
+    },
+    {
+      "category": "cozinhas",
+      "label": "Cozinhas",
+      "guides": [
+        "melhores-cozinhas-moduladas-baratas"
+      ],
+      "guideTitles": [
+        "Melhores Cozinhas Moduladas Baratas para Apartamento"
+      ],
+      "count": 1,
+      "depth": "médio"
+    },
+    {
+      "category": "paineis",
+      "label": "Painéis e Racks",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "quartos",
+      "label": "Quartos",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "eletrodomesticos",
+      "label": "Eletrodomésticos",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "home-office",
+      "label": "Home Office",
+      "guides": [
+        "moveis-home-office-barato"
+      ],
+      "guideTitles": [
+        "Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco"
+      ],
+      "count": 1,
+      "depth": "médio"
+    },
+    {
+      "category": "sofas",
+      "label": "Sofás",
+      "guides": [
+        "melhores-sofas-retrateis-2026"
+      ],
+      "guideTitles": [
+        "Melhores Sofás Retráteis para Apartamento Pequeno em 2026"
+      ],
+      "count": 1,
+      "depth": "médio"
+    }
+  ],
+  "contentOpportunities": [
+    {
+      "type": "thin-content",
+      "category": "cozinhas",
+      "label": "Cozinhas",
+      "gap": "Poucos guias (apenas 1)",
+      "impact": "médio",
+      "suggestion": "Expandir conteúdo com guias específicos como 'Cozinhas para ambientes pequenos' ou 'Guia de manutenção de Cozinhas'",
+      "estimatedEffort": "baixo",
+      "priority": "média"
+    },
+    {
+      "type": "missing-guide",
+      "category": "paineis",
+      "label": "Painéis e Racks",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Painéis e Racks' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "quartos",
+      "label": "Quartos",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Quartos' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "eletrodomesticos",
+      "label": "Eletrodomésticos",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Eletrodomésticos' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "thin-content",
+      "category": "home-office",
+      "label": "Home Office",
+      "gap": "Poucos guias (apenas 1)",
+      "impact": "médio",
+      "suggestion": "Expandir conteúdo com guias específicos como 'Home Office para ambientes pequenos' ou 'Guia de manutenção de Home Office'",
+      "estimatedEffort": "baixo",
+      "priority": "média"
+    },
+    {
+      "type": "material-gap",
+      "material": "madeira maciça",
+      "gap": "Material não coberto em guias",
+      "impact": "médio",
+      "suggestion": "Criar guia sobre 'Vantagens e desvantagens do madeira maciça em móveis' ou 'madeira maciça vs outros materiais: comparação completa'",
+      "estimatedEffort": "médio",
+      "priority": "média"
+    },
+    {
+      "type": "material-gap",
+      "material": "vidro temperado",
+      "gap": "Material não coberto em guias",
+      "impact": "médio",
+      "suggestion": "Criar guia sobre 'Vantagens e desvantagens do vidro temperado em móveis' ou 'vidro temperado vs outros materiais: comparação completa'",
+      "estimatedEffort": "médio",
+      "priority": "média"
+    },
+    {
+      "type": "material-gap",
+      "material": "aço inox",
+      "gap": "Material não coberto em guias",
+      "impact": "médio",
+      "suggestion": "Criar guia sobre 'Vantagens e desvantagens do aço inox em móveis' ou 'aço inox vs outros materiais: comparação completa'",
+      "estimatedEffort": "médio",
+      "priority": "média"
+    },
+    {
+      "type": "material-gap",
+      "material": "alumínio",
+      "gap": "Material não coberto em guias",
+      "impact": "médio",
+      "suggestion": "Criar guia sobre 'Vantagens e desvantagens do alumínio em móveis' ou 'alumínio vs outros materiais: comparação completa'",
+      "estimatedEffort": "médio",
+      "priority": "média"
+    },
+    {
+      "type": "material-gap",
+      "material": "couro sintético",
+      "gap": "Material não coberto em guias",
+      "impact": "médio",
+      "suggestion": "Criar guia sobre 'Vantagens e desvantagens do couro sintético em móveis' ou 'couro sintético vs outros materiais: comparação completa'",
+      "estimatedEffort": "médio",
+      "priority": "média"
+    },
+    {
+      "type": "material-gap",
+      "material": "linho",
+      "gap": "Material não coberto em guias",
+      "impact": "médio",
+      "suggestion": "Criar guia sobre 'Vantagens e desvantagens do linho em móveis' ou 'linho vs outros materiais: comparação completa'",
+      "estimatedEffort": "médio",
+      "priority": "média"
+    },
+    {
+      "type": "benefit-gap",
+      "benefit": "montagem fácil",
+      "gap": "Benefício 'montagem fácil' não abordado em guias",
+      "impact": "baixo",
+      "suggestion": "Criar conteúdo focado em móveis com 'montagem fácil' como diferencial competitivo",
+      "estimatedEffort": "baixo",
+      "priority": "baixo"
+    },
+    {
+      "type": "benefit-gap",
+      "benefit": "sem ferramentas",
+      "gap": "Benefício 'sem ferramentas' não abordado em guias",
+      "impact": "baixo",
+      "suggestion": "Criar conteúdo focado em móveis com 'sem ferramentas' como diferencial competitivo",
+      "estimatedEffort": "baixo",
+      "priority": "baixo"
+    },
+    {
+      "type": "benefit-gap",
+      "benefit": "dobrável",
+      "gap": "Benefício 'dobrável' não abordado em guias",
+      "impact": "baixo",
+      "suggestion": "Criar conteúdo focado em móveis com 'dobrável' como diferencial competitivo",
+      "estimatedEffort": "baixo",
+      "priority": "baixo"
+    },
+    {
+      "type": "benefit-gap",
+      "benefit": "reversível",
+      "gap": "Benefício 'reversível' não abordado em guias",
+      "impact": "baixo",
+      "suggestion": "Criar conteúdo focado em móveis com 'reversível' como diferencial competitivo",
+      "estimatedEffort": "baixo",
+      "priority": "baixo"
+    },
+    {
+      "type": "benefit-gap",
+      "benefit": "com iluminação LED",
+      "gap": "Benefício 'com iluminação LED' não abordado em guias",
+      "impact": "baixo",
+      "suggestion": "Criar conteúdo focado em móveis com 'com iluminação LED' como diferencial competitivo",
+      "estimatedEffort": "baixo",
+      "priority": "baixo"
+    },
+    {
+      "type": "benefit-gap",
+      "benefit": "com tomadas USB",
+      "gap": "Benefício 'com tomadas USB' não abordado em guias",
+      "impact": "baixo",
+      "suggestion": "Criar conteúdo focado em móveis com 'com tomadas USB' como diferencial competitivo",
+      "estimatedEffort": "baixo",
+      "priority": "baixo"
+    }
+  ],
+  "entities": {
+    "materials": [
+      "mdf",
+      "vidro",
+      "madeira",
+      "mdp",
+      "aço",
+      "plástico",
+      "ferro",
+      "couro",
+      "alumínio",
+      "tecido",
+      "suede",
+      "linho",
+      "tecidos",
+      "veludo"
+    ],
+    "environments": [
+      "cozinha",
+      "sala",
+      "quarto",
+      "banheiro",
+      "estudo",
+      "escritório",
+      "home office",
+      "varanda",
+      "jardim"
+    ],
+    "types": [
+      "guarda-roupa",
+      "cozinha",
+      "armário",
+      "balcão",
+      "mesa",
+      "painel",
+      "prateleira",
+      "nicho",
+      "estante",
+      "rack",
+      "cômoda",
+      "bancada",
+      "escrivaninha",
+      "cama",
+      "sof",
+      "chaise",
+      "sofá"
+    ],
+    "brands": [
+      "Panorama Móveis",
+      "Suburban Gold",
+      "Móveis Marília",
+      "Madesa",
+      "Móveis Home",
+      "Gelius Móveis",
+      "Linea Brasil",
+      "Aquarel",
+      "Nina",
+      "Ben",
+      "Uli",
+      "Multimoveis",
+      "Diamante",
+      "Aramóveis",
+      "Philco",
+      "Consul",
+      "Wap",
+      "COMFCASA",
+      "Mondial",
+      "Brastemp",
+      "HQ",
+      "Midea",
+      "Gree",
+      "Móveis Bela",
+      "Perfin",
+      "Maxi do Brasil",
+      "Loja do Tesouro",
+      "Estate",
+      "Móveis Albergoni",
+      "Office",
+      "Roma",
+      "Zanzini",
+      "Acacia",
+      "AJL",
+      "Isis",
+      "Probel",
+      "Hellen",
+      "Espresso Móveis",
+      "Yescasa",
+      "Montreal",
+      "Celflex",
+      "Cama inBox"
+    ],
+    "platforms": [
+      "Shopee",
+      "Mercado Livre"
+    ],
+    "colors": [
+      "branco",
+      "preto",
+      "cinza",
+      "marrom",
+      "bege",
+      "creme"
+    ],
+    "styles": [
+      "moderno",
+      "industrial",
+      "contemporâneo",
+      "minimalista",
+      "boho",
+      "rústico",
+      "clássico"
+    ],
+    "benefits": [
+      "resistente",
+      "durável",
+      "confortável",
+      "ecológico",
+      "fácil de montar",
+      "com rodas",
+      "sustentável",
+      "impermeável",
+      "ergonômico",
+      "reclinável"
+    ],
+    "problems": [
+      "multifuncional",
+      "versátil",
+      "para espaços compactos",
+      "economia de espaço",
+      "para apartamento pequeno"
+    ],
+    "priceRanges": [],
+    "targetAudiences": [],
+    "sizes": [],
+    "functionalities": []
+  },
   "sitemap": "https://lojademoveismarilia.com.br/sitemap.xml",
   "robots": "https://lojademoveismarilia.com.br/robots.txt",
   "llmsTxt": "https://lojademoveismarilia.com.br/llms.txt",
-  "llmsFullTxt": "https://lojademoveismarilia.com.br/llms-full.txt"
+  "llmsFullTxt": "https://lojademoveismarilia.com.br/llms-full.txt",
+  "contentFreshness": {
+    "lastUpdate": "2026-07-04T03:08:41.381Z",
+    "updateFrequency": "diária",
+    "pagesUpdatedLastWeek": 1
+  }
 }

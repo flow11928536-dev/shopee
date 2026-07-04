@@ -1,13 +1,32 @@
 User-agent: *
 Allow: /
+
+# Diretrizes específicas para diferentes crawlers
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
 Disallow: /api/
-Disallow: /_next/
-Disallow: /_vercel/
 
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Sitemap
 Sitemap: https://lojademoveismarilia.com.br/sitemap.xml
-Host: https://lojademoveismarilia.com.br
 
-# Arquivos para LLMs e crawlers inteligentes
-# llms.txt: https://lojademoveismarilia.com.br/llms.txt
-# llms-full.txt: https://lojademoveismarilia.com.br/llms-full.txt
-# llms-index.json: https://lojademoveismarilia.com.br/llms-index.json
+# LLMs files for AI training
+User-agent: GPTBot
+Allow: https://lojademoveismarilia.com.br/llms.txt
+Allow: https://lojademoveismarilia.com.br/llms-full.txt
+Allow: https://lojademoveismarilia.com.br/llms-index.json
+
+User-agent: ClaudeWeb
+Allow: https://lojademoveismarilia.com.br/llms.txt
+Allow: https://lojademoveismarilia.com.br/llms-full.txt
+Allow: https://lojademoveismarilia.com.br/llms-index.json

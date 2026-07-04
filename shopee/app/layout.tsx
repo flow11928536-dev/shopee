@@ -16,11 +16,13 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "Móveis e Decoração de Alto Padrão | Móveis Marília",
-    template: "%s | Móveis Marília",
+    default: "Loja de Móveis Marília | Ofertas e Alto Padrão",
+    template: "%s | Loja de Móveis Marília",
   },
-  description: SITE.description,
+  description:
+    "Loja de móveis em Marília com curadoria de produtos de alto padrão. Sofás, guarda-roupas, cozinhas e eletrodomésticos com os melhores preços do Mercado Livre e Shopee.",
   keywords: [
+    "loja de móveis Marília",
     "móveis Marília",
     "móveis alto padrão",
     "decoração Marília",
@@ -28,9 +30,9 @@ export const metadata: Metadata = {
     "móveis Mercado Livre",
     "móveis Shopee",
   ],
-  authors: [{ name: SITE.name, url: SITE.url }],
-  creator: SITE.name,
-  publisher: SITE.name,
+  authors: [{ name: "Loja de Móveis Marília", url: SITE.url }],
+  creator: "Loja de Móveis Marília",
+  publisher: "Loja de Móveis Marília",
   robots: {
     index: true,
     follow: true,
@@ -44,24 +46,26 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    siteName: SITE.name,
+    siteName: "Loja de Móveis Marília",
     locale: "pt_BR",
     url: SITE.url,
-    title: "Móveis e Decoração de Alto Padrão | Móveis Marília",
-    description: SITE.description,
+    title: "Loja de Móveis Marília | Ofertas e Alto Padrão",
+    description:
+      "Loja de móveis em Marília com curadoria de produtos de alto padrão. Sofás, guarda-roupas, cozinhas e eletrodomésticos com os melhores preços.",
     images: [
       {
         url: `${SITE.url}/banners/og-image.png`,
         width: 1200,
         height: 630,
-        alt: "Móveis Marília - Curadoria de móveis de alto padrão",
+        alt: "Loja de Móveis Marília - Curadoria de móveis de alto padrão",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Móveis e Decoração de Alto Padrão | Móveis Marília",
-    description: SITE.description,
+    title: "Loja de Móveis Marília | Ofertas e Alto Padrão",
+    description:
+      "Loja de móveis em Marília com curadoria de produtos de alto padrão.",
     images: [`${SITE.url}/banners/og-image.png`],
   },
   alternates: {
@@ -81,15 +85,23 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-const baseSchemas = [
+// Definindo o tipo dos schemas para evitar erro 'any'
+interface Schema {
+  "@context": string;
+  "@type": string;
+  [key: string]: unknown;
+}
+
+const baseSchemas: Schema[] = [
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "@id": `${SITE.url}/#website`,
-    name: SITE.name,
+    name: "Loja de Móveis Marília",
     url: SITE.url,
     inLanguage: "pt-BR",
-    description: SITE.description,
+    description:
+      "Loja de móveis em Marília com curadoria de produtos de alto padrão. Sofás, guarda-roupas, cozinhas e eletrodomésticos.",
     publisher: { "@id": `${SITE.url}/#organization` },
     potentialAction: {
       "@type": "SearchAction",
@@ -104,7 +116,7 @@ const baseSchemas = [
     "@context": "https://schema.org",
     "@type": "Organization",
     "@id": `${SITE.url}/#organization`,
-    name: SITE.name,
+    name: "Loja de Móveis Marília",
     url: SITE.url,
     logo: {
       "@type": "ImageObject",
@@ -125,10 +137,9 @@ const baseSchemas = [
   },
   {
     "@context": "https://schema.org",
-    // Tipo mais específico que "LocalBusiness" genérico — sinaliza o nicho ao Google
     "@type": "FurnitureStore",
     "@id": `${SITE.url}/#localbusiness`,
-    name: SITE.name,
+    name: "Loja de Móveis Marília",
     image: `${SITE.url}/banners/logo.png`,
     url: SITE.url,
     email: SITE.email,
@@ -136,11 +147,9 @@ const baseSchemas = [
     priceRange: "R$R$",
     address: {
       "@type": "PostalAddress",
-      // Endereço aproximado (ajustar número exato se disponível)
       streetAddress: SITE.address ?? "Avenida das Esmeraldas, próx. 2700 - Jardim Tangará",
       addressLocality: SITE.city,
       addressRegion: SITE.region,
-      // TODO: preencher com o CEP real dessa região
       postalCode: SITE.postalCode ?? "17516-000",
       addressCountry: SITE.country,
     },
@@ -149,17 +158,10 @@ const baseSchemas = [
       latitude: SITE.geo.lat,
       longitude: SITE.geo.lng,
     },
-    // TODO: ajustar dias/horários reais de funcionamento
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
-        dayOfWeek: [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-        ],
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
         opens: "09:00",
         closes: "18:00",
       },
@@ -207,12 +209,12 @@ export default function RootLayout({
       </head>
       <body>
         <div className="flex min-h-screen flex-col bg-stone-50/50 text-stone-900 antialiased">
-         <a
-          href="#conteudo"
-          className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[60] focus:rounded-lg focus:bg-stone-900 focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-white"
-        >
-          Pular para o conteúdo
-        </a>
+          <a
+            href="#conteudo"
+            className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[60] focus:rounded-lg focus:bg-stone-900 focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-white"
+          >
+            Pular para o conteúdo
+          </a>
           <Header />
           <main id="conteudo" className="flex-1">
             {children}

@@ -1,0 +1,160 @@
+[
+  {
+    "type": "thin-content",
+    "category": "cozinhas",
+    "label": "Cozinhas",
+    "gap": "Poucos guias (apenas 1)",
+    "impact": "médio",
+    "suggestion": "Expandir conteúdo com guias específicos como 'Cozinhas para ambientes pequenos' ou 'Guia de manutenção de Cozinhas'",
+    "estimatedEffort": "baixo",
+    "priority": "média"
+  },
+  {
+    "type": "missing-guide",
+    "category": "paineis",
+    "label": "Painéis e Racks",
+    "gap": "Sem guias",
+    "impact": "alto",
+    "suggestion": "Criar guia definitivo sobre 'Painéis e Racks' abordando tipos, materiais, preços e dicas de compra",
+    "estimatedEffort": "médio",
+    "priority": "alta"
+  },
+  {
+    "type": "missing-guide",
+    "category": "quartos",
+    "label": "Quartos",
+    "gap": "Sem guias",
+    "impact": "alto",
+    "suggestion": "Criar guia definitivo sobre 'Quartos' abordando tipos, materiais, preços e dicas de compra",
+    "estimatedEffort": "médio",
+    "priority": "alta"
+  },
+  {
+    "type": "missing-guide",
+    "category": "eletrodomesticos",
+    "label": "Eletrodomésticos",
+    "gap": "Sem guias",
+    "impact": "alto",
+    "suggestion": "Criar guia definitivo sobre 'Eletrodomésticos' abordando tipos, materiais, preços e dicas de compra",
+    "estimatedEffort": "médio",
+    "priority": "alta"
+  },
+  {
+    "type": "thin-content",
+    "category": "home-office",
+    "label": "Home Office",
+    "gap": "Poucos guias (apenas 1)",
+    "impact": "médio",
+    "suggestion": "Expandir conteúdo com guias específicos como 'Home Office para ambientes pequenos' ou 'Guia de manutenção de Home Office'",
+    "estimatedEffort": "baixo",
+    "priority": "média"
+  },
+  {
+    "type": "material-gap",
+    "material": "madeira maciça",
+    "gap": "Material não coberto em guias",
+    "impact": "médio",
+    "suggestion": "Criar guia sobre 'Vantagens e desvantagens do madeira maciça em móveis' ou 'madeira maciça vs outros materiais: comparação completa'",
+    "estimatedEffort": "médio",
+    "priority": "média"
+  },
+  {
+    "type": "material-gap",
+    "material": "vidro temperado",
+    "gap": "Material não coberto em guias",
+    "impact": "médio",
+    "suggestion": "Criar guia sobre 'Vantagens e desvantagens do vidro temperado em móveis' ou 'vidro temperado vs outros materiais: comparação completa'",
+    "estimatedEffort": "médio",
+    "priority": "média"
+  },
+  {
+    "type": "material-gap",
+    "material": "aço inox",
+    "gap": "Material não coberto em guias",
+    "impact": "médio",
+    "suggestion": "Criar guia sobre 'Vantagens e desvantagens do aço inox em móveis' ou 'aço inox vs outros materiais: comparação completa'",
+    "estimatedEffort": "médio",
+    "priority": "média"
+  },
+  {
+    "type": "material-gap",
+    "material": "alumínio",
+    "gap": "Material não coberto em guias",
+    "impact": "médio",
+    "suggestion": "Criar guia sobre 'Vantagens e desvantagens do alumínio em móveis' ou 'alumínio vs outros materiais: comparação completa'",
+    "estimatedEffort": "médio",
+    "priority": "média"
+  },
+  {
+    "type": "material-gap",
+    "material": "couro sintético",
+    "gap": "Material não coberto em guias",
+    "impact": "médio",
+    "suggestion": "Criar guia sobre 'Vantagens e desvantagens do couro sintético em móveis' ou 'couro sintético vs outros materiais: comparação completa'",
+    "estimatedEffort": "médio",
+    "priority": "média"
+  },
+  {
+    "type": "material-gap",
+    "material": "linho",
+    "gap": "Material não coberto em guias",
+    "impact": "médio",
+    "suggestion": "Criar guia sobre 'Vantagens e desvantagens do linho em móveis' ou 'linho vs outros materiais: comparação completa'",
+    "estimatedEffort": "médio",
+    "priority": "média"
+  },
+  {
+    "type": "benefit-gap",
+    "benefit": "montagem fácil",
+    "gap": "Benefício 'montagem fácil' não abordado em guias",
+    "impact": "baixo",
+    "suggestion": "Criar conteúdo focado em móveis com 'montagem fácil' como diferencial competitivo",
+    "estimatedEffort": "baixo",
+    "priority": "baixo"
+  },
+  {
+    "type": "benefit-gap",
+    "benefit": "sem ferramentas",
+    "gap": "Benefício 'sem ferramentas' não abordado em guias",
+    "impact": "baixo",
+    "suggestion": "Criar conteúdo focado em móveis com 'sem ferramentas' como diferencial competitivo",
+    "estimatedEffort": "baixo",
+    "priority": "baixo"
+  },
+  {
+    "type": "benefit-gap",
+    "benefit": "dobrável",
+    "gap": "Benefício 'dobrável' não abordado em guias",
+    "impact": "baixo",
+    "suggestion": "Criar conteúdo focado em móveis com 'dobrável' como diferencial competitivo",
+    "estimatedEffort": "baixo",
+    "priority": "baixo"
+  },
+  {
+    "type": "benefit-gap",
+    "benefit": "reversível",
+    "gap": "Benefício 'reversível' não abordado em guias",
+    "impact": "baixo",
+    "suggestion": "Criar conteúdo focado em móveis com 'reversível' como diferencial competitivo",
+    "estimatedEffort": "baixo",
+    "priority": "baixo"
+  },
+  {
+    "type": "benefit-gap",
+    "benefit": "com iluminação LED",
+    "gap": "Benefício 'com iluminação LED' não abordado em guias",
+    "impact": "baixo",
+    "suggestion": "Criar conteúdo focado em móveis com 'com iluminação LED' como diferencial competitivo",
+    "estimatedEffort": "baixo",
+    "priority": "baixo"
+  },
+  {
+    "type": "benefit-gap",
+    "benefit": "com tomadas USB",
+    "gap": "Benefício 'com tomadas USB' não abordado em guias",
+    "impact": "baixo",
+    "suggestion": "Criar conteúdo focado em móveis com 'com tomadas USB' como diferencial competitivo",
+    "estimatedEffort": "baixo",
+    "priority": "baixo"
+  }
+]

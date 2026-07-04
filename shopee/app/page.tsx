@@ -3,15 +3,16 @@ import Link from "next/link";
 import { CATEGORY_LABELS, SITE, allCategories } from "@/data/products";
 import ProductGrid from "@/components/ProductGrid";
 import HeroSlider from "@/components/HeroSlider";
+import CategoryCarousel from "@/components/CategoryCarousel";
 
 const CATEGORY_BANNERS: Record<string, string> = {
-  cozinhas: "https://images.pexels.com/photos/7535073/pexels-photo-7535073.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  "guarda-roupas": "https://images.pexels.com/photos/7535012/pexels-photo-7535012.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+  cozinhas: "/banners/cozinhas.avif",
+  "guarda-roupas": "banners/banner_guarda-roupas.avif",
   paineis: "https://images.pexels.com/photos/7174113/pexels-photo-7174113.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
   sofas: "https://images.pexels.com/photos/8135492/pexels-photo-8135492.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
   "home-office": "https://images.pexels.com/photos/31213677/pexels-photo-31213677.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  "area-externa": "https://images.pexels.com/photos/8135496/pexels-photo-8135496.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  quartos: "https://images.pexels.com/photos/7587809/pexels-photo-7587809.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+  "area-externa": "/banners/moveis-para-area-externa.webp",
+  quartos: "/banners/quarto-completo_desk-400px.avif",
   eletrodomesticos: "https://images.pexels.com/photos/3958962/pexels-photo-3958962.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
 };
 
@@ -19,14 +20,14 @@ const heroBanner =
   "https://images.pexels.com/photos/8135492/pexels-photo-8135492.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1600";
 
 export const metadata: Metadata = {
-  title: "Móveis e Decoração de Alto Padrão | Móveis Marília",
+  title: "Loja de Móveis em Marília SP | Ofertas e Alto Padrão",
   description:
     "Curadoria de móveis e eletrodomésticos com os melhores preços do Mercado Livre e Shopee. Cozinhas, guarda-roupas, sofás e guias honestos.",
   alternates: {
     canonical: SITE.url,
   },
   openGraph: {
-    title: "Móveis e Decoração de Alto Padrão | Móveis Marília",
+    title: "Loja de Móveis em Marília SP | Ofertas e Alto Padrão",
     description:
       "Curadoria de móveis e eletrodomésticos com os melhores preços do Mercado Livre e Shopee. Cozinhas, guarda-roupas, sofás e guias honestos.",
     url: SITE.url,
@@ -46,7 +47,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "@id": `${SITE.url}/#webpage`,
-  name: "Móveis e Decoração de Alto Padrão | Móveis Marília",
+  name: "Loja de Móveis em Marília SP | Ofertas e Alto Padrão",
   url: SITE.url,
   description: SITE.description,
   isPartOf: { "@id": `${SITE.url}/#website` },
@@ -72,39 +73,22 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
+      {/* H1 oculto para SEO */}
+      <h1 className="sr-only">Loja de Móveis em Marília SP: Alto Padrão com os Melhores Preços</h1>
+
       <HeroSlider />
 
       <div className="mx-auto max-w-7xl space-y-16 px-4 py-16 sm:px-6 lg:px-8">
         {/* CATEGORIAS */}
         <section aria-label="Navegue por categoria">
-          <h2 className="text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
-            Navegue por ambiente
-          </h2>
-          <p className="mt-1.5 text-stone-500">Encontre tudo para cada cômodo da sua casa.</p>
-          <div className="mt-6 grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-4">
-            {allCategories.map((cat, index) => (
-              <Link
-                key={cat}
-                href={`/categoria/${cat}`}
-                className="group relative aspect-[4/3] overflow-hidden rounded-2xl shadow-sm transition-all duration-500 hover:-translate-y-1 hover:shadow-xl"
-              >
-                <img
-                  src={CATEGORY_BANNERS[cat]}
-                  alt={`Móveis para ${CATEGORY_LABELS[cat]} - ver produtos`}
-                  loading={index < 4 ? "eager" : "lazy"}
-                  width={1200}
-                  height={627}
-                  className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-stone-900/80 via-stone-900/10 to-transparent" />
-                <span className="absolute bottom-4 left-4 text-lg font-semibold text-white">
-                  {CATEGORY_LABELS[cat]}
-                </span>
-              </Link>
-            ))}
-          </div>
+          <CategoryCarousel
+            items={allCategories.map((cat) => ({
+              slug: cat,
+              label: CATEGORY_LABELS[cat],
+              image: CATEGORY_BANNERS[cat],
+            }))}
+          />
 
-          {/* CARD MÓVEIS PARA ESTUDANTES */}
           <Link
             href="/moveis-para-estudantes"
             className="group mt-6 flex items-center justify-between rounded-2xl border border-amber-200/50 bg-gradient-to-r from-amber-500/10 to-amber-500/5 p-5 transition-all hover:bg-amber-500/15 hover:shadow-md"
@@ -134,7 +118,7 @@ export default function HomePage() {
           gridClassName="grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
         />
 
-        {/* BANNER PROMO */}
+        {/* BANNER ELETRO */}
         <section className="overflow-hidden rounded-3xl bg-stone-900" aria-label="Semana do Eletro">
           <div className="grid items-center gap-6 md:grid-cols-2">
             <div className="p-8 sm:p-12">
@@ -185,6 +169,144 @@ export default function HomePage() {
           limit={6}
           gridClassName="grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
         />
+
+        {/* ============================================================
+            SEÇÃO DE CONTEÚDO PROFUNDO – MOVIDA PARA BAIXO
+            COM ESTILO MAIS SOFISTICADO
+            ============================================================ */}
+        <section className="relative mt-20 border-t border-stone-200/60 pt-16">
+          {/* Linha decorativa */}
+          <div className="absolute -top-px left-1/4 right-1/4 h-px bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
+
+          <div className="prose prose-stone max-w-none font-serif">
+            <h2 className="text-4xl font-light tracking-wide text-stone-800 sm:text-5xl">
+              Móveis de Alto Padrão em Marília
+              <span className="block text-2xl font-light text-stone-400 sm:text-3xl">
+                com preços que cabem no seu bolso
+              </span>
+            </h2>
+
+            <div className="mt-8 space-y-6 text-stone-600">
+              <p className="text-lg leading-relaxed">
+                Se você está procurando uma <strong className="font-semibold text-stone-800">loja de móveis em Marília</strong> que una qualidade, design e preço justo, chegou ao lugar certo. Nossa curadoria é feita com carinho para quem quer transformar a casa sem pagar uma fortuna.
+              </p>
+
+              <h3 className="mt-10 text-2xl font-light tracking-wide text-stone-800">
+                Por que comprar na Móveis Marília?
+              </h3>
+
+              <ul className="space-y-4 text-stone-600">
+                <li className="flex gap-4">
+                  <span className="text-amber-500">✦</span>
+                  <div>
+                    <strong className="font-semibold text-stone-800">Curadoria especializada</strong>
+                    <p className="mt-0.5 text-sm leading-relaxed">
+                      Selecionamos apenas os melhores produtos do Mercado Livre e Shopee, com avaliações reais e garantia de fábrica. Cada item é analisado por nossa equipe para garantir custo-benefício e durabilidade.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex gap-4">
+                  <span className="text-amber-500">✦</span>
+                  <div>
+                    <strong className="font-semibold text-stone-800">Entrega rápida em Marília e região</strong>
+                    <p className="mt-0.5 text-sm leading-relaxed">
+                      Parceiros logísticos que conhecem a cidade – entregamos no centro, nos bairros (Jardim Tangará, Bairro Alto, Nova Marília, Jardim Itália) e também na zona rural. Prazo médio de 5 a 10 dias úteis.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex gap-4">
+                  <span className="text-amber-500">✦</span>
+                  <div>
+                    <strong className="font-semibold text-stone-800">Preços competitivos</strong>
+                    <p className="mt-0.5 text-sm leading-relaxed">
+                      Negociamos diretamente com fornecedores para oferecer até 50% de desconto em comparação com as grandes redes. Além disso, acompanhamos as melhores ofertas do Mercado Livre e Shopee para você não pagar mais do que deve.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex gap-4">
+                  <span className="text-amber-500">✦</span>
+                  <div>
+                    <strong className="font-semibold text-stone-800">Suporte local</strong>
+                    <p className="mt-0.5 text-sm leading-relaxed">
+                      Atendimento de segunda a sexta, das 8h às 18h, com WhatsApp e e-mail para tirar dúvidas antes da compra. Somos de Marília e conhecemos as necessidades da nossa região.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+
+              <h3 className="mt-12 text-2xl font-light tracking-wide text-stone-800">
+                O que você encontra na nossa loja?
+              </h3>
+
+              <p className="text-lg leading-relaxed">
+                Desde <strong className="font-semibold text-stone-800">sofás retráteis e reclináveis</strong> para salas compactas até <strong className="font-semibold text-stone-800">guarda-roupas de casal em MDF e MDP</strong> com espelho e portas de correr. Também temos <strong className="font-semibold text-stone-800">cozinhas moduladas</strong> que cabem em apartamentos pequenos e <strong className="font-semibold text-stone-800">móveis para home office</strong> que transformam qualquer canto em um escritório produtivo.
+              </p>
+
+              <p className="text-lg leading-relaxed">
+                Em Marília, sabemos que o espaço é valioso. Por isso, nossos móveis são pensados para otimizar cada metro quadrado – com design moderno, materiais resistentes e acabamento de alto padrão. Oferecemos também <strong className="font-semibold text-stone-800">painéis para TV</strong>, <strong className="font-semibold text-stone-800">racks</strong>, <strong className="font-semibold text-stone-800">camas box com baú</strong> e <strong className="font-semibold text-stone-800">eletrodomésticos</strong> para completar sua casa.
+              </p>
+
+              <h3 className="mt-12 text-2xl font-light tracking-wide text-stone-800">
+                Como funciona a compra?
+              </h3>
+
+              <ol className="space-y-4 text-stone-600">
+                <li className="flex gap-4">
+                  <span className="flex h-7 w-7 items-center justify-center rounded-full bg-stone-100 text-sm font-medium text-stone-500">1</span>
+                  <div>
+                    <strong className="font-semibold text-stone-800">Escolha o produto</strong>
+                    <p className="mt-0.5 text-sm leading-relaxed">Use os filtros por categoria ou explore nossos guias para comparar modelos.</p>
+                  </div>
+                </li>
+                <li className="flex gap-4">
+                  <span className="flex h-7 w-7 items-center justify-center rounded-full bg-stone-100 text-sm font-medium text-stone-500">2</span>
+                  <div>
+                    <strong className="font-semibold text-stone-800">Verifique o estoque</strong>
+                    <p className="mt-0.5 text-sm leading-relaxed">CClique em &quot;Verificar estoque&quot; – você é redirecionado para o Mercado Livre ou Shopee com a oferta já aplicada.</p>
+                  </div>
+                </li>
+                <li className="flex gap-4">
+                  <span className="flex h-7 w-7 items-center justify-center rounded-full bg-stone-100 text-sm font-medium text-stone-500">3</span>
+                  <div>
+                    <strong className="font-semibold text-stone-800">Confira o frete para Marília</strong>
+                    <p className="mt-0.5 text-sm leading-relaxed">Garantimos prazos de 5 a 10 dias úteis, com opções de entrega agendada.</p>
+                  </div>
+                </li>
+                <li className="flex gap-4">
+                  <span className="flex h-7 w-7 items-center justify-center rounded-full bg-stone-100 text-sm font-medium text-stone-500">4</span>
+                  <div>
+                    <strong className="font-semibold text-stone-800">Pague com segurança</strong>
+                    <p className="mt-0.5 text-sm leading-relaxed">Cartão, boleto ou Pix – seguro e sem surpresas. Aproveite cupons exclusivos.</p>
+                  </div>
+                </li>
+              </ol>
+
+              {/* Box de atendimento regional */}
+              <div className="mt-10 rounded-2xl border border-stone-200/80 bg-stone-50/50 p-6 backdrop-blur-sm">
+                <p className="font-light tracking-wide text-stone-800">
+                  <span className="text-amber-500">📍</span> Atendemos toda a região de Marília:
+                </p>
+                <p className="mt-2 text-sm leading-relaxed text-stone-600">
+                  <strong className="font-medium text-stone-700">Centro</strong>, Jardim Tangará, Bairro Alto, Nova Marília, Jardim Itália, Jardim dos Estados, e também cidades vizinhas como <strong className="font-medium text-stone-700">Bauru, Ourinhos, Assis, Tupã</strong> e toda a região de influência de Marília.
+                </p>
+                <p className="mt-1 text-xs text-stone-400">
+                  Entregas também disponíveis para todo o Brasil – consulte o frete no momento da compra.
+                </p>
+              </div>
+
+              {/* Callout final */}
+              <div className="mt-10 rounded-xl border-l-4 border-amber-400 bg-amber-50/60 p-6">
+                <p className="text-sm font-medium text-amber-800">
+                  💡 Dica de Marília: assine nossa newsletter e receba cupons exclusivos para compras na região. Acompanhe também nossas promoções sazonais – Black Friday, Dia dos Namorados e liquidações de estoque.
+                </p>
+              </div>
+
+              <p className="mt-8 text-xs text-stone-400">
+                *Todos os preços e ofertas são verificados diariamente. Imagens meramente ilustrativas. Consulte a disponibilidade no momento da compra.
+              </p>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );

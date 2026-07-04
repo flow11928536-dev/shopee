@@ -1,47 +1,145 @@
-# LLMS-full.txt for Loja de Móveis Marília
-# Site: https://lojademoveismarilia.com.br
-# Lista completa de URLs com metadados
-# Gerado em: 2026-07-01T04:51:47.817Z
+# LLMS-full.txt – Documentação Completa do Site
+# Site: Loja de Móveis Marília
+# URL: https://lojademoveismarilia.com.br
+# Gerado em: 2026-07-04T03:08:41.402Z
 
-## Página inicial
-- https://lojademoveismarilia.com.br - Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.
+## Sobre o Site
+Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.
+Localização: Marília – SP, BR
+Contato: contato@lojademoveismarilia.com.br | WhatsApp: 5514996033296
 
-## Categorias
-- https://lojademoveismarilia.com.br/categoria/guarda-roupas - Guarda-Roupas em oferta
-- https://lojademoveismarilia.com.br/categoria/cozinhas - Cozinhas em oferta
-- https://lojademoveismarilia.com.br/categoria/paineis - Painéis e Racks em oferta
-- https://lojademoveismarilia.com.br/categoria/quartos - Quartos em oferta
-- https://lojademoveismarilia.com.br/categoria/eletrodomesticos - Eletrodomésticos em oferta
-- https://lojademoveismarilia.com.br/categoria/home-office - Home Office em oferta
+## Especialidades
+- Curadoria de móveis e eletrodomésticos de alto padrão
+- Comparativos e guias de compra baseados em dados reais de mercado
+- Dicas de decoração e organização por especialistas
+- Ofertas exclusivas do Mercado Livre e Shopee com atualização diária
+- Análise de custo-benefício e durabilidade de produtos
 
-## Guias e artigos
-- https://lojademoveismarilia.com.br/guia/moveis-area-externa - Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo
-- https://lojademoveismarilia.com.br/guia/moveis-planejados-vs-modulados - Móveis Planejados vs Modulados: Qual Vale Mais a Pena?
-- https://lojademoveismarilia.com.br/guia/moveis-home-office-barato - Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco
-- https://lojademoveismarilia.com.br/guia/moveis-cozinha-pequena - Móveis para Cozinha Pequena: Guia Completo para Aproveitar Cada Centímetro
-- https://lojademoveismarilia.com.br/guia/moveis-varanda-jardim - Móveis para Varanda e Jardim: Guia Completo para Montar o Espaço Externo
-- https://lojademoveismarilia.com.br/guia/moveis-quarto-casal - Móveis para Quarto de Casal: Conforto, Espaço e Organização
-- https://lojademoveismarilia.com.br/guia/moveis-quarto-infantil - Móveis para Quarto Infantil: Como Montar um Quarto Seguro e Funcional
-- https://lojademoveismarilia.com.br/guia/por-que-moveis-estalam - Por Que Móveis Estalam de Madrugada? A Explicação Real
-- https://lojademoveismarilia.com.br/guia/como-envelopar-moveis - Como Envelopar Móveis: Passo a Passo Completo para Renovar Sem Pintar
-- https://lojademoveismarilia.com.br/guia/mdf-vs-mdp-diferenca - MDF vs MDP: a Diferença que Define a Durabilidade dos Seus Móveis
-- https://lojademoveismarilia.com.br/guia/como-restaurar-moveis-madeira - Como Restaurar Móveis de Madeira: Do Arranhado ao Acabamento Novo
-- https://lojademoveismarilia.com.br/guia/como-pintar-moveis-madeira - Como Pintar Móveis de Madeira: Guia Completo para um Acabamento Profissional
-- https://lojademoveismarilia.com.br/guia/guia-instalacao-painel-tv - Como Instalar Painel de TV: Guia Completo com Tipos de Bucha e Altura Ideal
-- https://lojademoveismarilia.com.br/guia/melhores-lojas-moveis-online - Melhores Lojas de Móveis Online em 2024: Onde Comprar com Segurança
-- https://lojademoveismarilia.com.br/guia/moveis-outlet-pequenos-defeitos - Móveis Outlet com Pequenos Defeitos: Vale a Pena Comprar?
-- https://lojademoveismarilia.com.br/guia/moveis-frete-gratis-entrega-rapida - Móveis com Frete Grátis e Entrega Rápida: Como Encontrar e Não Cair em Armadilha
-- https://lojademoveismarilia.com.br/guia/moveis-usados-perto-de-mim - Móveis Usados Perto de Mim: Como Encontrar, Negociar e Não Se Arrepender
-- https://lojademoveismarilia.com.br/guia/lojas-moveis-sao-paulo - Lojas de Móveis em São Paulo: Os Melhores Endereços e Como Economizar
-- https://lojademoveismarilia.com.br/guia/lojas-moveis-curitiba - Lojas de Móveis em Curitiba: Onde Comprar e Como Economizar
-- https://lojademoveismarilia.com.br/guia/tipos-madeira-para-moveis - Tipos de Madeira para Móveis: Qual Usar em Cada Situação
-- https://lojademoveismarilia.com.br/guia/quanto-custa-moveis-planejados - Quanto Custam Móveis Planejados em 2024: Tabela de Preços por Cômodo
-- https://lojademoveismarilia.com.br/guia/moveis-de-pallet-como-fazer - Móveis de Pallet: Como Fazer do Zero com Segurança e Bom Resultado
-- https://lojademoveismarilia.com.br/guia/moveis-industriais-sala - Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira
+## Estrutura de Conteúdo
+O site está organizado em três grandes áreas:
+1. Categorias – Páginas que listam produtos por tipo de móvel (ex: sofás, guarda-roupas, cozinhas).
+2. Guias – Artigos aprofundados sobre temas específicos (comparativos, dicas, tendências, manutenção).
+3. Páginas Estáticas – Informações institucionais (contato, políticas, guias especiais).
 
-## Páginas estáticas
-- https://lojademoveismarilia.com.br/moveis-para-estudantes - Guia de móveis para estudantes
-- https://lojademoveismarilia.com.br/politicas - Políticas e transparência
-- https://lojademoveismarilia.com.br/contato - Fale conosco
+## Knowledge Graph
+### Entidades detectadas
+- Materiais (14): mdf, vidro, madeira, mdp, aço, plástico, ferro, couro, alumínio, tecido, suede, linho, tecidos, veludo
+- Ambientes (9): cozinha, sala, quarto, banheiro, estudo, escritório, home office, varanda, jardim
+- Tipos de Móveis (17): guarda-roupa, cozinha, armário, balcão, mesa, painel, prateleira, nicho, estante, rack, cômoda, bancada, escrivaninha, cama, sof, chaise, sofá
+- Marcas (42): Panorama Móveis, Suburban Gold, Móveis Marília, Madesa, Móveis Home, Gelius Móveis, Linea Brasil, Aquarel, Nina, Ben, Uli, Multimoveis, Diamante, Aramóveis, Philco, Consul, Wap, COMFCASA, Mondial, Brastemp, HQ, Midea, Gree, Móveis Bela, Perfin, Maxi do Brasil, Loja do Tesouro, Estate, Móveis Albergoni, Office, Roma, Zanzini, Acacia, AJL, Isis, Probel, Hellen, Espresso Móveis, Yescasa, Montreal, Celflex, Cama inBox
+- Cores (6): branco, preto, cinza, marrom, bege, creme
+- Estilos (7): moderno, industrial, contemporâneo, minimalista, boho, rústico, clássico
+- Benefícios (10): resistente, durável, confortável, ecológico, fácil de montar, com rodas, sustentável, impermeável, ergonômico, reclinável
 
+### Relacionamentos Principais
+#### Categoria → Guias
+- guarda-roupas → Melhores Guarda-Roupas Casal Baratos e Espaçosos em 2026
+- cozinhas → Melhores Cozinhas Moduladas Baratas para Apartamento
+- home-office → Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco
+- sofas → Melhores Sofás Retráteis para Apartamento Pequeno em 2026
+
+#### Guia → Produtos Recomendados
+- moveis-cozinha-pequena → Recomenda: Cozinha Compacta Pop com Armário, Balcão e Tampo Branco Madesa, Cozinha Completa Madesa Reims 310001 com Armário e Balcão - Preto, Armário de Cozinha Compacta Emilly Top Madesa, Armário de Cozinha Compacta Rustic Preto Emilly Top Madesa, Armário de Cozinha Compacta 229cm Rustic Emilly Pop Madesa, Armário de Cozinha Completa 240 cm Suspenso Nice Madesa, Cozinha Modulada Completa Móveis Home 100% MDF 10 Portas e 6 Gavetas, Kit Armário Cozinha Suspensa Aramóveis Compacta 5 Portas 1 Gaveta Nanda Cor Cinammo Grafite, Armário de Cozinha Completa Pop Zanzini Nature/Off White 6 Portas 2 Gavetas, Armário Cozinha AJL Preto Fruteira com Rodas Porta Microondas 2 Portas
+- melhores-sofas-retrateis-2026 → Recomenda: Sofá de Canto Modulado com Chaise 6 Lugares Linho Bege Dominique 320cm Yescasa, Sofá de Canto 9 Lugares com Puff Cancun Montreal Branco, Sofá de Canto Luna Orgânico 265cm Bege Claro Celflex, Sofá Modular Evo 2,70m com Chaise Direita Creme | Cama inBox
+- guarda-roupa-casal-mdf-ou-mdp → Recomenda: Guarda-Roupa Casal 8 Portas com Espelho Premium, Guarda-roupa Casal Ripado com Espelhos 2 Portas e 4 Gavetas Suburban Gold Espresso Móveis, Guarda-Roupa Casal Classic 6 Portas 6 Gavetas 100% MDF - Panorama Móveis, Guarda-Roupa Casal Harvard 3 Portas 2 Gavetas com Espelho 100% MDF - Panorama Móveis, Guarda-Roupa Casal Severo 6 Portas 6 Gavetas com Espelho, Guarda-roupa Solteiro Madesa Denver 2 Portas De Correr Preto 10946E
+- como-escolher-guarda-roupa-ideal → Recomenda: Guarda-Roupa Casal 8 Portas com Espelho Premium, Guarda-roupa Casal Ripado com Espelhos 2 Portas e 4 Gavetas Suburban Gold Espresso Móveis, Guarda-Roupa Casal Classic 6 Portas 6 Gavetas 100% MDF - Panorama Móveis, Guarda-Roupa Casal Harvard 3 Portas 2 Gavetas com Espelho 100% MDF - Panorama Móveis, Guarda-Roupa Casal Severo 6 Portas 6 Gavetas com Espelho, Guarda-roupa Solteiro Madesa Denver 2 Portas De Correr Preto 10946E
+- cozinha-modulada-pequena-vale-a-pena → Recomenda: Cozinha Compacta Pop com Armário, Balcão e Tampo Branco Madesa, Cozinha Completa Madesa Reims 310001 com Armário e Balcão - Preto, Armário de Cozinha Compacta Emilly Top Madesa, Armário de Cozinha Compacta Rustic Preto Emilly Top Madesa, Armário de Cozinha Compacta 229cm Rustic Emilly Pop Madesa, Armário de Cozinha Completa 240 cm Suspenso Nice Madesa, Cozinha Modulada Completa Móveis Home 100% MDF 10 Portas e 6 Gavetas, Kit Armário Cozinha Suspensa Aramóveis Compacta 5 Portas 1 Gaveta Nanda Cor Cinammo Grafite, Armário de Cozinha Completa Pop Zanzini Nature/Off White 6 Portas 2 Gavetas, Armário Cozinha AJL Preto Fruteira com Rodas Porta Microondas 2 Portas
+- guia-instalacao-painel-tv → Recomenda: Painel para TV até 90 Polegadas 229x250cm Ripado com LED 3 Gavetas 100% MDF, Painel Para Tv Até 90 Polegadas Impressão Ripada Com Lj, Painel para TV Até 60 Polegadas 1 Porta 140 Cm Nature Ripado/Off White Linea Brasil, Rack Painel para TV até 90 Polegadas LED 100% MDF 219cmx240cm 3 Gavetas com Rodízios Royal Requinte Branco Off, Painel Rack Estante P/ Sala P/ Tv De Até 60 Polegadas C Pés
+
+#### Categoria → Materiais Utilizados
+
+## Categorias (com descrições enriquecidas)
+- [Guarda-Roupas](https://lojademoveismarilia.com.br/categoria/guarda-roupas) – Encontre as melhores ofertas de Guarda-Roupas com preços competitivos e frete para todo Brasil. Guias relacionados: [Melhores Guarda-Roupas Casal Baratos e Espaçosos em 2026](https://lojademoveismarilia.com.br/guia/melhores-guarda-roupas-casal-baratos) (5 produtos disponíveis)
+- [Cozinhas](https://lojademoveismarilia.com.br/categoria/cozinhas) – Encontre as melhores ofertas de Cozinhas com preços competitivos e frete para todo Brasil. Guias relacionados: [Melhores Cozinhas Moduladas Baratas para Apartamento](https://lojademoveismarilia.com.br/guia/melhores-cozinhas-moduladas-baratas) (14 produtos disponíveis)
+- [Painéis e Racks](https://lojademoveismarilia.com.br/categoria/paineis) – Encontre as melhores ofertas de Painéis e Racks com preços competitivos e frete para todo Brasil.  (5 produtos disponíveis)
+- [Quartos](https://lojademoveismarilia.com.br/categoria/quartos) – Encontre as melhores ofertas de Quartos com preços competitivos e frete para todo Brasil.  (11 produtos disponíveis)
+- [Eletrodomésticos](https://lojademoveismarilia.com.br/categoria/eletrodomesticos) – Encontre as melhores ofertas de Eletrodomésticos com preços competitivos e frete para todo Brasil.  (9 produtos disponíveis)
+- [Home Office](https://lojademoveismarilia.com.br/categoria/home-office) – Encontre as melhores ofertas de Home Office com preços competitivos e frete para todo Brasil. Guias relacionados: [Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco](https://lojademoveismarilia.com.br/guia/moveis-home-office-barato) (13 produtos disponíveis)
+- [Sofás](https://lojademoveismarilia.com.br/categoria/sofas) – Encontre as melhores ofertas de Sofás com preços competitivos e frete para todo Brasil. Guias relacionados: [Melhores Sofás Retráteis para Apartamento Pequeno em 2026](https://lojademoveismarilia.com.br/guia/melhores-sofas-retrateis-2026) (4 produtos disponíveis)
+
+## Guias e Artigos (com metadados expandidos)
+- [Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo](https://lojademoveismarilia.com.br/guia/moveis-area-externa) – Guia completo sobre Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo. (Palavra-chave: móveis para área externa)  ~1 min de leitura
+- [Móveis Planejados vs Modulados: Qual Vale Mais a Pena?](https://lojademoveismarilia.com.br/guia/moveis-planejados-vs-modulados) – Guia completo sobre Móveis Planejados vs Modulados: Qual Vale Mais a Pena?. (Palavra-chave: móveis planejados vs modulados)  ~1 min de leitura
+- [Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco](https://lojademoveismarilia.com.br/guia/moveis-home-office-barato) – Guia completo sobre Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco. (Palavra-chave: móveis para home office barato) (categorias: [Home Office](https://lojademoveismarilia.com.br/categoria/home-office)) ~1 min de leitura
+- [Móveis para Cozinha Pequena: Guia Completo para Aproveitar Cada Centímetro](https://lojademoveismarilia.com.br/guia/moveis-cozinha-pequena) – Guia completo sobre Móveis para Cozinha Pequena: Guia Completo para Aproveitar Cada Centímetro. (Palavra-chave: móveis para cozinha pequena)  ~1 min de leitura
+- [Móveis para Varanda e Jardim: Guia Completo para Montar o Espaço Externo](https://lojademoveismarilia.com.br/guia/moveis-varanda-jardim) – Guia completo sobre Móveis para Varanda e Jardim: Guia Completo para Montar o Espaço Externo. (Palavra-chave: móveis para varanda e jardim)  ~1 min de leitura
+- [Móveis para Quarto de Casal: Conforto, Espaço e Organização](https://lojademoveismarilia.com.br/guia/moveis-quarto-casal) – Guia completo sobre Móveis para Quarto de Casal: Conforto, Espaço e Organização. (Palavra-chave: móveis para quarto de casal)  ~1 min de leitura
+- [Móveis para Quarto Infantil: Como Montar um Quarto Seguro e Funcional](https://lojademoveismarilia.com.br/guia/moveis-quarto-infantil) – Guia completo sobre Móveis para Quarto Infantil: Como Montar um Quarto Seguro e Funcional. (Palavra-chave: móveis para quarto infantil)  ~1 min de leitura
+- [Sofá Retrátil Vale a Pena? Veja Prós e Contras Antes de Comprar](https://lojademoveismarilia.com.br/guia/sofa-retratil-vale-a-pena) – Guia completo sobre Sofá Retrátil Vale a Pena? Veja Prós e Contras Antes de Comprar. (Palavra-chave: sofá retrátil vale a pena)  ~1 min de leitura
+- [Melhores Sofás Retráteis para Apartamento Pequeno em 2026](https://lojademoveismarilia.com.br/guia/melhores-sofas-retrateis-2026) – Guia completo sobre Melhores Sofás Retráteis para Apartamento Pequeno em 2026. (Palavra-chave: melhores sofás retráteis 2026) (categorias: [Sofás](https://lojademoveismarilia.com.br/categoria/sofas)) ~1 min de leitura
+- [Sofá Retrátil ou Reclinável: Qual Escolher para Sua Sala?](https://lojademoveismarilia.com.br/guia/sofa-retratil-ou-reclinavel) – Guia completo sobre Sofá Retrátil ou Reclinável: Qual Escolher para Sua Sala?. (Palavra-chave: sofá retrátil ou reclinável)  ~1 min de leitura
+- [Sofá de Canto ou Sofá Retrátil: Qual Ocupa Menos Espaço?](https://lojademoveismarilia.com.br/guia/sofa-de-canto-ou-sofa-retratil) – Guia completo sobre Sofá de Canto ou Sofá Retrátil: Qual Ocupa Menos Espaço?. (Palavra-chave: sofá de canto ou sofá retrátil)  ~1 min de leitura
+- [Guarda-Roupa Casal MDF ou MDP: Qual é Melhor e Mais Resistente?](https://lojademoveismarilia.com.br/guia/guarda-roupa-casal-mdf-ou-mdp) – Guia completo sobre Guarda-Roupa Casal MDF ou MDP: Qual é Melhor e Mais Resistente?. (Palavra-chave: guarda-roupa casal MDF ou MDP)  ~1 min de leitura
+- [Melhores Guarda-Roupas Casal Baratos e Espaçosos em 2026](https://lojademoveismarilia.com.br/guia/melhores-guarda-roupas-casal-baratos) – Guia completo sobre Melhores Guarda-Roupas Casal Baratos e Espaçosos em 2026. (Palavra-chave: melhores guarda-roupas casal baratos) (categorias: [Guarda-Roupas](https://lojademoveismarilia.com.br/categoria/guarda-roupas)) ~1 min de leitura
+- [Como Escolher Guarda-Roupa Ideal para Quarto Pequeno](https://lojademoveismarilia.com.br/guia/como-escolher-guarda-roupa-ideal) – Guia completo sobre Como Escolher Guarda-Roupa Ideal para Quarto Pequeno. (Palavra-chave: como escolher guarda-roupa ideal)  ~1 min de leitura
+- [Cozinha Modulada Pequena Vale a Pena? Veja Antes de Comprar](https://lojademoveismarilia.com.br/guia/cozinha-modulada-pequena-vale-a-pena) – Guia completo sobre Cozinha Modulada Pequena Vale a Pena? Veja Antes de Comprar. (Palavra-chave: cozinha modulada pequena vale a pena)  ~1 min de leitura
+- [Melhores Cozinhas Moduladas Baratas para Apartamento](https://lojademoveismarilia.com.br/guia/melhores-cozinhas-moduladas-baratas) – Guia completo sobre Melhores Cozinhas Moduladas Baratas para Apartamento. (Palavra-chave: melhores cozinhas moduladas baratas) (categorias: [Cozinhas](https://lojademoveismarilia.com.br/categoria/cozinhas)) ~1 min de leitura
+- [Como Escolher Móveis para Apartamento Pequeno sem Errar](https://lojademoveismarilia.com.br/guia/como-escolher-moveis-apartamento-pequeno) – Guia completo sobre Como Escolher Móveis para Apartamento Pequeno sem Errar. (Palavra-chave: como escolher móveis para apartamento pequeno)  ~1 min de leitura
+- [Por Que Móveis Estalam de Madrugada? A Explicação Real](https://lojademoveismarilia.com.br/guia/por-que-moveis-estalam) – Guia completo sobre Por Que Móveis Estalam de Madrugada? A Explicação Real. (Palavra-chave: por que móveis estalam de madrugada)  ~1 min de leitura
+- [Como Envelopar Móveis: Passo a Passo Completo para Renovar Sem Pintar](https://lojademoveismarilia.com.br/guia/como-envelopar-moveis) – Guia completo sobre Como Envelopar Móveis: Passo a Passo Completo para Renovar Sem Pintar. (Palavra-chave: como envelopar móveis passo a passo)  ~1 min de leitura
+- [MDF vs MDP: a Diferença que Define a Durabilidade dos Seus Móveis](https://lojademoveismarilia.com.br/guia/mdf-vs-mdp-diferenca) – Guia completo sobre MDF vs MDP: a Diferença que Define a Durabilidade dos Seus Móveis. (Palavra-chave: diferença entre MDF e MDP)  ~1 min de leitura
+- [Como Restaurar Móveis de Madeira: Do Arranhado ao Acabamento Novo](https://lojademoveismarilia.com.br/guia/como-restaurar-moveis-madeira) – Guia completo sobre Como Restaurar Móveis de Madeira: Do Arranhado ao Acabamento Novo. (Palavra-chave: como restaurar móveis de madeira)  ~1 min de leitura
+- [Como Pintar Móveis de Madeira: Guia Completo para um Acabamento Profissional](https://lojademoveismarilia.com.br/guia/como-pintar-moveis-madeira) – Guia completo sobre Como Pintar Móveis de Madeira: Guia Completo para um Acabamento Profissional. (Palavra-chave: como pintar móveis de madeira)  ~1 min de leitura
+- [Como Instalar Painel de TV: Guia Completo com Tipos de Bucha e Altura Ideal](https://lojademoveismarilia.com.br/guia/guia-instalacao-painel-tv) – Guia completo sobre Como Instalar Painel de TV: Guia Completo com Tipos de Bucha e Altura Ideal. (Palavra-chave: como instalar painel de TV)  ~1 min de leitura
+- [Melhores Lojas de Móveis Online em 2026: Onde Comprar com Segurança](https://lojademoveismarilia.com.br/guia/melhores-lojas-moveis-online) – Guia completo sobre Melhores Lojas de Móveis Online em 2026: Onde Comprar com Segurança. (Palavra-chave: melhores lojas de móveis online)  ~1 min de leitura
+- [Móveis Outlet com Pequenos Defeitos: Vale a Pena Comprar?](https://lojademoveismarilia.com.br/guia/moveis-outlet-pequenos-defeitos) – Guia completo sobre Móveis Outlet com Pequenos Defeitos: Vale a Pena Comprar?. (Palavra-chave: móveis outlet com pequenos defeitos)  ~1 min de leitura
+- [Móveis com Frete Grátis e Entrega Rápida: Como Encontrar e Não Cair em Armadilha](https://lojademoveismarilia.com.br/guia/moveis-frete-gratis-entrega-rapida) – Guia completo sobre Móveis com Frete Grátis e Entrega Rápida: Como Encontrar e Não Cair em Armadilha. (Palavra-chave: móveis com frete grátis e entrega rápida)  ~1 min de leitura
+- [Móveis Usados Perto de Mim: Como Encontrar, Negociar e Não Se Arrepender](https://lojademoveismarilia.com.br/guia/moveis-usados-perto-de-mim) – Guia completo sobre Móveis Usados Perto de Mim: Como Encontrar, Negociar e Não Se Arrepender. (Palavra-chave: móveis usados perto de mim)  ~1 min de leitura
+- [Lojas de Móveis em São Paulo: Os Melhores Endereços e Como Economizar](https://lojademoveismarilia.com.br/guia/lojas-moveis-sao-paulo) – Guia completo sobre Lojas de Móveis em São Paulo: Os Melhores Endereços e Como Economizar. (Palavra-chave: lojas de móveis em São Paulo)  ~1 min de leitura
+- [Lojas de Móveis em Curitiba: Onde Comprar e Como Economizar](https://lojademoveismarilia.com.br/guia/lojas-moveis-curitiba) – Guia completo sobre Lojas de Móveis em Curitiba: Onde Comprar e Como Economizar. (Palavra-chave: lojas de móveis em Curitiba)  ~1 min de leitura
+- [Tipos de Madeira para Móveis: Qual Usar em Cada Situação](https://lojademoveismarilia.com.br/guia/tipos-madeira-para-moveis) – Guia completo sobre Tipos de Madeira para Móveis: Qual Usar em Cada Situação. (Palavra-chave: tipos de madeira para móveis)  ~1 min de leitura
+- [Quanto Custam Móveis Planejados em 2026: Tabela de Preços por Cômodo](https://lojademoveismarilia.com.br/guia/quanto-custa-moveis-planejados) – Guia completo sobre Quanto Custam Móveis Planejados em 2026: Tabela de Preços por Cômodo. (Palavra-chave: quanto custam móveis planejados)  ~1 min de leitura
+- [Móveis de Pallet: Como Fazer do Zero com Segurança e Bom Resultado](https://lojademoveismarilia.com.br/guia/moveis-de-pallet-como-fazer) – Guia completo sobre Móveis de Pallet: Como Fazer do Zero com Segurança e Bom Resultado. (Palavra-chave: móveis de pallet como fazer)  ~1 min de leitura
+- [Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira](https://lojademoveismarilia.com.br/guia/moveis-industriais-sala) – Guia completo sobre Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira. (Palavra-chave: móveis industriais para sala)  ~1 min de leitura
+
+## Páginas Estáticas
+- [Móveis para Estudantes](https://lojademoveismarilia.com.br/moveis-para-estudantes) – Guia completo para estudantes universitários sobre móveis compactos, baratos e funcionais.
+- [Políticas e Transparência](https://lojademoveismarilia.com.br/politicas) – Políticas de privacidade, termos de uso e transparência do site.
+- [Contato](https://lojademoveismarilia.com.br/contato) – Entre em contato conosco por e-mail ou WhatsApp para dúvidas e sugestões.
+
+## Oportunidades de Conteúdo Detectadas
+- [MÉDIA] Expandir conteúdo com guias específicos como 'Cozinhas para ambientes pequenos' ou 'Guia de manutenção de Cozinhas'
+- [ALTA] Criar guia definitivo sobre 'Painéis e Racks' abordando tipos, materiais, preços e dicas de compra
+- [ALTA] Criar guia definitivo sobre 'Quartos' abordando tipos, materiais, preços e dicas de compra
+- [ALTA] Criar guia definitivo sobre 'Eletrodomésticos' abordando tipos, materiais, preços e dicas de compra
+- [MÉDIA] Expandir conteúdo com guias específicos como 'Home Office para ambientes pequenos' ou 'Guia de manutenção de Home Office'
+- [MÉDIA] Criar guia sobre 'Vantagens e desvantagens do madeira maciça em móveis' ou 'madeira maciça vs outros materiais: comparação completa'
+- [MÉDIA] Criar guia sobre 'Vantagens e desvantagens do vidro temperado em móveis' ou 'vidro temperado vs outros materiais: comparação completa'
+- [MÉDIA] Criar guia sobre 'Vantagens e desvantagens do aço inox em móveis' ou 'aço inox vs outros materiais: comparação completa'
+- [MÉDIA] Criar guia sobre 'Vantagens e desvantagens do alumínio em móveis' ou 'alumínio vs outros materiais: comparação completa'
+- [MÉDIA] Criar guia sobre 'Vantagens e desvantagens do couro sintético em móveis' ou 'couro sintético vs outros materiais: comparação completa'
+- [MÉDIA] Criar guia sobre 'Vantagens e desvantagens do linho em móveis' ou 'linho vs outros materiais: comparação completa'
+
+## Perguntas que Nossa IA Pode Responder
+Baseado em nossa base de conhecimento, podemos responder perguntas como:
+
+### Sobre Móveis
+- Qual sofá dura mais para uso diário intenso?
+- Qual a diferença entre box spring e cama tradicional?
+- Como montar um guarda-roupa sem ferramentas?
+- Qual é a altura ideal para uma mesa de home office?
+
+### Sobre Materiais
+- O MDF é adequado para áreas úmidas como cozinha?
+- Vidro temperado é seguro para mesas de centro?
+- Qual a durabilidade do couro sintético vs couro legítimo?
+
+### Sobre Compra
+- Como verificar a reputação do vendedor no Mercado Livre?
+- Qual o melhor momento do ano para comprar móveis com desconto?
+- Posso negociar frete grátis em compras acima de R$500?
+
+## Glossário Técnico
+- MDF: Medium Density Fiberboard – painel de fibras de madeira, liso e versátil, ideal para pintura e laminação.
+- MDP: Medium Density Particleboard – painel de partículas de madeira, mais econômico que o MDF.
+- Madeira Maciça: Madeira retirada diretamente do tronco da árvore, máxima durabilidade e valor de revenda.
+- Vidro Temperado: Vidro submetido a tratamento térmico para aumentar resistência a impactos e variações de temperatura.
+- Aço Inox: Liga de aço com cromo que resiste à corrosão, ideal para cozinhas e áreas externas.
+- Couro Sintético: Material feito de poliuretano (PU) ou PVC que imita aparência e textura do couro natural.
+- Soft-close: Sistema de amortecimento que faz portas e gavetas fecharem suavemente sem batidas.
+- Pillow Top: Camada extra de espuma ou látex adicionada ao colchão para maior conforto.
+- Ergonômico: Design projetado para apoiar posturas corretas e reduzir esforço físico durante o uso.
+
+---
 # Este arquivo é gerado automaticamente a partir dos dados do site.
+# Para mais informações, consulte o llms-index.json e o sitemap.xml.
