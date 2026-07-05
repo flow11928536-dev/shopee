@@ -82,6 +82,14 @@ export const GUIDE_CLUSTERS: { cluster: number; titulo: string; slugs: string[] 
       "moveis-industriais-sala",
     ],
   },
+  {
+  cluster: 2, // ou o cluster que fizer sentido
+  titulo: "Dúvidas e Dicas",
+  slugs: [
+    // ... slugs existentes ...
+    "rack-painel-tv-medidas", // ← ADICIONE AQUI
+  ],
+},
 ];
 
 export const ALL_GUIDE_SLUGS: string[] = GUIDE_CLUSTERS.flatMap((c) => c.slugs);
@@ -614,7 +622,71 @@ const SEEDS: Record<string, GuideSeed> = {
       },
     ],
   },
-
+  "rack-painel-tv-medidas": {
+  keyword: "rack painel tv medidas",
+  h1: "Rack e Painel para TV: Medidas e Altura Ideal para Cada Tamanho de Tela",
+  intro: "Escolher o rack ou painel para TV na medida certa é essencial para garantir estabilidade, ergonomia e um visual harmônico na sala. Neste guia, você descobre as medidas ideais para cada polegada de tela e como calcular a altura perfeita.",
+  heroImage: "/banners/rack-painel-tv-medidas.webp",
+  heroAlt: "Rack e painel para TV com medidas ideais e design moderno",
+  cross: CROSS_SELL["sala"],
+  ctaSlug: "painel-rack-tv-65-polegadas",
+  grid1Cat: "paineis",
+  bestSlugs: ["painel-rack-tv-65-polegadas", "rack-painel-tv-90-polegadas-mdf-3-gavetas-branco-off"],
+  sub1: {
+    heading: "Medidas ideais para cada tamanho de TV",
+    paragraphs: [
+      "A regra de ouro para escolher o rack ou painel certo é: o móvel deve ser pelo menos 10% mais largo que a TV. Isso garante equilíbrio visual e estabilidade. Para uma TV de 55 polegadas (largura aproximada de 122 cm), o rack ideal tem entre 135 cm e 160 cm de largura.",
+      "A altura do rack também é crucial. O centro da tela deve ficar na altura dos olhos de quem está sentado – cerca de 110 a 120 cm do chão. Isso significa que um rack com altura entre 45 e 55 cm é o mais adequado para a maioria das salas.",
+    ],
+    bullets: [
+      "TV 43\" → rack de 120-140 cm de largura",
+      "TV 50\" → rack de 140-160 cm de largura",
+      "TV 55\" → rack de 150-180 cm de largura",
+      "TV 65\" → rack de 180-220 cm de largura",
+      "Altura do rack: 45-55 cm do chão",
+    ],
+  },
+  sub2: {
+    heading: "Painel de parede vs rack no chão: qual escolher?",
+    paragraphs: [
+      "O painel de parede é ideal para salas pequenas, pois libera espaço no chão e dá sensação de amplitude. Já o rack no chão oferece mais espaço para organizar aparelhos (receptor, videogame, soundbar) e é mais fácil de instalar.",
+      "Se você optar por painel de parede, verifique se ele suporta o peso da TV (consulte a capacidade de carga) e se tem espaço para os equipamentos que você pretende colocar.",
+    ],
+  },
+  callout: {
+    variant: "dica",
+    title: "💡 Dica de ouro",
+    text: "Antes de comprar, meça a largura da sua TV e o espaço disponível na parede ou no móvel. Deixe pelo menos 10 cm de folga de cada lado para circulação de ar e facilidade na instalação.",
+  },
+  sub3: {
+    heading: "Comparativo de modelos por tamanho de TV",
+    paragraphs: [
+      "Confira abaixo os melhores racks e painéis para cada tamanho de tela, com as medidas ideais e faixa de preço.",
+    ],
+  },
+  faq: [
+    {
+      question: "Qual a altura ideal para instalar o painel de TV?",
+      answer: "A altura ideal é aquela em que o centro da tela fica na linha dos olhos de quem está sentado – cerca de 110 a 120 cm do chão. Para calcular, meça a altura do seu sofá e ajuste o suporte ou rack conforme necessário.",
+    },
+    {
+      question: "Qual a largura mínima do rack para uma TV de 55 polegadas?",
+      answer: "O rack deve ter no mínimo 135 cm de largura para uma TV de 55\" (122 cm de largura). O ideal é que o móvel seja 10-20% mais largo que a TV para equilíbrio visual.",
+    },
+    {
+      question: "Painel de parede ou rack: qual é mais seguro?",
+      answer: "Ambos são seguros se instalados corretamente. O painel de parede exige fixação em estrutura sólida (alvenaria ou montantes de aço). O rack no chão é mais fácil de instalar, mas ocupa espaço no ambiente.",
+    },
+    {
+      question: "Posso usar um rack menor que a TV?",
+      answer: "Não é recomendado. Um rack menor que a TV fica visualmente desproporcional e pode comprometer a estabilidade. Prefira sempre um móvel com largura igual ou superior à da TV.",
+    },
+    {
+      question: "Qual a profundidade ideal para um rack de TV?",
+      answer: "A profundidade mínima é de 35 cm para acomodar a base da TV e os cabos. Para TVs com pés centrais, verifique a profundidade da base antes de comprar.",
+    },
+  ],
+},
   "moveis-varanda-jardim": {
     keyword: "móveis para varanda e jardim",
     h1: "Móveis para Varanda e Jardim: Guia Completo para Montar o Espaço Externo",

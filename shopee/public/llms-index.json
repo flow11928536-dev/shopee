@@ -12,7 +12,7 @@
       "lat": -22.2286908,
       "lng": -49.9220343
     },
-    "lastUpdated": "2026-07-05T23:08:02.059Z"
+    "lastUpdated": "2026-07-05T23:46:17.652Z"
   },
   "expertise": [
     "Curadoria de móveis e eletrodomésticos",
@@ -973,6 +973,27 @@
         "Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira",
         "móveis industriais para sala"
       ]
+    },
+    {
+      "slug": "rack-painel-tv-medidas",
+      "title": "Rack e Painel para TV: Medidas e Altura Ideal para Cada Tamanho de Tela",
+      "url": "https://lojademoveismarilia.com.br/guia/rack-painel-tv-medidas",
+      "description": "Guia completo sobre Rack e Painel para TV: Medidas e Altura Ideal para Cada Tamanho de Tela.",
+      "keywords": [
+        "rack painel tv medidas"
+      ],
+      "category": "Cluster 2",
+      "summary": "Rack e Painel para TV: Medidas e Altura Ideal para Cada Tamanho de Tela é uma página essencial do Loja de Móveis Marília. Guia completo sobre Rack e Painel para TV: Medidas e Altura Ideal para Cada Tamanho de Tela. O Loja de Móveis Marília oferece conteúdo especializado em móveis e decoração, com foco em ajudar consumidores a tomar decisões informadas através de análises detalhadas, comparações de preços e recomendações baseadas em tendências atuais do mercado.",
+      "relatedCategories": [],
+      "searchIntent": "Usuários buscando informações detalhadas sobre Rack e Painel para TV: Medidas e Altura Ideal para Cada Tamanho de Tela, incluindo comparações, dicas de compra e tendências de mercado.",
+      "contentLength": {
+        "words": 1,
+        "readTimeMinutes": 1
+      },
+      "topics": [
+        "Rack e Painel para TV: Medidas e Altura Ideal para Cada Tamanho de Tela",
+        "rack painel tv medidas"
+      ]
     }
   ],
   "pages": [
@@ -997,10 +1018,10 @@
   ],
   "statistics": {
     "totalCategories": 7,
-    "totalGuides": 33,
+    "totalGuides": 34,
     "totalPages": 4,
-    "generatedAt": "2026-07-05T23:08:02.058Z",
-    "lastUpdated": "2026-07-05T23:08:02.059Z",
+    "generatedAt": "2026-07-05T23:46:17.651Z",
+    "lastUpdated": "2026-07-05T23:46:17.652Z",
     "totalProducts": 61,
     "avgPrice": 0
   },
@@ -1055,7 +1076,8 @@
       "tipos-madeira-para-moveis": [],
       "quanto-custa-moveis-planejados": [],
       "moveis-de-pallet-como-fazer": [],
-      "moveis-industriais-sala": []
+      "moveis-industriais-sala": [],
+      "rack-painel-tv-medidas": []
     }
   },
   "faqTopics": [
@@ -1496,6 +1518,15 @@
           "cluster": 5,
           "heroImage": "/banners/moveis-industriais-sala-estilo-urbano.webp",
           "description": "Guia completo sobre Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira.",
+          "type": "Guide"
+        },
+        {
+          "slug": "rack-painel-tv-medidas",
+          "h1": "Rack e Painel para TV: Medidas e Altura Ideal para Cada Tamanho de Tela",
+          "keyword": "rack painel tv medidas",
+          "cluster": 2,
+          "heroImage": "/banners/rack-painel-tv-medidas.webp",
+          "description": "Guia completo sobre Rack e Painel para TV: Medidas e Altura Ideal para Cada Tamanho de Tela.",
           "type": "Guide"
         }
       ],
@@ -2464,6 +2495,19 @@
           "target": [],
           "type": "recommendsProduct",
           "weight": 0
+        },
+        {
+          "source": "rack-painel-tv-medidas",
+          "target": [
+            "rack-painel-tv-90-polegadas-mdf-3-gavetas-branco-off",
+            "painel-rack-estante-para-tv-ate-60-polegadas-com-pes",
+            "rack-para-tv-ate-50-polegadas-moderno-com-portas-e-nichos-120cm",
+            "painel-para-tv-at-90-polegadas-229x250cm-ripado-com-led-3-gavetas-100-mdf-grafite-off-white",
+            "painel-para-tv-ate-90-polegadas-impressao-ripada-com-led",
+            "painel-para-tv-at-60-polegadas-1-porta-140-cm-nature-ripado-off-white-linea-brasil"
+          ],
+          "type": "recommendsProduct",
+          "weight": 6
         }
       ],
       "categoryToMaterial": [
@@ -3073,6 +3117,12 @@
         },
         {
           "source": "moveis-industriais-sala",
+          "target": [],
+          "type": "highlightsBenefit",
+          "weight": 0
+        },
+        {
+          "source": "rack-painel-tv-medidas",
           "target": [],
           "type": "highlightsBenefit",
           "weight": 0
@@ -3702,6 +3752,21 @@
       "relatedGuides": [
         "moveis-industriais-sala"
       ]
+    },
+    {
+      "category": "guide",
+      "label": "Rack e Painel para TV: Medidas e Altura Ideal para Cada Tamanho de Tela",
+      "searchTerms": [
+        "Rack e Painel para TV: Medidas e Altura Ideal para Cada Tamanho de Tela",
+        "o que é rack e painel para tv: medidas e altura ideal para cada tamanho de tela",
+        "como fazer rack e painel para tv: medidas e altura ideal para cada tamanho de tela",
+        "dicas sobre rack e painel para tv: medidas e altura ideal para cada tamanho de tela",
+        "tutorial rack e painel para tv: medidas e altura ideal para cada tamanho de tela",
+        "rack e painel para tv: medidas e altura ideal para cada tamanho de tela passo a passo"
+      ],
+      "relatedGuides": [
+        "rack-painel-tv-medidas"
+      ]
     }
   ],
   "contentClusters": [
@@ -4079,7 +4144,7 @@
   "llmsTxt": "https://lojademoveismarilia.com.br/llms.txt",
   "llmsFullTxt": "https://lojademoveismarilia.com.br/llms-full.txt",
   "contentFreshness": {
-    "lastUpdate": "2026-07-05T23:08:02.059Z",
+    "lastUpdate": "2026-07-05T23:46:17.652Z",
     "updateFrequency": "diária",
     "pagesUpdatedLastWeek": 1
   }
