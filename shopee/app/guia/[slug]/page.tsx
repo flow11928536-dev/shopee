@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import Link from "next/link";
 import { getGuide, getAllGuidesMeta } from "@/data/guides";
 import { getProductBySlug, SITE } from "@/data/products";
@@ -232,13 +233,13 @@ export default function GuidePage({ params }: Props) {
 
       <header className="relative overflow-hidden border-b border-stone-200">
         <div className="absolute inset-0">
-          <img
+          <Image
             src={guide.heroImage}
             alt={guide.heroAlt}
             width={1600}
             height={900}
             className="h-full w-full object-cover"
-            fetchPriority="high"
+            priority
           />
           <div className="absolute inset-0 bg-gradient-to-t from-stone-900/85 via-stone-900/60 to-stone-900/40" />
         </div>

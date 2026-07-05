@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { CATEGORY_LABELS, SITE, allCategories } from "@/data/products";
 import ProductGrid from "@/components/ProductGrid";
@@ -139,14 +140,14 @@ export default function HomePage() {
                 Ver eletrodomésticos
               </Link>
             </div>
-            <div className="h-56 md:h-full bg-stone-900">
-              <img
+            <div className="relative h-56 md:h-full bg-stone-900">
+              <Image
                 src="https://images.pexels.com/photos/3958962/pexels-photo-3958962.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
                 alt="Cozinha moderna equipada com eletrodomésticos em aço inox"
-                loading="lazy"
-                width={1200}
-                height={627}
-                className="h-full w-full object-contain"
+                fill
+                className="object-contain"
+                sizes="(max-width: 768px) 100vw, 50vw"
+                priority={false}
               />
             </div>
           </div>

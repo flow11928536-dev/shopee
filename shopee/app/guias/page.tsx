@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { GUIDE_CLUSTERS, getGuide, getAllGuidesMeta } from "@/data/guides";
 import { SITE } from "@/data/products";
@@ -177,18 +178,15 @@ export default function GuidesIndexPage() {
                       href={`/guia/${slug}`}
                       className="guide-card group rounded-2xl bg-white p-3 transition-all duration-500 hover:-translate-y-1"
                     >
-                      <div className="guide-glow aspect-square rounded-2xl bg-stone-100">
-                        <div className="h-full w-full overflow-hidden rounded-2xl">
-                          <img
-                            src={g.heroImage}
-                            alt={g.h1}
-                            loading="lazy"
-                            decoding="async"
-                            width={500}
-                            height={500}
-                            className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-                          />
-                        </div>
+                      <div className="guide-glow relative aspect-square overflow-hidden rounded-2xl bg-stone-100">
+                        <Image
+                          src={g.heroImage}
+                          alt={g.h1}
+                          fill
+                          sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
+                          className="object-cover transition-transform duration-700 group-hover:scale-105"
+                          loading="lazy"
+                        />
                       </div>
                       <div className="pt-3 text-center">
                         <span className="text-[11px] font-semibold uppercase tracking-wider text-stone-400">

@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState, useEffect, useCallback } from "react";
+import Image from "next/image";
 import Link from "next/link";
 
 interface CategoryItem {
@@ -91,11 +92,13 @@ export default function CategoryCarousel({ items }: CategoryCarouselProps) {
             className="group flex w-24 shrink-0 flex-col items-center gap-2.5 text-center sm:w-28"
           >
             <span className="relative block h-24 w-24 overflow-hidden rounded-full ring-1 ring-stone-200 transition-all duration-300 group-hover:ring-amber-400 sm:h-28 sm:w-28">
-              <img
+              <Image
                 src={item.image}
                 alt={`Móveis para ${item.label}`}
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
+                sizes="(max-width: 640px) 6rem, 7rem"
                 loading="lazy"
-                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
             </span>
             <span className="text-sm font-medium leading-tight text-stone-700">
