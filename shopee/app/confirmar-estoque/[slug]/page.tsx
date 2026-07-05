@@ -20,10 +20,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: product.seoTitle,
     description: product.seoDescription,
-    robots: {
-      index: false,
-      follow: false,
-    },
+    // ✅ REMOVIDO o noindex para permitir indexação
+    // robots: {
+    //   index: false,
+    //   follow: false,
+    // },
     alternates: {
       canonical: `${SITE.url}${path}`,
     },
