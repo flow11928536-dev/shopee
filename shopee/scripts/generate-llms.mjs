@@ -982,6 +982,7 @@ function generateRobotsTxt(site) {
     'Disallow: /admin/',
     'Disallow: /api/',
     'Disallow: /private/',
+    'Disallow: /cdn-cgi/',
     '',
     '# Sitemap',
     `Sitemap: ${site.url}/sitemap.xml`,

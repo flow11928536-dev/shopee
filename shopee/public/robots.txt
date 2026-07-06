@@ -16,6 +16,7 @@ User-agent: *
 Disallow: /admin/
 Disallow: /api/
 Disallow: /private/
+Disallow: /cdn-cgi/
 
 # Sitemap
 Sitemap: https://lojademoveismarilia.com.br/sitemap.xml
