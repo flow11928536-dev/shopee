@@ -44,6 +44,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2.5">
               <li><Link href="/guias" className="text-sm text-stone-600 hover:text-stone-900">Guias de Compra</Link></li>
               <li><Link href="/moveis-para-estudantes" className="text-sm text-stone-600 hover:text-stone-900">🎓 Móveis para Estudantes</Link></li>
+              <li><Link href="/sobre" className="text-sm text-stone-600 hover:text-stone-900">Sobre nós</Link></li>
               <li><Link href="/contato" className="text-sm text-stone-600 hover:text-stone-900">Contato</Link></li>
               <li><Link href="/politicas" className="text-sm text-stone-600 hover:text-stone-900">Políticas</Link></li>
             </ul>

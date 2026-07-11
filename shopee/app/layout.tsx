@@ -15,6 +15,10 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
+  // ✅ TAG DE VERIFICAÇÃO GOOGLE SEARCH CONSOLE
+  verification: {
+    google: "wDhyGdfTC5MorOmYth-ft47N6OH7uFNpj44yoW_nT-Q",
+  },
   title: {
     default: "Loja de Móveis Marília | Ofertas e Alto Padrão",
     template: "%s | Loja de Móveis Marília",
@@ -134,58 +138,6 @@ const baseSchemas: Schema[] = [
       "https://www.mercadolivre.com.br/",
       "https://shopee.com.br/",
     ],
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "FurnitureStore",
-    "@id": `${SITE.url}/#localbusiness`,
-    name: "Loja de Móveis Marília",
-    image: `${SITE.url}/banners/logo.png`,
-    url: SITE.url,
-    email: SITE.email,
-    telephone: SITE.whatsapp,
-    priceRange: "R$R$",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: SITE.address ?? "Avenida das Esmeraldas, próx. 2700 - Jardim Tangará",
-      addressLocality: SITE.city,
-      addressRegion: SITE.region,
-      postalCode: SITE.postalCode ?? "17516-000",
-      addressCountry: SITE.country,
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: SITE.geo.lat,
-      longitude: SITE.geo.lng,
-    },
-    openingHoursSpecification: [
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        opens: "09:00",
-        closes: "18:00",
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: "Saturday",
-        opens: "09:00",
-        closes: "13:00",
-      },
-    ],
-    areaServed: [
-      { "@type": "City", name: "Marília" },
-      { "@type": "State", name: "São Paulo" },
-      { "@type": "Country", name: "Brasil" },
-    ],
-    serviceArea: {
-      "@type": "GeoCircle",
-      geoMidpoint: {
-        "@type": "GeoCoordinates",
-        latitude: SITE.geo.lat,
-        longitude: SITE.geo.lng,
-      },
-      geoRadius: 250000,
-    },
   },
 ];
 

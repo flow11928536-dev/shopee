@@ -23,7 +23,6 @@ export const GUIDE_CLUSTERS: { cluster: number; titulo: string; slugs: string[] 
     cluster: 1,
     titulo: "Guias por Tipo (Conversão)",
     slugs: [
-      // ... slugs existentes ...
       "moveis-area-externa",
       "moveis-planejados-vs-modulados",
       "moveis-home-office-barato",
@@ -31,7 +30,6 @@ export const GUIDE_CLUSTERS: { cluster: number; titulo: string; slugs: string[] 
       "moveis-varanda-jardim",
       "moveis-quarto-casal",
       "moveis-quarto-infantil",
-      // === NOVOS SLUGS (10 páginas solicitadas) ===
       "sofa-retratil-vale-a-pena",
       "melhores-sofas-retrateis-2026",
       "sofa-retratil-ou-reclinavel",
@@ -42,10 +40,12 @@ export const GUIDE_CLUSTERS: { cluster: number; titulo: string; slugs: string[] 
       "cozinha-modulada-pequena-vale-a-pena",
       "melhores-cozinhas-moduladas-baratas",
       "como-escolher-moveis-apartamento-pequeno",
+      "conjunto-sala-de-jantar",
+      "melhor-air-fryer-2026",
+      "duvidas-frequentes-air-fryer", 
+        // <-- ADICIONADO
     ],
   },
-  // ... demais clusters permanecem iguais ...
-
   {
     cluster: 2,
     titulo: "Dúvidas e Dicas ",
@@ -82,21 +82,11 @@ export const GUIDE_CLUSTERS: { cluster: number; titulo: string; slugs: string[] 
       "moveis-industriais-sala",
     ],
   },
-  {
-  cluster: 2, // ou o cluster que fizer sentido
-  titulo: "Dúvidas e Dicas",
-  slugs: [
-    // ... slugs existentes ...
-    "rack-painel-tv-medidas", // ← ADICIONE AQUI
-  ],
-},
 ];
-
 export const ALL_GUIDE_SLUGS: string[] = GUIDE_CLUSTERS.flatMap((c) => c.slugs);
 
 const clusterOf = (slug: string): number =>
   GUIDE_CLUSTERS.find((c) => c.slugs.includes(slug))?.cluster ?? 1;
-
 // ----------------------------------------------------------------------------
 //  GUIA MODELO COMPLETO (1.000+ palavras) — moveis-cozinha-pequena
 // ----------------------------------------------------------------------------
@@ -284,7 +274,7 @@ const IMG = {
   mdfCasal:"/banners/Como-comprar-moveis-pela-internet-com-seguranca copiar.webp",
   online:"/banners/Como-comprar-moveis-pela-internet-com-seguranca2.webp",
   quartocasal:"/banners/moveis-para-quarto-de-casal.webp",
-  quartoinfantil:"/imagens/produtos/Quarto-de-Bebe-Completo-100-MDF-Comoda-BerЗo-e-Guarda-Roupa-Nina-Branco-Amadeirado.webp",
+  quartoinfantil:"/imagens/produtos/Quarto-de-Bebe-Completo-100-MDF-Comoda-Berco-e-Guarda-Roupa-Nina-Branco-Amadeirado.webp",
   madeiras:"/banners/Que-tipos-de-madeira-existem-para-fazer-moveis-para-casa.webp",
   curitiba:"/banners/loja-de-moveis-em-curitiba.webp",
   planejados:"/banners/moveis-modulados-madesa.webp",
@@ -440,7 +430,7 @@ const SEEDS: Record<string, GuideSeed> = {
     cross: CROSS_SELL["quarto"],
     ctaSlug: "guarda-roupa-casal-6-portas-mdp",
     grid1Cat: "guarda-roupas",
-    bestSlugs: ["guarda-rupa-casal-6-portas-mdp", "cama-box-bau-casal-bicama"],
+    bestSlugs: ["guarda-roupa-casal-6-portas-mdp", "cama-box-bau-casal-bicama"],
     videoUrl: "https://www.youtube.com/embed/FAHI1scB6u4?si=yIAiRdln9keip9J2",
     videoTitle: "Como Escolher o Guarda-Roupa Ideal para o Quarto de Casal",
     sub1: {
@@ -622,6 +612,78 @@ const SEEDS: Record<string, GuideSeed> = {
       },
     ],
   },
+  "conjunto-sala-de-jantar": {
+    keyword: "conjunto sala de jantar",
+    h1: "Conjunto Sala de Jantar: Como Escolher o Melhor Modelo para Sua Casa",
+    intro: "Escolher o conjunto de sala de jantar certo é essencial para criar um ambiente acolhedor e funcional. Com tantas opções de materiais, cores e tamanhos, a decisão pode ser confusa. Este guia vai te ajudar a entender o que considerar antes de comprar, desde o espaço disponível até o material mais adequado para seu estilo de vida.",
+    heroImage: "/banners/COMO-ESCOLHER-MESA-DE-JANTAR.jpeg",
+    heroAlt: "Conjunto sala de jantar moderno com mesa de madeira e 6 cadeiras",
+    cross: ["cozinhas", "eletrodomesticos"],
+    ctaSlug: "conjunto-sala-de-jantar-bahamas-madesa-mesa-tampo-de-madeira-6-cadeiras-rustic-preto",
+    grid1Cat: "cozinhas",
+    bestSlugs: [
+        "conjunto-sala-de-jantar-bahamas-madesa-mesa-tampo-de-madeira-6-cadeiras-rustic-preto",
+        "conjunto-sala-jantar-jaine-madesa-mesa-tampo-de-madeira-com-6-cadeiras",
+        "conjunto-sala-de-jantar-mesa-tampo-de-vidro-4-cadeiras-rustic-cinza-silver-anaju-madesa",
+        "conjunto-sala-de-jantar-talita-madesa-mesa-tampo-madeira-4-cadeiras-rustic-preto"
+    ],
+    sub1: {
+        heading: "Como escolher o conjunto de sala de jantar ideal",
+        paragraphs: [
+            "Antes de comprar, considere o tamanho do ambiente. Meça o espaço disponível e deixe pelo menos 60 cm de circulação ao redor da mesa. Isso garante que as pessoas possam se sentar e circular confortavelmente.",
+            "Pense no número de pessoas que usarão a mesa diariamente. Uma mesa para 4 pessoas é ideal para famílias pequenas, enquanto mesas para 6 ou mais são melhores para quem recebe visitas com frequência.",
+            "O material é outro fator crucial. Mesas de madeira maciça são duráveis e atemporais, mas exigem manutenção. Mesas com tampo de vidro são elegantes e fáceis de limpar, mas podem ser menos resistentes a riscos. MDF e MDP oferecem bom custo-benefício e variedade de acabamentos."
+        ],
+        bullets: [
+            "Medir o espaço disponível",
+            "Definir o número de lugares",
+            "Escolher o material adequado",
+            "Avaliar o estilo de decoração",
+            "Verificar a qualidade das ferragens"
+        ]
+    },
+    sub2: {
+        heading: "Materiais e acabamentos: qual escolher?",
+        paragraphs: [
+            "As mesas de jantar podem ser feitas de diversos materiais. A madeira maciça (como freijó, pinus ou ipê) é a mais durável e oferece um visual rústico ou clássico. Já as mesas com tampo de MDF ou MDP são mais acessíveis e têm acabamento liso, ideais para estilos modernos e minimalistas.",
+            "O tampo de vidro temperado é uma opção sofisticada e fácil de limpar, mas é importante verificar a espessura e a qualidade do vidro para garantir segurança. As cadeiras podem ser estofadas, de madeira ou metal, combinando com o estilo da mesa.",
+            "Cores neutras como branco, preto e tons de madeira são curingas e combinam com qualquer decoração. Cores mais ousadas podem ser usadas para dar personalidade ao ambiente."
+        ]
+    },
+    callout: {
+        variant: "dica",
+        title: "💡 Dica para espaços pequenos",
+        text: "Se você tem uma sala de jantar compacta, prefira mesas retangulares ou redondas com pés centrais, que permitem melhor circulação. Mesas com cadeiras que podem ser guardadas embaixo da mesa economizam espaço."
+    },
+    sub3: {
+        heading: "Comparativo de conjuntos de sala de jantar",
+        paragraphs: [
+            "Para ajudar na sua decisão, selecionamos os melhores conjuntos de sala de jantar disponíveis, com diferentes materiais, capacidades e faixas de preço. Compare as opções e escolha a que melhor se adapta ao seu orçamento e estilo."
+        ]
+    },
+    faq: [
+        {
+            question: "Qual o tamanho ideal de mesa para 4 pessoas?",
+            answer: "Uma mesa retangular de 120 cm x 80 cm é suficiente para 4 pessoas com conforto. Para 6 pessoas, o ideal é uma mesa de 160 cm x 90 cm."
+        },
+        {
+            question: "Mesa de madeira maciça ou MDF: qual é melhor?",
+            answer: "A madeira maciça é mais durável e resistente, mas tem preço mais alto. O MDF é mais acessível e oferece ótimo acabamento, sendo ideal para quem busca custo-benefício."
+        },
+        {
+            question: "Como limpar um tampo de vidro?",
+            answer: "Use um pano macio e produtos específicos para vidro. Evite esponjas abrasivas que podem riscar a superfície."
+        },
+        {
+            question: "Qual a altura ideal para uma mesa de jantar?",
+            answer: "A altura padrão de uma mesa de jantar é de 75 cm, que é confortável para a maioria das pessoas."
+        },
+        {
+            question: "Posso misturar cores e estilos de cadeiras?",
+            answer: "Sim! Misturar cadeiras de cores ou estilos diferentes pode criar um visual eclético e interessante, desde que haja um elemento de unidade entre elas (como o material ou a altura)."
+        }
+    ]
+},
   "rack-painel-tv-medidas": {
   keyword: "rack painel tv medidas",
   h1: "Rack e Painel para TV: Medidas e Altura Ideal para Cada Tamanho de Tela",
@@ -2446,7 +2508,72 @@ const SEEDS: Record<string, GuideSeed> = {
         answer: "Use um sofá de canto com chaise para acomodar mais pessoas. Substitua a mesa de centro por um puff ou banco com tampo (que serve como assento e apoio). Instale prateleiras flutuantes para decoração e livros, eliminando a estante no chão.",
       },
     ],
+
   },
+  "duvidas-frequentes-air-fryer": {
+  keyword: "duvidas frequentes air fryer",
+  h1: "Dúvidas Frequentes sobre Air Fryer: Segurança, Limpeza, Consumo e Mais",
+  intro: "Air fryer é segura, econômica e fácil de limpar — mas muitas dúvidas surgem: enferruja? Pode usar papel alumínio? Gasta muita luz? Reunimos as perguntas mais comuns que recebemos e respondemos de forma direta, com base em quem usa todos os dias.",
+  heroImage: "/banners/duvidas-sobre-air-fryer.jpg",
+  heroAlt: "Dúvidas frequentes sobre air fryer - segurança, limpeza, consumo",
+  cross: ["eletrodomesticos"],
+  ctaSlug: "fritadeira-eletrica-mondial-oven-12l-preta",
+  grid1Cat: "eletrodomesticos",
+  bestSlugs: ["fritadeira-eletrica-mondial-oven-12l-preta"],
+  sub1: {
+    heading: "Air fryer faz mal à saúde?",
+    paragraphs: [
+      "Não, desde que usada corretamente. A air fryer reduz o uso de óleo em até 80% comparado à fritura tradicional, o que é benéfico. O único cuidado é com a formação de acrilamida em amidos em altas temperaturas — o mesmo que ocorre em fornos e frituras. Cozinhar em temperatura moderada (até 180°C) e evitar queimar os alimentos minimiza esse risco.",
+      "A tecnologia de circulação de ar quente não emite radiação perigosa. É um eletrodoméstico seguro, com certificação Inmetro. O problema mais comum é o superaquecimento por falta de limpeza — por isso, a manutenção regular é essencial.",
+    ],
+  },
+  sub2: {
+    heading: "Pode colocar papel alumínio na air fryer?",
+    paragraphs: [
+      "Sim, mas com restrições. Papel alumínio pode ser usado no fundo do cesto para facilitar a limpeza, desde que não bloqueie a circulação de ar. Nunca cubra totalmente a grelha ou as laterais, pois o ar quente precisa circular para dourar os alimentos. Evite usar com alimentos ácidos (tomate, limão) que podem reagir com o alumínio.",
+      "Prefira formas de silicone ou papel manteiga próprio para air fryer — eles são mais seguros e não interferem no cozimento. O alumínio é prático, mas exige atenção: se rasgar, pedaços podem grudar nos alimentos.",
+    ],
+  },
+  callout: {
+    variant: "alerta",
+    title: "Nunca use papel alumínio na parte de cima da resistência",
+    text: "Isso pode causar superaquecimento, faíscas e até queimar o aparelho. O alumínio só deve ser colocado no fundo do cesto, e nunca em contato direto com a resistência ou o ventilador.",
+  },
+  sub3: {
+    heading: "Como limpar a air fryer por dentro e evitar ferrugem?",
+    paragraphs: [
+      "A ferrugem aparece quando a umidade fica retida. Após cada uso, retire o cesto e a grade, lave com esponja macia e detergente neutro, seque bem e deixe arejar antes de guardar. A parte interna do forno (onde fica a resistência) deve ser limpa com pano úmido — nunca mergulhe o aparelho na água.",
+      "Se a ferrugem já apareceu, use uma esponja de aço fina para remover a oxidação superficial e seque com pano seco. Para prevenir, limpe a cada 3 usos e guarde em local seco. Modelos com revestimento cerâmico ou inox são menos propensos à ferrugem.",
+    ],
+  },
+  faq: [
+    {
+      question: "Air fryer pode enferrujar?",
+      answer: "Sim, se não for secada corretamente. A ferrugem ocorre por umidade acumulada. Seque bem o cesto e a grade após a lavagem e guarde em local ventilado.",
+    },
+    {
+      question: "Pode colocar papel alumínio na air fryer?",
+      answer: "Sim, apenas no fundo do cesto, sem bloquear a circulação de ar. Evite usar com alimentos ácidos e nunca coloque sobre a resistência.",
+    },
+    {
+      question: "Air fryer gasta muita energia?",
+      answer: "Não. Uma air fryer de 1800W consome cerca de 1,8 kWh por hora de uso. Para um uso diário de 30 minutos, o custo mensal fica em torno de R$ 15 a R$ 25, dependendo da tarifa.",
+    },
+    {
+      question: "Air fryer tem radiação?",
+      answer: "Não. Ela funciona com resistência elétrica e ventilador, sem emitir radiação ionizante. É tão segura quanto um forno elétrico comum.",
+    },
+    {
+      question: "Como limpar a air fryer por dentro?",
+      answer: "Lave o cesto e a grade com água e detergente neutro. Seque bem. A parte interna da cavidade limpe com pano úmido, nunca molhe o aparelho.",
+    },
+    {
+      question: "Air fryer pode ficar ligada sem supervisão?",
+      answer: "Evite. Embora tenha timer automático, é recomendado acompanhar o preparo, especialmente nas primeiras vezes, para ajustar tempo e temperatura.",
+    },
+  ],
+},
+
 };
 
 

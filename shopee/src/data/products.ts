@@ -622,7 +622,7 @@ export const products: Product[] = [
     category: "quartos",
     mainCategory: "quarto",
     name: "Quarto Bebê Completo Berço Americano Ben 3 Em1 Guarda Roupa 4 Portas e Cômoda",
-    imageFile: "/imagens/produtos/Quarto-Bebe-Completo-Bero-Americano-Ben-3-Em1-Guarda-Roupa-4-Portas-e-Cmoda.webp",
+    imageFile: "/imagens/produtos/Quarto-Bebe-Completo-Bero-Americano-Ben-3-Em1-Guarda-Roupa-4-Portas-e-Comoda.webp",
     displayImage: "/imagens/produtos/Quarto-Bebe-Completo-Bero-Americano-Ben-3-Em1-Guarda-Roupa-4-Portas-e-Cmoda.webp",
     alt: "Quarto Bebê Completo Berço Americano Ben 3 Em1 Guarda Roupa 4 Portas e Cômoda — oferta Loja de Móveis Marília",
     rating: 4.5,

@@ -20,8 +20,8 @@ interface Slide {
 // ============================================================
 const slides: Slide[] = [
   {
-    image: "/banners/coainhas-barata-promocao.webp",
-    imageMobile: "/banners/comprar-moveis-barato-mobile.avif",
+    image: "/banners/cozinhas-barata-promocao.webp",
+    imageMobile: "/banners/banner-mobile-loja-de-moveis-01.avif",
     alt: "Móveis de alto padrão pelo melhor preço",
     title: "Móveis de alto padrão pelo melhor preço",
     href: "/categoria/cozinhas",
@@ -29,6 +29,7 @@ const slides: Slide[] = [
   {
     image:
       "/banners/oferta-imperdivel-moveis-baratos.webp",
+      imageMobile: "/banners/banner-mobile-loja-de-moveis-02.avif",
     alt: "Salas que impressionam, preços que cabem",
     title: "Salas que impressionam, preços que cabem",
     href: "/categoria/sofas",
@@ -36,6 +37,7 @@ const slides: Slide[] = [
   {
     image:
       "/banners/loja-dem-moveis-usados-em-marilia.webp",
+      imageMobile: "/banners/banner-mobile-loja-de-moveis-03.avif",
     alt: "Durma melhor sem gastar uma fortuna",
     title: "Durma melhor sem gastar uma fortuna",
     href: "/categoria/quartos",
@@ -43,6 +45,7 @@ const slides: Slide[] = [
   {
     image:
       "/banners/moveis-para-escritorio-em-marilia-sao-paulo.webp",
+      imageMobile: "/banners/banner-mobile-loja-de-moveis-04.avif",
     alt: "Trabalhe em casa com estilo e conforto",
     title: "Trabalhe em casa com estilo e conforto",
     href: "/categoria/home-office",
@@ -50,6 +53,7 @@ const slides: Slide[] = [
   {
     image:
       "/banners/promocao-de-moveis-barato.webp",
+      imageMobile: "/banners/banner-mobile-loja-de-moveis-05.avif",
     alt: "Sua área externa muito mais bonita",
     title: "Sua área externa muito mais bonita",
     href: "/categoria/area-externa",
