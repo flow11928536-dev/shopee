@@ -256,25 +256,25 @@ export default function GuidePage({ params }: Props) {
 
       <article className="mx-auto max-w-3xl space-y-12 px-4 py-12 sm:px-6">
         {guide.blocks.map((block, i) => {
-  if (block.type === "text") return <TextBlock key={i} block={block} />;
-  if (block.type === "callout") return <Callout key={i} block={block} />;
-  if (block.type === "video") return <VideoBlock key={i} block={block} />;
-  return (
-    <div key={i} className="-mx-4 sm:mx-0">
-      <div className="px-4 sm:px-0">
-        <ProductGrid
-          title={block.title}
-          subtitle={block.subtitle}
-          category={block.category}
-          slugs={block.slugs}
-          limit={block.limit}
-        />
-      </div>
-    </div>
-  );
-})}
+          if (block.type === "text") return <TextBlock key={i} block={block} />;
+          if (block.type === "callout") return <Callout key={i} block={block} />;
+          if (block.type === "video") return <VideoBlock key={i} block={block} />;
+          return (
+            <div key={i} className="-mx-4 sm:mx-0">
+              <div className="px-4 sm:px-0">
+                <ProductGrid
+                  title={block.title}
+                  subtitle={block.subtitle}
+                  category={block.category}
+                  slugs={block.slugs}
+                  limit={block.limit}
+                />
+              </div>
+            </div>
+          );
+        })}
 
-        /*  <Faq items={guide.faq} />*
+        {/* <Faq items={guide.faq} /> */}
 
         {ctaProduct && (
           <section className="overflow-hidden rounded-3xl bg-gradient-to-br from-stone-900 to-stone-800 p-8 text-center shadow-2xl sm:p-12">

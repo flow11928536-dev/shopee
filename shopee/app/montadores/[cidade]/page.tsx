@@ -48,9 +48,6 @@ export default function MontadorPage({ params }: Props) {
   const nomeCidade = montadores[0].cidade;
   const estado = montadores[0].estado;
 
-  // Perguntas usadas tanto no FAQ visível quanto no JSON-LD (schema.org FAQPage),
-  // que é a forma correta de sinalizar ao Google que esta página responde
-  // dúvidas reais sobre o tema — sem precisar repetir texto/cidades artificialmente.
   const faqItems = [
     {
       question: `Quanto custa o serviço de um montador de móveis em ${nomeCidade}?`,
@@ -97,7 +94,7 @@ export default function MontadorPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
-      {/* 1. HERO SECTION - Foco em SEO Local e Urgência */}
+      {/* 1. HERO SECTION */}
       <section className="relative bg-stone-900 text-white overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-stone-900/90 via-stone-900/70 to-transparent" />
         <div className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
@@ -115,7 +112,6 @@ export default function MontadorPage({ params }: Props) {
               Comprou seu móvel na internet (Mercado Livre, Amazon, Shopee, Magalu) e a caixa está encostada? Não arrisque seu patrimônio. Conecte-se agora com <strong>montadores profissionais de móveis residenciais</strong> avaliados na sua região.
             </p>
 
-            {/* Estatísticas de Autoridade */}
             <div className="mt-10 flex flex-wrap gap-8 border-t border-stone-800 pt-8">
               <div>
                 <div className="font-space text-3xl font-bold text-amber-500">{montadores.length}</div>
@@ -155,7 +151,7 @@ export default function MontadorPage({ params }: Props) {
 
       <hr className="border-stone-200 mx-auto max-w-7xl" />
 
-      {/* 3. SEÇÃO ENRIQUECIDA: Especialidades (Palavras-Chave de Cauda Longa) */}
+      {/* 3. ESPECIALIDADES */}
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div>
@@ -182,6 +178,7 @@ export default function MontadorPage({ params }: Props) {
             </div>
             <div className="bg-white p-6 rounded-xl border border-stone-200 shadow-sm">
               <h3 className="font-space text-lg font-bold text-stone-900 mb-2">Desmontagem e Remontagem</h3>
+              {/* ✅ CORRIGIDO: aspas tipográficas substituídas por &ldquo; e &rdquo; */}
               <p className="text-sm text-stone-600">Vai mudar de endereço em {nomeCidade}? Os profissionais realizam a desmontagem cuidadosa e a montagem no novo local.</p>
             </div>
           </div>
@@ -190,7 +187,7 @@ export default function MontadorPage({ params }: Props) {
 
       <hr className="border-stone-200 mx-auto max-w-7xl" />
 
-      {/* 5. SEÇÃO ENRIQUECIDA: Garantia Legal (E-E-A-T / Autoridade) */}
+      {/* 4. GARANTIA LEGAL */}
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div>
@@ -225,7 +222,7 @@ export default function MontadorPage({ params }: Props) {
 
       <hr className="border-stone-200 mx-auto max-w-7xl" />
 
-      {/* 6. SEÇÃO ENRIQUECIDA: Cuidados com os Móveis */}
+      {/* 5. CUIDADOS COM MÓVEIS */}
       <section className="bg-stone-100 py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="font-space text-3xl font-bold text-stone-900 tracking-tight mb-10">
@@ -248,14 +245,14 @@ export default function MontadorPage({ params }: Props) {
             <div className="bg-white p-6 rounded-xl border border-stone-200 shadow-sm">
               <h3 className="font-space text-lg font-bold text-stone-900 mb-2">Depois da montagem</h3>
               <p className="text-sm text-stone-600 leading-relaxed">
-                Evite forçar portas e gavetas nos primeiros dias — corrediças e dobradiças costumam "assentar" naturalmente. Reaperte os parafusos visíveis após alguns meses de uso.
+                Evite forçar portas e gavetas nos primeiros dias — corrediças e dobradiças costumam assentar naturalmente. Reaperte os parafusos visíveis após alguns meses de uso.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 4. SEÇÃO ENRIQUECIDA: FAQ Estruturado (Dúvidas do AnswerThePublic) */}
+      {/* 6. FAQ */}
       <section className="py-16">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
