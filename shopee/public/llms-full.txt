@@ -1,7 +1,7 @@
 # LLMS-full.txt – Documentação Completa do Site
 # Site: Loja de Móveis Marília
 # URL: https://lojademoveismarilia.com.br
-# Gerado em: 2026-07-10T03:42:52.868Z
+# Gerado em: 2026-07-15T13:18:40.236Z
 
 ## Sobre o Site
 Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.

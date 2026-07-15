@@ -56,6 +56,7 @@ export const GUIDE_CLUSTERS: { cluster: number; titulo: string; slugs: string[] 
       "como-restaurar-moveis-madeira",
       "como-pintar-moveis-madeira",
       "guia-instalacao-painel-tv",
+      
     ],
   },
   {
