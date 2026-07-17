@@ -23,11 +23,11 @@ Sitemap: https://lojademoveismarilia.com.br/sitemap.xml
 
 # LLMs files for AI training
 User-agent: GPTBot
-Allow: https://lojademoveismarilia.com.br/llms.txt
-Allow: https://lojademoveismarilia.com.br/llms-full.txt
-Allow: https://lojademoveismarilia.com.br/llms-index.json
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /llms-index.json
 
 User-agent: ClaudeWeb
-Allow: https://lojademoveismarilia.com.br/llms.txt
-Allow: https://lojademoveismarilia.com.br/llms-full.txt
-Allow: https://lojademoveismarilia.com.br/llms-index.json
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /llms-index.json

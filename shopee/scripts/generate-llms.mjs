@@ -989,14 +989,14 @@ function generateRobotsTxt(site) {
     '',
     '# LLMs files for AI training',
     'User-agent: GPTBot',
-    `Allow: ${site.url}/llms.txt`,
-    `Allow: ${site.url}/llms-full.txt`,
-    `Allow: ${site.url}/llms-index.json`,
+    'Allow: /llms.txt',
+    'Allow: /llms-full.txt',
+    'Allow: /llms-index.json',
     '',
     'User-agent: ClaudeWeb',
-    `Allow: ${site.url}/llms.txt`,
-    `Allow: ${site.url}/llms-full.txt`,
-    `Allow: ${site.url}/llms-index.json`,
+    'Allow: /llms.txt',
+    'Allow: /llms-full.txt',
+    'Allow: /llms-index.json',
   ];
   return lines.join('\n');
 }
