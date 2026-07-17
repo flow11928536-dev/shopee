@@ -88,8 +88,12 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
           </Link>
         </h3>
 
-        {/* Avaliação acessível */}
-        <div className="mt-2 flex items-center gap-1 text-sm" aria-label={`Avaliação ${rating.toFixed(1)} de 5 estrelas, baseada em ${reviews} avaliações`}>
+        {/* ✅ Avaliação acessível – corrigida com role="img" */}
+        <div
+          className="mt-2 flex items-center gap-1 text-sm"
+          role="img"
+          aria-label={`Avaliação ${rating.toFixed(1)} de 5 estrelas, baseada em ${reviews} avaliações`}
+        >
           <span className="font-medium text-stone-700" aria-hidden="true">
             {rating.toFixed(1)}
           </span>
