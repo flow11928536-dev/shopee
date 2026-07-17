@@ -15,7 +15,6 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  // ✅ TAG DE VERIFICAÇÃO GOOGLE SEARCH CONSOLE
   verification: {
     google: "wDhyGdfTC5MorOmYth-ft47N6OH7uFNpj44yoW_nT-Q",
   },
@@ -89,7 +88,6 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-// Definindo o tipo dos schemas para evitar erro 'any'
 interface Schema {
   "@context": string;
   "@type": string;
@@ -150,7 +148,35 @@ export default function RootLayout({
     <html lang="pt-BR" className={inter.variable}>
       <head>
         <link rel="llms" href="/llms.txt" />
-        <link rel="preconnect" href="https://images.pexels.com" />
+        
+        {/* ✅ PRECONNECT com crossorigin corrigido */}
+        <link
+          rel="preconnect"
+          href="https://images.pexels.com"
+          crossOrigin="anonymous"
+        />
+        
+        {/* ✅ PRECONNECT para Google Fonts (se usar) */}
+        <link
+          rel="preconnect"
+          href="https://fonts.googleapis.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+
+        {/* ✅ PRELOAD da imagem LCP (banner principal) */}
+        <link
+          rel="preload"
+          href="/banners/cozinhas-barata-promocao.webp"
+          as="image"
+          fetchPriority="high"
+        />
+
+        {/* Schemas JSON-LD */}
         {baseSchemas.map((schema, i) => (
           <script
             key={i}
