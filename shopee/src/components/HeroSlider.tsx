@@ -110,38 +110,44 @@ export default function HeroSlider() {
       aria-label="Destaques da loja"
     >
       <div className="absolute inset-0">
-        {slides.map((s, index) => (
-          <div
-            key={index}
-            className="absolute inset-0 transition-opacity duration-1000 ease-in-out"
-            style={{
-              opacity: index === current ? 1 : 0,
-              zIndex: index === current ? 1 : 0,
-            }}
-            aria-hidden={index !== current}
-          >
-            {/* Versão DESKTOP/TABLET */}
-            <Image
-              src={s.image}
-              alt={s.alt}
-              fill
-              priority={index === 0}
-              loading={index === 0 ? "eager" : "lazy"}
-              sizes="100vw"
-              className="hidden md:block object-contain"
-            />
-            {/* Versão MOBILE */}
-            <Image
-              src={s.imageMobile ?? s.image}
-              alt={s.alt}
-              fill
-              priority={index === 0}
-              loading={index === 0 ? "eager" : "lazy"}
-              sizes="100vw"
-              className="block md:hidden object-cover"
-            />
-          </div>
-        ))}
+        {slides.map((s, index) => {
+          const isActive = index === current;
+          return (
+            <div
+              key={index}
+              id={`slide-${index}`}
+              role="tabpanel"
+              aria-labelledby={`tab-${index}`}
+              className="absolute inset-0 transition-opacity duration-1000 ease-in-out"
+              style={{
+                opacity: isActive ? 1 : 0,
+                zIndex: isActive ? 1 : 0,
+              }}
+              aria-hidden={!isActive}
+            >
+              {/* Versão DESKTOP/TABLET */}
+              <Image
+                src={s.image}
+                alt={s.alt}
+                fill
+                priority={index === 0}
+                loading={index === 0 ? "eager" : "lazy"}
+                sizes="100vw"
+                className="hidden md:block object-contain"
+              />
+              {/* Versão MOBILE */}
+              <Image
+                src={s.imageMobile ?? s.image}
+                alt={s.alt}
+                fill
+                priority={index === 0}
+                loading={index === 0 ? "eager" : "lazy"}
+                sizes="100vw"
+                className="block md:hidden object-cover"
+              />
+            </div>
+          );
+        })}
       </div>
 
       <Link
@@ -162,9 +168,10 @@ export default function HeroSlider() {
               key={i}
               onClick={() => goToSlide(i)}
               role="tab"
+              id={`tab-${i}`}
               aria-selected={isActive}
-              aria-controls={`slide-${i}`}
               aria-label={`Ir para o slide ${i + 1}`}
+              aria-controls={`slide-${i}`}
               className="h-1.5 rounded-full bg-white/60 shadow transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-white"
               style={{
                 width: isActive ? 36 : 12,

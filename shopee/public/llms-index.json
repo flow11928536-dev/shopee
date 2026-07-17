@@ -12,7 +12,7 @@
       "lat": -22.2286908,
       "lng": -49.9220343
     },
-    "lastUpdated": "2026-07-17T19:37:10.988Z"
+    "lastUpdated": "2026-07-17T19:50:34.360Z"
   },
   "expertise": [
     "Curadoria de móveis e eletrodomésticos",
@@ -1062,8 +1062,8 @@
     "totalCategories": 7,
     "totalGuides": 36,
     "totalPages": 4,
-    "generatedAt": "2026-07-17T19:37:10.987Z",
-    "lastUpdated": "2026-07-17T19:37:10.988Z",
+    "generatedAt": "2026-07-17T19:50:34.359Z",
+    "lastUpdated": "2026-07-17T19:50:34.360Z",
     "totalProducts": 61,
     "avgPrice": 0
   },
@@ -4253,7 +4253,7 @@
   "llmsTxt": "https://lojademoveismarilia.com.br/llms.txt",
   "llmsFullTxt": "https://lojademoveismarilia.com.br/llms-full.txt",
   "contentFreshness": {
-    "lastUpdate": "2026-07-17T19:37:10.988Z",
+    "lastUpdate": "2026-07-17T19:50:34.360Z",
     "updateFrequency": "diária",
     "pagesUpdatedLastWeek": 1
   }
