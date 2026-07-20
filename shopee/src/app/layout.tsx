@@ -19,19 +19,25 @@ export const metadata: Metadata = {
     google: "wDhyGdfTC5MorOmYth-ft47N6OH7uFNpj44yoW_nT-Q",
   },
   title: {
-    default: "Loja de Móveis Marília | Ofertas e Alto Padrão",
-    template: "%s | Loja de Móveis Marília",
+    // ✅ Título principal inclui "movéis" (erro comum de digitação)
+    default: "Loja de Móveis e Movéis em Marília | Ofertas e Alto Padrão",
+    template: "%s | Loja de Móveis e Movéis Marília",
   },
   description:
-    "Loja de móveis em Marília com curadoria de produtos de alto padrão. Sofás, guarda-roupas, cozinhas e eletrodomésticos com os melhores preços do Mercado Livre e Shopee.",
+    // ✅ Descrição mais chamativa, incluindo "movéis" e benefícios
+    "Encontre móveis e até movéis de alto padrão em Marília. Sofás, guarda-roupas, cozinhas e eletrodomésticos com frete grátis e ofertas exclusivas. Confira!",
   keywords: [
+    // ✅ Adicionadas variações com erro de digitação
     "loja de móveis Marília",
+    "loja de movéis Marília",
     "móveis Marília",
+    "movéis Marília",
     "móveis alto padrão",
     "decoração Marília",
     "eletrodomésticos Marília",
     "móveis Mercado Livre",
     "móveis Shopee",
+    "movéis Mercado Livre",
   ],
   authors: [{ name: "Loja de Móveis Marília", url: SITE.url }],
   creator: "Loja de Móveis Marília",
@@ -49,26 +55,27 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    siteName: "Loja de Móveis Marília",
+    siteName: "Loja de Móveis e Movéis Marília",
     locale: "pt_BR",
     url: SITE.url,
-    title: "Loja de Móveis Marília | Ofertas e Alto Padrão",
+    // ✅ OG mais atrativo
+    title: "Loja de Móveis e Movéis em Marília - Ofertas, Frete Grátis",
     description:
-      "Loja de móveis em Marília com curadoria de produtos de alto padrão. Sofás, guarda-roupas, cozinhas e eletrodomésticos com os melhores preços.",
+      "Móveis de alto padrão em Marília. Sofás, guarda-roupas, cozinhas e mais com os melhores preços. Frete grátis e ofertas exclusivas!",
     images: [
       {
         url: `${SITE.url}/banners/og-image.png`,
         width: 1200,
         height: 630,
-        alt: "Loja de Móveis Marília - Curadoria de móveis de alto padrão",
+        alt: "Loja de Móveis Marília - Curadoria de móveis e movéis de alto padrão",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Loja de Móveis Marília | Ofertas e Alto Padrão",
+    title: "Loja de Móveis e Movéis em Marília - Ofertas e Frete Grátis",
     description:
-      "Loja de móveis em Marília com curadoria de produtos de alto padrão.",
+      "Móveis de alto padrão em Marília. Sofás, guarda-roupas, cozinhas e mais com os melhores preços.",
     images: [`${SITE.url}/banners/og-image.png`],
   },
   alternates: {
@@ -99,11 +106,12 @@ const baseSchemas: Schema[] = [
     "@context": "https://schema.org",
     "@type": "WebSite",
     "@id": `${SITE.url}/#website`,
-    name: "Loja de Móveis Marília",
+    // ✅ Inclui "movéis" no nome do site
+    name: "Loja de Móveis e Movéis Marília",
     url: SITE.url,
     inLanguage: "pt-BR",
     description:
-      "Loja de móveis em Marília com curadoria de produtos de alto padrão. Sofás, guarda-roupas, cozinhas e eletrodomésticos.",
+      "Loja de móveis e movéis em Marília com curadoria de produtos de alto padrão. Sofás, guarda-roupas, cozinhas e eletrodomésticos.",
     publisher: { "@id": `${SITE.url}/#organization` },
     potentialAction: {
       "@type": "SearchAction",
@@ -118,7 +126,7 @@ const baseSchemas: Schema[] = [
     "@context": "https://schema.org",
     "@type": "Organization",
     "@id": `${SITE.url}/#organization`,
-    name: "Loja de Móveis Marília",
+    name: "Loja de Móveis e Movéis Marília",
     url: SITE.url,
     logo: {
       "@type": "ImageObject",

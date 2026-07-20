@@ -21,23 +21,25 @@ const heroBanner =
   "https://images.pexels.com/photos/8135492/pexels-photo-8135492.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1600";
 
 export const metadata: Metadata = {
-  title: "Loja de Móveis em Marília SP | Ofertas e Alto Padrão",
+  // ✅ Título inclui "movéis" e "frete grátis"
+  title: "Loja de Móveis e Movéis em Marília SP | Frete Grátis e Ofertas",
   description:
-    "Curadoria de móveis e eletrodomésticos com os melhores preços do Mercado Livre e Shopee. Cozinhas, guarda-roupas, sofás e guias honestos.",
+    "Encontre móveis e até movéis de alto padrão em Marília com frete grátis. Sofás, guarda-roupas, cozinhas e eletrodomésticos com os melhores preços do Mercado Livre e Shopee.",
   alternates: {
     canonical: SITE.url,
   },
   openGraph: {
-    title: "Loja de Móveis em Marília SP | Ofertas e Alto Padrão",
+    // ✅ OG mais atrativo
+    title: "Loja de Móveis e Movéis em Marília SP - Ofertas e Frete Grátis",
     description:
-      "Curadoria de móveis e eletrodomésticos com os melhores preços do Mercado Livre e Shopee. Cozinhas, guarda-roupas, sofás e guias honestos.",
+      "Móveis de alto padrão em Marília. Sofás, guarda-roupas, cozinhas e eletrodomésticos com frete grátis e ofertas exclusivas. Confira!",
     url: SITE.url,
     images: [
       {
         url: heroBanner,
         width: 1600,
         height: 900,
-        alt: "Móveis Marília - Curadoria de móveis de alto padrão",
+        alt: "Móveis Marília - Curadoria de móveis e movéis de alto padrão",
       },
     ],
     type: "website",
@@ -48,7 +50,8 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "@id": `${SITE.url}/#webpage`,
-  name: "Loja de Móveis em Marília SP | Ofertas e Alto Padrão",
+  // ✅ Inclui "movéis" no nome
+  name: "Loja de Móveis e Movéis em Marília SP | Ofertas e Frete Grátis",
   url: SITE.url,
   description: SITE.description,
   isPartOf: { "@id": `${SITE.url}/#website` },
@@ -74,8 +77,8 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      {/* H1 oculto para SEO */}
-      <h1 className="sr-only">Loja de Móveis em Marília SP: Alto Padrão com os Melhores Preços</h1>
+      {/* ✅ H1 oculto inclui "movéis" e "frete grátis" */}
+      <h1 className="sr-only">Loja de Móveis e Movéis em Marília SP: Alto Padrão, Frete Grátis e os Melhores Preços</h1>
 
       <HeroSlider />
 
@@ -176,20 +179,19 @@ export default function HomePage() {
             COM ESTILO MAIS SOFISTICADO
             ============================================================ */}
         <section className="relative mt-20 border-t border-stone-200/60 pt-16">
-          {/* Linha decorativa */}
           <div className="absolute -top-px left-1/4 right-1/4 h-px bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
 
           <div className="prose prose-stone max-w-none font-serif">
             <h2 className="text-4xl font-light tracking-wide text-stone-800 sm:text-5xl">
-              Móveis de Alto Padrão em Marília
+              Móveis e Movéis de Alto Padrão em Marília
               <span className="block text-2xl font-light text-stone-400 sm:text-3xl">
-                com preços que cabem no seu bolso
+                com frete grátis e preços que cabem no seu bolso
               </span>
             </h2>
 
             <div className="mt-8 space-y-6 text-stone-600">
               <p className="text-lg leading-relaxed">
-                Se você está procurando uma <strong className="font-semibold text-stone-800">loja de móveis em Marília</strong> que una qualidade, design e preço justo, chegou ao lugar certo. Nossa curadoria é feita com carinho para quem quer transformar a casa sem pagar uma fortuna.
+                Se você está procurando uma <strong className="font-semibold text-stone-800">loja de móveis em Marília</strong> – ou até mesmo <strong className="font-semibold text-stone-800">movéis</strong> (como muita gente pesquisa) – que una qualidade, design e preço justo, chegou ao lugar certo. Nossa curadoria é feita com carinho para quem quer transformar a casa sem pagar uma fortuna.
               </p>
 
               <h3 className="mt-10 text-2xl font-light tracking-wide text-stone-800">
@@ -244,7 +246,7 @@ export default function HomePage() {
               </p>
 
               <p className="text-lg leading-relaxed">
-                Em Marília, sabemos que o espaço é valioso. Por isso, nossos móveis são pensados para otimizar cada metro quadrado – com design moderno, materiais resistentes e acabamento de alto padrão. Oferecemos também <strong className="font-semibold text-stone-800">painéis para TV</strong>, <strong className="font-semibold text-stone-800">racks</strong>, <strong className="font-semibold text-stone-800">camas box com baú</strong> e <strong className="font-semibold text-stone-800">eletrodomésticos</strong> para completar sua casa.
+                Em Marília, sabemos que o espaço é valioso. Por isso, nossos móveis (e <strong className="font-semibold text-stone-800">movéis</strong>) são pensados para otimizar cada metro quadrado – com design moderno, materiais resistentes e acabamento de alto padrão. Oferecemos também <strong className="font-semibold text-stone-800">painéis para TV</strong>, <strong className="font-semibold text-stone-800">racks</strong>, <strong className="font-semibold text-stone-800">camas box com baú</strong> e <strong className="font-semibold text-stone-800">eletrodomésticos</strong> para completar sua casa.
               </p>
 
               <h3 className="mt-12 text-2xl font-light tracking-wide text-stone-800">
@@ -263,7 +265,7 @@ export default function HomePage() {
                   <span className="flex h-7 w-7 items-center justify-center rounded-full bg-stone-100 text-sm font-medium text-stone-500">2</span>
                   <div>
                     <strong className="font-semibold text-stone-800">Verifique o estoque</strong>
-                    <p className="mt-0.5 text-sm leading-relaxed">CClique em &quot;Verificar estoque&quot; – você é redirecionado para o Mercado Livre ou Shopee com a oferta já aplicada.</p>
+                    <p className="mt-0.5 text-sm leading-relaxed">Clique em &quot;Verificar estoque&quot; – você é redirecionado para o Mercado Livre ou Shopee com a oferta já aplicada.</p>
                   </div>
                 </li>
                 <li className="flex gap-4">
@@ -288,7 +290,7 @@ export default function HomePage() {
                   <span className="text-amber-500">📍</span> Atendemos toda a região de Marília:
                 </p>
                 <p className="mt-2 text-sm leading-relaxed text-stone-600">
-                  <strong className="font-medium text-stone-700">Centro</strong>, Jardim Tangará, Bairro Alto, Nova Marília, Jardim Itália, Jardim dos Estados, e também cidades vizinhas como <strong className="font-medium text-stone-700">Bauru, Ourinhos, Assis, Tupã</strong> e toda a região de influência de Marília.
+                  <strong className="font-medium text-stone-700">Centro</strong>, Jardim Tangará, Bairro Alto, Nova Marília, Jardim Itália, Jardim dos Estados, e também cidades vizinhas como <strong className="font-medium text-stone-700">Bauru, Ourinhos, Assis, Tupã</strong> e toda a região de influência de Marília. Se você está buscando <strong className="font-medium text-stone-700">móveis ou movéis</strong> na região, estamos aqui para ajudar!
                 </p>
                 <p className="mt-1 text-xs text-stone-400">
                   Entregas também disponíveis para todo o Brasil – consulte o frete no momento da compra.
