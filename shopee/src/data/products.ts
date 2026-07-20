@@ -2175,8 +2175,10 @@ Marca: Espresso Móveis | Linha: Office | Material: MDP (25mm na escrivaninha, 1
 
 
 // ============================================================
-// FUNÇÕES AUXILIARES (mantidas)
+// FUNÇÕES AUXILIARES
 // ============================================================
+export const getAllProducts = (): Product[] => products;
+
 export const getProductBySlug = (slug: string): Product | undefined =>
   products.find((p) => p.slug === slug);
 
