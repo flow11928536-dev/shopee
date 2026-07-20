@@ -42,8 +42,7 @@ export const GUIDE_CLUSTERS: { cluster: number; titulo: string; slugs: string[] 
       "como-escolher-moveis-apartamento-pequeno",
       "conjunto-sala-de-jantar",
       "melhor-air-fryer-2026",
-      "duvidas-frequentes-air-fryer", 
-        // <-- ADICIONADO
+      "duvidas-frequentes-air-fryer",
     ],
   },
   {
@@ -56,7 +55,18 @@ export const GUIDE_CLUSTERS: { cluster: number; titulo: string; slugs: string[] 
       "como-restaurar-moveis-madeira",
       "como-pintar-moveis-madeira",
       "guia-instalacao-painel-tv",
-      
+      // ⬇️ SLUGS ADICIONADOS PARA CORRIGIR OS 404
+      "guarda-roupa-mdf-mdp",
+      "como-comprar-moveis-casas-bahia",
+      "entrega-montagem-moveis",
+      "como-limpar-moveis-madeira",
+      "sofa-custo-beneficio",
+      "colchao-cama-box-densidade",
+      "como-comprar-moveis-shopee",
+      "como-comprar-moveis-ojas-100",
+      "como-limpar-moveis-mdf-mdp",
+      "limpar-moveis-mdf-mdp",
+      "colchao-cama-box",
     ],
   },
   {
