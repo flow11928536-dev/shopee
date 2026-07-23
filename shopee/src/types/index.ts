@@ -27,6 +27,7 @@ export type MainCategory =
   | "escritorio"
   | "area-externa"
   | "eletrodomesticos";
+  
 
 /**
  * Estrutura OBRIGATÓRIA de cada produto.

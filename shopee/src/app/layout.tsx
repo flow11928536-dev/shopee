@@ -15,137 +15,236 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  verification: {
-    google: "wDhyGdfTC5MorOmYth-ft47N6OH7uFNpj44yoW_nT-Q",
-  },
   title: {
-    // ✅ Título principal inclui "movéis" (erro comum de digitação)
-    default: "Loja de Móveis e Movéis em Marília | Ofertas e Alto Padrão",
-    template: "%s | Loja de Móveis e Movéis Marília",
+    default: "Móveis Marília | Guia de Móveis e Loja em Marília SP — Curadoria, Dicas e Ofertas",
+    template: "%s | Móveis Marília",
   },
   description:
-    // ✅ Descrição mais chamativa, incluindo "movéis" e benefícios
-    "Encontre móveis e até movéis de alto padrão em Marília. Sofás, guarda-roupas, cozinhas e eletrodomésticos com frete grátis e ofertas exclusivas. Confira!",
+    "Portal especializado em móveis em Marília SP. Guias de compra, comparativos, dicas de decoração e curadoria de produtos com frete grátis. Sofás, guarda-roupas, cozinhas, home office.",
   keywords: [
-    // ✅ Adicionadas variações com erro de digitação
-    "loja de móveis Marília",
-    "loja de movéis Marília",
-    "móveis Marília",
-    "movéis Marília",
-    "móveis alto padrão",
-    "decoração Marília",
-    "eletrodomésticos Marília",
-    "móveis Mercado Livre",
-    "móveis Shopee",
-    "movéis Mercado Livre",
-  ],
-  authors: [{ name: "Loja de Móveis Marília", url: SITE.url }],
-  creator: "Loja de Móveis Marília",
-  publisher: "Loja de Móveis Marília",
+    "móveis marília",
+    "loja de móveis marília sp",
+    "guia de móveis",
+    "dicas de decoração",
+    "comparativo de móveis",
+    "sofá marília",
+    "guarda roupa marília",
+    "cozinha planejada marília",
+    "painel tv marília",
+    "home office marília",
+    "móveis frete grátis marília",
+    "móveis baratos marília",
+    "móveis online marília",
+    "móveis alto padrão marília",
+    "eletrodomésticos marília",
+    "móveis para apartamento",
+    "móveis modernos",
+    "móveis mdf",
+    "móveis mdp",
+  ].join(", "),
+  authors: [{ name: "Móveis Marília", url: SITE.url }],
+  creator: "Móveis Marília",
+  publisher: "Móveis Marília",
+  applicationName: "Móveis Marília",
+  category: "Móveis",
+  formatDetection: {
+    telephone: true,
+    email: true,
+    address: true,
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-32x32.png",
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    title: "Móveis Marília",
+    statusBarStyle: "black-translucent",
+  },
   robots: {
     index: true,
     follow: true,
+    "max-image-preview": "large",
+    "max-snippet": 200,
+    "max-video-preview": -1,
     googleBot: {
       index: true,
       follow: true,
       "max-image-preview": "large",
-      "max-snippet": -1,
+      "max-snippet": 200,
       "max-video-preview": -1,
     },
   },
   openGraph: {
     type: "website",
-    siteName: "Loja de Móveis e Movéis Marília",
+    siteName: "Móveis Marília",
     locale: "pt_BR",
     url: SITE.url,
-    // ✅ OG mais atrativo
-    title: "Loja de Móveis e Movéis em Marília - Ofertas, Frete Grátis",
+    title: "Móveis Marília — Portal de Móveis: Guias, Dicas e Curadoria em Marília SP",
     description:
-      "Móveis de alto padrão em Marília. Sofás, guarda-roupas, cozinhas e mais com os melhores preços. Frete grátis e ofertas exclusivas!",
+      "Seu portal de confiança sobre móveis. Guias completos, comparativos, dicas de compra e uma curadoria dos melhores produtos com frete grátis em Marília e região.",
     images: [
       {
         url: `${SITE.url}/banners/og-image.png`,
         width: 1200,
         height: 630,
-        alt: "Loja de Móveis Marília - Curadoria de móveis e movéis de alto padrão",
+        alt: "Móveis Marília — Portal especializado em móveis com guias, dicas e ofertas",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Loja de Móveis e Movéis em Marília - Ofertas e Frete Grátis",
+    title: "Móveis Marília — Portal de Móveis: Guias, Dicas e Curadoria em Marília SP",
     description:
-      "Móveis de alto padrão em Marília. Sofás, guarda-roupas, cozinhas e mais com os melhores preços.",
+      "Seu portal de confiança sobre móveis. Guias completos, comparativos, dicas de compra e curadoria com frete grátis.",
     images: [`${SITE.url}/banners/og-image.png`],
+    creator: "@moveismarilia",
+    site: "@moveismarilia",
   },
   alternates: {
     canonical: SITE.url,
+  },
+  verification: {
+    google: "wDhyGdfTC5MorOmYth-ft47N6OH7uFNpj44yoW_nT-Q",
   },
   other: {
     "geo.region": "BR-SP",
     "geo.placename": "Marília, São Paulo",
     "geo.position": `${SITE.geo.lat};${SITE.geo.lng}`,
     ICBM: `${SITE.geo.lat}, ${SITE.geo.lng}`,
+    "theme-color": "#1c1917",
+    "mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-status-bar-style": "black-translucent",
+    "apple-mobile-web-app-title": "Móveis Marília",
+    "msapplication-TileColor": "#1c1917",
+    "msapplication-config": "/browserconfig.xml",
   },
 };
 
 export const viewport: Viewport = {
-  themeColor: "#1c1917",
   width: "device-width",
   initialScale: 1,
+  maximumScale: 5,
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#fafaf9" },
+    { media: "(prefers-color-scheme: dark)", color: "#1c1917" },
+  ],
 };
 
-interface Schema {
-  "@context": string;
-  "@type": string;
-  [key: string]: unknown;
-}
-
-const baseSchemas: Schema[] = [
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": `${SITE.url}/#website`,
-    // ✅ Inclui "movéis" no nome do site
-    name: "Loja de Móveis e Movéis Marília",
-    url: SITE.url,
-    inLanguage: "pt-BR",
-    description:
-      "Loja de móveis e movéis em Marília com curadoria de produtos de alto padrão. Sofás, guarda-roupas, cozinhas e eletrodomésticos.",
-    publisher: { "@id": `${SITE.url}/#organization` },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: `${SITE.url}/busca?q={search_term_string}`,
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${SITE.url}/#organization`,
+      name: "Móveis Marília",
+      alternateName: ["Móveis Marília SP", "Guia de Móveis em Marília"],
+      url: SITE.url,
+      description:
+        "Portal de autoridade em móveis. Guias, comparativos, dicas de decoração e curadoria de produtos com frete grátis em Marília e região.",
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE.url}/banners/logo.png`,
+        width: 200,
+        height: 60,
       },
-      "query-input": "required name=search_term_string",
+      image: {
+        "@type": "ImageObject",
+        url: `${SITE.url}/banners/og-image.png`,
+        width: 1200,
+        height: 630,
+      },
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Avenida Principal, 1000",
+        addressLocality: "Marília",
+        addressRegion: "SP",
+        postalCode: "17500-000",
+        addressCountry: "BR",
+      },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: SITE.geo.lat,
+        longitude: SITE.geo.lng,
+      },
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: SITE.whatsapp,
+        contactType: "customer service",
+        email: "contato@moveismarilia.com.br",
+        availableLanguage: ["Portuguese"],
+        areaServed: ["Marília", "Bauru", "Ourinhos", "Assis", "Tupã", "São Paulo"],
+        hoursAvailable: {
+          "@type": "OpeningHoursSpecification",
+          dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          opens: "08:00",
+          closes: "18:00",
+        },
+      },
+      sameAs: [
+        "https://www.instagram.com/moveismarilia",
+        "https://www.facebook.com/moveismarilia",
+      ],
+      knowsAbout: [
+        "Móveis para sala",
+        "Móveis para quarto",
+        "Móveis para cozinha",
+        "Móveis para home office",
+        "Decoração de interiores",
+        "Design de móveis",
+        "MDF e MDP",
+        "Eletrodomésticos",
+        "Organização residencial",
+      ],
+      foundingDate: "2024",
+      areaServed: [
+        { "@type": "City", name: "Marília" },
+        { "@type": "City", name: "Bauru" },
+        { "@type": "City", name: "Ourinhos" },
+        { "@type": "City", name: "Assis" },
+        { "@type": "City", name: "Tupã" },
+      ],
     },
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "@id": `${SITE.url}/#organization`,
-    name: "Loja de Móveis e Movéis Marília",
-    url: SITE.url,
-    logo: {
-      "@type": "ImageObject",
-      url: `${SITE.url}/banners/logo.png`,
-      width: 200,
-      height: 60,
+    {
+      "@type": "WebSite",
+      "@id": `${SITE.url}/#website`,
+      url: SITE.url,
+      name: "Móveis Marília",
+      alternateName: ["Guia de Móveis Marília", "Portal de Móveis Marília"],
+      description:
+        "Portal de referência em móveis. Guias, comparativos, dicas de decoração e curadoria dos melhores produtos com frete grátis para Marília e região.",
+      inLanguage: "pt-BR",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: `${SITE.url}/busca?q={search_term_string}`,
+        },
+        "query-input": "required name=search_term_string",
+      },
+      publisher: { "@id": `${SITE.url}/#organization` },
     },
-    contactPoint: {
-      "@type": "ContactPoint",
-      telephone: SITE.whatsapp,
-      contactType: "customer service",
-      availableLanguage: "Portuguese",
+    {
+      "@type": "SiteNavigationElement",
+      name: "Navegação Principal",
+      description: "Links de navegação do portal Móveis Marília",
+      url: SITE.url,
+      hasPart: [
+        { "@type": "WebPage", name: "Sofás", url: `${SITE.url}/categoria/sofas` },
+        { "@type": "WebPage", name: "Guarda-roupas", url: `${SITE.url}/categoria/guarda-roupas` },
+        { "@type": "WebPage", name: "Cozinhas", url: `${SITE.url}/categoria/cozinhas` },
+        { "@type": "WebPage", name: "Painéis", url: `${SITE.url}/categoria/paineis` },
+        { "@type": "WebPage", name: "Home Office", url: `${SITE.url}/categoria/home-office` },
+        { "@type": "WebPage", name: "Eletrodomésticos", url: `${SITE.url}/categoria/eletrodomesticos` },
+        { "@type": "WebPage", name: "Área Externa", url: `${SITE.url}/categoria/area-externa` },
+        { "@type": "WebPage", name: "Guias", url: `${SITE.url}/guias` },
+      ],
     },
-    sameAs: [
-      "https://www.mercadolivre.com.br/",
-      "https://shopee.com.br/",
-    ],
-  },
-];
+  ],
+};
 
 export default function RootLayout({
   children,
@@ -156,15 +255,15 @@ export default function RootLayout({
     <html lang="pt-BR" className={inter.variable}>
       <head>
         <link rel="llms" href="/llms.txt" />
-        
-        {/* ✅ PRECONNECT com crossorigin corrigido */}
         <link
           rel="preconnect"
           href="https://images.pexels.com"
           crossOrigin="anonymous"
         />
-        
-        {/* ✅ PRECONNECT para Google Fonts (se usar) */}
+        <link
+          rel="dns-prefetch"
+          href="https://images.pexels.com"
+        />
         <link
           rel="preconnect"
           href="https://fonts.googleapis.com"
@@ -175,23 +274,10 @@ export default function RootLayout({
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
         />
-
-        {/* ✅ PRELOAD da imagem LCP (banner principal) */}
-        <link
-          rel="preload"
-          href="/banners/cozinhas-barata-promocao.webp"
-          as="image"
-          fetchPriority="high"
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-
-        {/* Schemas JSON-LD */}
-        {baseSchemas.map((schema, i) => (
-          <script
-            key={i}
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-          />
-        ))}
       </head>
       <body>
         <div className="flex min-h-screen flex-col bg-stone-50/50 text-stone-900 antialiased">

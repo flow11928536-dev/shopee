@@ -11,7 +11,7 @@ export const SITE = {
   country: "BR",
   address: "Avenida das Esmeraldas, próx. 2700 - Jardim Tangará",
   postalCode: "17516-000",
-  email: "contato@lojademoveismarilia.com.br",
+  email: "lojademoveismarilia@hotmail.com",
   whatsapp: "5514996033296",
   geo: {
     lat: -22.2286908,
