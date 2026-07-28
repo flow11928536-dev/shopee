@@ -2323,11 +2323,11 @@ const SEEDS: Record<string, GuideSeed> = {
     heroImage: IMG.cozinha2,
     heroAlt: "Cozinha modulada pequena em apartamento com armários brancos",
     cross: CROSS_SELL["cozinha"],
-    ctaSlug: "cozinha-compacta-pop-com-armrio-balcao-e-tampo-branco-madesa",
+    ctaSlug: "cozinha-compacta-pop-com-armario-balcao-e-tampo-branco-madesa",
     grid1Cat: "cozinhas",
     bestSlugs: [
-      "cozinha-compacta-pop-com-armrio-balcao-e-tampo-branco-madesa",
-      "cozinha-completa-madesa-reims-310001-com-armrio-e-balco-preto",
+      "cozinha-compacta-pop-com-armario-balcao-e-tampo-branco-madesa",
+      "cozinha-completa-madesa-reims-310001-com-armario-e-balco-preto",
       "armario-de-cozinha-compacta-229cm-rustic-emilly-pop-madesa",
     ],
     sub1: {
@@ -2395,11 +2395,11 @@ const SEEDS: Record<string, GuideSeed> = {
     heroImage: IMG.cozinha,
     heroAlt: "Cozinha modulada barata e moderna com armários em MDP",
     cross: CROSS_SELL["cozinha"],
-    ctaSlug: "cozinha-compacta-pop-com-armrio-balcao-e-tampo-branco-madesa",
+    ctaSlug: "cozinha-compacta-pop-com-armario-balcao-e-tampo-branco-madesa",
     grid1Cat: "cozinhas",
     bestSlugs: [
-      "cozinha-compacta-pop-com-armrio-balcao-e-tampo-branco-madesa",
-      "cozinha-completa-madesa-reims-310001-com-armrio-e-balco-preto",
+      "cozinha-compacta-pop-com-armario-balcao-e-tampo-branco-madesa",
+      "cozinha-completa-madesa-reims-310001-com-armario-e-balco-preto",
       "armario-de-cozinha-compacta-229cm-rustic-emilly-pop-madesa",
     ],
     sub1: {
@@ -2608,7 +2608,7 @@ const SEEDS: Record<string, GuideSeed> = {
     grid1Cat: "guarda-roupas",
     bestSlugs: [
       "guarda-roupa-casal-classic-6-portas-6-gavetas-100-mdf",
-      "cozinha-compacta-pop-com-armrio-balcao-e-tampo-branco-madesa"
+      "cozinha-compacta-pop-com-armario-balcao-e-tampo-branco-madesa"
     ],
     sub1: {
       heading: "A verdade sobre móveis da Shopee em 2026",

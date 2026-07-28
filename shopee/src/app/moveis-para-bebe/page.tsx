@@ -63,19 +63,19 @@ export const metadata: Metadata = {
 // SLUGS DOS PRODUTOS
 // ============================================================
 const BEBE_SLUGS = [
-  "quarto-de-bebe-3-peas-com-bero-capitone-cemoda-4-gavetas-e-guarda-roupa-4-portas-4-gavetas-aquarel-nature-branco",
-  "quarto-de-bebe-completo-100-mdf-comoda-bero-e-guarda-roupa-nina-branco-amadeirado",
-  "quarto-bebe-completo-bero-americano-ben-3-em1-guarda-roupa-4-portas-e-cmoda",
+  "quarto-de-bebe-3-pecas-com-berco-capitone-cemoda-4-gavetas-e-guarda-roupa-4-portas-4-gavetas-aquarel-nature-branco",
+  "quarto-de-bebe-completo-100-mdf-comoda-berco-e-guarda-roupa-nina-branco-amadeirado",
+  "quarto-bebe-completo-berco-americano-ben-3-em1-guarda-roupa-4-portas-e-comoda",
   "quarto-de-bebe-completo-com-guarda-roupa-uli-4-portas-comoda",
   "quarto-de-bebe-infantil-completo-encanto-multimoveis-branco",
-  "quarto-de-bebe-com-comoda-4-gavetas-e-bero-minicama-4-em-1",
+  "quarto-de-bebe-com-comoda-4-gavetas-e-berco-minicama-4-em-1",
   "comoda-de-bebe-infantil-1-porta-com-janela-4-gavetas",
   "comoda-grecia-8-gavetas-com-corredias-telescopicas-multiuso-para-quarto-mdp-mdf",
 ];
 
 const BERCO_SLUGS = [
-  "quarto-bebe-completo-bero-americano-ben-3-em1-guarda-roupa-4-portas-e-cmoda",
-  "quarto-de-bebe-3-peas-com-bero-capitone-cemoda-4-gavetas-e-guarda-roupa-4-portas-4-gavetas-aquarel-nature-branco",
+  "quarto-bebe-completo-beco-americano-ben-3-em1-guarda-roupa-4-portas-e-comoda",
+  "quarto-de-bebe-3-pecas-com-berco-capitone-cemoda-4-gavetas-e-guarda-roupa-4-portas-4-gavetas-aquarel-nature-branco",
 ];
 
 const COMODA_SLUGS = [
@@ -84,14 +84,14 @@ const COMODA_SLUGS = [
 ];
 
 const GUARDA_ROUPA_SLUGS = [
-  "quarto-de-bebe-completo-100-mdf-comoda-bero-e-guarda-roupa-nina-branco-amadeirado",
+  "quarto-de-bebe-completo-100-mdf-comoda-berco-e-guarda-roupa-nina-branco-amadeirado",
   "quarto-de-bebe-completo-com-guarda-roupa-uli-4-portas-comoda",
 ];
 
 const KITS_SLUGS = [
   "quarto-de-bebe-infantil-completo-encanto-multimoveis-branco",
-  "quarto-de-bebe-com-comoda-4-gavetas-e-bero-minicama-4-em-1",
-  "quarto-de-bebe-3-peas-com-bero-capitone-cemoda-4-gavetas-e-guarda-roupa-4-portas-4-gavetas-aquarel-nature-branco",
+  "quarto-de-bebe-com-comoda-4-gavetas-e-berco-minicama-4-em-1",
+  "quarto-de-bebe-3-pecas-com-berco-capitone-cemoda-4-gavetas-e-guarda-roupa-4-portas-4-gavetas-aquarel-nature-branco",
 ];
 
 // ============================================================
