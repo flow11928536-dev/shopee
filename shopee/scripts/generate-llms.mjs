@@ -392,13 +392,12 @@ function generateLlmsIndexJson(site, categories, guides, products, pages, stats,
 }
 
 // ============================================================
-// ⚠️ FUNÇÃO CORRIGIDA: GERAR SITEMAP COM TODOS OS PRODUTOS
+// FUNÇÃO CORRIGIDA: GERAR SITEMAP COM TODOS OS PRODUTOS
 // ============================================================
 function generateSitemap(site, categories, guides, products, pages) {
   const urls = [];
   const today = new Date().toISOString().split('T')[0];
 
-  // 🔍 LOG PARA DEBUG
   console.log(`📊 Gerando sitemap com ${products.length} produtos`);
 
   // Home
@@ -434,8 +433,7 @@ function generateSitemap(site, categories, guides, products, pages) {
     });
   });
 
-  // ✅ CORREÇÃO: TODOS OS PRODUTOS (SEM LIMITE)
-  // Agora incluímos TODOS os produtos, não apenas os primeiros 1000
+  // ✅ TODOS OS PRODUTOS (SEM LIMITE)
   products.forEach(p => {
     urls.push({
       loc: productUrl(site.url, p.slug),
@@ -445,7 +443,6 @@ function generateSitemap(site, categories, guides, products, pages) {
     });
   });
 
-  // 🔍 LOG PARA DEBUG
   console.log(`✅ Sitemap gerado com ${urls.length} URLs no total`);
   console.log(`   - ${categories.length} categorias`);
   console.log(`   - ${guides.length} guias`);
@@ -508,14 +505,67 @@ function generateRobotsTxt(site) {
   return lines.join('\n');
 }
 
+// ============================================================
+// FUNÇÃO CORRIGIDA: CARREGAR DADOS COM DIAGNÓSTICO
+// ============================================================
 async function loadData() {
   const { SITE, allCategories, CATEGORY_LABELS, products } = await import('../src/data/products.ts');
   const { getAllGuidesMeta } = await import('../src/data/guides.ts');
   const guides = getAllGuidesMeta();
   
-  // 🔍 LOG PARA DEBUG
+  // 🔍 DIAGNÓSTICO COMPLETO
+  console.log('='.repeat(60));
+  console.log('🔍 DIAGNÓSTICO DE PRODUTOS');
+  console.log('='.repeat(60));
+  console.log(`📦 Total de produtos no products.ts: ${products.length}`);
+  
+  // Verificar produtos com slug vazio
+  const missingSlug = products.filter(p => !p.slug);
+  if (missingSlug.length > 0) {
+    console.warn(`\n⚠️ Produtos SEM SLUG (${missingSlug.length}):`);
+    missingSlug.forEach(p => console.warn(`   - ID: ${p.id || 'Sem ID'} | Nome: ${p.name || 'Sem nome'}`));
+  }
+  
+  // Verificar produtos com slug duplicado
+  const slugs = products.map(p => p.slug);
+  const duplicateSlugs = slugs.filter((s, i) => slugs.indexOf(s) !== i);
+  if (duplicateSlugs.length > 0) {
+    console.warn(`\n⚠️ Slugs DUPLICADOS (${duplicateSlugs.length}):`);
+    duplicateSlugs.forEach(s => console.warn(`   - ${s}`));
+  }
+  
+  // Verificar produtos sem ID
+  const missingId = products.filter(p => !p.id);
+  if (missingId.length > 0) {
+    console.warn(`\n⚠️ Produtos SEM ID (${missingId.length}):`);
+    missingId.forEach(p => console.warn(`   - Slug: ${p.slug || 'Sem slug'} | Nome: ${p.name || 'Sem nome'}`));
+  }
+  
+  // Verificar produtos sem category
+  const missingCategory = products.filter(p => !p.category);
+  if (missingCategory.length > 0) {
+    console.warn(`\n⚠️ Produtos SEM CATEGORY (${missingCategory.length}):`);
+    missingCategory.forEach(p => console.warn(`   - Slug: ${p.slug || 'Sem slug'} | Nome: ${p.name || 'Sem nome'}`));
+  }
+  
+  // Verificar produtos sem mainCategory
+  const missingMainCategory = products.filter(p => !p.mainCategory);
+  if (missingMainCategory.length > 0) {
+    console.warn(`\n⚠️ Produtos SEM MAIN CATEGORY (${missingMainCategory.length}):`);
+    missingMainCategory.forEach(p => console.warn(`   - Slug: ${p.slug || 'Sem slug'} | Nome: ${p.name || 'Sem nome'}`));
+  }
+  
+  // Listar TODOS os slugs para debug
+  console.log(`\n📋 LISTA COMPLETA DE SLUGS (${products.length}):`);
+  products.forEach((p, i) => {
+    const num = String(i + 1).padStart(3, '0');
+    console.log(`   ${num}. ${p.slug || '❌ SEM SLUG'}`);
+  });
+  
+  console.log('\n' + '='.repeat(60));
   console.log(`📦 Carregados ${products.length} produtos do products.ts`);
   console.log(`📦 Carregados ${guides.length} guias do guides.ts`);
+  console.log('='.repeat(60) + '\n');
   
   return { SITE, allCategories, CATEGORY_LABELS, products, guides };
 }
