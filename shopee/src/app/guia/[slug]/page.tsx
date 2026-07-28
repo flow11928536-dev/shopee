@@ -27,12 +27,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!guide) return {};
 
   const path = `/guia/${guide.slug}`;
-const publishedDate = (guide as unknown as Record<string, unknown>).datePublished as string || "2024-06-15";
-const modifiedDate = (guide as unknown as Record<string, unknown>).dateModified as string || new Date().toISOString().split("T")[0];
+  const publishedDate = (guide as unknown as Record<string, unknown>).datePublished as string || "2024-06-15";
+  const modifiedDate = (guide as unknown as Record<string, unknown>).dateModified as string || new Date().toISOString().split("T")[0];
+
+  // Título otimizado com máximo de 60 caracteres
+  const optimizedTitle = guide.seoTitle.length > 60 
+    ? `${guide.seoTitle.substring(0, 50)} | Móveis Marília`
+    : guide.seoTitle;
+
+  // Meta description otimizada com 120-155 caracteres
+  let optimizedDescription = guide.seoDescription;
+  if (optimizedDescription.length > 155) {
+    optimizedDescription = optimizedDescription.substring(0, 150) + "...";
+  } else if (optimizedDescription.length < 120) {
+    optimizedDescription = `${optimizedDescription} Guia completo com dicas de especialistas e ofertas exclusivas.`;
+  }
 
   return {
-    title: guide.seoTitle,
-    description: guide.seoDescription,
+    title: optimizedTitle,
+    description: optimizedDescription,
     keywords: (guide as unknown as Record<string, unknown>).keywords as string || guide.keyword,
     alternates: {
       canonical: `${SITE.url}${path}`,
@@ -41,39 +54,41 @@ const modifiedDate = (guide as unknown as Record<string, unknown>).dateModified 
       index: true,
       follow: true,
       "max-image-preview": "large",
-      "max-snippet": 200,
+      "max-snippet": -1,
       "max-video-preview": -1,
       googleBot: {
         index: true,
         follow: true,
         "max-image-preview": "large",
-        "max-snippet": 200,
+        "max-snippet": -1,
         "max-video-preview": -1,
       },
     },
     openGraph: {
-      title: guide.seoTitle,
-      description: guide.seoDescription,
+      title: optimizedTitle,
+      description: optimizedDescription,
       url: `${SITE.url}${path}`,
       type: "article",
       publishedTime: publishedDate,
       modifiedTime: modifiedDate,
-      authors: [SITE.url],
+      authors: ["Móveis Marília"],
       siteName: "Móveis Marília",
       locale: "pt_BR",
       images: [
         {
           url: guide.heroImage,
+          secureUrl: guide.heroImage,
           width: 1200,
           height: 627,
           alt: guide.h1,
+          type: "image/jpeg",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: guide.seoTitle,
-      description: guide.seoDescription,
+      title: optimizedTitle,
+      description: optimizedDescription,
       images: [guide.heroImage],
       creator: "@moveismarilia",
       site: "@moveismarilia",
@@ -83,6 +98,8 @@ const modifiedDate = (guide as unknown as Record<string, unknown>).dateModified 
       "article:modified_time": modifiedDate,
       "article:author": SITE.name,
       "article:section": guide.keyword || "Móveis",
+      "geo.region": "BR-SP",
+      "geo.placename": "Marília",
     },
   };
 }
@@ -288,6 +305,9 @@ export default function GuidePage({ params }: Props) {
   const publishedDate = (guide as unknown as Record<string, unknown>).datePublished as string || "2024-06-15";
   const modifiedDate = (guide as unknown as Record<string, unknown>).dateModified as string || new Date().toISOString().split("T")[0];
 
+  // Calcular palavra-chave principal para speakable
+  const mainKeyword = guide.keyword || "móveis";
+
   const jsonLd = [
     {
       "@context": "https://schema.org",
@@ -307,19 +327,17 @@ export default function GuidePage({ params }: Props) {
       datePublished: publishedDate,
       dateModified: modifiedDate,
       author: {
-        "@type": "Organization",
-        "@id": `${SITE.url}/#organization`,
-        name: SITE.name,
+        "@type": "Person",
+        name: "Equipe Móveis Marília",
         url: SITE.url,
       },
       publisher: {
         "@type": "Organization",
-        "@id": `${SITE.url}/#organization`,
         name: SITE.name,
         url: SITE.url,
         logo: {
           "@type": "ImageObject",
-          url: `${SITE.url}/banners/logo.png`,
+          url: `${SITE.url}/logo.svg`,
         },
       },
       mainEntityOfPage: {
@@ -332,6 +350,11 @@ export default function GuidePage({ params }: Props) {
       about: {
         "@type": "Thing",
         name: guide.keyword || guide.h1,
+      },
+      speakable: {
+        "@type": "SpeakableSpecification",
+        cssSelector: ["h1", "h2", "p"],
+        xpath: ["/html/head/title"],
       },
       wordCount: guide.blocks
         ? guide.blocks.reduce((count, block) => {
@@ -359,6 +382,7 @@ export default function GuidePage({ params }: Props) {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
+      "@id": `${SITE.url}${path}/#faq`,
       mainEntity: guide.faq.map((f) => ({
         "@type": "Question",
         name: f.question,

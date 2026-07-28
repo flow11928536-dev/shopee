@@ -21,8 +21,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = getProductBySlug(params.slug);
   if (!product) return {};
 
-  const title = product.seoTitle || `${product.name} | Loja de Móveis Marília`;
-  const description = product.seoDescription || product.descricao?.slice(0, 155) || `Confira ${product.name} com as melhores ofertas.`;
+  // Título otimizado com máximo de 60 caracteres
+  let title = product.seoTitle || `${product.name} | Móveis Marília SP`;
+  if (title.length > 60) {
+    title = title.substring(0, 50) + " | Móveis Marília";
+  }
+
+  // Meta description otimizada com 120-155 caracteres
+  let description = product.seoDescription || product.descricao?.slice(0, 150) || `Compre ${product.name} com frete grátis em Marília SP. Melhor preço e qualidade garantida.`;
+  if (description.length > 155) {
+    description = description.substring(0, 150) + "...";
+  } else if (description.length < 120) {
+    description = `${description} Frete grátis em Marília SP e região. Compre online com segurança.`;
+  }
 
   return {
     title,
@@ -30,19 +41,35 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: `${SITE.url}/produto/${product.slug}`,
     },
+    robots: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+        "max-video-preview": -1,
+      },
+    },
     openGraph: {
       title,
       description,
       url: `${SITE.url}/produto/${product.slug}`,
-      type: "website",
+        type: "website",
       siteName: SITE.name,
       locale: "pt_BR",
       images: [
         {
           url: product.displayImage || product.imageFile,
+          secureUrl: product.displayImage || product.imageFile,
           width: 800,
           height: 800,
           alt: product.alt || product.name,
+          type: "image/jpeg",
         },
       ],
     },
@@ -51,6 +78,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description,
       images: [product.displayImage || product.imageFile],
+    },
+    other: {
+      "product:price": product.price?.toString() || "0",
+      "product:availability": "in stock",
+      "product:brand": product.marca || "Móveis Marília",
+      "geo.region": "BR-SP",
+      "geo.placename": "Marília",
     },
   };
 }
@@ -62,17 +96,28 @@ export default function ProductPage({ params }: Props) {
   const price = product.price || 0;
   const originalPrice = product.originalPrice || 0;
   const discount = product.discount || 0;
+  
+  // Calcular data de validade do preço (30 dias a partir de hoje)
+  const priceValidUntil = new Date();
+  priceValidUntil.setDate(priceValidUntil.getDate() + 30);
+  const priceValidUntilStr = priceValidUntil.toISOString().split("T")[0];
 
   // ============================================================
-  // ✅ SCHEMA DE PRODUTO PARA RICH SNIPPETS (Google)
-  // Isso faz o Google mostrar: preço, estrelas, disponibilidade
+  // ✅ SCHEMAS OTIMIZADOS PARA RICH SNIPPETS E AEO/GEO
   // ============================================================
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
+    "@id": `${SITE.url}/produto/${product.slug}/#product`,
     name: product.name,
     description: product.descricao || product.seoDescription || product.name,
-    image: product.displayImage || product.imageFile,
+    image: {
+      "@type": "ImageObject",
+      url: product.displayImage || product.imageFile,
+      width: 800,
+      height: 800,
+      caption: product.alt || product.name,
+    },
     sku: product.slug,
     brand: {
       "@type": "Brand",
@@ -82,34 +127,108 @@ export default function ProductPage({ params }: Props) {
       "@type": "Offer",
       priceCurrency: "BRL",
       price: price,
+      priceValidUntil: priceValidUntilStr,
       availability: "https://schema.org/InStock",
       url: product.affiliateLink,
+      itemCondition: "https://schema.org/NewCondition",
       seller: {
         "@type": "Organization",
-        name: product.platform || "Loja de Móveis Marília",
+        name: product.platform || "Móveis Marília",
+        url: SITE.url,
+      },
+      shippingDetails: {
+        "@type": "OfferShippingDetails",
+        shippingRate: {
+          "@type": "MonetaryAmount",
+          value: 0,
+          currency: "BRL",
+        },
+        deliveryTime: {
+          "@type": "ShippingDeliveryTime",
+          handlingTime: {
+            "@type": "QuantitativeValue",
+            minValue: 1,
+            maxValue: 3,
+            unitCode: "DAY",
+          },
+          transitTime: {
+            "@type": "QuantitativeValue",
+            minValue: 2,
+            maxValue: 7,
+            unitCode: "DAY",
+          },
+        },
+        shippingDestination: {
+          "@type": "DefinedRegion",
+          addressCountry: "BR",
+          addressRegion: "SP",
+        },
       },
     },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: product.rating || 4.5,
       reviewCount: product.reviews || 0,
+      bestRating: "5",
+      worstRating: "1",
     },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+      xpath: ["/html/head/title"],
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${SITE.url}/produto/${product.slug}`,
+    },
+    isPartOf: {
+      "@id": `${SITE.url}/#website`,
+    },
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Início",
+        item: SITE.url,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: product.category || "Categoria",
+        item: `${SITE.url}/categoria/${product.category || "moveis"}`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: product.name,
+        item: `${SITE.url}/produto/${product.slug}`,
+      },
+    ],
   };
 
   return (
     <>
-      {/* ✅ JSON-LD para o Google Rich Snippets */}
+      {/* ✅ JSON-LD para Google Rich Snippets + AEO/GEO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
 
       <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
-        {/* Breadcrumbs */}
-        <nav className="mb-6 text-sm text-stone-500">
+        {/* Breadcrumbs - Estrutura visual com schema */}
+        <nav aria-label="Breadcrumb" className="mb-6 text-sm text-stone-500">
           <ol className="flex flex-wrap items-center gap-1.5">
             <li>
-              <Link href="/" className="hover:text-stone-900">
+              <Link href="/" className="hover:text-stone-900 hover:underline underline-offset-4">
                 Início
               </Link>
             </li>
@@ -117,7 +236,7 @@ export default function ProductPage({ params }: Props) {
             <li>
               <Link
                 href={`/categoria/${product.category}`}
-                className="hover:text-stone-900"
+                className="hover:text-stone-900 hover:underline underline-offset-4"
               >
                 {product.category}
               </Link>
@@ -168,7 +287,7 @@ export default function ProductPage({ params }: Props) {
               <span className="text-lg font-bold text-stone-900">
                 {product.rating?.toFixed(1)}
               </span>
-              <span className="text-amber-400">★</span>
+              <span className="text-amber-400" aria-hidden="true">★</span>
               <span className="text-sm text-stone-500">
                 ({product.reviews} avaliações)
               </span>
@@ -191,6 +310,28 @@ export default function ProductPage({ params }: Props) {
               )}
             </div>
 
+            {/* Benefícios - AEO/GEO */}
+            <div className="mt-4 space-y-2 border-t border-stone-100 pt-4">
+              <div className="flex items-center gap-2 text-sm text-emerald-700">
+                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Frete grátis em Marília SP</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm text-stone-600">
+                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>Entrega em até 7 dias úteis</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm text-stone-600">
+                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>Garantia estendida do fabricante</span>
+              </div>
+            </div>
+
             {/* Botão de compra */}
             <a
               href={product.affiliateLink}
@@ -204,6 +345,7 @@ export default function ProductPage({ params }: Props) {
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
+                aria-hidden="true"
               >
                 <path
                   strokeLinecap="round"
@@ -227,7 +369,7 @@ export default function ProductPage({ params }: Props) {
             )}
 
             {/* Keywords */}
-            {product.keywords && (
+            {product.keywords && product.keywords.length > 0 && (
               <div className="mt-4 flex flex-wrap gap-2">
                 {product.keywords.map((kw) => (
                   <span

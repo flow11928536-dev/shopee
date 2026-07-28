@@ -237,7 +237,7 @@ export const products: Product[] = [
   },
   {
     id: "p-imp-008",
-    slug: "armrio-de-cozinha-compacta-emilly-top-madesa",
+    slug: "armario-de-cozinha-compacta-emilly-pop-madesa",
     category: "cozinhas",
     mainCategory: "cozinha",
     name: "Armário de Cozinha Compacta Emilly Top Madesa",

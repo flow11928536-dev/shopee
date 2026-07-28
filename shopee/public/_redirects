@@ -1,19 +1,55 @@
+# ============================================================
+# REDIRECIONAMENTOS PERMANENTES (301) - OTIMIZADOS
+# Última atualização: 2026-07-28
+# ============================================================
+
 # ===== Categorias antigas =====
 /cozinhas                              /categoria/cozinhas                              301
 /guarda-roupas                         /categoria/guarda-roupas                         301
 /paineis                               /categoria/paineis                               301
 
-# ===== Guias =====
-/rack-painel-tv-medidas                /guia/rack-painel-tv-medidas                     301
-/guia/rack-painel-tv-medidas           /guia/rack-painel-tv-medidas                     301
+# ===== Guias - Corrigido (loop removido) =====
+# ⚠️ ATENÇÃO: A página /guia/rack-painel-tv-medidas não existe mais
+# Removido o redirecionamento para evitar loop infinito
+# Se a página foi renomeada, aponte para a nova URL abaixo:
 
+/rack-painel-tv-medidas                /guia/mdf-vs-mdp-diferenca                       301
+# /guia/rack-painel-tv-medidas         REMOVIDO - estava causando loop infinito
+
+# ===== Guias MDF vs MDP =====
 /guia/o-que-e-mdf                      /guia/mdf-vs-mdp-diferenca                       301
 /guia/o-que-e-mdp                      /guia/mdf-vs-mdp-diferenca                       301
 /guia/mdf-ou-mdp                       /guia/mdf-vs-mdp-diferenca                       301
+/guia/guarda-roupa-mdf-mdp             /guia/mdf-vs-mdp-diferenca                       301
 
+# ===== Guias de Limpeza e Restauração =====
 /guia/como-limpar-moveis-mdf-mdp       /guia/como-restaurar-moveis-madeira              301
 /guia/limpar-moveis-mdf-mdp            /guia/como-restaurar-moveis-madeira              301
 /guia/como-limpar-moveis-madeira       /guia/como-restaurar-moveis-madeira              301
 
-/guia/guarda-roupa-mdf-mdp             /guia/mdf-vs-mdp-diferenca                       301
+# ===== Guias de Cozinha =====
 /guia/cozinha-compacta                 /guia/moveis-cozinha-pequena                     301
+
+# ============================================================
+# NOVOS REDIRECIONAMENTOS (Adicionados para SEO)
+# ============================================================
+
+# Redirecionar /guia para /guias (plural)
+/guia                                  /guias                                           301
+
+# Redirecionar /montadores para /montadores/marilia
+/montadores                            /montadores/marilia                              301
+
+# Redirecionar /index para a raiz
+/index                                 /                                                301
+/index.html                            /                                                301
+
+# ============================================================
+# URLs com Trailing Slash - Remover barra no final
+# ============================================================
+# Nota: Estes redirecionamentos devem ser tratados no next.config.mjs
+# Mantido aqui para referência em servidores Apache/Nginx
+
+# ============================================================
+# FIM DOS REDIRECIONAMENTOS
+# ============================================================

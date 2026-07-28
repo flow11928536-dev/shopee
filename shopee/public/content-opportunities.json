@@ -3,31 +3,21 @@
     "type": "thin-content",
     "category": "cozinhas",
     "label": "Cozinhas",
-    "gap": "Poucos guias (apenas 1)",
+    "gap": "Poucos guias (apenas 2)",
     "impact": "médio",
     "suggestion": "Expandir conteúdo com guias específicos como 'Cozinhas para ambientes pequenos' ou 'Guia de manutenção de Cozinhas'",
     "estimatedEffort": "baixo",
     "priority": "média"
   },
   {
-    "type": "missing-guide",
-    "category": "paineis",
-    "label": "Painéis e Racks",
-    "gap": "Sem guias",
-    "impact": "alto",
-    "suggestion": "Criar guia definitivo sobre 'Painéis e Racks' abordando tipos, materiais, preços e dicas de compra",
-    "estimatedEffort": "médio",
-    "priority": "alta"
-  },
-  {
-    "type": "missing-guide",
+    "type": "thin-content",
     "category": "quartos",
     "label": "Quartos",
-    "gap": "Sem guias",
-    "impact": "alto",
-    "suggestion": "Criar guia definitivo sobre 'Quartos' abordando tipos, materiais, preços e dicas de compra",
-    "estimatedEffort": "médio",
-    "priority": "alta"
+    "gap": "Poucos guias (apenas 1)",
+    "impact": "médio",
+    "suggestion": "Expandir conteúdo com guias específicos como 'Quartos para ambientes pequenos' ou 'Guia de manutenção de Quartos'",
+    "estimatedEffort": "baixo",
+    "priority": "média"
   },
   {
     "type": "missing-guide",

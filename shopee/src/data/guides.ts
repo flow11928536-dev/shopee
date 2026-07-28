@@ -51,6 +51,7 @@ export const GUIDE_CLUSTERS: { cluster: number; titulo: string; slugs: string[] 
     cluster: 2,
     titulo: "Dúvidas e Dicas ",
     slugs: [
+      "moveis-shopee-sao-bons",
       "por-que-moveis-estalam",
       "como-envelopar-moveis",
       "mdf-vs-mdp-diferenca",
@@ -64,7 +65,7 @@ export const GUIDE_CLUSTERS: { cluster: number; titulo: string; slugs: string[] 
       "como-limpar-moveis-madeira",
       "sofa-custo-beneficio",
       "colchao-cama-box-densidade",
-      "como-comprar-moveis-shopee",
+      "moveis-shopee-sao-bons",
       "como-comprar-moveis-ojas-100",
       "como-limpar-moveis-mdf-mdp",
       "limpar-moveis-mdf-mdp",
@@ -109,6 +110,7 @@ const clusterOf = (slug: string): number =>
 //  GUIA MODELO COMPLETO (1.000+ palavras) — moveis-cozinha-pequena
 // ----------------------------------------------------------------------------
 const guiaCozinhaPequena: Guide = {
+  
   slug: "moveis-cozinha-pequena",
   cluster: 1,
   keyword: "móveis para cozinha pequena",
@@ -1758,6 +1760,7 @@ const SEEDS: Record<string, GuideSeed> = {
       },
     ],
   },
+
   "guia-instalacao-painel-tv": {
     keyword: "como instalar painel de TV",
     h1: "Como Instalar Painel de TV: Guia Completo com Tipos de Bucha e Altura Ideal",
@@ -1825,9 +1828,7 @@ const SEEDS: Record<string, GuideSeed> = {
       },
     ],
   },
-  // ============================================================================
-//  SEEDS DAS 10 NOVAS PÁGINAS (SEO/GEO OTIMIZADAS)
-// ============================================================================
+
   "sofa-retratil-vale-a-pena": {
     keyword: "sofá retrátil vale a pena",
     h1: "Sofá Retrátil Vale a Pena? Veja Prós e Contras Antes de Comprar",
@@ -2528,6 +2529,7 @@ const SEEDS: Record<string, GuideSeed> = {
     ],
 
   },
+  
   "duvidas-frequentes-air-fryer": {
   keyword: "duvidas frequentes air fryer",
   h1: "Dúvidas Frequentes sobre Air Fryer: Segurança, Limpeza, Consumo e Mais",
@@ -2592,6 +2594,91 @@ const SEEDS: Record<string, GuideSeed> = {
   ],
 },
 
+  // ============================================================
+  //  🆕 GUIA: MÓVEIS DA SHOPEE SÃO BONS?
+  // ============================================================
+  "moveis-shopee-sao-bons": {
+    keyword: "móveis shopee são bons",
+    h1: "Móveis da Shopee são Bons? Guia Completo para Comprar com Segurança",
+    intro: "A Shopee se consolidou como uma das principais plataformas de e-commerce no Brasil, oferecendo móveis com preços até 50% mais baratos que lojas físicas. Mas será que móveis da Shopee são realmente bons? A resposta é: depende. Neste guia, você vai descobrir como separar ofertas legítimas de produtos problemáticos e fazer compras inteligentes.",
+    heroImage: "/imagens/guias/moveis-shopee-sao-bons.webp",
+    heroAlt: "Pessoa comprando móveis online pelo celular na plataforma Shopee, com caixas de móveis ao fundo",
+    cross: CROSS_SELL["sala"],
+    ctaSlug: "guarda-roupa-casal-classic-6-portas-6-gavetas-100-mdf",
+    grid1Cat: "guarda-roupas",
+    bestSlugs: [
+      "guarda-roupa-casal-classic-6-portas-6-gavetas-100-mdf",
+      "cozinha-compacta-pop-com-armrio-balcao-e-tampo-branco-madesa"
+    ],
+    sub1: {
+      heading: "A verdade sobre móveis da Shopee em 2026",
+      paragraphs: [
+        "A Shopee opera no Brasil desde 2019 e transformou radicalmente o mercado de móveis online. Hoje, a plataforma conecta mais de 2 milhões de vendedores a consumidores brasileiros, com uma particularidade importante: a Shopee não vende móveis diretamente — ela funciona como um marketplace, reunindo tanto vendedores profissionais quanto lojistas pequenos.",
+        "Isso significa que a qualidade varia drasticamente de loja para loja. Você pode encontrar o mesmo guarda-roupa de MDF vendido por R$ 899 em uma loja confiável e por R$ 699 em outra com avaliações ruins e prazos irreais. A chave para uma boa compra está em saber filtrar vendedores sérios."
+      ],
+      bullets: [
+        "Menor estrutura de custos: vendedores da Shopee não pagam aluguel de loja física, equipe de vendas presencial ou showroom — toda a economia é repassada ao consumidor.",
+        "Competição direta: com milhares de vendedores oferecendo produtos similares, a pressão por preços competitivos é constante, especialmente durante campanhas promocionais (como o Shopee 9.9 ou 11.11).",
+        "Logística otimizada: muitos vendedores trabalham com estoque centralizado e envio direto de fábrica, eliminando intermediários da cadeia."
+      ]
+    },
+    sub2: {
+      heading: "Como identificar vendedores confiáveis na Shopee",
+      paragraphs: [
+        "Antes de adicionar qualquer móvel ao carrinho, você precisa investigar o vendedor. Aqui está o checklist completo que usamos para avaliar lojas:",
+        "Selo 'Shopee Mall' ou 'Preferencial': lojas com esses selos passaram por verificação de documentação e histórico de vendas — não é garantia absoluta, mas reduz muito o risco.",
+        "Taxa de resposta acima de 90%: vendedores que respondem rapidamente a dúvidas tendem a ter melhor pós-venda e resolvem problemas com mais agilidade.",
+        "Avaliações com fotos reais: ignore avaliações genéricas ('produto bom') e busque reviews com imagens do móvel montado, detalhes das gavetas, portas abertas. Isso mostra que pessoas reais receberam e aprovaram o produto.",
+        "Data de abertura da loja: lojas com mais de 1 ano de atividade e milhares de vendas concluídas têm menos chance de sumir após um problema.",
+        "Tempo de processamento do pedido: vendedores sérios despacham em até 2 dias úteis. Se a loja demora 5-7 dias só para enviar, pode ser sinal de desorganização ou estoque fantasma.",
+        "Política de devolução clara: confira se o vendedor aceita devolução em caso de defeito de fabricação ou produto divergente da descrição. A Shopee garante isso por lei, mas vendedores organizados deixam isso explícito."
+      ]
+    },
+    callout: {
+      variant: "dica",
+      title: "💡 Dica de especialista",
+      text: "Antes de finalizar a compra, mande uma mensagem para o vendedor com uma dúvida técnica (ex: 'As dobradiças são de metal ou plástico?', 'O MDF tem quantos mm de espessura?'). A velocidade e qualidade da resposta revelam muito sobre o comprometimento da loja com o cliente."
+    },
+    sub3: {
+      heading: "Então, vale a pena comprar móveis na Shopee?",
+      paragraphs: [
+        "Sim, vale a pena — desde que você siga estas diretrizes:",
+        "✅ Compre de vendedores com selo Shopee Mall/Preferencial e mais de 1.000 vendas concluídas.",
+        "✅ Leia as avaliações negativas primeiro: elas revelam os problemas reais que você pode enfrentar (atraso, defeito de fabricação, dificuldade de montagem).",
+        "✅ Compare o mesmo produto em diferentes lojas: às vezes, você encontra o modelo idêntico com R$ 100-200 de diferença só mudando de vendedor.",
+        "✅ Use cupons de desconto e cashback: a Shopee tem promoções quase toda semana — baixe o app e ative as notificações para não perder.",
+        "✅ Confira as dimensões e peso: móveis grandes podem não caber no elevador ou na porta do seu apartamento. Sempre meça antes.",
+        "✅ Guarde a caixa por 7 dias: dentro desse prazo, você pode solicitar devolução sem custo se o produto vier com defeito ou divergente da descrição.",
+        "A Shopee democratizou o acesso a móveis de qualidade no Brasil. Com pesquisa adequada e compra consciente, você pode mobiliar sua casa com 30-50% de economia em relação a lojas tradicionais — e ainda receber tudo em casa sem sair do sofá."
+      ]
+    },
+    faq: [
+      {
+        question: "Móveis da Shopee são de qualidade ou quebram rápido?",
+        answer: "A qualidade depende do vendedor e do material. Móveis em MDF de 15mm vendidos por lojas verificadas (selo Shopee Mall) têm a mesma durabilidade de lojas físicas — a diferença está apenas no preço. Já produtos muito baratos (MDP fino ou aglomerado) podem apresentar desgaste em 1-2 anos. Sempre confira a espessura do material na descrição e leia avaliações com fotos reais."
+      },
+      {
+        question: "Quanto tempo demora para chegar móveis comprados na Shopee?",
+        answer: "O prazo médio de entrega é de 10 a 20 dias úteis, dependendo da sua região e do vendedor. Lojas que enviam de São Paulo ou do Sul costumam entregar mais rápido. Durante promoções como Black Friday ou 11.11, o prazo pode se estender. Sempre verifique o prazo estimado na página do produto antes de comprar."
+      },
+      {
+        question: "É seguro comprar móveis na Shopee? E se vier com defeito?",
+        answer: "Sim, é seguro. A Shopee oferece garantia de devolução do dinheiro se o produto não chegar, vier danificado ou for diferente da descrição. Você tem até 7 dias após o recebimento para abrir uma disputa pelo app. Além disso, todos os móveis têm garantia legal de 90 dias por lei (Código de Defesa do Consumidor). Sempre filme a abertura da caixa como prova em caso de problemas."
+      },
+      {
+        question: "Móveis da Shopee vêm montados ou preciso montar?",
+        answer: "A grande maioria dos móveis da Shopee vem desmontada em caixas para reduzir o custo de frete. O produto inclui manual de montagem e parafusos/ferragens necessários. Se você não tem experiência ou ferramentas (furadeira, chave de fenda, nível), considere contratar um montador profissional — o custo médio é R$ 100-150 para móveis simples e R$ 200-300 para guarda-roupas grandes."
+      },
+      {
+        question: "Vale mais a pena comprar móveis na Shopee ou no Mercado Livre?",
+        answer: "A Shopee geralmente tem preços 10-20% mais baixos devido a cupons frequentes e frete grátis em mais produtos. Porém, o Mercado Livre tem histórico mais consolidado de proteção ao comprador e vendedores com reputação mais transparente. Para compras acima de R$ 1.000, o Mercado Livre pode ser mais seguro. Para móveis simples (nicho, rack, criado-mudo), a Shopee oferece melhor custo-benefício."
+      },
+      {
+        question: "Como saber se o vendedor da Shopee é confiável?",
+        answer: "Verifique cinco pontos: 1) Selo Shopee Mall ou Preferencial, 2) Taxa de resposta acima de 90%, 3) Mais de 1.000 vendas concluídas, 4) Avaliações recentes com fotos de clientes reais, 5) Loja ativa há mais de 1 ano. Vendedores que atendem todos esses critérios têm baixíssima taxa de problemas. Desconfie de lojas novas com preços muito abaixo da média do mercado."
+      }
+    ]
+  }
 };
 
 

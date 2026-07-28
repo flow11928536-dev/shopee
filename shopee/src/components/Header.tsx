@@ -56,7 +56,10 @@ export default function Header() {
   const isOnMontadoresPage = pathname?.startsWith("/montadores");
 
   return (
-    <header className="sticky top-0 z-50 border-b border-stone-200/70 bg-white/80 backdrop-blur-xl supports-[backdrop-filter]:bg-white/70">
+    <header 
+      className="sticky top-0 z-50 border-b border-stone-200/70 bg-white/80 backdrop-blur-xl supports-[backdrop-filter]:bg-white/70"
+      role="banner"
+    >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link
           href="/"
@@ -111,6 +114,7 @@ export default function Header() {
                     : "text-stone-600 hover:bg-stone-50 hover:text-stone-900"
                 }`}
                 aria-current={isActiveLink(cat) ? "page" : undefined}
+                aria-label={`Ver produtos de ${CATEGORY_LABELS[cat]}`}
               >
                 {CATEGORY_LABELS[cat]}
                 <svg
@@ -125,22 +129,32 @@ export default function Header() {
                 </svg>
               </Link>
               {activeDropdown === cat && (
-                <div className="absolute left-0 top-full z-50 min-w-[200px] rounded-xl border border-stone-200/80 bg-white p-2 shadow-xl shadow-stone-200/50">
+                <div 
+                  className="absolute left-0 top-full z-50 min-w-[200px] rounded-xl border border-stone-200/80 bg-white p-2 shadow-xl shadow-stone-200/50"
+                  role="menu"
+                  aria-label={`Submenu de ${CATEGORY_LABELS[cat]}`}
+                >
                   <Link
                     href={`/categoria/${cat}`}
                     className="block rounded-lg px-3 py-2 text-sm font-medium text-stone-800 hover:bg-stone-50"
+                    role="menuitem"
+                    aria-label={`Ver todos os ${CATEGORY_LABELS[cat]}`}
                   >
                     Ver todos {CATEGORY_LABELS[cat]}
                   </Link>
                   <Link
                     href={`/guia/${cat}`}
                     className="block rounded-lg px-3 py-2 text-sm text-stone-600 hover:bg-stone-50"
+                    role="menuitem"
+                    aria-label={`Guia de como escolher ${CATEGORY_LABELS[cat]}`}
                   >
                     Guia: Como escolher {CATEGORY_LABELS[cat]}
                   </Link>
                   <Link
                     href={`/categoria/${cat}?ordem=preco`}
                     className="block rounded-lg px-3 py-2 text-sm text-stone-600 hover:bg-stone-50"
+                    role="menuitem"
+                    aria-label={`${CATEGORY_LABELS[cat]} mais baratos`}
                   >
                     Mais baratos
                   </Link>
@@ -163,6 +177,7 @@ export default function Header() {
                     : "text-stone-600 hover:bg-stone-50 hover:text-stone-900"
               }`}
               aria-current={isActiveLink(link.href) ? "page" : undefined}
+              aria-label={link.label}
             >
               {link.label}
             </Link>
@@ -172,6 +187,7 @@ export default function Header() {
             <Link
               href="/montadores/marilia"
               className="relative ml-2 flex items-center gap-1.5 rounded-full bg-red-600 px-4 py-2 text-sm font-bold text-white shadow-lg shadow-red-600/30 transition-all hover:scale-105 hover:shadow-red-600/40"
+              aria-label="Encontrar montadores de móveis em Marília"
             >
               <span
                 className="absolute inset-0 -z-10 animate-[ping_2.5s_cubic-bezier(0,0,0.2,1)_infinite] rounded-full bg-red-500 opacity-75"
@@ -187,6 +203,7 @@ export default function Header() {
             <Link
               href="/montadores/marilia"
               className="text-xs font-bold text-red-600 hover:text-red-700 whitespace-nowrap"
+              aria-label="Encontrar montadores de móveis em Marília"
             >
               Montadores
             </Link>
@@ -226,7 +243,8 @@ export default function Header() {
           id="menu-mobile"
           className="border-t border-stone-200 bg-white px-4 py-4 lg:hidden"
           aria-label="Menu móvel"
-          role="navigation"
+          role="dialog"
+          aria-modal="true"
         >
           <div className="mb-3 flex items-center justify-between">
             <span className="text-xs font-semibold uppercase tracking-widest text-stone-400">
@@ -244,6 +262,8 @@ export default function Header() {
                     ? "bg-stone-100 text-stone-900"
                     : "text-stone-700 hover:bg-stone-50"
                 }`}
+                aria-current={isActiveLink(cat) ? "page" : undefined}
+                aria-label={`Ver produtos de ${CATEGORY_LABELS[cat]}`}
               >
                 {CATEGORY_LABELS[cat]}
               </Link>
@@ -265,6 +285,8 @@ export default function Header() {
                       ? "font-semibold text-stone-900 hover:bg-stone-50"
                       : "text-stone-700 hover:bg-stone-50"
                 }`}
+                aria-current={isActiveLink(link.href) ? "page" : undefined}
+                aria-label={link.label}
               >
                 {link.label}
               </Link>
@@ -277,6 +299,7 @@ export default function Header() {
                 href="/montadores/marilia"
                 onClick={() => setOpen(false)}
                 className="block rounded-xl bg-red-600 px-4 py-3 text-center text-sm font-bold text-white shadow-lg shadow-red-600/20"
+                aria-label="Encontrar montador de móveis em Marília"
               >
                 🔧 Encontrar Montador de Móveis
               </Link>

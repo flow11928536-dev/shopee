@@ -3,7 +3,7 @@
     "name": "Loja de Móveis Marília",
     "url": "https://lojademoveismarilia.com.br",
     "description": "Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.",
-    "lastUpdated": "2026-07-28T00:56:30.884Z"
+    "lastUpdated": "2026-07-28T12:49:35.526Z"
   },
   "categories": [
     {
@@ -22,7 +22,8 @@
       "url": "https://lojademoveismarilia.com.br/categoria/cozinhas",
       "description": "Encontre as melhores ofertas de Cozinhas com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [
-        "melhores-cozinhas-moduladas-baratas"
+        "melhores-cozinhas-moduladas-baratas",
+        "cozinhas"
       ],
       "productCount": 14
     },
@@ -31,7 +32,9 @@
       "label": "Painéis e Racks",
       "url": "https://lojademoveismarilia.com.br/categoria/paineis",
       "description": "Encontre as melhores ofertas de Painéis e Racks com preços competitivos e frete para todo Brasil.",
-      "relatedGuides": [],
+      "relatedGuides": [
+        "paineis"
+      ],
       "productCount": 5
     },
     {
@@ -39,7 +42,9 @@
       "label": "Quartos",
       "url": "https://lojademoveismarilia.com.br/categoria/quartos",
       "description": "Encontre as melhores ofertas de Quartos com preços competitivos e frete para todo Brasil.",
-      "relatedGuides": [],
+      "relatedGuides": [
+        "quartos"
+      ],
       "productCount": 11
     },
     {
@@ -66,7 +71,8 @@
       "url": "https://lojademoveismarilia.com.br/categoria/sofas",
       "description": "Encontre as melhores ofertas de Sofás com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [
-        "melhores-sofas-retrateis-2026"
+        "melhores-sofas-retrateis-2026",
+        "sofas"
       ],
       "productCount": 4
     }
@@ -273,6 +279,26 @@
       "wordCount": 1
     },
     {
+      "slug": "guarda-roupas",
+      "title": "Guarda Roupas: Guia Prático e Honesto",
+      "url": "https://lojademoveismarilia.com.br/guia/guarda-roupas",
+      "description": "",
+      "keywords": [
+        "guarda roupas"
+      ],
+      "wordCount": 1
+    },
+    {
+      "slug": "moveis-shopee-sao-bons",
+      "title": "Móveis da Shopee são Bons? Guia Completo para Comprar com Segurança",
+      "url": "https://lojademoveismarilia.com.br/guia/moveis-shopee-sao-bons",
+      "description": "",
+      "keywords": [
+        "móveis shopee são bons"
+      ],
+      "wordCount": 1
+    },
+    {
       "slug": "por-que-moveis-estalam",
       "title": "Por Que Móveis Estalam de Madrugada? A Explicação Real",
       "url": "https://lojademoveismarilia.com.br/guia/por-que-moveis-estalam",
@@ -393,12 +419,12 @@
       "wordCount": 1
     },
     {
-      "slug": "como-comprar-moveis-shopee",
-      "title": "Como Comprar Moveis Shopee: Guia Prático e Honesto",
-      "url": "https://lojademoveismarilia.com.br/guia/como-comprar-moveis-shopee",
+      "slug": "moveis-shopee-sao-bons",
+      "title": "Móveis da Shopee são Bons? Guia Completo para Comprar com Segurança",
+      "url": "https://lojademoveismarilia.com.br/guia/moveis-shopee-sao-bons",
       "description": "",
       "keywords": [
-        "como comprar moveis shopee"
+        "móveis shopee são bons"
       ],
       "wordCount": 1
     },
@@ -439,6 +465,46 @@
       "description": "",
       "keywords": [
         "colchao cama box"
+      ],
+      "wordCount": 1
+    },
+    {
+      "slug": "paineis",
+      "title": "Paineis: Guia Prático e Honesto",
+      "url": "https://lojademoveismarilia.com.br/guia/paineis",
+      "description": "",
+      "keywords": [
+        "paineis"
+      ],
+      "wordCount": 1
+    },
+    {
+      "slug": "cozinhas",
+      "title": "Cozinhas: Guia Prático e Honesto",
+      "url": "https://lojademoveismarilia.com.br/guia/cozinhas",
+      "description": "",
+      "keywords": [
+        "cozinhas"
+      ],
+      "wordCount": 1
+    },
+    {
+      "slug": "quartos",
+      "title": "Quartos: Guia Prático e Honesto",
+      "url": "https://lojademoveismarilia.com.br/guia/quartos",
+      "description": "",
+      "keywords": [
+        "quartos"
+      ],
+      "wordCount": 1
+    },
+    {
+      "slug": "sofas",
+      "title": "Sofas: Guia Prático e Honesto",
+      "url": "https://lojademoveismarilia.com.br/guia/sofas",
+      "description": "",
+      "keywords": [
+        "sofas"
       ],
       "wordCount": 1
     },
@@ -565,11 +631,11 @@
   ],
   "statistics": {
     "totalCategories": 7,
-    "totalGuides": 47,
+    "totalGuides": 53,
     "totalPages": 4,
     "totalProducts": 61,
-    "generatedAt": "2026-07-28T00:56:30.883Z",
-    "lastUpdated": "2026-07-28T00:56:30.884Z"
+    "generatedAt": "2026-07-28T12:49:35.524Z",
+    "lastUpdated": "2026-07-28T12:49:35.526Z"
   },
   "entities": {
     "materials": [
@@ -743,7 +809,8 @@
         "qual o melhor Cozinhas"
       ],
       "relatedGuides": [
-        "melhores-cozinhas-moduladas-baratas"
+        "melhores-cozinhas-moduladas-baratas",
+        "cozinhas"
       ]
     },
     {
@@ -761,7 +828,9 @@
         "o que é Painéis e Racks",
         "qual o melhor Painéis e Racks"
       ],
-      "relatedGuides": []
+      "relatedGuides": [
+        "paineis"
+      ]
     },
     {
       "category": "quartos",
@@ -778,7 +847,9 @@
         "o que é Quartos",
         "qual o melhor Quartos"
       ],
-      "relatedGuides": []
+      "relatedGuides": [
+        "quartos"
+      ]
     },
     {
       "category": "eletrodomesticos",
@@ -832,7 +903,8 @@
         "qual o melhor Sofás"
       ],
       "relatedGuides": [
-        "melhores-sofas-retrateis-2026"
+        "melhores-sofas-retrateis-2026",
+        "sofas"
       ]
     },
     {
@@ -1137,6 +1209,36 @@
     },
     {
       "category": "guide",
+      "label": "Guarda Roupas: Guia Prático e Honesto",
+      "searchTerms": [
+        "Guarda Roupas: Guia Prático e Honesto",
+        "o que é guarda roupas:  prático e honesto",
+        "como fazer guarda roupas:  prático e honesto",
+        "dicas sobre guarda roupas:  prático e honesto",
+        "tutorial guarda roupas:  prático e honesto",
+        "guarda roupas:  prático e honesto passo a passo"
+      ],
+      "relatedGuides": [
+        "guarda-roupas"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Móveis da Shopee são Bons? Guia Completo para Comprar com Segurança",
+      "searchTerms": [
+        "Móveis da Shopee são Bons? Guia Completo para Comprar com Segurança",
+        "o que é móveis da shopee são bons?  completo para comprar com segurança",
+        "como fazer móveis da shopee são bons?  completo para comprar com segurança",
+        "dicas sobre móveis da shopee são bons?  completo para comprar com segurança",
+        "tutorial móveis da shopee são bons?  completo para comprar com segurança",
+        "móveis da shopee são bons?  completo para comprar com segurança passo a passo"
+      ],
+      "relatedGuides": [
+        "moveis-shopee-sao-bons"
+      ]
+    },
+    {
+      "category": "guide",
       "label": "Por Que Móveis Estalam de Madrugada? A Explicação Real",
       "searchTerms": [
         "Por Que Móveis Estalam de Madrugada? A Explicação Real",
@@ -1317,17 +1419,17 @@
     },
     {
       "category": "guide",
-      "label": "Como Comprar Moveis Shopee: Guia Prático e Honesto",
+      "label": "Móveis da Shopee são Bons? Guia Completo para Comprar com Segurança",
       "searchTerms": [
-        "Como Comprar Moveis Shopee: Guia Prático e Honesto",
-        "o que é como comprar moveis shopee:  prático e honesto",
-        "como fazer como comprar moveis shopee:  prático e honesto",
-        "dicas sobre como comprar moveis shopee:  prático e honesto",
-        "tutorial como comprar moveis shopee:  prático e honesto",
-        "como comprar moveis shopee:  prático e honesto passo a passo"
+        "Móveis da Shopee são Bons? Guia Completo para Comprar com Segurança",
+        "o que é móveis da shopee são bons?  completo para comprar com segurança",
+        "como fazer móveis da shopee são bons?  completo para comprar com segurança",
+        "dicas sobre móveis da shopee são bons?  completo para comprar com segurança",
+        "tutorial móveis da shopee são bons?  completo para comprar com segurança",
+        "móveis da shopee são bons?  completo para comprar com segurança passo a passo"
       ],
       "relatedGuides": [
-        "como-comprar-moveis-shopee"
+        "moveis-shopee-sao-bons"
       ]
     },
     {
@@ -1388,6 +1490,66 @@
       ],
       "relatedGuides": [
         "colchao-cama-box"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Paineis: Guia Prático e Honesto",
+      "searchTerms": [
+        "Paineis: Guia Prático e Honesto",
+        "o que é paineis:  prático e honesto",
+        "como fazer paineis:  prático e honesto",
+        "dicas sobre paineis:  prático e honesto",
+        "tutorial paineis:  prático e honesto",
+        "paineis:  prático e honesto passo a passo"
+      ],
+      "relatedGuides": [
+        "paineis"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Cozinhas: Guia Prático e Honesto",
+      "searchTerms": [
+        "Cozinhas: Guia Prático e Honesto",
+        "o que é cozinhas:  prático e honesto",
+        "como fazer cozinhas:  prático e honesto",
+        "dicas sobre cozinhas:  prático e honesto",
+        "tutorial cozinhas:  prático e honesto",
+        "cozinhas:  prático e honesto passo a passo"
+      ],
+      "relatedGuides": [
+        "cozinhas"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Quartos: Guia Prático e Honesto",
+      "searchTerms": [
+        "Quartos: Guia Prático e Honesto",
+        "o que é quartos:  prático e honesto",
+        "como fazer quartos:  prático e honesto",
+        "dicas sobre quartos:  prático e honesto",
+        "tutorial quartos:  prático e honesto",
+        "quartos:  prático e honesto passo a passo"
+      ],
+      "relatedGuides": [
+        "quartos"
+      ]
+    },
+    {
+      "category": "guide",
+      "label": "Sofas: Guia Prático e Honesto",
+      "searchTerms": [
+        "Sofas: Guia Prático e Honesto",
+        "o que é sofas:  prático e honesto",
+        "como fazer sofas:  prático e honesto",
+        "dicas sobre sofas:  prático e honesto",
+        "tutorial sofas:  prático e honesto",
+        "sofas:  prático e honesto passo a passo"
+      ],
+      "relatedGuides": [
+        "sofas"
       ]
     },
     {
@@ -1558,29 +1720,39 @@
       "category": "cozinhas",
       "label": "Cozinhas",
       "guides": [
-        "melhores-cozinhas-moduladas-baratas"
+        "melhores-cozinhas-moduladas-baratas",
+        "cozinhas"
       ],
       "guideTitles": [
-        "Melhores Cozinhas Moduladas Baratas para Apartamento"
+        "Melhores Cozinhas Moduladas Baratas para Apartamento",
+        "Cozinhas: Guia Prático e Honesto"
       ],
-      "count": 1,
+      "count": 2,
       "depth": "médio"
     },
     {
       "category": "paineis",
       "label": "Painéis e Racks",
-      "guides": [],
-      "guideTitles": [],
-      "count": 0,
-      "depth": "baixo"
+      "guides": [
+        "paineis"
+      ],
+      "guideTitles": [
+        "Paineis: Guia Prático e Honesto"
+      ],
+      "count": 1,
+      "depth": "médio"
     },
     {
       "category": "quartos",
       "label": "Quartos",
-      "guides": [],
-      "guideTitles": [],
-      "count": 0,
-      "depth": "baixo"
+      "guides": [
+        "quartos"
+      ],
+      "guideTitles": [
+        "Quartos: Guia Prático e Honesto"
+      ],
+      "count": 1,
+      "depth": "médio"
     },
     {
       "category": "eletrodomesticos",
@@ -1606,12 +1778,14 @@
       "category": "sofas",
       "label": "Sofás",
       "guides": [
-        "melhores-sofas-retrateis-2026"
+        "melhores-sofas-retrateis-2026",
+        "sofas"
       ],
       "guideTitles": [
-        "Melhores Sofás Retráteis para Apartamento Pequeno em 2026"
+        "Melhores Sofás Retráteis para Apartamento Pequeno em 2026",
+        "Sofas: Guia Prático e Honesto"
       ],
-      "count": 1,
+      "count": 2,
       "depth": "médio"
     }
   ],
@@ -1620,31 +1794,21 @@
       "type": "thin-content",
       "category": "cozinhas",
       "label": "Cozinhas",
-      "gap": "Poucos guias (apenas 1)",
+      "gap": "Poucos guias (apenas 2)",
       "impact": "médio",
       "suggestion": "Expandir conteúdo com guias específicos como 'Cozinhas para ambientes pequenos' ou 'Guia de manutenção de Cozinhas'",
       "estimatedEffort": "baixo",
       "priority": "média"
     },
     {
-      "type": "missing-guide",
-      "category": "paineis",
-      "label": "Painéis e Racks",
-      "gap": "Sem guias",
-      "impact": "alto",
-      "suggestion": "Criar guia definitivo sobre 'Painéis e Racks' abordando tipos, materiais, preços e dicas de compra",
-      "estimatedEffort": "médio",
-      "priority": "alta"
-    },
-    {
-      "type": "missing-guide",
+      "type": "thin-content",
       "category": "quartos",
       "label": "Quartos",
-      "gap": "Sem guias",
-      "impact": "alto",
-      "suggestion": "Criar guia definitivo sobre 'Quartos' abordando tipos, materiais, preços e dicas de compra",
-      "estimatedEffort": "médio",
-      "priority": "alta"
+      "gap": "Poucos guias (apenas 1)",
+      "impact": "médio",
+      "suggestion": "Expandir conteúdo com guias específicos como 'Quartos para ambientes pequenos' ou 'Guia de manutenção de Quartos'",
+      "estimatedEffort": "baixo",
+      "priority": "média"
     },
     {
       "type": "missing-guide",

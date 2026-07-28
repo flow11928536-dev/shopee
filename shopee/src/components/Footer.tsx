@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { CATEGORY_LABELS, SITE, allCategories } from "@/data/products";
 
 const institutionalLinks = [
@@ -16,13 +19,26 @@ const categoryLinks = allCategories.map((cat) => ({
 }));
 
 export default function Footer() {
+  const pathname = usePathname();
   const whatsappLink = `https://wa.me/${SITE.whatsapp.replace(/\D/g, "")}`;
   const currentYear = new Date().getFullYear();
+
+  // Função para verificar se o link está ativo
+  const isActiveLink = (href: string) => {
+    if (href === "/guias") return pathname === "/guias" || pathname.startsWith("/guia/");
+    if (href === "/sobre") return pathname === "/sobre";
+    if (href === "/moveis-para-estudantes") return pathname === "/moveis-para-estudantes";
+    if (href === "/contato") return pathname === "/contato";
+    if (href === "/politicas") return pathname === "/politicas" || pathname.startsWith("/politica/");
+    if (href === "/montadores/marilia") return pathname === "/montadores/marilia";
+    return pathname === href;
+  };
 
   return (
     <footer className="mt-20 border-t border-stone-200 bg-stone-50" role="contentinfo">
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+          {/* Coluna 1: Logo e Descrição */}
           <div className="sm:col-span-2 lg:col-span-1">
             <Link
               href="/"
@@ -60,21 +76,25 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-lg bg-green-600 px-3 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-green-700"
-                aria-label="Falar no WhatsApp"
+                aria-label="Falar no WhatsApp com Móveis Marília"
               >
                 WhatsApp
               </a>
               <a
                 href={`mailto:${SITE.email}`}
                 className="rounded-lg bg-stone-200 px-3 py-1.5 text-xs font-semibold text-stone-700 transition-colors hover:bg-stone-300"
-                aria-label="Enviar e-mail"
+                aria-label={`Enviar e-mail para ${SITE.email}`}
               >
                 E-mail
               </a>
             </div>
           </div>
 
-          <nav aria-labelledby="footer-categories-heading">
+          {/* Coluna 2: Categorias */}
+          <nav 
+            aria-labelledby="footer-categories-heading"
+            role="navigation"
+          >
             <h3
               id="footer-categories-heading"
               className="text-xs font-semibold uppercase tracking-widest text-stone-400"
@@ -86,7 +106,13 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-stone-600 transition-colors hover:text-stone-900 hover:underline underline-offset-4"
+                    className={`text-sm transition-colors hover:text-stone-900 hover:underline underline-offset-4 ${
+                      isActiveLink(link.href)
+                        ? "font-semibold text-stone-900"
+                        : "text-stone-600"
+                    }`}
+                    aria-current={isActiveLink(link.href) ? "page" : undefined}
+                    aria-label={`Ver produtos de ${link.label}`}
                   >
                     {link.label}
                   </Link>
@@ -95,7 +121,11 @@ export default function Footer() {
             </ul>
           </nav>
 
-          <nav aria-labelledby="footer-institutional-heading">
+          {/* Coluna 3: Institucional */}
+          <nav 
+            aria-labelledby="footer-institutional-heading"
+            role="navigation"
+          >
             <h3
               id="footer-institutional-heading"
               className="text-xs font-semibold uppercase tracking-widest text-stone-400"
@@ -107,7 +137,13 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-stone-600 transition-colors hover:text-stone-900 hover:underline underline-offset-4"
+                    className={`text-sm transition-colors hover:text-stone-900 hover:underline underline-offset-4 ${
+                      isActiveLink(link.href)
+                        ? "font-semibold text-stone-900"
+                        : "text-stone-600"
+                    }`}
+                    aria-current={isActiveLink(link.href) ? "page" : undefined}
+                    aria-label={link.label}
                   >
                     {link.label}
                   </Link>
@@ -116,6 +152,7 @@ export default function Footer() {
             </ul>
           </nav>
 
+          {/* Coluna 4: Atendimento */}
           <div>
             <h3 className="text-xs font-semibold uppercase tracking-widest text-stone-400">
               Atendimento
@@ -143,6 +180,7 @@ export default function Footer() {
                 <a
                   href={`mailto:${SITE.email}`}
                   className="transition-colors hover:text-stone-900 hover:underline underline-offset-4"
+                  aria-label={`Enviar e-mail para ${SITE.email}`}
                 >
                   {SITE.email}
                 </a>
@@ -153,6 +191,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-colors hover:text-stone-900 hover:underline underline-offset-4"
+                  aria-label={`Falar no WhatsApp: ${SITE.whatsapp}`}
                 >
                   {SITE.whatsapp}
                 </a>
@@ -167,6 +206,7 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Rodapé inferior */}
         <div className="mt-12 border-t border-stone-200 pt-6">
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <div>
@@ -179,44 +219,50 @@ export default function Footer() {
               </p>
             </div>
           </div>
+          
           <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-stone-400">
             <span>© {currentYear} {SITE.name}. Todos os direitos reservados.</span>
             <span className="hidden sm:inline">·</span>
             <span>{SITE.url.replace("https://", "")}</span>
           </div>
+          
           <div className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-xs text-stone-400">
             <a
               href="/sitemap.xml"
-              className="transition-colors hover:text-stone-600"
+              className="transition-colors hover:text-stone-600 hover:underline underline-offset-4"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Abrir sitemap em nova aba"
             >
               Sitemap
             </a>
-            <span>·</span>
+            <span aria-hidden="true">·</span>
             <a
               href="/llms.txt"
-              className="transition-colors hover:text-stone-600"
+              className="transition-colors hover:text-stone-600 hover:underline underline-offset-4"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Abrir llms.txt em nova aba"
             >
               llms.txt
             </a>
-            <span>·</span>
+            <span aria-hidden="true">·</span>
             <a
               href="/llms-full.txt"
-              className="transition-colors hover:text-stone-600"
+              className="transition-colors hover:text-stone-600 hover:underline underline-offset-4"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Abrir llms-full.txt em nova aba"
             >
               llms-full.txt
             </a>
-            <span>·</span>
+            <span aria-hidden="true">·</span>
             <a
               href="/llms-index.json"
-              className="transition-colors hover:text-stone-600"
+              className="transition-colors hover:text-stone-600 hover:underline underline-offset-4"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Abrir llms-index.json em nova aba"
             >
               llms-index.json
             </a>

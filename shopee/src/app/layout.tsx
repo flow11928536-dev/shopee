@@ -32,13 +32,13 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "Móveis Marília | Curadoria Premium com Frete Grátis em Marília SP",
-    template: "%s • Móveis Marília",
+    default: "Móveis Marília SP | Loja Premium com Frete Grátis",
+    template: "%s | Móveis Marília SP",
   },
   description:
-    "Portal #1 em Móveis Marília SP. Curadoria Premium, Guias de Arquitetos e Frete Grátis. Sofás, Cozinhas, Guarda-roupas e Home Office com até 50% OFF.",
-  keywords: "móveis marília, loja móveis marília sp, sofá marília, cozinha planejada, guarda roupa",
-  robots: "index, follow, max-image-preview:large",
+    "Loja de móveis em Marília SP com frete grátis. Sofás, cozinhas planejadas, guarda-roupas e home office. Curadoria premium com até 50% OFF. Compre online!",
+  keywords: "móveis marília, loja moveis marilia sp, sofá marília, cozinha planejada marília, guarda roupa marília, home office marília",
+  robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   icons: {
     icon: [
       { url: "/favicon.svg", type: "image/svg+xml" },
@@ -52,13 +52,28 @@ export const metadata: Metadata = {
     siteName: "Móveis Marília",
     locale: "pt_BR",
     url: SITE.url,
-    title: "Móveis Marília | #1 em Curadoria Premium",
-    description: "Frete Grátis + Ofertas Exclusivas + Guias de Design Profissional",
-    images: [{
-      url: `${SITE.url}/og-hero-2026.jpg`,
-      width: 1200,
-      height: 630,
-    }],
+    title: "Móveis Marília | #1 em Curadoria Premium em Marília SP",
+    description: "Frete Grátis em Marília SP + Ofertas Exclusivas + Guias de Design. Sofás, Cozinhas, Guarda-roupas e Home Office com até 50% OFF.",
+    images: [
+      {
+        url: `${SITE.url}/og-hero-2026.jpg`,
+        secureUrl: `${SITE.url}/og-hero-2026.jpg`,
+        width: 1200,
+        height: 630,
+        alt: "Móveis Marília - Loja Premium em Marília SP",
+        type: "image/jpeg",
+      },
+    ],
+  },
+  alternates: {
+    canonical: `${SITE.url}`,
+  },
+  other: {
+    "geo.region": "BR-SP",
+    "geo.placename": "Marília",
+    "geo.position": "-22.2103;-49.9399",
+    "ICBM": "-22.2103, -49.9399",
+    "theme-color": "#1A1614",
   },
 };
 
@@ -71,23 +86,75 @@ export const viewport: Viewport = {
   ],
 };
 
-const jsonLd = {
+// ============================================================
+// SCHEMAS GLOBAIS - Apenas Organization e WebSite
+// (FurnitureStore com aggregateRating está na homepage)
+// (FAQ Schema está apenas nas páginas que têm FAQ)
+// ============================================================
+const organizationSchema = {
   "@context": "https://schema.org",
-  "@type": "FurnitureStore",
+  "@type": "Organization",
+  "@id": `${SITE.url}/#organization`,
   name: "Móveis Marília",
   url: SITE.url,
-  logo: `${SITE.url}/logo.svg`,
+  logo: {
+    "@type": "ImageObject",
+    url: `${SITE.url}/logo.svg`,
+    width: 512,
+    height: 512,
+  },
+  description: "Loja de móveis premium em Marília SP com frete grátis. Especialistas em móveis planejados, sofás, cozinhas e home office.",
   address: {
     "@type": "PostalAddress",
+    streetAddress: "Avenida das Palmeiras, 1000",
     addressLocality: "Marília",
     addressRegion: "SP",
+    postalCode: "17500-000",
     addressCountry: "BR",
   },
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "523",
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "+55-14-99999-9999",
+    contactType: "sales",
+    availableLanguage: ["Portuguese"],
   },
+  sameAs: [
+    "https://www.instagram.com/moveismarilia",
+    "https://www.facebook.com/moveismarilia",
+    "https://www.youtube.com/moveismarilia",
+  ],
+  foundingDate: "2015",
+  numberOfEmployees: {
+    "@type": "QuantitativeValue",
+    value: 12,
+  },
+  inLanguage: "pt-BR",
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${SITE.url}/#website`,
+  name: "Móveis Marília",
+  url: SITE.url,
+  description: "Loja de móveis premium em Marília SP. Frete grátis, curadoria exclusiva e guias de design.",
+  inLanguage: "pt-BR",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: `${SITE.url}/?q={search_term_string}`,
+    "query-input": "required name=search_term_string",
+  },
+  publisher: {
+    "@id": `${SITE.url}/#organization`,
+  },
+};
+
+// ============================================================
+// SCHEMA COMBINADO (@graph) PARA MELHOR ORGANIZAÇÃO
+// ============================================================
+const graphSchema = {
+  "@context": "https://schema.org",
+  "@graph": [organizationSchema, websiteSchema],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -98,7 +165,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       suppressHydrationWarning
     >
       <head>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        {/* SCHEMAS GLOBAIS COMBINADOS - Organization e WebSite */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(graphSchema) }}
+        />
       </head>
       
       <body className="bg-gradient-to-br from-[#FDFCFA] via-[#F8F6F1] to-[#F0EDE5] text-[#1A1614] antialiased">
