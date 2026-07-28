@@ -12,7 +12,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const product = getProductBySlug(params.slug);
+  const slug = decodeURIComponent(params.slug);
+  const product = getProductBySlug(slug);
   if (!product) return {};
 
   const path = `/confirmar-estoque/${product.slug}`;
@@ -20,11 +21,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: product.seoTitle,
     description: product.seoDescription,
-    // ✅ REMOVIDO o noindex para permitir indexação
-    // robots: {
-    //   index: false,
-    //   follow: false,
-    // },
     alternates: {
       canonical: `${SITE.url}${path}`,
     },
@@ -39,7 +35,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default function ConfirmStockPage({ params }: Props) {
-  const product = getProductBySlug(params.slug);
+  const slug = decodeURIComponent(params.slug);
+  const product = getProductBySlug(slug);
 
   if (!product) notFound();
 
