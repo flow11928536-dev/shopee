@@ -391,9 +391,15 @@ function generateLlmsIndexJson(site, categories, guides, products, pages, stats,
   };
 }
 
+// ============================================================
+// ⚠️ FUNÇÃO CORRIGIDA: GERAR SITEMAP COM TODOS OS PRODUTOS
+// ============================================================
 function generateSitemap(site, categories, guides, products, pages) {
   const urls = [];
   const today = new Date().toISOString().split('T')[0];
+
+  // 🔍 LOG PARA DEBUG
+  console.log(`📊 Gerando sitemap com ${products.length} produtos`);
 
   // Home
   urls.push({ loc: site.url, lastmod: today, changefreq: 'daily', priority: '1.0' });
@@ -428,8 +434,9 @@ function generateSitemap(site, categories, guides, products, pages) {
     });
   });
 
-  // Produtos (limitado a 1000 para exemplo)
-  products.slice(0, 1000).forEach(p => {
+  // ✅ CORREÇÃO: TODOS OS PRODUTOS (SEM LIMITE)
+  // Agora incluímos TODOS os produtos, não apenas os primeiros 1000
+  products.forEach(p => {
     urls.push({
       loc: productUrl(site.url, p.slug),
       lastmod: today,
@@ -437,6 +444,13 @@ function generateSitemap(site, categories, guides, products, pages) {
       priority: '0.6',
     });
   });
+
+  // 🔍 LOG PARA DEBUG
+  console.log(`✅ Sitemap gerado com ${urls.length} URLs no total`);
+  console.log(`   - ${categories.length} categorias`);
+  console.log(`   - ${guides.length} guias`);
+  console.log(`   - ${pages.length} páginas`);
+  console.log(`   - ${products.length} produtos`);
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -498,6 +512,11 @@ async function loadData() {
   const { SITE, allCategories, CATEGORY_LABELS, products } = await import('../src/data/products.ts');
   const { getAllGuidesMeta } = await import('../src/data/guides.ts');
   const guides = getAllGuidesMeta();
+  
+  // 🔍 LOG PARA DEBUG
+  console.log(`📦 Carregados ${products.length} produtos do products.ts`);
+  console.log(`📦 Carregados ${guides.length} guias do guides.ts`);
+  
   return { SITE, allCategories, CATEGORY_LABELS, products, guides };
 }
 
