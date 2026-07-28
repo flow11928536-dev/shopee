@@ -2,13 +2,6 @@
 // FEED PARA META CATALOG (Facebook / Instagram)
 // ============================================================
 // URL: https://lojademoveismarilia.com.br/feed-meta.xml
-//
-// Como usar:
-// 1. Crie a pasta: src/app/feed-meta.xml/
-// 2. Salve este arquivo como: route.ts
-// 3. Faça o deploy
-// 4. No Facebook Business Manager, adicione o Catálogo
-// 5. Cole a URL: https://SEUDOMINIO.com.br/feed-meta.xml
 // ============================================================
 
 import { products, SITE } from "@/data/products";
@@ -16,23 +9,27 @@ import { products, SITE } from "@/data/products";
 // URL para onde o usuário vai no seu site
 const PRODUCT_PATH = "/confirmar-estoque";
 
-// Escapa caracteres especiais para XML
+// ============================================================
+// ✅ CORREÇÃO: Escapa caracteres especiais para XML
+// ============================================================
 function escapeXml(text: string): string {
   if (!text) return "";
-  return text
-    .replace(/&/g, "&amp;")
+  return String(text)
+    .replace(/&/g, "&amp;")   // & → &amp; (PRIMEIRO!)
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&apos;")
-    .replace(/\n/g, " ");
+    .replace(/\n/g, " ")
+    .replace(/\r/g, " ");
 }
 
 // Monta URL absoluta da imagem
 function absoluteUrl(path: string): string {
   if (!path) return "";
   if (path.startsWith("http")) return path;
-  return `${SITE.url}${path.startsWith("/") ? "" : "/"}${path}`;
+  const cleanPath = path.startsWith("/") ? path : `/${path}`;
+  return `${SITE.url}${cleanPath}`;
 }
 
 // Monta URL do produto no site
@@ -57,6 +54,28 @@ export async function GET() {
       const brand = escapeXml(p.marca || SITE.name);
       const availability = "in stock";
       const condition = "new";
+      const category = escapeXml(p.category || "Móveis");
+
+      // ✅ CORREÇÃO: Só adiciona sale_price se tiver desconto
+      const salePrice = p.discount && p.discount > 0 
+        ? `<sale_price>${p.price.toFixed(2)}</sale_price>` 
+        : "";
+
+      const originalPrice = p.originalPrice && p.originalPrice > 0 
+        ? `<original_price>${p.originalPrice.toFixed(2)}</original_price>` 
+        : "";
+
+      const rating = p.rating 
+        ? `<average_rating>${p.rating}</average_rating>` 
+        : "";
+
+      const reviewCount = p.reviews 
+        ? `<rating_count>${p.reviews}</rating_count>` 
+        : "";
+
+      const badge = p.badge 
+        ? `<custom_label_0>${escapeXml(p.badge)}</custom_label_0>` 
+        : "";
 
       return `
   <item>
@@ -70,15 +89,15 @@ export async function GET() {
     <currency>${currency}</currency>
     <brand>${brand}</brand>
     <condition>${condition}</condition>
-    <google_product_category>Home & Garden > Furniture</google_product_category>
-    <product_type>${escapeXml(p.category || "Móveis")}</product_type>
-    ${p.discount && p.discount > 0 ? `<sale_price>${(p.price).toFixed(2)}</sale_price>` : ""}
-    ${p.originalPrice && p.originalPrice > 0 ? `<original_price>${p.originalPrice.toFixed(2)}</original_price>` : ""}
-    ${p.rating ? `<average_rating>${p.rating}</average_rating>` : ""}
-    ${p.reviews ? `<rating_count>${p.reviews}</rating_count>` : ""}
-    ${p.badge ? `<custom_label_0>${escapeXml(p.badge)}</custom_label_0>` : ""}
+    <google_product_category>Home &amp; Garden &gt; Furniture</google_product_category>
+    <product_type>${category}</product_type>
+    ${salePrice}
+    ${originalPrice}
+    ${rating}
+    ${reviewCount}
+    ${badge}
     <custom_label_1>Frete Grátis</custom_label_1>
-    <custom_label_2>${escapeXml(p.category || "Móveis")}</custom_label_2>
+    <custom_label_2>${category}</custom_label_2>
   </item>`;
     })
     .join("");
