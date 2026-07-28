@@ -43,6 +43,8 @@ export const GUIDE_CLUSTERS: { cluster: number; titulo: string; slugs: string[] 
       "conjunto-sala-de-jantar",
       "melhor-air-fryer-2026",
       "duvidas-frequentes-air-fryer",
+      "guarda-roupas"
+      
     ],
   },
   {
@@ -67,6 +69,11 @@ export const GUIDE_CLUSTERS: { cluster: number; titulo: string; slugs: string[] 
       "como-limpar-moveis-mdf-mdp",
       "limpar-moveis-mdf-mdp",
       "colchao-cama-box",
+      "paineis",
+      "cozinhas",
+      "quartos",
+      "sofas",
+
     ],
   },
   {

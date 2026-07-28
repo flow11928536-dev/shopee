@@ -17,7 +17,8 @@ export type ProductCategory =
   | "quartos"
   | "eletrodomesticos"
   | "moveis-para-estudantes"
-  | "mdf-mdp";
+  | "mdf-mdp"
+  | "moveis-para-bebe";  // ✅ ADICIONADO
 
 /** Categorias principais (ambientes) */
 export type MainCategory =

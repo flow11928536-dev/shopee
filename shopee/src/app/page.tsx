@@ -6,6 +6,17 @@ import ProductGrid from "@/components/ProductGrid";
 import HeroSlider from "@/components/HeroSlider";
 import CategoryCarousel from "@/components/CategoryCarousel";
 
+/* ============================================================
+   SISTEMA DE DESIGN (COLORS & TYPOGRAPHY) - DESIGN 2026
+   Uso de CSS Variables implícitas e classes utilitárias para performance pura.
+   ============================================================ */
+const FONT_DISPLAY =
+  "Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif";
+const FONT_MONO =
+  "'IBM Plex Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace";
+const FONT_BODY =
+  "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
+
 const CATEGORY_BANNERS: Record<string, string> = {
   cozinhas: "/banners/cozinhas.avif",
   "guarda-roupas": "banners/banner_guarda-roupas.avif",
@@ -20,11 +31,14 @@ const CATEGORY_BANNERS: Record<string, string> = {
 const heroBanner =
   "https://images.pexels.com/photos/8135492/pexels-photo-8135492.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1600";
 
+/* ============================================================
+   SEO METADATA (NEXT.JS 14/15 COMPLIANT)
+   ============================================================ */
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  title: "Móveis Marília | Loja de Móveis em Marília SP com Curadoria e Frete Grátis",
+  title: "Móveis Marília | Curadoria Exclusiva e Frete Grátis na Região",
   description:
-    "Sofás, guarda-roupas, cozinhas planejadas, painéis, racks e home office em Marília SP. Curadoria de móveis com frete grátis, entrega regional e ofertas exclusivas. Os melhores preços para sua casa.",
+    "Sua loja de móveis em Marília SP. Sofás retráteis, cozinhas planejadas, guarda-roupas e eletrodomésticos com curadoria premium e entrega rápida garantida.",
   keywords: [
     "móveis marília",
     "loja de móveis marília sp",
@@ -32,39 +46,24 @@ export const metadata: Metadata = {
     "guarda roupa marília",
     "cozinha planejada marília",
     "painel para tv marília",
-    "rack marília",
-    "home office marília",
     "móveis frete grátis marília",
-    "móveis baratos marília",
-    "loja de móveis online marília",
     "móveis alto padrão marília",
     "eletrodomésticos marília",
-    "móveis para quarto marília",
-    "móveis para sala marília",
-    "móveis para cozinha marília",
-    "móveis para área externa marília",
   ].join(", "),
-  alternates: {
-    canonical: SITE.url,
-  },
+  alternates: { canonical: SITE.url },
   robots: {
     index: true,
     follow: true,
-    "max-image-preview": "large",
-    "max-snippet": -1,
-    "max-video-preview": -1,
     googleBot: {
       index: true,
       follow: true,
       "max-image-preview": "large",
-      "max-snippet": -1,
-      "max-video-preview": -1,
     },
   },
   openGraph: {
-    title: "Móveis Marília — Curadoria de Móveis com Frete Grátis em Marília SP",
+    title: "Móveis Marília — Curadoria de Móveis de Alto Padrão em Marília SP",
     description:
-      "Sofás, guarda-roupas, cozinhas, painéis e home office selecionados para você. Frete grátis para Marília e região. Ofertas verificadas diariamente.",
+      "Sofás, cozinhas, quartos e eletrodomésticos selecionados com frete grátis para Marília e região.",
     url: SITE.url,
     siteName: "Móveis Marília",
     images: [
@@ -72,7 +71,7 @@ export const metadata: Metadata = {
         url: heroBanner,
         width: 1600,
         height: 900,
-        alt: "Sala de estar com sofá amplo, painel de TV e rack — ambiente decorado com móveis de alto padrão disponíveis na Móveis Marília",
+        alt: "Living room elegante decorada pela equipe Móveis Marília",
       },
     ],
     type: "website",
@@ -80,45 +79,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Móveis Marília — Curadoria de Móveis com Frete Grátis em Marília SP",
-    description:
-      "Sofás, guarda-roupas, cozinhas, painéis e home office selecionados para você. Frete grátis para Marília e região. Ofertas verificadas diariamente.",
+    title: "Móveis Marília — Curadoria de Móveis de Alto Padrão",
+    description: "Frete grátis e móveis premium para a região de Marília SP.",
     images: [heroBanner],
-    creator: "@moveismarilia",
-    site: "@moveismarilia",
-  },
-  authors: [{ name: "Móveis Marília", url: SITE.url }],
-  creator: "Móveis Marília",
-  publisher: "Móveis Marília",
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-32x32.png",
-    apple: "/apple-touch-icon.png",
-  },
-  manifest: "/manifest.json",
-  verification: {
-    google: "SEU_CODIGO_VERIFICACAO_GOOGLE",
-  },
-  category: "móveis",
-  applicationName: "Móveis Marília",
-  appleWebApp: {
-    capable: true,
-    title: "Móveis Marília",
-    statusBarStyle: "black-translucent",
-  },
-  formatDetection: {
-    telephone: true,
-    email: true,
-    address: true,
-  },
-  other: {
-    "theme-color": "#1c1917",
-    "mobile-web-app-capable": "yes",
-    "apple-mobile-web-app-capable": "yes",
-    "apple-mobile-web-app-status-bar-style": "black-translucent",
-    "apple-mobile-web-app-title": "Móveis Marília",
-    "msapplication-TileColor": "#1c1917",
-    "msapplication-config": "/browserconfig.xml",
   },
 };
 
@@ -126,35 +89,25 @@ export const viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#fafaf9" },
-    { media: "(prefers-color-scheme: dark)", color: "#1c1917" },
-  ],
+  themeColor: "#1a1612",
 };
 
+/* ============================================================
+   JSON-LD / SCHEMA.ORG (SEO DE ALTO DIRECIONAMENTO LOCAL)
+   ============================================================ */
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
-      "@id": `${SITE.url}/#organization`,
+      "@type": "FurnitureStore",
+      "@id": `${SITE.url}/#store`,
       name: "Móveis Marília",
-      alternateName: ["Móveis Marília SP", "Loja de Móveis em Marília"],
       url: SITE.url,
-      description:
-        "Curadoria de móveis em Marília SP. Sofás, guarda-roupas, cozinhas, painéis, racks, home office e eletrodomésticos com frete grátis e ofertas exclusivas.",
-      logo: {
-        "@type": "ImageObject",
-        url: `${SITE.url}/logo.png`,
-        width: 512,
-        height: 512,
-      },
-      image: {
-        "@type": "ImageObject",
-        url: heroBanner,
-        width: 1600,
-        height: 900,
-      },
+      description: "Curadoria de móveis residenciais e corporativos em Marília SP.",
+      logo: { "@type": "ImageObject", url: `${SITE.url}/logo.png`, width: 512, height: 512 },
+      image: heroBanner,
+      priceRange: "$$",
+      telephone: "+55-14-XXXX-XXXX",
       address: {
         "@type": "PostalAddress",
         streetAddress: "Avenida Principal, 1000",
@@ -163,494 +116,458 @@ const jsonLd = {
         postalCode: "17500-000",
         addressCountry: "BR",
       },
-      geo: {
-        "@type": "GeoCoordinates",
-        latitude: -22.2139,
-        longitude: -49.9458,
-      },
-      contactPoint: {
-        "@type": "ContactPoint",
-        contactType: "customer service",
-        telephone: "+55-14-XXXX-XXXX",
-        email: "contato@moveismarilia.com.br",
-        availableLanguage: ["Portuguese"],
-        areaServed: ["Marília", "Bauru", "Ourinhos", "Assis", "Tupã", "São Paulo"],
-        hoursAvailable: {
-          "@type": "OpeningHoursSpecification",
-          dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-          opens: "08:00",
-          closes: "18:00",
-        },
-      },
-      areaServed: [
-        {
-          "@type": "City",
-          name: "Marília",
-        },
-        {
-          "@type": "City",
-          name: "Bauru",
-        },
-        {
-          "@type": "City",
-          name: "Ourinhos",
-        },
-        {
-          "@type": "City",
-          name: "Assis",
-        },
-        {
-          "@type": "City",
-          name: "Tupã",
-        },
-      ],
-      sameAs: [
-        "https://www.instagram.com/moveismarilia",
-        "https://www.facebook.com/moveismarilia",
-      ],
+      geo: { "@type": "GeoCoordinates", latitude: -22.2139, longitude: -49.9458 },
+      areaServed: ["Marília", "Bauru", "Ourinhos", "Assis", "Tupã"],
     },
     {
       "@type": "WebSite",
       "@id": `${SITE.url}/#website`,
       url: SITE.url,
       name: "Móveis Marília",
-      alternateName: "Móveis Marília SP",
-      description:
-        "Curadoria de móveis em Marília SP com frete grátis. Sofás, guarda-roupas, cozinhas, painéis e home office com os melhores preços.",
-      inLanguage: "pt-BR",
-      potentialAction: {
-        "@type": "SearchAction",
-        target: {
-          "@type": "EntryPoint",
-          urlTemplate: `${SITE.url}/busca?q={search_term_string}`,
-        },
-        "query-input": "required name=search_term_string",
-      },
-      publisher: {
-        "@id": `${SITE.url}/#organization`,
-      },
-    },
-    {
-      "@type": "CollectionPage",
-      "@id": `${SITE.url}/#webpage`,
-      url: SITE.url,
-      name: "Móveis Marília | Loja de Móveis em Marília SP — Frete Grátis e Curadoria Exclusiva",
-      description:
-        "Página inicial da Móveis Marília. Navegue por categorias como sofás, guarda-roupas, cozinhas, painéis, home office e eletrodomésticos. Curadoria com frete grátis para Marília e região.",
-      isPartOf: {
-        "@id": `${SITE.url}/#website`,
-      },
-      about: {
-        "@id": `${SITE.url}/#organization`,
-      },
-      breadcrumb: {
-        "@type": "BreadcrumbList",
-        itemListElement: [
-          {
-            "@type": "ListItem",
-            position: 1,
-            name: "Início",
-            item: SITE.url,
-          },
-        ],
-      },
-      mainEntity: {
-        "@type": "ItemList",
-        itemListElement: allCategories.map((cat, index) => ({
-          "@type": "ListItem",
-          position: index + 1,
-          item: {
-            "@type": "ProductCollection",
-            name: CATEGORY_LABELS[cat],
-            url: `${SITE.url}/categoria/${cat}`,
-            description: `Coleção de ${CATEGORY_LABELS[cat].toLowerCase()} disponíveis na Móveis Marília com frete grátis e ofertas exclusivas.`,
-            image: CATEGORY_BANNERS[cat],
-          },
-        })),
-        numberOfItems: allCategories.length,
-      },
-      offers: {
-        "@type": "OfferCatalog",
-        name: "Categorias de Móveis em Marília SP",
-        itemListElement: allCategories.map((cat) => ({
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "ProductCollection",
-            name: CATEGORY_LABELS[cat],
-            url: `${SITE.url}/categoria/${cat}`,
-          },
-        })),
-      },
-      primaryImageOfPage: {
-        "@type": "ImageObject",
-        url: heroBanner,
-        width: 1600,
-        height: 900,
-        caption: "Móveis Marília — Curadoria de móveis em Marília SP",
-      },
-    },
+      publisher: { "@id": `${SITE.url}/#store` },
+    }
   ],
 };
 
+const FAQ_ITEMS = [
+  {
+    q: "MDF ou MDP: qual a diferença?",
+    a: "O MDF é homogêneo e denso, perfeito para cortes curvos e acabamentos em laca. O MDP possui camadas internas de maior espessura, o que lhe confere excelente resistência estrutural contra empenamentos e peso — ideal para bases, prateleiras e divisórias internas de armários.",
+  },
+  {
+    q: "Qual o melhor sofá para salas compactas?",
+    a: "Sofás retráteis compactos ou modelos com pés aparentes (que trazem leveza visual) são ótimos. Priorize modelos com profundidade fechada abaixo de 95cm e braços finos (de 10cm a 15cm) para maximizar a área útil de assento.",
+  },
+  {
+    q: "Como funciona a política de frete grátis?",
+    a: "Oferecemos frete gratuito para Marília-SP e condições altamente subsidiadas para cidades vizinhas (Bauru, Assis, Tupã, Ourinhos). A entrega é realizada por transportadoras parceiras especializadas no manuseio de móveis sensíveis.",
+  },
+  {
+    q: "Os móveis possuem garantia?",
+    a: "Sim. Todos os móveis de nossa curadoria contam com garantia legal de 90 dias, além da garantia estendida direto de fábrica que pode chegar a até 1 ano para defeitos estruturais e de fabricação.",
+  },
+];
+
+const MATERIAL_SWATCHES = [
+  { label: "MDF Premium", tone: "#A2845E" },
+  { label: "MDP Estrutural", tone: "#7C6C56" },
+  { label: "Madeira Maciça", tone: "#573F28" },
+  { label: "Aço Carbono Microtexturizado", tone: "#2A2A2A" },
+  { label: "Linho de Alta Gramatura", tone: "#9B927B" },
+  { label: "Vidro Canelado", tone: "#7F918C" },
+];
+
 export default function HomePage() {
   return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+    <div
+      style={{ fontFamily: FONT_BODY }}
+      className="bg-[#FAF8F5] text-[#1E1B18] antialiased selection:bg-[#C5A880]/30 selection:text-[#1E1B18]"
+    >
+      {/* JSON-LD Script para indexação rica */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
+      {/* Título Oculto Importante para Rankeamento Google (SEO H1) */}
       <h1 className="sr-only">
-        Móveis Marília — Loja de Móveis em Marília SP: Curadoria, Frete Grátis e Preços que Cabem no Seu Bolso
+        Móveis Marília — Loja de Móveis em Marília SP | Design, Curadoria e Frete Grátis
       </h1>
 
-      <HeroSlider />
+      {/* ============================================================
+           TOP BAR: ASSINATURA EDITORIAL
+           ============================================================ */}
+      <div
+        className="sticky top-0 z-50 flex items-center justify-center gap-3 px-4 py-2.5 text-center text-[9px] font-medium uppercase tracking-[0.3em] text-[#FAF8F5] shadow-sm backdrop-blur-md transition-all sm:text-[10px]"
+        style={{ fontFamily: FONT_MONO, backgroundColor: "rgba(30, 27, 24, 0.95)" }}
+      >
+        <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-[#C5A880]" />
+        Marília · SP — Curadoria arquitetônica com frete grátis local
+        <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-[#C5A880]" />
+      </div>
 
-      <div className="mx-auto max-w-7xl space-y-16 px-4 py-16 sm:px-6 lg:px-8">
-        <section aria-label="Navegue por categoria">
-          <CategoryCarousel
-            items={allCategories.map((cat) => ({
-              slug: cat,
-              label: CATEGORY_LABELS[cat],
-              image: CATEGORY_BANNERS[cat],
-            }))}
-          />
+      {/* HERO SLIDER SECTION */}
+      <main className="relative">
+        <HeroSlider />
 
-          <Link
-            href="/moveis-para-estudantes"
-            className="group mt-6 flex items-center justify-between rounded-2xl border border-amber-200/50 bg-gradient-to-r from-amber-500/10 to-amber-500/5 p-5 transition-all hover:bg-amber-500/15 hover:shadow-md"
-          >
-            <div className="flex items-center gap-4">
-              <span className="text-3xl">🎓</span>
+        {/* CONTAINER GERAL DO SITE */}
+        <div className="mx-auto max-w-[1400px] space-y-16 px-4 py-12 sm:space-y-24 sm:px-8 sm:py-20">
+          
+          {/* ============================================================
+               SEÇÃO 01: NAVEGAÇÃO POR AMBIENTE (CAROUSEL EDITORIAL)
+               ============================================================ */}
+          <section aria-label="Ambientes e Categorias" className="relative">
+            <div className="mb-8 flex flex-col md:flex-row md:items-end md:justify-between">
               <div>
-                <span className="text-base font-semibold text-amber-700">
-                  Móveis para Estudantes
+                <span
+                  className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#C5A880]"
+                  style={{ fontFamily: FONT_MONO }}
+                >
+                  Ambientes planejados
                 </span>
-                <p className="mt-0.5 text-sm text-amber-600/80">
-                  Soluções práticas e econômicas para quarto, home office e estudo
-                </p>
+                <h2
+                  className="mt-2 text-3xl font-light tracking-tight text-[#1E1B18] sm:text-5xl"
+                  style={{ fontFamily: FONT_DISPLAY }}
+                >
+                  Encontre por <span className="italic">espaço</span>
+                </h2>
               </div>
-            </div>
-            <span className="rounded-full bg-amber-500 px-4 py-2 text-xs font-bold text-white transition group-hover:scale-105">
-              Ver →
-            </span>
-          </Link>
-        </section>
-
-        <ProductGrid
-          title="Ofertas em destaque"
-          subtitle="Os móveis mais procurados da semana com os maiores descontos"
-          category={["cozinhas", "guarda-roupas", "sofas", "paineis", "quartos"]}
-          limit={24}
-          priorityFirst
-          gridClassName="grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
-        />
-
-        <section className="overflow-hidden rounded-3xl bg-stone-900" aria-label="Semana do Eletro">
-          <div className="grid items-center gap-6 md:grid-cols-2">
-            <div className="p-8 sm:p-12">
-              <span className="text-xs font-semibold uppercase tracking-widest text-amber-400">
-                Semana do Eletro
-              </span>
-              <h2 className="mt-3 text-3xl font-bold tracking-tight text-white">
-                Equipe sua cozinha completa
-              </h2>
-              <p className="mt-3 text-stone-300">
-                Geladeira, fogão, micro-ondas e air fryer com descontos de até 38%. Combine com os
-                móveis certos e monte tudo de uma vez.
+              <p className="mt-2 max-w-sm text-sm text-neutral-500 md:mt-0 md:text-right">
+                Linhas completas pensadas para otimizar espaço e elevar a estética do seu lar.
               </p>
-              <Link
-                href="/categoria/eletrodomesticos"
-                className="mt-6 inline-block rounded-xl bg-white px-6 py-3 text-sm font-semibold text-stone-900 transition-all hover:-translate-y-0.5 hover:bg-stone-100"
-              >
-                Ver eletrodomésticos
-              </Link>
             </div>
-            <div className="relative h-56 md:h-full bg-stone-900">
-              <Image
-                src="https://images.pexels.com/photos/3958962/pexels-photo-3958962.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-                alt="Cozinha moderna equipada com eletrodomésticos em aço inox — geladeira, fogão e micro-ondas combinando com móveis planejados"
-                fill
-                className="object-contain"
-                sizes="(max-width: 768px) 100vw, 50vw"
-                priority={false}
+
+            <div className="relative rounded-2xl border border-neutral-200/50 bg-[#F4F1EC]/40 p-4 backdrop-blur-sm sm:p-6">
+              <CategoryCarousel
+                items={allCategories.map((cat) => ({
+                  slug: cat,
+                  label: CATEGORY_LABELS[cat],
+                  image: CATEGORY_BANNERS[cat],
+                }))}
               />
             </div>
-          </div>
-        </section>
 
-        <ProductGrid
-          title="Eletrodomésticos em oferta"
-          subtitle="Complete os ambientes com tecnologia e economia"
-          category="eletrodomesticos"
-          limit={6}
-          gridClassName="grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
-        />
-
-        <ProductGrid
-          title="Novidades para sua casa"
-          subtitle="Produtos recém-chegados com preços especiais de lançamento"
-          category={["home-office", "area-externa"]}
-          limit={6}
-          gridClassName="grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
-        />
-
-        <section className="relative mt-20 border-t border-stone-200/60 pt-16">
-          <div className="absolute -top-px left-1/4 right-1/4 h-px bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
-
-          <div className="prose prose-stone max-w-none">
-            <h2 className="text-4xl font-light tracking-wide text-stone-800 sm:text-5xl">
-              Móveis em Marília SP com Curadoria de Verdade
-              <span className="mt-3 block text-2xl font-light text-stone-400 sm:text-3xl">
-                qualidade, frete grátis e o preço que você procurava
-              </span>
-            </h2>
-
-            <div className="mt-8 space-y-6 text-stone-600">
-              <p className="text-lg leading-relaxed">
-                Encontrar uma <strong className="font-semibold text-stone-800">loja de móveis em Marília</strong> que
-                una design contemporâneo, material durável e preço justo pode parecer difícil. Aqui,
-                resolvemos isso com uma curadoria independente: analisamos centenas de fabricantes,
-                checamos avaliações reais de clientes e selecionamos apenas os produtos que realmente
-                entregam custo-benefício. O resultado é um catálogo enxuto, confiável e com
-                <strong className="font-semibold text-stone-800"> frete grátis para Marília e região</strong>.
-              </p>
-
-              <h3 className="mt-10 text-2xl font-light tracking-wide text-stone-800">
-                Por que a Móveis Marília é diferente?
-              </h3>
-
-              <ul className="space-y-4 text-stone-600">
-                <li className="flex gap-4">
-                  <span className="mt-0.5 text-amber-500">✦</span>
-                  <div>
-                    <strong className="font-semibold text-stone-800">Curadoria independente</strong>
-                    <p className="mt-0.5 text-sm leading-relaxed">
-                      Não somos uma loja tradicional. Somos especialistas que garimpam os melhores
-                      móveis em marketplaces confiáveis, negociação direta com fornecedores e
-                      verificação de reputação. Cada produto do catálogo passa por critérios rigorosos
-                      de qualidade, acabamento e durabilidade antes de aparecer aqui.
-                    </p>
-                  </div>
-                </li>
-                <li className="flex gap-4">
-                  <span className="mt-0.5 text-amber-500">✦</span>
-                  <div>
-                    <strong className="font-semibold text-stone-800">Entrega rápida em Marília e região</strong>
-                    <p className="mt-0.5 text-sm leading-relaxed">
-                      Parceiros logísticos que conhecem a cidade. Entregamos no Centro, Jardim Tangará,
-                      Bairro Alto, Nova Marília, Jardim Itália, Jardim dos Estados e zona rural.
-                      Prazo médio de 5 a 10 dias úteis. Atendemos também Bauru, Ourinhos, Assis e Tupã.
-                    </p>
-                  </div>
-                </li>
-                <li className="flex gap-4">
-                  <span className="mt-0.5 text-amber-500">✦</span>
-                  <div>
-                    <strong className="font-semibold text-stone-800">Economia real, sem pegadinha</strong>
-                    <p className="mt-0.5 text-sm leading-relaxed">
-                      Negociamos diretamente com fornecedores para oferecer descontos que chegam a 50%
-                      em relação às grandes redes. Acompanhamos ofertas diariamente e repassamos os
-                      melhores preços. Você paga menos sem abrir mão da qualidade.
-                    </p>
-                  </div>
-                </li>
-                <li className="flex gap-4">
-                  <span className="mt-0.5 text-amber-500">✦</span>
-                  <div>
-                    <strong className="font-semibold text-stone-800">Suporte local e humano</strong>
-                    <p className="mt-0.5 text-sm leading-relaxed">
-                      Atendimento de segunda a sexta, das 8h às 18h, via WhatsApp e e-mail.
-                      Somos de Marília e entendemos as necessidades da região. Antes de comprar,
-                      converse com a gente — ajudamos você a escolher o móvel certo para o seu espaço.
-                    </p>
-                  </div>
-                </li>
-              </ul>
-
-              <h3 className="mt-12 text-2xl font-light tracking-wide text-stone-800">
-                O que você encontra na nossa loja?
-              </h3>
-
-              <p className="text-lg leading-relaxed">
-                De <strong className="font-semibold text-stone-800">sofás retráteis e reclináveis</strong> que
-                cabem em salas compactas até <strong className="font-semibold text-stone-800">guarda-roupas
-                de casal em MDF e MDP</strong> com espelho e portas de correr. Selecionamos
-                <strong className="font-semibold text-stone-800"> cozinhas moduladas</strong> perfeitas
-                para apartamentos pequenos e <strong className="font-semibold text-stone-800">móveis para
-                home office</strong> que transformam qualquer canto em um escritório produtivo e
-                ergonômico. Cada peça é pensada para otimizar espaço sem sacrificar o estilo.
-              </p>
-
-              <p className="text-lg leading-relaxed">
-                Também oferecemos <strong className="font-semibold text-stone-800">painéis para TV</strong> com
-                nichos e iluminação integrada, <strong className="font-semibold text-stone-800">racks</strong> com
-                design minimalista, <strong className="font-semibold text-stone-800">camas box com baú</strong> para
-                quartos que precisam de armazenamento extra e <strong className="font-semibold text-stone-800">eletrodomésticos</strong> para
-                completar sua casa com tecnologia e eficiência. Trabalhamos com materiais como MDF,
-                MDP, madeira maciça de reflorestamento e aço carbono com pintura eletrostática —
-                sempre priorizando resistência e acabamento impecável.
-              </p>
-
-              <h3 className="mt-12 text-2xl font-light tracking-wide text-stone-800">
-                Como escolher o móvel ideal?
-              </h3>
-
-              <div className="space-y-6">
+            {/* BENTO GRID EDITORIAL (BANNERS DE NICHO) */}
+            <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
+              <Link
+                href="/moveis-para-estudantes"
+                className="group relative flex flex-col justify-between overflow-hidden rounded-2xl bg-[#EAE3D2] p-8 border border-neutral-300/40 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl hover:shadow-[#EAE3D2]/30 active:scale-[0.99]"
+              >
+                <div className="absolute right-0 top-0 translate-x-4 -translate-y-4 text-[120px] opacity-10 transition-transform duration-700 group-hover:scale-110">
+                  🎓
+                </div>
                 <div>
-                  <h4 className="text-lg font-medium text-stone-800">
-                    MDF ou MDP: qual a diferença?
-                  </h4>
-                  <p className="mt-1 text-sm leading-relaxed">
-                    O MDF é mais denso, aceita melhor pintura e usinagem — ideal para portas de
-                    guarda-roupa e painéis com detalhes. O MDP é mais leve e resistente a impactos,
-                    perfeito para prateleiras e estruturas internas. Ambos são duráveis quando bem
-                    fabricados. A escolha depende do uso: MDF para acabamento, MDP para sustentação.
+                  <span
+                    className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#7A5E2E]"
+                    style={{ fontFamily: FONT_MONO }}
+                  >
+                    Linha Universitária & Compactos
+                  </span>
+                  <h3
+                    className="mt-3 text-2xl font-light text-[#1E1B18] sm:text-3xl"
+                    style={{ fontFamily: FONT_DISPLAY }}
+                  >
+                    Móveis para <span className="italic">Estudantes</span>
+                  </h3>
+                  <p className="mt-2 max-w-xs text-xs leading-relaxed text-[#5C4E33] sm:text-sm">
+                    Funcionalidade, montagem facilitada e preços inteligentes para quem está começando.
                   </p>
                 </div>
+                <div className="mt-8">
+                  <span
+                    className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#1E1B18]"
+                    style={{ fontFamily: FONT_MONO }}
+                  >
+                    Explorar Coleção 
+                    <span className="transition-transform duration-300 group-hover:translate-x-1.5">→</span>
+                  </span>
+                </div>
+              </Link>
 
+              <Link
+                href="/moveis-para-bebe"
+                className="group relative flex flex-col justify-between overflow-hidden rounded-2xl bg-[#ECDCDD] p-8 border border-neutral-300/40 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl hover:shadow-[#ECDCDD]/30 active:scale-[0.99]"
+              >
+                <div className="absolute right-0 top-0 translate-x-4 -translate-y-4 text-[120px] opacity-10 transition-transform duration-700 group-hover:scale-110">
+                  👶
+                </div>
                 <div>
-                  <h4 className="text-lg font-medium text-stone-800">
-                    Qual o melhor sofá para sala pequena?
-                  </h4>
-                  <p className="mt-1 text-sm leading-relaxed">
-                    Sofás retráteis e reclináveis de 2 lugares são a melhor opção. Modelos com
-                    profundidade entre 80 cm e 95 cm oferecem conforto sem ocupar espaço excessivo.
-                    Prefira tecidos como sarja ou linho sintético, que aliam durabilidade e fácil
-                    limpeza. Para ambientes integrados, considere um sofá-cama com baú — função dupla
-                    sem abrir mão da estética.
+                  <span
+                    className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#8A4C57]"
+                    style={{ fontFamily: FONT_MONO }}
+                  >
+                    Conforto & Segurança Infantil
+                  </span>
+                  <h3
+                    className="mt-3 text-2xl font-light text-[#1E1B18] sm:text-3xl"
+                    style={{ fontFamily: FONT_DISPLAY }}
+                  >
+                    Linha Infantil & <span className="italic">Bebês</span>
+                  </h3>
+                  <p className="mt-2 max-w-xs text-xs leading-relaxed text-[#6B4A4F] sm:text-sm">
+                    Móveis com quinas arredondadas, tintas atóxicas e design lúdico.
                   </p>
                 </div>
-
-                <div>
-                  <h4 className="text-lg font-medium text-stone-800">
-                    Qual painel escolher para a TV?
-                  </h4>
-                  <p className="mt-1 text-sm leading-relaxed">
-                    O painel certo depende do tamanho da TV e do espaço na parede. TVs de 50 a 65
-                    polegadas pedem painéis com largura entre 1,80 m e 2,20 m. Modelos com nichos
-                    laterais ajudam a organizar aparelhos e objetos decorativos. Para salas pequenas,
-                    painéis suspensos dão sensação de leveza. Verifique sempre a capacidade de peso e
-                    a distância entre os pontos de fixação.
-                  </p>
+                <div className="mt-8">
+                  <span
+                    className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#1E1B18]"
+                    style={{ fontFamily: FONT_MONO }}
+                  >
+                    Explorar Coleção 
+                    <span className="transition-transform duration-300 group-hover:translate-x-1.5">→</span>
+                  </span>
                 </div>
+              </Link>
+            </div>
+          </section>
 
-                <div>
-                  <h4 className="text-lg font-medium text-stone-800">
-                    Vale comprar móveis online?
-                  </h4>
-                  <p className="mt-1 text-sm leading-relaxed">
-                    Sim, desde que você verifique três pontos: reputação do vendedor, política de
-                    devolução e avaliações com fotos reais. Na nossa curadoria, já fizemos essa
-                    verificação por você. Todos os produtos do catálogo têm garantia de fábrica e
-                    procedência confirmada. O frete grátis para Marília é um diferencial que torna a
-                    compra online ainda mais vantajosa em relação às lojas físicas tradicionais.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="text-lg font-medium text-stone-800">
-                    Como economizar comprando móveis?
-                  </h4>
-                  <p className="mt-1 text-sm leading-relaxed">
-                    Acompanhe promoções sazonais como Black Friday, Dia dos Namorados e liquidações de
-                    estoque. Compare preços em diferentes plataformas antes de fechar a compra.
-                    Considere kits de móveis para o mesmo ambiente — fabricantes costumam oferecer
-                    descontos progressivos. E, claro, conte com nossa curadoria: já fazemos a
-                    comparação de preços para você encontrar a melhor oferta do momento.
-                  </p>
-                </div>
+          {/* ============================================================
+               SEÇÃO 02: GRID DE PRODUTOS PRINCIPAIS
+               ============================================================ */}
+          <section className="relative">
+            <div className="mb-8 flex flex-col justify-between border-b border-neutral-200 pb-4 sm:flex-row sm:items-end">
+              <div>
+                <span
+                  className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#C5A880]"
+                  style={{ fontFamily: FONT_MONO }}
+                >
+                  Curadoria Exclusiva
+                </span>
+                <h2
+                  className="mt-1 text-2xl font-light tracking-tight text-[#1E1B18] sm:text-4xl"
+                  style={{ fontFamily: FONT_DISPLAY }}
+                >
+                  Destaques da <span className="italic">Semana</span>
+                </h2>
               </div>
-
-              <h3 className="mt-12 text-2xl font-light tracking-wide text-stone-800">
-                Como funciona a compra?
-              </h3>
-
-              <ol className="space-y-4 text-stone-600">
-                <li className="flex gap-4">
-                  <span className="flex h-7 w-7 items-center justify-center rounded-full bg-stone-100 text-sm font-medium text-stone-500">
-                    1
-                  </span>
-                  <div>
-                    <strong className="font-semibold text-stone-800">Escolha o produto</strong>
-                    <p className="mt-0.5 text-sm leading-relaxed">
-                      Navegue por categorias, use os filtros ou explore nossos guias para comparar
-                      modelos e materiais.
-                    </p>
-                  </div>
-                </li>
-                <li className="flex gap-4">
-                  <span className="flex h-7 w-7 items-center justify-center rounded-full bg-stone-100 text-sm font-medium text-stone-500">
-                    2
-                  </span>
-                  <div>
-                    <strong className="font-semibold text-stone-800">Verifique o estoque</strong>
-                    <p className="mt-0.5 text-sm leading-relaxed">
-                      Clique em &quot;Verificar estoque&quot; — você será redirecionado para
-                      finalizar a compra com a oferta já aplicada, de forma segura e transparente.
-                    </p>
-                  </div>
-                </li>
-                <li className="flex gap-4">
-                  <span className="flex h-7 w-7 items-center justify-center rounded-full bg-stone-100 text-sm font-medium text-stone-500">
-                    3
-                  </span>
-                  <div>
-                    <strong className="font-semibold text-stone-800">Confira o frete para Marília</strong>
-                    <p className="mt-0.5 text-sm leading-relaxed">
-                      Prazo de 5 a 10 dias úteis com opções de entrega agendada. Frete grátis para
-                      Marília na maioria dos produtos.
-                    </p>
-                  </div>
-                </li>
-                <li className="flex gap-4">
-                  <span className="flex h-7 w-7 items-center justify-center rounded-full bg-stone-100 text-sm font-medium text-stone-500">
-                    4
-                  </span>
-                  <div>
-                    <strong className="font-semibold text-stone-800">Pague com segurança</strong>
-                    <p className="mt-0.5 text-sm leading-relaxed">
-                      Cartão de crédito, boleto bancário ou Pix — ambiente protegido e sem
-                      surpresas. Cupons exclusivos disponíveis para clientes da região.
-                    </p>
-                  </div>
-                </li>
-              </ol>
-
-              <div className="mt-10 rounded-2xl border border-stone-200/80 bg-stone-50/50 p-6 backdrop-blur-sm">
-                <p className="font-light tracking-wide text-stone-800">
-                  <span className="text-amber-500">📍</span> Atendemos toda a região de Marília:
-                </p>
-                <p className="mt-2 text-sm leading-relaxed text-stone-600">
-                  <strong className="font-medium text-stone-700">Centro</strong>, Jardim Tangará,
-                  Bairro Alto, Nova Marília, Jardim Itália, Jardim dos Estados, e cidades vizinhas
-                  como <strong className="font-medium text-stone-700">Bauru, Ourinhos, Assis, Tupã</strong> e
-                  toda a área de influência de Marília. Se você busca móveis de qualidade na região,
-                  estamos prontos para atender.
-                </p>
-                <p className="mt-1 text-xs text-stone-400">
-                  Entregas também disponíveis para todo o Brasil — consulte o frete no momento da
-                  compra.
-                </p>
-              </div>
-
-              <div className="mt-10 rounded-xl border-l-4 border-amber-400 bg-amber-50/60 p-6">
-                <p className="text-sm font-medium text-amber-800">
-                  💡 Dica da Móveis Marília: assine nossa newsletter e receba cupons exclusivos para
-                  compras na região. Acompanhe também nossas promoções sazonais — Black Friday, Dia
-                  dos Namorados e liquidações de estoque com descontos imperdíveis.
-                </p>
-              </div>
-
-              <p className="mt-8 text-xs text-stone-400">
-                * Todos os preços e ofertas são verificados diariamente. Imagens meramente
-                ilustrativas. Consulte a disponibilidade no momento da compra. Produtos sujeitos a
-                alteração de preço sem aviso prévio.
+              <p className="mt-2 text-xs text-neutral-400 sm:mt-0">
+                Atualizado hoje com as melhores negociações direto dos polos moveleiros.
               </p>
             </div>
-          </div>
-        </section>
-      </div>
-    </>
+
+            {/* Grid Otimizado para UX & Conversão */}
+            <div className="group/grid">
+              <ProductGrid
+                category={["cozinhas", "guarda-roupas", "sofas", "paineis", "quartos"]}
+                limit={24}
+                priorityFirst
+                gridClassName="grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+              />
+            </div>
+          </section>
+
+          {/* ============================================================
+               SEÇÃO 03: FEATURED AD (MAGAZINE COVER STYLE)
+               ============================================================ */}
+          <section className="overflow-hidden rounded-3xl bg-[#1E1B18] shadow-2xl">
+            <div className="grid grid-cols-1 items-stretch md:grid-cols-12">
+              <div className="flex flex-col justify-center p-8 sm:p-12 md:col-span-7 lg:p-16">
+                <div>
+                  <span
+                    className="inline-block rounded-full bg-[#C5A880]/20 px-3 py-1 text-[9px] font-bold uppercase tracking-[0.2em] text-[#C5A880]"
+                    style={{ fontFamily: FONT_MONO }}
+                  >
+                    Coleção Eletro Premium
+                  </span>
+                  <h2
+                    className="mt-4 text-3xl font-light leading-tight text-[#FAF8F5] sm:text-5xl"
+                    style={{ fontFamily: FONT_DISPLAY }}
+                  >
+                    Equipe sua cozinha com <span className="italic font-normal text-[#C5A880]">tecnologia</span>
+                  </h2>
+                  <p className="mt-4 text-sm leading-relaxed text-neutral-400 sm:text-base">
+                    Geladeiras, fornos e cooktops selecionados por especialistas em arquitetura de interiores. Integração perfeita com nossos módulos sob medida.
+                  </p>
+                </div>
+                <div className="mt-8 flex flex-wrap gap-4">
+                  <Link
+                    href="/categoria/eletrodomesticos"
+                    className="inline-flex items-center gap-3 rounded-full bg-[#C5A880] px-6 py-3 text-xs font-semibold uppercase tracking-wider text-[#1E1B18] transition-all duration-300 hover:bg-[#FAF8F5] hover:scale-105"
+                    style={{ fontFamily: FONT_MONO }}
+                  >
+                    Ver Linha Completa
+                    <span>→</span>
+                  </Link>
+                </div>
+              </div>
+              <div className="relative min-h-[300px] md:col-span-5 md:min-h-full">
+                <Image
+                  src="https://images.pexels.com/photos/3958962/pexels-photo-3958962.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=800&w=600"
+                  alt="Eletrodomésticos premium instalados em armários planejados escuros"
+                  fill
+                  className="object-cover transition-transform duration-700 hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, 40vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#1E1B18] via-transparent to-transparent md:bg-gradient-to-l" />
+              </div>
+            </div>
+          </section>
+
+          {/* GRIDS COMPLEMENTARES */}
+          <section className="space-y-16">
+            <ProductGrid
+              title="Eletrodomésticos Premium"
+              subtitle="O complemento tecnológico perfeito para seu espaço planejado"
+              category="eletrodomesticos"
+              limit={5}
+              gridClassName="grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+            />
+
+            <ProductGrid
+              title="Lançamentos & Design"
+              subtitle="Novos designs que unem leveza estética e materiais resistentes"
+              category={["home-office", "area-externa"]}
+              limit={5}
+              gridClassName="grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+            />
+          </section>
+
+          {/* ============================================================
+               SEÇÃO 04: SEO DE AUTORIDADE & INSTITUCIONAL (EDITORIAL TYPE)
+               ============================================================ */}
+          <section className="border-t border-neutral-200 pt-16 sm:pt-24">
+            <div className="grid grid-cols-1 gap-12 lg:grid-cols-12">
+              
+              <div className="lg:col-span-5">
+                <span
+                  className="text-[10px] font-bold uppercase tracking-[0.3em] text-[#C5A880]"
+                  style={{ fontFamily: FONT_MONO }}
+                >
+                  Nossa Essência
+                </span>
+                <h2
+                  className="mt-3 text-3xl font-light leading-tight text-[#1E1B18] sm:text-5xl"
+                  style={{ fontFamily: FONT_DISPLAY }}
+                >
+                  Curadoria de móveis em <span className="italic">Marília SP</span>
+                </h2>
+                <p className="mt-4 text-sm leading-relaxed text-neutral-500">
+                  Acreditamos que design autoral e acessibilidade financeira andam de mãos dadas. Sem intermediários, buscamos conectar você às melhores indústrias nacionais.
+                </p>
+
+                {/* Diferenciais Competitivos - Bento Minimalist */}
+                <div className="mt-8 space-y-4">
+                  {[
+                    { t: "Curadoria Rígida", d: "Testamos estrutura e materiais de cada fabricante.", color: "border-l-[#C5A880]" },
+                    { t: "Logística Inteligente", d: "Entregas agendadas em Marília e municípios vizinhos.", color: "border-l-[#5E7A68]" },
+                    { t: "Atendimento Humanizado", d: "Suporte consultivo via WhatsApp com especialistas.", color: "border-l-[#8A5E68]" },
+                  ].map((diff) => (
+                    <div
+                      key={diff.t}
+                      className={`border-l-2 ${diff.color} bg-[#F4F1EC]/60 p-4 transition-all duration-300 hover:bg-[#F4F1EC]`}
+                    >
+                      <h4 className="text-sm font-semibold text-[#1E1B18]">{diff.t}</h4>
+                      <p className="mt-1 text-xs text-neutral-500">{diff.d}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Informações de Materiais & FAQ */}
+              <div className="lg:col-span-7">
+                <p className="text-sm leading-relaxed text-neutral-600 sm:text-base">
+                  Seja para mobiliar o quarto com um espaçoso <strong className="font-semibold text-[#1E1B18]">guarda-roupa de casal</strong>, decorar a sala com <strong className="font-semibold text-[#1E1B18]">sofás confortáveis</strong> e painéis modernos, ou estruturar um <strong className="font-semibold text-[#1E1B18]">home office produtivo</strong>, nós selecionamos as peças certas nos melhores insumos estruturais:
+                </p>
+
+                {/* Materiais - Swatches Visuais */}
+                <div className="mt-6 flex flex-wrap gap-2">
+                  {MATERIAL_SWATCHES.map((mat) => (
+                    <div
+                      key={mat.label}
+                      className="inline-flex items-center gap-2.5 rounded-full border border-neutral-300/60 bg-white py-1.5 pl-2 pr-4 text-xs font-medium text-[#1E1B18] shadow-sm transition-all duration-300 hover:border-[#C5A880]"
+                      style={{ fontFamily: FONT_MONO }}
+                    >
+                      <span className="h-3 w-3 rounded-full" style={{ backgroundColor: mat.tone }} />
+                      {mat.label}
+                    </div>
+                  ))}
+                </div>
+
+                {/* FAQ - Accordion */}
+                <div className="mt-12">
+                  <h3
+                    className="text-xl font-light text-[#1E1B18] sm:text-2xl"
+                    style={{ fontFamily: FONT_DISPLAY }}
+                  >
+                    Guia de Compra & <span className="italic">Dúvidas Frequentes</span>
+                  </h3>
+                  
+                  <div className="mt-6 space-y-3">
+                    {FAQ_ITEMS.map((item) => (
+                      <details
+                        key={item.q}
+                        className="group rounded-xl border border-neutral-200 bg-white transition-all duration-300 open:border-neutral-300 open:bg-[#F4F1EC]/40"
+                      >
+                        <summary className="flex cursor-pointer list-none items-center justify-between p-4 text-sm font-medium text-[#1E1B18] transition-colors hover:text-[#C5A880]">
+                          <span className="pr-4">{item.q}</span>
+                          <span className="text-xs transition-transform duration-300 group-open:rotate-45">
+                            ➕
+                          </span>
+                        </summary>
+                        <div className="border-t border-neutral-100 p-4 text-xs leading-relaxed text-neutral-500 sm:text-sm">
+                          {item.a}
+                        </div>
+                      </details>
+                    ))}
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </section>
+
+          {/* ============================================================
+               SEÇÃO 05: ROADMAP DE INFRAESTRUTURA LOCAL DE COMPRA
+               ============================================================ */}
+          <section className="rounded-3xl border border-neutral-200 bg-[#F4F1EC]/40 p-8 sm:p-12">
+            <h3
+              className="text-center text-2xl font-light text-[#1E1B18] sm:text-4xl"
+              style={{ fontFamily: FONT_DISPLAY }}
+            >
+              Logística Simplificada para <span className="italic font-normal">Marília e Região</span>
+            </h3>
+            
+            <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {[
+                { step: "01", t: "Seleção Consultiva", d: "Navegue em nosso catálogo filtrado por qualidade técnica de produção." },
+                { step: "02", t: "Redirecionamento Seguro", d: "Finalize sua compra com as ofertas e condições de fábrica aplicadas." },
+                { step: "03", t: "Acompanhamento Ativo", d: "Receba atualizações do status de transporte direto pelo WhatsApp." },
+                { step: "04", t: "Entrega Garantida", d: "Receba de braços abertos seus novos produtos com frete grátis local." },
+              ].map((item) => (
+                <div key={item.step} className="group relative rounded-2xl bg-white p-6 shadow-sm border border-neutral-200/50">
+                  <span
+                    className="absolute right-4 top-4 text-sm font-bold text-neutral-200 transition-colors group-hover:text-[#C5A880]"
+                    style={{ fontFamily: FONT_MONO }}
+                  >
+                    {item.step}
+                  </span>
+                  <h4 className="mt-4 text-sm font-semibold text-[#1E1B18]">{item.t}</h4>
+                  <p className="mt-2 text-xs leading-relaxed text-neutral-500">{item.d}</p>
+                </div>
+              ))}
+            </div>
+
+            {/* Bairro Badge List (Local SEO booster) */}
+            <div className="mt-12 border-t border-neutral-300/60 pt-8">
+              <p className="text-xs text-neutral-500 text-center">
+                Atendemos com frota própria e equipe interna:
+              </p>
+              <div className="mt-4 flex flex-wrap justify-center gap-1.5 text-[10px] uppercase tracking-wider text-neutral-400">
+                <span>Centro</span> • <span>Jardim Tangará</span> • <span>Bairro Alto</span> • <span>Nova Marília</span> • <span>Jardim Itália</span> • <span>Bauru</span> • <span>Ourinhos</span> • <span>Assis</span> • <span>Tupã</span>
+              </div>
+            </div>
+          </section>
+
+          {/* NEWSLETTER VIP */}
+          <section className="relative overflow-hidden rounded-3xl bg-[#1E1B18] px-8 py-12 text-center text-[#FAF8F5] sm:px-16 sm:py-20">
+            <div className="absolute inset-0 bg-gradient-to-r from-[#C5A880]/10 to-transparent opacity-40 pointer-events-none" />
+            <div className="relative z-10 max-w-xl mx-auto">
+              <span className="text-[9px] font-bold tracking-[0.3em] uppercase text-[#C5A880]" style={{ fontFamily: FONT_MONO }}>
+                Clube de Benefícios
+              </span>
+              <h3 className="mt-3 text-2xl sm:text-4xl font-light" style={{ fontFamily: FONT_DISPLAY }}>
+                Inscreva-se e receba <span className="italic text-[#C5A880]">ofertas exclusivas</span>
+              </h3>
+              <p className="mt-2 text-xs sm:text-sm text-neutral-400">
+                Seja avisado sobre cupons regionais e a chegada de novos lotes de fábrica antes de todo mundo.
+              </p>
+              <div className="mt-8 flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
+                <input 
+                  type="email" 
+                  placeholder="Seu melhor e-mail" 
+                  className="w-full px-5 py-3 rounded-full text-xs bg-neutral-900 border border-neutral-800 text-[#FAF8F5] placeholder:text-neutral-600 focus:outline-none focus:border-[#C5A880]"
+                />
+                <button className="px-6 py-3 rounded-full bg-[#C5A880] text-[#1E1B18] text-xs font-bold uppercase tracking-wider transition-all hover:scale-105 active:scale-95" style={{ fontFamily: FONT_MONO }}>
+                  Cadastrar
+                </button>
+              </div>
+            </div>
+          </section>
+
+          {/* RESSALVA LEGAL */}
+          <p className="text-center text-[10px] text-neutral-400">
+            * Valores, disponibilidade e prazos de entrega estão sujeitos a confirmação no painel do parceiro logístico. Imagens puramente ilustrativas.
+          </p>
+
+        </div>
+      </main>
+    </div>
   );
 }

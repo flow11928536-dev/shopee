@@ -1,33 +1,38 @@
 User-agent: *
 Allow: /
-
-# Diretrizes específicas para diferentes crawlers
-User-agent: Googlebot
-Allow: /
 Disallow: /admin/
 Disallow: /api/
-
-User-agent: Bingbot
-Allow: /
-Disallow: /admin/
-Disallow: /api/
-
-User-agent: *
-Disallow: /admin/
-Disallow: /api/
-Disallow: /private/
 Disallow: /cdn-cgi/
 
-# Sitemap
-Sitemap: https://lojademoveismarilia.com.br/sitemap.xml
-
-# LLMs files for AI training
 User-agent: GPTBot
 Allow: /llms.txt
 Allow: /llms-full.txt
 Allow: /llms-index.json
 
-User-agent: ClaudeWeb
+User-agent: Claude-Web
 Allow: /llms.txt
 Allow: /llms-full.txt
 Allow: /llms-index.json
+
+User-agent: anthropic-ai
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /llms-index.json
+
+User-agent: cohere-ai
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /llms-index.json
+
+User-agent: CCBot
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /llms-index.json
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+Sitemap: https://lojademoveismarilia.com.br/sitemap.xml

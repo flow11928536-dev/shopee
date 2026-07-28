@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Product } from "@/types";
+import { formatBRL } from "@/data/products";
 
 interface ProductCardProps {
   product: Product;
@@ -20,10 +21,17 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
     platform,
     affiliateLink,
     marca,
+    price,
+    originalPrice,
   } = product;
 
   const productUrl = `/confirmar-estoque/${slug}`;
   const ariaLabel = `Ver oferta de ${name}${platform ? ` na ${platform}` : ""}`;
+
+  // ✅ CALCULA PARCELAS COM JUROS (~9,2%)
+  const maxParcelas = 12;
+  const taxaJuros = 1.092;
+  const valorParcela = (price * taxaJuros) / maxParcelas;
 
   return (
     <article
@@ -88,7 +96,31 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
           </Link>
         </h3>
 
-        {/* ✅ Avaliação acessível – corrigida com role="img" */}
+        {/* ✅ PREÇO PARCELADO EM DESTAQUE (GRANDE) + PREÇO À VISTA PEQUENO */}
+        <div className="mt-2">
+          {/* Preço parcelado - GRANDE em destaque */}
+          {price > 0 && (
+            <div className="flex items-baseline gap-1">
+              <span className="text-sm font-medium text-stone-500">{maxParcelas}x</span>
+              <span className="text-2xl font-bold text-emerald-600">
+                {formatBRL(valorParcela)}
+              </span>
+            </div>
+          )}
+
+          {/* Preço à vista - PEQUENO (referência) */}
+          <div className="mt-0.5 flex flex-wrap items-center gap-2 text-xs text-stone-400">
+            <span>à vista {formatBRL(price)}</span>
+            {originalPrice > 0 && (
+              <span className="line-through">{formatBRL(originalPrice)}</span>
+            )}
+            {discount > 0 && (
+              <span className="text-red-500 font-medium">-{discount}%</span>
+            )}
+          </div>
+        </div>
+
+        {/* Avaliação */}
         <div
           className="mt-2 flex items-center gap-1 text-sm"
           role="img"

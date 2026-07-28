@@ -102,59 +102,5 @@
     "suggestion": "Criar guia sobre 'Vantagens e desvantagens do linho em móveis' ou 'linho vs outros materiais: comparação completa'",
     "estimatedEffort": "médio",
     "priority": "média"
-  },
-  {
-    "type": "benefit-gap",
-    "benefit": "montagem fácil",
-    "gap": "Benefício 'montagem fácil' não abordado em guias",
-    "impact": "baixo",
-    "suggestion": "Criar conteúdo focado em móveis com 'montagem fácil' como diferencial competitivo",
-    "estimatedEffort": "baixo",
-    "priority": "baixo"
-  },
-  {
-    "type": "benefit-gap",
-    "benefit": "sem ferramentas",
-    "gap": "Benefício 'sem ferramentas' não abordado em guias",
-    "impact": "baixo",
-    "suggestion": "Criar conteúdo focado em móveis com 'sem ferramentas' como diferencial competitivo",
-    "estimatedEffort": "baixo",
-    "priority": "baixo"
-  },
-  {
-    "type": "benefit-gap",
-    "benefit": "dobrável",
-    "gap": "Benefício 'dobrável' não abordado em guias",
-    "impact": "baixo",
-    "suggestion": "Criar conteúdo focado em móveis com 'dobrável' como diferencial competitivo",
-    "estimatedEffort": "baixo",
-    "priority": "baixo"
-  },
-  {
-    "type": "benefit-gap",
-    "benefit": "reversível",
-    "gap": "Benefício 'reversível' não abordado em guias",
-    "impact": "baixo",
-    "suggestion": "Criar conteúdo focado em móveis com 'reversível' como diferencial competitivo",
-    "estimatedEffort": "baixo",
-    "priority": "baixo"
-  },
-  {
-    "type": "benefit-gap",
-    "benefit": "com iluminação LED",
-    "gap": "Benefício 'com iluminação LED' não abordado em guias",
-    "impact": "baixo",
-    "suggestion": "Criar conteúdo focado em móveis com 'com iluminação LED' como diferencial competitivo",
-    "estimatedEffort": "baixo",
-    "priority": "baixo"
-  },
-  {
-    "type": "benefit-gap",
-    "benefit": "com tomadas USB",
-    "gap": "Benefício 'com tomadas USB' não abordado em guias",
-    "impact": "baixo",
-    "suggestion": "Criar conteúdo focado em móveis com 'com tomadas USB' como diferencial competitivo",
-    "estimatedEffort": "baixo",
-    "priority": "baixo"
   }
 ]

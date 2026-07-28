@@ -28,7 +28,7 @@ const slides: Slide[] = [
   },
   {
     image:
-      "/banners/oferta-imperdivel-moveis-baratos.webp",
+      "/banners/dia-dos-pais-madeira-madeira.avif",
       imageMobile: "/banners/banner-mobile-loja-de-moveis-02.avif",
     alt: "Salas que impressionam, preços que cabem",
     title: "Salas que impressionam, preços que cabem",
@@ -56,7 +56,7 @@ const slides: Slide[] = [
       imageMobile: "/banners/banner-mobile-loja-de-moveis-05.avif",
     alt: "Sua área externa muito mais bonita",
     title: "Sua área externa muito mais bonita",
-    href: "/categoria/area-externa",
+    href: "/moveis-para-estudantes",
   },
 ];
 
@@ -85,8 +85,16 @@ export default function HeroSlider() {
     setCurrent(index);
   }, []);
 
-  const handleMouseEnter = useCallback(() => setIsPaused(true), []);
-  const handleMouseLeave = useCallback(() => setIsPaused(false), []);
+  // Só pausa em hover de MOUSE de verdade. Em telas de toque, o navegador simula
+  // um "mouseenter" ao tocar mas nunca dispara o "mouseleave" correspondente —
+  // isso travava isPaused em true pra sempre e o carrossel parava de trocar
+  // sozinho depois do primeiro toque. Checando pointerType evitamos isso.
+  const handlePointerEnter = useCallback((e: { pointerType: string }) => {
+    if (e.pointerType === "mouse") setIsPaused(true);
+  }, []);
+  const handlePointerLeave = useCallback((e: { pointerType: string }) => {
+    if (e.pointerType === "mouse") setIsPaused(false);
+  }, []);
 
   useEffect(() => {
     if (isPaused) {
@@ -104,8 +112,8 @@ export default function HeroSlider() {
   return (
     <section
       className="relative overflow-hidden bg-stone-950 w-full min-h-[220px] sm:min-h-[260px] md:aspect-[1920/415] md:min-h-0 md:max-h-[340px]"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
+      onPointerEnter={handlePointerEnter}
+      onPointerLeave={handlePointerLeave}
       aria-roledescription="Carrossel de destaques"
       aria-label="Destaques da loja"
     >
