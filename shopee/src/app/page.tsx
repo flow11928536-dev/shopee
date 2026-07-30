@@ -38,7 +38,7 @@ const heroBanner =
    ============================================================ */
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  title: "Móveis Marília SP | Loja Premium com Frete Grátis",
+  title: "Loja de Móveis Marília SP | Loja Premium com Frete Grátis",
   description:
     "Loja de móveis em Marília SP com frete grátis. Sofás, cozinhas planejadas, guarda-roupas e home office. Curadoria premium com até 50% OFF. Compre online!",
   keywords: [
@@ -65,18 +65,18 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Móveis Marília SP | Loja Premium com Frete Grátis em Marília",
+    title: "Loja de Móveis Marília SP | Loja Premium com Frete Grátis em Marília",
     description:
       "Loja de móveis em Marília SP com frete grátis. Sofás, cozinhas planejadas e home office com curadoria premium e até 50% OFF.",
     url: SITE.url,
-    siteName: "Móveis Marília",
+    siteName: "Loja de Móveis Marília",
     images: [
       {
         url: heroBanner,
         secureUrl: heroBanner,
         width: 1600,
         height: 900,
-        alt: "Móveis Marília - Loja premium em Marília SP com frete grátis",
+        alt: "Loja de Móveis Marília - Loja premium em Marília SP com frete grátis",
         type: "image/jpeg",
       },
     ],
@@ -85,7 +85,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Móveis Marília SP | Loja Premium com Frete Grátis",
+    title: "Loja de Móveis Marília SP | Loja Premium com Frete Grátis",
     description: "Sofás, cozinhas planejadas, guarda-roupas e home office em Marília SP. Frete grátis e até 50% OFF.",
     images: [heroBanner],
   },
@@ -109,7 +109,7 @@ const storeSchema = {
   "@context": "https://schema.org",
   "@type": "FurnitureStore",
   "@id": `${SITE.url}/#store`,
-  name: "Móveis Marília",
+  name: "Loja de Móveis Marília",
   url: SITE.url,
   description: "Loja de móveis premium em Marília SP com frete grátis. Sofás, cozinhas planejadas, guarda-roupas e home office.",
   logo: {
@@ -159,7 +159,7 @@ const breadcrumbSchema = {
     {
       "@type": "ListItem",
       position: 2,
-      name: "Móveis Marília SP",
+      name: "Loja de Móveis Marília SP",
       item: `${SITE.url}/loja-de-moveis-marilia`,
     },
   ],
@@ -174,12 +174,12 @@ const faqSchema = {
       name: "Qual loja de móveis em Marília SP tem frete grátis?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A Móveis Marília oferece frete grátis para toda a região de Marília SP em compras acima de R$ 500,00.",
+        text: "A Loja de Móveis Marília oferece frete grátis para toda a região de Marília SP em compras acima de R$ 500,00.",
       },
     },
     {
       "@type": "Question",
-      name: "Quais tipos de móveis a Móveis Marília vende?",
+      name: "Quais tipos de móveis a Loja de Móveis Marília vende?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Vendemos sofás, cozinhas planejadas, guarda-roupas, móveis para home office, móveis para bebê, estudantes e muito mais.",
@@ -187,7 +187,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "A Móveis Marília entrega em toda a região de Marília?",
+      name: "A Loja de Móveis Marília entrega em toda a região de Marília?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Sim, entregamos em Marília e região. Consulte nossas condições de frete para outras cidades de São Paulo.",
@@ -208,7 +208,7 @@ const faqSchema = {
 const productSchema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  name: "Produtos em Destaque - Móveis Marília",
+  name: "Produtos em Destaque - Loja de Móveis Marília",
   description: "Seleção de móveis premium com frete grátis em Marília SP",
   numberOfItems: 24,
   url: SITE.url,
@@ -243,7 +243,7 @@ export default function HomePage() {
 
       {/* Título Oculto Importante para Rankeamento Google (SEO H1) */}
       <h1 className="sr-only">
-        Móveis Marília - Loja de Móveis em Marília SP | Design, Curadoria e Frete Grátis
+        Loja de Móveis Marília - Loja de Móveis em Marília SP | Design, Curadoria e Frete Grátis
       </h1>
 
       {/* ============================================================
@@ -254,7 +254,6 @@ export default function HomePage() {
         style={{ fontFamily: FONT_MONO, backgroundColor: "rgba(30, 27, 24, 0.95)" }}
       >
         <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-[#C5A880]" />
-        Marília · SP — Curadoria arquitetônica com frete grátis local
         <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-[#C5A880]" />
       </div>
 
@@ -428,7 +427,7 @@ export default function HomePage() {
                     Equipe sua cozinha com <span className="italic font-normal text-[#C5A880]">tecnologia</span>
                   </h2>
                   <p className="mt-4 text-sm leading-relaxed text-neutral-400 sm:text-base">
-                    Geladeiras, fornos e cooktops selecionados por especialistas em arquitetura de interiores. Integração perfeita com nossos módulos sob medida.
+                    Geladeiras, fornos e cooktops selecionados por um montador de móveis profissionalcom 23 anos de experiência. Integração perfeita com nossos módulos sob medida.
                   </p>
                 </div>
                 <div className="mt-8 flex flex-wrap gap-4">

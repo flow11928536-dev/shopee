@@ -64,8 +64,8 @@ export default function Header() {
         <Link
           href="/"
           className="flex shrink-0 items-center gap-2.5 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-900 focus-visible:ring-offset-2"
-          aria-label="Móveis Marília — Ir para a página inicial"
-          title="Móveis Marília"
+          aria-label="Loja de Móveis Marília — Ir para a página inicial"
+          title="Loja de Móveis Marília"
         >
           <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-stone-900 text-white">
             <svg
@@ -86,7 +86,7 @@ export default function Header() {
 
           <span className="flex flex-col leading-none">
             <span className="text-base font-bold tracking-tight text-stone-900">
-              Móveis Marília
+              Loja de Móveis Marília
             </span>
             <span className="text-[10px] font-medium uppercase tracking-widest text-stone-400">
               Curadoria · Marília SP

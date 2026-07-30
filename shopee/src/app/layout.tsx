@@ -32,8 +32,8 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "Móveis Marília SP | Loja Premium com Frete Grátis",
-    template: "%s | Móveis Marília SP",
+    default: "Loja de Móveis Marília SP | Loja Premium com Frete Grátis",
+    template: "%s | Loja de Móveis Marília SP",
   },
   description:
     "Loja de móveis em Marília SP com frete grátis. Sofás, cozinhas planejadas, guarda-roupas e home office. Curadoria premium com até 50% OFF. Compre online!",
@@ -49,10 +49,10 @@ export const metadata: Metadata = {
   manifest: "/manifest.json",
   openGraph: {
     type: "website",
-    siteName: "Móveis Marília",
+    siteName: "Loja de Móveis Marília",
     locale: "pt_BR",
     url: SITE.url,
-    title: "Móveis Marília | #1 em Curadoria Premium em Marília SP",
+    title: "Loja de Móveis Marília | #1 em Curadoria Premium em Marília SP",
     description: "Frete Grátis em Marília SP + Ofertas Exclusivas + Guias de Design. Sofás, Cozinhas, Guarda-roupas e Home Office com até 50% OFF.",
     images: [
       {
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
         secureUrl: `${SITE.url}/og-hero-2026.jpg`,
         width: 1200,
         height: 630,
-        alt: "Móveis Marília - Loja Premium em Marília SP",
+        alt: "Loja de Móveis Marília - Loja Premium em Marília SP",
         type: "image/jpeg",
       },
     ],
@@ -95,7 +95,7 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": `${SITE.url}/#organization`,
-  name: "Móveis Marília",
+  name: "Loja de Móveis Marília",
   url: SITE.url,
   logo: {
     "@type": "ImageObject",
@@ -135,7 +135,7 @@ const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "@id": `${SITE.url}/#website`,
-  name: "Móveis Marília",
+  name: "Loja de Móveis Marília",
   url: SITE.url,
   description: "Loja de móveis premium em Marília SP. Frete grátis, curadoria exclusiva e guias de design.",
   inLanguage: "pt-BR",
@@ -215,7 +215,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="flex items-center gap-3">
             <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-amber-500 to-orange-600">
               <svg className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 012 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
               </svg>
             </div>
             <div>
