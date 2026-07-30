@@ -51,7 +51,6 @@ export const GUIDE_CLUSTERS: { cluster: number; titulo: string; slugs: string[] 
     cluster: 2,
     titulo: "Dúvidas e Dicas ",
     slugs: [
-      "moveis-shopee-sao-bons",
       "por-que-moveis-estalam",
       "como-envelopar-moveis",
       "mdf-vs-mdp-diferenca",
@@ -2601,7 +2600,7 @@ const SEEDS: Record<string, GuideSeed> = {
     keyword: "móveis shopee são bons",
     h1: "Móveis da Shopee são Bons? Guia Completo para Comprar com Segurança",
     intro: "A Shopee se consolidou como uma das principais plataformas de e-commerce no Brasil, oferecendo móveis com preços até 50% mais baratos que lojas físicas. Mas será que móveis da Shopee são realmente bons? A resposta é: depende. Neste guia, você vai descobrir como separar ofertas legítimas de produtos problemáticos e fazer compras inteligentes.",
-    heroImage: "/imagens/guias/moveis-shopee-sao-bons.webp",
+    heroImage: "/banners/moveis-shopee-sao-bons.webp",
     heroAlt: "Pessoa comprando móveis online pelo celular na plataforma Shopee, com caixas de móveis ao fundo",
     cross: CROSS_SELL["sala"],
     ctaSlug: "guarda-roupa-casal-classic-6-portas-6-gavetas-100-mdf",
