@@ -142,7 +142,15 @@ const storeSchema = {
     bestRating: "5",
     worstRating: "1",
   },
-  openingHours: ["Mo-Fr 08:00-18:00", "Sa 08:00-13:00"],
+  "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+],
+
   paymentAccepted: ["Cartão de Crédito", "Boleto", "Pix", "Transferência"],
 };
 
