@@ -479,7 +479,7 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 126,
     discount: 20,
-    price: 1229.00,
+    price: 1066.67,
     originalPrice: 1474.00,
     badge: "Mais Vendido",
     platform: "Mercado Livre",

@@ -106,22 +106,22 @@ const organizationSchema = {
   description: "Loja de móveis premium em Marília SP com frete grátis. Especialistas em móveis planejados, sofás, cozinhas e home office.",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Avenida das Palmeiras, 1000",
+    streetAddress: "Av. das Esmeraldas, Próximo ao nº 2700 - Jardim Tangará",
     addressLocality: "Marília",
     addressRegion: "SP",
-    postalCode: "17500-000",
+    postalCode: "17516-000",
     addressCountry: "BR",
   },
   contactPoint: {
     "@type": "ContactPoint",
-    telephone: "+55-14-99999-9999",
+    telephone: "(14) 99603-3296",
     contactType: "sales",
     availableLanguage: ["Portuguese"],
   },
   sameAs: [
-    "https://www.instagram.com/moveismarilia",
-    "https://www.facebook.com/moveismarilia",
-    "https://www.youtube.com/moveismarilia",
+    "https://www.instagram.com/lojademoveismarilia/",
+    "https://www.facebook.com/lojademoveismarilia",
+    "https://www.youtube.com/@lojademoveismarilia",
   ],
   foundingDate: "2015",
   numberOfEmployees: {
