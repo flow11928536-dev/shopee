@@ -381,38 +381,54 @@ export default function HomePage() {
           </section>
 
           {/* ============================================================
-               SEÇÃO 02: GRID DE PRODUTOS PRINCIPAIS
+               SEÇÃO 02: GRIDS POR CATEGORIA (organizados, cada um com rótulo)
                ============================================================ */}
-          <section className="relative">
-            <div className="mb-8 flex flex-col justify-between border-b border-neutral-200 pb-4 sm:flex-row sm:items-end">
-              <div>
-                <span
-                  className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#C5A880]"
-                  style={{ fontFamily: FONT_MONO }}
-                >
-                  Curadoria Exclusiva
-                </span>
-                <h2
-                  className="mt-1 text-2xl font-light tracking-tight text-[#1E1B18] sm:text-4xl"
-                  style={{ fontFamily: FONT_DISPLAY }}
-                >
-                  Destaques da <span className="italic">Semana</span>
-                </h2>
-              </div>
-              <p className="mt-2 text-xs text-neutral-400 sm:mt-0">
-                Atualizado hoje com as melhores negociações direto dos polos moveleiros.
-              </p>
-            </div>
+          <section className="space-y-16" aria-label="Produtos por categoria">
+            <ProductGrid
+              kicker="Curadoria Exclusiva"
+              title="Guarda-Roupas"
+              subtitle="Modelos de casal, solteiro e infantil para todo tipo de quarto"
+              category="guarda-roupas"
+              limit={15}
+              priorityFirst
+              gridClassName="grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+            />
 
-            {/* Grid Otimizado para UX & Conversão */}
-            <div className="group/grid">
-              <ProductGrid
-                category={["cozinhas", "guarda-roupas", "sofas", "paineis", "quartos"]}
-                limit={24}
-                priorityFirst
-                gridClassName="grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
-              />
-            </div>
+            <ProductGrid
+              kicker="Curadoria Exclusiva"
+              title="Cozinhas"
+              subtitle="Armários, balcões e conjuntos completos para sua cozinha"
+              category="cozinhas"
+              limit={10}
+              gridClassName="grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+            />
+
+            <ProductGrid
+              kicker="Curadoria Exclusiva"
+              title="Quartos"
+              subtitle="Quartos completos, infantis e de bebê"
+              category="quartos"
+              limit={10}
+              gridClassName="grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+            />
+
+            <ProductGrid
+              kicker="Curadoria Exclusiva"
+              title="Painéis e Racks"
+              subtitle="Painéis para TV com LED, racks e estantes para sala"
+              category="paineis"
+              limit={10}
+              gridClassName="grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+            />
+
+            <ProductGrid
+              kicker="Curadoria Exclusiva"
+              title="Sofás"
+              subtitle="Sofás de canto, modulados e retos para todos os espaços"
+              category="sofas"
+              limit={15}
+              gridClassName="grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+            />
           </section>
 
           {/* ============================================================

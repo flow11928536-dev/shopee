@@ -1,13 +1,23 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import type { Product } from "@/types";
 import SmartImage from "@/components/SmartImage";
 import StarRating from "@/components/StarRating";
 import Faq from "@/components/Faq";
+import ProductDescription from "@/components/ProductDescription";
 
-const REDIRECT_SECONDS = 3;
+// Paleta consistente com o resto do site (evita depender de fontes externas)
+const FONT_DISPLAY =
+  "Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif";
+const FONT_MONO =
+  "'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace";
+const INK = "#221D17";
+const BRASS = "#9C7A3C";
+const SAGE = "#4B5D4C";
+const ROSE = "#A85C6B";
+const SURFACE = "#F5F2EA";
+const BORDER = "#DCD3BE";
 
 interface Props {
   product: Product;
@@ -25,7 +35,6 @@ function generateProductAnalysis(product: Product): {
   let recommendation = "";
   const tips = [];
 
-  // Prós baseados nos dados do produto
   if (product.discount > 0) {
     pros.push(`Desconto de ${product.discount}% em relação ao preço original`);
   }
@@ -42,7 +51,6 @@ function generateProductAnalysis(product: Product): {
     pros.push(`Material resistente e durável (${product.descricao.match(/\b(MDF|MDP)\b/i)?.[0] || "MDF/MDP"})`);
   }
 
-  // Contras (genéricos mas baseados em características comuns)
   if (product.discount < 10) {
     cons.push("Desconto pequeno em relação ao preço original");
   }
@@ -53,7 +61,6 @@ function generateProductAnalysis(product: Product): {
     cons.push("Preço elevado, vale comparar com outras opções similares");
   }
 
-  // Recomendação
   if (product.rating >= 4.5 && product.discount > 20) {
     recommendation = `Este ${product.name} é uma excelente escolha para quem busca qualidade e bom preço. Com ${product.discount}% de desconto e avaliação ${product.rating.toFixed(1)}, é uma das melhores opções da categoria.`;
   } else if (product.rating >= 4.0) {
@@ -62,7 +69,6 @@ function generateProductAnalysis(product: Product): {
     recommendation = `O ${product.name} tem avaliação média. Recomendamos comparar com outros modelos antes de decidir.`;
   }
 
-  // Dicas
   if (product.category === "guarda-roupas") {
     tips.push("Meça o espaço disponível antes de comprar (altura, largura e profundidade)");
     tips.push("Verifique se o guarda-roupa tem portas de correr ou de abrir, conforme sua preferência");
@@ -89,7 +95,6 @@ function generateProductAnalysis(product: Product): {
   return { pros, cons, recommendation, tips };
 }
 
-// FAQ específica do produto
 function generateProductFaq(product: Product): { question: string; answer: string }[] {
   const faq = [
     {
@@ -106,7 +111,6 @@ function generateProductFaq(product: Product): { question: string; answer: strin
     },
   ];
 
-  // FAQ específica por categoria
   if (product.category === "guarda-roupas") {
     faq.push({
       question: `O guarda-roupa ${product.name} tem espelho?`,
@@ -140,159 +144,210 @@ function generateProductFaq(product: Product): { question: string; answer: strin
 }
 
 export default function ConfirmStockClient({ product }: Props) {
-  const [count, setCount] = useState(REDIRECT_SECONDS);
-  const [showRedirect, setShowRedirect] = useState(false);
   const { pros, cons, recommendation, tips } = generateProductAnalysis(product);
   const faqItems = generateProductFaq(product);
 
-  useEffect(() => {
-    // Inicia a contagem regressiva após 1 segundo para dar tempo de ler o conteúdo
-    const startTimer = setTimeout(() => {
-      setShowRedirect(true);
-      const t = setInterval(() => {
-        setCount((c) => {
-          if (c <= 1) {
-            clearInterval(t);
-            // Redireciona após a contagem
-            setTimeout(() => {
-              window.open(product.affiliateLink, "_blank", "noopener,noreferrer");
-            }, 100);
-            return 0;
-          }
-          return c - 1;
-        });
-      }, 1000);
-      return () => clearInterval(t);
-    }, 1500);
-
-    return () => clearTimeout(startTimer);
-  }, [product.affiliateLink]);
-
-  const handleRedirectNow = () => {
-    window.open(product.affiliateLink, "_blank", "noopener,noreferrer");
-  };
-
   return (
-    <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6 sm:py-14">
-      {/* Conteúdo principal do produto */}
-      <div className="overflow-hidden rounded-3xl border border-stone-200 bg-white shadow-xl">
+    <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-14" style={{ backgroundColor: "#EEEAE2" }}>
+      <div
+        className="mb-4 flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] sm:mb-6 sm:text-xs"
+        style={{ fontFamily: FONT_MONO, color: BRASS }}
+      >
+        <span className="h-1.5 w-1.5 rounded-full" style={{ backgroundColor: BRASS }} />
+        Detalhes do produto
+      </div>
+
+      <div className="overflow-hidden rounded-3xl bg-white shadow-sm" style={{ border: `1px solid ${BORDER}` }}>
+        {/* Imagem + info principal */}
         <div className="grid md:grid-cols-2">
-          {/* Imagem */}
           <div className="relative">
             <SmartImage src={product.displayImage} alt={product.alt} priority aspect="1 / 1" />
             {product.discount > 0 && (
-              <span className="absolute left-4 top-4 rounded-full bg-rose-600 px-3 py-1 text-sm font-bold text-white shadow">
+              <span
+                className="absolute left-4 top-4 rounded-full px-3 py-1 text-xs font-bold text-white shadow"
+                style={{ backgroundColor: ROSE, fontFamily: FONT_MONO }}
+              >
                 -{product.discount}%
               </span>
             )}
           </div>
 
-          {/* Info */}
-          <div className="flex flex-col p-6 sm:p-8">
-            <p className="text-xs font-semibold uppercase tracking-widest text-stone-400">
+          <div className="flex flex-col justify-center p-6 sm:p-8">
+            <p
+              className="text-[10px] font-semibold uppercase tracking-[0.2em] sm:text-xs"
+              style={{ fontFamily: FONT_MONO, color: "#918466" }}
+            >
               {product.marca}
             </p>
-            <h1 className="mt-1.5 text-xl font-bold leading-snug text-stone-900 sm:text-2xl">
+            <h1
+              className="mt-2 text-xl italic leading-snug sm:text-2xl"
+              style={{ fontFamily: FONT_DISPLAY, color: INK }}
+            >
               {product.name}
             </h1>
             <div className="mt-3">
               <StarRating rating={product.rating} reviews={product.reviews} size="md" />
             </div>
-            <p className="mt-4 text-sm leading-relaxed text-stone-600">{product.descricao}</p>
+
+            {/* Botão de oferta — ação principal, clique real do usuário */}
+            <a
+              href={product.affiliateLink}
+              target="_blank"
+              rel="noopener"
+              className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-full px-6 py-3.5 text-sm font-bold text-white shadow-md transition-all hover:-translate-y-0.5 sm:w-auto sm:px-8"
+              style={{ backgroundColor: INK }}
+              aria-label={`Ver melhor oferta no ${product.platform}`}
+            >
+              Ver melhor oferta no {product.platform}
+              <svg className="h-4 w-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={2}>
+                <path d="M4 10h12M11 5l5 5-5 5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </a>
+            <p className="mt-2 text-[11px] text-stone-500">
+              Link de afiliado — o site pode receber uma pequena comissão, sem custo adicional para você.
+            </p>
+          </div>
+        </div>
+
+        {/* Descrição completa (Markdown renderizado) */}
+        <div className="p-6 sm:p-8" style={{ borderTop: `1px solid ${BORDER}` }}>
+          <span
+            className="text-[10px] uppercase tracking-[0.2em] sm:text-xs"
+            style={{ fontFamily: FONT_MONO, color: BRASS }}
+          >
+            Sobre este produto
+          </span>
+          <div className="mt-2">
+            <ProductDescription content={product.descricao} />
           </div>
         </div>
 
         {/* Análise do produto */}
-        <div className="border-t border-stone-200 p-6 sm:p-8 space-y-6">
-          <h2 className="text-2xl font-semibold text-stone-900">Análise do Produto</h2>
+        <div className="p-6 sm:p-8" style={{ borderTop: `1px solid ${BORDER}` }}>
+          <span
+            className="text-[10px] uppercase tracking-[0.2em] sm:text-xs"
+            style={{ fontFamily: FONT_MONO, color: BRASS }}
+          >
+            Análise
+          </span>
+          <h2 className="mt-1 text-lg italic sm:text-2xl" style={{ fontFamily: FONT_DISPLAY, color: INK }}>
+            O que vale saber antes de comprar
+          </h2>
 
-          <div className="grid gap-4 sm:grid-cols-2">
-            <div className="rounded-2xl bg-emerald-50 p-4">
-              <h3 className="font-semibold text-emerald-800">✅ Pontos positivos</h3>
-              <ul className="mt-2 list-disc pl-5 text-sm text-emerald-700">
-                {pros.length > 0 ? (
-                  pros.map((p, i) => <li key={i}>{p}</li>)
-                ) : (
-                  <li>Produto bem avaliado pelos consumidores</li>
-                )}
+          <div className="mt-5 grid gap-3 sm:grid-cols-2 sm:gap-4">
+            <div className="rounded-2xl p-4" style={{ backgroundColor: SURFACE, borderLeft: `3px solid ${SAGE}` }}>
+              <h3 className="text-sm font-semibold" style={{ color: INK }}>
+                Pontos positivos
+              </h3>
+              <ul className="mt-2 space-y-1.5 text-sm text-stone-600">
+                {(pros.length > 0 ? pros : ["Produto bem avaliado pelos consumidores"]).map((p, i) => (
+                  <li key={i} className="flex gap-2">
+                    <span className="mt-0.5 shrink-0" style={{ color: SAGE }}>
+                      ✓
+                    </span>
+                    {p}
+                  </li>
+                ))}
               </ul>
             </div>
-            <div className="rounded-2xl bg-amber-50 p-4">
-              <h3 className="font-semibold text-amber-800">⚠️ Pontos de atenção</h3>
-              <ul className="mt-2 list-disc pl-5 text-sm text-amber-700">
-                {cons.length > 0 ? (
-                  cons.map((c, i) => <li key={i}>{c}</li>)
-                ) : (
-                  <li>Verifique as especificações para garantir que atende às suas necessidades</li>
-                )}
+            <div className="rounded-2xl p-4" style={{ backgroundColor: SURFACE, borderLeft: `3px solid ${ROSE}` }}>
+              <h3 className="text-sm font-semibold" style={{ color: INK }}>
+                Pontos de atenção
+              </h3>
+              <ul className="mt-2 space-y-1.5 text-sm text-stone-600">
+                {(cons.length > 0
+                  ? cons
+                  : ["Verifique as especificações para garantir que atende às suas necessidades"]
+                ).map((c, i) => (
+                  <li key={i} className="flex gap-2">
+                    <span className="mt-0.5 shrink-0" style={{ color: ROSE }}>
+                      !
+                    </span>
+                    {c}
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
 
-          <div>
-            <h3 className="font-semibold text-stone-900">💡 Recomendação</h3>
-            <p className="mt-1 text-sm text-stone-700">{recommendation}</p>
+          <div
+            className="mt-4 rounded-xl p-4 sm:mt-5 sm:p-5"
+            style={{ backgroundColor: "#EFE6D3", borderLeft: `4px solid ${BRASS}` }}
+          >
+            <p className="text-xs font-semibold uppercase tracking-wide" style={{ fontFamily: FONT_MONO, color: "#7A5E2E" }}>
+              Recomendação
+            </p>
+            <p className="mt-1.5 text-sm leading-relaxed text-stone-700">{recommendation}</p>
           </div>
 
-          <div>
-            <h3 className="font-semibold text-stone-900">📌 Dicas antes de comprar</h3>
-            <ul className="mt-1 list-disc pl-5 text-sm text-stone-700">
-              {tips.map((tip, i) => (
-                <li key={i}>{tip}</li>
-              ))}
-            </ul>
-          </div>
+          {tips.length > 0 && (
+            <div className="mt-5">
+              <h3 className="text-sm font-semibold" style={{ color: INK }}>
+                Dicas antes de comprar
+              </h3>
+              <ul className="mt-2 grid gap-2 sm:grid-cols-2">
+                {tips.map((tip, i) => (
+                  <li
+                    key={i}
+                    className="flex gap-2 rounded-xl p-3 text-xs leading-relaxed text-stone-600"
+                    style={{ backgroundColor: SURFACE }}
+                  >
+                    <span
+                      className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[10px] font-medium text-white"
+                      style={{ backgroundColor: INK, fontFamily: FONT_MONO }}
+                    >
+                      {i + 1}
+                    </span>
+                    {tip}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
 
         {/* FAQ */}
-        <div className="border-t border-stone-200 p-6 sm:p-8">
-          <h2 className="text-2xl font-semibold text-stone-900">Perguntas Frequentes</h2>
+        <div className="p-6 sm:p-8" style={{ borderTop: `1px solid ${BORDER}` }}>
+          <span
+            className="text-[10px] uppercase tracking-[0.2em] sm:text-xs"
+            style={{ fontFamily: FONT_MONO, color: BRASS }}
+          >
+            Dúvidas
+          </span>
+          <h2 className="mt-1 text-lg italic sm:text-2xl" style={{ fontFamily: FONT_DISPLAY, color: INK }}>
+            Perguntas frequentes
+          </h2>
           <div className="mt-4">
             <Faq items={faqItems} />
           </div>
         </div>
 
         {/* CTA de redirecionamento */}
-        <div className="border-t border-stone-200 bg-stone-50 p-6 sm:p-8">
+        <div className="p-6 sm:p-8" style={{ borderTop: `1px solid ${BORDER}`, backgroundColor: SURFACE }}>
           <div className="text-center">
-            <p className="text-sm font-semibold text-stone-800">
-              🔗 Você será redirecionado para o {product.platform} para verificar a oferta
+            <p className="text-sm font-medium" style={{ color: INK }}>
+              Gostou? Confira a oferta completa no {product.platform}
             </p>
-            {showRedirect && (
-              <>
-                <p className="mt-1 text-sm text-stone-600">
-                  Redirecionando em <span className="font-bold text-stone-900">{count}s</span>...
-                </p>
-                <div className="mx-auto mt-4 h-2 max-w-xs overflow-hidden rounded-full bg-stone-200">
-                  <div
-                    className="h-full rounded-full bg-amber-600 transition-all duration-1000 ease-linear"
-                    style={{ width: `${((REDIRECT_SECONDS - count) / REDIRECT_SECONDS) * 100}%` }}
-                  />
-                </div>
-              </>
-            )}
-            <div className="mt-4 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+
+            <div className="mt-5 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
               <a
                 href={product.affiliateLink}
                 target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-amber-600 px-8 py-4 text-base font-bold text-white shadow-lg transition-all hover:-translate-y-0.5 hover:bg-amber-700"
+                rel="noopener"
+                className="inline-flex items-center gap-2 rounded-full px-8 py-3.5 text-sm font-bold text-white shadow-md transition-all hover:-translate-y-0.5"
+                style={{ backgroundColor: INK }}
                 aria-label={`Ver oferta no ${product.platform}`}
               >
-                🔥 Ver oferta no {product.platform}
-                <svg className="h-5 w-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={2}>
+                Ver oferta no {product.platform}
+                <svg className="h-4 w-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={2}>
                   <path d="M4 10h12M11 5l5 5-5 5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </a>
-              <button
-                onClick={handleRedirectNow}
-                className="inline-flex items-center gap-2 rounded-xl bg-stone-900 px-6 py-3 text-sm font-bold text-white shadow-lg transition-all hover:-translate-y-0.5 hover:bg-stone-800"
-              >
-                Ir agora ↗
-              </button>
             </div>
-            <p className="mt-4 text-xs text-stone-500">
-              Este é um link de afiliado. Ao comprar através dele, o site pode receber uma pequena comissão, sem custo adicional para você.
+
+            <p className="mt-4 text-[11px] text-stone-500">
+              Este é um link de afiliado. Ao comprar através dele, o site pode receber uma pequena comissão, sem
+              custo adicional para você.
             </p>
           </div>
         </div>

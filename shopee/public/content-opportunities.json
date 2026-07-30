@@ -1,6 +1,16 @@
 [
   {
     "type": "thin-content",
+    "category": "guarda-roupas",
+    "label": "Guarda-Roupas",
+    "gap": "Poucos guias (apenas 1)",
+    "impact": "médio",
+    "suggestion": "Expandir conteúdo com guias específicos como 'Guarda-Roupas para ambientes pequenos' ou 'Guia de manutenção de Guarda-Roupas'",
+    "estimatedEffort": "baixo",
+    "priority": "média"
+  },
+  {
+    "type": "thin-content",
     "category": "cozinhas",
     "label": "Cozinhas",
     "gap": "Poucos guias (apenas 2)",
@@ -36,6 +46,16 @@
     "gap": "Poucos guias (apenas 1)",
     "impact": "médio",
     "suggestion": "Expandir conteúdo com guias específicos como 'Home Office para ambientes pequenos' ou 'Guia de manutenção de Home Office'",
+    "estimatedEffort": "baixo",
+    "priority": "média"
+  },
+  {
+    "type": "thin-content",
+    "category": "sofas",
+    "label": "Sofás",
+    "gap": "Poucos guias (apenas 2)",
+    "impact": "médio",
+    "suggestion": "Expandir conteúdo com guias específicos como 'Sofás para ambientes pequenos' ou 'Guia de manutenção de Sofás'",
     "estimatedEffort": "baixo",
     "priority": "média"
   },

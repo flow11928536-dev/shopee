@@ -3,7 +3,7 @@
     "name": "Loja de Móveis Marília",
     "url": "https://lojademoveismarilia.com.br",
     "description": "Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.",
-    "lastUpdated": "2026-07-30T11:51:12.209Z"
+    "lastUpdated": "2026-07-30T22:53:29.542Z"
   },
   "categories": [
     {
@@ -14,7 +14,7 @@
       "relatedGuides": [
         "melhores-guarda-roupas-casal-baratos"
       ],
-      "productCount": 5
+      "productCount": 32
     },
     {
       "slug": "cozinhas",
@@ -45,7 +45,7 @@
       "relatedGuides": [
         "quartos"
       ],
-      "productCount": 11
+      "productCount": 12
     },
     {
       "slug": "eletrodomesticos",
@@ -74,7 +74,7 @@
         "melhores-sofas-retrateis-2026",
         "sofas"
       ],
-      "productCount": 4
+      "productCount": 15
     }
   ],
   "guides": [
@@ -285,16 +285,6 @@
       "description": "",
       "keywords": [
         "guarda roupas"
-      ],
-      "wordCount": 1
-    },
-    {
-      "slug": "moveis-shopee-sao-bons",
-      "title": "Móveis da Shopee são Bons? Guia Completo para Comprar com Segurança",
-      "url": "https://lojademoveismarilia.com.br/guia/moveis-shopee-sao-bons",
-      "description": "",
-      "keywords": [
-        "móveis shopee são bons"
       ],
       "wordCount": 1
     },
@@ -631,11 +621,11 @@
   ],
   "statistics": {
     "totalCategories": 7,
-    "totalGuides": 53,
+    "totalGuides": 52,
     "totalPages": 4,
-    "totalProducts": 61,
-    "generatedAt": "2026-07-30T11:51:12.208Z",
-    "lastUpdated": "2026-07-30T11:51:12.209Z"
+    "totalProducts": 100,
+    "generatedAt": "2026-07-30T22:53:29.540Z",
+    "lastUpdated": "2026-07-30T22:53:29.542Z"
   },
   "entities": {
     "materials": [
@@ -652,7 +642,8 @@
       "suede",
       "linho",
       "tecidos",
-      "veludo"
+      "veludo",
+      "laminado"
     ],
     "environments": [
       "cozinha",
@@ -726,7 +717,27 @@
       "Yescasa",
       "Montreal",
       "Celflex",
-      "Cama inBox"
+      "Cama inBox",
+      "Oliart",
+      "Santos Andirá",
+      "D'Doro",
+      "Novo Horizonte",
+      "Manbel",
+      "Amoudi Móveis",
+      "Tonielque Móveis",
+      "Atualle",
+      "Notável",
+      "Santos André",
+      "Fellicci Móveis",
+      "UP Home Decor",
+      "Maxel",
+      "Emovell",
+      "Rufato",
+      "Cama Inbox",
+      "Adonai Estofados",
+      "Netsofas",
+      "King House",
+      "Madeira Prima"
     ],
     "platforms": [
       "Shopee",
@@ -738,7 +749,10 @@
       "cinza",
       "marrom",
       "bege",
-      "creme"
+      "creme",
+      "rosa",
+      "azul",
+      "vermelho"
     ],
     "styles": [
       "moderno",
@@ -759,13 +773,19 @@
       "sustentável",
       "impermeável",
       "ergonômico",
-      "reclinável"
+      "reclinável",
+      "ajustável",
+      "com usb"
     ],
     "problems": [
       "multifuncional",
       "versátil",
       "para espaços compactos",
       "economia de espaço",
+      "fácil limpeza",
+      "personalizável",
+      "sob medida",
+      "montagem simples",
       "para apartamento pequeno"
     ],
     "priceRanges": [],
@@ -1220,21 +1240,6 @@
       ],
       "relatedGuides": [
         "guarda-roupas"
-      ]
-    },
-    {
-      "category": "guide",
-      "label": "Móveis da Shopee são Bons? Guia Completo para Comprar com Segurança",
-      "searchTerms": [
-        "Móveis da Shopee são Bons? Guia Completo para Comprar com Segurança",
-        "o que é móveis da shopee são bons?  completo para comprar com segurança",
-        "como fazer móveis da shopee são bons?  completo para comprar com segurança",
-        "dicas sobre móveis da shopee são bons?  completo para comprar com segurança",
-        "tutorial móveis da shopee são bons?  completo para comprar com segurança",
-        "móveis da shopee são bons?  completo para comprar com segurança passo a passo"
-      ],
-      "relatedGuides": [
-        "moveis-shopee-sao-bons"
       ]
     },
     {
@@ -1792,6 +1797,16 @@
   "contentOpportunities": [
     {
       "type": "thin-content",
+      "category": "guarda-roupas",
+      "label": "Guarda-Roupas",
+      "gap": "Poucos guias (apenas 1)",
+      "impact": "médio",
+      "suggestion": "Expandir conteúdo com guias específicos como 'Guarda-Roupas para ambientes pequenos' ou 'Guia de manutenção de Guarda-Roupas'",
+      "estimatedEffort": "baixo",
+      "priority": "média"
+    },
+    {
+      "type": "thin-content",
       "category": "cozinhas",
       "label": "Cozinhas",
       "gap": "Poucos guias (apenas 2)",
@@ -1827,6 +1842,16 @@
       "gap": "Poucos guias (apenas 1)",
       "impact": "médio",
       "suggestion": "Expandir conteúdo com guias específicos como 'Home Office para ambientes pequenos' ou 'Guia de manutenção de Home Office'",
+      "estimatedEffort": "baixo",
+      "priority": "média"
+    },
+    {
+      "type": "thin-content",
+      "category": "sofas",
+      "label": "Sofás",
+      "gap": "Poucos guias (apenas 2)",
+      "impact": "médio",
+      "suggestion": "Expandir conteúdo com guias específicos como 'Sofás para ambientes pequenos' ou 'Guia de manutenção de Sofás'",
       "estimatedEffort": "baixo",
       "priority": "média"
     },

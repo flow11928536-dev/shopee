@@ -2179,7 +2179,7388 @@ Marca: Espresso Móveis | Linha: Office | Material: MDP (25mm na escrivaninha, 1
   ],
   "seoTitle": "Sofá Modular Evo 2,70m com Chaise Direita Creme | Cama inBox",
   "seoDescription": "Sofá modular Evo 2,70m com chaise direita na cor creme da Cama inBox. Tecnologia Boost Tech a vácuo, molas ensacadas e espuma D33. 43% OFF. Entrega para todo Brasil."
-}
+},
+{
+  id: "p-imp-060",
+  slug: "penteadeira-oliart-princesa-com-espelho-3-gavetas-porta-joias",
+  category: "quartos",
+  mainCategory: "quarto",
+  name: "Penteadeira Oliart Princesa com Espelho e Porta Joias 3 Gavetas 108cm Branco",
+  imageFile: "/imagens/produtos/penteadeira-oliart-princesa-com-espelho-3-gavetas-porta-joias-108x129cm-branco-mdf.webp",
+  displayImage: "/imagens/produtos/penteadeira-oliart-princesa-com-espelho-3-gavetas-porta-joias-108x129cm-branco-mdf.webp",
+  alt: "Penteadeira Oliart Princesa com espelho, porta joias e 3 gavetas 108x129cm branco MDF",
+  rating: 4.6,
+  reviews: 423,
+  discount: 29,
+  price: 458.63,
+  originalPrice: 654.99,
+  badge: "Novo",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2oSYxrC", // Substitua pelo link real
+  descricao: `A Penteadeira com Espelho Princesa da Oliart é a peça perfeita para quem busca elegância, funcionalidade e versatilidade no quarto. Com design moderno e sofisticado na cor branca, este móvel 3 em 1 foi projetado para atender diversas necessidades: funciona como penteadeira para sua rotina de beleza, como escrivaninha para momentos de estudo ou trabalho, e como sapateira para organizar seus calçados favoritos.
+
+Com 108 cm de largura e 129 cm de altura, a penteadeira oferece espaço generoso para acomodar seus objetos pessoais com praticidade e estilo. O tampo amplo permite apoiar cosméticos, perfumes, livros ou até mesmo um notebook, tornando-a uma peça versátil para diferentes momentos do dia.
+
+**Organização Inteligente para o Seu Dia a Dia**
+As 3 gavetas espaçosas são ideais para armazenar sapatos, acessórios, roupas íntimas ou documentos, mantendo tudo organizado e de fácil acesso. O porta joias com 9 nichos mantém seus anéis, colares e brincos sempre à mão e protegidos. O espelho de 50x60 cm oferece o tamanho perfeito para sua rotina de maquiagem e cuidados pessoais. As duas prateleiras laterais completam a funcionalidade, permitindo expor livros, perfumes ou objetos decorativos que valorizam ainda mais o ambiente.
+
+**Por que escolher a Penteadeira Princesa?**
+- 3 em 1: penteadeira, escrivaninha e sapateira em um único móvel
+- 3 gavetas amplas para organização de sapatos e acessórios
+- Porta joias com 9 nichos para manter suas joias seguras
+- Espelho de 50x60 cm para sua rotina de beleza
+- 2 prateleiras laterais para exposição de objetos decorativos
+- Design moderno e atemporal na cor branca
+- Fabricada em MDP de alta qualidade e durabilidade
+- Versátil para quartos, suítes e closets
+
+**Dúvidas Frequentes dos Nossos Clientes:**
+- Esta penteadeira é boa para quartos pequenos? Sim! Com 108 cm de largura, ela se adapta perfeitamente a quartos compactos e oferece múltiplas funções em um só móvel, otimizando o espaço.
+- Serve como escrivaninha para estudos? Sim, o tampo amplo e a altura de 129 cm tornam a penteadeira ideal para momentos de estudo ou trabalho com notebook.
+- As gavetas cabem sapatos? Sim, as gavetas foram projetadas para acomodar alguns modelos de sapatos, oferecendo organização prática.
+- O espelho é de boa qualidade? Sim, o espelho de 50x60 cm tem excelente definição e é fixado com segurança.
+- O que é MDP? MDP é um material de alta resistência e durabilidade, utilizado em móveis planejados de qualidade. Oferece estabilidade e acabamento impecável.
+- Como é a entrega? O produto é entregue desmontado com manual de montagem passo a passo para fácil instalação.
+- O porta joias tem quantos nichos? São 9 nichos espaçosos para organizar anéis, brincos, colares e outros acessórios.
+- Vale a pena comprar? Sim! Excelente custo-benefício para quem busca um móvel versátil, bonito e funcional para o quarto.
+
+**Especificações Técnicas:**
+Marca: Oliart | Modelo: Princesa | Material: MDP | Cor: Branco | Dimensões: 108 cm (L) x 46,5 cm (P) x 129 cm (A) | Gavetas: 3 | Prateleiras: 2 | Espelho: 50x60 cm | Porta Joias: 9 nichos | Funções: Penteadeira, Escrivaninha, Sapateira | Acabamento: Pintura de alta qualidade | Montagem: Manual + Kit incluso | Garantia: 90 dias contra defeitos de fabricação.`,
+  marca: "Oliart",
+  keywords: [
+    "penteadeira com espelho e gavetas",
+    "penteadeira 3 em 1 para quarto",
+    "penteadeira princesa com porta joias",
+    "móvel para quarto com espelho e prateleiras"
+  ],
+  seoTitle: "Penteadeira Oliart Princesa com Espelho e Porta Joias 3 Gavetas | Oferta",
+  seoDescription: "Penteadeira 3 em 1 com espelho, porta joias e 3 gavetas. Ideal para quartos e closets, 29% OFF. Frete para todo Brasil."
+},
+{
+  id: "p-imp-061",
+  slug: "guarda-roupa-casal-3-portas-correr-espelho-6-gavetas-branco-espresso",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-roupa Casal Branco Espelho 3 Portas Correr Espresso Móveis",
+  imageFile: "/imagens/produtos/guarda-roupa-casal-3-portas-correr-espelho-6-gavetas-branco-espresso-moveis.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-casal-3-portas-correr-espelho-6-gavetas-branco-espresso-moveis.webp",
+  alt: "Guarda-roupa casal 3 portas de correr com espelho e 6 gavetas branco Espresso Móveis",
+  rating: 4.7,
+  reviews: 465,
+  discount: 18,
+  price: 2574.99,
+  originalPrice: 3149.99,
+  badge: "Oferta Imperdível",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1Lx9ie4",
+  descricao: `O Guarda-roupa Casal Branco com Espelho e 3 Portas de Correr da Espresso Móveis é a solução definitiva para quem busca organização, estilo e funcionalidade no quarto. Com design clean e moderno na cor branca, este móvel foi projetado para atender às necessidades de casais que valorizam praticidade e elegância no dia a dia.
+
+**Organização Completa para o seu Quarto**
+Com 3 portas de correr com deslizamento suave, este guarda-roupa oferece fácil acesso às suas roupas e acessórios sem ocupar espaço extra para abertura das portas. O amplo espaço interno permite armazenar roupas, sapatos, acessórios e objetos pessoais de forma organizada e funcional.
+
+O espelho integrado é um dos grandes diferenciais deste móvel, permitindo que você se arrume com praticidade antes de sair, sem a necessidade de um espelho separado. As 6 gavetas espaçosas oferecem organização adicional para roupas íntimas, meias e acessórios, mantendo tudo em ordem e de fácil acesso.
+
+**Design e Acabamento Premium**
+Fabricado em MDF de alta qualidade, o guarda-roupa recebe um acabamento superior com fita de borda que garante durabilidade e um visual sofisticado. A cor branca confere leveza e luminosidade ao ambiente, combinando perfeitamente com diferentes estilos de decoração.
+
+**Por que escolher este guarda-roupa?**
+- 3 portas de correr com deslizamento suave e silencioso
+- Espelho integrado para praticidade no dia a dia
+- 6 gavetas espaçosas para organização completa
+- Design moderno na cor branca, versátil e atemporal
+- Fabricado em MDF de alta qualidade e durabilidade
+- Fácil montagem com manual e kit de instalação incluso
+- Perfeito para quartos de casal e suítes
+
+**Dúvidas Frequentes dos Nossos Clientes:**
+- Este guarda-roupa é bom para quartos de casal? Sim! Com 3 portas de correr e amplo espaço interno, é ideal para casais que precisam de organização e praticidade.
+- As portas são de correr? Sim, o sistema de portas de correr economiza espaço e facilita o acesso às roupas.
+- O espelho já vem incluso? Sim, o espelho integrado acompanha o guarda-roupa e é fixado com segurança.
+- Quantas gavetas tem? São 6 gavetas espaçosas para organizar roupas íntimas, meias e acessórios.
+- Qual o material do produto? É fabricado em MDF com acabamento de alta qualidade e fita de borda.
+- É fácil de montar? Sim, acompanha manual de montagem com instruções claras e kit de instalação completo.
+- A montagem é oferecida pela loja? A loja não oferece serviço de montagem, mas o manual é simples e de fácil compreensão.
+- Vale a pena comprar? Sim! Excelente custo-benefício para quem busca um guarda-roupa bonito, funcional e durável.
+
+**Especificações Técnicas:**
+Marca: Espresso Móveis | Material: MDF | Cor: Branco | Portas: 3 de correr | Gavetas: 6 | Espelho: Sim | Acabamento: Fita de borda MDF | Montagem: Manual + Kit incluso | Garantia: 3 meses contra defeitos de fabricação.`,
+  marca: "Espresso Móveis",
+  keywords: [
+    "guarda roupa casal 3 portas correr",
+    "guarda roupa com espelho e 6 gavetas",
+    "guarda roupa branco casal",
+    "moveis para quarto com espelho"
+  ],
+  seoTitle: "Guarda-roupa Casal 3 Portas Correr com Espelho e 6 Gavetas | Oferta",
+  seoDescription: "Guarda-roupa casal com 3 portas de correr, espelho integrado e 6 gavetas. Design branco, MDF de qualidade, 18% OFF. Frete para todo Brasil."
+},
+{
+  id: "p-imp-062",
+  slug: "guarda-roupa-casal-3-portas-correr-espelhado-milao-yescasa",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-roupa Casal 3 Portas Corrediça Espelhada Milão MDF Yescasa Branco",
+  imageFile: "/imagens/produtos/guarda-roupa-casal-3-portas-correr-espelhado-milao-yescasa-192x208cm-branco-mdf.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-casal-3-portas-correr-espelhado-milao-yescasa-192x208cm-branco-mdf.webp",
+  alt: "Guarda-roupa casal 3 portas de correr com espelho e 4 gavetas Milão Yescasa 192x208cm branco MDF",
+  rating: 4.5,
+  reviews: 2945,
+  discount: 25,
+  price: 933.79,
+  originalPrice: 1249.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1YzJP87",
+  descricao: `O Guarda-roupa Casal 3 Portas Corrediça Espelhada Milão da Yescasa é a solução definitiva para transformar seu quarto em um ambiente de organização, estilo e sofisticação. Projetado para otimizar espaços, este móvel combina um design moderno com a funcionalidade essencial para o dia a dia, sendo a escolha ideal para casais que buscam praticidade e elegância.
+
+Com dimensões de 191,8 cm de largura, 45,7 cm de profundidade e 208 cm de altura, o guarda-roupa Milão oferece amplo espaço de armazenamento sem ocupar área excessiva no quarto. Sua estrutura 100% MDF garante robustez, durabilidade e acabamento superior, com pintura UV de alta qualidade que protege o móvel contra riscos e desgaste do uso diário.
+
+**Sistema de Portas de Correr que Economiza Espaço**
+As 3 portas de correr com deslizamento suave e silencioso são o grande destaque deste guarda-roupa. Diferente dos modelos com portas de abrir, as portas de correr não ocupam espaço adicional ao serem abertas, sendo perfeitas para quartos compactos e apartamentos. A porta central conta com um amplo espelho que cria uma sensação de maior amplitude e luminosidade no ambiente, além de ser indispensável na hora de se arrumar.
+
+**Organização Interna Inteligente para o Casal**
+O Guarda-roupa Milão surpreende pela excelente divisão interna, pensada para atender as necessidades de um casal:
+- **4 Gavetas Internas**: Equipadas com corrediças metálicas, são ideais para guardar roupas íntimas, meias e acessórios, mantendo tudo protegido e fora de vista.
+- **2 Cabideiros Resistentes**: Oferecem espaço adequado para pendurar roupas curtas e longas, evitando que amassem e mantendo-as sempre prontas para uso.
+- **3 Prateleiras Espaçosas**: Perfeitas para organizar roupas de cama, toalhas, caixas, malas ou sapatos, oferecendo versatilidade máxima.
+- **Prateleiras Ajustáveis**: Permitem personalizar o espaço interno conforme sua necessidade, adaptando-se a diferentes tipos de itens.
+
+**Por que escolher o Guarda-roupa Milão Yescasa?**
+- 3 portas de correr com espelho central para otimizar espaço
+- 4 gavetas com corrediças metálicas para organização eficiente
+- 2 cabideiros resistentes para roupas curtas e longas
+- 3 prateleiras espaçosas para versatilidade de armazenamento
+- Fabricado em 100% MDF com pintura UV de alta qualidade
+- Design moderno na cor branca, combinando com qualquer decoração
+- Estrutura resistente com capacidade de peso de até 115 kg
+- Fácil montagem com manual e kit de ferragens incluso
+
+**Dúvidas Frequentes dos Nossos Clientes:**
+- Este guarda-roupa é bom para quartos pequenos? Sim! As portas de correr não ocupam espaço extra, sendo ideais para quartos compactos e apartamentos.
+- O espelho é de boa qualidade? Sim, o espelho central tem excelente definição e é fixado com segurança na porta.
+- Quantas gavetas tem? São 4 gavetas com corrediças metálicas para organização de roupas íntimas e acessórios.
+- As prateleiras são ajustáveis? Sim, as 3 prateleiras são ajustáveis, permitindo personalizar o espaço interno conforme sua necessidade.
+- Qual o material do produto? É fabricado em 100% MDF com pintura UV de alta qualidade e durabilidade.
+- É fácil de montar? Sim, acompanha manual de montagem com instruções claras e kit de ferragens completo.
+- O produto acompanha espelho? Sim, a porta central já vem com espelho integrado.
+- Vale a pena comprar? Sim! Excelente custo-benefício para quem busca um guarda-roupa moderno, funcional e durável.
+
+**Especificações Técnicas:**
+Marca: Yescasa | Modelo: Milão | Material: 100% MDF | Cor: Branco | Portas: 3 de correr (1 espelhada) | Gavetas: 4 com corrediças metálicas | Prateleiras: 3 ajustáveis | Cabideiros: 2 | Puxadores: Externos em alumínio | Acabamento: Pintura UV | Capacidade de Peso: 115 kg | Dimensões: 191,8 cm (L) x 45,7 cm (P) x 208 cm (A) | Peso: 116 kg | Ambiente: Quarto de casal, suíte | Montagem: Manual + Kit incluso | Garantia: 3 meses contra defeitos de fabricação.`,
+  marca: "Yescasa",
+  keywords: [
+    "guarda roupa casal 3 portas correr",
+    "guarda roupa com espelho e gavetas",
+    "guarda roupa yescasa milão",
+    "armario casal 100% mdf com espelho"
+  ],
+  seoTitle: "Guarda-roupa Casal 3 Portas Correr com Espelho e 4 Gavetas Yescasa | Oferta",
+  seoDescription: "Guarda-roupa casal Milão Yescasa com 3 portas de correr, espelho central e 4 gavetas. MDF 100%, pintura UV, 25% OFF. Frete para todo Brasil."
+},
+{
+  id: "p-imp-063",
+  slug: "guarda-roupa-casal-3-portas-correr-2-gavetas-franca-andira",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda Roupas Casal 3 Portas Correr 2 Gavetas França Andirá Branco",
+  imageFile: "/imagens/produtos/guarda-roupa-casal-3-portas-correr-2-gavetas-franca-andira-172x191cm-branco-mdp-mdf.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-casal-3-portas-correr-2-gavetas-franca-andira-172x191cm-branco-mdp-mdf.webp",
+  alt: "Guarda roupas casal 3 portas de correr com 2 gavetas França Andirá 172x191cm branco MDP/MDF",
+  rating: 4.3,
+  reviews: 32,
+  discount: 1,
+  price: 1234.45,
+  originalPrice: 1254.45,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1h6PwSr",
+  descricao: `O Guarda Roupas Casal França da Santos Andirá é a escolha perfeita para quem busca funcionalidade, design moderno e organização eficiente para o quarto. Com acabamento em verniz brilhante e puxadores em ABS, este móvel garante um visual clean e elegante que combina com diferentes estilos de decoração.
+
+**Design Inteligente que Otimiza Espaço**
+As 3 portas de correr com trilho metálico de alumínio proporcionam um movimento suave e silencioso, sem ocupar espaço extra durante a abertura — ideal para quartos compactos e apartamentos. A estrutura robusta em MDP e MDF com espessura de 12/15mm oferece alta resistência e durabilidade, suportando até 77 kg de peso total.
+
+**Organização Completa para seu Quarto**
+O guarda-roupa França foi projetado para atender todas as suas necessidades de armazenamento:
+- **2 Gavetas com Corrediças Metálicas**: Deslizamento suave e contínuo, ideais para organizar roupas íntimas, meias e acessórios com fácil acesso.
+- **5 Prateleiras Amplas**: Capacidade individual de 8 kg, permitem a organização setorizada de pilhas de roupas, toalhas e objetos pessoais.
+- **3 Cabideiros de Alumínio**: Resistentes e duráveis, oferecem amplo espaço para pendurar roupas curtas e longas, mantendo-as esticadas e organizadas.
+- **6 Pés em PVC**: Elevam a estrutura do piso, facilitando a limpeza da área abaixo do móvel e garantindo estabilidade.
+
+**Por que escolher o Guarda-roupa França?**
+- 3 portas de correr com trilho de alumínio para economia de espaço
+- 2 gavetas com corrediças metálicas de deslizamento suave
+- 5 prateleiras amplas com capacidade de 8 kg cada
+- 3 cabideiros de alumínio para organização de roupas
+- Acabamento em verniz brilhante e puxadores em ABS
+- Estrutura resistente em MDP/MDF com capacidade total de 77 kg
+- Pés em PVC para estabilidade e facilidade de limpeza
+- Design moderno e elegante na cor branca
+
+**Dúvidas Frequentes dos Nossos Clientes:**
+- Este guarda-roupa é bom para quartos pequenos? Sim! As portas de correr não ocupam espaço extra, sendo ideais para quartos compactos e apartamentos.
+- As gavetas deslizam bem? Sim, as gavetas possuem corrediças metálicas que garantem deslizamento suave e contínuo.
+- Quantas prateleiras tem? São 5 prateleiras com capacidade de 8 kg cada, oferecendo amplo espaço de organização.
+- Os cabideiros são resistentes? Sim, os cabideiros são em alumínio, garantindo durabilidade e resistência para pendurar roupas.
+- Qual o material do produto? É fabricado em MDP/MDF com espessura de 12/15mm e acabamento em verniz brilhante.
+- É fácil de montar? Sim, acompanha manual de montagem e kit de ferragens (parafusos, cavilhas e minifix).
+- Os pés são ajustáveis? Os pés em PVC oferecem estabilidade e elevam a estrutura do piso para facilitar a limpeza.
+- Vale a pena comprar? Sim! Excelente custo-benefício para quem busca um guarda-roupa moderno, funcional e durável.
+
+**Especificações Técnicas:**
+Marca: Santos Andirá | Modelo: França | Material: MDP/MDF (12/15mm) | Acabamento: Verniz Brilhante | Cor: Branco | Portas: 3 de correr | Gavetas: 2 com corrediças metálicas | Prateleiras: 5 (capacidade 8 kg cada) | Cabideiros: 3 em alumínio | Puxadores: ABS | Pés: 6 em PVC | Capacidade Total: 77 kg | Peso: 81,05 kg | Dimensões: 172 cm (L) x 46 cm (P) x 191 cm (A) | Montagem: Manual + Kit incluso (parafusos, cavilhas, minifix) | Garantia: 3 meses contra defeitos de fabricação.`,
+  marca: "Santos Andirá",
+  keywords: [
+    "guarda roupas casal 3 portas correr",
+    "guarda roupas com 2 gavetas e prateleiras",
+    "armario casal branco mdp mdf",
+    "guarda roupas franca andira"
+  ],
+  seoTitle: "Guarda Roupas Casal 3 Portas Correr 2 Gavetas França Andirá | Oferta",
+  seoDescription: "Guarda roupas casal 3 portas de correr com 2 gavetas, 5 prateleiras e cabideiros. Estrutura MDP/MDF, 1% OFF. Frete para todo Brasil."
+},
+{
+  id: "p-imp-064",
+  slug: "guarda-roupa-casal-3-portas-correr-espelho-2-gavetas-franca-andira",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda roupas casal espelho 3 portas 2 gavetas Santos Andirá França cor branco",
+  imageFile: "/imagens/produtos/guarda-roupa-casal-3-portas-correr-espelho-2-gavetas-franca-andira-172x191cm-branco-mdp-mdf.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-casal-3-portas-correr-espelho-2-gavetas-franca-andira-172x191cm-branco-mdp-mdf.webp",
+  alt: "Guarda roupas casal 3 portas de correr com espelho e 2 gavetas França Andirá 172x191cm branco MDP/MDF",
+  rating: 4.2,
+  reviews: 87,
+  discount: 8,
+  price: 1021.20,
+  originalPrice: 1110.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1U4NSHj",
+  descricao: `O Guarda roupas Casal França com Espelho da Santos Andirá é a escolha perfeita para quem busca funcionalidade, design moderno e praticidade no dia a dia. Com acabamento em verniz brilhante e puxadores em ABS, este móvel oferece um visual clean e elegante que valoriza qualquer ambiente, enquanto os pés em PVC garantem estabilidade e durabilidade.
+
+**Design Inteligente com Espelho Integrado**
+As 3 portas de correr com trilhos em alumínio proporcionam um movimento suave e silencioso, sem ocupar espaço extra durante a abertura — ideal para quartos compactos e apartamentos. O grande diferencial deste modelo é o espelho centralizado com 3 lâminas (53 cm x 51 cm cada), que permite que você se arrume de maneira prática e funcional, eliminando a necessidade de um espelho separado no quarto.
+
+**Organização Completa para o Casal**
+O guarda-roupa França foi projetado para atender todas as suas necessidades de armazenamento:
+- **2 Gavetas com Corrediças Metálicas**: Deslizamento suave e eficiente, suportando até 3 kg cada, ideais para organizar roupas íntimas, meias e acessórios.
+- **5 Prateleiras Amplas**: Capacidade individual de 8 kg, permitem a organização setorizada de pilhas de roupas, toalhas e objetos pessoais.
+- **3 Cabideiros de Alumínio**: Resistentes e duráveis, oferecem amplo espaço para pendurar roupas curtas e longas, mantendo-as organizadas e sem amassados.
+- **6 Pés em PVC**: Elevam a estrutura de 191 cm de altura, facilitando a limpeza do piso abaixo do móvel.
+
+**Por que escolher o Guarda-roupa França com Espelho?**
+- 3 portas de correr com trilhos em alumínio para economia de espaço
+- 3 lâminas de espelho integradas (53 cm x 51 cm cada)
+- 2 gavetas com corrediças metálicas de deslizamento suave
+- 5 prateleiras amplas com capacidade de 8 kg cada
+- 3 cabideiros de alumínio para organização de roupas
+- Acabamento em verniz brilhante e puxadores em ABS
+- Estrutura resistente em MDP/MDF com capacidade total de 77 kg
+- Pés em PVC para estabilidade e facilidade de limpeza
+- Design moderno e elegante na cor branca
+
+**Dúvidas Frequentes dos Nossos Clientes:**
+- Este guarda-roupa é bom para quartos pequenos? Sim! As portas de correr não ocupam espaço extra, sendo ideais para quartos compactos e apartamentos.
+- O espelho é de boa qualidade? Sim, são 3 lâminas de espelho que oferecem excelente definição e são fixadas com segurança.
+- As gavetas deslizam bem? Sim, as gavetas possuem corrediças metálicas que garantem deslizamento suave e contínuo.
+- Quantas prateleiras tem? São 5 prateleiras com capacidade de 8 kg cada, oferecendo amplo espaço de organização.
+- Os cabideiros são resistentes? Sim, os cabideiros são em alumínio, garantindo durabilidade e resistência para pendurar roupas.
+- Qual o material do produto? É fabricado em MDP/MDF com espessura de 12/15mm e acabamento em verniz brilhante.
+- É fácil de montar? Sim, acompanha manual de montagem e kit de ferragens (parafusos, cavilhas e minifix).
+- Os pés são ajustáveis? Os pés em PVC oferecem estabilidade e elevam a estrutura do piso para facilitar a limpeza.
+- Vale a pena comprar? Sim! Excelente custo-benefício para quem busca um guarda-roupa moderno, com espelho e ótima organização.
+
+**Especificações Técnicas:**
+Marca: Santos Andirá | Modelo: França | Material: MDP/MDF (12/15mm) | Acabamento: Verniz Brilhante | Cor: Branco | Portas: 3 de correr | Espelho: 3 lâminas (53 cm A x 51 cm L) | Gavetas: 2 com corrediças metálicas (3 kg cada) | Prateleiras: 5 (8 kg cada) | Cabideiros: 3 em alumínio | Puxadores: ABS | Pés: 6 em PVC | Capacidade Total: 77 kg | Peso: 81,05 kg | Dimensões: 172 cm (L) x 46 cm (P) x 191 cm (A) | Montagem: Manual + Kit incluso (parafusos, cavilhas, minifix) | Garantia: 3 meses contra defeitos de fabricação.`,
+  marca: "Santos Andirá",
+  keywords: [
+    "guarda roupas casal com espelho",
+    "guarda roupas 3 portas de correr",
+    "guarda roupas com 2 gavetas e espelho",
+    "armario casal branco com espelho"
+  ],
+  seoTitle: "Guarda Roupas Casal 3 Portas Correr com Espelho 2 Gavetas França Andirá | Oferta",
+  seoDescription: "Guarda roupas casal 3 portas de correr com espelho, 2 gavetas e 5 prateleiras. Estrutura MDP/MDF, 8% OFF. Frete para todo Brasil."
+},
+{
+  id: "p-imp-065",
+  slug: "guarda-roupas-casal-6-portas-reflecta-com-pes-gelius-grafite",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-roupas Casal 6 Portas Reflecta com Pés Gelius Móveis Grafite",
+  imageFile: "/imagens/produtos/guarda-roupas-casal-6-portas-reflecta-com-pes-273x240cm-grafite-gelius.webp",
+  displayImage: "/imagens/produtos/guarda-roupas-casal-6-portas-reflecta-com-pes-273x240cm-grafite-gelius.webp",
+  alt: "Guarda-roupas casal 6 portas reflecta com pés Gelius Móveis 273x240cm grafite MDF",
+  rating: 4.8,
+  reviews: 57,
+  discount: 3,
+  price: 5824.99,
+  originalPrice: 6024.99,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2z4tqDE",
+  descricao: `O Guarda-roupas Casal 6 Portas Reflecta com Pés da Gelius Móveis é a escolha definitiva para quem busca um móvel de alto padrão, com design clássico e acabamento impecável. Fabricado em MDF de alta qualidade com pintura UV, este guarda-roupa oferece durabilidade, resistência e um visual sofisticado na cor grafite que valoriza qualquer ambiente.
+
+**Design Premium que Transforma o Quarto**
+Com impressionantes 273 cm de largura, 63 cm de profundidade e 240 cm de altura, este guarda-roupa oferece um espaço generoso para organizar todo o vestuário do casal com estilo e funcionalidade. As 6 portas reflecta (portas de correr) com acabamento espelhado proporcionam um movimento suave e silencioso, além de ampliarem visualmente o ambiente, criando uma sensação de maior amplitude e luminosidade no quarto.
+
+**Organização Inteligente e Espaçosa**
+O guarda-roupa foi projetado para atender todas as necessidades de armazenamento de um casal:
+- **4 Gavetas com Corrediças Telescópicas**: Suporte para até 150 kg, oferecem acesso fácil e organizado para roupas íntimas, meias e acessórios, mantendo tudo em ordem.
+- **4 Cabideiros Resistentes**: Superiores e inferiores, proporcionam amplo espaço para pendurar roupas curtas, longas e casacos, mantendo-os organizados e sem amassados.
+- **6 Prateleiras Espaçosas**: Ideais para organizar roupas de cama, toalhas, malas e sapatos, oferecendo versatilidade máxima.
+- **Nichos Internos**: Para acomodar objetos pessoais e itens de uso frequente.
+- **Espaço para Calçados**: Design inteligente que inclui compartimento específico para sapatos.
+
+**Por que escolher o Guarda-roupas Gelius Móveis?**
+- 6 portas reflecta com acabamento espelhado para maior amplitude visual
+- 4 gavetas com corrediças telescópicas de alta capacidade
+- 4 cabideiros superiores e inferiores para organização de roupas
+- 6 prateleiras espaçosas para versatilidade de armazenamento
+- Fabricado em MDF de alta qualidade com pintura UV
+- Design clássico na cor grafite, combinando com diferentes estilos
+- Estrutura resistente com capacidade de 150 kg
+- Pés elevados para facilitar a limpeza do piso
+- Manual de montagem e kit de ferragens incluso
+
+**Condições de Pagamento:**
+- À vista no Pix ou Saldo Mercado Pago: R$ 5.824,99
+- Em até 10x sem juros: R$ 602,50 por parcela
+- Cartão Mercado Pago Visa: 20% OFF adicional
+
+**Dúvidas Frequentes dos Nossos Clientes:**
+- Este guarda-roupa é bom para quartos grandes? Sim! Com 273 cm de largura, é ideal para quartos amplos e suítes, oferecendo espaço generoso para o casal.
+- O que são portas reflecta? São portas de correr com acabamento espelhado que proporcionam movimento suave e ampliam visualmente o ambiente.
+- As gavetas são resistentes? Sim, as gavetas possuem corrediças telescópicas e suportam até 150 kg de peso total.
+- Quantos cabideiros tem? São 4 cabideiros (superiores e inferiores) para organizar roupas curtas e longas.
+- Qual o material do produto? É fabricado em MDF com pintura UV, garantindo alta durabilidade e resistência.
+- É fácil de montar? Sim, acompanha manual de montagem com instruções claras e kit de ferragens completo.
+- Os pés são fixos? Sim, os pés elevam a estrutura para facilitar a limpeza do piso abaixo do móvel.
+- Vale a pena comprar? Sim! Excelente investimento para quem busca um guarda-roupa premium, com design clássico e organização completa.
+
+**Especificações Técnicas:**
+Marca: Gelius Móveis | Modelo: Reflecta | Material: MDF | Acabamento: Pintura UV | Cor: Grafite | Portas: 6 reflecta (correr) | Gavetas: 4 com corrediças telescópicas | Prateleiras: 6 | Cabideiros: 4 (superiores e inferiores) | Nichos: Sim | Espaço para Calçados: Sim | Capacidade de Peso: 150 kg | Dimensões: 273 cm (L) x 63 cm (P) x 240 cm (A) | Peso: 240 kg | Estilo: Clássico | Montagem: Manual + Kit incluso | Garantia: 3 meses contra defeitos de fabricação.`,
+  marca: "Gelius Móveis",
+  keywords: [
+    "guarda roupas casal 6 portas reflecta",
+    "guarda roupas com gavetas e cabideiros",
+    "armario casal gelius moveis grafite",
+    "guarda roupas 273x240cm"
+  ],
+  seoTitle: "Guarda-roupas Casal 6 Portas Reflecta com Pés Gelius Móveis Grafite | Oferta",
+  seoDescription: "Guarda-roupas casal 6 portas reflecta com 4 gavetas e 4 cabideiros. MDF premium, pintura UV, 3% OFF. Frete para todo Brasil."
+},
+{
+  id: "p-imp-066",
+  slug: "guarda-roupa-casal-mdf-espelhado-3-portas-6-gavetas-cinamomo-doro",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Casal MDF Espelhado 3 Portas 6 Gavetas D'Doro Cinamomo",
+  imageFile: "/imagens/produtos/guarda-roupa-casal-mdf-espelhado-3-portas-6-gavetas-273x230cm-cinamomo-doro.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-casal-mdf-espelhado-3-portas-6-gavetas-273x230cm-cinamomo-doro.webp",
+  alt: "Guarda-roupa casal MDF espelhado 3 portas 6 gavetas D'Doro 273x230cm cinamomo",
+  rating: 4.8,
+  reviews: 360,
+  discount: 15,
+  price: 3179.00,
+  originalPrice: 3749.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1EYBVF1",
+  descricao: `O Guarda-Roupa Casal MDF Espelhado da D'Doro é a escolha definitiva para quem busca um móvel de alto padrão, com design moderno e acabamento impecável. Fabricado em MDF de alta qualidade com pintura texturizada UV, este guarda-roupa oferece durabilidade, resistência e um visual sofisticado na cor cinamomo que valoriza qualquer ambiente.
+
+**Design Moderno com Espelhos Integrados**
+Com impressionantes 273 cm de largura, 62 cm de profundidade e 230 cm de altura, este guarda-roupa oferece um espaço generoso para organizar todo o vestuário do casal com estilo e funcionalidade. As 3 portas de correr com acabamento espelhado proporcionam um movimento suave e silencioso, além de ampliarem visualmente o ambiente com 3 espelhos integrados, criando uma sensação de maior amplitude e luminosidade no quarto.
+
+**Organização Inteligente e Espaçosa**
+O guarda-roupa foi projetado para atender todas as necessidades de armazenamento de um casal:
+- **6 Gavetas com Corrediças Telescópicas**: Oferecem acesso fácil e organizado para roupas íntimas, meias e acessórios, mantendo tudo em ordem.
+- **2 Cabideiros Resistentes**: Proporcionam amplo espaço para pendurar roupas curtas e longas, mantendo-os organizados e sem amassados.
+- **Estrutura em MDF de Alta Resistência**: Garante durabilidade e robustez para o uso diário.
+
+**Por que escolher o Guarda-roupa D'Doro?**
+- 3 portas de correr com acabamento espelhado
+- 3 espelhos integrados para maior amplitude visual
+- 6 gavetas com corrediças telescópicas de alta capacidade
+- 2 cabideiros internos para organização de roupas
+- Fabricado em MDF com pintura texturizada UV
+- Design moderno na cor cinamomo, combinando com diferentes estilos
+- Estrutura resistente e durável
+- Manual de montagem e kit de ferragens incluso
+
+**Condições de Pagamento:**
+- À vista no Pix ou Saldo Mercado Pago: R$ 3.179,00
+- Em até 10x sem juros: R$ 320,00 por parcela
+- Cartão Mercado Pago Visa: 20% OFF adicional
+
+**Dúvidas Frequentes dos Nossos Clientes:**
+- Este guarda-roupa é bom para quartos grandes? Sim! Com 273 cm de largura, é ideal para quartos amplos e suítes, oferecendo espaço generoso para o casal.
+- Os espelhos são de boa qualidade? Sim, são 3 espelhos integrados que oferecem excelente definição e ampliam visualmente o ambiente.
+- As gavetas são resistentes? Sim, as gavetas possuem corrediças telescópicas e são de alta capacidade.
+- Quantos cabideiros tem? São 2 cabideiros internos para organizar roupas curtas e longas.
+- Qual o material do produto? É fabricado em MDF com pintura texturizada UV, garantindo alta durabilidade e resistência.
+- É fácil de montar? Sim, acompanha manual de montagem com instruções claras e kit de ferragens completo.
+- O que é a cor cinamomo? É um tom neutro e sofisticado que combina com diferentes estilos de decoração.
+- Vale a pena comprar? Sim! Excelente investimento para quem busca um guarda-roupa premium, com design moderno e organização completa.
+
+**Especificações Técnicas:**
+Marca: D'Doro | Linha: Guarda Roupa | Modelo: Grécia | Material: MDF | Acabamento: Pintura texturizada UV | Cor: Cinamomo | Portas: 3 de correr | Espelhos: 3 | Gavetas: 6 com corrediças telescópicas | Cabideiros: 2 | Dimensões: 273 cm (L) x 62 cm (P) x 230 cm (A) | Peso: 241 kg | Estilo: Moderno | Montagem: Manual + Kit incluso | Garantia: 3 meses contra defeitos de fabricação.`,
+  marca: "D'Doro",
+  keywords: [
+    "guarda roupa casal mdf espelhado",
+    "guarda roupa 3 portas 6 gavetas",
+    "guarda roupa cinamomo doro",
+    "armario casal 273x230cm"
+  ],
+  seoTitle: "Guarda-Roupa Casal MDF Espelhado 3 Portas 6 Gavetas D'Doro | Oferta",
+  seoDescription: "Guarda-roupa casal MDF espelhado 3 portas com 6 gavetas e 3 espelhos. Design moderno, 15% OFF. Frete para todo Brasil."
+},
+{
+  id: "p-imp-068",
+  slug: "guarda-roupa-casal-6-portas-7-gavetas-cumaru-horizonte",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-roupa Casal MDF 6 Portas 7 Gavetas Cumaru Horizonte Novo Horizonte",
+  imageFile: "/imagens/produtos/guarda-roupa-casal-6-portas-7-gavetas-cumaru-horizonte-276x236cm-mdf.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-casal-6-portas-7-gavetas-cumaru-horizonte-276x236cm-mdf.webp",
+  alt: "Guarda-roupa casal 6 portas com 7 gavetas cumaru horizonte 276x236cm MDF Novo Horizonte",
+  rating: 4.6,
+  reviews: 493,
+  discount: 15,
+  price: 2109.99,
+  originalPrice: 2499.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1koBoaB",
+  descricao: `O Guarda-roupa Casal MDF 6 Portas da Novo Horizonte é a escolha definitiva para quem busca um móvel imponente, com design moderno e capacidade de armazenamento incomparável. Com acabamento em pintura texturizada UV na cor Cumaru/Fendi, este guarda-roupa oferece durabilidade, resistência e um visual sofisticado que transforma qualquer quarto.
+
+**Design Imponente que Valoriza o Ambiente**
+Com impressionantes 276 cm de largura, 56 cm de profundidade e 236 cm de altura, este guarda-roupa oferece um espaço generoso para organizar todo o vestuário do casal com estilo e funcionalidade. As 6 portas com sistema de abertura por dobradiças garantem fácil acesso a todas as áreas do móvel, enquanto o design moderno na cor Cumaru/Fendi adiciona elegância e sofisticação ao quarto.
+
+**Organização Completa e Inteligente**
+O guarda-roupa foi projetado para atender todas as necessidades de armazenamento de um casal:
+- **7 Gavetas com Corrediças Telescópicas**: Oferecem acesso fácil e organizado para roupas íntimas, meias, acessórios e itens pessoais, mantendo tudo em ordem.
+- **8 Prateleiras Espaçosas**: Proporcionam versatilidade máxima para organizar roupas de cama, toalhas, malas e sapatos, otimizando o uso do espaço.
+- **3 Cabideiros Resistentes**: Superiores e inferiores, oferecem amplo espaço para pendurar roupas curtas, longas e casacos, mantendo-os organizados e sem amassados.
+- **Espaço para Calçados**: Design inteligente que inclui compartimento específico para sapatos.
+
+**Por que escolher o Guarda-roupa Novo Horizonte?**
+- 6 portas com sistema de abertura por dobradiças
+- 7 gavetas com corrediças telescópicas de alta capacidade
+- 8 prateleiras espaçosas para versatilidade de armazenamento
+- 3 cabideiros superiores e inferiores para organização de roupas
+- Fabricado em MDF com pintura texturizada UV
+- Design moderno na cor Cumaru/Fendi, combinando com diferentes estilos
+- Estrutura resistente e durável
+- Espaço para calçados integrado
+- Manual de montagem e kit de ferragens incluso
+
+**Condições de Pagamento:**
+- À vista no Pix ou Saldo Mercado Pago: R$ 2.109,99
+- Em até 10x sem juros: R$ 213,00 por parcela
+- Cartão Mercado Pago Visa: 20% OFF adicional
+
+**Dúvidas Frequentes dos Nossos Clientes:**
+- Este guarda-roupa é bom para quartos grandes? Sim! Com 276 cm de largura, é ideal para quartos amplos e suítes, oferecendo espaço generoso para o casal.
+- As gavetas são resistentes? Sim, as gavetas possuem corrediças telescópicas e são de alta capacidade.
+- Quantos cabideiros tem? São 3 cabideiros (superiores e inferiores) para organizar roupas curtas e longas.
+- As prateleiras são ajustáveis? Sim, as 8 prateleiras oferecem versatilidade máxima para diferentes tipos de itens.
+- Qual o material do produto? É fabricado em MDF com pintura texturizada UV, garantindo alta durabilidade e resistência.
+- É fácil de montar? Sim, acompanha manual de montagem com instruções claras e kit de ferragens completo.
+- O que é a cor Cumaru/Fendi? É uma combinação sofisticada de tons que valoriza o ambiente e combina com diferentes estilos de decoração.
+- Vale a pena comprar? Sim! Excelente investimento para quem busca um guarda-roupa premium, com design moderno e organização completa.
+
+**Especificações Técnicas:**
+Marca: Novo Horizonte | Linha: Mesa Posta | Material: MDF | Acabamento: Pintura Texturizada UV | Cor: Cumaru/Fendi | Portas: 6 (abertura por dobradiças) | Gavetas: 7 com corrediças telescópicas | Prateleiras: 8 | Cabideiros: 3 (superiores e inferiores) | Espaço para Calçados: Sim | Dimensões: 276 cm (L) x 56 cm (P) x 236 cm (A) | Peso: 224 kg | Estilo: Moderno | Montagem: Manual + Kit incluso | Garantia: 3 meses contra defeitos de fabricação.`,
+  marca: "Novo Horizonte",
+  keywords: [
+    "guarda roupa casal 6 portas 7 gavetas",
+    "guarda roupa cumaru horizonte",
+    "armario casal 276x236cm mdf",
+    "guarda roupa novo horizonte"
+  ],
+  seoTitle: "Guarda-roupa Casal 6 Portas 7 Gavetas Cumaru Horizonte | Oferta",
+  seoDescription: "Guarda-roupa casal 6 portas com 7 gavetas e 8 prateleiras. MDF premium, pintura texturizada UV, 15% OFF. Frete para todo Brasil."
+},
+{
+  id: "p-imp-069",
+  slug: "guarda-roupa-casal-ripado-6-portas-6-gavetas-275cm-espresso",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Casal Espresso Móveis Ripado 6 Portas 6 Gavetas 275cm Cinamomo/Off White",
+  imageFile: "/imagens/produtos/guarda-roupa-casal-ripado-6-portas-6-gavetas-275x232cm-cinamomo-off-white-espresso.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-casal-ripado-6-portas-6-gavetas-275x232cm-cinamomo-off-white-espresso.webp",
+  alt: "Guarda-roupa casal ripado 6 portas com 6 gavetas Espresso Móveis 275x232cm cinamomo off white",
+  rating: 4.8,
+  reviews: 138,
+  discount: 15,
+  price: 2099.99,
+  originalPrice: 2499.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1GGoL8k",
+  descricao: `O Guarda-Roupa Casal Ripado da Espresso Móveis é a escolha definitiva para quem busca um móvel com design contemporâneo, acabamento premium e organização inteligente. Com linhas modernas e o elegante contraste entre Cinamomo e Off White, este guarda-roupa é a peça central que transforma qualquer quarto em um ambiente sofisticado e funcional.
+
+**Design Contemporâneo com Acabamento Ripado**
+Com impressionantes 275 cm de largura, 55,6 cm de profundidade e 232 cm de altura, este guarda-roupa oferece um espaço generoso para organizar todo o vestuário do casal. O acabamento ripado nas portas confere um visual texturizado e moderno, enquanto a combinação de cores Cinamomo/Off White adiciona elegância e versatilidade, combinando perfeitamente com diferentes estilos de decoração. As 6 portas com sistema de abertura de bater garantem fácil acesso a todas as áreas do móvel.
+
+**Organização Completa com Acabamento Premium**
+O guarda-roupa foi projetado para atender todas as necessidades de armazenamento de um casal:
+- **6 Gavetas com Corrediças Metálicas Telescópicas**: Oferecem acesso fácil e organizado para roupas íntimas, meias, acessórios e itens pessoais, com deslizamento suave e silencioso.
+- **10 Prateleiras Espaçosas**: Proporcionam versatilidade máxima para organizar roupas de cama, toalhas, malas e sapatos, otimizando o uso do espaço.
+- **2 Cabideiros Resistentes**: Oferecem amplo espaço para pendurar roupas curtas e longas, mantendo-as organizadas e sem amassados.
+- **Acabamento em Pintura UV**: Garante alta durabilidade, resistência a riscos e facilidade de limpeza.
+
+**Por que escolher o Guarda-roupa Espresso Móveis?**
+- 6 portas ripadas com design moderno e texturizado
+- 6 gavetas com corrediças metálicas telescópicas
+- 10 prateleiras espaçosas para versatilidade de armazenamento
+- 2 cabideiros resistentes para roupas curtas e longas
+- Acabamento em pintura UV de alta qualidade
+- Design moderno na cor Cinamomo/Off White, combinando com diferentes estilos
+- Estrutura resistente e durável
+- Manual de montagem e kit de ferragens incluso
+
+**Condições de Pagamento:**
+- À vista no Pix ou Saldo Mercado Pago: R$ 2.099,99
+- Em até 10x sem juros: R$ 212,00 por parcela
+- Cartão Mercado Pago Visa: 20% OFF adicional
+
+**Dúvidas Frequentes dos Nossos Clientes:**
+- Este guarda-roupa é bom para quartos grandes? Sim! Com 275 cm de largura, é ideal para quartos amplos e suítes, oferecendo espaço generoso para o casal.
+- O que é acabamento ripado? É um design texturizado nas portas que confere um visual moderno e sofisticado ao móvel.
+- As gavetas são resistentes? Sim, as gavetas possuem corrediças metálicas telescópicas e são de alta capacidade.
+- Quantos cabideiros tem? São 2 cabideiros para organizar roupas curtas e longas.
+- As prateleiras são ajustáveis? Sim, as 10 prateleiras oferecem versatilidade máxima para diferentes tipos de itens.
+- Qual o material do produto? É fabricado em MDF com pintura UV, garantindo alta durabilidade e resistência.
+- É fácil de montar? Sim, acompanha manual de montagem com instruções claras e kit de ferragens completo.
+- Vale a pena comprar? Sim! Excelente investimento para quem busca um guarda-roupa premium, com design ripado e organização completa.
+
+**Especificações Técnicas:**
+Marca: Espresso Móveis | Linha: Nova York | Material: MDF/MDP | Acabamento: Pintura UV | Cor: Cinamomo/Off White | Portas: 6 (abertura de bater) | Gavetas: 6 com corrediças metálicas telescópicas | Prateleiras: 10 | Cabideiros: 2 | Dimensões: 275 cm (L) x 55,6 cm (P) x 232 cm (A) | Peso: 232,9 kg | Estilo: Moderno | Montagem: Manual + Kit incluso | Garantia: 3 meses contra defeitos de fabricação.`,
+  marca: "Espresso Móveis",
+  keywords: [
+    "guarda roupa casal ripado 6 portas",
+    "guarda roupa com 6 gavetas e prateleiras",
+    "armario casal cinamomo off white",
+    "guarda roupa espresso moveis 275cm"
+  ],
+  seoTitle: "Guarda-Roupa Casal Ripado 6 Portas 6 Gavetas Espresso Móveis | Oferta",
+  seoDescription: "Guarda-roupa casal ripado 6 portas com 6 gavetas e 10 prateleiras. Design moderno, pintura UV, 15% OFF. Frete para todo Brasil."
+},
+{
+  id: "p-imp-070",
+  slug: "guarda-roupa-casal-ripado-6-portas-6-gavetas-275cm-espresso-cinamomo",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda Roupa Casal Ripado 6 Portas 6 Gavetas 275cm Espresso Móveis Cinamomo",
+  imageFile: "/imagens/produtos/guarda-roupa-casal-ripado-6-portas-6-gavetas-275cm-espresso-cinamomo.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-casal-ripado-6-portas-6-gavetas-275cm-espresso-cinamomo.webp",
+  alt: "Guarda roupa casal ripado 6 portas com 6 gavetas Espresso Móveis 275cm cinamomo",
+  rating: 4.7,
+  reviews: 45,
+  discount: 25,
+  price: 1954.99,
+  originalPrice: 2612.00,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/29AyGnK",
+  descricao: `O Guarda Roupa Casal Ripado 6 Portas 6 Gavetas 275cm da Espresso Móveis é a combinação perfeita de sofisticação, espaço e funcionalidade para o seu quarto. Com design contemporâneo e acabamento premium, este guarda-roupa foi projetado para transformar o dormitório em um ambiente moderno, bem organizado e cheio de estilo.
+
+**Design Imponente com Acabamento Ripado**
+Com impressionantes 275 cm de largura, 232 cm de altura e 56 cm de profundidade — a maior da categoria — este guarda-roupa oferece um espaço generoso para organizar todo o vestuário do casal. As portas laterais ripadas em MDF conferem um toque contemporâneo e sofisticado, enquanto as portas centrais com puxadores em MDF completam o design com harmonia. O acabamento em pintura UV na cor Cinamomo garante durabilidade, resistência e um visual elegante.
+
+**Estrutura Robusta e Acabamento Premium**
+Produzido com materiais de alta qualidade como MDP e MDF, o móvel garante resistência, estabilidade e longa durabilidade. Destaque para as dobradiças Slow Motion de 35 mm (quatro por porta), que proporcionam fechamento suave e silencioso, agregando mais conforto ao uso diário. A moldura e colunas laterais em MDF 25 mm, distanciadores das gavetas e costas inteiriças garantem reforço estrutural e robustez.
+
+**Organização Inteligente e Completa**
+O guarda-roupa foi projetado para atender todas as necessidades de armazenamento de um casal:
+- **6 Gavetas Internas com Puxadores em PVC e Corrediças Telescópicas**: Maior praticidade e suavidade na abertura, ideais para organizar roupas íntimas, meias e acessórios.
+- **10 Prateleiras Espaçosas**: Capacidade para 3 kg cada, proporcionam versatilidade máxima para organizar roupas de cama, toalhas, malas e sapatos.
+- **2 Cabideiros em Alumínio com Suportes Reforçados**: Oferecem amplo espaço para pendurar roupas curtas e longas, mantendo-as organizadas e sem amassados.
+- **8 Prateleiras Internas**: Para organização de diferentes tipos de itens.
+
+**Por que escolher o Guarda Roupa Espresso Móveis?**
+- 6 portas ripadas com design moderno e texturizado
+- 6 gavetas com corrediças telescópicas e puxadores em PVC
+- 10 prateleiras espaçosas para versatilidade de armazenamento
+- 2 cabideiros em alumínio com suportes reforçados
+- Dobradiças Slow Motion de 35 mm para fechamento suave
+- Acabamento em pintura UV de alta qualidade
+- Design moderno na cor Cinamomo, combinando com diferentes estilos
+- Estrutura robusta com reforço estrutural
+- Manual de montagem e kit de ferragens incluso
+
+**Condições de Pagamento:**
+- À vista no Pix ou Saldo Mercado Pago: R$ 1.954,99
+- Em até 10x sem juros: R$ 212,50 por parcela
+- Cartão Mercado Pago Visa: 20% OFF adicional
+
+**Dúvidas Frequentes dos Nossos Clientes:**
+- Este guarda-roupa é bom para quartos grandes? Sim! Com 275 cm de largura, é ideal para quartos amplos e suítes, oferecendo espaço generoso para o casal.
+- O que é acabamento ripado? É um design texturizado nas portas laterais que confere um visual moderno e sofisticado ao móvel.
+- As gavetas são resistentes? Sim, as gavetas possuem corrediças telescópicas e suportam até 3 kg cada.
+- Quantos cabideiros tem? São 2 cabideiros em alumínio para organizar roupas curtas e longas.
+- As prateleiras são ajustáveis? Sim, as 10 prateleiras oferecem versatilidade máxima para diferentes tipos de itens.
+- Qual o material do produto? É fabricado em MDF/MDP com pintura UV, garantindo alta durabilidade e resistência.
+- O que são dobradiças Slow Motion? São dobradiças que garantem fechamento suave e silencioso, evitando batidas.
+- Vale a pena comprar? Sim! Excelente investimento para quem busca um guarda-roupa premium, com design ripado e organização completa.
+
+**Especificações Técnicas:**
+Marca: Espresso Móveis | Linha: Nueva York | Material: MDF/MDP | Acabamento: Pintura UV | Cor: Cinamomo | Portas: 6 (ripadas, abertura de bater) | Gavetas: 6 com corrediças telescópicas (3 kg cada) | Prateleiras: 10 (3 kg cada) | Cabideiros: 2 em alumínio | Dobradiças: Slow Motion 35 mm (4 por porta) | Pés: Rodapé | Dimensões: 275 cm (L) x 56 cm (P) x 232 cm (A) | Peso: 232,9 kg | Estilo: Moderno | Montagem: Manual + Kit incluso | Garantia: 3 meses contra defeitos de fabricação.`,
+  marca: "Espresso Móveis",
+  keywords: [
+    "guarda roupa casal ripado 6 portas 6 gavetas",
+    "guarda roupa espresso moveis 275cm",
+    "armario casal cinamomo com gavetas",
+    "guarda roupa ripado com dobradica slow motion"
+  ],
+  seoTitle: "Guarda Roupa Casal Ripado 6 Portas 6 Gavetas 275cm Espresso Móveis | Oferta",
+  seoDescription: "Guarda roupa casal ripado 6 portas com 6 gavetas e 10 prateleiras. Dobradiças Slow Motion, pintura UV, 25% OFF. Frete para todo Brasil."
+},
+{
+  id: "p-imp-071",
+  slug: "guarda-roupa-solteiro-4-portas-2-gavetas-branco-manbel",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-roupa Solteiro 4 Portas 2 Gavetas Branco MDF Manbel 160x232cm",
+  imageFile: "/imagens/produtos/guarda-roupa-solteiro-4-portas-2-gavetas-branco-mdf-manbel-160x232cm.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-solteiro-4-portas-2-gavetas-branco-mdf-manbel-160x232cm.webp",
+  alt: "Guarda-roupa solteiro 4 portas 2 gavetas branco MDF Manbel 160x232cm",
+  rating: 4.9,
+  reviews: 467,
+  discount: 22,
+  price: 1214.00,
+  originalPrice: 1574.00,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2ivYRFb",
+  descricao: `O Guarda-roupa Solteiro 4 Portas 2 Gavetas da Manbel é a escolha perfeita para quem busca um móvel moderno, funcional e com excelente custo-benefício para o quarto. Fabricado em MDF de alta qualidade com acabamento em pintura UV, este guarda-roupa oferece durabilidade, resistência e um visual sofisticado na cor branca que valoriza qualquer ambiente.
+
+**Design Funcional que Otimiza Espaço**
+Com 160,5 cm de largura, 56 cm de profundidade e 232,2 cm de altura, este guarda-roupa foi projetado para oferecer amplo espaço de armazenamento sem ocupar área excessiva no quarto. As 4 portas com sistema de abertura de bater garantem fácil acesso a todas as áreas do móvel, enquanto o design moderno na cor branca adiciona luminosidade e elegância ao ambiente.
+
+**Organização Inteligente e Completa**
+O guarda-roupa foi projetado para atender todas as necessidades de armazenamento de uma pessoa:
+- **2 Gavetas com Corrediças Telescópicas**: Oferecem acesso fácil e organizado para roupas íntimas, meias e acessórios, mantendo tudo em ordem.
+- **6 Prateleiras Espaçosas**: Proporcionam versatilidade máxima para organizar roupas de cama, toalhas, malas e sapatos, otimizando o uso do espaço.
+- **1 Cabideiro Resistente em Alumínio**: Oferece amplo espaço para pendurar roupas curtas e longas, mantendo-as organizadas e sem amassados.
+- **Espaço para Calçados**: Design inteligente que inclui compartimento específico para sapatos.
+
+**Por que escolher o Guarda-roupa Manbel?**
+- 4 portas com sistema de abertura de bater
+- 2 gavetas com corrediças telescópicas
+- 6 prateleiras espaçosas para versatilidade de armazenamento
+- 1 cabideiro em alumínio para organização de roupas
+- Fabricado em MDF com pintura UV de alta qualidade
+- Design moderno na cor branca, combinando com diferentes estilos
+- Estrutura resistente e durável
+- Espaço para calçados integrado
+- Manual de montagem e kit de ferragens incluso
+
+**Condições de Pagamento:**
+- À vista no Pix ou Saldo Mercado Pago: R$ 1.214,00
+- Em até 10x sem juros: R$ 132,00 por parcela
+- Cartão Mercado Pago Visa: 20% OFF adicional
+
+**Dúvidas Frequentes dos Nossos Clientes:**
+- Este guarda-roupa é bom para quartos de solteiro? Sim! Com 160,5 cm de largura, é ideal para quartos de solteiro, oferecendo excelente capacidade de armazenamento sem ocupar espaço excessivo.
+- As gavetas são resistentes? Sim, as gavetas possuem corrediças telescópicas e são de alta capacidade.
+- Quantos cabideiros tem? É 1 cabideiro em alumínio para organizar roupas curtas e longas.
+- As prateleiras são ajustáveis? Sim, as 6 prateleiras oferecem versatilidade máxima para diferentes tipos de itens.
+- Qual o material do produto? É fabricado em MDF com pintura UV, garantindo alta durabilidade e resistência.
+- É fácil de montar? Sim, acompanha manual de montagem com instruções claras e kit de ferragens completo.
+- O guarda-roupa tem espaço para sapatos? Sim, o design inclui compartimento específico para calçados.
+- Vale a pena comprar? Sim! Excelente investimento para quem busca um guarda-roupa moderno, funcional e com ótima organização.
+
+**Especificações Técnicas:**
+Marca: Manbel | Modelo: 1007.09 | Material: MDF | Acabamento: Pintura UV | Cor: Branco | Portas: 4 (abertura de bater) | Gavetas: 2 com corrediças telescópicas | Prateleiras: 6 | Cabideiros: 1 em alumínio | Espaço para Calçados: Sim | Dimensões: 160,5 cm (L) x 56 cm (P) x 232,2 cm (A) | Peso: 141,1 kg | Estilo: Moderno | Montagem: Manual + Kit incluso | Garantia: 3 meses contra defeitos de fabricação.`,
+  marca: "Manbel",
+  keywords: [
+    "guarda roupa solteiro 4 portas",
+    "guarda roupa com 2 gavetas e prateleiras",
+    "armario solteiro branco mdf",
+    "guarda roupa manbel 160x232cm"
+  ],
+  seoTitle: "Guarda-roupa Solteiro 4 Portas 2 Gavetas Branco Manbel | Oferta",
+  seoDescription: "Guarda-roupa solteiro 4 portas com 2 gavetas e 6 prateleiras. MDF premium, pintura UV, 22% OFF. Frete para todo Brasil."
+},
+{
+  id: "p-imp-072",
+  slug: "guarda-roupa-solteiro-4-portas-com-bicama-e-bau-branco-espresso",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-roupa Solteiro 4 Portas com Bicama e Baú Branco MDF 160x200cm Espresso Móveis",
+  imageFile: "/imagens/produtos/guarda-roupa-solteiro-4-portas-com-bicama-e-bau-branco-mdf-160x200cm-espresso.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-solteiro-4-portas-com-bicama-e-bau-branco-mdf-160x200cm-espresso.webp",
+  alt: "Guarda-roupa solteiro 4 portas com bicama e baú branco MDF 160x200cm da Espresso Móveis",
+  rating: 4.9,
+  reviews: 18,
+  discount: 11,
+  price: 1434.99,
+  originalPrice: 1624.00,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1PK5Git",
+  descricao: `## Introdução
+
+O Guarda-roupa Solteiro 4 Portas com Bicama e Baú da Espresso Móveis é a solução definitiva para quem busca otimizar espaço sem abrir mão do design e da funcionalidade no quarto infantil ou de solteiro. Este móvel versátil combina três funções essenciais em um único produto: armário completo, cama auxiliar (bicama) e baú para organização extra. Produzido em 100% MDF com acabamento em pintura UV semi-brilho, oferece durabilidade, resistência e um visual moderno que se adapta a diferentes estilos de decoração.
+
+## Design e Acabamento
+
+Com dimensões de 160 cm de largura, 200 cm de altura e 45 cm de profundidade, este guarda-roupa foi projetado para atender quartos compactos sem comprometer a capacidade de armazenamento. O design clean e contemporâneo é valorizado pelo acabamento em pintura UV semi-brilho, que confere um toque sofisticado e facilita a limpeza. A estrutura robusta em MDF garante estabilidade e longa vida útil, com capacidade de peso de até 90 kg.
+
+O grande diferencial deste modelo está na bicama integrada, que pode ser montada para os dois lados (direito e esquerdo) ou removida para utilização com cama box solteiro. Os estrados e barrotes são fabricados em madeira maciça Pinus, garantindo resistência e durabilidade para o uso diário. A bicama suporta até 90 kg, sendo ideal para receber visitas ou irmãos.
+
+## Organização Inteligente
+
+O guarda-roupa foi projetado para maximizar a organização do quarto infantil ou de solteiro:
+
+- **4 Portas com sistema de abertura de bater** (tipo Bater) e puxadores embutidos, garantindo fácil acesso e um visual clean.
+- **2 Gavetas com corrediças telescópicas metálicas** para organizar roupas íntimas, meias e acessórios de forma prática.
+- **2 Prateleiras internas** para acomodar roupas de cama, toalhas e outros itens.
+- **1 Cabideiro em alumínio** para pendurar roupas curtas e longas, mantendo-as organizadas e sem amassados.
+- **Baú na cabeceira** com abertura auxiliada por dobradiças, ideal para guardar itens de uso menos frequente, como roupas de inverno, cobertores ou brinquedos.
+
+Os suportes bicolor (branco, rosa, azul e lilás) permitem personalizar o móvel de acordo com a preferência da criança, tornando o quarto ainda mais especial.
+
+## Ideal para
+
+- Quartos infantis
+- Quartos de solteiro
+- Apartamentos compactos
+- Casas com espaço reduzido
+- Ambientes que precisam de soluções multifuncionais
+
+## Para quem este produto é recomendado
+
+- Pais que buscam um móvel completo para o quarto dos filhos
+- Jovens solteiros que precisam otimizar espaço
+- Quem recebe visitas frequentes e precisa de uma cama extra
+- Pessoas que valorizam móveis multifuncionais e bem planejados
+
+## Diferenciais
+
+Diferente de outros guarda-roupas infantis, o modelo Bemzi da Espresso Móveis oferece três funções em um único móvel: armário, cama auxiliar e baú. A bicama pode ser montada em ambos os lados (direito ou esquerdo), adaptando-se à disposição do quarto. A possibilidade de escolher entre as cores branco, rosa, azul e lilás nos suportes permite personalizar o móvel conforme a preferência da criança. Além disso, a estrutura em 100% MDF com pintura UV garante maior durabilidade e resistência em comparação com móveis fabricados em outros materiais.
+
+## Motivos para comprar
+
+- 3 em 1: guarda-roupa, bicama e baú em um único móvel
+- Otimização de espaço em quartos pequenos
+- Estrutura em 100% MDF resistente e durável
+- Bicama com estrados de madeira maciça Pinus
+- Acabamento em pintura UV semi-brilho
+- Suportes bicolor para personalização (branco, rosa, azul, lilás)
+- 2 gavetas com corrediças telescópicas
+- Baú na cabeceira com abertura auxiliada por dobradiças
+- Fácil montagem com manual e kit de ferragens incluso
+- Design moderno e atemporal
+
+## Dúvidas Frequentes
+
+**1. Este guarda-roupa é bom para quartos pequenos?** Sim! Com 160 cm de largura e 45 cm de profundidade, ele é compacto e otimiza o espaço, sendo ideal para quartos infantis e de solteiro.
+
+**2. A bicama pode ser removida?** Sim, a bicama pode ser montada para os dois lados (direito e esquerdo) ou removida para utilização com cama box solteiro.
+
+**3. Qual o material da bicama?** Os estrados e barrotes são de madeira maciça Pinus, garantindo resistência e durabilidade.
+
+**4. Qual a capacidade de peso da bicama?** Suporta até 90 kg, sendo segura para crianças e adolescentes.
+
+**5. As cores dos suportes são personalizáveis?** Sim, o produto acompanha suportes bicolor (branco, rosa, azul e lilás) para que você escolha a cor que preferir.
+
+**6. O guarda-roupa é fácil de montar?** Sim, acompanha manual de montagem e kit de ferragens (parafusos, minifix e cavilhas).
+
+**7. Qual o material do guarda-roupa?** É fabricado em 100% MDF com acabamento em pintura UV semi-brilho.
+
+**8. O que vem incluso?** Inclui 1 guarda-roupa com cama de solteiro, kit ferragens e manual de montagem.
+
+## Especificações Técnicas
+
+| Característica | Detalhe |
+|----------------|---------|
+| **Marca** | Espresso Móveis |
+| **Modelo** | Bemzi |
+| **Material** | 100% MDF |
+| **Acabamento** | Pintura UV Semi-Brilho |
+| **Cor** | Branco (com suportes bicolor: branco, rosa, azul, lilás) |
+| **Dimensões** | 160 cm (L) x 45 cm (P) x 200 cm (A) |
+| **Peso** | 122,1 kg |
+| **Capacidade de Peso** | 90 kg (guarda-roupa e bicama) |
+| **Portas** | 4 (abertura de bater) |
+| **Gavetas** | 2 com corrediças telescópicas metálicas |
+| **Prateleiras** | 2 |
+| **Cabideiro** | 1 em alumínio |
+| **Baú** | Sim (na cabeceira, com abertura auxiliada por dobradiças) |
+| **Bicama** | Sim (estrados de madeira maciça Pinus) |
+| **Indicado para colchão** | 88 cm x 188 cm |
+| **Garantia** | 3 meses contra defeitos de fabricação |
+
+## Conclusão
+
+O Guarda-roupa Solteiro 4 Portas com Bicama e Baú da Espresso Móveis é a solução ideal para quem busca um móvel completo, funcional e com excelente custo-benefício. Combinando guarda-roupa, cama auxiliar e baú em um único produto, ele otimiza espaço e oferece organização inteligente para quartos infantis e de solteiro. A estrutura em 100% MDF, o acabamento em pintura UV e a versatilidade da bicama fazem deste modelo uma escolha certeira para pais e jovens que valorizam qualidade, design e praticidade.`,
+  marca: "Espresso Móveis",
+  keywords: [
+    "guarda roupa solteiro 4 portas com bicama",
+    "guarda roupa infantil com cama e baú",
+    "guarda roupa mdf 160x200cm",
+    "bicama guarda roupa",
+    "guarda roupa solteiro com bicama e baú",
+    "guarda roupa infantil 4 portas",
+    "guarda roupa com cama auxiliar",
+    "móvel para quarto infantil com bicama",
+    "guarda roupa espresso moveis",
+    "guarda roupa com baú e bicama"
+  ],
+  seoTitle: "Guarda-roupa Solteiro 4 Portas com Bicama e Baú Branco | Oferta",
+  seoDescription: "Guarda-roupa solteiro 4 portas com bicama e baú em MDF. Ideal para quartos infantis, otimiza espaço com cama auxiliar. 11% OFF. Frete para todo Brasil."
+},
+{
+  id: "p-imp-073",
+  slug: "guarda-roupa-infantil-4-portas-3-gavetas-com-cama-lisboa-espresso",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-roupa Infantil 4 Portas 3 Gavetas com Cama Lisboa Espresso Móveis Off White/Castanho",
+  imageFile: "/imagens/produtos/guarda-roupa-infantil-4-portas-3-gavetas-com-cama-lisboa-157x200cm-off-white-castanho-espresso.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-infantil-4-portas-3-gavetas-com-cama-lisboa-157x200cm-off-white-castanho-espresso.webp",
+  alt: "Guarda-roupa infantil 4 portas com 3 gavetas e cama Lisboa 157x200cm off white e castanho da Espresso Móveis",
+  rating: 4.8,
+  reviews: 109,
+  discount: 12,
+  price: 857.48,
+  originalPrice: 974.00,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2KkZbAB",
+  descricao: `## Introdução
+
+O Guarda-Roupa Infantil com Cama 4 Portas 3 Gavetas Lisboa da Espresso Móveis é a solução perfeita para transformar o quarto das crianças em um ambiente funcional, organizado e cheio de estilo. Este móvel versátil combina duas funções essenciais em um único produto: armário completo e cama confortável. Com design moderno e acabamento de alta qualidade, o modelo Lisboa é ideal para otimizar espaços em quartos infantis, oferecendo praticidade no dia a dia e beleza na decoração.
+
+## Design e Acabamento
+
+Com 157 cm de largura, 216 cm de profundidade e 200 cm de altura, este guarda-roupa foi projetado para atender as necessidades das crianças, oferecendo um espaço generoso para roupas e brinquedos sem ocupar área excessiva no quarto. As 4 portas com sistema de abertura de bater proporcionam fácil acesso a todos os compartimentos, enquanto a cama integrada oferece um local confortável para descansar.
+
+O acabamento em pintura texturizada UV semi-brilho confere um visual sofisticado e durável, resistindo ao desgaste do uso diário. A combinação de cores Off White e Castanho cria um contraste elegante e atemporal, que combina perfeitamente com diferentes estilos de decoração infantil. Os puxadores externos em ABS adicionam um toque de funcionalidade e design.
+
+## Organização Inteligente
+
+O guarda-roupa foi projetado para maximizar a organização no quarto infantil:
+
+- **4 Portas**: Com abertura de bater e puxadores externos, garantem fácil acesso e um visual moderno.
+- **3 Gavetas externas**: Com corrediças metálicas simples, oferecem espaço extra para organizar roupas íntimas, meias, acessórios e itens pequenos.
+- **1 Cabideiro resistente**: Para pendurar roupas curtas e longas, mantendo-as organizadas e sem amassados.
+- **Estrutura em MDP**: Garante resistência e durabilidade para o uso diário.
+- **Cama integrada**: Perfeita para descanso, com design que otimiza o espaço do quarto.
+
+## Ideal para
+
+- Quartos infantis
+- Quartos de solteiro
+- Apartamentos compactos
+- Casas com espaço reduzido
+- Ambientes que precisam de soluções multifuncionais
+- Crianças em fase de crescimento
+
+## Para quem este produto é recomendado
+
+- Pais que buscam um móvel completo para o quarto dos filhos
+- Crianças e adolescentes que precisam de espaço para roupas e um local para descansar
+- Quem mora em apartamentos compactos e precisa otimizar espaço
+- Pessoas que valorizam móveis funcionais e bem planejados
+- Famílias que buscam móveis duráveis e com design moderno
+
+## Diferenciais
+
+Diferente de outros guarda-roupas infantis, o modelo Lisboa da Espresso Móveis oferece duas funções em um único móvel: armário e cama. A estrutura em MDP com acabamento em pintura texturizada UV garante maior durabilidade e resistência em comparação com móveis fabricados em outros materiais. O design com puxadores externos em ABS facilita o uso diário pelas crianças, enquanto a combinação de cores Off White e Castanho oferece um visual sofisticado e atemporal.
+
+## Motivos para comprar
+
+- 2 em 1: guarda-roupa e cama em um único móvel
+- Otimização de espaço em quartos infantis
+- Estrutura em MDP resistente e durável
+- Acabamento em pintura texturizada UV
+- Design moderno na combinação Off White e Castanho
+- 3 gavetas para organização completa
+- 1 cabideiro para pendurar roupas
+- Puxadores externos em ABS para fácil uso
+- Fácil montagem com manual e kit de ferragens incluso
+
+## Dúvidas Frequentes
+
+**1. Este guarda-roupa é bom para quartos infantis pequenos?** Sim! Com 157 cm de largura e 216 cm de profundidade, ele é compacto e otimiza o espaço, sendo ideal para quartos infantis e de solteiro.
+
+**2. A cama é confortável para crianças?** Sim, a cama integrada oferece um espaço confortável para descanso, com design que garante estabilidade e segurança.
+
+**3. As gavetas são fáceis de abrir pelas crianças?** Sim, as gavetas possuem corrediças metálicas simples e puxadores externos que facilitam o uso diário.
+
+**4. Qual o material do guarda-roupa?** É fabricado em MDP com acabamento em pintura texturizada UV semi-brilho.
+
+**5. É fácil de montar?** Sim, acompanha manual de montagem e kit de ferragens para instalação simplificada.
+
+**6. O guarda-roupa tem cabideiro?** Sim, possui 1 cabideiro para pendurar roupas curtas e longas.
+
+**7. A combinação de cores é adequada para quartos infantis?** Sim, as cores Off White e Castanho criam um contraste elegante e combinam com diferentes estilos de decoração infantil.
+
+**8. O que vem incluso?** Inclui 1 guarda-roupa com cama, kit ferragens e manual de montagem.
+
+## Especificações Técnicas
+
+| Característica | Detalhe |
+|----------------|---------|
+| **Marca** | Espresso Móveis |
+| **Modelo** | Lisboa |
+| **Material** | MDP / MDF |
+| **Acabamento** | Pintura Texturizada UV Semi-Brilho |
+| **Cor** | Off White / Castanho |
+| **Cor Interna** | Ártico |
+| **Dimensões** | 157 cm (L) x 216 cm (P) x 200 cm (A) |
+| **Peso** | 95 kg |
+| **Portas** | 4 (abertura de bater) |
+| **Gavetas** | 3 (externas, com corrediças metálicas simples) |
+| **Cabideiro** | 1 |
+| **Puxadores** | Externos em ABS |
+| **Tipo de Porta** | Bater |
+| **Estilo** | Moderno |
+| **Ambiente Principal** | Quarto Infantil |
+| **Garantia** | 3 meses contra defeitos de fabricação |
+
+## Conclusão
+
+O Guarda-Roupa Infantil com Cama 4 Portas 3 Gavetas Lisboa da Espresso Móveis é a solução ideal para pais que buscam um móvel completo, funcional e com excelente custo-benefício para o quarto das crianças. Combinando guarda-roupa e cama em um único produto, ele otimiza espaço e oferece organização inteligente para o dia a dia. A estrutura em MDP, o acabamento em pintura texturizada UV e o design moderno fazem deste modelo uma escolha certeira para quem valoriza qualidade, praticidade e estilo.`,
+  marca: "Espresso Móveis",
+  keywords: [
+    "guarda roupa infantil com cama",
+    "guarda roupa 4 portas 3 gavetas",
+    "guarda roupa lisboa espresso moveis",
+    "guarda roupa infantil off white castanho",
+    "armario com cama infantil",
+    "guarda roupa para quarto infantil",
+    "moveis para quarto de criança",
+    "guarda roupa 157x200cm",
+    "guarda roupa com gavetas e cabideiro",
+    "guarda roupa espresso moveis infantil"
+  ],
+  seoTitle: "Guarda-roupa Infantil 4 Portas 3 Gavetas com Cama Lisboa | Oferta",
+  seoDescription: "Guarda-roupa infantil 4 portas com 3 gavetas e cama integrada. MDP resistente, design off white e castanho, 12% OFF. Frete para todo Brasil."
+},
+{
+  id: "p-imp-074",
+  slug: "closet-solteiro-4-gavetas-freijo-branco-amoudi",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Closet Solteiro Premium 4 Gavetas Freijó Amoudi Móveis Cor Branco",
+  imageFile: "/imagens/produtos/closet-solteiro-4-gavetas-freijo-branco-amoudi-moveis-133x208cm.webp",
+  displayImage: "/imagens/produtos/closet-solteiro-4-gavetas-freijo-branco-amoudi-moveis-133x208cm.webp",
+  alt: "Closet solteiro 4 gavetas freijó branco Amoudi Móveis 133x208cm",
+  rating: 4.6,
+  reviews: 50,
+  discount: 29,
+  price: 1069.90,
+  originalPrice: 1519.99,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1iAyjQ5",
+  descricao: `## Introdução
+
+O Closet Solteiro Premium 4 Gavetas da Amoudi Móveis é a solução definitiva para quem busca organização, estilo e funcionalidade no quarto. Projetado para otimizar espaços, este closet oferece ampla capacidade de armazenamento com design moderno e acabamento de alta qualidade. Ideal para quartos de solteiro, apartamentos compactos e ambientes que valorizam a praticidade sem abrir mão da elegância, o modelo da Amoudi Móveis é a escolha certa para quem deseja um móvel durável, bonito e funcional.
+
+## Design e Acabamento
+
+Com 133 cm de largura, 46,10 cm de profundidade e 208,30 cm de altura, este closet foi projetado para oferecer amplo espaço de armazenamento sem ocupar área excessiva no quarto. A estrutura em MDP com acabamento em pintura UV confere um visual moderno e sofisticado na cor branca, que combina perfeitamente com diferentes estilos de decoração. O peso de 101,40 kg e a capacidade de suporte de 45 kg por módulo garantem estabilidade e durabilidade para o uso diário.
+
+O design clean e funcional valoriza qualquer ambiente, enquanto a pintura UV oferece maior resistência a riscos e facilidade de limpeza, mantendo o móvel com aspecto de novo por mais tempo.
+
+## Organização Inteligente
+
+O closet foi projetado para atender todas as necessidades de armazenamento de uma pessoa:
+
+- **4 Gavetas Espaçosas**: Ideais para organizar roupas íntimas, meias, acessórios e itens pessoais, mantendo tudo em ordem e de fácil acesso.
+- **6 Prateleiras Bem Distribuídas**: Perfeitas para acomodar roupas de cama, toalhas, caixas organizadoras e outros objetos, aproveitando melhor o espaço interno.
+- **Cabideiro em Alumínio**: Oferece amplo espaço para pendurar roupas curtas e longas, mantendo-as organizadas e sem amassados.
+- **Maleiro Espaçoso**: Para acomodar volumes maiores, como edredons e cobertores.
+- **4 Nichos Modernos**: Garantem um toque de elegância e funcionalidade, permitindo expor objetos decorativos ou manter itens de uso frequente à mão.
+
+## Ideal para
+
+- Quartos de solteiro
+- Apartamentos compactos
+- Casas com espaço reduzido
+- Ambientes que precisam de soluções de organização
+- Pessoas que valorizam design moderno e funcionalidade
+
+## Para quem este produto é recomendado
+
+- Jovens solteiros que buscam um closet completo e funcional
+- Pessoas que moram em apartamentos compactos e precisam otimizar espaço
+- Quem valoriza móveis duráveis com acabamento de alta qualidade
+- Pessoas que buscam organização inteligente no quarto
+- Famílias que desejam um móvel versátil e bonito
+
+## Diferenciais
+
+Diferente de outros closets disponíveis no mercado, o modelo da Amoudi Móveis se destaca pelo acabamento em pintura UV de alta qualidade, que oferece maior durabilidade e resistência. A estrutura em MDP garante estabilidade e longa vida útil, enquanto o design com 4 nichos modernos adiciona um toque de elegância ao ambiente. A combinação de 4 gavetas, 6 prateleiras, cabideiro em alumínio e maleiro espaçoso oferece uma organização completa para o dia a dia.
+
+## Motivos para comprar
+
+- 4 gavetas espaçosas para organização completa
+- 6 prateleiras bem distribuídas para versatilidade de armazenamento
+- Cabideiro em alumínio para pendurar roupas
+- Maleiro espaçoso para volumes maiores
+- 4 nichos modernos para elegância e funcionalidade
+- Acabamento em pintura UV de alta qualidade
+- Estrutura em MDP resistente e durável
+- Design moderno na cor branca
+- Fácil montagem com manual e kit de ferragens incluso
+- Excelente custo-benefício
+
+## Dúvidas Frequentes
+
+**1. Este closet é bom para quartos pequenos?** Sim! Com 133 cm de largura, ele é compacto e otimiza o espaço, sendo ideal para quartos de solteiro e apartamentos.
+
+**2. As gavetas são resistentes?** Sim, as gavetas são espaçosas e projetadas para uso diário com durabilidade.
+
+**3. O closet tem cabideiro?** Sim, possui cabideiro em alumínio para pendurar roupas curtas e longas.
+
+**4. Qual o material do produto?** É fabricado em MDP com acabamento em pintura UV de alta qualidade.
+
+**5. É fácil de montar?** Sim, acompanha manual de montagem e kit de ferragens para instalação simplificada.
+
+**6. As prateleiras são ajustáveis?** As 6 prateleiras oferecem versatilidade para organizar diferentes tipos de itens.
+
+**7. O closet tem nichos decorativos?** Sim, possui 4 nichos modernos que garantem um toque de elegância ao ambiente.
+
+**8. O que vem incluso?** Inclui 1 closet, kit ferragens e manual de montagem.
+
+## Especificações Técnicas
+
+| Característica | Detalhe |
+|----------------|---------|
+| **Marca** | Amoudi Móveis |
+| **Material** | MDP |
+| **Acabamento** | Pintura UV |
+| **Cor** | Branco |
+| **Dimensões** | 133 cm (L) x 46,10 cm (P) x 208,30 cm (A) |
+| **Peso** | 101,40 kg |
+| **Capacidade de Suporte** | 45 kg por módulo |
+| **Gavetas** | 4 |
+| **Prateleiras** | 6 |
+| **Cabideiro** | 1 em alumínio |
+| **Maleiro** | 1 |
+| **Nichos** | 4 |
+| **Estilo** | Moderno |
+| **Ambiente Principal** | Quarto |
+| **Garantia** | 3 meses contra defeitos de fabricação |
+
+## Conclusão
+
+O Closet Solteiro Premium 4 Gavetas da Amoudi Móveis é a escolha ideal para quem busca um móvel completo, funcional e com excelente custo-benefício para o quarto. Combinando 4 gavetas, 6 prateleiras, cabideiro em alumínio, maleiro espaçoso e 4 nichos modernos, ele oferece organização inteligente e design sofisticado para o dia a dia. A estrutura em MDP, o acabamento em pintura UV e o design moderno fazem deste closet uma opção certeira para quem valoriza qualidade, praticidade e estilo.`,
+  marca: "Amoudi Móveis",
+  keywords: [
+    "closet solteiro 4 gavetas",
+    "closet freijo branco",
+    "closet amoudi moveis",
+    "closet 133x208cm",
+    "closet com gavetas e prateleiras",
+    "closet para quarto solteiro",
+    "moveis para quarto compacto",
+    "closet com cabideiro e maleiro",
+    "closet premium 4 gavetas",
+    "closet modulado branco"
+  ],
+  seoTitle: "Closet Solteiro 4 Gavetas Freijó Branco Amoudi Móveis | Oferta",
+  seoDescription: "Closet solteiro 4 gavetas com prateleiras, cabideiro e nichos. MDP pintura UV, 29% OFF. Frete para todo Brasil."
+},
+{
+  id: "p-imp-075",
+  slug: "guarda-roupa-solteiro-2-portas-6-gavetas-espelho-branco-capri-tonielque",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda Roupa Solteiro Capri 2 Portas 6 Gav Com Espelho Cor Branco Tonielque Móveis",
+  imageFile: "/imagens/produtos/guarda-roupa-solteiro-2-portas-6-gavetas-espelho-branco-capri-tonielque.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-solteiro-2-portas-6-gavetas-espelho-branco-capri-tonielque.webp",
+  alt: "Guarda roupa solteiro 2 portas com 6 gavetas e espelho branco Capri Tonielque Móveis",
+  rating: 4.7,
+  reviews: 133,
+  discount: 18,
+  price: 649.90,
+  originalPrice: 799.00,
+  badge: "Oferta Imperdível",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/13Q1oWA",
+  descricao: `## Introdução
+
+O Guarda Roupa Solteiro Capri 2 Portas da Tonielque Móveis é a escolha perfeita para quem busca um móvel moderno, funcional e com excelente custo-benefício para o quarto. Com design clean e acabamento de alta qualidade, este guarda-roupa oferece ampla capacidade de armazenamento e organização inteligente, sendo ideal para quartos de solteiro, apartamentos compactos e ambientes que valorizam a praticidade sem abrir mão da elegância.
+
+## Design e Acabamento
+
+Com design moderno e elegante, o Guarda Roupa Capri se adapta perfeitamente a qualquer ambiente, desde quartos infantis até suítes de solteiro. A estrutura em MDF de alta qualidade garante durabilidade e resistência, enquanto o acabamento em cor branca fosca traz leveza e sofisticação ao espaço, combinando com diferentes estilos de decoração.
+
+As 2 portas com espelho são um dos grandes diferenciais deste modelo, proporcionando uma sensação de amplitude e luminosidade ao ambiente, além de serem indispensáveis na hora de se arrumar. O sistema de abertura deslizante (portas de correr) economiza espaço, sendo ideal para quartos compactos.
+
+## Organização Inteligente
+
+O guarda-roupa foi projetado para atender todas as necessidades de armazenamento de uma pessoa:
+
+- **6 Gavetas Espaçosas**: Perfeitas para organizar roupas íntimas, meias, acessórios e itens pessoais, mantendo tudo em ordem e de fácil acesso.
+- **2 Prateleiras**: Ideais para acomodar roupas de cama, toalhas, caixas organizadoras e outros objetos, aproveitando melhor o espaço interno.
+- **1 Cabideiro de Madeira**: Oferece espaço para pendurar roupas curtas e longas, mantendo-as organizadas e sem amassados.
+- **Espelho Integrado**: Amplia visualmente o ambiente e facilita a rotina de se arrumar.
+
+## Ideal para
+
+- Quartos de solteiro
+- Apartamentos compactos
+- Casas com espaço reduzido
+- Ambientes que precisam de soluções de organização
+- Pessoas que valorizam design moderno e funcionalidade
+- Estudantes e jovens solteiros
+
+## Para quem este produto é recomendado
+
+- Jovens solteiros que buscam um guarda-roupa completo e funcional
+- Pessoas que moram em apartamentos compactos e precisam otimizar espaço
+- Quem valoriza móveis duráveis com acabamento de alta qualidade
+- Pessoas que buscam organização inteligente no quarto
+- Famílias que desejam um móvel versátil e bonito
+
+## Diferenciais
+
+Diferente de outros guarda-roupas disponíveis no mercado, o modelo Capri da Tonielque Móveis se destaca pelas 6 gavetas espaçosas, oferecendo organização superior para roupas e acessórios. As portas com espelho integrado ampliam visualmente o ambiente e agregam funcionalidade ao móvel. O sistema de portas de correr economiza espaço, sendo ideal para quartos compactos. A capacidade de peso de 67 kg garante robustez e durabilidade para o uso diário.
+
+## Motivos para comprar
+
+- 6 gavetas espaçosas para organização completa
+- 2 prateleiras para versatilidade de armazenamento
+- 1 cabideiro de madeira para pendurar roupas
+- Espelho integrado para praticidade no dia a dia
+- Portas de correr para economia de espaço
+- Acabamento em cor branca fosca de alta qualidade
+- Estrutura em MDF resistente e durável
+- Design moderno e elegante
+- Capacidade de peso de 67 kg
+- Fácil montagem com manual e kit de ferragens incluso
+
+## Dúvidas Frequentes
+
+**1. Este guarda-roupa é bom para quartos pequenos?** Sim! Com portas de correr, ele não ocupa espaço extra ao abrir, sendo ideal para quartos compactos e apartamentos.
+
+**2. As gavetas são espaçosas?** Sim, as 6 gavetas são amplas e ideais para organizar roupas íntimas, meias e acessórios.
+
+**3. O guarda-roupa tem espelho?** Sim, as portas possuem espelho integrado, que amplia visualmente o ambiente e facilita a rotina de se arrumar.
+
+**4. Qual o material do produto?** É fabricado em MDF de alta qualidade com acabamento em cor branca fosca.
+
+**5. É fácil de montar?** Sim, acompanha manual de montagem e kit de ferragens para instalação simplificada.
+
+**6. As portas são de correr?** Sim, o sistema de abertura é deslizante, economizando espaço no quarto.
+
+**7. O guarda-roupa tem cabideiro?** Sim, possui 1 cabideiro de madeira para pendurar roupas curtas e longas.
+
+**8. Qual a capacidade de peso do guarda-roupa?** Suporta até 67 kg, garantindo robustez e durabilidade.
+
+## Especificações Técnicas
+
+| Característica | Detalhe |
+|----------------|---------|
+| **Marca** | Tonielque Móveis |
+| **Modelo** | Capri |
+| **Material** | MDF |
+| **Acabamento** | Cor Branca Fosca |
+| **Cor** | Branco |
+| **Portas** | 2 (correr) |
+| **Gavetas** | 6 |
+| **Prateleiras** | 2 |
+| **Cabideiro** | 1 (madeira) |
+| **Espelho** | Sim (integrado) |
+| **Capacidade de Peso** | 67 kg |
+| **Estilo** | Moderno |
+| **Ambiente Principal** | Quarto |
+| **Garantia** | 3 meses contra defeitos de fabricação |
+
+## Conclusão
+
+O Guarda Roupa Solteiro Capri 2 Portas da Tonielque Móveis é a solução ideal para quem busca um móvel completo, funcional e com excelente custo-benefício para o quarto. Combinando 6 gavetas, 2 prateleiras, cabideiro de madeira e espelho integrado, ele oferece organização inteligente e design sofisticado para o dia a dia. A estrutura em MDF, o acabamento em cor branca fosca e as portas de correr fazem deste guarda-roupa uma opção certeira para quem valoriza qualidade, praticidade e estilo.`,
+  marca: "Tonielque Móveis",
+  keywords: [
+    "guarda roupa solteiro 2 portas",
+    "guarda roupa capri tonielque",
+    "guarda roupa com 6 gavetas e espelho",
+    "guarda roupa branco com espelho",
+    "guarda roupa solteiro com gavetas",
+    "armario solteiro com espelho",
+    "guarda roupa 2 portas de correr",
+    "moveis para quarto solteiro",
+    "guarda roupa com cabideiro e prateleiras",
+    "guarda roupa tonielque moveis"
+  ],
+  seoTitle: "Guarda Roupa Solteiro 2 Portas 6 Gavetas com Espelho Branco | Oferta",
+  seoDescription: "Guarda roupa solteiro 2 portas com 6 gavetas e espelho integrado. MDF de qualidade, 18% OFF. Frete para todo Brasil."
+},
+{
+  id: "p-imp-076",
+  slug: "guarda-roupa-solteiro-2-portas-correr-espelho-branco-yescasa",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Solteiro 2 Portas de Correr com Espelho e 2 Gavetas Branco Yescasa Peônia",
+  imageFile: "/imagens/produtos/guarda-roupa-solteiro-2-portas-correr-espelho-branco-yescasa.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-solteiro-2-portas-correr-espelho-branco-yescasa.webp",
+  alt: "Guarda-roupa solteiro branco com 2 portas de correr, espelho retangular e 2 gavetas internas da marca Yescasa",
+  rating: 4.6,
+  reviews: 450,
+  discount: 22,
+  price: 743.80,
+  originalPrice: 962.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1DZwXDS",
+  descricao: `
+# Guarda-Roupa Solteiro com Espelho 2 Portas de Correr e 2 Gavetas Peônia Yescasa Branco
+
+## 📌 Introdução
+
+Transforme seu quarto com o **Guarda-Roupa Solteiro Peônia**, a solução ideal para quem busca organização, funcionalidade e estilo em um design moderno. Projetado para otimizar espaços, este móvel é perfeito para quartos de solteiro, oferecendo excelente capacidade de armazenamento sem comprometer a circulação.
+
+Com um design clean e acabamento em pintura UV brilhante, este roupeiro da renomada marca Yescasa combina perfeitamente com diferentes estilos de decoração, desde os mais minimalistas até os mais clássicos. Sua estrutura em MDP de alta qualidade garante durabilidade e resistência para o dia a dia.
+
+## 📌 Principais Benefícios
+
+O **guarda-roupa solteiro 2 portas** oferece uma série de vantagens que vão muito além do simples armazenamento de roupas. Cada característica foi pensada para facilitar sua rotina e melhorar a organização do seu ambiente.
+
+**Sistema de portas de correr:** As duas portas deslizantes economizam espaço precioso no quarto, pois não exigem área livre para abertura. Isso é especialmente vantajoso em quartos menores ou com disposição de móveis mais compacta. Você pode posicionar o móvel rente à parede ou próximo a outros objetos sem se preocupar com o espaço necessário para abrir as portas.
+
+**Espelho integrado:** Uma das portas conta com um espelho retangular de alta qualidade, que oferece três benefícios principais: permite que você confira seu visual antes de sair, amplia a sensação de espaço no ambiente e reflete a luz natural ou artificial, deixando o quarto mais iluminado e arejado.
+
+**Gavetas internas:** As duas gavetas internas são perfeitas para organizar roupas íntimas, meias, acessórios e peças menores que precisam ficar protegidas e bem arrumadas. Com acabamento em pintura UV fosca, elas garantem durabilidade e facilidade na limpeza.
+
+**Cabideiros e prateleiras:** Os dois cabideiros permitem pendurar camisas, blusas, calças e vestidos sem amassar, mantendo suas peças sempre prontas para uso. As prateleiras oferecem espaço extra para roupas dobradas, caixas organizadoras, toalhas e até mesmo calçados, aproveitando cada centímetro do móvel.
+
+## 📌 Design
+
+O **Guarda-Roupa Peônia** apresenta um design contemporâneo que valoriza qualquer ambiente. Sua cor branca predominante transmite sensação de limpeza, amplitude e sofisticação, enquanto os detalhes em acabamento brilhante adicionam um toque de elegância.
+
+As portas com pintura UV brilhante recebem um tratamento especial que confere alta resistência a riscos, manchas e umidade, mantendo o móvel com aspecto de novo por muito mais tempo. Os puxadores externos em alumínio com acabamento cromado complementam o visual clean e moderno, além de oferecerem durabilidade e facilidade no manuseio diário.
+
+O espelho retangular integrado à porta é posicionado estrategicamente para proporcionar um campo de visão amplo, permitindo que você visualize o corpo inteiro com facilidade. Este detalhe não só adiciona funcionalidade como também se torna um elemento decorativo que valoriza ainda mais o móvel.
+
+## 📌 Organização
+
+A organização interna do **guarda-roupa de solteiro** foi cuidadosamente planejada para atender às necessidades do dia a dia. Com dimensões de 202 cm de altura, 131 cm de largura e 52 cm de profundidade, o móvel oferece espaço generoso sem ocupar área excessiva no quarto.
+
+**Divisão inteligente dos espaços:**
+- **Parte superior:** Ideal para armazenar roupas de cama, toalhas, edredons e itens de uso menos frequente
+- **Cabideiros centrais:** Perfeitos para pendurar camisas, blazers, calças e vestidos
+- **Prateleiras intermediárias:** Excelentes para roupas dobradas, caixas organizadoras e acessórios
+- **Gavetas inferiores:** Reservadas para peças íntimas, meias, cintos e pequenos acessórios
+
+Esta distribuição permite que você mantenha tudo em seu devido lugar, facilitando encontrar o que precisa e mantendo o quarto sempre arrumado. A profundidade de 52 cm é suficiente para acomodar cabides convencionais e peças volumosas sem dificuldade.
+
+## 📌 Ideal para
+
+- **Apartamentos:** O sistema de portas de correr é perfeito para ambientes com espaço reduzido
+- **Casas:** Versátil e funcional para diferentes cômodos e configurações
+- **Quartos pequenos:** O design compacto otimiza o espaço disponível
+- **Quartos grandes:** Complementa a decoração sem sobrecarregar o ambiente
+- **Solteiros:** Tamanho ideal para uma pessoa com necessidades moderadas de armazenamento
+- **Estudantes:** Prático e funcional para quem busca organização em quartos de república ou kitnets
+- **Escritórios:** Pode ser utilizado como armário auxiliar para guardar pastas, materiais e uniformes
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **guarda-roupa com espelho** é especialmente recomendado para:
+
+**Jovens e solteiros** que buscam um móvel funcional, bonito e com excelente custo-benefício para seu primeiro quarto ou apartamento. O design moderno agrada aos gostos mais contemporâneos e a capacidade de armazenamento atende perfeitamente as necessidades de uma pessoa.
+
+**Profissionais que moram sozinhos** e precisam de um armário prático que mantenha roupas e acessórios organizados para a rotina de trabalho. O espelho integrado é um diferencial importante para quem valoriza a aparência no dia a dia.
+
+**Estudantes universitários** que vivem em repúblicas, kitnets ou moradias estudantis e precisam de um móvel compacto, resistente e com boa relação custo-benefício.
+
+**Quem está reformando ou decorando** um quarto e deseja um guarda-roupa com design atual, acabamento de qualidade e funcionalidades modernas sem gastar uma fortuna.
+
+## 📌 Diferenciais
+
+O **Guarda-Roupa Yescasa Peônia** se destaca da concorrência por diversos motivos que vale a pena destacar:
+
+**Acabamento em Pintura UV:** Diferente dos móveis com acabamento em laminado ou melamínico comum, a pintura UV recebe um processo de cura por luz ultravioleta que resulta em uma superfície extremamente resistente a riscos, manchas e desgaste. Isso significa que seu guarda-roupa manterá a aparência impecável por muito mais tempo.
+
+**MDP de Alta Qualidade:** O Material de Densidade Média (MDP) utilizado na fabricação é de procedência nacional e passa por rigorosos controles de qualidade, garantindo estabilidade dimensional, resistência e durabilidade superiores aos móveis de madeira aglomerada comum.
+
+**Sistema de Corrediças Metálicas:** As portas de correr utilizam corrediças metálicas que garantem um deslizamento suave e silencioso, sem travamentos ou desgastes prematuros. Este sistema é mais durável e confiável que os sistemas plásticos encontrados em móveis de menor qualidade.
+
+**Espelho de Qualidade:** O espelho integrado à porta possui excelente definição de imagem, sem distorções, e é fixado com segurança para evitar acidentes e garantir durabilidade.
+
+**Design Inteligente:** A combinação de portas de correr com espelho em uma das portas demonstra um cuidado especial com a funcionalidade e estética, resultado de um projeto bem pensado para atender às reais necessidades do usuário.
+
+**Relação Custo-Benefício:** Considerando a qualidade dos materiais, o acabamento superior, as funcionalidades oferecidas e o design moderno, este guarda-roupa apresenta um excelente custo-benefício, especialmente quando comparado a móveis de marcas mais caras com especificações semelhantes.
+
+## 📌 Motivos para Comprar
+
+✅ **Portas de correr que economizam espaço** - ideal para quartos pequenos ou com disposição de móveis limitada
+
+✅ **Espelho integrado de alta qualidade** - funcionalidade e senso de amplitude para o ambiente
+
+✅ **Acabamento em pintura UV brilhante** - resistente a riscos e manchas, fácil de limpar
+
+✅ **Estrutura em MDP nacional de alta densidade** - garantia de durabilidade e resistência
+
+✅ **2 gavetas internas espaçosas** - organização perfeita para roupas íntimas e acessórios
+
+✅ **2 cabideiros** - mantenha camisas, calças e vestidos sem amassar
+
+✅ **Prateleiras versáteis** - espaço extra para roupas dobradas, caixas e calçados
+
+✅ **Design moderno e atemporal** - combina com diferentes estilos de decoração
+
+✅ **Puxadores em alumínio cromado** - durabilidade e toque sofisticado
+
+✅ **Produto nacional com garantia de 3 meses** - qualidade e segurança na compra
+
+✅ **Mais de 1000 vendas e 450 avaliações positivas** - comprovada satisfação dos clientes
+
+✅ **Entrega em todo o Brasil** - praticidade para comprar de qualquer região
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Todos os nossos produtos são novos, enviados de nossos fornecedores diretamente para as casas de nossos clientes. Você receberá um guarda-roupa em sua embalagem original, com todos os acessórios e manual de montagem.
+
+**2. O produto vem montado? Se não, vocês realizam a montagem?**
+
+Todos os nossos produtos acompanham seus respectivos manuais de montagem e instalação, que são simples e fáceis de serem seguidos. Não oferecemos serviço de montagem, mas o processo é intuitivo e pode ser feito por duas pessoas em poucas horas.
+
+**3. Vocês possuem loja física? Posso retirar meu produto em mãos?**
+
+Não trabalhamos com loja física, apenas com loja virtual. Nos comprometemos em cumprir a entrega na data combinada no ato da compra e trabalhamos ao máximo para que seja entregue o quanto antes.
+
+**4. Quanto é o valor de frete? Posso pagar o frete separadamente?**
+
+O valor do frete varia de acordo com o CEP de destino. Você pode calcular o valor e prazo de entrega do seu frete no simulador de entrega, abaixo das opções de pagamento, no lado direito do anúncio.
+
+**5. Vocês entregam no Brasil inteiro? Como é feita a entrega?**
+
+Sim, entregamos em todo o Brasil! A entrega é realizada por nossas transportadoras parceiras, com todo o cuidado e segurança que seu móvel merece.
+
+**6. Eu tenho direito ao frete grátis pelo Mercado Pontos, como faço para usar?**
+
+Infelizmente, não participamos do Mercado Pontos, portanto não podemos conceder tal benefício. Mas oferecemos descontos exclusivos para pagamentos via Pix e cartões de crédito.
+
+**7. Vocês fazem agendamento de entregas?**
+
+Não fazemos agendamento específico, mas trabalhamos com um prazo de entrega baseado na localização de nossos fornecedores e no CEP de destino. Nos comprometemos com a entrega dentro do prazo limite informado no momento da compra.
+
+**8. O produto acompanha Nota Fiscal?**
+
+Sim, os produtos são entregues com suas respectivas notas fiscais. Além disso, uma cópia da NF é enviada para você por e-mail no momento da postagem da entrega, garantindo total transparência e segurança na sua compra.
+
+**9. Qual é o horário de atendimento de vocês?**
+
+Nosso horário de atendimento é de segunda à sexta-feira, das 8h às 18h (exceto feriados). Estamos sempre prontos para tirar suas dúvidas e ajudar no que for necessário.
+
+**10. O guarda-roupa tem garantia? Qual é a cobertura?**
+
+Sim, o produto possui garantia de 3 meses contra defeitos de fabricação. A garantia cobre problemas estruturais, de acabamento e de funcionamento dos componentes.
+
+**11. O espelho é resistente? Ele vem fixado na porta?**
+
+Sim, o espelho é de alta qualidade e vem fixado com segurança na porta do guarda-roupa, utilizando sistemas de fixação robustos que garantem estabilidade e durabilidade.
+
+**12. Quantas pessoas são necessárias para a montagem?**
+
+Recomendamos que a montagem seja realizada por pelo menos duas pessoas, devido ao tamanho e peso do móvel (aproximadamente 85 kg). O processo é classificado como de complexidade média e pode ser concluído em algumas horas com as ferramentas adequadas.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Yescasa |
+| **Linha/Coleção** | Peônia |
+| **Cor Predominante** | Branco |
+| **Acabamento** | Pintura UV (Brilhante nas portas / Fosco nas gavetas e prateleiras) |
+| **Material Principal** | MDP (Material de Densidade Média) |
+| **Material das Portas** | MDP |
+| **Material das Gavetas** | MDP |
+| **Material das Prateleiras** | MDP |
+| **Material do Puxador** | Alumínio com acabamento cromado |
+| **Altura** | 202 cm |
+| **Largura** | 131,4 cm |
+| **Profundidade** | 52 cm |
+| **Peso** | 84,85 kg |
+| **Quantidade de Portas** | 2 portas (sistema de correr) |
+| **Quantidade de Gavetas** | 2 gavetas internas |
+| **Quantidade de Prateleiras** | 2 prateleiras |
+| **Quantidade de Cabideiros** | 2 cabideiros |
+| **Quantidade de Espelhos** | 1 espelho retangular integrado à porta |
+| **Tipo de Porta** | Correr (deslizante) |
+| **Tipo de Gaveta** | Interna |
+| **Tipo de Puxador** | Externo (portas) / Não possui (gavetas) |
+| **Tipo de Corrediça** | Metálica simples (gavetas) |
+| **Garantia** | 3 meses |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim (complexidade média) |
+| **Ambiente Principal** | Quarto |
+| **Estilo** | Moderno |
+| **Itens Inclusos** | 1 Guarda-Roupa / Acessórios / Manual de Montagem |
+| **Suporte Máximo por Prateleira** | 6 kg |
+| **Suporte Máximo por Gaveta** | 3 kg |
+| **Suporte Máximo Total** | 40 kg |
+
+## 📌 Conclusão
+
+O **Guarda-Roupa Solteiro com Espelho 2 Portas de Correr e 2 Gavetas Peônia Yescasa** é a escolha perfeita para quem busca aliar funcionalidade, design e qualidade a um preço acessível. Com acabamento em pintura UV de alta resistência, estrutura em MDP nacional, sistema de portas de correr que otimiza espaços e espelho integrado, este móvel atende todas as necessidades de organização e estilo para um quarto moderno.
+
+O excelente custo-benefício, aliado à reputação da marca Yescasa, às mais de 1000 vendas realizadas e à avaliação de 4,6 estrelas com 450 reviews positivos, comprovam que este é um produto confiável e que entrega exatamente o que promete. Se você procura um guarda-roupa durável, bonito e funcional para seu quarto, o modelo Peônia é uma escolha que certamente trará satisfação e organização ao seu dia a dia.
+
+Aproveite o desconto de 22% no pagamento via Pix e garanta já o seu guarda-roupa com entrega em todo o Brasil!
+  `,
+  marca: "Yescasa",
+  keywords: [
+    "guarda-roupa solteiro",
+    "guarda-roupa 2 portas",
+    "guarda-roupa com espelho",
+    "guarda-roupa de correr",
+    "guarda-roupa branco",
+    "guarda-roupa Yescasa",
+    "guarda-roupa Peônia",
+    "guarda-roupa com gavetas",
+    "guarda-roupa MDP",
+    "guarda-roupa pintura UV",
+    "móvel para quarto",
+    "armário de quarto",
+    "roupeiro solteiro",
+    "guarda-roupa compacto",
+    "guarda-roupa moderno",
+    "guarda-roupa pequeno",
+    "móvel com espelho",
+    "armário com portas de correr",
+    "guarda-roupa 131cm",
+    "guarda-roupa 202cm"
+  ],
+  seoTitle: "Guarda-Roupa Solteiro 2 Portas com Espelho Yescasa | Branco",
+  seoDescription: "Guarda-roupa solteiro com 2 portas de correr, espelho e 2 gavetas. Acabamento em pintura UV, MDP resistente. 4.6★ (450 reviews). Aproveite!"
+},
+{
+  id: "p-imp-077",
+  slug: "guarda-roupa-solteiro-4-portas-espelho-fortaleza-atualle-canelato-rustico",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Solteiro 4 Portas com Espelho Fortaleza Atualle Canelato Rústico com Off White",
+  imageFile: "/imagens/produtos/guarda-roupa-solteiro-4-portas-espelho-fortaleza-atualle-canelato-rustico.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-solteiro-4-portas-espelho-fortaleza-atualle-canelato-rustico.webp",
+  alt: "Guarda-roupa solteiro com 4 portas, espelho, acabamento em canelato rústico e off white da marca Atualle",
+  rating: 4.5,
+  reviews: 135,
+  discount: 26,
+  price: 464.39,
+  originalPrice: 635.00,
+  badge: "Oferta Imperdível",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1v55uC8",
+  descricao: `
+# Guarda-Roupa Solteiro 4 Portas com Espelho Fortaleza Atualle Canelato Rústico com Off White
+
+## 📌 Introdução
+
+Transforme seu quarto com o **Guarda-Roupa Solteiro Fortaleza**, uma peça que combina design rústico contemporâneo com funcionalidade excepcional. Desenvolvido pela renomada marca Atualle, este móvel foi projetado para quem busca um ambiente acolhedor, organizado e com personalidade única.
+
+O acabamento em Canelato Rústico com Off White traz uma textura diferenciada que remete ao estilo industrial e campestre ao mesmo tempo, criando um ponto focal charmoso em qualquer decoração. Com 4 portas amplas, sendo duas com espelho, este roupeiro oferece espaço generoso para armazenar todas as suas peças com praticidade e estilo.
+
+## 📌 Principais Benefícios
+
+O **guarda-roupa solteiro 4 portas** da linha Fortaleza foi cuidadosamente projetado para oferecer benefícios reais no dia a dia, indo muito além do simples armazenamento de roupas.
+
+**Quatro portas com design inteligente:** O sistema com 4 portas de bater, sendo duas com espelho, proporciona acesso facilitado a todas as áreas do guarda-roupa. As portas com espelho oferecem o benefício duplo de permitir que você confira seu visual e ampliem a sensação de espaço no ambiente, refletindo a luz e criando uma atmosfera mais arejada.
+
+**Acabamento exclusivo Canelato Rústico:** Este acabamento texturizado traz um charme especial ao móvel, com um visual que remete à madeira rústica e ao estilo industrial. A combinação com Off White cria um contraste suave e sofisticado, tornando o guarda-roupa uma peça decorativa por si só.
+
+**Estrutura em MDP de alta qualidade:** A utilização de MDP (Material de Densidade Média) na estrutura garante maior durabilidade, estabilidade e resistência, superando a madeira aglomerada comum em termos de qualidade e longevidade.
+
+**Organização interna versátil:** Com 2 gavetas, 2 prateleiras e 1 cabideiro, você terá opções variadas para armazenar diferentes tipos de peças, desde roupas íntimas e acessórios até camisas, calças e vestidos.
+
+**Dimensões compactas e funcionais:** Com 99 cm de largura, 180 cm de altura e apenas 40 cm de profundidade, este guarda-roupa é ideal para quartos com espaço limitado, otimizando cada centímetro disponível.
+
+## 📌 Design
+
+O **Guarda-Roupa Fortaleza** da Atualle se destaca pelo seu design único e personalidade marcante. O acabamento em Canelato Rústico cria uma textura visual e tátil que remete à madeira de demolição e ao estilo industrial, enquanto o Off White suaviza o visual, trazendo equilíbrio e sofisticação.
+
+Os puxadores em MDF amadeirado complementam perfeitamente o conceito rústico, adicionando um toque natural e acolhedor ao móvel. A combinação de cores e texturas faz com que este guarda-roupa se destaque em qualquer ambiente, seja em quartos com decoração mais tradicional, rústica, industrial ou contemporânea.
+
+Os pés em PVC marrom claro de 5 cm elevam o móvel, facilitando a limpeza do piso e criando uma sensação de leveza visual. O acabamento fosco em toda a superfície não apenas realça a textura do Canelato Rústico como também facilita a limpeza e manutenção do dia a dia.
+
+## 📌 Organização
+
+Com **99 cm de largura, 180 cm de altura e 40 cm de profundidade**, o Guarda-Roupa Fortaleza oferece uma organização interna eficiente que aproveita ao máximo o espaço disponível.
+
+**Divisão inteligente dos espaços:**
+
+**Área superior:** Perfeita para guardar roupas de cama, toalhas, edredons e itens de uso sazonal que não precisam ser acessados com frequência.
+
+**Cabideiro central:** O cabideiro em madeira revestido permite pendurar camisas, blusas, calças, vestidos e outras peças que precisam ser mantidas sem amassar.
+
+**Prateleiras intermediárias:** As duas prateleiras são ideais para organizar roupas dobradas, caixas organizadoras, bolsas e acessórios. Cada prateleira suporta até 5 kg.
+
+**Gavetas inferiores:** As duas gavetas amplas são perfeitas para guardar roupas íntimas, meias, cintos, gravatas e pequenos acessórios, mantendo tudo organizado e de fácil acesso. Cada gaveta suporta até 5 kg.
+
+**Espelhos nas portas:** As duas portas com espelho integrado não apenas facilitam a rotina de se vestir como também ampliam visualmente o ambiente, uma vantagem significativa para quartos menores.
+
+## 📌 Ideal para
+
+- **Apartamentos compactos:** A profundidade reduzida de 40 cm é perfeita para otimizar espaços
+- **Quartos de solteiro:** Tamanho ideal para uma pessoa
+- **Quartos de hóspedes:** Funcional e charmoso para receber visitas
+- **Kitnets e studios:** Design versátil que combina com diferentes estilos
+- **Quartos infantis:** Tamanho adequado para crianças e adolescentes
+- **Repúblicas e moradias estudantis:** Custo-benefício e durabilidade
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **guarda-roupa com espelho e 4 portas** é especialmente recomendado para:
+
+**Solteiros e jovens adultos** que buscam um móvel com design diferenciado, que fuja do convencional e traga personalidade ao quarto. O acabamento Canelato Rústico é perfeito para quem gosta de um estilo mais autêntico e acolhedor.
+
+**Pessoas com quartos pequenos** que precisam otimizar o espaço sem abrir mão da funcionalidade. A profundidade de 40 cm é um diferencial importante para ambientes reduzidos.
+
+**Quem valoriza design e textura** e busca um móvel que seja não apenas funcional, mas também um elemento decorativo de destaque no ambiente.
+
+**Profissionais e estudantes** que precisam de um guarda-roupa prático, com bom espaço de armazenamento, a um preço acessível.
+
+**Quem está montando o primeiro apartamento** e deseja um móvel com excelente custo-benefício, design atual e qualidade duradoura.
+
+## 📌 Diferenciais
+
+O **Guarda-Roupa Solteiro Fortaleza Atualle** se destaca da concorrência por diversos motivos que merecem destaque:
+
+**Acabamento Canelato Rústico:** Este é o grande diferencial do produto. O efeito canelado cria uma textura única que agrada aos olhos e ao toque, trazendo um ar de exclusividade e sofisticação rústica que poucos móveis no mercado oferecem.
+
+**Combinação de cores equilibrada:** A escolha do Canelato Rústico com Off White demonstra um cuidado especial com o design, criando um visual harmônico que combina com diferentes paletas de cores e estilos de decoração.
+
+**Estrutura em MDP de qualidade:** A utilização de MDP na estrutura garante maior durabilidade e resistência, superando a madeira aglomerada comum. Este material é mais denso, mais estável e menos propenso a empenamentos.
+
+**Sistema de portas com espelho:** Duas das quatro portas possuem espelhos integrados, proporcionando funcionalidade extra e ampliando visualmente o ambiente. Este é um detalhe que agrega valor significativo ao móvel.
+
+**Ferragens de qualidade:** As corrediças metálicas de 300 mm e as dobradiças metálicas de 25 mm garantem durabilidade e suavidade no uso diário, evitando travamentos e desgastes prematuros.
+
+**Profundidade otimizada:** Com apenas 40 cm de profundidade, este guarda-roupa foi projetado para ambientes onde cada centímetro conta, sem sacrificar a capacidade de armazenamento.
+
+**Design versátil:** O estilo rústico contemporâneo permite que o móvel seja utilizado em diferentes contextos, desde quartos mais tradicionais até ambientes industriais e modernos.
+
+## 📌 Motivos para Comprar
+
+✅ **Design exclusivo com acabamento Canelato Rústico** - textura única que valoriza a decoração
+
+✅ **4 portas amplas, sendo 2 com espelho** - funcionalidade e sensação de amplitude
+
+✅ **Estrutura em MDP de alta qualidade** - durabilidade e resistência superiores
+
+✅ **Profundidade de 40 cm** - ideal para otimizar espaços reduzidos
+
+✅ **2 gavetas internas espaçosas** - organização para roupas íntimas e acessórios
+
+✅ **2 prateleiras e 1 cabideiro** - versatilidade no armazenamento
+
+✅ **Puxadores em MDF amadeirado** - toque natural e sofisticado
+
+✅ **Acabamento fosco** - facilita a limpeza e manutenção
+
+✅ **Ferragens metálicas de qualidade** - durabilidade e suavidade no uso
+
+✅ **Pés elevados de 5 cm** - facilidade na limpeza e leveza visual
+
+✅ **Marca Atualle com mais de 100 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.5 estrelas com 135 reviews** - satisfação dos clientes
+
+✅ **Oferta imperdível com 26% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Todos os nossos produtos são novos, enviados diretamente de nossos fornecedores para a sua casa. Você receberá o guarda-roupa em sua embalagem original, lacrado e com todos os acessórios.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte e evitar danos. Acompanha manual de montagem com instruções claras e ilustrativas para que você possa montar com facilidade.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem é considerada de complexidade média, podendo ser realizada por duas pessoas com ferramentas básicas como chave de fenda, martelo de borracha e trena. O manual de instruções é detalhado e fácil de seguir.
+
+**4. Quanto tempo dura a montagem?**
+
+Em média, a montagem pode levar de 2 a 4 horas, dependendo da experiência e do número de pessoas envolvidas. Recomendamos separar um tempo tranquilo para realizar a montagem com calma.
+
+**5. O guarda-roupa tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Atualle. Consulte os termos específicos no manual do produto.
+
+**6. O espelho é resistente? Vem fixado na porta?**
+
+Sim, o espelho é de boa qualidade e vem fixado com segurança na porta do guarda-roupa. O sistema de fixação é robusto e garante estabilidade.
+
+**7. Qual o peso máximo que as prateleiras suportam?**
+
+Cada prateleira suporta até 5 kg de peso distribuído uniformemente. As gavetas também suportam até 5 kg cada.
+
+**8. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança na sua compra.
+
+**9. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**10. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras, com total segurança e cuidado com seu produto.
+
+**11. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor. O produto deve estar em sua embalagem original, sem sinais de uso.
+
+**12. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito (à vista ou parcelados) e saldo do Mercado Pago. Consulte a página do anúncio para ver todas as opções disponíveis.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Atualle |
+| **Linha/Coleção** | Fortaleza |
+| **Cor** | Canelato Rústico com Off White |
+| **Acabamento** | Fosco / Texturizado (Canelato Rústico) |
+| **Material Principal** | MDP (Material de Densidade Média) |
+| **Material da Estrutura** | MDP |
+| **Material dos Puxadores** | MDF Amadeirado |
+| **Material dos Pés** | PVC Marrom Claro (5 cm) |
+| **Altura** | 180 cm |
+| **Largura** | 99 cm |
+| **Profundidade** | 40 cm |
+| **Quantidade de Portas** | 4 portas (sistema de bater) |
+| **Quantidade de Portas com Espelho** | 2 portas |
+| **Quantidade de Gavetas** | 2 gavetas internas |
+| **Quantidade de Prateleiras** | 2 prateleiras |
+| **Quantidade de Cabideiros** | 1 cabideiro em madeira revestido |
+| **Tipo de Porta** | Bater (abertura frontal) |
+| **Tipo de Gaveta** | Interna |
+| **Tipo de Puxador** | MDF Amadeirado |
+| **Tipo de Corrediça** | Metálica 300 mm |
+| **Tipo de Dobradiça** | Metálica 25 mm |
+| **Pés** | 4 pés em PVC, 5 cm de altura |
+| **Suporte por Prateleira** | 5 kg |
+| **Suporte por Gaveta** | 5 kg |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim (complexidade média) |
+| **Ambiente Principal** | Quarto |
+| **Estilo** | Rústico Contemporâneo / Industrial |
+| **Itens Inclusos** | 1 Guarda-Roupa / Acessórios de Montagem / Manual de Instruções |
+| **Observação** | Imagens ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Guarda-Roupa Solteiro 4 Portas com Espelho Fortaleza Atualle** é uma escolha inteligente para quem busca um móvel com design marcante, excelente funcionalidade e ótimo custo-benefício. Com acabamento exclusivo em Canelato Rústico, estrutura em MDP de qualidade, 4 portas amplas sendo duas com espelho e uma organização interna completa, este guarda-roupa atende todas as necessidades de um quarto de solteiro com estilo e personalidade.
+
+A combinação única de textura, cores e design faz deste móvel uma peça que certamente será o destaque da decoração do seu quarto, enquanto a praticidade e o espaço de armazenamento garantem organização e funcionalidade no dia a dia.
+
+Aproveite a **Oferta Imperdível** com 26% de desconto no pagamento via Pix e garanta já o seu Guarda-Roupa Fortaleza! Com mais de 100 vendas realizadas e avaliação de 4,5 estrelas, este é um produto que já conquistou a confiança de muitos clientes.
+  `,
+  marca: "Atualle",
+  keywords: [
+    "guarda-roupa solteiro",
+    "guarda-roupa 4 portas",
+    "guarda-roupa com espelho",
+    "guarda-roupa canelato rústico",
+    "guarda-roupa off white",
+    "guarda-roupa Atualle",
+    "guarda-roupa Fortaleza",
+    "guarda-roupa com gavetas",
+    "guarda-roupa MDP",
+    "guarda-roupa rústico",
+    "móvel para quarto",
+    "armário de quarto",
+    "guarda-roupa 99cm",
+    "guarda-roupa 180cm",
+    "guarda-roupa compacto",
+    "guarda-roupa industrial",
+    "guarda-roupa texturizado",
+    "armário com espelho",
+    "guarda-roupa pequeno",
+    "móvel solteiro"
+  ],
+  seoTitle: "Guarda-Roupa Solteiro 4 Portas com Espelho Atualle | Canelato Rústico",
+  seoDescription: "Guarda-roupa solteiro com 4 portas, espelho e acabamento Canelato Rústico. Estrutura MDP, 2 gavetas. 4.5★ (135 reviews). Oferta imperdível!"
+},
+{
+  id: "p-imp-078",
+  slug: "guarda-roupa-2-portas-freijo-off-white-notavel-nt-5170",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa 2 Portas com Espelho NT 5170 Freijó com Off White - Notável",
+  imageFile: "/imagens/produtos/guarda-roupa-2-portas-freijo-off-white-notavel-nt-5170.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-2-portas-freijo-off-white-notavel-nt-5170.webp",
+  alt: "Guarda-roupa 2 portas com espelho na cor Freijó com Off White da marca Notável modelo NT 5170",
+  rating: 4.6,
+  reviews: 277,
+  discount: 22,
+  price: 468.17,
+  originalPrice: 600.00,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2Ka7uha",
+  descricao: `
+# Guarda-Roupa 2 Portas com Espelho NT 5170 Freijó com Off White - Notável
+
+## 📌 Introdução
+
+O **Guarda-Roupa 2 Portas NT 5170** da renomada marca Notável é a solução perfeita para quem busca um móvel compacto, funcional e com design sofisticado para o quarto. Desenvolvido especialmente para ambientes com espaço reduzido, este guarda-roupa combina elegância, praticidade e excelente custo-benefício.
+
+Com um visual que mescla o tom amadeirado do Freijó com o Off White, este móvel traz aconchego e luminosidade ao ambiente, adaptando-se perfeitamente a diferentes estilos de decoração. Seja para um quarto de solteiro, de casal ou até mesmo um espaço de hóspedes, o modelo NT 5170 entrega organização e estilo sem ocupar muito espaço.
+
+## 📌 Principais Benefícios
+
+O **guarda-roupa 2 portas Notável** foi projetado para oferecer benefícios reais que facilitam o dia a dia e melhoram a organização do seu quarto.
+
+**Design compacto e funcional:** Com 108 cm de largura, 188 cm de altura e 45 cm de profundidade, este móvel se encaixa perfeitamente em quartos com pouco espaço útil, sem comprometer a circulação. É a escolha ideal para apartamentos compactos, kitnets e quartos menores.
+
+**Espelho integrado para praticidade:** O espelho presente no guarda-roupa permite que você confira seu visual antes de sair, eliminando a necessidade de um espelho separado no quarto. Além disso, o espelho reflete a luz natural e artificial, ampliando a sensação de espaço e deixando o ambiente mais iluminado e arejado.
+
+**Organização interna completa:** Com 3 gavetas espaçosas e uma prateleira, você terá opções variadas para organizar roupas íntimas, acessórios, peças dobradas e itens de uso diário. As gavetas com corrediças metálicas garantem abertura suave e durabilidade no uso frequente.
+
+**Acabamento premium em Pintura UV:** O acabamento em Pintura Ultravioleta confere alta resistência a riscos, manchas e desgaste, mantendo o móvel com aspecto de novo por muito mais tempo. A combinação do tom Freijó amadeirado com o Off White brilhante cria um visual sofisticado e atemporal.
+
+**Cabideiros para peças penduradas:** Os cabideiros permitem pendurar camisas, blusas, calças e vestidos sem amassar, mantendo suas roupas sempre prontas para uso e facilitando a escolha do look do dia.
+
+## 📌 Design
+
+O **Guarda-Roupa NT 5170** da Notável apresenta um design que equilibra perfeitamente o tradicional e o contemporâneo. A combinação de cores Freijó com Off White é uma escolha inteligente que agrada aos mais diversos gostos e estilos de decoração.
+
+**Acabamento Freijó:** O tom amadeirado Freijó traz aconchego e naturalidade ao ambiente, remetendo à madeira de alta qualidade. Este acabamento é obtido através de pintura UV que realça os veios e a textura natural da madeira, proporcionando um visual rico e sofisticado.
+
+**Acabamento Off White Brilhante:** O Off White com acabamento brilhante adiciona luminosidade e modernidade ao móvel, criando um contraste elegante com o Freijó. O brilho reflete a luz do ambiente, tornando o quarto mais claro e arejado.
+
+**Design clean e minimalista:** As linhas retas e o design despojado tornam este guarda-roupa versátil, combinando com decorações modernas, clássicas, rústicas e contemporâneas. É um móvel que não sai de moda e se adapta a diferentes fases da vida.
+
+**Detalhes que fazem a diferença:** A pintura UV com acabamento amadeirado no Freijó e o brilho no Off White demonstram o cuidado da marca Notável com a qualidade e os detalhes estéticos.
+
+## 📌 Organização
+
+A organização interna do **guarda-roupa 2 portas** foi cuidadosamente planejada para maximizar o espaço disponível e atender às necessidades do dia a dia.
+
+**Distribuição inteligente dos espaços:**
+
+**Parte superior:** Ideal para armazenar roupas de cama, toalhas, edredons e itens de uso menos frequente, aproveitando a altura total de 188 cm.
+
+**Cabideiros:** Perfeitos para pendurar camisas, blazers, calças, vestidos e outras peças que precisam ser mantidas sem amassar. O espaço é suficiente para um guarda-roupa de solteiro ou para peças selecionadas de um casal.
+
+**Prateleira intermediária:** A prateleira oferece espaço extra para organizar roupas dobradas, caixas organizadoras, bolsas, mochilas e acessórios, mantendo tudo ao alcance das mãos.
+
+**Gavetas inferiores:** As três gavetas são ideais para guardar roupas íntimas, meias, cintos, gravatas, lenços e pequenos acessórios. Com corrediças metálicas, as gavetas abrem e fecham suavemente, garantindo durabilidade e praticidade no uso diário.
+
+**Espelho na porta:** O espelho integrado à porta não apenas facilita a rotina de se vestir como também elimina a necessidade de um espelho separado, economizando espaço no quarto.
+
+## 📌 Ideal para
+
+- **Apartamentos compactos:** O design com 45 cm de profundidade otimiza espaços reduzidos
+- **Quartos de solteiro:** Tamanho ideal para uma pessoa
+- **Quartos de hóspedes:** Funcional e charmoso para receber visitas
+- **Kitnets e studios:** Design versátil que combina com diferentes estilos
+- **Quartos infantis e adolescentes:** Tamanho adequado para crianças em crescimento
+- **Repúblicas e moradias estudantis:** Custo-benefício e durabilidade
+- **Segundo quarto ou quarto auxiliar:** Complementa a decoração sem ocupar muito espaço
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **guarda-roupa 2 portas Notável** é especialmente recomendado para:
+
+**Solteiros e jovens adultos** que buscam um móvel funcional, bonito e com excelente custo-benefício para seu primeiro quarto ou apartamento. O design versátil agrada aos mais diversos gostos e a capacidade de armazenamento atende perfeitamente as necessidades de uma pessoa.
+
+**Pessoas com quartos pequenos** que precisam otimizar o espaço sem abrir mão da funcionalidade e do estilo. A profundidade de 45 cm é um diferencial importante para ambientes reduzidos.
+
+**Quem valoriza acabamento de qualidade** e busca um móvel com pintura UV que garanta durabilidade e resistência ao desgaste do dia a dia.
+
+**Estudantes universitários** que vivem em repúblicas, kitnets ou moradias estudantis e precisam de um móvel compacto, resistente e com boa relação custo-benefício.
+
+**Quem está montando o primeiro apartamento** e deseja um móvel com design atual, acabamento de qualidade e funcionalidades modernas sem gastar uma fortuna.
+
+**Casais com espaço limitado** que buscam um guarda-roupa auxiliar ou para roupas de temporada.
+
+## 📌 Diferenciais
+
+O **Guarda-Roupa NT 5170 Notável** se destaca da concorrência por diversos motivos que merecem destaque:
+
+**Pintura UV de alta qualidade:** Diferente dos móveis com acabamento em laminado ou melamínico comum, a pintura UV recebe um processo de cura por luz ultravioleta que resulta em uma superfície extremamente resistente a riscos, manchas e desgaste. Isso significa que seu guarda-roupa manterá a aparência impecável por muito mais tempo, com cores vibrantes e acabamento uniforme.
+
+**Combinação de cores sofisticada:** A escolha do Freijó com Off White demonstra um cuidado especial com o design, criando um visual harmônico que combina com diferentes paletas de cores e estilos de decoração. O contraste entre o tom amadeirado e o branco suave traz equilíbrio e sofisticação.
+
+**Corrediças metálicas de qualidade:** As gavetas utilizam corrediças metálicas que garantem um deslizamento suave e silencioso, sem travamentos ou desgastes prematuros. Este sistema é mais durável e confiável que os sistemas plásticos encontrados em móveis de menor qualidade.
+
+**Espelho de boa qualidade:** O espelho integrado à porta possui excelente definição de imagem, sem distorções, sendo fixado com segurança para evitar acidentes e garantir durabilidade.
+
+**Dimensões otimizadas:** Com 188 cm de altura, 108 cm de largura e 45 cm de profundidade, este guarda-roupa foi projetado para ambientes onde cada centímetro conta, oferecendo espaço generoso sem ocupar área excessiva no quarto.
+
+**Marca Notável com mais de 1000 vendas:** A reputação da marca e o alto volume de vendas comprovam a confiabilidade e a satisfação dos clientes com este produto.
+
+**Relação custo-benefício:** Considerando a qualidade dos materiais, o acabamento superior, as funcionalidades oferecidas e o design moderno, este guarda-roupa apresenta um excelente custo-benefício.
+
+## 📌 Motivos para Comprar
+
+✅ **Design compacto com 45 cm de profundidade** - ideal para quartos com espaço limitado
+
+✅ **Acabamento em pintura UV de alta qualidade** - resistente a riscos e manchas
+
+✅ **Combinação Freijó com Off White** - visual sofisticado e atemporal
+
+✅ **Espelho integrado** - praticidade e sensação de amplitude
+
+✅ **3 gavetas com corrediças metálicas** - organização silenciosa e durável
+
+✅ **Cabideiros para roupas penduradas** - mantenha camisas e calças sem amassar
+
+✅ **Prateleira versátil** - espaço extra para roupas dobradas e acessórios
+
+✅ **Marca Notável com mais de 1000 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.6 estrelas com 277 reviews** - satisfação dos clientes
+
+✅ **22% de desconto no Pix** - excelente custo-benefício
+
+✅ **Produto nacional com garantia de 90 dias** - qualidade e segurança
+
+✅ **Entrega em todo o Brasil** - praticidade para comprar de qualquer região
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Todos os produtos da MoveisAqui são novos, enviados diretamente para as casas de nossos clientes. Você receberá o guarda-roupa em sua embalagem original, lacrado e com todos os acessórios.
+
+**2. O produto vem montado? Se não, vocês realizam a montagem?**
+
+A MoveisAqui não disponibiliza serviço de montagem. Todos os produtos seguem com manual de instalação e as ferragens necessárias. Alguns produtos possuem vídeo explicando o passo a passo da montagem para facilitar o processo.
+
+**3. Vocês possuem loja física? Posso retirar meu produto em mãos?**
+
+Não possuímos loja física, apenas loja virtual. Confira as opções de envio ao colocar o seu CEP no simulador de frete disponível na página do anúncio.
+
+**4. Qual é o valor do envio? Posso pagar separadamente?**
+
+O valor do envio é calculado com base no peso e volume do produto, e no CEP de destino. Você pode calcular o valor e prazo de entrega no simulador disponível na página do anúncio.
+
+**5. A MoveisAqui entrega em todo Brasil? Como é feita a entrega?**
+
+Sim, entregamos no Brasil inteiro (salvo algumas exceções) através de transportadoras parceiras especializadas em entregas de móveis, com todo o cuidado e segurança.
+
+**6. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança na sua compra.
+
+**7. Os produtos possuem garantia?**
+
+Sim. A MoveisAqui oferece 3 meses (90 dias) de garantia para defeitos de fabricação, conforme especificado na descrição do produto.
+
+**8. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas como chave de fenda, martelo de borracha e trena. O manual de instruções é detalhado e alguns produtos contam com vídeos explicativos para facilitar o processo.
+
+**9. Quanto tempo dura a montagem?**
+
+Em média, a montagem pode levar de 2 a 4 horas, dependendo da experiência e do número de pessoas envolvidas. Recomendamos separar um tempo tranquilo para realizar a montagem com calma.
+
+**10. Como devo fazer a limpeza do guarda-roupa?**
+
+Recomenda-se limpar o produto com flanela ou pano macio seco. Não utilizar produtos abrasivos, desengordurantes, álcool ou solvente. Mantê-lo em lugar livre de umidade e/ou exposição direta ao sol.
+
+**11. O produto pode ser utilizado em ambientes externos?**
+
+Não. O produto é para uso residencial em ambiente interno, não devendo ficar exposto diretamente ao sol, calor e umidade excessivos.
+
+**12. O que devo fazer ao receber o produto?**
+
+Ao receber a mercadoria, o cliente deve verificar as condições da embalagem. Caso haja alguma avaria, não assine o comprovante de recebimento. Confira também as dimensões do produto e certifique-se de que passará normalmente por elevadores, portas, escadas e corredores.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Notável |
+| **Modelo** | NT 5170 |
+| **Linha** | MoveisAqui |
+| **Cor** | Freijó com Off White |
+| **Acabamento** | Pintura UV (Freijó: amadeirado / Off White: brilhante) |
+| **Material Principal** | MDP (Material de Densidade Média) |
+| **Altura** | 188 cm |
+| **Largura** | 108 cm |
+| **Profundidade** | 45 cm |
+| **Quantidade de Portas** | 2 portas |
+| **Quantidade de Gavetas** | 3 gavetas |
+| **Quantidade de Prateleiras** | 1 prateleira |
+| **Quantidade de Cabideiros** | Sim (quantidade não especificada) |
+| **Espelho** | Sim (integrado à porta) |
+| **Tipo de Gaveta** | Interna |
+| **Tipo de Corrediça** | Metálica |
+| **Garantia** | 90 dias (3 meses) |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim |
+| **Ambiente Principal** | Quarto |
+| **Uso Recomendado** | Residencial, ambiente interno |
+| **Itens Inclusos** | 1 Guarda-Roupa / Acessórios de Montagem / Manual de Instruções |
+| **Observações** | Imagens ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Guarda-Roupa 2 Portas NT 5170 Notável** é a escolha inteligente para quem busca um móvel compacto, funcional e com design sofisticado para o quarto. Com acabamento em pintura UV de alta qualidade, combinação de cores Freijó com Off White, espelho integrado e organização interna completa com 3 gavetas e cabideiros, este guarda-roupa atende perfeitamente as necessidades de um quarto de solteiro ou de um espaço reduzido.
+
+A marca Notável, com mais de 1000 vendas realizadas e avaliação de 4,6 estrelas com 277 reviews positivos, comprova a qualidade e a confiabilidade deste produto. Se você procura um guarda-roupa durável, bonito e funcional com excelente custo-benefício, o modelo NT 5170 é uma escolha certeira.
+
+Aproveite o desconto de 22% no pagamento via Pix e garanta já o seu guarda-roupa com entrega em todo o Brasil!
+  `,
+  marca: "Notável",
+  keywords: [
+    "guarda-roupa 2 portas",
+    "guarda-roupa com espelho",
+    "guarda-roupa freijó",
+    "guarda-roupa off white",
+    "guarda-roupa Notável",
+    "guarda-roupa NT 5170",
+    "guarda-roupa com gavetas",
+    "guarda-roupa MDP",
+    "guarda-roupa pintura UV",
+    "móvel para quarto",
+    "armário de quarto",
+    "guarda-roupa compacto",
+    "guarda-roupa 108cm",
+    "guarda-roupa 188cm",
+    "guarda-roupa pequeno",
+    "guarda-roupa moderno",
+    "guarda-roupa MoveisAqui",
+    "armário com espelho",
+    "guarda-roupa solteiro",
+    "móvel com pintura UV"
+  ],
+  seoTitle: "Guarda-Roupa 2 Portas com Espelho NT 5170 Notável | Freijó Off White",
+  seoDescription: "Guarda-roupa 2 portas com espelho NT 5170 Notável. Acabamento em pintura UV, 3 gavetas, cor Freijó com Off White. 4.6★ (277 reviews)."
+},
+{
+  id: "p-imp-079",
+  slug: "guarda-roupa-denver-madesa-2-portas-correr-espelho-preto",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Denver Madesa Solteiro 2 Portas de Correr com Espelho Preto 10948N1E",
+  imageFile: "/imagens/produtos/guarda-roupa-denver-madesa-2-portas-correr-espelho-preto.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-denver-madesa-2-portas-correr-espelho-preto.webp",
+  alt: "Guarda-roupa solteiro Denver da Madesa com 2 portas de correr, espelho e acabamento preto, modelo 10948N1E",
+  rating: 4.6,
+  reviews: 1919,
+  discount: 30,
+  price: 655.98,
+  originalPrice: 941.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1B62pM4",
+  descricao: `
+# Guarda-Roupa Denver Madesa Solteiro 2 Portas de Correr com Espelho Preto 10948N1E
+
+## 📌 Introdução
+
+O **Guarda-Roupa Denver Madesa** é a escolha definitiva para quem busca um móvel moderno, funcional e com design impactante para o quarto. Desenvolvido pela renomada marca Madesa, este guarda-roupa solteiro combina elegância, durabilidade e organização em um único produto, sendo um dos modelos mais vendidos da categoria.
+
+Com um visual sofisticado na cor preta e acabamento em Pintura Poliéster de 7 camadas, o modelo Denver se destaca pela qualidade superior e pela atenção aos detalhes. Suas portas de correr com espelho integrado e sistema de deslizamento suave tornam o dia a dia mais prático, enquanto os nichos, prateleiras e cabideiro garantem organização completa para todas as suas peças.
+
+## 📌 Principais Benefícios
+
+O **guarda-roupa Denver Madesa** foi projetado para oferecer benefícios reais que transformam a experiência de organização do seu quarto.
+
+**Portas de correr com deslizamento suave:** O sistema de portas de correr com trilhos em alumínio proporciona abertura e fechamento suaves e silenciosos, sem exigir área livre para manobra. Isso é especialmente vantajoso em quartos menores, onde cada centímetro de espaço é precioso. Uma das portas conta com espelho integrado, permitindo que você confira seu visual com facilidade.
+
+**Acabamento premium em Pintura Poliéster de 7 camadas:** A Madesa utiliza um processo exclusivo e ecológico de Pintura Poliéster com 7 camadas, que confere ao móvel uma resistência superior a riscos, manchas, umidade e desgaste. Este acabamento não apenas protege o produto como também garante um visual uniforme, brilhante e sofisticado que se mantém por muitos anos.
+
+**Organização interna versátil:** Com 2 prateleiras, 4 nichos e um cabideiro metálico grande de 105 cm, este guarda-roupa oferece múltiplas opções de armazenamento. Os nichos são perfeitos para organizar roupas dobradas, caixas e acessórios, enquanto o cabideiro diferenciado permite pendurar peças longas sem amassar.
+
+**Espaço para sapatos:** Diferente de muitos modelos concorrentes, o Guarda-Roupa Denver conta com espaço dedicado para calçados, mantendo seus sapatos organizados e de fácil acesso.
+
+**Dimensões generosas:** Com 205 cm de altura, 117 cm de largura e 51 cm de profundidade, este guarda-roupa oferece excelente capacidade de armazenamento sem ocupar espaço excessivo no quarto.
+
+## 📌 Design
+
+O **Guarda-Roupa Denver Madesa** apresenta um design contemporâneo e sofisticado que valoriza qualquer ambiente. A cor preta predominante transmite elegância, modernidade e personalidade, tornando o móvel um ponto focal de destaque na decoração do quarto.
+
+**Acabamento em Pintura Poliéster de 7 camadas:** Este processo exclusivo da Madesa garante um acabamento impecável, com alta resistência e durabilidade. A pintura poliéster é aplicada em 7 camadas, resultando em uma superfície lisa, uniforme e com brilho intenso que valoriza ainda mais a cor preta.
+
+**Portas com espelho integrado:** Uma das portas de correr possui espelho de alta qualidade, que oferece três benefícios principais: permite a conferência do visual, amplia a sensação de espaço no ambiente e reflete a luz, deixando o quarto mais iluminado e arejado.
+
+**Trilhos em alumínio e ferragens de qualidade:** O sistema de correr utiliza trilhos em alumínio, dobradiças metálicas e ferragens de alta qualidade que proporcionam melhor sustentação ao móvel e garantem durabilidade e suavidade no uso diário.
+
+**Contraste sofisticado:** A combinação da parte externa e portas em preto com o acabamento interno branco cria um contraste elegante e moderno, demonstrando atenção aos detalhes e qualidade de acabamento.
+
+## 📌 Organização
+
+A organização interna do **guarda-roupa Denver** foi cuidadosamente planejada para maximizar o espaço e atender às necessidades do dia a dia com eficiência.
+
+**Distribuição inteligente dos espaços:**
+
+**Parte superior:** Com 205 cm de altura, a parte superior é ideal para armazenar roupas de cama, toalhas, edredons e itens de uso menos frequente, aproveitando toda a altura do móvel.
+
+**Cabideiro metálico grande (105 cm):** O cabideiro de tamanho diferenciado permite pendurar camisas, blazers, calças, vestidos e peças longas sem amassar. Seu formato metálico garante resistência e durabilidade, suportando peças mais pesadas com segurança.
+
+**Nichos e prateleiras:** Os 4 nichos e 2 prateleiras oferecem espaço versátil para organizar roupas dobradas, caixas organizadoras, bolsas, mochilas, acessórios e outros itens. Esta configuração permite uma organização personalizada de acordo com suas necessidades.
+
+**Espaço para sapatos:** Área dedicada para calçados, mantendo os sapatos organizados, protegidos e de fácil acesso, evitando que fiquem espalhados pelo quarto.
+
+**Acabamento interno branco:** O interior branco facilita a visualização das peças armazenadas, tornando mais fácil encontrar o que você procura, além de transmitir sensação de limpeza e organização.
+
+## 📌 Ideal para
+
+- **Apartamentos modernos:** O design preto sofisticado combina com decorações contemporâneas
+- **Quartos de solteiro:** Tamanho e capacidade ideais para uma pessoa
+- **Quartos de casal (como segundo guarda-roupa):** Perfeito para roupas de temporada ou peças selecionadas
+- **Ambientes com estilo industrial ou minimalista:** A cor preta e o design clean se encaixam perfeitamente
+- **Pessoas que valorizam design e sofisticação:** Acabamento premium que impressiona
+- **Quartos de adolescentes:** Design moderno que agrada aos jovens
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **guarda-roupa Denver Madesa** é especialmente recomendado para:
+
+**Jovens e adultos que buscam um móvel com design impactante e sofisticado.** A cor preta e o acabamento em pintura poliéster de 7 camadas conferem um visual premium que agrada aos mais diversos gostos e estilos.
+
+**Pessoas que valorizam acabamento e durabilidade.** O processo exclusivo de Pintura Poliéster da Madesa garante um produto que se mantém bonito e resistente por muitos anos, superando móveis com acabamentos convencionais.
+
+**Quem precisa de organização versátil.** Com nichos, prateleiras, cabideiro grande e espaço para sapatos, este guarda-roupa atende diferentes necessidades de armazenamento, adaptando-se ao seu estilo de vida.
+
+**Profissionais e estudantes que buscam praticidade e estilo.** O sistema de portas de correr e o espelho integrado facilitam a rotina, enquanto o design sofisticado valoriza o ambiente.
+
+**Admiradores da marca Madesa.** Com mais de 5 mil vendas e 4ª colocação entre os guarda-roupas da marca, este modelo é um dos mais confiáveis e bem avaliados do mercado.
+
+## 📌 Diferenciais
+
+O **Guarda-Roupa Denver Madesa** se destaca da concorrência por diversos motivos que merecem destaque:
+
+**Pintura Poliéster de 7 camadas (exclusiva Madesa):** Este é o grande diferencial do produto. O processo de pintura poliéster com 7 camadas é exclusivo da Madesa e oferece uma resistência e durabilidade superiores à pintura UV convencional. O resultado é um acabamento impecável, com brilho intenso, alta resistência a riscos e manchas, e proteção contra umidade.
+
+**Processo ecológico:** Além da qualidade superior, o processo de pintura poliéster é ecologicamente correto, demonstrando o compromisso da Madesa com a sustentabilidade.
+
+**Cabideiro de tamanho diferenciado (105 cm):** O cabideiro metálico grande permite pendurar peças longas como vestidos, casacos e calças sem que amassem ou toquem o fundo do móvel, um diferencial importante para quem tem peças mais extensas.
+
+**Sistema de correr com trilhos em alumínio:** O uso de trilhos em alumínio e ferragens metálicas de qualidade garante um deslizamento suave e silencioso das portas, além de maior durabilidade em comparação com sistemas plásticos.
+
+**Espaço para sapatos integrado:** Nem todo guarda-roupa oferece esta funcionalidade. Ter um espaço dedicado para calçados mantém a organização e facilita o dia a dia.
+
+**Ferragens de qualidade:** Dobradiças metálicas e ferragens reforçadas proporcionam melhor sustentação ao móvel e garantem durabilidade e segurança no uso diário.
+
+**Marca consolidada com mais de 5 mil vendas:** A Madesa é uma das marcas mais respeitadas do setor moveleiro, e o modelo Denver é um dos mais vendidos, ocupando a 4ª posição entre os guarda-roupas da marca. Isso comprova a confiança dos consumidores e a qualidade do produto.
+
+**Alta avaliação com 1919 reviews:** A avaliação de 4,6 estrelas com quase 2000 avaliações é um indicador claro da satisfação dos clientes e da qualidade consistente do produto.
+
+## 📌 Motivos para Comprar
+
+✅ **Pintura Poliéster de 7 camadas exclusiva Madesa** - acabamento premium com durabilidade superior
+
+✅ **Portas de correr com trilhos em alumínio** - deslizamento suave e silencioso
+
+✅ **Espelho integrado de alta qualidade** - funcionalidade e sensação de amplitude
+
+✅ **Cabideiro metálico grande de 105 cm** - pendure peças longas sem amassar
+
+✅ **4 nichos e 2 prateleiras** - organização versátil e personalizada
+
+✅ **Espaço dedicado para sapatos** - mantenha calçados organizados
+
+✅ **Cor preta sofisticada** - design moderno e impactante
+
+✅ **Acabamento interno branco** - facilita a visualização das peças
+
+✅ **Processo ecológico de pintura** - sustentabilidade e qualidade
+
+✅ **Ferragens metálicas de qualidade** - durabilidade e segurança
+
+✅ **Marca Madesa com mais de 5 mil vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.6 estrelas com 1919 reviews** - satisfação massiva dos clientes
+
+✅ **Oferta imperdível com 30% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Madesa são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de instalação e todas as ferragens necessárias para a montagem. O processo é simples e pode ser realizado seguindo as instruções do manual.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas. O manual é detalhado e ilustrativo, facilitando o processo. Recomendamos a ajuda de duas pessoas devido ao tamanho e peso do móvel.
+
+**4. O guarda-roupa tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Madesa. Consulte os termos específicos no manual do produto.
+
+**5. O espelho é resistente? Vem fixado na porta?**
+
+Sim, o espelho é de boa qualidade e vem fixado com segurança na porta do guarda-roupa, com sistemas de fixação robustos que garantem estabilidade e durabilidade.
+
+**6. Qual o peso máximo que as prateleiras e nichos suportam?**
+
+O peso total suportado pelo móvel é de 15 kg, distribuído entre prateleiras, nichos e cabideiro. Recomenda-se distribuir o peso de forma equilibrada para garantir a durabilidade do produto.
+
+**7. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança na sua compra.
+
+**8. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**9. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras, com total segurança e cuidado com seu produto.
+
+**10. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor. O produto deve estar em sua embalagem original, sem sinais de uso.
+
+**11. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito (à vista ou parcelados) e saldo do Mercado Pago. Consulte a página do anúncio para ver todas as opções disponíveis.
+
+**12. Como devo fazer a limpeza do guarda-roupa?**
+
+Recomenda-se limpar o produto com flanela ou pano macio e seco. Não utilizar produtos abrasivos, desengordurantes, álcool ou solventes, que podem danificar o acabamento em pintura poliéster.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Madesa |
+| **Modelo** | Denver |
+| **Código do Produto** | 10948N1E |
+| **Cor** | Preto (externa) / Branco (interna) |
+| **Acabamento** | Pintura Poliéster de 7 camadas (exclusiva Madesa) |
+| **Material Principal** | MDP (Material de Densidade Média) |
+| **Altura** | 205 cm |
+| **Largura** | 117 cm |
+| **Profundidade** | 51 cm |
+| **Quantidade de Portas** | 2 portas de correr |
+| **Portas com Espelho** | 1 porta com espelho |
+| **Quantidade de Gavetas** | 0 gavetas |
+| **Quantidade de Prateleiras** | 2 prateleiras |
+| **Quantidade de Nichos** | 4 nichos |
+| **Quantidade de Cabideiros** | 1 cabideiro metálico grande (105 cm) |
+| **Espaço para Sapatos** | Sim |
+| **Tipo de Porta** | Correr (deslizante) |
+| **Trilhos** | Alumínio |
+| **Dobradiças** | Metálicas |
+| **Puxadores** | PVC |
+| **Peso Total Suportado** | 15 kg |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim |
+| **Ambiente Principal** | Quarto |
+| **Estilo** | Moderno / Contemporâneo |
+| **Processo** | Pintura Poliéster ecológica de 7 camadas |
+| **Itens Inclusos** | 1 Guarda-Roupa / Cabideiro Metálico / Acessórios de Montagem / Manual de Instruções |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Guarda-Roupa Denver Madesa Solteiro 2 Portas de Correr com Espelho Preto** é uma das melhores opções disponíveis no mercado para quem busca um móvel com design sofisticado, acabamento premium e excelente organização. Com o exclusivo processo de Pintura Poliéster de 7 camadas, portas de correr com deslizamento suave, espelho integrado, nichos, prateleiras, cabideiro grande e espaço para sapatos, este guarda-roupa atende todas as necessidades de um quarto moderno.
+
+A marca Madesa, com mais de 5 mil vendas deste modelo e avaliação de 4,6 estrelas com quase 2000 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. Se você procura um guarda-roupa que una design impactante, funcionalidade completa e durabilidade excepcional, o modelo Denver é a escolha certeira.
+
+Aproveite a oferta imperdível com 30% de desconto no pagamento via Pix e garanta já o seu Guarda-Roupa Denver Madesa com entrega em todo o Brasil!
+  `,
+  marca: "Madesa",
+  keywords: [
+    "guarda-roupa Denver Madesa",
+    "guarda-roupa 2 portas",
+    "guarda-roupa de correr",
+    "guarda-roupa com espelho",
+    "guarda-roupa preto",
+    "guarda-roupa Madesa",
+    "guarda-roupa 10948N1E",
+    "guarda-roupa pintura poliéster",
+    "guarda-roupa MDP",
+    "guarda-roupa solteiro",
+    "móvel para quarto",
+    "armário de quarto",
+    "guarda-roupa moderno",
+    "guarda-roupa 117cm",
+    "guarda-roupa 205cm",
+    "guarda-roupa com nichos",
+    "armário com portas de correr",
+    "guarda-roupa com espaço para sapatos",
+    "móvel preto",
+    "guarda-roupa Denver"
+  ],
+  seoTitle: "Guarda-Roupa Denver Madesa 2 Portas Correr com Espelho | Preto",
+  seoDescription: "Guarda-roupa Denver Madesa com 2 portas de correr, espelho, nichos e cabideiro. Pintura Poliéster 7 camadas. 4.6★ (1919 reviews). Oferta!"
+},
+{
+  id: "p-imp-080",
+  slug: "guarda-roupa-solteiro-ripado-4-portas-2-gavetas-antony-santos-andre-jatoba",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Solteiro Ripado 4 Portas 2 Gavetas Antony Santos André Jatobá",
+  imageFile: "/imagens/produtos/guarda-roupa-solteiro-ripado-4-portas-2-gavetas-antony-santos-andre-jatoba.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-solteiro-ripado-4-portas-2-gavetas-antony-santos-andre-jatoba.webp",
+  alt: "Guarda-roupa solteiro ripado Antony com 4 portas, 2 gavetas e acabamento em Jatobá da marca Santos André",
+  rating: 4.8,
+  reviews: 17,
+  discount: 17,
+  price: 894.00,
+  originalPrice: 1088.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/21VJuzm",
+  descricao: `
+# Guarda-Roupa Solteiro Ripado 4 Portas e 2 Gavetas Antony Marrom/Jatobá
+
+## 📌 Introdução
+
+O **Guarda-Roupa Antony** da Santos André é a escolha perfeita para quem busca unir funcionalidade e um design sofisticado no quarto. Com um visual moderno que combina portas ripadas em MDF com portas lisas, este móvel se destaca pela elegância e versatilidade, transformando completamente o ambiente.
+
+Desenvolvido com o inovador sistema Flex, o guarda-roupa Antony permite que você escolha a posição das portas ripadas — no centro, nas laterais ou em um único lado — adaptando o móvel ao seu estilo pessoal. Com amplo espaço de organização, acabamento de alta qualidade e funcionalidades práticas como gavetas com corrediças telescópicas e cofre embutido, este modelo é uma das melhores opções do mercado para quartos de solteiro.
+
+## 📌 Principais Benefícios
+
+O **guarda-roupa ripado Antony** foi projetado para oferecer benefícios reais que transformam a experiência de organização e decoração do seu quarto.
+
+**Design Moderno com Portas Ripadas:** A combinação elegante de portas ripadas em MDF com portas lisas cria um visual contemporâneo e sofisticado que se destaca em qualquer ambiente. O efeito ripado traz textura e profundidade ao móvel, valorizando a decoração do quarto com um toque de design exclusivo.
+
+**Sistema Flex de Posicionamento:** O sistema Flex permite que você escolha a posição das portas ripadas — no centro, nas laterais ou em um único lado — adaptando o móvel ao seu estilo e à disposição do quarto. Esta flexibilidade é um diferencial único que poucos móveis oferecem.
+
+**Organização Interna Completa:** Com 5 prateleiras espaçosas e 2 cabideiros resistentes em alumínio, o guarda-roupa oferece amplo espaço para organizar roupas dobradas, peças penduradas, caixas e acessórios. A divisão interna inteligente facilita o dia a dia, mantendo tudo em seu devido lugar.
+
+**Gavetas com Corrediças Telescópicas:** As duas gavetas internas equipadas com corrediças telescópicas garantem abertura total e suave, permitindo acesso fácil a todas as peças armazenadas. Com capacidade para até 3 kg cada, são perfeitas para roupas íntimas, meias e acessórios.
+
+**Cofre Embutido:** Um diferencial de segurança que poucos guarda-roupas oferecem. O cofre embutido discreto permite guardar objetos de valor, documentos e itens importantes com mais tranquilidade e segurança.
+
+**Acabamento Reverse Semi-Fosco:** A textura Reverse semi-fosca é suave ao toque, proporciona maior durabilidade e facilita a limpeza no dia a dia, mantendo o móvel sempre bonito e bem cuidado.
+
+## 📌 Design
+
+O **Guarda-Roupa Antony** apresenta um design contemporâneo e sofisticado que valoriza qualquer ambiente. A combinação de portas ripadas em MDF com portas lisas cria um visual dinâmico e cheio de personalidade.
+
+**Portas Ripadas em MDF:** As portas com efeito ripado trazem textura e profundidade ao móvel, criando um visual moderno e elegante. O ripado é uma tendência forte na decoração de interiores, trazendo um toque de sofisticação e design autêntico.
+
+**Sistema Flex de Posicionamento:** A possibilidade de escolher a posição das portas ripadas — centro, laterais ou um único lado — permite que você personalize o móvel de acordo com sua preferência e a disposição do quarto, tornando cada peça única.
+
+**Puxadores em MDF e ABS:** Os puxadores em MDF e ABS valorizam o acabamento, complementando o design moderno e sofisticado do guarda-roupa.
+
+**Acabamento Reverse Semi-Fosco:** A textura Reverse semi-fosca é suave ao toque, oferece maior durabilidade e facilita a limpeza. Este acabamento confere ao móvel um visual elegante e discreto, que combina com diferentes estilos de decoração.
+
+**Cor Jatobá:** A tonalidade Jatobá traz aconchego e sofisticação ao ambiente, com um tom amadeirado que combina perfeitamente com diversas paletas de cores e estilos de decoração, desde o clássico ao contemporâneo.
+
+## 📌 Organização
+
+A organização interna do **guarda-roupa Antony** foi cuidadosamente planejada para maximizar o espaço e atender às necessidades do dia a dia com eficiência.
+
+**Distribuição inteligente dos espaços:**
+
+**Parte superior (219 cm de altura):** A generosa altura permite armazenar roupas de cama, toalhas, edredons e itens de uso menos frequente na parte superior, aproveitando todo o espaço vertical.
+
+**Cabideiros em alumínio:** Os dois cabideiros resistentes em alumínio permitem pendurar camisas, blazers, calças, vestidos e outras peças sem amassar. A durabilidade do alumínio garante que os cabideiros suportem peças mais pesadas com segurança.
+
+**Prateleiras espaçosas:** As 5 prateleiras oferecem amplo espaço para organizar roupas dobradas, caixas organizadoras, bolsas, mochilas e acessórios. Com peso máximo de 3 kg por prateleira, são perfeitas para diferentes tipos de itens.
+
+**Gavetas com corrediças telescópicas:** As duas gavetas internas com sistema telescópico garantem abertura total e suave, facilitando o acesso a roupas íntimas, meias, cintos, gravatas e pequenos acessórios. Cada gaveta suporta até 3 kg.
+
+**Cofre Embutido:** Localizado discretamente, o cofre oferece segurança extra para objetos de valor, joias, documentos e itens importantes, proporcionando tranquilidade no dia a dia.
+
+## 📌 Ideal para
+
+- **Quartos de solteiro:** Tamanho e capacidade ideais para uma pessoa
+- **Quartos principais:** Design sofisticado que valoriza o ambiente
+- **Ambientes modernos:** O design ripado combina com decorações contemporâneas
+- **Quartos de casal (como guarda-roupa principal):** Oferece amplo espaço para duas pessoas
+- **Pessoas que valorizam design e personalização:** Sistema Flex permite adaptar o móvel ao estilo pessoal
+- **Quem busca segurança:** Cofre embutido para objetos de valor
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **guarda-roupa ripado Antony** é especialmente recomendado para:
+
+**Pessoas que buscam um móvel com design diferenciado e sofisticado.** A combinação de portas ripadas com portas lisas e o sistema Flex tornam este guarda-roupa uma peça única que se destaca na decoração.
+
+**Quem valoriza organização e espaço.** Com 5 prateleiras, 2 cabideiros, 2 gavetas e cofre embutido, o Antony oferece uma das melhores divisões internas disponíveis no mercado.
+
+**Pessoas que desejam personalizar o móvel.** O sistema Flex permite escolher a posição das portas ripadas, adaptando o guarda-roupa ao seu gosto pessoal e à disposição do quarto.
+
+**Quem busca segurança.** O cofre embutido é um diferencial importante para quem deseja guardar objetos de valor com tranquilidade.
+
+**Admiradores de acabamento de qualidade.** A textura Reverse semi-fosca confere durabilidade e facilidade de limpeza, mantendo o móvel bonito por muitos anos.
+
+## 📌 Diferenciais
+
+O **Guarda-Roupa Antony Santos André** se destaca da concorrência por diversos motivos que merecem destaque:
+
+**Sistema Flex de Posicionamento das Portas Ripadas:** Este é o grande diferencial do produto. A possibilidade de escolher onde colocar as portas ripadas — no centro, nas laterais ou em um único lado — permite que o cliente personalize o móvel de acordo com seu estilo e necessidades, algo que poucos fabricantes oferecem.
+
+**Cofre Embutido:** Nem todo guarda-roupa oferece este recurso. O cofre discreto integrado ao móvel proporciona segurança extra para objetos de valor, joias e documentos, um diferencial significativo para quem valoriza praticidade e segurança.
+
+**Corrediças Telescópicas nas Gavetas:** Ao contrário das corrediças simples encontradas em muitos móveis, as telescópicas garantem abertura total e suave, facilitando o acesso e aumentando a durabilidade.
+
+**Acabamento Reverse Semi-Fosco:** A textura Reverse é suave ao toque, proporciona maior durabilidade e facilita a limpeza, mantendo o móvel sempre bonito e bem cuidado com mínimo esforço.
+
+**Design com Portas Ripadas:** O efeito ripado é uma tendência forte na decoração de interiores, trazendo textura, profundidade e um toque de sofisticação que móveis lisos não conseguem oferecer.
+
+**Marca Santos André com mais de 100 vendas:** A marca é reconhecida pela qualidade de seus produtos, e o modelo Antony já conquistou a confiança de muitos clientes.
+
+**Alta avaliação de 4,8 estrelas:** A avaliação excepcionalmente alta demonstra a satisfação dos clientes e a qualidade superior do produto.
+
+## 📌 Motivos para Comprar
+
+✅ **Design com portas ripadas em MDF** - tendência moderna e sofisticada
+
+✅ **Sistema Flex de posicionamento** - personalize a posição das portas ripadas
+
+✅ **5 prateleiras espaçosas** - amplo espaço para roupas dobradas e caixas
+
+✅ **2 cabideiros em alumínio** - pendure peças longas e curtas sem amassar
+
+✅ **2 gavetas com corrediças telescópicas** - abertura total e suave
+
+✅ **Cofre embutido discreto** - segurança para objetos de valor
+
+✅ **Acabamento Reverse semi-fosco** - durável e fácil de limpar
+
+✅ **Puxadores em MDF e ABS** - acabamento valorizado
+
+✅ **Dimensões generosas (219 cm x 155 cm x 46 cm)** - ampla capacidade de armazenamento
+
+✅ **Marca Santos André com mais de 100 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.8 estrelas** - excelente satisfação dos clientes
+
+✅ **17% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Todos os nossos produtos são novos, enviados de nossos fornecedores diretamente para as casas de nossos clientes. Você receberá o guarda-roupa em sua embalagem original, lacrado e com todos os acessórios.
+
+**2. O produto vem montado? Se não, vocês realizam a montagem?**
+
+Todos os nossos produtos acompanham seus respectivos manuais de montagem e instalação, que são simples e fáceis de serem seguidos. Não oferecemos serviço de montagem, mas o processo é intuitivo e pode ser feito por duas pessoas em poucas horas.
+
+**3. Vocês possuem loja física? Posso retirar meu produto em mãos?**
+
+Não trabalhamos com loja física, apenas com loja virtual. Nos comprometemos em cumprir a entrega na data combinada no ato da compra e trabalhamos ao máximo para que seja entregue o quanto antes.
+
+**4. Quanto é o valor de frete? Posso pagar o frete separadamente?**
+
+O valor do frete varia de acordo com o CEP de destino. Você pode calcular o valor e prazo de entrega do seu frete no simulador de entrega disponível na página do anúncio.
+
+**5. Vocês entregam no Brasil inteiro? Como é feita a entrega?**
+
+Sim, entregamos no Brasil inteiro! A entrega é feita por nossas transportadoras parceiras, com todo o cuidado e segurança que seu móvel merece.
+
+**6. Eu tenho direito ao frete grátis pelo Mercado Pontos?**
+
+Infelizmente, não participamos do Mercado Pontos, portanto não podemos conceder tal benefício.
+
+**7. Vocês fazem agendamento de entregas?**
+
+Não fazemos agendamento específico, mas trabalhamos com um prazo de entrega baseado na localização de nossos fornecedores e no CEP de destino. Nos comprometemos com a entrega dentro do prazo limite informado.
+
+**8. O produto acompanha Nota Fiscal?**
+
+Sim, os produtos são entregues com suas respectivas notas fiscais. Além disso, uma cópia da NF é enviada para você por e-mail no momento da postagem da entrega, garantindo total transparência e segurança.
+
+**9. Qual é o horário de atendimento de vocês?**
+
+Nosso horário de atendimento é de segunda à sexta-feira, das 8h às 18h (exceto feriados). Estamos sempre prontos para tirar suas dúvidas.
+
+**10. O guarda-roupa tem garantia? Qual é a cobertura?**
+
+Sim, o produto possui garantia de 3 meses (90 dias) contra defeitos de fabricação, conforme especificado na descrição do produto.
+
+**11. O sistema Flex é fácil de instalar?**
+
+Sim, o sistema Flex foi projetado para ser simples e intuitivo. Durante a montagem, você pode escolher a posição desejada das portas ripadas seguindo as instruções do manual.
+
+**12. O cofre embutido vem com chave?**
+
+Sim, o cofre embutido acompanha chave para garantir a segurança dos seus objetos de valor.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Santos André |
+| **Linha/Coleção** | Buriti |
+| **Modelo** | Antony |
+| **Cor** | Jatobá (Marrom) |
+| **Acabamento** | Reverse Semi-Fosco |
+| **Material Principal** | MDP |
+| **Material das Portas** | MDF/MDP (ripadas e lisas) |
+| **Material das Gavetas** | MDP |
+| **Material das Prateleiras** | MDP |
+| **Material do Puxador** | MDF e ABS |
+| **Material do Cabideiro** | Alumínio |
+| **Altura** | 219 cm |
+| **Largura** | 155 cm |
+| **Profundidade** | 46,3 cm |
+| **Peso** | 97,95 kg |
+| **Quantidade de Portas** | 4 portas (sistema de bater) |
+| **Quantidade de Gavetas** | 2 gavetas internas |
+| **Quantidade de Prateleiras** | 5 prateleiras |
+| **Quantidade de Cabideiros** | 2 cabideiros em alumínio |
+| **Cofre Embutido** | Sim |
+| **Tipo de Porta** | Bater (abertura frontal) |
+| **Tipo de Gaveta** | Interna |
+| **Tipo de Puxador** | Externo |
+| **Tipo de Corrediça** | Metálica Telescópica |
+| **Tipo de Dobradiça** | Telescópica |
+| **Suporte por Prateleira** | 3 kg |
+| **Suporte por Gaveta** | 3 kg |
+| **Sistema Flex** | Sim (posicionamento das portas ripadas) |
+| **Garantia** | 3 meses |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim (complexidade média) |
+| **Ambiente Principal** | Quarto |
+| **Estilo** | Moderno / Contemporâneo |
+| **Itens Inclusos** | 1 Guarda-Roupa / 1 Kit Ferragens / 1 Manual de Montagem |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Guarda-Roupa Solteiro Ripado 4 Portas e 2 Gavetas Antony** da Santos André é uma das melhores opções disponíveis no mercado para quem busca um móvel com design sofisticado, funcionalidade completa e excelente qualidade. Com o inovador sistema Flex que permite personalizar a posição das portas ripadas, amplo espaço de organização com 5 prateleiras, 2 cabideiros, 2 gavetas com corrediças telescópicas e um cofre embutido para segurança, este guarda-roupa atende todas as necessidades de um quarto moderno.
+
+O acabamento Reverse semi-fosco, a combinação de portas ripadas com portas lisas e os puxadores em MDF e ABS demonstram o cuidado da marca Santos André com a qualidade e os detalhes estéticos. Com mais de 100 vendas realizadas e uma avaliação excepcional de 4,8 estrelas, o modelo Antony já conquistou a confiança de muitos clientes.
+
+Se você procura um guarda-roupa que una design autêntico, funcionalidade completa e durabilidade excepcional, o Antony é a escolha certeira. Aproveite o desconto de 17% e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Santos André",
+  keywords: [
+    "guarda-roupa Antony",
+    "guarda-roupa ripado",
+    "guarda-roupa 4 portas",
+    "guarda-roupa com gavetas",
+    "guarda-roupa Jatobá",
+    "guarda-roupa Santos André",
+    "guarda-roupa Buriti",
+    "guarda-roupa com cofre",
+    "guarda-roupa MDF",
+    "guarda-roupa MDP",
+    "guarda-roupa solteiro",
+    "guarda-roupa casal",
+    "móvel para quarto",
+    "armário de quarto",
+    "guarda-roupa moderno",
+    "guarda-roupa 219cm",
+    "guarda-roupa 155cm",
+    "guarda-roupa com prateleiras",
+    "guarda-roupa sistema Flex",
+    "móvel ripado"
+  ],
+  seoTitle: "Guarda-Roupa Ripado 4 Portas Antony Santos André | Jatobá",
+  seoDescription: "Guarda-roupa ripado Antony com 4 portas, 2 gavetas, cofre embutido e sistema Flex. Acabamento semi-fosco. 4.8★ (17 reviews)."
+},
+{
+  id: "p-imp-081",
+  slug: "guarda-roupa-solteiro-4-portas-2-gavetas-panama-rp4020-branco-fellicci",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Solteiro 4 Portas 2 Gavetas Panamá RP4020 Branco - Fellicci Móveis",
+  imageFile: "/imagens/produtos/guarda-roupa-solteiro-4-portas-2-gavetas-panama-rp4020-branco-fellicci.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-solteiro-4-portas-2-gavetas-panama-rp4020-branco-fellicci.webp",
+  alt: "Guarda-roupa solteiro Panamá RP4020 com 4 portas, 2 gavetas e acabamento branco da marca Fellicci Móveis",
+  rating: 2.3,
+  reviews: 4,
+  discount: 41,
+  price: 328.23,
+  originalPrice: 563.00,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2m2NHMC",
+  descricao: `
+# Guarda-Roupa Solteiro 4 Portas 2 Gavetas Panamá RP4020 Branco - Fellicci Móveis
+
+## 📌 Introdução
+
+O **Guarda-Roupa Panamá RP4020** da Fellicci Móveis é a solução inteligente para quem busca organização, funcionalidade e estilo em um modelo compacto e acessível. Desenvolvido especialmente para quartos com espaço reduzido, este móvel combina design clean na cor branca com uma divisão interna prática que atende perfeitamente as necessidades do dia a dia.
+
+Com acabamento em pintura UV sobre estrutura de MDP 12mm, o Guarda-Roupa Panamá oferece durabilidade e resistência, enquanto seu interno em madeira natural adiciona um toque de elegância ao produto. Ideal para quartos de solteiro, apartamentos compactos, kitnets e espaços otimizados, este modelo é a escolha perfeita para quem busca um móvel funcional sem comprometer o orçamento.
+
+## 📌 Principais Benefícios
+
+O **guarda-roupa Panamá RP4020** foi projetado para oferecer benefícios reais que facilitam a organização do seu quarto com praticidade e economia.
+
+**Design compacto e funcional:** Com 170 cm de altura, 90 cm de largura e apenas 36 cm de profundidade, este guarda-roupa se encaixa perfeitamente em quartos com espaço limitado, otimizando cada centímetro disponível sem comprometer a circulação no ambiente.
+
+**Acabamento em Pintura UV de qualidade:** A pintura UV aplicada sobre o MDP confere ao móvel maior resistência a riscos, manchas e desgaste, mantendo o aspecto bonito e bem cuidado por mais tempo. O acabamento branco traz luminosidade e sensação de amplitude ao quarto.
+
+**Organização interna versátil:** Com 4 portas de bater, 2 gavetas, 2 cabideiros e 1 prateleira, o Panamá oferece opções variadas para armazenar diferentes tipos de peças, desde roupas penduradas até roupas dobradas, íntimas e acessórios.
+
+**Interno em madeira natural:** Um detalhe que diferencia este modelo de muitos concorrentes na mesma faixa de preço. O interno em madeira natural proporciona um visual mais elegante e aconchegante ao abrir as portas.
+
+**Excelente custo-benefício:** Com um dos preços mais acessíveis do mercado para um guarda-roupa de 4 portas, o Panamá RP4020 oferece uma relação custo-benefício excepcional, sendo ideal para quem precisa de um móvel funcional sem gastar muito.
+
+## 📌 Design
+
+O **Guarda-Roupa Panamá RP4020** apresenta um design clean e atemporal que se adapta a diferentes estilos de decoração.
+
+**Cor branca universal:** O acabamento em branco é uma escolha inteligente que combina perfeitamente com qualquer paleta de cores e estilo de decoração, desde o mais minimalista ao mais clássico. O branco também reflete a luz, ampliando visualmente o ambiente e criando uma sensação de maior espaço.
+
+**Acabamento em Pintura UV:** A pintura UV confere ao móvel um acabamento liso, uniforme e brilhante, que valoriza a cor branca e facilita a limpeza. A resistência extra proporcionada pela pintura UV garante que o móvel mantenha sua aparência impecável por mais tempo.
+
+**Interno em madeira natural:** O contraste entre a parte externa branca e o interno em madeira natural cria um efeito visual interessante e sofisticado, demonstrando atenção aos detalhes mesmo em um produto de custo acessível.
+
+**Design funcional:** As linhas retas e o design despojado tornam este guarda-roupa versátil e prático, sem excessos ou elementos desnecessários.
+
+## 📌 Organização
+
+A organização interna do **guarda-roupa Panamá RP4020** foi planejada para oferecer máxima funcionalidade com simplicidade.
+
+**Distribuição inteligente dos espaços:**
+
+**4 portas de bater:** O sistema com 4 portas proporciona acesso facilitado a todas as áreas do guarda-roupa, permitindo que você visualize e alcance suas peças com facilidade. As dobradiças metálicas garantem durabilidade e suavidade no uso diário.
+
+**Cabideiros:** Os 2 cabideiros em madeira revestida na cor cinza são ideais para pendurar camisas, blusas, calças, vestidos e outras peças que precisam ser mantidas sem amassar. O revestimento cinza adiciona um toque de sofisticação.
+
+**Prateleira:** A prateleira única oferece espaço para organizar roupas dobradas, caixas organizadoras, bolsas e acessórios, com capacidade para até 5 kg.
+
+**Gavetas:** As 2 gavetas com corrediças plásticas são perfeitas para guardar roupas íntimas, meias, cintos, gravatas e pequenos acessórios, com capacidade de 3 kg cada. Os puxadores em plástico cor cinza complementam o design funcional.
+
+## 📌 Ideal para
+
+- **Quartos pequenos:** Dimensões compactas que otimizam espaços reduzidos
+- **Apartamentos compactos:** Design funcional para ambientes com área limitada
+- **Kitnets e studios:** Perfeito para espaços integrados
+- **Quartos de solteiro:** Tamanho ideal para uma pessoa
+- **Quartos de hóspedes:** Funcional e acessível
+- **Repúblicas e moradias estudantis:** Excelente custo-benefício
+- **Primeiro apartamento:** Opção econômica e funcional
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **guarda-roupa compacto Panamá RP4020** é especialmente recomendado para:
+
+**Pessoas com orçamento limitado** que buscam um guarda-roupa funcional e de qualidade a um preço acessível. O custo-benefício deste modelo é um dos melhores do mercado.
+
+**Quem mora em espaços pequenos** como kitnets, studios e apartamentos compactos, onde cada centímetro precisa ser otimizado. A profundidade de 36 cm é um diferencial importante para estes ambientes.
+
+**Estudantes universitários** que precisam de um móvel prático e econômico para repúblicas ou moradias estudantis.
+
+**Pessoas que estão montando o primeiro apartamento** e precisam mobiliar o quarto com peças funcionais sem comprometer todo o orçamento.
+
+**Quem busca um móvel versátil e clean** que combine com diferentes estilos de decoração.
+
+## 📌 Diferenciais
+
+O **Guarda-Roupa Panamá RP4020 Fellicci Móveis** se destaca da concorrência por diversos motivos:
+
+**Profundidade reduzida de 36 cm:** Este é um diferencial importante para quem tem espaço limitado. A profundidade menor que a maioria dos guarda-roupas (geralmente 40-52 cm) permite que o móvel seja posicionado em corredores estreitos e quartos pequenos sem comprometer a circulação.
+
+**Interno em madeira natural:** Um detalhe que agrega valor estético ao produto, tornando o interior mais elegante e aconchegante, algo geralmente encontrado apenas em móveis de faixas de preço mais altas.
+
+**Excelente custo-benefício:** Com 41% de desconto no pagamento via Pix, este guarda-roupa oferece uma das melhores relações qualidade-preço do mercado para um modelo de 4 portas com gavetas.
+
+**MDP 12mm de qualidade:** A espessura de 12mm no MDP garante maior resistência e durabilidade em comparação com móveis que utilizam MDP mais fino (geralmente 8mm ou 10mm).
+
+**Design clean e atemporal:** A cor branca e o design simples garantem que o móvel não sai de moda, podendo ser utilizado por muitos anos em diferentes configurações de decoração.
+
+**Base com sapatas deslizantes:** Facilita o posicionamento do móvel e a limpeza do piso.
+
+## 📌 Motivos para Comprar
+
+✅ **Design compacto com 36 cm de profundidade** - ideal para espaços reduzidos
+
+✅ **Acabamento em pintura UV** - resistente a riscos e manchas
+
+✅ **Interno em madeira natural** - visual mais elegante
+
+✅ **4 portas de bater com dobradiças metálicas** - acesso facilitado e durabilidade
+
+✅ **2 gavetas com corrediças plásticas** - organização para roupas íntimas e acessórios
+
+✅ **2 cabideiros em madeira revestida** - pendure peças sem amassar
+
+✅ **Prateleira com capacidade de 5 kg** - espaço para roupas dobradas
+
+✅ **Estrutura em MDP 12mm** - resistência e durabilidade
+
+✅ **Base com sapatas deslizantes** - facilidade de posicionamento
+
+✅ **Peso leve (34 kg)** - fácil manuseio e montagem
+
+✅ **41% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos da Fellicci Móveis são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de instalação e todas as ferragens necessárias para a montagem.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas. O manual é detalhado e ilustrativo, facilitando o processo. Recomendamos a ajuda de outra pessoa devido ao tamanho do móvel.
+
+**4. O guarda-roupa tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Fellicci Móveis. Consulte os termos específicos no manual do produto.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança na sua compra.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras, com total segurança e cuidado com seu produto.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor. O produto deve estar em sua embalagem original, sem sinais de uso.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito (à vista ou parcelados) e saldo do Mercado Pago. Consulte a página do anúncio para ver todas as opções disponíveis.
+
+**10. O guarda-roupa precisa ser fixado na parede?**
+
+Não. O produto não necessita de fixação na parede, podendo ser posicionado livremente no ambiente.
+
+**11. As gavetas possuem corrediças de boa qualidade?**
+
+As gavetas utilizam corrediças plásticas que oferecem bom funcionamento para uso residencial moderado.
+
+**12. Qual o peso máximo que o produto suporta?**
+
+O produto tem capacidade total de até 40 kg, com distribuição de peso entre prateleiras (5 kg), gavetas (3 kg cada) e cabideiros.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Fellicci Móveis |
+| **Modelo** | RP4020 |
+| **Nome** | Panamá |
+| **Cor** | Branco |
+| **Acabamento** | Pintura UV |
+| **Material da Estrutura** | MDP 12mm |
+| **Interno** | Madeira natural |
+| **Costas** | 3mm |
+| **Altura** | 170 cm |
+| **Largura** | 90 cm |
+| **Profundidade** | 36 cm |
+| **Peso do Produto** | 34 kg |
+| **Quantidade de Portas** | 4 portas |
+| **Tipo de Porta** | Bater (abertura frontal) |
+| **Dobradiças** | Metálicas |
+| **Quantidade de Gavetas** | 2 gavetas |
+| **Tipo de Corrediça** | Plástica |
+| **Capacidade por Gaveta** | 3 kg |
+| **Quantidade de Prateleiras** | 1 prateleira |
+| **Capacidade da Prateleira** | 5 kg |
+| **Quantidade de Cabideiros** | 2 cabideiros |
+| **Material do Cabideiro** | Madeira revestida na cor cinza |
+| **Puxadores** | Plástico cor cinza |
+| **Possui Pés** | Não |
+| **Base** | Sapatas deslizantes |
+| **Capacidade Total** | Até 40 kg |
+| **Necessita Fixação na Parede** | Não |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim |
+| **Ambiente Principal** | Quarto |
+| **Estilo** | Clean / Moderno |
+| **Itens Inclusos** | 1 Guarda-Roupa / Acessórios de Montagem / Manual de Instruções |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Guarda-Roupa Solteiro 4 Portas 2 Gavetas Panamá RP4020** da Fellicci Móveis é a escolha inteligente para quem busca um móvel funcional, compacto e com excelente custo-benefício. Com design clean na cor branca, acabamento em pintura UV, estrutura em MDP 12mm e interno em madeira natural, este guarda-roupa oferece qualidade e durabilidade a um preço acessível.
+
+Ideal para quartos pequenos, apartamentos compactos, kitnets e moradias estudantis, o Panamá RP4020 se destaca pela profundidade reduzida de 36 cm, que otimiza espaços sem comprometer a capacidade de armazenamento. Com 4 portas, 2 gavetas, 2 cabideiros e 1 prateleira, o móvel atende perfeitamente as necessidades de organização do dia a dia.
+
+Aproveite o desconto de 41% no pagamento via Pix e garanta já o seu Guarda-Roupa Panamá com entrega em todo o Brasil!
+  `,
+  marca: "Fellicci Móveis",
+  keywords: [
+    "guarda-roupa Panamá",
+    "guarda-roupa RP4020",
+    "guarda-roupa 4 portas",
+    "guarda-roupa com gavetas",
+    "guarda-roupa branco",
+    "guarda-roupa Fellicci",
+    "guarda-roupa compacto",
+    "guarda-roupa MDP",
+    "guarda-roupa pintura UV",
+    "guarda-roupa solteiro",
+    "móvel para quarto",
+    "armário de quarto",
+    "guarda-roupa 170cm",
+    "guarda-roupa 90cm",
+    "guarda-roupa 36cm",
+    "guarda-roupa pequeno",
+    "guarda-roupa econômico",
+    "guarda-roupa barato",
+    "armário branco",
+    "móvel compacto"
+  ],
+  seoTitle: "Guarda-Roupa 4 Portas 2 Gavetas Panamá RP4020 Branco | Fellicci",
+  seoDescription: "Guarda-roupa compacto Panamá RP4020 com 4 portas, 2 gavetas e pintura UV. MDP 12mm, interno em madeira natural. Aproveite 41% OFF!"
+},
+{
+  id: "p-imp-082",
+  slug: "closet-industrial-ferro-preto-2-gavetas-up-home-decor",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Closet Industrial Ferro Preto com 2 Gavetas e 5 Prateleiras - UP Home Decor",
+  imageFile: "/imagens/produtos/closet-industrial-ferro-preto-2-gavetas-up-home-decor.webp",
+  displayImage: "/imagens/produtos/closet-industrial-ferro-preto-2-gavetas-up-home-decor.webp",
+  alt: "Closet industrial em ferro preto com 2 gavetas e 5 prateleiras da UP Home Decor, estilo aberto e moderno",
+  rating: 4.3,
+  reviews: 4,
+  discount: 30,
+  price: 623.79,
+  originalPrice: 897.00,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/27tcsBP",
+  descricao: `
+# Closet Industrial Ferro Preto com 2 Gavetas e 5 Prateleiras - UP Home Decor
+
+## 📌 Introdução
+
+O **Closet Industrial Ferro Preto** da UP Home Decor é a escolha perfeita para quem busca um móvel com personalidade marcante, design contemporâneo e funcionalidade excepcional. Inspirado na tendência industrial que conquistou o mundo da decoração de interiores, este closet combina a robustez do ferro tubular com a elegância do MDP, criando uma peça única que transforma qualquer quarto em um ambiente moderno e cheio de estilo.
+
+Com um visual aberto e arejado, o closet industrial oferece praticidade na organização e facilidade na higienização, além de permitir que suas roupas e acessórios sejam exibidos de forma organizada e estilosa. Seja para um quarto principal, um loft ou um espaço criativo, este móvel traz personalidade e autenticidade ao ambiente.
+
+## 📌 Principais Benefícios
+
+O **closet industrial** foi projetado para oferecer benefícios reais que vão além do simples armazenamento de roupas.
+
+**Design industrial com personalidade:** A tendência industrial veio para ficar, e este closet é a expressão máxima desse estilo. Com estrutura em ferro tubular 20x20mm e acabamento em preto, o móvel traz robustez e autenticidade ao ambiente, sendo um verdadeiro ponto focal de decoração.
+
+**Praticidade na organização:** O design aberto permite visualizar todas as peças de uma só vez, facilitando a escolha do look do dia e eliminando o problema de esquecer roupas guardadas no fundo do armário.
+
+**Facilidade na higienização:** Diferente de guarda-roupas fechados, o closet industrial é de fácil limpeza, pois não acumula poeira em cantos e frestas. Uma flanela úmida é suficiente para manter o móvel sempre limpo.
+
+**Estrutura robusta e durável:** O ferro tubular 20x20mm garante alta resistência e durabilidade, suportando o peso das roupas e acessórios com segurança. A pintura preta protege o metal contra oxidação e desgaste.
+
+**Versatilidade de cores:** A UP Home Decor oferece diversas cores disponíveis para escolher a que melhor se adapta à sua decoração, permitindo personalizar o móvel de acordo com seu estilo.
+
+**Organização interna completa:** Com 2 gavetas e 5 prateleiras, o closet oferece amplo espaço para organizar roupas dobradas, íntimas, acessórios e sapatos de forma prática e eficiente.
+
+## 📌 Design
+
+O **Closet Industrial** apresenta um design que é ao mesmo tempo robusto e sofisticado, com linhas limpas e estrutura aparente que valorizam o estilo industrial.
+
+**Estrutura em ferro tubular 20x20mm:** O ferro tubular confere ao móvel uma aparência robusta e autêntica, característica marcante do estilo industrial. A espessura de 20x20mm garante resistência e estabilidade, enquanto a cor preta adiciona sofisticação e versatilidade.
+
+**Design aberto e arejado:** A estrutura aberta permite que o closet ocupe o espaço de forma leve e arejada, sem sobrecarregar visualmente o ambiente. As roupas e acessórios ficam expostos de forma organizada, criando um efeito decorativo.
+
+**Acabamento em ferro pintado:** A pintura preta protege o ferro contra oxidação e desgaste, garantindo durabilidade e mantendo o aspecto bonito por muitos anos. O acabamento fosco ou brilhante pode variar conforme a escolha da cor.
+
+**Combinação de materiais:** A união do ferro com o MDP nas gavetas e prateleiras cria um contraste interessante entre o industrial e o contemporâneo, resultando em um móvel com personalidade única.
+
+**Linhas retas e minimalistas:** O design geométrico e as linhas retas tornam o closet versátil, combinando com diferentes estilos de decoração, desde o industrial puro até o contemporâneo e o minimalista.
+
+## 📌 Organização
+
+A organização do **closet industrial** foi cuidadosamente planejada para maximizar a funcionalidade e facilitar o dia a dia.
+
+**Distribuição inteligente dos espaços:**
+
+**Prateleiras:** As 5 prateleiras oferecem amplo espaço para organizar roupas dobradas, caixas organizadoras, bolsas, mochilas, toalhas e acessórios. A altura e a profundidade foram pensadas para acomodar diferentes tipos de itens com praticidade.
+
+**Gavetas:** As 2 gavetas são ideais para guardar roupas íntimas, meias, cintos, gravatas, lenços e pequenos acessórios, mantendo-os protegidos e organizados.
+
+**Espaço para cabideiros (não incluso):** A estrutura aberta permite a instalação de cabideiros para pendurar camisas, blusas, calças, vestidos e outras peças que precisam ser mantidas sem amassar.
+
+**Visualização completa:** O design aberto permite ver todas as peças de uma só vez, facilitando a escolha do look e evitando que roupas sejam esquecidas no fundo do armário.
+
+## 📌 Ideal para
+
+- **Quartos principais:** Design marcante que valoriza o ambiente
+- **Quartos de solteiro:** Tamanho e funcionalidade ideais
+- **Quartos de casal:** Como closet auxiliar ou principal
+- **Lofts e estúdios:** Estilo industrial combina perfeitamente
+- **Ambientes criativos:** Design autêntico e com personalidade
+- **Apartamentos modernos:** Tendência industrial em alta
+- **Espaços compactos:** Design aberto que não sobrecarrega
+- **Vagas de aluguel por temporada:** Móvel versátil e charmoso
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **closet industrial** é especialmente recomendado para:
+
+**Pessoas que buscam um móvel com personalidade e estilo autêntico.** O design industrial é uma tendência forte que agrada a quem valoriza decoração com caráter e originalidade.
+
+**Quem aprecia a estética industrial e contemporânea.** Este closet é a peça perfeita para quem deseja incorporar o estilo industrial em casa, seja em um loft, apartamento moderno ou quarto temático.
+
+**Pessoas que valorizam praticidade e funcionalidade.** O design aberto facilita a organização e a limpeza, tornando o dia a dia mais prático.
+
+**Quem busca um móvel versátil e personalizável.** Com diversas cores disponíveis, o closet pode ser adaptado ao seu gosto pessoal e à decoração do ambiente.
+
+**Admiradores de móveis com estrutura metálica.** A robustez e durabilidade do ferro são ideais para quem busca um móvel que dure por muitos anos.
+
+**Designers de interiores e decoradores.** O closet industrial é uma peça versátil que pode ser utilizada em diversos projetos de decoração.
+
+## 📌 Diferenciais
+
+O **Closet Industrial UP Home Decor** se destaca da concorrência por diversos motivos:
+
+**Design industrial autêntico:** Diferente de móveis que apenas imitam o estilo industrial, este closet utiliza ferro tubular de verdade, com estrutura robusta e acabamento de qualidade, garantindo autenticidade e durabilidade.
+
+**Fabricação própria:** A UP Home Decor produz seus próprios móveis, o que garante controle de qualidade e a possibilidade de personalização.
+
+**Versatilidade de cores:** A possibilidade de escolher entre diversas cores é um diferencial importante, permitindo que o cliente personalize o móvel de acordo com sua decoração.
+
+**Estrutura em ferro 20x20mm:** A espessura do ferro tubular é superior à encontrada em muitos móveis industriais do mercado, garantindo maior resistência e durabilidade.
+
+**Design aberto e funcional:** O design aberto não é apenas estético, mas também funcional, facilitando a organização e a limpeza.
+
+**MercadoLíder com +5 mil vendas:** A UP Home Decor é uma vendedora confiável, com alta reputação e milhares de vendas realizadas, garantindo segurança na compra.
+
+**Garantia de fábrica de 3 meses:** A garantia oferece tranquilidade ao consumidor em caso de defeitos de fabricação.
+
+## 📌 Motivos para Comprar
+
+✅ **Design industrial autêntico com ferro tubular 20x20mm** - robustez e estilo
+
+✅ **Estrutura aberta e arejada** - facilita a organização e a limpeza
+
+✅ **2 gavetas espaçosas** - organização para roupas íntimas e acessórios
+
+✅ **5 prateleiras** - amplo espaço para roupas dobradas e caixas
+
+✅ **Diversas cores disponíveis** - personalize de acordo com sua decoração
+
+✅ **Fabricação própria** - qualidade e controle garantidos
+
+✅ **Altura de 200 cm** - aproveita todo o espaço vertical
+
+✅ **Profundidade de 45 cm** - espaço suficiente para roupas e acessórios
+
+✅ **Vendedor MercadoLíder com +5 mil vendas** - confiabilidade comprovada
+
+✅ **Garantia de fábrica de 3 meses** - segurança na compra
+
+✅ **30% de desconto no Pix** - excelente custo-benefício
+
+✅ **Design com personalidade** - móvel que é um ponto focal de decoração
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos da UP Home Decor são novos, fabricados sob encomenda com materiais de primeira qualidade.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte e evitar danos. Acompanha manual de instalação e todas as ferragens necessárias para a montagem.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas como chave allen e chave de fenda. O manual é detalhado e ilustrativo, facilitando o processo.
+
+**4. O frete é grátis?**
+
+O frete não é grátis. O valor deve ser selecionado manualmente na página do anúncio, escolhendo a opção correspondente ao estado de destino. Em caso de seleção errada, será enviada cobrança da diferença.
+
+**5. Quais cores estão disponíveis?**
+
+A UP Home Decor oferece diversas cores para personalização. Entre em contato com o vendedor para verificar as opções disponíveis.
+
+**6. O produto tem garantia?**
+
+Sim, o produto possui 3 meses de garantia de fábrica contra defeitos de fabricação.
+
+**7. O closet acompanha cabideiros?**
+
+O cabideiro não está incluso no produto, mas a estrutura aberta permite a instalação de cabideiros separadamente.
+
+**8. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança na sua compra.
+
+**9. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com a localização e o frete selecionado. Consulte as opções na página do anúncio.
+
+**10. O que fazer se o frete não aparecer para minha região?**
+
+Se sua região não aparecer nas opções de frete, entre em contato com o vendedor para verificar a possibilidade de envio.
+
+**11. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor.
+
+**12. Como devo fazer a limpeza do closet?**
+
+Recomenda-se limpar a estrutura de ferro com pano úmido e detergente neutro, e as partes em MDP com pano seco ou levemente umedecido. Não utilizar produtos abrasivos.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | UP Home Decor |
+| **Estilo** | Industrial |
+| **Material da Estrutura** | Ferro tubular 20x20mm |
+| **Material das Gavetas/Prateleiras** | MDP |
+| **Cor** | Preto (diversas cores disponíveis) |
+| **Altura** | 200 cm |
+| **Largura** | 70 cm |
+| **Profundidade** | 45 cm |
+| **Quantidade de Gavetas** | 2 gavetas |
+| **Quantidade de Prateleiras** | 5 prateleiras |
+| **Tipo de Produto** | Closet aberto / Armário industrial |
+| **Fabricação** | Própria |
+| **Montagem Necessária** | Sim (produto desmontado) |
+| **Garantia** | 3 meses |
+| **Origem** | Nacional |
+| **Ambiente Principal** | Quarto |
+| **Vendedor** | UP Home Decor (MercadoLíder, +5 mil vendas) |
+| **Observações** | Cabideiros não inclusos. Imagens ilustrativas com edição de cores |
+
+## 📌 Conclusão
+
+O **Closet Industrial Ferro Preto com 2 Gavetas e 5 Prateleiras** da UP Home Decor é a escolha perfeita para quem busca um móvel com personalidade, estilo e funcionalidade. Com estrutura em ferro tubular 20x20mm, design aberto e arejado, e amplo espaço de organização com 2 gavetas e 5 prateleiras, este closet atende perfeitamente as necessidades de quem valoriza a estética industrial contemporânea.
+
+A tendência industrial veio para ficar, e este closet é a expressão máxima desse estilo, trazendo autenticidade e charme ao ambiente. Com a confiabilidade de um vendedor MercadoLíder com mais de 5 mil vendas e garantia de 3 meses, você pode comprar com tranquilidade e segurança.
+
+Aproveite o desconto de 30% no pagamento via Pix e garanta já o seu Closet Industrial! Personalize a cor de acordo com sua decoração e transforme seu quarto em um ambiente moderno e cheio de estilo.
+  `,
+  marca: "UP Home Decor",
+  keywords: [
+    "closet industrial",
+    "closet ferro",
+    "closet preto",
+    "closet com gavetas",
+    "armário industrial",
+    "closet aberto",
+    "closet UP Home Decor",
+    "guarda-roupa industrial",
+    "closet 2 gavetas",
+    "closet 5 prateleiras",
+    "móvel industrial",
+    "closet 200cm",
+    "closet ferro e madeira",
+    "armário de quarto",
+    "closet moderno",
+    "closet design",
+    "closet personalizado",
+    "móvel de ferro",
+    "closet industrial preto",
+    "closet tendência"
+  ],
+  seoTitle: "Closet Industrial Ferro Preto com 2 Gavetas | UP Home Decor",
+  seoDescription: "Closet industrial em ferro preto com 2 gavetas e 5 prateleiras. Design aberto, estrutura robusta, várias cores disponíveis. 4.3★ (4 reviews)."
+},
+{
+  id: "p-imp-083",
+  slug: "guarda-roupa-modulado-canto-madrid-3-portas-maxel-branco",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Modulado de Canto Madrid com 3 Portas Maxel Branco",
+  imageFile: "/imagens/produtos/guarda-roupa-modulado-canto-madrid-3-portas-maxel-branco.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-modulado-canto-madrid-3-portas-maxel-branco.webp",
+  alt: "Guarda-roupa modulado de canto Madrid com 3 portas na cor branca da marca Maxel, ideal para otimizar espaços",
+  rating: 4.5,
+  reviews: 71,
+  discount: 12,
+  price: 859.00,
+  originalPrice: 976.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1J63r6a",
+  descricao: `
+# Guarda-Roupa Modulado de Canto Madrid com 3 Portas Maxel Branco
+
+## 📌 Introdução
+
+O **Guarda-Roupa Modulado de Canto Madrid** da Maxel é a solução inteligente para quem busca aproveitar ao máximo o espaço disponível no quarto sem comprometer a circulação. Com design moderno e versátil, este móvel foi desenvolvido especialmente para se encaixar perfeitamente em cantos, otimizando áreas que muitas vezes são subutilizadas.
+
+Com estrutura em MDP de 12mm, acabamento em verniz alto brilho texturizado e 3 portas de bater, o modelo Madrid combina durabilidade, funcionalidade e estilo. Seu design modular permite que você organize o ambiente de forma personalizada, enquanto o amplo espaço interno com 5 prateleiras e cabideiro garante que todas as suas roupas e acessórios fiquem perfeitamente organizados.
+
+## 📌 Principais Benefícios
+
+O **guarda-roupa modulado de canto** foi projetado para oferecer benefícios reais que transformam a organização do seu quarto.
+
+**Aproveitamento inteligente de espaço:** O design de canto é a grande vantagem deste móvel. Diferente de guarda-roupas retos que ocupam espaço linear nas paredes, o modelo Madrid utiliza cantos subutilizados, liberando área útil para circulação e outros móveis. É a escolha perfeita para quartos compactos e apartamentos modernos.
+
+**Design modular versátil:** O sistema modular permite que você monte o módulo em ambos os lados, adaptando o móvel à disposição do seu quarto. Esta flexibilidade é ideal para diferentes configurações de ambiente e necessidades de armazenamento.
+
+**Acabamento premium em verniz alto brilho:** O acabamento texturizado com verniz alto brilho confere ao móvel um visual sofisticado e elegante, com um toque suave e agradável. O alto brilho reflete a luz, ampliando visualmente o ambiente e trazendo mais luminosidade ao quarto.
+
+**Organização interna completa:** Com 5 prateleiras e 1 cabideiro, o guarda-roupa oferece amplo espaço para organizar roupas dobradas, peças penduradas, caixas e acessórios. Cada prateleira suporta até 6 kg e o cabideiro suporta até 12 kg.
+
+**Estrutura resistente e durável:** Produzido em MDP com espessura de 12mm, o móvel garante estabilidade e resistência, suportando até 112 kg no total, ideal para o uso diário.
+
+## 📌 Design
+
+O **Guarda-Roupa Modulado de Canto Madrid** apresenta um design contemporâneo que combina funcionalidade e estética.
+
+**Design de canto inteligente:** O formato em L permite que o móvel se encaixe perfeitamente no canto do quarto, otimizando o espaço disponível. Esta configuração é especialmente vantajosa em quartos pequenos ou com disposição de móveis mais complexa.
+
+**Acabamento em verniz alto brilho texturizado:** A combinação do verniz alto brilho com acabamento texturizado cria um efeito visual único, que agrada aos olhos e ao toque. O brilho reflete a luz natural e artificial, tornando o ambiente mais claro e amplo.
+
+**Cor branca universal:** O branco é uma escolha inteligente que combina com qualquer estilo de decoração, do minimalista ao clássico. A cor clara também ajuda a ampliar visualmente o espaço, ideal para quartos menores.
+
+**Portas de bater com dobradiças metálicas:** As 3 portas com sistema de abertura frontal (bater) proporcionam acesso facilitado a todas as áreas do guarda-roupa. As dobradiças metálicas garantem durabilidade e suavidade no uso diário.
+
+**Puxadores em plástico:** Os puxadores discretos complementam o design clean e funcional do móvel.
+
+## 📌 Organização
+
+A organização interna do **guarda-roupa de canto Madrid** foi cuidadosamente planejada para maximizar o espaço e facilitar o dia a dia.
+
+**Distribuição inteligente dos espaços:**
+
+**Lado Esquerdo:**
+- **200 cm de altura, 60 cm de largura e 47 cm de profundidade**
+
+**Lado Direito:**
+- **200 cm de altura, 82,5 cm de largura e 47 cm de profundidade**
+
+**Cabideiro (1):** O cabideiro em madeira permite pendurar camisas, blusas, calças, vestidos e outras peças que precisam ser mantidas sem amassar. Com suporte de até 12 kg, é resistente o suficiente para peças mais pesadas.
+
+**Prateleiras (5):** As cinco prateleiras oferecem amplo espaço para organizar roupas dobradas, caixas organizadoras, bolsas, mochilas, toalhas e acessórios. Cada prateleira suporta até 6 kg, totalizando excelente capacidade de armazenamento.
+
+**Espaço otimizado:** As medidas assimétricas dos lados esquerdo e direito permitem um aproveitamento inteligente do espaço, acomodando diferentes tipos de itens de forma organizada.
+
+## 📌 Ideal para
+
+- **Quartos compactos:** O design de canto otimiza espaços reduzidos
+- **Apartamentos modernos:** Estilo contemporâneo que valoriza o ambiente
+- **Quartos de solteiro:** Tamanho e capacidade ideais
+- **Quartos de casal (como segundo guarda-roupa):** Perfeito para roupas de temporada
+- **Lofts e estúdios:** Design versátil que combina com diferentes estilos
+- **Quartos de hóspedes:** Funcional e elegante
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **guarda-roupa modulado de canto Maxel** é especialmente recomendado para:
+
+**Pessoas que buscam otimizar espaços reduzidos.** O design de canto é a solução perfeita para quartos onde cada centímetro precisa ser aproveitado ao máximo.
+
+**Quem valoriza design moderno e funcional.** O acabamento em verniz alto brilho texturizado e as linhas clean do móvel agradam aos mais diversos gostos.
+
+**Pessoas que necessitam de organização versátil.** Com 5 prateleiras e cabideiro, o móvel atende diferentes necessidades de armazenamento.
+
+**Profissionais e estudantes que buscam praticidade e estilo.** O sistema modular permite adaptar o móvel à disposição do quarto.
+
+**Admiradores da marca Maxel.** Com mais de 100 vendas e 3ª colocação entre os guarda-roupas da marca, este modelo é um dos mais confiáveis do mercado.
+
+## 📌 Diferenciais
+
+O **Guarda-Roupa Modulado de Canto Madrid Maxel** se destaca da concorrência por diversos motivos:
+
+**Design de canto exclusivo:** Diferente dos guarda-roupas retos tradicionais, o modelo Madrid foi projetado especificamente para cantos, aproveitando espaços que geralmente são subutilizados.
+
+**Sistema modular flexível:** A possibilidade de montar o módulo em ambos os lados é um diferencial importante, permitindo que o cliente adapte o móvel à disposição do quarto.
+
+**Acabamento verniz alto brilho texturizado:** A combinação de alto brilho com textura é exclusiva e confere ao móvel um visual sofisticado que se destaca no mercado.
+
+**Estrutura em MDP 12mm:** A espessura superior garante maior resistência e durabilidade em comparação com móveis que utilizam MDP mais fino.
+
+**Ampla capacidade de armazenamento:** Com 5 prateleiras que suportam até 6 kg cada e cabideiro com capacidade de 12 kg, o móvel oferece uma das melhores capacidades de armazenamento da categoria.
+
+**Marca Maxel com mais de 100 vendas:** A reputação da marca e o alto volume de vendas comprovam a confiabilidade e a satisfação dos clientes.
+
+**Avaliação 4.5 estrelas com 71 reviews:** A boa avaliação demonstra a qualidade consistente do produto.
+
+## 📌 Motivos para Comprar
+
+✅ **Design de canto inteligente** - otimiza espaços subutilizados
+
+✅ **Módulo montável em ambos os lados** - flexibilidade de instalação
+
+✅ **Acabamento em verniz alto brilho texturizado** - visual sofisticado
+
+✅ **5 prateleiras com capacidade de 6 kg cada** - amplo espaço para organização
+
+✅ **Cabideiro resistente com suporte de 12 kg** - pendure peças com segurança
+
+✅ **Estrutura em MDP 12mm** - durabilidade e resistência superiores
+
+✅ **3 portas de bater com dobradiças metálicas** - acesso facilitado e durabilidade
+
+✅ **Cor branca universal** - combina com qualquer decoração
+
+✅ **Peso suportado total de 112 kg** - excelente capacidade de carga
+
+✅ **Marca Maxel com mais de 100 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.5 estrelas com 71 reviews** - satisfação dos clientes
+
+✅ **12% de desconto** - bom custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Maxel são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias para a instalação.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas. O manual é detalhado e ilustrativo. Recomendamos a ajuda de duas pessoas devido ao tamanho e peso do móvel.
+
+**4. O guarda-roupa tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Maxel.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito e saldo do Mercado Pago.
+
+**10. Como devo fazer a limpeza do guarda-roupa?**
+
+Recomenda-se limpar o produto com pano limpo e levemente umedecido em água e sabão neutro. Em seguida, passar um pano limpo e seco. Não utilizar produtos abrasivos.
+
+**11. O módulo pode ser montado em ambos os lados?**
+
+Sim, o sistema modular permite que você monte o módulo em ambos os lados, adaptando à disposição do seu quarto.
+
+**12. Qual a capacidade total de peso do produto?**
+
+O produto suporta até 112 kg no total, distribuídos entre prateleiras (6 kg cada) e cabideiro (12 kg).
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Maxel |
+| **Modelo** | Madrid |
+| **Tipo** | Modulado de Canto |
+| **Cor** | Branco |
+| **Acabamento** | Verniz alto brilho texturizado |
+| **Material da Estrutura** | MDP 12mm |
+| **Material do Cabideiro** | Madeira |
+| **Dobradiças** | Metálicas |
+| **Puxadores** | Plástico |
+| **Altura** | 200 cm |
+| **Largura Lado Esquerdo** | 60 cm |
+| **Largura Lado Direito** | 82,5 cm |
+| **Profundidade** | 47 cm |
+| **Peso do Produto** | 80,85 kg |
+| **Peso Suportado Total** | 112 kg |
+| **Quantidade de Portas** | 3 portas |
+| **Tipo de Porta** | Bater (abertura frontal) |
+| **Quantidade de Prateleiras** | 5 prateleiras |
+| **Capacidade por Prateleira** | 6 kg |
+| **Quantidade de Cabideiros** | 1 cabideiro |
+| **Capacidade do Cabideiro** | 12 kg |
+| **Possui Pés** | Não |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim |
+| **Ambiente Principal** | Quarto |
+| **Estilo** | Moderno / Contemporâneo |
+| **Itens Inclusos** | 1 Módulo de Canto / 1 Módulo Guarda-Roupas / 1 Manual de Montagem / 1 Kit Parafusos |
+| **Diferencial** | Amplo espaço de armazenamento, acabamento texturizado e verniz brilho, produto versátil |
+| **Observações** | Você pode montar o módulo em ambos os lados. Imagens meramente ilustrativas |
+
+## 📌 Conclusão
+
+O **Guarda-Roupa Modulado de Canto Madrid com 3 Portas Maxel Branco** é a escolha inteligente para quem busca otimizar espaços sem abrir mão do estilo e da funcionalidade. Com design de canto que aproveita áreas subutilizadas, estrutura em MDP 12mm, acabamento em verniz alto brilho texturizado e amplo espaço de organização com 5 prateleiras e cabideiro, este móvel atende perfeitamente as necessidades de quartos compactos e modernos.
+
+A marca Maxel, com mais de 100 vendas e avaliação de 4,5 estrelas, comprova a qualidade e a satisfação dos clientes. O sistema modular que permite montagem em ambos os lados é um diferencial importante que oferece flexibilidade e personalização.
+
+Se você procura um guarda-roupa que una design inteligente, funcionalidade completa e durabilidade, o modelo Madrid é a escolha certeira. Aproveite o desconto e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Maxel",
+  keywords: [
+    "guarda-roupa modulado",
+    "guarda-roupa de canto",
+    "guarda-roupa Madrid",
+    "guarda-roupa 3 portas",
+    "guarda-roupa branco",
+    "guarda-roupa Maxel",
+    "guarda-roupa MDP",
+    "guarda-roupa verniz alto brilho",
+    "guarda-roupa canto",
+    "guarda-roupa solteiro",
+    "móvel para quarto",
+    "armário de canto",
+    "guarda-roupa 200cm",
+    "guarda-roupa 47cm",
+    "guarda-roupa modular",
+    "guarda-roupa otimizado",
+    "guarda-roupa compacto",
+    "armário para canto",
+    "guarda-roupa com prateleiras",
+    "guarda-roupa versátil"
+  ],
+  seoTitle: "Guarda-Roupa Modulado de Canto 3 Portas Maxel Madrid | Branco",
+  seoDescription: "Guarda-roupa modulado de canto Madrid com 3 portas, 5 prateleiras e cabideiro. MDP 12mm, verniz alto brilho. 4.5★ (71 reviews)."
+},
+{
+  id: "p-imp-084",
+  slug: "guarda-roupa-dormitorio-casal-canto-4-portas-versatille-yescasa-branco",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Dormitório Casal Canto com 4 Portas Versatille Yescasa Branco",
+  imageFile: "/imagens/produtos/guarda-roupa-dormitorio-casal-canto-4-portas-versatille-yescasa-branco.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-dormitorio-casal-canto-4-portas-versatille-yescasa-branco.webp",
+  alt: "Guarda-roupa dormitório casal canto Versatille com 4 portas na cor branca da marca Yescasa, modelo em L",
+  rating: 4.5,
+  reviews: 22,
+  discount: 20,
+  price: 1326.00,
+  originalPrice: 1662.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2BiWx7E",
+  descricao: `
+# Guarda-Roupa Dormitório Casal Canto com 4 Portas Versatille Yescasa Branco
+
+## 📌 Introdução
+
+O **Guarda-Roupa Dormitório Casal Versatille** da Yescasa é a solução definitiva para quem busca um móvel que una design inteligente, funcionalidade excepcional e estilo contemporâneo. Desenvolvido especialmente para quartos de casal, este guarda-roupa em formato de L (canto) foi projetado para otimizar ao máximo o espaço disponível, oferecendo ampla capacidade de armazenamento sem comprometer a circulação no ambiente.
+
+Com 4 portas, 4 gavetas com corrediças telescópicas, 7 prateleiras, 9 nichos e 3 cabideiros, o modelo Versatille é uma verdadeira central de organização para o quarto do casal. Fabricado em MDP de 15mm com acabamento BP Melamínico semi-brilho, este móvel une resistência, durabilidade e um visual moderno que valoriza qualquer decoração.
+
+## 📌 Principais Benefícios
+
+O **guarda-roupa de canto Versatille** foi projetado para oferecer benefícios reais que transformam a experiência de organização no quarto do casal.
+
+**Design em L de canto inteligente:** O formato em L é a grande vantagem deste móvel. Diferente de guarda-roupas retos que ocupam espaço linear nas paredes, o modelo Versatille utiliza cantos subutilizados, liberando área útil para circulação e outros móveis. É a escolha perfeita para quartos onde cada centímetro precisa ser aproveitado ao máximo.
+
+**Ampla capacidade de armazenamento:** Com 7 prateleiras, 9 nichos, 3 cabideiros e 4 gavetas, este guarda-roupa oferece uma das melhores divisões internas disponíveis no mercado para quartos de casal. Você terá espaço para organizar roupas, calçados, roupas de cama, toalhas e acessórios com praticidade e eficiência.
+
+**Gavetas com corrediças telescópicas metálicas:** As 4 gavetas internas equipadas com corrediças telescópicas garantem abertura total e suave, permitindo acesso fácil a todas as peças armazenadas, mesmo com cargas mais pesadas.
+
+**Estrutura resistente e durável:** Fabricado em MDP de 15mm com acabamento BP Melamínico semi-brilho, o guarda-roupa oferece excelente resistência e durabilidade, suportando até 80 kg de peso total.
+
+**Espaço para vestidos longos:** O guarda-roupa possui espaço dedicado para peças longas, garantindo que vestidos e casacos sejam armazenados sem amassar ou enrugar.
+
+**Visual moderno e clean:** A cor branca e o acabamento semi-brilho conferem ao móvel um visual sofisticado que combina com qualquer estilo de decoração.
+
+## 📌 Design
+
+O **Guarda-Roupa Versatille** apresenta um design contemporâneo que combina funcionalidade e estética.
+
+**Formato em L de canto:** O design em L permite que o móvel se encaixe perfeitamente no canto do quarto, otimizando o espaço disponível. Esta configuração é especialmente vantajosa em quartos de casal onde a otimização do espaço é essencial.
+
+**Acabamento BP Melamínico semi-brilho:** O acabamento em BP Melamínico com escala de brilho semi-brilho confere ao móvel um visual sofisticado e elegante, com um toque suave e agradável. O semi-brilho é uma escolha versátil que agrada aos mais diversos gostos.
+
+**Cor branca universal:** O branco é uma escolha inteligente que combina com qualquer estilo de decoração, do minimalista ao clássico. A cor clara também ajuda a ampliar visualmente o espaço, ideal para quartos menores.
+
+**Portas de bater com dobradiças metálicas:** As 4 portas com sistema de abertura frontal (bater) proporcionam acesso facilitado a todas as áreas do guarda-roupa. As dobradiças metálicas garantem durabilidade e suavidade no uso diário.
+
+**Sapatas niveladoras:** As sapatas niveladoras permitem ajustar a altura do móvel para compensar desníveis do piso, garantindo estabilidade e segurança.
+
+**Puxadores externos em MDF:** Os puxadores em MDF complementam o design clean e funcional do móvel.
+
+## 📌 Organização
+
+A organização interna do **guarda-roupa de canto Versatille** foi cuidadosamente planejada para maximizar o espaço e facilitar o dia a dia do casal.
+
+**Distribuição inteligente dos espaços:**
+
+**Altura total:** 235 cm - aproveitamento máximo do espaço vertical
+
+**Largura:** 157 cm
+
+**Profundidade:** 45 cm
+
+**Cabideiros (3):** Os três cabideiros oferecem amplo espaço para pendurar camisas, blusas, calças, vestidos e outras peças que precisam ser mantidas sem amassar. O espaço para vestidos longos garante que peças mais extensas sejam acomodadas com folga.
+
+**Prateleiras (7):** As sete prateleiras oferecem amplo espaço para organizar roupas dobradas, caixas organizadoras, bolsas, mochilas, toalhas e acessórios. Cada prateleira suporta até 4 kg, totalizando excelente capacidade de armazenamento.
+
+**Nichos (9):** Os nove nichos são ideais para organizar itens específicos, como calçados, roupas íntimas, acessórios e outros objetos, mantendo tudo em seu devido lugar.
+
+**Gavetas (4):** As quatro gavetas internas com corrediças telescópicas são perfeitas para guardar roupas íntimas, meias, cintos, gravatas, lenços e pequenos acessórios. Cada gaveta suporta até 2 kg.
+
+## 📌 Ideal para
+
+- **Quartos de casal:** Tamanho e capacidade ideais para duas pessoas
+- **Apartamentos modernos:** Design contemporâneo que valoriza o ambiente
+- **Quartos principais:** O móvel principal do quarto
+- **Quartos com espaço otimizado:** Design de canto que aproveita cada centímetro
+- **Pessoas que valorizam organização:** Divisão interna completa e versátil
+- **Famílias:** Espaço para roupas de diferentes membros
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **guarda-roupa de canto Versatille Yescasa** é especialmente recomendado para:
+
+**Casais** que buscam um guarda-roupa com amplo espaço de armazenamento para organizar as roupas de ambos. Com 4 portas, 4 gavetas, 7 prateleiras e 3 cabideiros, há espaço suficiente para acomodar todo o guarda-roupa do casal.
+
+**Pessoas com quartos menores** que precisam otimizar o espaço sem abrir mão da funcionalidade. O design em L de canto aproveita áreas subutilizadas, liberando espaço para circulação.
+
+**Quem valoriza design e funcionalidade.** O acabamento BP Melamínico semi-brilho e as linhas clean do móvel agradam aos mais diversos gostos, enquanto a divisão interna inteligente facilita o dia a dia.
+
+**Admiradores da marca Yescasa.** Com mais de 100 vendas e 8ª colocação entre os guarda-roupas da marca, o modelo Versatille é um dos mais confiáveis do mercado.
+
+**Quem busca durabilidade e resistência.** Fabricado em MDP de 15mm, o guarda-roupa oferece estabilidade e segurança para o uso diário intenso.
+
+## 📌 Diferenciais
+
+O **Guarda-Roupa Versatille Yescasa** se destaca da concorrência por diversos motivos:
+
+**Design em L de canto exclusivo:** Diferente dos guarda-roupas retos tradicionais, o modelo Versatille foi projetado especificamente para cantos, aproveitando espaços que geralmente são subutilizados. Esta é uma solução inteligente para quartos onde a otimização do espaço é essencial.
+
+**Divisão interna completa:** Com 7 prateleiras, 9 nichos, 3 cabideiros e 4 gavetas, este guarda-roupa oferece uma das melhores divisões internas disponíveis no mercado para quartos de casal.
+
+**Corrediças telescópicas metálicas:** As gavetas utilizam corrediças telescópicas de alta qualidade, que garantem abertura total e suave, além de maior durabilidade em comparação com corrediças comuns.
+
+**Espaço para vestidos longos:** Poucos guarda-roupas oferecem este recurso, que é essencial para quem possui vestidos, casacos e outras peças mais extensas.
+
+**MDP de 15mm de espessura:** A espessura superior garante maior resistência e durabilidade em comparação com móveis que utilizam MDP mais fino (geralmente 12mm).
+
+**Sapatas niveladoras:** Permitem ajustar a altura do móvel para compensar desníveis do piso, garantindo estabilidade e segurança.
+
+**Marca Yescasa com mais de 100 vendas:** A reputação da marca e o alto volume de vendas comprovam a confiabilidade e a satisfação dos clientes.
+
+## 📌 Motivos para Comprar
+
+✅ **Design em L de canto inteligente** - otimiza espaços subutilizados
+
+✅ **4 portas de bater com dobradiças metálicas** - acesso facilitado e durabilidade
+
+✅ **4 gavetas com corrediças telescópicas metálicas** - abertura suave e segura
+
+✅ **7 prateleiras com capacidade de 4 kg cada** - amplo espaço para organização
+
+✅ **3 cabideiros** - pendure peças variadas sem amassar
+
+✅ **9 nichos** - organização detalhada para diferentes itens
+
+✅ **Espaço para vestidos longos** - acomode peças extensas com folga
+
+✅ **Estrutura em MDP 15mm** - resistência e durabilidade superiores
+
+✅ **Acabamento BP Melamínico semi-brilho** - visual sofisticado
+
+✅ **Sapatas niveladoras** - estabilidade em pisos irregulares
+
+✅ **Capacidade total de 80 kg** - excelente capacidade de carga
+
+✅ **Marca Yescasa com mais de 100 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.5 estrelas com 22 reviews** - satisfação dos clientes
+
+✅ **20% de desconto no Pix** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Yescasa são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto acompanha manual de montagem e todas as ferragens necessárias. A montagem deve ser realizada por profissional qualificado, pois a complexidade é elevada devido ao design em L de canto.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem deste modelo exige conhecimento técnico. Recomendamos a contratação de um profissional qualificado para garantir a instalação correta e segura.
+
+**4. O guarda-roupa tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Yescasa.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito e saldo do Mercado Pago.
+
+**10. Como devo fazer a limpeza do guarda-roupa?**
+
+Recomenda-se limpar o produto com pano limpo e levemente umedecido em água, sem adição de produtos químicos. Em seguida, passar um pano limpo e seco. Não utilizar produtos abrasivos.
+
+**11. O guarda-roupa suporta quanto peso no total?**
+
+O produto suporta até 80 kg no total, distribuídos entre prateleiras (4 kg cada), gavetas (2 kg cada) e cabideiros.
+
+**12. As gavetas têm fechadura?**
+
+Não, as gavetas não possuem fechadura. O design é focado em praticidade e facilidade de acesso.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Yescasa |
+| **Linha/Coleção** | Cantú |
+| **Modelo** | Versatille |
+| **Tipo** | Dormitório Casal / De Canto |
+| **Cor** | Branco |
+| **Acabamento** | BP Melamínico Semi-Brilho |
+| **Material Principal** | MDP 15mm |
+| **Material das Portas** | MDP |
+| **Material das Gavetas** | MDP |
+| **Material das Prateleiras** | MDP |
+| **Material dos Pés** | Plástico |
+| **Material do Puxador** | MDF |
+| **Altura** | 235 cm |
+| **Largura** | 157 cm |
+| **Profundidade** | 45 cm |
+| **Peso do Produto** | 168,3 kg |
+| **Peso Suportado Total** | 80 kg |
+| **Quantidade de Portas** | 4 portas |
+| **Tipo de Porta** | Bater (abertura frontal) |
+| **Dobradiças** | Metálicas |
+| **Quantidade de Gavetas** | 4 gavetas |
+| **Tipo de Corrediça** | Metálica Telescópica |
+| **Capacidade por Gaveta** | 2 kg |
+| **Quantidade de Prateleiras** | 7 prateleiras |
+| **Capacidade por Prateleira** | 4 kg |
+| **Quantidade de Cabideiros** | 3 cabideiros |
+| **Quantidade de Nichos** | 9 nichos |
+| **Espaço para Vestidos Longos** | Sim |
+| **Sapatas Niveladoras** | Sim |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim (Profissional Qualificado) |
+| **Ambiente Principal** | Quarto |
+| **Estilo** | Moderno |
+| **Itens Inclusos** | 1 Guarda-Roupa / Kit de Ferragens / Manual de Montagem |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Guarda-Roupa Dormitório Casal Canto com 4 Portas Versatille Yescasa** é a escolha definitiva para casais que buscam um móvel com design inteligente, funcionalidade excepcional e estilo contemporâneo. Com formato em L de canto que otimiza espaços, estrutura em MDP 15mm, acabamento BP Melamínico semi-brilho e uma divisão interna completa com 7 prateleiras, 9 nichos, 3 cabideiros e 4 gavetas com corrediças telescópicas, este guarda-roupa oferece tudo o que um quarto de casal precisa.
+
+A marca Yescasa, com mais de 100 vendas e avaliação de 4,5 estrelas, comprova a qualidade e a satisfação dos clientes. O espaço dedicado para vestidos longos e as sapatas niveladoras são detalhes que fazem a diferença no dia a dia.
+
+Se você procura um guarda-roupa que una design inteligente, ampla capacidade de armazenamento e durabilidade excepcional, o Versatille é a escolha certeira. Aproveite o desconto de 20% no pagamento via Pix e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Yescasa",
+  keywords: [
+    "guarda-roupa casal canto",
+    "guarda-roupa Versatille",
+    "guarda-roupa 4 portas",
+    "guarda-roupa com gavetas",
+    "guarda-roupa branco",
+    "guarda-roupa Yescasa",
+    "guarda-roupa Cantú",
+    "guarda-roupa MDP",
+    "guarda-roupa BP Melamínico",
+    "guarda-roupa casal",
+    "móvel para quarto",
+    "armário de canto",
+    "guarda-roupa 235cm",
+    "guarda-roupa 157cm",
+    "guarda-roupa dormitório",
+    "guarda-roupa com nichos",
+    "armário casal",
+    "guarda-roupa otimizado",
+    "móvel com gavetas telescópicas",
+    "guarda-roupa versátil"
+  ],
+  seoTitle: "Guarda-Roupa Casal Canto 4 Portas Versatille Yescasa | Branco",
+  seoDescription: "Guarda-roupa casal canto Versatille com 4 portas, 4 gavetas telescópicas, 7 prateleiras. MDP 15mm, BP Melamínico. 4.5★ (22 reviews)."
+},
+{
+  id: "p-imp-085",
+  slug: "guarda-roupa-solteiro-2-portas-3-gavetas-espelho-rc2005-emovell-branco",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Solteiro 2 Portas de Correr com Espelho e 3 Gavetas RC2005 Emovell Branco",
+  imageFile: "/imagens/produtos/guarda-roupa-solteiro-2-portas-3-gavetas-espelho-rc2005-emovell-branco.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-solteiro-2-portas-3-gavetas-espelho-rc2005-emovell-branco.webp",
+  alt: "Guarda-roupa solteiro RC2005 da Emovell com 2 portas de correr, espelho e 3 gavetas na cor branca",
+  rating: 4.6,
+  reviews: 8,
+  discount: 11,
+  price: 1789.45,
+  originalPrice: 2024.00,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1BGHuFJ",
+  descricao: `
+# Guarda-Roupa Solteiro 2 Portas de Correr com Espelho e 3 Gavetas RC2005 Emovell Branco
+
+## 📌 Introdução
+
+O **Guarda-Roupa Solteiro RC2005** da Emovell é a escolha perfeita para quem busca um móvel que una funcionalidade, design clean e aproveitamento inteligente do espaço. Desenvolvido especialmente para quartos de solteiro, este guarda-roupa combina um visual moderno com acabamento branco texturizado e uma divisão interna extremamente completa, ideal para quem valoriza organização e praticidade no dia a dia.
+
+Com 235 cm de altura, o modelo RC2005 aproveita ao máximo o espaço vertical, enquanto suas 2 portas de correr com espelho integrado economizam área útil no quarto. Sua estrutura em MDF de alta qualidade, 3 gavetas com corrediças telescópicas, 5 prateleiras e 2 cabideiros oferecem uma das melhores relações de organização para quartos de solteiro disponíveis no mercado.
+
+## 📌 Principais Benefícios
+
+O **guarda-roupa RC2005 Emovell** foi projetado para oferecer benefícios reais que transformam a experiência de organização no quarto de solteiro.
+
+**Design clean e texturizado:** O acabamento branco texturizado confere ao móvel um visual moderno e sofisticado, com um toque agradável que valoriza a decoração do quarto. O branco traz luminosidade e sensação de amplitude ao ambiente, enquanto a textura adiciona personalidade ao móvel.
+
+**Portas de correr com espelho integrado:** O sistema de portas de correr economiza espaço precioso no quarto, pois não exige área livre para abertura. O espelho integrado oferece três benefícios principais: permite conferir o visual antes de sair, amplia a sensação de espaço no ambiente e reflete a luz, deixando o quarto mais iluminado e arejado.
+
+**Aproveitamento vertical inteligente:** Com 235 cm de altura, este guarda-roupa utiliza todo o espaço vertical disponível, oferecendo maior capacidade de armazenamento sem ocupar área adicional no chão do quarto. É a escolha ideal para quartos com pé-direito padrão.
+
+**Organização interna completa:** Com 5 prateleiras, 2 cabideiros em MDF e 3 gavetas com corrediças telescópicas, o RC2005 oferece opções variadas para organizar diferentes tipos de peças, desde roupas penduradas até roupas dobradas, íntimas e acessórios.
+
+**Gavetas com corrediças telescópicas:** As 3 gavetas equipadas com corrediças metálicas telescópicas garantem abertura total e suave, permitindo acesso fácil a todas as peças armazenadas, mesmo com cargas moderadas.
+
+**Estrutura em MDF de qualidade:** A utilização de MDF na estrutura garante maior estabilidade, resistência e durabilidade, superando a madeira aglomerada comum em termos de qualidade e longevidade.
+
+## 📌 Design
+
+O **Guarda-Roupa RC2005** apresenta um design contemporâneo e funcional que valoriza qualquer ambiente.
+
+**Acabamento branco texturizado:** O acabamento texturizado na cor branca confere ao móvel um visual moderno e sofisticado, com um toque agradável que valoriza a decoração do quarto. A textura também ajuda a disfarçar pequenas imperfeições, mantendo o móvel bonito por mais tempo.
+
+**Portas de correr com espelho:** O sistema de portas de correr com trilhos proporciona abertura suave e silenciosa, enquanto o espelho integrado à porta adiciona funcionalidade e amplitude ao ambiente.
+
+**Design sem pés:** A ausência de pés deixa o desenho mais contínuo e facilita a composição com outros móveis do ambiente, criando uma sensação de unidade e fluidez no quarto.
+
+**Linhas retas e minimalistas:** O design geométrico e as linhas retas tornam o guarda-roupa versátil, combinando com diferentes estilos de decoração, desde o minimalista ao contemporâneo.
+
+**Dimensões otimizadas:** Com 120 cm de largura, 59,8 cm de profundidade e 235 cm de altura, o móvel oferece excelente capacidade de armazenamento em um formato compacto que se adapta a diferentes tamanhos de quarto.
+
+## 📌 Organização
+
+A organização interna do **guarda-roupa RC2005** foi cuidadosamente planejada para maximizar o espaço e atender às necessidades do dia a dia de forma prática e eficiente.
+
+**Distribuição inteligente dos espaços:**
+
+**Altura total:** 235 cm - aproveitamento máximo do espaço vertical
+
+**Largura:** 120 cm
+
+**Profundidade:** 59,8 cm
+
+**Cabideiros (2):** Os dois cabideiros em MDF oferecem espaço para pendurar camisas, blusas, calças, vestidos e outras peças que precisam ser mantidas sem amassar. O MDF garante resistência e durabilidade.
+
+**Prateleiras (5):** As cinco prateleiras oferecem amplo espaço para organizar roupas dobradas, caixas organizadoras, bolsas, mochilas, toalhas e acessórios. A quantidade de prateleiras permite uma organização detalhada e personalizada.
+
+**Gavetas (3):** As três gavetas internas com corrediças telescópicas são perfeitas para guardar roupas íntimas, meias, cintos, gravatas, lenços e pequenos acessórios. A abertura total facilita o acesso e a visualização do conteúdo.
+
+**Espelho integrado:** O espelho na porta permite conferir o visual com facilidade, eliminando a necessidade de um espelho separado no quarto.
+
+## 📌 Ideal para
+
+- **Quartos de solteiro:** Tamanho e capacidade ideais para uma pessoa
+- **Apartamentos modernos:** Design clean que combina com decorações contemporâneas
+- **Quartos principais:** Móvel principal do quarto
+- **Quartos de hóspedes:** Funcional e elegante
+- **Profissionais e estudantes:** Organização completa para rotina diária
+- **Quartos com espaço vertical disponível:** Aproveita pé-direito padrão
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **guarda-roupa solteiro RC2005 Emovell** é especialmente recomendado para:
+
+**Solteiros e jovens adultos** que buscam um móvel com design clean, funcionalidade completa e excelente aproveitamento de espaço. O acabamento branco texturizado e as linhas modernas agradam aos mais diversos gostos.
+
+**Pessoas que valorizam organização e praticidade.** Com 5 prateleiras, 3 gavetas e 2 cabideiros, o guarda-roupa oferece uma divisão interna extremamente completa para quartos de solteiro.
+
+**Quem busca um móvel que aproveite o espaço vertical.** Com 235 cm de altura, o RC2005 utiliza todo o espaço disponível, oferecendo maior capacidade de armazenamento.
+
+**Profissionais e estudantes que precisam de um guarda-roupa prático e funcional.** O sistema de portas de correr e o espelho integrado facilitam a rotina diária.
+
+**Admiradores da marca Emovell.** Com mais de 50 vendas, a marca oferece qualidade e confiabilidade.
+
+## 📌 Diferenciais
+
+O **Guarda-Roupa RC2005 Emovell** se destaca da concorrência por diversos motivos:
+
+**Acabamento branco texturizado exclusivo:** A textura confere ao móvel um visual diferenciado e sofisticado, com um toque agradável que valoriza a decoração do quarto.
+
+**Aproveitamento vertical máximo:** Com 235 cm de altura, este guarda-roupa utiliza todo o espaço vertical disponível, oferecendo maior capacidade de armazenamento que modelos mais baixos.
+
+**Portas de correr com espelho integrado:** O sistema de portas de correr economiza espaço, enquanto o espelho oferece funcionalidade extra sem ocupar área adicional.
+
+**Estrutura em MDF de qualidade:** A utilização de MDF na estrutura garante maior estabilidade, resistência e durabilidade.
+
+**Divisão interna completa:** Com 5 prateleiras, 3 gavetas e 2 cabideiros, este guarda-roupa oferece uma das melhores divisões internas para quartos de solteiro.
+
+**Gavetas com corrediças telescópicas:** As corrediças telescópicas garantem abertura total e suave, facilitando o acesso.
+
+**Design sem pés:** O design contínuo facilita a composição com outros móveis e a limpeza do ambiente.
+
+## 📌 Motivos para Comprar
+
+✅ **Acabamento branco texturizado** - visual moderno e sofisticado
+
+✅ **Portas de correr com espelho integrado** - economiza espaço e amplia o ambiente
+
+✅ **3 gavetas com corrediças telescópicas** - abertura suave e total
+
+✅ **5 prateleiras** - amplo espaço para organização detalhada
+
+✅ **2 cabideiros em MDF** - pendure peças variadas sem amassar
+
+✅ **Estrutura em MDF de qualidade** - resistência e durabilidade
+
+✅ **Altura de 235 cm** - aproveitamento máximo do espaço vertical
+
+✅ **Profundidade de 59,8 cm** - espaço generoso para diferentes peças
+
+✅ **Design sem pés** - visual contínuo e limpeza facilitada
+
+✅ **Marca Emovell com mais de 50 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.6 estrelas** - excelente satisfação dos clientes
+
+✅ **11% de desconto no Pix** - bom custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Emovell são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todos os acessórios necessários, como parafusos, cavilhas e minifix.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas. O manual é detalhado e ilustrativo, facilitando o processo. Recomendamos a ajuda de outra pessoa devido ao tamanho do móvel.
+
+**4. O guarda-roupa tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Emovell.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito e saldo do Mercado Pago.
+
+**10. Como devo fazer a limpeza do guarda-roupa?**
+
+Recomenda-se limpar o produto com pano limpo e levemente umedecido em água e sabão neutro. Em seguida, passar um pano limpo e seco. Não utilizar produtos abrasivos ou solventes.
+
+**11. As gavetas têm fechadura?**
+
+Não, as gavetas não possuem fechadura. O design é focado em praticidade e facilidade de acesso.
+
+**12. O espelho é resistente? Vem fixado na porta?**
+
+Sim, o espelho é de boa qualidade e vem fixado com segurança na porta do guarda-roupa, com sistemas de fixação robustos.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Emovell |
+| **Modelo** | RC2005 |
+| **Tipo** | Solteiro |
+| **Cor** | Branco |
+| **Acabamento** | Texturizado |
+| **Material Principal** | MDF |
+| **Material dos Cabideiros** | MDF |
+| **Material dos Puxadores** | MDF |
+| **Altura** | 235 cm |
+| **Largura** | 120 cm |
+| **Profundidade** | 59,8 cm |
+| **Quantidade de Portas** | 2 portas |
+| **Tipo de Porta** | Correr (deslizante) |
+| **Espelho** | Sim (integrado) |
+| **Quantidade de Gavetas** | 3 gavetas |
+| **Tipo de Corrediça** | Metálica Telescópica |
+| **Quantidade de Prateleiras** | 5 prateleiras |
+| **Quantidade de Cabideiros** | 2 cabideiros |
+| **Possui Pés** | Não |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim |
+| **Ambiente Principal** | Quarto |
+| **Estilo** | Moderno / Clean |
+| **Itens Inclusos** | 1 Guarda-Roupa / Acessórios (parafusos, cavilhas, minifix) / Manual de Montagem |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Guarda-Roupa Solteiro 2 Portas de Correr com Espelho e 3 Gavetas RC2005 Emovell** é a escolha ideal para quem busca um móvel que una design clean, funcionalidade completa e excelente aproveitamento de espaço. Com acabamento branco texturizado, estrutura em MDF de qualidade, portas de correr com espelho integrado e uma divisão interna extremamente completa com 5 prateleiras, 3 gavetas com corrediças telescópicas e 2 cabideiros, este guarda-roupa atende perfeitamente as necessidades de um quarto de solteiro moderno.
+
+A marca Emovell, com mais de 50 vendas e avaliação de 4,6 estrelas, comprova a qualidade e a satisfação dos clientes. A altura de 235 cm aproveita ao máximo o espaço vertical, enquanto o design sem pés facilita a composição com outros móveis e a limpeza do ambiente.
+
+Se você procura um guarda-roupa que una design sofisticado, funcionalidade completa e durabilidade, o RC2005 é a escolha certeira. Aproveite o desconto de 11% no pagamento via Pix e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Emovell",
+  keywords: [
+    "guarda-roupa RC2005",
+    "guarda-roupa Emovell",
+    "guarda-roupa 2 portas",
+    "guarda-roupa com espelho",
+    "guarda-roupa de correr",
+    "guarda-roupa com gavetas",
+    "guarda-roupa branco",
+    "guarda-roupa MDF",
+    "guarda-roupa solteiro",
+    "guarda-roupa 235cm",
+    "guarda-roupa 120cm",
+    "guarda-roupa texturizado",
+    "móvel para quarto",
+    "armário de quarto",
+    "guarda-roupa moderno",
+    "guarda-roupa clean",
+    "guarda-roupa com prateleiras",
+    "guarda-roupa com cabideiros",
+    "armário com espelho",
+    "móvel branco"
+  ],
+  seoTitle: "Guarda-Roupa Solteiro 2 Portas Correr com Espelho RC2005 Emovell",
+  seoDescription: "Guarda-roupa solteiro RC2005 com 2 portas de correr, espelho e 3 gavetas telescópicas. MDF, 5 prateleiras, 235cm. 4.6★ (8 reviews)."
+},
+{
+  id: "p-imp-086",
+  slug: "guarda-roupa-montreal-2-portas-3-gavetas-novo-horizonte-branco",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Montreal 2 Portas de Correr com 3 Gavetas Novo Horizonte Branco",
+  imageFile: "/imagens/produtos/guarda-roupa-montreal-2-portas-3-gavetas-novo-horizonte-branco.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-montreal-2-portas-3-gavetas-novo-horizonte-branco.webp",
+  alt: "Guarda-roupa Montreal com 2 portas de correr e 3 gavetas da Novo Horizonte na cor branca",
+  rating: 4.6,
+  reviews: 416,
+  discount: 24,
+  price: 1171.78,
+  originalPrice: 1549.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2NPFcU6",
+  descricao: `
+# Guarda-Roupa Montreal 2 Portas de Correr com 3 Gavetas Novo Horizonte Branco
+
+## 📌 Introdução
+
+O **Guarda-Roupa Montreal** da Novo Horizonte é a expressão máxima de qualidade, durabilidade e design sofisticado para quartos de solteiro. Com estrutura 100% MDF colunado em 25mm, este móvel foi projetado para oferecer resistência excepcional e longevidade, superando os padrões do mercado. Seu acabamento em Pintura UV na cor branca confere um visual moderno e elegante, enquanto a divisão interna completa com 7 prateleiras, 3 gavetas com corrediças telescópicas e 2 cabideiros em alumínio proporciona organização impecável para todas as suas peças.
+
+Com dimensões generosas de 208 cm de largura, 236,4 cm de altura e 55,5 cm de profundidade, o Montreal aproveita ao máximo o espaço disponível, oferecendo ampla capacidade de armazenamento sem ocupar área excessiva no quarto. É a escolha ideal para quem busca um guarda-roupa premium que una funcionalidade, estilo e durabilidade incomparáveis.
+
+## 📌 Principais Benefícios
+
+O **guarda-roupa Montreal Novo Horizonte** foi projetado para oferecer benefícios reais que transformam a experiência de organização no quarto de solteiro.
+
+**Estrutura 100% MDF colunado em 25mm:** Este é o grande diferencial do produto. A estrutura em MDF com colunas de 25mm garante uma resistência e estabilidade superiores, superando significativamente os móveis com estrutura em MDP ou MDF de espessura padrão (15-18mm). O resultado é um guarda-roupa que não empena, não deforma e mantém sua integridade estrutural por muitos anos.
+
+**Acabamento em Pintura UV de alta qualidade:** A Pintura UV confere ao móvel uma superfície extremamente resistente a riscos, manchas e desgaste, mantendo o aspecto bonito e bem cuidado por muito mais tempo. O processo de cura por luz ultravioleta garante um acabamento uniforme, brilhante e durável.
+
+**Portas de correr com sistema premium:** O sistema de portas de correr com trilho inferior em alumínio e roldanas com amortecedores proporciona abertura e fechamento suaves, silenciosos e seguros. A roldana superior com guia zero e freio garante estabilidade e evita descarrilamentos, enquanto o perfil puxador e batente alinhador em alumínio bronze adicionam sofisticação e funcionalidade.
+
+**Organização interna completa:** Com 7 prateleiras, 3 gavetas com corrediças telescópicas e 2 cabideiros em alumínio, o Montreal oferece uma das melhores divisões internas disponíveis no mercado para quartos de solteiro. O espaço para roupas longas garante que vestidos e casacos sejam armazenados sem amassar.
+
+**Gavetas com corrediças telescópicas:** As 3 gavetas equipadas com corrediças telescópicas garantem abertura total e suave, permitindo acesso fácil a todas as peças armazenadas, mesmo com cargas moderadas.
+
+**Cabideiros e calceiro em alumínio:** Os cabideiros em alumínio são mais resistentes e duráveis que os de madeira, suportando peças mais pesadas sem deformar. O calceiro em alumínio oferece espaço adicional para organizar calçados.
+
+## 📌 Design
+
+O **Guarda-Roupa Montreal** apresenta um design contemporâneo e sofisticado que valoriza qualquer ambiente.
+
+**Acabamento em Pintura UV branca:** A Pintura UV confere ao móvel um acabamento uniforme, brilhante e extremamente resistente. A cor branca traz luminosidade e sensação de amplitude ao quarto, combinando perfeitamente com diferentes estilos de decoração.
+
+**Sistema de portas de correr premium:** O trilho inferior em alumínio e as roldanas com amortecedores garantem um deslizamento suave e silencioso, enquanto o perfil puxador e batente alinhador em alumínio bronze adicionam um toque de sofisticação.
+
+**Linhas clean e modernas:** O design geométrico e as linhas retas tornam o guarda-roupa versátil, combinando com diferentes estilos de decoração, do minimalista ao contemporâneo.
+
+**Dimensões generosas:** Com 208 cm de largura, 236,4 cm de altura e 55,5 cm de profundidade, o móvel oferece excelente capacidade de armazenamento em um formato que se adapta a diferentes tamanhos de quarto.
+
+**Design sem pés:** A ausência de pés deixa o desenho mais contínuo e facilita a composição com outros móveis do ambiente.
+
+## 📌 Organização
+
+A organização interna do **guarda-roupa Montreal** foi cuidadosamente planejada para maximizar o espaço e atender às necessidades do dia a dia de forma prática e eficiente.
+
+**Distribuição inteligente dos espaços:**
+
+**Altura total:** 236,4 cm - aproveitamento máximo do espaço vertical
+
+**Largura:** 208 cm - espaço generoso para diferentes tipos de peças
+
+**Profundidade:** 55,5 cm - profundidade ideal para cabides e peças volumosas
+
+**Cabideiros (2):** Os dois cabideiros em alumínio oferecem espaço para pendurar camisas, blusas, calças, vestidos e outras peças que precisam ser mantidas sem amassar. O alumínio garante resistência e durabilidade, suportando peças mais pesadas sem deformar.
+
+**Espaço para roupas longas:** O guarda-roupa possui espaço dedicado para peças longas, garantindo que vestidos, casacos e outras peças mais extensas sejam armazenados sem amassar ou enrugar.
+
+**Prateleiras (7):** As sete prateleiras oferecem amplo espaço para organizar roupas dobradas, caixas organizadoras, bolsas, mochilas, toalhas e acessórios. A quantidade de prateleiras permite uma organização detalhada e personalizada.
+
+**Gavetas (3):** As três gavetas internas com corrediças telescópicas são perfeitas para guardar roupas íntimas, meias, cintos, gravatas, lenços e pequenos acessórios. A abertura total facilita o acesso e a visualização do conteúdo.
+
+**Calceiro em alumínio:** O calceiro oferece espaço adicional para organizar calçados, mantendo-os protegidos e de fácil acesso.
+
+## 📌 Ideal para
+
+- **Quartos de solteiro:** Tamanho e capacidade ideais para uma pessoa
+- **Quartos principais:** Móvel principal do quarto
+- **Apartamentos modernos:** Design premium que valoriza o ambiente
+- **Pessoas que valorizam qualidade e durabilidade:** Estrutura 100% MDF colunado em 25mm
+- **Quartos com espaço vertical disponível:** Aproveita pé-direito padrão
+- **Ambientes que buscam sofisticação:** Acabamento Pintura UV premium
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **guarda-roupa Montreal Novo Horizonte** é especialmente recomendado para:
+
+**Pessoas que buscam um móvel premium com durabilidade excepcional.** A estrutura 100% MDF colunado em 25mm é um diferencial que garante resistência e longevidade superiores, ideal para quem deseja um investimento duradouro.
+
+**Quem valoriza design sofisticado e acabamento de alta qualidade.** A Pintura UV confere um acabamento impecável, resistente e durável, que mantém o móvel bonito por muitos anos.
+
+**Pessoas que necessitam de organização completa.** Com 7 prateleiras, 3 gavetas, 2 cabideiros, espaço para roupas longas e calceiro, o Montreal oferece uma das divisões internas mais completas do mercado.
+
+**Admiradores da marca Novo Horizonte.** Com mais de 500 vendas e 10ª colocação entre os guarda-roupas da marca, este modelo é um dos mais confiáveis e bem avaliados do mercado.
+
+**Quem busca um guarda-roupa versátil e funcional.** O sistema de portas de correr premium, as gavetas telescópicas e o espaço para roupas longas atendem diferentes necessidades de armazenamento.
+
+## 📌 Diferenciais
+
+O **Guarda-Roupa Montreal Novo Horizonte** se destaca da concorrência por diversos motivos:
+
+**Estrutura 100% MDF colunado em 25mm:** Este é o grande diferencial do produto. Enquanto a maioria dos guarda-roupas utiliza MDP ou MDF de 15-18mm, o Montreal utiliza MDF com colunas de 25mm, garantindo resistência e estabilidade superiores. O MDF é um material mais denso, estável e durável que o MDP, e a espessura de 25mm nas colunas proporciona uma estrutura extremamente robusta.
+
+**Sistema de portas de correr premium:** O trilho inferior em alumínio, roldanas com amortecedores, roldana superior com guia zero e freio, e perfil puxador e batente alinhador em alumínio bronze formam um sistema de alta qualidade que garante deslizamento suave, silencioso e seguro.
+
+**Acabamento em Pintura UV de alta qualidade:** O processo de cura por luz ultravioleta resulta em uma superfície extremamente resistente a riscos, manchas e desgaste, superior à pintura convencional.
+
+**Divisão interna completa:** Com 7 prateleiras, 3 gavetas, 2 cabideiros, espaço para roupas longas e calceiro, o Montreal oferece uma das divisões internas mais completas disponíveis no mercado.
+
+**Cabideiros e calceiro em alumínio:** O alumínio é mais resistente e durável que a madeira, suportando peças mais pesadas sem deformar.
+
+**Marca Novo Horizonte com mais de 500 vendas:** A reputação da marca e o alto volume de vendas comprovam a confiabilidade e a satisfação dos clientes.
+
+**Avaliação 4.6 estrelas com 416 reviews:** A excelente avaliação demonstra a qualidade consistente do produto.
+
+## 📌 Motivos para Comprar
+
+✅ **Estrutura 100% MDF colunado em 25mm** - resistência e durabilidade superiores
+
+✅ **Acabamento em Pintura UV premium** - superfície resistente a riscos e manchas
+
+✅ **2 portas de correr com sistema premium** - trilho em alumínio, roldanas com amortecedores
+
+✅ **3 gavetas com corrediças telescópicas** - abertura total e suave
+
+✅ **7 prateleiras** - amplo espaço para organização detalhada
+
+✅ **2 cabideiros em alumínio** - resistentes e duráveis
+
+✅ **Espaço para roupas longas** - acomode vestidos e casacos com folga
+
+✅ **Calceiro em alumínio** - espaço organizado para calçados
+
+✅ **Dimensões generosas (208cm x 236,4cm x 55,5cm)** - ampla capacidade de armazenamento
+
+✅ **Design sem pés** - visual contínuo e limpeza facilitada
+
+✅ **Marca Novo Horizonte com mais de 500 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.6 estrelas com 416 reviews** - excelente satisfação dos clientes
+
+✅ **24% de desconto no Pix** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Novo Horizonte são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todos os acessórios necessários, como parafusos, cavilhas e pregos.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas. O manual é detalhado e ilustrativo, facilitando o processo. Recomendamos a ajuda de outra pessoa devido ao tamanho e peso do móvel (140 kg).
+
+**4. O guarda-roupa tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Novo Horizonte.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito e saldo do Mercado Pago.
+
+**10. Como devo fazer a limpeza do guarda-roupa?**
+
+Recomenda-se limpar o produto com pano limpo e levemente umedecido em água e sabão neutro. Em seguida, passar um pano limpo e seco. Não utilizar produtos abrasivos ou solventes.
+
+**11. As gavetas têm fechadura?**
+
+Não, as gavetas não possuem fechadura. O design é focado em praticidade e facilidade de acesso.
+
+**12. O que significa "colunado em 25mm"?**
+
+"Colunado em 25mm" significa que as colunas (estrutura vertical) do guarda-roupa são feitas em MDF com espessura de 25mm, garantindo maior resistência e estabilidade que os móveis com estrutura padrão.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Novo Horizonte |
+| **Linha** | 1600 |
+| **Modelo** | Montreal |
+| **Tipo** | Solteiro |
+| **Cor** | Branco |
+| **Acabamento** | Pintura UV |
+| **Material da Estrutura** | 100% MDF colunado em 25mm |
+| **Material dos Cabideiros** | Alumínio |
+| **Material do Calceiro** | Alumínio |
+| **Material das Corrediças** | MDF |
+| **Material da Fita de Borda** | MDF |
+| **Altura** | 236,4 cm |
+| **Largura** | 208 cm |
+| **Profundidade** | 55,5 cm |
+| **Peso** | 140 kg |
+| **Quantidade de Portas** | 2 portas |
+| **Tipo de Porta** | Correr (corrediça) |
+| **Quantidade de Gavetas** | 3 gavetas |
+| **Tipo de Corrediça** | Telescópica |
+| **Quantidade de Prateleiras** | 7 prateleiras |
+| **Quantidade de Cabideiros** | 2 cabideiros |
+| **Espaço para Roupas Longas** | Sim |
+| **Calceiro** | Sim (em alumínio) |
+| **Espelho** | Não (possui 2 espelhos) |
+| **Possui Pés** | Não |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim |
+| **Idade** | Adultos |
+| **Ambiente Principal** | Quarto |
+| **Estilo** | Moderno |
+| **Itens Inclusos** | 1 Guarda-Roupa / Acessórios (parafusos, cavilhas, pregos) / Manual de Montagem |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Guarda-Roupa Montreal 2 Portas de Correr com 3 Gavetas Novo Horizonte** é a escolha definitiva para quem busca um móvel premium que una qualidade excepcional, design sofisticado e funcionalidade completa. Com estrutura 100% MDF colunado em 25mm, acabamento em Pintura UV de alta qualidade, sistema de portas de correr premium e uma divisão interna extremamente completa com 7 prateleiras, 3 gavetas com corrediças telescópicas, 2 cabideiros em alumínio, espaço para roupas longas e calceiro, este guarda-roupa atende todas as necessidades de um quarto de solteiro moderno e exigente.
+
+A marca Novo Horizonte, com mais de 500 vendas e avaliação de 4,6 estrelas com 416 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. A estrutura colunada em 25mm é um diferencial que garante resistência e longevidade superiores, fazendo deste guarda-roupa um investimento duradouro.
+
+Se você procura um guarda-roupa que una design premium, durabilidade excepcional e organização completa, o Montreal é a escolha certeira. Aproveite a oferta imperdível com 24% de desconto no pagamento via Pix e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Novo Horizonte",
+  keywords: [
+    "guarda-roupa Montreal",
+    "guarda-roupa Novo Horizonte",
+    "guarda-roupa 2 portas",
+    "guarda-roupa com gavetas",
+    "guarda-roupa branco",
+    "guarda-roupa MDF",
+    "guarda-roupa Pintura UV",
+    "guarda-roupa colunado 25mm",
+    "guarda-roupa solteiro",
+    "guarda-roupa 208cm",
+    "guarda-roupa 236cm",
+    "guarda-roupa 55cm",
+    "guarda-roupa com prateleiras",
+    "guarda-roupa com cabideiros",
+    "guarda-roupa de correr",
+    "guarda-roupa com calceiro",
+    "móvel para quarto",
+    "armário de quarto",
+    "guarda-roupa premium",
+    "guarda-roupa durável"
+  ],
+  seoTitle: "Guarda-Roupa Montreal 2 Portas Correr 3 Gavetas Novo Horizonte Branco",
+  seoDescription: "Guarda-roupa Montreal com 2 portas de correr, 3 gavetas e 7 prateleiras. MDF colunado 25mm, Pintura UV. 4.6★ (416 reviews). Oferta!"
+},
+{
+  id: "p-imp-087",
+  slug: "guarda-roupa-solteiro-heros-4-portas-2-gavetas-naturalle-rufato",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Solteiro Heros 4 Portas e 2 Gavetas Moderna Cor Naturalle - Rufato",
+  imageFile: "/imagens/produtos/guarda-roupa-solteiro-heros-4-portas-2-gavetas-naturalle-rufato.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-solteiro-heros-4-portas-2-gavetas-naturalle-rufato.webp",
+  alt: "Guarda-roupa solteiro Heros com 4 portas e 2 gavetas na cor Naturalle da marca Rufato",
+  rating: 4.6,
+  reviews: 244,
+  discount: 31,
+  price: 670.71,
+  originalPrice: 979.90,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1fCx9rV",
+  descricao: `
+# Guarda-Roupa Solteiro Heros 4 Portas e 2 Gavetas Moderna Cor Naturalle - Rufato
+
+## 📌 Introdução
+
+O **Guarda-Roupa Solteiro Heros** da Rufato é a escolha perfeita para quem busca um móvel que una design clássico e elegante com funcionalidade excepcional. Produzido 100% em MDF, este guarda-roupa combina durabilidade superior com um acabamento sofisticado em Pintura UV na cor Naturalle, que traz aconchego e personalidade ao ambiente.
+
+Com 4 portas amplas, 2 gavetas com corrediças telescópicas de fácil abertura, 2 cabideiros em alumínio, 4 prateleiras internas e compartimentos dedicados para calçados, o modelo Heros oferece uma organização completa e versátil para o quarto de solteiro. Suas dimensões compactas de 121 cm de largura, 200 cm de altura e 47 cm de profundidade fazem deste guarda-roupa a escolha ideal para quartos onde a funcionalidade e a estética precisam caminhar juntas.
+
+## 📌 Principais Benefícios
+
+O **guarda-roupa Heros Rufato** foi projetado para oferecer benefícios reais que transformam a experiência de organização no quarto de solteiro.
+
+**Design clássico e elegante:** O acabamento em Pintura UV na cor Naturalle confere ao móvel um visual sofisticado e atemporal, que combina perfeitamente com diferentes estilos de decoração, do clássico ao contemporâneo. A cor Naturalle traz aconchego e naturalidade ao ambiente, criando uma atmosfera acolhedora.
+
+**Estrutura 100% em MDF:** A utilização de MDF na estrutura garante maior estabilidade, resistência e durabilidade, superando a madeira aglomerada comum em termos de qualidade e longevidade. O MDF é um material mais denso, homogêneo e menos propenso a empenamentos.
+
+**Acabamento em Pintura UV premium:** O processo de Pintura UV confere ao móvel uma superfície extremamente resistente a riscos, manchas e desgaste, mantendo o aspecto bonito e bem cuidado por muito mais tempo. O acabamento uniforme e brilhante valoriza a cor Naturalle.
+
+**Organização interna completa:** Com 4 prateleiras, 2 gavetas com corrediças telescópicas, 2 cabideiros em alumínio e compartimentos para calçados, o Heros oferece uma divisão interna extremamente versátil que atende todas as necessidades de um quarto de solteiro.
+
+**Gavetas com corrediças telescópicas:** As 2 gavetas equipadas com corrediças telescópicas garantem abertura total e suave, permitindo acesso fácil a todas as peças armazenadas.
+
+**Cabideiros em alumínio resistentes:** Os cabideiros em alumínio são mais resistentes e duráveis que os de madeira, suportando peças mais pesadas sem deformar.
+
+**Compartimentos para calçados:** Espaços dedicados para organizar calçados, mantendo-os protegidos e de fácil acesso, evitando que fiquem espalhados pelo quarto.
+
+## 📌 Design
+
+O **Guarda-Roupa Heros** apresenta um design clássico e elegante que valoriza qualquer ambiente.
+
+**Acabamento em Pintura UV Naturalle:** A Pintura UV confere ao móvel um acabamento uniforme, brilhante e extremamente resistente. A cor Naturalle, um tom amadeirado suave e sofisticado, traz aconchego e personalidade ao quarto, combinando perfeitamente com diferentes estilos de decoração.
+
+**Design atemporal:** As linhas clássicas e o design elegante tornam o guarda-roupa versátil, combinando com diferentes estilos de decoração, do tradicional ao contemporâneo.
+
+**Dimensões compactas:** Com 121 cm de largura, 200 cm de altura e 47 cm de profundidade, o móvel oferece excelente capacidade de armazenamento em um formato compacto que se adapta a diferentes tamanhos de quarto.
+
+**Acabamento em Pintura UV:** O processo de Pintura UV garante um acabamento de alta qualidade, resistente e durável, que mantém o móvel bonito por muitos anos.
+
+## 📌 Organização
+
+A organização interna do **guarda-roupa Heros** foi cuidadosamente planejada para maximizar o espaço e atender às necessidades do dia a dia de forma prática e eficiente.
+
+**Distribuição inteligente dos espaços:**
+
+**Altura total:** 200 cm - aproveitamento máximo do espaço vertical
+
+**Largura:** 121 cm
+
+**Profundidade:** 47 cm
+
+**Cabideiros (2):** Os dois cabideiros em alumínio oferecem espaço para pendurar camisas, blusas, calças, vestidos e outras peças que precisam ser mantidas sem amassar. O alumínio garante resistência e durabilidade.
+
+**Prateleiras (4):** As quatro prateleiras oferecem amplo espaço para organizar roupas dobradas, caixas organizadoras, bolsas, mochilas, toalhas e acessórios. A quantidade de prateleiras permite uma organização detalhada e personalizada.
+
+**Gavetas (2):** As duas gavetas internas com corrediças telescópicas são perfeitas para guardar roupas íntimas, meias, cintos, gravatas, lenços e pequenos acessórios. A abertura total facilita o acesso e a visualização do conteúdo.
+
+**Compartimentos para calçados:** O guarda-roupa possui espaços dedicados para organizar calçados, mantendo-os protegidos e de fácil acesso, contribuindo para a organização geral do quarto.
+
+## 📌 Ideal para
+
+- **Quartos de solteiro:** Tamanho e capacidade ideais para uma pessoa
+- **Quartos principais:** Móvel principal do quarto
+- **Apartamentos modernos:** Design elegante que combina com decorações contemporâneas
+- **Pessoas que valorizam design clássico:** Estilo atemporal que não sai de moda
+- **Quartos de hóspedes:** Funcional e elegante
+- **Profissionais e estudantes:** Organização completa para rotina diária
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **guarda-roupa solteiro Heros Rufato** é especialmente recomendado para:
+
+**Pessoas que buscam um móvel com design clássico e elegante.** O acabamento em Pintura UV Naturalle confere ao guarda-roupa um visual sofisticado e atemporal que agrada aos mais diversos gostos.
+
+**Quem valoriza qualidade e durabilidade.** A estrutura 100% em MDF e o acabamento em Pintura UV garantem um produto resistente e durável, ideal para uso diário.
+
+**Pessoas que necessitam de organização completa.** Com 4 prateleiras, 2 gavetas, 2 cabideiros e compartimentos para calçados, o Heros oferece uma divisão interna versátil que atende diferentes necessidades de armazenamento.
+
+**Admiradores da marca Rufato.** Com mais de 5 vendas e 1ª colocação entre os guarda-roupas da marca, este modelo é um dos mais confiáveis do mercado.
+
+**Quem busca um guarda-roupa compacto e funcional.** As dimensões compactas de 121 cm de largura se adaptam a diferentes tamanhos de quarto sem comprometer a capacidade de armazenamento.
+
+## 📌 Diferenciais
+
+O **Guarda-Roupa Heros Rufato** se destaca da concorrência por diversos motivos:
+
+**Estrutura 100% em MDF:** Enquanto muitos guarda-roupas utilizam MDP ou outros materiais, o Heros é produzido 100% em MDF, garantindo maior estabilidade, resistência e durabilidade. O MDF é um material mais denso, homogêneo e durável que o MDP.
+
+**Acabamento em Pintura UV premium:** A Pintura UV confere ao móvel um acabamento de alta qualidade, resistente a riscos e manchas, superior à pintura convencional.
+
+**Design clássico e atemporal:** O design elegante e as linhas clássicas tornam o guarda-roupa versátil, combinando com diferentes estilos de decoração sem sair de moda.
+
+**Compartimentos dedicados para calçados:** Este é um diferencial importante, pois nem todo guarda-roupa oferece espaço específico para calçados, ajudando a manter o quarto mais organizado.
+
+**Gavetas com corrediças telescópicas:** As corrediças telescópicas garantem abertura total e suave, facilitando o acesso.
+
+**Cabideiros em alumínio:** O alumínio é mais resistente e durável que a madeira, suportando peças mais pesadas sem deformar.
+
+**Marca Rufato com 1ª colocação entre os guarda-roupas:** A marca é reconhecida pela qualidade de seus produtos, e o modelo Heros ocupa a 1ª posição entre os guarda-roupas da marca.
+
+**Avaliação 4.6 estrelas com 244 reviews:** A excelente avaliação demonstra a satisfação dos clientes e a qualidade consistente do produto.
+
+## 📌 Motivos para Comprar
+
+✅ **Estrutura 100% em MDF** - resistência e durabilidade superiores
+
+✅ **Acabamento em Pintura UV premium** - superfície resistente a riscos e manchas
+
+✅ **4 portas amplas** - acesso facilitado a todas as áreas
+
+✅ **2 gavetas com corrediças telescópicas** - abertura total e suave
+
+✅ **4 prateleiras** - espaço para organização detalhada
+
+✅ **2 cabideiros em alumínio** - resistentes e duráveis
+
+✅ **Compartimentos para calçados** - organização completa
+
+✅ **Design clássico e elegante** - estilo atemporal
+
+✅ **Dimensões compactas (121cm x 200cm x 47cm)** - ideal para diferentes quartos
+
+✅ **Marca Rufato com 1ª colocação** - confiabilidade comprovada
+
+✅ **Avaliação 4.6 estrelas com 244 reviews** - excelente satisfação dos clientes
+
+✅ **31% de desconto no Pix** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Rufato são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todos os acessórios necessários.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas. O manual é detalhado e ilustrativo, facilitando o processo. Recomendamos a ajuda de outra pessoa devido ao tamanho do móvel.
+
+**4. O guarda-roupa tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Rufato.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito e saldo do Mercado Pago.
+
+**10. Como devo fazer a limpeza do guarda-roupa?**
+
+Recomenda-se limpar o produto com pano limpo e levemente umedecido em água e sabão neutro. Em seguida, passar um pano limpo e seco. Não utilizar produtos abrasivos ou solventes.
+
+**11. As gavetas têm fechadura?**
+
+Não, as gavetas não possuem fechadura. O design é focado em praticidade e facilidade de acesso.
+
+**12. O que é a cor Naturalle?**
+
+Naturalle é um tom amadeirado suave e sofisticado que traz aconchego e naturalidade ao ambiente, combinando perfeitamente com diferentes estilos de decoração.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Rufato |
+| **Modelo** | Heros |
+| **Tipo** | Solteiro |
+| **Cor** | Naturalle |
+| **Acabamento** | Pintura UV |
+| **Material da Estrutura** | 100% MDF |
+| **Material dos Cabideiros** | Alumínio |
+| **Material das Corrediças** | Telescópica |
+| **Altura** | 200 cm |
+| **Largura** | 121 cm |
+| **Profundidade** | 47 cm |
+| **Peso** | 73,07 kg |
+| **Quantidade de Portas** | 4 portas |
+| **Tipo de Porta** | Bater (abertura frontal) |
+| **Quantidade de Gavetas** | 2 gavetas |
+| **Tipo de Corrediça** | Telescópica |
+| **Quantidade de Prateleiras** | 4 prateleiras |
+| **Quantidade de Cabideiros** | 2 cabideiros |
+| **Compartimentos para Calçados** | Sim |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim |
+| **Ambiente Principal** | Quarto |
+| **Estilo** | Clássico / Moderno |
+| **Itens Inclusos** | 1 Guarda-Roupa / Acessórios de Montagem / Manual de Montagem |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Guarda-Roupa Solteiro Heros 4 Portas e 2 Gavetas Rufato** é a escolha ideal para quem busca um móvel que una design clássico e elegante, funcionalidade completa e durabilidade excepcional. Com estrutura 100% em MDF, acabamento em Pintura UV premium na cor Naturalle, 4 portas amplas, 2 gavetas com corrediças telescópicas, 4 prateleiras, 2 cabideiros em alumínio e compartimentos dedicados para calçados, este guarda-roupa atende perfeitamente as necessidades de um quarto de solteiro moderno e organizado.
+
+A marca Rufato, com 1ª colocação entre os guarda-roupas da marca e avaliação de 4,6 estrelas com 244 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. O design atemporal e as dimensões compactas tornam o Heros versátil e funcional, adaptando-se a diferentes tamanhos de quarto e estilos de decoração.
+
+Se você procura um guarda-roupa que una design sofisticado, organização completa e durabilidade, o Heros é a escolha certeira. Aproveite a oferta imperdível com 31% de desconto no pagamento via Pix e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Rufato",
+  keywords: [
+    "guarda-roupa Heros",
+    "guarda-roupa Rufato",
+    "guarda-roupa 4 portas",
+    "guarda-roupa com gavetas",
+    "guarda-roupa Naturalle",
+    "guarda-roupa MDF",
+    "guarda-roupa Pintura UV",
+    "guarda-roupa solteiro",
+    "guarda-roupa 121cm",
+    "guarda-roupa 200cm",
+    "guarda-roupa 47cm",
+    "guarda-roupa com prateleiras",
+    "guarda-roupa com cabideiros",
+    "guarda-roupa com compartimento para calçados",
+    "móvel para quarto",
+    "armário de quarto",
+    "guarda-roupa clássico",
+    "guarda-roupa elegante",
+    "guarda-roupa durável",
+    "guarda-roupa compacto"
+  ],
+  seoTitle: "Guarda-Roupa Solteiro 4 Portas 2 Gavetas Heros Rufato Naturalle",
+  seoDescription: "Guarda-roupa Heros com 4 portas, 2 gavetas e estrutura 100% MDF. Pintura UV, cabideiros em alumínio. 4.6★ (244 reviews). Oferta 31% OFF!"
+},
+{
+  id: "p-imp-088",
+  slug: "guarda-roupa-2-portas-nt-5170-freijo-off-white-notavel",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa 2 Portas NT 5170 Freijó com Off White - Notável",
+  imageFile: "/imagens/produtos/guarda-roupa-2-portas-nt-5170-freijo-off-white-notavel.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-2-portas-nt-5170-freijo-off-white-notavel.webp",
+  alt: "Guarda-roupa 2 portas NT 5170 na cor Freijó com Off White da marca Notável com espelho e gavetas",
+  rating: 4.6,
+  reviews: 277,
+  discount: 22,
+  price: 468.17,
+  originalPrice: 600.00,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2Ka7uha",
+  descricao: `
+# Guarda-Roupa 2 Portas NT 5170 Freijó com Off White - Notável
+
+## 📌 Introdução
+
+O **Guarda-Roupa 2 Portas NT 5170** da renomada marca Notável é a solução perfeita para quem busca um móvel compacto, funcional e com design sofisticado para o quarto. Desenvolvido especialmente para ambientes com espaço reduzido, este guarda-roupa combina elegância, praticidade e excelente custo-benefício.
+
+Com um visual que mescla o tom amadeirado do Freijó com o Off White, este móvel traz aconchego e luminosidade ao ambiente, adaptando-se perfeitamente a diferentes estilos de decoração. Seja para um quarto de solteiro, de casal ou até mesmo um espaço de hóspedes, o modelo NT 5170 entrega organização e estilo sem ocupar muito espaço.
+
+## 📌 Principais Benefícios
+
+O **guarda-roupa 2 portas Notável** foi projetado para oferecer benefícios reais que facilitam o dia a dia e melhoram a organização do seu quarto.
+
+**Design compacto e funcional:** Com 108 cm de largura, 188 cm de altura e 45 cm de profundidade, este móvel se encaixa perfeitamente em quartos com pouco espaço útil, sem comprometer a circulação. É a escolha ideal para apartamentos compactos, kitnets e quartos menores.
+
+**Espelho integrado para praticidade:** O espelho presente no guarda-roupa permite que você confira seu visual antes de sair, eliminando a necessidade de um espelho separado no quarto. Além disso, o espelho reflete a luz natural e artificial, ampliando a sensação de espaço e deixando o ambiente mais iluminado e arejado.
+
+**Organização interna completa:** Com 3 gavetas espaçosas e uma prateleira, você terá opções variadas para organizar roupas íntimas, acessórios, peças dobradas e itens de uso diário. As gavetas com corrediças metálicas garantem abertura suave e durabilidade no uso frequente.
+
+**Acabamento premium em Pintura UV:** O acabamento em Pintura Ultravioleta confere alta resistência a riscos, manchas e desgaste, mantendo o móvel com aspecto de novo por muito mais tempo. A combinação do tom Freijó amadeirado com o Off White brilhante cria um visual sofisticado e atemporal.
+
+**Cabideiros para peças penduradas:** Os cabideiros permitem pendurar camisas, blusas, calças e vestidos sem amassar, mantendo suas roupas sempre prontas para uso e facilitando a escolha do look do dia.
+
+## 📌 Design
+
+O **Guarda-Roupa NT 5170** da Notável apresenta um design que equilibra perfeitamente o tradicional e o contemporâneo. A combinação de cores Freijó com Off White é uma escolha inteligente que agrada aos mais diversos gostos e estilos de decoração.
+
+**Acabamento Freijó:** O tom amadeirado Freijó traz aconchego e naturalidade ao ambiente, remetendo à madeira de alta qualidade. Este acabamento é obtido através de pintura UV que realça os veios e a textura natural da madeira, proporcionando um visual rico e sofisticado.
+
+**Acabamento Off White Brilhante:** O Off White com acabamento brilhante adiciona luminosidade e modernidade ao móvel, criando um contraste elegante com o Freijó. O brilho reflete a luz do ambiente, tornando o quarto mais claro e arejado.
+
+**Design clean e minimalista:** As linhas retas e o design despojado tornam este guarda-roupa versátil, combinando com decorações modernas, clássicas, rústicas e contemporâneas. É um móvel que não sai de moda e se adapta a diferentes fases da vida.
+
+**Detalhes que fazem a diferença:** A pintura UV com acabamento amadeirado no Freijó e o brilho no Off White demonstram o cuidado da marca Notável com a qualidade e os detalhes estéticos.
+
+## 📌 Organização
+
+A organização interna do **guarda-roupa 2 portas** foi cuidadosamente planejada para maximizar o espaço disponível e atender às necessidades do dia a dia.
+
+**Distribuição inteligente dos espaços:**
+
+**Parte superior:** Ideal para armazenar roupas de cama, toalhas, edredons e itens de uso menos frequente, aproveitando a altura total de 188 cm.
+
+**Cabideiros:** Perfeitos para pendurar camisas, blazers, calças, vestidos e outras peças que precisam ser mantidas sem amassar. O espaço é suficiente para um guarda-roupa de solteiro ou para peças selecionadas de um casal.
+
+**Prateleira intermediária:** A prateleira oferece espaço extra para organizar roupas dobradas, caixas organizadoras, bolsas, mochilas e acessórios, mantendo tudo ao alcance das mãos.
+
+**Gavetas inferiores:** As três gavetas são ideais para guardar roupas íntimas, meias, cintos, gravatas, lenços e pequenos acessórios. Com corrediças metálicas, as gavetas abrem e fecham suavemente, garantindo durabilidade e praticidade no uso diário.
+
+**Espelho na porta:** O espelho integrado à porta não apenas facilita a rotina de se vestir como também elimina a necessidade de um espelho separado, economizando espaço no quarto.
+
+## 📌 Ideal para
+
+- **Apartamentos compactos:** O design com 45 cm de profundidade otimiza espaços reduzidos
+- **Quartos de solteiro:** Tamanho ideal para uma pessoa
+- **Quartos de hóspedes:** Funcional e charmoso para receber visitas
+- **Kitnets e studios:** Design versátil que combina com diferentes estilos
+- **Quartos infantis e adolescentes:** Tamanho adequado para crianças em crescimento
+- **Repúblicas e moradias estudantis:** Custo-benefício e durabilidade
+- **Segundo quarto ou quarto auxiliar:** Complementa a decoração sem ocupar muito espaço
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **guarda-roupa 2 portas Notável** é especialmente recomendado para:
+
+**Solteiros e jovens adultos** que buscam um móvel funcional, bonito e com excelente custo-benefício para seu primeiro quarto ou apartamento. O design versátil agrada aos mais diversos gostos e a capacidade de armazenamento atende perfeitamente as necessidades de uma pessoa.
+
+**Pessoas com quartos pequenos** que precisam otimizar o espaço sem abrir mão da funcionalidade e do estilo. A profundidade de 45 cm é um diferencial importante para ambientes reduzidos.
+
+**Quem valoriza acabamento de qualidade** e busca um móvel com pintura UV que garanta durabilidade e resistência ao desgaste do dia a dia.
+
+**Estudantes universitários** que vivem em repúblicas, kitnets ou moradias estudantis e precisam de um móvel compacto, resistente e com boa relação custo-benefício.
+
+**Quem está montando o primeiro apartamento** e deseja um móvel com design atual, acabamento de qualidade e funcionalidades modernas sem gastar uma fortuna.
+
+**Casais com espaço limitado** que buscam um guarda-roupa auxiliar ou para roupas de temporada.
+
+## 📌 Diferenciais
+
+O **Guarda-Roupa NT 5170 Notável** se destaca da concorrência por diversos motivos que merecem destaque:
+
+**Pintura UV de alta qualidade:** Diferente dos móveis com acabamento em laminado ou melamínico comum, a pintura UV recebe um processo de cura por luz ultravioleta que resulta em uma superfície extremamente resistente a riscos, manchas e desgaste. Isso significa que seu guarda-roupa manterá a aparência impecável por muito mais tempo, com cores vibrantes e acabamento uniforme.
+
+**Combinação de cores sofisticada:** A escolha do Freijó com Off White demonstra um cuidado especial com o design, criando um visual harmônico que combina com diferentes paletas de cores e estilos de decoração. O contraste entre o tom amadeirado e o branco suave traz equilíbrio e sofisticação.
+
+**Corrediças metálicas de qualidade:** As gavetas utilizam corrediças metálicas que garantem um deslizamento suave e silencioso, sem travamentos ou desgastes prematuros. Este sistema é mais durável e confiável que os sistemas plásticos encontrados em móveis de menor qualidade.
+
+**Espelho de boa qualidade:** O espelho integrado à porta possui excelente definição de imagem, sem distorções, sendo fixado com segurança para evitar acidentes e garantir durabilidade.
+
+**Dimensões otimizadas:** Com 188 cm de altura, 108 cm de largura e 45 cm de profundidade, este guarda-roupa foi projetado para ambientes onde cada centímetro conta, oferecendo espaço generoso sem ocupar área excessiva no quarto.
+
+**Marca Notável com mais de 1000 vendas:** A reputação da marca e o alto volume de vendas comprovam a confiabilidade e a satisfação dos clientes com este produto.
+
+**Relação custo-benefício:** Considerando a qualidade dos materiais, o acabamento superior, as funcionalidades oferecidas e o design moderno, este guarda-roupa apresenta um excelente custo-benefício.
+
+## 📌 Motivos para Comprar
+
+✅ **Design compacto com 45 cm de profundidade** - ideal para quartos com espaço limitado
+
+✅ **Acabamento em pintura UV de alta qualidade** - resistente a riscos e manchas
+
+✅ **Combinação Freijó com Off White** - visual sofisticado e atemporal
+
+✅ **Espelho integrado** - praticidade e sensação de amplitude
+
+✅ **3 gavetas com corrediças metálicas** - organização silenciosa e durável
+
+✅ **Cabideiros para roupas penduradas** - mantenha camisas e calças sem amassar
+
+✅ **Prateleira versátil** - espaço extra para roupas dobradas e acessórios
+
+✅ **Marca Notável com mais de 1000 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.6 estrelas com 277 reviews** - satisfação dos clientes
+
+✅ **22% de desconto no Pix** - excelente custo-benefício
+
+✅ **Produto nacional com garantia de 90 dias** - qualidade e segurança
+
+✅ **Entrega em todo o Brasil** - praticidade para comprar de qualquer região
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Todos os produtos da MoveisAqui são novos, enviados diretamente para as casas de nossos clientes. Você receberá o guarda-roupa em sua embalagem original, lacrado e com todos os acessórios.
+
+**2. O produto vem montado? Se não, vocês realizam a montagem?**
+
+A MoveisAqui não disponibiliza serviço de montagem. Todos os produtos seguem com manual de instalação e as ferragens necessárias. Alguns produtos possuem vídeo explicando o passo a passo da montagem para facilitar o processo.
+
+**3. Vocês possuem loja física? Posso retirar meu produto em mãos?**
+
+Não possuímos loja física, apenas loja virtual. Confira as opções de envio ao colocar o seu CEP no simulador de frete disponível na página do anúncio.
+
+**4. Qual é o valor do envio? Posso pagar separadamente?**
+
+O valor do envio é calculado com base no peso e volume do produto, e no CEP de destino. Você pode calcular o valor e prazo de entrega no simulador disponível na página do anúncio.
+
+**5. A MoveisAqui entrega em todo Brasil? Como é feita a entrega?**
+
+Sim, entregamos no Brasil inteiro (salvo algumas exceções) através de transportadoras parceiras especializadas em entregas de móveis, com todo o cuidado e segurança.
+
+**6. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança na sua compra.
+
+**7. Os produtos possuem garantia?**
+
+Sim. A MoveisAqui oferece 3 meses (90 dias) de garantia para defeitos de fabricação, conforme especificado na descrição do produto.
+
+**8. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas como chave de fenda, martelo de borracha e trena. O manual de instruções é detalhado e alguns produtos contam com vídeos explicativos para facilitar o processo.
+
+**9. Quanto tempo dura a montagem?**
+
+Em média, a montagem pode levar de 2 a 4 horas, dependendo da experiência e do número de pessoas envolvidas. Recomendamos separar um tempo tranquilo para realizar a montagem com calma.
+
+**10. Como devo fazer a limpeza do guarda-roupa?**
+
+Recomenda-se limpar o produto com flanela ou pano macio seco. Não utilizar produtos abrasivos, desengordurantes, álcool ou solvente. Mantê-lo em lugar livre de umidade e/ou exposição direta ao sol.
+
+**11. O produto pode ser utilizado em ambientes externos?**
+
+Não. O produto é para uso residencial em ambiente interno, não devendo ficar exposto diretamente ao sol, calor e umidade excessivos.
+
+**12. O que devo fazer ao receber o produto?**
+
+Ao receber a mercadoria, o cliente deve verificar as condições da embalagem. Caso haja alguma avaria, não assine o comprovante de recebimento. Confira também as dimensões do produto e certifique-se de que passará normalmente por elevadores, portas, escadas e corredores.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Notável |
+| **Modelo** | NT 5170 |
+| **Linha** | MoveisAqui |
+| **Cor** | Freijó com Off White |
+| **Acabamento** | Pintura UV (Freijó: amadeirado / Off White: brilhante) |
+| **Material Principal** | MDP (Material de Densidade Média) |
+| **Altura** | 188 cm |
+| **Largura** | 108 cm |
+| **Profundidade** | 45 cm |
+| **Quantidade de Portas** | 2 portas |
+| **Quantidade de Gavetas** | 3 gavetas |
+| **Quantidade de Prateleiras** | 1 prateleira |
+| **Quantidade de Cabideiros** | Sim (quantidade não especificada) |
+| **Espelho** | Sim (integrado à porta) |
+| **Tipo de Gaveta** | Interna |
+| **Tipo de Corrediça** | Metálica |
+| **Garantia** | 90 dias (3 meses) |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim |
+| **Ambiente Principal** | Quarto |
+| **Uso Recomendado** | Residencial, ambiente interno |
+| **Itens Inclusos** | 1 Guarda-Roupa / Acessórios de Montagem / Manual de Instruções |
+| **Observações** | Imagens ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Guarda-Roupa 2 Portas NT 5170 Notável** é a escolha inteligente para quem busca um móvel compacto, funcional e com design sofisticado para o quarto. Com acabamento em pintura UV de alta qualidade, combinação de cores Freijó com Off White, espelho integrado e organização interna completa com 3 gavetas e cabideiros, este guarda-roupa atende perfeitamente as necessidades de um quarto de solteiro ou de um espaço reduzido.
+
+A marca Notável, com mais de 1000 vendas realizadas e avaliação de 4,6 estrelas com 277 reviews positivos, comprova a qualidade e a confiabilidade deste produto. Se você procura um guarda-roupa durável, bonito e funcional com excelente custo-benefício, o modelo NT 5170 é uma escolha certeira.
+
+Aproveite o desconto de 22% no pagamento via Pix e garanta já o seu guarda-roupa com entrega em todo o Brasil!
+  `,
+  marca: "Notável",
+  keywords: [
+    "guarda-roupa 2 portas",
+    "guarda-roupa NT 5170",
+    "guarda-roupa com espelho",
+    "guarda-roupa freijó",
+    "guarda-roupa off white",
+    "guarda-roupa Notável",
+    "guarda-roupa com gavetas",
+    "guarda-roupa MDP",
+    "guarda-roupa pintura UV",
+    "móvel para quarto",
+    "armário de quarto",
+    "guarda-roupa compacto",
+    "guarda-roupa 108cm",
+    "guarda-roupa 188cm",
+    "guarda-roupa pequeno",
+    "guarda-roupa moderno",
+    "guarda-roupa MoveisAqui",
+    "armário com espelho",
+    "guarda-roupa solteiro",
+    "móvel com pintura UV"
+  ],
+  seoTitle: "Guarda-Roupa 2 Portas NT 5170 Notável | Freijó com Off White",
+  seoDescription: "Guarda-roupa 2 portas NT 5170 com espelho e 3 gavetas. Acabamento em pintura UV, cor Freijó com Off White. 4.6★ (277 reviews)."
+},
+{
+  id: "p-imp-089",
+  slug: "sofa-sem-caixa-retratil-2m-soft-petit-boucle-cinza-escuro-cama-inbox",
+  category: "sofas",
+  mainCategory: "sala",
+  name: "Sofá Sem Caixa Retrátil 2,00m Soft Petit Boucle Cama Inbox Cinza Escuro",
+  imageFile: "/imagens/produtos/sofa-sem-caixa-retratil-2m-soft-petit-boucle-cinza-escuro-cama-inbox.webp",
+  displayImage: "/imagens/produtos/sofa-sem-caixa-retratil-2m-soft-petit-boucle-cinza-escuro-cama-inbox.webp",
+  alt: "Sofá sem caixa retrátil de 2,00m Soft Petit Boucle na cor cinza escuro da Cama Inbox com tecido boucle",
+  rating: 5.0,
+  reviews: 6,
+  discount: 34,
+  price: 2609.10,
+  originalPrice: 3979.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1Z8QrGg",
+  descricao: `
+# Sofá Sem Caixa Retrátil 2,00m Soft Petit Boucle Cama Inbox Cor Cinza-escuro
+
+## 📌 Introdução
+
+Transforme sua sala em um verdadeiro oásis de conforto e elegância com o **Sofá Sem Caixa Retrátil Petit Boucle** da Cama Inbox. Este modelo 3 em 1 não só eleva o charme do seu ambiente, como também proporciona uma experiência de descanso incomparável, graças à sua tecnologia de Espuma SoftGel D40 com ThermoGel. Ele pode virar uma excelente cama de casal, um belo sofá e ainda conta com um compartimento baú para você organizar suas decorações e objetos.
+
+Com design moderno e tecido boucle de textura felpuda e prazerosa, este sofá é a peça perfeita para quem busca conforto, funcionalidade e estilo em um único móvel. Disponível nas cores Bege Claro, Caramelo, Cinza Claro, Cinza Escuro e Marrom, o modelo Soft Petit Boucle se adapta perfeitamente a diferentes estilos de decoração.
+
+## 📌 Principais Benefícios
+
+O **sofá retrátil sem caixa** da Cama Inbox foi projetado para oferecer benefícios reais que transformam a experiência de convivência e descanso na sala de estar.
+
+**Tecnologia 3 em 1:** Este sofá é três produtos em um. Funciona como um sofá confortável para o dia a dia, transforma-se em uma cama de casal espaçosa para receber visitas e ainda possui um compartimento baú para armazenar objetos, decorações e roupas de cama. É a solução inteligente para quem busca otimizar espaços.
+
+**Tecnologia SoftGel D40 com ThermoGel:** A espuma de alta densidade D40 com tecnologia ThermoGel não absorve o calor do corpo, mantendo sempre o sofá com sensação FRESH e aconchegante. Esta tecnologia inovadora proporciona uma experiência de conforto superior, especialmente em dias mais quentes.
+
+**Encosto reclinável em 180°:** O encosto ergonômico é reclinável em 5 posições ajustáveis, podendo chegar a 180°, permitindo que você encontre a posição perfeita para assistir TV, ler um livro ou descansar. As almofadas são removíveis, compostas por 80% de fibra siliconada e 20% de flocos de espuma, oferecendo apoio confortável e ajustável.
+
+**Estrutura robusta e durável:** Fabricado com madeira maciça de eucalipto de reflorestamento e reforçado com grampos galvanizados, o sofá garante durabilidade e resistência para uso diário intenso.
+
+**Tecido Boucle de alta qualidade:** O tecido boucle possui textura felpuda e prazerosa ao toque, conferindo sofisticação e estilo ao ambiente. É um tecido elegante, durável e de fácil manutenção.
+
+**Percintas Extra Support:** As percintas são mais resistentes e duráveis, garantindo maior suporte e longevidade ao estofado.
+
+## 📌 Design
+
+O **Sofá Petit Boucle** apresenta um design moderno e sofisticado que valoriza qualquer ambiente.
+
+**Tecido Boucle felpudo:** O tecido boucle é uma tendência forte na decoração de interiores, com sua textura felpuda e prazerosa ao toque. Ele confere sofisticação, charme e aconchego ao sofá, tornando-o uma peça de destaque na decoração da sala.
+
+**Acabamento em courino:** As faixas laterais em courino oferecem ainda mais beleza e glamour ao modelo, criando um contraste elegante com o tecido boucle.
+
+**Design versátil:** O design clean e moderno do sofá se adapta a diferentes estilos de decoração, do minimalista ao contemporâneo, do escandinavo ao boho.
+
+**Braços macios:** Os braços são compostos por espuma D33 e manta siliconada, proporcionando um toque macio e agradável, além de maior conforto ao sentar ou deitar.
+
+**Pés em PVC:** Os pés de 2,5cm em PVC garantem estabilidade e facilidade de movimentação, além de protegerem o piso contra arranhões.
+
+## 📌 Funcionalidade e Praticidade
+
+O **sofá sem caixa retrátil** foi desenvolvido para oferecer máxima funcionalidade e praticidade no dia a dia.
+
+**Transformação fácil:** A transformação de sofá para cama é simples e rápida, permitindo que você receba visitas sem preocupação com espaço extra para dormir.
+
+**Compartimento baú:** O espaço interno do sofá funciona como um baú, ideal para guardar roupas de cama, travesseiros, mantas, almofadas extras e outros objetos, mantendo a sala sempre organizada.
+
+**Almofadas removíveis:** As almofadas do encosto são removíveis, facilitando a limpeza e a manutenção do sofá.
+
+**5 posições de reclinação:** O encosto reclinável em 5 posições permite ajustar o ângulo de acordo com sua preferência, garantindo o máximo de conforto em cada momento.
+
+## 📌 Ideal para
+
+- **Apartamentos compactos:** A funcionalidade 3 em 1 otimiza espaços reduzidos
+- **Salas de estar:** Peça principal que valoriza o ambiente
+- **Salas de TV e lazer:** Conforto e versatilidade para momentos de relaxamento
+- **Home theaters:** Design sofisticado e conforto excepcional
+- **Espaços multifuncionais:** Móvel versátil que atende diferentes necessidades
+- **Receber visitas:** Cama de casal confortável para hóspedes
+- **Decoração moderna:** Tendência boucle que valoriza qualquer ambiente
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **sofá retrátil Cama Inbox** é especialmente recomendado para:
+
+**Pessoas que buscam funcionalidade e versatilidade.** O modelo 3 em 1 atende diferentes necessidades: sofá para o dia a dia, cama para visitas e baú para organização.
+
+**Quem valoriza conforto e tecnologia.** A espuma SoftGel D40 com ThermoGel oferece uma experiência de conforto superior, com sensação fresh e aconchegante.
+
+**Pessoas com espaços reduzidos.** A funcionalidade 3 em 1 é perfeita para apartamentos compactos e ambientes onde cada centímetro precisa ser otimizado.
+
+**Admiradores do design boucle.** O tecido boucle é uma tendência forte e confere sofisticação e estilo ao ambiente.
+
+**Quem busca durabilidade e qualidade.** A estrutura em madeira maciça de reflorestamento e as percintas Extra Support garantem um produto durável e resistente.
+
+**Famílias que recebem visitas frequentemente.** O sofá se transforma em uma cama de casal confortável, ideal para acomodar hóspedes com conforto.
+
+## 📌 Diferenciais
+
+O **Sofá Sem Caixa Retrátil Cama Inbox** se destaca da concorrência por diversos motivos:
+
+**Tecnologia ThermoGel exclusiva:** A espuma SoftGel D40 com ThermoGel é um diferencial importante, pois mantém o sofá sempre com sensação fresh, não absorvendo o calor do corpo. Esta tecnologia proporciona um conforto superior aos sofás convencionais.
+
+**Modelo 3 em 1 completo:** Sofá, cama de casal e baú em um único móvel. Esta funcionalidade completa é um diferencial significativo para quem busca otimizar espaços.
+
+**Encosto reclinável em 180° com 5 posições:** A possibilidade de ajustar o encosto em 5 posições diferentes, incluindo 180°, oferece versatilidade e conforto para diferentes momentos de uso.
+
+**Estrutura em madeira maciça de reflorestamento:** A utilização de madeira maciça de eucalipto de reflorestamento garante maior durabilidade e resistência, além de ser uma escolha sustentável.
+
+**Tecido boucle de alta qualidade:** O tecido boucle é uma tendência de decoração, com textura felpuda e prazerosa ao toque, que confere sofisticação e estilo ao ambiente.
+
+**Percintas Extra Support:** As percintas mais resistentes e duráveis garantem maior suporte e longevidade ao estofado.
+
+**Faixas laterais em courino:** Este detalhe confere mais beleza e glamour ao modelo, diferenciando-o de outros sofás boucle.
+
+**Marca Cama Inbox com mais de 50 vendas:** A marca é reconhecida pela qualidade de seus produtos, e este modelo ocupa a 16ª posição entre os sofás da marca.
+
+**Avaliação 5.0 estrelas:** A avaliação perfeita demonstra a satisfação excepcional dos clientes e a qualidade superior do produto.
+
+## 📌 Motivos para Comprar
+
+✅ **Modelo 3 em 1** - sofá, cama de casal e baú em um único móvel
+
+✅ **Espuma SoftGel D40 com ThermoGel** - tecnologia que mantém sensação fresh e aconchegante
+
+✅ **Encosto reclinável em 180° com 5 posições** - conforto ajustável para diferentes momentos
+
+✅ **Tecido boucle felpudo e prazeroso** - sofisticação e estilo
+
+✅ **Estrutura em madeira maciça de reflorestamento** - durabilidade e sustentabilidade
+
+✅ **Percintas Extra Support** - maior resistência e longevidade
+
+✅ **Almofadas removíveis** - facilidade de limpeza e manutenção
+
+✅ **Faixas laterais em courino** - mais beleza e glamour
+
+✅ **Pés em PVC de 2,5cm** - estabilidade e proteção do piso
+
+✅ **Capacidade de 120kg por pessoa** - resistência e segurança
+
+✅ **Marca Cama Inbox com mais de 50 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 5.0 estrelas** - satisfação excepcional dos clientes
+
+✅ **34% de desconto com cupom** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Cama Inbox são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias para a montagem.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas. O manual é detalhado e ilustrativo, facilitando o processo. Recomendamos a ajuda de outra pessoa devido ao tamanho do móvel.
+
+**4. O sofá tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Cama Inbox.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix com cupom, cartões de crédito e saldo do Mercado Pago.
+
+**10. Como devo fazer a limpeza do sofá?**
+
+Recomenda-se limpar o tecido com pano seco ou levemente umedecido para remover poeira. Para manchas, utilize produtos específicos para tecidos boucle. Não utilizar produtos abrasivos ou solventes.
+
+**11. Qual o peso máximo suportado?**
+
+O sofá suporta até 120kg por pessoa, garantindo segurança e durabilidade.
+
+**12. O tecido boucle é resistente?**
+
+Sim, o tecido boucle utilizado pela Cama Inbox é de alta qualidade, durável e resistente ao uso diário, mantendo sua textura e aparência por muito tempo.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Cama Inbox |
+| **Modelo** | Soft Petit Boucle |
+| **Tipo** | Sofá Sem Caixa Retrátil |
+| **Cor** | Cinza-escuro |
+| **Tecido** | Boucle (textura felpuda) |
+| **Desenho do Tecido** | Liso |
+| **Material do Estofamento** | Madeira reflorestada / Espuma / Tecido |
+| **Tipo de Espuma** | SoftGel D40 com ThermoGel |
+| **Estrutura** | Madeira maciça de eucalipto de reflorestamento |
+| **Reclinável** | Sim (5 posições, até 180°) |
+| **Almofadas** | Removíveis (80% fibra siliconada, 20% flocos de espuma) |
+| **Braços** | Espuma D33 + Manta siliconada |
+| **Percintas** | Extra Support |
+| **Faixas Laterais** | Courino |
+| **Pés** | PVC (2,5cm) |
+| **Compartimento Baú** | Sim |
+| **Largura Total** | 2,00m (disponível 1,60m, 1,80m e 2,00m) |
+| **Altura Total** | 1,00m |
+| **Altura dos Braços** | 0,60m |
+| **Altura Assento ao Chão** | 0,50m |
+| **Profundidade como Sofá** | 1,10m |
+| **Profundidade como Cama** | 1,36m |
+| **Peso Suportado por Pessoa** | 120kg |
+| **Ambiente Principal** | Sala |
+| **Estilo** | Moderno / Contemporâneo |
+| **Itens Inclusos** | 1 Sofá / Acessórios de Montagem / Manual de Instruções |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Sofá Sem Caixa Retrátil 2,00m Soft Petit Boucle Cama Inbox** é a escolha perfeita para quem busca um móvel que una funcionalidade excepcional, conforto superior e design sofisticado. Com o modelo 3 em 1 (sofá, cama de casal e baú), tecnologia de espuma SoftGel D40 com ThermoGel, encosto reclinável em 5 posições, estrutura em madeira maciça de reflorestamento e tecido boucle de alta qualidade, este sofá atende todas as necessidades de uma sala moderna e multifuncional.
+
+A marca Cama Inbox, com mais de 50 vendas e avaliação perfeita de 5,0 estrelas, comprova a qualidade excepcional e a satisfação dos clientes. O design versátil e as opções de cores disponíveis permitem que o sofá se adapte perfeitamente a diferentes estilos de decoração.
+
+Se você procura um sofá que una design sofisticado, funcionalidade completa e conforto incomparável, o Petit Boucle é a escolha certeira. Aproveite o desconto de 34% com cupom no pagamento via Pix e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Cama Inbox",
+  keywords: [
+    "sofá retrátil",
+    "sofá sem caixa",
+    "sofá boucle",
+    "sofá cama",
+    "sofá 3 em 1",
+    "sofá com baú",
+    "sofá cinza escuro",
+    "sofá Cama Inbox",
+    "sofá Petit Boucle",
+    "sofá reclinável",
+    "sofá para sala",
+    "móvel para sala",
+    "sofá moderno",
+    "sofá 2 metros",
+    "sofá de casal",
+    "cama de casal",
+    "sofá com ThermoGel",
+    "sofá com espuma D40",
+    "sofá boucle cinza",
+    "sofá multifuncional"
+  ],
+  seoTitle: "Sofá Retrátil 2,00m Boucle Cinza Escuro | Cama Inbox 3 em 1",
+  seoDescription: "Sofá 3 em 1: sofá, cama de casal e baú. Com ThermoGel, reclinável 180°, tecido boucle. 5.0★ (6 reviews). Oferta 34% OFF!"
+},
+{
+  id: "p-imp-091",
+  slug: "sofa-cama-3-lugares-veludo-cinza-escuro-188cm-nami-cama-inbox",
+  category: "sofas",
+  mainCategory: "sala",
+  name: "Sofá Cama 3 Lugares Veludo Cinza Escuro 188cm Nami Cama Inbox",
+  imageFile: "/imagens/produtos/sofa-cama-3-lugares-veludo-cinza-escuro-188cm-nami.webp",
+  displayImage: "/imagens/produtos/sofa-cama-3-lugares-veludo-cinza-escuro-188cm-nami.webp",
+  alt: "Sofá cama de 3 lugares em veludo cinza escuro de 188cm modelo Nami da Cama Inbox",
+  rating: 4.6,
+  reviews: 33,
+  discount: 39,
+  price: 1452.92,
+  originalPrice: 2399.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2Em4LmK",
+  descricao: `
+# Sofá-Cama Nami 1,88m Xpand Tech Velourê | O equilíbrio perfeito para a sua casa
+
+## 📌 Introdução
+
+Sabe aquela vontade de ter uma sala super aconchegante para relaxar, mas que também vira um quarto de hóspedes num piscar de olhos? O **Sofá-Cama Nami de 1,88m** resolve isso para você! Criado pela Cama inBox com a tecnologia exclusiva Xpand Tech, ele vai muito além de um sofá comum. É um móvel super inteligente, feito sob medida para a correria do dia a dia e para quem precisa fazer o espaço render.
+
+Com design moderno, tecido Velourê premium e a inovadora tecnologia de envio a vácuo, o Nami é o queridinho das salas modernas. Ele combina a funcionalidade de um sofá de 3 lugares com a praticidade de uma cama de casal, tudo em um único móvel que se adapta perfeitamente a apartamentos compactos, studios e espaços multifuncionais.
+
+## 📌 Principais Benefícios
+
+O **Sofá-Cama Nami** foi projetado para oferecer benefícios reais que transformam a experiência de convivência e descanso na sala de estar.
+
+**Tecnologia Xpand Tech exclusiva:** Com a tecnologia exclusiva Xpand Tech, seu sofá chega compactado a vácuo em uma caixa prática. Ele passa por portas estreitas, elevadores pequenos e escadas apertadas sem esforço. Ao abrir, a mágica acontece: ele expande e recupera sua forma impecável em minutos. Esta tecnologia de qualidade e eficiência de entrega diferencia a Cama inBox no mercado de sofá-cama a vácuo no mundo.
+
+**Espuma Exclusiva Xpand Tech:** O sofá é produzido com espuma Tech de alta performance D33, ideal para uso diário, proporcionando sustentação adequada, maior durabilidade e conforto prolongado. A estrutura interna foi projetada para oferecer equilíbrio entre maciez e suporte, tornando o Nami uma excelente opção tanto como sofá de 3 lugares quanto como cama de casal.
+
+**Versatilidade 2 em 1:** Com 1,88m de largura, este sofá-cama é ideal para salas compactas, apartamentos, studios e espaços multifuncionais. Em poucos movimentos, transforma-se em uma cama de casal confortável para maratonar suas séries e filmes, além de receber pessoas com mais espaço, otimizando o ambiente sem necessidade de móveis adicionais.
+
+**Tecido Premium Velourê:** O revestimento em tecido Velourê oferece toque macio, resistência ao uso contínuo e acabamento sofisticado. O design clean e moderno permite fácil harmonização com diferentes estilos de decoração, desde ambientes minimalistas até salas contemporâneas.
+
+**Liberdade Logística:** Receba rápido seu sofá na caixa. Você mesmo monta. Remova do plástico e pronto, fácil de montar sem necessidade de terceiros. A embalagem compacta facilita o transporte e a instalação.
+
+## 📌 Design
+
+O **Sofá-Cama Nami** apresenta um design moderno e sofisticado que valoriza qualquer ambiente.
+
+**Tecido Velourê premium:** O revestimento em Velourê oferece um toque macio e agradável, com acabamento sofisticado e resistente ao uso contínuo. O tecido é durável e fácil de manter, mantendo sua aparência por muito tempo.
+
+**Design clean e moderno:** As linhas retas e o design despojado tornam o sofá versátil, combinando com diferentes estilos de decoração, do minimalista ao contemporâneo. A cor cinza escuro é uma escolha elegante que se adapta a qualquer paleta de cores.
+
+**Acabamento de qualidade:** Cada detalhe do sofá foi pensado para oferecer durabilidade e beleza, com costuras reforçadas e acabamentos impecáveis que demonstram a qualidade da Cama Inbox.
+
+**Cores disponíveis:** Disponível em Bege, Cinza Claro, Cinza Escuro, Marrom, Azul e Preto, o Nami se adapta perfeitamente a diferentes estilos de decoração e preferências pessoais.
+
+## 📌 Funcionalidade e Praticidade
+
+O **Sofá-Cama Nami** foi desenvolvido para oferecer máxima funcionalidade e praticidade no dia a dia.
+
+**Transformação fácil:** A transformação de sofá para cama é simples e rápida, permitindo que você receba visitas sem preocupação com espaço extra para dormir. Em poucos movimentos, o ambiente se transforma completamente.
+
+**Tamanho ideal:** Com 1,88m de largura, o Nami oferece o equilíbrio perfeito entre ser compacto para caber no seu ambiente e gigante no conforto ao utilizar o sofá como cama. É a medida ideal para salas brasileiras.
+
+**Tecnologia Xpand Tech:** O sofá chega prensado a vácuo na caixa. É só abrir e assistir à mágica da expansão acontecendo. Não deforma e garantimos conforto por muito mais tempo.
+
+**Montagem simples:** Você mesmo monta. Remova do plástico e pronto, fácil de montar sem necessidade de terceiros. A instalação é intuitiva e rápida.
+
+**Garantia estendida:** 3 meses de garantia legal + 9 meses de garantia da Cama inBox, totalizando 12 meses de proteção para sua compra.
+
+## 📌 Ideal para
+
+- **Apartamentos compactos:** A funcionalidade 2 em 1 otimiza espaços reduzidos
+- **Salas de estar:** Peça principal que valoriza o ambiente
+- **Salas de TV e lazer:** Conforto e versatilidade para momentos de relaxamento
+- **Studios e quitinetes:** Móvel multifuncional que economiza espaço
+- **Receber visitas:** Cama de casal confortável para hóspedes
+- **Home theaters:** Design sofisticado e conforto excepcional
+- **Espaços multifuncionais:** Móvel versátil que atende diferentes necessidades
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **sofá-cama Nami Cama Inbox** é especialmente recomendado para:
+
+**Pessoas que buscam funcionalidade e versatilidade.** O modelo 2 em 1 (sofá e cama) atende diferentes necessidades: sofá para o dia a dia e cama para visitas.
+
+**Quem valoriza tecnologia e inovação.** A tecnologia Xpand Tech é um diferencial que facilita a logística e a instalação, além de garantir a qualidade do produto.
+
+**Pessoas com espaços reduzidos.** A funcionalidade 2 em 1 é perfeita para apartamentos compactos, studios e ambientes onde cada centímetro precisa ser otimizado.
+
+**Quem busca design moderno e sofisticado.** O tecido Velourê e o design clean do Nami conferem elegância e estilo ao ambiente.
+
+**Admiradores da marca Cama Inbox.** A marca é referência em tecnologia a vácuo no Brasil, com mais de 100 vendas e 3ª colocação entre os sofás da marca.
+
+**Famílias que recebem visitas frequentemente.** O sofá se transforma em uma cama de casal confortável, ideal para acomodar hóspedes com conforto.
+
+## 📌 Diferenciais
+
+O **Sofá-Cama Nami Cama Inbox** se destaca da concorrência por diversos motivos:
+
+**Tecnologia Xpand Tech exclusiva:** Esta é a grande inovação do produto. O sofá é compactado a vácuo e enviado em uma caixa prática, facilitando a logística e a instalação. Ao abrir, ele expande e recupera sua forma impecável em minutos, sem deformar.
+
+**Espuma Tech D33 de alta performance:** A espuma de alta densidade D33 proporciona sustentação adequada, maior durabilidade e conforto prolongado, ideal para uso diário.
+
+**Modelo 2 em 1 versátil:** Sofá de 3 lugares e cama de casal em um único móvel, com transformação rápida e fácil.
+
+**Tecido Velourê premium:** O revestimento em Velourê oferece toque macio, resistência ao uso contínuo e acabamento sofisticado, com design exclusivo da Cama Inbox.
+
+**Garantia estendida de 12 meses:** 3 meses de garantia legal + 9 meses de garantia da Cama Inbox, oferecendo segurança e tranquilidade ao consumidor.
+
+**Marca Cama Inbox com mais de 100 vendas:** A marca é referência em tecnologia a vácuo no Brasil, com 3ª colocação entre os sofás da marca.
+
+**Avaliação 4.6 estrelas:** A excelente avaliação demonstra a satisfação dos clientes e a qualidade do produto.
+
+## 📌 Motivos para Comprar
+
+✅ **Tecnologia Xpand Tech exclusiva** - sofá compactado a vácuo que expande em minutos
+
+✅ **Espuma Tech D33 de alta performance** - conforto e durabilidade para uso diário
+
+✅ **Modelo 2 em 1** - sofá de 3 lugares que vira cama de casal
+
+✅ **Tecido Velourê premium** - toque macio e acabamento sofisticado
+
+✅ **Design clean e moderno** - combina com diferentes estilos de decoração
+
+✅ **Transformação fácil e rápida** - vira cama em poucos movimentos
+
+✅ **Embalagem compacta** - passa por portas e elevadores com facilidade
+
+✅ **Montagem simples** - faça você mesmo, sem necessidade de terceiros
+
+✅ **Garantia estendida de 12 meses** - segurança e tranquilidade
+
+✅ **Marca Cama Inbox com mais de 100 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.6 estrelas com 33 reviews** - satisfação dos clientes
+
+✅ **39% de desconto no Pix** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Cama Inbox são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O que é a tecnologia Xpand Tech?**
+
+A tecnologia Xpand Tech é exclusiva da Cama Inbox. O sofá é compactado a vácuo em uma caixa prática, facilitando a logística. Ao abrir, ele expande e recupera sua forma impecável em minutos, sem deformar.
+
+**3. O produto vem montado?**
+
+O produto é enviado na caixa, compactado a vácuo. Você mesmo monta: remova do plástico e pronto, fácil de montar sem necessidade de terceiros.
+
+**4. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem é simples e intuitiva. Não são necessárias ferramentas especiais. Basta remover o sofá da embalagem e aguardar a expansão.
+
+**5. O sofá tem garantia?**
+
+Sim, o produto possui 3 meses de garantia legal + 9 meses de garantia da Cama Inbox, totalizando 12 meses de proteção.
+
+**6. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança.
+
+**7. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**8. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras.
+
+**9. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor.
+
+**10. Como devo fazer a limpeza do sofá?**
+
+Recomenda-se limpar o tecido Velourê com pano seco ou levemente umedecido para remover poeira. Para manchas, utilize produtos específicos para tecidos. Não utilizar produtos abrasivos ou solventes.
+
+**11. O sofá é resistente para uso diário?**
+
+Sim, a espuma Tech D33 de alta performance é ideal para uso diário, proporcionando sustentação adequada, maior durabilidade e conforto prolongado.
+
+**12. Quais cores estão disponíveis?**
+
+O Sofá-Cama Nami está disponível nas cores: Bege, Cinza Claro, Cinza Escuro, Marrom, Azul e Preto.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Cama Inbox |
+| **Modelo** | Nami |
+| **Tipo** | Sofá-Cama 2 em 1 |
+| **Cor** | Cinza-escuro |
+| **Tecido** | Velourê (design exclusivo Cama Inbox) |
+| **Desenho do Tecido** | Liso |
+| **Tecnologia** | Xpand Tech (envio a vácuo) |
+| **Tipo de Espuma** | Tech D33 (alta performance) |
+| **Reclinável** | Não |
+| **Largura** | 1,88m (disponível 1,50m e 1,88m) |
+| **Altura** | 0,76m |
+| **Profundidade como Sofá** | 0,88m |
+| **Profundidade como Cama** | 1,76m |
+| **Garantia** | 3 meses legal + 9 meses Cama Inbox = 12 meses |
+| **Cores Disponíveis** | Bege, Cinza Claro, Cinza Escuro, Marrom, Azul, Preto |
+| **Ambiente Principal** | Sala |
+| **Estilo** | Moderno / Contemporâneo |
+| **Itens Inclusos** | 1 Sofá-Cama / Acessórios / Manual de Instruções |
+| **Observações** | Imagens meramente ilustrativas. Tonalidades podem variar conforme lote do tecido e configuração de tela |
+
+## 📌 Conclusão
+
+O **Sofá-Cama Nami 1,88m Xpand Tech Cama Inbox** é a escolha perfeita para quem busca um móvel que una funcionalidade excepcional, conforto superior e design sofisticado. Com a tecnologia exclusiva Xpand Tech que revoluciona a logística de entrega, espuma Tech D33 de alta performance, tecido Velourê premium e o modelo 2 em 1 (sofá de 3 lugares e cama de casal), este sofá-cama atende todas as necessidades de uma sala moderna e multifuncional.
+
+A marca Cama Inbox, com mais de 100 vendas e 3ª colocação entre os sofás da marca, comprova a qualidade e a confiabilidade do produto. O design versátil e as opções de cores disponíveis permitem que o sofá se adapte perfeitamente a diferentes estilos de decoração.
+
+Se você procura um sofá-cama que una tecnologia inovadora, design sofisticado e conforto incomparável, o Nami é a escolha certeira. Aproveite a oferta imperdível com 39% de desconto no pagamento via Pix e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Cama Inbox",
+  keywords: [
+    "sofá cama",
+    "sofá cama Nami",
+    "sofá cama Cama Inbox",
+    "sofá Xpand Tech",
+    "sofá a vácuo",
+    "sofá velourê",
+    "sofá cinza escuro",
+    "sofá 1,88m",
+    "sofá 3 lugares",
+    "cama de casal",
+    "móvel para sala",
+    "sofá moderno",
+    "sofá compacto",
+    "sofá multifuncional",
+    "sofá studio",
+    "sofá apartamento",
+    "sofá cama compacto",
+    "sofá tecnologia Xpand",
+    "sofá com garantia",
+    "sofá Cama Inbox Nami"
+  ],
+  seoTitle: "Sofá Cama 3 Lugares Nami 1,88m | Cama Inbox Xpand Tech",
+  seoDescription: "Sofá cama Nami 3 lugares com tecnologia Xpand Tech, tecido velourê, 2 em 1: sofá e cama de casal. 4.6★ (33 reviews). Oferta 39% OFF!"
+},
+{
+  id: "p-imp-092",
+  slug: "sofa-retratil-reclinavel-275m-molas-ensacadas-spazus-cama-inbox-cinza",
+  category: "sofas",
+  mainCategory: "sala",
+  name: "Sofá Retrátil e Reclinável 2,75m Molas Ensacadas Spazus Cama Inbox Cinza",
+  imageFile: "/imagens/produtos/sofa-retratil-reclinavel-275m-veludo-cinza-spazus-cama-inbox.webp",
+  displayImage: "/imagens/produtos/sofa-retratil-reclinavel-275m-veludo-cinza-spazus-cama-inbox.webp",
+  alt: "Sofá retrátil e reclinável de 2,75m em veludo cinza com molas ensacadas modelo Spazus da Cama Inbox",
+  rating: 4.7,
+  reviews: 248,
+  discount: 23,
+  price: 3539.00,
+  originalPrice: 4649.00,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2MjDQ7F",
+  descricao: `
+# Sofá Retrátil e Reclinável 2,75m Molas Ensacadas Cama inBox Spazus com Bordado 3D Velusoft Cinza
+
+## 📌 Introdução
+
+Embeleze e complemente sua sala com a ajuda do maravilhoso **Sofá Retrátil e Reclinável Spazus** da Cama Inbox. Com uma estrutura interna resistente, ele possui a estabilidade necessária para esse tipo de móvel, enquanto o enchimento em espuma D33, molas ensacadas de molejo duplo e percintas italianas dão o suporte necessário para o conforto, sendo perfeito para acomodar você e as pessoas que ama naquela maratona de séries, ou até mesmo para descansarem aos finais de semana.
+
+Com design sofisticado e acabamento em tecido Velusoft com bordado pantográfico 3D, este sofá é a peça central que sua sala merece. Seu sistema retrátil e reclinável em 5 níveis de estágios oferece versatilidade incomparável, transformando-se rapidamente em uma cama confortável para receber visitas ou para momentos de relaxamento.
+
+## 📌 Principais Benefícios
+
+O **sofá retrátil e reclinável Spazus** foi projetado para oferecer benefícios reais que transformam a experiência de convivência e descanso na sala de estar.
+
+**Sistema retrátil e reclinável em 5 níveis:** O encosto reclinável em 5 níveis de estágios permite que você encontre a posição perfeita para assistir TV, ler um livro, descansar ou dormir. A versatilidade de ajustes garante o máximo de conforto em cada momento.
+
+**Molas ensacadas de molejo duplo:** As molas ensacadas proporcionam um conforto superior, com suporte individualizado para cada ponto do corpo. O sistema de molejo duplo oferece maior durabilidade e resistência, mantendo o conforto por muitos anos.
+
+**Espuma D33 de alta densidade:** A espuma de alta performance D33 proporciona sustentação adequada e conforto prolongado, ideal para uso diário intenso.
+
+**Percintas italianas:** As percintas italianas garantem maior resistência e durabilidade ao estofado, mantendo a firmeza e o suporte mesmo após anos de uso.
+
+**Tecido Velusoft com bordado 3D:** O tecido Suede Velusoft oferece um toque macio e aconchegante, enquanto o bordado pantográfico 3D nos assentos e laterais adiciona um toque de sofisticação e exclusividade ao design.
+
+**Estrutura em madeira maciça de eucalipto:** A estrutura é fabricada com madeira maciça de eucalipto 100% de reflorestamento, garantindo durabilidade e sustentabilidade.
+
+**Design bipartido para fácil transporte:** O sofá é enviado desmontado e embalado por módulo, sendo bipartido (dividido em 2 módulos) para facilitar o transporte em corredores estreitos e escadas. Cada módulo tem altura 161cm, largura 65cm e profundidade 127cm, entrando facilmente em qualquer porta acima de 65cm de largura.
+
+## 📌 Design
+
+O **Sofá Spazus** apresenta um design sofisticado e moderno que valoriza qualquer ambiente.
+
+**Tecido Suede Velusoft:** O tecido Velusoft oferece um toque macio e aconchegante, com acabamento premium que confere elegância ao sofá. É um tecido durável e resistente ao uso diário.
+
+**Bordado Pantográfico 3D:** O bordado 3D nos assentos e laterais é um detalhe exclusivo que adiciona sofisticação e personalidade ao design, diferenciando o Spazus de outros sofás do mercado.
+
+**Design moderno e versátil:** As linhas clean e o design contemporâneo tornam o sofá versátil, combinando com diferentes estilos de decoração, do minimalista ao clássico.
+
+**Dimensões generosas:** Com 2,75m de largura, 1,08m de altura e 1,22m de profundidade (fechado), o sofá oferece amplo espaço para até 4 pessoas, sendo a peça central da sala.
+
+**Braços largos e macios:** Os braços com 25cm de largura e madeira maciça proporcionam conforto e estabilidade, além de um visual robusto e elegante.
+
+## 📌 Funcionalidade e Praticidade
+
+O **sofá retrátil e reclinável Spazus** foi desenvolvido para oferecer máxima funcionalidade e praticidade no dia a dia.
+
+**Transformação fácil:** O sistema retrátil e reclinável permite transformar o sofá em uma cama confortável em poucos movimentos, ideal para receber visitas ou para momentos de descanso.
+
+**5 níveis de reclinação:** O encosto reclinável em 5 níveis de estágios oferece versatilidade para diferentes momentos de uso, desde a posição sentada até a posição completamente deitada.
+
+**Almofadas do encosto parcialmente removíveis:** As almofadas são compostas por 80% de fibra siliconada e 20% de flocos de espuma, proporcionando maior conforto e facilidade de manutenção.
+
+**Montagem simples:** O produto é enviado desmontado e embalado por módulo, com montagem fácil e rápida. Acompanha manual de instruções detalhado.
+
+**Capacidade de 120kg por pessoa:** O sofá suporta até 120kg por pessoa, garantindo segurança e durabilidade para diferentes usuários.
+
+## 📌 Ideal para
+
+- **Salas de estar:** Peça principal que valoriza o ambiente
+- **Salas de TV e home theaters:** Conforto e versatilidade para maratonas de séries
+- **Salas grandes:** Ocupa espaço com elegância e funcionalidade
+- **Receber visitas:** Cama confortável para hóspedes
+- **Espaços multifuncionais:** Móvel versátil que atende diferentes necessidades
+- **Ambientes modernos:** Design sofisticado que combina com decorações contemporâneas
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **sofá retrátil e reclinável Cama Inbox** é especialmente recomendado para:
+
+**Pessoas que buscam conforto e versatilidade.** O sistema retrátil e reclinável em 5 níveis oferece opções para diferentes momentos de uso, desde relaxar até dormir.
+
+**Famílias que valorizam qualidade e durabilidade.** As molas ensacadas de molejo duplo, espuma D33 e percintas italianas garantem um produto que dura por muitos anos.
+
+**Quem tem espaços grandes.** Com 2,75m de largura, o Spazus é ideal para salas amplas que comportam um sofá de grande porte.
+
+**Admiradores de design sofisticado.** O bordado pantográfico 3D e o tecido Velusoft conferem um visual premium e exclusivo ao sofá.
+
+**Pessoas que recebem visitas frequentemente.** A funcionalidade retrátil permite acomodar hóspedes com conforto, sem necessidade de móveis adicionais.
+
+**Quem valoriza facilidade de transporte e montagem.** O design bipartido facilita a entrada em portas e escadas, e a montagem é simples e rápida.
+
+## 📌 Diferenciais
+
+O **Sofá Retrátil e Reclinável Spazus Cama Inbox** se destaca da concorrência por diversos motivos:
+
+**Molas ensacadas de molejo duplo:** Enquanto muitos sofás utilizam molas convencionais ou espuma apenas, o Spazus utiliza molas ensacadas de molejo duplo, que oferecem suporte individualizado para cada ponto do corpo, maior durabilidade e conforto superior.
+
+**Bordado Pantográfico 3D exclusivo:** O bordado 3D nos assentos e laterais é um detalhe que agrega valor estético e exclusividade ao produto, diferenciando-o de outros sofás do mercado.
+
+**Percintas italianas:** As percintas italianas garantem maior resistência e durabilidade ao estofado, mantendo a firmeza e o suporte mesmo após anos de uso intenso.
+
+**Design bipartido para fácil transporte:** O sofá é dividido em 2 módulos que cabem em portas acima de 65cm de largura, facilitando a entrega e instalação em apartamentos e casas com acessos estreitos.
+
+**Estrutura em madeira maciça de reflorestamento:** A utilização de madeira de eucalipto 100% de reflorestamento garante durabilidade e sustentabilidade.
+
+**Almofadas com fibra siliconada:** As almofadas do encosto são compostas por 80% de fibra siliconada e 20% de flocos de espuma, proporcionando maior conforto e maciez.
+
+**Marca Cama Inbox com mais de 100 vendas:** A marca é reconhecida pela qualidade de seus produtos, com excelente avaliação de 4,7 estrelas e 248 reviews.
+
+**Tecido Velusoft premium:** O tecido Suede Velusoft oferece toque macio e aconchegante, com acabamento sofisticado e resistente.
+
+## 📌 Motivos para Comprar
+
+✅ **Sistema retrátil e reclinável em 5 níveis** - versatilidade para diferentes momentos
+
+✅ **Molas ensacadas de molejo duplo** - conforto superior e suporte individualizado
+
+✅ **Espuma D33 de alta densidade** - sustentação adequada e conforto prolongado
+
+✅ **Percintas italianas** - maior resistência e durabilidade
+
+✅ **Bordado Pantográfico 3D exclusivo** - design sofisticado e diferenciado
+
+✅ **Tecido Velusoft macio e aconchegante** - acabamento premium
+
+✅ **Estrutura em madeira maciça de reflorestamento** - durabilidade e sustentabilidade
+
+✅ **Design bipartido para fácil transporte** - entra em portas acima de 65cm
+
+✅ **Montagem simples e rápida** - faça você mesmo
+
+✅ **Capacidade de 120kg por pessoa** - segurança e resistência
+
+✅ **Marca Cama Inbox com mais de 100 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.7 estrelas com 248 reviews** - excelente satisfação dos clientes
+
+✅ **23% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Cama Inbox são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado e embalado por módulo. Ele é bipartido (dividido em 2 módulos) para facilitar o transporte em corredores estreitos e escadas. A montagem é fácil e rápida, acompanha manual de instruções.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem é simples e intuitiva, podendo ser realizada com ferramentas básicas. O manual é detalhado e ilustrativo, facilitando o processo. Recomendamos a ajuda de outra pessoa devido ao tamanho do sofá.
+
+**4. O sofá tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Cama Inbox.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix com cupom, cartões de crédito e saldo do Mercado Pago.
+
+**10. Como devo fazer a limpeza do sofá?**
+
+Recomenda-se limpar o tecido Velusoft com pano seco ou levemente umedecido para remover poeira. Para manchas, utilize produtos específicos para tecidos suede. Não utilizar produtos abrasivos ou solventes.
+
+**11. O sofá é resistente para uso diário?**
+
+Sim, a estrutura em madeira maciça, molas ensacadas de molejo duplo e percintas italianas garantem um produto extremamente resistente e durável para uso diário intenso.
+
+**12. O sofá passa por portas estreitas?**
+
+Sim, o sofá é bipartido em 2 módulos com altura 161cm, largura 65cm e profundidade 127cm, entrando facilmente em qualquer porta acima de 65cm de largura.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Cama Inbox |
+| **Modelo** | Spazus |
+| **Tipo** | Sofá Retrátil e Reclinável |
+| **Cor** | Cinza |
+| **Tecido** | Suede Velusoft |
+| **Bordado** | Pantográfico 3D |
+| **Assentos** | Espuma D33 + Molas ensacadas de molejo duplo + Fibra siliconada + Percintas italianas |
+| **Encosto** | Reclinável em 5 níveis, almofadas parcialmente removíveis (80% fibra siliconada, 20% flocos de espuma) |
+| **Braços** | Madeira maciça de eucalipto, 25cm de largura cada, com bordado 3D |
+| **Estrutura** | Madeira maciça de eucalipto 100% de reflorestamento, grampos galvanizados |
+| **Altura** | 1,08m |
+| **Profundidade Fechado** | 1,22m |
+| **Profundidade Aberto** | 1,75m |
+| **Largura** | 2,75m (disponível: 2,15m, 2,35m, 2,55m, 2,75m, 2,95m, 3,15m) |
+| **Peso Suportado por Pessoa** | 120kg |
+| **Embalagem** | Bipartido em 2 módulos: Altura 161cm, Largura 65cm, Profundidade 127cm |
+| **Garantia** | Contra defeitos de fabricação |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim (fácil e rápida) |
+| **Ambiente Principal** | Sala |
+| **Estilo** | Moderno / Contemporâneo |
+| **Itens Inclusos** | 1 Sofá / Módulos / Manual de Montagem |
+| **Observações** | Imagens meramente ilustrativas. Tonalidades podem variar conforme lote e configuração de tela |
+
+## 📌 Conclusão
+
+O **Sofá Retrátil e Reclinável 2,75m Molas Ensacadas Spazus Cama Inbox** é a escolha perfeita para quem busca um móvel que una conforto excepcional, design sofisticado e funcionalidade completa. Com sistema retrátil e reclinável em 5 níveis, molas ensacadas de molejo duplo, espuma D33, percintas italianas, tecido Velusoft com bordado 3D e estrutura em madeira maciça de reflorestamento, este sofá atende todas as necessidades de uma sala moderna e sofisticada.
+
+A marca Cama Inbox, com mais de 100 vendas e avaliação de 4,7 estrelas com 248 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. O design bipartido facilita o transporte e a montagem, tornando a experiência de compra ainda mais prática.
+
+Se você procura um sofá que una tecnologia de conforto superior, design exclusivo e durabilidade incomparável, o Spazus é a escolha certeira. Aproveite a oferta com 23% de desconto e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Cama Inbox",
+  keywords: [
+    "sofá retrátil",
+    "sofá reclinável",
+    "sofá com molas ensacadas",
+    "sofá Spazus",
+    "sofá Cama Inbox",
+    "sofá 2,75m",
+    "sofá veludo",
+    "sofá cinza",
+    "sofá 4 lugares",
+    "sofá cama",
+    "móvel para sala",
+    "sofá moderno",
+    "sofá com bordado 3D",
+    "sofá de casal",
+    "sofá retrátil grande",
+    "sofá com percintas italianas",
+    "sofá espuma D33",
+    "sofá madeira maciça",
+    "sofá bipartido",
+    "sofá premium"
+  ],
+  seoTitle: "Sofá Retrátil Reclinável 2,75m Molas Ensacadas Spazus | Cama Inbox",
+  seoDescription: "Sofá retrátil e reclinável Spazus com molas ensacadas, bordado 3D, tecido veludo. Conforto e design premium. 4.7★ (248 reviews). Oferta!"
+},
+{
+  id: "p-imp-093",
+  slug: "sofa-retratil-reclinavel-180m-molas-livia-suede-cappuccino-adonai",
+  category: "sofas",
+  mainCategory: "sala",
+  name: "Sofá Retrátil e Reclinável com Molas 1,80m Lívia Suede Cappuccino - Adonai Estofados",
+  imageFile: "/imagens/produtos/sofa-retratil-reclinavel-180m-veludo-cappuccino-livia-adonai.webp",
+  displayImage: "/imagens/produtos/sofa-retratil-reclinavel-180m-veludo-cappuccino-livia-adonai.webp",
+  alt: "Sofá retrátil e reclinável de 1,80m em veludo cappuccino modelo Lívia da Adonai Estofados",
+  rating: 4.7,
+  reviews: 1259,
+  discount: 40,
+  price: 833.93,
+  originalPrice: 1399.90,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2hsm5Qz",
+  descricao: `
+# Sofá Retrátil e Reclinável com Molas 1,80m Lívia Suede Cappuccino - Adonai Estofados
+
+## 📌 Introdução
+
+Conforto, qualidade e praticidade, é o que você vai encontrar no **Sofá Lívia** da Adonai Estofados. Um produto pensado para unir essas 3 qualidades em um só, além de deixar seu ambiente muito mais bonito e elegante. Esta é a peça para levar sua sala a outro nível, combinando design sofisticado com funcionalidade excepcional.
+
+Com sistema retrátil e reclinável em 3 estágios, o Sofá Lívia oferece versatilidade incomparável para diferentes momentos de uso. Seja para relaxar após um longo dia de trabalho, assistir a um filme em família ou receber visitas, este sofá se adapta perfeitamente às suas necessidades, proporcionando conforto e elegância em cada detalhe.
+
+## 📌 Principais Benefícios
+
+O **sofá retrátil e reclinável Lívia** foi projetado para oferecer benefícios reais que transformam a experiência de convivência e descanso na sala de estar.
+
+**Sistema retrátil e reclinável em 3 estágios:** O encosto possui uma catraca com 3 estágios para acomodação preferencial, permitindo que você encontre a posição perfeita para assistir TV, ler um livro ou descansar. O assento retrátil permite utilizar com as pernas esticadas para máximo conforto, ideal para maratonas de séries e filmes.
+
+**Estrutura robusta em madeira de eucalipto reflorestada:** A estrutura é composta por madeira de eucalipto 100% reflorestada, fixada por grampos galvanizados que mantêm a estrutura firme e de alta qualidade. Esta escolha sustentável garante durabilidade e resistência para uso diário intenso.
+
+**Assento com espuma D-28 e molas:** O assento é feito com espuma D-28 com percintas elásticas de 5mm e molas, proporcionando o equilíbrio perfeito entre maciez e suporte. O sistema de molas garante maior durabilidade e resistência ao afundamento.
+
+**Encosto com fibra siliconada:** O encosto é preenchido com fibra siliconada e flocos que garantem alta maciez e conforto, proporcionando um apoio suave e aconchegante para as costas.
+
+**Tecido Suede premium:** O revestimento em tecido Suede na cor Cappuccino oferece toque macio e aconchegante, com acabamento sofisticado que valoriza qualquer ambiente. A cor cappuccino é versátil e combina com diferentes estilos de decoração.
+
+**Capacidade para 3 pessoas:** O sofá suporta até 125 kg por assento e acomoda até 3 pessoas tranquilamente, sendo ideal para famílias e para receber visitas.
+
+## 📌 Design
+
+O **Sofá Lívia** apresenta um design moderno e elegante que valoriza qualquer ambiente.
+
+**Tecido Suede Cappuccino:** O tecido Suede oferece um toque macio e aconchegante, com acabamento premium que confere elegância ao sofá. A cor cappuccino é uma escolha sofisticada e versátil, que combina com diferentes paletas de cores e estilos de decoração.
+
+**Design clean e contemporâneo:** As linhas retas e o design despojado tornam o sofá versátil, combinando com diferentes estilos de decoração, do minimalista ao clássico.
+
+**Dimensões compactas:** Com 1,80m de largura, 1,00m de altura e 1,00m de profundidade, o sofá oferece excelente conforto em um formato compacto que se adapta a diferentes tamanhos de sala.
+
+**Braços de 20cm:** Os braços com 20cm de largura proporcionam conforto e suporte para os braços, além de um visual equilibrado e proporcional.
+
+**Acabamento de qualidade:** Cada detalhe do sofá foi pensado para oferecer durabilidade e beleza, com costuras reforçadas e acabamentos impecáveis.
+
+## 📌 Funcionalidade e Praticidade
+
+O **sofá retrátil e reclinável Lívia** foi desenvolvido para oferecer máxima funcionalidade e praticidade no dia a dia.
+
+**Transformação fácil:** O sistema retrátil e reclinável permite transformar o sofá em uma cama confortável em poucos movimentos, ideal para receber visitas ou para momentos de descanso.
+
+**3 estágios de reclinação:** O encosto reclinável em 3 estágios oferece versatilidade para diferentes momentos de uso, desde a posição sentada até a posição reclinada.
+
+**Assento retrátil:** O assento pode ser esticado, permitindo utilizar com as pernas esticadas para máximo conforto durante longos períodos de uso.
+
+**Montagem simples:** O produto acompanha manual de montagem detalhado, com instruções claras e ilustrativas para facilitar a instalação.
+
+**Capacidade de 125 kg por assento:** O sofá suporta até 125 kg por assento, garantindo segurança e durabilidade para diferentes usuários.
+
+## 📌 Ideal para
+
+- **Salas de estar:** Peça principal que valoriza o ambiente
+- **Salas de TV e home theaters:** Conforto para maratonas de séries e filmes
+- **Apartamentos compactos:** Dimensões que otimizam espaços
+- **Receber visitas:** Cama confortável para hóspedes
+- **Espaços multifuncionais:** Móvel versátil que atende diferentes necessidades
+- **Ambientes modernos:** Design sofisticado que combina com decorações contemporâneas
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **sofá retrátil e reclinável Adonai Estofados** é especialmente recomendado para:
+
+**Pessoas que buscam conforto e versatilidade com excelente custo-benefício.** O sistema retrátil e reclinável em 3 estágios oferece opções para diferentes momentos de uso, tudo a um preço acessível.
+
+**Famílias que valorizam qualidade e durabilidade.** A estrutura em madeira de eucalipto reflorestada, espuma D-28 com molas e percintas elásticas garantem um produto que dura por muitos anos.
+
+**Quem tem espaços compactos.** Com 1,80m de largura, o Lívia é ideal para salas menores e apartamentos, oferecendo conforto sem ocupar muito espaço.
+
+**Admiradores de design sofisticado.** O tecido Suede na cor Cappuccino confere um visual elegante e versátil, que combina com diferentes estilos de decoração.
+
+**Pessoas que recebem visitas frequentemente.** A funcionalidade retrátil permite acomodar hóspedes com conforto, sem necessidade de móveis adicionais.
+
+**Quem busca um produto com alta avaliação e confiabilidade.** Com mais de 500 vendas e 5ª colocação entre os sofás da marca, o Lívia é um dos mais confiáveis do mercado.
+
+## 📌 Diferenciais
+
+O **Sofá Retrátil e Reclinável Lívia Adonai Estofados** se destaca da concorrência por diversos motivos:
+
+**Sistema retrátil e reclinável completo:** Diferente de muitos sofás que oferecem apenas uma função, o Lívia combina sistema retrátil e reclinável em um único produto, com 3 estágios de reclinação e assento retrátil.
+
+**Estrutura em madeira de eucalipto reflorestada:** A utilização de madeira 100% reflorestada demonstra compromisso com a sustentabilidade, além de garantir durabilidade e resistência.
+
+**Espuma D-28 com molas e percintas elásticas:** A combinação de espuma de alta densidade com molas e percintas elásticas de 5mm oferece o equilíbrio perfeito entre conforto e durabilidade, resistindo ao uso diário intenso.
+
+**Encosto com fibra siliconada:** O preenchimento do encosto com fibra siliconada e flocos proporciona alta maciez e conforto, oferecendo um apoio suave e aconchegante.
+
+**Relação custo-benefício excepcional:** Com 40% de desconto, o Lívia oferece uma das melhores relações qualidade-preço do mercado para um sofá retrátil e reclinável com molas.
+
+**Marca Adonai Estofados com mais de 500 vendas:** A marca é reconhecida pela qualidade de seus produtos, com 5ª colocação entre os sofás da marca.
+
+**Avaliação 4.7 estrelas com 1259 reviews:** A excelente avaliação demonstra a satisfação massiva dos clientes e a qualidade consistente do produto.
+
+## 📌 Motivos para Comprar
+
+✅ **Sistema retrátil e reclinável em 3 estágios** - versatilidade para diferentes momentos
+
+✅ **Assento retrátil** - máximo conforto com pernas esticadas
+
+✅ **Estrutura em madeira de eucalipto reflorestada** - durabilidade e sustentabilidade
+
+✅ **Espuma D-28 com molas e percintas elásticas** - conforto e resistência
+
+✅ **Encosto com fibra siliconada** - alta maciez e conforto
+
+✅ **Tecido Suede Cappuccino** - toque macio e acabamento sofisticado
+
+✅ **Capacidade de 125 kg por assento** - segurança e resistência
+
+✅ **Acomoda até 3 pessoas** - ideal para famílias
+
+✅ **Dimensões compactas (1,80m)** - perfeito para espaços reduzidos
+
+✅ **Marca Adonai Estofados com mais de 500 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.7 estrelas com 1259 reviews** - satisfação massiva dos clientes
+
+✅ **40% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Adonai Estofados são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias para a instalação.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas. O manual é detalhado e ilustrativo, facilitando o processo. Recomendamos a ajuda de outra pessoa devido ao tamanho do sofá.
+
+**4. O sofá tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Adonai Estofados.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito e saldo do Mercado Pago.
+
+**10. Como devo fazer a limpeza do sofá?**
+
+Recomenda-se limpar o tecido Suede com pano limpo e seco. Não utilizar escovas ou produtos abrasivos, que podem danificar o tecido.
+
+**11. O sofá é resistente para uso diário?**
+
+Sim, a estrutura em madeira de eucalipto, espuma D-28 com molas e percintas elásticas garantem um produto extremamente resistente e durável para uso diário intenso.
+
+**12. O sofá suporta quanto peso por pessoa?**
+
+O sofá suporta até 125 kg por assento, garantindo segurança e durabilidade para diferentes usuários.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Adonai Estofados |
+| **Modelo** | Lívia |
+| **Tipo** | Sofá Retrátil e Reclinável |
+| **Cor** | Cappuccino |
+| **Tecido** | Suede |
+| **Assento** | Espuma D-28 + Percintas elásticas 5mm + Molas |
+| **Encosto** | Fibra siliconada e flocos |
+| **Sistema de Reclinação** | Catraca com 3 estágios |
+| **Assento Retrátil** | Sim |
+| **Estrutura** | Madeira de eucalipto 100% reflorestada, grampos galvanizados |
+| **Altura Total** | 1,00m |
+| **Largura** | 1,80m |
+| **Profundidade Fechado** | 1,00m |
+| **Profundidade Aberto (com encosto reclinado)** | 1,50m |
+| **Altura dos Braços** | 0,20m |
+| **Profundidade do Assento** | 0,56m |
+| **Profundidade do Assento Aberto** | 0,92m |
+| **Altura do Encosto** | 0,55m |
+| **Largura do Assento** | 1,50m |
+| **Altura do Chão ao Assento** | 0,47m |
+| **Peso Suportado por Assento** | 125 kg |
+| **Capacidade de Pessoas** | Até 3 pessoas |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim |
+| **Ambiente Principal** | Sala |
+| **Estilo** | Moderno / Contemporâneo |
+| **Itens Inclusos** | 1 Sofá / Acessórios de Montagem / Manual de Instruções |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Sofá Retrátil e Reclinável com Molas 1,80m Lívia Suede Cappuccino Adonai Estofados** é a escolha perfeita para quem busca um móvel que una conforto excepcional, design sofisticado e excelente custo-benefício. Com sistema retrátil e reclinável em 3 estágios, assento com espuma D-28 e molas, encosto com fibra siliconada, estrutura em madeira de eucalipto reflorestada e tecido Suede premium, este sofá atende todas as necessidades de uma sala moderna e acolhedora.
+
+A marca Adonai Estofados, com mais de 500 vendas e 5ª colocação entre os sofás da marca, comprova a qualidade, durabilidade e satisfação dos clientes. A avaliação de 4,7 estrelas com 1259 reviews demonstra a confiabilidade e a excelência do produto.
+
+Se você procura um sofá que una versatilidade, conforto e design a um preço acessível, o Lívia é a escolha certeira. Aproveite a oferta com 40% de desconto e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Adonai Estofados",
+  keywords: [
+    "sofá retrátil",
+    "sofá reclinável",
+    "sofá com molas",
+    "sofá Lívia",
+    "sofá Adonai Estofados",
+    "sofá 1,80m",
+    "sofá suede",
+    "sofá cappuccino",
+    "sofá 3 lugares",
+    "sofá cama",
+    "móvel para sala",
+    "sofá moderno",
+    "sofá compacto",
+    "sofá com 3 estágios",
+    "sofá para apartamento",
+    "sofá com espuma D-28",
+    "sofá madeira eucalipto",
+    "sofá retrátil compacto",
+    "sofá custo-benefício",
+    "sofá 125kg"
+  ],
+  seoTitle: "Sofá Retrátil Reclinável 1,80m com Molas Lívia Cappuccino | Adonai",
+  seoDescription: "Sofá retrátil e reclinável Lívia com molas, espuma D-28, tecido suede. Até 3 pessoas, 125kg por assento. 4.7★ (1259 reviews). Oferta 40% OFF!"
+},
+{
+  id: "p-imp-094",
+  slug: "sofa-retratil-reclinavel-210m-molas-espuma-d33-thunder-cama-inbox-cinza",
+  category: "sofas",
+  mainCategory: "sala",
+  name: "Sofá Retrátil e Reclinável 2,10m com Molas e Espuma D33 Thunder Cama Inbox Cinza",
+  imageFile: "/imagens/produtos/sofa-retratil-reclinavel-210m-veludo-cinza-thunder-cama-inbox.webp",
+  displayImage: "/imagens/produtos/sofa-retratil-reclinavel-210m-veludo-cinza-thunder-cama-inbox.webp",
+  alt: "Sofá retrátil e reclinável de 2,10m em veludo cinza com molas e espuma D33 modelo Thunder da Cama Inbox",
+  rating: 4.4,
+  reviews: 266,
+  discount: 21,
+  price: 1589.00,
+  originalPrice: 2019.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2yprFj9",
+  descricao: `
+# Sofá Retrátil e Reclinável 2,10m com Molas e Espuma D33 Thunder Velusoft Cama inBox
+
+## 📌 Introdução
+
+Transforme sua sala em um verdadeiro espaço de conforto com o **Sofá Retrátil e Reclinável Thunder** da Cama Inbox! Com design sofisticado e preço que cabe no bolso, ele combina Manta Siliconada, Espuma D33 com ThermoGel e Molas Bonnel para oferecer um conforto premium que se adapta ao corpo, evitando a sensação de afundamento e proporcionando apoio anatômico perfeito. Sua estrutura robusta garante durabilidade e resistência por muitos anos, enquanto o acabamento de alta qualidade dá um toque de elegância ao ambiente.
+
+Com sistema retrátil e reclinável em 5 posições, o Thunder é a escolha ideal para quem busca versatilidade, conforto e design moderno em um único móvel. Seja para relaxar após um longo dia, maratonar séries ou receber visitas, este sofá se adapta perfeitamente às suas necessidades.
+
+## 📌 Principais Benefícios
+
+O **sofá retrátil e reclinável Thunder** foi projetado para oferecer benefícios reais que transformam a experiência de convivência e descanso na sala de estar.
+
+**Tecnologia ThermoGel com frescor inteligente:** Desenvolvida para elevar o conforto e o frescor a um novo patamar, a Tecnologia ThermoGel combina partículas de gel que mantêm a temperatura sempre agradável até nos dias mais quentes. O resultado é uma sensação de frescor constante, maciez duradoura e suporte anatômico perfeito, transformando cada momento de descanso em uma experiência de bem-estar de alto padrão.
+
+**SoftBlend 3D - design que impressiona:** O acabamento exclusivo SoftBlend 3D traz sofisticação incomparável ao sofá. Seus bordados pantográficos em alto-relevo, aliados ao matelassê de manta de fibra siliconada compactada, criam um visual elegante e aconchegante. Cada detalhe foi pensado para adicionar personalidade e transformar sua sala em um ambiente moderno, confortável e cheio de charme.
+
+**Sistema EcoFlorest – sustentabilidade e durabilidade:** Sua estrutura é feita com 100% madeira de eucalipto de reflorestamento, garantindo um produto sustentável, resistente e seguro para o uso diário.
+
+**Assento retrátil com conforto prolongado:** A combinação de manta siliconada, espuma D33 com ThermoGel, molas bonnel e percintas Extra Support entrega conforto imediato e resistência superior. O assento não afunda, mantendo a qualidade e o suporte mesmo após anos de uso.
+
+**Encosto reclinável em 5 posições:** O encosto reclinável em 5 posições com almofadas parcialmente removíveis em 80% fibra siliconada e 20% flocos de espuma oferece suporte ergonômico e maciez envolvente, permitindo encontrar a posição perfeita para cada momento.
+
+**Tecido Suede Velusoft exclusivo:** O tecido Suede Velusoft oferece toque macio e aconchegante, perfeito para qualquer decoração, com acabamento premium e resistente.
+
+## 📌 Design
+
+O **Sofá Thunder** apresenta um design moderno e sofisticado que valoriza qualquer ambiente.
+
+**SoftBlend 3D - acabamento exclusivo:** O bordado pantográfico em alto-relevo e o matelassê de manta de fibra siliconada compactada criam um visual elegante e aconchegante, com textura e profundidade que impressionam.
+
+**Tecido Suede Velusoft:** O tecido oferece um toque macio e aconchegante, com acabamento premium que confere elegância ao sofá. É um tecido durável e resistente ao uso diário.
+
+**Design moderno e versátil:** As linhas clean e o design contemporâneo tornam o sofá versátil, combinando com diferentes estilos de decoração, do minimalista ao clássico.
+
+**Dimensões generosas:** Com 2,10m de largura, 1,05m de altura e 0,85m de profundidade (fechado), o sofá oferece amplo espaço para até 3 pessoas, sendo a peça central da sala.
+
+**Braços almofadados de 25cm:** Os braços com 25cm de largura e almofadados proporcionam conforto e suporte, além de um visual robusto e elegante.
+
+## 📌 Funcionalidade e Praticidade
+
+O **sofá retrátil e reclinável Thunder** foi desenvolvido para oferecer máxima funcionalidade e praticidade no dia a dia.
+
+**Transformação fácil:** O sistema retrátil e reclinável permite transformar o sofá em uma cama confortável em poucos movimentos, ideal para receber visitas ou para momentos de descanso.
+
+**5 posições de reclinação:** O encosto reclinável em 5 posições oferece versatilidade para diferentes momentos de uso, desde a posição sentada até a posição completamente deitada.
+
+**Assento retrátil:** O assento pode ser esticado, permitindo utilizar com as pernas esticadas para máximo conforto durante longos períodos de uso.
+
+**Chega pronto para usar:** O sofá já chega montado em um módulo para maior praticidade, facilitando a instalação.
+
+**Entrega facilitada:** Passa facilmente por portas, corredores e elevadores a partir de 65 cm de largura, tornando o transporte muito mais simples.
+
+**Capacidade de 120 kg por pessoa:** O sofá suporta até 120 kg por pessoa, garantindo segurança e durabilidade para diferentes usuários.
+
+## 📌 Ideal para
+
+- **Salas de estar:** Peça principal que valoriza o ambiente
+- **Salas de TV e home theaters:** Conforto para maratonas de séries e filmes
+- **Salas grandes:** Ocupa espaço com elegância e funcionalidade
+- **Receber visitas:** Cama confortável para hóspedes
+- **Espaços multifuncionais:** Móvel versátil que atende diferentes necessidades
+- **Ambientes modernos:** Design sofisticado que combina com decorações contemporâneas
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **sofá retrátil e reclinável Cama Inbox** é especialmente recomendado para:
+
+**Pessoas que buscam conforto e versatilidade.** O sistema retrátil e reclinável em 5 posições oferece opções para diferentes momentos de uso, desde relaxar até dormir.
+
+**Famílias que valorizam qualidade e durabilidade.** A combinação de espuma D33 com ThermoGel, molas bonnel e percintas Extra Support garantem um produto que dura por muitos anos.
+
+**Quem tem espaços médios a grandes.** Com 2,10m de largura, o Thunder é ideal para salas que comportam um sofá de tamanho médio.
+
+**Admiradores de design sofisticado.** O acabamento SoftBlend 3D e o tecido Suede Velusoft conferem um visual premium e exclusivo ao sofá.
+
+**Pessoas que recebem visitas frequentemente.** A funcionalidade retrátil e reclinável permite acomodar hóspedes com conforto, sem necessidade de móveis adicionais.
+
+**Quem valoriza sustentabilidade.** A estrutura em madeira de eucalipto 100% reflorestada demonstra compromisso com o meio ambiente.
+
+## 📌 Diferenciais
+
+O **Sofá Retrátil e Reclinável Thunder Cama Inbox** se destaca da concorrência por diversos motivos:
+
+**Tecnologia ThermoGel com frescor inteligente:** A tecnologia ThermoGel mantém a temperatura sempre agradável, proporcionando sensação de frescor constante e maciez duradoura. Este é um diferencial que poucos sofás no mercado oferecem.
+
+**SoftBlend 3D exclusivo:** O acabamento com bordados pantográficos em alto-relevo e matelassê de manta de fibra siliconada compactada cria um visual elegante e aconchegante, diferenciando o Thunder de outros sofás.
+
+**Sistema EcoFlorest:** A estrutura em madeira de eucalipto 100% reflorestada combina sustentabilidade com durabilidade, garantindo um produto resistente e ecologicamente correto.
+
+**Combinação de tecnologias de conforto:** A união de manta siliconada, espuma D33 com ThermoGel, molas bonnel e percintas Extra Support cria um conforto absoluto, onde você não sente a estrutura e mantém a qualidade por muitos anos.
+
+**5 posições de reclinação:** A versatilidade de 5 posições oferece mais opções de ajuste do que a maioria dos sofás concorrentes.
+
+**Chega montado:** Diferente de muitos sofás que exigem montagem, o Thunder já chega pronto para usar em um módulo, facilitando a instalação.
+
+**Marca Cama Inbox com mais de 1000 vendas:** A marca é referência no mercado, com 6ª colocação entre os sofás da marca.
+
+**Avaliação 4.4 estrelas com 266 reviews:** A boa avaliação demonstra a satisfação dos clientes.
+
+## 📌 Motivos para Comprar
+
+✅ **Tecnologia ThermoGel** - frescor inteligente e conforto prolongado
+
+✅ **SoftBlend 3D exclusivo** - acabamento sofisticado com bordados em alto-relevo
+
+✅ **Sistema EcoFlorest** - madeira de eucalipto 100% reflorestada
+
+✅ **Espuma D33 com ThermoGel e molas Bonnel** - conforto premium e suporte anatômico
+
+✅ **Percintas Extra Support** - maior resistência e durabilidade
+
+✅ **Assento retrátil** - máximo conforto com pernas esticadas
+
+✅ **Encosto reclinável em 5 posições** - versatilidade para diferentes momentos
+
+✅ **Tecido Suede Velusoft** - toque macio e aconchegante
+
+✅ **Braços almofadados de 25cm** - conforto e sofisticação
+
+✅ **Capacidade de 120 kg por pessoa** - segurança e resistência
+
+✅ **Chega pronto para usar** - montado em um módulo
+
+✅ **Entrega facilitada** - passa por portas a partir de 65cm
+
+✅ **Marca Cama Inbox com mais de 1000 vendas** - confiabilidade comprovada
+
+✅ **21% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Cama Inbox são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+Sim, o sofá já chega montado em um módulo para maior praticidade. Basta retirar da embalagem e posicionar na sala.
+
+**3. O sofá passa por portas estreitas?**
+
+Sim, o sofá passa facilmente por portas, corredores e elevadores a partir de 65 cm de largura, tornando o transporte muito mais simples.
+
+**4. O sofá tem garantia?**
+
+Sim, o produto possui garantia total de 3 meses contra defeitos de fabricação.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix com cupom, cartões de crédito e saldo do Mercado Pago.
+
+**10. Como devo fazer a limpeza do sofá?**
+
+Recomenda-se limpar o tecido Suede Velusoft com pano seco ou levemente umedecido para remover poeira. Para manchas, utilize produtos específicos para tecidos suede. Não utilizar produtos abrasivos ou solventes.
+
+**11. O sofá é resistente para uso diário?**
+
+Sim, a estrutura em madeira de eucalipto reflorestada, espuma D33 com ThermoGel, molas bonnel e percintas Extra Support garantem um produto extremamente resistente e durável para uso diário intenso.
+
+**12. Quais cores e tamanhos estão disponíveis?**
+
+O Sofá Thunder está disponível nas cores: Azul, Bege, Café, Castor, Cinza, Petróleo, Preto, Vermelho e Vinho. Tamanhos: 2,10m, 2,40m, 2,60m, 2,80m, 3,00m, 3,60m, 3,90m e 4,20m.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Cama Inbox |
+| **Modelo** | Thunder |
+| **Tipo** | Sofá Retrátil e Reclinável |
+| **Cor** | Cinza |
+| **Tecido** | Suede Velusoft (exclusivo) |
+| **Acabamento** | SoftBlend 3D (bordado pantográfico em alto-relevo) |
+| **Assento** | Manta siliconada + Espuma D33 com ThermoGel + Molas Bonnel + Percintas Extra Support |
+| **Encosto** | Reclinável em 5 posições, almofadas parcialmente removíveis (80% fibra siliconada, 20% flocos de espuma) |
+| **Braços** | Madeira maciça de eucalipto, 25cm de largura, almofadados |
+| **Estrutura** | Madeira de eucalipto 100% reflorestada (Sistema EcoFlorest), grampos galvanizados |
+| **Tecnologia** | ThermoGel (frescor inteligente) |
+| **Altura** | 1,05m |
+| **Profundidade Fechado** | 0,85m |
+| **Profundidade Aberto** | 1,45m |
+| **Largura** | 2,10m (disponível: 2,10m, 2,40m, 2,60m, 2,80m, 3,00m, 3,60m, 3,90m, 4,20m) |
+| **Peso Suportado por Pessoa** | 120 kg |
+| **Garantia** | 3 meses |
+| **Montagem** | Já chega montado em um módulo |
+| **Entrega** | Passa por portas a partir de 65cm |
+| **Ambiente Principal** | Sala |
+| **Estilo** | Moderno / Contemporâneo |
+| **Itens Inclusos** | 1 Sofá montado em módulo |
+| **Cores Disponíveis** | Azul, Bege, Café, Castor, Cinza, Petróleo, Preto, Vermelho, Vinho |
+| **Observações** | Imagens meramente ilustrativas. Tonalidades podem variar conforme lote e configuração de tela |
+
+## 📌 Conclusão
+
+O **Sofá Retrátil e Reclinável 2,10m com Molas e Espuma D33 Thunder Cama Inbox** é a escolha perfeita para quem busca um móvel que una conforto excepcional, design sofisticado e funcionalidade completa. Com tecnologia ThermoGel, acabamento SoftBlend 3D, estrutura em madeira de eucalipto reflorestada, assento com espuma D33 e molas bonnel, encosto reclinável em 5 posições e tecido Suede Velusoft, este sofá atende todas as necessidades de uma sala moderna e acolhedora.
+
+A marca Cama Inbox, com mais de 1000 vendas e 6ª colocação entre os sofás da marca, comprova a qualidade, durabilidade e satisfação dos clientes. O sofá já chega montado em um módulo e passa facilmente por portas a partir de 65cm, facilitando a entrega e instalação.
+
+Se você procura um sofá que una tecnologia inovadora, design exclusivo e conforto incomparável, o Thunder é a escolha certeira. Aproveite a oferta com 21% de desconto e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Cama Inbox",
+  keywords: [
+    "sofá retrátil",
+    "sofá reclinável",
+    "sofá Thunder",
+    "sofá Cama Inbox",
+    "sofá 2,10m",
+    "sofá com molas",
+    "sofá espuma D33",
+    "sofá veludo",
+    "sofá cinza",
+    "sofá 3 lugares",
+    "móvel para sala",
+    "sofá moderno",
+    "sofá com ThermoGel",
+    "sofá SoftBlend 3D",
+    "sofá retrátil grande",
+    "sofá com 5 posições",
+    "sofá madeira reflorestada",
+    "sofá EcoFlorest",
+    "sofá montado",
+    "sofá cama"
+  ],
+  seoTitle: "Sofá Retrátil Reclinável 2,10m Thunder com Molas | Cama Inbox",
+  seoDescription: "Sofá retrátil e reclinável Thunder com molas, espuma D33 ThermoGel e acabamento 3D. Até 3 pessoas, 120kg. 4.4★ (266 reviews). Oferta!"
+},
+{
+  id: "p-imp-095",
+  slug: "sofa-retratil-reclinavel-4-lugares-eureka-230m-velosuede-usb-porta-copos-cinza",
+  category: "sofas",
+  mainCategory: "sala",
+  name: "Sofá Retrátil Reclinável 4 Lugares Eureka 2,30m Velosuede USB Porta Copos Cinza",
+  imageFile: "/imagens/produtos/sofa-retratil-reclinavel-4-lugares-230m-veludo-cinza-eureka-usb-porta-copos.webp",
+  displayImage: "/imagens/produtos/sofa-retratil-reclinavel-4-lugares-230m-veludo-cinza-eureka-usb-porta-copos.webp",
+  alt: "Sofá retrátil reclinável de 4 lugares e 2,30m em veludo cinza modelo Eureka com USB e porta-copos da Netsofas",
+  rating: 4.6,
+  reviews: 650,
+  discount: 31,
+  price: 1651.43,
+  originalPrice: 2409.99,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1gg7vMB",
+  descricao: `
+# Sofá Retrátil Reclinável 4 Lugares Eureka 2,30m Velosuede USB Porta Copos Cinza
+
+## 📌 Introdução
+
+O **Sofá Retrátil e Reclinável Eureka 4 Lugares** da Netsofas foi desenvolvido para transformar seus momentos de descanso em experiências de conforto e praticidade. Com assento retrátil e encosto reclinável, este sofá permite ajustar a posição com facilidade - seja para assistir TV, receber visitas ou simplesmente relaxar depois de um longo dia. O sofá Eureka combina design moderno com funcionalidades que fazem a diferença no dia a dia.
+
+Ideal para quem busca conforto, praticidade e estilo na sala de estar, o Eureka é a escolha perfeita para famílias e para quem gosta de receber amigos. Com 4 lugares, tecnologia USB integrada, porta-copos e revestimento em Velosuede, este sofá oferece tudo o que você precisa para momentos de lazer com máximo conforto.
+
+## 📌 Principais Benefícios
+
+O **sofá retrátil e reclinável Eureka** foi projetado para oferecer benefícios reais que transformam a experiência de convivência e descanso na sala de estar.
+
+**4 lugares com espaço generoso:** Com 2,30m de largura, o Eureka acomoda até 4 pessoas com conforto, sendo ideal para famílias e para receber visitas. Cada assento foi projetado para oferecer suporte e maciez.
+
+**Porta USB integrada:** Um dos grandes diferenciais deste sofá é a porta USB integrada no braço, que permite carregar seu celular ou dispositivo sem sair do conforto do sofá. Nunca mais se preocupe com bateria acabando durante uma maratona de séries.
+
+**4 porta-copos (2 em cada braço):** Mantenha tudo à mão com praticidade. Os 4 porta-copos integrados nos braços permitem que você coloque bebidas, snacks e controles remotos sem precisar se levantar.
+
+**Revestimento em Velosuede:** O tecido Velosuede é macio, resistente e de fácil limpeza, oferecendo toque agradável e durabilidade para o uso diário.
+
+**Estrutura em Madeira Maciça de Eucalipto 100% reflorestada:** Produto ecologicamente correto, a estrutura em madeira maciça garante resistência e durabilidade, além de demonstrar compromisso com a sustentabilidade.
+
+**Espuma D-28 e D-33 com percinta elástica:** A combinação de espumas de alta densidade no assento com percinta elástica proporciona mais firmeza, conforto e durabilidade, mantendo a qualidade mesmo após anos de uso.
+
+**Assento retrátil e encosto reclinável:** O sistema permite ajustar a posição com facilidade, seja para assistir TV, receber visitas ou simplesmente relaxar depois de um longo dia.
+
+## 📌 Design
+
+O **Sofá Eureka** apresenta um design moderno e sofisticado que valoriza qualquer ambiente.
+
+**Revestimento em Velosuede cinza:** O tecido Velosuede oferece um toque macio e aconchegante, com acabamento premium que confere elegância ao sofá. A cor cinza é versátil e combina com diferentes estilos de decoração.
+
+**Design moderno e funcional:** As linhas clean e o design contemporâneo tornam o sofá versátil, combinando com diferentes estilos de decoração, do minimalista ao clássico.
+
+**Braços com funcionalidades integradas:** Os braços do sofá não são apenas estéticos - eles integram porta USB e porta-copos, combinando design e funcionalidade de forma inteligente.
+
+**Dimensões generosas:** Com 2,30m de largura, 0,90m de profundidade (fechado) e 0,95m de altura, o sofá oferece amplo espaço para até 4 pessoas.
+
+**Acabamento de qualidade:** Cada detalhe do sofá foi pensado para oferecer durabilidade e beleza, com costuras reforçadas e acabamentos impecáveis.
+
+## 📌 Funcionalidade e Praticidade
+
+O **sofá retrátil e reclinável Eureka** foi desenvolvido para oferecer máxima funcionalidade e praticidade no dia a dia.
+
+**Transformação fácil:** O sistema retrátil e reclinável permite transformar o sofá em uma cama confortável em poucos movimentos, ideal para receber visitas ou para momentos de descanso.
+
+**Porta USB integrada:** Carregue seus dispositivos sem sair do sofá. A entrada USB no braço é prática e acessível.
+
+**4 porta-copos:** Mantenha bebidas, snacks e controles sempre à mão com os porta-copos integrados nos braços.
+
+**Montagem simples:** O produto acompanha manual de montagem detalhado, com instruções claras e ilustrativas para facilitar a instalação.
+
+**Pés em plástico desmontável:** Os pés são fáceis de instalar e proporcionam estabilidade ao sofá.
+
+**Peso de 84 kg:** Apesar do tamanho generoso, o sofá tem peso equilibrado para fácil manuseio durante a montagem.
+
+## 📌 Ideal para
+
+- **Salas de estar:** Peça principal que valoriza o ambiente
+- **Salas de TV e home theaters:** Conforto para maratonas de séries com USB e porta-copos
+- **Famílias:** 4 lugares para acomodar todos com conforto
+- **Receber visitas:** Cama confortável para hóspedes
+- **Ambientes modernos:** Design sofisticado que combina com decorações contemporâneas
+- **Espaços multifuncionais:** Móvel versátil que atende diferentes necessidades
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **sofá retrátil e reclinável Netsofas** é especialmente recomendado para:
+
+**Famílias que buscam conforto e praticidade.** Com 4 lugares, USB integrada e porta-copos, o Eureka atende todas as necessidades de uma família moderna.
+
+**Pessoas que valorizam tecnologia e funcionalidade.** A porta USB integrada é um diferencial importante para quem não abre mão da conectividade.
+
+**Quem tem espaços médios a grandes.** Com 2,30m de largura, o Eureka é ideal para salas que comportam um sofá de tamanho generoso.
+
+**Admiradores de design moderno e funcional.** O Velosuede e o design clean conferem um visual sofisticado e versátil.
+
+**Pessoas que recebem visitas frequentemente.** A funcionalidade retrátil e reclinável permite acomodar hóspedes com conforto.
+
+**Quem valoriza sustentabilidade.** A estrutura em madeira de eucalipto 100% reflorestada demonstra compromisso com o meio ambiente.
+
+## 📌 Diferenciais
+
+O **Sofá Retrátil e Reclinável Eureka Netsofas** se destaca da concorrência por diversos motivos:
+
+**Porta USB integrada:** Este é um dos grandes diferenciais do Eureka. Enquanto a maioria dos sofás não oferece esta funcionalidade, o Eureka permite carregar dispositivos sem sair do conforto do sofá.
+
+**4 porta-copos (2 em cada braço):** A quantidade de porta-copos é superior à maioria dos sofás do mercado, oferecendo mais praticidade para acomodar bebidas e snacks.
+
+**4 lugares com 2,30m de largura:** O espaço generoso para 4 pessoas é ideal para famílias e para quem gosta de receber amigos.
+
+**Revestimento em Velosuede:** O tecido é macio, resistente e de fácil limpeza, oferecendo durabilidade e conforto.
+
+**Estrutura em madeira maciça de eucalipto reflorestada:** A utilização de madeira 100% reflorestada demonstra compromisso com a sustentabilidade, além de garantir durabilidade.
+
+**Espuma D-28 e D-33 com percinta elástica:** A combinação de espumas de alta densidade garante firmeza, conforto e durabilidade superiores.
+
+**Marca Netsofas com mais de 1000 vendas:** A marca é reconhecida pela qualidade de seus produtos, com este modelo sendo um dos mais vendidos.
+
+**Avaliação 4.6 estrelas com 650 reviews:** A excelente avaliação demonstra a satisfação massiva dos clientes.
+
+## 📌 Motivos para Comprar
+
+✅ **Porta USB integrada no braço** - carregue dispositivos sem sair do sofá
+
+✅ **4 porta-copos (2 em cada braço)** - praticidade para bebidas e snacks
+
+✅ **4 lugares com 2,30m de largura** - espaço generoso para toda família
+
+✅ **Sistema retrátil e reclinável** - versatilidade para diferentes momentos
+
+✅ **Revestimento em Velosuede** - toque macio, resistente e fácil de limpar
+
+✅ **Estrutura em madeira maciça de eucalipto reflorestada** - sustentabilidade e durabilidade
+
+✅ **Espuma D-28 e D-33 com percinta elástica** - firmeza e conforto prolongado
+
+✅ **Design moderno e sofisticado** - combina com diferentes estilos
+
+✅ **Pés em plástico desmontável** - fácil instalação
+
+✅ **Peso de 84 kg** - equilibrado para fácil manuseio
+
+✅ **Marca Netsofas com mais de 1000 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.6 estrelas com 650 reviews** - satisfação massiva dos clientes
+
+✅ **31% de desconto no Pix** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Netsofas são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias para a instalação.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas. O manual é detalhado e ilustrativo, facilitando o processo. Recomendamos a ajuda de outra pessoa devido ao tamanho do sofá.
+
+**4. O sofá tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Netsofas.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito e saldo do Mercado Pago.
+
+**10. Como devo fazer a limpeza do sofá?**
+
+Aspire o sofá regularmente para eliminar a poeira. Para limpeza, utilize pano levemente umedecido com água e sabão neutro, seguido de pano seco. Evite escovas ou produtos abrasivos. Use em local seco e evite exposição direta ao sol para preservar a cor do tecido Velosuede.
+
+**11. O sofá é resistente para uso diário?**
+
+Sim, a estrutura em madeira maciça de eucalipto reflorestada, espuma D-28 e D-33 com percinta elástica garantem um produto extremamente resistente e durável para uso diário intenso.
+
+**12. O USB é compatível com todos os dispositivos?**
+
+Sim, a porta USB é compatível com a maioria dos dispositivos móveis, incluindo smartphones, tablets e outros aparelhos que carregam via USB.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Netsofas |
+| **Modelo** | Eureka |
+| **Tipo** | Sofá Retrátil e Reclinável |
+| **Número de Lugares** | 4 lugares |
+| **Cor** | Cinza |
+| **Revestimento** | Velosuede |
+| **Assento** | Espuma D-28, D-33, Fibra de Poliéster Siliconada e Percinta Elástica |
+| **Encosto** | Flocos de Espuma e Fibra de Poliéster Siliconada |
+| **Estrutura** | Madeira Maciça de Eucalipto 100% reflorestada |
+| **Pés** | Plástico desmontável |
+| **Porta USB** | Sim (integrada no braço) |
+| **Porta-copos** | 4 (2 em cada braço) |
+| **Largura** | 2,30m |
+| **Profundidade Fechado** | 0,90m |
+| **Profundidade Aberto** | 1,46m |
+| **Altura** | 0,95m |
+| **Peso do Produto** | 84 kg |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim (manual incluso) |
+| **Ambiente Principal** | Sala |
+| **Estilo** | Moderno / Contemporâneo |
+| **Itens Inclusos** | 1 Sofá / Acessórios de Montagem / Manual de Instruções |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Sofá Retrátil Reclinável 4 Lugares Eureka 2,30m Velosuede USB Porta Copos Cinza** é a escolha perfeita para quem busca um móvel que una conforto excepcional, design sofisticado e funcionalidades modernas. Com 4 lugares, porta USB integrada, 4 porta-copos, sistema retrátil e reclinável, revestimento em Velosuede e estrutura em madeira maciça de eucalipto reflorestada, este sofá atende todas as necessidades de uma sala moderna e conectada.
+
+A marca Netsofas, com mais de 1000 vendas e avaliação de 4,6 estrelas com 650 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. As funcionalidades integradas como USB e porta-copos tornam o Eureka um dos sofás mais práticos e completos do mercado.
+
+Se você procura um sofá que una tecnologia, conforto e design a um preço acessível, o Eureka é a escolha certeira. Aproveite a oferta com 31% de desconto no Pix e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Netsofas",
+  keywords: [
+    "sofá retrátil",
+    "sofá reclinável",
+    "sofá com USB",
+    "sofá com porta copos",
+    "sofá Eureka",
+    "sofá Netsofas",
+    "sofá 4 lugares",
+    "sofá 2,30m",
+    "sofá veludo",
+    "sofá cinza",
+    "móvel para sala",
+    "sofá moderno",
+    "sofá com porta-copos",
+    "sofá com carregador USB",
+    "sofá retrátil grande",
+    "sofá família",
+    "sofá velosuede",
+    "sofá madeira reflorestada",
+    "sofá 4 lugares retrátil",
+    "sofá cama"
+  ],
+  seoTitle: "Sofá Retrátil 4 Lugares Eureka com USB e Porta Copos | Netsofas",
+  seoDescription: "Sofá retrátil e reclinável Eureka com 4 lugares, porta USB e 4 porta-copos. Velosuede, madeira reflorestada. 4.6★ (650 reviews)."
+},
+{
+  id: "p-imp-096",
+  slug: "sofa-retratil-reclinavel-230m-boucle-cinza-aconchego-king-house",
+  category: "sofas",
+  mainCategory: "sala",
+  name: "Sofá Retrátil Reclinável 2,30m Bouclê Cinza Aconchego - King House",
+  imageFile: "/imagens/produtos/sofa-retratil-reclinavel-230m-boucle-cinza-aconchego-king-house.webp",
+  displayImage: "/imagens/produtos/sofa-retratil-reclinavel-230m-boucle-cinza-aconchego-king-house.webp",
+  alt: "Sofá retrátil reclinável de 2,30m em tecido bouclê cinza modelo Aconchego da King House",
+  rating: 4.7,
+  reviews: 34,
+  discount: 18,
+  price: 2461.51,
+  originalPrice: 3002.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1zofhaJ",
+  descricao: `
+# Sofá Retrátil Reclinável Aconchego 2,30m Bouclê Cinza - King House
+
+## 📌 Introdução
+
+O **Sofá Retrátil e Reclinável Aconchego** da King House é a escolha perfeita para quem busca um móvel que une conforto excepcional, design sofisticado e funcionalidade completa. Com tecido Bouclê de toque atoalhado, estrutura em madeira de reflorestamento e sistema retrátil e reclinável, este sofá foi projetado para transformar sua sala em um verdadeiro espaço de bem-estar e elegância.
+
+O nome já diz tudo: Aconchego. Este sofá foi criado para proporcionar momentos de relaxamento e conforto, com um design moderno que valoriza qualquer ambiente. Seja para assistir TV, ler um livro, receber visitas ou simplesmente descansar, o Aconchego é a peça central que sua sala merece.
+
+## 📌 Principais Benefícios
+
+O **sofá retrátil e reclinável Aconchego** foi projetado para oferecer benefícios reais que transformam a experiência de convivência e descanso na sala de estar.
+
+**Tecido Bouclê de toque atoalhado:** O revestimento em Bouclê oferece uma textura única e prazerosa ao toque, com um acabamento que lembra toalha felpuda, proporcionando aconchego e sofisticação. Este tecido é uma tendência forte na decoração de interiores, conferindo charme e personalidade ao ambiente.
+
+**Sistema retrátil e reclinável:** O encosto reclinável permite ajustar a posição com facilidade, enquanto o assento retrátil oferece espaço extra para esticar as pernas. A combinação dos dois sistemas proporciona versatilidade incomparável para diferentes momentos de uso.
+
+**Estrutura em madeira de reflorestamento:** A estrutura é fabricada com madeira de reflorestamento, garantindo durabilidade e resistência, além de demonstrar compromisso com a sustentabilidade.
+
+**Encosto com fibra siliconada:** O encosto é preenchido com fibra siliconada, proporcionando maciez e conforto excepcionais, com um toque que abraça e acolhe.
+
+**Capacidade de 120 kg por pessoa:** O sofá suporta até 120 kg por pessoa, garantindo segurança e durabilidade para diferentes usuários.
+
+**Design moderno e versátil:** As linhas clean e o design contemporâneo tornam o sofá versátil, combinando com diferentes estilos de decoração, do minimalista ao clássico.
+
+## 📌 Design
+
+O **Sofá Aconchego** apresenta um design moderno e sofisticado que valoriza qualquer ambiente.
+
+**Tecido Bouclê cinza:** O tecido Bouclê oferece uma textura única e prazerosa ao toque, com acabamento premium que confere elegância ao sofá. A cor cinza é versátil e combina com diferentes estilos de decoração.
+
+**Design acolhedor e convidativo:** O nome Aconchego reflete perfeitamente o design do sofá, com linhas suaves e curvas que convidam ao descanso e ao relaxamento.
+
+**Dimensões generosas:** Com 2,30m de largura, 1,20m de profundidade e 1,20m de altura, o sofá oferece amplo espaço para até 3 pessoas, sendo a peça central da sala.
+
+**Acabamento de qualidade:** Cada detalhe do sofá foi pensado para oferecer durabilidade e beleza, com costuras reforçadas e acabamentos impecáveis.
+
+**Pés em plástico preto:** Os pés em plástico na cor preta complementam o design moderno e oferecem estabilidade ao sofá.
+
+## 📌 Funcionalidade e Praticidade
+
+O **sofá retrátil e reclinável Aconchego** foi desenvolvido para oferecer máxima funcionalidade e praticidade no dia a dia.
+
+**Transformação fácil:** O sistema retrátil e reclinável permite transformar o sofá em uma cama confortável em poucos movimentos, ideal para receber visitas ou para momentos de descanso.
+
+**3 lugares com espaço generoso:** Com 2,30m de largura, o sofá acomoda até 3 pessoas com conforto, sendo ideal para famílias e para receber amigos.
+
+**Montagem necessária:** O produto acompanha manual de montagem detalhado, com instruções claras e ilustrativas para facilitar a instalação.
+
+**Capacidade de 120 kg por assento:** O sofá suporta até 120 kg por assento, garantindo segurança e durabilidade para diferentes usuários.
+
+## 📌 Ideal para
+
+- **Salas de estar:** Peça principal que valoriza o ambiente
+- **Salas de TV e home theaters:** Conforto para maratonas de séries e filmes
+- **Salas grandes:** Ocupa espaço com elegância e funcionalidade
+- **Receber visitas:** Cama confortável para hóspedes
+- **Ambientes modernos:** Design sofisticado que combina com decorações contemporâneas
+- **Espaços multifuncionais:** Móvel versátil que atende diferentes necessidades
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **sofá retrátil e reclinável King House** é especialmente recomendado para:
+
+**Pessoas que buscam conforto e design sofisticado.** O tecido Bouclê e o design acolhedor do Aconchego oferecem uma experiência de conforto superior.
+
+**Famílias que valorizam qualidade e durabilidade.** A estrutura em madeira de reflorestamento e o revestimento em Bouclê garantem um produto que dura por muitos anos.
+
+**Quem tem espaços médios a grandes.** Com 2,30m de largura, o Aconchego é ideal para salas que comportam um sofá de tamanho generoso.
+
+**Admiradores da tendência Bouclê.** O tecido Bouclê é uma tendência forte na decoração de interiores, conferindo charme e personalidade ao ambiente.
+
+**Pessoas que recebem visitas frequentemente.** A funcionalidade retrátil e reclinável permite acomodar hóspedes com conforto.
+
+**Quem valoriza sustentabilidade.** A estrutura em madeira de reflorestamento demonstra compromisso com o meio ambiente.
+
+## 📌 Diferenciais
+
+O **Sofá Retrátil e Reclinável Aconchego King House** se destaca da concorrência por diversos motivos:
+
+**Tecido Bouclê de toque atoalhado:** O Bouclê é uma tendência forte em decoração, e o Aconchego utiliza este tecido com um toque especial que lembra toalha felpuda, proporcionando uma experiência única de conforto e aconchego.
+
+**Design acolhedor e convidativo:** O nome Aconchego reflete o design do sofá, com linhas suaves e curvas que convidam ao descanso, diferenciando-o de sofás com linhas mais retas e formais.
+
+**Estrutura em madeira de reflorestamento:** A utilização de madeira de reflorestamento demonstra compromisso com a sustentabilidade, além de garantir durabilidade e resistência.
+
+**Encosto com fibra siliconada:** O preenchimento do encosto com fibra siliconada proporciona maciez e conforto excepcionais, oferecendo um toque que abraça e acolhe.
+
+**Marca King House com mais de 5 vendas:** A marca é reconhecida pela qualidade de seus produtos, com 12ª colocação entre os sofás da marca.
+
+**Avaliação 4.7 estrelas com 34 reviews:** A excelente avaliação demonstra a satisfação dos clientes e a qualidade superior do produto.
+
+**Linha Premium:** O Aconchego faz parte da linha Premium da King House, garantindo materiais e acabamentos de alta qualidade.
+
+## 📌 Motivos para Comprar
+
+✅ **Tecido Bouclê de toque atoalhado** - textura única e aconchegante
+
+✅ **Sistema retrátil e reclinável** - versatilidade para diferentes momentos
+
+✅ **3 lugares com 2,30m de largura** - espaço generoso para toda família
+
+✅ **Estrutura em madeira de reflorestamento** - sustentabilidade e durabilidade
+
+✅ **Encosto com fibra siliconada** - maciez e conforto excepcionais
+
+✅ **Capacidade de 120 kg por pessoa** - segurança e resistência
+
+✅ **Design moderno e acolhedor** - combina com diferentes estilos
+
+✅ **Linha Premium King House** - materiais e acabamentos de alta qualidade
+
+✅ **Pés em plástico preto** - estabilidade e design moderno
+
+✅ **Marca King House com mais de 5 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.7 estrelas com 34 reviews** - excelente satisfação dos clientes
+
+✅ **18% de desconto** - bom custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos King House são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias para a instalação.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas. O manual é detalhado e ilustrativo, facilitando o processo. Recomendamos a ajuda de outra pessoa devido ao tamanho do sofá.
+
+**4. O sofá tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca King House.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito e saldo do Mercado Pago.
+
+**10. Como devo fazer a limpeza do sofá?**
+
+Recomenda-se limpar o tecido Bouclê com pano seco ou levemente umedecido para remover poeira. Para manchas, utilize produtos específicos para tecidos bouclê. Não utilizar produtos abrasivos ou solventes.
+
+**11. O sofá é resistente para uso diário?**
+
+Sim, a estrutura em madeira de reflorestamento e o revestimento em Bouclê garantem um produto resistente e durável para uso diário.
+
+**12. O sofá suporta quanto peso por pessoa?**
+
+O sofá suporta até 120 kg por pessoa, garantindo segurança e durabilidade para diferentes usuários.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | King House |
+| **Linha** | Premium |
+| **Modelo** | Aconchego |
+| **Tipo** | Sofá Retrátil e Reclinável |
+| **Número de Lugares** | 3 lugares |
+| **Cor** | Cinza |
+| **Revestimento** | Bouclê (toque atoalhado) |
+| **Desenho do Tecido** | Liso |
+| **Estrutura** | Madeira de reflorestamento |
+| **Enchimento do Encosto** | Fibra siliconada |
+| **Densidade da Espuma do Assento** | Média |
+| **Pés** | Plástico (cor preta) |
+| **Reclinável** | Sim |
+| **Largura** | 2,30m |
+| **Profundidade** | 1,20m |
+| **Altura** | 1,20m |
+| **Peso Máximo Suportado** | 120 kg por pessoa |
+| **Quantidade de Peças** | 2 peças |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim |
+| **Ambiente Principal** | Sala |
+| **Estilo** | Moderno |
+| **Itens Inclusos** | 1 Sofá / Acessórios de Montagem / Manual de Instruções |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Sofá Retrátil Reclinável 2,30m Bouclê Cinza Aconchego King House** é a escolha perfeita para quem busca um móvel que una conforto excepcional, design sofisticado e funcionalidade completa. Com tecido Bouclê de toque atoalhado, estrutura em madeira de reflorestamento, sistema retrátil e reclinável, e encosto com fibra siliconada, este sofá atende todas as necessidades de uma sala moderna e acolhedora.
+
+A marca King House, com 12ª colocação entre os sofás da marca e avaliação de 4,7 estrelas com 34 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. O design acolhedor e o nome Aconchego refletem perfeitamente a experiência que este sofá proporciona.
+
+Se você procura um sofá que una tecnologia de conforto, design exclusivo e durabilidade, o Aconchego é a escolha certeira. Aproveite a oferta com 18% de desconto e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "King House",
+  keywords: [
+    "sofá retrátil",
+    "sofá reclinável",
+    "sofá bouclê",
+    "sofá Aconchego",
+    "sofá King House",
+    "sofá 2,30m",
+    "sofá 3 lugares",
+    "sofá cinza",
+    "móvel para sala",
+    "sofá moderno",
+    "sofá com fibra siliconada",
+    "sofá madeira reflorestada",
+    "sofá premium",
+    "sofá retrátil grande",
+    "sofá cama",
+    "sofá bouclê cinza",
+    "sofá toque atoalhado",
+    "sofá 120kg",
+    "sofá linha premium",
+    "sofá aconchegante"
+  ],
+  seoTitle: "Sofá Retrátil Reclinável 2,30m Bouclê Cinza Aconchego | King House",
+  seoDescription: "Sofá retrátil e reclinável Aconchego em bouclê, 3 lugares, madeira reflorestada, 120kg por pessoa. 4.7★ (34 reviews). Linha Premium."
+},
+{
+  id: "p-imp-097",
+  slug: "sofa-retratil-reclinavel-4-lugares-eureka-230m-velosuede-usb-porta-copos-areia",
+  category: "sofas",
+  mainCategory: "sala",
+  name: "Sofá Retrátil Reclinável 4 Lugares Eureka 2,30m Velosuede USB Porta Copos Areia",
+  imageFile: "/imagens/produtos/sofa-retratil-reclinavel-4-lugares-230m-veludo-areia-eureka-usb-porta-copos.webp",
+  displayImage: "/imagens/produtos/sofa-retratil-reclinavel-4-lugares-230m-veludo-areia-eureka-usb-porta-copos.webp",
+  alt: "Sofá retrátil reclinável de 4 lugares e 2,30m em veludo areia modelo Eureka com USB e porta-copos da Netsofas",
+  rating: 4.6,
+  reviews: 673,
+  discount: 29,
+  price: 1707.10,
+  originalPrice: 2409.99,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1MMZUj3",
+  descricao: `
+# Sofá Retrátil Reclinável 4 Lugares Eureka 2,30m Velosuede USB Porta Copos Areia
+
+## 📌 Introdução
+
+O **Sofá Retrátil e Reclinável Eureka 4 Lugares** da Netsofas é o sofá ideal para quem busca conforto, praticidade e estilo na sala de estar. Desenvolvido para transformar seus momentos de descanso, este sofá permite ajustar a posição com facilidade - seja para assistir TV, receber visitas ou simplesmente relaxar depois de um longo dia.
+
+Com design moderno, revestimento em Velosuede na cor areia, porta USB integrada, 4 porta-copos e estrutura robusta que suporta até 200 kg, o Eureka combina funcionalidades que fazem a diferença no dia a dia. É a escolha perfeita para quem valoriza conforto, tecnologia e sustentabilidade.
+
+## 📌 Principais Benefícios
+
+O **sofá retrátil e reclinável Eureka** foi projetado para oferecer benefícios reais que transformam a experiência de convivência e descanso na sala de estar.
+
+**4 lugares com espaço generoso:** Com 2,30m de largura, o Eureka acomoda até 4 pessoas com conforto, sendo ideal para famílias e para receber visitas. Cada assento foi projetado para oferecer suporte e maciez.
+
+**Porta USB integrada:** Um dos grandes diferenciais deste sofá é a porta USB integrada no braço, que permite carregar seu celular ou dispositivo sem sair do conforto do sofá. Nunca mais se preocupe com bateria acabando durante uma maratona de séries.
+
+**4 porta-copos (2 em cada braço):** Mantenha tudo à mão com praticidade. Os 4 porta-copos integrados nos braços permitem que você coloque bebidas, snacks e controles remotos sem precisar se levantar.
+
+**Revestimento em Velosuede:** O tecido Velosuede na cor areia é macio, resistente e de fácil limpeza, oferecendo toque agradável e durabilidade para o uso diário. A cor areia é versátil e traz aconchego ao ambiente.
+
+**Estrutura em Madeira Maciça de Eucalipto 100% reflorestada:** Produto ecologicamente correto, a estrutura em madeira maciça garante resistência e durabilidade, além de demonstrar compromisso com a sustentabilidade.
+
+**Espuma D-28 e D-33 com percinta elástica:** A combinação de espumas de alta densidade no assento com percinta elástica proporciona mais firmeza, conforto e durabilidade, mantendo a qualidade mesmo após anos de uso.
+
+**Suporta até 200 kg:** Estrutura robusta para uso intenso, com capacidade de até 200 kg, garantindo segurança e durabilidade para diferentes usuários.
+
+**Assento retrátil e encosto reclinável:** O sistema permite ajustar a posição com facilidade, seja para assistir TV, receber visitas ou simplesmente relaxar depois de um longo dia.
+
+## 📌 Design
+
+O **Sofá Eureka** apresenta um design moderno e sofisticado que valoriza qualquer ambiente.
+
+**Revestimento em Velosuede areia:** O tecido Velosuede oferece um toque macio e aconchegante, com acabamento premium que confere elegância ao sofá. A cor areia é versátil e combina com diferentes estilos de decoração, trazendo aconchego e sofisticação.
+
+**Design moderno e funcional:** As linhas clean e o design contemporâneo tornam o sofá versátil, combinando com diferentes estilos de decoração, do minimalista ao clássico.
+
+**Braços com funcionalidades integradas:** Os braços do sofá não são apenas estéticos - eles integram porta USB e porta-copos, combinando design e funcionalidade de forma inteligente.
+
+**Dimensões generosas:** Com 2,30m de largura, 0,90m de profundidade (fechado), 1,46m (aberto) e 0,95m de altura, o sofá oferece amplo espaço para até 4 pessoas.
+
+**Acabamento de qualidade:** Cada detalhe do sofá foi pensado para oferecer durabilidade e beleza, com costuras reforçadas e acabamentos impecáveis.
+
+## 📌 Funcionalidade e Praticidade
+
+O **sofá retrátil e reclinável Eureka** foi desenvolvido para oferecer máxima funcionalidade e praticidade no dia a dia.
+
+**Transformação fácil:** O sistema retrátil e reclinável permite transformar o sofá em uma cama confortável em poucos movimentos, ideal para receber visitas ou para momentos de descanso.
+
+**Porta USB integrada:** Carregue seus dispositivos sem sair do sofá. A entrada USB no braço é prática e acessível.
+
+**4 porta-copos:** Mantenha bebidas, snacks e controles sempre à mão com os porta-copos integrados nos braços.
+
+**Montagem simples:** O produto acompanha manual de montagem detalhado, com instruções claras e ilustrativas para facilitar a instalação.
+
+**Pés em plástico desmontável:** Os pés são fáceis de instalar e proporcionam estabilidade ao sofá.
+
+**Peso de 84 kg:** Apesar do tamanho generoso, o sofá tem peso equilibrado para fácil manuseio durante a montagem.
+
+## 📌 Ideal para
+
+- **Salas de estar:** Peça principal que valoriza o ambiente
+- **Salas de TV e home theaters:** Conforto para maratonas de séries com USB e porta-copos
+- **Famílias:** 4 lugares para acomodar todos com conforto
+- **Receber visitas:** Cama confortável para hóspedes
+- **Ambientes modernos:** Design sofisticado que combina com decorações contemporâneas
+- **Espaços multifuncionais:** Móvel versátil que atende diferentes necessidades
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **sofá retrátil e reclinável Netsofas** é especialmente recomendado para:
+
+**Famílias que buscam conforto e praticidade.** Com 4 lugares, USB integrada e porta-copos, o Eureka atende todas as necessidades de uma família moderna.
+
+**Pessoas que valorizam tecnologia e funcionalidade.** A porta USB integrada é um diferencial importante para quem não abre mão da conectividade.
+
+**Quem tem espaços médios a grandes.** Com 2,30m de largura, o Eureka é ideal para salas que comportam um sofá de tamanho generoso.
+
+**Admiradores de design moderno e funcional.** O Velosuede e o design clean conferem um visual sofisticado e versátil.
+
+**Pessoas que recebem visitas frequentemente.** A funcionalidade retrátil e reclinável permite acomodar hóspedes com conforto.
+
+**Quem valoriza sustentabilidade.** A estrutura em madeira de eucalipto 100% reflorestada demonstra compromisso com o meio ambiente.
+
+## 📌 Diferenciais
+
+O **Sofá Retrátil e Reclinável Eureka Netsofas** se destaca da concorrência por diversos motivos:
+
+**Porta USB integrada:** Este é um dos grandes diferenciais do Eureka. Enquanto a maioria dos sofás não oferece esta funcionalidade, o Eureka permite carregar dispositivos sem sair do conforto do sofá.
+
+**4 porta-copos (2 em cada braço):** A quantidade de porta-copos é superior à maioria dos sofás do mercado, oferecendo mais praticidade para acomodar bebidas e snacks.
+
+**Suporta até 200 kg:** A estrutura robusta com capacidade de até 200 kg é um diferencial importante para famílias e para quem busca um produto durável.
+
+**4 lugares com 2,30m de largura:** O espaço generoso para 4 pessoas é ideal para famílias e para quem gosta de receber amigos.
+
+**Revestimento em Velosuede:** O tecido é macio, resistente e de fácil limpeza, oferecendo durabilidade e conforto.
+
+**Estrutura em madeira maciça de eucalipto reflorestada:** A utilização de madeira 100% reflorestada demonstra compromisso com a sustentabilidade, além de garantir durabilidade.
+
+**Espuma D-28 e D-33 com percinta elástica:** A combinação de espumas de alta densidade garante firmeza, conforto e durabilidade superiores.
+
+**Marca Netsofas com mais de 500 vendas:** A marca é reconhecida pela qualidade de seus produtos, com 8ª colocação entre os sofás da marca.
+
+**Avaliação 4.6 estrelas com 673 reviews:** A excelente avaliação demonstra a satisfação massiva dos clientes.
+
+## 📌 Motivos para Comprar
+
+✅ **Porta USB integrada no braço** - carregue dispositivos sem sair do sofá
+
+✅ **4 porta-copos (2 em cada braço)** - praticidade para bebidas e snacks
+
+✅ **4 lugares com 2,30m de largura** - espaço generoso para toda família
+
+✅ **Sistema retrátil e reclinável** - versatilidade para diferentes momentos
+
+✅ **Revestimento em Velosuede areia** - toque macio, resistente e fácil de limpar
+
+✅ **Estrutura em madeira maciça de eucalipto reflorestada** - sustentabilidade e durabilidade
+
+✅ **Espuma D-28 e D-33 com percinta elástica** - firmeza e conforto prolongado
+
+✅ **Suporta até 200 kg** - estrutura robusta para uso intenso
+
+✅ **Design moderno e sofisticado** - combina com diferentes estilos
+
+✅ **Pés em plástico desmontável** - fácil instalação
+
+✅ **Marca Netsofas com mais de 500 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.6 estrelas com 673 reviews** - satisfação massiva dos clientes
+
+✅ **29% de desconto no Pix** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Netsofas são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias para a instalação.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas. O manual é detalhado e ilustrativo, facilitando o processo. Recomendamos a ajuda de outra pessoa devido ao tamanho do sofá.
+
+**4. O sofá tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Netsofas.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito e saldo do Mercado Pago.
+
+**10. Como devo fazer a limpeza do sofá?**
+
+Aspire o sofá regularmente para eliminar a poeira. Para limpeza, utilize pano levemente umedecido com água e sabão neutro, seguido de pano seco. Evite escovas ou produtos abrasivos. Use em local seco e evite exposição direta ao sol para preservar a cor do tecido Velosuede.
+
+**11. O sofá é resistente para uso diário?**
+
+Sim, a estrutura em madeira maciça de eucalipto reflorestada, espuma D-28 e D-33 com percinta elástica garantem um produto extremamente resistente e durável para uso diário intenso.
+
+**12. O USB é compatível com todos os dispositivos?**
+
+Sim, a porta USB é compatível com a maioria dos dispositivos móveis, incluindo smartphones, tablets e outros aparelhos que carregam via USB.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Netsofas |
+| **Modelo** | Eureka |
+| **Tipo** | Sofá Retrátil e Reclinável |
+| **Número de Lugares** | 4 lugares |
+| **Cor** | Areia |
+| **Revestimento** | Velosuede |
+| **Assento** | Espuma D-28, D-33, Fibra de Poliéster Siliconada e Percinta Elástica |
+| **Encosto** | Flocos de Espuma e Fibra de Poliéster Siliconada |
+| **Estrutura** | Madeira Maciça de Eucalipto 100% reflorestada |
+| **Pés** | Plástico desmontável |
+| **Porta USB** | Sim (integrada no braço) |
+| **Porta-copos** | 4 (2 em cada braço) |
+| **Largura** | 2,30m |
+| **Profundidade Fechado** | 0,90m |
+| **Profundidade Aberto** | 1,46m |
+| **Altura** | 0,95m |
+| **Peso do Produto** | 84 kg |
+| **Peso Máximo Suportado** | 200 kg |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim (manual incluso) |
+| **Ambiente Principal** | Sala |
+| **Estilo** | Moderno / Contemporâneo |
+| **Itens Inclusos** | 1 Sofá / Acessórios de Montagem / Manual de Instruções |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Sofá Retrátil Reclinável 4 Lugares Eureka 2,30m Velosuede USB Porta Copos Areia** é a escolha perfeita para quem busca um móvel que una conforto excepcional, design sofisticado e funcionalidades modernas. Com 4 lugares, porta USB integrada, 4 porta-copos, sistema retrátil e reclinável, revestimento em Velosuede na cor areia, estrutura em madeira maciça de eucalipto reflorestada e capacidade de até 200 kg, este sofá atende todas as necessidades de uma sala moderna e conectada.
+
+A marca Netsofas, com mais de 500 vendas e 8ª colocação entre os sofás da marca, e avaliação de 4,6 estrelas com 673 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. As funcionalidades integradas como USB e porta-copos tornam o Eureka um dos sofás mais práticos e completos do mercado.
+
+Se você procura um sofá que una tecnologia, conforto e design a um preço acessível, o Eureka na cor areia é a escolha certeira. Aproveite a oferta com 29% de desconto no Pix e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Netsofas",
+  keywords: [
+    "sofá retrátil",
+    "sofá reclinável",
+    "sofá com USB",
+    "sofá com porta copos",
+    "sofá Eureka",
+    "sofá Netsofas",
+    "sofá 4 lugares",
+    "sofá 2,30m",
+    "sofá veludo",
+    "sofá areia",
+    "móvel para sala",
+    "sofá moderno",
+    "sofá com porta-copos",
+    "sofá com carregador USB",
+    "sofá retrátil grande",
+    "sofá família",
+    "sofá velosuede",
+    "sofá madeira reflorestada",
+    "sofá 4 lugares retrátil",
+    "sofá cama 200kg"
+  ],
+  seoTitle: "Sofá Retrátil 4 Lugares Eureka com USB e Porta Copos Areia | Netsofas",
+  seoDescription: "Sofá retrátil e reclinável Eureka com 4 lugares, porta USB, 4 porta-copos, velosuede areia, 200kg. 4.6★ (673 reviews)."
+},
+{
+  id: "p-imp-098",
+  slug: "conjunto-canto-amsterdam-marrom-retratil-reclinavel-king-house",
+  category: "sofas",
+  mainCategory: "sala",
+  name: "Conjunto Canto Amsterdam Marrom Retrátil Reclinável com Molas - King House",
+  imageFile: "/imagens/produtos/conjunto-canto-amsterdam-marrom-retratil-reclinavel-king-house.webp",
+  displayImage: "/imagens/produtos/conjunto-canto-amsterdam-marrom-retratil-reclinavel-king-house.webp",
+  alt: "Conjunto de sofá canto Amsterdam na cor marrom com sistema retrátil e reclinável da King House",
+  rating: 4.7,
+  reviews: 34,
+  discount: 38,
+  price: 2533.00,
+  originalPrice: 4124.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1firzmj",
+  descricao: `
+# Conjunto Canto Amsterdam Marrom C/ Molas Retrátil/reclinável - King House
+
+## 📌 Introdução
+
+Sabe aquela sensação de felicidade e satisfação que você sente quando faz uma boa escolha?! Pois bem, essa é a sensação de comprar um **Sofá Canto Amsterdam** da King House. Um produto moderno, com design elegante que combina com qualquer ambiente e o deixa ainda mais lindo e aconchegante. Perfeito para salas grandes e famílias que buscam conforto, estilo e funcionalidade em um único móvel.
+
+O Conjunto Canto Amsterdam é a solução ideal para quem deseja um sofá espaçoso e versátil, com capacidade para 6 pessoas ou mais. Com sistema retrátil e reclinável em 5 posições, assento com molas espirais e espuma D33, e revestimento em Suede Velut na cor marrom, este sofá combina design sofisticado com conforto excepcional.
+
+## 📌 Principais Benefícios
+
+O **Conjunto Canto Amsterdam** foi projetado para oferecer benefícios reais que transformam a experiência de convivência e descanso na sala de estar.
+
+**Capacidade para 6 pessoas ou mais:** Com dimensões generosas de 3,20m no lado maior e 2,22m no lado chaise, o conjunto Amsterdam acomoda confortavelmente 6 pessoas ou mais, sendo ideal para famílias grandes e para receber visitas.
+
+**Sistema retrátil e reclinável em 5 posições:** O encosto reclinável em cinco posições proporciona conforto na hora do descanso, permitindo encontrar a posição perfeita para assistir TV, ler um livro ou relaxar. O assento retrátil transforma o sofá em uma verdadeira cama para assistir seu filme preferido.
+
+**Assento com molas espirais e espuma D33:** A combinação de molas espirais com espuma D33 no assento garante firmeza, conforto e durabilidade, mantendo a qualidade mesmo após anos de uso intenso.
+
+**Estrutura em madeira de reflorestamento:** A estrutura é fabricada com madeira de reflorestamento (eucalipto e pinus), garantindo durabilidade e resistência, além de demonstrar compromisso com a sustentabilidade.
+
+**Revestimento em Suede Velut:** O tecido Suede Velut oferece toque macio e aconchegante, com acabamento premium que confere elegância ao sofá. A cor marrom traz sofisticação e combina com diferentes estilos de decoração.
+
+**Design moderno e versátil:** Disponível em 7 cores diferentes (Azul, Bege, Cinza, Marrom, Preto, Tabaco e Vermelho), o Amsterdam se adapta a qualquer ambiente e agrada a todos os gostos.
+
+**Peso suportado de 120kg por pessoa:** Estrutura robusta que garante segurança e durabilidade para diferentes usuários.
+
+## 📌 Design
+
+O **Conjunto Canto Amsterdam** apresenta um design moderno e sofisticado que valoriza qualquer ambiente.
+
+**Revestimento em Suede Velut marrom:** O tecido Suede Velut oferece um toque macio e aconchegante, com acabamento premium que confere elegância ao sofá. A cor marrom é uma escolha sofisticada e versátil, que combina com diferentes paletas de cores e estilos de decoração.
+
+**Design canto com chaise:** O formato em L com chaise oferece amplo espaço para sentar e deitar, sendo perfeito para salas grandes e para momentos de relaxamento. O chaise permite esticar as pernas com conforto.
+
+**Linhas modernas e elegantes:** O design contemporâneo com linhas clean torna o sofá versátil, combinando com diferentes estilos de decoração, do minimalista ao clássico.
+
+**Dimensões generosas:** Com 3,20m no lado maior e 2,22m no lado chaise, o conjunto oferece amplo espaço para até 6 pessoas, sendo a peça central da sala.
+
+**Acabamento de qualidade:** Cada detalhe do sofá foi pensado para oferecer durabilidade e beleza, com costuras reforçadas e acabamentos impecáveis.
+
+**7 cores disponíveis:** O Amsterdam está disponível nas cores Azul, Bege, Cinza, Marrom, Preto, Tabaco e Vermelho, permitindo escolher a que melhor se adapta à sua decoração.
+
+## 📌 Funcionalidade e Praticidade
+
+O **Conjunto Canto Amsterdam** foi desenvolvido para oferecer máxima funcionalidade e praticidade no dia a dia.
+
+**Transformação fácil:** O sistema retrátil e reclinável permite transformar o sofá em uma cama confortável em poucos movimentos, ideal para receber visitas ou para momentos de descanso.
+
+**5 posições de reclinação:** O encosto reclinável em 5 posições oferece versatilidade para diferentes momentos de uso, desde a posição sentada até a posição completamente deitada.
+
+**Assento retrátil:** O assento pode ser esticado, permitindo utilizar com as pernas esticadas para máximo conforto durante longos períodos de uso.
+
+**Montagem simples:** O produto acompanha manual de montagem detalhado, com instruções claras e ilustrativas para facilitar a instalação. Não é necessário técnico especializado.
+
+**Capacidade de 120kg por pessoa:** O sofá suporta até 120kg por pessoa, garantindo segurança e durabilidade para diferentes usuários.
+
+**Pés em plástico preto:** Os pés proporcionam estabilidade e proteção ao piso.
+
+## 📌 Ideal para
+
+- **Salas grandes:** Ocupa espaço com elegância e funcionalidade
+- **Famílias numerosas:** Capacidade para 6 pessoas ou mais
+- **Salas de TV e home theaters:** Conforto para maratonas de séries e filmes
+- **Receber visitas:** Cama confortável para hóspedes
+- **Ambientes modernos:** Design sofisticado que combina com decorações contemporâneas
+- **Espaços multifuncionais:** Móvel versátil que atende diferentes necessidades
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **Conjunto Canto Amsterdam King House** é especialmente recomendado para:
+
+**Famílias grandes** que buscam um sofá espaçoso e confortável para acomodar todos os membros com conforto. Com capacidade para 6 pessoas ou mais, o Amsterdam é a escolha perfeita.
+
+**Pessoas que valorizam design e versatilidade.** Com 7 cores disponíveis e design moderno, o Amsterdam se adapta a diferentes estilos de decoração.
+
+**Quem tem salas grandes.** Com 3,20m no lado maior e 2,22m no lado chaise, o Amsterdam é ideal para salas amplas.
+
+**Admiradores da marca King House.** A marca é reconhecida pela qualidade de seus produtos, com 8ª colocação entre os sofás da marca.
+
+**Pessoas que recebem visitas frequentemente.** A funcionalidade retrátil e reclinável permite acomodar hóspedes com conforto.
+
+**Quem valoriza sustentabilidade.** A estrutura em madeira de reflorestamento demonstra compromisso com o meio ambiente.
+
+## 📌 Diferenciais
+
+O **Conjunto Canto Amsterdam King House** se destaca da concorrência por diversos motivos:
+
+**Conjunto completo com chaise:** Diferente de sofás retos, o formato em L com chaise oferece mais versatilidade e conforto, permitindo esticar as pernas e acomodar mais pessoas.
+
+**Capacidade para 6 pessoas ou mais:** A capacidade generosa é um diferencial importante para famílias grandes e para quem gosta de receber visitas.
+
+**Sistema retrátil e reclinável em 5 posições:** A combinação de sistemas retrátil e reclinável com 5 posições oferece versatilidade incomparável para diferentes momentos de uso.
+
+**7 cores disponíveis:** A variedade de cores permite personalizar o sofá de acordo com a decoração do ambiente.
+
+**Molas espirais e espuma D33:** A combinação de molas espirais com espuma D33 no assento garante firmeza, conforto e durabilidade superiores.
+
+**Estrutura em madeira de reflorestamento:** A utilização de madeira de eucalipto e pinus reflorestados demonstra compromisso com a sustentabilidade.
+
+**Marca King House com 8ª colocação:** A marca é reconhecida pela qualidade de seus produtos, com 8ª colocação entre os sofás da marca.
+
+**Avaliação 4.7 estrelas:** A excelente avaliação demonstra a satisfação dos clientes.
+
+## 📌 Motivos para Comprar
+
+✅ **Capacidade para 6 pessoas ou mais** - espaço generoso para toda família
+
+✅ **Sistema retrátil e reclinável em 5 posições** - versatilidade para diferentes momentos
+
+✅ **Assento com molas espirais e espuma D33** - conforto e durabilidade
+
+✅ **Revestimento em Suede Velut marrom** - toque macio e acabamento sofisticado
+
+✅ **Estrutura em madeira de reflorestamento** - sustentabilidade e durabilidade
+
+✅ **7 cores disponíveis** - personalize de acordo com sua decoração
+
+✅ **Chaise para esticar as pernas** - máximo conforto em momentos de relaxamento
+
+✅ **Peso suportado de 120kg por pessoa** - segurança e resistência
+
+✅ **Montagem simples** - faça você mesmo com manual incluso
+
+✅ **Marca King House com 8ª colocação** - confiabilidade comprovada
+
+✅ **Avaliação 4.7 estrelas** - excelente satisfação dos clientes
+
+✅ **38% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos King House são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias para a instalação.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas. O manual é detalhado e ilustrativo, facilitando o processo. Não é necessário técnico especializado.
+
+**4. O sofá tem garantia?**
+
+Sim, o produto possui garantia de fábrica de 3 meses (90 dias) contra defeitos de fabricação.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras, com algumas restrições para zonas rurais.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito e saldo do Mercado Pago.
+
+**10. Como devo fazer a limpeza do sofá?**
+
+Recomenda-se limpar o tecido Suede Velut com pano seco ou levemente umedecido para remover poeira. Para manchas, utilize produtos específicos para tecidos suede. Não utilizar produtos abrasivos ou solventes.
+
+**11. O sofá é resistente para uso diário?**
+
+Sim, a estrutura em madeira de reflorestamento, molas espirais e espuma D33 garantem um produto extremamente resistente e durável para uso diário intenso.
+
+**12. O sofá passa por portas estreitas?**
+
+Recomenda-se verificar cuidadosamente as dimensões do produto antes da compra, certificando-se de que o mesmo poderá ser transportado por portas, corredores e elevadores.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | King House |
+| **Modelo** | Amsterdam |
+| **Tipo** | Conjunto Canto Retrátil e Reclinável |
+| **Cor** | Marrom |
+| **Revestimento** | Suede Velut |
+| **Assento** | Molas espirais + Espuma D33 |
+| **Encosto** | Reclinável em 5 posições, fibra siliconada |
+| **Braço** | Espuma D28 |
+| **Estrutura** | Madeira de reflorestamento (eucalipto e pinus) |
+| **Pés** | Plástico (cor preta) |
+| **Orientação** | Direita |
+| **Lado Maior** | 3,20m |
+| **Lado Chaise** | 2,22m |
+| **Altura** | 1,05m (reclinado) / 0,88m (não reclinado) |
+| **Profundidade** | 1,19m (aberto 1,75m) |
+| **Peso Suportado por Pessoa** | 120kg |
+| **Capacidade de Pessoas** | 6 pessoas ou mais |
+| **Garantia** | 3 meses (90 dias) |
+| **Montagem Necessária** | Sim (manual incluso) |
+| **Cores Disponíveis** | Azul, Bege, Cinza, Marrom, Preto, Tabaco, Vermelho |
+| **Ambiente Principal** | Sala |
+| **Estilo** | Moderno |
+| **Itens Inclusos** | 1 Conjunto Canto / Manual de Montagem / Certificado de Garantia |
+| **Observações** | Imagens meramente ilustrativas. Objetos decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Conjunto Canto Amsterdam Marrom Retrátil Reclinável com Molas King House** é a escolha perfeita para quem busca um sofá espaçoso, confortável e com design sofisticado para a sala de estar. Com capacidade para 6 pessoas ou mais, sistema retrátil e reclinável em 5 posições, assento com molas espirais e espuma D33, revestimento em Suede Velut na cor marrom e estrutura em madeira de reflorestamento, este conjunto atende todas as necessidades de famílias grandes e ambientes modernos.
+
+A marca King House, com 8ª colocação entre os sofás da marca e avaliação de 4,7 estrelas, comprova a qualidade, durabilidade e satisfação dos clientes. A disponibilidade em 7 cores diferentes permite personalizar o sofá de acordo com sua decoração.
+
+Se você procura um sofá canto que una design sofisticado, conforto excepcional e funcionalidade completa, o Amsterdam é a escolha certeira. Aproveite a oferta com 38% de desconto no Pix e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "King House",
+  keywords: [
+    "sofá canto",
+    "conjunto canto",
+    "sofá Amsterdam",
+    "sofá King House",
+    "sofá retrátil",
+    "sofá reclinável",
+    "sofá marrom",
+    "sofá 6 lugares",
+    "sofá com chaise",
+    "móvel para sala",
+    "sofá moderno",
+    "sofá com molas",
+    "sofá suede velut",
+    "sofá canto grande",
+    "sofá família",
+    "sofá 3,20m",
+    "sofá retrátil canto",
+    "sofá madeira reflorestada",
+    "sofá 7 cores",
+    "sofá canto reclinável"
+  ],
+  seoTitle: "Conjunto Canto Amsterdam Retrátil Reclinável Marrom | King House",
+  seoDescription: "Conjunto canto Amsterdam com 6 lugares, retrátil, reclinável, molas e chaise. Suede Velut marrom, madeira reflorestada. 4.7★ (34 reviews)."
+},{
+  id: "p-imp-099",
+  slug: "sofa-retratil-reclinavel-315m-spazus-bordado-3d-velusoft-bege-cama-inbox",
+  category: "sofas",
+  mainCategory: "sala",
+  name: "Sofá Retrátil e Reclinável 3,15m Spazus com Bordado 3D Velusoft Bege - Cama Inbox",
+  imageFile: "/imagens/produtos/sofa-retratil-reclinavel-315m-veludo-bege-spazus-bordado-3d-cama-inbox.webp",
+  displayImage: "/imagens/produtos/sofa-retratil-reclinavel-315m-veludo-bege-spazus-bordado-3d-cama-inbox.webp",
+  alt: "Sofá retrátil e reclinável de 3,15m em veludo bege com bordado 3D modelo Spazus da Cama Inbox",
+  rating: 4.7,
+  reviews: 371,
+  discount: 23,
+  price: 3909.00,
+  originalPrice: 5119.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2He25DH",
+  descricao: `
+# Sofá Retrátil e Reclinável 3,15m Spazus com Bordado 3D Velusoft Bege - Cama Inbox
+
+## 📌 Introdução
+
+Embeleze e complemente sua sala com a ajuda do maravilhoso **Sofá Retrátil e Reclinável Spazus** da Cama Inbox. Com uma estrutura interna resistente, ele possui a estabilidade necessária para esse tipo de móvel, enquanto o enchimento em espuma D33, molas ensacadas de molejo duplo e percintas italianas dão o suporte necessário para o conforto, sendo perfeito para acomodar você e as pessoas que ama naquela maratona de séries, ou até mesmo para descansarem aos finais de semana.
+
+Com impressionantes 3,15m de largura, o Spazus é o sofá definitivo para salas grandes e famílias numerosas. Seu design sofisticado com bordado pantográfico 3D e revestimento em Suede Velusoft na cor bege transforma qualquer ambiente em um espaço de luxo e aconchego.
+
+## 📌 Principais Benefícios
+
+O **sofá retrátil e reclinável Spazus** foi projetado para oferecer benefícios reais que transformam a experiência de convivência e descanso na sala de estar.
+
+**Dimensões impressionantes de 3,15m:** Com 3,15m de largura, o Spazus é o sofá definitivo para salas grandes, oferecendo espaço generoso para acomodar toda a família e receber visitas com conforto.
+
+**Molas ensacadas de molejo duplo:** As molas ensacadas proporcionam um conforto superior, com suporte individualizado para cada ponto do corpo. O sistema de molejo duplo oferece maior durabilidade e resistência, mantendo o conforto por muitos anos.
+
+**Espuma D33 de alta densidade:** A espuma de alta performance D33 proporciona sustentação adequada e conforto prolongado, ideal para uso diário intenso.
+
+**Percintas italianas:** As percintas italianas garantem maior resistência e durabilidade ao estofado, mantendo a firmeza e o suporte mesmo após anos de uso.
+
+**Bordado Pantográfico 3D exclusivo:** O bordado 3D nos assentos e laterais é um detalhe que agrega valor estético e exclusividade ao produto, diferenciando-o de outros sofás do mercado.
+
+**Tecido Suede Velusoft:** O revestimento em Suede Velusoft na cor bege oferece toque macio e aconchegante, com acabamento premium que confere elegância e sofisticação.
+
+**Estrutura em madeira maciça de eucalipto reflorestada:** A estrutura é fabricada com madeira maciça de eucalipto 100% de reflorestamento, garantindo durabilidade e sustentabilidade.
+
+**Encosto reclinável em 5 níveis:** O encosto reclinável em 5 níveis de estágios permite encontrar a posição perfeita para assistir TV, ler um livro ou descansar.
+
+**Design bipartido para fácil transporte:** O sofá é enviado desmontado e embalado por módulo, sendo bipartido (dividido em 2 módulos) para facilitar o transporte em corredores estreitos e escadas. Cada módulo tem altura 161cm, largura 65cm e profundidade 127cm, entrando facilmente em qualquer porta acima de 65cm de largura.
+
+## 📌 Design
+
+O **Sofá Spazus** apresenta um design sofisticado e moderno que valoriza qualquer ambiente.
+
+**Bordado Pantográfico 3D:** O bordado 3D nos assentos e laterais é um detalhe exclusivo que adiciona sofisticação e personalidade ao design, diferenciando o Spazus de outros sofás do mercado.
+
+**Tecido Suede Velusoft bege:** O tecido Suede Velusoft oferece um toque macio e aconchegante, com acabamento premium que confere elegância ao sofá. A cor bege é versátil e combina com diferentes estilos de decoração, trazendo aconchego e sofisticação.
+
+**Design moderno e versátil:** As linhas clean e o design contemporâneo tornam o sofá versátil, combinando com diferentes estilos de decoração, do minimalista ao clássico.
+
+**Dimensões impressionantes:** Com 3,15m de largura, 1,08m de altura e 1,22m de profundidade (fechado), o sofá oferece amplo espaço para até 5 pessoas, sendo a peça central da sala.
+
+**Braços largos e macios:** Os braços com 25cm de largura e madeira maciça proporcionam conforto e estabilidade, além de um visual robusto e elegante.
+
+## 📌 Funcionalidade e Praticidade
+
+O **sofá retrátil e reclinável Spazus** foi desenvolvido para oferecer máxima funcionalidade e praticidade no dia a dia.
+
+**Transformação fácil:** O sistema retrátil e reclinável permite transformar o sofá em uma cama confortável em poucos movimentos, ideal para receber visitas ou para momentos de descanso.
+
+**5 níveis de reclinação:** O encosto reclinável em 5 níveis de estágios oferece versatilidade para diferentes momentos de uso, desde a posição sentada até a posição completamente deitada.
+
+**Almofadas do encosto parcialmente removíveis:** As almofadas são compostas por 80% de fibra siliconada e 20% de flocos de espuma, proporcionando maior conforto e facilidade de manutenção.
+
+**Montagem simples:** O produto é enviado desmontado e embalado por módulo, com montagem fácil e rápida. Acompanha manual de instruções detalhado.
+
+**Capacidade de 120kg por pessoa:** O sofá suporta até 120kg por pessoa, garantindo segurança e durabilidade para diferentes usuários.
+
+## 📌 Ideal para
+
+- **Salas grandes:** Ocupa espaço com elegância e funcionalidade
+- **Salas de estar:** Peça principal que valoriza o ambiente
+- **Salas de TV e home theaters:** Conforto para maratonas de séries
+- **Famílias numerosas:** Espaço para todos
+- **Receber visitas:** Cama confortável para hóspedes
+- **Ambientes modernos:** Design sofisticado que combina com decorações contemporâneas
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **sofá retrátil e reclinável Cama Inbox** é especialmente recomendado para:
+
+**Famílias numerosas** que buscam um sofá espaçoso e confortável para acomodar todos os membros com conforto. Com 3,15m de largura, o Spazus é a escolha perfeita.
+
+**Pessoas que valorizam design e exclusividade.** O bordado pantográfico 3D e o tecido Suede Velusoft conferem um visual premium e exclusivo ao sofá.
+
+**Quem tem salas grandes.** Com 3,15m de largura, o Spazus é ideal para salas amplas que comportam um sofá de grande porte.
+
+**Admiradores da marca Cama Inbox.** A marca é referência em tecnologia a vácuo no Brasil, com 14ª colocação entre os sofás da marca.
+
+**Pessoas que recebem visitas frequentemente.** A funcionalidade retrátil e reclinável permite acomodar hóspedes com conforto.
+
+**Quem valoriza sustentabilidade.** A estrutura em madeira de eucalipto 100% reflorestada demonstra compromisso com o meio ambiente.
+
+## 📌 Diferenciais
+
+O **Sofá Retrátil e Reclinável Spazus Cama Inbox** se destaca da concorrência por diversos motivos:
+
+**Dimensões impressionantes de 3,15m:** O Spazus é um dos sofás mais espaçosos do mercado, com 3,15m de largura que acomoda confortavelmente 5 pessoas ou mais.
+
+**Molas ensacadas de molejo duplo:** Enquanto muitos sofás utilizam molas convencionais ou espuma apenas, o Spazus utiliza molas ensacadas de molejo duplo, que oferecem suporte individualizado para cada ponto do corpo, maior durabilidade e conforto superior.
+
+**Bordado Pantográfico 3D exclusivo:** O bordado 3D nos assentos e laterais é um detalhe que agrega valor estético e exclusividade ao produto.
+
+**Percintas italianas:** As percintas italianas garantem maior resistência e durabilidade ao estofado.
+
+**Design bipartido para fácil transporte:** O sofá é dividido em 2 módulos que cabem em portas acima de 65cm de largura, facilitando a entrega e instalação.
+
+**Estrutura em madeira maciça de reflorestamento:** A utilização de madeira de eucalipto 100% de reflorestamento garante durabilidade e sustentabilidade.
+
+**Marca Cama Inbox com mais de 100 vendas:** A marca é referência em tecnologia a vácuo no Brasil, com 14ª colocação entre os sofás da marca.
+
+**Avaliação 4.7 estrelas com 371 reviews:** A excelente avaliação demonstra a satisfação massiva dos clientes.
+
+## 📌 Motivos para Comprar
+
+✅ **Dimensões impressionantes de 3,15m** - espaço para 5 pessoas ou mais
+
+✅ **Molas ensacadas de molejo duplo** - conforto superior e suporte individualizado
+
+✅ **Espuma D33 de alta densidade** - sustentação adequada e conforto prolongado
+
+✅ **Percintas italianas** - maior resistência e durabilidade
+
+✅ **Bordado Pantográfico 3D exclusivo** - design sofisticado e diferenciado
+
+✅ **Tecido Suede Velusoft bege** - toque macio e acabamento premium
+
+✅ **Estrutura em madeira maciça de reflorestamento** - durabilidade e sustentabilidade
+
+✅ **Encosto reclinável em 5 níveis** - versatilidade para diferentes momentos
+
+✅ **Design bipartido para fácil transporte** - entra em portas acima de 65cm
+
+✅ **Montagem fácil e rápida** - faça você mesmo
+
+✅ **Capacidade de 120kg por pessoa** - segurança e resistência
+
+✅ **Marca Cama Inbox com mais de 100 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.7 estrelas com 371 reviews** - excelente satisfação dos clientes
+
+✅ **23% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Cama Inbox são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado e embalado por módulo. Ele é bipartido (dividido em 2 módulos) para facilitar o transporte em corredores estreitos e escadas. A montagem é fácil e rápida, acompanha manual de instruções.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem é simples e intuitiva, podendo ser realizada com ferramentas básicas. O manual é detalhado e ilustrativo, facilitando o processo.
+
+**4. O sofá tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Cama Inbox.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix com cupom, cartões de crédito e saldo do Mercado Pago.
+
+**10. Como devo fazer a limpeza do sofá?**
+
+Recomenda-se limpar o tecido Suede Velusoft com pano seco ou levemente umedecido para remover poeira. Para manchas, utilize produtos específicos para tecidos suede. Não utilizar produtos abrasivos ou solventes.
+
+**11. O sofá é resistente para uso diário?**
+
+Sim, a estrutura em madeira maciça, molas ensacadas de molejo duplo e percintas italianas garantem um produto extremamente resistente e durável para uso diário intenso.
+
+**12. O sofá passa por portas estreitas?**
+
+Sim, o sofá é bipartido em 2 módulos com altura 161cm, largura 65cm e profundidade 127cm, entrando facilmente em qualquer porta acima de 65cm de largura.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Cama Inbox |
+| **Modelo** | Spazus |
+| **Tipo** | Sofá Retrátil e Reclinável |
+| **Cor** | Bege |
+| **Tecido** | Suede Velusoft |
+| **Bordado** | Pantográfico 3D |
+| **Assentos** | Espuma D33 + Molas ensacadas de molejo duplo + Fibra siliconada + Percintas italianas |
+| **Encosto** | Reclinável em 5 níveis, almofadas parcialmente removíveis (80% fibra siliconada, 20% flocos de espuma) |
+| **Braços** | Madeira maciça de eucalipto, 25cm de largura cada, com bordado 3D |
+| **Estrutura** | Madeira maciça de eucalipto 100% de reflorestamento, grampos galvanizados |
+| **Pés** | PVC |
+| **Altura** | 1,08m |
+| **Profundidade Fechado** | 1,22m |
+| **Profundidade Aberto** | 1,75m |
+| **Largura** | 3,15m |
+| **Peso Suportado por Pessoa** | 120kg |
+| **Embalagem** | Bipartido em 2 módulos: Altura 161cm, Largura 65cm, Profundidade 127cm |
+| **Garantia** | Contra defeitos de fabricação |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim (fácil e rápida) |
+| **Ambiente Principal** | Sala |
+| **Estilo** | Moderno |
+| **Itens Inclusos** | 1 Sofá / Módulos / Manual de Montagem |
+| **Observações** | Imagens meramente ilustrativas. Tonalidades podem variar conforme lote e configuração de tela |
+
+## 📌 Conclusão
+
+O **Sofá Retrátil e Reclinável 3,15m Spazus com Bordado 3D Velusoft Bege Cama Inbox** é a escolha definitiva para quem busca um sofá que una conforto excepcional, design sofisticado e funcionalidade completa. Com impressionantes 3,15m de largura, molas ensacadas de molejo duplo, espuma D33, percintas italianas, bordado pantográfico 3D, tecido Suede Velusoft na cor bege e estrutura em madeira maciça de eucalipto reflorestada, este sofá atende todas as necessidades de salas grandes e famílias numerosas.
+
+A marca Cama Inbox, com mais de 100 vendas e 14ª colocação entre os sofás da marca, e avaliação de 4,7 estrelas com 371 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. O design bipartido facilita o transporte e a montagem, tornando a experiência de compra ainda mais prática.
+
+Se você procura um sofá que una tecnologia de conforto superior, design exclusivo e durabilidade incomparável, o Spazus é a escolha certeira. Aproveite a oferta com 23% de desconto e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Cama Inbox",
+  keywords: [
+    "sofá retrátil",
+    "sofá reclinável",
+    "sofá Spazus",
+    "sofá Cama Inbox",
+    "sofá 3,15m",
+    "sofá com molas ensacadas",
+    "sofá espuma D33",
+    "sofá veludo",
+    "sofá bege",
+    "sofá grande",
+    "móvel para sala",
+    "sofá moderno",
+    "sofá com bordado 3D",
+    "sofá 5 lugares",
+    "sofá retrátil grande",
+    "sofá com percintas italianas",
+    "sofá madeira reflorestada",
+    "sofá bipartido",
+    "sofá premium",
+    "sofá cama"
+  ],
+  seoTitle: "Sofá Retrátil 3,15m Spazus com Bordado 3D | Cama Inbox Bege",
+  seoDescription: "Sofá retrátil e reclinável Spazus com 3,15m, molas ensacadas, bordado 3D, veludo bege. 5 lugares, 120kg. 4.7★ (371 reviews). Oferta!"
+},
+
+{
+  id: "p-imp-100",
+  slug: "sofa-3-lugares-beny-180cm-linho-bege-madeira-prima",
+  category: "sofas",
+  mainCategory: "sala",
+  name: "Sofá 3 Lugares Beny 180cm Linho Bege com Pés de Madeira - Madeira Prima",
+  imageFile: "/imagens/produtos/sofa-3-lugares-180cm-linho-bege-beny-madeira-prima.webp",
+  displayImage: "/imagens/produtos/sofa-3-lugares-180cm-linho-bege-beny-madeira-prima.webp",
+  alt: "Sofá de 3 lugares Beny em linho bege com pés de madeira de 180cm da Madeira Prima",
+  rating: 4.3,
+  reviews: 42,
+  discount: 2,
+  price: 869.00,
+  originalPrice: 889.00,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2UumA7n",
+  descricao: `
+# Sofá 3 Lugares Beny 180cm Linho Bege com Pés de Madeira - Madeira Prima
+
+## 📌 Introdução
+
+Conheça o **Sofá Beny**, modelo de referência em elegância e segurança. O Sofá Beny é um luxo e vai tornar o seu ambiente ainda mais lindo e aconchegante. Com design moderno e acabamento refinado, este sofá de 3 lugares é a peça perfeita para quem busca conforto, estilo e sofisticação na sala de estar.
+
+Com 180cm de largura, o Sofá Beny se adapta perfeitamente a diferentes tamanhos de sala, oferecendo espaço generoso para 3 pessoas. Seu revestimento em linho na cor bege, pés em madeira maciça e almofadas decorativas inclusas fazem deste modelo uma escolha versátil e elegante para qualquer ambiente.
+
+## 📌 Principais Benefícios
+
+O **Sofá Beny** foi projetado para oferecer benefícios reais que transformam a experiência de convivência e descanso na sala de estar.
+
+**Design moderno e elegante:** Com linhas clean e design contemporâneo, o Sofá Beny é um luxo que vai tornar o seu ambiente ainda mais lindo e aconchegante. Sua estética refinada combina com diferentes estilos de decoração.
+
+**Revestimento em linho de alta qualidade:** O tecido de linho oferece toque natural e sofisticado, com durabilidade e resistência para o uso diário. A cor bege é versátil e combina com diferentes paletas de cores.
+
+**Pés em madeira maciça:** A base e os pés em madeira trazem a sustentação necessária e adicionam um toque de elegância e naturalidade ao sofá. A madeira confere robustez e durabilidade.
+
+**Almofadas no encosto para maior conforto:** As almofadas do encosto são removíveis e proporcionam maior conforto, permitindo ajustar a posição de acordo com sua preferência.
+
+**4 almofadas de decoração inclusas:** O sofá acompanha 4 almofadas extras para dar aquele toque final de bom gosto e sofisticação, valorizando ainda mais a decoração da sala.
+
+**Molas Bonnel no assento:** O sistema de molas Bonnel garante firmeza e durabilidade, mantendo a qualidade do assento mesmo após anos de uso.
+
+**Estrutura resistente:** O sofá suporta até 300kg, garantindo segurança e durabilidade para diferentes usuários.
+
+**Assento macio com espuma D-26:** A espuma de densidade D-26 proporciona maciez e conforto, com firmeza adequada para uso diário.
+
+## 📌 Design
+
+O **Sofá Beny** apresenta um design moderno e sofisticado que valoriza qualquer ambiente.
+
+**Revestimento em linho bege:** O tecido de linho oferece um toque natural e sofisticado, com acabamento premium que confere elegância ao sofá. A cor bege é versátil e combina com diferentes estilos de decoração, trazendo aconchego e sofisticação.
+
+**Pés em madeira maciça:** Os pés em madeira com 13cm de altura adicionam um toque de elegância e naturalidade ao sofá, além de facilitar a limpeza do piso.
+
+**Design clean e contemporâneo:** As linhas retas e o design moderno tornam o sofá versátil, combinando com diferentes estilos de decoração, do minimalista ao clássico.
+
+**Almofadas de decoração inclusas:** As 4 almofadas extras acompanham o sofá, oferecendo um toque final de bom gosto e sofisticação.
+
+**Dimensões compactas:** Com 180cm de largura, 80cm de profundidade e 77cm de altura, o sofá oferece excelente conforto em um formato compacto que se adapta a diferentes tamanhos de sala.
+
+**Braços de 25cm:** Os braços com 25cm de altura proporcionam conforto e suporte para os braços.
+
+## 📌 Funcionalidade e Praticidade
+
+O **Sofá Beny** foi desenvolvido para oferecer máxima funcionalidade e praticidade no dia a dia.
+
+**3 lugares com espaço confortável:** Com 180cm de largura, o sofá acomoda até 3 pessoas com conforto, sendo ideal para famílias e para receber amigos.
+
+**Almofadas do encosto removíveis:** As almofadas são removíveis, facilitando a limpeza e a manutenção do sofá.
+
+**4 almofadas decorativas extras:** As almofadas inclusas oferecem versatilidade na decoração e podem ser reposicionadas conforme a preferência.
+
+**Montagem simples:** O produto acompanha manual de montagem detalhado, com instruções claras e ilustrativas para facilitar a instalação.
+
+**Pés em madeira com 13cm:** A altura dos pés facilita a limpeza do piso e permite a passagem de aspiradores e vassouras.
+
+**Capacidade de 300kg:** O sofá suporta até 300kg, garantindo segurança e durabilidade para diferentes usuários.
+
+## 📌 Ideal para
+
+- **Salas de estar:** Peça principal que valoriza o ambiente
+- **Apartamentos compactos:** Dimensões que otimizam espaços
+- **Salas de TV e lazer:** Conforto para momentos de relaxamento
+- **Ambientes modernos:** Design sofisticado que combina com decorações contemporâneas
+- **Decoração com estilo natural:** O linho e a madeira trazem aconchego e elegância
+- **Espaços multifuncionais:** Móvel versátil que atende diferentes necessidades
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **sofá 3 lugares Beny** é especialmente recomendado para:
+
+**Pessoas que buscam um sofá elegante e confortável com excelente custo-benefício.** O design moderno e o revestimento em linho conferem um visual sofisticado a um preço acessível.
+
+**Quem valoriza design natural e atemporal.** A combinação de linho bege com pés de madeira maciça é uma escolha elegante que nunca sai de moda.
+
+**Pessoas com espaços compactos.** Com 180cm de largura, o Beny é ideal para apartamentos e salas menores.
+
+**Admiradores de móveis com acabamento em madeira.** Os pés em madeira maciça adicionam um toque de elegância e naturalidade ao sofá.
+
+**Quem busca um sofá com almofadas inclusas.** As 4 almofadas decorativas acompanham o produto, oferecendo mais valor e versatilidade.
+
+**Pessoas que valorizam durabilidade.** A estrutura com molas Bonnel e espuma D-26 garantem um produto resistente e durável.
+
+## 📌 Diferenciais
+
+O **Sofá Beny Madeira Prima** se destaca da concorrência por diversos motivos:
+
+**Pés em madeira maciça:** Diferente de muitos sofás com pés de plástico ou MDF, o Beny utiliza pés em madeira maciça, garantindo maior durabilidade e um visual mais elegante e natural.
+
+**4 almofadas decorativas inclusas:** O sofá acompanha 4 almofadas extras, oferecendo mais valor ao produto e permitindo personalizar a decoração.
+
+**Revestimento em linho de alta qualidade:** O tecido de linho oferece um toque natural e sofisticado, com durabilidade e resistência superiores.
+
+**Molas Bonnel no assento:** O sistema de molas Bonnel garante firmeza e durabilidade, superior a sofás que utilizam apenas espuma.
+
+**Capacidade de 300kg:** A estrutura robusta suporta até 300kg, garantindo segurança e durabilidade.
+
+**Design versátil e atemporal:** O design clean e a combinação de cores neutras tornam o sofá versátil, combinando com diferentes estilos de decoração.
+
+**Almofadas do encosto removíveis:** Facilita a limpeza e a manutenção do sofá.
+
+**Boa relação custo-benefício:** Com preço acessível e características de sofás premium, o Beny oferece excelente custo-benefício.
+
+## 📌 Motivos para Comprar
+
+✅ **Design moderno e elegante** - valoriza qualquer ambiente
+
+✅ **Revestimento em linho bege** - toque natural e sofisticado
+
+✅ **Pés em madeira maciça** - durabilidade e elegância
+
+✅ **4 almofadas decorativas inclusas** - mais valor e versatilidade
+
+✅ **Almofadas do encosto removíveis** - facilidade de limpeza
+
+✅ **Molas Bonnel no assento** - firmeza e durabilidade
+
+✅ **Espuma D-26** - maciez e conforto
+
+✅ **Capacidade de 300kg** - segurança e resistência
+
+✅ **3 lugares com 180cm** - espaço para toda família
+
+✅ **Dimensões compactas** - ideal para apartamentos
+
+✅ **Braços de 25cm** - conforto e suporte
+
+✅ **Pés com 13cm de altura** - facilidade de limpeza
+
+✅ **Design atemporal** - combina com diferentes estilos
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Madeira Prima são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias para a instalação.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas. O manual é detalhado e ilustrativo, facilitando o processo.
+
+**4. O sofá tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Madeira Prima.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito e saldo do Mercado Pago.
+
+**10. Como devo fazer a limpeza do sofá?**
+
+Recomenda-se aspirar o sofá regularmente para eliminar a poeira. Para limpeza, utilize pano levemente umedecido com água e sabão neutro, seguido de pano seco. Evite escovas ou produtos abrasivos.
+
+**11. O sofá é resistente para uso diário?**
+
+Sim, a estrutura com molas Bonnel, espuma D-26 e pés em madeira maciça garantem um produto resistente e durável para uso diário.
+
+**12. O sofá suporta quanto peso?**
+
+O sofá suporta até 300kg no total, garantindo segurança e durabilidade para diferentes usuários.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Madeira Prima |
+| **Modelo** | Beny |
+| **Tipo** | Sofá Fixo (não retrátil, não reclinável) |
+| **Número de Lugares** | 3 lugares |
+| **Cor** | Bege |
+| **Revestimento** | Linho |
+| **Assento** | Espuma D-26 + Molas Bonnel + Percintas Elásticas |
+| **Encosto** | Fixo, almofadas removíveis |
+| **Almofadas Decorativas** | 4 inclusas |
+| **Pés** | Madeira (4 pés, 13cm de altura) |
+| **Largura** | 180cm |
+| **Profundidade** | 80cm |
+| **Altura** | 77cm |
+| **Altura do Braço** | 25cm |
+| **Largura do Braço** | 15cm |
+| **Altura do Encosto** | 34cm |
+| **Altura do Assento ao Chão** | 45cm |
+| **Peso** | 50kg |
+| **Peso Suportado** | 300kg |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim |
+| **Ambiente Principal** | Sala de Estar |
+| **Estilo** | Moderno |
+| **Itens Inclusos** | 1 Sofá Beny 180cm + 4 Almofadas Decorativas / Acessórios de Montagem / Manual de Instruções |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos adicionais não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Sofá 3 Lugares Beny 180cm Linho Bege com Pés de Madeira** é a escolha perfeita para quem busca um móvel que una design moderno, conforto excepcional e elegância natural. Com revestimento em linho de alta qualidade, pés em madeira maciça, 4 almofadas decorativas inclusas, sistema de molas Bonnel e espuma D-26, este sofá atende todas as necessidades de uma sala moderna e acolhedora.
+
+A marca Madeira Prima, com mais de 500 vendas, comprova a qualidade, durabilidade e satisfação dos clientes. O design atemporal e a combinação de cores neutras tornam o Beny versátil, combinando com diferentes estilos de decoração.
+
+Se você procura um sofá que una design sofisticado, conforto e excelente custo-benefício, o Beny é a escolha certeira. Garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Madeira Prima",
+  keywords: [
+    "sofá 3 lugares",
+    "sofá Beny",
+    "sofá linho",
+    "sofá bege",
+    "sofá 180cm",
+    "sofá Madeira Prima",
+    "sofá com pés de madeira",
+    "sofá fixo",
+    "móvel para sala",
+    "sofá moderno",
+    "sofá com almofadas",
+    "sofá molas Bonnel",
+    "sofá espuma D-26",
+    "sofá 3 lugares 180cm",
+    "sofá sala estar",
+    "sofá confortável",
+    "sofá elegante",
+    "sofá design",
+    "sofá casal",
+    "sofá apartamento"
+  ],
+  seoTitle: "Sofá 3 Lugares Beny 180cm Linho Bege com Pés de Madeira | Madeira Prima",
+  seoDescription: "Sofá Beny 3 lugares em linho bege com pés de madeira, 4 almofadas inclusas, molas Bonnel. 180cm, 300kg. 4.3★ (42 reviews)."
+},
+
 ];
 
 
@@ -2211,6 +9592,42 @@ export const getProductsByCategory = (
 
 export const getProductsByMainCategory = (main: string): Product[] => {
   return products.filter((p) => p.mainCategory === main);
+};
+// Retorna produtos intercalando entre as categorias (round-robin),
+// em vez de respeitar a ordem crua do array `products`.
+// Use quando `category` for um array de várias categorias (ex: grid da home),
+// para garantir que nenhuma categoria fique escondida ao aplicar um `limit`.
+export const getProductsByCategoryInterleaved = (
+  category?: ProductCategory | ProductCategory[]
+): Product[] => {
+  if (!category) return products;
+
+  const cats = Array.isArray(category) ? category : [category];
+
+  // Agrupa os produtos por categoria, mantendo a ordem interna de cada uma
+  const buckets: Product[][] = cats.map((cat) =>
+    products.filter(
+      (p) => p.category === cat || p.categories?.includes(cat)
+    )
+  );
+
+  // Intercala: 1 produto de cada categoria por vez, até esgotar todas
+  const result: Product[] = [];
+  const maxLen = Math.max(...buckets.map((b) => b.length), 0);
+
+  for (let i = 0; i < maxLen; i++) {
+    for (const bucket of buckets) {
+      if (bucket[i]) result.push(bucket[i]);
+    }
+  }
+
+  // Remove duplicados (caso um produto pertença a mais de uma categoria da lista)
+  const seen = new Set<string>();
+  return result.filter((p) => {
+    if (seen.has(p.id)) return false;
+    seen.add(p.id);
+    return true;
+  });
 };
 
 export const getProductsBySlugs = (slugs: string[]): Product[] =>
