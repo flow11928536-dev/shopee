@@ -1,15 +1,15 @@
 {
   "site": {
     "name": "Loja de Móveis Marília",
-    "url": "https://lojademoveismarilia.com.br",
+    "url": "https://www.lojademoveismarilia.com.br",
     "description": "Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.",
-    "lastUpdated": "2026-07-31T05:48:34.485Z"
+    "lastUpdated": "2026-07-31T06:01:24.932Z"
   },
   "categories": [
     {
       "slug": "guarda-roupas",
       "label": "Guarda-Roupas",
-      "url": "https://lojademoveismarilia.com.br/categoria/guarda-roupas",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/guarda-roupas",
       "description": "Encontre as melhores ofertas de Guarda-Roupas com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [
         "melhores-guarda-roupas-casal-baratos"
@@ -19,7 +19,7 @@
     {
       "slug": "cozinhas",
       "label": "Cozinhas",
-      "url": "https://lojademoveismarilia.com.br/categoria/cozinhas",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/cozinhas",
       "description": "Encontre as melhores ofertas de Cozinhas com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [
         "melhores-cozinhas-moduladas-baratas",
@@ -30,7 +30,7 @@
     {
       "slug": "mesas",
       "label": "Mesas",
-      "url": "https://lojademoveismarilia.com.br/categoria/mesas",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/mesas",
       "description": "Encontre as melhores ofertas de Mesas com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
       "productCount": 18
@@ -38,7 +38,7 @@
     {
       "slug": "paineis",
       "label": "Painéis e Racks",
-      "url": "https://lojademoveismarilia.com.br/categoria/paineis",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/paineis",
       "description": "Encontre as melhores ofertas de Painéis e Racks com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [
         "paineis"
@@ -48,7 +48,7 @@
     {
       "slug": "quartos",
       "label": "Quartos",
-      "url": "https://lojademoveismarilia.com.br/categoria/quartos",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/quartos",
       "description": "Encontre as melhores ofertas de Quartos com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [
         "quartos"
@@ -58,7 +58,7 @@
     {
       "slug": "microondas",
       "label": "Micro-ondas",
-      "url": "https://lojademoveismarilia.com.br/categoria/microondas",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/microondas",
       "description": "Encontre as melhores ofertas de Micro-ondas com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
       "productCount": 5
@@ -66,7 +66,7 @@
     {
       "slug": "liquidificadores",
       "label": "Liquidificadores",
-      "url": "https://lojademoveismarilia.com.br/categoria/liquidificadores",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/liquidificadores",
       "description": "Encontre as melhores ofertas de Liquidificadores com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
       "productCount": 7
@@ -74,7 +74,7 @@
     {
       "slug": "air-fryers",
       "label": "Air Fryers",
-      "url": "https://lojademoveismarilia.com.br/categoria/air-fryers",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/air-fryers",
       "description": "Encontre as melhores ofertas de Air Fryers com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
       "productCount": 1
@@ -82,7 +82,7 @@
     {
       "slug": "eletrodomesticos",
       "label": "Eletrodomésticos",
-      "url": "https://lojademoveismarilia.com.br/categoria/eletrodomesticos",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/eletrodomesticos",
       "description": "Encontre as melhores ofertas de Eletrodomésticos com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
       "productCount": 22
@@ -90,7 +90,7 @@
     {
       "slug": "ar-condicionado",
       "label": "Ar Condicionado",
-      "url": "https://lojademoveismarilia.com.br/categoria/ar-condicionado",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/ar-condicionado",
       "description": "Encontre as melhores ofertas de Ar Condicionado com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
       "productCount": 3
@@ -98,7 +98,7 @@
     {
       "slug": "home-office",
       "label": "Home Office",
-      "url": "https://lojademoveismarilia.com.br/categoria/home-office",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/home-office",
       "description": "Encontre as melhores ofertas de Home Office com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [
         "moveis-home-office-barato"
@@ -108,7 +108,7 @@
     {
       "slug": "sofas",
       "label": "Sofás",
-      "url": "https://lojademoveismarilia.com.br/categoria/sofas",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/sofas",
       "description": "Encontre as melhores ofertas de Sofás com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [
         "melhores-sofas-retrateis-2026",
@@ -119,7 +119,7 @@
     {
       "slug": "racks",
       "label": "Racks",
-      "url": "https://lojademoveismarilia.com.br/categoria/racks",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/racks",
       "description": "Encontre as melhores ofertas de Racks com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
       "productCount": 8
@@ -127,7 +127,7 @@
     {
       "slug": "geladeiras",
       "label": "Geladeiras e Refrigeradores",
-      "url": "https://lojademoveismarilia.com.br/categoria/geladeiras",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/geladeiras",
       "description": "Encontre as melhores ofertas de Geladeiras e Refrigeradores com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
       "productCount": 5
@@ -137,7 +137,7 @@
     {
       "slug": "moveis-area-externa",
       "title": "Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo",
-      "url": "https://lojademoveismarilia.com.br/guia/moveis-area-externa",
+      "url": "https://www.lojademoveismarilia.com.br/guia/moveis-area-externa",
       "description": "",
       "keywords": [
         "móveis para área externa"
@@ -147,7 +147,7 @@
     {
       "slug": "moveis-planejados-vs-modulados",
       "title": "Móveis Planejados vs Modulados: Qual Vale Mais a Pena?",
-      "url": "https://lojademoveismarilia.com.br/guia/moveis-planejados-vs-modulados",
+      "url": "https://www.lojademoveismarilia.com.br/guia/moveis-planejados-vs-modulados",
       "description": "",
       "keywords": [
         "móveis planejados vs modulados"
@@ -157,7 +157,7 @@
     {
       "slug": "moveis-home-office-barato",
       "title": "Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco",
-      "url": "https://lojademoveismarilia.com.br/guia/moveis-home-office-barato",
+      "url": "https://www.lojademoveismarilia.com.br/guia/moveis-home-office-barato",
       "description": "",
       "keywords": [
         "móveis para home office barato"
@@ -167,7 +167,7 @@
     {
       "slug": "moveis-cozinha-pequena",
       "title": "Móveis para Cozinha Pequena: Guia Completo para Aproveitar Cada Centímetro",
-      "url": "https://lojademoveismarilia.com.br/guia/moveis-cozinha-pequena",
+      "url": "https://www.lojademoveismarilia.com.br/guia/moveis-cozinha-pequena",
       "description": "",
       "keywords": [
         "móveis para cozinha pequena"
@@ -177,7 +177,7 @@
     {
       "slug": "moveis-varanda-jardim",
       "title": "Móveis para Varanda e Jardim: Guia Completo para Montar o Espaço Externo",
-      "url": "https://lojademoveismarilia.com.br/guia/moveis-varanda-jardim",
+      "url": "https://www.lojademoveismarilia.com.br/guia/moveis-varanda-jardim",
       "description": "",
       "keywords": [
         "móveis para varanda e jardim"
@@ -187,7 +187,7 @@
     {
       "slug": "moveis-quarto-casal",
       "title": "Móveis para Quarto de Casal: Conforto, Espaço e Organização",
-      "url": "https://lojademoveismarilia.com.br/guia/moveis-quarto-casal",
+      "url": "https://www.lojademoveismarilia.com.br/guia/moveis-quarto-casal",
       "description": "",
       "keywords": [
         "móveis para quarto de casal"
@@ -197,7 +197,7 @@
     {
       "slug": "moveis-quarto-infantil",
       "title": "Móveis para Quarto Infantil: Como Montar um Quarto Seguro e Funcional",
-      "url": "https://lojademoveismarilia.com.br/guia/moveis-quarto-infantil",
+      "url": "https://www.lojademoveismarilia.com.br/guia/moveis-quarto-infantil",
       "description": "",
       "keywords": [
         "móveis para quarto infantil"
@@ -207,7 +207,7 @@
     {
       "slug": "sofa-retratil-vale-a-pena",
       "title": "Sofá Retrátil Vale a Pena? Veja Prós e Contras Antes de Comprar",
-      "url": "https://lojademoveismarilia.com.br/guia/sofa-retratil-vale-a-pena",
+      "url": "https://www.lojademoveismarilia.com.br/guia/sofa-retratil-vale-a-pena",
       "description": "",
       "keywords": [
         "sofá retrátil vale a pena"
@@ -217,7 +217,7 @@
     {
       "slug": "melhores-sofas-retrateis-2026",
       "title": "Melhores Sofás Retráteis para Apartamento Pequeno em 2026",
-      "url": "https://lojademoveismarilia.com.br/guia/melhores-sofas-retrateis-2026",
+      "url": "https://www.lojademoveismarilia.com.br/guia/melhores-sofas-retrateis-2026",
       "description": "",
       "keywords": [
         "melhores sofás retráteis 2026"
@@ -227,7 +227,7 @@
     {
       "slug": "sofa-retratil-ou-reclinavel",
       "title": "Sofá Retrátil ou Reclinável: Qual Escolher para Sua Sala?",
-      "url": "https://lojademoveismarilia.com.br/guia/sofa-retratil-ou-reclinavel",
+      "url": "https://www.lojademoveismarilia.com.br/guia/sofa-retratil-ou-reclinavel",
       "description": "",
       "keywords": [
         "sofá retrátil ou reclinável"
@@ -237,7 +237,7 @@
     {
       "slug": "sofa-de-canto-ou-sofa-retratil",
       "title": "Sofá de Canto ou Sofá Retrátil: Qual Ocupa Menos Espaço?",
-      "url": "https://lojademoveismarilia.com.br/guia/sofa-de-canto-ou-sofa-retratil",
+      "url": "https://www.lojademoveismarilia.com.br/guia/sofa-de-canto-ou-sofa-retratil",
       "description": "",
       "keywords": [
         "sofá de canto ou sofá retrátil"
@@ -247,7 +247,7 @@
     {
       "slug": "guarda-roupa-casal-mdf-ou-mdp",
       "title": "Guarda-Roupa Casal MDF ou MDP: Qual é Melhor e Mais Resistente?",
-      "url": "https://lojademoveismarilia.com.br/guia/guarda-roupa-casal-mdf-ou-mdp",
+      "url": "https://www.lojademoveismarilia.com.br/guia/guarda-roupa-casal-mdf-ou-mdp",
       "description": "",
       "keywords": [
         "guarda-roupa casal MDF ou MDP"
@@ -257,7 +257,7 @@
     {
       "slug": "melhores-guarda-roupas-casal-baratos",
       "title": "Melhores Guarda-Roupas Casal Baratos e Espaçosos em 2026",
-      "url": "https://lojademoveismarilia.com.br/guia/melhores-guarda-roupas-casal-baratos",
+      "url": "https://www.lojademoveismarilia.com.br/guia/melhores-guarda-roupas-casal-baratos",
       "description": "",
       "keywords": [
         "melhores guarda-roupas casal baratos"
@@ -267,7 +267,7 @@
     {
       "slug": "como-escolher-guarda-roupa-ideal",
       "title": "Como Escolher Guarda-Roupa Ideal para Quarto Pequeno",
-      "url": "https://lojademoveismarilia.com.br/guia/como-escolher-guarda-roupa-ideal",
+      "url": "https://www.lojademoveismarilia.com.br/guia/como-escolher-guarda-roupa-ideal",
       "description": "",
       "keywords": [
         "como escolher guarda-roupa ideal"
@@ -277,7 +277,7 @@
     {
       "slug": "cozinha-modulada-pequena-vale-a-pena",
       "title": "Cozinha Modulada Pequena Vale a Pena? Veja Antes de Comprar",
-      "url": "https://lojademoveismarilia.com.br/guia/cozinha-modulada-pequena-vale-a-pena",
+      "url": "https://www.lojademoveismarilia.com.br/guia/cozinha-modulada-pequena-vale-a-pena",
       "description": "",
       "keywords": [
         "cozinha modulada pequena vale a pena"
@@ -287,7 +287,7 @@
     {
       "slug": "melhores-cozinhas-moduladas-baratas",
       "title": "Melhores Cozinhas Moduladas Baratas para Apartamento",
-      "url": "https://lojademoveismarilia.com.br/guia/melhores-cozinhas-moduladas-baratas",
+      "url": "https://www.lojademoveismarilia.com.br/guia/melhores-cozinhas-moduladas-baratas",
       "description": "",
       "keywords": [
         "melhores cozinhas moduladas baratas"
@@ -297,7 +297,7 @@
     {
       "slug": "como-escolher-moveis-apartamento-pequeno",
       "title": "Como Escolher Móveis para Apartamento Pequeno sem Errar",
-      "url": "https://lojademoveismarilia.com.br/guia/como-escolher-moveis-apartamento-pequeno",
+      "url": "https://www.lojademoveismarilia.com.br/guia/como-escolher-moveis-apartamento-pequeno",
       "description": "",
       "keywords": [
         "como escolher móveis para apartamento pequeno"
@@ -307,7 +307,7 @@
     {
       "slug": "conjunto-sala-de-jantar",
       "title": "Conjunto Sala de Jantar: Como Escolher o Melhor Modelo para Sua Casa",
-      "url": "https://lojademoveismarilia.com.br/guia/conjunto-sala-de-jantar",
+      "url": "https://www.lojademoveismarilia.com.br/guia/conjunto-sala-de-jantar",
       "description": "",
       "keywords": [
         "conjunto sala de jantar"
@@ -317,7 +317,7 @@
     {
       "slug": "melhor-air-fryer-2026",
       "title": "Melhor Air Fryer 2026: Guia Prático e Honesto",
-      "url": "https://lojademoveismarilia.com.br/guia/melhor-air-fryer-2026",
+      "url": "https://www.lojademoveismarilia.com.br/guia/melhor-air-fryer-2026",
       "description": "",
       "keywords": [
         "melhor air fryer 2026"
@@ -327,7 +327,7 @@
     {
       "slug": "duvidas-frequentes-air-fryer",
       "title": "Dúvidas Frequentes sobre Air Fryer: Segurança, Limpeza, Consumo e Mais",
-      "url": "https://lojademoveismarilia.com.br/guia/duvidas-frequentes-air-fryer",
+      "url": "https://www.lojademoveismarilia.com.br/guia/duvidas-frequentes-air-fryer",
       "description": "",
       "keywords": [
         "duvidas frequentes air fryer"
@@ -337,7 +337,7 @@
     {
       "slug": "guarda-roupas",
       "title": "Guarda Roupas: Guia Prático e Honesto",
-      "url": "https://lojademoveismarilia.com.br/guia/guarda-roupas",
+      "url": "https://www.lojademoveismarilia.com.br/guia/guarda-roupas",
       "description": "",
       "keywords": [
         "guarda roupas"
@@ -347,7 +347,7 @@
     {
       "slug": "por-que-moveis-estalam",
       "title": "Por Que Móveis Estalam de Madrugada? A Explicação Real",
-      "url": "https://lojademoveismarilia.com.br/guia/por-que-moveis-estalam",
+      "url": "https://www.lojademoveismarilia.com.br/guia/por-que-moveis-estalam",
       "description": "",
       "keywords": [
         "por que móveis estalam de madrugada"
@@ -357,7 +357,7 @@
     {
       "slug": "como-envelopar-moveis",
       "title": "Como Envelopar Móveis: Passo a Passo Completo para Renovar Sem Pintar",
-      "url": "https://lojademoveismarilia.com.br/guia/como-envelopar-moveis",
+      "url": "https://www.lojademoveismarilia.com.br/guia/como-envelopar-moveis",
       "description": "",
       "keywords": [
         "como envelopar móveis passo a passo"
@@ -367,7 +367,7 @@
     {
       "slug": "mdf-vs-mdp-diferenca",
       "title": "MDF vs MDP: a Diferença que Define a Durabilidade dos Seus Móveis",
-      "url": "https://lojademoveismarilia.com.br/guia/mdf-vs-mdp-diferenca",
+      "url": "https://www.lojademoveismarilia.com.br/guia/mdf-vs-mdp-diferenca",
       "description": "",
       "keywords": [
         "diferença entre MDF e MDP"
@@ -377,7 +377,7 @@
     {
       "slug": "como-restaurar-moveis-madeira",
       "title": "Como Restaurar Móveis de Madeira: Do Arranhado ao Acabamento Novo",
-      "url": "https://lojademoveismarilia.com.br/guia/como-restaurar-moveis-madeira",
+      "url": "https://www.lojademoveismarilia.com.br/guia/como-restaurar-moveis-madeira",
       "description": "",
       "keywords": [
         "como restaurar móveis de madeira"
@@ -387,7 +387,7 @@
     {
       "slug": "como-pintar-moveis-madeira",
       "title": "Como Pintar Móveis de Madeira: Guia Completo para um Acabamento Profissional",
-      "url": "https://lojademoveismarilia.com.br/guia/como-pintar-moveis-madeira",
+      "url": "https://www.lojademoveismarilia.com.br/guia/como-pintar-moveis-madeira",
       "description": "",
       "keywords": [
         "como pintar móveis de madeira"
@@ -397,7 +397,7 @@
     {
       "slug": "guia-instalacao-painel-tv",
       "title": "Como Instalar Painel de TV: Guia Completo com Tipos de Bucha e Altura Ideal",
-      "url": "https://lojademoveismarilia.com.br/guia/guia-instalacao-painel-tv",
+      "url": "https://www.lojademoveismarilia.com.br/guia/guia-instalacao-painel-tv",
       "description": "",
       "keywords": [
         "como instalar painel de TV"
@@ -407,7 +407,7 @@
     {
       "slug": "guarda-roupa-mdf-mdp",
       "title": "Guarda Roupa Mdf Mdp: Guia Prático e Honesto",
-      "url": "https://lojademoveismarilia.com.br/guia/guarda-roupa-mdf-mdp",
+      "url": "https://www.lojademoveismarilia.com.br/guia/guarda-roupa-mdf-mdp",
       "description": "",
       "keywords": [
         "guarda roupa mdf mdp"
@@ -417,7 +417,7 @@
     {
       "slug": "como-comprar-moveis-casas-bahia",
       "title": "Como Comprar Moveis Casas Bahia: Guia Prático e Honesto",
-      "url": "https://lojademoveismarilia.com.br/guia/como-comprar-moveis-casas-bahia",
+      "url": "https://www.lojademoveismarilia.com.br/guia/como-comprar-moveis-casas-bahia",
       "description": "",
       "keywords": [
         "como comprar moveis casas bahia"
@@ -427,7 +427,7 @@
     {
       "slug": "entrega-montagem-moveis",
       "title": "Entrega Montagem Moveis: Guia Prático e Honesto",
-      "url": "https://lojademoveismarilia.com.br/guia/entrega-montagem-moveis",
+      "url": "https://www.lojademoveismarilia.com.br/guia/entrega-montagem-moveis",
       "description": "",
       "keywords": [
         "entrega montagem moveis"
@@ -437,7 +437,7 @@
     {
       "slug": "como-limpar-moveis-madeira",
       "title": "Como Limpar Moveis Madeira: Guia Prático e Honesto",
-      "url": "https://lojademoveismarilia.com.br/guia/como-limpar-moveis-madeira",
+      "url": "https://www.lojademoveismarilia.com.br/guia/como-limpar-moveis-madeira",
       "description": "",
       "keywords": [
         "como limpar moveis madeira"
@@ -447,7 +447,7 @@
     {
       "slug": "sofa-custo-beneficio",
       "title": "Sofa Custo Beneficio: Guia Prático e Honesto",
-      "url": "https://lojademoveismarilia.com.br/guia/sofa-custo-beneficio",
+      "url": "https://www.lojademoveismarilia.com.br/guia/sofa-custo-beneficio",
       "description": "",
       "keywords": [
         "sofa custo beneficio"
@@ -457,7 +457,7 @@
     {
       "slug": "colchao-cama-box-densidade",
       "title": "Colchao Cama Box Densidade: Guia Prático e Honesto",
-      "url": "https://lojademoveismarilia.com.br/guia/colchao-cama-box-densidade",
+      "url": "https://www.lojademoveismarilia.com.br/guia/colchao-cama-box-densidade",
       "description": "",
       "keywords": [
         "colchao cama box densidade"
@@ -467,7 +467,7 @@
     {
       "slug": "moveis-shopee-sao-bons",
       "title": "Móveis da Shopee são Bons? Guia Completo para Comprar com Segurança",
-      "url": "https://lojademoveismarilia.com.br/guia/moveis-shopee-sao-bons",
+      "url": "https://www.lojademoveismarilia.com.br/guia/moveis-shopee-sao-bons",
       "description": "",
       "keywords": [
         "móveis shopee são bons"
@@ -477,7 +477,7 @@
     {
       "slug": "como-comprar-moveis-ojas-100",
       "title": "Como Comprar Moveis Ojas 100: Guia Prático e Honesto",
-      "url": "https://lojademoveismarilia.com.br/guia/como-comprar-moveis-ojas-100",
+      "url": "https://www.lojademoveismarilia.com.br/guia/como-comprar-moveis-ojas-100",
       "description": "",
       "keywords": [
         "como comprar moveis ojas 100"
@@ -487,7 +487,7 @@
     {
       "slug": "como-limpar-moveis-mdf-mdp",
       "title": "Como Limpar Moveis Mdf Mdp: Guia Prático e Honesto",
-      "url": "https://lojademoveismarilia.com.br/guia/como-limpar-moveis-mdf-mdp",
+      "url": "https://www.lojademoveismarilia.com.br/guia/como-limpar-moveis-mdf-mdp",
       "description": "",
       "keywords": [
         "como limpar moveis mdf mdp"
@@ -497,7 +497,7 @@
     {
       "slug": "limpar-moveis-mdf-mdp",
       "title": "Limpar Moveis Mdf Mdp: Guia Prático e Honesto",
-      "url": "https://lojademoveismarilia.com.br/guia/limpar-moveis-mdf-mdp",
+      "url": "https://www.lojademoveismarilia.com.br/guia/limpar-moveis-mdf-mdp",
       "description": "",
       "keywords": [
         "limpar moveis mdf mdp"
@@ -507,7 +507,7 @@
     {
       "slug": "colchao-cama-box",
       "title": "Colchao Cama Box: Guia Prático e Honesto",
-      "url": "https://lojademoveismarilia.com.br/guia/colchao-cama-box",
+      "url": "https://www.lojademoveismarilia.com.br/guia/colchao-cama-box",
       "description": "",
       "keywords": [
         "colchao cama box"
@@ -517,7 +517,7 @@
     {
       "slug": "paineis",
       "title": "Paineis: Guia Prático e Honesto",
-      "url": "https://lojademoveismarilia.com.br/guia/paineis",
+      "url": "https://www.lojademoveismarilia.com.br/guia/paineis",
       "description": "",
       "keywords": [
         "paineis"
@@ -527,7 +527,7 @@
     {
       "slug": "cozinhas",
       "title": "Cozinhas: Guia Prático e Honesto",
-      "url": "https://lojademoveismarilia.com.br/guia/cozinhas",
+      "url": "https://www.lojademoveismarilia.com.br/guia/cozinhas",
       "description": "",
       "keywords": [
         "cozinhas"
@@ -537,7 +537,7 @@
     {
       "slug": "quartos",
       "title": "Quartos: Guia Prático e Honesto",
-      "url": "https://lojademoveismarilia.com.br/guia/quartos",
+      "url": "https://www.lojademoveismarilia.com.br/guia/quartos",
       "description": "",
       "keywords": [
         "quartos"
@@ -547,7 +547,7 @@
     {
       "slug": "sofas",
       "title": "Sofas: Guia Prático e Honesto",
-      "url": "https://lojademoveismarilia.com.br/guia/sofas",
+      "url": "https://www.lojademoveismarilia.com.br/guia/sofas",
       "description": "",
       "keywords": [
         "sofas"
@@ -557,7 +557,7 @@
     {
       "slug": "melhores-lojas-moveis-online",
       "title": "Melhores Lojas de Móveis Online em 2026: Onde Comprar com Segurança",
-      "url": "https://lojademoveismarilia.com.br/guia/melhores-lojas-moveis-online",
+      "url": "https://www.lojademoveismarilia.com.br/guia/melhores-lojas-moveis-online",
       "description": "",
       "keywords": [
         "melhores lojas de móveis online"
@@ -567,7 +567,7 @@
     {
       "slug": "moveis-outlet-pequenos-defeitos",
       "title": "Móveis Outlet com Pequenos Defeitos: Vale a Pena Comprar?",
-      "url": "https://lojademoveismarilia.com.br/guia/moveis-outlet-pequenos-defeitos",
+      "url": "https://www.lojademoveismarilia.com.br/guia/moveis-outlet-pequenos-defeitos",
       "description": "",
       "keywords": [
         "móveis outlet com pequenos defeitos"
@@ -577,7 +577,7 @@
     {
       "slug": "moveis-frete-gratis-entrega-rapida",
       "title": "Móveis com Frete Grátis e Entrega Rápida: Como Encontrar e Não Cair em Armadilha",
-      "url": "https://lojademoveismarilia.com.br/guia/moveis-frete-gratis-entrega-rapida",
+      "url": "https://www.lojademoveismarilia.com.br/guia/moveis-frete-gratis-entrega-rapida",
       "description": "",
       "keywords": [
         "móveis com frete grátis e entrega rápida"
@@ -587,7 +587,7 @@
     {
       "slug": "moveis-usados-perto-de-mim",
       "title": "Móveis Usados Perto de Mim: Como Encontrar, Negociar e Não Se Arrepender",
-      "url": "https://lojademoveismarilia.com.br/guia/moveis-usados-perto-de-mim",
+      "url": "https://www.lojademoveismarilia.com.br/guia/moveis-usados-perto-de-mim",
       "description": "",
       "keywords": [
         "móveis usados perto de mim"
@@ -597,7 +597,7 @@
     {
       "slug": "lojas-moveis-sao-paulo",
       "title": "Lojas de Móveis em São Paulo: Os Melhores Endereços e Como Economizar",
-      "url": "https://lojademoveismarilia.com.br/guia/lojas-moveis-sao-paulo",
+      "url": "https://www.lojademoveismarilia.com.br/guia/lojas-moveis-sao-paulo",
       "description": "",
       "keywords": [
         "lojas de móveis em São Paulo"
@@ -607,7 +607,7 @@
     {
       "slug": "lojas-moveis-curitiba",
       "title": "Lojas de Móveis em Curitiba: Onde Comprar e Como Economizar",
-      "url": "https://lojademoveismarilia.com.br/guia/lojas-moveis-curitiba",
+      "url": "https://www.lojademoveismarilia.com.br/guia/lojas-moveis-curitiba",
       "description": "",
       "keywords": [
         "lojas de móveis em Curitiba"
@@ -617,7 +617,7 @@
     {
       "slug": "tipos-madeira-para-moveis",
       "title": "Tipos de Madeira para Móveis: Qual Usar em Cada Situação",
-      "url": "https://lojademoveismarilia.com.br/guia/tipos-madeira-para-moveis",
+      "url": "https://www.lojademoveismarilia.com.br/guia/tipos-madeira-para-moveis",
       "description": "",
       "keywords": [
         "tipos de madeira para móveis"
@@ -627,7 +627,7 @@
     {
       "slug": "quanto-custa-moveis-planejados",
       "title": "Quanto Custam Móveis Planejados em 2026: Tabela de Preços por Cômodo",
-      "url": "https://lojademoveismarilia.com.br/guia/quanto-custa-moveis-planejados",
+      "url": "https://www.lojademoveismarilia.com.br/guia/quanto-custa-moveis-planejados",
       "description": "",
       "keywords": [
         "quanto custam móveis planejados"
@@ -637,7 +637,7 @@
     {
       "slug": "moveis-de-pallet-como-fazer",
       "title": "Móveis de Pallet: Como Fazer do Zero com Segurança e Bom Resultado",
-      "url": "https://lojademoveismarilia.com.br/guia/moveis-de-pallet-como-fazer",
+      "url": "https://www.lojademoveismarilia.com.br/guia/moveis-de-pallet-como-fazer",
       "description": "",
       "keywords": [
         "móveis de pallet como fazer"
@@ -647,7 +647,7 @@
     {
       "slug": "moveis-industriais-sala",
       "title": "Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira",
-      "url": "https://lojademoveismarilia.com.br/guia/moveis-industriais-sala",
+      "url": "https://www.lojademoveismarilia.com.br/guia/moveis-industriais-sala",
       "description": "",
       "keywords": [
         "móveis industriais para sala"
@@ -659,19 +659,19 @@
     {
       "slug": "moveis-para-estudantes",
       "title": "Móveis para Estudantes",
-      "url": "https://lojademoveismarilia.com.br/moveis-para-estudantes",
+      "url": "https://www.lojademoveismarilia.com.br/moveis-para-estudantes",
       "description": "Guia completo para estudantes universitários sobre móveis compactos, baratos e funcionais."
     },
     {
       "slug": "politicas",
       "title": "Políticas e Transparência",
-      "url": "https://lojademoveismarilia.com.br/politicas",
+      "url": "https://www.lojademoveismarilia.com.br/politicas",
       "description": "Políticas de privacidade, termos de uso e transparência do site."
     },
     {
       "slug": "contato",
       "title": "Contato",
-      "url": "https://lojademoveismarilia.com.br/contato",
+      "url": "https://www.lojademoveismarilia.com.br/contato",
       "description": "Entre em contato conosco por e-mail ou WhatsApp."
     }
   ],
@@ -680,8 +680,8 @@
     "totalGuides": 52,
     "totalPages": 4,
     "totalProducts": 135,
-    "generatedAt": "2026-07-31T05:48:34.483Z",
-    "lastUpdated": "2026-07-31T05:48:34.485Z"
+    "generatedAt": "2026-07-31T06:01:24.923Z",
+    "lastUpdated": "2026-07-31T06:01:24.932Z"
   },
   "entities": {
     "materials": [

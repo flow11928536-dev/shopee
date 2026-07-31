@@ -1,7 +1,7 @@
 import type { Product, ProductCategory, MainCategory } from "../types";
 
 export const SITE = {
-  url: "https://lojademoveismarilia.com.br",
+  url: "https://www.lojademoveismarilia.com.br",
   name: "Loja de Móveis Marília",
   shortName: "Móveis Marília",
   description:

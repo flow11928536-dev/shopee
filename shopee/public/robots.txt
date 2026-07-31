@@ -35,4 +35,4 @@ Allow: /
 User-agent: Twitterbot
 Allow: /
 
-Sitemap: https://lojademoveismarilia.com.br/sitemap.xml
+Sitemap: https://www.lojademoveismarilia.com.br/sitemap.xml

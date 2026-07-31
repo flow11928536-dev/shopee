@@ -1,6 +1,6 @@
 // ============================================================================
 // INTERFACES TYPESCRIPT ESTRITAS — Fonte única de tipagem do projeto
-// Loja de Móveis Marília — https://lojademoveismarilia.com.br
+// Loja de Móveis Marília — https://www.lojademoveismarilia.com.br
 // ============================================================================
 
 /** Plataforma de afiliados de origem do link */

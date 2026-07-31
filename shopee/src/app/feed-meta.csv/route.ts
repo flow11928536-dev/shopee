@@ -1,7 +1,7 @@
 // ============================================================
 // FEED PARA META CATALOG - FORMATO CSV (VERSÃO CORRIGIDA)
 // ============================================================
-// URL: https://lojademoveismarilia.com.br/feed-meta.csv
+// URL: https://www.lojademoveismarilia.com.br/feed-meta.csv
 //
 // Correções aplicadas:
 // 1. price / sale_price agora incluem a moeda no MESMO campo
