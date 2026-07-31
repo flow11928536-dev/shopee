@@ -11,11 +11,18 @@
 ## Categorias
 - [Guarda-Roupas](https://lojademoveismarilia.com.br/categoria/guarda-roupas)
 - [Cozinhas](https://lojademoveismarilia.com.br/categoria/cozinhas)
+- [Mesas](https://lojademoveismarilia.com.br/categoria/mesas)
 - [Painéis e Racks](https://lojademoveismarilia.com.br/categoria/paineis)
 - [Quartos](https://lojademoveismarilia.com.br/categoria/quartos)
+- [Micro-ondas](https://lojademoveismarilia.com.br/categoria/microondas)
+- [Liquidificadores](https://lojademoveismarilia.com.br/categoria/liquidificadores)
+- [Air Fryers](https://lojademoveismarilia.com.br/categoria/air-fryers)
 - [Eletrodomésticos](https://lojademoveismarilia.com.br/categoria/eletrodomesticos)
+- [Ar Condicionado](https://lojademoveismarilia.com.br/categoria/ar-condicionado)
 - [Home Office](https://lojademoveismarilia.com.br/categoria/home-office)
 - [Sofás](https://lojademoveismarilia.com.br/categoria/sofas)
+- [Racks](https://lojademoveismarilia.com.br/categoria/racks)
+- [Geladeiras e Refrigeradores](https://lojademoveismarilia.com.br/categoria/geladeiras)
 
 ## Guias
 - [Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo](https://lojademoveismarilia.com.br/guia/moveis-area-externa)
@@ -81,6 +88,10 @@ URL: https://lojademoveismarilia.com.br/categoria/cozinhas
 Guias:
 - Melhores Cozinhas Moduladas Baratas para Apartamento
 - Cozinhas: Guia Prático e Honesto
+### Mesas
+URL: https://lojademoveismarilia.com.br/categoria/mesas
+Guias:
+
 ### Painéis e Racks
 URL: https://lojademoveismarilia.com.br/categoria/paineis
 Guias:
@@ -89,8 +100,24 @@ Guias:
 URL: https://lojademoveismarilia.com.br/categoria/quartos
 Guias:
 - Quartos: Guia Prático e Honesto
+### Micro-ondas
+URL: https://lojademoveismarilia.com.br/categoria/microondas
+Guias:
+
+### Liquidificadores
+URL: https://lojademoveismarilia.com.br/categoria/liquidificadores
+Guias:
+
+### Air Fryers
+URL: https://lojademoveismarilia.com.br/categoria/air-fryers
+Guias:
+
 ### Eletrodomésticos
 URL: https://lojademoveismarilia.com.br/categoria/eletrodomesticos
+Guias:
+
+### Ar Condicionado
+URL: https://lojademoveismarilia.com.br/categoria/ar-condicionado
 Guias:
 
 ### Home Office
@@ -102,6 +129,14 @@ URL: https://lojademoveismarilia.com.br/categoria/sofas
 Guias:
 - Melhores Sofás Retráteis para Apartamento Pequeno em 2026
 - Sofas: Guia Prático e Honesto
+### Racks
+URL: https://lojademoveismarilia.com.br/categoria/racks
+Guias:
+
+### Geladeiras e Refrigeradores
+URL: https://lojademoveismarilia.com.br/categoria/geladeiras
+Guias:
 
 
-Última atualização: 2026-07-30T22:53:29
+
+Última atualização: 2026-07-31T05:18:24

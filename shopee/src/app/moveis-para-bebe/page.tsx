@@ -70,7 +70,7 @@ const BEBE_SLUGS = [
   "quarto-de-bebe-infantil-completo-encanto-multimoveis-branco",
   "quarto-de-bebe-com-comoda-4-gavetas-e-berco-minicama-4-em-1",
   "comoda-de-bebe-infantil-1-porta-com-janela-4-gavetas",
-  "comoda-grecia-8-gavetas-com-corredias-telescopicas-multiuso-para-quarto-mdp-mdf",
+  "comoda-grecia-8-gavetas-com-corredicas-telescopicas-multiuso-para-quarto-mdp-mdf",
 ];
 
 const BERCO_SLUGS = [
@@ -80,7 +80,7 @@ const BERCO_SLUGS = [
 
 const COMODA_SLUGS = [
   "comoda-de-bebe-infantil-1-porta-com-janela-4-gavetas",
-  "comoda-grecia-8-gavetas-com-corredias-telescopicas-multiuso-para-quarto-mdp-mdf",
+  "comoda-grecia-8-gavetas-com-corredicas-telescopicas-multiuso-para-quarto-mdp-mdf",
 ];
 
 const GUARDA_ROUPA_SLUGS = [

@@ -6,12 +6,19 @@ Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços
 
 ## Categorias
 - Guarda-Roupas: Encontre as melhores ofertas de Guarda-Roupas com preços competitivos e frete para todo Brasil. (32 produtos)
-- Cozinhas: Encontre as melhores ofertas de Cozinhas com preços competitivos e frete para todo Brasil. (14 produtos)
+- Cozinhas: Encontre as melhores ofertas de Cozinhas com preços competitivos e frete para todo Brasil. (10 produtos)
+- Mesas: Encontre as melhores ofertas de Mesas com preços competitivos e frete para todo Brasil. (18 produtos)
 - Painéis e Racks: Encontre as melhores ofertas de Painéis e Racks com preços competitivos e frete para todo Brasil. (5 produtos)
 - Quartos: Encontre as melhores ofertas de Quartos com preços competitivos e frete para todo Brasil. (12 produtos)
-- Eletrodomésticos: Encontre as melhores ofertas de Eletrodomésticos com preços competitivos e frete para todo Brasil. (9 produtos)
+- Micro-ondas: Encontre as melhores ofertas de Micro-ondas com preços competitivos e frete para todo Brasil. (5 produtos)
+- Liquidificadores: Encontre as melhores ofertas de Liquidificadores com preços competitivos e frete para todo Brasil. (7 produtos)
+- Air Fryers: Encontre as melhores ofertas de Air Fryers com preços competitivos e frete para todo Brasil. (1 produtos)
+- Eletrodomésticos: Encontre as melhores ofertas de Eletrodomésticos com preços competitivos e frete para todo Brasil. (22 produtos)
+- Ar Condicionado: Encontre as melhores ofertas de Ar Condicionado com preços competitivos e frete para todo Brasil. (3 produtos)
 - Home Office: Encontre as melhores ofertas de Home Office com preços competitivos e frete para todo Brasil. (13 produtos)
 - Sofás: Encontre as melhores ofertas de Sofás com preços competitivos e frete para todo Brasil. (15 produtos)
+- Racks: Encontre as melhores ofertas de Racks com preços competitivos e frete para todo Brasil. (8 produtos)
+- Geladeiras e Refrigeradores: Encontre as melhores ofertas de Geladeiras e Refrigeradores com preços competitivos e frete para todo Brasil. (5 produtos)
 
 ## Guias
 - Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo: Guia completo
@@ -72,4 +79,4 @@ Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços
 - Políticas e Transparência: Políticas de privacidade, termos de uso e transparência do site.
 - Contato: Entre em contato conosco por e-mail ou WhatsApp.
 
-Gerado em: 2026-07-30T22:53:29.578Z
+Gerado em: 2026-07-31T05:18:24.788Z

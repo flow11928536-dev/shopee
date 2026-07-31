@@ -7,27 +7,45 @@
 export type AffiliatePlatform = "Mercado Livre" | "Shopee";
 
 /** Categorias de cômodo / produto suportadas no site */
-export type ProductCategory =
-  | "cozinhas"
-  | "guarda-roupas"
-  | "paineis"
-  | "sofas"
-  | "home-office"
-  | "area-externa"
-  | "quartos"
-  | "eletrodomesticos"
-  | "moveis-para-estudantes"
-  | "mdf-mdp"
-  | "moveis-para-bebe";  // ✅ ADICIONADO
-
-/** Categorias principais (ambientes) */
-export type MainCategory =
+export type MainCategory = 
   | "quarto"
   | "sala"
   | "cozinha"
   | "escritorio"
   | "area-externa"
   | "eletrodomesticos";
+
+export type ProductCategory =
+  | "cozinhas"
+  | "guarda-roupas"
+  | "paineis"
+  | "racks"
+  | "comodas"
+  | "mesas"
+  | "cadeiras"
+  | "sofas"
+  | "quartos"
+  | "eletrodomesticos"
+  | "home-office"
+  | "area-externa"
+  | "moveis-para-estudantes"
+  | "mdf-mdp"
+  | "moveis-para-bebe"
+  // ===== ELETRODOMÉSTICOS =====
+  | "liquidificadores"
+  | "microondas"
+  | "geladeiras"
+  | "air-fryers"
+  | "ar-condicionado"; // ✅ ADICIONADO
+
+
+export interface Product {
+  id: string;
+  slug: string;
+  category: ProductCategory;
+  mainCategory: MainCategory; // 👈 Isso faz referência ao tipo MainCategory
+  // ... outras propriedades
+}
   
 
 /**

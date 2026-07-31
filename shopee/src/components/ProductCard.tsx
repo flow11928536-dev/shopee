@@ -38,24 +38,26 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
       className="group relative flex flex-col overflow-hidden rounded-xl border border-stone-200 bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
       aria-labelledby={`product-title-${slug}`}
     >
-      {/* Badges */}
-      <div className="absolute left-2 top-2 z-10 flex flex-col gap-1">
-        {discount > 0 && (
-          <span className="rounded-full bg-red-500 px-2.5 py-0.5 text-xs font-bold text-white">
-            -{discount}%
-          </span>
-        )}
-        {badge && !discount && (
-          <span className="rounded-full bg-amber-600 px-2.5 py-0.5 text-xs font-bold uppercase text-white">
-            {badge}
-          </span>
-        )}
-        {badge && discount > 0 && (
-          <span className="rounded-full bg-amber-600 px-2.5 py-0.5 text-xs font-bold uppercase text-white">
-            {badge}
-          </span>
-        )}
-      </div>
+      {/* ============================================================
+          BADGES - AJUSTADOS PARA MOBILE (MENORES)
+          ============================================================ */}
+      <div className="absolute left-1.5 top-1.5 z-10 flex flex-col gap-0.5">
+  {discount > 0 && (
+    <span className="rounded-full bg-red-500 px-1 py-0.5 text-[6px] font-bold text-white leading-none sm:text-xs sm:px-2.5 sm:py-0.5">
+      -{discount}%
+    </span>
+  )}
+  {badge && !discount && (
+    <span className="rounded-full bg-amber-600 px-1 py-0.5 text-[6px] font-bold uppercase text-white leading-none sm:text-xs sm:px-2.5 sm:py-0.5">
+      {badge}
+    </span>
+  )}
+  {badge && discount > 0 && (
+    <span className="rounded-full bg-amber-600 px-1 py-0.5 text-[6px] font-bold uppercase text-white leading-none sm:text-xs sm:px-2.5 sm:py-0.5">
+      {badge}
+    </span>
+  )}
+</div>
 
       {/* Imagem */}
       <Link
@@ -96,9 +98,8 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
           </Link>
         </h3>
 
-        {/* ✅ PREÇO PARCELADO EM DESTAQUE (GRANDE) + PREÇO À VISTA PEQUENO */}
+        {/* Preços */}
         <div className="mt-2">
-          {/* Preço parcelado - GRANDE em destaque */}
           {price > 0 && (
             <div className="flex items-baseline gap-1">
               <span className="text-sm font-medium text-stone-500">{maxParcelas}x</span>
@@ -107,8 +108,6 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
               </span>
             </div>
           )}
-
-          {/* Preço à vista - PEQUENO (referência) */}
           <div className="mt-0.5 flex flex-wrap items-center gap-2 text-xs text-stone-400">
             <span>à vista {formatBRL(price)}</span>
             {originalPrice > 0 && (

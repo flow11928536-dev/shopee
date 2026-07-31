@@ -25,7 +25,8 @@ export default function ProductGrid({
   subtitle,
   kicker,
   priorityFirst = false,
-  gridClassName = "grid-cols-2 sm:grid-cols-3 lg:grid-cols-4",
+  // ✅ ALTERADO: 5 colunas no desktop (xl)
+  gridClassName = "grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5",
   products: productsProp,
   loadMore = false,
   pageSize = 24,

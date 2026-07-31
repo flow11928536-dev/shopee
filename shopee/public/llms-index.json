@@ -3,7 +3,7 @@
     "name": "Loja de Móveis Marília",
     "url": "https://lojademoveismarilia.com.br",
     "description": "Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.",
-    "lastUpdated": "2026-07-30T22:53:29.542Z"
+    "lastUpdated": "2026-07-31T05:18:24.722Z"
   },
   "categories": [
     {
@@ -25,7 +25,15 @@
         "melhores-cozinhas-moduladas-baratas",
         "cozinhas"
       ],
-      "productCount": 14
+      "productCount": 10
+    },
+    {
+      "slug": "mesas",
+      "label": "Mesas",
+      "url": "https://lojademoveismarilia.com.br/categoria/mesas",
+      "description": "Encontre as melhores ofertas de Mesas com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 18
     },
     {
       "slug": "paineis",
@@ -48,12 +56,44 @@
       "productCount": 12
     },
     {
+      "slug": "microondas",
+      "label": "Micro-ondas",
+      "url": "https://lojademoveismarilia.com.br/categoria/microondas",
+      "description": "Encontre as melhores ofertas de Micro-ondas com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 5
+    },
+    {
+      "slug": "liquidificadores",
+      "label": "Liquidificadores",
+      "url": "https://lojademoveismarilia.com.br/categoria/liquidificadores",
+      "description": "Encontre as melhores ofertas de Liquidificadores com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 7
+    },
+    {
+      "slug": "air-fryers",
+      "label": "Air Fryers",
+      "url": "https://lojademoveismarilia.com.br/categoria/air-fryers",
+      "description": "Encontre as melhores ofertas de Air Fryers com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 1
+    },
+    {
       "slug": "eletrodomesticos",
       "label": "Eletrodomésticos",
       "url": "https://lojademoveismarilia.com.br/categoria/eletrodomesticos",
       "description": "Encontre as melhores ofertas de Eletrodomésticos com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
-      "productCount": 9
+      "productCount": 22
+    },
+    {
+      "slug": "ar-condicionado",
+      "label": "Ar Condicionado",
+      "url": "https://lojademoveismarilia.com.br/categoria/ar-condicionado",
+      "description": "Encontre as melhores ofertas de Ar Condicionado com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 3
     },
     {
       "slug": "home-office",
@@ -75,6 +115,22 @@
         "sofas"
       ],
       "productCount": 15
+    },
+    {
+      "slug": "racks",
+      "label": "Racks",
+      "url": "https://lojademoveismarilia.com.br/categoria/racks",
+      "description": "Encontre as melhores ofertas de Racks com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 8
+    },
+    {
+      "slug": "geladeiras",
+      "label": "Geladeiras e Refrigeradores",
+      "url": "https://lojademoveismarilia.com.br/categoria/geladeiras",
+      "description": "Encontre as melhores ofertas de Geladeiras e Refrigeradores com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 5
     }
   ],
   "guides": [
@@ -620,12 +676,12 @@
     }
   ],
   "statistics": {
-    "totalCategories": 7,
+    "totalCategories": 14,
     "totalGuides": 52,
     "totalPages": 4,
-    "totalProducts": 100,
-    "generatedAt": "2026-07-30T22:53:29.540Z",
-    "lastUpdated": "2026-07-30T22:53:29.542Z"
+    "totalProducts": 135,
+    "generatedAt": "2026-07-31T05:18:24.720Z",
+    "lastUpdated": "2026-07-31T05:18:24.722Z"
   },
   "entities": {
     "materials": [
@@ -643,7 +699,8 @@
       "linho",
       "tecidos",
       "veludo",
-      "laminado"
+      "laminado",
+      "temperado"
     ],
     "environments": [
       "cozinha",
@@ -673,7 +730,9 @@
       "cama",
       "sof",
       "chaise",
-      "sofá"
+      "sofá",
+      "aparador",
+      "cadeira"
     ],
     "brands": [
       "Panorama Móveis",
@@ -737,7 +796,23 @@
       "Adonai Estofados",
       "Netsofas",
       "King House",
-      "Madeira Prima"
+      "Madeira Prima",
+      "Móveis Bechara",
+      "Multimóveis",
+      "Caemmun",
+      "By House",
+      "Colibri",
+      "Mavaular",
+      "Viero",
+      "Carraro",
+      "Sonetto Móveis",
+      "Maplan",
+      "Bistro",
+      "Moderna Mobília",
+      "La Mobília",
+      "Cel Móveis",
+      "Electrolux",
+      "Philips Walita"
     ],
     "platforms": [
       "Shopee",
@@ -752,7 +827,9 @@
       "creme",
       "rosa",
       "azul",
-      "vermelho"
+      "vermelho",
+      "pinho",
+      "prata"
     ],
     "styles": [
       "moderno",
@@ -761,7 +838,8 @@
       "minimalista",
       "boho",
       "rústico",
-      "clássico"
+      "clássico",
+      "vintage"
     ],
     "benefits": [
       "resistente",
@@ -775,7 +853,9 @@
       "ergonômico",
       "reclinável",
       "ajustável",
-      "com usb"
+      "com usb",
+      "com iluminação",
+      "giratório"
     ],
     "problems": [
       "multifuncional",
@@ -834,6 +914,23 @@
       ]
     },
     {
+      "category": "mesas",
+      "label": "Mesas",
+      "searchTerms": [
+        "comprar Mesas",
+        "melhor Mesas",
+        "Mesas barato",
+        "Mesas preço",
+        "como escolher Mesas",
+        "dicas de Mesas",
+        "Mesas para apartamento pequeno",
+        "Mesas sob medida",
+        "o que é Mesas",
+        "qual o melhor Mesas"
+      ],
+      "relatedGuides": []
+    },
+    {
       "category": "paineis",
       "label": "Painéis e Racks",
       "searchTerms": [
@@ -872,6 +969,57 @@
       ]
     },
     {
+      "category": "microondas",
+      "label": "Micro-ondas",
+      "searchTerms": [
+        "comprar Micro-ondas",
+        "melhor Micro-ondas",
+        "Micro-ondas barato",
+        "Micro-ondas preço",
+        "como escolher Micro-ondas",
+        "dicas de Micro-ondas",
+        "Micro-ondas para apartamento pequeno",
+        "Micro-ondas sob medida",
+        "o que é Micro-ondas",
+        "qual o melhor Micro-ondas"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "liquidificadores",
+      "label": "Liquidificadores",
+      "searchTerms": [
+        "comprar Liquidificadores",
+        "melhor Liquidificadores",
+        "Liquidificadores barato",
+        "Liquidificadores preço",
+        "como escolher Liquidificadores",
+        "dicas de Liquidificadores",
+        "Liquidificadores para apartamento pequeno",
+        "Liquidificadores sob medida",
+        "o que é Liquidificadores",
+        "qual o melhor Liquidificadores"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "air-fryers",
+      "label": "Air Fryers",
+      "searchTerms": [
+        "comprar Air Fryers",
+        "melhor Air Fryers",
+        "Air Fryers barato",
+        "Air Fryers preço",
+        "como escolher Air Fryers",
+        "dicas de Air Fryers",
+        "Air Fryers para apartamento pequeno",
+        "Air Fryers sob medida",
+        "o que é Air Fryers",
+        "qual o melhor Air Fryers"
+      ],
+      "relatedGuides": []
+    },
+    {
       "category": "eletrodomesticos",
       "label": "Eletrodomésticos",
       "searchTerms": [
@@ -885,6 +1033,23 @@
         "Eletrodomésticos sob medida",
         "o que é Eletrodomésticos",
         "qual o melhor Eletrodomésticos"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "ar-condicionado",
+      "label": "Ar Condicionado",
+      "searchTerms": [
+        "comprar Ar Condicionado",
+        "melhor Ar Condicionado",
+        "Ar Condicionado barato",
+        "Ar Condicionado preço",
+        "como escolher Ar Condicionado",
+        "dicas de Ar Condicionado",
+        "Ar Condicionado para apartamento pequeno",
+        "Ar Condicionado sob medida",
+        "o que é Ar Condicionado",
+        "qual o melhor Ar Condicionado"
       ],
       "relatedGuides": []
     },
@@ -926,6 +1091,40 @@
         "melhores-sofas-retrateis-2026",
         "sofas"
       ]
+    },
+    {
+      "category": "racks",
+      "label": "Racks",
+      "searchTerms": [
+        "comprar Racks",
+        "melhor Racks",
+        "Racks barato",
+        "Racks preço",
+        "como escolher Racks",
+        "dicas de Racks",
+        "Racks para apartamento pequeno",
+        "Racks sob medida",
+        "o que é Racks",
+        "qual o melhor Racks"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "geladeiras",
+      "label": "Geladeiras e Refrigeradores",
+      "searchTerms": [
+        "comprar Geladeiras e Refrigeradores",
+        "melhor Geladeiras e Refrigeradores",
+        "Geladeiras e Refrigeradores barato",
+        "Geladeiras e Refrigeradores preço",
+        "como escolher Geladeiras e Refrigeradores",
+        "dicas de Geladeiras e Refrigeradores",
+        "Geladeiras e Refrigeradores para apartamento pequeno",
+        "Geladeiras e Refrigeradores sob medida",
+        "o que é Geladeiras e Refrigeradores",
+        "qual o melhor Geladeiras e Refrigeradores"
+      ],
+      "relatedGuides": []
     },
     {
       "category": "guide",
@@ -1736,6 +1935,14 @@
       "depth": "médio"
     },
     {
+      "category": "mesas",
+      "label": "Mesas",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
       "category": "paineis",
       "label": "Painéis e Racks",
       "guides": [
@@ -1760,8 +1967,40 @@
       "depth": "médio"
     },
     {
+      "category": "microondas",
+      "label": "Micro-ondas",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "liquidificadores",
+      "label": "Liquidificadores",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "air-fryers",
+      "label": "Air Fryers",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
       "category": "eletrodomesticos",
       "label": "Eletrodomésticos",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "ar-condicionado",
+      "label": "Ar Condicionado",
       "guides": [],
       "guideTitles": [],
       "count": 0,
@@ -1792,6 +2031,22 @@
       ],
       "count": 2,
       "depth": "médio"
+    },
+    {
+      "category": "racks",
+      "label": "Racks",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "geladeiras",
+      "label": "Geladeiras e Refrigeradores",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
     }
   ],
   "contentOpportunities": [
@@ -1816,6 +2071,16 @@
       "priority": "média"
     },
     {
+      "type": "missing-guide",
+      "category": "mesas",
+      "label": "Mesas",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Mesas' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
       "type": "thin-content",
       "category": "quartos",
       "label": "Quartos",
@@ -1827,11 +2092,51 @@
     },
     {
       "type": "missing-guide",
+      "category": "microondas",
+      "label": "Micro-ondas",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Micro-ondas' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "liquidificadores",
+      "label": "Liquidificadores",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Liquidificadores' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "air-fryers",
+      "label": "Air Fryers",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Air Fryers' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
       "category": "eletrodomesticos",
       "label": "Eletrodomésticos",
       "gap": "Sem guias",
       "impact": "alto",
       "suggestion": "Criar guia definitivo sobre 'Eletrodomésticos' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "ar-condicionado",
+      "label": "Ar Condicionado",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Ar Condicionado' abordando tipos, materiais, preços e dicas de compra",
       "estimatedEffort": "médio",
       "priority": "alta"
     },
@@ -1854,6 +2159,26 @@
       "suggestion": "Expandir conteúdo com guias específicos como 'Sofás para ambientes pequenos' ou 'Guia de manutenção de Sofás'",
       "estimatedEffort": "baixo",
       "priority": "média"
+    },
+    {
+      "type": "missing-guide",
+      "category": "racks",
+      "label": "Racks",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Racks' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "geladeiras",
+      "label": "Geladeiras e Refrigeradores",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Geladeiras e Refrigeradores' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
     },
     {
       "type": "material-gap",

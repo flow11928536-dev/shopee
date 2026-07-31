@@ -41,13 +41,20 @@ export const SUB_CATEGORIES = [
   { slug: "paineis", label: "Painéis", parent: "sala" },
   { slug: "racks", label: "Racks", parent: "sala" },
   { slug: "comodas", label: "Cômodas", parent: "quarto" },
-  { slug: "mesas", label: "Mesas", parent: "escritorio" },
+  { slug: "mesas", label: "Mesas", parent: "sala" }, // ✅ ADICIONADO
   { slug: "cadeiras", label: "Cadeiras", parent: "escritorio" },
   { slug: "sofas", label: "Sofás", parent: "sala" },
   { slug: "cozinhas", label: "Cozinhas", parent: "cozinha" },
   { slug: "quartos", label: "Quartos", parent: "quarto" },
   { slug: "eletrodomesticos", label: "Eletrodomésticos", parent: "eletrodomesticos" },
   { slug: "home-office", label: "Home Office", parent: "escritorio" },
+  // ===== NOVAS SUBCATEGORIAS DE ELETRODOMÉSTICOS =====
+  { slug: "liquidificadores", label: "Liquidificadores", parent: "eletrodomesticos" },
+  { slug: "microondas", label: "Micro-ondas", parent: "eletrodomesticos" },
+  { slug: "geladeiras", label: "Geladeiras e Refrigeradores", parent: "eletrodomesticos" },
+  { slug: "air-fryers", label: "Air Fryers", parent: "eletrodomesticos" },
+  { slug: "ar-condicionado", label: "Ar Condicionado", parent: "eletrodomesticos" }, // ✅ ADICIONADO
+
 ] as const;
 
 // ============================================================
@@ -64,7 +71,18 @@ export const CATEGORY_LABELS: Record<ProductCategory, string> = {
   eletrodomesticos: "Eletrodomésticos",
   "moveis-para-estudantes": "Móveis para Estudantes",
   "mdf-mdp": "MDF e MDP",
-  "moveis-para-bebe": "Móveis para Bebê",  // ✅ ADICIONADO
+  "moveis-para-bebe": "Móveis para Bebê",
+  // ===== NOVAS CATEGORIAS =====
+  mesas: "Mesas",
+  racks: "Racks", // Se não tiver, adicione também
+  comodas: "Cômodas",
+  cadeiras: "Cadeiras",
+  liquidificadores: "Liquidificadores",
+  microondas: "Micro-ondas",
+  geladeiras: "Geladeiras e Refrigeradores",
+  "air-fryers": "Air Fryers",
+  "ar-condicionado": "Ar Condicionado", // ✅ ADICIONADO
+
 };
 
 // ============================================================
@@ -353,7 +371,7 @@ export const products: Product[] = [
   {
     id: "p-imp-013",
     slug: "conjunto-sala-de-jantar-mesa-tampo-de-vidro-4-cadeiras-rustic-cinza-silver-anaju-madesa",
-    category: "cozinhas",
+    category: "mesas",
     mainCategory: "cozinha",
     name: "Conjunto Sala de Jantar Mesa Tampo de Vidro 4 Cadeiras Rustic/Cinza/Silver Anaju Madesa",
     imageFile: "/imagens/produtos/Conjunto-Sala-de-Jantar-Mesa-Tampo-de-Vidro-4-Cadeiras-Rustic-Cinza-Silver-Anaju-Madesa.webp",
@@ -376,7 +394,7 @@ export const products: Product[] = [
   {
     id: "p-imp-014",
     slug: "conjunto-sala-de-jantar-talita-madesa-mesa-tampo-madeira-4-cadeiras-rustic-preto",
-    category: "cozinhas",
+    category: "mesas",
     mainCategory: "cozinha",
     name: "Conjunto Sala de Jantar Talita Madesa Mesa Tampo Madeira 4 Cadeiras Rustic/Preto",
     imageFile: "/imagens/produtos/Conjunto-Sala-de-Jantar-Talita-Madesa-Mesa-Tampo-Madeira-4-Cadeiras-Rustic-Preto.webp",
@@ -399,7 +417,7 @@ export const products: Product[] = [
   {
     id: "p-imp-015",
     slug: "conjunto-sala-de-jantar-bahamas-madesa-mesa-tampo-de-madeira-6-cadeiras-rustic-preto",
-    category: "cozinhas",
+    category: "mesas",
     mainCategory: "cozinha",
     name: "Conjunto Sala de Jantar Bahamas Madesa Mesa Tampo de Madeira 6 Cadeiras",
     imageFile: "/imagens/produtos/Conjunto-Sala-de-Jantar-Bahamas-Madesa-Mesa-Tampo-de-Madeira-6-Cadeiras-Rustic-Preto.webp",
@@ -422,7 +440,7 @@ export const products: Product[] = [
   {
     id: "p-imp-016",
     slug: "conjunto-sala-jantar-jaine-madesa-mesa-tampo-de-madeira-com-6-cadeiras",
-    category: "cozinhas",
+    category: "mesas",
     mainCategory: "cozinha",
     name: "Conjunto Sala Jantar Jaíne Madesa Mesa Tampo de Madeira com 6 Cadeiras",
     imageFile: "/imagens/produtos/Conjunto-Sala-Jantar-Jaine-Madesa-Mesa-Tampo-de-Madeira-com-6-Cadeiras.webp",
@@ -741,13 +759,13 @@ export const products: Product[] = [
   },
   {
     id: "p-imp-029",
-    slug: "comoda-grecia-8-gavetas-com-corredias-telescopicas-multiuso-para-quarto-mdp-mdf",
+    slug: "comoda-grecia-8-gavetas-com-corredicas-telescopicas-multiuso-para-quarto-mdp-mdf",
     category: "quartos",
     categories: ["moveis-para-bebe"],
     mainCategory: "quarto",
     name: "Cômoda Grécia 8 Gavetas com Corrediças Telescópicas Multiuso para Quarto MDP/MDF",
-    imageFile: "/imagens/produtos/Comoda-Grecia-8-Gavetas-com-Corredias-Telescopicas-Multiuso-para-Quarto-MDP-MDF.webp",
-    displayImage: "/imagens/produtos/Comoda-Grecia-8-Gavetas-com-Corredias-Telescopicas-Multiuso-para-Quarto-MDP-MDF.webp",
+    imageFile: "/imagens/produtos/Comoda-Grecia-8-Gavetas-com-Corredicas-Telescopicas-Multiuso-para-Quarto-MDP-MDF.webp",
+    displayImage: "/imagens/produtos/Comoda-Grecia-8-Gavetas-com-Corredicas-Telescopicas-Multiuso-para-Quarto-MDP-MDF.webp",
     alt: "Cômoda Grécia 8 Gavetas com Corrediças Telescópicas Multiuso para Quarto MDP/MDF — oferta Loja de Móveis Marília",
     rating: 4.7,
     reviews: 734,
@@ -821,7 +839,7 @@ export const products: Product[] = [
   {
     id: "p-imp-032",
     slug: "micro-ondas-philco-28l-limpa-facil-1100w-preto-pmo30p",
-    category: "eletrodomesticos",
+    category: "microondas",
     mainCategory: "eletrodomesticos",
     name: "Micro-ondas Philco 28L Limpa Fácil 1100W Preto PMO30P",
     imageFile: "/imagens/produtos/micro-ondas-philco-28l-limpa-facil-1100w-preto-pmo30p.webp",
@@ -849,7 +867,7 @@ export const products: Product[] = [
   {
     id: "p-imp-033",
     slug: "micro-ondas-consul-20l-espelhado-cm020bf",
-    category: "eletrodomesticos",
+    category: "microondas",
     mainCategory: "eletrodomesticos",
     name: "Micro-ondas Consul 20 Litros Espelhado com Função Descongelar - CM020BF",
     imageFile: "/imagens/produtos/micro-ondas-consul-20l-espelhado-cm020bf.webp",
@@ -877,7 +895,7 @@ export const products: Product[] = [
   {
     id: "p-imp-034",
     slug: "liquidificador-wap-wb2000-2l-900w-vidro-cinza",
-    category: "eletrodomesticos",
+    category: "liquidificadores",
     mainCategory: "eletrodomesticos",
     name: "Liquidificador Com Copo De Vidro Wap Wb2000 2l 900w Cinza",
     imageFile: "/imagens/produtos/liquidificador-wap-wb2000-2l-900w-vidro-cinza.webp",
@@ -905,7 +923,7 @@ export const products: Product[] = [
   {
     id: "p-imp-035",
     slug: "liquidificador-individual-moedor-cafe-1200w-1-5l",
-    category: "eletrodomesticos",
+    category: "liquidificadores",
     mainCategory: "eletrodomesticos",
     name: "Liquidificador Individual E Moedor De Café 1200w 1.5l 200v",
     imageFile: "/imagens/produtos/liquidificador-individual-moedor-cafe-1200w-1-5l.webp",
@@ -933,7 +951,7 @@ export const products: Product[] = [
   {
     id: "p-imp-036",
     slug: "fritadeira-eletrica-mondial-oven-12l-preta",
-    category: "eletrodomesticos",
+    category: "air-fryers",
     mainCategory: "eletrodomesticos",
     name: "Fritadeira Elétrica AFON-12L-BG Forno Oven 12 Litros Preta Mondial",
     imageFile: "/imagens/produtos/fritadeira-eletrica-mondial-oven-12l-preta.webp",
@@ -990,7 +1008,7 @@ export const products: Product[] = [
   {
     id: "p-imp-038",
     slug: "ar-condicionado-split-hq-9000-btu-frio",
-    category: "eletrodomesticos",
+    category: "ar-condicionado",
     mainCategory: "eletrodomesticos",
     name: "Ar Condicionado Split HQ Inverter 9.000 BTU/h Frio Branco 220V",
     imageFile: "/imagens/produtos/ar-condicionado-split-hq-9000-btu-frio.webp",
@@ -1018,7 +1036,7 @@ export const products: Product[] = [
   {
     id: "p-imp-039",
     slug: "ar-condicionado-midea-airvolution-9000-btu-frio",
-    category: "eletrodomesticos",
+    category: "ar-condicionado",
     mainCategory: "eletrodomesticos",
     name: "Ar Condicionado Split Inverter Midea Airvolution 9.000 BTUs Frio Branco 220V",
     imageFile: "/imagens/produtos/ar-condicionado-midea-airvolution-9000-btu-frio.webp",
@@ -1046,7 +1064,7 @@ export const products: Product[] = [
   {
     id: "p-imp-040",
     slug: "ar-condicionado-gree-9000-btu-frio-wifi",
-    category: "eletrodomesticos",
+    category: "ar-condicionado",
     mainCategory: "eletrodomesticos",
     name: "Ar Condicionado Split Gree G-Top Inverter 9000 BTU Frio Wi-Fi 220V",
     imageFile: "/imagens/produtos/arcondicionado_gree_gtop_9000btus_frio_wifi.webp",
@@ -9559,6 +9577,9149 @@ Se você procura um sofá que una design sofisticado, conforto e excelente custo
   ],
   seoTitle: "Sofá 3 Lugares Beny 180cm Linho Bege com Pés de Madeira | Madeira Prima",
   seoDescription: "Sofá Beny 3 lugares em linho bege com pés de madeira, 4 almofadas inclusas, molas Bonnel. 180cm, 300kg. 4.3★ (42 reviews)."
+},
+{
+  id: "p-imp-101",
+  slug: "rack-aparador-turim-160cm-branco-mdf-mdp-ate-65-polegadas-bechara",
+  category: "racks",
+  mainCategory: "sala",
+  name: "Rack Aparador Turim 160cm Branco MDF/MDP para TV até 65\" - Móveis Bechara",
+  imageFile: "/imagens/produtos/rack-aparador-turim-160cm-branco-mdf-mdp-65-polegadas-bechara.webp",
+  displayImage: "/imagens/produtos/rack-aparador-turim-160cm-branco-mdf-mdp-65-polegadas-bechara.webp",
+  alt: "Rack aparador Turim de 160cm na cor branca em MDF/MDP para TV até 65 polegadas da Móveis Bechara",
+  rating: 4.7,
+  reviews: 826,
+  discount: 13,
+  price: 406.29,
+  originalPrice: 467.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1E9X9sG",
+  descricao: `
+# Rack Aparador Turim Móveis Bechara para TV até 65" Branco MDF/MDP 2 Portas Prateleiras Moderno 160cm
+
+## 📌 Introdução
+
+O **Rack Aparador Turim** da Móveis Bechara é a escolha perfeita para quem busca unir design moderno, funcionalidade e elegância na sala de estar. Com linhas contemporâneas e acabamento impecável, este rack foi projetado para acomodar televisores de até 65 polegadas com total segurança, além de oferecer amplo espaço para organizar seus equipamentos eletrônicos, objetos decorativos e acessórios.
+
+Com 160 cm de largura, 59,5 cm de altura e 36 cm de profundidade, o modelo Turim se adapta perfeitamente a diferentes tamanhos de sala, proporcionando um visual clean e sofisticado que valoriza qualquer ambiente. Fabricado em MDP/MDF de 15mm com acabamento em pintura UV texturizada, este rack une resistência, durabilidade e estilo em um único móvel.
+
+## 📌 Principais Benefícios
+
+O **Rack Aparador Turim** foi projetado para oferecer benefícios reais que transformam a experiência de organização e decoração da sua sala de estar.
+
+**Design moderno e versátil:** Com linhas retas e acabamento em pintura UV texturizada, o rack Turim apresenta um visual contemporâneo que combina perfeitamente com diferentes estilos de decoração, do minimalista ao clássico. Sua cor branca (Off White/Naturale) traz luminosidade e sensação de amplitude ao ambiente.
+
+**Suporte seguro para TVs de até 65 polegadas:** Com estrutura robusta em MDP/MDF de 15mm, o rack suporta até 55 kg de peso distribuídos, garantindo estabilidade e segurança para televisores de grande porte. Os pés em madeira maciça (Pinus) elevam o móvel e proporcionam maior estabilidade.
+
+**Organização inteligente:** Com 2 portas com dobradiças metálicas e 1 prateleira interna, o rack oferece espaço para organizar aparelhos eletrônicos, controles, revistas, livros e objetos decorativos. Os nichos abertos e os detalhes chanfrados adicionam um toque de sofisticação e funcionalidade.
+
+**Acabamento premium em pintura UV texturizada:** A pintura UV confere ao móvel uma superfície extremamente resistente a riscos, manchas e desgaste, mantendo o aspecto bonito e bem cuidado por muito mais tempo. A textura adiciona um toque sofisticado e agradável ao toque.
+
+**Pés em madeira maciça:** Os pés em madeira maciça (Pinus) elevam o rack a 59,5 cm de altura, facilitando a limpeza do piso e criando uma sensação de leveza visual. A madeira maciça garante maior durabilidade e estabilidade ao móvel.
+
+## 📌 Design
+
+O **Rack Turim** apresenta um design moderno e sofisticado que valoriza qualquer ambiente.
+
+**Acabamento em pintura UV texturizada:** A pintura UV confere ao móvel um acabamento uniforme, resistente e durável, com uma textura agradável ao toque que valoriza a cor branca (Off White/Naturale). O processo de cura por luz ultravioleta garante alta resistência a riscos e manchas.
+
+**Detalhes chanfrados:** Os detalhes chanfrados nas bordas e superfícies adicionam um toque de sofisticação e modernidade ao design, criando um visual mais dinâmico e elegante.
+
+**Pés em madeira maciça Pinus:** Os pés em madeira maciça elevam o móvel, proporcionando estabilidade e um contraste natural com o acabamento branco. A madeira maciça garante durabilidade e resistência.
+
+**Dimensões ideais:** Com 160 cm de largura, o rack se adapta perfeitamente a diferentes tamanhos de sala, oferecendo espaço suficiente para acomodar uma TV de até 65 polegadas e outros objetos decorativos.
+
+**Nichos abertos e portas:** A combinação de nichos abertos e portas com dobradiças metálicas oferece versatilidade para organizar diferentes tipos de itens, mantendo alguns à vista e outros protegidos da poeira.
+
+## 📌 Organização
+
+O **Rack Turim** foi cuidadosamente planejado para oferecer organização eficiente na sala de estar.
+
+**Distribuição inteligente dos espaços:**
+
+**Superfície superior:** Com 160 cm de largura e 36 cm de profundidade, a superfície superior oferece espaço amplo e seguro para acomodar televisores de até 65 polegadas, além de objetos decorativos, livros e outros itens.
+
+**Portas (2):** As duas portas com dobradiças metálicas abrem-se suavemente, revelando um espaço interno com 1 prateleira, ideal para organizar aparelhos eletrônicos, controles, DVDs, livros e outros objetos que precisam ficar protegidos da poeira.
+
+**Prateleira interna:** A prateleira interna oferece divisão inteligente do espaço, permitindo organizar diferentes tipos de itens de forma prática e funcional.
+
+**Nichos abertos:** Os nichos abertos são perfeitos para expor objetos decorativos, livros, plantas ou outros itens que você deseja manter à vista, adicionando personalidade ao ambiente.
+
+## 📌 Ideal para
+
+- **Salas de estar:** Peça principal que valoriza o ambiente
+- **Salas de TV e home theaters:** Suporte seguro para televisores de até 65 polegadas
+- **Apartamentos modernos:** Design clean que combina com decorações contemporâneas
+- **Ambientes minimalistas:** Linhas retas e acabamento sofisticado
+- **Espaços compactos:** Dimensões que otimizam espaços sem comprometer a funcionalidade
+- **Decoração com estilo natural:** Pés em madeira maciça que adicionam um toque de natureza
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **rack aparador Turim Móveis Bechara** é especialmente recomendado para:
+
+**Pessoas que buscam um móvel moderno e funcional para a sala de estar.** O design clean e o acabamento em pintura UV texturizada agradam aos mais diversos gostos, enquanto a funcionalidade de 2 portas e prateleira interna atende diferentes necessidades de organização.
+
+**Quem possui uma TV de até 65 polegadas e precisa de um suporte seguro e estável.** Com capacidade de 55 kg e estrutura robusta em MDP/MDF de 15mm, o rack Turim garante segurança para televisores de grande porte.
+
+**Pessoas que valorizam acabamento de qualidade e durabilidade.** A pintura UV texturizada oferece alta resistência a riscos e manchas, mantendo o móvel bonito por muitos anos.
+
+**Admiradores da marca Móveis Bechara.** Com mais de 1000 vendas e 3ª colocação entre os racks da marca, o modelo Turim é um dos mais confiáveis e bem avaliados do mercado.
+
+**Quem busca um rack com design versátil e atemporal.** A combinação de cores neutras e linhas modernas torna o rack Turim uma peça que combina com diferentes estilos de decoração.
+
+## 📌 Diferenciais
+
+O **Rack Aparador Turim Móveis Bechara** se destaca da concorrência por diversos motivos:
+
+**Acabamento em pintura UV texturizada:** Diferente dos móveis com acabamento em laminado ou melamínico comum, a pintura UV recebe um processo de cura por luz ultravioleta que resulta em uma superfície extremamente resistente a riscos, manchas e desgaste. A textura adiciona um toque sofisticado e agradável ao toque.
+
+**Detalhes chanfrados:** Os detalhes chanfrados nas bordas e superfícies são um diferencial que adiciona sofisticação e modernidade ao design, criando um visual mais dinâmico e elegante.
+
+**Pés em madeira maciça Pinus:** A utilização de madeira maciça nos pés garante maior durabilidade e estabilidade, além de adicionar um toque natural e elegante ao móvel.
+
+**Estrutura em MDP/MDF de 15mm:** A espessura superior garante maior resistência e durabilidade em comparação com móveis que utilizam MDP mais fino (geralmente 12mm).
+
+**Suporte para TVs de até 65 polegadas:** Com capacidade de 55 kg, o rack oferece suporte seguro para televisores de grande porte, atendendo às necessidades da maioria dos lares brasileiros.
+
+**Marca Móveis Bechara com mais de 1000 vendas:** A reputação da marca e o alto volume de vendas comprovam a confiabilidade e a satisfação dos clientes.
+
+**Avaliação 4.7 estrelas com 826 reviews:** A excelente avaliação demonstra a qualidade consistente do produto.
+
+## 📌 Motivos para Comprar
+
+✅ **Design moderno com linhas clean e elegantes** - valoriza qualquer ambiente
+
+✅ **Acabamento em pintura UV texturizada** - resistente a riscos e manchas
+
+✅ **Suporte para TVs de até 65 polegadas** - segurança para televisores de grande porte
+
+✅ **2 portas com dobradiças metálicas** - durabilidade e suavidade no uso
+
+✅ **1 prateleira interna** - organização inteligente
+
+✅ **Pés em madeira maciça Pinus** - estabilidade e elegância
+
+✅ **Detalhes chanfrados** - sofisticação e modernidade
+
+✅ **Estrutura em MDP/MDF 15mm** - resistência e durabilidade
+
+✅ **Dimensões compactas (160cm x 59,5cm x 36cm)** - adapta-se a diferentes espaços
+
+✅ **Peso suportado de 55 kg** - capacidade para diversos equipamentos
+
+✅ **Marca Móveis Bechara com mais de 1000 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.7 estrelas com 826 reviews** - excelente satisfação dos clientes
+
+✅ **13% de desconto no Pix** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Móveis Bechara são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias para a instalação (parafusos e cavilhas). A montagem é simples e pode ser realizada com ferramentas básicas.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas como chave de fenda e trena. O manual é detalhado e ilustrativo, facilitando o processo. Recomendamos a ajuda de outra pessoa devido ao tamanho do móvel.
+
+**4. O rack tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Móveis Bechara.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança na sua compra.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras, com total segurança e cuidado com seu produto.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor. O produto deve estar em sua embalagem original, sem sinais de uso.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito (à vista ou parcelados) e saldo do Mercado Pago. Consulte a página do anúncio para ver todas as opções disponíveis.
+
+**10. Como devo fazer a limpeza do rack?**
+
+Recomenda-se limpar o produto com pano seco para retirada do pó. Evite o uso de produtos abrasivos e o contato direto com a umidade, que podem danificar o acabamento em pintura UV.
+
+**11. O rack suporta TVs de qual tamanho?**
+
+O rack suporta TVs de até 65 polegadas, com peso máximo de 55 kg distribuídos sobre a superfície.
+
+**12. O que devo fazer ao receber o produto?**
+
+Ao receber a mercadoria, verifique as condições da embalagem. Caso haja alguma avaria, não assine o comprovante de recebimento. Confira também as dimensões do produto e certifique-se de que passará normalmente por elevadores, portas, escadas e corredores.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Móveis Bechara |
+| **Modelo** | Turim |
+| **Tipo** | Rack Aparador |
+| **Cor** | Off White/Naturale (Branco) |
+| **Acabamento** | Pintura UV Texturizada |
+| **Material Principal** | MDP/MDF (15mm) |
+| **Material dos Pés** | Madeira Maciça (Pinus) |
+| **Dobradiças** | Metálicas |
+| **Pés** | Sim (em madeira maciça) |
+| **Altura** | 59,5 cm |
+| **Largura** | 160 cm |
+| **Profundidade** | 36 cm |
+| **Peso Máximo Suportado** | 55 kg (distribuídos) |
+| **Quantidade de Portas** | 2 portas |
+| **Quantidade de Prateleiras** | 1 prateleira |
+| **Nichos Abertos** | Sim |
+| **Detalhes Chanfrados** | Sim |
+| **Suporte para TV** | Até 65 polegadas |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim (manual incluso) |
+| **Estilo** | Moderno |
+| **Ambiente Principal** | Sala de Estar |
+| **Itens Inclusos** | 1 Rack / Acessórios de Montagem / Manual de Instruções |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Rack Aparador Turim Móveis Bechara** é a escolha inteligente para quem busca um móvel que una design moderno, funcionalidade completa e excelente custo-benefício para a sala de estar. Com acabamento em pintura UV texturizada, estrutura em MDP/MDF de 15mm, 2 portas com dobradiças metálicas, prateleira interna, nichos abertos e pés em madeira maciça, este rack oferece organização eficiente e um visual sofisticado para qualquer ambiente.
+
+A marca Móveis Bechara, com mais de 1000 vendas e avaliação de 4,7 estrelas com 826 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. O design versátil e as dimensões compactas tornam o Turim uma peça que se adapta a diferentes estilos de decoração e tamanhos de sala.
+
+Se você procura um rack que una design sofisticado, funcionalidade completa e durabilidade, o Turim é a escolha certeira. Aproveite o desconto de 13% no pagamento via Pix e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Móveis Bechara",
+  keywords: [
+    "rack para tv 65 polegadas",
+    "rack aparador moderno 160cm",
+    "rack branco mdf com portas",
+    "rack turim moveis bechara",
+    "rack para sala de estar",
+    "móvel para tv 65 polegadas",
+    "rack com prateleira e portas",
+    "rack pintura uv texturizada",
+    "rack madeira maciça",
+    "rack 160cm de largura",
+    "rack para home theater",
+    "móvel moderno para sala",
+    "rack com nichos abertos",
+    "rack para tv grande",
+    "rack design contemporâneo",
+    "rack móveis bechara 3ª colocação",
+    "rack com dobradiças metálicas",
+    "rack suporte 55kg",
+    "rack off white naturale",
+    "rack aparador turim"
+  ],
+  seoTitle: "Rack Aparador Turim 160cm Branco para TV até 65\" - Móveis Bechara",
+  seoDescription: "Rack aparador Turim com 160cm, 2 portas e prateleira. Acabamento em pintura UV, suporta TV até 65\". 4.7★ (826 reviews). Aproveite 13% OFF!"
+},
+{
+  id: "p-imp-102",
+  slug: "rack-com-painel-florida-175cm-preto-multimoveis-ate-65-polegadas",
+  category: "racks",
+  mainCategory: "sala",
+  name: "Rack com Painel Florida 175cm Preto Multimóveis para TV até 65 Polegadas",
+  imageFile: "/imagens/produtos/rack-com-painel-florida-175cm-preto-multimoveis-65-polegadas.webp",
+  displayImage: "/imagens/produtos/rack-com-painel-florida-175cm-preto-multimoveis-65-polegadas.webp",
+  alt: "Rack com painel Florida da Multimóveis em preto para TV até 65 polegadas com 175cm de largura",
+  rating: 4.5,
+  reviews: 205,
+  discount: 36,
+  price: 379.00,
+  originalPrice: 599.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/16Sedvq",
+  descricao: `
+# Rack com Painel Florida 175cm Preto Multimóveis para TV até 65 Polegadas
+
+## 📌 Introdução
+
+O **Rack com Painel Florida** da Multimóveis é a solução definitiva para quem busca unir design moderno, funcionalidade e organização na sala de estar. Desenvolvido em MDP com pintura UV, este conjunto de rack e painel oferece um visual sofisticado na cor preta, que combina perfeitamente com diferentes estilos de decoração, do minimalista ao contemporâneo.
+
+Com 175 cm de largura, o conjunto foi projetado para acomodar televisores de até 65 polegadas, oferecendo não apenas um suporte seguro, mas também uma solução completa de organização com 2 portas, nichos para equipamentos eletrônicos e espaço para objetos decorativos. O painel com 90 cm de altura e o rack com 47,9 cm de altura criam um conjunto harmonioso que valoriza qualquer ambiente.
+
+## 📌 Principais Benefícios
+
+O **Rack com Painel Florida** foi projetado para oferecer benefícios reais que transformam a experiência de organização e decoração da sua sala de estar.
+
+**Conjunto completo com rack e painel:** Diferente de racks simples, o conjunto Florida oferece um painel que valoriza a parede e cria um ambiente mais sofisticado e integrado. O painel de 90 cm de altura proporciona um visual imponente e elegante, enquanto o rack de 47,9 cm de altura oferece espaço prático para organização.
+
+**Acabamento em pintura UV de alta qualidade:** A pintura UV confere ao móvel uma superfície extremamente resistente a riscos, manchas e desgaste, mantendo o aspecto bonito e bem cuidado por muito mais tempo. A cor preta é sofisticada e versátil, combinando com diferentes estilos de decoração.
+
+**Suporte para TVs de até 65 polegadas:** Com estrutura robusta em MDP, o rack e painel oferecem suporte seguro para televisores de até 65 polegadas, atendendo às necessidades da maioria dos lares brasileiros.
+
+**Organização inteligente:** Com 2 portas articuladas, nichos para equipamentos eletrônicos e espaço para objetos decorativos, o conjunto Florida oferece organização eficiente para todos os itens da sua sala de estar.
+
+**Espaçamento para passagem de fios:** O painel conta com espaçamento para passagem de fios, mantendo os cabos organizados e fora da vista, garantindo um visual mais limpo e arrumado.
+
+**Design moderno e versátil:** Com linhas clean e acabamento em preto, o conjunto Florida combina com diferentes estilos de decoração, do minimalista ao contemporâneo.
+
+## 📌 Design
+
+O **Rack com Painel Florida** apresenta um design moderno e sofisticado que valoriza qualquer ambiente.
+
+**Acabamento em pintura UV preta:** A pintura UV confere ao móvel um acabamento uniforme, resistente e durável, com um brilho sutil que valoriza a cor preta. A pintura UV é resistente a riscos e manchas, mantendo o móvel bonito por muitos anos.
+
+**Conjunto harmonioso:** A combinação do painel com 90 cm de altura e o rack com 47,9 cm de altura cria um conjunto visualmente equilibrado e harmonioso, que valoriza a parede e o ambiente como um todo.
+
+**Linhas clean e modernas:** As linhas retas e o design minimalista tornam o conjunto versátil, combinando com diferentes estilos de decoração, do minimalista ao contemporâneo.
+
+**Dimensões generosas:** Com 175 cm de largura, o conjunto oferece espaço amplo para acomodar uma TV de até 65 polegadas, além de objetos decorativos e equipamentos eletrônicos.
+
+**Detalhes funcionais:** O espaçamento para passagem de fios e os nichos para equipamentos eletrônicos demonstram a atenção aos detalhes funcionais, tornando o conjunto prático para o dia a dia.
+
+## 📌 Organização
+
+O **Rack com Painel Florida** foi cuidadosamente planejado para oferecer organização eficiente na sala de estar.
+
+**Distribuição inteligente dos espaços:**
+
+**Painel (Altura: 90 cm):** O painel oferece uma superfície vertical que valoriza a parede, proporcionando um visual mais sofisticado e integrado. É ideal para acomodar objetos decorativos, quadros, plantas ou outros itens que complementam a decoração.
+
+**Superfície do rack (175 cm x 34,6 cm):** A superfície superior do rack oferece espaço amplo e seguro para acomodar televisores de até 65 polegadas, além de objetos decorativos e outros itens.
+
+**Portas (2):** As duas portas articuladas com dobradiças metálicas abrem-se suavemente, revelando um espaço interno para organizar aparelhos eletrônicos, controles, DVDs, livros e outros objetos que precisam ficar protegidos da poeira.
+
+**Nichos para equipamentos eletrônicos:** Os nichos abertos são perfeitos para acomodar aparelhos de som, videogames, decodificadores de TV e outros equipamentos eletrônicos, mantendo-os organizados e de fácil acesso.
+
+**Espaçamento para passagem de fios:** O painel conta com espaçamento para passagem de fios, mantendo os cabos organizados e fora da vista, garantindo um visual mais limpo e arrumado.
+
+## 📌 Ideal para
+
+- **Salas de estar:** Peça principal que valoriza o ambiente
+- **Salas de TV e home theaters:** Suporte seguro para televisores de até 65 polegadas
+- **Apartamentos modernos:** Design clean que combina com decorações contemporâneas
+- **Ambientes minimalistas:** Linhas retas e acabamento sofisticado
+- **Espaços que buscam organização:** Nichos e portas para equipamentos e objetos decorativos
+- **Decoração com estilo moderno:** Cor preta que adiciona sofisticação
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **rack com painel Florida Multimóveis** é especialmente recomendado para:
+
+**Pessoas que buscam um conjunto completo de rack e painel para a sala de estar.** O design integrado oferece um visual mais sofisticado e harmonioso do que um rack simples.
+
+**Quem possui uma TV de até 65 polegadas e precisa de um suporte seguro e estável.** Com estrutura robusta em MDP e pintura UV, o conjunto Florida garante segurança e durabilidade.
+
+**Pessoas que valorizam acabamento de qualidade e durabilidade.** A pintura UV oferece alta resistência a riscos e manchas, mantendo o móvel bonito por muitos anos.
+
+**Admiradores da marca Multimóveis.** Com mais de 5 mil vendas e 7ª colocação entre os racks da marca, o modelo Florida é um dos mais confiáveis e bem avaliados do mercado.
+
+**Quem busca um rack com funcionalidade completa.** Nichos para equipamentos, portas para organização e espaçamento para passagem de fios tornam o Florida prático para o dia a dia.
+
+## 📌 Diferenciais
+
+O **Rack com Painel Florida Multimóveis** se destaca da concorrência por diversos motivos:
+
+**Conjunto completo com rack e painel:** Diferente de racks simples, o Florida oferece um painel que valoriza a parede e cria um ambiente mais sofisticado e integrado. O painel de 90 cm de altura proporciona um visual imponente e elegante.
+
+**Acabamento em pintura UV de alta qualidade:** A pintura UV confere ao móvel uma superfície extremamente resistente a riscos, manchas e desgaste, superior à pintura convencional.
+
+**Espaçamento para passagem de fios:** O painel conta com espaçamento para passagem de fios, mantendo os cabos organizados e fora da vista, garantindo um visual mais limpo e arrumado.
+
+**Estrutura em MDP com pintura UV:** A combinação de MDP de qualidade com pintura UV garante durabilidade e resistência, superando móveis com acabamento em laminado ou melamínico comum.
+
+**Dimensões generosas:** Com 175 cm de largura, o conjunto oferece espaço amplo para acomodar uma TV de até 65 polegadas, além de objetos decorativos e equipamentos eletrônicos.
+
+**Marca Multimóveis com mais de 5 mil vendas:** A reputação da marca e o alto volume de vendas comprovam a confiabilidade e a satisfação dos clientes.
+
+**Avaliação 4.5 estrelas com 205 reviews:** A boa avaliação demonstra a qualidade consistente do produto.
+
+## 📌 Motivos para Comprar
+
+✅ **Conjunto completo com rack e painel** - visual sofisticado e integrado
+
+✅ **Acabamento em pintura UV** - resistente a riscos e manchas
+
+✅ **Suporte para TVs de até 65 polegadas** - segurança para televisores de grande porte
+
+✅ **2 portas articuladas com dobradiças metálicas** - durabilidade e suavidade no uso
+
+✅ **Nichos para equipamentos eletrônicos** - organização prática
+
+✅ **Espaçamento para passagem de fios** - cabos organizados e fora da vista
+
+✅ **Design moderno na cor preta** - sofisticação e versatilidade
+
+✅ **Estrutura em MDP com pintura UV** - durabilidade e resistência
+
+✅ **Dimensões generosas (175cm)** - espaço amplo para TV e decoração
+
+✅ **Marca Multimóveis com mais de 5 mil vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.5 estrelas com 205 reviews** - satisfação dos clientes
+
+✅ **36% de desconto no Pix** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Multimóveis são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias para a instalação (kit ferragem incluso). A montagem é simples e pode ser realizada com ferramentas básicas.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas como chave de fenda e trena. O manual é detalhado e ilustrativo, facilitando o processo. Recomendamos a ajuda de outra pessoa devido ao tamanho do móvel.
+
+**4. O rack tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Multimóveis.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança na sua compra.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras, com total segurança e cuidado com seu produto.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor. O produto deve estar em sua embalagem original, sem sinais de uso.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito (à vista ou parcelados) e saldo do Mercado Pago. Consulte a página do anúncio para ver todas as opções disponíveis.
+
+**10. Como devo fazer a limpeza do rack e painel?**
+
+Recomenda-se limpar o produto com pano seco para retirada do pó. Evite o uso de produtos abrasivos e o contato direto com a umidade, que podem danificar o acabamento em pintura UV.
+
+**11. O conjunto suporta TVs de qual tamanho?**
+
+O conjunto suporta TVs de até 65 polegadas, com estrutura robusta em MDP.
+
+**12. O que devo fazer ao receber o produto?**
+
+Ao receber a mercadoria, verifique as condições da embalagem. Caso haja alguma avaria, não assine o comprovante de recebimento. Confira também as dimensões do produto e certifique-se de que passará normalmente por elevadores, portas, escadas e corredores.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Multimóveis |
+| **Modelo** | Florida |
+| **Tipo** | Rack com Painel para TV |
+| **Cor** | Preto |
+| **Acabamento** | Pintura UV |
+| **Material** | MDP (Medium Density Particleboard) |
+| **Painel - Altura** | 90 cm |
+| **Painel - Largura** | 175,1 cm |
+| **Rack - Altura** | 47,9 cm |
+| **Rack - Largura** | 175,1 cm |
+| **Rack - Profundidade** | 34,6 cm |
+| **Suporte para TV** | Até 65 polegadas |
+| **Portas** | 2 (articuladas) |
+| **Nichos** | Sim (para equipamentos eletrônicos) |
+| **Passagem de Fios** | Sim (espaçamento no painel) |
+| **Itens Inclusos** | 1 Rack / 1 Painel / Kit Ferragem / Manual de Montagem |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim |
+| **Ambiente Principal** | Sala de Estar |
+| **Estilo** | Moderno |
+| **Observações** | Imagens meramente ilustrativas. Objetos decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Rack com Painel Florida 175cm Preto Multimóveis** é a escolha inteligente para quem busca um conjunto completo que una design moderno, funcionalidade completa e excelente custo-benefício para a sala de estar. Com acabamento em pintura UV, estrutura em MDP, 2 portas articuladas, nichos para equipamentos eletrônicos e espaçamento para passagem de fios, este conjunto oferece organização eficiente e um visual sofisticado para qualquer ambiente.
+
+A marca Multimóveis, com mais de 5 mil vendas e avaliação de 4,5 estrelas com 205 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. O design versátil e as dimensões generosas tornam o Florida uma peça que se adapta a diferentes estilos de decoração e tamanhos de sala.
+
+Se você procura um rack com painel que una design sofisticado, funcionalidade completa e durabilidade, o Florida é a escolha certeira. Aproveite o desconto de 36% no pagamento via Pix e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Multimóveis",
+  keywords: [
+    "rack com painel para tv 65 polegadas",
+    "rack multimóveis florida preto",
+    "rack com painel 175cm",
+    "rack para tv com painel moderno",
+    "rack com nichos e portas",
+    "móvel para tv 65 polegadas",
+    "rack com passagem de fios",
+    "rack e painel para sala",
+    "rack preto pintura uv",
+    "rack multimóveis 7ª colocação",
+    "rack com 2 portas articuladas",
+    "rack para home theater",
+    "móvel moderno para sala",
+    "rack com painel 90cm altura",
+    "rack para tv grande",
+    "rack design contemporâneo",
+    "rack organizador de eletrônicos",
+    "rack com nichos decorativos",
+    "rack 175cm de largura",
+    "rack conjunto completo"
+  ],
+  seoTitle: "Rack com Painel Florida 175cm Preto para TV até 65\" - Multimóveis",
+  seoDescription: "Rack com painel Florida da Multimóveis em preto, 175cm, para TV até 65 polegadas. Pintura UV, 2 portas, nichos. 4.5★ (205 reviews). Oferta 36% OFF!"
+},
+{
+  id: "p-imp-103",
+  slug: "rack-com-painel-liverpool-200cm-pinho-off-white-yescasa-ate-75-polegadas-led",
+  category: "racks",
+  mainCategory: "sala",
+  name: "Rack com Painel Liverpool 200cm Pinho/Off White com LED para TV até 75\" - Yescasa",
+  imageFile: "/imagens/produtos/rack-com-painel-liverpool-200cm-pinho-off-white-led-yescasa-75-polegadas.webp",
+  displayImage: "/imagens/produtos/rack-com-painel-liverpool-200cm-pinho-off-white-led-yescasa-75-polegadas.webp",
+  alt: "Rack com painel Liverpool da Yescasa em Pinho/Off White com LED e design ripado 3D para TV até 75 polegadas",
+  rating: 4.7,
+  reviews: 290,
+  discount: 30,
+  price: 787.19,
+  originalPrice: 1124.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1UUFZNP",
+  descricao: `
+# Rack com Painel Liverpool 200cm Pinho/Off White com LED para TV até 75" - Yescasa
+
+## 📌 Introdução
+
+O **Rack com Painel Liverpool** da Yescasa é a escolha definitiva para quem busca modernidade, sofisticação e funcionalidade na sala de estar. Com design ripado em 3D e iluminação em LED, este conjunto cria uma atmosfera acolhedora e elegante, transformando completamente o ambiente. Desenvolvido para acomodar televisores de até 75 polegadas, o Liverpool é a peça central que sua sala merece.
+
+Com acabamento em Pinho/Off White e pintura UV texturizada, o conjunto combina a beleza natural da madeira com a luminosidade do Off White, criando um visual harmônico e versátil que se adapta a diferentes estilos de decoração. A prateleira decorativa com cantos arredondados, a gaveta e as 3 portas de abrir oferecem organização completa para todos os seus equipamentos e objetos decorativos.
+
+## 📌 Principais Benefícios
+
+O **Rack com Painel Liverpool** foi projetado para oferecer benefícios reais que transformam a experiência de organização e decoração da sua sala de estar.
+
+**Design ripado em 3D com LED:** O painel conta com um desenho ripado em 3D que cria profundidade e textura, conferindo um visual moderno e sofisticado. A iluminação em LED proporciona uma sensação de aconchego e destaca o design do painel, criando um ambiente mais acolhedor e elegante.
+
+**Suporte para TVs de até 75 polegadas:** Com estrutura robusta em MDF/MDP, o conjunto oferece suporte seguro para televisores de até 75 polegadas, atendendo às necessidades de quem busca uma experiência cinematográfica em casa.
+
+**Acabamento em pintura UV texturizada:** A pintura UV texturizada confere ao móvel uma superfície extremamente resistente a riscos, manchas e desgaste, facilitando a manutenção e mantendo o aspecto bonito por muito mais tempo.
+
+**Organização completa:** Com 3 portas de abrir e 1 gaveta, o conjunto oferece amplo espaço para organizar aparelhos eletrônicos, controles, DVDs, livros e outros objetos, mantendo tudo em ordem e protegido da poeira.
+
+**Prateleira decorativa versátil:** A prateleira com cantos arredondados pode ser colocada tanto na parte superior quanto na parte inferior do produto, oferecendo versatilidade na decoração e permitindo expor objetos decorativos de diferentes formas.
+
+**Design moderno e sofisticado:** A combinação de cores Pinho/Off White e o design ripado em 3D criam um visual contemporâneo e elegante que valoriza qualquer ambiente.
+
+## 📌 Design
+
+O **Rack com Painel Liverpool** apresenta um design moderno e sofisticado que valoriza qualquer ambiente.
+
+**Design ripado em 3D:** O painel conta com um desenho ripado em 3D que cria profundidade e textura, conferindo um visual moderno e sofisticado. O ripado é uma tendência forte na decoração de interiores, adicionando personalidade e charme ao ambiente.
+
+**Iluminação em LED:** A iluminação em LED integrada ao painel proporciona uma sensação de aconchego e destaca o design ripado, criando um ambiente mais acolhedor e elegante. A luz LED valoriza a textura do painel e cria pontos de luz que transformam a sala.
+
+**Acabamento em Pinho/Off White:** A combinação do tom amadeirado Pinho com o Off White cria um visual harmônico e versátil, que combina perfeitamente com diferentes estilos de decoração, do clássico ao contemporâneo.
+
+**Prateleira decorativa com cantos arredondados:** A prateleira com cantos arredondados adiciona um toque de suavidade e elegância ao design, podendo ser colocada tanto na parte superior quanto na parte inferior do produto, oferecendo versatilidade na decoração.
+
+**Dimensões generosas:** Com ampla largura, o conjunto oferece espaço suficiente para acomodar uma TV de até 75 polegadas, além de objetos decorativos e equipamentos eletrônicos.
+
+**Acabamento em pintura UV texturizada:** A pintura UV texturizada confere ao móvel um acabamento uniforme, resistente e durável, com uma textura agradável ao toque que valoriza as cores Pinho/Off White.
+
+## 📌 Organização
+
+O **Rack com Painel Liverpool** foi cuidadosamente planejado para oferecer organização eficiente na sala de estar.
+
+**Distribuição inteligente dos espaços:**
+
+**Painel:** O painel oferece uma superfície vertical que valoriza a parede, com design ripado em 3D e iluminação em LED, criando um ponto focal na decoração da sala.
+
+**Superfície superior:** A superfície superior do rack oferece espaço amplo e seguro para acomodar televisores de até 75 polegadas, além de objetos decorativos e outros itens.
+
+**Portas (3):** As três portas de abrir com dobradiças metálicas abrem-se suavemente, revelando um espaço interno para organizar aparelhos eletrônicos, controles, DVDs, livros e outros objetos que precisam ficar protegidos da poeira.
+
+**Gaveta (1):** A gaveta oferece espaço adicional para organizar itens menores, como controles remotos, cabos, documentos e outros objetos que precisam ficar guardados e de fácil acesso.
+
+**Prateleira decorativa:** A prateleira com cantos arredondados pode ser utilizada para expor objetos decorativos, livros, plantas ou outros itens, oferecendo versatilidade na decoração.
+
+## 📌 Ideal para
+
+- **Salas de estar:** Peça principal que valoriza o ambiente
+- **Salas de TV e home theaters:** Suporte seguro para televisores de até 75 polegadas
+- **Apartamentos modernos:** Design sofisticado que combina com decorações contemporâneas
+- **Ambientes que buscam aconchego:** Iluminação em LED que cria atmosfera acolhedora
+- **Decoração com estilo ripado:** Tendência forte na decoração de interiores
+- **Espaços que buscam sofisticação:** Design premium que impressiona
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **rack com painel Liverpool Yescasa** é especialmente recomendado para:
+
+**Pessoas que buscam um conjunto de rack e painel com design sofisticado e moderno.** O design ripado em 3D com LED e o acabamento em Pinho/Off White conferem um visual premium e exclusivo.
+
+**Quem possui uma TV de até 75 polegadas e busca um suporte seguro e elegante.** Com estrutura robusta em MDF/MDP e design moderno, o Liverpool oferece segurança e estilo.
+
+**Pessoas que valorizam acabamento de qualidade e facilidade de manutenção.** A pintura UV texturizada oferece alta resistência a riscos e manchas, facilitando a limpeza.
+
+**Admiradores da marca Yescasa.** Com mais de 1000 vendas e 2ª colocação entre os racks da marca, o modelo Liverpool é um dos mais confiáveis e bem avaliados do mercado.
+
+**Quem busca um móvel com iluminação integrada.** A iluminação em LED é um diferencial que cria uma atmosfera acolhedora e valoriza o design do painel.
+
+## 📌 Diferenciais
+
+O **Rack com Painel Liverpool Yescasa** se destaca da concorrência por diversos motivos:
+
+**Design ripado em 3D com LED:** O painel com desenho ripado em 3D e iluminação em LED é um diferencial que cria profundidade, textura e uma atmosfera acolhedora, valorizando o ambiente e o design do móvel.
+
+**Suporte para TVs de até 75 polegadas:** Com estrutura robusta em MDF/MDP, o conjunto oferece suporte seguro para televisores de até 75 polegadas, atendendo às necessidades de quem busca uma experiência cinematográfica em casa.
+
+**Acabamento em pintura UV texturizada:** A pintura UV texturizada confere ao móvel uma superfície extremamente resistente a riscos, manchas e desgaste, facilitando a manutenção e mantendo o aspecto bonito por muito mais tempo.
+
+**Prateleira decorativa versátil:** A prateleira com cantos arredondados pode ser colocada tanto na parte superior quanto na parte inferior do produto, oferecendo versatilidade na decoração.
+
+**Combinação de cores Pinho/Off White:** A combinação do tom amadeirado Pinho com o Off White cria um visual harmônico e versátil, que combina perfeitamente com diferentes estilos de decoração.
+
+**Marca Yescasa com mais de 1000 vendas:** A reputação da marca e o alto volume de vendas comprovam a confiabilidade e a satisfação dos clientes.
+
+**Avaliação 4.7 estrelas com 290 reviews:** A excelente avaliação demonstra a qualidade consistente do produto.
+
+## 📌 Motivos para Comprar
+
+✅ **Design ripado em 3D com LED** - modernidade e sofisticação
+
+✅ **Suporte para TVs de até 75 polegadas** - segurança para televisores de grande porte
+
+✅ **Acabamento em pintura UV texturizada** - resistente a riscos e manchas
+
+✅ **3 portas de abrir com dobradiças metálicas** - durabilidade e suavidade no uso
+
+✅ **1 gaveta para organização** - espaço para itens menores
+
+✅ **Prateleira decorativa com cantos arredondados** - versatilidade na decoração
+
+✅ **Combinação Pinho/Off White** - visual harmônico e versátil
+
+✅ **Iluminação em LED integrada** - atmosfera acolhedora e elegante
+
+✅ **Estrutura em MDF/MDP** - resistência e durabilidade
+
+✅ **Marca Yescasa com mais de 1000 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.7 estrelas com 290 reviews** - excelente satisfação dos clientes
+
+✅ **30% de desconto no Pix** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Yescasa são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias para a instalação. A montagem é simples e pode ser realizada com ferramentas básicas.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas como chave de fenda e trena. O manual é detalhado e ilustrativo, facilitando o processo. Recomendamos a ajuda de outra pessoa devido ao tamanho do móvel.
+
+**4. O rack tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Yescasa.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança na sua compra.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras, com total segurança e cuidado com seu produto.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor. O produto deve estar em sua embalagem original, sem sinais de uso.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito (à vista ou parcelados) e saldo do Mercado Pago. Consulte a página do anúncio para ver todas as opções disponíveis.
+
+**10. Como devo fazer a limpeza do rack e painel?**
+
+Recomenda-se limpar o produto com pano seco para retirada do pó. Evite o uso de produtos abrasivos e o contato direto com a umidade, que podem danificar o acabamento em pintura UV.
+
+**11. O conjunto suporta TVs de qual tamanho?**
+
+O conjunto suporta TVs de até 75 polegadas, com estrutura robusta em MDF/MDP.
+
+**12. O que devo fazer ao receber o produto?**
+
+Ao receber a mercadoria, verifique as condições da embalagem. Caso haja alguma avaria, não assine o comprovante de recebimento. Confira também as dimensões do produto e certifique-se de que passará normalmente por elevadores, portas, escadas e corredores.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Yescasa |
+| **Modelo** | Liverpool |
+| **Tipo** | Rack com Painel para TV |
+| **Cor** | Pinho/Off White |
+| **Acabamento** | Pintura UV Texturizada |
+| **Material** | MDF/MDP |
+| **Profundidade** | 40 cm |
+| **Suporte para TV** | Até 75 polegadas |
+| **Portas** | 3 (abrir) |
+| **Gaveta** | 1 |
+| **Prateleira Decorativa** | Sim (cantos arredondados) |
+| **Painel** | Design ripado em 3D com LED |
+| **Iluminação** | LED (integrada) |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim |
+| **Ambiente Principal** | Sala de Estar |
+| **Estilo** | Moderno |
+| **Itens Inclusos** | 1 Rack / 1 Painel / Acessórios de Montagem / Manual de Instruções |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Rack com Painel Liverpool 200cm Pinho/Off White com LED para TV até 75" - Yescasa** é a escolha definitiva para quem busca um móvel que una design sofisticado, funcionalidade completa e iluminação integrada para a sala de estar. Com design ripado em 3D, iluminação em LED, acabamento em pintura UV texturizada, 3 portas, 1 gaveta e prateleira decorativa, este conjunto oferece organização eficiente e um visual premium para qualquer ambiente.
+
+A marca Yescasa, com mais de 1000 vendas e avaliação de 4,7 estrelas com 290 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. O design versátil e as dimensões generosas tornam o Liverpool uma peça que se adapta a diferentes estilos de decoração e tamanhos de sala.
+
+Se você procura um rack com painel que una design exclusivo, funcionalidade completa e durabilidade, o Liverpool é a escolha certeira. Aproveite o desconto de 30% no pagamento via Pix e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Yescasa",
+  keywords: [
+    "rack com painel para tv 75 polegadas",
+    "rack liverpool yescasa pinho off white",
+    "rack com painel ripado 3d com led",
+    "rack para tv com iluminação led",
+    "rack com 3 portas e gaveta",
+    "móvel para tv 75 polegadas",
+    "rack com painel 200cm",
+    "rack pinho off white moderno",
+    "rack com prateleira decorativa",
+    "rack yescasa 2ª colocação",
+    "rack com painel led impressão",
+    "rack para home theater 75",
+    "móvel moderno para sala",
+    "rack com painel ripado",
+    "rack para tv grande",
+    "rack design contemporâneo",
+    "rack com pintura uv texturizada",
+    "rack com gaveta e portas",
+    "rack com cantos arredondados",
+    "rack conjunto completo"
+  ],
+  seoTitle: "Rack com Painel Liverpool 200cm com LED para TV 75\" - Yescasa",
+  seoDescription: "Rack com painel Liverpool com LED, ripado 3D, 3 portas e gaveta. Suporte para TV até 75 polegadas. 4.7★ (290 reviews). Oferta 30% OFF!"
+},
+{
+  id: "p-imp-104",
+  slug: "rack-caemmun-new-oscar-com-painel-180cm-freijo-off-white",
+  category: "racks",
+  mainCategory: "sala",
+  name: "Rack Caemmun New Oscar com Painel 1,8m Cor Freijó/Off White",
+  imageFile: "/imagens/produtos/rack-caemmun-new-oscar-com-painel-180cm-freijo-off-white.webp",
+  displayImage: "/imagens/produtos/rack-caemmun-new-oscar-com-painel-180cm-freijo-off-white.webp",
+  alt: "Rack Caemmun New Oscar com painel de 1,8 metros na cor Freijó/Off White com portas deslizantes ripadas",
+  rating: 4.6,
+  reviews: 651,
+  discount: 24,
+  price: 713.00,
+  originalPrice: 949.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1NRnwAh",
+  descricao: `
+# Rack Caemmun New Oscar com Painel 1,8m Cor Freijó/Off White
+
+## 📌 Introdução
+
+O **Rack Caemmun New Oscar com Painel 1,8 Metros** é a escolha perfeita para quem procura um móvel funcional e com estilo para o ambiente da sala. Com um design moderno e sofisticado, este rack é o complemento ideal para tornar o espaço ainda mais elegante e acolhedor. Desenvolvido pela renomada marca Caemmun, o modelo New Oscar combina a beleza do acabamento ripado com a funcionalidade de portas deslizantes e painel integrado.
+
+Com 180 cm de largura, 174 cm de altura e 39,5 cm de profundidade, o conjunto oferece uma presença imponente na sala, criando um ponto focal que valoriza qualquer decoração. A combinação de cores Freijó e Off White traz equilíbrio e sofisticação, enquanto o design ripado em baixo relevo adiciona textura e profundidade ao móvel.
+
+## 📌 Principais Benefícios
+
+O **Rack New Oscar** foi projetado para oferecer benefícios reais que transformam a experiência de organização e decoração da sua sala de estar.
+
+**Painel em MDF ripado em baixo relevo:** O painel com design ripado em baixo relevo cria profundidade e textura, conferindo um visual moderno e sofisticado. O ripado é uma tendência forte na decoração de interiores, adicionando personalidade e charme ao ambiente.
+
+**Portas deslizantes ripadas:** As portas deslizantes em MDF ripado em baixo relevo com fundo preto oferecem um design diferenciado e funcional, economizando espaço e proporcionando um visual moderno e elegante. O sistema de deslizamento é suave e silencioso, facilitando o acesso aos itens armazenados.
+
+**Prateleira superior em MDP 25mm:** A prateleira superior com espessura de 25mm oferece maior resistência e durabilidade, suportando objetos decorativos, livros e outros itens com segurança. A espessura premium garante estabilidade e longevidade.
+
+**Design moderno e sofisticado:** A combinação de cores Freijó e Off White com o design ripado cria um visual contemporâneo e elegante, que combina perfeitamente com diferentes estilos de decoração, do clássico ao contemporâneo.
+
+**Estrutura resistente em MDP e MDF:** Fabricado em MDP e MDF com espessuras de 12 e 15mm, o rack oferece alta resistência e durabilidade, superando móveis com materiais de qualidade inferior.
+
+**Peso de 52 kg:** A estrutura robusta garante estabilidade e segurança, suportando o peso de equipamentos eletrônicos e objetos decorativos sem comprometer a integridade do móvel.
+
+## 📌 Design
+
+O **Rack New Oscar** apresenta um design moderno e sofisticado que valoriza qualquer ambiente.
+
+**Painel ripado em baixo relevo:** O painel com design ripado em baixo relevo cria profundidade e textura, conferindo um visual moderno e sofisticado. O ripado adiciona personalidade e charme ao ambiente, sendo uma tendência forte na decoração de interiores.
+
+**Portas deslizantes ripadas com fundo preto:** As portas deslizantes em MDF ripado em baixo relevo com fundo preto oferecem um design diferenciado e funcional, com um contraste elegante que valoriza as cores Freijó e Off White.
+
+**Combinação de cores Freijó/Off White:** A combinação do tom amadeirado Freijó com o Off White cria um visual harmônico e versátil, que combina perfeitamente com diferentes estilos de decoração, do clássico ao contemporâneo.
+
+**Prateleira superior em MDP 25mm:** A prateleira superior com espessura de 25mm oferece maior resistência e durabilidade, com um acabamento que valoriza o design do móvel.
+
+**Dimensões imponentes:** Com 180 cm de largura e 174 cm de altura, o conjunto oferece uma presença imponente na sala, criando um ponto focal que valoriza qualquer decoração.
+
+## 📌 Organização
+
+O **Rack New Oscar** foi cuidadosamente planejado para oferecer organização eficiente na sala de estar.
+
+**Distribuição inteligente dos espaços:**
+
+**Painel (174 cm de altura):** O painel oferece uma superfície vertical que valoriza a parede, com design ripado em baixo relevo que cria textura e profundidade, servindo como fundo para a TV e objetos decorativos.
+
+**Superfície superior:** A prateleira superior em MDP 25mm oferece espaço amplo e seguro para acomodar televisores, objetos decorativos, livros e outros itens, com alta resistência e durabilidade.
+
+**Portas deslizantes (2):** As duas portas deslizantes em MDF ripado com fundo preto abrem-se suavemente, revelando um espaço interno para organizar aparelhos eletrônicos, controles, DVDs, livros e outros objetos que precisam ficar protegidos da poeira.
+
+**Espaço interno:** O interior das portas oferece espaço para organizar equipamentos eletrônicos, mantendo-os protegidos e de fácil acesso.
+
+## 📌 Ideal para
+
+- **Salas de estar:** Peça principal que valoriza o ambiente
+- **Salas de TV e home theaters:** Suporte seguro para televisores
+- **Apartamentos modernos:** Design sofisticado que combina com decorações contemporâneas
+- **Ambientes que buscam design ripado:** Tendência forte na decoração de interiores
+- **Espaços que valorizam organização:** Portas deslizantes que economizam espaço
+- **Decoração com estilo natural:** Combinação Freijó/Off White que traz aconchego
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **rack com painel New Oscar Caemmun** é especialmente recomendado para:
+
+**Pessoas que buscam um rack com painel de design sofisticado e moderno.** O painel ripado em baixo relevo e as portas deslizantes com fundo preto conferem um visual premium e exclusivo.
+
+**Quem possui uma TV de tamanho médio a grande e busca um suporte seguro e elegante.** Com estrutura robusta em MDP/MDF e design moderno, o New Oscar oferece segurança e estilo.
+
+**Pessoas que valorizam acabamento de qualidade e durabilidade.** A estrutura em MDP e MDF com espessuras de 12 e 15mm garante alta resistência e durabilidade.
+
+**Admiradores da marca Caemmun.** Com mais de 500 vendas e 5ª colocação entre os racks da marca, o modelo New Oscar é um dos mais confiáveis e bem avaliados do mercado.
+
+**Quem busca um móvel com portas deslizantes para economizar espaço.** O sistema de portas deslizantes é ideal para salas onde o espaço é limitado.
+
+## 📌 Diferenciais
+
+O **Rack New Oscar Caemmun** se destaca da concorrência por diversos motivos:
+
+**Painel ripado em baixo relevo:** O painel com design ripado em baixo relevo cria profundidade e textura, conferindo um visual moderno e sofisticado que poucos racks oferecem.
+
+**Portas deslizantes ripadas com fundo preto:** As portas deslizantes em MDF ripado com fundo preto oferecem um design diferenciado e funcional, com um contraste elegante que valoriza as cores Freijó e Off White.
+
+**Prateleira superior em MDP 25mm:** A prateleira superior com espessura de 25mm oferece maior resistência e durabilidade, superando racks com prateleiras de espessura padrão (15-18mm).
+
+**Estrutura em MDP e MDF 12 e 15mm:** A combinação de materiais com espessuras de 12 e 15mm garante alta resistência e durabilidade, superando móveis com materiais de qualidade inferior.
+
+**Design moderno e sofisticado:** A combinação de cores Freijó/Off White e o design ripado criam um visual contemporâneo e elegante, que combina perfeitamente com diferentes estilos de decoração.
+
+**Marca Caemmun com mais de 500 vendas:** A reputação da marca e o alto volume de vendas comprovam a confiabilidade e a satisfação dos clientes.
+
+**Avaliação 4.6 estrelas com 651 reviews:** A excelente avaliação demonstra a qualidade consistente do produto.
+
+## 📌 Motivos para Comprar
+
+✅ **Painel ripado em baixo relevo** - design moderno e sofisticado
+
+✅ **Portas deslizantes ripadas com fundo preto** - funcionalidade e estilo
+
+✅ **Prateleira superior em MDP 25mm** - resistência e durabilidade
+
+✅ **Estrutura em MDP e MDF 12 e 15mm** - alta resistência
+
+✅ **Combinação Freijó/Off White** - visual harmônico e versátil
+
+✅ **Dimensões imponentes (180cm x 174cm)** - presença marcante na sala
+
+✅ **Peso de 52 kg** - estabilidade e segurança
+
+✅ **Design moderno e sofisticado** - combina com diferentes estilos
+
+✅ **Marca Caemmun com mais de 500 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.6 estrelas com 651 reviews** - excelente satisfação dos clientes
+
+✅ **24% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Caemmun são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias para a instalação. A montagem é simples e pode ser realizada com ferramentas básicas.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas como chave de fenda e trena. O manual é detalhado e ilustrativo, facilitando o processo. Recomendamos a ajuda de outra pessoa devido ao tamanho do móvel.
+
+**4. O rack tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Caemmun.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança na sua compra.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras, com total segurança e cuidado com seu produto.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor. O produto deve estar em sua embalagem original, sem sinais de uso.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito (à vista ou parcelados) e saldo do Mercado Pago. Consulte a página do anúncio para ver todas as opções disponíveis.
+
+**10. Como devo fazer a limpeza do rack e painel?**
+
+Recomenda-se limpar o produto com pano seco para retirada do pó. Evite o uso de produtos abrasivos e o contato direto com a umidade, que podem danificar o acabamento.
+
+**11. O conjunto suporta TVs de qual tamanho?**
+
+O conjunto foi projetado para suportar TVs de tamanho médio a grande, com estrutura robusta em MDP/MDF.
+
+**12. O que devo fazer ao receber o produto?**
+
+Ao receber a mercadoria, verifique as condições da embalagem. Caso haja alguma avaria, não assine o comprovante de recebimento. Confira também as dimensões do produto e certifique-se de que passará normalmente por elevadores, portas, escadas e corredores.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Caemmun |
+| **Modelo** | New Oscar |
+| **Tipo** | Rack com Painel para TV |
+| **Cor** | Freijó/Off White |
+| **Material** | MDP e MDF (12 e 15mm) |
+| **Painel** | MDF ripado em baixo relevo |
+| **Portas** | 2 deslizantes (MDF ripado com fundo preto) |
+| **Prateleira Superior** | MDP 25mm |
+| **Altura** | 174 cm |
+| **Largura** | 180 cm |
+| **Profundidade** | 39,5 cm |
+| **Peso** | 52 kg |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim |
+| **Ambiente Principal** | Sala de Estar |
+| **Estilo** | Moderno |
+| **Itens Inclusos** | 1 Rack / 1 Painel / Acessórios de Montagem / Manual de Instruções |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Rack Caemmun New Oscar com Painel 1,8m Cor Freijó/Off White** é a escolha definitiva para quem busca um móvel que una design sofisticado, funcionalidade completa e durabilidade para a sala de estar. Com painel ripado em baixo relevo, portas deslizantes ripadas com fundo preto, prateleira superior em MDP 25mm e estrutura em MDP e MDF, este conjunto oferece organização eficiente e um visual premium para qualquer ambiente.
+
+A marca Caemmun, com mais de 500 vendas e avaliação de 4,6 estrelas com 651 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. O design versátil e as dimensões generosas tornam o New Oscar uma peça que se adapta a diferentes estilos de decoração e tamanhos de sala.
+
+Se você procura um rack com painel que una design exclusivo, funcionalidade completa e durabilidade, o New Oscar é a escolha certeira. Aproveite o desconto de 24% no pagamento via Pix e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Caemmun",
+  keywords: [
+    "rack com painel 180cm",
+    "rack caemmun new oscar",
+    "rack freijó off white",
+    "rack com painel ripado",
+    "rack com portas deslizantes",
+    "rack para tv moderno",
+    "rack com painel 1,8m",
+    "rack caemmun 5ª colocação",
+    "rack com prateleira 25mm",
+    "rack mdf ripado",
+    "móvel para sala de estar",
+    "rack com painel e portas",
+    "rack design contemporâneo",
+    "rack para tv grande",
+    "rack 180x174cm",
+    "rack com fundo preto",
+    "rack peso 52kg",
+    "rack caemmun new oscar freijó",
+    "rack com painel ripado baixo relevo",
+    "rack organizador de eletrônicos"
+  ],
+  seoTitle: "Rack Caemmun New Oscar com Painel 1,8m Freijó/Off White",
+  seoDescription: "Rack com painel New Oscar 1,8m em Freijó/Off White, portas deslizantes ripadas e prateleira 25mm. 4.6★ (651 reviews). Oferta 24% OFF!"
+},
+{
+  id: "p-imp-105",
+  slug: "rack-tv-130cm-modular-mdf-preto-amadeirado-berlin-by-house",
+  category: "racks",
+  mainCategory: "sala",
+  name: "Rack TV 130cm Modular MDF Puxador Cava Preto/Amadeirado Berlin - By House",
+  imageFile: "/imagens/produtos/rack-tv-130cm-modular-mdf-preto-amadeirado-berlin-by-house.webp",
+  displayImage: "/imagens/produtos/rack-tv-130cm-modular-mdf-preto-amadeirado-berlin-by-house.webp",
+  alt: "Rack TV modular de 130cm em MDF com puxador cava nas cores preto e amadeirado modelo Berlin da By House",
+  rating: 4.6,
+  reviews: 381,
+  discount: 8,
+  price: 298.37,
+  originalPrice: 325.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2V75jtf",
+  descricao: `
+# Rack TV 130cm Modular MDF Puxador Cava Preto/Amadeirado Berlin - By House
+
+## 📌 Introdução
+
+O **Rack TV Berlin** da By House é a escolha perfeita para quem busca um móvel moderno, funcional e com design retrô/vintage para a sala de estar. Com acabamento em MDF e puxador cava, este rack modular combina a elegância do preto com o aconchego do tom amadeirado Berlin, criando um visual sofisticado e versátil que se adapta a diferentes estilos de decoração.
+
+Com 136 cm de largura, 52,4 cm de altura e 30 cm de profundidade, o rack Berlin oferece espaço suficiente para acomodar televisores de tamanho médio, além de equipamentos eletrônicos e objetos decorativos. Sua estrutura em madeira com portas em MDP/MDF garante durabilidade e resistência, enquanto o design com pés em madeira e passa-cabos integrado adiciona funcionalidade e praticidade ao dia a dia.
+
+## 📌 Principais Benefícios
+
+O **Rack TV Berlin** foi projetado para oferecer benefícios reais que transformam a experiência de organização e decoração da sua sala de estar.
+
+**Design retrô/vintage com puxador cava:** O estilo retrô/vintage é uma tendência forte na decoração de interiores, trazendo charme e personalidade ao ambiente. O puxador cava integrado ao design das portas confere um visual clean e sofisticado, sem puxadores aparentes.
+
+**Estrutura modular em MDF:** A estrutura modular em MDF oferece versatilidade e facilidade de montagem, permitindo que o rack se adapte a diferentes espaços e necessidades. O MDF é um material resistente e durável, com acabamento de alta qualidade.
+
+**Pés em madeira:** Os pés em madeira elevam o rack, facilitando a limpeza do piso e criando uma sensação de leveza visual. A madeira adiciona um toque natural e elegante ao design, complementando o acabamento amadeirado Berlin.
+
+**Passa-cabos integrado:** O rack conta com passa-cabos integrado, mantendo os fios organizados e fora da vista, garantindo um visual mais limpo e arrumado na sala de estar.
+
+**Portas com dobradiças metálicas:** As 2 portas com dobradiças metálicas abrem-se suavemente, revelando um espaço interno com 2 prateleiras para organizar aparelhos eletrônicos, controles, DVDs, livros e outros objetos.
+
+**Dimensões compactas:** Com 136 cm de largura e 30 cm de profundidade, o rack é ideal para salas compactas e apartamentos, oferecendo funcionalidade sem ocupar espaço excessivo.
+
+## 📌 Design
+
+O **Rack Berlin** apresenta um design retrô/vintage moderno e sofisticado que valoriza qualquer ambiente.
+
+**Combinação de cores Preto/Amadeirado Berlin:** A combinação do preto com o tom amadeirado Berlin cria um contraste elegante e versátil, que combina perfeitamente com diferentes estilos de decoração, do minimalista ao clássico.
+
+**Puxador cava integrado:** O puxador cava integrado ao design das portas confere um visual clean e sofisticado, sem puxadores aparentes, criando linhas retas e um design minimalista.
+
+**Design retrô/vintage:** O estilo retrô/vintage é uma tendência forte na decoração de interiores, trazendo charme e personalidade ao ambiente. O rack Berlin incorpora este estilo com elegância, sem perder a funcionalidade moderna.
+
+**Pés em madeira:** Os pés em madeira adicionam um toque natural e elegante ao design, elevando o rack e criando uma sensação de leveza visual.
+
+**Acabamento em MDF de alta qualidade:** O acabamento em MDF confere ao móvel uma superfície lisa e uniforme, com durabilidade e resistência para o uso diário.
+
+## 📌 Organização
+
+O **Rack Berlin** foi cuidadosamente planejado para oferecer organização eficiente na sala de estar.
+
+**Distribuição inteligente dos espaços:**
+
+**Superfície superior (136 cm x 30 cm):** A superfície superior oferece espaço amplo para acomodar televisores de tamanho médio, além de objetos decorativos, livros e outros itens.
+
+**Portas (2):** As duas portas com dobradiças metálicas abrem-se suavemente, revelando um espaço interno para organizar aparelhos eletrônicos, controles, DVDs, livros e outros objetos que precisam ficar protegidos da poeira.
+
+**Prateleiras (2):** As duas prateleiras internas oferecem divisão inteligente do espaço, permitindo organizar diferentes tipos de itens de forma prática e funcional.
+
+**Passa-cabos integrado:** O rack conta com passa-cabos integrado, mantendo os fios organizados e fora da vista, garantindo um visual mais limpo e arrumado.
+
+## 📌 Ideal para
+
+- **Salas de estar:** Peça principal que valoriza o ambiente
+- **Salas de TV e home theaters:** Suporte seguro para televisores
+- **Apartamentos compactos:** Dimensões que otimizam espaços
+- **Ambientes com estilo retrô/vintage:** Design charmoso e personalidade
+- **Decoração com contraste Preto/Amadeirado:** Combinação versátil e elegante
+- **Espaços que buscam organização:** Portas e prateleiras para equipamentos
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **rack TV Berlin By House** é especialmente recomendado para:
+
+**Pessoas que buscam um rack com design retrô/vintage e moderno.** A combinação de cores Preto/Amadeirado Berlin e o puxador cava integrado conferem um visual sofisticado e charmoso.
+
+**Quem possui uma TV de tamanho médio e busca um suporte seguro e elegante.** Com estrutura em madeira e portas em MDP/MDF, o rack Berlin oferece segurança e estilo.
+
+**Pessoas que valorizam funcionalidade e organização.** As 2 portas, 2 prateleiras e passa-cabos integrado oferecem organização eficiente para equipamentos e cabos.
+
+**Admiradores da marca By House.** Com mais de 25 vendas e 3ª colocação entre os racks da marca, o modelo Berlin é um dos mais confiáveis e bem avaliados do mercado.
+
+**Quem busca um rack compacto para espaços reduzidos.** Com 136 cm de largura e 30 cm de profundidade, o rack é ideal para salas compactas e apartamentos.
+
+## 📌 Diferenciais
+
+O **Rack Berlin By House** se destaca da concorrência por diversos motivos:
+
+**Design retrô/vintage com puxador cava:** O estilo retrô/vintage com puxador cava integrado confere um visual sofisticado e charmoso, diferenciando o rack de modelos mais tradicionais.
+
+**Combinação de cores Preto/Amadeirado Berlin:** A combinação do preto com o tom amadeirado Berlin cria um contraste elegante e versátil, que combina perfeitamente com diferentes estilos de decoração.
+
+**Estrutura modular em MDF:** A estrutura modular em MDF oferece versatilidade e facilidade de montagem, permitindo que o rack se adapte a diferentes espaços e necessidades.
+
+**Pés em madeira:** Os pés em madeira adicionam um toque natural e elegante ao design, elevando o rack e criando uma sensação de leveza visual.
+
+**Passa-cabos integrado:** O rack conta com passa-cabos integrado, mantendo os fios organizados e fora da vista, garantindo um visual mais limpo e arrumado.
+
+**Marca By House com 3ª colocação entre os racks:** A marca é reconhecida pela qualidade de seus produtos, com 3ª colocação entre os racks da marca.
+
+**Avaliação 4.6 estrelas com 381 reviews:** A excelente avaliação demonstra a qualidade consistente do produto.
+
+## 📌 Motivos para Comprar
+
+✅ **Design retrô/vintage com puxador cava** - sofisticação e charme
+
+✅ **Combinação Preto/Amadeirado Berlin** - contraste elegante e versátil
+
+✅ **Estrutura modular em MDF** - versatilidade e durabilidade
+
+✅ **2 portas com dobradiças metálicas** - durabilidade e suavidade no uso
+
+✅ **2 prateleiras internas** - organização inteligente
+
+✅ **Pés em madeira** - elegância e facilidade de limpeza
+
+✅ **Passa-cabos integrado** - fios organizados e fora da vista
+
+✅ **Dimensões compactas (136cm x 52,4cm x 30cm)** - ideal para espaços reduzidos
+
+✅ **Peso de 15 kg** - fácil manuseio
+
+✅ **Marca By House com 3ª colocação** - confiabilidade comprovada
+
+✅ **Avaliação 4.6 estrelas com 381 reviews** - excelente satisfação dos clientes
+
+✅ **8% de desconto** - bom custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos By House são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias para a instalação. A montagem é simples e pode ser realizada com ferramentas básicas.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas como chave de fenda e trena. O manual é detalhado e ilustrativo, facilitando o processo.
+
+**4. O rack tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca By House.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança na sua compra.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras, com total segurança e cuidado com seu produto.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor. O produto deve estar em sua embalagem original, sem sinais de uso.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito (à vista ou parcelados) e saldo do Mercado Pago. Consulte a página do anúncio para ver todas as opções disponíveis.
+
+**10. Como devo fazer a limpeza do rack?**
+
+Recomenda-se limpar o produto com pano seco para retirada do pó. Evite o uso de produtos abrasivos e o contato direto com a umidade, que podem danificar o acabamento em MDF.
+
+**11. O rack suporta TVs de qual tamanho?**
+
+O rack é ideal para televisores de tamanho médio, com estrutura robusta em madeira e portas em MDP/MDF.
+
+**12. O que devo fazer ao receber o produto?**
+
+Ao receber a mercadoria, verifique as condições da embalagem. Caso haja alguma avaria, não assine o comprovante de recebimento. Confira também as dimensões do produto e certifique-se de que passará normalmente por elevadores, portas, escadas e corredores.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | By House |
+| **Modelo** | Berlin |
+| **Tipo** | Rack TV Modular |
+| **Cor** | Preto / Amadeirado Berlin |
+| **Estilo** | Retrô/Vintage |
+| **Material da Estrutura** | Madeira |
+| **Material das Portas** | MDP/MDF |
+| **Material dos Pés** | Madeira |
+| **Puxador** | Cava (integrado) |
+| **Largura** | 136 cm |
+| **Altura** | 52,4 cm |
+| **Profundidade** | 30 cm |
+| **Peso** | 15 kg |
+| **Quantidade de Portas** | 2 |
+| **Quantidade de Prateleiras** | 2 |
+| **Passa-cabos** | Sim |
+| **Dobradiças** | Metálicas |
+| **Formato** | Rack |
+| **Com Rodas** | Não |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim (manual incluso) |
+| **Ambiente Principal** | Sala de Estar |
+| **Itens Inclusos** | 1 Rack / Acessórios de Montagem / Manual de Instruções |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Rack TV 130cm Modular MDF Puxador Cava Preto/Amadeirado Berlin - By House** é a escolha inteligente para quem busca um móvel que una design retrô/vintage, funcionalidade completa e excelente custo-benefício para a sala de estar. Com acabamento em MDF, puxador cava integrado, pés em madeira, 2 portas, 2 prateleiras e passa-cabos integrado, este rack oferece organização eficiente e um visual sofisticado para qualquer ambiente.
+
+A marca By House, com 3ª colocação entre os racks da marca e avaliação de 4,6 estrelas com 381 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. O design versátil e as dimensões compactas tornam o Berlin uma peça que se adapta a diferentes estilos de decoração e tamanhos de sala.
+
+Se você procura um rack que una design exclusivo, funcionalidade completa e durabilidade, o Berlin é a escolha certeira. Aproveite o desconto e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "By House",
+  keywords: [
+    "rack tv 130cm modular",
+    "rack berlin by house",
+    "rack preto amadeirado",
+    "rack com puxador cava",
+    "rack para tv moderno",
+    "rack retrô vintage",
+    "rack com 2 portas",
+    "rack com prateleiras",
+    "rack com passa cabos",
+    "rack by house 3ª colocação",
+    "móvel para sala de estar",
+    "rack para tv média",
+    "rack design contemporâneo",
+    "rack 136x52cm",
+    "rack com pés de madeira",
+    "rack modular mdf",
+    "rack peso 15kg",
+    "rack berlin preto amadeirado",
+    "rack organizador de eletrônicos",
+    "rack para apartamento"
+  ],
+  seoTitle: "Rack TV 130cm Modular MDF Puxador Cava Preto/Amadeirado Berlin | By House",
+  seoDescription: "Rack TV Berlin 130cm modular em MDF com puxador cava, 2 portas, prateleiras e passa-cabos. Estilo retrô/vintage. 4.6★ (381 reviews)."
+},
+{
+  id: "p-imp-106",
+  slug: "rack-bancada-fortaleza-220cm-4-portas-freijo-colibri-ate-75-polegadas",
+  category: "racks",
+  mainCategory: "sala",
+  name: "Rack Bancada Fortaleza 220cm 4 Portas Freijó Colibri para TV até 75 Polegadas",
+  imageFile: "/imagens/produtos/rack-bancada-fortaleza-220cm-4-portas-freijo-colibri-75-polegadas.webp",
+  displayImage: "/imagens/produtos/rack-bancada-fortaleza-220cm-4-portas-freijo-colibri-75-polegadas.webp",
+  alt: "Rack bancada Fortaleza da Colibri com 4 portas em freijó para TV até 75 polegadas",
+  rating: 4.8,
+  reviews: 334,
+  discount: 26,
+  price: 634.49,
+  originalPrice: 862.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1XcZYRY",
+  descricao: `
+# Rack Bancada Fortaleza 220cm 4 Portas Freijó Colibri para TV até 75 Polegadas
+
+## 📌 Introdução
+
+O **Rack Bancada Fortaleza** da Colibri é a escolha definitiva para quem busca um móvel que una design contemporâneo, elegância e funcionalidade excepcional para a sala de estar. Com estrutura robusta em MDP/MDF (25 e 15 mm) e acabamento em pintura UV texturizada, este rack foi projetado para acomodar televisores de até 75 polegadas com total segurança, oferecendo amplo espaço de armazenamento e organização.
+
+Com 220 cm de largura, 57 cm de altura e 40 cm de profundidade, o modelo Fortaleza se destaca pela presença imponente e pelo design sofisticado. As 4 portas de giro com dobradiças metálicas, os detalhes em ripados artesanal (baixo relevo), as prateleiras internas, os nichos centrais e os 5 pés em madeira maciça de 20 cm de altura criam um móvel completo que transforma qualquer ambiente.
+
+## 📌 Principais Benefícios
+
+O **Rack Bancada Fortaleza** foi projetado para oferecer benefícios reais que transformam a experiência de organização e decoração da sua sala de estar.
+
+**Design contemporâneo e elegante:** O encontro entre o contemporâneo e o elegante é a assinatura deste rack. As linhas clean, os detalhes em ripados artesanal (baixo relevo) e o acabamento em pintura UV texturizada criam um visual sofisticado que valoriza qualquer ambiente.
+
+**Suporte para TVs de até 75 polegadas:** Com estrutura robusta em MDP/MDF de 25 e 15 mm, o rack suporta até 74 kg de peso distribuídos, garantindo segurança para televisores de grande porte.
+
+**Acabamento em pintura UV texturizada:** A pintura UV confere ao móvel uma superfície extremamente resistente a riscos, manchas e desgaste, facilitando a manutenção e mantendo o aspecto bonito por muito mais tempo.
+
+**4 portas de giro com dobradiças metálicas:** As quatro portas com dobradiças metálicas abrem-se suavemente, oferecendo amplo espaço interno para organizar aparelhos eletrônicos, controles, DVDs, livros e outros objetos.
+
+**Pés em madeira maciça (20 cm):** Os 5 pés em madeira maciça elevam o rack, facilitando a limpeza do piso e criando uma sensação de leveza visual. A madeira maciça garante maior durabilidade e estabilidade.
+
+**Prateleiras internas e nichos centrais:** Com 3 prateleiras internas e nichos centrais, o rack oferece organização inteligente para diferentes tipos de itens, mantendo tudo em ordem e de fácil acesso.
+
+## 📌 Design
+
+O **Rack Fortaleza** apresenta um design contemporâneo e elegante que valoriza qualquer ambiente.
+
+**Acabamento em pintura UV texturizada:** A pintura UV confere ao móvel um acabamento uniforme, resistente e durável, com uma textura agradável ao toque que valoriza a cor Freijó. O processo de cura por luz ultravioleta garante alta resistência a riscos e manchas.
+
+**Detalhes em ripados artesanal (baixo relevo):** Os ripados artesanal em baixo relevo adicionam um toque de sofisticação e exclusividade ao design, criando textura e profundidade que valorizam o móvel.
+
+**Pés em madeira maciça:** Os 5 pés em madeira maciça com 20 cm de altura elevam o rack, proporcionando estabilidade e um contraste natural com o acabamento Freijó. A madeira maciça garante durabilidade e resistência.
+
+**Dimensões generosas:** Com 220 cm de largura, 57 cm de altura e 40 cm de profundidade, o rack oferece uma presença imponente na sala, com espaço suficiente para acomodar uma TV de até 75 polegadas.
+
+**Linhas clean e modernas:** O design com linhas retas e acabamento sofisticado torna o rack versátil, combinando com diferentes estilos de decoração, do minimalista ao clássico.
+
+## 📌 Organização
+
+O **Rack Fortaleza** foi cuidadosamente planejado para oferecer organização eficiente na sala de estar.
+
+**Distribuição inteligente dos espaços:**
+
+**Superfície superior (220 cm x 40 cm):** A superfície superior oferece espaço amplo e seguro para acomodar televisores de até 75 polegadas, além de objetos decorativos, livros e outros itens.
+
+**Portas (4):** As quatro portas de giro com dobradiças metálicas abrem-se suavemente, revelando um espaço interno para organizar aparelhos eletrônicos, controles, DVDs, livros e outros objetos que precisam ficar protegidos da poeira.
+
+**Prateleiras internas (3):** As três prateleiras internas oferecem divisão inteligente do espaço, permitindo organizar diferentes tipos de itens de forma prática e funcional.
+
+**Nichos centrais:** Os nichos centrais são perfeitos para expor objetos decorativos, livros, plantas ou outros itens que você deseja manter à vista, adicionando personalidade ao ambiente.
+
+**Espaçamento para passagem de fios:** O rack conta com espaçamento para passagem de fios, mantendo os cabos organizados e fora da vista, garantindo um visual mais limpo e arrumado.
+
+## 📌 Ideal para
+
+- **Salas de estar:** Peça principal que valoriza o ambiente
+- **Salas de TV e home theaters:** Suporte seguro para televisores de até 75 polegadas
+- **Apartamentos modernos:** Design sofisticado que combina com decorações contemporâneas
+- **Ambientes que buscam elegância:** Acabamento premium e detalhes exclusivos
+- **Espaços que valorizam organização:** 4 portas e 3 prateleiras para equipamentos
+- **Decoração com estilo natural:** Cor Freijó que traz aconchego e sofisticação
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **rack bancada Fortaleza Colibri** é especialmente recomendado para:
+
+**Pessoas que buscam um rack com design contemporâneo e elegante.** O acabamento em pintura UV texturizada, os detalhes em ripados artesanal e os pés em madeira maciça conferem um visual premium e exclusivo.
+
+**Quem possui uma TV de até 75 polegadas e busca um suporte seguro e estável.** Com capacidade de 74 kg e estrutura robusta em MDP/MDF, o rack Fortaleza oferece segurança para televisores de grande porte.
+
+**Pessoas que valorizam acabamento de qualidade e durabilidade.** A pintura UV texturizada oferece alta resistência a riscos e manchas, mantendo o móvel bonito por muitos anos.
+
+**Admiradores da marca Colibri.** Com mais de 1000 vendas e 2ª colocação entre os racks da marca, o modelo Fortaleza é um dos mais confiáveis e bem avaliados do mercado.
+
+**Quem busca um rack com grande capacidade de armazenamento.** Com 4 portas, 3 prateleiras e nichos centrais, o rack oferece organização completa para equipamentos e objetos decorativos.
+
+## 📌 Diferenciais
+
+O **Rack Bancada Fortaleza Colibri** se destaca da concorrência por diversos motivos:
+
+**Estrutura em MDP/MDF 25 e 15 mm:** A combinação de espessuras de 25 e 15 mm garante alta resistência e durabilidade, superando racks com materiais de qualidade inferior.
+
+**Acabamento em pintura UV texturizada:** A pintura UV confere ao móvel uma superfície extremamente resistente a riscos, manchas e desgaste, superior à pintura convencional.
+
+**Detalhes em ripados artesanal (baixo relevo):** Os ripados em baixo relevo adicionam um toque de sofisticação e exclusividade ao design, criando textura e profundidade que valorizam o móvel.
+
+**Pés em madeira maciça (20 cm):** A utilização de madeira maciça nos pés garante maior durabilidade e estabilidade, além de adicionar um toque natural e elegante ao design.
+
+**Suporte para TVs de até 75 polegadas:** Com capacidade de 74 kg, o rack oferece suporte seguro para televisores de grande porte, atendendo às necessidades da maioria dos lares brasileiros.
+
+**Marca Colibri com mais de 1000 vendas:** A reputação da marca e o alto volume de vendas comprovam a confiabilidade e a satisfação dos clientes.
+
+**Avaliação 4.8 estrelas com 334 reviews:** A excelente avaliação demonstra a qualidade consistente do produto.
+
+## 📌 Motivos para Comprar
+
+✅ **Design contemporâneo com ripados artesanal** - sofisticação e exclusividade
+
+✅ **Suporte para TVs de até 75 polegadas** - segurança para televisores de grande porte
+
+✅ **Acabamento em pintura UV texturizada** - resistente a riscos e manchas
+
+✅ **4 portas de giro com dobradiças metálicas** - durabilidade e suavidade no uso
+
+✅ **3 prateleiras internas** - organização inteligente
+
+✅ **Nichos centrais** - espaço para objetos decorativos
+
+✅ **Pés em madeira maciça (20 cm)** - estabilidade e elegância
+
+✅ **Estrutura em MDP/MDF 25 e 15 mm** - resistência e durabilidade
+
+✅ **Dimensões generosas (220cm x 57cm x 40cm)** - presença imponente na sala
+
+✅ **Peso suportado de 74 kg** - capacidade para diversos equipamentos
+
+✅ **Marca Colibri com mais de 1000 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.8 estrelas com 334 reviews** - excelente satisfação dos clientes
+
+✅ **26% de desconto no Pix** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Colibri são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias para a instalação (parafusos, cavilhas e minifix). A montagem é simples e pode ser realizada com ferramentas básicas.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas como chave de fenda e trena. O manual é detalhado e ilustrativo, facilitando o processo. Recomendamos a ajuda de outra pessoa devido ao tamanho do móvel.
+
+**4. O rack tem garantia?**
+
+Sim, o produto possui garantia contra defeitos de fabricação de acordo com as políticas da marca Colibri.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança na sua compra.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras, com total segurança e cuidado com seu produto.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor. O produto deve estar em sua embalagem original, sem sinais de uso.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito (à vista ou parcelados) e saldo do Mercado Pago. Consulte a página do anúncio para ver todas as opções disponíveis.
+
+**10. Como devo fazer a limpeza do rack?**
+
+Recomenda-se limpar o produto com pano seco para retirada do pó. Evite o uso de produtos abrasivos e o contato direto com a umidade, que podem danificar o acabamento em pintura UV.
+
+**11. O rack suporta TVs de qual tamanho?**
+
+O rack suporta TVs de até 75 polegadas, com peso máximo de 74 kg distribuídos sobre a superfície.
+
+**12. O que devo fazer ao receber o produto?**
+
+Ao receber a mercadoria, verifique as condições da embalagem. Caso haja alguma avaria, não assine o comprovante de recebimento. Confira também as dimensões do produto e certifique-se de que passará normalmente por elevadores, portas, escadas e corredores.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Colibri |
+| **Modelo** | Fortaleza |
+| **Tipo** | Rack Bancada |
+| **Cor** | Freijó |
+| **Acabamento** | Pintura UV Texturizada |
+| **Material Principal** | MDP/MDF (25 e 15 mm) |
+| **Material dos Pés** | Madeira Maciça |
+| **Dobradiças** | Metálicas |
+| **Altura** | 57 cm |
+| **Largura** | 220 cm |
+| **Profundidade** | 40 cm |
+| **Peso Máximo Suportado** | 74 kg (distribuídos) |
+| **Quantidade de Portas** | 4 portas (giro) |
+| **Quantidade de Prateleiras** | 3 prateleiras |
+| **Nichos Centrais** | Sim |
+| **Detalhes** | Ripados artesanal (baixo relevo) |
+| **Pés** | 5 pés em madeira maciça (20 cm) |
+| **Suporte para TV** | Até 75 polegadas |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim (manual incluso) |
+| **Estilo** | Contemporâneo |
+| **Ambiente Principal** | Sala de Estar |
+| **Itens Inclusos** | 1 Rack / Acessórios de Montagem / Manual de Instruções |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Rack Bancada Fortaleza 220cm 4 Portas Freijó Colibri** é a escolha definitiva para quem busca um móvel que una design contemporâneo, elegância e funcionalidade completa para a sala de estar. Com estrutura em MDP/MDF de 25 e 15 mm, acabamento em pintura UV texturizada, 4 portas de giro, 3 prateleiras internas, nichos centrais, detalhes em ripados artesanal e pés em madeira maciça, este rack oferece organização eficiente e um visual sofisticado para qualquer ambiente.
+
+A marca Colibri, com mais de 1000 vendas e avaliação de 4,8 estrelas com 334 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. O design versátil e as dimensões generosas tornam o Fortaleza uma peça que se adapta a diferentes estilos de decoração e tamanhos de sala.
+
+Se você procura um rack que una design exclusivo, funcionalidade completa e durabilidade, o Fortaleza é a escolha certeira. Aproveite o desconto de 26% no pagamento via Pix e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Colibri",
+  keywords: [
+    "rack bancada fortaleza 220cm",
+    "rack colibri 4 portas freijó",
+    "rack para tv 75 polegadas",
+    "rack com pés de madeira maciça",
+    "rack com 4 portas e prateleiras",
+    "rack design contemporâneo",
+    "rack pintura uv texturizada",
+    "rack colibri 2ª colocação",
+    "rack com ripados artesanal",
+    "móvel para sala de estar",
+    "rack para tv grande",
+    "rack 220x57x40cm",
+    "rack com nichos centrais",
+    "rack suporte 74kg",
+    "rack freijó madeira",
+    "rack com 3 prateleiras internas",
+    "rack fortaleza colibri",
+    "rack elegante para sala",
+    "rack com pés 20cm",
+    "rack para home theater"
+  ],
+  seoTitle: "Rack Bancada Fortaleza 220cm 4 Portas Freijó para TV 75\" | Colibri",
+  seoDescription: "Rack bancada Fortaleza com 4 portas, 3 prateleiras e pés em madeira maciça. Suporte para TV até 75 polegadas. 4.8★ (334 reviews). Oferta 26% OFF!"
+},
+{
+  id: "p-imp-107",
+  slug: "rack-ripado-valencia-220cm-2-portas-naturalle-mavaular-ate-85-polegadas",
+  category: "racks",
+  mainCategory: "sala",
+  name: "Rack Ripado Valência 220cm 2 Portas Naturalle Mavaular para TV até 85 Polegadas",
+  imageFile: "/imagens/produtos/rack-ripado-valencia-220cm-2-portas-naturalle-mavaular-85-polegadas.webp",
+  displayImage: "/imagens/produtos/rack-ripado-valencia-220cm-2-portas-naturalle-mavaular-85-polegadas.webp",
+  alt: "Rack ripado Valência da Mavaular com 2 portas em Naturalle para TV até 85 polegadas",
+  rating: 4.9,
+  reviews: 184,
+  discount: 15,
+  price: 739.99,
+  originalPrice: 874.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2q8chKG",
+  descricao: `
+# Rack Ripado Valência 220cm 2 Portas Naturalle Mavaular para TV até 85 Polegadas
+
+## 📌 Introdução
+
+Transforme sua sala com o **Rack Valência** da Mavaular. Desenhado para ser o ponto focal do ambiente, este móvel é a escolha ideal para quem busca um design moderno e funcionalidade para acomodar TVs de grande porte, suportando até 85 polegadas. Com 220 cm de largura, 53,5 cm de altura e 36,5 cm de profundidade, o rack Valência oferece uma presença imponente e elegante na sala de estar.
+
+O grande destaque do Rack Valência é o seu design sofisticado, que inclui portas com detalhe ripado. Essa textura não é apenas uma tendência, mas também adiciona elegância e personalidade ao ambiente. Fabricado em 100% MDF com acabamento em pintura UV fosca, ele garante durabilidade e um visual refinado que valoriza qualquer decoração.
+
+## 📌 Principais Benefícios
+
+O **Rack Valência** foi projetado para oferecer benefícios reais que transformam a experiência de organização e decoração da sua sala de estar.
+
+**Design com portas ripadas:** O detalhe ripado nas portas é uma tendência forte na decoração de interiores, adicionando textura, elegância e personalidade ao ambiente. O design sofisticado torna o rack o ponto focal da sala.
+
+**Suporte para TVs de até 85 polegadas:** Com estrutura robusta em 100% MDF, o rack oferece suporte seguro para televisores de até 85 polegadas, atendendo às necessidades de quem busca uma experiência cinematográfica em casa.
+
+**Acabamento em pintura UV fosca:** A pintura UV fosca confere ao móvel um acabamento sofisticado e resistente, com alta durabilidade e facilidade de manutenção. O acabamento fosco é elegante e combina com diferentes estilos de decoração.
+
+**Organização inteligente:** Com 2 portas espaçosas e 1 prateleira interna, o rack oferece espaço para organizar aparelhos eletrônicos, controles, DVDs, livros e outros objetos. Os nichos centrais são perfeitos para aparelhos receptores ou para expor objetos de decoração favoritos.
+
+**Fabricado em 100% MDF:** O MDF é um material de alta qualidade, resistente e durável, com acabamento liso e uniforme que garante um visual refinado e duradouro.
+
+**Design moderno e versátil:** Com linhas clean e acabamento em Naturalle, o rack combina com diferentes estilos de decoração, do minimalista ao contemporâneo.
+
+## 📌 Design
+
+O **Rack Valência** apresenta um design moderno e sofisticado que valoriza qualquer ambiente.
+
+**Portas com detalhe ripado:** O detalhe ripado nas portas adiciona textura, profundidade e elegância ao design, criando um visual contemporâneo e sofisticado. O ripado é uma tendência forte na decoração de interiores, adicionando personalidade e charme ao ambiente.
+
+**Acabamento em pintura UV fosca:** A pintura UV fosca confere ao móvel um acabamento uniforme, resistente e durável, com um toque sofisticado e elegante. O acabamento fosco é versátil e combina com diferentes estilos de decoração.
+
+**Cor Naturalle:** A cor Naturalle, um tom amadeirado suave e sofisticado, traz aconchego e naturalidade ao ambiente, combinando perfeitamente com diferentes estilos de decoração.
+
+**Dimensões generosas:** Com 220 cm de largura, 53,5 cm de altura e 36,5 cm de profundidade, o rack oferece uma presença imponente na sala, com espaço suficiente para acomodar uma TV de até 85 polegadas.
+
+**Linhas clean e modernas:** O design com linhas retas e acabamento sofisticado torna o rack versátil, combinando com diferentes estilos de decoração, do minimalista ao clássico.
+
+## 📌 Organização
+
+O **Rack Valência** foi cuidadosamente planejado para oferecer organização eficiente na sala de estar.
+
+**Distribuição inteligente dos espaços:**
+
+**Superfície superior (220 cm x 36,5 cm):** A superfície superior oferece espaço amplo e seguro para acomodar televisores de até 85 polegadas, além de objetos decorativos, livros e outros itens.
+
+**Portas (2):** As duas portas com detalhe ripado abrem-se suavemente, revelando um espaço interno com 1 prateleira para organizar aparelhos eletrônicos, controles, DVDs, livros e outros objetos que precisam ficar protegidos da poeira.
+
+**Prateleira interna (1):** A prateleira interna oferece divisão inteligente do espaço, permitindo organizar diferentes tipos de itens de forma prática e funcional, com capacidade de até 10 kg.
+
+**Nichos centrais:** Os nichos centrais são perfeitos para acomodar aparelhos receptores, videogames, decodificadores de TV ou para expor objetos decorativos, livros, plantas ou outros itens que você deseja manter à vista.
+
+**Espaçamento para passagem de fios:** O rack conta com espaçamento para passagem de fios, mantendo os cabos organizados e fora da vista, garantindo um visual mais limpo e arrumado.
+
+## 📌 Ideal para
+
+- **Salas de estar:** Peça principal que valoriza o ambiente
+- **Salas de TV e home theaters:** Suporte seguro para televisores de até 85 polegadas
+- **Apartamentos modernos:** Design sofisticado que combina com decorações contemporâneas
+- **Ambientes que buscam design ripado:** Tendência forte na decoração de interiores
+- **Espaços que valorizam organização:** 2 portas e nichos para equipamentos
+- **Decoração com estilo natural:** Cor Naturalle que traz aconchego e sofisticação
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **rack ripado Valência Mavaular** é especialmente recomendado para:
+
+**Pessoas que buscam um rack com design moderno e portas ripadas.** O detalhe ripado adiciona textura, elegância e personalidade ao ambiente, tornando o rack o ponto focal da sala.
+
+**Quem possui uma TV de até 85 polegadas e busca um suporte seguro e elegante.** Com estrutura robusta em 100% MDF, o rack Valência oferece segurança para televisores de grande porte.
+
+**Pessoas que valorizam acabamento de qualidade e durabilidade.** A pintura UV fosca oferece alta resistência e um visual refinado, mantendo o móvel bonito por muitos anos.
+
+**Admiradores da marca Mavaular.** Com mais de 500 vendas e 7ª colocação entre os racks da marca, o modelo Valência é um dos mais confiáveis e bem avaliados do mercado.
+
+**Quem busca um rack com nichos centrais para equipamentos e decoração.** Os nichos centrais são perfeitos para aparelhos receptores ou para expor objetos decorativos favoritos.
+
+## 📌 Diferenciais
+
+O **Rack Ripado Valência Mavaular** se destaca da concorrência por diversos motivos:
+
+**Portas com detalhe ripado:** O detalhe ripado nas portas adiciona textura, profundidade e elegância ao design, criando um visual contemporâneo e sofisticado que poucos racks oferecem.
+
+**Fabricado em 100% MDF:** O MDF é um material de alta qualidade, resistente e durável, com acabamento liso e uniforme que garante um visual refinado e duradouro, superior a materiais como MDP.
+
+**Acabamento em pintura UV fosca:** A pintura UV fosca confere ao móvel um acabamento uniforme, resistente e durável, com um toque sofisticado e elegante.
+
+**Suporte para TVs de até 85 polegadas:** Com estrutura robusta em 100% MDF, o rack oferece suporte seguro para televisores de até 85 polegadas, atendendo às necessidades de quem busca uma experiência cinematográfica em casa.
+
+**Nichos centrais para equipamentos e decoração:** Os nichos centrais oferecem versatilidade para acomodar aparelhos eletrônicos ou expor objetos decorativos, tornando o rack uma solução completa para o entretenimento.
+
+**Marca Mavaular com mais de 500 vendas:** A reputação da marca e o alto volume de vendas comprovam a confiabilidade e a satisfação dos clientes.
+
+**Avaliação 4.9 estrelas com 184 reviews:** A excelente avaliação demonstra a qualidade consistente do produto.
+
+## 📌 Motivos para Comprar
+
+✅ **Portas com detalhe ripado** - design moderno e sofisticado
+
+✅ **Suporte para TVs de até 85 polegadas** - segurança para televisores de grande porte
+
+✅ **Acabamento em pintura UV fosca** - resistente e visual refinado
+
+✅ **Fabricado em 100% MDF** - qualidade e durabilidade
+
+✅ **2 portas espaçosas** - organização para equipamentos
+
+✅ **1 prateleira interna (10 kg)** - divisão inteligente do espaço
+
+✅ **Nichos centrais** - versatilidade para equipamentos e decoração
+
+✅ **Cor Naturalle** - aconchego e sofisticação
+
+✅ **Dimensões generosas (220cm x 53,5cm x 36,5cm)** - presença imponente na sala
+
+✅ **Peso de 39,8 kg** - estrutura robusta e estável
+
+✅ **Marca Mavaular com mais de 500 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.9 estrelas com 184 reviews** - excelente satisfação dos clientes
+
+✅ **15% de desconto** - bom custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Mavaular são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias para a instalação. A montagem é simples e pode ser realizada com ferramentas básicas.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas como chave de fenda e trena. O manual é detalhado e ilustrativo, facilitando o processo. Recomendamos a ajuda de outra pessoa devido ao tamanho do móvel.
+
+**4. O rack tem garantia?**
+
+Sim, o produto possui garantia de 3 meses contra defeitos de fabricação.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança na sua compra.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras, com total segurança e cuidado com seu produto.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor. O produto deve estar em sua embalagem original, sem sinais de uso.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito (à vista ou parcelados) e saldo do Mercado Pago.
+
+**10. Como devo fazer a limpeza do rack?**
+
+Recomenda-se limpar o produto com pano seco para retirada do pó. Evite o uso de produtos abrasivos e o contato direto com a umidade, que podem danificar o acabamento em pintura UV.
+
+**11. O rack suporta TVs de qual tamanho?**
+
+O rack suporta TVs de até 85 polegadas, com estrutura robusta em 100% MDF.
+
+**12. O que devo fazer ao receber o produto?**
+
+Ao receber a mercadoria, verifique as condições da embalagem. Caso haja alguma avaria, não assine o comprovante de recebimento. Confira também as dimensões do produto e certifique-se de que passará normalmente por elevadores, portas, escadas e corredores.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Mavaular |
+| **Linha/Coleção** | Valência |
+| **Tipo** | Rack Ripado para TV |
+| **Cor** | Naturalle |
+| **Acabamento** | Pintura UV Fosca |
+| **Material** | 100% MDF |
+| **Estilo** | Moderno |
+| **Altura** | 53,5 cm |
+| **Largura** | 220 cm |
+| **Profundidade** | 36,5 cm |
+| **Peso** | 39,8 kg |
+| **Peso Máximo Suportado** | 30 kg |
+| **Quantidade de Portas** | 2 portas |
+| **Quantidade de Prateleiras** | 1 prateleira (10 kg) |
+| **Nichos Centrais** | Sim |
+| **Porta** | Ripada |
+| **Ideal para TVs até** | 85 polegadas |
+| **Possui Pés** | Não |
+| **Possui Rodízio** | Não |
+| **Possui Iluminação** | Não |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim (complexidade média) |
+| **Ambiente Principal** | Sala de Estar |
+| **Garantia** | 3 meses |
+| **Itens Inclusos** | 1 Rack / Acessórios de Montagem / Manual de Instruções |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Rack Ripado Valência 220cm 2 Portas Naturalle Mavaular** é a escolha definitiva para quem busca um móvel que una design moderno, sofisticação e funcionalidade completa para a sala de estar. Com portas com detalhe ripado, fabricado em 100% MDF, acabamento em pintura UV fosca, 2 portas espaçosas, 1 prateleira interna e nichos centrais, este rack oferece organização eficiente e um visual sofisticado para qualquer ambiente.
+
+A marca Mavaular, com mais de 500 vendas e avaliação de 4,9 estrelas com 184 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. O design versátil e as dimensões generosas tornam o Valência uma peça que se adapta a diferentes estilos de decoração e tamanhos de sala.
+
+Se você procura um rack que una design exclusivo, funcionalidade completa e durabilidade, o Valência é a escolha certeira. Aproveite o desconto de 15% e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Mavaular",
+  keywords: [
+    "rack ripado valência 220cm",
+    "rack mavaular 2 portas naturalle",
+    "rack para tv 85 polegadas",
+    "rack com portas ripadas",
+    "rack 100% mdf",
+    "rack pintura uv fosca",
+    "rack mavaular 7ª colocação",
+    "rack com nichos centrais",
+    "móvel para sala de estar",
+    "rack para tv grande",
+    "rack 220x53cm",
+    "rack suporte 30kg",
+    "rack naturalle madeira",
+    "rack com prateleira interna",
+    "rack valência mavaular",
+    "rack design moderno",
+    "rack para home theater",
+    "rack com 2 portas ripadas",
+    "rack elegante para sala",
+    "rack 220cm de largura"
+  ],
+  seoTitle: "Rack Ripado Valência 220cm 2 Portas para TV 85\" | Mavaular",
+  seoDescription: "Rack ripado Valência com 2 portas, 1 prateleira e nichos centrais. 100% MDF, pintura UV fosca, suporte TV até 85\". 4.9★ (184 reviews)."
+},
+{
+  id: "p-imp-108",
+  slug: "rack-nobre-209cm-led-pes-vidro-off-white-gelius-ate-85-polegadas",
+  category: "racks",
+  mainCategory: "sala",
+  name: "Rack Nobre 209cm com LED e Pés de Vidro Off White/Naturale Gelius para TV até 85\"",
+  imageFile: "/imagens/produtos/rack-nobre-209cm-led-pes-vidro-off-white-gelius-85-polegadas.webp",
+  displayImage: "/imagens/produtos/rack-nobre-209cm-led-pes-vidro-off-white-gelius-85-polegadas.webp",
+  alt: "Rack Nobre com LED e pés de vidro em Off White/Naturale da Gelius para TV até 85 polegadas",
+  rating: 4.7,
+  reviews: 158,
+  discount: 18,
+  price: 819.00,
+  originalPrice: 999.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1XcZYRY",
+  descricao: `
+# Rack Nobre 209cm com LED e Pés de Vidro Off White/Naturale Gelius para TV até 85"
+
+## 📌 Introdução
+
+Eleve o nível da sua sala de estar com o **Rack Nobre** da Gelius Móveis, uma peça que une a tendência do design orgânico à robustez necessária para grandes eletrônicos. Se você busca modernidade, este móvel com formas curvas e acabamento impecável é a escolha certa para transformar sua decoração.
+
+O grande destaque deste modelo são seus **pés em vidro maciço**, que conferem leveza e uma estética flutuante ao móvel. Além disso, o rack conta com **iluminação LED em luz quente**, criando uma atmosfera aconchegante e destacando os detalhes da peça e do ambiente. Fabricado em 100% MDF, o Rack Nobre é estruturado para suportar TVs de até 85 polegadas.
+
+## 📌 Principais Benefícios
+
+O **Rack Nobre** foi projetado para oferecer benefícios reais que transformam a experiência de organização e decoração da sua sala de estar.
+
+**Design orgânico com pés em vidro maciço:** As formas curvas e os pés em vidro maciço conferem leveza e uma estética flutuante ao móvel, criando um visual moderno e sofisticado que impressiona. O vidro traz elegância e transparência, valorizando o ambiente.
+
+**Iluminação LED em luz quente integrada:** A fita de LED inclusa em luz quente cria uma atmosfera aconchegante e destaca os detalhes da peça e do ambiente. A iluminação valoriza o design curvo e os pés de vidro, criando um efeito visual incrível.
+
+**Fabricado em 100% MDF:** O MDF é um material de alta qualidade, resistente e durável, com acabamento liso e uniforme que garante um visual refinado e duradouro.
+
+**Suporte para TVs de até 85 polegadas:** Com estrutura robusta em 100% MDF, o rack oferece suporte seguro para televisores de até 85 polegadas, atendendo às necessidades de quem busca uma experiência cinematográfica em casa.
+
+**Organização inteligente:** Com 2 portas de bater e 1 gaveta central equipada com corrediças telescópicas, o rack oferece amplo espaço para organizar aparelhos eletrônicos, controles, cabos e acessórios, mantendo o visual da sala sempre limpo.
+
+**Acabamento em pintura UV brilhante:** A pintura UV confere ao móvel um acabamento brilhante, resistente e durável, com alta resistência a riscos e manchas, mantendo o aspecto bonito por muito mais tempo.
+
+## 📌 Design
+
+O **Rack Nobre** apresenta um design orgânico e sofisticado que valoriza qualquer ambiente.
+
+**Design orgânico com formas curvas:** As formas curvas são uma tendência forte na decoração de interiores, trazendo suavidade e elegância ao ambiente. O design orgânico do Rack Nobre cria um visual moderno e acolhedor.
+
+**Pés em vidro maciço:** Os pés em vidro maciço conferem leveza e uma estética flutuante ao móvel, criando um efeito visual impressionante. O vidro adiciona elegância e transparência, valorizando o ambiente.
+
+**Iluminação LED em luz quente:** A fita de LED em luz quente integrada cria uma atmosfera aconchegante e destaca os detalhes da peça e do ambiente. A iluminação valoriza o design curvo e os pés de vidro.
+
+**Acabamento em pintura UV brilhante:** A pintura UV brilhante confere ao móvel um acabamento premium, com alto brilho e resistência. O acabamento brilhante reflete a luz, ampliando visualmente o ambiente.
+
+**Cor Off White/Naturale:** A combinação de Off White e Naturale cria um visual harmônico e versátil, que combina perfeitamente com diferentes estilos de decoração, do clássico ao contemporâneo.
+
+**Dimensões generosas:** Com 209,5 cm de largura, 60 cm de altura e 40 cm de profundidade, o rack oferece uma presença imponente na sala, com espaço suficiente para acomodar uma TV de até 85 polegadas.
+
+## 📌 Organização
+
+O **Rack Nobre** foi cuidadosamente planejado para oferecer organização eficiente na sala de estar.
+
+**Distribuição inteligente dos espaços:**
+
+**Superfície superior (209,5 cm x 40 cm):** A superfície superior oferece espaço amplo e seguro para acomodar televisores de até 85 polegadas, além de objetos decorativos, livros e outros itens.
+
+**Portas (2):** As duas portas de bater com dobradiças metálicas abrem-se suavemente, revelando amplo espaço interno para organizar aparelhos eletrônicos, controles, DVDs, livros e outros objetos que precisam ficar protegidos da poeira.
+
+**Gaveta central (1):** A gaveta central equipada com corrediças telescópicas metálicas é ideal para organizar controles remotos, cabos, documentos e pequenos acessórios, com capacidade de até 5 kg.
+
+**Iluminação LED:** A fita de LED em luz quente integrada valoriza o design do rack e cria uma atmosfera aconchegante, destacando os detalhes da peça e do ambiente.
+
+## 📌 Ideal para
+
+- **Salas de estar:** Peça principal que valoriza o ambiente
+- **Salas de TV e home theaters:** Suporte seguro para televisores de até 85 polegadas
+- **Ambientes modernos:** Design orgânico com formas curvas e pés de vidro
+- **Decoração sofisticada:** Acabamento premium e iluminação LED integrada
+- **Espaços que valorizam design:** Peça única que impressiona
+- **Ambientes que buscam aconchego:** Iluminação LED em luz quente
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este **rack Nobre Gelius Móveis** é especialmente recomendado para:
+
+**Pessoas que buscam um rack com design exclusivo e sofisticado.** As formas curvas, os pés em vidro maciço e a iluminação LED integrada conferem um visual premium e diferenciado.
+
+**Quem possui uma TV de até 85 polegadas e busca um suporte seguro e elegante.** Com estrutura robusta em 100% MDF, o rack Nobre oferece segurança para televisores de grande porte.
+
+**Pessoas que valorizam acabamento de qualidade e iluminação integrada.** A pintura UV brilhante e a fita de LED em luz quente criam um ambiente sofisticado e acolhedor.
+
+**Admiradores da marca Gelius Móveis.** Com mais de 100 vendas e 10ª colocação entre os racks da marca, o modelo Nobre é um dos mais confiáveis e bem avaliados do mercado.
+
+**Quem busca um rack com gaveta telescópica para organização.** A gaveta central com corrediças telescópicas é ideal para organizar controles, cabos e acessórios.
+
+## 📌 Diferenciais
+
+O **Rack Nobre Gelius Móveis** se destaca da concorrência por diversos motivos:
+
+**Pés em vidro maciço:** Os pés em vidro maciço conferem leveza e uma estética flutuante ao móvel, criando um efeito visual impressionante que poucos racks oferecem. O vidro adiciona elegância e transparência.
+
+**Iluminação LED em luz quente integrada:** A fita de LED em luz quente é um diferencial que cria uma atmosfera aconchegante e destaca os detalhes da peça, valorizando o design curvo e os pés de vidro.
+
+**Design orgânico com formas curvas:** As formas curvas são uma tendência forte na decoração de interiores, trazendo suavidade e elegância ao ambiente.
+
+**Fabricado em 100% MDF:** O MDF é um material de alta qualidade, resistente e durável, superior a materiais como MDP.
+
+**Acabamento em pintura UV brilhante:** A pintura UV brilhante confere ao móvel um acabamento premium, com alto brilho e resistência.
+
+**Gaveta com corrediças telescópicas:** A gaveta central equipada com corrediças telescópicas metálicas oferece organização eficiente e abertura suave.
+
+**Marca Gelius Móveis com mais de 100 vendas:** A reputação da marca e o alto volume de vendas comprovam a confiabilidade e a satisfação dos clientes.
+
+**Avaliação 4.7 estrelas com 158 reviews:** A excelente avaliação demonstra a qualidade consistente do produto.
+
+## 📌 Motivos para Comprar
+
+✅ **Pés em vidro maciço** - leveza e estética flutuante
+
+✅ **Iluminação LED em luz quente integrada** - atmosfera aconchegante
+
+✅ **Design orgânico com formas curvas** - modernidade e sofisticação
+
+✅ **Suporte para TVs de até 85 polegadas** - segurança para televisores de grande porte
+
+✅ **Fabricado em 100% MDF** - qualidade e durabilidade
+
+✅ **Acabamento em pintura UV brilhante** - resistente e premium
+
+✅ **2 portas de bater com dobradiças metálicas** - durabilidade e suavidade no uso
+
+✅ **1 gaveta com corrediças telescópicas (5 kg)** - organização eficiente
+
+✅ **Cor Off White/Naturale** - visual harmônico e versátil
+
+✅ **Dimensões generosas (209,5cm x 60cm x 40cm)** - presença imponente na sala
+
+✅ **Peso de 49 kg** - estrutura robusta e estável
+
+✅ **Marca Gelius Móveis com mais de 100 vendas** - confiabilidade comprovada
+
+✅ **Avaliação 4.7 estrelas com 158 reviews** - excelente satisfação dos clientes
+
+✅ **18% de desconto** - bom custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+
+Sim, todos os produtos Gelius Móveis são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias para a instalação. A montagem é simples e pode ser realizada com ferramentas básicas.
+
+**3. A montagem é difícil? Preciso de ferramentas especiais?**
+
+A montagem pode ser realizada com ferramentas básicas como chave de fenda e trena. O manual é detalhado e ilustrativo, facilitando o processo. Recomendamos a ajuda de outra pessoa devido ao tamanho do móvel.
+
+**4. O rack tem garantia?**
+
+Sim, o produto possui garantia de 3 meses contra defeitos de fabricação.
+
+**5. O produto acompanha Nota Fiscal?**
+
+Sim, todos os produtos são entregues com suas respectivas notas fiscais, garantindo total transparência e segurança na sua compra.
+
+**6. Qual o prazo de entrega?**
+
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**7. Vocês entregam em todo o Brasil?**
+
+Sim, entregamos em todo o território nacional através de nossas transportadoras parceiras, com total segurança e cuidado com seu produto.
+
+**8. O produto pode ser devolvido se não gostar?**
+
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor. O produto deve estar em sua embalagem original, sem sinais de uso.
+
+**9. Quais formas de pagamento são aceitas?**
+
+Aceitamos diversas formas de pagamento, incluindo Pix, cartões de crédito (à vista ou parcelados) e saldo do Mercado Pago.
+
+**10. Como devo fazer a limpeza do rack?**
+
+Recomenda-se limpar o produto com pano seco para retirada do pó. Evite o uso de produtos abrasivos e o contato direto com a umidade, que podem danificar o acabamento em pintura UV.
+
+**11. O rack suporta TVs de qual tamanho?**
+
+O rack suporta TVs de até 85 polegadas, com estrutura robusta em 100% MDF e capacidade de 40 kg.
+
+**12. O que devo fazer ao receber o produto?**
+
+Ao receber a mercadoria, verifique as condições da embalagem. Caso haja alguma avaria, não assine o comprovante de recebimento. Confira também as dimensões do produto e certifique-se de que passará normalmente por elevadores, portas, escadas e corredores.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Gelius Móveis |
+| **Linha/Coleção** | Nobre |
+| **Tipo** | Rack para TV |
+| **Cor** | Off White/Naturale |
+| **Acabamento** | Pintura UV Brilhante |
+| **Material** | 100% MDF |
+| **Material dos Pés** | Vidro Maciço (Pinus) |
+| **Estilo** | Moderno / Orgânico |
+| **Altura** | 60 cm |
+| **Largura** | 209,5 cm |
+| **Profundidade** | 40 cm |
+| **Altura dos Pés** | 20 cm |
+| **Peso** | 49 kg |
+| **Peso Máximo Suportado** | 40 kg |
+| **Quantidade de Portas** | 2 portas (bater) |
+| **Quantidade de Gavetas** | 1 gaveta (corrediça telescópica, 5 kg) |
+| **Iluminação** | LED em luz quente (inclusa) |
+| **Suporte para TV** | Até 85 polegadas |
+| **Puxadores** | Embutidos |
+| **Dobradiças** | Metálicas |
+| **Corrediças** | Metálica Telescópica |
+| **Origem** | Nacional |
+| **Montagem Necessária** | Sim (complexidade média) |
+| **Ambiente Principal** | Sala de Estar |
+| **Garantia** | 3 meses |
+| **Itens Inclusos** | 1 Rack / Kit Ferragens / Manual de Montagem / Fita LED |
+| **Observações** | Imagens meramente ilustrativas. Itens decorativos não acompanham o produto |
+
+## 📌 Conclusão
+
+O **Rack Nobre 209cm com LED e Pés de Vidro Off White/Naturale Gelius** é a escolha definitiva para quem busca um móvel que una design exclusivo, sofisticação e funcionalidade completa para a sala de estar. Com pés em vidro maciço, iluminação LED em luz quente, design orgânico com formas curvas, fabricado em 100% MDF, 2 portas, 1 gaveta com corrediças telescópicas e acabamento em pintura UV brilhante, este rack oferece organização eficiente e um visual premium para qualquer ambiente.
+
+A marca Gelius Móveis, com mais de 100 vendas e avaliação de 4,7 estrelas com 158 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. O design versátil e as dimensões generosas tornam o Nobre uma peça que se adapta a diferentes estilos de decoração e tamanhos de sala.
+
+Se você procura um rack que una design exclusivo, funcionalidade completa e durabilidade, o Nobre é a escolha certeira. Aproveite o desconto de 18% e garanta já o seu com entrega em todo o Brasil!
+  `,
+  marca: "Gelius Móveis",
+  keywords: [
+    "rack nobre gelius moveis",
+    "rack com led e pes de vidro",
+    "rack para tv 85 polegadas",
+    "rack 209cm off white naturale",
+    "rack com gaveta telescopica",
+    "rack design organico curvas",
+    "rack gelius 10ª colocação",
+    "rack com iluminação led quente",
+    "móvel para sala de estar",
+    "rack para tv grande",
+    "rack 209x60x40cm",
+    "rack suporte 40kg",
+    "rack vidro maciço",
+    "rack com 2 portas e gaveta",
+    "rack nobre gelius",
+    "rack pintura uv brilhante",
+    "rack com pes de vidro",
+    "rack para home theater",
+    "rack design moderno",
+    "rack 100% mdf"
+  ],
+  seoTitle: "Rack Nobre com LED e Pés de Vidro 209cm para TV 85\" | Gelius",
+  seoDescription: "Rack Nobre com LED, pés de vidro e design orgânico. 100% MDF, 2 portas, gaveta telescópica. 4.7★ (158 reviews). Oferta 18% OFF!"
+},
+{
+  id: "p-imp-110",
+  slug: "conjunto-sala-jantar-mesa-vidro-6-cadeiras-espanha-yescasa",
+  category: "mesas",
+  mainCategory: "cozinha",
+  name: "Conjunto Sala de Jantar Mesa com Tampo de Vidro e 6 Cadeiras Espanha Yescasa - Chocolate/Off White/Suede Bege",
+  imageFile: "/imagens/produtos/conjunto-sala-jantar-mesa-160cm-vidro-6-cadeiras-espanha-yescasa.webp",
+  displayImage: "/imagens/produtos/conjunto-sala-jantar-mesa-160cm-vidro-6-cadeiras-espanha-yescasa.webp",
+  alt: "Conjunto de sala de jantar da Yescasa com mesa retangular de tampo de vidro e 6 cadeiras estofadas na cor chocolate, off white e suede bege",
+  rating: 4.6,
+  reviews: 1500,
+  discount: 14,
+  price: 1219.99,
+  originalPrice: 1424.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2KMPnQ3",
+  descricao: `
+# Conjunto Sala de Jantar Mesa com Tampo de Vidro e 6 Cadeiras Espanha Yescasa
+
+## 📌 Introdução
+
+Transforme sua sala de jantar em um espaço sofisticado e acolhedor com o **Conjunto Sala de Jantar Mesa com Tampo de Vidro e 6 Cadeiras Espanha Yescasa**. Este conjunto elegante foi projetado para quem busca aliar design contemporâneo, funcionalidade e conforto em um único produto. Com a qualidade incomparável da marca Yescasa, referência no mercado de móveis planejados e decorativos, este conjunto é a escolha perfeita para renovar seu lar.
+
+A mesa retangular com tampo de vidro traz leveza e modernidade ao ambiente, enquanto as seis cadeiras estofadas oferecem o máximo de conforto para suas refeições em família ou com amigos. O acabamento em MDF de alta densidade garante durabilidade e resistência, características essenciais para móveis que acompanham o dia a dia.
+
+## 📌 Principais Benefícios
+
+**Design sofisticado e atemporal:** O tampo de vidro da mesa cria uma sensação de amplitude e luminosidade, tornando o ambiente mais clean e moderno. Essa característica permite que o conjunto se adapte facilmente a diferentes estilos de decoração, desde o minimalista até o clássico.
+
+**Conforto incomparável:** As seis cadeiras com estofamento macio proporcionam uma experiência de sentar prazerosa, ideal para longas refeições, almoços de domingo ou jantares especiais. O estofamento garante que você e seus convidados permaneçam confortáveis por horas.
+
+**Versatilidade de cores:** Disponível nas cores Chocolate, Off White e Suede Bege, o conjunto oferece opções para diferentes paletas de cores e estilos decorativos. A combinação harmoniosa entre os tons permite criar composições únicas na sua sala de jantar.
+
+**Durabilidade e resistência:** Fabricado em MDF de alta qualidade, este conjunto é construído para durar. O material oferece excelente resistência a riscos, impactos e umidade, mantendo a beleza dos móveis por muito mais tempo.
+
+**Montagem simplificada:** Com instruções claras e peças bem encaixadas, a montagem do conjunto é rápida e descomplicada, permitindo que você aproveite seu novo móvel em pouco tempo.
+
+## 📌 Design
+
+O design do Conjunto Espanha Yescasa é um verdadeiro destaque no mercado de móveis para sala de jantar. A mesa, com seu tampo de vidro retangular, cria um efeito visual que amplia o espaço e reflete a luz natural, deixando o ambiente mais arejado e sofisticado.
+
+As cadeiras apresentam um design ergonômico, com encostos que acompanham a curva natural da coluna, proporcionando conforto mesmo durante longas refeições. Os pés das cadeiras são finos e elegantes, conferindo um toque moderno e minimalista ao conjunto.
+
+A combinação de cores disponíveis permite que você escolha a opção que melhor harmoniza com sua decoração atual. O Chocolate traz sofisticação e aconchego, o Off White oferece leveza e elegância, enquanto o Suede Bege adiciona um toque de requinte e neutralidade.
+
+## 📌 Organização
+
+Com 160 cm de comprimento e espaço para 6 pessoas, este conjunto é perfeito para famílias que valorizam momentos à mesa. As dimensões permitem acomodar confortavelmente todos os membros da família sem sacrificar a circulação ao redor da mesa.
+
+As cadeiras, quando não estão em uso, podem ser posicionadas sob a mesa, otimizando o espaço no ambiente. Essa característica é especialmente útil em apartamentos ou casas com salas de jantar mais compactas, onde cada centímetro precisa ser bem aproveitado.
+
+O tampo de vidro facilita a limpeza diária, bastando um pano úmido e produtos específicos para vidros para mantê-lo sempre brilhante. As superfícies em MDF das cadeiras podem ser limpas com pano seco ou levemente umedecido, garantindo a conservação do acabamento.
+
+## 📌 Ideal para
+
+Este conjunto é ideal para salas de jantar de apartamentos e casas que buscam um design moderno e sofisticado. A combinação de vidro e MDF cria uma estética versátil que combina com diversos estilos decorativos.
+
+É perfeito para famílias de 4 a 6 pessoas que valorizam momentos de convívio à mesa, seja para refeições diárias, almoços de domingo ou celebrações especiais. O conforto das cadeiras estofadas torna cada refeição uma experiência prazerosa.
+
+Também é excelente opção para ambientes que recebem visitas frequentes, pois o design elegante e a capacidade para 6 pessoas permitem acomodar confortavelmente seus convidados.
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este conjunto é altamente recomendado para:
+
+**Famílias que valorizam momentos à mesa:** Aproveite almoços de domingo, jantares especiais e refeições diárias em um ambiente sofisticado e confortável.
+
+**Profissionais que recebem clientes em casa:** Impressione seus convidados com um móvel de design refinado que demonstra bom gosto e cuidado com os detalhes.
+
+**Admiradores de decoração moderna:** O design contemporâneo com tampo de vidro e acabamento em MDF é perfeito para quem busca móveis com estética atual e funcional.
+
+**Quem busca durabilidade sem abrir mão da estética:** Os materiais de alta qualidade garantem um móvel que manterá sua beleza por muitos anos.
+
+## 📌 Diferenciais
+
+O que torna o Conjunto Yescasa Espanha único no mercado?
+
+**Acabamento Premium:** O tratamento UV aplicado sobre o MDF proporciona um acabamento liso, brilhante e extremamente resistente a riscos e manchas. Esse processo de pintura é utilizado em móveis de alta qualidade, garantindo que seu conjunto mantenha a aparência de novo por mais tempo.
+
+**Vidro de Segurança:** O tampo de vidro passa por um processo de têmpera que o torna até 5 vezes mais resistente que o vidro comum. Além disso, em caso de quebra, o vidro se fragmenta em pequenos pedaços sem pontas cortantes, garantindo a segurança da sua família.
+
+**Certificação de Qualidade:** Todos os produtos Yescasa seguem rigorosos padrões de qualidade e segurança, certificados por órgãos reguladores do setor moveleiro.
+
+**Garantia Estendida:** A marca oferece garantia contra defeitos de fabricação, demonstrando confiança na qualidade de seus produtos.
+
+**Montagem Intuitiva:** O sistema de encaixe das peças é projetado para montagem facilitada, com instruções detalhadas e ferramentas básicas já incluídas.
+
+## 📌 Motivos para Comprar
+
+✅ **Design exclusivo e sofisticado** que valoriza sua sala de jantar
+
+✅ **6 cadeiras estofadas** confortáveis para receber amigos e familiares
+
+✅ **Tampo de vidro de segurança** que traz leveza e luminosidade ao ambiente
+
+✅ **MDF de alta densidade** garante durabilidade e resistência
+
+✅ **Cor versátil** Chocolate/Off White/Suede Bege combina com diversos estilos
+
+✅ **Mais de 1500 avaliações** com nota 4.6 estrelas comprovam a qualidade
+
+✅ **Selos "Mais Vendido" e "Oferta Imperdível"** - produtos testados e aprovados
+
+✅ **Pagamento em até 10x sem juros** para planejar sua compra com tranquilidade
+
+✅ **14% de desconto** em relação ao preço original
+
+✅ **Marca Yescasa** reconhecida pela qualidade e design inovador
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. Qual a capacidade de pessoas na mesa?**
+A mesa acomoda confortavelmente até 6 pessoas, sendo ideal para famílias e reuniões com amigos. O comprimento de 160 cm garante espaço adequado para cada lugar.
+
+**2. O tampo da mesa é realmente de vidro?**
+Sim, o tampo é feito de vidro de segurança temperado, com tratamento que garante resistência e durabilidade. O vidro passou por processo de têmpera que o torna mais resistente que vidros comuns.
+
+**3. As cadeiras são estofadas?**
+Sim, todas as 6 cadeiras possuem estofamento macio no assento e encosto, proporcionando máximo conforto durante as refeições. O estofamento é feito com espuma de alta densidade que mantém a forma por mais tempo.
+
+**4. O material das cadeiras é resistente?**
+As cadeiras são fabricadas em MDF de alta qualidade, material conhecido por sua resistência e durabilidade. O MDF passou por tratamento superficial que protege contra riscos e umidade.
+
+**5. O produto requer montagem?**
+Sim, o conjunto é enviado desmontado com todas as peças, ferragens e manual de instruções incluso. A montagem é intuitiva e pode ser realizada por uma pessoa com ferramentas básicas.
+
+**6. Qual o comprimento da mesa?**
+A mesa tem 160 cm de comprimento, largura adequada para acomodar 6 pessoas com conforto e espaço para os pratos e utensílios.
+
+**7. As cores disponíveis combinam com diferentes estilos?**
+Sim, as cores Chocolate, Off White e Suede Bege são versáteis e combinam com diversos estilos de decoração, desde o clássico até o contemporâneo.
+
+**8. O vidro da mesa é seguro?**
+Sim, o tampo de vidro é temperado, o que o torna mais resistente e seguro. Em caso de impacto severo, ele se fragmenta em pequenos pedaços não cortantes, como vidro de automóvel.
+
+**9. Quantas pessoas podem sentar confortavelmente?**
+O conjunto foi projetado para 6 lugares, garantindo espaço e conforto para todos os usuários.
+
+**10. A marca oferece garantia?**
+Sim, os produtos Yescasa contam com garantia contra defeitos de fabricação, conforme política da marca disponível no site oficial.
+
+**11. Qual a manutenção necessária para o tampo de vidro?**
+O vidro pode ser limpo com produtos específicos para vidros e um pano macio. A superfície deve ser mantida seca para evitar manchas.
+
+**12. O conjunto é indicado para apartamentos?**
+Sim, as dimensões do conjunto são ideais para salas de jantar de apartamentos, e a possibilidade de posicionar as cadeiras sob a mesa otimiza o espaço.
+
+**13. Qual a qualidade do estofamento das cadeiras?**
+O estofamento é feito com espuma de alta densidade, garantindo conforto duradouro e mantendo a forma do assento mesmo após uso intenso.
+
+**14. Como devo conservar o MDF das cadeiras?**
+Limpe com pano seco ou levemente umedecido. Evite produtos abrasivos ou solventes que possam danificar o acabamento em pintura UV.
+
+**15. Qual o peso aproximado de cada cadeira?**
+Cada cadeira tem peso de aproximadamente 4-5 kg, sendo leve o suficiente para movimentação, mas robusta para uso diário.
+
+## 📌 Especificações Técnicas
+
+| Característica | Detalhe |
+|---------------|---------|
+| **Marca** | Yescasa |
+| **Modelo** | Espanha |
+| **Comprimento da Mesa** | 160 cm |
+| **Forma da Mesa** | Retangular |
+| **Material da Mesa** | MDF com tampo de vidro temperado |
+| **Material das Cadeiras** | MDF com estofamento |
+| **Inclui Estofamento** | Sim |
+| **Requer Montagem** | Sim |
+| **Cor** | Chocolate / Off White / Suede Bege |
+| **Capacidade** | 6 cadeiras |
+| **Acabamento** | Pintura UV |
+| **Tipo de Assento** | Estofado |
+| **Origem** | Nacional |
+
+## 📌 Conclusão
+
+O **Conjunto Sala de Jantar Mesa com Tampo de Vidro e 6 Cadeiras Espanha Yescasa** é uma escolha excepcional para quem busca transformar a sala de jantar em um espaço elegante, funcional e acolhedor. Com seu design contemporâneo, materiais de alta qualidade e conforto incomparável, este conjunto atende às necessidades das famílias modernas que valorizam momentos de convívio à mesa.
+
+Os selos de "Mais Vendido" e "Oferta Imperdível" atestam a preferência dos consumidores, enquanto as 1500 avaliações com nota 4.6 estrelas confirmam a satisfação dos compradores. Aproveite esta oferta exclusiva com 14% de desconto e garanta já este conjunto que vai elevar o padrão estético e funcional da sua sala de jantar.
+  `,
+  marca: "Yescasa",
+  keywords: [
+    "conjunto de jantar",
+    "mesa de jantar com 6 cadeiras",
+    "mesa com tampo de vidro",
+    "conjunto de jantar Yescasa",
+    "mesa 160 cm",
+    "cadeiras estofadas",
+    "conjunto sala de jantar",
+    "móvel para sala de jantar",
+    "conjunto de mesa e cadeiras",
+    "mesa retangular 6 lugares",
+    "conjunto de jantar moderno",
+    "Yescasa Espanha",
+    "mesa com vidro temperado",
+    "cadeiras MDF",
+    "conjunto jantar chocolate",
+    "jantar para 6 pessoas",
+    "móvel de jantar sofisticado",
+    "conjunto sala de jantar barato",
+    "mesa e cadeiras para sala",
+    "conjunto de móveis para jantar"
+  ],
+  seoTitle: "Conjunto Sala Jantar Mesa Vidro 6 Cadeiras Yescasa | Oferta",
+  seoDescription: "Conjunto de jantar Yescasa com mesa 160cm tampo vidro e 6 cadeiras estofadas. Design moderno, MDF resistente, 4.6★ (1500 avaliações). 14% OFF! Compre já."
+},
+{
+  id: "p-imp-111",
+  slug: "mesa-jantar-retangular-vitalic-6-cadeiras-madeira-maciça-vegas-viero",
+  category: "mesas",
+  mainCategory: "cozinha",
+  name: "Mesa de Jantar Retangular Vitalic com 6 Cadeiras Madeira Maciça Vegas Viero - Mel/Cinza Brilho/Grafite",
+  imageFile: "/imagens/produtos/mesa-jantar-160cm-retangular-6-cadeiras-madeira-maciça-mel-vitalic-viero.webp",
+  displayImage: "/imagens/produtos/mesa-jantar-160cm-retangular-6-cadeiras-madeira-maciça-mel-vitalic-viero.webp",
+  alt: "Mesa de jantar retangular Vitalic com 6 cadeiras estofadas Vegas em madeira maciça da marca Viero nas cores mel, cinza brilho e grafite",
+  rating: 4.5,
+  reviews: 65,
+  discount: 29,
+  price: 1183.99,
+  originalPrice: 1687.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1ymFKka",
+  descricao: `
+# Mesa de Jantar Retangular Vitalic com 6 Cadeiras Madeira Maciça Vegas Viero
+
+## 📌 Introdução
+
+Transforme sua sala de jantar em um espaço de convívio sofisticado e acolhedor com a **Mesa de Jantar Retangular Vitalic com 6 Cadeiras Vegas da Viero**. Este conjunto elegante foi desenvolvido para se tornar a peça central da sua casa, unindo design contemporâneo, conforto excepcional e durabilidade incomparável.
+
+A marca Viero, reconhecida pela qualidade e inovação no mercado de móveis, apresenta este conjunto que combina perfeitamente a robustez da madeira maciça com o conforto do estofamento premium. A mesa de 160 cm de comprimento oferece espaço generoso para 6 pessoas, enquanto as cadeiras Vegas, com assento e encosto estofados em espuma D-26, garantem uma experiência aconchegante para você e seus convidados.
+
+Com acabamento em tons de mel e cinza brilho, este conjunto se adapta a diferentes estilos de decoração, do clássico ao contemporâneo, valorizando o ambiente com sua presença imponente e elegante.
+
+## 📌 Principais Benefícios
+
+**Design contemporâneo e versátil:** O visual moderno com acabamento em tons de mel e cinza brilho se adapta perfeitamente a diferentes estilos de decoração residencial, do rústico ao sofisticado.
+
+**Conforto superior:** As seis cadeiras contam com assento e encosto estofados com espuma de densidade D-26, proporcionando uma experiência aconchegante para longas refeições em família ou com amigos.
+
+**Dimensões estratégicas:** Com 160 cm de largura, 80 cm de profundidade e 79,4 cm de altura, a mesa oferece o espaço ideal para acomodar seis pessoas de forma organizada e confortável.
+
+**Robustez e qualidade:** Fabricado com componentes em madeira maciça e MDP de alta qualidade, este conjunto oferece estabilidade e resistência para o uso intenso e diário da sua família.
+
+**Montagem simplificada:** Com kit ferragem e manual de montagem incluso, a instalação é prática e descomplicada.
+
+**Garantia de 3 meses:** A Viero oferece garantia contra defeitos de fabricação, demonstrando confiança na qualidade de seus produtos.
+
+## 📌 Design
+
+O design do Conjunto Vitalic Vegas é um verdadeiro destaque no mercado de móveis para sala de jantar. A mesa retangular apresenta um acabamento em tons de mel e cinza brilho que cria um visual sofisticado e contemporâneo, enquanto as cadeiras Vegas complementam perfeitamente o conjunto com seu design elegante e confortável.
+
+**Acabamento em cores versáteis:** A combinação de Mel, Cinza Brilho e Grafite oferece uma paleta de cores que se adapta a diferentes estilos decorativos, permitindo criar composições únicas na sua sala de jantar.
+
+**Design ergonômico das cadeiras:** As cadeiras Vegas foram projetadas com encosto e assento estofados, oferecendo conforto superior e suporte adequado para longas refeições.
+
+**Estrutura robusta em madeira maciça:** A base das cadeiras é fabricada em madeira maciça, garantindo estabilidade e durabilidade excepcionais.
+
+**Tampo em MDP de 25 mm:** A mesa conta com tampo em MDP com espessura de 25 mm, oferecendo superfície resistente e durável.
+
+## 📌 Organização
+
+Com 160 cm de comprimento, 80 cm de profundidade e espaço para 6 pessoas, este conjunto é perfeito para famílias que valorizam momentos à mesa. As dimensões permitem acomodar confortavelmente todos os membros da família sem sacrificar a circulação ao redor da mesa.
+
+**Capacidade para 6 lugares:** O conjunto acomoda confortavelmente 6 pessoas, sendo ideal para almoços de domingo, jantares especiais e reuniões com amigos.
+
+**Espaço adequado para os pratos:** Com 80 cm de profundidade, a mesa oferece espaço suficiente para colocar pratos, talheres, utensílios e decoração central.
+
+**Altura ideal:** Com 79,4 cm de altura, a mesa proporciona conforto ergonômico para as refeições, permitindo que os usuários fiquem na posição adequada.
+
+**Design que otimiza o espaço:** As cadeiras podem ser posicionadas sob a mesa quando não estão em uso, otimizando o espaço no ambiente.
+
+## 📌 Ideal para
+
+- **Salas de jantar:** Peça principal que valoriza o ambiente de refeições
+- **Cozinhas amplas:** Espaço dedicado para refeições em família
+- **Ambientes modernos:** Design com cores versáteis
+- **Decoração sofisticada:** Acabamento em mel e cinza brilho
+- **Famílias de 4 a 6 pessoas:** Capacidade ideal para o dia a dia
+- **Receber visitas:** 6 lugares confortáveis para convidados
+- **Espaços que buscam conforto:** Cadeiras estofadas com espuma D-26
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este conjunto é altamente recomendado para:
+
+**Famílias que valorizam momentos à mesa:** Aproveite almoços de domingo, jantares especiais e refeições diárias em um ambiente sofisticado e confortável.
+
+**Pessoas que buscam conforto durante as refeições:** As cadeiras com espuma D-26 garantem conforto prolongado.
+
+**Admiradores de decoração moderna:** O design contemporâneo com acabamento em mel e cinza brilho é perfeito para quem busca móveis com estética atual.
+
+**Quem busca durabilidade sem abrir mão da estética:** Os materiais de alta qualidade (madeira maciça e MDP) garantem um móvel que manterá sua beleza por muitos anos.
+
+**Pessoas que recebem convidados com frequência:** Os 6 lugares oferecem espaço suficiente para acomodar amigos e familiares.
+
+## 📌 Diferenciais
+
+O que torna o Conjunto Vitalic Vegas Viero único no mercado?
+
+**Cadeiras em madeira maciça:** As cadeiras Vegas são fabricadas com estrutura em madeira maciça, oferecendo robustez e durabilidade superiores aos conjuntos com estrutura em MDF.
+
+**Estofamento com espuma D-26:** A espuma de densidade 26 oferece conforto superior, mantendo a forma por mais tempo e proporcionando aconchego durante as refeições.
+
+**Acabamento em mel e cinza brilho:** A combinação exclusiva de cores cria um visual sofisticado e versátil, que combina com diferentes estilos de decoração.
+
+**MDP de alta qualidade:** O tampo da mesa em MDP com 25 mm de espessura garante resistência e durabilidade.
+
+**Marca Viero:** Reconhecida pela qualidade e inovação no mercado moveleiro, a Viero é sinônimo de confiabilidade.
+
+**Avaliação 4.5 estrelas:** A excelente avaliação demonstra a qualidade superior do produto e a satisfação dos clientes.
+
+**Mais de 500 vendidos:** O selo "Mais Vendido" atesta a preferência dos consumidores.
+
+**Preço competitivo:** Com 29% de desconto no Pix, o conjunto oferece excelente custo-benefício.
+
+## 📌 Motivos para Comprar
+
+✅ **Design contemporâneo** com acabamento em tons de mel e cinza brilho
+
+✅ **6 cadeiras com estrutura em madeira maciça** - robustez e durabilidade
+
+✅ **Assento e encosto estofados com espuma D-26** - conforto superior
+
+✅ **Mesa 160x80cm** - espaço generoso para 6 pessoas
+
+✅ **Tampo em MDP com 25mm de espessura** - resistência e durabilidade
+
+✅ **Marca Viero** - qualidade e inovação no mercado moveleiro
+
+✅ **Mais de 500 vendidos** - produto testado e aprovado
+
+✅ **29% de desconto no Pix** - excelente custo-benefício
+
+✅ **Garantia de 3 meses** - segurança na sua compra
+
+✅ **Kit ferragem e manual incluso** - montagem simplificada
+
+✅ **Peso total de 84,6 kg** - estrutura robusta e estável
+
+✅ **Avaliação 4.5 estrelas** - alta satisfação dos clientes
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos Viero são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha kit ferragem e manual de montagem. A complexidade da montagem é média, podendo ser realizada por mais de uma pessoa.
+
+**3. As cadeiras são estofadas?**
+Sim, todas as 6 cadeiras Vegas possuem assento e encosto estofados com espuma de densidade D-26, proporcionando máximo conforto durante as refeições.
+
+**4. Qual o material das cadeiras?**
+As cadeiras possuem estrutura em madeira maciça, garantindo robustez e durabilidade superiores.
+
+**5. Qual o material da mesa?**
+O tampo da mesa é em MDP com 25 mm de espessura, material de alta qualidade e resistência.
+
+**6. A mesa suporta quantos quilos?**
+A mesa suporta até 50 kg, sendo ideal para uso diário com todos os utensílios de jantar.
+
+**7. Qual o tamanho da mesa?**
+A mesa tem 160 cm de largura, 80 cm de profundidade e 79,4 cm de altura.
+
+**8. Quantas pessoas cabem na mesa?**
+A mesa acomoda confortavelmente até 6 pessoas.
+
+**9. O produto tem garantia?**
+Sim, o produto possui garantia de 3 meses contra defeitos de fabricação.
+
+**10. Como devo fazer a limpeza do conjunto?**
+Recomenda-se limpar o produto com pano seco ou levemente umedecido. Evite o uso de produtos abrasivos e o contato direto com a umidade, que podem danificar o acabamento.
+
+**11. O conjunto é indicado para apartamentos?**
+Sim, as dimensões do conjunto são ideais para salas de jantar de apartamentos.
+
+**12. Qual o peso das cadeiras?**
+Cada cadeira pesa aproximadamente 7,25 kg, totalizando 43,5 kg as 6 cadeiras.
+
+**13. A mesa é extensível?**
+Não, a mesa não é extensível. Possui 160 cm fixos.
+
+**14. O conjunto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**15. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**16. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**17. Posso devolver o produto se não gostar?**
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Viero |
+| **Linha/Coleção** | Vegas |
+| **Modelo** | Vitalic |
+| **Estilo** | Moderno |
+| **Forma da Mesa** | Retangular |
+| **Cor** | Mel / Cinza Brilho / Grafite |
+| **Material do Tampo** | MDP (25 mm) |
+| **Material Base da Mesa** | MDF/MDP |
+| **Material Estrutura Cadeiras** | Madeira Maciça |
+| **Material Principal Cadeiras** | Madeira Maciça |
+| **Enchimento do Assento** | Espuma D-26 |
+| **Enchimento do Encosto** | Espuma |
+| **Cadeira Estofada** | Encosto e Assento |
+| **Altura da Mesa** | 79,4 cm |
+| **Largura da Mesa** | 160 cm |
+| **Profundidade da Mesa** | 80 cm |
+| **Medida do Tampo** | 160 x 80 x 2,5 cm |
+| **Medida da Cadeira** | 101 x 41 x 61 cm |
+| **Peso da Mesa** | 41,8 kg |
+| **Peso da Cadeira** | 7,25 kg |
+| **Peso Total** | 84,6 kg |
+| **Capacidade** | 6 lugares |
+| **Mesa Suporta** | 50 kg |
+| **Cadeira Suporta** | 90 kg |
+| **Mesa Extensível** | Não |
+| **Possui Vidro** | Não |
+| **Requer Montagem** | Sim |
+| **Complexidade** | Média |
+| **Origem** | Nacional |
+| **Garantia** | 3 meses |
+| **Itens Inclusos** | 1 Mesa, 6 Cadeiras, Kit Ferragem, Manual |
+
+## 📌 Conclusão
+
+A **Mesa de Jantar Retangular Vitalic com 6 Cadeiras Vegas da Viero** é uma escolha excepcional para quem busca transformar a sala de jantar em um espaço elegante, funcional e acolhedor. Com seu design contemporâneo, conforto superior com espuma D-26, estrutura robusta em madeira maciça e acabamento em tons de mel e cinza brilho, este conjunto atende às necessidades das famílias modernas que valorizam momentos de convívio à mesa.
+
+O selo de "Mais Vendido" com mais de 500 unidades comercializadas atesta a preferência dos consumidores, enquanto as 65 avaliações com nota 4.5 estrelas confirmam a satisfação dos compradores. Aproveite esta oferta exclusiva com 29% de desconto no Pix e garanta já este conjunto que vai elevar o padrão estético e funcional da sua sala de jantar.
+  `,
+  marca: "Viero",
+  keywords: [
+    "mesa de jantar com 6 cadeiras",
+    "mesa retangular 160cm",
+    "mesa com cadeiras Viero",
+    "conjunto de jantar Vegas",
+    "cadeiras estofadas Vitalic",
+    "mesa madeira maciça",
+    "conjunto sala de jantar",
+    "mesa 160x80",
+    "cadeiras com espuma D-26",
+    "mesa de jantar moderna",
+    "conjunto de jantar 6 lugares",
+    "Viero Vegas",
+    "mesa retangular mel cinza",
+    "cadeiras Vegas Viero",
+    "móvel para sala de jantar",
+    "conjunto jantar com desconto",
+    "mesa e 6 cadeiras",
+    "móvel de jantar madeira maciça",
+    "conjunto jantar Viero",
+    "mesa jantar 6 lugares confortável"
+  ],
+  seoTitle: "Mesa Jantar Vitalic 160cm 6 Cadeiras Vegas Viero | Oferta",
+  seoDescription: "Conjunto jantar Viero com mesa 160x80cm e 6 cadeiras estofadas Vegas. Madeira maciça, espuma D-26, design moderno. 4.5★ (65 reviews). 29% OFF no Pix!"
+},
+{
+  id: "p-imp-112",
+  slug: "conjunto-sala-jantar-mesa-160cm-6-cadeiras-fenix-carraro-rose",
+  category: "mesas",
+  mainCategory: "cozinha",
+  name: "Conjunto Sala de Jantar Mesa 160cm com 6 Cadeiras Fênix Carraro Rose - Estofado Napa e Estrutura em Aço",
+  imageFile: "/imagens/produtos/conjunto-sala-jantar-mesa-160cm-6-cadeiras-estofado-napa-rose-carraro-fenix.webp",
+  displayImage: "/imagens/produtos/conjunto-sala-jantar-mesa-160cm-6-cadeiras-estofado-napa-rose-carraro-fenix.webp",
+  alt: "Conjunto de sala de jantar da Carraro com mesa retangular 160cm e 6 cadeiras estofadas em napa na cor rose com estrutura em aço pintado",
+  rating: 4.8,
+  reviews: 997,
+  discount: 55,
+  price: 1139.00,
+  originalPrice: 2547.00,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2cBCSEc",
+  descricao: `
+# Conjunto Sala de Jantar Mesa 160cm com 6 Cadeiras Fênix Carraro Rose
+
+## 📌 Introdução
+
+Transforme sua sala de jantar em um espaço de convívio sofisticado e acolhedor com o **Conjunto Sala de Jantar Mesa e 6 Cadeiras Fênix da Carraro**. Este conjunto moderno e elegante foi desenvolvido para se tornar a peça central da sua casa, unindo design contemporâneo, conforto excepcional e durabilidade incomparável.
+
+A marca Carraro, reconhecida pela qualidade e inovação no mercado de móveis, apresenta este conjunto que combina perfeitamente a robustez do MDP com a sofisticação do estofamento em napa. A mesa de 160 cm de comprimento por 90 cm de largura oferece espaço generoso para 6 pessoas, enquanto as cadeiras, com estrutura em aço pintado e estofamento confortável, garantem uma experiência aconchegante para você e seus convidados.
+
+Com acabamento na cor Rose, este conjunto se adapta a diferentes estilos de decoração, do clássico ao contemporâneo, valorizando o ambiente com sua presença elegante e moderna.
+
+## 📌 Principais Benefícios
+
+**Design moderno e sofisticado:** O visual contemporâneo com acabamento na cor Rose se adapta perfeitamente a diferentes estilos de decoração residencial, do clássico ao minimalista.
+
+**Conforto superior em napa:** As seis cadeiras contam com estofamento em napa, proporcionando uma experiência de sentar prazerosa e sofisticada, ideal para longas refeições em família ou com amigos.
+
+**Dimensões generosas:** Com 160 cm de comprimento e 90 cm de largura, a mesa oferece o espaço ideal para acomodar seis pessoas de forma organizada e confortável, com amplo espaço para pratos e utensílios.
+
+**Robustez e qualidade:** Fabricado com tampo em MDP de 25 mm e estrutura em aço pintado, este conjunto oferece estabilidade e resistência para o uso intenso e diário da sua família.
+
+**Montagem simplificada:** Com kit ferragem e manual de montagem incluso, a instalação é prática e descomplicada.
+
+**Altura ergonômica:** Com 76,4 cm de altura, a mesa proporciona conforto ergonômico para as refeições, permitindo que os usuários fiquem na posição adequada.
+
+## 📌 Design
+
+O design do Conjunto Fênix Carraro é um verdadeiro destaque no mercado de móveis para sala de jantar. A mesa retangular apresenta um acabamento sofisticado na cor Rose, que cria um visual moderno e elegante, enquanto as cadeiras complementam perfeitamente o conjunto com seu design contemporâneo e confortável.
+
+**Acabamento na cor Rose:** A cor Rose oferece uma paleta versátil que se adapta a diferentes estilos decorativos, permitindo criar composições únicas na sua sala de jantar. Este tom sofisticado traz elegância e personalidade ao ambiente.
+
+**Design ergonômico das cadeiras:** As cadeiras foram projetadas com encosto e assento estofados em napa, oferecendo conforto superior e suporte adequado para longas refeições.
+
+**Estrutura em aço pintado:** A base das cadeiras é fabricada em aço pintado, garantindo estabilidade, resistência e durabilidade excepcionais.
+
+**Tampo em MDP de 25 mm:** A mesa conta com tampo em MDP com espessura de 25 mm, oferecendo superfície resistente e durável.
+
+**Design clean e minimalista:** As linhas retas e o acabamento liso das cadeiras criam um visual clean que combina com diferentes estilos de decoração.
+
+## 📌 Organização
+
+Com 160 cm de comprimento, 90 cm de largura e espaço para 6 pessoas, este conjunto é perfeito para famílias que valorizam momentos à mesa. As dimensões permitem acomodar confortavelmente todos os membros da família com amplo espaço para os pratos.
+
+**Capacidade para 6 lugares:** O conjunto acomoda confortavelmente 6 pessoas, sendo ideal para almoços de domingo, jantares especiais e reuniões com amigos.
+
+**Espaço generoso para os pratos:** Com 90 cm de profundidade, a mesa oferece espaço suficiente para colocar pratos, talheres, utensílios e decoração central, proporcionando uma experiência de refeição completa.
+
+**Altura ideal:** Com 76,4 cm de altura, a mesa proporciona conforto ergonômico para as refeições, permitindo que os usuários fiquem na posição adequada.
+
+**Design inteligente:** As cadeiras podem ser posicionadas sob a mesa quando não estão em uso, otimizando o espaço no ambiente.
+
+## 📌 Ideal para
+
+- **Salas de jantar:** Peça principal que valoriza o ambiente de refeições
+- **Cozinhas amplas:** Espaço dedicado para refeições em família
+- **Ambientes modernos:** Design com acabamento Rose sofisticado
+- **Decoração elegante:** Acabamento em napa e cor Rose
+- **Famílias de 4 a 6 pessoas:** Capacidade ideal para o dia a dia
+- **Receber visitas:** 6 lugares confortáveis para convidados
+- **Espaços que buscam conforto:** Cadeiras estofadas em napa
+- **Ambientes que valorizam design:** Linhas retas e acabamento premium
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este conjunto é altamente recomendado para:
+
+**Famílias que valorizam momentos à mesa:** Aproveite almoços de domingo, jantares especiais e refeições diárias em um ambiente sofisticado e confortável.
+
+**Pessoas que buscam conforto durante as refeições:** As cadeiras em napa garantem conforto prolongado e uma experiência de sentar prazerosa.
+
+**Admiradores de decoração moderna e elegante:** O design contemporâneo com acabamento na cor Rose é perfeito para quem busca móveis com estética atual e sofisticada.
+
+**Quem busca durabilidade sem abrir mão da estética:** Os materiais de alta qualidade (MDP 25mm e aço pintado) garantem um móvel que manterá sua beleza por muitos anos.
+
+**Pessoas que recebem convidados com frequência:** Os 6 lugares oferecem espaço suficiente para acomodar amigos e familiares.
+
+**Quem busca excelente custo-benefício:** Com 55% de desconto no Pix, o conjunto oferece um dos melhores custos do mercado.
+
+## 📌 Diferenciais
+
+O que torna o Conjunto Fênix Carraro único no mercado?
+
+**Estofamento em napa premium:** As cadeiras contam com estofamento em napa, material de alta qualidade que oferece conforto superior e acabamento sofisticado, diferenciando-se dos conjuntos com estofamento comum.
+
+**Estrutura em aço pintado:** A estrutura das cadeiras em aço pintado oferece resistência e durabilidade superiores, garantindo estabilidade mesmo com uso intenso.
+
+**MDP 25mm de alta qualidade:** O tampo da mesa em MDP com 25 mm de espessura oferece superfície resistente e durável, superior aos tampos com menor espessura.
+
+**Acabamento exclusivo na cor Rose:** A cor Rose é uma opção sofisticada e versátil que se destaca no mercado, oferecendo um visual único e elegante.
+
+**Marca Carraro:** Reconhecida pela qualidade e inovação no mercado moveleiro, a Carraro é sinônimo de confiabilidade e design premium.
+
+**Avaliação 4.8 estrelas:** A excelente avaliação, com 997 reviews, demonstra a qualidade superior do produto e a alta satisfação dos clientes.
+
+**Preço imbatível:** Com 55% de desconto, o conjunto oferece um dos melhores custos do mercado para um produto com estas características.
+
+**Dimensões generosas:** A mesa com 90 cm de profundidade oferece mais espaço que os modelos padrão de 80 cm.
+
+## 📌 Motivos para Comprar
+
+✅ **Design moderno e sofisticado** com acabamento na cor Rose
+
+✅ **6 cadeiras estofadas em napa** - conforto premium e acabamento refinado
+
+✅ **Estrutura em aço pintado** - robustez e durabilidade
+
+✅ **Mesa 160x90cm** - espaço generoso para 6 pessoas
+
+✅ **Tampo em MDP com 25mm de espessura** - resistência e durabilidade
+
+✅ **Avaliação 4.8 estrelas** com 997 avaliações - alta satisfação dos clientes
+
+✅ **55% de desconto no Pix** - oferta imperdível
+
+✅ **Marca Carraro** - qualidade e inovação no mercado moveleiro
+
+✅ **Altura ergonômica** - 76,4 cm para máximo conforto
+
+✅ **Design clean e minimalista** - combina com diferentes estilos de decoração
+
+✅ **Montagem simplificada** - com kit ferragem e manual incluso
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos Carraro são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha kit ferragem e manual de montagem. A montagem é prática e pode ser realizada com ferramentas básicas.
+
+**3. As cadeiras são estofadas?**
+Sim, todas as 6 cadeiras possuem assento e encosto estofados em napa, proporcionando máximo conforto durante as refeições.
+
+**4. Qual o material do estofamento das cadeiras?**
+O estofamento é em napa, um material de alta qualidade que oferece conforto superior e acabamento sofisticado.
+
+**5. Qual o material da mesa?**
+O tampo da mesa é em MDP com 25 mm de espessura, material de alta qualidade e resistência.
+
+**6. Qual o material da estrutura das cadeiras?**
+A estrutura das cadeiras é em aço pintado, garantindo robustez e durabilidade.
+
+**7. Qual o tamanho da mesa?**
+A mesa tem 160 cm de comprimento, 90 cm de largura e 76,4 cm de altura.
+
+**8. Quantas pessoas cabem na mesa?**
+A mesa acomoda confortavelmente até 6 pessoas.
+
+**9. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Carraro.
+
+**10. Como devo fazer a limpeza do conjunto?**
+Recomenda-se limpar o produto com pano seco ou levemente umedecido. Para o estofamento em napa, utilize produtos específicos para couro sintético. Evite o uso de produtos abrasivos.
+
+**11. O conjunto é indicado para apartamentos?**
+Sim, as dimensões do conjunto são ideais para salas de jantar de apartamentos, especialmente com a profundidade de 90 cm que oferece mais espaço.
+
+**12. Qual a cor do conjunto?**
+O conjunto está disponível na cor Rose, um tom sofisticado e versátil.
+
+**13. O desenho do tecido das cadeiras é liso?**
+Sim, o desenho do tecido das cadeiras é liso, criando um visual clean e moderno.
+
+**14. O conjunto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**15. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**16. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**17. Posso devolver o produto se não gostar?**
+Sim, você tem até 7 dias após o recebimento para solicitar a devolução do produto, de acordo com o Código de Defesa do Consumidor.
+
+**18. Qual a altura das cadeiras?**
+As cadeiras medem 90 cm de altura, com profundidade de 52 cm e largura de 47 cm.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Carraro |
+| **Modelo** | Fênix |
+| **Estilo** | Moderno |
+| **Forma da Mesa** | Retangular |
+| **Cor** | Rose |
+| **Desenho do Tecido** | Liso |
+| **Material do Tampo** | MDP (25 mm) |
+| **Material Estrutura Cadeiras** | Aço Pintado |
+| **Estofamento das Cadeiras** | Napa |
+| **Comprimento da Mesa** | 160 cm |
+| **Largura da Mesa** | 90 cm |
+| **Altura da Mesa** | 76,4 cm |
+| **Altura da Cadeira** | 90 cm |
+| **Largura da Cadeira** | 47 cm |
+| **Profundidade da Cadeira** | 52 cm |
+| **Capacidade** | 6 lugares |
+| **Requer Montagem** | Sim |
+| **Origem** | Nacional |
+| **Garantia** | Conforme política da marca |
+| **Itens Inclusos** | 1 Mesa, 6 Cadeiras, Kit Ferragem, Manual |
+
+## 📌 Conclusão
+
+O **Conjunto Sala de Jantar Mesa e 6 Cadeiras Fênix da Carraro** é uma escolha excepcional para quem busca transformar a sala de jantar em um espaço elegante, funcional e acolhedor. Com seu design moderno, conforto superior com estofamento em napa, estrutura robusta em aço pintado e acabamento sofisticado na cor Rose, este conjunto atende às necessidades das famílias modernas que valorizam momentos de convívio à mesa.
+
+A excelente avaliação de 4.8 estrelas com 997 reviews atesta a qualidade superior do produto e a satisfação dos compradores. Aproveite esta oferta exclusiva com 55% de desconto no Pix e garanta já este conjunto que vai elevar o padrão estético e funcional da sua sala de jantar.
+  `,
+  marca: "Carraro",
+  keywords: [
+    "conjunto de jantar com 6 cadeiras",
+    "mesa de jantar 160cm",
+    "conjunto Fênix Carraro",
+    "cadeiras estofadas em napa",
+    "mesa com 6 cadeiras Rose",
+    "conjunto sala de jantar",
+    "mesa 160x90",
+    "cadeiras com estrutura em aço",
+    "conjunto de jantar moderno",
+    "mesa de jantar Rose",
+    "conjunto Carraro Fênix",
+    "móvel para sala de jantar",
+    "conjunto jantar com desconto",
+    "mesa e 6 cadeiras estofadas",
+    "conjunto jantar Carraro",
+    "mesa MDP 25mm",
+    "cadeiras napa",
+    "conjunto jantar 6 lugares",
+    "mesa de jantar elegante",
+    "conjunto sala de jantar Rose"
+  ],
+  seoTitle: "Conjunto Jantar Fênix 160cm 6 Cadeiras Napa Carraro | Oferta",
+  seoDescription: "Conjunto jantar Carraro com mesa 160x90cm e 6 cadeiras estofadas em napa. Estrutura em aço, cor Rose, design moderno. 4.8★ (997 reviews). 55% OFF no Pix!"
+},
+{
+  id: "p-imp-113",
+  slug: "conjunto-sala-jantar-mesa-madeira-4-cadeiras-talita-madesa-rustic-crema-perola",
+  category: "mesas",
+  mainCategory: "cozinha",
+  name: "Conjunto Sala de Jantar Madesa Talita Mesa Tampo Madeira 4 Cadeiras - Rustic/Crema/Pérola",
+  imageFile: "/imagens/produtos/conjunto-sala-jantar-mesa-104cm-madeira-4-cadeiras-estofadas-talita-madesa.webp",
+  displayImage: "/imagens/produtos/conjunto-sala-jantar-mesa-104cm-madeira-4-cadeiras-estofadas-talita-madesa.webp",
+  alt: "Conjunto de sala de jantar Madesa Talita com mesa pedestal de tampo madeira 104cm e 4 cadeiras estofadas nas cores rustic, crema e pérola",
+  rating: 4.7,
+  reviews: 4325,
+  discount: 18,
+  price: 519.99,
+  originalPrice: 635.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/24PjN2d",
+  descricao: `
+# Conjunto Sala de Jantar Madesa Talita Mesa Tampo Madeira 4 Cadeiras
+
+## 📌 Introdução
+
+Transforme sua sala de jantar em um espaço funcional, aconchegante e cheio de estilo com o **Conjunto Sala de Jantar Madesa Talita**. Este conjunto elegante foi desenvolvido para quem busca unir praticidade, conforto e design sofisticado em um único produto, sendo a solução perfeita para espaços compactos.
+
+A marca Madesa, referência absoluta no mercado de móveis com mais de 5 mil vendas e o selo de "Mais Vendido" na categoria Salas de Jantar, apresenta este conjunto que combina a robustez da madeira com o conforto do estofamento premium. A mesa em pedestal de 104 cm x 68 cm oferece o espaço ideal para 4 pessoas, enquanto as cadeiras com assento estofado garantem uma experiência aconchegante para suas refeições.
+
+Com acabamento em Pintura Poliéster de alta resistência, composta por 7 camadas de proteção contra álcool, água e calor, este conjunto é construído para durar, mantendo sua beleza e funcionalidade por muitos anos.
+
+## 📌 Principais Benefícios
+
+**Design compacto e funcional:** Com dimensões de 104 cm x 68 cm, a mesa é ideal para espaços reduzidos, cabendo perfeitamente em cozinhas e salas de jantar menores sem sacrificar o conforto.
+
+**Conforto superior:** As quatro cadeiras contam com assento estofado em material de toque suave e macio, proporcionando uma experiência de sentar prazerosa durante as refeições.
+
+**Mesa em pedestal:** O design em pedestal é mais confortável e prático no dia a dia, eliminando pernas que atrapalham e facilitando a movimentação ao redor da mesa.
+
+**Acabamento premium com Pintura Poliéster:** O acabamento em Pintura Poliéster de alta resistência consiste em 7 camadas de proteção, oferecendo durabilidade excepcional contra álcool, água e calor.
+
+**Pintura ecológica:** A pintura é ecológica, isenta de vapores que vão para a atmosfera, contribuindo para um ambiente mais saudável.
+
+**Robustez e qualidade:** Fabricado em madeira, MDF e MDP, este conjunto oferece estabilidade e resistência para o uso diário.
+
+**Alta capacidade de peso:** As cadeiras suportam até 100 kg e a mesa até 30 kg, garantindo segurança e durabilidade.
+
+**Montagem simplificada:** Com manual de instalação e ferragens inclusas, a montagem é prática e descomplicada.
+
+## 📌 Design
+
+O design do Conjunto Talita Madesa é um verdadeiro destaque no mercado de móveis para sala de jantar, especialmente para quem busca elegância em espaços compactos.
+
+**Mesa em pedestal:** O design em pedestal é mais confortável e prático no dia a dia, eliminando pernas que atrapalham e facilitando a movimentação ao redor da mesa. Este design é especialmente vantajoso para espaços pequenos.
+
+**Acabamento nas cores Rustic/Crema/Pérola:** A combinação de cores cria um visual sofisticado e versátil, que se adapta a diferentes estilos de decoração, do clássico ao contemporâneo.
+
+**Cadeiras com design clean:** As cadeiras apresentam um design clean e minimalista, com encosto em madeira e assento estofado, criando um visual equilibrado e elegante.
+
+**Acabamento em Pintura Poliéster de alta resistência:** O acabamento premium composto por 7 camadas de proteção garante um visual impecável e duradouro, resistente a álcool, água e calor.
+
+**Cores coordenadas:** A tonalidade da mesa e das cadeiras é perfeitamente coordenada, criando uma harmonia visual que valoriza o ambiente.
+
+## 📌 Organização
+
+Com dimensões de 104 cm x 68 cm e espaço para 4 pessoas, este conjunto é perfeito para famílias que valorizam momentos à mesa em espaços compactos.
+
+**Capacidade para 4 lugares:** O conjunto acomoda confortavelmente 4 pessoas, sendo ideal para refeições diárias, almoços de domingo e jantares especiais.
+
+**Design inteligente para espaços pequenos:** Com 104 cm de comprimento, a mesa é a opção ideal para quem tem pouco espaço, cabendo perfeitamente na cozinha ou na sala de jantar.
+
+**Mesa em pedestal que otimiza o espaço:** O design em pedestal elimina pernas nos cantos, facilitando a circulação e otimizando o espaço disponível.
+
+**Altura ideal:** Com 78 cm de altura, a mesa proporciona conforto ergonômico para as refeições.
+
+**Cadeiras com 89 cm de altura:** As cadeiras oferecem suporte adequado e conforto durante as refeições.
+
+## 📌 Ideal para
+
+- **Salas de jantar compactas:** Ideal para ambientes menores
+- **Cozinhas integradas:** Perfeito para refeições do dia a dia
+- **Apartamentos:** Design compacto que se adapta a espaços reduzidos
+- **Primeiras compras:** Conjunto completo com excelente custo-benefício
+- **Famílias de 4 pessoas:** Capacidade ideal para o dia a dia
+- **Ambientes que buscam elegância:** Acabamento em Pintura Poliéster
+- **Espaços que valorizam conforto:** Cadeiras com assento estofado
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este conjunto é altamente recomendado para:
+
+**Famílias com espaços compactos:** A mesa de 104 cm é perfeita para quem tem pouco espaço, cabendo em qualquer canto da cozinha ou sala de jantar.
+
+**Casais e pequenas famílias:** Com 4 lugares, o conjunto atende perfeitamente casais e famílias com até 2 filhos.
+
+**Pessoas que buscam conforto durante as refeições:** As cadeiras com assento estofado garantem conforto prolongado.
+
+**Admiradores de design sofisticado:** O acabamento em Pintura Poliéster com 7 camadas de proteção oferece um visual premium.
+
+**Quem busca durabilidade:** A pintura ecológica de alta resistência garante que o móvel mantenha sua beleza por muitos anos.
+
+**Pessoas que valorizam praticidade:** A mesa em pedestal facilita o dia a dia e a limpeza do ambiente.
+
+**Quem busca excelente custo-benefício:** Com mais de 5 mil vendidos e 4.7 estrelas de avaliação, este conjunto é um dos mais vendidos do mercado.
+
+## 📌 Diferenciais
+
+O que torna o Conjunto Talita Madesa único no mercado?
+
+**Mesa em pedestal:** O design em pedestal é mais confortável e prático no dia a dia, eliminando pernas que atrapalham e facilitando a movimentação ao redor da mesa - um diferencial significativo para espaços compactos.
+
+**Pintura Poliéster de alta resistência:** Acabamento com 7 camadas de proteção que oferece resistência excepcional a álcool, água e calor, garantindo durabilidade superior.
+
+**Pintura ecológica:** Processo de pintura isento de vapores que vão para a atmosfera, contribuindo para um ambiente mais saudável e sustentável.
+
+**Marca Madesa:** Líder absoluta no mercado de móveis, com mais de 5 mil vendas e o selo de "Mais Vendido" em Salas de Jantar.
+
+**Avaliação 4.7 estrelas com 4325 reviews:** A excelente avaliação e o alto número de reviews demonstram a qualidade superior do produto e a alta satisfação dos clientes.
+
+**Cadeiras com alta capacidade de peso:** Suportam até 100 kg, oferecendo segurança e durabilidade.
+
+**Design compacto e funcional:** Dimensões ideais para espaços pequenos sem sacrificar o conforto.
+
+**Preço competitivo:** Excelente custo-benefício com 18% de desconto.
+
+## 📌 Motivos para Comprar
+
+✅ **Mesa em pedestal** - mais confortável e prática no dia a dia
+
+✅ **Design compacto (104x68cm)** - ideal para espaços pequenos
+
+✅ **4 cadeiras com assento estofado** - conforto durante as refeições
+
+✅ **Acabamento em Pintura Poliéster** - 7 camadas de proteção
+
+✅ **Resistente a álcool, água e calor** - durabilidade excepcional
+
+✅ **Pintura ecológica** - isenta de vapores nocivos
+
+✅ **Marca Madesa** - líder em móveis com mais de 5 mil vendas
+
+✅ **Avaliação 4.7 estrelas** com 4325 reviews - alta satisfação
+
+✅ **Cadeiras suportam até 100 kg** - segurança e robustez
+
+✅ **18% de desconto** - excelente custo-benefício
+
+✅ **Montagem simplificada** - com manual e ferragens inclusas
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos Madesa são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de instalação e todas as ferragens necessárias para a montagem. A Madesa não disponibiliza serviço de montagem.
+
+**3. As cadeiras são estofadas?**
+Sim, as 4 cadeiras possuem assento estofado em material de toque suave e macio, proporcionando máximo conforto durante as refeições.
+
+**4. Qual o material da mesa?**
+A mesa é fabricada em madeira, com tampo resistente e robusto.
+
+**5. Qual o material das cadeiras?**
+As cadeiras são fabricadas em MDF e MDP, com estrutura e encosto em pintura combinando com a tonalidade da mesa.
+
+**6. Qual o tamanho da mesa?**
+A mesa tem 104 cm de comprimento, 68 cm de largura e 78 cm de altura.
+
+**7. Quantas pessoas cabem na mesa?**
+A mesa acomoda confortavelmente até 4 pessoas.
+
+**8. Qual a altura das cadeiras?**
+As cadeiras têm 89 cm de altura.
+
+**9. Qual a capacidade de peso das cadeiras?**
+As cadeiras suportam até 100 kg cada.
+
+**10. Qual a capacidade de peso da mesa?**
+A mesa suporta até 30 kg.
+
+**11. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Madesa.
+
+**12. Como devo fazer a limpeza do conjunto?**
+Recomenda-se limpar o produto com pano seco ou levemente umedecido. A Pintura Poliéster é resistente a álcool, água e calor, facilitando a limpeza. Evite o uso de produtos abrasivos.
+
+**13. O conjunto é indicado para apartamentos?**
+Sim, as dimensões compactas do conjunto são ideais para apartamentos e espaços reduzidos.
+
+**14. Qual o código do produto?**
+O código do produto é 045677GX4.
+
+**15. O conjunto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**16. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**17. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**18. O que é a Pintura Poliéster?**
+A Pintura Poliéster é um acabamento de alta resistência que consiste na aplicação de 7 camadas de proteção, oferecendo resistência a álcool, água e calor. É uma pintura ecológica, isenta de vapores nocivos.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Madesa |
+| **Modelo** | Talita |
+| **Código do Produto** | 045677GX4 |
+| **Estilo** | Moderno/Clássico |
+| **Forma da Mesa** | Retangular |
+| **Cor** | Rustic / Crema / Pérola |
+| **Desenho do Tecido** | Liso |
+| **Material da Mesa** | Madeira |
+| **Material das Cadeiras** | Madeira, MDF e MDP |
+| **Acabamento** | Pintura Poliéster (7 camadas) |
+| **Tipo de Mesa** | Pedestal |
+| **Comprimento da Mesa** | 104 cm |
+| **Largura da Mesa** | 68 cm |
+| **Altura da Mesa** | 78 cm |
+| **Altura da Cadeira** | 89 cm |
+| **Capacidade** | 4 lugares |
+| **Peso Suportado (Cadeira)** | 100 kg |
+| **Peso Suportado (Mesa)** | 30 kg |
+| **Origem** | Nacional |
+| **Requer Montagem** | Sim |
+| **Garantia** | Conforme política da marca |
+| **Itens Inclusos** | 1 Mesa, 4 Cadeiras, Ferragens, Manual |
+
+## 📌 Conclusão
+
+O **Conjunto Sala de Jantar Madesa Talita** é uma escolha excepcional para quem busca transformar a sala de jantar em um espaço elegante, funcional e acolhedor, especialmente em ambientes compactos. Com seu design em pedestal, conforto superior com assentos estofados, acabamento premium em Pintura Poliéster com 7 camadas de proteção e dimensões ideais para espaços pequenos, este conjunto atende às necessidades das famílias modernas que valorizam momentos de convívio à mesa.
+
+O selo de "Mais Vendido" com mais de 5 mil unidades comercializadas e a excelente avaliação de 4.7 estrelas com 4325 reviews atestam a qualidade superior do produto e a satisfação dos compradores. Aproveite esta oferta exclusiva com 18% de desconto e garanta já este conjunto que vai elevar o padrão estético e funcional da sua sala de jantar.
+  `,
+  marca: "Madesa",
+  keywords: [
+    "conjunto de jantar com 4 cadeiras",
+    "mesa de jantar 104cm",
+    "conjunto Talita Madesa",
+    "mesa em pedestal",
+    "cadeiras estofadas Madesa",
+    "conjunto sala de jantar",
+    "mesa 104x68",
+    "conjunto de jantar compacto",
+    "mesa de jantar rustic crema perola",
+    "conjunto Madesa Talita",
+    "móvel para sala de jantar",
+    "conjunto jantar com desconto",
+    "mesa e 4 cadeiras estofadas",
+    "conjunto jantar Madesa",
+    "mesa madeira 4 lugares",
+    "pintura poliéster",
+    "cadeiras com estofamento",
+    "conjunto jantar 4 lugares",
+    "mesa de jantar pequena",
+    "conjunto sala de jantar compacto"
+  ],
+  seoTitle: "Conjunto Jantar Talita 104cm 4 Cadeiras Madesa | Mais Vendido",
+  seoDescription: "Conjunto jantar Madesa com mesa pedestal 104x68cm e 4 cadeiras estofadas. Pintura Poliéster 7 camadas, design compacto. 4.7★ (4325 reviews). 18% OFF!"
+},
+
+{
+  id: "p-imp-114",
+  slug: "conjunto-sala-jantar-mesa-quadrada-vidro-4-cadeiras-evelin-madesa-rustic-crema-imperial",
+  category: "mesas",
+  mainCategory: "cozinha",
+  name: "Conjunto Sala Jantar Madesa Evelin Mesa Tampo Vidro com 4 Cadeiras - Rustic/Crema/Imperial",
+  imageFile: "/imagens/produtos/mesa-pequena-jantar-4-cadeiras-vidro.webp",
+  displayImage: "/imagens/produtos/mesa-pequena-jantar-4-cadeiras-vidro.webp",
+  alt: "Conjunto de sala de jantar Madesa Evelin com mesa quadrada de tampo vidro 90cm e 4 cadeiras estofadas nas cores rustic, crema e imperial",
+  rating: 4.7,
+  reviews: 764,
+  discount: 30,
+  price: 819.99,
+  originalPrice: 1176.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1wuVhEX",
+  descricao: `
+# Conjunto Sala Jantar Madesa Evelin Mesa Tampo Vidro com 4 Cadeiras
+
+## 📌 Introdução
+
+Transforme sua sala de jantar em um espaço sofisticado, funcional e cheio de estilo com o **Conjunto Sala Jantar Madesa Evelin**. Este conjunto elegante foi desenvolvido para quem busca unir design contemporâneo, conforto excepcional e durabilidade em um produto que se adapta perfeitamente a ambientes compactos.
+
+A marca Madesa, líder absoluta no mercado de móveis com mais de 1000 vendas e o selo de "Mais Vendido" na categoria Salas de Jantar, apresenta este conjunto que combina a sofisticação do tampo de vidro com o conforto do estofamento premium. A mesa quadrada de 90 cm x 90 cm oferece o espaço ideal para 4 pessoas, enquanto as cadeiras com assento estofado garantem uma experiência aconchegante para suas refeições.
+
+Com estrutura em MDP e MDF de alta qualidade, pés em PVC e acabamento nas cores Rustic, Crema e Imperial, este conjunto é construído para durar, mantendo sua beleza e funcionalidade por muitos anos.
+
+## 📌 Principais Benefícios
+
+**Design sofisticado com tampo de vidro:** O tampo de vidro da mesa cria uma sensação de amplitude e luminosidade, tornando o ambiente mais clean e moderno. O vidro reflete a luz natural, ampliando visualmente o espaço.
+
+**Formato quadrado e compacto:** Com 90 cm x 90 cm, a mesa quadrada é ideal para espaços reduzidos, permitindo acomodar 4 pessoas mantendo a circulação em ambientes compactos.
+
+**Conforto superior:** As quatro cadeiras contam com assento estofado em material de toque suave e macio, proporcionando uma experiência de sentar prazerosa durante as refeições.
+
+**Alta capacidade de peso:** Estrutura em MDP e MDF com suporte de até 120 kg por cadeira, garantindo estabilidade e segurança para o uso diário familiar.
+
+**Pés em PVC:** Os pés de mesa em PVC com 72 cm de altura proporcionam a elevação necessária para o encaixe das 4 cadeiras inclusas, oferecendo estabilidade e proteção ao piso.
+
+**Robustez e qualidade:** Fabricado em madeira, MDF e MDP, este conjunto oferece estabilidade e resistência para o uso diário.
+
+**Montagem simplificada:** Com manual de instalação e ferragens inclusas, a montagem é prática e descomplicada.
+
+## 📌 Design
+
+O design do Conjunto Evelin Madesa é um verdadeiro destaque no mercado de móveis para sala de jantar, especialmente para quem busca elegância em espaços compactos.
+
+**Tampo de vidro:** O tampo de vidro traz leveza e modernidade ao ambiente, criando um visual clean e sofisticado. O vidro reflete a luz natural, ampliando visualmente o espaço.
+
+**Formato quadrado:** O design quadrado de 90 cm x 90 cm é perfeito para espaços reduzidos, permitindo acomodar 4 pessoas mantendo a circulação em ambientes compactos.
+
+**Acabamento nas cores Rustic/Crema/Imperial:** A combinação de cores cria um visual sofisticado e versátil, que se adapta a diferentes estilos de decoração, do clássico ao contemporâneo.
+
+**Cadeiras com design clean:** As cadeiras apresentam um design clean e minimalista, com encosto e assento estofados, criando um visual equilibrado e elegante.
+
+**Pés em PVC:** Os pés de mesa em PVC com 72 cm de altura proporcionam a elevação necessária para o encaixe das cadeiras, oferecendo estabilidade e proteção ao piso.
+
+**Cores coordenadas:** A tonalidade da mesa e das cadeiras é perfeitamente coordenada, criando uma harmonia visual que valoriza o ambiente.
+
+## 📌 Organização
+
+Com dimensões de 90 cm x 90 cm e espaço para 4 pessoas, este conjunto é perfeito para famílias que valorizam momentos à mesa em espaços compactos.
+
+**Capacidade para 4 lugares:** O conjunto acomoda confortavelmente 4 pessoas, sendo ideal para refeições diárias, almoços de domingo e jantares especiais.
+
+**Design inteligente para espaços pequenos:** Com 90 cm de largura, a mesa é a opção ideal para quem tem pouco espaço, permitindo acomodar 4 pessoas mantendo a circulação em ambientes compactos.
+
+**Tampo com espaço adequado:** O tampo de 90 cm de largura possibilita a disposição de utensílios para refeições de quatro ocupantes, com espaço suficiente para pratos, talheres e utensílios.
+
+**Altura ideal:** Com 78 cm de altura, a mesa proporciona conforto ergonômico para as refeições.
+
+**Pés em PVC com 72 cm:** Os pés proporcionam a elevação necessária para o encaixe das cadeiras, otimizando o espaço disponível.
+
+## 📌 Ideal para
+
+- **Salas de jantar compactas:** Ideal para ambientes menores
+- **Cozinhas integradas:** Perfeito para refeições do dia a dia
+- **Apartamentos:** Design compacto que se adapta a espaços reduzidos
+- **Primeiras compras:** Conjunto completo com excelente custo-benefício
+- **Famílias de 4 pessoas:** Capacidade ideal para o dia a dia
+- **Ambientes que buscam sofisticação:** Tampo de vidro e design elegante
+- **Espaços que valorizam conforto:** Cadeiras com assento estofado
+- **Ambientes modernos:** Design contemporâneo com acabamento sofisticado
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este conjunto é altamente recomendado para:
+
+**Famílias com espaços compactos:** A mesa de 90 cm x 90 cm é perfeita para quem tem pouco espaço, permitindo acomodar 4 pessoas mantendo a circulação em ambientes compactos.
+
+**Casais e pequenas famílias:** Com 4 lugares, o conjunto atende perfeitamente casais e famílias com até 2 filhos.
+
+**Pessoas que buscam conforto durante as refeições:** As cadeiras com assento estofado garantem conforto prolongado.
+
+**Admiradores de design sofisticado:** O tampo de vidro e o acabamento nas cores Rustic/Crema/Imperial oferecem um visual premium.
+
+**Quem busca durabilidade e segurança:** A estrutura em MDP e MDF com suporte de até 120 kg por cadeira garante estabilidade e segurança.
+
+**Pessoas que valorizam praticidade:** O design compacto e a montagem simplificada facilitam o dia a dia.
+
+**Quem busca excelente custo-benefício:** Com mais de 1000 vendidos e 4.7 estrelas de avaliação, este conjunto é um dos mais vendidos do mercado.
+
+## 📌 Diferenciais
+
+O que torna o Conjunto Evelin Madesa único no mercado?
+
+**Tampo de vidro sofisticado:** O tampo de vidro traz leveza e modernidade ao ambiente, criando um visual clean e sofisticado que se destaca no mercado.
+
+**Formato quadrado ideal para espaços compactos:** Com 90 cm x 90 cm, a mesa quadrada é perfeita para quem tem pouco espaço, permitindo acomodar 4 pessoas mantendo a circulação em ambientes compactos.
+
+**Alta capacidade de peso:** Estrutura em MDP e MDF com suporte de até 120 kg por cadeira, oferecendo segurança e durabilidade superiores.
+
+**Pés em PVC:** Os pés de mesa em PVC proporcionam estabilidade e proteção ao piso, além da elevação necessária para o encaixe das cadeiras.
+
+**Marca Madesa:** Líder absoluta no mercado de móveis, com mais de 1000 vendas e o selo de "Mais Vendido" em Salas de Jantar.
+
+**Avaliação 4.7 estrelas com 764 reviews:** A excelente avaliação demonstra a qualidade superior do produto e a alta satisfação dos clientes.
+
+**Acabamento nas cores Rustic/Crema/Imperial:** Combinação de cores versátil que se adapta a diferentes estilos de decoração.
+
+**Preço competitivo:** Excelente custo-benefício com 30% de desconto no Pix.
+
+## 📌 Motivos para Comprar
+
+✅ **Tampo de vidro sofisticado** - leveza e modernidade ao ambiente
+
+✅ **Formato quadrado 90x90cm** - ideal para espaços compactos
+
+✅ **4 cadeiras com assento estofado** - conforto durante as refeições
+
+✅ **Suporte de até 120 kg por cadeira** - segurança e durabilidade
+
+✅ **Estrutura em MDP e MDF** - robustez e qualidade
+
+✅ **Pés em PVC** - estabilidade e proteção ao piso
+
+✅ **Marca Madesa** - líder em móveis com mais de 1000 vendas
+
+✅ **Avaliação 4.7 estrelas** com 764 reviews - alta satisfação
+
+✅ **30% de desconto no Pix** - excelente custo-benefício
+
+✅ **Montagem simplificada** - com manual e ferragens inclusas
+
+✅ **Design clean e moderno** - combina com diferentes estilos
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos Madesa são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de instalação e todas as ferragens necessárias para a montagem.
+
+**3. As cadeiras são estofadas?**
+Sim, as 4 cadeiras possuem assento estofado em material de toque suave e macio, proporcionando máximo conforto durante as refeições.
+
+**4. Qual o material da mesa?**
+O tampo da mesa é em vidro, com estrutura em MDP e MDF.
+
+**5. Qual o material das cadeiras?**
+As cadeiras são fabricadas em madeira, MDF e MDP, com assento estofado.
+
+**6. Qual o tamanho da mesa?**
+A mesa tem 90 cm x 90 cm (largura e profundidade) e 78 cm de altura.
+
+**7. Quantas pessoas cabem na mesa?**
+A mesa acomoda confortavelmente até 4 pessoas.
+
+**8. Qual a capacidade de peso das cadeiras?**
+As cadeiras suportam até 120 kg cada.
+
+**9. Qual a altura dos pés da mesa?**
+Os pés da mesa têm 72 cm de altura, proporcionando a elevação necessária para o encaixe das cadeiras.
+
+**10. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Madesa.
+
+**11. Como devo fazer a limpeza do tampo de vidro?**
+O vidro pode ser limpo com produtos específicos para vidros e um pano macio. Evite produtos abrasivos.
+
+**12. O conjunto é indicado para apartamentos?**
+Sim, as dimensões compactas de 90 cm x 90 cm são ideais para apartamentos e espaços reduzidos.
+
+**13. Qual o código do produto?**
+O modelo é EvelinXM, código específico da Madesa.
+
+**14. O conjunto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**15. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**16. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**17. A mesa é extensível?**
+Não, a mesa não é extensível. Possui 90 cm x 90 cm fixos.
+
+**18. Qual o desenho do tecido das cadeiras?**
+O desenho do tecido das cadeiras é liso, criando um visual clean e moderno.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Madesa |
+| **Modelo** | EvelinXM |
+| **Estilo** | Moderno |
+| **Forma da Mesa** | Quadrada |
+| **Cor** | Rustic / Crema / Imperial |
+| **Desenho do Tecido** | Liso |
+| **Material do Tampo** | Vidro |
+| **Material da Mesa** | Madeira, MDP e MDF |
+| **Material das Cadeiras** | Madeira, MDF e MDP |
+| **Material dos Pés** | PVC |
+| **Altura da Mesa** | 78 cm |
+| **Altura dos Pés** | 72 cm |
+| **Largura da Mesa** | 90 cm |
+| **Profundidade da Mesa** | 90 cm |
+| **Capacidade** | 4 lugares |
+| **Peso Suportado (Cadeira)** | 120 kg |
+| **Mesa Extensível** | Não |
+| **Requer Montagem** | Sim |
+| **Inclui Manual** | Sim |
+| **Origem** | Nacional |
+| **Garantia** | Conforme política da marca |
+| **Itens Inclusos** | 1 Mesa, 4 Cadeiras, Ferragens, Manual |
+
+## 📌 Conclusão
+
+O **Conjunto Sala Jantar Madesa Evelin** é uma escolha excepcional para quem busca transformar a sala de jantar em um espaço sofisticado, funcional e acolhedor, especialmente em ambientes compactos. Com seu design moderno com tampo de vidro, formato quadrado de 90 cm x 90 cm, conforto superior com assentos estofados, estrutura robusta em MDP e MDF com suporte de até 120 kg por cadeira, este conjunto atende às necessidades das famílias modernas que valorizam momentos de convívio à mesa.
+
+O selo de "Mais Vendido" com mais de 1000 unidades comercializadas e a excelente avaliação de 4.7 estrelas com 764 reviews atestam a qualidade superior do produto e a satisfação dos compradores. Aproveite esta oferta exclusiva com 30% de desconto no Pix e garanta já este conjunto que vai elevar o padrão estético e funcional da sua sala de jantar.
+  `,
+  marca: "Madesa",
+  keywords: [
+    "conjunto de jantar com 4 cadeiras",
+    "mesa de jantar 90cm",
+    "conjunto Evelin Madesa",
+    "mesa com tampo de vidro",
+    "cadeiras estofadas Madesa",
+    "conjunto sala de jantar",
+    "mesa 90x90",
+    "conjunto de jantar quadrado",
+    "mesa de jantar rustic crema imperial",
+    "conjunto Madesa Evelin",
+    "móvel para sala de jantar",
+    "conjunto jantar com desconto",
+    "mesa e 4 cadeiras estofadas",
+    "conjunto jantar Madesa",
+    "mesa vidro 4 lugares",
+    "cadeiras com estofamento",
+    "conjunto jantar 4 lugares",
+    "mesa de jantar compacta",
+    "conjunto sala de jantar moderno",
+    "mesa quadrada com cadeiras"
+  ],
+  seoTitle: "Conjunto Jantar Evelin Mesa Vidro 90cm 4 Cadeiras Madesa",
+  seoDescription: "Conjunto jantar Madesa com mesa quadrada 90x90cm tampo vidro e 4 cadeiras estofadas. Design compacto, 120kg/cadeira. 4.7★ (764 reviews). 30% OFF no Pix!"
+},
+{
+  id: "p-imp-115",
+  slug: "conjunto-sala-jantar-mesa-quadrada-vidro-4-cadeiras-tifani-madesa-rustic-preto",
+  category: "mesas",
+  mainCategory: "cozinha",
+  name: "Conjunto Sala de Jantar Madesa Tifani Mesa Tampo Vidro com 4 Cadeiras - Rustic/Preto",
+  imageFile: "/imagens/produtos/conjunto-sala-jantar-mesa-90cm-quadrada-vidro-4-cadeiras-tifani-madesa.webp",
+  displayImage: "/imagens/produtos/conjunto-sala-jantar-mesa-90cm-quadrada-vidro-4-cadeiras-tifani-madesa.webp",
+  alt: "Conjunto de sala de jantar Madesa Tifani com mesa quadrada de tampo vidro 90cm e 4 cadeiras estofadas nas cores rustic e preto",
+  rating: 4.7,
+  reviews: 2535,
+  discount: 17,
+  price: 699.98,
+  originalPrice: 847.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2wo73MS",
+  descricao: `
+# Conjunto Sala de Jantar Madesa Tifani Mesa Tampo Vidro com 4 Cadeiras
+
+## 📌 Introdução
+
+Celebre momentos especiais em família com o **Conjunto Sala de Jantar Madesa Tifani**, uma peça que une conforto, elegância e funcionalidade. Este conjunto foi desenvolvido para transformar suas refeições em momentos de puro aconchego e sofisticação.
+
+A marca Madesa, líder absoluta no mercado de móveis com mais de 1000 vendas e o selo de "Mais Vendido" na categoria Salas de Jantar, apresenta este conjunto que combina a sofisticação do tampo de vidro sobreposto com o conforto do estofamento premium. A mesa quadrada de 90 cm x 90 cm oferece o espaço ideal para 4 pessoas, enquanto as cadeiras com assento estofado garantem uma experiência aconchegante.
+
+Com base em pedestal, design compacto, acabamento em Pintura Poliéster ecológica com 7 camadas de proteção, este conjunto é a escolha perfeita para quem busca durabilidade e beleza em um único produto.
+
+## 📌 Principais Benefícios
+
+**Design elegante com tampo de vidro sobreposto:** O tampo em MDP resistente é acompanhado por um vidro incolor sobreposto, agregando elegância e sofisticação ao design. O vidro reflete a luz natural, ampliando visualmente o espaço.
+
+**Base em pedestal:** A base em formato pedestal oferece ótimo espaço para as pernas, proporcionando mais conforto durante as refeições e facilitando a movimentação ao redor da mesa.
+
+**Design compacto e funcional:** Com 90 cm x 90 cm, a mesa quadrada é ideal para espaços compactos, podendo ser utilizada tanto na cozinha quanto na sala de jantar.
+
+**Conforto superior:** As quatro cadeiras contam com assento estofado, proporcionando um toque delicado e macio durante as refeições.
+
+**Alta capacidade de peso:** Cadeiras com suporte de até 100 kg e mesa com suporte de até 30 kg, garantindo segurança e durabilidade.
+
+**Acabamento premium com Pintura Poliéster ecológica:** O acabamento em Pintura Poliéster ecológica com sete camadas resiste a álcool, água e calor, garantindo durabilidade excepcional.
+
+**Materiais de alta qualidade:** Fabricadas com MDF e MDP de alta qualidade, as cadeiras garantem resistência e durabilidade.
+
+**Montagem simplificada:** Com manual e ferragens inclusas, a montagem é prática e descomplicada.
+
+## 📌 Design
+
+O design do Conjunto Tifani Madesa é um verdadeiro destaque no mercado de móveis para sala de jantar, especialmente para quem busca elegância em espaços compactos.
+
+**Tampo com vidro sobreposto:** O tampo em MDP resistente é acompanhado por um vidro incolor sobreposto, agregando elegância e sofisticação ao design. O vidro reflete a luz natural, ampliando visualmente o espaço.
+
+**Base em pedestal:** A base em formato pedestal oferece ótimo espaço para as pernas, proporcionando mais conforto durante as refeições e criando um visual clean e moderno.
+
+**Formato quadrado:** O design quadrado de 90 cm x 90 cm é perfeito para espaços reduzidos, permitindo acomodar 4 pessoas mantendo a circulação em ambientes compactos.
+
+**Acabamento nas cores Rustic/Preto:** A combinação de cores cria um visual sofisticado e versátil, que se adapta a diferentes estilos de decoração, do clássico ao contemporâneo.
+
+**Cadeiras com design clean:** As cadeiras apresentam um design clean e minimalista, com assento estofado e encosto em madeira, criando um visual equilibrado e elegante.
+
+**Acabamento em Pintura Poliéster ecológica:** O acabamento premium com sete camadas de proteção garante um visual impecável e duradouro.
+
+## 📌 Organização
+
+Com dimensões de 90 cm x 90 cm e espaço para 4 pessoas, este conjunto é perfeito para famílias que valorizam momentos à mesa em espaços compactos.
+
+**Capacidade para 4 lugares:** O conjunto acomoda confortavelmente 4 pessoas, sendo ideal para refeições diárias, almoços de domingo e jantares especiais.
+
+**Design inteligente para espaços pequenos:** Com 90 cm de largura, a mesa é a opção ideal para quem tem pouco espaço, podendo ser utilizada tanto na cozinha quanto na sala de jantar.
+
+**Base em pedestal que otimiza o espaço:** A base em pedestal elimina pernas nos cantos, facilitando a circulação e otimizando o espaço disponível.
+
+**Altura ideal:** Com 78 cm de altura, a mesa proporciona conforto ergonômico para as refeições.
+
+**Cadeiras com dimensões equilibradas:** As cadeiras medem 89 cm de altura, 44 cm de largura e 37 cm de profundidade, oferecendo suporte adequado e conforto.
+
+## 📌 Ideal para
+
+- **Salas de jantar compactas:** Ideal para ambientes menores
+- **Cozinhas integradas:** Perfeito para refeições do dia a dia
+- **Apartamentos:** Design compacto que se adapta a espaços reduzidos
+- **Primeiras compras:** Conjunto completo com excelente custo-benefício
+- **Famílias de 4 pessoas:** Capacidade ideal para o dia a dia
+- **Ambientes que buscam sofisticação:** Tampo com vidro sobreposto
+- **Espaços que valorizam conforto:** Cadeiras com assento estofado
+- **Ambientes modernos:** Design contemporâneo com acabamento sofisticado
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este conjunto é altamente recomendado para:
+
+**Famílias com espaços compactos:** A mesa de 90 cm x 90 cm é perfeita para quem tem pouco espaço, podendo ser utilizada tanto na cozinha quanto na sala de jantar.
+
+**Casais e pequenas famílias:** Com 4 lugares, o conjunto atende perfeitamente casais e famílias com até 2 filhos.
+
+**Pessoas que buscam conforto durante as refeições:** As cadeiras com assento estofado garantem conforto prolongado.
+
+**Admiradores de design sofisticado:** O tampo com vidro sobreposto e o acabamento nas cores Rustic/Preto oferecem um visual premium.
+
+**Quem busca durabilidade e qualidade:** A Pintura Poliéster ecológica com sete camadas de proteção garante resistência a álcool, água e calor.
+
+**Pessoas que valorizam praticidade:** A base em pedestal e o design compacto facilitam o dia a dia.
+
+**Quem busca excelente custo-benefício:** Com mais de 1000 vendidos, selo "Mais Vendido" e 4.7 estrelas de avaliação, este conjunto é um dos mais vendidos do mercado.
+
+## 📌 Diferenciais
+
+O que torna o Conjunto Tifani Madesa único no mercado?
+
+**Tampo com vidro sobreposto:** O tampo em MDP resistente é acompanhado por um vidro incolor sobreposto, agregando elegância e sofisticação ao design - um diferencial significativo no mercado.
+
+**Base em pedestal:** A base em formato pedestal oferece ótimo espaço para as pernas, proporcionando mais conforto durante as refeições e criando um visual clean e moderno.
+
+**Pintura Poliéster ecológica:** O acabamento em Pintura Poliéster ecológica com sete camadas resiste a álcool, água e calor, garantindo durabilidade excepcional.
+
+**Marca Madesa:** Líder absoluta no mercado de móveis, com mais de 1000 vendas e o selo de "Mais Vendido" em Salas de Jantar.
+
+**Avaliação 4.7 estrelas com 2535 reviews:** A excelente avaliação e o alto número de reviews demonstram a qualidade superior do produto e a alta satisfação dos clientes.
+
+**Cadeiras com alta capacidade de peso:** Suportam até 100 kg, oferecendo segurança e durabilidade.
+
+**Design compacto e funcional:** Dimensões ideais para espaços pequenos sem sacrificar o conforto.
+
+**Preço competitivo:** Excelente custo-benefício com 17% de desconto.
+
+## 📌 Motivos para Comprar
+
+✅ **Tampo com vidro sobreposto** - elegância e sofisticação ao design
+
+✅ **Base em pedestal** - ótimo espaço para as pernas
+
+✅ **Formato quadrado 90x90cm** - ideal para espaços compactos
+
+✅ **4 cadeiras com assento estofado** - conforto durante as refeições
+
+✅ **Suporte de até 100 kg por cadeira** - segurança e durabilidade
+
+✅ **Pintura Poliéster ecológica** - 7 camadas de proteção
+
+✅ **Resistente a álcool, água e calor** - durabilidade excepcional
+
+✅ **Marca Madesa** - líder em móveis com mais de 1000 vendas
+
+✅ **Avaliação 4.7 estrelas** com 2535 reviews - alta satisfação
+
+✅ **17% de desconto** - excelente custo-benefício
+
+✅ **Montagem simplificada** - com manual e ferragens inclusas
+
+✅ **Design clean e moderno** - combina com diferentes estilos
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos Madesa são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de instalação e todas as ferragens necessárias para a montagem.
+
+**3. As cadeiras são estofadas?**
+Sim, as 4 cadeiras possuem assento estofado, proporcionando um toque delicado e macio durante as refeições.
+
+**4. Qual o material da mesa?**
+O tampo da mesa é em MDP resistente, acompanhado por um vidro incolor sobreposto.
+
+**5. Qual o material das cadeiras?**
+As cadeiras são fabricadas em MDF e MDP de alta qualidade, com assento estofado.
+
+**6. Qual o tamanho da mesa?**
+A mesa tem 90 cm x 90 cm (largura e profundidade) e 78 cm de altura.
+
+**7. Quantas pessoas cabem na mesa?**
+A mesa acomoda confortavelmente até 4 pessoas.
+
+**8. Qual a capacidade de peso das cadeiras?**
+As cadeiras suportam até 100 kg cada.
+
+**9. Qual a capacidade de peso da mesa?**
+A mesa suporta até 30 kg.
+
+**10. Qual o tamanho das cadeiras?**
+As cadeiras medem 89 cm de altura, 44 cm de largura e 37 cm de profundidade.
+
+**11. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Madesa.
+
+**12. Como devo fazer a limpeza do tampo de vidro?**
+O vidro pode ser limpo com produtos específicos para vidros e um pano macio. A Pintura Poliéster é resistente a álcool, água e calor, facilitando a limpeza.
+
+**13. O conjunto é indicado para apartamentos?**
+Sim, as dimensões compactas de 90 cm x 90 cm são ideais para apartamentos e espaços reduzidos.
+
+**14. Qual o código do produto?**
+O código é XMMDJA040165, com variações para diferentes cores.
+
+**15. O conjunto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**16. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**17. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**18. O que é a Pintura Poliéster ecológica?**
+É um acabamento de alta resistência com sete camadas de proteção, isento de vapores nocivos, que resiste a álcool, água e calor.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Madesa |
+| **Modelo** | Tifani |
+| **Código do Produto** | XMMDJA040165 |
+| **Estilo** | Moderno |
+| **Forma da Mesa** | Quadrada |
+| **Cor** | Rustic / Preto |
+| **Material do Tampo** | MDP com vidro sobreposto |
+| **Material das Cadeiras** | MDF e MDP |
+| **Acabamento** | Pintura Poliéster (7 camadas) |
+| **Tipo de Mesa** | Pedestal |
+| **Altura da Mesa** | 78 cm |
+| **Largura da Mesa** | 90 cm |
+| **Profundidade da Mesa** | 90 cm |
+| **Altura da Cadeira** | 89 cm |
+| **Largura da Cadeira** | 44 cm |
+| **Profundidade da Cadeira** | 37 cm |
+| **Capacidade** | 4 lugares |
+| **Peso Suportado (Cadeira)** | 100 kg |
+| **Peso Suportado (Mesa)** | 30 kg |
+| **Requer Montagem** | Sim |
+| **Inclui Manual** | Sim |
+| **Origem** | Nacional |
+| **Garantia** | Conforme política da marca |
+| **Itens Inclusos** | 1 Mesa, 4 Cadeiras, Ferragens, Manual |
+
+## 📌 Conclusão
+
+O **Conjunto Sala de Jantar Madesa Tifani** é uma escolha excepcional para quem busca transformar a sala de jantar em um espaço elegante, funcional e acolhedor, especialmente em ambientes compactos. Com seu design sofisticado com tampo de vidro sobreposto, base em pedestal, conforto superior com assentos estofados, acabamento em Pintura Poliéster ecológica com 7 camadas de proteção e dimensões ideais para espaços pequenos, este conjunto atende às necessidades das famílias modernas que valorizam momentos de convívio à mesa.
+
+O selo de "Mais Vendido" com mais de 1000 unidades comercializadas e a excelente avaliação de 4.7 estrelas com 2535 reviews atestam a qualidade superior do produto e a satisfação dos compradores. Aproveite esta oferta exclusiva com 17% de desconto e garanta já este conjunto que vai elevar o padrão estético e funcional da sua sala de jantar.
+  `,
+  marca: "Madesa",
+  keywords: [
+    "conjunto de jantar com 4 cadeiras",
+    "mesa de jantar 90cm",
+    "conjunto Tifani Madesa",
+    "mesa com tampo de vidro",
+    "cadeiras estofadas Madesa",
+    "conjunto sala de jantar",
+    "mesa 90x90",
+    "conjunto de jantar quadrado",
+    "mesa de jantar rustic preto",
+    "conjunto Madesa Tifani",
+    "móvel para sala de jantar",
+    "conjunto jantar com desconto",
+    "mesa e 4 cadeiras estofadas",
+    "conjunto jantar Madesa",
+    "mesa vidro 4 lugares",
+    "cadeiras com estofamento",
+    "conjunto jantar 4 lugares",
+    "mesa de jantar compacta",
+    "conjunto sala de jantar moderno",
+    "mesa pedestal com cadeiras"
+  ],
+  seoTitle: "Conjunto Jantar Tifani Mesa Vidro 90cm 4 Cadeiras Madesa",
+  seoDescription: "Conjunto jantar Madesa com mesa quadrada 90x90cm tampo vidro e 4 cadeiras estofadas. Base pedestal, 100kg/cadeira. 4.7★ (2535 reviews). 17% OFF!"
+},
+{
+  id: "p-imp-116",
+  slug: "conjunto-sala-jantar-mesa-retangular-109cm-4-cadeiras-delta-nicoli-sonetto-moveis",
+  category: "mesas",
+  mainCategory: "cozinha",
+  name: "Conjunto de Jantar Sonetto Móveis Mesa Retangular 109cm com 4 Cadeiras Delta Nicoli - Mel/Bege",
+  imageFile: "/imagens/produtos/conjunto-sala-jantar-mesa-109cm-retangular-4-cadeiras-estofadas-delta-nicoli-sonetto.webp",
+  displayImage: "/imagens/produtos/conjunto-sala-jantar-mesa-109cm-retangular-4-cadeiras-estofadas-delta-nicoli-sonetto.webp",
+  alt: "Conjunto de jantar Sonetto Móveis com mesa retangular 109cm e 4 cadeiras Delta estofadas em courino nas cores mel e bege",
+  rating: 4.7,
+  reviews: 369,
+  discount: 38,
+  price: 549.00,
+  originalPrice: 899.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2M4nDji",
+  descricao: `
+# Conjunto de Jantar Sonetto Móveis Mesa Retangular 109cm com 4 Cadeiras Delta Nicoli
+
+## 📌 Introdução
+
+Transforme sua sala de jantar em um espaço elegante, aconchegante e funcional com o **Conjunto de Jantar Sonetto Móveis**. Este conjunto foi desenvolvido para quem busca unir design moderno, conforto excepcional e durabilidade em um produto que se adapta perfeitamente a diferentes ambientes.
+
+A marca Sonetto Móveis, reconhecida pela qualidade e inovação no mercado moveleiro, apresenta este conjunto que combina a sofisticação do tampo em MDP com o conforto das cadeiras estofadas em courino. Com mais de 1000 vendas e o selo de "Mais Vendido" na categoria Salas de Jantar, este conjunto é a escolha perfeita para quem busca qualidade e estilo.
+
+A mesa retangular de 109 cm x 68 cm oferece o espaço ideal para 4 pessoas, enquanto as cadeiras Delta, com design ergonômico e assento em courino, garantem uma experiência aconchegante para suas refeições em família ou com amigos.
+
+## 📌 Principais Benefícios
+
+**Design moderno e sofisticado:** O visual contemporâneo com tampo na cor mel e estrutura em tonalidade mel cria um ambiente elegante e acolhedor, que se adapta a diferentes estilos de decoração.
+
+**Conforto superior:** As quatro cadeiras Delta contam com assento em courino e espuma D-12, proporcionando uma experiência de sentar prazerosa e confortável durante as refeições.
+
+**Dimensões equilibradas:** Com 109 cm de comprimento, 68 cm de profundidade e 76 cm de altura, a mesa oferece o espaço ideal para 4 pessoas, sendo perfeita para espaços compactos.
+
+**Robustez e qualidade:** Fabricado em MDF e MDP de alta qualidade, este conjunto oferece estabilidade e resistência para o uso diário.
+
+**Alta capacidade de peso:** As cadeiras suportam até 100 kg e a mesa até 40 kg, garantindo segurança e durabilidade.
+
+**Design ergonômico das cadeiras:** As cadeiras Delta foram projetadas com design ergonômico, oferecendo conforto e suporte adequado para longas refeições.
+
+**Montagem simplificada:** Com kit ferragem e manual de montagem incluso, a instalação é prática e descomplicada.
+
+## 📌 Design
+
+O design do Conjunto Sonetto Móveis é um verdadeiro destaque no mercado de móveis para sala de jantar, combinando elegância e funcionalidade.
+
+**Tampo na cor mel:** O tampo da mesa na cor mel adiciona sofisticação e aconchego ao ambiente, criando um visual acolhedor e elegante.
+
+**Formato retangular:** O design retangular de 109 cm x 68 cm oferece espaço suficiente para 4 pessoas, sendo perfeito para salas de jantar e cozinhas.
+
+**Acabamento nas cores Mel/Bege:** A combinação de cores cria um visual versátil e sofisticado, que se adapta a diferentes estilos de decoração, do clássico ao contemporâneo.
+
+**Cadeiras Delta com design ergonômico:** As cadeiras apresentam um design ergonômico, com assento em courino e encosto que acompanha a curva natural da coluna, proporcionando conforto superior.
+
+**Estrutura em MDF e MDP:** A estrutura robusta em MDF e MDP garante durabilidade e estabilidade para o uso diário.
+
+**Design clean e moderno:** As linhas retas e o acabamento liso criam um visual clean que combina com diferentes estilos de decoração.
+
+## 📌 Organização
+
+Com dimensões de 109 cm x 68 cm e espaço para 4 pessoas, este conjunto é perfeito para famílias que valorizam momentos à mesa em espaços compactos.
+
+**Capacidade para 4 lugares:** O conjunto acomoda confortavelmente 4 pessoas, sendo ideal para refeições diárias, almoços de domingo e jantares especiais.
+
+**Design inteligente para espaços pequenos:** Com 109 cm de comprimento e 68 cm de profundidade, a mesa é a opção ideal para quem tem pouco espaço, cabendo perfeitamente em salas de jantar e cozinhas.
+
+**Altura ideal:** Com 76 cm de altura, a mesa proporciona conforto ergonômico para as refeições.
+
+**Cadeiras com dimensões equilibradas:** As cadeiras medem 90,5 cm de altura, 40 cm de largura e 40 cm de profundidade, oferecendo suporte adequado e conforto.
+
+**Design que otimiza o espaço:** As cadeiras podem ser posicionadas sob a mesa quando não estão em uso, otimizando o espaço no ambiente.
+
+## 📌 Ideal para
+
+- **Salas de jantar:** Peça principal que valoriza o ambiente de refeições
+- **Cozinhas integradas:** Espaço dedicado para refeições em família
+- **Apartamentos:** Design compacto que se adapta a espaços reduzidos
+- **Primeiras compras:** Conjunto completo com excelente custo-benefício
+- **Famílias de 4 pessoas:** Capacidade ideal para o dia a dia
+- **Ambientes que buscam aconchego:** Cores mel e bege que aquecem o ambiente
+- **Espaços que valorizam conforto:** Cadeiras com assento em courino
+- **Ambientes modernos:** Design contemporâneo com acabamento sofisticado
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este conjunto é altamente recomendado para:
+
+**Famílias com espaços compactos:** A mesa de 109 cm x 68 cm é perfeita para quem tem pouco espaço, cabendo perfeitamente em salas de jantar e cozinhas.
+
+**Casais e pequenas famílias:** Com 4 lugares, o conjunto atende perfeitamente casais e famílias com até 2 filhos.
+
+**Pessoas que buscam conforto durante as refeições:** As cadeiras com assento em courino e espuma D-12 garantem conforto prolongado.
+
+**Admiradores de design moderno e aconchegante:** O acabamento nas cores mel e bege oferece um visual acolhedor e sofisticado.
+
+**Quem busca durabilidade:** A estrutura em MDF e MDP garante que o móvel mantenha sua beleza por muitos anos.
+
+**Pessoas que valorizam praticidade:** O design compacto e a montagem simplificada facilitam o dia a dia.
+
+**Quem busca excelente custo-benefício:** Com mais de 1000 vendidos, selo "Mais Vendido" e 38% de desconto, este conjunto oferece um dos melhores custos do mercado.
+
+## 📌 Diferenciais
+
+O que torna o Conjunto Sonetto Móveis único no mercado?
+
+**Cadeiras Delta com design ergonômico:** As cadeiras foram projetadas com design ergonômico, oferecendo conforto superior e suporte adequado para longas refeições, com assento em courino e espuma D-12.
+
+**Acabamento nas cores mel e bege:** A combinação de cores cria um visual acolhedor e sofisticado, que se adapta a diferentes estilos de decoração.
+
+**Estrutura em MDF e MDP:** A estrutura robusta em MDF e MDP de alta qualidade garante durabilidade e estabilidade para o uso diário.
+
+**Alta capacidade de peso:** As cadeiras suportam até 100 kg e a mesa até 40 kg, oferecendo segurança e durabilidade.
+
+**Marca Sonetto Móveis:** Reconhecida pela qualidade e inovação no mercado moveleiro, com mais de 1000 vendas e o selo de "Mais Vendido" em Salas de Jantar.
+
+**Avaliação 4.7 estrelas com 369 reviews:** A excelente avaliação demonstra a qualidade superior do produto e a alta satisfação dos clientes.
+
+**Preço competitivo:** Excelente custo-benefício com 38% de desconto.
+
+**Design compacto e funcional:** Dimensões ideais para espaços pequenos sem sacrificar o conforto.
+
+## 📌 Motivos para Comprar
+
+✅ **Design moderno e aconchegante** - cores mel e bege
+
+✅ **Mesa retangular 109x68cm** - ideal para espaços compactos
+
+✅ **4 cadeiras Delta com design ergonômico** - conforto superior
+
+✅ **Assento em courino com espuma D-12** - maciez e conforto
+
+✅ **Estrutura em MDF e MDP** - robustez e durabilidade
+
+✅ **Cadeiras suportam até 100 kg** - segurança e robustez
+
+✅ **Mesa suporta até 40 kg** - durabilidade
+
+✅ **Marca Sonetto Móveis** - qualidade e inovação
+
+✅ **Mais de 1000 vendidos** - produto testado e aprovado
+
+✅ **Avaliação 4.7 estrelas** com 369 reviews - alta satisfação
+
+✅ **38% de desconto** - excelente custo-benefício
+
+✅ **Montagem simplificada** - com manual e ferragens inclusas
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos Sonetto Móveis são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha kit ferragem e manual de montagem. A montagem é prática e pode ser realizada com ferramentas básicas.
+
+**3. As cadeiras são estofadas?**
+Sim, as 4 cadeiras Delta possuem assento em courino com espuma D-12, proporcionando máximo conforto durante as refeições.
+
+**4. Qual o material das cadeiras?**
+As cadeiras são fabricadas em MDF e MDP de alta qualidade, com assento em courino.
+
+**5. Qual o material da mesa?**
+O tampo da mesa é em MDP com 15 mm de espessura.
+
+**6. Qual o tamanho da mesa?**
+A mesa tem 109 cm de comprimento, 68 cm de profundidade e 76 cm de altura.
+
+**7. Quantas pessoas cabem na mesa?**
+A mesa acomoda confortavelmente até 4 pessoas.
+
+**8. Qual a capacidade de peso das cadeiras?**
+As cadeiras suportam até 100 kg cada.
+
+**9. Qual a capacidade de peso da mesa?**
+A mesa suporta até 40 kg.
+
+**10. Qual o tamanho das cadeiras?**
+As cadeiras medem 90,5 cm de altura, 40 cm de largura e 40 cm de profundidade.
+
+**11. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Sonetto Móveis.
+
+**12. Como devo fazer a limpeza do conjunto?**
+Recomenda-se limpar o produto com pano seco ou levemente umedecido. Para o assento em courino, utilize produtos específicos para couro sintético. Evite o uso de produtos abrasivos.
+
+**13. O conjunto é indicado para apartamentos?**
+Sim, as dimensões de 109 cm x 68 cm são ideais para apartamentos e espaços reduzidos.
+
+**14. A mesa é extensível?**
+Não, a mesa não é extensível. Possui 109 cm fixos.
+
+**15. O conjunto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**16. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**17. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**18. Qual o desenho do tecido das cadeiras?**
+O desenho do tecido das cadeiras é liso, criando um visual clean e moderno.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Sonetto Móveis |
+| **Modelo** | Nicoli / Delta |
+| **Estilo** | Moderno |
+| **Forma da Mesa** | Retangular |
+| **Cor** | Mel / Bege |
+| **Desenho do Tecido** | Liso |
+| **Material do Tampo** | MDP (15 mm) |
+| **Material da Base** | MDF/MDP |
+| **Material das Cadeiras** | MDF e MDP |
+| **Estofamento** | Courino com espuma D-12 |
+| **Altura da Mesa** | 76 cm |
+| **Largura da Mesa** | 109 cm |
+| **Profundidade da Mesa** | 68 cm |
+| **Altura da Cadeira** | 90,5 cm |
+| **Largura da Cadeira** | 40 cm |
+| **Profundidade da Cadeira** | 40 cm |
+| **Peso da Mesa** | 13,8 kg |
+| **Peso da Cadeira** | 4,2 kg |
+| **Capacidade** | 4 lugares |
+| **Peso Suportado (Cadeira)** | 100 kg |
+| **Peso Suportado (Mesa)** | 40 kg |
+| **Mesa Extensível** | Não |
+| **Requer Montagem** | Sim |
+| **Origem** | Nacional |
+| **Garantia** | Conforme política da marca |
+| **Itens Inclusos** | 1 Mesa, 4 Cadeiras, Ferragens, Manual |
+
+## 📌 Conclusão
+
+O **Conjunto de Jantar Sonetto Móveis** é uma escolha excepcional para quem busca transformar a sala de jantar em um espaço elegante, aconchegante e funcional, especialmente em ambientes compactos. Com seu design moderno e sofisticado, conforto superior com assentos em courino e espuma D-12, estrutura robusta em MDF e MDP e dimensões ideais para espaços pequenos, este conjunto atende às necessidades das famílias modernas que valorizam momentos de convívio à mesa.
+
+O selo de "Mais Vendido" com mais de 1000 unidades comercializadas e a excelente avaliação de 4.7 estrelas com 369 reviews atestam a qualidade superior do produto e a satisfação dos compradores. Aproveite esta oferta exclusiva com 38% de desconto e garanta já este conjunto que vai elevar o padrão estético e funcional da sua sala de jantar.
+  `,
+  marca: "Sonetto Móveis",
+  keywords: [
+    "conjunto de jantar com 4 cadeiras",
+    "mesa de jantar 109cm",
+    "conjunto Nicoli Delta",
+    "mesa com cadeiras Sonetto",
+    "cadeiras estofadas em courino",
+    "conjunto sala de jantar",
+    "mesa 109x68",
+    "conjunto de jantar moderno",
+    "mesa de jantar mel bege",
+    "conjunto Sonetto Móveis",
+    "móvel para sala de jantar",
+    "conjunto jantar com desconto",
+    "mesa e 4 cadeiras",
+    "conjunto jantar Sonetto",
+    "mesa MDP 4 lugares",
+    "cadeiras com espuma D-12",
+    "conjunto jantar 4 lugares",
+    "mesa de jantar compacta",
+    "conjunto sala de jantar moderno",
+    "cadeiras Delta Nicoli"
+  ],
+  seoTitle: "Conjunto Jantar Sonetto Mesa 109cm 4 Cadeiras Delta | Oferta",
+  seoDescription: "Conjunto jantar Sonetto com mesa 109x68cm e 4 cadeiras Delta estofadas. Design moderno, courino, 100kg/cadeira. 4.7★ (369 reviews). 38% OFF no Pix!"
+},
+{
+  id: "p-imp-117",
+  slug: "jogo-mesa-dobravel-70x70-imbuia-4-cadeiras-madeira-maciça",
+  category: "mesas",
+  mainCategory: "cozinha",
+  name: "Jogo de Jantar Mesa Dobrável 70x70 Imbuia Madeira Maciça com 4 Cadeiras",
+  imageFile: "/imagens/produtos/mesa-dobravel-jantar-4-cadeiras-madeira-macica.webp",
+  displayImage: "/imagens/mesa-dobravel-jantar-4-cadeiras-madeira-macica.webp",
+  alt: "Jogo de jantar com mesa dobrável 70x70 em madeira maciça imbuia e 4 cadeiras dobráveis de madeira",
+  rating: 4.4,
+  reviews: 1469,
+  discount: 17,
+  price: 444.53,
+  originalPrice: 539.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2wUsJSJ",
+  descricao: `
+# Jogo de Jantar Mesa Dobrável 70x70 Imbuia Madeira Maciça com 4 Cadeiras
+
+## 📌 Introdução
+
+Transforme seu espaço em um ambiente versátil e funcional com o **Jogo de Jantar Mesa Dobrável 70x70 Imbuia com 4 Cadeiras**. Este conjunto foi desenvolvido para quem busca praticidade, durabilidade e estilo em um único produto, sendo a solução perfeita para restaurantes, bares, áreas de lazer, festas e eventos.
+
+Com mais de 5 mil vendas e o selo de "Mais Vendido" na categoria Salas de Jantar, este conjunto se destaca pela qualidade excepcional da madeira maciça e pelo design dobrável que proporciona economia de espaço. O tampo é confeccionado com madeira maciça imbuia, uma das madeiras mais resistentes do mercado, enquanto os pés são produzidos com madeira mista (Cedrinho, Itaúba e Pinus), garantindo maior resistência e durabilidade.
+
+Ideal para quem busca móveis resistentes e sustentáveis, toda madeira utilizada é de reflorestamento legalizado, contribuindo para a preservação ambiental.
+
+## 📌 Principais Benefícios
+
+**Design dobrável e prático:** Por serem dobráveis, a mesa e as cadeiras facilitam o manuseio e a limpeza, proporcionando economia de espaço quando não estão em uso. Ideal para ambientes que precisam de flexibilidade.
+
+**Madeira maciça de alta resistência:** O tampo é confeccionado com madeira maciça imbuia, uma das madeiras mais resistentes do mercado, garantindo durabilidade e robustez superiores aos modelos em MDF ou aglomerado.
+
+**Estrutura reforçada:** Os pés são produzidos com madeira mista (Cedrinho, Itaúba e Pinus), que proporcionam maior resistência e durabilidade ao produto.
+
+**Madeira sustentável:** Toda madeira utilizada é de reflorestamento legalizado, garantindo um produto ecologicamente responsável.
+
+**Versatilidade de uso:** Perfeito para restaurantes, bares, áreas de lazer, festas, eventos e também para uso residencial em espaços compactos.
+
+**Fácil armazenamento:** O design dobrável permite guardar o conjunto em espaços reduzidos quando não está em uso, otimizando o ambiente.
+
+**Resistência superior:** Os materiais utilizados são extremamente superiores a outros modelos produzidos com aglomerado ou MDF, que são madeiras mais frágeis e de baixa durabilidade.
+
+## 📌 Design
+
+O design do Jogo de Jantar Dobrável é pensado para unir funcionalidade e estética, oferecendo um produto versátil que se adapta a diferentes ambientes.
+
+**Tampo em madeira imbuia:** O tampo de 70 cm x 70 cm é confeccionado em madeira maciça imbuia, que possui uma coloração característica e um padrão de veios único, agregando beleza e sofisticação ao ambiente.
+
+**Formato quadrado:** O design quadrado de 70 cm x 70 cm é perfeito para espaços compactos, permitindo acomodar 4 pessoas de forma confortável.
+
+**Estrutura dobrável:** O mecanismo dobrável permite que a mesa e as cadeiras sejam facilmente armazenadas, otimizando o espaço quando não estão em uso.
+
+**Acabamento em imbuia:** A cor imbuia proporciona um visual clássico e elegante, que combina com diferentes estilos de decoração, do rústico ao contemporâneo.
+
+**Pés reforçados:** Os pés em madeira mista (Cedrinho, Itaúba e Pinus) oferecem estabilidade e durabilidade, suportando o uso intenso em ambientes comerciais.
+
+**Design funcional:** As cadeiras dobráveis possuem dimensões de 49 cm x 37 cm x 39 cm, oferecendo conforto e praticidade.
+
+## 📌 Organização
+
+Com dimensões de 70 cm x 70 cm e espaço para 4 pessoas, este conjunto é perfeito para quem busca praticidade e funcionalidade em espaços compactos.
+
+**Capacidade para 4 lugares:** A mesa acomoda confortavelmente 4 pessoas, sendo ideal para refeições rápidas, encontros informais e eventos.
+
+**Design compacto:** Com 70 cm x 70 cm, a mesa é ideal para espaços reduzidos, cabendo perfeitamente em cozinhas, varandas, áreas de lazer e ambientes comerciais.
+
+**Economia de espaço:** O design dobrável permite guardar a mesa e as cadeiras em espaços reduzidos quando não estão em uso, otimizando o ambiente.
+
+**Altura ideal:** Com 73,5 cm de altura, a mesa proporciona conforto ergonômico para as refeições.
+
+**Cadeiras com dimensões equilibradas:** As cadeiras medem 77,5 cm de altura, 49 cm de largura e 37 cm de profundidade, com assento a 45 cm do chão.
+
+**Fácil manuseio:** O peso reduzido da mesa (11,30 kg) e das cadeiras (4,15 kg cada) facilita o manuseio e a movimentação do conjunto.
+
+## 📌 Ideal para
+
+- **Restaurantes e bares:** Móvel resistente para uso comercial intenso
+- **Áreas de lazer:** Perfeito para churrascos e encontros informais
+- **Festas e eventos:** Fácil de montar e desmontar
+- **Cozinhas compactas:** Ideal para refeições do dia a dia
+- **Varandas e áreas externas:** Resistente e prático
+- **Espaços que precisam de flexibilidade:** Móveis dobráveis que otimizam o espaço
+- **Ambientes rústicos e contemporâneos:** Design versátil em madeira imbuia
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este conjunto é altamente recomendado para:
+
+**Profissionais de alimentação:** Restaurantes, bares, lanchonetes e food trucks que buscam móveis resistentes e práticos.
+
+**Proprietários de áreas de lazer:** Churrasqueiras, clubes e espaços de eventos que precisam de móveis versáteis.
+
+**Pessoas com espaços compactos:** Apartamentos e casas pequenas que precisam otimizar o espaço.
+
+**Quem busca durabilidade e resistência:** A madeira maciça imbuia é extremamente superior a MDF e aglomerado.
+
+**Pessoas que valorizam sustentabilidade:** Toda madeira é de reflorestamento legalizado.
+
+**Quem busca praticidade no dia a dia:** O design dobrável facilita o manuseio e a limpeza.
+
+**Admiradores de móveis rústicos:** O acabamento em imbuia oferece um visual clássico e elegante.
+
+## 📌 Diferenciais
+
+O que torna este Jogo de Jantar Dobrável único no mercado?
+
+**Madeira maciça imbuia:** O tampo é confeccionado com madeira maciça imbuia, uma das madeiras mais resistentes do mercado, garantindo durabilidade e robustez superiores aos modelos em MDF ou aglomerado.
+
+**Madeira mista nos pés:** Os pés são produzidos com madeira mista (Cedrinho, Itaúba e Pinus), que proporcionam maior resistência e durabilidade ao produto.
+
+**Design dobrável inovador:** O mecanismo dobrável permite que a mesa e as cadeiras sejam facilmente armazenadas, otimizando o espaço quando não estão em uso.
+
+**Madeira sustentável:** Toda madeira utilizada é de reflorestamento legalizado, contribuindo para a preservação ambiental.
+
+**Resistência superior:** Os materiais utilizados são extremamente superiores a outros modelos produzidos com aglomerado ou MDF, que são madeiras mais frágeis e de baixa durabilidade.
+
+**Versatilidade:** Perfeito para uso residencial e comercial, adaptando-se a diferentes ambientes e necessidades.
+
+**Avaliação 4.4 estrelas com 1469 reviews:** A excelente avaliação e o alto número de reviews demonstram a qualidade do produto e a satisfação dos clientes.
+
+**Preço competitivo:** Excelente custo-benefício com 17% de desconto.
+
+## 📌 Motivos para Comprar
+
+✅ **Madeira maciça imbuia** - uma das madeiras mais resistentes do mercado
+
+✅ **Design dobrável** - facilita manuseio e economia de espaço
+
+✅ **4 cadeiras dobráveis** - praticidade e versatilidade
+
+✅ **Estrutura reforçada** - pés em madeira mista (Cedrinho, Itaúba e Pinus)
+
+✅ **Madeira sustentável** - 100% de reflorestamento legalizado
+
+✅ **Resistência superior** - muito mais durável que MDF e aglomerado
+
+✅ **Versatilidade de uso** - residencial, restaurantes, bares e eventos
+
+✅ **Mais de 5 mil vendidos** - produto testado e aprovado
+
+✅ **Avaliação 4.4 estrelas** com 1469 reviews
+
+✅ **17% de desconto** - excelente custo-benefício
+
+✅ **Peso reduzido** - mesa 11,30 kg, cadeiras 4,15 kg
+
+✅ **Fácil armazenamento** - otimiza o espaço quando não está em uso
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. A mesa e as cadeiras são dobráveis?**
+Sim, tanto a mesa quanto as 4 cadeiras são dobráveis, facilitando o manuseio, a limpeza e o armazenamento.
+
+**3. Qual o material da mesa?**
+O tampo da mesa é confeccionado em madeira maciça imbuia, uma das madeiras mais resistentes do mercado.
+
+**4. Qual o material dos pés da mesa?**
+Os pés são produzidos com madeira mista, sendo elas Cedrinho, Itaúba e Pinus, que proporcionam maior resistência e durabilidade.
+
+**5. Qual o material das cadeiras?**
+As cadeiras são fabricadas em madeira maciça de alta qualidade, com estrutura resistente.
+
+**6. Qual o tamanho da mesa?**
+A mesa tem 70 cm x 70 cm (largura e comprimento) e 73,5 cm de altura.
+
+**7. Quantas pessoas cabem na mesa?**
+A mesa acomoda confortavelmente até 4 pessoas.
+
+**8. Qual o tamanho das cadeiras?**
+As cadeiras medem 77,5 cm de altura, 49 cm de largura e 37 cm de profundidade, com assento a 45 cm do chão.
+
+**9. Qual o peso da mesa?**
+A mesa pesa 11,30 kg.
+
+**10. Qual o peso de cada cadeira?**
+Cada cadeira pesa 4,15 kg.
+
+**11. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação.
+
+**12. Como devo fazer a limpeza do conjunto?**
+Recomenda-se limpar o produto com pano seco ou levemente umedecido. Evite o uso de produtos abrasivos que possam danificar a madeira.
+
+**13. O conjunto é indicado para uso comercial?**
+Sim, o conjunto é ideal para restaurantes, bares, áreas de lazer, festas e eventos, além do uso residencial.
+
+**14. A madeira utilizada é sustentável?**
+Sim, toda madeira utilizada é de reflorestamento legalizado, garantindo um produto ecologicamente responsável.
+
+**15. O conjunto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**16. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**17. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**18. A mesa é resistente à umidade?**
+A madeira imbuia é naturalmente resistente à umidade, mas recomenda-se evitar contato prolongado com água para preservar o acabamento.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Tipo de Produto** | Jogo de Jantar Dobrável |
+| **Forma da Mesa** | Quadrada |
+| **Cor** | Imbuia |
+| **Material do Tampo** | Madeira Maciça Imbuia |
+| **Material dos Pés** | Madeira Mista (Cedrinho, Itaúba e Pinus) |
+| **Material das Cadeiras** | Madeira Maciça |
+| **Largura da Mesa** | 70 cm |
+| **Comprimento da Mesa** | 70 cm |
+| **Altura da Mesa** | 73,5 cm |
+| **Altura da Cadeira** | 77,5 cm |
+| **Largura da Cadeira** | 49 cm |
+| **Profundidade da Cadeira** | 37 cm |
+| **Altura do Assento** | 45 cm |
+| **Peso da Mesa** | 11,30 kg |
+| **Peso da Cadeira** | 4,15 kg |
+| **Capacidade** | 4 lugares |
+| **Mesa Dobrável** | Sim |
+| **Cadeiras Dobráveis** | Sim |
+| **Origem da Madeira** | Reflorestamento legalizado |
+| **Indicado para** | Residencial e Comercial |
+| **Itens Inclusos** | 1 Mesa, 4 Cadeiras |
+
+## 📌 Conclusão
+
+O **Jogo de Jantar Mesa Dobrável 70x70 Imbuia com 4 Cadeiras** é uma escolha excepcional para quem busca praticidade, durabilidade e versatilidade em um único produto. Com sua estrutura em madeira maciça imbuia, uma das madeiras mais resistentes do mercado, e design dobrável que otimiza o espaço, este conjunto atende às necessidades de residências, restaurantes, bares e eventos.
+
+O selo de "Mais Vendido" com mais de 5 mil unidades comercializadas e a excelente avaliação de 4.4 estrelas com 1469 reviews atestam a qualidade do produto e a satisfação dos compradores. Aproveite esta oferta exclusiva com 17% de desconto e garanta já este conjunto que vai trazer praticidade e elegância ao seu ambiente.
+  `,
+  marca: "Maplan",
+  keywords: [
+    "mesa dobrável 70x70",
+    "jogo de jantar com 4 cadeiras",
+    "mesa de madeira maciça",
+    "mesa dobrável imbuia",
+    "cadeiras dobráveis de madeira",
+    "jogo de jantar dobrável",
+    "mesa 70x70 4 cadeiras",
+    "conjunto de jantar madeira",
+    "mesa para restaurante",
+    "mesa para bar",
+    "mesa dobrável madeira",
+    "jogo de jantar imbuia",
+    "mesa para área de lazer",
+    "cadeiras dobráveis",
+    "mesa de jantar compacta",
+    "madeira maciça imbuia",
+    "jogo de jantar versátil",
+    "mesa para eventos",
+    "conjunto de jantar sustentável",
+    "mesa dobrável 4 lugares"
+  ],
+  seoTitle: "Jogo Mesa Dobrável 70x70 Imbuia 4 Cadeiras | Madeira Maciça",
+  seoDescription: "Jogo de jantar com mesa dobrável 70x70 em madeira maciça imbuia e 4 cadeiras. Resistente, sustentável, prático. 4.4★ (1469 reviews). 17% OFF no Pix!"
+},
+
+{
+  id: "p-imp-118",
+  slug: "jogo-mesa-dobravel-70x70-4-cadeiras-preto-madeira-maciça-bistro",
+  category: "mesas",
+  mainCategory: "cozinha",
+  name: "Jogo Mesa Dobrável 70x70 com 4 Cadeiras Preto Madeira Maciça Bistro Bar",
+  imageFile: "/imagens/produtos/jogo-mesa-jantar-70x70-dobravel-preto-4-cadeiras-madeira-maciça-bistro.webp",
+  displayImage: "/imagens/produtos/jogo-mesa-jantar-70x70-dobravel-preto-4-cadeiras-madeira-maciça-bistro.webp",
+  alt: "Jogo de mesa dobrável 70x70 em madeira maciça preta com 4 cadeiras dobráveis para bar e bistrô",
+  rating: 4.3,
+  reviews: 903,
+  discount: 18,
+  price: 439.00,
+  originalPrice: 539.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1wYALm4",
+  descricao: `
+# Jogo Mesa Dobrável 70x70 com 4 Cadeiras Preto Madeira Maciça Bistro Bar
+
+## 📌 Introdução
+
+Transforme seu espaço em um ambiente versátil e funcional com o **Jogo Mesa Dobrável 70x70 com 4 Cadeiras Preto Bistro Bar**. Este conjunto foi desenvolvido para quem busca praticidade, durabilidade e estilo em um único produto, sendo a solução perfeita para restaurantes, bares, áreas de lazer, festas e eventos.
+
+Com mais de 1000 vendas e o selo de "Mais Vendido" na categoria Salas de Jantar, este conjunto se destaca pela qualidade excepcional da madeira maciça, pelo design dobrável que proporciona economia de espaço e pela elegante cor preta que combina com qualquer decoração.
+
+O tampo é confeccionado com madeira maciça de alta resistência, enquanto os pés são produzidos com madeira mista (Cedrinho, Itaúba e Pinus), garantindo maior resistência e durabilidade. Toda madeira utilizada é de reflorestamento legalizado, contribuindo para a preservação ambiental.
+
+## 📌 Principais Benefícios
+
+**Design dobrável e prático:** Por serem dobráveis, a mesa e as cadeiras facilitam o manuseio e a limpeza, proporcionando economia de espaço quando não estão em uso. Ideal para ambientes que precisam de flexibilidade.
+
+**Madeira maciça de alta resistência:** O tampo é confeccionado com madeira maciça, uma das madeiras mais resistentes do mercado, garantindo durabilidade e robustez superiores aos modelos em MDF ou aglomerado.
+
+**Estrutura reforçada:** Os pés são produzidos com madeira mista (Cedrinho, Itaúba e Pinus), que proporcionam maior resistência e durabilidade ao produto.
+
+**Design elegante na cor preta:** A cor preta oferece um visual sofisticado e moderno, que combina com diferentes estilos de decoração, do clássico ao contemporâneo.
+
+**Madeira sustentável:** Toda madeira utilizada é de reflorestamento legalizado, garantindo um produto ecologicamente responsável.
+
+**Versatilidade de uso:** Perfeito para restaurantes, bares, áreas de lazer, festas, eventos e também para uso residencial em espaços compactos.
+
+**Fácil armazenamento:** O design dobrável permite guardar o conjunto em espaços reduzidos quando não está em uso, otimizando o ambiente.
+
+**Resistência superior:** Os materiais utilizados são extremamente superiores a outros modelos produzidos com aglomerado ou MDF, que são madeiras mais frágeis e de baixa durabilidade.
+
+## 📌 Design
+
+O design do Jogo de Jantar Dobrável Preto é pensado para unir funcionalidade, elegância e resistência, oferecendo um produto versátil que se adapta a diferentes ambientes.
+
+**Acabamento na cor preta:** A cor preta proporciona um visual sofisticado e moderno, que combina com diferentes estilos de decoração, do clássico ao contemporâneo.
+
+**Formato quadrado:** O design quadrado de 70 cm x 70 cm é perfeito para espaços compactos, permitindo acomodar 4 pessoas de forma confortável.
+
+**Estrutura dobrável:** O mecanismo dobrável permite que a mesa e as cadeiras sejam facilmente armazenadas, otimizando o espaço quando não estão em uso.
+
+**Madeira maciça de alta qualidade:** O tampo é confeccionado com madeira maciça, garantindo durabilidade e robustez superiores aos modelos em MDF ou aglomerado.
+
+**Pés reforçados:** Os pés em madeira mista (Cedrinho, Itaúba e Pinus) oferecem estabilidade e durabilidade, suportando o uso intenso em ambientes comerciais.
+
+**Design funcional e elegante:** As cadeiras dobráveis possuem design clean, oferecendo conforto e praticidade.
+
+**Acabamento liso:** O desenho liso das cadeiras cria um visual clean e moderno.
+
+## 📌 Organização
+
+Com dimensões de 70 cm x 70 cm e espaço para 4 pessoas, este conjunto é perfeito para quem busca praticidade e funcionalidade em espaços compactos.
+
+**Capacidade para 4 lugares:** A mesa acomoda confortavelmente 4 pessoas, sendo ideal para refeições rápidas, encontros informais e eventos.
+
+**Design compacto:** Com 70 cm x 70 cm, a mesa é ideal para espaços reduzidos, cabendo perfeitamente em cozinhas, varandas, áreas de lazer e ambientes comerciais.
+
+**Economia de espaço:** O design dobrável permite guardar a mesa e as cadeiras em espaços reduzidos quando não estão em uso, otimizando o ambiente.
+
+**Altura ideal:** Com 73,5 cm de altura, a mesa proporciona conforto ergonômico para as refeições.
+
+**Cadeiras com dimensões equilibradas:** As cadeiras medem 77,5 cm de altura, 49 cm de largura e 37 cm de profundidade, com assento a 45 cm do chão.
+
+**Fácil manuseio:** O peso reduzido da mesa (11,30 kg) e das cadeiras (4,15 kg cada) facilita o manuseio e a movimentação do conjunto.
+
+## 📌 Ideal para
+
+- **Restaurantes e bares:** Móvel resistente para uso comercial intenso
+- **Áreas de lazer:** Perfeito para churrascos e encontros informais
+- **Festas e eventos:** Fácil de montar e desmontar
+- **Cozinhas compactas:** Ideal para refeições do dia a dia
+- **Varandas e áreas externas:** Resistente e prático
+- **Espaços que precisam de flexibilidade:** Móveis dobráveis que otimizam o espaço
+- **Ambientes modernos e sofisticados:** Design elegante na cor preta
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este conjunto é altamente recomendado para:
+
+**Profissionais de alimentação:** Restaurantes, bares, lanchonetes e food trucks que buscam móveis resistentes, práticos e elegantes.
+
+**Proprietários de áreas de lazer:** Churrasqueiras, clubes e espaços de eventos que precisam de móveis versáteis.
+
+**Pessoas com espaços compactos:** Apartamentos e casas pequenas que precisam otimizar o espaço.
+
+**Quem busca durabilidade e resistência:** A madeira maciça é extremamente superior a MDF e aglomerado.
+
+**Pessoas que valorizam sustentabilidade:** Toda madeira é de reflorestamento legalizado.
+
+**Quem busca praticidade no dia a dia:** O design dobrável facilita o manuseio e a limpeza.
+
+**Admiradores de móveis modernos:** O acabamento preto oferece um visual sofisticado e contemporâneo.
+
+## 📌 Diferenciais
+
+O que torna este Jogo de Jantar Dobrável Preto único no mercado?
+
+**Design na cor preta:** O acabamento preto oferece um visual sofisticado e moderno, diferenciando-se dos modelos tradicionais em madeira natural.
+
+**Madeira maciça de alta qualidade:** O tampo é confeccionado com madeira maciça, garantindo durabilidade e robustez superiores aos modelos em MDF ou aglomerado.
+
+**Madeira mista nos pés:** Os pés são produzidos com madeira mista (Cedrinho, Itaúba e Pinus), que proporcionam maior resistência e durabilidade ao produto.
+
+**Design dobrável inovador:** O mecanismo dobrável permite que a mesa e as cadeiras sejam facilmente armazenadas, otimizando o espaço quando não estão em uso.
+
+**Madeira sustentável:** Toda madeira utilizada é de reflorestamento legalizado, contribuindo para a preservação ambiental.
+
+**Não requer montagem:** O conjunto é enviado pronto para uso, facilitando a instalação e uso imediato.
+
+**Resistência superior:** Os materiais utilizados são extremamente superiores a outros modelos produzidos com aglomerado ou MDF.
+
+**Versatilidade:** Perfeito para uso residencial e comercial, adaptando-se a diferentes ambientes e necessidades.
+
+## 📌 Motivos para Comprar
+
+✅ **Design elegante na cor preta** - sofisticação e modernidade
+
+✅ **Madeira maciça de alta resistência** - durabilidade superior
+
+✅ **Design dobrável** - facilita manuseio e economia de espaço
+
+✅ **4 cadeiras dobráveis** - praticidade e versatilidade
+
+✅ **Estrutura reforçada** - pés em madeira mista (Cedrinho, Itaúba e Pinus)
+
+✅ **Madeira sustentável** - 100% de reflorestamento legalizado
+
+✅ **Não requer montagem** - uso imediato
+
+✅ **Resistência superior** - muito mais durável que MDF e aglomerado
+
+✅ **Versatilidade de uso** - residencial, restaurantes, bares e eventos
+
+✅ **Mais de 1000 vendidos** - produto testado e aprovado
+
+✅ **Avaliação 4.3 estrelas** com 903 reviews
+
+✅ **18% de desconto** - excelente custo-benefício
+
+✅ **Peso reduzido** - mesa 11,30 kg, cadeiras 4,15 kg
+
+✅ **Fácil armazenamento** - otimiza o espaço quando não está em uso
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. A mesa e as cadeiras são dobráveis?**
+Sim, tanto a mesa quanto as 4 cadeiras são dobráveis, facilitando o manuseio, a limpeza e o armazenamento.
+
+**3. O produto requer montagem?**
+Não, o produto não requer montagem. Ele é enviado pronto para uso, facilitando a instalação e uso imediato.
+
+**4. Qual o material da mesa?**
+O tampo da mesa é confeccionado em madeira maciça de alta resistência.
+
+**5. Qual o material dos pés da mesa?**
+Os pés são produzidos com madeira mista, sendo elas Cedrinho, Itaúba e Pinus, que proporcionam maior resistência e durabilidade.
+
+**6. Qual o material das cadeiras?**
+As cadeiras são fabricadas em madeira maciça de alta qualidade, com estrutura resistente.
+
+**7. Qual o tamanho da mesa?**
+A mesa tem 70 cm x 70 cm (largura e comprimento) e 73,5 cm de altura.
+
+**8. Quantas pessoas cabem na mesa?**
+A mesa acomoda confortavelmente até 4 pessoas.
+
+**9. Qual o tamanho das cadeiras?**
+As cadeiras medem 77,5 cm de altura, 49 cm de largura e 37 cm de profundidade, com assento a 45 cm do chão.
+
+**10. Qual o peso da mesa?**
+A mesa pesa 11,30 kg.
+
+**11. Qual o peso de cada cadeira?**
+Cada cadeira pesa 4,15 kg.
+
+**12. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação.
+
+**13. Como devo fazer a limpeza do conjunto?**
+Recomenda-se limpar o produto com pano seco ou levemente umedecido. Evite o uso de produtos abrasivos que possam danificar o acabamento.
+
+**14. O conjunto é indicado para uso comercial?**
+Sim, o conjunto é ideal para restaurantes, bares, áreas de lazer, festas e eventos, além do uso residencial.
+
+**15. A madeira utilizada é sustentável?**
+Sim, toda madeira utilizada é de reflorestamento legalizado, garantindo um produto ecologicamente responsável.
+
+**16. O conjunto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**17. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**18. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**19. Qual a cor do conjunto?**
+O conjunto está disponível na cor preta, oferecendo um visual sofisticado e moderno.
+
+**20. O conjunto pode ser usado em áreas externas?**
+Sim, o conjunto é resistente e pode ser usado em áreas externas, como varandas, churrasqueiras e áreas de lazer.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Tipo de Produto** | Jogo de Jantar Dobrável |
+| **Forma da Mesa** | Quadrada |
+| **Cor** | Preto |
+| **Desenho do Tecido** | Liso |
+| **Material do Tampo** | Madeira Maciça |
+| **Material dos Pés** | Madeira Mista (Cedrinho, Itaúba e Pinus) |
+| **Material das Cadeiras** | Madeira Maciça |
+| **Largura da Mesa** | 70 cm |
+| **Comprimento da Mesa** | 70 cm |
+| **Altura da Mesa** | 73,5 cm |
+| **Altura da Cadeira** | 77,5 cm |
+| **Largura da Cadeira** | 49 cm |
+| **Profundidade da Cadeira** | 37 cm |
+| **Altura do Assento** | 45 cm |
+| **Peso da Mesa** | 11,30 kg |
+| **Peso da Cadeira** | 4,15 kg |
+| **Capacidade** | 4 lugares |
+| **Mesa Dobrável** | Sim |
+| **Cadeiras Dobráveis** | Sim |
+| **Requer Montagem** | Não |
+| **Origem da Madeira** | Reflorestamento legalizado |
+| **Indicado para** | Residencial e Comercial |
+| **Itens Inclusos** | 1 Mesa, 4 Cadeiras |
+
+## 📌 Conclusão
+
+O **Jogo Mesa Dobrável 70x70 com 4 Cadeiras Preto Bistro Bar** é uma escolha excepcional para quem busca praticidade, durabilidade e estilo em um único produto. Com sua estrutura em madeira maciça de alta resistência, design dobrável que otimiza o espaço e elegante acabamento na cor preta, este conjunto atende às necessidades de residências, restaurantes, bares e eventos.
+
+O selo de "Mais Vendido" com mais de 1000 unidades comercializadas e a avaliação de 4.3 estrelas com 903 reviews atestam a qualidade do produto e a satisfação dos compradores. Aproveite esta oferta exclusiva com 18% de desconto e garanta já este conjunto que vai trazer praticidade, elegância e sofisticação ao seu ambiente.
+  `,
+  marca: "Bistro",
+  keywords: [
+    "mesa dobrável 70x70",
+    "jogo de mesa com 4 cadeiras",
+    "mesa de madeira maciça preta",
+    "mesa dobrável preta",
+    "cadeiras dobráveis de madeira",
+    "jogo de jantar dobrável",
+    "mesa 70x70 4 cadeiras",
+    "conjunto de jantar preto",
+    "mesa para restaurante preta",
+    "mesa para bar preta",
+    "mesa dobrável madeira preta",
+    "jogo de jantar bistrô",
+    "mesa para área de lazer",
+    "cadeiras dobráveis pretas",
+    "mesa de jantar compacta preta",
+    "madeira maciça preta",
+    "jogo de jantar versátil",
+    "mesa para eventos preta",
+    "conjunto de jantar sustentável",
+    "mesa dobrável 4 lugares preta"
+  ],
+  seoTitle: "Jogo Mesa Dobrável 70x70 Preto 4 Cadeiras | Madeira Maciça",
+  seoDescription: "Jogo de jantar com mesa dobrável 70x70 em madeira maciça preta e 4 cadeiras. Não requer montagem, resistente e prático. 4.3★ (903 reviews). 18% OFF!"
+},
+{
+  id: "p-imp-119",
+  slug: "conjunto-sala-jantar-mesa-vidro-120cm-4-cadeiras-olimpia-moderna-mobilia",
+  category: "mesas",
+  mainCategory: "cozinha",
+  name: "Sala de Jantar Olímpia MDF e Vidro com 4 Cadeiras Carol - Turim/Off White/Imbuia - Moderna Mobília",
+  imageFile: "/imagens/produtos/conjunto-sala-jantar-mesa-120cm-vidro-4-cadeiras-olimpia-moderna-mobilia.webp",
+  displayImage: "/imagens/produtos/conjunto-sala-jantar-mesa-120cm-vidro-4-cadeiras-olimpia-moderna-mobilia.webp",
+  alt: "Conjunto de sala de jantar Moderna Mobília com mesa retangular 120cm tampo vidro e 4 cadeiras Carol nas cores turim, off white e imbuia",
+  rating: 4.7,
+  reviews: 185,
+  discount: 28,
+  price: 1249.90,
+  originalPrice: 1709.90,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/11LGarw",
+  descricao: `
+# Sala de Jantar Olímpia MDF e Vidro com 4 Cadeiras Carol - Moderna Mobília
+
+## 📌 Introdução
+
+Transforme sua sala de jantar em um espaço de elegância e sofisticação com a **Sala de Jantar Olímpia da Moderna Mobília**. Este conjunto foi desenvolvido para quem busca unir design contemporâneo, conforto excepcional e durabilidade em um produto que se destaca pela qualidade e acabamento premium.
+
+A Moderna Mobília, referência no mercado de móveis com mais de 500 vendas e o selo de "Mais Vendido", apresenta este conjunto que combina a sofisticação do tampo de vidro com canto curvo, a robustez da estrutura em MDF com acabamento em pintura UV e o conforto das cadeiras Carol estofadas.
+
+A mesa retangular de 120 cm x 80 cm oferece o espaço ideal para 4 pessoas, enquanto as cadeiras Carol, com design ergonômico e estofamento confortável, garantem uma experiência aconchegante para suas refeições em família ou com amigos.
+
+## 📌 Principais Benefícios
+
+**Design sofisticado com tampo de vidro e canto curvo:** O tampo de vidro com canto curvo traz leveza e modernidade ao ambiente, criando um visual clean e sofisticado. O vidro reflete a luz natural, ampliando visualmente o espaço.
+
+**Acabamento premium em pintura UV:** A estrutura em MDF recebe acabamento em pintura UV, que oferece alta resistência a riscos, manchas e umidade, garantindo durabilidade e beleza por muitos anos.
+
+**Conforto superior:** As quatro cadeiras Carol contam com estofamento confortável, proporcionando uma experiência de sentar prazerosa durante as refeições.
+
+**Dimensões generosas:** Com 120 cm de comprimento e 80 cm de profundidade, a mesa oferece espaço suficiente para 4 pessoas com conforto e elegância.
+
+**Estrutura robusta em MDF:** A estrutura em MDF de alta qualidade garante estabilidade e resistência para o uso diário.
+
+**Design exclusivo nas cores Turim/Off White/Imbuia:** A combinação de cores cria um visual sofisticado e versátil, que se adapta a diferentes estilos de decoração.
+
+**Montagem simplificada:** Com manual de montagem incluso, a instalação é prática e descomplicada.
+
+## 📌 Design
+
+O design da Sala de Jantar Olímpia é um verdadeiro destaque no mercado de móveis para sala de jantar, combinando elegância, funcionalidade e qualidade.
+
+**Tampo de vidro com canto curvo:** O tampo de vidro com canto curvo traz leveza e modernidade ao ambiente, criando um visual clean e sofisticado. O vidro reflete a luz natural, ampliando visualmente o espaço.
+
+**Acabamento em pintura UV:** A estrutura em MDF recebe acabamento em pintura UV, que oferece alta resistência e durabilidade, mantendo a beleza do móvel por muitos anos.
+
+**Formato retangular:** O design retangular de 120 cm x 80 cm oferece espaço suficiente para 4 pessoas, sendo perfeito para salas de jantar e cozinhas.
+
+**Cores Turim/Off White/Imbuia:** A combinação de cores cria um visual sofisticado e versátil, que se adapta a diferentes estilos de decoração, do clássico ao contemporâneo.
+
+**Cadeiras Carol com design ergonômico:** As cadeiras apresentam design ergonômico com estofamento confortável, proporcionando conforto superior durante as refeições.
+
+**Design clean e moderno:** As linhas retas e o acabamento liso criam um visual clean que combina com diferentes estilos de decoração.
+
+## 📌 Organização
+
+Com dimensões de 120 cm x 80 cm e espaço para 4 pessoas, este conjunto é perfeito para famílias que valorizam momentos à mesa com elegância e conforto.
+
+**Capacidade para 4 lugares:** O conjunto acomoda confortavelmente 4 pessoas, sendo ideal para refeições diárias, almoços de domingo e jantares especiais.
+
+**Espaço generoso:** Com 120 cm de comprimento e 80 cm de profundidade, a mesa oferece espaço suficiente para colocar pratos, talheres, utensílios e decoração central.
+
+**Altura ideal:** Com 80 cm de altura, a mesa proporciona conforto ergonômico para as refeições.
+
+**Cadeiras com dimensões equilibradas:** As cadeiras medem 102,5 cm de altura, 42 cm de largura e 56 cm de profundidade, oferecendo suporte adequado e conforto.
+
+**Design que otimiza o espaço:** As cadeiras podem ser posicionadas sob a mesa quando não estão em uso, otimizando o espaço no ambiente.
+
+## 📌 Ideal para
+
+- **Salas de jantar:** Peça principal que valoriza o ambiente de refeições
+- **Cozinhas integradas:** Espaço dedicado para refeições em família
+- **Apartamentos modernos:** Design sofisticado que se adapta a espaços contemporâneos
+- **Ambientes que buscam elegância:** Tampo de vidro com canto curvo
+- **Famílias de 4 pessoas:** Capacidade ideal para o dia a dia
+- **Espaços que valorizam qualidade:** Acabamento em pintura UV
+- **Ambientes que buscam conforto:** Cadeiras estofadas Carol
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este conjunto é altamente recomendado para:
+
+**Famílias que valorizam design e qualidade:** A combinação de tampo de vidro com canto curvo e pintura UV oferece um visual premium e duradouro.
+
+**Pessoas que buscam conforto durante as refeições:** As cadeiras Carol com estofamento confortável garantem conforto prolongado.
+
+**Admiradores de design contemporâneo:** O acabamento em Turim/Off White/Imbuia oferece um visual sofisticado e moderno.
+
+**Quem busca durabilidade:** A pintura UV e a estrutura em MDF garantem que o móvel mantenha sua beleza por muitos anos.
+
+**Pessoas que valorizam praticidade:** O tampo de vidro facilita a limpeza e manutenção.
+
+**Quem busca excelente custo-benefício:** Com mais de 500 vendidos, selo "Mais Vendido" e 4.7 estrelas de avaliação, este conjunto oferece qualidade superior.
+
+## 📌 Diferenciais
+
+O que torna a Sala de Jantar Olímpia Moderna Mobília única no mercado?
+
+**Tampo de vidro com canto curvo:** O tampo de vidro com canto curvo traz leveza e modernidade ao ambiente, diferenciando-se dos modelos com cantos retos tradicionais.
+
+**Acabamento em pintura UV:** A pintura UV oferece alta resistência a riscos, manchas e umidade, garantindo durabilidade superior aos acabamentos convencionais.
+
+**Design exclusivo nas cores Turim/Off White/Imbuia:** A combinação de cores cria um visual sofisticado e único, que se destaca no mercado.
+
+**Estrutura em MDF de alta qualidade:** O MDF é um material de alta densidade que oferece estabilidade e durabilidade superiores.
+
+**Marca Moderna Mobília:** Reconhecida pela qualidade e inovação no mercado moveleiro, com mais de 500 vendas e o selo de "Mais Vendido".
+
+**Avaliação 4.7 estrelas com 185 reviews:** A excelente avaliação demonstra a qualidade superior do produto e a alta satisfação dos clientes.
+
+**Cadeiras Carol com design ergonômico:** As cadeiras foram projetadas para oferecer conforto superior durante as refeições.
+
+**Preço competitivo:** Excelente custo-benefício com 28% de desconto.
+
+## 📌 Motivos para Comprar
+
+✅ **Tampo de vidro com canto curvo** - elegância e modernidade
+
+✅ **Acabamento em pintura UV** - alta resistência e durabilidade
+
+✅ **Estrutura em MDF** - robustez e qualidade
+
+✅ **4 cadeiras Carol com estofamento** - conforto superior
+
+✅ **Mesa 120x80cm** - espaço generoso para 4 pessoas
+
+✅ **Cores Turim/Off White/Imbuia** - design sofisticado e versátil
+
+✅ **Marca Moderna Mobília** - qualidade e inovação
+
+✅ **Mais de 500 vendidos** - produto testado e aprovado
+
+✅ **Avaliação 4.7 estrelas** com 185 reviews
+
+✅ **28% de desconto** - excelente custo-benefício
+
+✅ **Montagem simplificada** - com manual incluso
+
+✅ **Design clean e moderno** - combina com diferentes estilos
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos Moderna Mobília são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem para facilitar a instalação.
+
+**3. As cadeiras são estofadas?**
+Sim, as 4 cadeiras Carol possuem estofamento confortável, proporcionando máximo conforto durante as refeições.
+
+**4. Qual o material da mesa?**
+A mesa possui tampo de vidro com canto curvo e estrutura em MDF com acabamento em pintura UV.
+
+**5. Qual o material das cadeiras?**
+As cadeiras são fabricadas em estrutura de alta qualidade com estofamento confortável.
+
+**6. Qual o tamanho da mesa?**
+A mesa tem 120 cm de comprimento, 80 cm de profundidade e 80 cm de altura.
+
+**7. Quantas pessoas cabem na mesa?**
+A mesa acomoda confortavelmente até 4 pessoas.
+
+**8. Qual o tamanho das cadeiras?**
+As cadeiras medem 102,5 cm de altura, 42 cm de largura e 56 cm de profundidade.
+
+**9. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Moderna Mobília.
+
+**10. Como devo fazer a limpeza do tampo de vidro?**
+O vidro pode ser limpo com produtos específicos para vidros e um pano macio. A pintura UV pode ser limpa com pano seco ou levemente umedecido.
+
+**11. O conjunto é indicado para apartamentos?**
+Sim, as dimensões de 120 cm x 80 cm são ideais para apartamentos e espaços contemporâneos.
+
+**12. O que é pintura UV?**
+A pintura UV é um acabamento de alta resistência que oferece proteção contra riscos, manchas e umidade, garantindo durabilidade superior.
+
+**13. O conjunto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**14. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**15. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**16. O tampo da mesa tem canto curvo?**
+Sim, o tampo de vidro possui canto curvo, agregando elegância e modernidade ao design.
+
+**17. O produto inclui manual de montagem?**
+Sim, o produto acompanha manual de montagem para facilitar a instalação.
+
+**18. Qual a altura da mesa?**
+A mesa tem 80 cm de altura, proporcionando conforto ergonômico para as refeições.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Moderna Mobília |
+| **Modelo** | Olímpia |
+| **Cadeiras** | Carol |
+| **Estilo** | Moderno/Contemporâneo |
+| **Forma da Mesa** | Retangular |
+| **Cor** | Turim / Off White / Imbuia |
+| **Material do Tampo** | Vidro com canto curvo |
+| **Material da Estrutura** | MDF |
+| **Acabamento** | Pintura UV |
+| **Altura da Mesa** | 80 cm |
+| **Largura da Mesa** | 120 cm |
+| **Profundidade da Mesa** | 80 cm |
+| **Altura da Cadeira** | 102,5 cm |
+| **Largura da Cadeira** | 42 cm |
+| **Profundidade da Cadeira** | 56 cm |
+| **Capacidade** | 4 lugares |
+| **Mesa Extensível** | Não |
+| **Requer Montagem** | Sim |
+| **Inclui Manual** | Sim |
+| **Origem** | Nacional |
+| **Garantia** | Conforme política da marca |
+| **Itens Inclusos** | 1 Mesa, 4 Cadeiras, Manual de Montagem |
+
+## 📌 Conclusão
+
+A **Sala de Jantar Olímpia da Moderna Mobília** é uma escolha excepcional para quem busca transformar a sala de jantar em um espaço elegante, sofisticado e funcional. Com seu design contemporâneo com tampo de vidro e canto curvo, acabamento premium em pintura UV, estrutura robusta em MDF e conforto superior com as cadeiras Carol estofadas, este conjunto atende às necessidades das famílias modernas que valorizam qualidade e design.
+
+O selo de "Mais Vendido" com mais de 500 unidades comercializadas e a excelente avaliação de 4.7 estrelas com 185 reviews atestam a qualidade superior do produto e a satisfação dos compradores. Aproveite esta oferta exclusiva com 28% de desconto e garanta já este conjunto que vai elevar o padrão estético e funcional da sua sala de jantar.
+  `,
+  marca: "Moderna Mobília",
+  keywords: [
+    "conjunto de jantar com 4 cadeiras",
+    "mesa de jantar 120cm",
+    "conjunto Olímpia Moderna Mobília",
+    "mesa com tampo de vidro",
+    "mesa com canto curvo",
+    "cadeiras Carol estofadas",
+    "conjunto sala de jantar",
+    "mesa 120x80",
+    "conjunto de jantar moderno",
+    "mesa de jantar turim off white imbuia",
+    "conjunto Moderna Mobília",
+    "móvel para sala de jantar",
+    "mesa com pintura UV",
+    "cadeiras com estofamento",
+    "conjunto jantar 4 lugares",
+    "mesa de jantar sofisticada",
+    "conjunto sala de jantar contemporâneo",
+    "mesa vidro 4 lugares",
+    "conjunto de jantar com desconto",
+    "mesa de jantar MDF"
+  ],
+  seoTitle: "Conjunto Jantar Olímpia Mesa Vidro 120cm 4 Cadeiras Moderna",
+  seoDescription: "Conjunto jantar Moderna Mobília com mesa 120x80cm tampo vidro canto curvo e 4 cadeiras Carol. Pintura UV, design sofisticado. 4.7★ (185 reviews). 28% OFF!"
+},
+{
+  id: "p-imp-120",
+  slug: "conjunto-mesa-eames-90cm-4-cadeiras-preta-la-mobilia",
+  category: "mesas",
+  mainCategory: "cozinha",
+  name: "Conjunto Mesa Eames Preta 90cm com 4 Cadeiras La Mobília - Design Moderno",
+  imageFile: "/imagens/produtos/conjunto-mesa-jantar-redonda-90cm-eames-4-cadeiras-preta-la-mobilia.webp",
+  displayImage: "/imagens/produtos/conjunto-mesa-jantar-redonda-90cm-eames-4-cadeiras-preta-la-mobilia.webp",
+  alt: "Conjunto de mesa redonda Eames 90cm em preto com 4 cadeiras Eames pretas da La Mobília",
+  rating: 4.9,
+  reviews: 133,
+  discount: 6,
+  price: 1018.25,
+  originalPrice: 1092.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2yE15dv",
+  descricao: `
+# Conjunto Mesa Eames Preta 90cm com 4 Cadeiras La Mobília
+
+## 📌 Introdução
+
+Transforme sua sala de jantar em um espaço icônico e sofisticado com o **Conjunto Mesa Eames Preta com 4 Cadeiras da La Mobília**. Este conjunto elegante e moderno foi desenvolvido para quem busca design contemporâneo, funcionalidade e qualidade em um único produto, inspirado no estilo Eames, conhecido mundialmente por suas linhas limpas e minimalistas.
+
+A La Mobília, referência no mercado de móveis com mais de 500 vendas e o selo de "Mais Vendido", apresenta este conjunto que combina a elegância da mesa redonda de 90 cm de diâmetro com a iconicidade das cadeiras Eames. Com tampo em MDF com acabamento em laca preta, pés em madeira de faia com reforço metálico e cadeiras em polipropileno, este conjunto oferece um visual contemporâneo e funcional que se adapta a diferentes ambientes, desde salas de jantar e cozinhas até espaços de trabalho.
+
+## 📌 Principais Benefícios
+
+**Design icônico inspirado em Eames:** O conjunto apresenta linhas limpas e minimalistas, inspiradas no estilo Eames, um dos designs mais reconhecidos e admirados mundialmente, trazendo sofisticação e elegância ao ambiente.
+
+**Formato redondo e compacto:** Com 90 cm de diâmetro, a mesa redonda é ideal para espaços compactos, permitindo acomodar 4 pessoas confortavelmente e promovendo a interação entre os usuários.
+
+**Acabamento premium em laca preta:** O tampo em MDF recebe acabamento em laca preta, que oferece alta resistência e um visual sofisticado e moderno.
+
+**Estrutura robusta:** Os pés da mesa são produzidos em madeira de faia com reforço metálico, garantindo estabilidade e durabilidade sobre diferentes superfícies.
+
+**Cadeiras ergonômicas em polipropileno:** As cadeiras Eames possuem assento ergonômico em polipropileno, proporcionando conforto mesmo após longos períodos de uso.
+
+**Alta capacidade de peso:** As cadeiras suportam até 110 kg cada, garantindo segurança e durabilidade.
+
+**Fácil manutenção:** O acabamento fosco aplicado sobre o MDF reduz o reflexo de luz e facilita a limpeza da superfície da mesa.
+
+**Montagem simplificada:** Com manual de montagem incluso, a instalação é prática e descomplicada.
+
+## 📌 Design
+
+O design do Conjunto Mesa Eames é um verdadeiro ícone no mundo do mobiliário, combinando elegância atemporal com funcionalidade moderna.
+
+**Formato redondo:** A mesa redonda de 90 cm de diâmetro promove a interação entre os usuários, criando um ambiente mais acolhedor e harmonioso para as refeições.
+
+**Acabamento em laca preta:** O tampo em MDF com acabamento em laca preta oferece um visual sofisticado e moderno, com superfície lisa e resistente.
+
+**Pés em madeira de faia com reforço metálico:** Os pés da mesa são produzidos em madeira de faia, uma madeira nobre e resistente, com reforço metálico que garante estabilidade e durabilidade.
+
+**Cadeiras Eames icônicas:** As cadeiras apresentam o design clássico Eames, com assento ergonômico em polipropileno e pés em polipropileno com reforço metálico, criando um visual clean e moderno.
+
+**Acabamento fosco:** O acabamento fosco aplicado sobre o MDF reduz o reflexo de luz, proporcionando um visual mais suave e facilitando a limpeza.
+
+**Design versátil:** O conjunto combina perfeitamente com diferentes estilos de decoração, do minimalista ao contemporâneo, adaptando-se a salas de jantar, cozinhas e espaços de trabalho.
+
+## 📌 Organização
+
+Com 90 cm de diâmetro e espaço para 4 pessoas, este conjunto é perfeito para quem busca praticidade e funcionalidade em espaços compactos.
+
+**Capacidade para 4 lugares:** A mesa redonda acomoda confortavelmente 4 pessoas, sendo ideal para refeições diárias, almoços de domingo e jantares especiais.
+
+**Design inteligente para espaços pequenos:** Com 90 cm de diâmetro, a mesa é a opção ideal para quem tem pouco espaço, permitindo a circulação em ambientes compactos.
+
+**Formato redondo que otimiza o espaço:** O formato redondo permite melhor aproveitamento do espaço, sem cantos que dificultam a circulação.
+
+**Altura ideal:** A mesa possui altura adequada para proporcionar conforto ergonômico durante as refeições.
+
+**Cadeiras com dimensões equilibradas:** As cadeiras Eames oferecem suporte adequado e conforto, com design ergonômico que se adapta ao corpo.
+
+## 📌 Ideal para
+
+- **Salas de jantar modernas:** Design icônico que valoriza o ambiente
+- **Cozinhas integradas:** Espaço dedicado para refeições em família
+- **Apartamentos compactos:** Design redondo que otimiza o espaço
+- **Ambientes de trabalho e escritórios:** Design funcional para reuniões e refeições
+- **Espaços que buscam sofisticação:** Acabamento em laca preta
+- **Ambientes minimalistas e contemporâneos:** Linhas limpas do estilo Eames
+- **Primeiras compras:** Conjunto completo com excelente custo-benefício
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este conjunto é altamente recomendado para:
+
+**Admiradores do design Eames:** O conjunto é inspirado no icônico estilo Eames, oferecendo um visual sofisticado e atemporal.
+
+**Pessoas com espaços compactos:** A mesa redonda de 90 cm é perfeita para quem tem pouco espaço, permitindo acomodar 4 pessoas confortavelmente.
+
+**Casais e pequenas famílias:** Com 4 lugares, o conjunto atende perfeitamente casais e famílias com até 2 filhos.
+
+**Pessoas que valorizam design e qualidade:** O acabamento em laca preta e os materiais de alta qualidade garantem um produto premium.
+
+**Quem busca durabilidade:** Os materiais utilizados (MDF, madeira de faia, polipropileno) oferecem resistência e durabilidade excepcionais.
+
+**Pessoas que valorizam conforto:** As cadeiras Eames com design ergonômico oferecem conforto mesmo após longos períodos de uso.
+
+**Quem busca excelente custo-benefício:** Com mais de 500 vendidos, selo "Mais Vendido" e 4.9 estrelas de avaliação, este conjunto oferece qualidade superior com preço competitivo.
+
+## 📌 Diferenciais
+
+O que torna o Conjunto Mesa Eames La Mobília único no mercado?
+
+**Design icônico Eames:** O conjunto é inspirado no estilo Eames, um dos designs mais reconhecidos mundialmente, oferecendo um visual atemporal e sofisticado.
+
+**Tampo em MDF com laca preta:** O acabamento em laca preta oferece alta resistência e um visual premium que se destaca no mercado.
+
+**Pés em madeira de faia com reforço metálico:** A combinação de madeira nobre com reforço metálico garante estabilidade e durabilidade superiores.
+
+**Cadeiras em polipropileno com design ergonômico:** As cadeiras oferecem conforto superior e suportam até 110 kg cada.
+
+**Acabamento fosco:** O acabamento fosco reduz o reflexo de luz e facilita a limpeza, um diferencial em relação aos acabamentos brilhantes.
+
+**Marca La Mobília:** Reconhecida pela qualidade e design no mercado moveleiro, com mais de 500 vendas e selo "Mais Vendido".
+
+**Avaliação 4.9 estrelas com 133 reviews:** A excelente avaliação demonstra a qualidade superior do produto e a alta satisfação dos clientes.
+
+**Design versátil:** O conjunto se adapta a diferentes ambientes, desde salas de jantar e cozinhas até espaços de trabalho.
+
+## 📌 Motivos para Comprar
+
+✅ **Design icônico inspirado em Eames** - sofisticação e estilo atemporal
+
+✅ **Mesa redonda 90cm** - ideal para espaços compactos
+
+✅ **4 cadeiras Eames** - design clássico e confortável
+
+✅ **Acabamento em laca preta** - visual premium e resistente
+
+✅ **Pés em madeira de faia com reforço metálico** - estabilidade e durabilidade
+
+✅ **Cadeiras em polipropileno** - resistência e conforto
+
+✅ **Suporte de até 110 kg por cadeira** - segurança e robustez
+
+✅ **Acabamento fosco** - fácil limpeza e manutenção
+
+✅ **Marca La Mobília** - qualidade e design inovador
+
+✅ **Mais de 500 vendidos** - produto testado e aprovado
+
+✅ **Avaliação 4.9 estrelas** - excelente satisfação dos clientes
+
+✅ **Versatilidade** - adapta-se a diferentes ambientes
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos La Mobília são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem para orientar a fixação das peças e a instalação.
+
+**3. Qual o material da mesa?**
+O tampo da mesa é em MDF com acabamento em laca preta, com pés em madeira de faia com reforço metálico.
+
+**4. Qual o material das cadeiras?**
+As cadeiras são em polipropileno, com assento ergonômico e pés com reforço metálico.
+
+**5. Qual o tamanho da mesa?**
+A mesa tem 90 cm de diâmetro, com altura adequada para refeições.
+
+**6. Quantas pessoas cabem na mesa?**
+A mesa acomoda confortavelmente até 4 pessoas.
+
+**7. Qual a capacidade de peso das cadeiras?**
+As cadeiras suportam até 110 kg cada.
+
+**8. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca La Mobília.
+
+**9. Como devo fazer a limpeza do conjunto?**
+O acabamento fosco facilita a limpeza. Recomenda-se limpar com pano seco ou levemente umedecido. Evite o uso de produtos abrasivos.
+
+**10. O conjunto é indicado para apartamentos?**
+Sim, a mesa redonda de 90 cm é ideal para apartamentos e espaços compactos.
+
+**11. O conjunto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**12. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**13. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**14. O tampo da mesa é resistente?**
+Sim, o tampo em MDF com acabamento em laca preta oferece alta resistência e durabilidade.
+
+**15. Qual o estilo do conjunto?**
+O conjunto é inspirado no estilo Eames, com linhas limpas e minimalistas, característico do design moderno contemporâneo.
+
+**16. As cadeiras são confortáveis?**
+Sim, as cadeiras possuem design ergonômico em polipropileno, proporcionando conforto mesmo após longos períodos de uso.
+
+**17. O conjunto é versátil para outros ambientes?**
+Sim, o conjunto é versátil e pode ser utilizado em salas de jantar, cozinhas, áreas de lazer e até espaços de trabalho.
+
+**18. O acabamento fosco é fácil de limpar?**
+Sim, o acabamento fosco reduz o reflexo de luz e facilita a limpeza da superfície, sendo mais prático que acabamentos brilhantes.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | La Mobília |
+| **Modelo** | Eames |
+| **Estilo** | Moderno / Contemporâneo |
+| **Forma da Mesa** | Redonda |
+| **Cor da Mesa** | Preto |
+| **Cor das Cadeiras** | Preto |
+| **Cor dos Pés** | Marrom-claro (madeira) |
+| **Material do Tampo** | MDF com laca preta |
+| **Material dos Pés da Mesa** | Madeira de faia com reforço metálico |
+| **Material das Cadeiras** | Polipropileno com reforço metálico |
+| **Diâmetro da Mesa** | 90 cm |
+| **Altura da Mesa** | Padrão (aproximadamente 74-75 cm) |
+| **Capacidade** | 4 lugares |
+| **Peso Suportado (Cadeira)** | 110 kg |
+| **Acabamento** | Fosco |
+| **Requer Montagem** | Sim |
+| **Inclui Manual** | Sim |
+| **Origem** | Nacional |
+| **Garantia** | Conforme política da marca |
+| **Itens Inclusos** | 1 Mesa, 4 Cadeiras, Manual de Montagem |
+
+## 📌 Conclusão
+
+O **Conjunto Mesa Eames Preta com 4 Cadeiras da La Mobília** é uma escolha excepcional para quem busca transformar a sala de jantar em um espaço icônico, sofisticado e funcional. Com seu design inspirado no estilo Eames, acabamento premium em laca preta, estrutura robusta em madeira de faia com reforço metálico e cadeiras ergonômicas em polipropileno, este conjunto atende às necessidades das famílias modernas que valorizam design de qualidade.
+
+O selo de "Mais Vendido" com mais de 500 unidades comercializadas e a excelente avaliação de 4.9 estrelas com 133 reviews atestam a qualidade superior do produto e a satisfação dos compradores. Aproveite esta oferta e garanta já este conjunto que vai elevar o padrão estético e funcional da sua sala de jantar.
+  `,
+  marca: "La Mobília",
+  keywords: [
+    "conjunto de jantar com 4 cadeiras",
+    "mesa Eames 90cm",
+    "conjunto Eames La Mobília",
+    "mesa redonda preta",
+    "cadeiras Eames polipropileno",
+    "conjunto sala de jantar",
+    "mesa 90cm redonda",
+    "conjunto de jantar moderno",
+    "mesa de jantar preta",
+    "conjunto La Mobília",
+    "móvel para sala de jantar",
+    "mesa Eames design",
+    "cadeiras estilo Eames",
+    "conjunto jantar 4 lugares",
+    "mesa de jantar compacta",
+    "mesa MDF laca preta",
+    "cadeiras polipropileno",
+    "conjunto sala de jantar contemporâneo",
+    "mesa redonda 4 lugares",
+    "design Eames"
+  ],
+  seoTitle: "Conjunto Mesa Eames 90cm 4 Cadeiras Preta | La Mobília",
+  seoDescription: "Conjunto jantar La Mobília com mesa redonda 90cm Eames e 4 cadeiras em polipropileno. Design icônico, MDF laca preta, 110kg/cadeira. 4.9★ (133 reviews)!"
+},
+{
+  id: "p-imp-121",
+  slug: "conjunto-sala-jantar-mesa-vidro-170cm-6-cadeiras-napoles-cel-moveis",
+  category: "mesas",
+  mainCategory: "cozinha",
+  name: "Conjunto Sala de Jantar Nápoles Tampo Vidro/MDF 170cm com 6 Cadeiras Luísa Smart Plus - Cel Móveis",
+  imageFile: "/imagens/produtos/conjunto-sala-jantar-mesa-170cm-vidro-6-cadeiras-napoles-cel-moveis.webp",
+  displayImage: "/imagens/produtos/conjunto-sala-jantar-mesa-170cm-vidro-6-cadeiras-napoles-cel-moveis.webp",
+  alt: "Conjunto de sala de jantar Cel Móveis Nápoles com mesa 170cm tampo vidro e 6 cadeiras Luísa estofadas em veludo nas cores cinamomo, off white e bege",
+  rating: 4.7,
+  reviews: 243,
+  discount: 21,
+  price: 1454.99,
+  originalPrice: 1862.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1Ktc5JS",
+  descricao: `
+# Conjunto Sala de Jantar Nápoles Tampo Vidro/MDF 170cm com 6 Cadeiras Luísa Smart Plus - Cel Móveis
+
+## 📌 Introdução
+
+Transforme sua sala de jantar em um espaço de confraternização e elegância com o **Conjunto Sala de Jantar Nápoles da Cel Móveis**. Este conjunto foi desenvolvido para quem busca unir design sofisticado, conforto excepcional e durabilidade em um produto que se torna o coração da casa.
+
+A Cel Móveis, referência no mercado de móveis com mais de 1000 vendas e o selo de "Mais Vendido" na categoria Salas de Jantar, apresenta este conjunto que combina a elegância do tampo de vidro e MDF com o conforto das cadeiras Luísa Smart Plus. Com uma mesa ampla de 170 cm x 90 cm, este conjunto oferece espaço generoso para 6 pessoas, tornando cada refeição um momento especial.
+
+O acabamento em Pintura UV, o estofamento em veludo com espuma D-23 e o design moderno nas cores Cinamomo, Off White e Bege fazem deste conjunto uma peça única e sofisticada para qualquer ambiente.
+
+## 📌 Principais Benefícios
+
+**Design sofisticado com tampo de vidro e MDF:** O tampo amplo de 170 cm x 90 cm combina vidro temperado e MDF, oferecendo um visual moderno e elegante que valoriza qualquer sala de jantar.
+
+**Amplo espaço para 6 pessoas:** Com 170 cm de comprimento e 90 cm de profundidade, a mesa oferece espaço generoso para acomodar confortavelmente 6 pessoas com todos os utensílios.
+
+**Conforto superior em veludo:** As seis cadeiras Luísa Smart Plus contam com estofamento em veludo, proporcionando uma experiência de sentar luxuosa e aconchegante.
+
+**Espuma de alta densidade:** O assento utiliza espuma D-23 e o encosto espuma D-20, garantindo conforto duradouro e suporte adequado.
+
+**Acabamento premium em Pintura UV:** A estrutura em MDF recebe acabamento em Pintura UV, oferecendo alta resistência a riscos, manchas e umidade.
+
+**Alta capacidade de peso:** As cadeiras suportam até 120 kg cada, garantindo segurança e durabilidade.
+
+**Design moderno e versátil:** As cores Cinamomo, Off White e Bege criam um visual sofisticado que se adapta a diferentes estilos de decoração.
+
+**Estrutura robusta:** Fabricado em MDF de alta qualidade, o conjunto oferece estabilidade e resistência para o uso diário.
+
+## 📌 Design
+
+O design do Conjunto Nápoles Cel Móveis é um verdadeiro destaque no mercado de móveis para sala de jantar, combinando elegância, funcionalidade e qualidade.
+
+**Tampo de vidro temperado e MDF:** O tampo amplo de 170 cm x 90 cm combina vidro temperado e MDF, oferecendo um visual moderno e sofisticado, com espessura de 29 mm que garante robustez.
+
+**Acabamento em Pintura UV:** A estrutura em MDF recebe acabamento em Pintura UV, que oferece alta resistência e durabilidade, mantendo a beleza do móvel por muitos anos.
+
+**Formato retangular:** O design retangular de 170 cm x 90 cm oferece espaço generoso para 6 pessoas, sendo perfeito para salas de jantar amplas.
+
+**Cores Cinamomo/Off White/Bege:** A combinação de cores cria um visual sofisticado e versátil, que se adapta a diferentes estilos de decoração, do clássico ao contemporâneo.
+
+**Cadeiras Luísa Smart Plus com design moderno:** As cadeiras apresentam design moderno com estofamento em veludo, proporcionando conforto e elegância.
+
+**Acabamento fosco e sofisticado:** O acabamento fosco oferece um visual clean e moderno, com escala de brilho que reduz reflexos.
+
+**Design que valoriza o ambiente:** As cores coordenadas entre mesa e cadeiras criam uma harmonia visual que valoriza o ambiente.
+
+## 📌 Organização
+
+Com dimensões de 170 cm x 90 cm e espaço para 6 pessoas, este conjunto é perfeito para famílias que valorizam momentos à mesa com conforto e elegância.
+
+**Capacidade para 6 lugares:** O conjunto acomoda confortavelmente 6 pessoas, sendo ideal para almoços de domingo, jantares especiais e reuniões com amigos.
+
+**Espaço generoso:** Com 170 cm de comprimento e 90 cm de profundidade, a mesa oferece espaço suficiente para colocar pratos, talheres, utensílios e decoração central para 6 pessoas.
+
+**Altura ideal:** Com 79 cm de altura, a mesa proporciona conforto ergonômico para as refeições.
+
+**Cadeiras com dimensões equilibradas:** As cadeiras medem 97,5 cm de altura, 44 cm de largura e 56 cm de profundidade, oferecendo suporte adequado e conforto.
+
+**Design que otimiza o espaço:** As cadeiras podem ser posicionadas sob a mesa quando não estão em uso, otimizando o espaço no ambiente.
+
+## 📌 Ideal para
+
+- **Salas de jantar amplas:** Peça principal que valoriza o ambiente de refeições
+- **Famílias de 6 pessoas:** Capacidade ideal para o dia a dia
+- **Jantares e celebrações:** Espaço generoso para receber convidados
+- **Ambientes que buscam sofisticação:** Design com vidro e veludo
+- **Decoração moderna e elegante:** Cores Cinamomo/Off White/Bege
+- **Espaços que valorizam conforto:** Cadeiras estofadas com espuma D-23
+- **Ambientes que buscam qualidade:** Acabamento em Pintura UV
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este conjunto é altamente recomendado para:
+
+**Famílias grandes ou que recebem convidados:** Com 6 lugares, o conjunto atende famílias maiores e pessoas que gostam de receber convidados.
+
+**Pessoas que valorizam design sofisticado:** A combinação de vidro temperado, veludo e Pintura UV oferece um visual premium.
+
+**Admiradores de decoração moderna:** As cores Cinamomo, Off White e Bege criam um ambiente elegante e contemporâneo.
+
+**Quem busca conforto durante as refeições:** As cadeiras com espuma D-23 e estofamento em veludo garantem conforto prolongado.
+
+**Pessoas que valorizam durabilidade:** A Pintura UV e os materiais de alta qualidade garantem que o móvel mantenha sua beleza por muitos anos.
+
+**Quem busca excelente custo-benefício:** Com mais de 1000 vendidos, selo "Mais Vendido" e 4.7 estrelas de avaliação, este conjunto oferece qualidade superior.
+
+## 📌 Diferenciais
+
+O que torna o Conjunto Nápoles Cel Móveis único no mercado?
+
+**Tampo de vidro temperado e MDF com 29 mm de espessura:** A combinação de vidro temperado e MDF com alta espessura oferece resistência e durabilidade superiores.
+
+**Acabamento em Pintura UV:** A Pintura UV oferece alta resistência a riscos, manchas e umidade, garantindo durabilidade superior aos acabamentos convencionais.
+
+**Estofamento em veludo com espuma D-23:** O veludo proporciona uma experiência luxuosa e aconchegante, enquanto a espuma D-23 oferece conforto e suporte superiores.
+
+**Suporte de até 120 kg por cadeira:** A alta capacidade de peso garante segurança e robustez para diferentes usuários.
+
+**Design exclusivo nas cores Cinamomo/Off White/Bege:** A combinação de cores cria um visual sofisticado e único.
+
+**Marca Cel Móveis:** Reconhecida pela qualidade e inovação no mercado moveleiro, com mais de 1000 vendas e o selo de "Mais Vendido".
+
+**Avaliação 4.7 estrelas com 243 reviews:** A excelente avaliação demonstra a qualidade superior do produto e a alta satisfação dos clientes.
+
+**Peso robusto:** A mesa com 62,2 kg e as cadeiras com 9 kg cada garantem estabilidade e durabilidade.
+
+## 📌 Motivos para Comprar
+
+✅ **Tampo de vidro temperado e MDF com 29mm** - resistência e elegância
+
+✅ **Mesa 170x90cm** - espaço generoso para 6 pessoas
+
+✅ **6 cadeiras Luísa Smart Plus** - conforto e design moderno
+
+✅ **Estofamento em veludo** - luxo e aconchego
+
+✅ **Espuma D-23 no assento** - conforto superior
+
+✅ **Espuma D-20 no encosto** - suporte adequado
+
+✅ **Acabamento em Pintura UV** - alta resistência e durabilidade
+
+✅ **Suporte de 120 kg por cadeira** - segurança e robustez
+
+✅ **Cores Cinamomo/Off White/Bege** - design sofisticado
+
+✅ **Marca Cel Móveis** - qualidade e inovação
+
+✅ **Mais de 1000 vendidos** - produto testado e aprovado
+
+✅ **Avaliação 4.7 estrelas** - alta satisfação dos clientes
+
+✅ **21% de desconto** - excelente custo-benefício
+
+✅ **Vidro temperado** - segurança e durabilidade
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos Cel Móveis são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias para a instalação.
+
+**3. As cadeiras são estofadas?**
+Sim, as 6 cadeiras Luísa Smart Plus possuem encosto e assento estofados em veludo, com espuma D-23 no assento e D-20 no encosto.
+
+**4. Qual o material do tampo da mesa?**
+O tampo da mesa é em vidro temperado com MDF, com espessura de 29 mm.
+
+**5. Qual o material da estrutura?**
+A estrutura da mesa e das cadeiras é em MDF com acabamento em Pintura UV.
+
+**6. Qual o tamanho da mesa?**
+A mesa tem 170 cm de comprimento, 90 cm de profundidade e 79 cm de altura.
+
+**7. Quantas pessoas cabem na mesa?**
+A mesa acomoda confortavelmente até 6 pessoas.
+
+**8. Qual a capacidade de peso das cadeiras?**
+As cadeiras suportam até 120 kg cada.
+
+**9. Qual o tamanho das cadeiras?**
+As cadeiras medem 97,5 cm de altura, 44 cm de largura e 56 cm de profundidade.
+
+**10. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Cel Móveis.
+
+**11. Como devo fazer a limpeza do conjunto?**
+O vidro pode ser limpo com produtos específicos para vidros. O MDF com Pintura UV pode ser limpo com pano seco ou levemente umedecido. O veludo requer limpeza a seco ou com produtos específicos para tecidos.
+
+**12. O conjunto é indicado para ambientes amplos?**
+Sim, as dimensões de 170 cm x 90 cm são ideais para salas de jantar amplas.
+
+**13. A mesa é extensível?**
+Não, a mesa não é extensível. Possui 170 cm fixos.
+
+**14. O vidro da mesa é temperado?**
+Sim, o vidro é temperado, oferecendo maior resistência e segurança.
+
+**15. O conjunto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**16. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**17. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**18. O que é Pintura UV?**
+A Pintura UV é um acabamento de alta resistência aplicado sobre o MDF, que oferece proteção contra riscos, manchas e umidade, garantindo durabilidade superior.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Cel Móveis |
+| **Modelo** | Nápoles |
+| **Cadeiras** | Luísa Smart Plus |
+| **Estilo** | Moderno |
+| **Forma da Mesa** | Retangular |
+| **Cor** | Cinamomo / Off White / Bege |
+| **Cor Predominante** | Bege |
+| **Acabamento** | Fosco / Pintura UV |
+| **Material do Tampo** | Vidro Temperado e MDF |
+| **Material da Base** | MDF |
+| **Material das Cadeiras** | MDF |
+| **Revestimento das Cadeiras** | Veludo |
+| **Enchimento do Assento** | Espuma D-23 |
+| **Enchimento do Encosto** | Espuma D-20 |
+| **Altura da Mesa** | 79 cm |
+| **Largura da Mesa** | 170 cm |
+| **Profundidade da Mesa** | 90 cm |
+| **Espessura do Tampo** | 29 mm |
+| **Altura da Cadeira** | 97,5 cm |
+| **Largura da Cadeira** | 44 cm |
+| **Profundidade da Cadeira** | 56 cm |
+| **Peso da Mesa** | 62,2 kg |
+| **Peso da Cadeira** | 9 kg |
+| **Capacidade** | 6 lugares |
+| **Peso Suportado (Cadeira)** | 120 kg |
+| **Peso Suportado (Mesa)** | 50 kg |
+| **Mesa Extensível** | Não |
+| **Vidro Temperado** | Sim |
+| **Requer Montagem** | Sim |
+| **Origem** | Nacional |
+| **Garantia** | Conforme política da marca |
+| **Itens Inclusos** | 1 Mesa, 6 Cadeiras, Ferragens, Manual |
+
+## 📌 Conclusão
+
+O **Conjunto Sala de Jantar Nápoles da Cel Móveis** é uma escolha excepcional para quem busca transformar a sala de jantar em um espaço elegante, sofisticado e funcional. Com seu design moderno com tampo de vidro temperado e MDF, acabamento premium em Pintura UV, conforto superior com estofamento em veludo e espuma D-23, e espaço generoso para 6 pessoas, este conjunto atende às necessidades das famílias modernas que valorizam qualidade e design.
+
+O selo de "Mais Vendido" com mais de 1000 unidades comercializadas e a excelente avaliação de 4.7 estrelas com 243 reviews atestam a qualidade superior do produto e a satisfação dos compradores. Aproveite esta oferta exclusiva com 21% de desconto e garanta já este conjunto que vai elevar o padrão estético e funcional da sua sala de jantar.
+  `,
+  marca: "Cel Móveis",
+  keywords: [
+    "conjunto de jantar com 6 cadeiras",
+    "mesa de jantar 170cm",
+    "conjunto Nápoles Cel Móveis",
+    "mesa com tampo de vidro",
+    "cadeiras estofadas em veludo",
+    "conjunto sala de jantar",
+    "mesa 170x90",
+    "conjunto de jantar moderno",
+    "mesa de jantar cinamomo off white bege",
+    "conjunto Cel Móveis Nápoles",
+    "móvel para sala de jantar",
+    "cadeiras com espuma D-23",
+    "conjunto jantar 6 lugares",
+    "mesa de jantar ampla",
+    "conjunto sala de jantar sofisticado",
+    "mesa vidro 6 lugares",
+    "pintura UV MDF",
+    "conjunto de jantar com desconto",
+    "cadeiras Luísa Smart Plus",
+    "mesa de jantar Cel Móveis"
+  ],
+  seoTitle: "Conjunto Jantar Nápoles 170cm 6 Cadeiras Veludo | Cel Móveis",
+  seoDescription: "Conjunto jantar Cel Móveis com mesa 170x90cm tampo vidro/MDF e 6 cadeiras Luísa estofadas em veludo. Pintura UV, 120kg/cadeira. 4.7★ (243 reviews). 21% OFF!"
+},
+{
+  id: "p-imp-122",
+  slug: "conjunto-sala-jantar-mesa-vidro-170cm-6-cadeiras-genova-cel-moveis",
+  category: "mesas",
+  mainCategory: "cozinha",
+  name: "Conjunto Sala de Jantar Genova Tampo Vidro/MDF 170cm com 6 Cadeiras Genova Smart Plus - Cel Móveis",
+  imageFile: "/imagens/produtos/conjunto-sala-jantar-mesa-170cm-vidro-6-cadeiras-genova-cel-moveis.webp",
+  displayImage: "/imagens/produtos/conjunto-sala-jantar-mesa-170cm-vidro-6-cadeiras-genova-cel-moveis.webp",
+  alt: "Conjunto de sala de jantar Cel Móveis Genova com mesa 170cm tampo vidro e 6 cadeiras estofadas em veludo nas cores cinamomo, off white e bege",
+  rating: 4.7,
+  reviews: 148,
+  discount: 22,
+  price: 1814.99,
+  originalPrice: 2349.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1r6rxCw",
+  descricao: `
+# Conjunto Sala de Jantar Genova Tampo Vidro/MDF 170cm com 6 Cadeiras Genova Smart Plus - Cel Móveis
+
+## 📌 Introdução
+
+Transforme sua sala de jantar em um espaço de confraternização e elegância com o **Conjunto Sala de Jantar Genova da Cel Móveis**. Este conjunto foi desenvolvido para quem busca unir design sofisticado, conforto excepcional e durabilidade em um produto que se torna o coração da casa, sendo ideal para criar momentos inesquecíveis com família e amigos.
+
+A Cel Móveis, referência no mercado de móveis com mais de 500 vendas e o selo de "Mais Vendido" na categoria Salas de Jantar, apresenta este conjunto que combina a elegância do tampo de vidro e MDF com o conforto das cadeiras Genova Smart Plus. Com uma mesa ampla de 170 cm x 90 cm, este conjunto oferece espaço generoso para 6 pessoas, tornando cada refeição um momento especial de aconchego e receptividade.
+
+O acabamento em Pintura UV, o estofamento em veludo com espuma D-23 e D-20, e o design moderno nas cores Cinamomo, Off White e Bege fazem deste conjunto uma peça única e sofisticada para qualquer ambiente.
+
+## 📌 Principais Benefícios
+
+**Design sofisticado com tampo de vidro e MDF:** O tampo amplo de 170 cm x 90 cm combina vidro temperado e MDF, oferecendo um visual moderno e elegante que valoriza qualquer sala de jantar, com acabamento fosco que reduz reflexos.
+
+**Amplo espaço para 6 pessoas:** Com 170 cm de comprimento e 90 cm de profundidade, a mesa oferece espaço generoso para acomodar confortavelmente 6 pessoas com todos os utensílios, pratos, copos, talheres e travessas.
+
+**Conforto superior em veludo:** As seis cadeiras Genova Smart Plus contam com estofamento em veludo, proporcionando uma experiência de sentar luxuosa e aconchegante.
+
+**Espuma de alta densidade:** O assento utiliza espuma D-23 e o encosto espuma D-20, garantindo conforto duradouro e suporte adequado para longas refeições.
+
+**Acabamento premium em Pintura UV:** A estrutura em MDF recebe acabamento em Pintura UV, oferecendo alta resistência a riscos, manchas e umidade.
+
+**Alta capacidade de peso:** As cadeiras suportam até 120 kg cada, garantindo segurança e durabilidade.
+
+**Design moderno e versátil:** As cores Cinamomo, Off White e Bege criam um visual sofisticado que se adapta a diferentes estilos de decoração.
+
+**Estrutura robusta:** Fabricado em MDF de alta qualidade, o conjunto oferece estabilidade e resistência para o uso diário.
+
+## 📌 Design
+
+O design do Conjunto Genova Cel Móveis é um verdadeiro destaque no mercado de móveis para sala de jantar, combinando elegância, funcionalidade e qualidade.
+
+**Tampo de vidro temperado e MDF:** O tampo amplo de 170 cm x 90 cm combina vidro temperado e MDF, oferecendo um visual moderno e sofisticado, com espessura de 29 mm que garante robustez.
+
+**Acabamento em Pintura UV:** A estrutura em MDF recebe acabamento em Pintura UV, que oferece alta resistência e durabilidade, mantendo a beleza do móvel por muitos anos.
+
+**Formato retangular:** O design retangular de 170 cm x 90 cm oferece espaço generoso para 6 pessoas, sendo perfeito para salas de jantar amplas.
+
+**Cores Cinamomo/Off White/Bege:** A combinação de cores cria um visual sofisticado e versátil, que se adapta a diferentes estilos de decoração, do clássico ao contemporâneo.
+
+**Cadeiras Genova Smart Plus com design moderno:** As cadeiras apresentam design moderno com estofamento em veludo, proporcionando conforto e elegância.
+
+**Acabamento fosco e sofisticado:** O acabamento fosco oferece um visual clean e moderno, com escala de brilho que reduz reflexos.
+
+**Design que valoriza o ambiente:** As cores coordenadas entre mesa e cadeiras criam uma harmonia visual que valoriza o ambiente.
+
+## 📌 Organização
+
+Com dimensões de 170 cm x 90 cm e espaço para 6 pessoas, este conjunto é perfeito para famílias que valorizam momentos à mesa com conforto e elegância.
+
+**Capacidade para 6 lugares:** O conjunto acomoda confortavelmente 6 pessoas, sendo ideal para almoços de domingo, jantares especiais e reuniões com amigos.
+
+**Espaço generoso:** Com 170 cm de comprimento e 90 cm de profundidade, a mesa oferece espaço suficiente para colocar pratos, copos, talheres, utensílios e travessas para 6 pessoas.
+
+**Altura ideal:** Com 79 cm de altura, a mesa proporciona conforto ergonômico para as refeições.
+
+**Cadeiras com dimensões equilibradas:** As cadeiras medem 97,5 cm de altura, 44 cm de largura e 58 cm de profundidade, oferecendo suporte adequado e conforto.
+
+**Base estável:** A base da mesa com 76,5 cm x 102 cm x 45 cm garante estabilidade e segurança.
+
+## 📌 Ideal para
+
+- **Salas de jantar amplas:** Peça principal que valoriza o ambiente de refeições
+- **Famílias de 6 pessoas:** Capacidade ideal para o dia a dia
+- **Jantares e celebrações:** Espaço generoso para receber convidados
+- **Ambientes que buscam sofisticação:** Design com vidro e veludo
+- **Decoração moderna e elegante:** Cores Cinamomo/Off White/Bege
+- **Espaços que valorizam conforto:** Cadeiras estofadas com espuma D-23
+- **Ambientes que buscam qualidade:** Acabamento em Pintura UV
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este conjunto é altamente recomendado para:
+
+**Famílias grandes ou que recebem convidados:** Com 6 lugares, o conjunto atende famílias maiores e pessoas que gostam de receber convidados para momentos especiais.
+
+**Pessoas que valorizam design sofisticado:** A combinação de vidro temperado, veludo e Pintura UV oferece um visual premium.
+
+**Admiradores de decoração moderna:** As cores Cinamomo, Off White e Bege criam um ambiente elegante e contemporâneo.
+
+**Quem busca conforto durante as refeições:** As cadeiras com espuma D-23 e estofamento em veludo garantem conforto prolongado.
+
+**Pessoas que valorizam durabilidade:** A Pintura UV e os materiais de alta qualidade garantem que o móvel mantenha sua beleza por muitos anos.
+
+**Quem busca excelente custo-benefício:** Com mais de 500 vendidos, selo "Mais Vendido" e 4.7 estrelas de avaliação, este conjunto oferece qualidade superior.
+
+## 📌 Diferenciais
+
+O que torna o Conjunto Genova Cel Móveis único no mercado?
+
+**Tampo de vidro temperado e MDF com 29 mm de espessura:** A combinação de vidro temperado e MDF com alta espessura oferece resistência e durabilidade superiores, com acabamento fosco que reduz reflexos.
+
+**Acabamento em Pintura UV:** A Pintura UV oferece alta resistência a riscos, manchas e umidade, garantindo durabilidade superior aos acabamentos convencionais.
+
+**Estofamento em veludo com espuma D-23:** O veludo proporciona uma experiência luxuosa e aconchegante, enquanto a espuma D-23 oferece conforto e suporte superiores.
+
+**Suporte de até 120 kg por cadeira:** A alta capacidade de peso garante segurança e robustez para diferentes usuários.
+
+**Design exclusivo nas cores Cinamomo/Off White/Bege:** A combinação de cores cria um visual sofisticado e único, que se destaca no mercado.
+
+**Marca Cel Móveis:** Reconhecida pela qualidade e inovação no mercado moveleiro, com mais de 500 vendas e o selo de "Mais Vendido".
+
+**Avaliação 4.7 estrelas com 148 reviews:** A excelente avaliação demonstra a qualidade superior do produto e a alta satisfação dos clientes.
+
+**Peso robusto:** A mesa com 59,7 kg e as cadeiras com 9 kg cada garantem estabilidade e durabilidade.
+
+## 📌 Motivos para Comprar
+
+✅ **Tampo de vidro temperado e MDF com 29mm** - resistência e elegância
+
+✅ **Mesa 170x90cm** - espaço generoso para 6 pessoas
+
+✅ **6 cadeiras Genova Smart Plus** - conforto e design moderno
+
+✅ **Estofamento em veludo** - luxo e aconchego
+
+✅ **Espuma D-23 no assento** - conforto superior
+
+✅ **Espuma D-20 no encosto** - suporte adequado
+
+✅ **Acabamento em Pintura UV** - alta resistência e durabilidade
+
+✅ **Suporte de 120 kg por cadeira** - segurança e robustez
+
+✅ **Cores Cinamomo/Off White/Bege** - design sofisticado
+
+✅ **Marca Cel Móveis** - qualidade e inovação
+
+✅ **Mais de 500 vendidos** - produto testado e aprovado
+
+✅ **Avaliação 4.7 estrelas** - alta satisfação dos clientes
+
+✅ **22% de desconto** - excelente custo-benefício
+
+✅ **Vidro temperado** - segurança e durabilidade
+
+✅ **Acabamento fosco** - reduz reflexos e facilita limpeza
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos Cel Móveis são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha kit ferragens e manual de montagem para orientar a instalação.
+
+**3. As cadeiras são estofadas?**
+Sim, as 6 cadeiras Genova Smart Plus possuem encosto e assento estofados em veludo, com espuma D-23 no assento e D-20 no encosto.
+
+**4. Qual o material do tampo da mesa?**
+O tampo da mesa é em vidro temperado com MDF, com espessura de 29 mm e acabamento fosco.
+
+**5. Qual o material da estrutura?**
+A estrutura da mesa e das cadeiras é em MDF com acabamento em Pintura UV.
+
+**6. Qual o tamanho da mesa?**
+A mesa tem 170 cm de comprimento, 90 cm de profundidade e 79 cm de altura.
+
+**7. Quantas pessoas cabem na mesa?**
+A mesa acomoda confortavelmente até 6 pessoas.
+
+**8. Qual a capacidade de peso das cadeiras?**
+As cadeiras suportam até 120 kg cada.
+
+**9. Qual o tamanho das cadeiras?**
+As cadeiras medem 97,5 cm de altura, 44 cm de largura e 58 cm de profundidade.
+
+**10. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Cel Móveis.
+
+**11. Como devo fazer a limpeza do conjunto?**
+O vidro pode ser limpo com produtos específicos para vidros. O MDF com Pintura UV pode ser limpo com pano seco ou levemente umedecido. O veludo requer limpeza a seco ou com produtos específicos para tecidos.
+
+**12. O conjunto é indicado para ambientes amplos?**
+Sim, as dimensões de 170 cm x 90 cm são ideais para salas de jantar amplas.
+
+**13. A mesa é extensível?**
+Não, a mesa não é extensível. Possui 170 cm fixos.
+
+**14. O vidro da mesa é temperado?**
+Sim, o vidro é temperado, oferecendo maior resistência e segurança.
+
+**15. O conjunto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**16. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**17. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**18. O que é Pintura UV?**
+A Pintura UV é um acabamento de alta resistência aplicado sobre o MDF, que oferece proteção contra riscos, manchas e umidade, garantindo durabilidade superior.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Cel Móveis |
+| **Modelo** | Genova |
+| **Cadeiras** | Genova Smart Plus |
+| **Estilo** | Moderno |
+| **Forma da Mesa** | Retangular |
+| **Cor** | Cinamomo / Off White / Bege |
+| **Cor Predominante** | Bege |
+| **Acabamento** | Fosco / Pintura UV |
+| **Material do Tampo** | Vidro Temperado e MDF |
+| **Material da Base** | MDF |
+| **Material das Cadeiras** | MDF |
+| **Revestimento das Cadeiras** | Veludo |
+| **Enchimento do Assento** | Espuma D-23 |
+| **Enchimento do Encosto** | Espuma D-20 |
+| **Altura da Mesa** | 79 cm |
+| **Largura da Mesa** | 170 cm |
+| **Profundidade da Mesa** | 90 cm |
+| **Espessura do Tampo** | 29 mm |
+| **Altura da Cadeira** | 97,5 cm |
+| **Largura da Cadeira** | 44 cm |
+| **Profundidade da Cadeira** | 58 cm |
+| **Medida da Base** | 76,5 x 102 x 45 cm |
+| **Peso da Mesa** | 59,7 kg |
+| **Peso da Cadeira** | 9 kg |
+| **Capacidade** | 6 lugares |
+| **Peso Suportado (Cadeira)** | 120 kg |
+| **Peso Suportado (Mesa)** | 50 kg |
+| **Mesa Extensível** | Não |
+| **Vidro Temperado** | Sim |
+| **Requer Montagem** | Sim |
+| **Origem** | Nacional |
+| **Garantia** | Conforme política da marca |
+| **Itens Inclusos** | 1 Mesa, 6 Cadeiras, Ferragens, Manual |
+
+## 📌 Conclusão
+
+O **Conjunto Sala de Jantar Genova da Cel Móveis** é uma escolha excepcional para quem busca transformar a sala de jantar em um espaço elegante, sofisticado e funcional. Com seu design moderno com tampo de vidro temperado e MDF, acabamento premium em Pintura UV, conforto superior com estofamento em veludo e espuma D-23, e espaço generoso para 6 pessoas, este conjunto atende às necessidades das famílias modernas que valorizam qualidade e design.
+
+O selo de "Mais Vendido" com mais de 500 unidades comercializadas e a excelente avaliação de 4.7 estrelas com 148 reviews atestam a qualidade superior do produto e a satisfação dos compradores. Aproveite esta oferta exclusiva com 22% de desconto e garanta já este conjunto que vai elevar o padrão estético e funcional da sua sala de jantar.
+  `,
+  marca: "Cel Móveis",
+  keywords: [
+    "conjunto de jantar com 6 cadeiras",
+    "mesa de jantar 170cm",
+    "conjunto Genova Cel Móveis",
+    "mesa com tampo de vidro",
+    "cadeiras estofadas em veludo",
+    "conjunto sala de jantar",
+    "mesa 170x90",
+    "conjunto de jantar moderno",
+    "mesa de jantar cinamomo off white bege",
+    "conjunto Cel Móveis Genova",
+    "móvel para sala de jantar",
+    "cadeiras com espuma D-23",
+    "conjunto jantar 6 lugares",
+    "mesa de jantar ampla",
+    "conjunto sala de jantar sofisticado",
+    "mesa vidro 6 lugares",
+    "pintura UV MDF",
+    "conjunto de jantar com desconto",
+    "cadeiras Genova Smart Plus",
+    "mesa de jantar Cel Móveis"
+  ],
+  seoTitle: "Conjunto Jantar Genova 170cm 6 Cadeiras Veludo | Cel Móveis",
+  seoDescription: "Conjunto jantar Cel Móveis com mesa 170x90cm tampo vidro/MDF e 6 cadeiras Genova estofadas em veludo. Pintura UV, 120kg/cadeira. 4.7★ (148 reviews). 22% OFF!"
+},
+{
+  id: "p-imp-123",
+  slug: "conjunto-sala-jantar-mesa-luanda-180x90cm-vidro-6-cadeiras-rufato",
+  category: "mesas",
+  mainCategory: "cozinha",
+  name: "Mesa de Jantar Luanda 180x90cm Tampo Vidro/MDF com 6 Cadeiras Luanda - Rufato - Animalle Chocolate/Off White/Imbuia",
+  imageFile: "/imagens/produtos/mesa-de-jantar-6-cadeiras-vidro-luanda-rufato.webp",
+  displayImage: "/imagens/produtos/mesa-de-jantar-6-cadeiras-vidro-luanda-rufato.webp",
+  alt: "Conjunto de sala de jantar Rufato Luanda com mesa 180x90cm tampo vidro e 6 cadeiras estofadas em suede nas cores animalle chocolate, off white e imbuia",
+  rating: 4.8,
+  reviews: 385,
+  discount: 21,
+  price: 1553.24,
+  originalPrice: 1972.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2oNGyLq",
+  descricao: `
+# Mesa de Jantar Luanda 180x90cm Tampo Vidro/MDF com 6 Cadeiras Luanda - Rufato
+
+## 📌 Introdução
+
+Transforme sua sala de jantar em um espaço de elegância e sofisticação com a **Mesa de Jantar Luanda da Rufato**. Este conjunto foi desenvolvido para quem busca design arrojado, conforto excepcional e durabilidade em um produto que se torna o coração da casa, sendo ideal para criar momentos inesquecíveis com família e amigos.
+
+A Rufato, referência no mercado de móveis com mais de 1000 vendas e o selo de "Mais Vendido" na categoria Salas de Jantar, apresenta este conjunto que combina a imponência do tampo amplo com detalhe chanfrado e a elegância das cadeiras revestidas em tecido suede. Com uma mesa generosa de 180 cm x 90 cm, este conjunto oferece espaço excepcional para 6 pessoas, tornando cada refeição um momento especial.
+
+O acabamento em Pintura UV, o estofamento com espumas de alta qualidade (D-23 no assento e D-18 no encosto), e o design moderno com base em U fazem deste conjunto uma peça única e sofisticada para qualquer ambiente.
+
+## 📌 Principais Benefícios
+
+**Design imponente com tampo amplo:** O tampo generoso de 180 cm x 90 cm com detalhe chanfrado oferece um visual arrojado e sofisticado, com espaço excepcional para 6 pessoas e todos os utensílios.
+
+**Acabamento premium em Pintura UV:** A estrutura em MDF recebe acabamento em Pintura UV, que oferece alta resistência a riscos, manchas e umidade, preservando a cor por mais tempo.
+
+**Conforto superior com espumas de alta qualidade:** As seis cadeiras contam com assento estofado com espuma D-23 e encosto com espuma D-18, garantindo conforto duradouro e suporte adequado.
+
+**Revestimento em suede:** O tecido suede oferece maior suavidade, maciez e beleza, proporcionando uma experiência de sentar luxuosa e aconchegante.
+
+**Vidro temperado de 60mm:** O tampo em MDF com vidro temperado de 60mm de espessura oferece resistência e durabilidade superiores, com design chanfrado que agrega sofisticação.
+
+**Alta capacidade de peso:** As cadeiras suportam até 100 kg cada, garantindo segurança e durabilidade.
+
+**Design moderno com base em U:** A base em U da mesa oferece estabilidade e um visual contemporâneo, com pés que não atrapalham a circulação.
+
+**Estrutura 100% MDF:** Fabricado inteiramente em MDF de alta qualidade, o conjunto oferece estabilidade e resistência para o uso diário.
+
+## 📌 Design
+
+O design da Mesa de Jantar Luanda Rufato é um verdadeiro destaque no mercado de móveis para sala de jantar, combinando elegância, funcionalidade e qualidade.
+
+**Tampo amplo com detalhe chanfrado:** O tampo generoso de 180 cm x 90 cm com detalhe chanfrado oferece um visual arrojado e sofisticado, com acabamento em vidro temperado de 60mm que garante resistência.
+
+**Acabamento em Pintura UV:** A estrutura em MDF recebe acabamento em Pintura UV semi-brilho, que oferece alta resistência e durabilidade, mantendo a beleza do móvel por muitos anos.
+
+**Formato retangular:** O design retangular de 180 cm x 90 cm oferece espaço excepcional para 6 pessoas, sendo perfeito para salas de jantar amplas.
+
+**Base em U:** A base em U da mesa oferece estabilidade e um visual moderno, com design que não atrapalha a circulação ao redor da mesa.
+
+**Cores Animalle Chocolate/Off White/Imbuia:** A combinação de cores cria um visual sofisticado e versátil, que se adapta a diferentes estilos de decoração, do clássico ao contemporâneo.
+
+**Cadeiras Luanda com design moderno:** As cadeiras apresentam design moderno com estofamento em suede, proporcionando conforto e elegância.
+
+**Acabamento texturizado:** O acabamento texturizado das cadeiras oferece um visual diferenciado e sofisticado.
+
+## 📌 Organização
+
+Com dimensões de 180 cm x 90 cm e espaço para 6 pessoas, este conjunto é perfeito para famílias que valorizam momentos à mesa com conforto e elegância.
+
+**Capacidade para 6 lugares:** O conjunto acomoda confortavelmente 6 pessoas, sendo ideal para almoços de domingo, jantares especiais e reuniões com amigos.
+
+**Espaço generoso:** Com 180 cm de comprimento e 90 cm de profundidade, a mesa oferece espaço suficiente para colocar pratos, copos, talheres, utensílios e travessas para 6 pessoas.
+
+**Altura ideal:** Com 80 cm de altura, a mesa proporciona conforto ergonômico para as refeições.
+
+**Cadeiras com dimensões equilibradas:** As cadeiras medem 99,5 cm de altura, 42 cm de largura e 61 cm de profundidade, oferecendo suporte adequado e conforto.
+
+**Base estável:** A base da mesa com 78 cm x 100 cm x 42 cm garante estabilidade e segurança, com design em U que não atrapalha a circulação.
+
+## 📌 Ideal para
+
+- **Salas de jantar amplas:** Peça imponente que valoriza o ambiente de refeições
+- **Famílias de 6 pessoas:** Capacidade ideal para o dia a dia
+- **Jantares e celebrações:** Espaço generoso para receber convidados
+- **Ambientes que buscam sofisticação:** Design com vidro temperado e suede
+- **Decoração moderna e elegante:** Cores Animalle Chocolate/Off White/Imbuia
+- **Espaços que valorizam conforto:** Cadeiras estofadas com espuma D-23
+- **Ambientes que buscam qualidade:** Acabamento em Pintura UV
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este conjunto é altamente recomendado para:
+
+**Famílias grandes ou que recebem convidados:** Com 6 lugares, o conjunto atende famílias maiores e pessoas que gostam de receber convidados para momentos especiais.
+
+**Pessoas que valorizam design sofisticado:** A combinação de vidro temperado com 60mm, suede e Pintura UV oferece um visual premium.
+
+**Admiradores de decoração moderna:** As cores Animalle Chocolate, Off White e Imbuia criam um ambiente elegante e contemporâneo.
+
+**Quem busca conforto durante as refeições:** As cadeiras com espuma D-23 e revestimento em suede garantem conforto prolongado.
+
+**Pessoas que valorizam durabilidade:** A Pintura UV e os materiais de alta qualidade garantem que o móvel mantenha sua beleza por muitos anos.
+
+**Quem busca excelente custo-benefício:** Com mais de 1000 vendidos, selo "Mais Vendido" e 4.8 estrelas de avaliação, este conjunto oferece qualidade superior.
+
+## 📌 Diferenciais
+
+O que torna a Mesa de Jantar Luanda Rufato única no mercado?
+
+**Tampo com vidro temperado de 60mm:** A espessura de 60mm do vidro temperado oferece resistência e durabilidade superiores, com detalhe chanfrado que agrega sofisticação.
+
+**Acabamento em Pintura UV semi-brilho:** A Pintura UV semi-brilho oferece alta resistência e um visual sofisticado, preservando a cor por mais tempo.
+
+**Estofamento com espuma D-23 no assento e D-18 no encosto:** A combinação de espumas de alta qualidade oferece conforto superior e suporte adequado.
+
+**Revestimento em suede:** O tecido suede oferece maior suavidade, maciez e beleza, proporcionando uma experiência de sentar luxuosa.
+
+**Base em U:** O design da base em U oferece estabilidade e um visual moderno, com pés que não atrapalham a circulação.
+
+**Marca Rufato:** Reconhecida pela qualidade e inovação no mercado moveleiro, com mais de 1000 vendas e o selo de "Mais Vendido".
+
+**Avaliação 4.8 estrelas com 385 reviews:** A excelente avaliação demonstra a qualidade superior do produto e a alta satisfação dos clientes.
+
+**Estrutura 100% MDF:** A utilização de MDF em toda a estrutura garante estabilidade e durabilidade superiores.
+
+## 📌 Motivos para Comprar
+
+✅ **Tampo com vidro temperado de 60mm** - resistência e sofisticação
+
+✅ **Mesa 180x90cm** - espaço excepcional para 6 pessoas
+
+✅ **6 cadeiras Luanda** - conforto e design moderno
+
+✅ **Estofamento em suede** - maciez e beleza
+
+✅ **Espuma D-23 no assento** - conforto superior
+
+✅ **Espuma D-18 no encosto** - suporte adequado
+
+✅ **Acabamento em Pintura UV semi-brilho** - alta resistência e durabilidade
+
+✅ **Base em U** - estabilidade e design moderno
+
+✅ **Suporte de 100 kg por cadeira** - segurança e robustez
+
+✅ **Cores Animalle Chocolate/Off White/Imbuia** - design sofisticado
+
+✅ **Marca Rufato** - qualidade e inovação
+
+✅ **Mais de 1000 vendidos** - produto testado e aprovado
+
+✅ **Avaliação 4.8 estrelas** - excelente satisfação dos clientes
+
+✅ **21% de desconto** - excelente custo-benefício
+
+✅ **Detalhe chanfrado** - sofisticação no acabamento
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos Rufato são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias para a instalação.
+
+**3. As cadeiras são estofadas?**
+Sim, as 6 cadeiras Luanda possuem encosto e assento estofados em suede, com espuma D-23 no assento e D-18 no encosto.
+
+**4. Qual o material do tampo da mesa?**
+O tampo da mesa é em MDF com vidro temperado de 60mm de espessura, com detalhe chanfrado.
+
+**5. Qual o material da estrutura?**
+A estrutura da mesa e das cadeiras é em MDF com acabamento em Pintura UV semi-brilho.
+
+**6. Qual o tamanho da mesa?**
+A mesa tem 180 cm de comprimento, 90 cm de profundidade e 80 cm de altura.
+
+**7. Quantas pessoas cabem na mesa?**
+A mesa acomoda confortavelmente até 6 pessoas.
+
+**8. Qual a capacidade de peso das cadeiras?**
+As cadeiras suportam até 100 kg cada.
+
+**9. Qual o tamanho das cadeiras?**
+As cadeiras medem 99,5 cm de altura, 42 cm de largura e 61 cm de profundidade.
+
+**10. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Rufato.
+
+**11. Como devo fazer a limpeza do conjunto?**
+O vidro pode ser limpo com produtos específicos para vidros. O MDF com Pintura UV pode ser limpo com pano seco ou levemente umedecido. O suede requer limpeza a seco ou com produtos específicos para tecidos.
+
+**12. O conjunto é indicado para ambientes amplos?**
+Sim, as dimensões de 180 cm x 90 cm são ideais para salas de jantar amplas.
+
+**13. A mesa é extensível?**
+Não, a mesa não é extensível. Possui 180 cm fixos.
+
+**14. O vidro da mesa é temperado?**
+Sim, o vidro é temperado com 60mm de espessura, oferecendo maior resistência e segurança.
+
+**15. O conjunto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**16. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**17. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**18. O que é Pintura UV?**
+A Pintura UV é um acabamento de alta resistência aplicado sobre o MDF, que oferece proteção contra riscos, manchas e umidade, garantindo durabilidade superior.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Rufato |
+| **Linha/Coleção** | Luanda |
+| **Estilo** | Moderno |
+| **Forma da Mesa** | Retangular |
+| **Cor** | Animalle Chocolate / Off White / Imbuia |
+| **Cor Predominante** | Marrom |
+| **Acabamento** | Semi-Brilho / Pintura UV |
+| **Material do Tampo** | Vidro Temperado (60mm) com MDF |
+| **Material da Base** | MDF |
+| **Material das Cadeiras** | MDF |
+| **Revestimento das Cadeiras** | Suede |
+| **Enchimento do Assento** | Espuma D-23 |
+| **Enchimento do Encosto** | Espuma D-18 |
+| **Altura da Mesa** | 80 cm |
+| **Largura da Mesa** | 180 cm |
+| **Profundidade da Mesa** | 90 cm |
+| **Espessura do Tampo** | 60 mm |
+| **Altura da Cadeira** | 99,5 cm |
+| **Largura da Cadeira** | 42 cm |
+| **Profundidade da Cadeira** | 61 cm |
+| **Medida da Base** | 78 x 100 x 42 cm |
+| **Peso da Mesa** | 62,25 kg |
+| **Peso da Cadeira** | 8,28 kg |
+| **Capacidade** | 6 lugares |
+| **Peso Suportado (Cadeira)** | 100 kg |
+| **Peso Suportado (Mesa)** | 30 kg |
+| **Mesa Extensível** | Não |
+| **Vidro Temperado** | Sim |
+| **Requer Montagem** | Sim |
+| **Origem** | Nacional |
+| **Garantia** | Conforme política da marca |
+| **Itens Inclusos** | 1 Mesa, 6 Cadeiras, Ferragens, Manual |
+
+## 📌 Conclusão
+
+A **Mesa de Jantar Luanda da Rufato** é uma escolha excepcional para quem busca transformar a sala de jantar em um espaço elegante, sofisticado e funcional. Com seu design imponente com tampo amplo e detalhe chanfrado, acabamento premium em Pintura UV, conforto superior com estofamento em suede e espuma D-23, e espaço generoso para 6 pessoas, este conjunto atende às necessidades das famílias modernas que valorizam qualidade e design.
+
+O selo de "Mais Vendido" com mais de 1000 unidades comercializadas e a excelente avaliação de 4.8 estrelas com 385 reviews atestam a qualidade superior do produto e a satisfação dos compradores. Aproveite esta oferta exclusiva com 21% de desconto e garanta já este conjunto que vai elevar o padrão estético e funcional da sua sala de jantar.
+  `,
+  marca: "Rufato",
+  keywords: [
+    "conjunto de jantar com 6 cadeiras",
+    "mesa de jantar 180cm",
+    "mesa Luanda Rufato",
+    "mesa com tampo de vidro",
+    "cadeiras estofadas em suede",
+    "conjunto sala de jantar",
+    "mesa 180x90",
+    "conjunto de jantar moderno",
+    "mesa de jantar animalle chocolate",
+    "conjunto Rufato Luanda",
+    "móvel para sala de jantar",
+    "cadeiras com espuma D-23",
+    "conjunto jantar 6 lugares",
+    "mesa de jantar ampla",
+    "vidro temperado 60mm",
+    "pintura UV MDF",
+    "conjunto de jantar com desconto",
+    "cadeiras Luanda Rufato",
+    "mesa de jantar com base em U",
+    "conjunto sala de jantar sofisticado"
+  ],
+  seoTitle: "Mesa Jantar Luanda 180x90cm 6 Cadeiras Vidro | Rufato",
+  seoDescription: "Conjunto jantar Rufato com mesa 180x90cm tampo vidro 60mm e 6 cadeiras Luanda estofadas em suede. Pintura UV, 100kg/cadeira. 4.8★ (385 reviews). 21% OFF!"
+},
+{
+  id: "p-imp-124",
+  slug: "liquidificador-mondial-turbo-power-550w-filtro-jarra-22l-preto",
+  category: "liquidificadores",
+  mainCategory: "eletrodomesticos",
+  name: "Liquidificador Mondial Turbo Power 550W com Filtro e Jarra de 2.2L para Sucos e Vitaminas - Preto",
+  imageFile: "/imagens/produtos/liquidificador-mondial-turbo-power-550w-filtro-jarra-22l-preto.webp",
+  displayImage: "/imagens/produtos/liquidificador-mondial-turbo-power-550w-filtro-jarra-22l-preto.webp",
+  alt: "Liquidificador Mondial Turbo Power 550W na cor preta com jarra San Cristal 2.2L e filtro para sucos",
+  rating: 4.9,
+  reviews: 15,
+  discount: 7,
+  price: 239.00,
+  originalPrice: 259.00,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2kE9hMi",
+  descricao: `
+# Liquidificador Mondial Turbo Power 550W com Filtro e Jarra de 2.2L para Sucos e Vitaminas
+
+## 📌 Introdução
+
+Prepare sucos, vitaminas, bolos, molhos, sopas, cremes e receitas do dia a dia com muito mais praticidade usando o **Liquidificador Mondial Turbo Power 550W**. Este aparelho foi desenvolvido para quem busca um liquidificador potente, bonito, fácil de usar e com excelente custo-benefício para uso doméstico.
+
+Ideal para casas, apartamentos, cozinhas novas ou para quem deseja substituir um aparelho antigo por uma opção mais moderna e funcional, o Mondial Turbo Power entrega desempenho para bater frutas, vitaminas, massas leves, molhos e até triturar gelo no uso correto.
+
+Com 550W de potência, 3 velocidades + função pulsar, filtro exclusivo para sucos, copo San Cristal de 2,2L e lâminas em aço inox, ele é a escolha perfeita para quem quer praticidade e eficiência na rotina da cozinha.
+
+## 📌 Principais Benefícios
+
+**Potência de 550W para receitas do dia a dia:** O motor de 550W oferece força suficiente para preparar sucos, vitaminas, bolos, molhos, sopas e até triturar gelo, mantendo o desempenho em receitas domésticas.
+
+**Filtro interno para sucos:** Um dos grandes diferenciais do Mondial Turbo Power é o filtro interno, que retém sementes e bagaços durante o preparo de sucos, eliminando a necessidade de coar manualmente. Perfeito para frutas como laranja, limão, acerola e outras frutas do dia a dia.
+
+**Capacidade generosa de 2,2L:** Com capacidade total de 2,2L e capacidade útil de 1,6L, você pode realizar preparos volumosos em um único ciclo, ideal para famílias ou para preparar receitas em maior quantidade.
+
+**3 velocidades + função pulsar e turbo:** O sistema de 3 velocidades mais função pulsar e turbo permite ajustar a trituração conforme a consistência dos alimentos, oferecendo controle total sobre o preparo.
+
+**Copo San Cristal transparente e prático:** O copo em San Cristal é transparente, leve e prático, permitindo visualizar o preparo durante o processo. É livre de BPA, garantindo mais segurança no preparo dos alimentos.
+
+**Lâminas em aço inox:** As lâminas em aço inox são resistentes e eficientes, garantindo durabilidade e desempenho superior.
+
+**Tampa com copo dosador:** A tampa com copo dosador facilita adicionar ingredientes sem interromper o funcionamento do motor, tornando o preparo mais prático.
+
+**Design moderno na cor preta:** O design elegante na cor preta combina com diversos ambientes e estilos de cozinha, agregando sofisticação ao espaço.
+
+## 📌 Design
+
+O design do Liquidificador Mondial Turbo Power foi pensado para unir funcionalidade e estética, oferecendo um aparelho que é bonito e prático ao mesmo tempo.
+
+**Design moderno na cor preta:** A cor preta confere um visual elegante e sofisticado, combinando com diferentes estilos de decoração de cozinha.
+
+**Copo San Cristal transparente:** O copo transparente permite visualizar o preparo durante o processo, facilitando o controle da consistência dos alimentos.
+
+**Base com pés antiderrapantes:** Os pés antiderrapantes fixam o aparelho na bancada, evitando movimentações durante o funcionamento, garantindo estabilidade e segurança.
+
+**Bico vertedor:** O bico vertedor facilita o servir, evitando respingos e derramamentos.
+
+**Porta-fio:** O porta-fio ajuda na organização da cozinha, mantendo o fio guardado quando o aparelho não está em uso.
+
+**Tampa com copo dosador:** A tampa com copo dosador permite adicionar ingredientes sem interromper o funcionamento, mantendo a praticidade durante o preparo.
+
+## 📌 Funcionalidades
+
+**3 velocidades + função pulsar e turbo:** O liquidificador oferece 3 velocidades para diferentes tipos de preparo, além da função pulsar para triturar ingredientes mais duros e a função turbo para mais força quando precisar.
+
+**Filtro para sucos:** O filtro interno retém sementes e bagaços, deixando o suco mais pronto para servir, sem necessidade de coar manualmente.
+
+**Função autolimpeza:** O liquidificador possui função autolimpeza, facilitando a manutenção e prolongando a vida útil do aparelho.
+
+**Copo dosador na tampa:** Permite adicionar ingredientes sem interromper o funcionamento, tornando o preparo mais prático e eficiente.
+
+**Livre de BPA:** O copo é livre de BPA, garantindo mais segurança no preparo dos alimentos.
+
+## 📌 Ideal para
+
+- **Preparar sucos naturais:** Sucos de frutas frescas com filtro que retém sementes e bagaço
+- **Vitaminas e shakes:** Bebidas nutritivas para o dia a dia
+- **Bolos e massas leves:** Preparo de massas para bolos e receitas caseiras
+- **Molhos e sopas:** Molhos caseiros e sopas cremosas
+- **Frutas congeladas:** Preparo de receitas com frutas congeladas
+- **Gelo:** Trituração de gelo com uso moderado e correto
+- **Cozinhas domésticas:** Uso diário em casas e apartamentos
+- **Substituição de aparelho antigo:** Opção moderna e funcional
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este liquidificador é altamente recomendado para:
+
+**Famílias que buscam praticidade na cozinha:** Com capacidade de 2,2L e preparos em um único ciclo, é ideal para o dia a dia familiar.
+
+**Pessoas que gostam de sucos naturais:** O filtro interno elimina a necessidade de coar manualmente, tornando o preparo mais prático.
+
+**Quem busca um liquidificador potente com bom custo-benefício:** 550W de potência com preço acessível.
+
+**Admiradores de design moderno:** A cor preta e o design elegante combinam com diferentes estilos de cozinha.
+
+**Pessoas que valorizam segurança:** Livre de BPA e com pés antiderrapantes para maior estabilidade.
+
+**Quem quer substituir um aparelho antigo:** Opção moderna, funcional e com melhor desempenho.
+
+**Quem busca versatilidade:** Prepara sucos, vitaminas, bolos, molhos, sopas e muito mais.
+
+## 📌 Diferenciais
+
+O que torna o Liquidificador Mondial Turbo Power único no mercado?
+
+**Filtro interno para sucos:** Diferencial exclusivo que retém sementes e bagaços, eliminando a necessidade de coar manualmente.
+
+**Copo San Cristal de 2,2L com capacidade útil de 1,6L:** Copo transparente, leve e prático, com capacidade generosa para preparos volumosos.
+
+**3 velocidades + pulsar e turbo:** Sistema completo de controle de velocidade para diferentes tipos de preparo.
+
+**Lâminas em aço inox:** Lâminas resistentes e eficientes que garantem durabilidade.
+
+**Livre de BPA:** Mais segurança no preparo dos alimentos.
+
+**Base com pés antiderrapantes:** Estabilidade durante o funcionamento.
+
+**Marca Mondial:** Reconhecida pela qualidade e inovação no mercado de eletrodomésticos.
+
+**Avaliação 4.9 estrelas:** Excelente satisfação dos clientes.
+
+**Ótimo custo-benefício:** Potência de 550W com preço acessível.
+
+## 📌 Motivos para Comprar
+
+✅ **Potência de 550W** - desempenho para receitas do dia a dia
+
+✅ **Filtro interno para sucos** - retém sementes e bagaços
+
+✅ **Capacidade total de 2,2L** - preparos volumosos em um único ciclo
+
+✅ **Capacidade útil de 1,6L** - uso prático e eficiente
+
+✅ **3 velocidades + pulsar e turbo** - controle total do preparo
+
+✅ **Lâminas em aço inox** - resistência e eficiência
+
+✅ **Copo San Cristal transparente** - visualização do preparo
+
+✅ **Livre de BPA** - mais segurança nos alimentos
+
+✅ **Tampa com copo dosador** - adiciona ingredientes sem parar
+
+✅ **Bico vertedor** - facilita servir
+
+✅ **Pés antiderrapantes** - estabilidade durante o uso
+
+✅ **Porta-fio** - organização da cozinha
+
+✅ **Design moderno na cor preta** - combina com diversos ambientes
+
+✅ **Função autolimpeza** - fácil manutenção
+
+✅ **Avaliação 4.9 estrelas** - excelente satisfação
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O liquidificador é novo ou usado?**
+Todos os produtos Mondial são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O copo é de vidro?**
+Não. O copo é em San Cristal, material transparente, leve e prático para o dia a dia, livre de BPA.
+
+**3. O liquidificador vem com filtro para sucos?**
+Sim, o liquidificador acompanha filtro interno que retém sementes e bagaços durante o preparo de sucos, eliminando a necessidade de coar.
+
+**4. Qual a potência do motor?**
+O motor tem 550W de potência, ideal para uso doméstico.
+
+**5. Qual a capacidade do copo?**
+A capacidade total é de 2,2L e a capacidade útil é de 1,6L.
+
+**6. O liquidificador pode triturar gelo?**
+Sim, o motor de 550W permite triturar gelo com uso moderado e correto.
+
+**7. Ele é silencioso?**
+Não prometemos que seja silencioso. O ruído é compatível com liquidificadores potentes de uso doméstico. Alguns compradores consideram normal, enquanto outros podem achar mais alto, especialmente ao triturar gelo ou ingredientes firmes.
+
+**8. Pode ter cheiro no primeiro uso?**
+No primeiro uso, pode ocorrer odor característico de motor novo. Isso costuma diminuir com o uso correto do produto.
+
+**9. O copo trava na base?**
+O copo possui encaixe prático na base. É importante posicionar corretamente antes de ligar o aparelho.
+
+**10. Serve para uso profissional?**
+Não é um produto industrial. É indicado para uso doméstico, como sucos, vitaminas, bolos, molhos, sopas e receitas caseiras.
+
+**11. Pode transbordar ou vazar?**
+Para evitar transbordamento, respeite a capacidade útil de 1,6L e não ultrapasse o nível indicado no copo.
+
+**12. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Mondial.
+
+**13. Como devo fazer a limpeza?**
+O liquidificador possui função autolimpeza para facilitar a manutenção. O copo pode ser lavado com água e detergente neutro.
+
+**14. O copo pode ser levado à lava-louças?**
+Não, o copo não é apto para lava-louças.
+
+**15. Qual o comprimento do fio?**
+O fio tem 90 cm de comprimento.
+
+**16. Qual o peso do aparelho?**
+O peso aproximado é de 1,3 kg.
+
+**17. O produto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**18. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Mondial |
+| **Modelo** | L-99-FB |
+| **Linha** | Turbo Power |
+| **Cor** | Preto |
+| **Potência** | 550W |
+| **Capacidade Total** | 2,2L |
+| **Capacidade Útil** | 1,6L |
+| **Quantidade de Velocidades** | 3 + Pulsar + Turbo |
+| **Funções** | Liquefazer, misturar, bater, triturar, pulsar, turbo e autolimpeza |
+| **Material do Copo** | San Cristal (livre de BPA) |
+| **Lâminas** | Aço inox |
+| **Filtro Incluso** | Sim |
+| **Uso Recomendado** | Doméstico |
+| **Apto para Lava-louças** | Não |
+| **Comprimento do Fio** | 90 cm |
+| **Peso Aproximado** | 1,3 kg |
+| **Voltagem** | 127V |
+| **Origem** | Nacional |
+| **Garantia** | Conforme política da marca |
+| **Itens Inclusos** | 1 Liquidificador, 1 Copo San Cristal, 1 Filtro para sucos, 1 Tampa com copo dosador, 1 Manual de instruções |
+
+## 📌 Conclusão
+
+O **Liquidificador Mondial Turbo Power 550W** é uma escolha excelente para quem busca praticidade, potência e versatilidade na cozinha. Com seu motor de 550W, filtro exclusivo para sucos, capacidade generosa de 2,2L, sistema de 3 velocidades + pulsar e turbo, e design moderno na cor preta, este liquidificador atende às necessidades do dia a dia com eficiência e qualidade.
+
+O filtro interno para sucos é um diferencial que elimina a necessidade de coar manualmente, tornando o preparo de sucos naturais muito mais prático. A avaliação de 4.9 estrelas atesta a satisfação dos clientes com este produto. Aproveite esta oferta e garanta já o seu Liquidificador Mondial Turbo Power para ter mais praticidade, potência e economia na sua cozinha.
+  `,
+  marca: "Mondial",
+  keywords: [
+    "liquidificador mondial turbo power",
+    "liquidificador 550w",
+    "liquidificador com filtro",
+    "liquidificador para sucos",
+    "liquidificador 2.2l",
+    "liquidificador mondial preto",
+    "liquidificador com jarra san cristal",
+    "liquidificador de sucos",
+    "liquidificador com copo dosador",
+    "liquidificador para vitaminas",
+    "liquidificador potente",
+    "eletrodoméstico para cozinha",
+    "liquidificador com 3 velocidades",
+    "liquidificador com função pulsar",
+    "liquidificador para gelo",
+    "mondial l-99-fb",
+    "liquidificador livre de bpa",
+    "liquidificador com autolimpeza",
+    "liquidificador para bolos",
+    "liquidificador para molhos"
+  ],
+  seoTitle: "Liquidificador Mondial Turbo Power 550W com Filtro 2.2L | Preto",
+  seoDescription: "Liquidificador Mondial Turbo Power 550W com filtro para sucos e jarra San Cristal 2.2L. 3 velocidades + pulsar, lâminas em aço inox, livre de BPA. 4.9★ (15 reviews). 7% OFF!"
+},
+{
+  id: "p-imp-125",
+  slug: "liquidificador-electrolux-1500w-32l-15-velocidades-ebl1500-bordo",
+  category: "liquidificadores",
+  mainCategory: "eletrodomesticos",
+  name: "Liquidificador Electrolux 1500W 3.2L 15 Velocidades EBL1500 Efficient com TriForce - Bordô",
+  imageFile: "/imagens/produtos/liquidificador-electrolux-1500w-32l-15-velocidades-ebl1500-bordo.webp",
+  displayImage: "/imagens/produtos/liquidificador-electrolux-1500w-32l-15-velocidades-ebl1500-bordo.webp",
+  alt: "Liquidificador Electrolux 1500W 3.2L na cor bordô com 15 velocidades e tecnologia TriForce da linha Efficient",
+  rating: 4.6,
+  reviews: 156,
+  discount: 6,
+  price: 291.35,
+  originalPrice: 311.35,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2caBZBb",
+  descricao: `
+# Liquidificador Electrolux 1500W 3.2L 15 Velocidades EBL1500 Efficient com TriForce - Bordô
+
+## 📌 Introdução
+
+Prepare-se para revolucionar sua cozinha com o **Liquidificador Electrolux 1500W 3,2L Efficient com TriForce 15 Velocidades (EBL1510)**. Este liquidificador foi desenvolvido para quem busca desempenho avançado, eficiência e versatilidade no dia a dia, oferecendo uma experiência de preparo superior.
+
+Com a Tecnologia TriForce – que une lâminas resistentes, potência eficiente e alta velocidade – este liquidificador oferece um desempenho incomparável. Capaz de triturar gelo até 4x mais rápido e aumentar o aproveitamento de alimentos em até 10x, ele ajuda a minimizar o desperdício e otimizar o tempo na cozinha.
+
+A marca Electrolux, referência mundial em eletrodomésticos, apresenta este modelo com 1500W de potência, jarra de 3,2L, 15 velocidades, 5 receitas predefinidas e a inovadora Função Pulsar 3 em 1, tornando este liquidificador a escolha perfeita para famílias que buscam praticidade, eficiência e qualidade em um único produto.
+
+## 📌 Principais Benefícios
+
+**Potência de 1500W para desempenho avançado:** O motor de 1500W oferece força excepcional para triturar gelo e alimentos rígidos com rapidez, utilizando o sistema de 15 velocidades que permite ajustar a intensidade conforme a necessidade.
+
+**Tecnologia TriForce:** A inovadora tecnologia que une lâminas resistentes, potência eficiente e alta velocidade, garantindo um desempenho superior e resultados consistentes.
+
+**Capacidade generosa de 3,2L:** Com capacidade total e útil de 3,2L, você pode preparar receitas volumosas para toda a família em um único ciclo, ideal para quem cozinha em grande quantidade.
+
+**Tritura gelo até 4x mais rápido:** A potência combinada com a tecnologia TriForce permite triturar gelo com muito mais agilidade, reduzindo significativamente o tempo de preparo de receitas que exigem gelo triturado.
+
+**Aproveitamento de alimentos até 10x maior:** O design das lâminas e a potência do motor garantem maior extração de nutrientes e aproveitamento dos alimentos, minimizando o desperdício.
+
+**Composição livre de BPA:** A jarra de plástico ultrarresistente é livre de Bisfenol A, garantindo segurança durante o processamento de alimentos e bebidas.
+
+**Função Pulsar 3 em 1:** A função pode ser usada para receitas pesadas, triturar gelo ou realizar a limpeza do liquidificador, removendo os restos dos alimentos até 2x mais rápido e economizando água.
+
+**6 lâminas TruFlow em aço inoxidável:** As lâminas combinam resistência com precisão, com design que atinge os alimentos em diferentes alturas da jarra, garantindo cortes eficientes e uniformes.
+
+**15 velocidades e 5 receitas predefinidas:** Maior precisão no preparo de bolos, massas, sucos e vitaminas com configurações otimizadas para cada tipo de receita.
+
+## 📌 Design
+
+O design do Liquidificador Electrolux Efficient foi pensado para unir funcionalidade, ergonomia e estética, oferecendo um aparelho que é bonito e prático ao mesmo tempo.
+
+**Cor bordô sofisticada:** A cor bordô confere um visual elegante e sofisticado, destacando-se na bancada da cozinha e combinando com diferentes estilos de decoração.
+
+**Jarra de plástico ultrarresistente:** O copo em plástico de alta resistência é livre de BPA, com design ergonômico que facilita o manuseio e o transporte.
+
+**Capacidade de 3,2L:** A generosa capacidade permite preparar receitas para toda a família em um único ciclo.
+
+**Design ergonômico:** O design do copo e da base foi desenvolvido para facilitar o uso, com encaixe prático e fácil manuseio.
+
+**Tampa flexível:** A tampa flexível permite o fechamento seguro do copo durante o funcionamento, evitando respingos na bancada.
+
+**Lâminas TruFlow em aço inoxidável:** As 6 lâminas em aço inox são projetadas para atingir os alimentos em diferentes alturas, garantindo cortes eficientes e uniformes.
+
+## 📌 Funcionalidades
+
+**Tecnologia TriForce:** A inovadora tecnologia que une lâminas resistentes, potência eficiente e alta velocidade, garantindo um desempenho superior.
+
+**15 velocidades:** Maior precisão e controle no preparo de diferentes receitas, permitindo ajustar a intensidade conforme a necessidade.
+
+**5 receitas predefinidas:** Configurações otimizadas para bolos, massas, sucos, vitaminas e outras preparações, facilitando o dia a dia.
+
+**Função Pulsar 3 em 1:** Versátil função que pode ser usada para receitas pesadas, triturar gelo ou realizar a limpeza do aparelho.
+
+**6 lâminas TruFlow:** Lâminas em aço inoxidável com design que atinge os alimentos nas bordas, no centro e nas partes superiores, garantindo cortes finos e uniformes.
+
+**Livre de BPA:** A jarra é livre de Bisfenol A, garantindo segurança alimentar.
+
+**Tampa flexível:** Fechamento seguro que evita respingos durante o funcionamento.
+
+## 📌 Ideal para
+
+- **Preparar receitas volumosas:** Capacidade de 3,2L para toda a família
+- **Triturar gelo:** Até 4x mais rápido que liquidificadores convencionais
+- **Preparar bolos e massas:** Com receitas predefinidas e alta potência
+- **Sucos e vitaminas:** Extração máxima de nutrientes
+- **Receitas pesadas:** Função Pulsar para ingredientes mais duros
+- **Cozinhas modernas:** Design sofisticado na cor bordô
+- **Famílias que cozinham em grande quantidade:** Capacidade generosa
+- **Quem busca eficiência:** Tecnologia TriForce e 15 velocidades
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este liquidificador é altamente recomendado para:
+
+**Famílias que cozinham em grande quantidade:** A capacidade de 3,2L permite preparar receitas para toda a família em um único ciclo.
+
+**Pessoas que buscam eficiência na cozinha:** A tecnologia TriForce e a potência de 1500W garantem preparos mais rápidos e eficientes.
+
+**Admiradores de design sofisticado:** A cor bordô confere um visual elegante e moderno.
+
+**Quem busca versatilidade:** 15 velocidades, 5 receitas predefinidas e função pulsar para diferentes tipos de preparo.
+
+**Pessoas que valorizam segurança alimentar:** Jarra livre de BPA para maior segurança.
+
+**Quem quer minimizar o desperdício:** Aproveitamento de alimentos até 10x maior.
+
+**Quem busca durabilidade:** Lâminas em aço inoxidável e construção de alta qualidade.
+
+**Pessoas que querem praticidade na limpeza:** Função Pulsar para limpeza rápida e eficiente.
+
+## 📌 Diferenciais
+
+O que torna o Liquidificador Electrolux 1500W Efficient único no mercado?
+
+**Tecnologia TriForce:** A inovadora tecnologia que une lâminas resistentes, potência eficiente e alta velocidade, garantindo um desempenho superior que se destaca no mercado.
+
+**Tritura gelo até 4x mais rápido:** A potência de 1500W combinada com a tecnologia TriForce permite triturar gelo com muito mais agilidade.
+
+**Aproveitamento de alimentos até 10x maior:** O design das lâminas e a potência do motor garantem maior extração de nutrientes e aproveitamento dos alimentos.
+
+**6 lâminas TruFlow em aço inoxidável:** Lâminas que atingem os alimentos em diferentes alturas da jarra, garantindo cortes eficientes e uniformes.
+
+**15 velocidades e 5 receitas predefinidas:** Maior precisão e controle no preparo de diferentes receitas.
+
+**Função Pulsar 3 em 1:** Versatilidade para receitas pesadas, triturar gelo ou limpeza.
+
+**Capacidade de 3,2L:** Uma das maiores capacidades do mercado para uso doméstico.
+
+**Marca Electrolux:** Reconhecida mundialmente pela qualidade, inovação e durabilidade.
+
+**Avaliação 4.6 estrelas com 156 reviews:** Alta satisfação dos clientes.
+
+## 📌 Motivos para Comprar
+
+✅ **Potência de 1500W** - desempenho avançado para receitas pesadas
+
+✅ **Capacidade de 3,2L** - preparos volumosos para toda a família
+
+✅ **Tecnologia TriForce** - lâminas resistentes, potência e alta velocidade
+
+✅ **Tritura gelo até 4x mais rápido** - agilidade no preparo
+
+✅ **Aproveitamento de alimentos até 10x maior** - minimiza o desperdício
+
+✅ **6 lâminas TruFlow em aço inoxidável** - cortes eficientes e uniformes
+
+✅ **15 velocidades** - controle preciso do preparo
+
+✅ **5 receitas predefinidas** - precisão para bolos, massas, sucos e vitaminas
+
+✅ **Função Pulsar 3 em 1** - versatilidade para receitas pesadas, gelo e limpeza
+
+✅ **Livre de BPA** - segurança alimentar
+
+✅ **Design bordô sofisticado** - elegância na cozinha
+
+✅ **Marca Electrolux** - qualidade e inovação
+
+✅ **Avaliação 4.6 estrelas** - alta satisfação dos clientes
+
+✅ **Tampa flexível** - evita respingos
+
+✅ **Limpeza rápida** - até 2x mais rápido com função pulsar
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos Electrolux são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. Qual a potência do motor?**
+O motor tem 1500W de potência, ideal para uso doméstico intenso e receitas pesadas.
+
+**3. Qual a capacidade do copo?**
+A capacidade total e útil é de 3,2L, permitindo preparar receitas volumosas para toda a família.
+
+**4. O copo é de plástico?**
+Sim, o copo é de plástico ultrarresistente, livre de BPA, com design ergonômico.
+
+**5. O liquidificador pode triturar gelo?**
+Sim, o motor de 1500W com tecnologia TriForce tritura gelo até 4x mais rápido que liquidificadores convencionais.
+
+**6. Quantas velocidades o liquidificador tem?**
+O liquidificador possui 15 velocidades para maior precisão e controle no preparo de diferentes receitas.
+
+**7. O que é a Tecnologia TriForce?**
+É a inovadora tecnologia que une lâminas resistentes, potência eficiente e alta velocidade, garantindo um desempenho superior.
+
+**8. O liquidificador tem receitas predefinidas?**
+Sim, o produto funciona com 5 receitas predefinidas para maior precisão no preparo de bolos, massas, sucos e vitaminas.
+
+**9. O que é a Função Pulsar 3 em 1?**
+É uma função versátil que pode ser usada para receitas pesadas, triturar gelo ou tornar a limpeza do liquidificador mais prática.
+
+**10. Como funciona a limpeza com a função pulsar?**
+A função pulsar ajuda a remover os restos dos alimentos até 2x mais rápido e economiza água no processo.
+
+**11. As lâminas são de que material?**
+As 6 lâminas TruFlow são feitas de aço inoxidável, combinando resistência com precisão.
+
+**12. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Electrolux.
+
+**13. O copo é livre de BPA?**
+Sim, o copo é livre de Bisfenol A, garantindo segurança durante o processamento de alimentos e bebidas.
+
+**14. O produto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**15. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**16. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**17. Qual a cor do produto?**
+O liquidificador está disponível na cor bordô, um tom sofisticado e elegante.
+
+**18. O produto é recomendado para uso profissional?**
+É recomendado o uso de acessórios Electrolux. O produto é indicado para uso doméstico, com desempenho avançado.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Electrolux |
+| **Modelo** | EBL1510 (EBL1500) |
+| **Linha** | Efficient |
+| **Cor** | Bordô |
+| **Potência** | 1500W |
+| **Capacidade** | 3,2L |
+| **Quantidade de Velocidades** | 15 |
+| **Receitas Predefinidas** | 5 |
+| **Funções** | Pulsar 3 em 1, Triturar gelo, Preparar bolos/massas/sucos/vitaminas |
+| **Tecnologia** | TriForce |
+| **Material do Copo** | Plástico ultrarresistente (livre de BPA) |
+| **Lâminas** | 6 lâminas TruFlow em aço inoxidável |
+| **Tampa** | Flexível (fechamento seguro) |
+| **Uso Recomendado** | Doméstico |
+| **Voltagem** | 220V |
+| **Origem** | Nacional |
+| **Garantia** | Conforme política da marca |
+| **Itens Inclusos** | 1 Liquidificador, 1 Jarra, 1 Tampa, 1 Manual de instruções |
+
+## 📌 Conclusão
+
+O **Liquidificador Electrolux 1500W 3,2L Efficient com TriForce** é uma escolha excepcional para quem busca desempenho avançado, eficiência e versatilidade na cozinha. Com sua potência de 1500W, capacidade generosa de 3,2L, inovadora tecnologia TriForce, 15 velocidades e 5 receitas predefinidas, este liquidificador atende às necessidades das famílias modernas que valorizam qualidade, agilidade e praticidade.
+
+A capacidade de triturar gelo até 4x mais rápido, o aproveitamento de alimentos até 10x maior e a função pulsar 3 em 1 tornam este liquidificador uma ferramenta indispensável na cozinha. O selo de "Mais Vendido" e a avaliação de 4.6 estrelas com 156 reviews atestam a qualidade superior do produto e a satisfação dos compradores. Aproveite esta oferta e garanta já o seu Liquidificador Electrolux para revolucionar sua cozinha.
+  `,
+  marca: "Electrolux",
+  keywords: [
+    "liquidificador electrolux 1500w",
+    "liquidificador 3.2l",
+    "liquidificador 15 velocidades",
+    "liquidificador electrolux efficient",
+    "liquidificador ebl1500",
+    "liquidificador com tecnologia triforce",
+    "liquidificador para triturar gelo",
+    "liquidificador de alta potência",
+    "liquidificador para sucos",
+    "liquidificador para vitaminas",
+    "liquidificador para bolos",
+    "liquidificador para massas",
+    "liquidificador electrolux bordô",
+    "liquidificador com função pulsar",
+    "liquidificador livre de bpa",
+    "liquidificador com jarra grande",
+    "eletrodoméstico para cozinha",
+    "liquidificador com receitas predefinidas",
+    "liquidificador electrolux 1500w 32l",
+    "liquidificador potente para uso doméstico"
+  ],
+  seoTitle: "Liquidificador Electrolux 1500W 3.2L 15 Velocidades | Bordô",
+  seoDescription: "Liquidificador Electrolux 1500W com jarra 3.2L, tecnologia TriForce e 15 velocidades. Tritura gelo 4x mais rápido, livre de BPA. 4.6★ (156 reviews). 6% OFF no Pix!"
+},
+{
+  id: "p-imp-126",
+  slug: "liquidificador-electrolux-efficient-600w-27l-3-velocidades-ebl700-preto",
+  category: "liquidificadores",
+  mainCategory: "eletrodomesticos",
+  name: "Liquidificador Electrolux Efficient 600W 2.7L 3 Velocidades EBL700 com TriForce - Preto",
+  imageFile: "/imagens/produtos/liquidificador-electrolux-efficient-600w-27l-3-velocidades-ebl700-preto.webp",
+  displayImage: "/imagens/produtos/liquidificador-electrolux-efficient-600w-27l-3-velocidades-ebl700-preto.webp",
+  alt: "Liquidificador Electrolux Efficient 600W 2.7L na cor preta com tecnologia TriForce e 3 velocidades",
+  rating: 0,
+  reviews: 0,
+  discount: 17,
+  price: 139.90,
+  originalPrice: 169.90,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/11Y9Fd5",
+  descricao: `
+# Liquidificador Electrolux Efficient 600W 2.7L 3 Velocidades EBL700 com TriForce - Preto
+
+## 📌 Introdução
+
+Prepare-se para revolucionar sua cozinha com o **Liquidificador Electrolux 600W 2,7L Efficient com TriForce 3 Velocidades Preto (EBL700)**. Este liquidificador foi desenvolvido para quem busca desempenho eficiente, praticidade e versatilidade no dia a dia, oferecendo uma experiência de preparo superior com custo-benefício excepcional.
+
+Com a tecnologia TriForce – que une lâminas resistentes, potência eficiente e alta velocidade – este liquidificador oferece um desempenho avançado para a rotina da cozinha. Capaz de triturar gelo até 2x mais rápido e aumentar o aproveitamento de alimentos em até 8x, ele ajuda a minimizar o desperdício e otimizar o tempo nos preparos.
+
+A marca Electrolux, referência mundial em eletrodomésticos, apresenta este modelo com 600W de potência, jarra de 2,7L, 3 velocidades, 4 receitas predefinidas e a inovadora Função Pulsar 3 em 1, tornando este liquidificador a escolha perfeita para quem busca eficiência, sustentabilidade e qualidade.
+
+## 📌 Principais Benefícios
+
+**Potência de 600W para uso doméstico eficiente:** O motor de 600W oferece força suficiente para preparar sucos, vitaminas, bolos, molhos, sopas e triturar gelo com eficiência.
+
+**Tecnologia TriForce:** A inovadora tecnologia que une lâminas resistentes, potência eficiente e alta velocidade, garantindo um desempenho superior e resultados consistentes.
+
+**Capacidade generosa de 2,7L:** Com capacidade total de 2,7L, você pode preparar receitas para toda a família em um único ciclo, ideal para o dia a dia.
+
+**Tritura gelo até 2x mais rápido:** A potência combinada com a tecnologia TriForce permite triturar gelo com mais agilidade, reduzindo o tempo de preparo de receitas.
+
+**Aproveitamento de alimentos até 8x maior:** O design das lâminas e a potência do motor garantem maior extração de nutrientes e aproveitamento dos alimentos, minimizando o desperdício.
+
+**Composição livre de BPA:** A jarra de plástico ultrarresistente é livre de Bisfenol A, garantindo segurança durante o processamento de alimentos e bebidas.
+
+**Função Pulsar 3 em 1:** A função pode ser usada para receitas pesadas, triturar gelo ou realizar a limpeza do liquidificador, removendo os restos dos alimentos até 2x mais rápido e economizando água.
+
+**Sustentabilidade:** A limpeza com função pulsar economiza até 730 litros de água por ano em comparação com a limpeza manual – o equivalente a 146 galões de água (5 L cada).
+
+**4 lâminas TruFlow em aço inoxidável:** Lâminas que combinam resistência com precisão, com design que atinge os alimentos nas bordas e nas partes superiores da jarra.
+
+**Peças adequadas para lava-louças:** Facilidade na limpeza e manutenção do aparelho.
+
+## 📌 Design
+
+O design do Liquidificador Electrolux Efficient foi pensado para unir funcionalidade, ergonomia e estética, oferecendo um aparelho prático e moderno.
+
+**Cor preta sofisticada:** A cor preta confere um visual elegante e moderno, combinando com diferentes estilos de decoração de cozinha.
+
+**Jarra de plástico ultrarresistente:** O copo em plástico de alta resistência é livre de BPA, com design ergonômico que facilita o manuseio.
+
+**Capacidade de 2,7L:** Capacidade generosa para preparar receitas para toda a família.
+
+**Tampa dosadora incorporada:** Permite adicionar ingredientes sem interromper o funcionamento, mantendo a praticidade durante o preparo.
+
+**Base antiderrapante:** Os pés antiderrapantes fixam o aparelho na bancada, evitando movimentações durante o funcionamento.
+
+**Trava de segurança:** Garante maior segurança durante o uso, evitando acidentes.
+
+**Lâminas TruFlow em aço inoxidável:** 4 lâminas em aço inox projetadas para cortes eficientes e uniformes.
+
+## 📌 Funcionalidades
+
+**Tecnologia TriForce:** A inovadora tecnologia que une lâminas resistentes, potência eficiente e alta velocidade, garantindo desempenho superior.
+
+**3 velocidades:** Controle básico para diferentes tipos de preparo, ajustando a intensidade conforme a necessidade.
+
+**4 receitas predefinidas:** Configurações otimizadas para bolos, massas, sucos e vitaminas, facilitando o dia a dia.
+
+**Função Pulsar 3 em 1:** Versátil função para receitas pesadas, triturar gelo ou limpeza do aparelho.
+
+**4 lâminas TruFlow:** Lâminas em aço inoxidável que atingem os alimentos nas bordas e nas partes superiores, garantindo cortes eficientes.
+
+**Livre de BPA:** A jarra é livre de Bisfenol A, garantindo segurança alimentar.
+
+**Picador de gelo:** Função específica para triturar gelo com eficiência.
+
+**Peças adequadas para lava-louças:** Facilidade na limpeza e manutenção.
+
+## 📌 Ideal para
+
+- **Preparar sucos e vitaminas:** Extração máxima de nutrientes
+- **Bolos e massas leves:** Com receitas predefinidas
+- **Molhos e sopas:** Preparo cremoso e homogêneo
+- **Triturar gelo:** Para receitas que exigem gelo triturado
+- **Cozinhas domésticas:** Uso diário em casas e apartamentos
+- **Famílias:** Capacidade de 2,7L para preparos em maior quantidade
+- **Quem busca praticidade:** Função pulsar e peças para lava-louças
+- **Quem valoriza sustentabilidade:** Economia de água na limpeza
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este liquidificador é altamente recomendado para:
+
+**Famílias que buscam praticidade na cozinha:** A capacidade de 2,7L permite preparar receitas para toda a família em um único ciclo.
+
+**Pessoas que valorizam eficiência com bom custo-benefício:** A tecnologia TriForce e a potência de 600W oferecem desempenho avançado por um preço acessível.
+
+**Admiradores de design moderno:** A cor preta combina com diferentes estilos de cozinha.
+
+**Quem busca versatilidade:** 3 velocidades, 4 receitas predefinidas e função pulsar para diferentes tipos de preparo.
+
+**Pessoas que valorizam segurança alimentar:** Jarra livre de BPA e trava de segurança.
+
+**Quem quer minimizar o desperdício:** Aproveitamento de alimentos até 8x maior.
+
+**Quem busca facilidade na limpeza:** Peças adequadas para lava-louças e função pulsar para limpeza rápida.
+
+**Pessoas preocupadas com sustentabilidade:** Economia de água de até 730 litros por ano.
+
+## 📌 Diferenciais
+
+O que torna o Liquidificador Electrolux 600W Efficient único no mercado?
+
+**Tecnologia TriForce:** A inovadora tecnologia que une lâminas resistentes, potência eficiente e alta velocidade, garantindo um desempenho superior.
+
+**Tritura gelo até 2x mais rápido:** A potência de 600W combinada com a tecnologia TriForce permite triturar gelo com mais agilidade.
+
+**Aproveitamento de alimentos até 8x maior:** O design das lâminas e a potência do motor garantem maior extração de nutrientes.
+
+**4 lâminas TruFlow em aço inoxidável:** Lâminas que atingem os alimentos em diferentes alturas da jarra, garantindo cortes eficientes.
+
+**Função Pulsar 3 em 1:** Versatilidade para receitas pesadas, gelo ou limpeza.
+
+**Economia de água:** A limpeza com função pulsar economiza até 730 litros de água por ano.
+
+**Peças adequadas para lava-louças:** Facilidade na limpeza e manutenção.
+
+**Marca Electrolux:** Reconhecida mundialmente pela qualidade, inovação e durabilidade.
+
+**Excelente custo-benefício:** Potência e tecnologia TriForce por um preço acessível.
+
+**Capacidade de 2,7L:** Generosa capacidade para preparos em maior quantidade.
+
+## 📌 Motivos para Comprar
+
+✅ **Potência de 600W** - desempenho eficiente para receitas do dia a dia
+
+✅ **Capacidade de 2,7L** - preparos para toda a família
+
+✅ **Tecnologia TriForce** - lâminas resistentes, potência e alta velocidade
+
+✅ **Tritura gelo até 2x mais rápido** - agilidade no preparo
+
+✅ **Aproveitamento de alimentos até 8x maior** - minimiza o desperdício
+
+✅ **4 lâminas TruFlow em aço inoxidável** - cortes eficientes e uniformes
+
+✅ **3 velocidades** - controle básico do preparo
+
+✅ **4 receitas predefinidas** - precisão para bolos, massas, sucos e vitaminas
+
+✅ **Função Pulsar 3 em 1** - versatilidade para receitas pesadas, gelo e limpeza
+
+✅ **Livre de BPA** - segurança alimentar
+
+✅ **Peças adequadas para lava-louças** - facilidade na limpeza
+
+✅ **Trava de segurança** - proteção durante o uso
+
+✅ **Base antiderrapante** - estabilidade durante o funcionamento
+
+✅ **Tampa dosadora incorporada** - adiciona ingredientes sem interromper
+
+✅ **Economia de água** - até 730 litros por ano
+
+✅ **Marca Electrolux** - qualidade e inovação
+
+✅ **17% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos Electrolux são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. Qual a potência do motor?**
+O motor tem 600W de potência, ideal para uso doméstico eficiente.
+
+**3. Qual a capacidade do copo?**
+A capacidade total é de 2,7L, permitindo preparar receitas para toda a família.
+
+**4. O copo é de plástico?**
+Sim, o copo é de plástico ultrarresistente, livre de BPA, com design ergonômico.
+
+**5. O liquidificador pode triturar gelo?**
+Sim, o motor de 600W com tecnologia TriForce tritura gelo até 2x mais rápido que liquidificadores convencionais.
+
+**6. Quantas velocidades o liquidificador tem?**
+O liquidificador possui 3 velocidades para diferentes tipos de preparo.
+
+**7. O que é a Tecnologia TriForce?**
+É a inovadora tecnologia que une lâminas resistentes, potência eficiente e alta velocidade, garantindo um desempenho superior.
+
+**8. O liquidificador tem receitas predefinidas?**
+Sim, o produto funciona com 4 receitas predefinidas para maior precisão no preparo de bolos, massas, sucos e vitaminas.
+
+**9. O que é a Função Pulsar 3 em 1?**
+É uma função versátil que pode ser usada para receitas pesadas, triturar gelo ou tornar a limpeza do liquidificador mais prática.
+
+**10. Quanto de água economizo com a função pulsar?**
+A função pulsar ajuda a remover os restos dos alimentos até 2x mais rápido, economizando até 730 litros de água por ano – o equivalente a 146 galões de água (5 L cada).
+
+**11. As peças podem ser lavadas na lava-louças?**
+Sim, as peças são adequadas para lava-louças, facilitando a limpeza e manutenção.
+
+**12. As lâminas são de que material?**
+As 4 lâminas TruFlow são feitas de aço inoxidável, combinando resistência com precisão.
+
+**13. O produto tem garantia?**
+Sim, o produto possui garantia de fábrica de 12 meses contra defeitos de fabricação.
+
+**14. O copo é livre de BPA?**
+Sim, o copo é livre de Bisfenol A, garantindo segurança durante o processamento de alimentos e bebidas.
+
+**15. O produto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**16. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**17. Qual a cor do produto?**
+O liquidificador está disponível na cor preta, um tom elegante e moderno.
+
+**18. O liquidificador tem trava de segurança?**
+Sim, o liquidificador possui trava de segurança que garante maior proteção durante o uso.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Electrolux |
+| **Modelo** | EBL700 |
+| **Linha** | Efficient |
+| **Cor** | Preto |
+| **Potência** | 600W |
+| **Capacidade** | 2,7L |
+| **Quantidade de Velocidades** | 3 |
+| **Receitas Predefinidas** | 4 |
+| **Funções** | Pulsar 3 em 1, Picador de gelo |
+| **Tecnologia** | TriForce |
+| **Material do Copo** | Plástico ultrarresistente (livre de BPA) |
+| **Lâminas** | 4 lâminas TruFlow em aço inoxidável |
+| **Tampa** | Dosadora incorporada |
+| **Base** | Antiderrapante |
+| **Trava de Segurança** | Sim |
+| **Peças Laváveis** | Adequadas para lava-louças |
+| **Uso Recomendado** | Doméstico |
+| **Voltagem** | 127V |
+| **Garantia** | 12 meses |
+| **Origem** | Nacional |
+| **Itens Inclusos** | 1 Liquidificador, 1 Jarra, 1 Tampa, 1 Manual de instruções |
+
+## 📌 Conclusão
+
+O **Liquidificador Electrolux 600W 2,7L Efficient com TriForce** é uma escolha excelente para quem busca eficiência, praticidade e sustentabilidade na cozinha. Com sua potência de 600W, capacidade de 2,7L, tecnologia TriForce, 3 velocidades e 4 receitas predefinidas, este liquidificador atende às necessidades das famílias modernas que valorizam qualidade, agilidade e economia.
+
+A capacidade de triturar gelo até 2x mais rápido, o aproveitamento de alimentos até 8x maior, a função pulsar 3 em 1 e a economia de água de até 730 litros por ano tornam este liquidificador uma ferramenta indispensável e sustentável na cozinha. A garantia de 12 meses e a marca Electrolux atestam a qualidade e durabilidade do produto. Aproveite esta oferta com 17% de desconto e garanta já o seu Liquidificador Electrolux Efficient para revolucionar sua cozinha.
+  `,
+  marca: "Electrolux",
+  keywords: [
+    "liquidificador electrolux 600w",
+    "liquidificador 2.7l",
+    "liquidificador 3 velocidades",
+    "liquidificador electrolux efficient",
+    "liquidificador ebl700",
+    "liquidificador com tecnologia triforce",
+    "liquidificador para triturar gelo",
+    "liquidificador de cozinha",
+    "liquidificador para sucos",
+    "liquidificador para vitaminas",
+    "liquidificador para bolos",
+    "liquidificador electrolux preto",
+    "liquidificador com função pulsar",
+    "liquidificador livre de bpa",
+    "liquidificador com jarra grande",
+    "eletrodoméstico para cozinha",
+    "liquidificador com receitas predefinidas",
+    "liquidificador com peças para lava-louças",
+    "liquidificador sustentável",
+    "liquidificador electrolux 600w 27l"
+  ],
+  seoTitle: "Liquidificador Electrolux Efficient 600W 2.7L 3 Vel. Preto",
+  seoDescription: "Liquidificador Electrolux 600W com jarra 2.7L, tecnologia TriForce e 3 velocidades. Tritura gelo, livre de BPA, peças para lava-louças. 17% OFF no Pix!"
+},
+{
+  id: "p-imp-127",
+  slug: "liquidificador-philips-walita-serie-3000-turbo-1200w-3l-hr2271-preto",
+  category: "liquidificadores",
+  mainCategory: "eletrodomesticos",
+  name: "Liquidificador Philips Walita Série 3000 Turbo 1200W 3L HR2271 com 12 Velocidades - Preto",
+  imageFile: "/imagens/produtos/liquidificador-philips-walita-serie-3000-turbo-1200w-3l-hr2271-preto.webp",
+  displayImage: "/imagens/produtos/liquidificador-philips-walita-serie-3000-turbo-1200w-3l-hr2271-preto.webp",
+  alt: "Liquidificador Philips Walita Série 3000 Turbo 1200W na cor preto com jarra ProBlend de 3L e 12 velocidades",
+  rating: 4.8,
+  reviews: 1766,
+  discount: 4,
+  price: 410.00,
+  originalPrice: 430.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2nbmWFc",
+  descricao: `
+# Liquidificador Philips Walita Série 3000 Turbo 1200W 3L HR2271 com 12 Velocidades - Preto
+
+## 📌 Introdução
+
+Prepare-se para revolucionar sua cozinha com o **Liquidificador Philips Walita Série 3000 Turbo Preto**. Este liquidificador é a escolha perfeita para quem busca praticidade, eficiência e desempenho na cozinha, unindo design moderno, potência excepcional e funcionalidade avançada.
+
+Com mais de 10 mil vendas e o selo de "Mais Vendido" na categoria Liquidificadores Philips Walita, este modelo é um dos mais populares do mercado. Equipado com um motor robusto de 1200W e a exclusiva tecnologia ProBlend, o aparelho oferece resultados homogêneos mesmo em ingredientes mais duros, como gelo e frutas congeladas.
+
+A jarra de alta capacidade de 3L, as 12 velocidades com função Turbo, as 4 lâminas serrilhadas ProBlend em aço inoxidável e o design funcional tornam este liquidificador o aliado perfeito para preparar sucos, vitaminas, sopas, massas e muito mais com resultados profissionais.
+
+## 📌 Principais Benefícios
+
+**Potência de 1200W para resultados excepcionais:** O motor ProBlend de 1200W oferece potência robusta para preparar receitas rapidamente, com precisão e mínimo esforço, garantindo resultados homogêneos mesmo em ingredientes mais duros.
+
+**Tecnologia ProBlend:** A tecnologia exclusiva ProBlend garante uma consistência incrível e resultados uniformes a cada uso, seja preparando smoothies saudáveis ou molhos para massas.
+
+**Copo ProBlend de 3L:** O copo com design especial permite preparar receitas de forma rápida e fácil, com capacidade generosa de 3L para atender toda a família.
+
+**4 lâminas serrilhadas ProBlend em aço inoxidável:** Lâminas duráveis que esmagam frutas, legumes e até gelo com eficiência, transformando cubos de gelo em gelo perfeitamente picado.
+
+**12 velocidades + função Turbo:** Múltiplas velocidades permitem ajustar o processamento conforme a textura desejada, enquanto a função Turbo oferece potência extra para ingredientes mais duros.
+
+**Livre de BPA:** A jarra é livre de Bisfenol A, garantindo segurança durante o processamento de alimentos e bebidas.
+
+**Peças adequadas para lava-louças:** Facilidade na limpeza e manutenção do aparelho, agilizando a rotina.
+
+**Base antiderrapante e trava de segurança:** Maior estabilidade durante o uso e proteção contra acidentes.
+
+**Tampa dosadora incorporada:** Permite adicionar ingredientes sem interromper o funcionamento, mantendo a praticidade durante o preparo.
+
+## 📌 Design
+
+O design do Liquidificador Philips Walita Série 3000 Turbo foi pensado para unir funcionalidade, ergonomia e estética moderna.
+
+**Cor preta sofisticada:** O design moderno e elegante na cor preta combina com diferentes estilos de decoração de cozinha, agregando sofisticação ao ambiente.
+
+**Copo ProBlend com design especial:** O copo com design especial permite dar vida às receitas favoritas de forma rápida e fácil, com capacidade de 3L para preparos volumosos.
+
+**Material SAN resistente:** A jarra em material SAN é resistente, durável e livre de BPA, garantindo segurança alimentar.
+
+**Base antiderrapante:** Os pés antiderrapantes fixam o aparelho na bancada, evitando movimentações durante o funcionamento.
+
+**Trava de segurança:** Garante maior segurança durante o uso, evitando acidentes.
+
+**Tampa dosadora incorporada:** Facilita a adição de ingredientes durante o uso, mantendo a praticidade.
+
+**Design desmontável:** Peças removíveis que facilitam a limpeza e manutenção do aparelho.
+
+## 📌 Funcionalidades
+
+**Motor ProBlend de 1200W:** Motor robusto que garante preparos rápidos, precisos e com mínimo esforço.
+
+**Tecnologia ProBlend:** Tecnologia exclusiva que garante consistência incrível e resultados uniformes.
+
+**4 lâminas serrilhadas ProBlend:** Lâminas duráveis em aço inoxidável que esmagam frutas, legumes e gelo.
+
+**12 velocidades:** Múltiplas velocidades para ajustar o processamento conforme a textura desejada.
+
+**Função Turbo:** Potência extra para ingredientes mais duros, como gelo e frutas congeladas.
+
+**Capacidade de 3L:** Jarra de alta capacidade para preparar receitas em grandes quantidades.
+
+**Livre de BPA:** Segurança alimentar com jarra livre de Bisfenol A.
+
+**Peças laváveis:** Adequadas para lava-louças, facilitando a limpeza.
+
+**Tampa dosadora:** Permite adicionar ingredientes sem interromper o funcionamento.
+
+## 📌 Ideal para
+
+- **Sucos naturais e vitaminas:** Extração máxima de nutrientes
+- **Smoothies:** Preparo rápido e consistência cremosa
+- **Bolos e massas:** Massas leves e homogêneas
+- **Molhos e sopas:** Preparo cremoso e uniforme
+- **Triturar gelo:** Gelos perfeitamente picados para bebidas
+- **Frutas congeladas:** Preparo de receitas com frutas congeladas
+- **Famílias:** Capacidade de 3L para preparos em maior quantidade
+- **Cozinhas modernas:** Design elegante e funcional
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este liquidificador é altamente recomendado para:
+
+**Famílias que buscam praticidade e eficiência:** A capacidade de 3L e a potência de 1200W permitem preparar receitas para toda a família com rapidez e qualidade.
+
+**Pessoas que valorizam desempenho e tecnologia:** A tecnologia ProBlend e as 12 velocidades oferecem resultados profissionais.
+
+**Admiradores de design moderno:** A cor preta e o design elegante combinam com diferentes estilos de cozinha.
+
+**Quem busca versatilidade:** 12 velocidades, função Turbo e 4 lâminas ProBlend para diferentes tipos de preparo.
+
+**Pessoas que valorizam segurança alimentar:** Jarra livre de BPA e trava de segurança.
+
+**Quem quer facilidade na limpeza:** Peças adequadas para lava-louças.
+
+**Pessoas que gostam de preparar receitas variadas:** Sucos, vitaminas, bolos, massas, molhos, sopas e muito mais.
+
+**Quem busca qualidade e durabilidade:** Marca Philips Walita, reconhecida mundialmente.
+
+## 📌 Diferenciais
+
+O que torna o Liquidificador Philips Walita Série 3000 Turbo único no mercado?
+
+**Tecnologia ProBlend:** Tecnologia exclusiva Philips Walita que garante consistência incrível e resultados uniformes a cada uso.
+
+**4 lâminas serrilhadas ProBlend em aço inoxidável:** Lâminas duráveis que esmagam frutas, legumes e gelo com eficiência, transformando cubos de gelo em gelo perfeitamente picado.
+
+**Motor ProBlend de 1200W:** Motor robusto que garante preparos rápidos, precisos e com mínimo esforço.
+
+**Copo ProBlend de 3L:** Copo com design especial e capacidade generosa para preparar receitas para toda a família.
+
+**12 velocidades + função Turbo:** Múltiplas velocidades e potência extra para ingredientes mais duros.
+
+**Mais de 10 mil vendidos e avaliação 4.8 estrelas:** Produto testado e aprovado por milhares de consumidores.
+
+**Marca Philips Walita:** Referência mundial em eletrodomésticos, com mais de 10 mil vendas na categoria.
+
+**Peças adequadas para lava-louças:** Facilidade na limpeza e manutenção.
+
+**Garantia de 12 meses:** Segurança e confiabilidade.
+
+## 📌 Motivos para Comprar
+
+✅ **Potência de 1200W** - desempenho excepcional para receitas variadas
+
+✅ **Capacidade de 3L** - preparos para toda a família
+
+✅ **Tecnologia ProBlend** - consistência e resultados uniformes
+
+✅ **4 lâminas serrilhadas ProBlend** - esmagam frutas, legumes e gelo
+
+✅ **12 velocidades** - controle preciso do preparo
+
+✅ **Função Turbo** - potência extra para ingredientes duros
+
+✅ **Copo ProBlend com design especial** - preparos rápidos e fáceis
+
+✅ **Livre de BPA** - segurança alimentar
+
+✅ **Peças adequadas para lava-louças** - facilidade na limpeza
+
+✅ **Base antiderrapante** - estabilidade durante o uso
+
+✅ **Trava de segurança** - proteção contra acidentes
+
+✅ **Tampa dosadora incorporada** - adiciona ingredientes sem interromper
+
+✅ **Marca Philips Walita** - qualidade e inovação
+
+✅ **Mais de 10 mil vendidos** - produto testado e aprovado
+
+✅ **Avaliação 4.8 estrelas** com 1766 reviews - excelente satisfação
+
+✅ **Design moderno na cor preta** - elegância na cozinha
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos Philips Walita são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. Qual a potência do motor?**
+O motor tem 1200W de potência, ideal para uso doméstico intenso e receitas pesadas.
+
+**3. Qual a capacidade da jarra?**
+A capacidade da jarra é de 3L, permitindo preparar receitas para toda a família.
+
+**4. A jarra é de vidro ou plástico?**
+A jarra é em material SAN, um plástico resistente e durável, livre de BPA.
+
+**5. O liquidificador pode triturar gelo?**
+Sim, o motor de 1200W com lâminas ProBlend tritura gelo com eficiência, transformando cubos em gelo perfeitamente picado.
+
+**6. Quantas velocidades o liquidificador tem?**
+O liquidificador possui 12 velocidades para maior precisão e controle no preparo de diferentes receitas.
+
+**7. O que é a Tecnologia ProBlend?**
+É a tecnologia exclusiva Philips Walita que garante consistência incrível e resultados uniformes a cada uso.
+
+**8. O liquidificador tem função Turbo?**
+Sim, a função Turbo oferece potência extra para ingredientes mais duros, como gelo e frutas congeladas.
+
+**9. O produto tem garantia?**
+Sim, o produto possui garantia de 12 meses contra defeitos de fabricação.
+
+**10. Como devo fazer a limpeza do liquidificador?**
+As peças são adequadas para lava-louças, facilitando a limpeza. A jarra e as lâminas podem ser lavadas com água e detergente neutro.
+
+**11. O copo é livre de BPA?**
+Sim, a jarra é livre de Bisfenol A, garantindo segurança durante o processamento de alimentos e bebidas.
+
+**12. O produto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**13. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**14. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**15. Qual a cor do produto?**
+O liquidificador está disponível na cor preta, um tom elegante e moderno.
+
+**16. O liquidificador tem trava de segurança?**
+Sim, o liquidificador possui trava de segurança que garante maior proteção durante o uso.
+
+**17. As lâminas são de aço inoxidável?**
+Sim, as 4 lâminas são em aço inoxidável, garantindo durabilidade e cortes precisos.
+
+**18. O liquidificador é indicado para uso profissional?**
+É indicado para uso doméstico, com desempenho avançado para receitas variadas.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Philips Walita |
+| **Modelo** | HR2271 |
+| **Série** | 3000 Turbo |
+| **Cor** | Preto |
+| **Potência** | 1200W |
+| **Capacidade** | 3L |
+| **Quantidade de Velocidades** | 12 |
+| **Função Turbo** | Sim |
+| **Tecnologia** | ProBlend |
+| **Material da Jarra** | SAN (livre de BPA) |
+| **Lâminas** | 4 lâminas serrilhadas ProBlend em aço inoxidável |
+| **Tampa** | Dosadora incorporada |
+| **Base** | Antiderrapante |
+| **Trava de Segurança** | Sim |
+| **Peças Laváveis** | Adequadas para lava-louças |
+| **Proteção contra Superaquecimento** | Sim |
+| **Dimensões (AxLxP)** | 40 x 20 x 18 cm |
+| **Peso** | 2 kg |
+| **Uso Recomendado** | Doméstico |
+| **Garantia** | 12 meses |
+| **Origem** | Nacional |
+| **Itens Inclusos** | 1 Liquidificador, 1 Manual do usuário |
+
+## 📌 Conclusão
+
+O **Liquidificador Philips Walita Série 3000 Turbo 1200W** é uma escolha excepcional para quem busca potência, versatilidade e qualidade na cozinha. Com seu motor ProBlend de 1200W, tecnologia exclusiva ProBlend, capacidade de 3L, 12 velocidades com função Turbo e 4 lâminas serrilhadas em aço inoxidável, este liquidificador atende às necessidades das famílias modernas que valorizam eficiência, praticidade e resultados profissionais.
+
+O selo de "Mais Vendido" com mais de 10 mil unidades comercializadas e a excelente avaliação de 4.8 estrelas com 1766 reviews atestam a qualidade superior do produto e a satisfação dos compradores. Aproveite esta oferta e garanta já o seu Liquidificador Philips Walita Série 3000 Turbo para revolucionar sua cozinha.
+  `,
+  marca: "Philips Walita",
+  keywords: [
+    "liquidificador philips walita",
+    "liquidificador série 3000 turbo",
+    "liquidificador 1200w",
+    "liquidificador 3l",
+    "liquidificador 12 velocidades",
+    "liquidificador hr2271",
+    "liquidificador com tecnologia problend",
+    "liquidificador para triturar gelo",
+    "liquidificador philips walita preto",
+    "liquidificador para sucos",
+    "liquidificador para vitaminas",
+    "liquidificador para bolos",
+    "liquidificador para massas",
+    "liquidificador com função turbo",
+    "liquidificador livre de bpa",
+    "liquidificador com peças para lava-louças",
+    "eletrodoméstico para cozinha",
+    "liquidificador com 4 lâminas",
+    "liquidificador de alta potência",
+    "liquidificador philips walita 3000"
+  ],
+  seoTitle: "Liquidificador Philips Walita Série 3000 Turbo 1200W 3L | Preto",
+  seoDescription: "Liquidificador Philips Walita 1200W com jarra 3L, tecnologia ProBlend e 12 velocidades. 4 lâminas serrilhadas, livre de BPA. 4.8★ (1766 reviews). +10 mil vendidos!"
+},
+{
+  id: "p-imp-128",
+  slug: "liquidificador-philips-walita-serie-5000-ri2242-1200w-3l-preto",
+  category: "liquidificadores",
+  mainCategory: "eletrodomesticos",
+  name: "Liquidificador Philips Walita Série 5000 RI2242 1200W 3L com Jarra Inquebrável Tritan - Preto",
+  imageFile: "/imagens/produtos/liquidificador-philips-walita-serie-5000-ri2242-1200w-3l-preto.webp",
+  displayImage: "/imagens/produtos/liquidificador-philips-walita-serie-5000-ri2242-1200w-3l-preto.webp",
+  alt: "Liquidificador Philips Walita Série 5000 RI2242 1200W na cor preta com jarra inquebrável Tritan de 3L e 12 velocidades",
+  rating: 4.8,
+  reviews: 15103,
+  discount: 34,
+  price: 274.13,
+  originalPrice: 419.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1eaUnmG",
+  descricao: `
+# Liquidificador Philips Walita Série 5000 RI2242 1200W 3L com Jarra Inquebrável Tritan - Preto
+
+## 📌 Introdução
+
+Misturas perfeitas com potência e durabilidade. O **Liquidificador Série 5000 Philips Walita RI2242** é a escolha definitiva para quem busca um liquidificador robusto, eficiente e confiável para o dia a dia. Com mais de 10 mil vendas e o selo de "Mais Vendido" na categoria Liquidificadores Philips Walita, este modelo entrega desempenho, confiabilidade e facilidade de uso com sua jarra inquebrável.
+
+Equipado com motor de 1200W, jarra Tritan de 3L (capacidade útil de 2L), 12 velocidades + função Pulsar e 6 lâminas ProBlend serrilhadas em aço inoxidável, este liquidificador foi projetado para triturar ingredientes com força e consistência, garantindo resultados profissionais em todas as receitas.
+
+A tecnologia exclusiva Philips Walita, o design de jarra em formato diamante que promove melhor fluxo e homogeneização, e a trava de segurança que só funciona se o copo estiver perfeitamente travado, tornam este liquidificador uma escolha premium para sua cozinha.
+
+## 📌 Principais Benefícios
+
+**Potência de 1200W para todas as receitas:** Motor robusto com potência real em uso, capaz de triturar ingredientes com força e consistência, garantindo resultados perfeitos em sucos, vitaminas, bolos, massas, molhos e sopas.
+
+**Jarra inquebrável Tritan de 3L:** Material de alta resistência, inquebrável, sem manchas e com design em formato diamante que promove melhor fluxo e homogeneização dos ingredientes.
+
+**6 lâminas ProBlend serrilhadas em aço inoxidável:** Lâminas removíveis e serrilhadas que garantem cortes precisos e eficientes, com durabilidade excepcional.
+
+**12 velocidades + função Pulsar:** Controle fino para ajustar a trituração conforme a consistência desejada, com função pulsar para receitas pesadas e ingredientes duros.
+
+**Trava de segurança:** O liquidificador só funcionará se estiver perfeitamente travado, proporcionando mais segurança e longevidade ao equipamento.
+
+**Livre de BPA:** A jarra é livre de Bisfenol A, garantindo segurança durante o processamento de alimentos e bebidas.
+
+**Capacidade útil de 2L:** A capacidade útil de 2L permite preparar receitas em quantidade para a família, enquanto a capacidade total de 3L oferece espaço para volume durante o preparo.
+
+**Lâmina removível:** Facilita a limpeza e manutenção do aparelho, garantindo mais praticidade no dia a dia.
+
+**Design de jarra em formato diamante:** Promove melhor fluxo e homogeneização, garantindo resultados mais consistentes.
+
+## 📌 Design
+
+O design do Liquidificador Philips Walita Série 5000 foi pensado para unir funcionalidade, durabilidade e estética moderna.
+
+**Cor preta sofisticada:** O design moderno e elegante na cor preta combina com diferentes estilos de decoração de cozinha, agregando sofisticação ao ambiente.
+
+**Jarra Tritan inquebrável:** Material de alta resistência, inquebrável, sem manchas e com design em formato diamante que promove melhor fluxo e homogeneização.
+
+**Design de jarra em formato diamante:** O formato diferenciado promove melhor fluxo e homogeneização dos ingredientes, garantindo resultados mais consistentes.
+
+**Tampa dosadora incorporada:** Facilita a adição de ingredientes durante o uso, mantendo a praticidade sem interromper o funcionamento.
+
+**Lâminas ProBlend serrilhadas:** 6 lâminas em aço inoxidável, removíveis e serrilhadas, que garantem cortes precisos e eficientes.
+
+**Trava de segurança:** Sistema que só permite o funcionamento se o copo estiver perfeitamente travado, garantindo segurança e longevidade.
+
+**Proteção contra sobrecarga elétrica:** Sistema de proteção que aumenta a durabilidade do equipamento.
+
+## 📌 Funcionalidades
+
+**Motor de 1200W:** Potência real em uso, com desempenho comprovado conforme a norma IEC 60335-2-14, garantindo transparência e confiança.
+
+**12 velocidades + função Pulsar:** Controle fino para ajustar a trituração conforme a consistência desejada, com função pulsar para receitas pesadas.
+
+**6 lâminas ProBlend serrilhadas em aço inoxidável:** Lâminas removíveis e serrilhadas que garantem cortes precisos e eficientes.
+
+**Jarra inquebrável Tritan de 3L (útil 2L):** Material resistente, sem manchas, com formato diamante que promove melhor fluxo e homogeneização.
+
+**Trava de segurança:** Só funcionará se estiver perfeitamente travado, proporcionando mais segurança.
+
+**Lâmina removível:** Facilita a limpeza e manutenção.
+
+**Picador de gelo:** Função específica para triturar gelo com eficiência.
+
+**Livre de BPA:** Segurança alimentar.
+
+**Design de jarra em formato diamante:** Promove melhor fluxo e homogeneização.
+
+## 📌 Ideal para
+
+- **Sucos naturais e vitaminas:** Extração máxima de nutrientes
+- **Smoothies:** Preparo rápido e consistência cremosa
+- **Bolos e massas:** Massas leves e homogêneas
+- **Molhos e sopas:** Preparo cremoso e uniforme
+- **Triturar gelo:** Gelo perfeitamente picado para bebidas
+- **Frutas congeladas:** Preparo de receitas com frutas congeladas
+- **Famílias:** Capacidade de 3L para preparos em maior quantidade
+- **Cozinhas modernas:** Design elegante e funcional
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este liquidificador é altamente recomendado para:
+
+**Famílias que buscam praticidade e eficiência:** A capacidade de 3L, motor de 1200W e jarra inquebrável Tritan garantem durabilidade e desempenho excepcionais.
+
+**Pessoas que valorizam desempenho e tecnologia:** A tecnologia ProBlend, 12 velocidades e função Pulsar oferecem resultados profissionais.
+
+**Admiradores de design moderno:** A cor preta e o design elegante combinam com diferentes estilos de cozinha.
+
+**Quem busca versatilidade:** 12 velocidades, função Pulsar e 6 lâminas ProBlend para diferentes tipos de preparo.
+
+**Pessoas que valorizam segurança:** Trava de segurança e proteção contra sobrecarga elétrica.
+
+**Quem quer facilidade na limpeza:** Lâminas removíveis e jarra de fácil limpeza.
+
+**Pessoas que valorizam durabilidade:** Jarra Tritan inquebrável e lâminas em aço inoxidável.
+
+**Quem busca qualidade e confiança:** Marca Philips Walita, com mais de 10 mil vendas e 4.8 estrelas.
+
+## 📌 Diferenciais
+
+O que torna o Liquidificador Philips Walita Série 5000 único no mercado?
+
+**Jarra inquebrável Tritan:** Material de alta resistência, inquebrável, sem manchas e com design em formato diamante, oferecendo durabilidade superior.
+
+**6 lâminas ProBlend serrilhadas em aço inoxidável:** Lâminas removíveis e serrilhadas que garantem cortes precisos e eficientes, com durabilidade excepcional.
+
+**Motor de 1200W com potência real:** Potência real em uso, com desempenho comprovado conforme a norma IEC 60335-2-14, garantindo transparência e confiança.
+
+**Design de jarra em formato diamante:** Promove melhor fluxo e homogeneização, garantindo resultados mais consistentes.
+
+**Trava de segurança:** Só funcionará se estiver perfeitamente travado, proporcionando mais segurança e longevidade.
+
+**Mais de 10 mil vendidos e avaliação 4.8 estrelas com 15103 reviews:** Produto testado e aprovado por milhares de consumidores.
+
+**Marca Philips Walita:** Referência mundial em eletrodomésticos.
+
+**Lâmina removível:** Facilita a limpeza e manutenção.
+
+**Proteção contra sobrecarga elétrica:** Maior durabilidade do equipamento.
+
+## 📌 Motivos para Comprar
+
+✅ **Motor de 1200W** - potência real para todas as receitas
+
+✅ **Jarra Tritan inquebrável de 3L** - durabilidade e resistência
+
+✅ **6 lâminas ProBlend serrilhadas** - cortes precisos e eficientes
+
+✅ **12 velocidades** - controle fino do preparo
+
+✅ **Função Pulsar** - para receitas pesadas e ingredientes duros
+
+✅ **Design de jarra em formato diamante** - melhor fluxo e homogeneização
+
+✅ **Lâmina removível** - facilidade na limpeza
+
+✅ **Trava de segurança** - proteção e longevidade
+
+✅ **Livre de BPA** - segurança alimentar
+
+✅ **Proteção contra sobrecarga elétrica** - maior durabilidade
+
+✅ **Tampa dosadora incorporada** - adiciona ingredientes sem interromper
+
+✅ **Marca Philips Walita** - qualidade e inovação
+
+✅ **Mais de 10 mil vendidos** - produto testado e aprovado
+
+✅ **Avaliação 4.8 estrelas** com 15103 reviews - excelente satisfação
+
+✅ **34% de desconto** - excelente custo-benefício
+
+✅ **Picador de gelo** - funcionalidade extra
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos Philips Walita são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. Qual a potência do motor?**
+O motor tem 1200W de potência real em uso, com desempenho comprovado conforme a norma IEC 60335-2-14.
+
+**3. Qual a capacidade da jarra?**
+A capacidade total é de 3L e a capacidade útil é de 2L.
+
+**4. O que é a jarra Tritan?**
+Tritan é um material de alta resistência, inquebrável, sem manchas e livre de BPA, oferecendo durabilidade superior.
+
+**5. A jarra é inquebrável?**
+Sim, a jarra Tritan é inquebrável, resistente e sem manchas.
+
+**6. O liquidificador pode triturar gelo?**
+Sim, o motor de 1200W com lâminas ProBlend tritura gelo com eficiência.
+
+**7. Quantas velocidades o liquidificador tem?**
+O liquidificador possui 12 velocidades para maior precisão e controle.
+
+**8. O que é a função Pulsar?**
+É uma função que permite pulsos rápidos para receitas pesadas e ingredientes mais duros.
+
+**9. O que são as lâminas ProBlend?**
+São 6 lâminas em aço inoxidável, removíveis e serrilhadas, que garantem cortes precisos e eficientes.
+
+**10. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Philips Walita.
+
+**11. O copo é livre de BPA?**
+Sim, a jarra Tritan é livre de Bisfenol A, garantindo segurança alimentar.
+
+**12. As lâminas são removíveis?**
+Sim, as lâminas são removíveis, facilitando a limpeza e manutenção.
+
+**13. O produto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**14. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**15. Qual a cor do produto?**
+O liquidificador está disponível na cor preta, um tom elegante e moderno.
+
+**16. O liquidificador tem trava de segurança?**
+Sim, o liquidificador possui trava de segurança que só funciona se o copo estiver perfeitamente travado.
+
+**17. O produto tem proteção contra sobrecarga elétrica?**
+Sim, o sistema de proteção contra sobrecarga elétrica aumenta a durabilidade do equipamento.
+
+**18. Qual a capacidade útil do copo?**
+A capacidade útil é de 2L, permitindo preparar receitas em quantidade para a família.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Philips Walita |
+| **Modelo** | RI2242 |
+| **Série** | 5000 |
+| **Cor** | Preto |
+| **Potência** | 1200W (real em uso) |
+| **Capacidade Total** | 3L |
+| **Capacidade Útil** | 2L |
+| **Quantidade de Velocidades** | 12 |
+| **Função Pulsar** | Sim |
+| **Material da Jarra** | Tritan (inquebrável, livre de BPA) |
+| **Lâminas** | 6 lâminas ProBlend serrilhadas em aço inoxidável |
+| **Lâmina Removível** | Sim |
+| **Design da Jarra** | Formato diamante |
+| **Tampa** | Dosadora incorporada |
+| **Trava de Segurança** | Sim |
+| **Proteção contra Sobrecarga** | Sim |
+| **Uso Recomendado** | Doméstico |
+| **Garantia** | Conforme política da marca |
+| **Origem** | Nacional |
+| **Itens Inclusos** | 1 Liquidificador, 1 Jarra, 1 Tampa, 1 Manual |
+
+## 📌 Conclusão
+
+O **Liquidificador Philips Walita Série 5000 RI2242** é uma escolha excepcional para quem busca potência, durabilidade e versatilidade na cozinha. Com seu motor de 1200W, jarra inquebrável Tritan de 3L, 12 velocidades com função Pulsar e 6 lâminas ProBlend serrilhadas em aço inoxidável, este liquidificador atende às necessidades das famílias modernas que valorizam qualidade, eficiência e resultados consistentes.
+
+O selo de "Mais Vendido" com mais de 10 mil unidades comercializadas e a excelente avaliação de 4.8 estrelas com 15103 reviews atestam a qualidade superior do produto e a satisfação dos compradores. Aproveite esta oferta com 34% de desconto e garanta já o seu Liquidificador Philips Walita Série 5000 para revolucionar sua cozinha.
+  `,
+  marca: "Philips Walita",
+  keywords: [
+    "liquidificador philips walita",
+    "liquidificador série 5000",
+    "liquidificador ri2242",
+    "liquidificador 1200w",
+    "liquidificador 3l",
+    "liquidificador 12 velocidades",
+    "liquidificador com jarra tritan",
+    "liquidificador inquebrável",
+    "liquidificador philips walita preto",
+    "liquidificador para sucos",
+    "liquidificador para vitaminas",
+    "liquidificador para bolos",
+    "liquidificador com função pulsar",
+    "liquidificador livre de bpa",
+    "liquidificador com 6 lâminas",
+    "liquidificador com lâmina removível",
+    "eletrodoméstico para cozinha",
+    "liquidificador de alta potência",
+    "liquidificador philips walita 5000",
+    "liquidificador com jarra inquebrável"
+  ],
+  seoTitle: "Liquidificador Philips Walita Série 5000 1200W 3L RI2242 | Preto",
+  seoDescription: "Liquidificador Philips Walita 1200W com jarra Tritan inquebrável 3L, 12 velocidades e 6 lâminas ProBlend. Livre de BPA, trava segurança. 4.8★ (15.103 reviews). 34% OFF!"
+},
+{
+  id: "p-imp-130",
+  slug: "micro-ondas-electrolux-36l-inox-efficient-me36s-descongelamento-assistido",
+  category: "microondas",
+  mainCategory: "eletrodomesticos",
+  name: "Micro-ondas Electrolux 36L Inox Efficient com Descongelamento Assistido ME36S - Prata/Preto",
+  imageFile: "/imagens/produtos/micro-ondas-electrolux-36l-inox-efficient-me36s-prata-preto.webp",
+  displayImage: "/imagens/produtos/micro-ondas-electrolux-36l-inox-efficient-me36s-prata-preto.webp",
+  alt: "Micro-ondas Electrolux 36L na cor inox prata e preto com display digital e descongelamento assistido modelo ME36S",
+  rating: 4.8,
+  reviews: 23712,
+  discount: 28,
+  price: 711.55,
+  originalPrice: 999.90,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1V7cWXj",
+  descricao: `
+# Micro-ondas Electrolux 36L Inox Efficient com Descongelamento Assistido ME36S
+
+## 📌 Introdução
+
+Prepare refeições deliciosas com rapidez e praticidade com o **Micro-ondas Electrolux 36L Inox Efficient ME36S**. Este eletrodoméstico foi desenvolvido para quem busca um micro-ondas espaçoso, potente e cheio de tecnologia, que facilita o dia a dia na cozinha com resultados profissionais.
+
+A Electrolux, referência mundial em eletrodomésticos, apresenta este modelo com capacidade de 36L, ideal para famílias que precisam preparar refeições em maior quantidade. Com potência de 1.6kW, display digital, 6 programas de cozimento, descongelamento assistido e design em inox, este micro-ondas une funcionalidade e elegância para transformar sua experiência na cozinha.
+
+Com mais de 10 mil vendidos e o selo de "Mais Vendido" na categoria Micro-ondas, este modelo é um dos mais populares do mercado, oferecendo a qualidade e durabilidade que só a Electrolux pode proporcionar.
+
+## 📌 Principais Benefícios
+
+**Capacidade de 36L para a família toda:** Espaço generoso que permite preparar refeições em maior quantidade, cabendo travessas e pratos grandes para atender toda a família.
+
+**Potência de 1.6kW:** Potência eficiente que garante aquecimento rápido e uniforme, economizando tempo no preparo das refeições.
+
+**Descongelamento Assistido:** Tecnologia exclusiva que combina descongelamento automático por peso e modo rápido por tempo, garantindo resultados perfeitos sem cozinhar as bordas.
+
+**6 programas de cozimento:** Encontre a função indicada para cada tipo de comida, facilitando o preparo de diversas receitas com apenas um toque.
+
+**Display digital:** Visualização clara e intuitiva do tempo, potência e programas selecionados, facilitando o controle do preparo.
+
+**Design em inox:** Acabamento sofisticado em inox prata e preto que combina com diferentes estilos de decoração de cozinha, agregando elegância ao ambiente.
+
+**Luz no interior:** Permite visualizar o preparo sem abrir a porta, mantendo o calor e a eficiência do aquecimento.
+
+**Bloqueio de segurança:** Sistema de proteção que evita o uso acidental, especialmente importante em lares com crianças.
+
+**Dimensões compactas:** Com 52cm de largura, 32,5cm de altura e 41,9cm de profundidade, cabe perfeitamente em diferentes espaços da cozinha.
+
+## 📌 Design
+
+O design do Micro-ondas Electrolux 36L Efficient foi pensado para unir funcionalidade, elegância e praticidade.
+
+**Acabamento em inox:** O design sofisticado em inox prata e preto confere um visual moderno e elegante, combinando com diferentes estilos de decoração de cozinha.
+
+**Display digital:** Painel intuitivo com display digital que mostra o tempo, potência e programas selecionados, facilitando o uso.
+
+**Porta com visor:** Permite visualizar o interior durante o funcionamento sem abrir a porta, mantendo a eficiência.
+
+**Puxador integrado:** Design ergonômico que facilita a abertura e fechamento da porta.
+
+**Interior em aço inoxidável:** Facilita a limpeza e mantém a higiene, além de ser mais durável.
+
+**Painel de controle intuitivo:** Botões e teclas organizados de forma lógica, facilitando a programação.
+
+**Iluminação interna:** Luz no interior que permite visualizar o preparo sem abrir a porta.
+
+## 📌 Funcionalidades
+
+**Descongelamento Assistido:** Combina descongelamento automático por peso e modo rápido por tempo, garantindo resultados perfeitos.
+
+**6 programas de cozimento:** Funções pré-programadas para diferentes tipos de alimentos.
+
+**Potência de 1.6kW:** Aquecimento rápido e eficiente.
+
+**Display digital:** Controle intuitivo e visualização clara.
+
+**Bloqueio de segurança:** Proteção contra uso acidental.
+
+**Luz no interior:** Visualização do preparo sem abrir a porta.
+
+**Relógio digital:** Facilita o controle do tempo.
+
+**Programação de 24 horas:** Permite programar o início do cozimento.
+
+**Desligamento automático:** Segurança e economia de energia.
+
+## 📌 Ideal para
+
+- **Famílias grandes:** Capacidade de 36L para refeições em maior quantidade
+- **Preparo rápido:** Aquecimento de alimentos com agilidade
+- **Descongelamento:** Descongelamento assistido por peso e tempo
+- **Cozinhas modernas:** Design em inox elegante
+- **Receitas variadas:** 6 programas de cozimento para diferentes tipos de comida
+- **Quem busca praticidade:** Painel intuitivo e funções automáticas
+- **Quem valoriza segurança:** Bloqueio de segurança
+- **Cozinhas compactas:** Dimensões ideais para diferentes espaços
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este micro-ondas é altamente recomendado para:
+
+**Famílias que buscam praticidade e eficiência:** A capacidade de 36L e a potência de 1.6kW permitem preparar refeições para toda a família com rapidez e qualidade.
+
+**Pessoas que valorizam tecnologia e funcionalidade:** O descongelamento assistido e os 6 programas facilitam o dia a dia.
+
+**Admiradores de design moderno:** O acabamento em inox prata e preto combina com diferentes estilos de cozinha.
+
+**Quem busca segurança:** Bloqueio de segurança para proteção da família.
+
+**Pessoas que cozinham em maior quantidade:** A capacidade de 36L permite preparar travessas e pratos maiores.
+
+**Quem quer praticidade no dia a dia:** Painel intuitivo e funções automáticas.
+
+**Pessoas que valorizam qualidade e durabilidade:** Marca Electrolux, referência mundial.
+
+**Quem busca excelente custo-benefício:** Com mais de 10 mil vendidos e 4.8 estrelas, este modelo é um dos mais populares do mercado.
+
+## 📌 Diferenciais
+
+O que torna o Micro-ondas Electrolux 36L Efficient único no mercado?
+
+**Descongelamento Assistido:** Tecnologia exclusiva Electrolux que combina descongelamento automático por peso e modo rápido por tempo, garantindo resultados perfeitos sem cozinhar as bordas.
+
+**Capacidade de 36L:** Uma das maiores capacidades do mercado para uso doméstico, ideal para famílias que precisam preparar refeições em maior quantidade.
+
+**Potência de 1.6kW:** Potência eficiente que garante aquecimento rápido e uniforme.
+
+**6 programas de cozimento:** Versatilidade para diferentes tipos de alimentos com funções pré-programadas.
+
+**Design em inox:** Acabamento sofisticado que valoriza a decoração da cozinha.
+
+**Mais de 10 mil vendidos e avaliação 4.8 estrelas com 23712 reviews:** Produto testado e aprovado por milhares de consumidores.
+
+**Marca Electrolux:** Reconhecida mundialmente pela qualidade, inovação e durabilidade.
+
+**Luz no interior:** Permite visualizar o preparo sem abrir a porta.
+
+**Bloqueio de segurança:** Proteção da família contra uso acidental.
+
+## 📌 Motivos para Comprar
+
+✅ **Capacidade de 36L** - espaço para refeições da família toda
+
+✅ **Potência de 1.6kW** - aquecimento rápido e eficiente
+
+✅ **Descongelamento Assistido** - por peso e por tempo
+
+✅ **6 programas de cozimento** - versatilidade para diferentes receitas
+
+✅ **Display digital** - controle intuitivo
+
+✅ **Design em inox** - elegância e sofisticação
+
+✅ **Luz no interior** - visualização sem abrir a porta
+
+✅ **Bloqueio de segurança** - proteção para a família
+
+✅ **Marca Electrolux** - qualidade e inovação
+
+✅ **Mais de 10 mil vendidos** - produto testado e aprovado
+
+✅ **Avaliação 4.8 estrelas** com 23712 reviews - excelente satisfação
+
+✅ **28% de desconto** - excelente custo-benefício
+
+✅ **Interior em aço inoxidável** - facilidade na limpeza
+
+✅ **Relógio digital** - controle do tempo
+
+✅ **Desligamento automático** - segurança e economia
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos Electrolux são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. Qual a capacidade do micro-ondas?**
+A capacidade é de 36L, ideal para famílias que precisam preparar refeições em maior quantidade.
+
+**3. Qual a potência do micro-ondas?**
+A potência é de 1.6kW, garantindo aquecimento rápido e eficiente.
+
+**4. O micro-ondas tem descongelamento?**
+Sim, possui Descongelamento Assistido que combina descongelamento automático por peso e modo rápido por tempo.
+
+**5. Quantos programas de cozimento o micro-ondas tem?**
+O micro-ondas possui 6 programas de cozimento para diferentes tipos de alimentos.
+
+**6. O micro-ondas tem bloqueio de segurança?**
+Sim, possui bloqueio de segurança que evita o uso acidental, especialmente importante em lares com crianças.
+
+**7. O micro-ondas tem luz no interior?**
+Sim, a luz no interior permite visualizar o preparo sem abrir a porta.
+
+**8. O micro-ondas tem display digital?**
+Sim, possui display digital que mostra o tempo, potência e programas selecionados.
+
+**9. Qual o tamanho do micro-ondas?**
+As dimensões são 52cm de largura, 32,5cm de altura e 41,9cm de profundidade.
+
+**10. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Electrolux.
+
+**11. O micro-ondas é fácil de limpar?**
+Sim, o interior em aço inoxidável facilita a limpeza e mantém a higiene.
+
+**12. O produto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**13. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**14. Qual a cor do produto?**
+O micro-ondas está disponível nas cores prata e preto (acabamento em inox).
+
+**15. O micro-ondas tem relógio digital?**
+Sim, possui relógio digital para controle do tempo.
+
+**16. O micro-ondas desliga automaticamente?**
+Sim, possui desligamento automático para segurança e economia de energia.
+
+**17. O micro-ondas é indicado para uso doméstico?**
+Sim, é indicado para uso doméstico, com capacidade e potência ideais para o dia a dia.
+
+**18. Qual a voltagem disponível?**
+O micro-ondas está disponível nas voltagens 127V e 220V.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Electrolux |
+| **Modelo** | ME36S |
+| **Linha** | Efficient |
+| **Cor** | Prata/Preto (Inox) |
+| **Capacidade** | 36L |
+| **Potência** | 1.6 kW |
+| **Display** | Digital |
+| **Programas de Cozimento** | 6 |
+| **Descongelamento** | Assistido (por peso e por tempo) |
+| **Bloqueio de Segurança** | Sim |
+| **Luz no Interior** | Sim |
+| **Interior** | Aço Inoxidável |
+| **Relógio Digital** | Sim |
+| **Desligamento Automático** | Sim |
+| **Largura** | 52 cm |
+| **Altura** | 32,5 cm |
+| **Profundidade** | 41,9 cm |
+| **Uso Recomendado** | Doméstico |
+| **Garantia** | Conforme política da marca |
+| **Origem** | Nacional |
+| **Itens Inclusos** | 1 Micro-ondas, 1 Manual de Instruções |
+
+## 📌 Conclusão
+
+O **Micro-ondas Electrolux 36L Inox Efficient ME36S** é uma escolha excepcional para quem busca um eletrodoméstico espaçoso, potente e cheio de tecnologia para o dia a dia. Com sua capacidade de 36L, potência de 1.6kW, descongelamento assistido, 6 programas de cozimento e design em inox, este micro-ondas atende às necessidades das famílias modernas que valorizam praticidade, eficiência e qualidade.
+
+O selo de "Mais Vendido" com mais de 10 mil unidades comercializadas e a excelente avaliação de 4.8 estrelas com 23712 reviews atestam a qualidade superior do produto e a satisfação dos compradores. Aproveite esta oferta com 28% de desconto e garanta já o seu Micro-ondas Electrolux para transformar sua experiência na cozinha.
+  `,
+  marca: "Electrolux",
+  keywords: [
+    "micro-ondas electrolux 36l",
+    "micro-ondas inox",
+    "micro-ondas efficient me36s",
+    "micro-ondas com descongelamento",
+    "micro-ondas 36 litros",
+    "micro-ondas electrolux prata preto",
+    "micro-ondas com display digital",
+    "micro-ondas para família",
+    "micro-ondas com bloqueio de segurança",
+    "micro-ondas com 6 programas",
+    "eletrodoméstico para cozinha",
+    "micro-ondas potente",
+    "micro-ondas com luz interna",
+    "micro-ondas electrolux inox",
+    "micro-ondas de 36l",
+    "micro-ondas com descongelamento automático",
+    "micro-ondas 1.6kw",
+    "micro-ondas com relógio",
+    "micro-ondas elegante",
+    "micro-ondas electrolux me36s"
+  ],
+  seoTitle: "Micro-ondas Electrolux 36L Inox ME36S com Descongelamento Assistido",
+  seoDescription: "Micro-ondas Electrolux 36L com descongelamento assistido, 6 programas e display digital. Design inox, bloqueio segurança. 4.8★ (23.712 reviews). 28% OFF no Pix!"
+},
+
+{
+  id: "p-imp-131",
+  slug: "micro-ondas-electrolux-36l-inox-espelhado-efficient-me36s",
+  category: "microondas",
+  mainCategory: "eletrodomesticos",
+  name: "Micro-ondas Electrolux 36L Inox Espelhado Efficient ME36S com Descongelamento Assistido - Prata/Preto",
+  imageFile: "/imagens/produtos/micro-ondas-electrolux-36l-inox-espelhado-efficient-me36s-prata-preto.webp",
+  displayImage: "/imagens/produtos/micro-ondas-electrolux-36l-inox-espelhado-efficient-me36s-prata-preto.webp",
+  alt: "Micro-ondas Electrolux 36L na cor inox espelhado prata e preto com display digital e descongelamento assistido modelo ME36S",
+  rating: 5.0,
+  reviews: 89,
+  discount: 10,
+  price: 821.31,
+  originalPrice: 919.90,
+  badge: "",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/111kTD4H6u",
+  descricao: `
+# Micro-ondas Electrolux 36L Inox Espelhado Efficient ME36S com Descongelamento Assistido
+
+## 📌 Introdução
+
+O **Micro-ondas Electrolux 36L Inox Espelhado Efficient ME36S** é o eletrodoméstico perfeito para quem busca praticidade, tecnologia e design sofisticado na cozinha. Desenvolvido para facilitar sua rotina, este micro-ondas combina capacidade generosa, funções inteligentes e acabamento premium em inox espelhado.
+
+Com a exclusiva tecnologia de Descongelamento Assistido da Electrolux, você alcança resultados mais uniformes ao descongelar ingredientes, com avisos no painel no momento certo de virar ou mexer os alimentos. A função Manter Aquecido conserva suas receitas recém-preparadas quentes e deliciosas até o consumo, enquanto a função Tira Odor mantém seu produto livre de odores de preparos anteriores.
+
+Este modelo conta com capacidade de 36L, potência de 1600W, painel inteligente, 5 modos de preparo, 6 receitas pré-programadas e diversas funções que tornam o dia a dia na cozinha muito mais prático e eficiente.
+
+## 📌 Principais Benefícios
+
+**Capacidade de 36L para toda a família:** Espaço generoso que permite preparar refeições em maior quantidade, cabendo travessas e pratos grandes para atender toda a família, com prato giratório de 31,5cm de diâmetro.
+
+**Descongelamento Assistido da Electrolux:** Tecnologia exclusiva que avisa no painel o momento certo de virar ou mexer os alimentos, garantindo resultados mais uniformes e sem cozinhar as bordas.
+
+**Função Manter Aquecido:** Conserva suas receitas recém-preparadas quentes e deliciosas até o momento do consumo, ideal para quando a família chega em horários diferentes.
+
+**Função Tira Odor:** Sistema de recirculação do ar interno que mantém seu produto livre de possíveis odores de preparos anteriores, garantindo sempre um micro-ondas com cheiro neutro.
+
+**Painel inteligente com 5 modos de preparo:** Fermentar, derreter, desidratar, cozinhar rápido e cozinhar delicado - funções que ampliam as possibilidades culinárias.
+
+**6 receitas pré-programadas:** Batata chips, bolo de caneca, lasanha, arroz, brigadeiro e pipoca - receitas favoritas com apenas um toque.
+
+**Potência de 1600W:** Aquecimento rápido e eficiente, economizando tempo no preparo das refeições.
+
+**Design em inox espelhado:** Acabamento sofisticado em inox prata e preto que combina com diferentes estilos de decoração de cozinha.
+
+**Trava de segurança:** Sistema de proteção que evita o uso acidental, especialmente importante em lares com crianças.
+
+**Eco mode e configurações de som:** Função de economia de energia e opção de mudo ou som para personalizar o uso.
+
+## 📌 Design
+
+O design do Micro-ondas Electrolux 36L Efficient foi pensado para unir funcionalidade, elegância e praticidade.
+
+**Acabamento em inox espelhado:** O design sofisticado em inox prata e preto confere um visual moderno e elegante, com acabamento espelhado que reflete a luz e valoriza a decoração da cozinha.
+
+**Painel inteligente:** Interface intuitiva com display digital que mostra o tempo, potência e programas selecionados, facilitando o uso.
+
+**Porta com visor:** Permite visualizar o interior durante o funcionamento sem abrir a porta, mantendo a eficiência.
+
+**Puxador integrado:** Design ergonômico que facilita a abertura e fechamento da porta.
+
+**Interior em aço inoxidável:** Facilita a limpeza e mantém a higiene, além de ser mais durável.
+
+**Prato giratório de 31,5cm:** Tamanho amplo que comporta diferentes tipos de recipientes.
+
+**Iluminação interna:** Luz no interior que permite visualizar o preparo sem abrir a porta.
+
+## 📌 Funcionalidades
+
+**Descongelamento Assistido:** Tecnologia exclusiva Electrolux que avisa o momento certo de virar ou mexer os alimentos.
+
+**Manter Aquecido:** Conserva os alimentos quentes até o consumo.
+
+**Tira Odor:** Sistema de recirculação do ar interno que elimina odores.
+
+**5 modos de preparo:** Fermentar, derreter, desidratar, cozinhar rápido e cozinhar delicado.
+
+**6 receitas pré-programadas:** Batata chips, bolo de caneca, lasanha, arroz, brigadeiro e pipoca.
+
+**Painel inteligente:** Ajustes automáticos de potência e funções intuitivas.
+
+**Trava de segurança:** Proteção contra uso acidental.
+
+**Eco mode:** Função de economia de energia.
+
+**Configurações de som:** Opção mudo ou som.
+
+**Relógio digital:** Controle do tempo.
+
+**Função Limpa-fácil:** Facilita a limpeza do interior.
+
+## 📌 Ideal para
+
+- **Famílias grandes:** Capacidade de 36L para refeições em maior quantidade
+- **Preparo rápido:** Aquecimento de alimentos com agilidade
+- **Descongelamento:** Descongelamento assistido com avisos no painel
+- **Cozinhas modernas:** Design em inox espelhado elegante
+- **Receitas variadas:** 6 programas para diferentes tipos de comida
+- **Quem busca praticidade:** Painel inteligente e funções automáticas
+- **Quem valoriza segurança:** Trava de segurança
+- **Quem quer praticidade na limpeza:** Função Limpa-fácil
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este micro-ondas é altamente recomendado para:
+
+**Famílias que buscam praticidade e eficiência:** A capacidade de 36L, potência de 1600W e funções inteligentes permitem preparar refeições para toda a família com rapidez e qualidade.
+
+**Pessoas que valorizam tecnologia e funcionalidade:** O Descongelamento Assistido, 5 modos de preparo e 6 receitas pré-programadas facilitam o dia a dia.
+
+**Admiradores de design moderno e sofisticado:** O acabamento em inox espelhado prata e preto combina com diferentes estilos de cozinha.
+
+**Quem busca segurança:** Trava de segurança e funções de proteção.
+
+**Pessoas que cozinham em maior quantidade:** A capacidade de 36L permite preparar travessas e pratos maiores.
+
+**Quem quer praticidade no dia a dia:** Função Manter Aquecido, Tira Odor e Limpa-fácil.
+
+**Pessoas que valorizam qualidade e durabilidade:** Marca Electrolux, reconhecida mundialmente.
+
+**Quem busca um micro-ondas versátil:** 5 modos de preparo e 6 receitas pré-programadas.
+
+## 📌 Diferenciais
+
+O que torna o Micro-ondas Electrolux 36L Inox Espelhado Efficient único no mercado?
+
+**Descongelamento Assistido da Electrolux:** Tecnologia exclusiva que avisa no painel o momento certo de virar ou mexer os alimentos, garantindo resultados mais uniformes.
+
+**Função Tira Odor:** Sistema de recirculação do ar interno que mantém o produto livre de odores de preparos anteriores, um diferencial raro no mercado.
+
+**5 modos de preparo:** Fermentar, derreter, desidratar, cozinhar rápido e cozinhar delicado - funções que ampliam as possibilidades culinárias além do básico.
+
+**6 receitas pré-programadas:** Batata chips, bolo de caneca, lasanha, arroz, brigadeiro e pipoca - receitas favoritas com apenas um toque.
+
+**Função Manter Aquecido:** Conserva os alimentos quentes até o consumo, ideal para famílias com horários diferentes.
+
+**Painel inteligente com Eco mode:** Função de economia de energia e configurações de som personalizáveis.
+
+**Acabamento em inox espelhado:** Design sofisticado que valoriza a decoração da cozinha.
+
+**Capacidade de 36L com prato de 31,5cm:** Espaço generoso para diferentes tipos de recipientes.
+
+**Marca Electrolux:** Reconhecida mundialmente pela qualidade, inovação e durabilidade.
+
+## 📌 Motivos para Comprar
+
+✅ **Capacidade de 36L** - espaço para refeições da família toda
+
+✅ **Prato giratório de 31,5cm** - comporta diferentes recipientes
+
+✅ **Potência de 1600W** - aquecimento rápido e eficiente
+
+✅ **Descongelamento Assistido** - com avisos no painel
+
+✅ **Manter Aquecido** - conserva os alimentos quentes
+
+✅ **Tira Odor** - sistema de recirculação do ar
+
+✅ **5 modos de preparo** - fermentar, derreter, desidratar e mais
+
+✅ **6 receitas pré-programadas** - receitas favoritas com um toque
+
+✅ **Painel inteligente** - ajustes automáticos de potência
+
+✅ **Trava de segurança** - proteção para a família
+
+✅ **Eco mode** - economia de energia
+
+✅ **Design em inox espelhado** - elegância e sofisticação
+
+✅ **Marca Electrolux** - qualidade e inovação
+
+✅ **Avaliação 5.0 estrelas** - excelente satisfação
+
+✅ **Função Limpa-fácil** - facilidade na limpeza
+
+✅ **Configurações de som** - mudo ou som
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos Electrolux são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. Qual a capacidade do micro-ondas?**
+A capacidade é de 36L, ideal para famílias que precisam preparar refeições em maior quantidade.
+
+**3. Qual a potência do micro-ondas?**
+A potência é de 1600W, garantindo aquecimento rápido e eficiente.
+
+**4. O micro-ondas tem descongelamento?**
+Sim, possui Descongelamento Assistido da Electrolux que avisa no painel o momento certo de virar ou mexer os alimentos.
+
+**5. Quantos modos de preparo o micro-ondas tem?**
+O micro-ondas possui 5 modos de preparo: fermentar, derreter, desidratar, cozinhar rápido e cozinhar delicado.
+
+**6. O micro-ondas tem receitas pré-programadas?**
+Sim, possui 6 receitas pré-programadas: batata chips, bolo de caneca, lasanha, arroz, brigadeiro e pipoca.
+
+**7. O micro-ondas tem bloqueio de segurança?**
+Sim, possui trava de segurança que evita o uso acidental.
+
+**8. O que é a função Tira Odor?**
+É um sistema de recirculação do ar interno que mantém seu produto livre de possíveis odores de preparos anteriores.
+
+**9. O micro-ondas tem a função Manter Aquecido?**
+Sim, conserva suas receitas recém-preparadas quentes e deliciosas até o consumo.
+
+**10. Qual o tamanho do prato giratório?**
+O prato giratório tem 31,5cm de diâmetro.
+
+**11. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Electrolux.
+
+**12. O micro-ondas é fácil de limpar?**
+Sim, possui função Limpa-fácil e interior em aço inoxidável que facilita a limpeza.
+
+**13. O produto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**14. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**15. Qual a cor do produto?**
+O micro-ondas está disponível nas cores prata e preto (acabamento em inox espelhado).
+
+**16. O micro-ondas tem relógio digital?**
+Sim, possui relógio digital para controle do tempo.
+
+**17. O micro-ondas tem configurações de som?**
+Sim, possui opção de mudo ou som para personalizar o uso.
+
+**18. O micro-ondas tem Eco mode?**
+Sim, possui função de economia de energia.
+
+**19. Qual a voltagem disponível?**
+O micro-ondas está disponível nas voltagens 110V e 220V.
+
+**20. O micro-ondas tem registro Inmetro?**
+Sim, possui registro Inmetro 006479-2022, garantindo conformidade com os padrões de segurança.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Electrolux |
+| **Modelo** | ME36S |
+| **Linha** | Efficient |
+| **Cor** | Prata/Preto (Inox Espelhado) |
+| **Capacidade** | 36L |
+| **Potência** | 1600 W |
+| **Frequência** | 60Hz |
+| **Diâmetro do Prato** | 31,5 cm |
+| **Modos de Preparo** | 5 (fermentar, derreter, desidratar, cozinhar rápido, cozinhar delicado) |
+| **Receitas Pré-programadas** | 6 (batata chips, bolo de caneca, lasanha, arroz, brigadeiro, pipoca) |
+| **Funções** | Descongelar, Manter Aquecido, Limpa-fácil, Tira Odor, Relógio, Trava painel, Eco mode |
+| **Configurações** | Mudo e Som |
+| **Display** | Digital |
+| **Trava de Segurança** | Sim |
+| **Interior** | Aço Inoxidável |
+| **Registro Inmetro** | 006479-2022 |
+| **Altura** | 32,5 cm |
+| **Largura** | 52 cm |
+| **Profundidade** | 41,9 cm |
+| **Peso** | 15,00 kg |
+| **Uso Recomendado** | Doméstico |
+| **Garantia** | Conforme política da marca |
+| **Origem** | Nacional |
+| **Itens Inclusos** | 1 Micro-ondas, 1 Manual de Instruções |
+
+## 📌 Conclusão
+
+O **Micro-ondas Electrolux 36L Inox Espelhado Efficient ME36S** é uma escolha excepcional para quem busca um eletrodoméstico espaçoso, tecnológico e com design sofisticado para o dia a dia. Com sua capacidade de 36L, potência de 1600W, Descongelamento Assistido, 5 modos de preparo, 6 receitas pré-programadas, função Tira Odor e acabamento em inox espelhado, este micro-ondas atende às necessidades das famílias modernas que valorizam praticidade, eficiência e qualidade.
+
+A avaliação de 5.0 estrelas atesta a excelente satisfação dos clientes com este produto. Aproveite esta oferta e garanta já o seu Micro-ondas Electrolux para transformar sua experiência na cozinha.
+  `,
+  marca: "Electrolux",
+  keywords: [
+    "micro-ondas electrolux 36l",
+    "micro-ondas inox espelhado",
+    "micro-ondas efficient me36s",
+    "micro-ondas com descongelamento assistido",
+    "micro-ondas 36 litros",
+    "micro-ondas electrolux prata preto",
+    "micro-ondas com display digital",
+    "micro-ondas para família",
+    "micro-ondas com trava de segurança",
+    "micro-ondas com receitas pré-programadas",
+    "eletrodoméstico para cozinha",
+    "micro-ondas com função tira odor",
+    "micro-ondas com manter aquecido",
+    "micro-ondas electrolux inox",
+    "micro-ondas de 36l",
+    "micro-ondas 1600w",
+    "micro-ondas com 5 modos de preparo",
+    "micro-ondas com prato 31.5cm",
+    "micro-ondas com eco mode",
+    "micro-ondas electrolux me36s"
+  ],
+  seoTitle: "Micro-ondas Electrolux 36L Inox Espelhado ME36S | Descongelamento",
+  seoDescription: "Micro-ondas Electrolux 36L com descongelamento assistido, 6 receitas pré-programadas e 5 modos de preparo. Inox espelhado, trava segurança. 5.0★ (89 reviews)! Cupom Shopee!"
+},
+{
+  id: "p-imp-132",
+  slug: "micro-ondas-electrolux-embutir-34l-preto-me3ep-painel-digital-tira-odor",
+  category: "microondas",
+  mainCategory: "eletrodomesticos",
+  name: "Micro-ondas Electrolux de Embutir 34L Preto ME3EP com Painel Digital e Função Tira Odor - 127V",
+  imageFile: "/imagens/produtos/micro-ondas-electrolux-embutir-34l-preto-me3ep-painel-digital.webp",
+  displayImage: "/imagens/produtos/micro-ondas-electrolux-embutir-34l-preto-me3ep-painel-digital.webp",
+  alt: "Micro-ondas Electrolux de embutir 34L na cor preta com painel digital e função tira odor modelo ME3EP",
+  rating: 4.9,
+  reviews: 2174,
+  discount: 24,
+  price: 1329.55,
+  originalPrice: 1749.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1N79UgG",
+  descricao: `
+# Micro-ondas Electrolux de Embutir 34L Preto ME3EP com Painel Digital e Função Tira Odor
+
+## 📌 Introdução
+
+Eleve o design da sua cozinha com o **Micro-ondas Electrolux de Embutir 34L Preto ME3EP**. Este eletrodoméstico foi desenvolvido para quem busca funcionalidade, tecnologia e sofisticação em um único produto, com design que se integra perfeitamente aos móveis planejados.
+
+A Electrolux, referência mundial em eletrodomésticos, apresenta este modelo de embutir com capacidade de 34L, ideal para famílias que valorizam praticidade e organização. Com potência de 1.400W, painel digital com display autodesliga, 10 níveis de potência, 6 programas de cozimento, descongelamento automático e função Tira Odor, este micro-ondas oferece uma experiência completa na cozinha.
+
+Com mais de 5 mil vendidos e o selo de "Mais Vendido" na categoria Micro-ondas Electrolux, este modelo é um dos mais populares do mercado, oferecendo a qualidade e durabilidade que só a Electrolux pode proporcionar.
+
+## 📌 Principais Benefícios
+
+**Design de embutir sofisticado:** Integra-se perfeitamente aos móveis planejados da cozinha, criando um visual clean e elegante, com acabamento na cor preta que combina com diferentes estilos de decoração.
+
+**Capacidade de 34L para a família toda:** Espaço generoso que permite preparar refeições em maior quantidade, com prato giratório de 32,5cm de diâmetro para diferentes tipos de recipientes.
+
+**Display digital com autodesliga:** Painel inteligente que desliga automaticamente quando o aparelho não está em uso, economizando energia e prolongando a vida útil do display.
+
+**Função Tira Odor:** Sistema exclusivo que mantém seu produto livre de odores de preparos anteriores, garantindo sempre um micro-ondas com cheiro neutro.
+
+**Função Manter Aquecido:** Conserva suas receitas recém-preparadas quentes e deliciosas até o momento do consumo.
+
+**10 níveis de potência:** Controle preciso da intensidade para diferentes tipos de alimentos e receitas.
+
+**6 programas de cozimento:** Funções pré-programadas para diferentes tipos de alimentos, facilitando o preparo.
+
+**Descongelamento automático por peso e por tempo:** Três modos de descongelamento para resultados perfeitos em diferentes tipos de alimentos.
+
+**Função autolimpante:** Facilita a limpeza do interior, mantendo a higiene e o bom funcionamento do aparelho.
+
+**Trava de segurança:** Sistema de proteção que evita o uso acidental, especialmente importante em lares com crianças.
+
+**Eficiência energética classe A:** Economia de energia e menor impacto ambiental.
+
+## 📌 Design
+
+O design do Micro-ondas Electrolux de Embutir foi pensado para unir funcionalidade, elegância e praticidade, integrando-se perfeitamente à decoração da cozinha.
+
+**Design de embutir:** Integra-se perfeitamente aos móveis planejados, criando um visual clean e sofisticado na cozinha.
+
+**Acabamento na cor preta:** O design moderno na cor preta confere um visual elegante e sofisticado, combinando com diferentes estilos de decoração.
+
+**Painel digital com display autodesliga:** Interface moderna e intuitiva que desliga automaticamente quando não está em uso, economizando energia.
+
+**Porta sem espelho:** Design elegante e discreto que combina com diferentes estilos de cozinha.
+
+**Prato giratório de 32,5cm:** Tamanho amplo que comporta diferentes tipos de recipientes.
+
+**Luz no interior:** Permite visualizar o preparo sem abrir a porta, mantendo a eficiência.
+
+**Dimensões compactas:** 59,4cm de largura, 37,3cm de altura e 40cm de profundidade, ideal para diferentes espaços.
+
+## 📌 Funcionalidades
+
+**Painel digital com display autodesliga:** Display que desliga automaticamente para economizar energia.
+
+**Função Tira Odor:** Sistema de recirculação do ar que elimina odores.
+
+**Função Manter Aquecido:** Conserva os alimentos quentes até o consumo.
+
+**10 níveis de potência:** Controle preciso da intensidade.
+
+**6 programas de cozimento:** Funções pré-programadas para diferentes alimentos.
+
+**Descongelamento automático por peso:** Descongela automaticamente com base no peso.
+
+**Descongelamento rápido por tempo:** Modo rápido para descongelamento.
+
+**3 programas de descongelamento:** Opções para diferentes tipos de alimentos.
+
+**Função autolimpante:** Facilita a limpeza do interior.
+
+**Trava de segurança:** Proteção contra uso acidental.
+
+**Função mudo:** Opção de silenciar os sons do aparelho.
+
+**Eficiência energética classe A:** Economia de energia.
+
+## 📌 Ideal para
+
+- **Cozinhas planejadas:** Design de embutir que se integra aos móveis
+- **Famílias grandes:** Capacidade de 34L para refeições em maior quantidade
+- **Preparo rápido:** Aquecimento eficiente com 10 níveis de potência
+- **Descongelamento:** 3 modos de descongelamento para diferentes alimentos
+- **Cozinhas modernas:** Design preto elegante e sofisticado
+- **Quem busca tecnologia:** Painel digital com display autodesliga
+- **Quem valoriza segurança:** Trava de segurança para crianças
+- **Quem busca economia:** Eficiência energética classe A
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este micro-ondas de embutir é altamente recomendado para:
+
+**Pessoas que estão projetando ou reformando a cozinha:** O design de embutir é perfeito para cozinhas planejadas, integrando-se perfeitamente aos móveis.
+
+**Famílias que buscam praticidade e eficiência:** A capacidade de 34L, 10 níveis de potência e funções inteligentes permitem preparar refeições com rapidez e qualidade.
+
+**Pessoas que valorizam design e tecnologia:** O painel digital com display autodesliga e o acabamento preto oferecem um visual sofisticado.
+
+**Quem busca segurança:** Trava de segurança para proteção da família.
+
+**Pessoas que cozinham em maior quantidade:** A capacidade de 34L permite preparar travessas e pratos maiores.
+
+**Quem quer praticidade no dia a dia:** Funções Tira Odor, Manter Aquecido e autolimpante.
+
+**Pessoas que valorizam qualidade e durabilidade:** Marca Electrolux, com mais de 5 mil vendidos.
+
+**Quem busca um micro-ondas versátil:** 6 programas de cozimento e 3 modos de descongelamento.
+
+## 📌 Diferenciais
+
+O que torna o Micro-ondas Electrolux de Embutir 34L ME3EP único no mercado?
+
+**Design de embutir premium:** Integra-se perfeitamente aos móveis planejados, criando um visual clean e sofisticado que valoriza a decoração da cozinha.
+
+**Display digital com autodesliga:** Economia de energia com display que desliga automaticamente quando não está em uso, prolongando a vida útil.
+
+**Função Tira Odor:** Sistema de recirculação do ar que mantém o produto livre de odores de preparos anteriores.
+
+**10 níveis de potência:** Controle preciso para diferentes tipos de alimentos, superior aos modelos com menos opções.
+
+**3 programas de descongelamento:** Mais versatilidade para diferentes tipos de alimentos.
+
+**Função autolimpante:** Facilita a manutenção e limpeza do aparelho.
+
+**Eficiência energética classe A:** Economia de energia e menor impacto ambiental.
+
+**Marca Electrolux:** Reconhecida mundialmente pela qualidade, inovação e durabilidade.
+
+**Avaliação 4.9 estrelas com 2174 reviews:** Excelente satisfação dos clientes.
+
+**Capacidade de 34L com prato de 32,5cm:** Espaço generoso para diferentes tipos de recipientes.
+
+## 📌 Motivos para Comprar
+
+✅ **Design de embutir** - integração perfeita com móveis planejados
+
+✅ **Capacidade de 34L** - espaço para refeições da família toda
+
+✅ **Prato giratório de 32,5cm** - comporta diferentes recipientes
+
+✅ **Painel digital com display autodesliga** - economia de energia
+
+✅ **Função Tira Odor** - micro-ondas sempre com cheiro neutro
+
+✅ **Função Manter Aquecido** - conserva os alimentos quentes
+
+✅ **10 níveis de potência** - controle preciso do preparo
+
+✅ **6 programas de cozimento** - versatilidade para diferentes receitas
+
+✅ **3 modos de descongelamento** - por peso, rápido e por tempo
+
+✅ **Função autolimpante** - facilidade na limpeza
+
+✅ **Trava de segurança** - proteção para a família
+
+✅ **Eficiência energética classe A** - economia e sustentabilidade
+
+✅ **Função mudo** - personalização do uso
+
+✅ **Marca Electrolux** - qualidade e inovação
+
+✅ **Mais de 5 mil vendidos** - produto testado e aprovado
+
+✅ **Avaliação 4.9 estrelas** - excelente satisfação
+
+✅ **24% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos Electrolux são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. Este micro-ondas é de embutir?**
+Sim, este modelo é de embutir, projetado para ser instalado em móveis planejados da cozinha.
+
+**3. Qual a capacidade do micro-ondas?**
+A capacidade é de 34L, ideal para famílias que precisam preparar refeições em maior quantidade.
+
+**4. O micro-ondas tem display digital?**
+Sim, possui display digital com função autodesliga para economia de energia.
+
+**5. O micro-ondas tem a função Tira Odor?**
+Sim, a função Tira Odor mantém seu produto livre de odores de preparos anteriores.
+
+**6. Quantos níveis de potência o micro-ondas tem?**
+O micro-ondas possui 10 níveis de potência para controle preciso do preparo.
+
+**7. O micro-ondas tem programas de cozimento?**
+Sim, possui 6 programas de cozimento para diferentes tipos de alimentos.
+
+**8. O micro-ondas tem descongelamento?**
+Sim, possui descongelamento automático por peso, rápido por tempo e por tempo, totalizando 3 modos.
+
+**9. O micro-ondas tem bloqueio de segurança?**
+Sim, possui trava de segurança que evita o uso acidental.
+
+**10. O micro-ondas tem função autolimpante?**
+Sim, possui função autolimpante que facilita a limpeza do interior.
+
+**11. O micro-ondas tem a função Manter Aquecido?**
+Sim, conserva suas receitas recém-preparadas quentes até o consumo.
+
+**12. Qual o diâmetro do prato giratório?**
+O prato giratório tem 32,5cm de diâmetro.
+
+**13. Qual a eficiência energética do produto?**
+O micro-ondas possui eficiência energética classe A, garantindo economia de energia.
+
+**14. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Electrolux.
+
+**15. O produto acompanha nota fiscal?**
+Sim, todos os produtos são entregues com suas respectivas notas fiscais.
+
+**16. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**17. Qual a cor do produto?**
+O micro-ondas está disponível na cor preta, um tom elegante e sofisticado.
+
+**18. Qual a voltagem disponível?**
+O micro-ondas está disponível nas voltagens 127V e 220V.
+
+**19. O micro-ondas tem registro Inmetro?**
+Sim, possui registro Inmetro 002372/2017, garantindo conformidade com os padrões de segurança.
+
+**20. O micro-ondas tem função mudo?**
+Sim, possui função mudo para personalizar o uso.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Electrolux |
+| **Modelo** | ME3EP |
+| **Tipo** | De Embutir |
+| **Cor** | Preto |
+| **Capacidade** | 34L |
+| **Potência** | 1,4 kW (1400W) |
+| **Níveis de Potência** | 10 |
+| **Programas de Cozimento** | 6 |
+| **Modos de Descongelamento** | 3 (por peso, rápido, por tempo) |
+| **Display** | Digital com autodesliga |
+| **Diâmetro do Prato** | 32,5 cm |
+| **Eficiência Energética** | A |
+| **Funções** | Tira Odor, Manter Aquecido, Autolimpante, Mudo |
+| **Trava de Segurança** | Sim |
+| **Luz no Interior** | Sim |
+| **Frequência** | 60Hz |
+| **Largura** | 59,4 cm |
+| **Altura** | 37,3 cm |
+| **Profundidade** | 40 cm |
+| **Peso** | 15,3 kg |
+| **Registro Inmetro** | 002372/2017 |
+| **Uso Recomendado** | Doméstico |
+| **Garantia** | Conforme política da marca |
+| **Origem** | Nacional |
+| **Itens Inclusos** | 1 Micro-ondas, 1 Manual de Instruções |
+
+## 📌 Conclusão
+
+O **Micro-ondas Electrolux de Embutir 34L Preto ME3EP** é uma escolha excepcional para quem busca um eletrodoméstico que une design sofisticado, tecnologia avançada e funcionalidade completa. Com seu design de embutir, capacidade de 34L, painel digital com display autodesliga, funções Tira Odor e Manter Aquecido, 10 níveis de potência, 6 programas de cozimento e 3 modos de descongelamento, este micro-ondas atende às necessidades das famílias modernas que valorizam qualidade, design e praticidade.
+
+O selo de "Mais Vendido" com mais de 5 mil unidades comercializadas e a excelente avaliação de 4.9 estrelas com 2174 reviews atestam a qualidade superior do produto e a satisfação dos compradores. Aproveite esta oferta com 24% de desconto e garanta já o seu Micro-ondas Electrolux de Embutir para transformar sua cozinha.
+  `,
+  marca: "Electrolux",
+  keywords: [
+    "micro-ondas electrolux de embutir",
+    "micro-ondas 34l",
+    "micro-ondas preto me3ep",
+    "micro-ondas com painel digital",
+    "micro-ondas embutir electrolux",
+    "micro-ondas com tira odor",
+    "micro-ondas com display autodesliga",
+    "micro-ondas para cozinha planejada",
+    "micro-ondas de embutir 34l",
+    "micro-ondas electrolux preto",
+    "micro-ondas com 10 niveis de potencia",
+    "micro-ondas com 6 programas",
+    "micro-ondas com descongelamento automatico",
+    "micro-ondas com funcao manter aquecido",
+    "micro-ondas com autolimpante",
+    "eletrodomestico para cozinha",
+    "micro-ondas classe a",
+    "micro-ondas com trava segurança",
+    "micro-ondas electrolux me3ep",
+    "micro-ondas de embutir preto"
+  ],
+  seoTitle: "Micro-ondas Electrolux Embutir 34L Preto ME3EP | Painel Digital",
+  seoDescription: "Micro-ondas Electrolux de embutir 34L com painel digital, Tira Odor e 10 níveis de potência. Display autodesliga, classe A. 4.9★ (2.174 reviews). 24% OFF no Pix!"
+},
+{
+  id: "p-imp-133",
+  slug: "geladeira-consul-frost-free-455l-inox-duplex-inverter-crm53mk",
+  category: "geladeiras",
+  mainCategory: "eletrodomesticos",
+  name: "Geladeira Consul Frost Free 455 Litros Duplex Inox Inverter CRM53MK",
+  imageFile: "/imagens/produtos/geladeira-consul-frost-free-455l-inox-duplex-crm53mk.webp",
+  displayImage: "/imagens/produtos/geladeira-consul-frost-free-455l-inox-duplex-crm53mk.webp",
+  alt: "Geladeira Consul Frost Free 455L na cor inox com tecnologia Inverter e acabamento em aço escovado",
+  rating: 4.9,
+  reviews: 1309,
+  discount: 4,
+  price: 3684.12,
+  originalPrice: 3849.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2rEQBt9",
+  descricao: `
+# Geladeira Consul Frost Free 455 Litros Duplex Inox Inverter CRM53MK
+
+## 📌 Introdução
+
+A **Geladeira Consul CRM53MK Duplex Frost Free Inverter 455L Inox** foi projetada para oferecer mais capacidade, economia e praticidade no seu dia a dia. Com design moderno e acabamento elegante em inox, ela se adapta perfeitamente à sua cozinha, sendo a escolha ideal para famílias que buscam qualidade, durabilidade e eficiência.
+
+A Consul, marca reconhecida pela excelência em eletrodomésticos, apresenta este modelo com capacidade total de 455 litros (354L no refrigerador e 101L no freezer), garantindo espaço amplo e bem distribuído para armazenar todos os alimentos da sua família.
+
+Com a Tecnologia Inverter, o consumo de energia pode ser reduzido em até 38%, proporcionando mais eficiência e silêncio no funcionamento. O sistema Frost Free elimina a necessidade de descongelar, oferecendo mais comodidade no dia a dia.
+
+## 📌 Principais Benefícios
+
+**Capacidade total de 455L:** Espaço amplo e bem distribuído com 354L no refrigerador e 101L no freezer, ideal para famílias grandes que precisam armazenar muitos alimentos.
+
+**Tecnologia Inverter:** Redução no consumo de energia em até 38%, proporcionando mais eficiência e silêncio no funcionamento, além de maior durabilidade do compressor.
+
+**Sistema Frost Free:** Nunca mais se preocupe em descongelar a geladeira. O sistema automático evita o acúmulo de gelo, mantendo a eficiência e a organização.
+
+**Eficiência energética classe A:** Com consumo de apenas 26,9 kWh/mês, esta geladeira oferece alta performance com baixo consumo de energia.
+
+**Função Turbo:** Acelera o resfriamento da geladeira, ideal para quando você coloca muitos alimentos de uma só vez ou precisa resfriar rapidamente.
+
+**Filtro Antiodor:** Elimina odores desagradáveis, mantendo seus alimentos sempre com sabor e aroma naturais.
+
+**Espaço Extra-Frio:** Compartimento dedicado para frios e laticínios, mantendo a temperatura ideal para esses alimentos.
+
+**Gaveta de Frutas e Legumes:** Mantém os alimentos frescos e bem organizados, prolongando sua durabilidade.
+
+**Iluminação em LED:** Mais econômica e eficiente, proporcionando melhor visualização do interior da geladeira.
+
+**Gás ecológico R600A:** Não agride a camada de ozônio, sendo uma escolha sustentável para o meio ambiente.
+
+## 📌 Design
+
+O design da Geladeira Consul CRM53MK foi pensado para unir funcionalidade, elegância e praticidade.
+
+**Acabamento em inox:** O design moderno e sofisticado em inox confere um visual elegante e profissional, combinando com diferentes estilos de decoração de cozinha.
+
+**Puxador preto:** Contraste moderno que valoriza o design, com acabamento que facilita a abertura.
+
+**Portas duplex:** Design de duas portas, com refrigerador na parte de cima e freezer na parte inferior, facilitando o acesso e a organização.
+
+**Prateleiras ajustáveis:** Permite organizar os alimentos conforme sua necessidade, com prateleiras em plástico resistente.
+
+**Gaveteiro de frutas e legumes:** Compartimento específico para manter os alimentos frescos e bem organizados.
+
+**Espaço Extra-Frio:** Compartimento dedicado para frios e laticínios, com temperatura ideal.
+
+**Iluminação LED:** Ilumina todo o interior do refrigerador, proporcionando melhor visualização.
+
+**Dimensões equilibradas:** 186,8cm de altura, 70,2cm de largura e 72cm de profundidade, se adaptando a diferentes espaços.
+
+## 📌 Organização e Armazenamento
+
+A Geladeira Consul CRM53MK oferece uma organização inteligente para otimizar o espaço.
+
+**Refrigerador (354L):**
+- Prateleiras ajustáveis para diferentes alturas
+- Espaço Extra-Frio para frios e laticínios
+- Gaveta de frutas e legumes com controle de umidade
+- Compartimentos nas portas para garrafas e condimentos
+- Iluminação LED para melhor visualização
+
+**Freezer (101L):**
+- Capacidade generosa para alimentos congelados
+- Prateleiras para organização
+- Sistema Frost Free que evita acúmulo de gelo
+
+**Distribuição inteligente:**
+- 2 portas para melhor organização
+- Compartimentos flexíveis para diferentes tipos de alimentos
+- Gavetas e prateleiras removíveis para limpeza fácil
+
+## 📌 Ideal para
+
+- **Famílias grandes:** Capacidade de 455L para armazenar muitos alimentos
+- **Quem busca economia:** Tecnologia Inverter com redução de até 38% no consumo
+- **Quem não quer descongelar:** Sistema Frost Free automático
+- **Cozinhas modernas:** Design em inox sofisticado
+- **Quem valoriza organização:** Prateleiras ajustáveis e compartimentos específicos
+- **Quem busca sustentabilidade:** Gás ecológico R600A e classe A
+- **Quem quer praticidade:** Função Turbo e Filtro Antiodor
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Esta geladeira é altamente recomendada para:
+
+**Famílias grandes que precisam de espaço:** Com 455L de capacidade total, é ideal para famílias com muitos membros ou que compram alimentos em maior quantidade.
+
+**Pessoas que valorizam economia de energia:** A tecnologia Inverter reduz o consumo em até 38%, proporcionando economia na conta de luz.
+
+**Quem busca praticidade e comodidade:** O sistema Frost Free elimina a necessidade de descongelar, enquanto a Função Turbo acelera o resfriamento.
+
+**Admiradores de design moderno:** O acabamento em inox e puxador preto conferem um visual sofisticado.
+
+**Pessoas que valorizam sustentabilidade:** O gás ecológico R600A e a eficiência classe A são escolhas sustentáveis.
+
+**Quem quer alimentos sempre frescos:** O Filtro Antiodor e a gaveta de frutas e legumes mantêm os alimentos preservados.
+
+**Quem busca qualidade e durabilidade:** Marca Consul, com mais de 1000 vendidos e 4.9 estrelas.
+
+## 📌 Diferenciais
+
+O que torna a Geladeira Consul CRM53MK única no mercado?
+
+**Tecnologia Inverter:** Redução de até 38% no consumo de energia, com funcionamento mais silencioso e maior durabilidade do compressor.
+
+**Capacidade total de 455L:** Uma das maiores capacidades do mercado, com 354L no refrigerador e 101L no freezer.
+
+**Sistema Frost Free:** Elimina a necessidade de descongelar, oferecendo mais comodidade e mantendo a eficiência.
+
+**Eficiência energética classe A:** Consumo de apenas 26,9 kWh/mês, garantindo alta performance com baixo consumo.
+
+**Função Turbo:** Resfriamento acelerado para quando você precisa de mais rapidez.
+
+**Filtro Antiodor:** Elimina odores desagradáveis, mantendo os alimentos com sabor natural.
+
+**Gás ecológico R600A:** Sustentável, não agride a camada de ozônio.
+
+**Marca Consul:** Reconhecida pela qualidade e durabilidade, com mais de 1000 vendidos e avaliação 4.9 estrelas.
+
+## 📌 Motivos para Comprar
+
+✅ **Capacidade total de 455L** - espaço para toda a família
+
+✅ **354L no refrigerador** - amplo espaço para alimentos
+
+✅ **101L no freezer** - capacidade generosa para congelados
+
+✅ **Tecnologia Inverter** - até 38% de economia de energia
+
+✅ **Sistema Frost Free** - nunca mais descongele
+
+✅ **Eficiência energética classe A** - baixo consumo de 26,9 kWh/mês
+
+✅ **Função Turbo** - resfriamento acelerado
+
+✅ **Filtro Antiodor** - elimina odores desagradáveis
+
+✅ **Espaço Extra-Frio** - ideal para frios e laticínios
+
+✅ **Gaveta de Frutas e Legumes** - mantém os alimentos frescos
+
+✅ **Iluminação LED** - visualização eficiente e econômica
+
+✅ **Gás ecológico R600A** - sustentável e não agride o ozônio
+
+✅ **Prateleiras ajustáveis** - organização personalizada
+
+✅ **Design em inox** - sofisticação e elegância
+
+✅ **Marca Consul** - qualidade e durabilidade
+
+✅ **Avaliação 4.9 estrelas** com 1309 reviews - excelente satisfação
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos Consul são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. Qual a capacidade total da geladeira?**
+A capacidade total é de 455L, sendo 354L no refrigerador e 101L no freezer.
+
+**3. A geladeira tem tecnologia Inverter?**
+Sim, a tecnologia Inverter reduz o consumo de energia em até 38%, proporcionando mais eficiência e silêncio.
+
+**4. A geladeira é Frost Free?**
+Sim, o sistema Frost Free elimina a necessidade de descongelar, oferecendo mais comodidade.
+
+**5. Qual a eficiência energética da geladeira?**
+A geladeira possui classificação energética A, com consumo de apenas 26,9 kWh/mês.
+
+**6. A geladeira tem Função Turbo?**
+Sim, a Função Turbo acelera o resfriamento da geladeira.
+
+**7. A geladeira tem Filtro Antiodor?**
+Sim, o Filtro Antiodor elimina odores desagradáveis.
+
+**8. A geladeira tem Espaço Extra-Frio?**
+Sim, o Espaço Extra-Frio é ideal para frios e laticínios.
+
+**9. A geladeira tem gaveta de frutas e legumes?**
+Sim, a gaveta mantém os alimentos frescos e bem organizados.
+
+**10. A geladeira tem iluminação LED?**
+Sim, a iluminação LED no refrigerador é mais econômica e eficiente.
+
+**11. A geladeira usa gás ecológico?**
+Sim, utiliza gás R600A, que não agride a camada de ozônio.
+
+**12. A porta da geladeira é reversível?**
+Não, a porta não é reversível.
+
+**13. A geladeira tem dispenser de água ou gelo?**
+Não, esta geladeira não possui dispenser.
+
+**14. Qual a voltagem disponível?**
+A geladeira está disponível nas voltagens 127V e 220V.
+
+**15. Qual o consumo mensal de energia?**
+O consumo é de 26,9 kWh/mês, garantindo economia na conta de luz.
+
+**16. Qual a altura da geladeira?**
+A altura é de 186,8 cm.
+
+**17. Qual a largura da geladeira?**
+A largura é de 70,2 cm.
+
+**18. Qual a profundidade da geladeira?**
+A profundidade é de 72 cm.
+
+**19. A geladeira tem iluminação no freezer?**
+Não, a iluminação está presente apenas no refrigerador.
+
+**20. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Consul.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Consul |
+| **Modelo** | CRM53MK |
+| **Tipo** | Duplex (2 portas) |
+| **Cor** | Inox |
+| **Puxador** | Preto |
+| **Capacidade Total** | 455L |
+| **Capacidade Refrigerador** | 354L |
+| **Capacidade Freezer** | 101L |
+| **Tecnologia** | Inverter |
+| **Tipo de Degelo** | Frost Free |
+| **Eficiência Energética** | A |
+| **Consumo** | 26,9 kWh/mês |
+| **Iluminação** | LED (somente no refrigerador) |
+| **Função Turbo** | Sim |
+| **Filtro Antiodor** | Sim |
+| **Espaço Extra-Frio** | Sim |
+| **Gás** | R600A (ecológico) |
+| **Controle de Temperatura** | Automático |
+| **Prateleiras** | Ajustáveis em plástico resistente |
+| **Porta Reversível** | Não |
+| **Altura** | 186,8 cm |
+| **Largura** | 70,2 cm |
+| **Profundidade** | 72 cm |
+| **Peso** | 76 kg |
+| **Origem** | Nacional |
+| **Garantia** | Conforme política da marca |
+| **Itens Inclusos** | 1 Geladeira, 1 Guia Rápido, 1 Manual de Instruções |
+
+## 📌 Conclusão
+
+A **Geladeira Consul Frost Free 455 Litros Duplex Inox Inverter CRM53MK** é uma escolha excepcional para quem busca um eletrodoméstico que une capacidade, economia e design sofisticado. Com seus 455L de capacidade total, tecnologia Inverter que reduz o consumo de energia em até 38%, sistema Frost Free que elimina a necessidade de descongelar, eficiência energética classe A, Função Turbo, Filtro Antiodor e acabamento em inox, esta geladeira atende às necessidades das famílias modernas que valorizam qualidade, praticidade e economia.
+
+O selo de "Mais Vendido" com mais de 1000 unidades comercializadas e a excelente avaliação de 4.9 estrelas com 1309 reviews atestam a qualidade superior do produto e a satisfação dos compradores. Aproveite esta oferta e garanta já a sua Geladeira Consul para transformar sua cozinha.
+  `,
+  marca: "Consul",
+  keywords: [
+    "geladeira consul frost free",
+    "geladeira 455l",
+    "geladeira duplex inox",
+    "geladeira consul inverter",
+    "geladeira crm53mk",
+    "geladeira com tecnologia inverter",
+    "geladeira frost free 455l",
+    "geladeira consul inox",
+    "geladeira eficiencia energetica a",
+    "geladeira com filtro antiodor",
+    "geladeira com funcao turbo",
+    "geladeira com espaco extra-frio",
+    "geladeira com gaveta de frutas",
+    "geladeira com iluminacao led",
+    "geladeira com gas ecologico",
+    "eletrodomestico para cozinha",
+    "geladeira duplex 455l",
+    "geladeira consul 455 litros",
+    "geladeira economica",
+    "geladeira com freezer 101l"
+  ],
+  seoTitle: "Geladeira Consul Frost Free 455L Inox Inverter CRM53MK | Oferta",
+  seoDescription: "Geladeira Consul 455L com tecnologia Inverter, Frost Free e classe A. Economia até 38%, Filtro Antiodor, LED. 4.9★ (1.309 reviews). 4% OFF no Pix!"
+},
+
+{
+  id: "p-imp-134",
+  slug: "geladeira-electrolux-frost-free-400l-autosense-branca-if44",
+  category: "geladeiras",
+  mainCategory: "eletrodomesticos",
+  name: "Geladeira Electrolux Frost Free 400L AutoSense Branca IF44 com Tecnologia Inverter",
+  imageFile: "/imagens/produtos/geladeira-electrolux-frost-free-400l-autosense-branca-if44.webp",
+  displayImage: "/imagens/produtos/geladeira-electrolux-frost-free-400l-autosense-branca-if44.webp",
+  alt: "Geladeira Electrolux Frost Free 400L na cor branca com tecnologia AutoSense e congelador superior modelo IF44",
+  rating: 4.8,
+  reviews: 494,
+  discount: 19,
+  price: 2706.55,
+  originalPrice: 3359.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2MZ5JyP",
+  descricao: `
+# Geladeira Electrolux Frost Free 400L AutoSense Branca IF44 com Tecnologia Inverter
+
+## 📌 Introdução
+
+A **Geladeira Electrolux Frost Free 400L AutoSense Branca (IF44)** é a escolha ideal para quem busca um eletrodoméstico que une tecnologia avançada, eficiência energética e design prático. Com a exclusiva Tecnologia AutoSense, este refrigerador controla a temperatura automaticamente, prolongando a vida útil dos alimentos em até 30%¹, garantindo mais frescor e menos desperdício.
+
+A Electrolux, referência mundial em eletrodomésticos, apresenta este modelo com capacidade de 400L, tecnologia Inverter que mantém a temperatura mais estável e reduz o consumo de energia, e design robusto que se adapta perfeitamente à sua rotina e às suas necessidades de armazenamento.
+
+Com mais de 1000 vendidos e o selo de "Mais Vendido" na categoria Geladeiras, este modelo é um dos mais populares do mercado, oferecendo a qualidade e durabilidade que só a Electrolux pode proporcionar.
+
+## 📌 Principais Benefícios
+
+**Tecnologia AutoSense:** Controla a temperatura automaticamente e prolonga a vida útil dos alimentos em até 30%¹, garantindo mais frescor e menos desperdício.
+
+**Tecnologia Inverter:** Mantém a temperatura mais estável e reduz o consumo de energia, garantindo as condições ideais de preservação dos alimentos e economia na conta de luz.
+
+**Capacidade total de 400L:** Espaço amplo para armazenar todos os alimentos da sua família, com organização inteligente.
+
+**Sistema Frost Free:** Nunca mais se preocupe em descongelar a geladeira. O sistema automático evita o acúmulo de gelo, mantendo a eficiência.
+
+**Gaveta HortiFruti:** Ajuda você a organizar e visualizar suas frutas e legumes dentro da geladeira, mantendo seus alimentos frescos por mais tempo.
+
+**Turbo Freezer:** Resfriamento rápido ideal para festas ou para quando você chega em casa com as compras e precisa refrigerar algo rapidamente.
+
+**Iluminação LED:** Proporciona uma visão clara do interior da geladeira, economizando energia.
+
+**Design sustentável:** Puxador feito com material parcialmente reciclado, ajudando a reduzir o desperdício por meio da circularidade.
+
+**Bandeja de Ovos:** Oferece espaço organizado para até 12 ovos.
+
+**Forma de Gelo:** Capacidade de até 30 cubos de gelo para manter suas bebidas sempre geladas.
+
+## 📌 Design
+
+O design da Geladeira Electrolux IF44 foi pensado para unir funcionalidade, durabilidade e praticidade.
+
+**Cor branca:** O design clássico e atemporal na cor branca combina com diferentes estilos de decoração de cozinha.
+
+**Congelador superior:** Design tradicional com freezer na parte superior, facilitando o acesso.
+
+**Puxador sustentável:** Feito com material parcialmente reciclado, ajudando a reduzir o desperdício.
+
+**Iluminação LED:** Ilumina todo o interior do refrigerador, proporcionando melhor visualização e economia de energia.
+
+**Gaveta HortiFruti:** Compartimento específico para frutas e legumes, mantendo-os frescos e organizados.
+
+**Dimensões equilibradas:** 60,4cm de largura, 1,85m de altura e 71,2cm de profundidade, se adaptando a diferentes espaços.
+
+**Porta-ovos:** Compartimento organizado para até 12 ovos.
+
+**Forma de Gelo:** Capacidade para até 30 cubos de gelo.
+
+## 📌 Funcionalidades
+
+**Tecnologia AutoSense:** Controle automático de temperatura que prolonga a vida útil dos alimentos em até 30%¹.
+
+**Tecnologia Inverter:** Temperatura mais estável e redução no consumo de energia.
+
+**Sistema Frost Free:** Nunca mais descongele.
+
+**Turbo Freezer:** Resfriamento rápido para momentos de necessidade.
+
+**Gaveta HortiFruti:** Organização e frescor para frutas e legumes.
+
+**Iluminação LED:** Visão clara e economia de energia.
+
+**Bandeja de Ovos:** Organização para até 12 ovos.
+
+**Forma de Gelo:** Capacidade de até 30 cubos de gelo.
+
+**Acessórios exclusivos:** Compatível com TasteGuard (elimina odores até 9x mais rápido³), IceStock (recipiente extra para gelo) e Vacuum Food Pres (preserva nutrientes até 5x mais⁴) - todos vendidos separadamente.
+
+## 📌 Ideal para
+
+- **Famílias:** Capacidade de 400L para armazenar muitos alimentos
+- **Quem busca tecnologia:** AutoSense e Inverter para melhor conservação
+- **Quem quer economia:** Tecnologia Inverter reduz o consumo de energia
+- **Quem não quer descongelar:** Sistema Frost Free automático
+- **Quem valoriza organização:** Gaveta HortiFruti e bandeja de ovos
+- **Quem busca sustentabilidade:** Puxador com material reciclado
+- **Quem quer praticidade:** Turbo Freezer e iluminação LED
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Esta geladeira é altamente recomendada para:
+
+**Famílias que buscam tecnologia e eficiência:** A tecnologia AutoSense prolonga a vida útil dos alimentos em até 30%¹, enquanto o Inverter reduz o consumo de energia.
+
+**Pessoas que valorizam organização:** A Gaveta HortiFruti, a Bandeja de Ovos e a Forma de Gelo facilitam a organização.
+
+**Quem busca praticidade e comodidade:** O sistema Frost Free elimina a necessidade de descongelar, enquanto o Turbo Freezer acelera o resfriamento.
+
+**Pessoas que valorizam sustentabilidade:** O puxador com material reciclado e a eficiência energética são escolhas sustentáveis.
+
+**Quer alimentos sempre frescos:** A tecnologia AutoSense e a Gaveta HortiFruti mantêm os alimentos preservados.
+
+**Quem busca qualidade e durabilidade:** Marca Electrolux, com mais de 1000 vendidos e 4.8 estrelas.
+
+**Quem quer personalizar a experiência:** Compatível com acessórios exclusivos TasteGuard, IceStock e Vacuum Food Pres.
+
+## 📌 Diferenciais
+
+O que torna a Geladeira Electrolux IF44 única no mercado?
+
+**Tecnologia AutoSense:** Controle automático de temperatura que prolonga a vida útil dos alimentos em até 30%¹, um diferencial significativo no mercado.
+
+**Tecnologia Inverter:** Temperatura mais estável e redução no consumo de energia, garantindo economia na conta de luz.
+
+**Turbo Freezer:** Resfriamento rápido para momentos de necessidade, ideal para festas ou compras.
+
+**Puxador com material reciclado:** Design sustentável que ajuda a reduzir o desperdício.
+
+**Gaveta HortiFruti:** Organização e frescor para frutas e legumes.
+
+**Compatível com acessórios exclusivos:** TasteGuard (elimina odores até 9x mais rápido³), IceStock e Vacuum Food Pres (preserva nutrientes até 5x mais⁴).
+
+**Marca Electrolux:** Reconhecida mundialmente pela qualidade, inovação e durabilidade.
+
+**Avaliação 4.8 estrelas com 494 reviews:** Excelente satisfação dos clientes.
+
+## 📌 Motivos para Comprar
+
+✅ **Tecnologia AutoSense** - controla temperatura e prolonga vida útil dos alimentos em até 30%¹
+
+✅ **Tecnologia Inverter** - temperatura estável e redução no consumo de energia
+
+✅ **Capacidade total de 400L** - espaço para toda a família
+
+✅ **Sistema Frost Free** - nunca mais descongele
+
+✅ **Gaveta HortiFruti** - organização e frescor para frutas e legumes
+
+✅ **Turbo Freezer** - resfriamento rápido
+
+✅ **Iluminação LED** - visão clara e economia de energia
+
+✅ **Puxador com material reciclado** - design sustentável
+
+✅ **Bandeja de Ovos** - organização para até 12 ovos
+
+✅ **Forma de Gelo** - capacidade para 30 cubos
+
+✅ **Compatível com acessórios exclusivos** - TasteGuard, IceStock, Vacuum Food Pres
+
+✅ **Marca Electrolux** - qualidade e inovação
+
+✅ **Mais de 1000 vendidos** - produto testado e aprovado
+
+✅ **Avaliação 4.8 estrelas** - excelente satisfação
+
+✅ **19% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos Electrolux são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. Qual a capacidade total da geladeira?**
+A capacidade total é de 400L.
+
+**3. A geladeira tem tecnologia AutoSense?**
+Sim, a tecnologia AutoSense controla a temperatura automaticamente e prolonga a vida útil dos alimentos em até 30%¹.
+
+**4. A geladeira tem tecnologia Inverter?**
+Sim, a tecnologia Inverter mantém a temperatura mais estável e reduz o consumo de energia.
+
+**5. A geladeira é Frost Free?**
+Sim, o sistema Frost Free elimina a necessidade de descongelar.
+
+**6. A geladeira tem Gaveta HortiFruti?**
+Sim, a Gaveta HortiFruti ajuda a organizar e visualizar frutas e legumes.
+
+**7. A geladeira tem Turbo Freezer?**
+Sim, o Turbo Freezer é ideal para resfriamento rápido.
+
+**8. A geladeira tem iluminação LED?**
+Sim, a iluminação LED proporciona visão clara e economiza energia.
+
+**9. A geladeira tem bandeja de ovos?**
+Sim, a bandeja oferece espaço organizado para até 12 ovos.
+
+**10. A geladeira tem forma de gelo?**
+Sim, a forma de gelo tem capacidade de até 30 cubos.
+
+**11. O puxador é feito de material reciclado?**
+Sim, o puxador é feito com material parcialmente reciclado.
+
+**12. A geladeira é compatível com acessórios exclusivos?**
+Sim, é compatível com TasteGuard, IceStock e Vacuum Food Pres (vendidos separadamente).
+
+**13. Qual a voltagem disponível?**
+A geladeira está disponível nas voltagens 127V e 220V.
+
+**14. Qual a altura da geladeira?**
+A altura é de 1,85m (185 cm).
+
+**15. Qual a largura da geladeira?**
+A largura é de 60,4 cm.
+
+**16. Qual a profundidade da geladeira?**
+A profundidade é de 71,2 cm.
+
+**17. A geladeira tem porta-ovos?**
+Sim, possui porta-ovos.
+
+**18. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Electrolux.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Electrolux |
+| **Modelo** | IF44 |
+| **Tipo** | Duplex |
+| **Cor** | Branca |
+| **Capacidade** | 400L |
+| **Tecnologia** | AutoSense e Inverter |
+| **Tipo de Degelo** | Frost Free |
+| **Congelador** | Superior |
+| **Iluminação** | LED |
+| **Gaveta HortiFruti** | Sim |
+| **Turbo Freezer** | Sim |
+| **Bandeja de Ovos** | Sim (até 12 ovos) |
+| **Forma de Gelo** | Sim (até 30 cubos) |
+| **Porta-ovos** | Sim |
+| **Puxador** | Material parcialmente reciclado |
+| **Acessórios Compatíveis** | TasteGuard, IceStock, Vacuum Food Pres |
+| **Altura** | 185 cm |
+| **Largura** | 60,4 cm |
+| **Profundidade** | 71,2 cm |
+| **Origem** | Nacional |
+| **Garantia** | Conforme política da marca |
+| **Itens Inclusos** | 1 Geladeira, 1 Manual de Instruções |
+
+## 📌 Conclusão
+
+A **Geladeira Electrolux Frost Free 400L AutoSense Branca IF44** é uma escolha excepcional para quem busca um eletrodoméstico que une tecnologia avançada, eficiência energética e design prático. Com sua capacidade de 400L, tecnologia AutoSense que prolonga a vida útil dos alimentos em até 30%¹, sistema Frost Free, tecnologia Inverter, Gaveta HortiFruti, Turbo Freezer e design sustentável com puxador reciclado, esta geladeira atende às necessidades das famílias modernas que valorizam qualidade, praticidade e sustentabilidade.
+
+O selo de "Mais Vendido" com mais de 1000 unidades comercializadas e a excelente avaliação de 4.8 estrelas com 494 reviews atestam a qualidade superior do produto e a satisfação dos compradores. Aproveite esta oferta com 19% de desconto e garanta já sua Geladeira Electrolux para transformar sua cozinha.
+
+¹ Resultados obtidos em testes realizados pela FURB (Universidade Regional de Blumenau) com morangos, cogumelos e leite.
+³ Comparado ao uso do bicarbonato de sódio, segundo procedimento interno testado no DM90X.
+⁴ Com base em testes internos que compararam abacates e maçãs armazenados em pote hermético a vácuo com um recipiente aberto na geladeira.
+  `,
+  marca: "Electrolux",
+  keywords: [
+    "geladeira electrolux frost free",
+    "geladeira 400l autosense",
+    "geladeira duplex branca",
+    "geladeira electrolux if44",
+    "geladeira com tecnologia autosense",
+    "geladeira com inverter",
+    "geladeira com gaveta hortifruti",
+    "geladeira com turbo freezer",
+    "geladeira com iluminação led",
+    "geladeira com puxador reciclado",
+    "geladeira com bandeja de ovos",
+    "geladeira com forma de gelo",
+    "geladeira frost free 400l",
+    "geladeira electrolux branca",
+    "eletrodoméstico para cozinha",
+    "geladeira duplex 400l",
+    "geladeira economica",
+    "geladeira com acessórios exclusivos",
+    "geladeira tasteguard",
+    "geladeira electrolux 400 litros"
+  ],
+  seoTitle: "Geladeira Electrolux Frost Free 400L AutoSense Branca IF44",
+  seoDescription: "Geladeira Electrolux 400L com AutoSense, Inverter e Frost Free. Prolonga vida útil dos alimentos em 30%, Turbo Freezer, LED. 4.8★ (494 reviews). 19% OFF no Pix!"
+},
+{
+  id: "p-imp-135",
+  slug: "geladeira-electrolux-frost-free-431l-inox-side-by-side-es40s-autosense",
+  category: "geladeiras",
+  mainCategory: "eletrodomesticos",
+  name: "Geladeira Electrolux Frost Free 431L Inox Side by Side ES40S com AutoSense e Tecnologia Inverter",
+  imageFile: "/imagens/produtos/geladeira-electrolux-frost-free-431l-inox-side-by-side-es40s.webp",
+  displayImage: "/imagens/produtos/geladeira-electrolux-frost-free-431l-inox-side-by-side-es40s.webp",
+  alt: "Geladeira Electrolux Frost Free 431L na cor inox lado a lado com painel digital e tecnologia AutoSense",
+  rating: 4.9,
+  reviews: 131,
+  discount: 30,
+  price: 4781.33,
+  originalPrice: 6879.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/22MvXs7",
+  descricao: `
+# Geladeira Electrolux Frost Free 431L Inox Side by Side ES40S com AutoSense e Tecnologia Inverter
+
+## 📌 Introdução
+
+A **Geladeira Electrolux Frost Free Inverter 431L AutoSense Side by Side ES40S** chega para transformar completamente a forma como você armazena e preserva seus alimentos. Este eletrodoméstico foi projetado para quem busca o que há de mais avançado em refrigeração, unindo design sofisticado, tecnologia de ponta e eficiência energética em um único produto.
+
+Com seu design **Side by Side** moderno e acabamento em inox, esta geladeira não apenas impressiona visualmente, mas também oferece um dos sistemas de conservação mais inteligentes do mercado. A tecnologia AutoSense, exclusiva da Electrolux, monitora e ajusta automaticamente a temperatura interna, prolongando a vida útil dos seus alimentos em até 30% — uma solução inteligente para quem valoriza cada ingrediente e deseja reduzir o desperdício.
+
+Além disso, o modelo conta com **tecnologia Inverter**, que garante maior estabilidade térmica e economia de energia de até 30,4%, mantendo suas compras frescas por mais tempo enquanto reduz o impacto na conta de luz. Ideal para famílias que buscam praticidade, sustentabilidade e um toque de elegância na cozinha.
+
+## 📌 Design e Acabamento
+
+A Geladeira ES40S foi pensada para ser o centro das atenções na sua cozinha. O acabamento em **inox look** confere um visual contemporâneo e sofisticado, que se adapta facilmente a diferentes estilos de decoração — do minimalista ao mais clássico.
+
+O formato **Side by Side** oferece duas portas que se abrem de maneira independente, permitindo acesso rápido e organizado tanto ao refrigerador quanto ao freezer. Este design facilita a visualização de todos os alimentos de uma só vez, eliminando a necessidade de ficar procurando itens no fundo de prateleiras.
+
+Com uma altura generosa e dimensões pensadas para otimizar o espaço, a ES40S combina perfeitamente com cozinhas planejadas e ambientes que valorizam funcionalidade e estética.
+
+## 📌 Tecnologia e Inovação
+
+**AutoSense — Inteligência a favor dos seus alimentos**
+
+A tecnologia AutoSense é um dos grandes diferenciais deste modelo. Sensores inteligentes monitoram constantemente a temperatura interna, ajustando-a de acordo com as necessidades do momento. Isso significa que mesmo se você esquecer algo no fundo da geladeira ou se a porta for aberta com frequência, seus alimentos permanecerão frescos e saborosos por até 30% mais tempo.
+
+**Tecnologia Inverter — Economia e eficiência**
+
+O compressor Inverter trabalha de forma contínua e ajustável, mantendo a temperatura interna estável e evitando picos de consumo de energia. Com essa tecnologia, você pode economizar até 30,4% na conta de luz, sem abrir mão da qualidade de conservação dos alimentos. Além disso, o funcionamento mais silencioso torna a geladeira ainda mais agradável no dia a dia.
+
+**SmartBivolt — Versatilidade sem preocupações**
+
+A tecnologia SmartBivolt é um diferencial pensado para quem busca praticidade. Este sistema permite que a geladeira opere em tensões de 127V e 220V, adaptando-se automaticamente a diferentes redes elétricas. Mais do que isso: o aparelho funciona de forma estável em uma ampla faixa de voltagem, de 90V a 310V, e suporta picos de até 350V, oferecendo maior durabilidade e proteção contra oscilações.
+
+**Painel Digital com Ocasiões Especiais**
+
+O painel digital intuitivo coloca o controle na palma da sua mão. Com ele, você pode ajustar a temperatura e ativar funções especiais sem precisar abrir a porta, preservando o frio interno. As funções incluem:
+
+- **Drinks:** resfria rapidamente suas bebidas
+- **Compras:** acelera o resfriamento para novos alimentos
+- **Festa:** mantém a temperatura ideal para momentos especiais
+- **Bloqueio:** evita ajustes acidentais
+
+## 📌 Organização e Capacidade
+
+Com **capacidade total de 431 litros**, a ES40S oferece espaço generoso para armazenar todos os alimentos da sua família, distribuídos de forma inteligente entre refrigerador e freezer.
+
+**Refrigerador — Organização versátil**
+
+- **Gaveta HortiNatura:** tecnologia exclusiva com vedação especial que mantém frutas e vegetais frescos por até 2x mais tempo, reduzindo o desperdício e preservando os nutrientes.
+- **Duas gavetas no refrigerador:** ideais para organizar itens grandes, como hortaliças e legumes.
+- **Prateleiras ajustáveis:** permitem personalizar o espaço conforme sua necessidade.
+- **Porta Ovos:** compartimento prático com capacidade para até 12 unidades.
+
+**Freezer Side by Side — 164 litros de espaço inteligente**
+
+- **Duas gavetas:** oferecem organização versátil para diferentes tipos de alimentos congelados.
+- **IceMax:** compartimento exclusivo para gelo, de fácil remoção, que evita respingos e não mistura odores — você sempre terá gelo à disposição sem comprometer a qualidade dos outros alimentos.
+
+## 📌 Benefícios que fazem a diferença
+
+- **Economia de energia:** tecnologia Inverter com redução de até 30,4% no consumo.
+- **Preservação prolongada:** alimentos frescos por até 30% mais tempo com AutoSense.
+- **Freezer eficiente:** 164 litros com duas gavetas para organização.
+- **Fraturas e legumes sempre crocantes:** Gaveta HortiNatura com vedação especial.
+- **Gelo sempre à mão:** IceMax prático e higiênico.
+- **Controle total:** painel digital com funções para diferentes ocasiões.
+- **Design premium:** inox look que valoriza qualquer cozinha.
+- **Proteção e durabilidade:** SmartBivolt contra oscilações elétricas.
+
+## 📌 Ideal para
+
+- **Famílias grandes:** 431 litros de capacidade total
+- **Quem cozinha em casa:** preservação prolongada dos alimentos
+- **Quem recebe amigos e familiares:** funções Drinks e Festa
+- **Quem quer economia:** tecnologia Inverter e eficiência energética A
+- **Quem valoriza design:** acabamento em inox sofisticado
+- **Quem busca praticidade:** painel digital e Side by Side
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. Qual a capacidade total da geladeira?**
+A capacidade total é de 431 litros, sendo o refrigerador com amplo espaço para itens do dia a dia e o freezer com 164 litros para alimentos congelados.
+
+**2. A geladeira tem tecnologia AutoSense?**
+Sim, a tecnologia AutoSense ajusta automaticamente a temperatura para preservar seus alimentos por até 30% mais tempo.
+
+**3. O que é a tecnologia Inverter?**
+O compressor Inverter mantém a temperatura mais estável, economizando até 30,4% de energia e funcionando de forma mais silenciosa.
+
+**4. A geladeira é bivolt?**
+Sim, a tecnologia SmartBivolt permite operação em 127V ou 220V, com funcionamento estável entre 90V e 310V e suporte a picos de até 350V.
+
+**5. O que é o painel digital com Ocasiões Especiais?**
+É um painel que permite controlar temperatura e ativar funções como Drinks, Compras, Festa e Bloqueio sem abrir a porta.
+
+**6. A geladeira tem Gaveta HortiNatura?**
+Sim, a Gaveta HortiNatura mantém frutas e vegetais frescos por até 2x mais tempo graças a uma vedação especial.
+
+**7. Qual a capacidade do freezer?**
+O freezer tem capacidade de 164 litros com duas gavetas para organização versátil.
+
+**8. A geladeira tem dispenser de gelo?**
+Sim, o IceMax é um compartimento de fácil remoção para gelo, sem respingos e sem misturar odores.
+
+**9. A geladeira tem porta ovos?**
+Sim, possui um prático Porta Ovos com capacidade para até 12 unidades.
+
+**10. A geladeira é Frost Free?**
+Sim, o sistema Frost Free elimina a necessidade de descongelar, economizando tempo e esforço na limpeza.
+
+**11. Qual a voltagem da geladeira?**
+A geladeira opera em 127V e 220V (SmartBivolt).
+
+**12. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Electrolux.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Electrolux |
+| **Modelo** | ES40S |
+| **Tipo** | Side by Side |
+| **Cor** | Inox Look (Cinza) |
+| **Capacidade Total** | 431L |
+| **Capacidade do Freezer** | 164L |
+| **Tecnologia** | AutoSense, Inverter, SmartBivolt |
+| **Tipo de Degelo** | Frost Free |
+| **Painel** | Digital com Ocasiões Especiais |
+| **Gaveta HortiNatura** | Sim |
+| **IceMax** | Sim |
+| **Porta Ovos** | Sim (até 12 unidades) |
+| **Gavetas no Refrigerador** | 2 |
+| **Gavetas no Freezer** | 2 |
+| **SmartBivolt** | 127V/220V (90V a 310V) |
+| **Eficiência Energética** | A |
+| **Garantia** | Conforme política da marca |
+
+## 📌 Conclusão
+
+A **Geladeira Electrolux Frost Free 431L Inox Side by Side ES40S** é muito mais do que um eletrodoméstico — é um investimento inteligente para quem valoriza qualidade, inovação e sustentabilidade no dia a dia.
+
+Com tecnologias que preservam seus alimentos por mais tempo, economizam energia e oferecem praticidade total, este modelo atende plenamente as necessidades de famílias modernas que buscam o melhor em refrigeração. O design side by side em inox, o painel digital intuitivo e a organização inteligente com gavetas específicas tornam este modelo uma escolha premium para qualquer cozinha.
+
+Com mais de 500 unidades vendidas e avaliação 4.9 estrelas, a ES40S já conquistou a confiança de centenas de consumidores. Aproveite a oferta com 30% de desconto no Pix e eleve o padrão da sua cozinha com a excelência Electrolux.
+  `,
+  marca: "Electrolux",
+  keywords: [
+    "geladeira electrolux frost free",
+    "geladeira side by side 431l",
+    "geladeira inox electrolux",
+    "geladeira com autosense",
+    "geladeira com tecnologia inverter",
+    "geladeira es40s",
+    "geladeira bivolt",
+    "geladeira com painel digital",
+    "geladeira com gaveta hortinatura",
+    "geladeira com icemax",
+    "geladeira frost free side by side",
+    "geladeira electrolux inox",
+    "geladeira com freezer 164l",
+    "geladeira smartbivolt",
+    "eletrodoméstico para cozinha",
+    "geladeira com eficiência energética a",
+    "geladeira de 431 litros",
+    "geladeira com porta ovos",
+    "geladeira moderna inox",
+    "geladeira electrolux 431l"
+  ],
+  seoTitle: "Geladeira Electrolux Side by Side 431L Inox ES40S | AutoSense",
+  seoDescription: "Geladeira Electrolux 431L side by side inox com AutoSense, Inverter e SmartBivolt. Preserva alimentos por até 30% mais, economia de energia, painel digital. 4.9★ (131 reviews). 30% OFF!"
+},
+{
+  id: "p-imp-136",
+  slug: "geladeira-electrolux-frost-free-435l-inox-side-by-side-is4s-inverter",
+  category: "geladeiras",
+  mainCategory: "eletrodomesticos",
+  name: "Geladeira Electrolux IS4S Frost Free Inverter 435L Side by Side Inox Look com Máquina de Gelo",
+  imageFile: "/imagens/produtos/geladeira-electrolux-frost-free-435l-inox-side-by-side-is4s.webp",
+  displayImage: "/imagens/produtos/geladeira-electrolux-frost-free-435l-inox-side-by-side-is4s.webp",
+  alt: "Geladeira Electrolux IS4S 435L na cor inox look side by side com máquina de gelo e display digital",
+  rating: 4.9,
+  reviews: 1955,
+  discount: 0,
+  price: 4779.00,
+  originalPrice: 4799.00,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2Ao9DQ4",
+  descricao: `
+# Geladeira Electrolux IS4S Frost Free Inverter 435L Side by Side Inox Look com Máquina de Gelo
+
+## 📌 Introdução
+
+A **Geladeira Electrolux IS4S Frost Free Inverter 435L Side by Side** foi desenvolvida para quem busca o equilíbrio perfeito entre design sofisticado, tecnologia avançada e praticidade no dia a dia. Este modelo representa o que há de mais moderno em refrigeração doméstica, unindo a elegância do acabamento inox look com funcionalidades que transformam a experiência de armazenar e preservar alimentos.
+
+Com mais de 1000 unidades vendidas e uma avaliação impressionante de 4.9 estrelas, a IS4S já conquistou a confiança de milhares de consumidores que reconhecem a qualidade e inovação características da Electrolux. Seu design side by side oferece acesso facilitado a todos os compartimentos, enquanto a tecnologia Frost Free elimina o trabalho de descongelar, mantendo o freezer sempre eficiente.
+
+## 📌 Design e Acabamento
+
+O acabamento em **inox look** confere à geladeira IS4S um visual contemporâneo e sofisticado, que se destaca em qualquer cozinha. As linhas limpas e o design side by side criam uma presença imponente, enquanto o acabamento metálico reflete a luz de forma elegante, valorizando o ambiente.
+
+As **dimensões de 91 cm de largura, 1,78 m de altura e 59 cm de profundidade** foram pensadas para se adaptar a diferentes espaços, oferecendo uma geladeira espaçosa sem comprometer a circulação na cozinha.
+
+O display digital integrado ao design proporciona um toque de tecnologia, permitindo o controle preciso da temperatura de forma intuitiva e moderna.
+
+## 📌 Tecnologia e Inovação
+
+**Tecnologia Inverter — Estabilidade e economia**
+
+O compressor Inverter é um dos grandes diferenciais deste modelo. Ele opera de forma inteligente, ajustando a velocidade do motor conforme a necessidade, o que mantém a temperatura interna uniforme e evita picos de consumo de energia. Isso significa que seus alimentos ficam preservados por mais tempo, enquanto você economiza na conta de luz.
+
+**Sistema Frost Free — Adeus ao descongelamento**
+
+O sistema Frost Free é uma verdadeira revolução na rotina da cozinha. Ele evita a formação de gelo no freezer, eliminando a necessidade de descongelar manualmente. Além disso, este sistema inovador preserva a umidade dos seus alimentos por mais tempo, conservando o sabor e a textura dos produtos.
+
+**Controle de temperatura preciso**
+
+Toda vez que você abre a porta, o ar quente entra. Por isso, o controle de temperatura da IS4S permite ajustar os graus com precisão, garantindo que seus produtos permaneçam sempre frescos. O sistema conta com sensores inteligentes que monitoram constantemente o interior, mantendo a temperatura ideal para cada tipo de alimento.
+
+**Máquina de gelo integrada**
+
+A máquina de fazer gelo embutida é um diferencial que traz praticidade para o dia a dia. Sempre que você precisar, terá gelo disponível para suas bebidas, sem a necessidade de formas ou compartimentos improvisados.
+
+## 📌 Organização e Capacidade
+
+Com **capacidade total de 435 litros**, a IS4S oferece espaço generoso para armazenar todos os alimentos da sua família, distribuídos de forma inteligente entre refrigerador e freezer.
+
+**Refrigerador — Organização versátil**
+
+- **4 prateleiras ajustáveis:** permitem personalizar o espaço conforme sua necessidade, facilitando a localização dos produtos
+- **Porta-ovos:** compartimento prático para manter seus ovos organizados e seguros
+- **Amplo espaço:** para acomodar desde pequenos potes até grandes travessas
+
+**Freezer Side by Side — 145 litros de espaço inteligente**
+
+- **4 prateleiras:** oferecem organização versátil para diferentes tipos de alimentos congelados
+- **Distribuição eficiente:** permite separar por categorias, facilitando o acesso
+
+## 📌 Benefícios que fazem a diferença
+
+- **Design side by side:** acesso facilitado a todos os compartimentos
+- **Acabamento inox look:** sofisticação e modernidade
+- **Tecnologia Inverter:** economia de energia e temperatura estável
+- **Sistema Frost Free:** nunca mais descongele
+- **Máquina de gelo integrada:** gelo sempre disponível
+- **Display digital:** controle preciso e intuitivo
+- **Capacidade de 435L:** espaço para toda a família
+- **4 prateleiras no refrigerador:** organização personalizada
+- **4 prateleiras no freezer:** armazenamento eficiente
+
+## 📌 Ideal para
+
+- **Famílias grandes:** 435 litros de capacidade total
+- **Quem recebe visitas:** máquina de gelo integrada
+- **Quem busca economia:** tecnologia Inverter
+- **Quem não quer descongelar:** sistema Frost Free
+- **Quem valoriza design:** inox look sofisticado
+- **Quem busca praticidade:** display digital e controle preciso
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. Qual a capacidade total da geladeira?**
+A capacidade total é de 435 litros, com espaço generoso para armazenar todos os alimentos da sua família.
+
+**2. A geladeira tem máquina de fazer gelo?**
+Sim, a IS4S possui máquina de gelo integrada, garantindo gelo sempre disponível para suas bebidas.
+
+**3. A geladeira tem tecnologia Inverter?**
+Sim, o compressor Inverter mantém a temperatura uniforme e proporciona economia de energia.
+
+**4. A geladeira é Frost Free?**
+Sim, o sistema Frost Free elimina a formação de gelo no freezer, dispensando o descongelamento manual.
+
+**5. Qual a voltagem disponível?**
+A geladeira está disponível nas voltagens 127V e 220V.
+
+**6. Quantas prateleiras tem o refrigerador?**
+O refrigerador conta com 4 prateleiras ajustáveis para organização personalizada.
+
+**7. Qual a capacidade do freezer?**
+O freezer tem capacidade de 145 litros com 4 prateleiras.
+
+**8. A geladeira tem display digital?**
+Sim, o display digital permite controle preciso da temperatura de forma intuitiva.
+
+**9. Qual a altura da geladeira?**
+A altura é de 1,78 m.
+
+**10. Qual a largura da geladeira?**
+A largura é de 91 cm.
+
+**11. A geladeira tem porta-ovos?**
+Sim, possui porta-ovos para manter seus ovos organizados.
+
+**12. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Electrolux.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Electrolux |
+| **Modelo** | IS4S |
+| **Tipo** | Side by Side |
+| **Cor** | Inox Look |
+| **Capacidade Total** | 435L |
+| **Capacidade do Freezer** | 145L |
+| **Tecnologia** | Inverter |
+| **Tipo de Degelo** | Frost Free |
+| **Display** | Digital |
+| **Máquina de Gelo** | Sim |
+| **Porta-ovos** | Sim |
+| **Prateleiras no Refrigerador** | 4 |
+| **Prateleiras no Freezer** | 4 |
+| **Largura** | 91 cm |
+| **Altura** | 1,78 m |
+| **Profundidade** | 59 cm |
+| **Garantia** | Conforme política da marca |
+
+## 📌 Conclusão
+
+A **Geladeira Electrolux IS4S Frost Free Inverter 435L Side by Side** é a escolha ideal para quem busca um eletrodoméstico que une design sofisticado, tecnologia de ponta e praticidade no dia a dia. Com seu sistema Frost Free que elimina o descongelamento, tecnologia Inverter que garante economia e estabilidade, máquina de gelo integrada e acabamento inox look, este modelo atende plenamente as necessidades das famílias modernas.
+
+Com mais de 1000 unidades vendidas e avaliação 4.9 estrelas, a IS4S já conquistou a confiança de milhares de consumidores. Aproveite esta oportunidade e eleve o padrão da sua cozinha com a excelência Electrolux.
+  `,
+  marca: "Electrolux",
+  keywords: [
+    "geladeira electrolux side by side",
+    "geladeira 435l inox",
+    "geladeira com máquina de gelo",
+    "geladeira frost free inverter",
+    "geladeira is4s",
+    "geladeira electrolux inox look",
+    "geladeira com display digital",
+    "geladeira side by side 435l",
+    "geladeira com porta ovos",
+    "geladeira freezer 145l",
+    "geladeira com tecnologia inverter",
+    "eletrodoméstico para cozinha",
+    "geladeira elegante inox",
+    "geladeira de 435 litros",
+    "geladeira com 4 prateleiras",
+    "geladeira frost free side by side",
+    "geladeira electrolux is4s",
+    "geladeira moderna inox",
+    "geladeira com gelo automático",
+    "geladeira bivolt 127 220v"
+  ],
+  seoTitle: "Geladeira Electrolux Side by Side 435L Inox IS4S | Máquina de Gelo",
+  seoDescription: "Geladeira Electrolux 435L side by side inox com máquina de gelo, Inverter e Frost Free. Display digital, 4 prateleiras. 4.9★ (1.955 reviews). Entrega rápida!"
+},
+{
+  id: "p-imp-137",
+  slug: "geladeira-brastemp-frost-free-385l-duplex-branca-brm46mb-xpert-inverter",
+  category: "geladeiras",
+  mainCategory: "eletrodomesticos",
+  name: "Geladeira Brastemp Frost Free 385 Litros Duplex Branca BRM46MB com Xpert Inverter e Turbo Freezer",
+  imageFile: "/imagens/produtos/geladeira-brastemp-frost-free-385l-duplex-branca-brm46mb.webp",
+  displayImage: "/imagens/produtos/geladeira-brastemp-frost-free-385l-duplex-branca-brm46mb.webp",
+  alt: "Geladeira Brastemp Frost Free 385L na cor branca com tecnologia Xpert Inverter e prateleiras de vidro temperado",
+  rating: 4.9,
+  reviews: 3001,
+  discount: 34,
+  price: 2552.37,
+  originalPrice: 3889.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1y9GxTw",
+  descricao: `
+# Geladeira Brastemp Frost Free 385 Litros Duplex Branca BRM46MB com Xpert Inverter e Turbo Freezer
+
+## 📌 Introdução
+
+A **Geladeira Brastemp Frost Free 385 Litros Duplex Branca BRM46MB** é a escolha número 1 entre os consumidores, conquistando o primeiro lugar na categoria Geladeiras com mais de 5 mil unidades vendidas. Este modelo é a prova de que qualidade, inovação e confiabilidade andam juntas, oferecendo uma solução completa para famílias que buscam praticidade e eficiência no dia a dia.
+
+Com a tecnologia **Xpert Inverter**, esta geladeira reduz o consumo de energia em até 33% enquanto mantém a estabilidade da temperatura interna, garantindo que seus alimentos fiquem preservados por mais tempo. O sistema **Frost Free** elimina a necessidade de descongelar, enquanto o **Turbo Freezer** acelera o resfriamento de bebidas e alimentos quando você mais precisa.
+
+A marca Brastemp, referência absoluta no mercado de eletrodomésticos, entrega neste modelo uma geladeira que une design clássico, tecnologia de ponta e durabilidade excepcional.
+
+## 📌 Design e Acabamento
+
+A geladeira BRM46MB apresenta um design atemporal na cor branca, que se adapta perfeitamente a diferentes estilos de cozinha, do mais clássico ao contemporâneo. O acabamento clean e as linhas sóbrias criam uma presença discreta mas elegante, valorizando o ambiente sem competir com a decoração.
+
+O modelo **Duplex** oferece duas portas independentes, com freezer na parte superior e refrigerador na parte inferior, facilitando o acesso e a organização. As **prateleiras de vidro temperado** são um destaque à parte: além de suportarem peso, permitem a limpeza fácil de resíduos líquidos com um simples pano úmido, mantendo a higiene e a praticidade.
+
+A **gaveta multiuso** e o **compartimento para vegetais** segregam itens específicos, otimizando o espaço interno e facilitando a localização dos alimentos.
+
+## 📌 Tecnologia e Inovação
+
+**Xpert Inverter — Economia e estabilidade**
+
+A tecnologia Xpert Inverter é o coração inteligente desta geladeira. O compressor opera de forma contínua e ajustável, mantendo a temperatura interna estável e evitando picos de consumo de energia. O resultado: uma economia de até 33% na conta de luz, sem comprometer a qualidade de conservação dos alimentos.
+
+**Smart Cold — Controle preciso de temperatura**
+
+A tecnologia Smart Cold controla de forma precisa a temperatura do refrigerador, garantindo menos oscilações e melhor preservação dos alimentos. Isso significa que frutas, legumes, carnes e laticínios mantêm suas características por mais tempo, reduzindo o desperdício.
+
+**Turbo Freezer — Resfriamento acelerado**
+
+Ideal para momentos em que você precisa de um resfriamento mais rápido, o Turbo Freezer é um sistema acoplado que gelifica bebidas e alimentos rapidamente. Perfeito para festas, churrascos ou quando você chega das compras e precisa resfriar algo com urgência.
+
+**Safe Power — Proteção contra imprevistos**
+
+A tecnologia Safe Power é um verdadeiro diferencial. Ela mantém os alimentos congelados por até 12 horas após uma falta de energia, protegendo seus mantimentos contra o descongelamento. Além disso, o sistema protege a geladeira contra picos de energia, aumentando a durabilidade do aparelho.
+
+## 📌 Organização e Capacidade
+
+Com **capacidade total de 385 litros**, esta geladeira comporta o armazenamento de alimentos para famílias de médio porte com organização inteligente.
+
+**Refrigerador — Espaço amplo e versátil**
+
+- **Prateleiras de vidro temperado:** resistentes e fáceis de limpar
+- **Gaveta multiuso:** ideal para itens diversos
+- **Compartimento para vegetais:** mantém frutas e legumes frescos por mais tempo
+- **Organização otimizada:** segregação de itens específicos
+
+**Freezer — Capacidade eficiente**
+
+- **Espaço dedicado para congelados**
+- **Turbo Freezer:** acelera o resfriamento
+- **Safe Power:** proteção contra falta de energia
+
+## 📌 Benefícios que fazem a diferença
+
+- **Economia de energia:** até 33% com Xpert Inverter
+- **Temperatura estável:** Smart Cold para melhor preservação
+- **Resfriamento rápido:** Turbo Freezer para momentos de necessidade
+- **Proteção contra falta de energia:** Safe Power por até 12 horas
+- **Fácil limpeza:** prateleiras de vidro temperado
+- **Organização inteligente:** gaveta multiuso e compartimento para vegetais
+- **Design clássico:** cor branca que combina com qualquer cozinha
+
+## 📌 Ideal para
+
+- **Famílias de médio porte:** 385 litros de capacidade
+- **Quem busca economia:** Xpert Inverter com redução de até 33%
+- **Quem não quer descongelar:** Frost Free automático
+- **Quem precisa de resfriamento rápido:** Turbo Freezer
+- **Quem valoriza segurança:** Safe Power contra falta de energia
+- **Quem busca durabilidade:** marca Brastemp
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. Qual a capacidade total da geladeira?**
+A capacidade total é de 385 litros, ideal para famílias de médio porte.
+
+**2. A geladeira tem tecnologia Inverter?**
+Sim, a tecnologia Xpert Inverter reduz o consumo de energia em até 33% enquanto mantém a temperatura estável.
+
+**3. O que é a tecnologia Smart Cold?**
+A Smart Cold controla a temperatura do refrigerador com precisão, garantindo menos oscilações e melhor preservação dos alimentos.
+
+**4. A geladeira tem Turbo Freezer?**
+Sim, o Turbo Freezer acelera o resfriamento de bebidas e alimentos.
+
+**5. O que é a tecnologia Safe Power?**
+A Safe Power mantém os alimentos congelados por até 12 horas após falta de energia e protege contra picos de energia.
+
+**6. A geladeira é Frost Free?**
+Sim, o sistema Frost Free elimina a necessidade de descongelar.
+
+**7. Qual o material das prateleiras?**
+As prateleiras são de vidro temperado, que suportam peso e facilitam a limpeza.
+
+**8. A geladeira tem gaveta multiuso?**
+Sim, possui gaveta multiuso e compartimento para vegetais, otimizando o espaço interno.
+
+**9. Qual a voltagem disponível?**
+A geladeira está disponível nas voltagens 127V e 220V.
+
+**10. A geladeira tem porta-ovos?**
+O modelo BRM46MB é focado em organização eficiente, com compartimentos otimizados.
+
+**11. Qual a cor da geladeira?**
+A geladeira está disponível na cor branca, com design clássico e atemporal.
+
+**12. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Brastemp.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Brastemp |
+| **Modelo** | BRM46MB |
+| **Tipo** | Duplex (2 portas) |
+| **Cor** | Branca |
+| **Capacidade Total** | 385L |
+| **Tecnologia** | Xpert Inverter |
+| **Tipo de Degelo** | Frost Free |
+| **Controle de Temperatura** | Smart Cold |
+| **Turbo Freezer** | Sim |
+| **Safe Power** | Sim (até 12h) |
+| **Prateleiras** | Vidro Temperado |
+| **Gaveta Multiuso** | Sim |
+| **Compartimento para Vegetais** | Sim |
+| **Garantia** | Conforme política da marca |
+
+## 📌 Conclusão
+
+A **Geladeira Brastemp Frost Free 385 Litros Duplex Branca BRM46MB** é a escolha definitiva para quem busca uma geladeira que une economia, tecnologia e durabilidade. Com sua tecnologia Xpert Inverter que reduz o consumo de energia em até 33%, o sistema Frost Free que elimina o descongelamento, o Turbo Freezer para resfriamento rápido e o Safe Power que protege contra falta de energia, este modelo atende plenamente as necessidades das famílias modernas.
+
+Com o título de **"Mais Vendido"** na categoria Geladeiras e uma avaliação excepcional de 4.9 estrelas com mais de 3000 avaliações, a BRM46MB já conquistou a confiança de milhares de consumidores. Aproveite a oferta com 34% de desconto no Pix e garanta já a sua geladeira Brastemp para transformar sua cozinha.
+  `,
+  marca: "Brastemp",
+  keywords: [
+    "geladeira brastemp frost free",
+    "geladeira 385l duplex",
+    "geladeira brastemp branca",
+    "geladeira com xpert inverter",
+    "geladeira brm46mb",
+    "geladeira com turbo freezer",
+    "geladeira com safe power",
+    "geladeira com prateleira de vidro",
+    "geladeira com smart cold",
+    "geladeira com gaveta multiuso",
+    "geladeira brastemp 385 litros",
+    "geladeira frost free duplex",
+    "geladeira economica",
+    "geladeira com tecnologia inverter",
+    "eletrodoméstico para cozinha",
+    "geladeira brastemp duplex",
+    "geladeira com compartimento para vegetais",
+    "geladeira de 385l",
+    "geladeira brastemp brm46mb",
+    "geladeira branca 385l"
+  ],
+  seoTitle: "Geladeira Brastemp Frost Free 385L Duplex BRM46MB | Xpert Inverter",
+  seoDescription: "Geladeira Brastemp 385L com Xpert Inverter, Frost Free e Turbo Freezer. Economia de até 33%, Safe Power, prateleiras de vidro. 4.9★ (3.001 reviews). 34% OFF no Pix!"
 },
 
 ];
