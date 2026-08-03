@@ -388,7 +388,7 @@ export default function HomePage() {
                ============================================================ */}
           <section className="space-y-12 sm:space-y-16" aria-label="Produtos por categoria">
           
-            // app/page.tsx - Seção de grids
+            {/* app/page.tsx - Seção de grids */}
           <ProductGrid
             kicker="Conforto e Estilo"
             title="Cabeceiras"
