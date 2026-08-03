@@ -312,7 +312,7 @@ export default function MoveisParaEstudantesPage() {
           <div className="mt-4 rounded-xl bg-white p-4 text-sm text-stone-700 border border-blue-100">
             <p><strong>Por que medicina é diferente?</strong> Aluno de medicina tem 40+ livros, atlas de anatomia gigante, fica 6h na escrivaninha e precisa guardar jalecos brancos sem amassar. Guarda-roupa pequeno não serve. Cadeira barata dá dor na coluna em 1 mês.</p>
             <ul className="mt-3 list-disc pl-5 space-y-1 text-xs">
-              <li><strong>Escrivaninha 120cm ou 180cm em L:</strong> Para abrir Netter e Gray's ao mesmo tempo</li>
+              <li><strong>Escrivaninha 120cm ou 180cm em L:</strong> Para abrir Netter e Grays ao mesmo tempo</li>
               <li><strong>Cadeira Presidente Mesh ou Couro 150kg:</strong> Reclinável para cochilo entre plantões, com apoio lombar</li>
               <li><strong>Estante alta 1,98m 6 bandejas:</strong> Aguenta 30kg por prateleira - livros de medicina pesam</li>
               <li><strong>Cama Box Ortopédica Extra-Firme D28:</strong> Coluna precisa descansar, a rosa cor de rosa 88x188 D28 é ideal</li>

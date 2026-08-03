@@ -389,7 +389,7 @@ export default function FabricantesPage() {
                 </div>
                 <span>Francisco Santana · Marília-SP</span>
               </div>
-              <span className="text-[#CBB98C]">//</span>
+              <span className="text-[#CBB98C]"> </span>
               <span>rev. {LAST_UPDATED}</span>
             </div>
 
