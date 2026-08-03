@@ -11,7 +11,7 @@ export const SITE = {
   country: "BR",
   address: "Avenida das Esmeraldas, próx. 2700 - Jardim Tangará",
   postalCode: "17516-000",
-  email: "lojademoveismarilia@hotmail.com",
+  email: "contato@lojademoveismarilia.com.br",
   whatsapp: "5514996033296",
   geo: {
     lat: -22.2286908,
@@ -48,6 +48,8 @@ export const SUB_CATEGORIES = [
   { slug: "quartos", label: "Quartos", parent: "quarto" },
   { slug: "eletrodomesticos", label: "Eletrodomésticos", parent: "eletrodomesticos" },
   { slug: "home-office", label: "Home Office", parent: "escritorio" },
+    { slug: "cabeceiras", label: "Cabeceiras", parent: "quarto" }, // ✅ ADICIONADO
+
   // ===== NOVAS SUBCATEGORIAS DE ELETRODOMÉSTICOS =====
   { slug: "liquidificadores", label: "Liquidificadores", parent: "eletrodomesticos" },
   { slug: "microondas", label: "Micro-ondas", parent: "eletrodomesticos" },
@@ -77,6 +79,8 @@ export const CATEGORY_LABELS: Record<ProductCategory, string> = {
   racks: "Racks", // Se não tiver, adicione também
   comodas: "Cômodas",
   cadeiras: "Cadeiras",
+    cabeceiras: "Cabeceiras", // ✅ ADICIONADO
+
   liquidificadores: "Liquidificadores",
   microondas: "Micro-ondas",
   geladeiras: "Geladeiras e Refrigeradores",
@@ -213,8 +217,8 @@ export const products: Product[] = [
     category: "cozinhas",
     mainCategory: "cozinha",
     name: "Cozinha Compacta Pop com Armário, Balcão e Tampo Branco Madesa",
-    imageFile: "/imagens/produtos/Cozinha-Compacta-Pop-com-Armаrio-Balcao-e-Tampo-Branco-Madesa.webp",
-    displayImage: "/imagens/produtos/Cozinha-Compacta-Pop-com-Armário-Balcao-e-Tampo-Branco-Madesa.webp",
+    imageFile: "/imagens/produtos/Cozinha-Compacta-Pop-com-Armario-Balcao-e-Tampo-Branco-Madesa.webp",
+    displayImage: "/imagens/produtos/Cozinha-Compacta-Pop-com-Armario-Balcao-e-Tampo-Branco-Madesa.webp",
     alt: "Cozinha Compacta Pop com Armário, Balcão e Tampo Branco Madesa — oferta Loja de Móveis Marília",
     rating: 4.8,
     reviews: 1445,
@@ -232,12 +236,12 @@ export const products: Product[] = [
   },
   {
     id: "p-imp-007",
-    slug: "cozinha-completa-madesa-reims-310001-com-armário-e-balco-preto",
+    slug: "cozinha-completa-madesa-reims-310001-com-armário-e-balcao-preto",
     category: "cozinhas",
     mainCategory: "cozinha",
     name: "Cozinha Completa Madesa Reims 310001 com Armário e Balcão - Preto",
     imageFile: "/imagens/produtos/Cozinha-Completa-Madesa-Reims-310001-com-Armario-e-Balcao-Preto.webp",
-    displayImage: "/imagens/produtos/Cozinha-Completa-Madesa-Reims-310001-com-Armário-e-Balco-Preto.webp",
+    displayImage: "/imagens/produtos/Cozinha-Completa-Madesa-Reims-310001-com-Armario-e-Balcao-Preto.webp",
     alt: "Cozinha Completa Madesa Reims 310001 com Armário e Balcão - Preto — oferta Loja de Móveis Marília",
     rating: 4.7,
     reviews: 523,
@@ -2072,36 +2076,134 @@ Marca: Espresso Móveis | Linha: Office | Material: MDP (25mm na escrivaninha, 1
   seoDescription: "Conjunto completo com escrivaninha, gaveteiro e 2 estantes livreiro em MDF. Ideal para home office, quarto de estudante e escritório. 12% OFF. Frete para todo Brasil."
 },
 {
-  "id": "p-imp-060",
-  "slug": "sofa-canto-chaise-modulado-dominique-6-lugares-linho-bege-320cm-yescasa",
-  "category": "sofas",
-  "mainCategory": "sala",
-  "name": "Sofá de Canto Modulado com Chaise 6 Lugares Linho Bege Dominique 320cm Yescasa",
-  "imageFile": "/imagens/produtos/sofa-canto-chaise-modulado-dominique-6-lugares-linho-bege-320cm-yescasa.webp",
-  "displayImage": "/imagens/produtos/sofa-canto-chaise-modulado-dominique-6-lugares-linho-bege-320cm-yescasa.webp",
-  "alt": "Sofá de canto modulado com chaise 6 lugares linho bege 320cm Dominique Yescasa estrutura em madeira de eucalipto e assento pillow top",
-  "rating": 4.8,
-  "reviews": 10,
-  "discount": 15,
-  "price": 4830.58,
-  "originalPrice": 5750.69,
-  "badge": "ÚLTIMAS 3 UNIDADES",
-  "platform": "Mercado Livre",
-  "affiliateLink": "https://meli.la/2QUPkNC",
-  "descricao": "**Sofá de Canto Modulado Dominique 6 Lugares  Conforto, Estilo e Versatilidade para sua Sala**\n\nTransforme sua sala de estar com o **Sofá de Canto Modulado com Chaise Dominique**, da renomada Linha Prime Yescasa. Este móvel foi projetado para oferecer o máximo em conforto, durabilidade e design contemporâneo, sendo a escolha perfeita para quem busca um ambiente sofisticado e acolhedor para reunir a família ou relaxar após um dia cansativo.\n\n**Design Modular que se Adapta a Você**\nO modelo Dominique segue a tendência dos sofás modulares, que ganham cada vez mais espaço no mercado de decoração por sua flexibilidade. Ele permite uma montagem adaptável conforme a necessidade do ambiente, garantindo que se integre perfeitamente a salas de diferentes tamanhos e formatos. A chaise pode ser posicionada tanto à esquerda quanto à direita (modelo com quina esquerda, visto de frente), oferecendo versatilidade para otimizar o espaço disponível.\n\n**Conforto Superior com Tecnologia Pillow Top**\nO grande destaque deste sofá é o **assento pillow top de 18 cm**, que combina **molas Bonnel** com **espuma D-28**. A espuma D-28 é amplamente reconhecida por sua excelente densidade, proporcionando firmeza equilibrada e alta capacidade de recuperação, mantendo a forma mesmo após uso intenso. As molas Bonnel, por sua vez, oferecem um suporte uniforme e resiliente, garantindo que o sofá não deforme com o tempo. O encosto, preenchido com **fibra siliconada**, proporciona um apoio macio e aconchegante, ideal para longas horas de descanso.\n\n**Estrutura Robusta e Sustentável**\nConstruído em **madeira de eucalipto**, o sofá apresenta grande estabilidade e resistência. O eucalipto é uma alternativa sustentável que vem sendo cada vez mais utilizada na indústria moveleira, pois alia durabilidade e propriedades técnicas comparáveis a madeiras nobres. A estrutura suporta até **120 kg por assento**, garantindo segurança e firmeza para toda a família. Os pés em madeira maciça complementam o design, elevando o móvel e facilitando a limpeza do piso.\n\n**Dimensões Generosas para Acomodar Todos**\nCom **320 cm de largura**, **205 cm de profundidade** (na chaise) e **95 cm de altura total**, este sofá oferece amplo espaço para 6 pessoas. A altura do assento até o chão é de 62 cm, proporcionando uma posição ergonômica que facilita sentar e levantar, sendo ideal para pessoas de todas as idades.\n\n**Acabamento em Linho Bege – Elegância e Sofisticação**\nO tecido linho é uma escolha sofisticada para quem deseja um ambiente leve, arejado e com toque natural. Sua textura traz luminosidade ao espaço e é altamente confortável ao toque. A cor bege, uma das tonalidades mais versáteis e atemporais, combina com diferentes estilos de decoração – do minimalista ao escandinavo, passando pelo boho e rústico – e está em alta nas tendências de interiores para 2025.\n\n**Detalhes que Fazem a Diferença**\nO sofá acompanha **4 almofadas decorativas**, que aumentam o aconchego e complementam a estética do móvel. Além disso, o produto inclui kit de ferragens e manual de montagem – a montagem é de baixa complexidade e pode ser realizada por uma única pessoa. O sofá também conta com **percíntas elásticas** que reforçam a sustentação do assento, prolongando a vida útil do estofado.\n\n**Por que escolher o Sofá Dominique Yescasa?**\n- **Design contemporâneo e modular** – adapta-se a diferentes configurações de sala\n- **Conforto superior** – assento pillow top com molas Bonnel e espuma D-28\n- **Estrutura robusta e sustentável** – madeira de eucalipto com alta resistência\n- **Acabamento premium** – tecido linho bege com 4 almofadas decorativas inclusas\n- **Dimensões generosas** – 6 lugares com 320cm de largura, ideal para famílias\n- **Origem nacional** – qualidade e garantia de fábrica de 6 meses\n\n**Dúvidas Frequentes dos Nossos Clientes:**\n- **Este sofá é indicado para famílias grandes?** Sim! Com 6 lugares e estrutura que suporta até 120 kg por assento, é perfeito para acomodar toda a família.\n- **O sofá é pet friendly?** Não. O tecido linho, apesar de elegante, pode arranhar com mais facilidade. Recomendamos capas protetoras se houver animais em casa.\n- **Qual o material da estrutura?** Madeira de eucalipto, que oferece grande estabilidade e durabilidade.\n- **O sofá vem montado?** Não. Acompanha manual de montagem e kit de ferragens. A montagem é simples e pode ser feita por uma pessoa.\n- **O tecido é impermeável?** Não. Recomenda-se evitar líquidos e utilizar produtos específicos para limpeza de tecidos.\n- **Qual a garantia do produto?** 6 meses contra defeitos de fabricação.\n- **A chaise pode ser invertida de lado?** O modelo é fixo com quina esquerda (visto de frente), portanto não é possível inverter.\n- **O sofá tem baú ou gavetas?** Não. Possui apenas o espaço para acomodação.\n- **É fácil de limpar?** Sim, recomenda-se aspiração regular e limpeza a seco com produtos adequados para tecido linho.\n- **Vale a pena comprar?** Com certeza! Excelente custo-benefício para quem busca um sofá de canto com design moderno, conforto excepcional e alta durabilidade.\n\n**Especificações Técnicas:**\nMarca: Yescasa | Linha/Coleção: M201 | Modelo: Dominique | Tipo de Sofá: Sofá de Canto com Chaise Modulado | Quantidade de Lugares: 6 | Cor: Linho Bege / Bege | Material do Estofado: Tecido Linho | Material da Estrutura: Madeira Eucalipto | Material dos Pés: Madeira | Largura: 320 cm | Profundidade: 205 cm (chaise) | Altura: 95 cm | Altura do Assento: 62 cm | Altura do Encosto: 50 cm | Peso: 116 kg | Suporte por Assento: 120 kg | Tipo de Mola: Molas Bonnel | Densidade do Assento: D-28 | Enchimento do Assento: Fibra Siliconada | Enchimento do Encosto: Fibra Siliconada | Firmeza do Assento: Firme | Tipo de Encosto: Fixo | Estilo de Braço: Um Braço | Lado da Quina: Esquerdo (visto de frente) | Possui Pés: Sim | Possui Rodízio: Não | Possui Baú: Não | Possui Gavetas: Não | Possui Percintas Elásticas: Sim | Tecido Impermeável: Não | Pet Friendly: Não | Acompanha Almofadas Extras: 4 | Itens Inclusos: 1 Sofá, Kit Ferragens, Manual de Montagem | Origem: Nacional | Garantia: 6 meses | Necessita Montagem: Sim (baixa complexidade) | Ambiente Principal: Sala de Estar.",
-  "marca": "Yescasa",
-  "keywords": [
-    "sofá de canto modulado 6 lugares",
-    "sofá com chaise 320cm linho bege",
-    "sofá Dominique Yescasa",
-    "sofá modular com pillow top",
-    "sofá de canto 6 lugares bege",
-    "sofá linho bege 320cm",
-    "sofá com estrutura de eucalipto",
-    "sofá para sala de estar"
+  id: "p-imp-060",
+  slug: "sofa-de-canto-6-lugares-320cm-com-chaise-modulado-linho-bege-dominique",
+  category: "sofas",
+  mainCategory: "sala",
+  name: "Sofá de Canto 6 Lugares 320cm com Chaise Modulado Linho Bege Dominique Yescasa - Assento Pillow Top",
+  imageFile: "/imagens/produtos/sofa-canto-chaise-modulado-dominique-6-lugares-linho-bege-320cm-yescasa.webp",
+  displayImage: "/imagens/produtos/sofa-canto-chaise-modulado-dominique-6-lugares-linho-bege-320cm-yescasa.webp",
+  alt: "Sofá de canto 6 lugares 320cm com chaise modulado linho bege Dominique Yescasa 205cm profundidade pillow top molas Bonnel",
+  rating: 4.8,
+  reviews: 10,
+  discount: 15,
+  price: 4830.58,
+  originalPrice: 5750.69,
+  badge: "ÚLTIMAS 3 UNIDADES",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2QUPkNC",
+  descricao: `
+# Sofá de Canto 6 Lugares 320cm com Chaise Modulado Linho Bege Dominique Yescasa
+
+## 📌 Qual o melhor sofá de canto 6 lugares 320cm com chaise para sala grande?
+
+O **Sofá de Canto 6 Lugares 320cm com Chaise Dominique Linha Prime Yescasa** é o mais buscado para quem tem sala grande e família grande. Com **320cm de largura x 205cm de profundidade na chaise x 95cm de altura**, ele acomoda **6 pessoas de verdade** com conforto.
+
+É um **sofá de canto modulado com chaise esquerda** - você monta e adapta conforme sua sala. Tem **assento pillow top de 18cm com molas Bonnel + espuma D-28**, encosto com fibra siliconada fofa, estrutura em **madeira de eucalipto** que aguenta **120kg por assento** e 4 almofadas inclusas.
+
+Revestido em **linho bege**, cor tendência 2026 que combina com tudo e deixa a sala mais clara e sofisticada.
+
+## 📌 Por que esse sofá de canto 6 lugares 320cm é diferente?
+
+- **Sofá de canto 6 lugares 320cm grande de verdade:** 320cm de largura, não é 240cm disfarçado de 6 lugares. Ideal para sala grande 20m²+
+- **Sofá de canto com chaise 205cm:** chaise profunda de 205cm para deitar, esticar as pernas e tirar cochilo - não é chaise curta
+- **Sofá modulado com pillow top molas Bonnel:** assento de 18cm com molas Bonnel + espuma D-28 firme, não afunda e não deforma com o tempo
+- **Sofá de canto linho bege modulado:** tecido linho bege atemporal, textura natural, combina com decor minimalista, escandinava e boho
+- **Sofá de canto com estrutura de eucalipto:** madeira de eucalipto sustentável, mais resistente que pinus, com percintas elásticas e pés de madeira maciça
+
+## 📌 Vantagens desse sofá de canto modulado
+
+- **Design modular que se adapta:** monta conforme sua sala, chaise esquerda vista de frente
+- **Conforto superior:** assento pillow top 18cm + encosto fibra siliconada macia para longas horas
+- **Altura ergonômica:** 62cm de altura do assento até o chão, fácil de sentar e levantar para idosos
+- **Vem com 4 almofadas:** já vem decorado, não precisa comprar a parte
+- **Montagem simples:** 1 pessoa monta, acompanha manual e kit de ferragens
+
+## 📌 Esse sofá de canto serve pra mim?
+
+Esse sofá de canto é ideal se você procura:
+
+- **Sofá de canto 6 lugares 320cm** para sala grande
+- **Sofá de canto com chaise grande** 205cm para deitar
+- **Sofá modulado linho bege** 6 lugares que não deforma
+- **Sofá de canto com molas Bonnel e espuma D-28** firme e durável
+- **Sofá de canto Yescasa Dominique** com estrutura de madeira eucalipto
+
+## 📌 Dúvidas de quem compra sofá de canto 6 lugares
+
+**1. Qual o tamanho desse sofá de canto 6 lugares?**
+320cm largura x 205cm profundidade na chaise x 95cm altura total x 62cm altura do assento. Pesa 116kg. É sofá de canto grande para sala grande.
+
+**2. Esse sofá de canto com chaise pode inverter o lado da chaise?**
+Não. É modelo fixo com quina esquerda vista de frente. A chaise fica à esquerda quando você olha de frente para o sofá.
+
+**3. O assento desse sofá de canto é firme ou mole?**
+Firme. Assento pillow top 18cm com molas Bonnel + espuma D-28 densidade alta + fibra siliconada. Não afunda, ideal para quem tem dor nas costas.
+
+**4. Esse sofá de canto linho bege é pet friendly e impermeável?**
+Não. Linho bege não é pet friendly e não é impermeável. Se tem pet ou criança pequena, use capa protetora e evite líquidos.
+
+**5. Esse sofá de canto 6 lugares aguenta quanto peso?**
+120kg por assento, estrutura em madeira de eucalipto com percintas elásticas reforçadas. Alta resistência e durabilidade.
+
+**6. Precisa montar esse sofá modulado?**
+Sim, mas montagem de baixa complexidade. Vem com kit de ferragens e manual. Uma pessoa monta.
+
+## 📌 Ficha Técnica do Sofá de Canto Dominique
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **O que é** | Sofá de canto 6 lugares 320cm com chaise modulado |
+| **Modelo** | Dominique Linha Prime M201 |
+| **Lugares** | 6 lugares |
+| **Medida** | 320cm Largura x 205cm Profundidade chaise x 95cm Altura |
+| **Altura Assento** | 62cm até o chão - ergonômico |
+| **Altura Encosto** | 50cm |
+| **Cor** | Linho Bege / Bege |
+| **Tecido** | Linho Bege |
+| **Assento** | Pillow Top 18cm - Molas Bonnel + Espuma D-28 + Fibra Siliconada - Firme |
+| **Encosto** | Fibra Siliconada - Fixo |
+| **Estrutura** | Madeira de Eucalipto reflorestada |
+| **Pés** | Madeira maciça |
+| **Suporte** | 120kg por assento |
+| **Braço** | Um braço |
+| **Quina** | Esquerda vista de frente |
+| **Percintas** | Sim, elásticas |
+| **Baú/Gaveta** | Não possui |
+| **Almofadas** | 4 inclusas |
+| **Pet Friendly** | Não |
+| **Impermeável** | Não |
+| **Peso** | 116 kg |
+| **Origem** | Nacional |
+| **Garantia** | 6 meses |
+| **Montagem** | Sim, baixa complexidade - kit incluso |
+
+## 📌 Conclusão
+
+Se você pesquisou "sofá de canto 6 lugares 320cm", "sofá de canto com chaise grande", "sofá modulado 6 lugares linho bege" ou "sofá de canto com molas Bonnel D-28", o Dominique Yescasa é o custo-benefício que não deforma.
+
+Um sofá de canto 6 lugares 320cm com chaise 205cm, pillow top de 18cm, estrutura de eucalipto e linho bege atemporal. Últimas 3 unidades com 15% OFF.
+  `,
+  marca: "Yescasa",
+  keywords: [
+    "sofa de canto 6 lugares 320cm",
+    "sofa de canto 6 lugares com chaise",
+    "sofa de canto com chaise 320cm",
+    "sofa de canto grande 6 lugares",
+    "sofa de canto modulado 6 lugares",
+    "sofa de canto linho bege",
+    "sofa de canto 320cm bege",
+    "sofa canto 6 lugares molas Bonnel",
+    "sofa de canto pillow top D-28",
+    "sofa de canto com chaise esquerda",
+    "sofa de canto para sala grande",
+    "sofa Dominique Yescasa 320cm",
+    "sofa de canto 6 lugares com almofadas",
+    "sofa de canto estrutura eucalipto",
+    "sofa de canto 320x205"
   ],
-  "seoTitle": "Sofá de Canto Modulado 6 Lugares Linho Bege Dominique 320cm | Yescasa",
-  "seoDescription": "Sofá de canto modulado com chaise 6 lugares na cor linho bege, modelo Dominique 320cm da Yescasa. Assento pillow top com molas Bonnel e espuma D-28. Estrutura em madeira de eucalipto. 15% OFF. Últimas unidades!",
+  seoTitle: "Sofá de Canto 6 Lugares 320cm com Chaise Modulado Linho Bege Dominique Yescasa",
+  seoDescription: "Sofá de canto 6 lugares 320cm com chaise 205cm Dominique Yescasa. Linho bege, pillow top 18cm molas Bonnel + espuma D-28, estrutura eucalipto 120kg por lugar. 15% OFF!"
 },
 {
   "id": "p-imp-061",
@@ -18720,6 +18822,2848 @@ Com o título de **"Mais Vendido"** na categoria Geladeiras e uma avaliação ex
   ],
   seoTitle: "Geladeira Brastemp Frost Free 385L Duplex BRM46MB | Xpert Inverter",
   seoDescription: "Geladeira Brastemp 385L com Xpert Inverter, Frost Free e Turbo Freezer. Economia de até 33%, Safe Power, prateleiras de vidro. 4.9★ (3.001 reviews). 34% OFF no Pix!"
+},
+{
+  id: "p-imp-138",
+  slug: "guarda-roupa-casal-6-portas-2-espelhos-flora-cinamomo-off-white",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-roupa Casal 6 Portas Flora com 2 Espelhos e 3 Gavetas - Cinamomo/Off White",
+  imageFile: "/imagens/produtos/guarda-roupa-casal-6-portas-2-espelhos-3-gavetas-flora-cinamomo-off-white.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-casal-6-portas-2-espelhos-3-gavetas-flora-cinamomo-off-white.webp",
+  alt: "Guarda-roupa casal Flora com 6 portas, 2 espelhos, 3 gavetas e acabamento em cinamomo e off white",
+  rating: 0,
+  reviews: 0,
+  discount: 0,
+  price: 1799.97,
+  originalPrice: 1799.97,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1HUVxkx",
+  descricao: `
+# Guarda-roupa Casal 6 Portas Flora com 2 Espelhos e 3 Gavetas - Cinamomo/Off White
+
+## 📌 Introdução
+
+O **Guarda-roupa Casal 6 Portas Flora** é a solução perfeita para quem busca unir design sofisticado, funcionalidade e amplo espaço de armazenamento no quarto. Com um visual moderno e elegante, este móvel foi desenvolvido para atender às necessidades de casais que valorizam organização e praticidade no dia a dia.
+
+Com suas dimensões generosas de **230cm de altura, 210,5cm de largura e 46,5cm de profundidade**, o guarda-roupa Flora oferece capacidade excepcional para armazenar roupas, acessórios e objetos pessoais com total segurança. O acabamento em **pintura texturizada UV** garante durabilidade e resistência, mantendo a beleza do móvel por muitos anos.
+
+Ideal para quartos de casal, o Flora combina dois grandes espelhos integrados, portas de bater com frisos nas extremidades, estrutura interna inteligente e um design que valoriza qualquer ambiente.
+
+## 📌 Design e Acabamento
+
+O design do Guarda-roupa Flora foi pensado para impressionar. As **6 portas de bater** contam com **frisos decorativos nas extremidades**, criando um visual sofisticado e contemporâneo que se destaca no quarto. A combinação das cores **Cinamomo e Off White** oferece uma paleta versátil, que se adapta a diferentes estilos de decoração — do mais clássico ao mais moderno.
+
+Os **dois espelhos integrados** às portas centrais têm dimensões de 30cm x 125cm cada, proporcionando visualização de corpo inteiro durante o uso diário. Além de funcionais, os espelhos ampliam a sensação de espaço no ambiente, tornando o quarto mais arejado e luminoso.
+
+O acabamento externo em **pintura texturizada UV** confere ao móvel uma textura agradável ao toque e alta resistência a riscos e manchas. Os **puxadores** em MDF para as gavetas e ABS para as portas complementam o design com um toque de sofisticação.
+
+## 📌 Organização e Armazenamento
+
+Com **capacidade de carga total de 97 kg**, o guarda-roupa Flora foi projetado para armazenar com segurança um grande volume de peças de vestuário e objetos. Sua estrutura interna foi cuidadosamente planejada para otimizar cada centímetro disponível.
+
+**Compartimentos internos:**
+
+- **7 prateleiras:** oferecem espaçamento otimizado para organizar roupas dobradas, toalhas, lençóis e acessórios, com capacidade máxima de 8 kg cada.
+- **2 espaços para cabideiros em alumínio:** permitem pendurar roupas em cabides, mantendo peças como camisas, vestidos e calças sempre alinhadas e sem amassados.
+- **3 gavetas com corrediças metálicas simples:** ideais para guardar peças íntimas, meias, acessórios menores e itens que precisam de fácil acesso. Cada gaveta suporta até 3 kg.
+- **Profundidade de 46,5 cm:** dimensão que permite o armazenamento de roupas em cabideiros, acomodando cabides sem que as peças fiquem amassadas contra o fundo do móvel.
+
+**Pés de sustentação:** O móvel conta com **8 pés em ABS com 5cm de altura**, que elevam a base do guarda-roupa do solo, facilitando a limpeza e manutenção da superfície do piso.
+
+## 📌 Benefícios que fazem a diferença
+
+- **Design sofisticado:** frisos nas portas e espelhos integrados
+- **Ampla capacidade:** 7 prateleiras, 3 gavetas e cabideiros
+- **Visualização de corpo inteiro:** 2 espelhos de 30cm x 125cm
+- **Durabilidade:** pintura texturizada UV de alta resistência
+- **Organização:** espaços dedicados para diferentes tipos de peças
+- **Praticidade:** pés elevados facilitam a limpeza
+- **Estrutura robusta:** MDP com capacidade de carga total de 97 kg
+
+## 📌 Ideal para
+
+- **Quartos de casal:** espaço amplo para duas pessoas
+- **Quem valoriza organização:** compartimentos diversificados
+- **Quem busca design:** acabamento sofisticado e cores versáteis
+- **Quem tem muitas roupas:** alta capacidade de armazenamento
+- **Quem quer praticidade:** espelhos integrados e fácil acesso
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. Qual a capacidade de carga total do guarda-roupa?**
+A capacidade de carga total é de 97 kg, distribuída entre prateleiras, gavetas e cabideiros.
+
+**2. Quantas portas o guarda-roupa tem?**
+O guarda-roupa possui 6 portas de bater, com frisos decorativos nas extremidades.
+
+**3. O guarda-roupa tem espelhos?**
+Sim, possui 2 espelhos integrados às portas centrais, com dimensões de 30cm x 125cm cada.
+
+**4. Quantas gavetas o guarda-roupa tem?**
+O móvel conta com 3 gavetas internas com corrediças metálicas simples.
+
+**5. Quantas prateleiras o guarda-roupa tem?**
+São 7 prateleiras com espaçamento otimizado, com capacidade máxima de 8 kg cada.
+
+**6. O guarda-roupa tem cabideiros?**
+Sim, possui 2 espaços para cabideiros em alumínio resistente.
+
+**7. Qual o material do guarda-roupa?**
+O móvel é fabricado em MDP, com acabamento em pintura texturizada UV.
+
+**8. Quais as dimensões do guarda-roupa?**
+O guarda-roupa tem 230cm de altura, 210,5cm de largura e 46,5cm de profundidade.
+
+**9. Qual a capacidade de cada gaveta?**
+Cada gaveta suporta até 3 kg.
+
+**10. O guarda-roupa tem pés de sustentação?**
+Sim, possui 8 pés em ABS com 5cm de altura, facilitando a limpeza do piso.
+
+**11. Qual a complexidade da montagem?**
+A montagem tem complexidade alta, sendo recomendado o uso de montador especializado.
+
+**12. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Flora |
+| **Modelo** | Guarda-roupa Casal |
+| **Cor** | Cinamomo / Off White |
+| **Material** | MDP |
+| **Acabamento** | Pintura texturizada UV |
+| **Altura** | 230 cm |
+| **Largura** | 210,5 cm |
+| **Profundidade** | 46,5 cm |
+| **Quantidade de Portas** | 6 (tipo bater) |
+| **Quantidade de Espelhos** | 2 (30cm x 125cm cada) |
+| **Quantidade de Gavetas** | 3 (internas, corrediças metálicas) |
+| **Quantidade de Prateleiras** | 7 |
+| **Quantidade de Cabideiros** | 2 (em alumínio) |
+| **Capacidade de Carga Total** | 97 kg |
+| **Capacidade por Gaveta** | 3 kg |
+| **Capacidade por Prateleira** | 8 kg |
+| **Pés** | 8 pés em ABS (5cm de altura) |
+| **Material do Puxador (Gavetas)** | MDF |
+| **Material do Puxador (Portas)** | ABS |
+| **Complexidade da Montagem** | Alta (montador especializado) |
+| **Sistema de Montagem** | Parafusos e cavilhas |
+
+## 📌 Conclusão
+
+O **Guarda-roupa Casal 6 Portas Flora** é a escolha ideal para quem busca um móvel que alie design sofisticado, ampla capacidade de armazenamento e durabilidade. Com suas 6 portas, 2 espelhos integrados, 7 prateleiras, 3 gavetas e 2 cabideiros, este guarda-roupa oferece organização completa para todas as suas peças de vestuário e acessórios.
+
+O acabamento em pintura texturizada UV garante resistência e beleza por muitos anos, enquanto os pés elevados facilitam a limpeza e manutenção. Perfeito para quartos de casal, o Flora combina funcionalidade e elegância em um único móvel.
+
+Garanta já o seu Guarda-roupa Flora e transforme seu quarto em um espaço mais organizado e sofisticado.
+  `,
+  marca: "Flora",
+  keywords: [
+    "guarda-roupa casal 6 portas",
+    "guarda-roupa com espelho",
+    "guarda-roupa flora cinamomo off white",
+    "guarda-roupa casal grande",
+    "guarda-roupa com 2 espelhos",
+    "guarda-roupa 230cm altura",
+    "guarda-roupa com 7 prateleiras",
+    "guarda-roupa com 3 gavetas",
+    "guarda-roupa mdp",
+    "guarda-roupa com cabideiro",
+    "móvel para quarto de casal",
+    "guarda-roupa 210cm largura",
+    "guarda-roupa pintura uv",
+    "guarda-roupa com pés elevados",
+    "guarda-roupa flora",
+    "guarda-roupa casal moderno",
+    "armário de casal",
+    "roupeiro com espelho",
+    "guarda-roupa 6 portas espelho",
+    "móvel para quarto planejado"
+  ],
+  seoTitle: "Guarda-roupa Casal 6 Portas Flora com 2 Espelhos | Cinamomo/Off White",
+  seoDescription: "Guarda-roupa casal Flora com 6 portas, 2 espelhos, 3 gavetas e 7 prateleiras. MDP com pintura UV, 97kg de capacidade. Dimensões 230x210,5x46,5cm. Aproveite!"
+},
+{
+  id: "p-imp-139",
+  slug: "guarda-roupa-casal-napoli-6-portas-6-gavetas-espelho-henn-off-white",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-roupa Casal Napoli com Espelho 6 Portas 6 Gavetas Henn - Off White/Bege",
+  imageFile: "/imagens/produtos/guarda-roupa-casal-napoli-6-portas-6-gavetas-espelho-henn-off-white.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-casal-napoli-6-portas-6-gavetas-espelho-henn-off-white.webp",
+  alt: "Guarda-roupa casal Napoli da Henn com 6 portas, 6 gavetas, 4 espelhos e acabamento em off white",
+  rating: 4.7,
+  reviews: 18,
+  discount: 19,
+  price: 2039.38,
+  originalPrice: 2519.00,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1HWpFGP",
+  descricao: `
+# Guarda-roupa Casal Napoli com Espelho 6 Portas 6 Gavetas Henn - Off White/Bege
+
+## 📌 Introdução
+
+O **Guarda-roupa Casal Napoli da Henn** é a solução definitiva para quem busca um móvel espaçoso, funcional e com design moderno para o quarto. Com suas dimensões imponentes de **256cm de largura, 230cm de altura e 51cm de profundidade**, este guarda-roupa oferece capacidade excepcional para armazenar todo o vestuário de um casal com total organização.
+
+A Henn, marca reconhecida pela qualidade e durabilidade de seus móveis, apresenta o modelo Napoli com um design que une elegância e praticidade. Seu acabamento em **pintura UV** na cor Off White/Bege confere um visual moderno e sofisticado, enquanto sua estrutura robusta em MDP garante resistência e longevidade.
+
+Com **6 portas com abertura por dobradiça**, **6 gavetas com corrediças telescópicas**, **4 espelhos**, **5 prateleiras** e **2 cabideiros superiores**, este guarda-roupa foi projetado para organizar cada peça de roupa de forma inteligente e acessível.
+
+## 📌 Design e Acabamento
+
+O design do Guarda-roupa Napoli foi pensado para quem valoriza estética e funcionalidade. A cor **Off White/Bege** oferece uma paleta neutra e versátil, que se adapta perfeitamente a diferentes estilos de decoração — do mais clássico ao mais contemporâneo.
+
+Os **4 espelhos integrados** são um dos grandes destaques do modelo, proporcionando visualização ampla e prática durante o uso diário. Eles não apenas aumentam a funcionalidade do móvel, mas também ampliam a sensação de espaço no quarto, tornando o ambiente mais arejado e luminoso.
+
+O acabamento em **pintura UV** confere ao móvel uma superfície lisa, brilhante e altamente resistente a riscos, manchas e umidade, garantindo que o guarda-roupa mantenha sua beleza por muitos anos. As **6 portas com abertura por dobradiça** oferecem acesso amplo e facilitado a todo o conteúdo interno.
+
+## 📌 Organização e Armazenamento
+
+Com **capacidade de carga total de 75 kg**, o guarda-roupa Napoli foi projetado para armazenar com segurança um grande volume de peças de vestuário e acessórios. Sua estrutura interna foi cuidadosamente planejada para otimizar cada centímetro disponível.
+
+**Compartimentos internos:**
+
+- **6 gavetas com corrediças telescópicas:** oferecem acesso suave e completo ao conteúdo, ideais para peças íntimas, meias, acessórios e itens menores que precisam de fácil acesso.
+- **5 prateleiras:** espaços amplos para organizar roupas dobradas, toalhas, lençóis e edredons, mantendo tudo em ordem e de fácil visualização.
+- **2 cabideiros superiores:** com capacidade para duas varas, permitem pendurar camisas, vestidos, calças e blazers, mantendo as peças alinhadas e sem amassados.
+- **6 portas com abertura por dobradiça:** proporcionam acesso amplo a todos os compartimentos internos.
+
+**Pés de sustentação:** O móvel conta com pés que elevam a base do guarda-roupa do solo, facilitando a limpeza e manutenção da superfície do piso.
+
+## 📌 Benefícios que fazem a diferença
+
+- **Design espaçoso:** 256cm de largura para armazenamento completo
+- **Organização eficiente:** 6 gavetas, 5 prateleiras e 2 cabideiros
+- **Visualização ampla:** 4 espelhos integrados
+- **Durabilidade:** pintura UV de alta resistência
+- **Acesso facilitado:** portas com abertura por dobradiça
+- **Estrutura robusta:** MDP com capacidade de carga total de 75 kg
+- **Design moderno:** cor Off White/Bege versátil
+
+## 📌 Ideal para
+
+- **Quartos de casal:** espaço amplo para duas pessoas
+- **Quem valoriza organização:** 6 gavetas e 5 prateleiras
+- **Quem busca design:** acabamento sofisticado e espelhos integrados
+- **Quem tem muitas roupas:** alta capacidade de armazenamento
+- **Quem quer praticidade:** acesso facilitado com portas de dobradiça
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. Qual a capacidade de carga total do guarda-roupa?**
+A capacidade de carga total é de 75 kg, distribuída entre prateleiras, gavetas e cabideiros.
+
+**2. Quantas portas o guarda-roupa tem?**
+O guarda-roupa possui 6 portas com abertura por dobradiça.
+
+**3. O guarda-roupa tem espelhos?**
+Sim, possui 4 espelhos integrados para visualização ampla.
+
+**4. Quantas gavetas o guarda-roupa tem?**
+O móvel conta com 6 gavetas com corrediças telescópicas.
+
+**5. Quantas prateleiras o guarda-roupa tem?**
+São 5 prateleiras para organização de roupas dobradas e acessórios.
+
+**6. O guarda-roupa tem cabideiros?**
+Sim, possui 2 cabideiros superiores com capacidade para duas varas.
+
+**7. Qual o material do guarda-roupa?**
+O móvel é fabricado em MDP, com acabamento em pintura UV.
+
+**8. Quais as dimensões do guarda-roupa?**
+O guarda-roupa tem 256cm de largura, 230cm de altura e 51cm de profundidade.
+
+**9. Qual a cor do guarda-roupa?**
+A cor é Off White/Bege, um tom neutro e versátil.
+
+**10. O guarda-roupa tem pés?**
+Sim, possui pés que elevam a base do móvel, facilitando a limpeza.
+
+**11. Qual a complexidade da montagem?**
+A montagem requer atenção, com manual e acessórios (cavilhas e parafusos) inclusos.
+
+**12. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Henn.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Henn |
+| **Linha** | Viena |
+| **Modelo** | D308-129 |
+| **Tamanho** | Casal |
+| **Cor** | Off White/Bege |
+| **Material** | MDP |
+| **Acabamento** | Pintura UV |
+| **Largura** | 256 cm |
+| **Altura** | 230 cm |
+| **Profundidade** | 51 cm |
+| **Peso** | 207 kg |
+| **Quantidade de Portas** | 6 (abertura por dobradiça) |
+| **Quantidade de Espelhos** | 4 |
+| **Quantidade de Gavetas** | 6 (corrediças telescópicas) |
+| **Quantidade de Prateleiras** | 5 |
+| **Quantidade de Cabideiros** | 2 (superiores) |
+| **Capacidade de Carga Total** | 75 kg |
+| **Material dos Cabideiros** | Alumínio |
+| **Material das Corrediças** | Metal |
+| **Montagem** | Requer montagem (com manual incluso) |
+| **Acessórios** | Cavilhas, parafusos e manual |
+
+## 📌 Conclusão
+
+O **Guarda-roupa Casal Napoli da Henn** é a escolha ideal para quem busca um móvel espaçoso, funcional e com design moderno para o quarto. Com suas 6 portas, 4 espelhos integrados, 6 gavetas, 5 prateleiras e 2 cabideiros superiores, este guarda-roupa oferece organização completa para todas as suas peças de vestuário e acessórios.
+
+O acabamento em pintura UV, a estrutura robusta em MDP e o design versátil na cor Off White/Bege fazem do Napoli um móvel durável e elegante, que se adapta a diferentes estilos de decoração.
+
+Garanta já o seu Guarda-roupa Napoli e transforme seu quarto em um espaço mais organizado e sofisticado.
+  `,
+  marca: "Henn",
+  keywords: [
+    "guarda-roupa casal 6 portas",
+    "guarda-roupa henn napoli",
+    "guarda-roupa com espelho 6 portas",
+    "guarda-roupa 6 gavetas",
+    "guarda-roupa off white bege",
+    "guarda-roupa 256cm largura",
+    "guarda-roupa com 4 espelhos",
+    "guarda-roupa mdp pintura uv",
+    "guarda-roupa casal grande",
+    "guarda-roupa com cabideiro",
+    "móvel para quarto de casal",
+    "guarda-roupa napoli henn",
+    "guarda-roupa com 5 prateleiras",
+    "guarda-roupa com corrediça telescópica",
+    "guarda-roupa 230cm altura",
+    "armário de casal",
+    "roupeiro com espelho",
+    "guarda-roupa henn linha viena",
+    "guarda-roupa casal moderno",
+    "guarda-roupa porta dobradiça"
+  ],
+  seoTitle: "Guarda-roupa Casal Napoli 6 Portas 6 Gavetas Henn | Off White",
+  seoDescription: "Guarda-roupa casal Henn Napoli com 6 portas, 6 gavetas, 4 espelhos e pintura UV. Dimensões 256x230x51cm, MDP resistente, 75kg. 4.7★ (18 reviews). 19% OFF!"
+},
+{
+  id: "p-imp-140",
+  slug: "guarda-roupa-casal-nova-york-6-portas-4-gavetas-espreso-branco",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-roupa Nova York 6 Portas 4 Gavetas Espresso Móveis - Branco com Puxadores Bronze",
+  imageFile: "/imagens/produtos/guarda-roupa-casal-nova-york-6-portas-4-gavetas-espreso-branco.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-casal-nova-york-6-portas-4-gavetas-espreso-branco.webp",
+  alt: "Guarda-roupa casal Nova York com 6 portas, 4 gavetas, 8 prateleiras e puxadores bronze da Espresso Móveis",
+  rating: 4.8,
+  reviews: 217,
+  discount: 21,
+  price: 1814.49,
+  originalPrice: 2312.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1EyaDkz",
+  descricao: `
+# Guarda-roupa Nova York 6 Portas 4 Gavetas Espresso Móveis - Branco com Puxadores Bronze
+
+## 📌 Introdução
+
+O **Guarda-roupa Nova York da Espresso Móveis** é a escolha definitiva para quem busca um móvel moderno, funcional e com ampla capacidade de armazenamento. Projetado para otimizar o espaço sem abrir mão do estilo, este guarda-roupa combina design contemporâneo com uma estrutura robusta e durável, perfeita para quartos de casal.
+
+Com mais de 1000 unidades vendidas e o selo de **"Mais Vendido"** na categoria Guarda-roupas, o modelo Nova York já conquistou a confiança de milhares de consumidores que reconhecem a qualidade e o acabamento impecável da Espresso Móveis. Suas dimensões generosas de **230,5cm de altura, 262cm de largura e 54cm de profundidade** oferecem um dos maiores espaços de armazenamento do mercado.
+
+O acabamento em **branco brilhante** com pintura texturizada UV e os elegantes **puxadores de ABS na cor bronze** criam um visual sofisticado que se adapta a diferentes estilos de decoração — do moderno ao clássico.
+
+## 📌 Design e Acabamento
+
+O design do Guarda-roupa Nova York foi pensado para impressionar. A cor **branca** confere luminosidade e amplitude ao ambiente, enquanto os **puxadores de ABS na cor bronze** criam um contraste elegante e sofisticado, adicionando um toque de requinte ao móvel.
+
+O acabamento em **pintura texturizada UV** garante uma superfície lisa, resistente a riscos e manchas, e de fácil limpeza. A textura suave ao toque proporciona uma experiência tátil agradável e um visual premium.
+
+As **6 portas** proporcionam acesso amplo a todo o conteúdo interno, enquanto o design linear e clean do móvel se integra perfeitamente a diferentes propostas decorativas.
+
+## 📌 Organização e Armazenamento
+
+Com **capacidade para quartos de tamanho casal**, o guarda-roupa Nova York oferece uma organização inteligente e eficiente de todo o seu vestuário.
+
+**Compartimentos internos:**
+
+- **8 prateleiras:** amplo espaço para organizar roupas dobradas, toalhas, lençóis, edredons e acessórios, mantendo tudo em ordem e de fácil visualização.
+- **4 gavetas com corrediças metálicas:** permitem acesso fácil e suave, ideais para peças íntimas, meias, acessórios e itens menores que precisam de organização separada.
+- **2 cabideiros:** espaços dedicados para pendurar camisas, vestidos, calças e blazers, mantendo as peças alinhadas e sem amassados.
+
+**Estrutura robusta:** Fabricado em **MDF/MDP** com pintura texturizada UV, o guarda-roupa oferece alta resistência ao desgaste e durabilidade prolongada, garantindo que o móvel mantenha sua beleza por muitos anos.
+
+## 📌 Benefícios que fazem a diferença
+
+- **Design sofisticado:** puxadores bronze que criam um contraste elegante
+- **Ampla capacidade:** 6 portas, 4 gavetas, 8 prateleiras e 2 cabideiros
+- **Durabilidade:** MDF/MDP com pintura texturizada UV
+- **Organização eficiente:** corrediças metálicas para acesso fácil
+- **Versatilidade:** cor branca que combina com diferentes estilos
+- **Estrutura robusta:** dimensões generosas para quartos de casal
+
+## 📌 Ideal para
+
+- **Quartos de casal:** capacidade excepcional para duas pessoas
+- **Quem valoriza organização:** 8 prateleiras e 4 gavetas
+- **Quem busca design:** acabamento branco com puxadores bronze
+- **Quem tem muitas roupas:** amplo espaço de armazenamento
+- **Quem quer praticidade:** corrediças metálicas nas gavetas
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. Quantas portas o guarda-roupa tem?**
+O guarda-roupa possui 6 portas, proporcionando amplo acesso ao conteúdo interno.
+
+**2. Quantas gavetas o guarda-roupa tem?**
+O móvel conta com 4 gavetas com corrediças metálicas para acesso fácil e suave.
+
+**3. Quantas prateleiras o guarda-roupa tem?**
+São 8 prateleiras, oferecendo amplo espaço para organizar roupas dobradas e acessórios.
+
+**4. O guarda-roupa tem cabideiros?**
+Sim, possui 2 cabideiros para pendurar camisas, vestidos, calças e blazers.
+
+**5. Qual o material do guarda-roupa?**
+O móvel é fabricado em MDF/MDP com pintura texturizada UV, garantindo durabilidade e resistência.
+
+**6. Quais as dimensões do guarda-roupa?**
+O guarda-roupa tem 230,5cm de altura, 262cm de largura e 54cm de profundidade.
+
+**7. Qual a cor do guarda-roupa?**
+A cor é branca, com puxadores de ABS na cor bronze que adicionam elegância.
+
+**8. O guarda-roupa é indicado para quartos de casal?**
+Sim, suas dimensões generosas são ideais para quartos de tamanho casal.
+
+**9. As gavetas têm corrediças?**
+Sim, as 4 gavetas possuem corrediças metálicas, garantindo acesso fácil e suave.
+
+**10. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Espresso Móveis.
+
+**11. Qual a capacidade de carga do guarda-roupa?**
+A estrutura em MDF/MDP oferece alta resistência e durabilidade, suportando o peso de um grande volume de roupas.
+
+**12. O acabamento é resistente a riscos?**
+Sim, a pintura texturizada UV oferece alta resistência a riscos e manchas.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Espresso Móveis |
+| **Modelo** | Nova York |
+| **Tamanho** | Casal |
+| **Cor** | Branco |
+| **Material** | MDF/MDP |
+| **Acabamento** | Pintura texturizada UV |
+| **Puxadores** | ABS na cor bronze |
+| **Altura** | 230,5 cm |
+| **Largura** | 262 cm |
+| **Profundidade** | 54 cm |
+| **Quantidade de Portas** | 6 |
+| **Quantidade de Gavetas** | 4 (com corrediças metálicas) |
+| **Quantidade de Prateleiras** | 8 |
+| **Quantidade de Cabideiros** | 2 |
+| **Estilo** | Moderno |
+| **Requer Montagem** | Sim |
+| **Garantia** | Conforme política da marca |
+
+## 📌 Conclusão
+
+O **Guarda-roupa Nova York da Espresso Móveis** é a escolha ideal para quem busca um móvel espaçoso, funcional e com design sofisticado para o quarto de casal. Com suas 6 portas, 4 gavetas, 8 prateleiras, 2 cabideiros e acabamento em pintura texturizada UV com puxadores bronze, este guarda-roupa oferece organização completa para todas as suas peças de vestuário.
+
+O selo de "Mais Vendido" com mais de 1000 unidades comercializadas e a avaliação de 4.8 estrelas atestam a qualidade e a satisfação dos clientes. Aproveite a oferta com 21% de desconto e transforme seu quarto com o Guarda-roupa Nova York.
+  `,
+  marca: "Espresso Móveis",
+  keywords: [
+    "guarda-roupa nova york",
+    "guarda-roupa 6 portas 4 gavetas",
+    "guarda-roupa espresso moveis",
+    "guarda-roupa casal branco",
+    "guarda-roupa com 8 prateleiras",
+    "guarda-roupa 262cm largura",
+    "guarda-roupa com puxadores bronze",
+    "guarda-roupa mdf mdp",
+    "guarda-roupa pintura uv",
+    "guarda-roupa casal grande",
+    "móvel para quarto de casal",
+    "guarda-roupa com cabideiro",
+    "guarda-roupa nova york espresso",
+    "guarda-roupa com corrediça metálica",
+    "guarda-roupa 230cm altura",
+    "armário de casal",
+    "guarda-roupa 6 portas",
+    "guarda-roupa com 4 gavetas",
+    "guarda-roupa moderno",
+    "guarda-roupa branco com bronze"
+  ],
+  seoTitle: "Guarda-roupa Nova York 6 Portas 4 Gavetas Espresso | Branco",
+  seoDescription: "Guarda-roupa casal Nova York da Espresso Móveis com 6 portas, 4 gavetas, 8 prateleiras e puxadores bronze. MDF/MDP com pintura UV. 4.8★ (217 reviews). 21% OFF!"
+},
+{
+  id: "p-imp-141",
+  slug: "cabeceira-cama-box-casal-305cm-2-mesas-innova-gelius-off-white",
+  category: "cabeceiras",
+  mainCategory: "quarto",
+  name: "Cabeceira Box Casal Innova com 2 Mesas de Cabeceira e LED 305cm - Gelius Móveis - Off White",
+  imageFile: "/imagens/produtos/cabeceira-cama-box-casal-305cm-2-mesas-innova-gelius-off-white.webp",
+  displayImage: "/imagens/produtos/cabeceira-cama-box-casal-305cm-2-mesas-innova-gelius-off-white.webp",
+  alt: "Cabeceira de cama box casal Gelius Innova com 2 mesas de cabeceira, LED e acabamento off white para camas até King",
+  rating: 4.8,
+  reviews: 531,
+  discount: 13,
+  price: 1011.75,
+  originalPrice: 1176.45,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1ro11Zs",
+  descricao: `
+# Cabeceira Box Casal Innova com 2 Mesas de Cabeceira e LED 305cm - Gelius Móveis - Off White
+
+## 📌 Introdução
+
+A **Cabeceira Box Casal Innova da Gelius Móveis** é o móvel ideal para transformar completamente a decoração do seu quarto. Com design curvo, iluminação em LED na cor quente e 2 mesas de cabeceira, este conjunto traz aconchego, modernidade e funcionalidade para o ambiente.
+
+Com mais de 500 unidades vendidas e uma avaliação de 4.8 estrelas, a cabeceira Innova já conquistou a confiança de centenas de consumidores que buscam um móvel que une design diferenciado, qualidade e praticidade. Suas dimensões generosas de **305 cm de largura (extensível de 272 cm a 305 cm) e 104,5 cm de altura** atendem perfeitamente camas dos tamanhos Casal, Queen e King.
+
+O acabamento em **Off White** com pintura UV brilhante, os pés em madeira maciça e o mecanismo telescópico das gavetas garantem um produto durável, funcional e de alto padrão estético.
+
+## 📌 Design e Acabamento
+
+O design da Cabeceira Innova foi pensado para impressionar e valorizar o quarto. As linhas curvas criam um visual orgânico e contemporâneo, enquanto a iluminação em **LED na cor quente** proporciona um ambiente acolhedor e sofisticado — perfeito para momentos de relaxamento.
+
+O acabamento em **Off White** com pintura UV brilhante confere ao móvel um visual clean, elegante e de fácil limpeza. A escala de brilho brilhante reflete a luz de forma suave, valorizando a peça e o ambiente.
+
+As **2 mesas de cabeceira** integradas são um dos grandes diferenciais do modelo, oferecendo superfícies práticas para apoiar objetos pessoais, livros, luminárias ou dispositivos eletrônicos.
+
+## 📌 Estrutura e Durabilidade
+
+A Cabeceira Innova foi projetada para oferecer resistência e durabilidade excepcionais:
+
+- **100% MDF:** material de alta densidade que garante estabilidade e longevidade
+- **Pés em madeira maciça (Pinus):** com acabamento em pintura, oferecem sustentação firme e elegante
+- **8 pés de sustentação:** distribuem o peso de forma equilibrada, garantindo estabilidade
+- **Pintura UV:** acabamento de alta resistência que preserva a cor e o brilho por mais tempo
+- **Peso de 63 kg:** estrutura robusta e sólida
+
+## 📌 Funcionalidade e Organização
+
+A cabeceira Innova foi desenvolvida para facilitar o dia a dia:
+
+- **2 mesas de cabeceira em MDF:** superfícies amplas e práticas para apoiar objetos
+- **Mecanismo telescópico:** garante deslizamento suave e uniforme na abertura e fechamento das gavetas
+- **Altura dos pés de 5 cm:** facilita a limpeza do piso sob o móvel
+- **Extensibilidade:** ajusta-se de 272 cm a 305 cm, adaptando-se a diferentes tamanhos de cama
+
+## 📌 Benefícios que fazem a diferença
+
+- **Design moderno e aconchegante:** linhas curvas e LED quente
+- **Versatilidade:** adequado para camas Casal, Queen e King
+- **Praticidade:** 2 mesas de cabeceira integradas
+- **Durabilidade:** MDF com pintura UV e pés em madeira maciça
+- **Funcionalidade:** gavetas com mecanismo telescópico
+- **Estabilidade:** 8 pés de sustentação
+- **Fácil limpeza:** pés elevados de 5 cm
+
+## 📌 Ideal para
+
+- **Quartos de casal:** design sofisticado para camas Casal, Queen e King
+- **Quem busca modernidade:** linhas curvas e LED quente
+- **Quem valoriza funcionalidade:** mesas de cabeceira integradas
+- **Quem quer durabilidade:** MDF e madeira maciça
+- **Quem busca organização:** gavetas com mecanismo suave
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. A cabeceira é estofada?**
+Não, a cabeceira Innova é fabricada em MDF com pintura UV brilhante, oferecendo um acabamento liso e sofisticado.
+
+**2. A cabeceira acompanha LED?**
+Sim, possui iluminação em LED na cor quente, criando um ambiente acolhedor e moderno.
+
+**3. Quantas mesas de cabeceira acompanham?**
+O conjunto inclui 2 mesas de cabeceira integradas, com gavetas de deslizamento suave.
+
+**4. Qual o tamanho da cabeceira?**
+A cabeceira tem 104,5 cm de altura, 41 cm de profundidade e largura extensível de 272 cm a 305 cm.
+
+**5. A cabeceira é adequada para cama box?**
+Sim, é ideal para cama box, oferecendo opção funcional e elegante.
+
+**6. Qual o material da cabeceira?**
+O móvel é fabricado em 100% MDF, com pés em madeira maciça (Pinus).
+
+**7. O acabamento é resistente?**
+Sim, a pintura UV oferece alta resistência a riscos e manchas, preservando a cor e o brilho.
+
+**8. A cabeceira tem pés?**
+Sim, possui 8 pés em madeira maciça com 5 cm de altura, facilitando a limpeza.
+
+**9. Qual o peso da cabeceira?**
+O peso total é de 63 kg, garantindo uma estrutura robusta e estável.
+
+**10. A cabeceira é extensível?**
+Sim, a largura pode ser ajustada de 272 cm a 305 cm, adaptando-se a diferentes tamanhos de cama.
+
+**11. A cabeceira tem gavetas?**
+Sim, as mesas de cabeceira contam com gavetas de deslizamento suave, graças ao mecanismo telescópico.
+
+**12. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política da marca Gelius Móveis.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Marca** | Gelius Móveis |
+| **Linha** | Innova |
+| **Cor** | Off White |
+| **Material Principal** | 100% MDF |
+| **Material dos Pés** | Madeira Maciça (Pinus) |
+| **Acabamento** | Pintura UV (Brilhante) |
+| **Altura** | 104,5 cm |
+| **Largura Máxima** | 305 cm |
+| **Largura Mínima** | 272 cm |
+| **Profundidade** | 41 cm |
+| **Altura dos Pés** | 5 cm |
+| **Peso** | 63 kg |
+| **Quantidade de Pés** | 8 |
+| **Quantidade de Mesas** | 2 (com gavetas) |
+| **Mecanismo das Gavetas** | Telescópico |
+| **Iluminação** | LED (cor quente) |
+| **Tamanho de Cama** | Casal / Queen / King |
+| **Extensível** | Sim |
+| **Cabeceira Estofada** | Não |
+| **Ambiente Principal** | Quarto |
+| **Garantia** | Conforme política da marca |
+
+## 📌 Conclusão
+
+A **Cabeceira Box Casal Innova da Gelius Móveis** é a escolha perfeita para quem busca um móvel que une design moderno, funcionalidade e durabilidade no quarto. Com suas linhas curvas, iluminação em LED quente, 2 mesas de cabeceira integradas, estrutura em 100% MDF com pintura UV e pés em madeira maciça, este conjunto oferece tudo o que você precisa para transformar seu quarto em um espaço aconchegante e sofisticado.
+
+Com mais de 500 unidades vendidas e uma avaliação de 4.8 estrelas, a Innova já conquistou a confiança de centenas de consumidores. Aproveite a oferta com 13% de desconto e eleve o padrão do seu quarto com a excelência Gelius Móveis.
+  `,
+  marca: "Gelius Móveis",
+  keywords: [
+    "cabeceira de cama casal",
+    "cabeceira com 2 mesas de cabeceira",
+    "cabeceira com led",
+    "cabeceira gelius moveis",
+    "cabeceira off white",
+    "cabeceira 305cm",
+    "cabeceira box casal",
+    "cabeceira queen king",
+    "cabeceira com pintura uv",
+    "cabeceira em mdf",
+    "cabeceira com pés em madeira",
+    "cabeceira extensível",
+    "cabeceira innova",
+    "cabeceira com gavetas",
+    "cabeceira design moderno",
+    "móvel para quarto de casal",
+    "cabeceira com iluminação",
+    "cabeceira para cama box",
+    "cabeceira 104cm altura",
+    "cabeceira gelius"
+  ],
+  seoTitle: "Cabeceira Casal Innova 305cm com 2 Mesas e LED | Gelius Móveis",
+  seoDescription: "Cabeceira box casal Gelius Innova com 2 mesas de cabeceira, LED quente e acabamento off white. 100% MDF, pés em madeira maciça. 4.8★ (531 reviews). 13% OFF no Pix!"
+},
+{
+  id: "p-imp-142",
+  slug: "cabeceira-modular-led-organica-king-200cm-linho-bege",
+  category: "cabeceiras",
+  mainCategory: "quarto",
+  name: "Cabeceira Modular Led Orgânica King 200cm Estofada em Linho Bege com Painel LED",
+  imageFile: "/imagens/produtos/cabeceira-modular-led-organica-cama-box-king-200cm-quarto.webp",
+  displayImage: "/imagens/produtos/cabeceira-modular-led-organica-cama-box-king-200cm-quarto.webp",
+  alt: "Cabeceira modular orgânica King 200cm estofada em linho bege com iluminação LED integrada para cama box",
+  rating: 3.3,
+  reviews: 3,
+  discount: 52,
+  price: 474.90,
+  originalPrice: 699.00,
+  badge: "",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2hRDHTA",
+  descricao: `
+# Cabeceira Modular Led Orgânica King 200cm Estofada em Linho Bege com Painel LED
+
+## 📌 Introdução
+
+Transforme seu quarto com uma cabeceira que une design contemporâneo, conforto visual e acabamento sofisticado. A **Cabeceira Modular Led Orgânica King** foi desenvolvida para quem deseja criar um ambiente elegante, aconchegante e com aparência de móvel planejado.
+
+Com linhas orgânicas e curvas suaves, este painel de cabeceira é a solução perfeita para quem busca um toque de modernidade sem precisar realizar reformas complexas. Seu revestimento em **linho bege** proporciona uma estética atemporal que combina facilmente com diferentes estilos de decoração — do minimalista ao mais clássico.
+
+A iluminação **LED integrada** é o grande diferencial deste modelo, criando um efeito acolhedor e sofisticado que valoriza o ambiente e proporciona uma experiência sensorial única no quarto.
+
+## 📌 Design e Estilo
+
+A Cabeceira Orgânica foi projetada para impressionar e transformar a decoração do seu quarto:
+
+- **Design orgânico moderno:** linhas curvas e cantos arredondados criam um visual fluido e contemporâneo
+- **Revestimento em linho bege:** textura elegante e acabamento sofisticado, com cor neutra que combina com diversos estilos
+- **Iluminação LED integrada:** efeito decorativo moderno e acolhedor, perfeito para criar clima de relaxamento
+- **Visual elegante:** inspirado em projetos de interiores contemporâneos
+- **2 módulos independentes:** formam um conjunto harmonioso e moderno quando instalados, facilitando o transporte e a instalação
+
+## 📌 Estrutura e Durabilidade
+
+A cabeceira foi construída com materiais de alta qualidade para garantir durabilidade e resistência:
+
+- **Estrutura em MDF:** material amplamente utilizado na indústria moveleira, oferecendo resistência, estabilidade e excelente acabamento
+- **Revestimento em linho e espuma:** proporciona conforto visual e tátil, com acabamento sofisticado
+- **Acabamento impecável:** todos os detalhes foram cuidadosamente trabalhados
+- **Fácil limpeza e manutenção:** o linho é um material prático e de fácil conservação
+- **Instalação na parede:** fixação segura que protege sua parede contra manchas e fricção
+
+## 📌 Funcionalidade e Praticidade
+
+A Cabeceira Orgânica foi pensada para facilitar sua vida:
+
+- **Altura ajustável:** adapta-se ao tamanho da sua cama
+- **Fixação na parede:** instalação segura e estável
+- **2 módulos independentes:** facilitam o transporte e a instalação
+- **Kit completo de acessórios:** todos os itens necessários para a montagem acompanham o produto
+- **Manual de montagem:** instruções claras e detalhadas
+- **Dimensões ideais:** 200cm de largura x 70cm de altura x 7cm de profundidade
+
+## 📌 Benefícios que fazem a diferença
+
+- **Design contemporâneo:** linhas orgânicas e curvas suaves
+- **Iluminação LED integrada:** efeito acolhedor e sofisticado
+- **Revestimento em linho bege:** estética atemporal e elegante
+- **Estrutura resistente:** MDF de alta qualidade
+- **Fácil instalação:** 2 módulos com kit completo
+- **Versatilidade:** combina com diferentes estilos de decoração
+- **Proteção da parede:** evita manchas e fricção
+- **Conforto visual:** estofado em linho e espuma
+
+## 📌 Ideal para
+
+- **Quartos com cama King:** 200cm de largura ideal
+- **Quem busca design moderno:** linhas orgânicas e LED integrado
+- **Quem quer sofisticação:** acabamento em linho bege
+- **Quem não quer reformas:** instalação simples na parede
+- **Quem valoriza conforto:** estofado em linho e espuma
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. A cabeceira é resistente?**
+Sim. Sua estrutura é produzida em MDF, material amplamente utilizado na indústria moveleira por oferecer resistência, estabilidade e excelente acabamento.
+
+**2. O tecido é igual ao das fotos?**
+O revestimento é confeccionado em linho bege, com textura elegante e acabamento sofisticado. Pequenas variações de tonalidade podem ocorrer devido à iluminação do ambiente e às configurações de cada tela.
+
+**3. O LED acompanha o produto?**
+Sim. A iluminação LED acompanha a cabeceira, proporcionando um efeito decorativo moderno e acolhedor.
+
+**4. Serve para cama King?**
+Sim. O modelo possui 200 cm de largura e foi desenvolvido para compor perfeitamente camas King.
+
+**5. A instalação é difícil?**
+Não. O produto acompanha manual de montagem e todos os acessórios necessários para instalação.
+
+**6. Os acessórios de instalação acompanham a cabeceira?**
+Sim. Todos os acessórios necessários para a montagem e fixação são enviados juntamente com o produto.
+
+**7. Qual o material da cabeceira?**
+Estrutura em MDF, revestimento em linho com espuma.
+
+**8. A cabeceira é estofada?**
+Sim, é estofada em linho e espuma, oferecendo conforto e acabamento sofisticado.
+
+**9. Qual o tamanho da cabeceira?**
+200cm de largura x 70cm de altura x 7cm de profundidade.
+
+**10. Como a cabeceira é fixada?**
+A cabeceira é instalada na parede, com todos os acessórios necessários inclusos.
+
+**11. A cabeceira protege a parede?**
+Sim, protege sua parede contra manchas e fricção causadas pelo contato com a cama.
+
+**12. O produto tem garantia?**
+Sim, o produto possui garantia de fábrica de 90 dias contra defeitos de fabricação.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Modelo** | Cabeceira Painel Modular Orgânica |
+| **Cor** | Linho Bege |
+| **Material da Estrutura** | MDF |
+| **Revestimento** | Linho e espuma |
+| **Acabamento** | Estofado |
+| **Largura Total** | 200 cm |
+| **Altura** | 70 cm |
+| **Profundidade** | 7 cm |
+| **Indicação** | Cama King |
+| **Quantidade de Módulos** | 2 peças |
+| **Iluminação** | LED Integrado |
+| **Fixação** | Parede |
+| **Estilo** | Orgânico Moderno |
+| **Garantia** | 90 dias |
+| **Itens Inclusos** | 2 módulos, sistema LED, kit de acessórios, manual |
+
+## 📌 Conclusão
+
+A **Cabeceira Modular Led Orgânica King** é a escolha perfeita para quem busca transformar o quarto com um toque de design contemporâneo, conforto visual e sofisticação. Com suas linhas orgânicas, revestimento em linho bege e iluminação LED integrada, esta cabeceira cria um ambiente acolhedor e elegante sem a necessidade de reformas complexas.
+
+Se você procura uma solução prática e estilosa para valorizar sua cama King, esta cabeceira oferece design moderno, acabamento refinado e iluminação integrada para criar um ambiente mais acolhedor e sofisticado. Aproveite a oferta com 52% de desconto e transforme seu quarto com a Cabeceira Modular Led Orgânica.
+  `,
+  marca: "",
+  keywords: [
+    "cabeceira modular king",
+    "cabeceira com led",
+    "cabeceira estofada linho",
+    "cabeceira organica 200cm",
+    "cabeceira king 200cm",
+    "cabeceira painel modular",
+    "cabeceira bege",
+    "cabeceira com iluminação",
+    "cabeceira para cama box",
+    "cabeceira estofada bege",
+    "cabeceira de parede",
+    "cabeceira king size",
+    "cabeceira com 2 modulos",
+    "cabeceira linho bege",
+    "cabeceira moderna",
+    "painel de cabeceira",
+    "cabeceira orgânica",
+    "cabeceira king 200x70",
+    "cabeceira com led integrado",
+    "cabeceira estofada king"
+  ],
+  seoTitle: "Cabeceira Modular King 200cm com LED Orgânica Linho Bege",
+  seoDescription: "Cabeceira modular King 200cm estofada em linho bege com LED integrado. Design orgânico, MDF resistente, instalação simples. 52% OFF no Pix! Aproveite."
+},
+{
+  id: "p-imp-143",
+  slug: "cabeceira-casal-queen-mabel-272cm-2-mesas-led-tomadas-castanho-mdf",
+  category: "cabeceiras",
+  mainCategory: "quarto",
+  name: "Cabeceira Casal Queen Mabel 272cm com 2 Mesas, LED 3000K e Tomadas - 100% MDF Castanho",
+  imageFile: "/imagens/produtos/cabeceira-casal-queen-mabel-272cm-2-mesas-led-tomadas-castanho.webp",
+  displayImage: "/imagens/produtos/cabeceira-casal-queen-mabel-272cm-2-mesas-led-tomadas-castanho.webp",
+  alt: "Cabeceira casal queen estendida 272cm Mabel castanho com 2 mesas de cabeceira com gaveta, LED 3000K e tomadas embutidas",
+  rating: 4.8,
+  reviews: 27,
+  discount: 38,
+  price: 899.90,
+  originalPrice: 1449.90,
+  badge: "MAIS VENDIDA",
+  platform: "Site Oficial",
+  affiliateLink: "/cabeceira-casal-queen-mabel-272cm-2-mesas-led-tomadas-castanho",
+  descricao: `
+# Cabeceira Casal Queen Mabel 272cm com 2 Mesas de Cabeceira, LED 3000K e Tomadas - 100% MDF Castanho
+
+## 📌 Introdução
+
+Tenha um quarto com cara de planejado sem obra. A **Cabeceira Mabel Casal/Queen 272cm** é o conjunto completo que resolve de uma vez a decoração, organização e iluminação do seu quarto.
+
+Com 272 cm de largura, ela cobre lateralmente camas de 138cm a 158cm e já vem com **2 mesas de cabeceira com gaveta e nicho**. Produzida em **100% MDF com revestimento BP e fita de borda PVC**, entrega o acabamento fosco sofisticado de móveis de alto padrão. O grande diferencial? **Fita de LED 3000K** para luz indireta aconchegante e **2 tomadas embutidas** para carregar o celular sem extensão no chão.
+
+## 📌 Design e Estilo
+
+A Mabel foi pensada para ser o ponto focal do quarto:
+
+- **Cor Castanho Atemporal:** tom amadeirado fosco que combina com guarda-roupa branco, cinza ou amadeirado
+- **Iluminação Indireta 3000K:** luz quente e aconchegante que deixa o quarto moderno e relaxante, dispensa abajur
+- **Painel Estendido 272cm:** cria efeito de quarto de hotel, alonga a parede e esconde imperfeições
+- **Acabamento de Planejado:** textura melamínica que não descasca, com fita de borda de 0,45mm
+- **Pés Retrô 11,5cm:** leveza visual e facilita a limpeza embaixo
+
+## 📌 Estrutura e Durabilidade
+
+Qualidade que você vê e sente no dia a dia:
+
+- **100% MDF:** nada de MDP ou compensado. Mais resistência à umidade e não empena com o tempo
+- **Revestimento BP:** alta resistência a riscos, manchas e ao calor
+- **Fixação na Parede:** sistema seguro com parafusos, cavilhas e minifix - não balança e protege a parede da cabeceira
+- **Suporta Uso Intenso:** estrutura reforçada para 67kg de peso total
+- **Fácil Limpeza:** basta um pano levemente umedecido
+
+## 📌 Funcionalidade e Praticidade
+
+Cada detalhe foi feito para o seu dia a dia:
+
+- **2 Mesas com Gaveta e Nicho:** organize livros, remédios, óculos e ainda tenha apoio para luminária
+- **2 Tomadas Embutidas:** uma de cada lado da cabeceira, perfeita para carregar celular, notebook e relógio
+- **Conjunto Completo:** você leva 1 cabeceira + 2 criados mudos + kit de ferragens + manual
+- **Montagem Média:** sistema com manual ilustrado, qualquer montador monta em 40 minutos
+- **Medida Certa:** 272cm Largura x 115cm Altura x 38cm Profundidade (mesa)
+
+## 📌 Benefícios que fazem a diferença
+
+- **Quarto de Planejado por menos:** visual de marcenaria sem pagar caro
+- **Fim da bagunça de fios:** tomadas já no lugar certo
+- **Clima de cinema em casa:** LED 3000K cria luz de hotel
+- **Tudo combinado:** mesas no mesmo MDF e cor da cabeceira
+- **Protege a parede:** evita manchas de encosto da cama
+
+## 📌 Ideal para
+
+- **Quem tem cama Casal ou Queen de até 158cm de largura**
+- **Quartos médios e grandes que precisam preencher a parede**
+- **Quem busca cabeceira com criado mudo incluso e com tomada**
+- **Quem quer trocar abajur por iluminação indireta moderna**
+- **Quem quer acabamento fosco castanho sofisticado**
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. Essa cabeceira serve para cama Queen 158cm?**
+Sim. Ela foi projetada para camas de 138cm (Casal) até 158cm (Queen). A sobra lateral forma um painel estendido decorativo.
+
+**2. A fita de LED já vem inclusa? É 3000K mesmo?**
+Sim, acompanha a fita de LED branco quente 3000K já no painel. Cria aquela luz amarelada aconchegante.
+
+**3. As tomadas já vêm instaladas?**
+Sim, são 2 tomadas embutidas na cabeceira. Basta ligar na tomada da parede atrás. Fio de 1,5m incluso.
+
+**4. O material é MDF mesmo?**
+100% MDF de 15mm no corpo e 25mm em detalhes. Mais resistente que MDP.
+
+**5. Precisa fixar na parede?**
+Sim, recomendamos a fixação para segurança e acabamento perfeito. Buchas e parafusos inclusos.
+
+**6. Qual a largura total com as duas mesas?**
+272cm de ponta a ponta. Cada mesa tem 38cm de profundidade.
+
+**7. Qual a cor exata? É marrom escuro?**
+É o Castanho, um marrom amadeirado médio com acabamento fosco, coringa na decoração.
+
+**8. Acompanha colchão e cama?**
+Não. Acompanha apenas 1 cabeceira, 2 mesas de cabeceira, kit de ferragens e manual.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Linha** | Mabel |
+| **Marca** | FD Móveis |
+| **Indicação** | Cama Casal / Queen até 158cm |
+| **Largura Total** | 272 cm |
+| **Altura** | 115 cm |
+| **Profundidade** | 38 cm (mesas) |
+| **Altura dos Pés** | 11,5 cm |
+| **Material Principal** | 100% MDF |
+| **Revestimento** | BP Melamínico Fosco |
+| **Cor** | Castanho |
+| **Diferenciais** | LED 3000K + 2 Tomadas Embutidas |
+| **Mesas** | 2 mesas com 1 gaveta e 1 nicho cada |
+| **Fixação** | Na parede + Pés |
+| **Peso Total** | 67 kg |
+| **Itens Inclusos** | 1 Cabeceira, 2 Mesas, Kit Ferragens, Manual |
+| **EAN** | 7901008600977 |
+| **Garantia** | 90 dias |
+
+## 📌 Conclusão
+
+A **Cabeceira Mabel Castanho 272cm** é a escolha inteligente para quem quer um quarto completo, moderno e funcional sem reforma. Você une a sofisticação do MDF de planejado, a praticidade de 2 criados mudos com gaveta e o conforto do LED + tomadas em um único produto.
+
+Se você busca uma cabeceira queen com mesas, com led e tomadas, que realmente preenche a parede e organiza o quarto, a Mabel é a melhor custo-benefício da categoria. Garanta a sua e transforme seu quarto hoje.
+  `,
+  marca: "FD",
+  keywords: [
+    "cabeceira casal queen",
+    "cabeceira queen com 2 mesas",
+    "cabeceira com criado mudo",
+    "cabeceira 272cm",
+    "cabeceira com led e tomada",
+    "cabeceira mdf castanho",
+    "cabeceira casal com tomada",
+    "cabeceira queen estendida",
+    "cabeceira com gaveta",
+    "cabeceira mabel",
+    "cabeceira queen 158cm",
+    "cabeceira casal com mesas",
+    "cabeceira com led 3000k",
+    "cabeceira 100% mdf",
+    "cabeceira com 2 mesas de cabeceira",
+    "cabeceira painel queen",
+    "cabeceira castanho fosco",
+    "cabeceira moderna com tomada",
+    "cabeceira para quarto casal",
+    "cabeceira com iluminação led"
+  ],
+  seoTitle: "Cabeceira Queen 272cm Mabel com 2 Mesas, LED e Tomadas | MDF Castanho",
+  seoDescription: "Cabeceira Casal Queen Mabel 272cm com 2 criados mudos com gaveta, LED 3000K e 2 tomadas embutidas. 100% MDF Castanho fosco. Para camas até 158cm. Confira!"
+},
+{
+  id: "p-imp-144",
+  slug: "cabeceira-para-cama-box-queen-160cm-helena-estofada-com-criado-embutido",
+  category: "cabeceiras",
+  mainCategory: "quarto",
+  name: "Cabeceira para Cama Box Queen 160cm e Casal com Criado Mudo Embutido - Helena Estofada Nature Off",
+  imageFile: "/imagens/produtos/cabeceira-para-cama-box-queen-160cm-com-criado-embutido-helena.webp",
+  displayImage: "/imagens/produtos/cabeceira-para-cama-box-queen-160cm-com-criado-embutido-helena.webp",
+  alt: "Cabeceira para cama box queen 160cm e casal com criado mudo embutido, modelo Helena estofada em linho nature off com gaveta e nicho",
+  rating: 4.9,
+  reviews: 17,
+  discount: 13,
+  price: 576.81,
+  originalPrice: 663.00,
+  badge: "+100 VENDIDOS",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1nrgtmy",
+  descricao: `
+# Cabeceira para Cama Box Queen 160cm e Casal 140cm com Criado Mudo Embutido - Helena Estofada
+
+## 📌 Se você procura uma cabeceira para cama box que já vem com criado, achou.
+
+A **Cabeceira para Cama Box Helena** resolve o que todo mundo sofre: comprar cabeceira e depois ter que achar 2 criados que combinem. Essa já vem completa, com **2 mesas de cabeceira embutidas com gaveta e nicho**.
+
+É a **cabeceira de cama box mais versátil** do mercado porque é **regulável para 2 tamanhos**: serve tanto para **cama box casal 140cm quanto para cama box queen 160cm**. Você regula na montagem. Se mudar de cama depois, não precisa trocar de cabeceira.
+
+E pra quem mora de aluguel: é **autoportante**. Não precisa furar parede. Ela tem um encaixe de 15cm que trava atrás do box e se sustenta sozinha.
+
+## 📌 Qual cabeceira para cama box combina com quarto moderno?
+
+A Helena. Ela junta 3 tendências que estão em alta:
+
+- **Cabeceira de cama box estofada em linho Nature/Off:** tecido clarinho, sofisticado e que combina com qualquer cor de parede
+- **Cabeceira box com ripado lateral:** detalhe de marcenaria moderna que valoriza o quarto sem reforma
+- **Cabeceira para cama box queen com gaveta:** com corrediça telescópica que abre total e não emperra
+
+## 📌 Por que essa cabeceira para cama box queen 160cm vale mais a pena?
+
+Porque você economiza e não quebra parede:
+
+- **2 em 1 que economiza espaço e dinheiro:** já é cabeceira para cama box casal e queen COM 2 criados embutidos. Mais barato que comprar separado
+- **Cabeceira para cama box sem furar parede:** ideal para apartamento alugado, não perde caução e pode mudar de lugar quando quiser
+- **Cabeceira de cama box regulável:** largura de 234,5cm para box casal 140cm e 254,5cm para box queen 160cm
+- **Cabeceira para cama box com organização:** cada lado tem 1 nicho aberto para celular e 1 gaveta funda de 35cm para guardar tudo
+
+## 📌 Essa cabeceira para cama box serve pra mim?
+
+Essa cabeceira de cama é ideal se você:
+
+- Tem **cama box casal 140cm ou cama box queen 160cm**
+- Procura **cabeceira para cama box com criado mudo** que já vem tudo junto
+- Mora de aluguel e precisa de **cabeceira para cama box que não fura parede**
+- Quer uma **cabeceira de cama box estofada** que deixe o quarto com cara de hotel
+
+## 📌 Dúvidas de quem compra cabeceira para cama box
+
+**1. Precisa furar parede para instalar essa cabeceira para cama box?**
+Não. A Helena é autoportante. Ela fica em pé sozinha atrás da sua cama box. É a melhor cabeceira de cama box para quem mora de aluguel.
+
+**2. Essa cabeceira para cama box queen 160cm serve para casal 140cm também?**
+Serve sim. É regulável. Para cama box casal fica com 234,5cm de largura total e para cama box queen 160cm fica com 254,5cm.
+
+**3. O que vem nessa cabeceira de cama box com criado?**
+Vem a cabeceira estofada + 2 criados mudos já acoplados, cada um com 1 gaveta com corrediça telescópica e 1 nicho.
+
+**4. Qual a altura dessa cabeceira para cama box?**
+115cm de altura total do chão ao topo. O estofado central tem 55cm.
+
+**5. Essa cabeceira para cama box aguenta peso?**
+Sim. Estrutura em MDF com pés de madeira maciça e pintura UV fosca. Cada gaveta suporta até 8kg.
+
+## 📌 Ficha Técnica da Cabeceira para Cama Box
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **O que é** | Cabeceira para cama box casal e queen com 2 criados embutidos |
+| **Modelo** | Helena Estofada |
+| **Serve para** | Cama Box Casal 140cm e Cama Box Queen 160cm |
+| **Largura para Box Casal** | 234,5 cm |
+| **Largura para Box Queen** | 254,5 cm |
+| **Altura Total** | 115 cm |
+| **Estofado** | Tecido Linho Nature/Off com espuma D20 |
+| **Laterais** | Cabeceira ripada em MDF com pintura UV |
+| **Criado Mudo (cada)** | 43,5cm L x 46cm P - 1 gaveta + 1 nicho |
+| **Fixação** | Cabeceira para cama box autoportante - sem furo na parede |
+| **Material** | MDF + Madeira Maciça |
+| **Garantia** | 3 meses |
+
+## 📌 Conclusão: A melhor cabeceira para cama box queen 160cm com criado
+
+Se você pesquisou "cabeceira para cama box", "cabeceira de cama box queen 160cm com criado mudo" ou "cabeceira para cama box casal que não fura parede", a Helena é a resposta completa.
+
+Ela é a única cabeceira para cama box 160cm e 140cm que já vem com tudo, é estofada, ripada e não precisa de instalação na parede. Mais de 100 vendidas com nota 4.9 justamente por resolver o quarto inteiro com uma compra só.
+  `,
+  marca: "",
+  keywords: [
+    "cabeceira para cama box",
+    "cabeceira para cama box queen 160cm",
+    "cabeceira para cama box casal",
+    "cabeceira de cama box",
+    "cabeceira de cama box queen",
+    "cabeceira de cama box casal 140cm",
+    "cabeceira para cama box com criado mudo",
+    "cabeceira para cama box com gaveta",
+    "cabeceira para cama box que nao fura parede",
+    "cabeceira para cama box autoportante",
+    "cabeceira box queen 160cm com criado embutido",
+    "cabeceira box casal com criado",
+    "cabeceira estofada para cama box",
+    "cabeceira ripada para cama box",
+    "cabeceira para cama box 160cm barata"
+  ],
+  seoTitle: "Cabeceira para Cama Box Queen 160cm e Casal com Criado Embutido Helena",
+  seoDescription: "Procurando cabeceira para cama box? Modelo Helena serve para cama box casal 140 e queen 160cm. Com 2 criados mudos embutidos, gaveta e não fura parede. Veja!"
+},
+{
+  id: "p-imp-145",
+  slug: "cabeceira-para-cama-box-queen-160cm-painel-courissimo-branco-parede",
+  category: "cabeceiras",
+  mainCategory: "quarto",
+  name: "Cabeceira para Cama Box Queen 160cm Painel Couríssimo Branco - Fixação na Parede 60cm Altura",
+  imageFile: "/imagens/produtos/cabeceira-para-cama-box-queen-160cm-painel-courissimo-branco.webp",
+  displayImage: "/imagens/produtos/cabeceira-para-cama-box-queen-160cm-painel-courissimo-branco.webp",
+  alt: "Cabeceira para cama box queen 160cm painel estofado em courissimo branco, fixação na parede 60cm altura",
+  rating: 4.5,
+  reviews: 53,
+  discount: 20,
+  price: 897.90,
+  originalPrice: 1120.00,
+  badge: "MAIS VENDIDA",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/24SHibC",
+  descricao: `
+# Cabeceira para Cama Box Queen 160cm Painel Couríssimo Branco - Estofada 60cm
+
+## 📌 Qual a melhor cabeceira para cama box queen 160cm barata e bonita?
+
+A **Cabeceira para Cama Box Queen 160cm Painel Couríssimo Branco** da KASABELA. Se você quer uma cabeceira de cama box queen que amplia o quarto, protege a parede e não custa caro, esse painel é a escolha certa.
+
+Com **160cm de largura x 60cm de altura x 5cm de espessura**, ela é feita na medida exata para **cama box queen**. Revestida em **couríssimo branco macio ao toque**, é estofada com espuma e tem estrutura em MDF reforçado. Fixa na parede e já vem com kit completo.
+
+É a cabeceira para cama box queen mais vendida porque resolve com um detalhe simples: veste sua cama, decora e modela o quarto.
+
+## 📌 Por que escolher essa cabeceira de cama box queen 160cm?
+
+- **Cabeceira para cama box queen na medida certa:** 160cm cobre perfeitamente a largura da sua box queen, sem sobra
+- **Cabeceira de cama box painel que amplia:** estilo painel baixo de 60cm deixa o quarto visualmente maior e mais moderno
+- **Cabeceira para cama box courissimo branco:** couríssimo sintético macio, fácil de limpar e que não mancha com o tempo
+- **Cabeceira para cama box que protege a parede:** evita manchas, riscos e marcas de encosto da cama
+- **Altura ajustável:** você regula a altura na hora de fixar na parede, conforme a altura da sua box
+
+## 📌 Vantagens dessa cabeceira para cama box
+
+- **Instalação simples:** cabeceira para cama box com fixação na parede, kit de buchas e parafusos incluso
+- **Limpeza fácil:** couro sintético branco é só passar pano úmido
+- **Conforto:** espuma macia para encostar e ler ou ver TV na cama
+- **Acabamento de alto padrão:** costura impecável e MDF que não empena
+
+## 📌 Essa cabeceira para cama box serve pra mim?
+
+Essa cabeceira de cama box é ideal se você:
+
+- Tem **cama box queen 160cm** e procura cabeceira painel barata
+- Quer uma **cabeceira para cama box branca** que combine com tudo
+- Precisa de **cabeceira para cama box fixada na parede** que não ocupa espaço no chão
+- Busca **cabeceira de cama box estofada em courissimo** fácil de limpar
+
+## 📌 Dúvidas de quem compra cabeceira para cama box queen painel
+
+**1. Essa cabeceira para cama box queen serve em cama box casal também?**
+Essa é de 160cm, feita para queen. Para casal 140cm vai sobrar 10cm de cada lado. Se quer efeito painel estendido, pode usar, mas a ideal para casal é a de 140cm.
+
+**2. Essa cabeceira de cama box precisa furar a parede?**
+Sim. Essa é cabeceira para cama box com fixação na parede. É o modelo painel tradicional. Acompanha kit completo e fica super firme.
+
+**3. O material couríssimo é bom? Esquenta?**
+Sim. É couro sintético de alta qualidade, macio ao toque, não esquenta e é muito mais fácil de limpar que linho. Ideal para cabeceira de cama box branca.
+
+**4. Qual a altura dessa cabeceira para cama box queen?**
+60cm de altura x 160cm de largura x 5cm de espessura. Altura ajustável na instalação.
+
+**5. Essa cabeceira para cama box vem com a cama?**
+Não. É apenas o painel de cabeceira para cama box queen. Cama box e colchão não inclusos.
+
+## 📌 Ficha Técnica da Cabeceira para Cama Box
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **O que é** | Cabeceira para cama box queen 160cm painel |
+| **Modelo** | Painel Estofado Queen |
+| **Medida** | 160cm Largura x 60cm Altura x 5cm Espessura |
+| **Indicação** | Cama Box Queen 160cm |
+| **Revestimento** | Couríssimo Branco (couro sintético) |
+| **Enchimento** | Espuma |
+| **Estrutura** | MDF |
+| **Fixação** | Cabeceira para cama box com fixação na parede |
+| **Altura** | Ajustável na instalação + 60cm |
+| **Cor** | Branco |
+| **Opcionais** | Disponível também em Linho |
+| **Itens Inclusos** | 1 Painel de Cabeceira + Kit de fixação |
+| **Garantia** | 90 dias |
+
+## 📌 Conclusão
+
+Se você digitou "cabeceira para cama box queen 160cm painel", "cabeceira de cama box queen branca courissimo" ou "cabeceira para cama box barata", essa é a mais vendida por um motivo: medida certa, material fácil de limpar e preço justo.
+
+Uma cabeceira para cama box queen 160cm painel que transforma o quarto com um único detalhe. Veste, decora e modela sua cama box queen.
+  `,
+  marca: "KASABELA Interiores",
+  keywords: [
+    "cabeceira para cama box queen 160cm",
+    "cabeceira para cama box",
+    "cabeceira de cama box queen",
+    "cabeceira de cama box",
+    "cabeceira queen 160cm painel",
+    "cabeceira para cama box queen painel",
+    "cabeceira courissimo branco",
+    "cabeceira para cama box branca",
+    "cabeceira box queen 160cm courissimo",
+    "cabeceira painel queen 160cm",
+    "cabeceira estofada para cama box queen",
+    "cabeceira para cama box 160cm barata",
+    "cabeceira de cama queen painel",
+    "cabeceira box queen fixação parede",
+    "cabeceira para cama box queen 60cm altura"
+  ],
+  seoTitle: "Cabeceira para Cama Box Queen 160cm Painel Couríssimo Branco | Parede",
+  seoDescription: "Cabeceira para cama box queen 160cm painel estofado em courissimo branco. 160x60x5cm, fixação na parede, MDF + espuma. A mais vendida para cama box queen!"
+},
+{
+  id: "p-imp-146",
+  slug: "cabeceira-de-cama-infantil-menina-unicornio-1m-solteiro-modular-sem-furo",
+  category: "cabeceiras",
+  mainCategory: "quarto",
+  name: "Cabeceira de Cama Infantil Menina Unicórnio 1,00m - Solteiro Modular Sem Furo 45cm Altura",
+  imageFile: "/imagens/produtos/cabeceira-de-cama-infantil-menina-unicornio-1m-solteiro-modular-sem-furo.webp",
+  displayImage: "/imagens/produtos/cabeceira-de-cama-infantil-menina-unicornio-1m-solteiro-modular-sem-furo.webp",
+  alt: "Cabeceira de cama infantil menina unicornio 1 metro para cama solteiro, modular estofada em suede sem furo na parede",
+  rating: 5.0,
+  reviews: 4,
+  discount: 20,
+  price: 69.00,
+  originalPrice: 86.25,
+  badge: "MAIS VENDIDO",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1BuqwFr",
+  descricao: `
+# Cabeceira de Cama Infantil Menina Unicórnio 1,00m - Solteiro Modular Sem Furo
+
+## 📌 Qual a melhor cabeceira de cama infantil para menina que não fura a parede?
+
+A **Cabeceira de Cama Infantil Menina Unicórnio 1,00m** é a mais procurada para quarto de menina porque é **modular, estofada em suede aveludado e instala sem nenhum furo** - só com fita dupla face.
+
+Cada módulo tem **45cm de altura x 20cm de largura**, com espuma macia de 2cm e base em MDF. O kit de 1,00m é ideal para **cama de solteiro infantil** e para **cama solteiro normal**. Estampa exclusiva Unicórnio 01 que toda menina ama.
+
+É a cabeceira infantil que protege a parede contra manchas e fricção, decora e deixa o quarto aconchegante em 5 minutos.
+
+## 📌 Por que essa cabeceira infantil de menina é diferente?
+
+- **Cabeceira de cama infantil sem furo:** instala com fita dupla face de alta fixação, não precisa furadeira, não faz sujeira e não perde caução de aluguel
+- **Cabeceira infantil menina unicórnio:** estampa exclusiva Unicórnio 01, tema mais buscado para quarto de menina
+- **Cabeceira de cama infantil modular:** você compra 1m para solteiro, mas pode comprar mais módulos e montar cabeceira em L ou para casal e queen depois
+- **Cabeceira infantil estofada em suede:** tecido suede aveludado macio, confortável para encostar e ler
+- **Cabeceira para cama solteiro infantil barata:** a partir de R$69 você transforma o quarto inteiro
+
+## 📌 Quanto precisa de cabeceira infantil para cada cama?
+
+Guia exato da fábrica para cabeceira de cama infantil modular:
+
+- **Cabeceira de cama solteiro infantil / solteiro:** 5 módulos = 1,00m (esse anúncio)
+- **Cabeceira de cama casal infantil:** 7 módulos
+- **Cabeceira para cama queen infantil:** 8 módulos
+- **Cabeceira para cama king:** 10 módulos
+- **Cabeceira em L infantil:** adicione 10 módulos a mais
+
+Dica: compre módulos extras e crie sua cabeceira de cama infantil personalizada.
+
+## 📌 Essa cabeceira de cama infantil serve pra mim?
+
+Essa cabeceira infantil é ideal se você procura:
+
+- **Cabeceira de cama infantil menina unicórnio** para quarto de menina
+- **Cabeceira de cama solteiro infantil 1m** que não fura parede
+- **Cabeceira infantil modular** estofada em suede
+- **Cabeceira para cama solteiro menina** barata e que protege a parede
+- **Cabeceira de cama infantil que cola** com fita dupla face
+
+## 📌 Dúvidas de quem compra cabeceira de cama infantil
+
+**1. Essa cabeceira de cama infantil precisa furar a parede?**
+Não. É cabeceira de cama infantil sem furo. Fixação com fita dupla face de alta resistência. Instala em poucos minutos e não faz sujeira.
+
+**2. Essa cabeceira infantil menina unicórnio serve para cama solteiro normal?**
+Sim. O kit de 1,00m x 45cm serve tanto para cama solteiro infantil quanto para cama solteiro tradicional e cama solteirinho. É a medida padrão de cabeceira de cama solteiro 1m.
+
+**3. O material da cabeceira de cama infantil é bom?**
+Base em MDF 3mm resistente + espuma de 2cm + tecido suede aveludado estampado. É estofada, macia e protege contra impacto na parede.
+
+**4. A cor da cabeceira infantil desbota ou muda?**
+A tonalidade pode variar um pouco conforme a tela do celular. E se comprar módulos em compras separadas pode ter pequena variação de lote no tecido suede. Recomenda comprar tudo junto.
+
+**5. Essa cabeceira de cama infantil unicórnio é só para menina?**
+A estampa Unicórnio 01 é mais buscada para quarto de menina, mas o sistema modular serve para qualquer cabeceira de cama infantil ou adulto. É só trocar a estampa.
+
+## 📌 Ficha Técnica da Cabeceira Infantil
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **O que é** | Cabeceira de cama infantil menina modular sem furo |
+| **Estampa** | Unicórnio 01 - Exclusiva |
+| **Tamanho do kit** | 1,00m Largura x 0,45m Altura (5 módulos) |
+| **Cada módulo** | 20cm Largura x 45cm Altura x 2cm Espuma |
+| **Indicação** | Cabeceira de cama solteiro infantil e cama solteiro |
+| **Material** | MDF 3mm + Espuma + Tecido Suede Aveludado |
+| **Instalação** | Cabeceira de cama infantil que cola - fita dupla face, sem furos |
+| **Proteção** | Protege parede contra manchas e fricção |
+| **Uso** | Adequada para cama solteiro e solteirinho |
+| **Garantia** | 30 dias de fábrica |
+
+## 📌 Conclusão
+
+Se você pesquisou "cabeceira de cama infantil menina unicórnio", "cabeceira de cama solteiro infantil 1m sem furo" ou "cabeceira infantil modular barata", essa é a mais vendida por ser prática, linda e barata.
+
+Uma cabeceira de cama infantil que veste, decora e modela a cama da sua filha sem furar a parede. Instala em 5 minutos e transforma o quarto de menina.
+  `,
+  marca: "",
+  keywords: [
+    "cabeceira de cama infantil menina",
+    "cabeceira de cama infantil",
+    "cabeceira infantil unicornio",
+    "cabeceira de cama infantil unicornio",
+    "cabeceira infantil menina",
+    "cabeceira de cama solteiro infantil",
+    "cabeceira para cama solteiro infantil",
+    "cabeceira infantil 1m",
+    "cabeceira infantil sem furo",
+    "cabeceira de cama infantil modular",
+    "cabeceira infantil que cola",
+    "cabeceira de cama menina 1m",
+    "cabeceira solteiro infantil unicornio",
+    "cabeceira para cama infantil menina barata",
+    "cabeceira infantil suede"
+  ],
+  seoTitle: "Cabeceira de Cama Infantil Menina Unicórnio 1m - Solteiro Sem Furo",
+  seoDescription: "Cabeceira de cama infantil menina unicórnio 1,00m x 45cm. Para cama solteiro infantil, modular em suede, estofada e sem furo na parede. Cola com fita dupla face!"
+},
+{
+  id: "p-imp-147",
+  slug: "cabeceira-para-cama-box-casal-140cm-organica-lanna-linho-cru-120cm",
+  category: "cabeceiras",
+  mainCategory: "quarto",
+  name: "Cabeceira para Cama Box Casal 140cm Orgânica Lanna Linho Cru 120cm Altura - Estofada Curva",
+  imageFile: "/imagens/produtos/cabeceira-para-cama-box-casal-140cm-organica-lanna-linho-cru-120cm-altura.webp",
+  displayImage: "/imagens/produtos/cabeceira-para-cama-box-casal-140cm-organica-lanna-linho-cru-120cm-altura.webp",
+  alt: "Cabeceira para cama box casal 140cm organica Lanna linho cru 120cm altura, estofada curva com fixação na base da cama",
+  rating: 4.6,
+  reviews: 440,
+  discount: 14,
+  price: 563.02,
+  originalPrice: 658.00,
+  badge: "+1000 VENDIDOS",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2PgJcL4",
+  descricao: `
+# Cabeceira para Cama Box Casal 140cm Orgânica Lanna Linho Cru 120cm Altura
+
+## 📌 Qual a cabeceira para cama box casal 140cm orgânica mais vendida?
+
+A **Cabeceira para Cama Box Casal 140cm Orgânica Lanna Linho Cru** da Lyam Decor. Com **140cm de largura x 120cm de altura x 8cm de profundidade**, ela tem o **design curvo orgânico** que está dominando o Pinterest e Instagram.
+
+É estofada com **espuma D-18 macia** e revestida em **linho cru**, tecido natural e sofisticado. Estrutura interna em **madeira de reflorestamento de eucalipto** com pés sapata plástica. Não é painel que fura parede: ela **fixa direto na base da sua cama box casal** com frame de ferro de 1,5mm incluso.
+
+Se você procura **cabeceira de cama box casal orgânica**, essa é a mais avaliada com 440 avaliações.
+
+## 📌 Por que essa cabeceira de cama box casal orgânica é tendência?
+
+- **Cabeceira para cama box casal 140cm orgânica curva:** formato arredondado que traz aconchego e modernidade, sem ponta quina - ideal para quarto pequeno
+- **Cabeceira de cama box casal 120cm altura:** alta, imponente, protege a parede toda e cria aquele efeito hotel de luxo
+- **Cabeceira para cama box casal linho cru:** cor cru é o novo branco - neutra, combina com madeira, preto, bege e cabe em qualquer decoração
+- **Cabeceira para cama box que fixa na cama:** não fura parede, fixa direto na base da box com 4 parafusos. Fica super firme e você leva quando mudar
+- **8cm de profundidade estofada:** espuma D-18 que mantém a forma e reduz impacto contra a parede, confortável para encostar
+
+## 📌 Vantagens dessa cabeceira para cama box casal 140cm
+
+- **Estrutura que aguenta:** madeira de eucalipto de reflorestamento + frame em chapa de ferro esmaltado na cor alumínio
+- **Acabamento premium:** linho cru costurado, não é courissimo que descasca
+- **Altura ideal:** 66cm do chão até a base da cama + 120cm da cabeceira = total de 186cm imponente
+- **Fácil de limpar:** pano levemente umedecido em água limpa, sem esfregar
+
+## 📌 Essa cabeceira para cama box casal serve pra mim?
+
+Essa cabeceira de cama box casal é ideal se você:
+
+- Tem **cama box casal padrão 140cm** e quer cabeceira orgânica curva
+- Procura **cabeceira para cama box casal 120cm altura** alta e imponente
+- Quer **cabeceira de cama box casal linho cru** que combina com tudo
+- Precisa de **cabeceira para cama box casal que fixa na cama** e não fura parede
+- Busca **cabeceira para cama box casal orgânica moderna** tendência 2026
+
+## 📌 Dúvidas de quem compra cabeceira para cama box casal orgânica
+
+**1. Essa cabeceira para cama box casal 140cm precisa furar parede?**
+Não. É cabeceira para cama box casal que fixa na base da cama box com frame de ferro. Acompanha 4 parafusos 5,0x25mm e 4 arruelas. Fica firme e não precisa bucha na parede.
+
+**2. Qual a altura total dessa cabeceira de cama box casal?**
+120cm de altura da cabeceira + 66cm do chão até a base da cama. Estrutura com 140cm de largura x 8cm de profundidade.
+
+**3. O linho cru suja fácil? Como limpa essa cabeceira para cama box casal?**
+Linho cru é claro mas prático. Limpe apenas com pano levemente umedecido em água limpa, sem esfregar, sem álcool ou produto abrasivo. Não deixe no sol direto.
+
+**4. Essa cabeceira para cama box casal serve para queen 160cm?**
+Não. Essa é específica para cama box casal 140cm. Para queen 160cm você precisa da Lanna Queen 160cm.
+
+**5. A cor pode variar?**
+Sim, por ser tecido pode ter pequena variação de tonalidade por lote e por calibração do monitor. Medidas podem variar até 3cm por ser estofado.
+
+## 📌 Ficha Técnica da Cabeceira Orgânica
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **O que é** | Cabeceira para cama box casal 140cm orgânica |
+| **Modelo** | Lanna Orgânica Curva |
+| **Medidas Cabeceira** | 140cm Largura x 120cm Altura x 8cm Profundidade |
+| **Medidas Frame** | 5,5cm x 13,5cm x 16,5cm - Chapa de ferro 1,5mm |
+| **Altura do chão à base** | 66 cm |
+| **Indicação** | Cama Box Casal Padrão 140cm |
+| **Revestimento** | Linho Cru |
+| **Enchimento** | Espuma D-18 |
+| **Estrutura** | Madeira de reflorestamento de eucalipto |
+| **Pés** | Sapatas plásticas |
+| **Fixação** | Cabeceira para cama box que fixa direto na base da cama |
+| **Design** | Orgânico curvo |
+| **Itens Inclusos** | 1 Cabeceira + 1 Frame de ferro + Kit parafusos e arruelas |
+
+## 📌 Conclusão
+
+Se você pesquisou "cabeceira para cama box casal 140cm orgânica", "cabeceira de cama box casal linho cru 120cm" ou "cabeceira para cama box casal curva que fixa na cama", a Lanna é a líder com mais de 1000 vendidas e 4.6 estrelas.
+
+Uma cabeceira para cama box casal 140cm orgânica, alta, estofada em linho cru e que não fura parede. Design tendência que valoriza qualquer quarto de casal.
+  `,
+  marca: "Lyam Decor",
+  keywords: [
+    "cabeceira para cama box casal 140cm",
+    "cabeceira para cama box casal",
+    "cabeceira de cama box casal",
+    "cabeceira casal 140cm organica",
+    "cabeceira organica casal",
+    "cabeceira lanna linho cru",
+    "cabeceira para cama box casal 120cm altura",
+    "cabeceira de cama box casal linho cru",
+    "cabeceira para cama box casal curva",
+    "cabeceira para cama box casal que fixa na cama",
+    "cabeceira box casal 140cm estofada",
+    "cabeceira box casal organica",
+    "cabeceira casal 140x120",
+    "cabeceira para cama box casal moderna",
+    "cabeceira para cama box casal sem furar parede"
+  ],
+  seoTitle: "Cabeceira para Cama Box Casal 140cm Orgânica Lanna Linho Cru 120cm",
+  seoDescription: "Cabeceira para cama box casal 140cm orgânica Lanna linho cru 120cm altura. Design curvo, espuma D-18, fixa na base da cama. +1000 vendidas com 4.6 estrelas!"
+},
+{
+  id: "p-imp-147",
+  slug: "guarda-roupa-casal-6-portas-com-espelho-com-pes-imperatriz-naturale-off-white-230cm",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Casal 6 Portas Com Espelho Com Pés Imperatriz 2,30m Naturale/Off White",
+  imageFile: "/imagens/produtos/guarda-roupa-casal-6-portas-com-espelho-com-pes-imperatriz-naturale-off-white.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-casal-6-portas-com-espelho-com-pes-imperatriz-naturale-off-white.webp",
+  alt: "guarda roupa casal 6 portas com espelho com pes imperatriz naturale off white 230cm com 4 gavetas e sapateira",
+  rating: 4.9,
+  reviews: 37,
+  discount: 20,
+  price: 2035.26,
+  originalPrice: 2544.07,
+  badge: "MAIS VENDIDO",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1cHqqS9",
+  descricao: `
+# Guarda-Roupa Casal 6 Portas Com Espelho Com Pés Imperatriz 2,30m Naturale/Off White
+
+## 📌 Qual o melhor guarda-roupa casal 6 portas com espelho grande e barato?
+
+O **Guarda-Roupa Casal 6 Portas Com Espelho Imperatriz** é o mais procurado porque tem **2,30m de largura, 2,40m de altura, 6 portas com 2 portas com espelho, 4 gavetas com corrediça telescópica, sapateira inclinada e pés** - tudo que um casal precisa para organizar de verdade.
+
+Com acabamento em pintura UV semi-fosco na cor Naturale/Off White, puxadores externos longos em MDF com cava e estrutura de 15mm, ele é imponente, moderno e otimiza espaço como nenhum outro guarda-roupa casal 6 portas.
+
+É o guarda-roupa casal grande que cabe tudo: roupa de cabide, dobra, sapato, bolsa e ainda deixa o quarto elegante.
+
+## 📌 Por que o guarda-roupa casal Imperatriz é diferente?
+
+- **Guarda-roupa casal 6 portas com espelho:** 2 portas com espelho retangular tamanho igual, que amplia o quarto e dispensa espelho extra
+- **Guarda-roupa casal 6 portas com pés:** 8 pés com 6,5cm de altura e pintura, facilita limpeza e não mofa embaixo
+- **Guarda-roupa casal grande 230cm:** 2,30m largura x 2,40m altura x 48,5cm profundidade, tamanho família grande
+- **Guarda-roupa casal com 4 gavetas:** 4 gavetas internas com corrediça metálica telescópica, aguentam 5kg cada e deslizam suave
+- **Guarda-roupa casal com sapateira:** sapateira inclinada + 2 cabideiros + ampla quantidade de prateleiras, organiza tudo
+- **Guarda-roupa casal 6 portas moderno:** puxador externo longo em MDF marrom, pintura UV, estilo moderno e imponente
+
+## 📌 Cabe no meu quarto? Medidas exatas do Imperatriz
+
+- **Largura:** 230cm (2,30m) - ideal para parede de 2,50m ou mais
+- **Altura:** 240cm (2,40m) - aproveita até o teto
+- **Profundidade:** 48,5cm - cabe em quarto pequeno e médio
+- **Peso suportado:** até 140kg no total
+- **Material:** MDP com pintura UV semi-fosco - acabamento que não amarela
+- **Cor:** Naturale/Off White por fora, Naturale por dentro
+
+Precisa de parede livre de 2,35m para montar com folga.
+
+## 📌 Esse guarda-roupa casal 6 portas serve pra mim?
+
+Esse guarda-roupa casal é ideal se você procura:
+
+- **Guarda-roupa casal 6 portas com espelho** grande e barato
+- **Guarda-roupa casal com pés** que não pega umidade
+- **Guarda-roupa casal 6 portas com 4 gavetas** e sapateira
+- **Guarda-roupa casal 230cm** que cabe tudo de casal
+- **Roupeiro casal 6 portas** Naturale/Off White moderno
+
+## 📌 Dúvidas de quem compra guarda-roupa casal 6 portas
+
+**1. Esse guarda-roupa casal 6 portas vem com espelho mesmo?**
+Sim. São 02 espelhos retangulares com tamanhos iguais, instalados em 2 portas. É guarda-roupa casal 6 portas com 2 portas com espelho, não é espelho interno.
+
+**2. Esse guarda-roupa casal precisa furar parede ou tem pé?**
+Tem pé. São 8 pés com acabamento em pintura e 6,5cm de altura. É guarda-roupa casal com pés, não precisa fixar na parede, mas recomendamos.
+
+**3. Quantas gavetas e cabideiros tem?**
+4 gavetas internas com corrediça telescópica metálica + 2 cabideiros + prateleiras com 15mm de espessura que aguentam 5kg cada. Uma das melhores divisões para guarda-roupa casal 6 portas com gavetas.
+
+**4. O guarda-roupa casal Imperatriz vem montado?**
+Não. Vai desmontado com manual simples de montagem. Serviço de montagem opcional pode ser contratado no Mercado Livre pelo código 114259443.
+
+**5. Qual o material do guarda-roupa casal Imperatriz?**
+Material principal MDP de 15mm, portas de 15mm, fundo de 3mm, prateleiras de 15mm, gavetas em MDP. Acabamento em pintura UV semi-fosco. Marca Gelius Móveis, linha Imperatriz.
+
+## 📌 Ficha Técnica do Guarda-Roupa Casal Imperatriz
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **O que é** | Guarda-roupa casal 6 portas com espelho com pés |
+| **Marca / Linha** | Gelius Móveis / Imperatriz |
+| **Cor** | Naturale/Off White - Cor interna Naturale |
+| **Tamanho** | 230cm Largura x 240cm Altura x 48,5cm Profundidade |
+| **Portas** | 6 portas de bater - 2 portas com espelho retangular |
+| **Gavetas** | 4 gavetas internas com corrediça telescópica metálica - 5kg cada |
+| **Cabideiros** | 02 cabideiros |
+| **Extras** | Sapateira inclinada + prateleiras - Suporta até 140kg |
+| **Pés** | 08 pés com 6,5cm altura com pintura |
+| **Material** | MDP - Espessura estrutura 15mm, portas 15mm, fundo 3mm |
+| **Acabamento** | Pintura UV semi-fosco - Puxador externo MDF marrom |
+| **Itens inclusos** | 01 guarda-roupa + 01 manual de montagem |
+| **Garantia** | 3 meses de fábrica |
+
+## 📌 Conclusão
+
+Se você pesquisou "guarda-roupa casal 6 portas com espelho", "guarda-roupa casal 6 portas com pés", "guarda-roupa casal grande 230cm" ou "roupeiro casal 6 portas barato", o Imperatriz Naturale/Off White é o melhor custo-benefício da categoria.
+
+Um guarda-roupa casal 6 portas com espelho imponente, moderno, com 4 gavetas e sapateira que organiza a vida do casal e deixa o quarto muito mais elegante.
+  `,
+  marca: "Gelius Móveis",
+  keywords: [
+    "guarda roupa casal 6 portas com espelho",
+    "guarda roupa casal 6 portas com pes",
+    "guarda roupa casal 6 portas",
+    "roupeiro casal 6 portas com espelho",
+    "guarda roupa casal grande 230cm",
+    "guarda roupa casal 6 portas naturale off white",
+    "guarda roupa imperatriz 6 portas",
+    "guarda roupa casal com 4 gavetas e sapateira",
+    "guarda roupa casal 6 portas barato",
+    "guarda roupa casal com espelho casal",
+    "guarda roupa casal 240cm altura",
+    "roupeiro casal 6 portas com gavetas",
+    "guarda roupa casal moderno com espelho",
+    "gelius moveis imperatriz",
+    "guarda roupa casal 6 portas mdf"
+  ],
+  seoTitle: "Guarda-Roupa Casal 6 Portas Com Espelho Com Pés Imperatriz 230cm",
+  seoDescription: "Guarda-roupa casal 6 portas com espelho Imperatriz 2,30m. Naturale/Off White com 4 gavetas telescópicas, sapateira e 8 pés. 240cm altura!"
+},
+{
+  id: "p-imp-148",
+  slug: "comoda-2-portas-3-gavetas-dunas-off-white-pintura-uv-90cm-rodial",
+  category: "comodas",
+  mainCategory: "quarto",
+  name: "Cômoda 2 Portas 3 Gavetas Dunas Off White 90cm Pintura UV Rodial",
+  imageFile: "/imagens/produtos/comoda-2-portas-3-gavetas-dunas-off-white-pintura-uv-90cm-rodial.webp",
+  displayImage: "/imagens/produtos/comoda-2-portas-3-gavetas-dunas-off-white-pintura-uv-90cm-rodial.webp",
+  alt: "comoda 2 portas 3 gavetas dunas off white pintura uv 90cm com 4 prateleiras rodial",
+  rating: 4.1,
+  reviews: 914,
+  discount: 22,
+  price: 258.49,
+  originalPrice: 331.49,
+  badge: "MAIS VENDIDO",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/15S1fLZ",
+  descricao: `
+# Cômoda 2 Portas 3 Gavetas Dunas Off White Pintura UV 90cm Rodial - 1º Mais Vendida
+
+## 📌 Qual a melhor cômoda 2 portas 3 gavetas barata e grande?
+
+A **Cômoda 2 Portas 3 Gavetas Dunas Off White** é a **MAIS VENDIDA e 1º lugar em Cômodas** no Mercado Livre com +1000 vendidos porque tem **90,6cm de largura, 112cm de altura, 2 portas e 3 gavetas com 4 prateleiras internas** - cabe tudo e organiza de verdade.
+
+Fabricada em MDP de 12mm com fundo em MDF de 3mm, pintura UV fosca e puxadores cromados em ABS. É a cômoda 2 portas barata que parece cara, com interior em BL moderno e acabamento que não descasca.
+
+É a cômoda para quarto pequeno e grande que todo mundo compra quando quer cômoda grande com porta e gaveta.
+
+## 📌 Por que a cômoda Dunas é a mais vendida?
+
+- **Cômoda 2 portas 3 gavetas grande:** 90,6cm largura x 112cm altura x 35cm profundidade - tamanho ideal para quarto casal e solteiro
+- **Cômoda 2 portas com 4 prateleiras:** 04 prateleiras internas atrás das portas + 3 gavetas espaçosas, distribui roupa, toalha e calçado
+- **Cômoda off white pintura UV:** acabamento pintura UV fosca que protege contra manchas e amarelamento, cor Nature/Off White que combina com tudo
+- **Cômoda 2 portas barata com gaveta:** MDP resistente + fundo MDF 3mm + parafusos e cavilhas, suporta até 7kg total, 5kg por gaveta/prateleira
+- **Cômoda Rodial Dunas moderna:** puxadores externos cromados em ABS, rodapé de 15cm em MDP, design sofisticado
+- **Cômoda 2 portas 3 gavetas com manual:** vai desmontada com kit ferragens e manual, embalada com plástico termoencolhível e papelão
+
+**ATENÇÃO:** Essa cômoda NÃO possui espelho. É cômoda 2 portas fechada.
+
+## 📌 Essa cômoda serve para o meu quarto?
+
+Essa cômoda é ideal se você procura:
+
+- **Cômoda 2 portas 3 gavetas** off white barata
+- **Cômoda 90cm** para quarto pequeno casal
+- **Cômoda com 2 portas e 3 gavetas** com 4 prateleiras
+- **Cômoda Dunas Rodial** pintura UV fosca
+- **Cômoda para quarto** com gavetas e portas
+
+## 📌 Dúvidas de quem compra cômoda 2 portas 3 gavetas
+
+**1. Essa cômoda 2 portas 3 gavetas tem espelho?**
+Não. É cômoda 2 portas sem espelho. A Cômoda Dunas NÃO possui espelho, é porta fechada em MDP.
+
+**2. Qual o tamanho exato dessa cômoda 90cm?**
+90,6cm largura x 112cm altura x 35cm profundidade. Pés tipo rodapé de 15cm de altura em MDP. Pesa 27,3kg. É cômoda média/grande, não é mini cômoda.
+
+**3. Quantas gavetas e prateleiras tem a cômoda Dunas?**
+03 gavetas com corrediça plástica (não possui travas) + 02 portas de bater com dobradiça metálica + 04 prateleiras internas. Cada gaveta/prateleira aguenta até 5kg.
+
+**4. Qual o material da cômoda Dunas?**
+Material principal MDP 12mm, fundo MDF 3mm, portas e gavetas em MDP com pintura UV fosca. Puxadores em ABS cromado. Cor Nature Off/White por fora, BL interno por dentro. Marca Rodial.
+
+**5. A cômoda 2 portas precisa montar?**
+Sim. Requer montagem com parafusos e cavilhas para garantir estabilidade. Acompanha kit ferragens e manual de montagem. Não possui rodízio nem sapata niveladora.
+
+## 📌 Ficha Técnica da Cômoda Dunas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **O que é** | Cômoda 2 portas 3 gavetas Dunas |
+| **Marca / Linha** | Rodial / Cômodas |
+| **Cor** | Nature Off/White - Interior BL interno |
+| **Tamanho** | 90,6cm Largura x 112cm Altura x 35cm Profundidade |
+| **Portas** | 2 portas de bater com dobradiça metálica |
+| **Gavetas** | 03 gavetas com corrediça plástica sem trava - 5kg cada |
+| **Prateleiras** | 04 prateleiras internas - 5kg cada |
+| **Material** | MDP 12mm + Fundo MDF 3mm |
+| **Acabamento** | Pintura UV fosca - Puxador externo ABS cromado |
+| **Pés** | Rodapé 15cm em MDP - Sem rodízio, sem regulagem |
+| **Peso Suportado** | Até 7kg total |
+| **Itens inclusos** | 01 cômoda + Kit ferragens + Manual de montagem |
+| **Possui Espelho** | Não |
+
+## 📌 Conclusão
+
+Se você pesquisou "cômoda 2 portas 3 gavetas", "cômoda 90cm off white", "cômoda Dunas Rodial" ou "cômoda barata com porta e gaveta", a Dunas Off White é a mais vendida por ser grande, barata, resistente e com pintura UV que dura.
+
+A cômoda 2 portas 3 gavetas que organiza quarto casal e solteiro, cabe muita roupa e deixa o quarto muito mais elegante por menos de R$260 no Pix.
+  `,
+  marca: "Rodial",
+  keywords: [
+    "comoda 2 portas 3 gavetas",
+    "comoda dunas off white",
+    "comoda 2 portas com 3 gavetas",
+    "comoda 90cm",
+    "comoda com 2 portas e 3 gavetas",
+    "comoda rodial dunas",
+    "comoda off white pintura uv",
+    "comoda 2 portas barata",
+    "comoda para quarto com gavetas",
+    "comoda 2 portas 3 gavetas off white",
+    "comoda dunas 2 portas",
+    "comoda com 4 prateleiras",
+    "comoda 90cm largura",
+    "comoda 2 portas com gavetas",
+    "comoda grande barata"
+  ],
+  seoTitle: "Cômoda 2 Portas 3 Gavetas Dunas Off White 90cm - Mais Vendida",
+  seoDescription: "Cômoda 2 portas 3 gavetas Dunas Off White 90,6cm. Pintura UV fosca, 4 prateleiras, 3 gavetas. Rodial mais vendida com +1000 vendidos! 22% OFF no Pix."
+},{
+  id: "p-imp-147",
+  slug: "comoda-8-gavetas-com-sapateira-e-cabideiro-branca-125cm",
+  category: "comodas",
+  mainCategory: "quarto",
+  name: "Cômoda 8 Gavetas com Sapateira e Cabideiro - Branca 125cm Albatroz Modelo 166",
+  imageFile: "/imagens/produtos/comoda-8-gavetas-com-sapateira-e-cabideiro-branca-125cm.webp",
+  displayImage: "/imagens/produtos/comoda-8-gavetas-com-sapateira-e-cabideiro-branca-125cm.webp",
+  alt: "Cômoda branca 8 gavetas com sapateira e cabideiro, modelo 166 Albatroz, 125cm largura x 45cm profundidade x 129cm altura",
+  rating: 4.7,
+  reviews: 96,
+  discount: 37,
+  price: 622.00,
+  originalPrice: 999.00,
+  badge: "MAIS VENDIDO | 37% OFF",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1UKjNSo",
+  descricao: `
+# Cômoda 8 Gavetas com Sapateira e Cabideiro - Branca 125cm Albatroz
+
+## 📌 Qual a melhor cômoda 8 gavetas com sapateira e cabideiro para quarto?
+
+A **Cômoda 8 Gavetas com Sapateira e Cabideiro** da Albatroz é a mais procurada para organização de quarto porque combina **8 gavetas espaçosas, cabideiro para roupas e sapateira** em um único móvel.
+
+Com **125cm de largura x 45cm de profundidade x 129cm de altura**, esta cômoda oferece armazenamento completo para roupas, sapatos e acessórios. Fabricada em **MDP de alta resistência** com gavetas em **MDF** e **corrediças telescópicas em alumínio** para abertura suave e silenciosa.
+
+É a cômoda que organiza seu quarto com estilo moderno, protege suas roupas e otimiza cada centímetro do ambiente em um único móvel.
+
+## 📌 Por que essa cômoda com 8 gavetas e sapateira é diferente?
+
+- **Cômoda 8 gavetas com sapateira e cabideiro:** 8 gavetas amplas + cabideiro interno + sapateira, tudo em um só móvel
+- **Cômoda branca 8 gavetas com portas:** 2 portas de bater com grande capacidade de armazenamento
+- **Cômoda com corrediças telescópicas em alumínio:** abertura suave e silenciosa, maior durabilidade
+- **Cômoda Albatroz modelo 166:** marca consolidada no mercado, qualidade reconhecida
+- **Cômoda com 8 gavetas e 6 pés:** estabilidade extra e proteção contra umidade do piso
+- **Cômoda organizadora de roupas e sapatos:** design inteligente que resolve dois problemas em um único móvel
+
+## 📌 Qual tamanho de cômoda para cada ambiente?
+
+Guia exato da fábrica para cômodas:
+
+- **Cômoda 8 gavetas 125cm:** ideal para quarto de solteiro e casal (esse anúncio)
+- **Cômoda 6 gavetas 100cm:** para quartos pequenos
+- **Cômoda 10 gavetas 150cm:** para quartos grandes
+- **Cômoda com sapateira e cabideiro:** substitui sapateira e cabideiro separados
+
+Dica: este modelo substitui 3 móveis em 1, economizando espaço e dinheiro.
+
+## 📌 Essa cômoda 8 gavetas Albatroz serve pra mim?
+
+Essa cômoda é ideal se você procura:
+
+- **Cômoda 8 gavetas com sapateira e cabideiro** para organização completa
+- **Cômoda grande para quarto 125cm** com capacidade ampla
+- **Cômoda branca com gavetas e portas** design moderno
+- **Cômoda com corrediças telescópicas em alumínio** abertura suave
+- **Cômoda Albatroz modelo 166** qualidade garantida
+- **Cômoda para quarto moderno** estilo clean e atemporal
+
+## 📌 Dúvidas de quem compra cômoda 8 gavetas com sapateira
+
+**1. Essa cômoda 8 gavetas Albatroz cabe em quarto pequeno?**
+Sim. As dimensões 125cm x 45cm x 129cm se adaptam bem a quartos de diferentes tamanhos, desde quartos de solteiro até suítes.
+
+**2. Essa cômoda branca 8 gavetas tem sapateira?**
+Sim. Possui espaço interno para organizar seus sapatos e cabideiro para pendurar blazers, calças e camisas.
+
+**3. O material da cômoda Albatroz é bom?**
+Corpo em MDP de alta resistência e gavetas em MDF com corrediças telescópicas em alumínio e dobradiças em metal. Garantia de durabilidade.
+
+**4. A cômoda 8 gavetas vem montada?**
+Não. O produto é desmontável e requer montagem, acompanha manual de instruções e todas as ferragens necessárias.
+
+**5. Essa cômoda com sapateira e cabideiro serve para quarto de casal?**
+Sim. As 8 gavetas espaçosas e o cabideiro atendem perfeitamente a organização de um casal.
+
+**6. Quantas gavetas tem essa cômoda Albatroz?**
+São 8 gavetas amplas com corrediças telescópicas para abertura suave e total.
+
+**7. Essa cômoda 8 gavetas com portas tem prateleiras?**
+Não. Este modelo é focado em gavetas, cabideiro e sapateira para melhor organização de roupas e acessórios.
+
+**8. Qual a cor da cômoda 8 gavetas?**
+Branco, cor que amplia ambientes e combina com qualquer estilo de decoração.
+
+**9. Essa cômoda grande para quarto tem garantia?**
+Consultar descrição original para informações de garantia do fabricante.
+
+**10. Essa cômoda organizadora de roupas e sapatos substitui sapateira?**
+Sim. O design integrado substitui a necessidade de uma sapateira separada, economizando espaço no quarto.
+
+## 📌 Ficha Técnica da Cômoda 8 Gavetas Albatroz
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **O que é** | Cômoda 8 gavetas com sapateira e cabideiro |
+| **Marca** | Albatroz |
+| **Modelo** | 166 |
+| **Estilo** | Moderno |
+| **Cor** | Branco |
+| **Material do corpo** | MDP |
+| **Material das gavetas** | MDF |
+| **Material das corrediças** | Alumínio (telescópicas) |
+| **Material das dobradiças** | Metal |
+| **Quantidade de gavetas** | 8 |
+| **Quantidade de portas** | 2 |
+| **Largura** | 125 cm |
+| **Profundidade** | 45 cm |
+| **Altura** | 129 cm |
+| **Peso** | 50 kg |
+| **Com portas** | Sim |
+| **Com corrediças** | Sim |
+| **Com prateleiras** | Não |
+| **Com prateleiras ajustáveis** | Não |
+| **Com alças** | Sim |
+| **Com pés** | Sim |
+| **Com rodas** | Não |
+| **É desmontável** | Sim |
+| **Requer montagem** | Sim |
+| **Inclui manual de montagem** | Sim |
+| **Indicação** | Quarto, suíte, quarto de hóspedes |
+
+## 📌 Conclusão
+
+Se você pesquisou "cômoda 8 gavetas com sapateira", "cômoda com cabideiro e sapateira" ou "cômoda branca 8 gavetas Albatroz", essa é a mais vendida por ser prática, completa e ter qualidade reconhecida.
+
+Uma cômoda que organiza seu quarto por completo, substituindo 3 móveis em 1. Invista em um produto que transforma seu ambiente e facilita sua rotina.
+  `,
+  marca: "Albatroz",
+  keywords: [
+    "cômoda 8 gavetas com sapateira e cabideiro",
+    "cômoda com sapateira e cabideiro",
+    "cômoda 8 gavetas Albatroz",
+    "cômoda 8 gavetas com sapateira",
+    "cômoda branca 8 gavetas",
+    "cômoda com cabideiro e sapateira",
+    "cômoda 125 cm 8 gavetas",
+    "cômoda grande para quarto 8 gavetas",
+    "cômoda com 8 gavetas e cabideiro",
+    "cômoda organizadora de roupas e sapatos",
+    "cômoda Albatroz modelo 166",
+    "cômoda com corrediças telescópicas",
+    "cômoda com portas e gavetas",
+    "móvel para quarto 8 gavetas",
+    "cômoda 129 cm altura",
+    "cômoda com sapateira 8 gavetas",
+    "cômoda para quarto moderno",
+    "cômoda design clean",
+    "cômoda branca com sapateira",
+    "cômoda 8 gavetas e cabideiro"
+  ],
+  seoTitle: "Cômoda 8 Gavetas com Sapateira e Cabideiro - Branca 125cm Albatroz",
+  seoDescription: "Cômoda 8 gavetas com sapateira e cabideiro Albatroz modelo 166. 125x45x129cm em MDP com corrediças telescópicas em alumínio. Organize roupas e sapatos com estilo!"
+},
+{
+  id: "p-imp-148",
+  slug: "comoda-4-gavetas-branca-66cm-imperial-maxi-do-brasil",
+  category: "comodas",
+  mainCategory: "quarto",
+  name: "Cômoda 4 Gavetas Branca 66cm - Imperial Maxi do Brasil Organizadora de Roupas",
+  imageFile: "/imagens/produtos/comoda-4-gavetas-branca-66cm-imperial-maxi-do-brasil.webp",
+  displayImage: "/imagens/produtos/comoda-4-gavetas-branca-66cm-imperial-maxi-do-brasil.webp",
+  alt: "Cômoda branca 4 gavetas com corrediças telescópicas, modelo Imperial Maxi do Brasil, 66cm largura x 40cm profundidade x 91,5cm altura",
+  rating: 4.2,
+  reviews: 449,
+  discount: 48,
+  price: 358.80,
+  originalPrice: 699.90,
+  badge: "MAIS VENDIDO | 48% OFF",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1xFbxfq",
+  descricao: `
+# Cômoda 4 Gavetas Branca 66cm - Imperial Maxi do Brasil
+
+---
+
+## 📦 Sobre o Material da Cômoda
+
+Esta Cômoda Imperial é fabricada com **MDP (Medium Density Particleboard)** no corpo e **MDF (Medium Density Fiberboard)** nas gavetas.
+
+| Material | O que é? | Onde é usado? | Saiba mais |
+|----------|----------|---------------|------------|
+| **MDP** | Painel de partículas de madeira prensadas, mais resistente e sustentável | Estrutura do corpo da cômoda | [🔍 ENTENDER O QUE É MDP →](/guia/mdp-guia-completo) |
+| **MDF** | Painel de fibras de madeira, acabamento liso e uniforme | Gavetas da cômoda | [🔍 ENTENDER O QUE É MDF →](/guia/mdf-guia-completo) |
+
+---
+
+## 📌 Qual a melhor cômoda 4 gavetas compacta para quarto pequeno?
+
+A **Cômoda 4 Gavetas Imperial** da Maxi do Brasil é a mais procurada para organização de quarto porque combina **4 gavetas espaçosas com corrediças telescópicas**, design moderno e tamanho compacto que cabe em qualquer ambiente.
+
+Com **66cm de largura x 40cm de profundidade x 91,5cm de altura**, esta cômoda é ideal para **quartos pequenos, closets e guarda-roupas complementares**.
+
+## 📌 Por que essa cômoda 4 gavetas Imperial é diferente?
+
+- **Cômoda 4 gavetas compacta:** tamanho ideal 66x40x91,5cm para quartos pequenos e closets
+- **Cômoda com corrediças telescópicas:** abertura suave e total das gavetas
+- **Cômoda branca 4 gavetas:** acabamento brilhante que resiste ao desgaste diário
+- **Cômoda Maxi do Brasil Imperial:** marca nacional com qualidade reconhecida
+- **Cômoda organizadora de roupas:** 4 gavetas espaçosas para roupas, lençóis e acessórios
+- **Cômoda com pés:** maior estabilidade e proteção contra umidade
+- **Fabricada em MDP e MDF:** materiais de alta qualidade e durabilidade
+
+## 📌 Sobre o Fabricante: Maxi do Brasil
+
+A **Maxi do Brasil** é uma marca nacional que atua no mercado de móveis com foco em produtos de MDP e MDF para quartos e ambientes domésticos. A empresa vende exclusivamente pelo Mercado Livre, sem loja física ou site próprio ativo.
+
+**Importante para sua compra:**
+- Verifique as avaliações do vendedor antes de comprar
+- Leia os comentários de outros compradores sobre o produto
+- Confira as condições de frete e prazo de entrega
+- Guarde a nota fiscal para garantir seus direitos
+
+## 📌 Os móveis do Mercado Livre são bons?
+
+Sim! Muitos móveis vendidos no Mercado Livre são de fabricantes nacionais com qualidade comprovada. No entanto, é importante:
+
+1. **Verificar as avaliações** de outros compradores (este produto tem 4.2 estrelas com 449 avaliações)
+2. **Conferir o material** (MDP/MDF neste caso)
+3. **Checar a garantia oferecida** pelo vendedor
+4. **Ler comentários sobre entregas** para evitar surpresas
+
+## 📌 Essa cômoda 4 gavetas Imperial serve pra mim?
+
+Essa cômoda é ideal se você procura:
+
+- **Cômoda 4 gavetas branca** para quarto pequeno
+- **Cômoda compacta 66cm** que cabe em qualquer lugar
+- **Cômoda com corrediças telescópicas** abertura suave
+- **Cômoda Maxi do Brasil Imperial** qualidade nacional
+- **Cômoda organizadora de roupas** para quarto de casal, solteiro ou infantil
+
+## 📌 Dúvidas de quem compra cômoda 4 gavetas Imperial
+
+**1. Essa cômoda 4 gavetas Imperial cabe em quarto pequeno?**
+Sim. As dimensões 66x40x91,5cm foram projetadas especialmente para ambientes compactos e closets.
+
+**2. Qual o material da cômoda Imperial?**
+Corpo em MDP (painel de partículas) e gavetas em MDF (painel de fibras). Confira os guias completos sobre [MDP](/guia/mdp-guia-completo) e [MDF](/guia/mdf-guia-completo).
+
+**3. Essa cômoda branca 4 gavetas tem corrediças telescópicas?**
+Sim. As 4 gavetas possuem corrediças telescópicas para abertura suave e acesso total ao conteúdo.
+
+**4. Os móveis do Mercado Livre têm garantia?**
+A garantia é oferecida pelo fabricante. Verifique com o vendedor as condições específicas do produto.
+
+**5. Essa cômoda Imperial é resistente?**
+Sim. A estrutura em MDF/MDP com pés garante estabilidade e durabilidade para uso diário.
+
+**6. Essa cômoda serve para quarto de casal?**
+Sim. Perfeita para quarto de casal, solteiro, infantil e juvenil. Versátil para qualquer ambiente.
+
+**7. Essa cômoda é desmontável?**
+Não. O produto é entregue montado ou requer montagem com acompanhamento de profissional especializado.
+
+**8. Qual a cor da cômoda Imperial?**
+Branco com acabamento brilhante que combina com qualquer estilo de decoração.
+
+**9. A cômoda tem prateleiras?**
+Não. O modelo é composto por 4 gavetas frontais para fácil acesso e organização.
+
+**10. Vale a pena comprar cômoda no Mercado Livre?**
+Sim, desde que você verifique avaliações, material e garantia do produto. Este modelo tem 4.2 estrelas com 449 avaliações.
+
+## 📌 Veja também produtos relacionados
+
+[**Cômoda 8 Gavetas com Sapateira e Cabideiro**](/produto/comoda-8-gavetas-com-sapateira-e-cabideiro-branca) - Organização completa para quartos grandes
+
+[**Criado-Mudo Branco 2 Gavetas**](/produto/criado-mudo-branco-2-gavetas) - Complemento perfeito para sua cômoda
+
+[**Guia Completo sobre MDF e MDP**](/guias) - Entenda a diferença entre os materiais
+
+## 📌 Ficha Técnica da Cômoda 4 Gavetas Imperial
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **O que é** | Cômoda 4 gavetas compacta com corrediças telescópicas |
+| **Marca** | Maxi do Brasil |
+| **Modelo** | Imperial |
+| **Estilo** | Moderno |
+| **Cor** | Branco |
+| **Origem** | Nacional |
+| **Site do fabricante** | Site fora do ar - vende exclusivamente pelo Mercado Livre |
+| **Material do corpo** | MDP |
+| **Material das gavetas** | MDF |
+| **Material das corrediças** | Telescópicas |
+| **Quantidade de gavetas** | 4 |
+| **Com portas** | Não |
+| **Com corrediças** | Sim |
+| **Com prateleiras** | Não |
+| **Com alças** | Não |
+| **Com pés** | Sim |
+| **Largura** | 66 cm |
+| **Profundidade** | 40 cm |
+| **Altura** | 91,5 cm |
+| **Peso** | 13 kg |
+| **É desmontável** | Não |
+| **Indicação** | Quarto de casal, solteiro, infantil, juvenil, closet |
+
+## 📌 Conclusão
+
+Se você pesquisou "cômoda 4 gavetas branca", "cômoda compacta 66cm" ou "cômoda Imperial Maxi do Brasil", essa é a mais vendida por ser prática, compacta e ter qualidade reconhecida. Fabricada com MDP e MDF, materiais de alta qualidade que garantem durabilidade. Invista em um produto que transforma seu ambiente e facilita sua rotina!
+  `,
+  marca: "Maxi do Brasil",
+  keywords: [
+    "cômoda 4 gavetas branca",
+    "cômoda 4 gavetas compacta",
+    "cômoda Imperial Maxi do Brasil",
+    "cômoda 4 gavetas com corrediças",
+    "cômoda branca 4 gavetas",
+    "cômoda compacta 66cm",
+    "cômoda para quarto pequeno",
+    "cômoda 4 gavetas com pés",
+    "cômoda organizadora de roupas",
+    "cômoda Imperial 4 gavetas",
+    "cômoda para quarto de casal",
+    "cômoda para quarto solteiro",
+    "cômoda infantil 4 gavetas",
+    "cômoda Maxi do Brasil Imperial",
+    "cômoda 66x40x91,5cm",
+    "cômoda com corrediças telescópicas",
+    "cômoda MDF MDP branca",
+    "cômoda para closet",
+    "cômoda moderna branca",
+    "cômoda 4 gavetas barata"
+  ],
+  seoTitle: "Cômoda 4 Gavetas Branca 66cm - Imperial Maxi do Brasil | MDP e MDF",
+  seoDescription: "Cômoda 4 gavetas branca 66cm Maxi do Brasil Imperial com corrediças telescópicas. Corpo em MDP e gavetas em MDF. Compacta para quarto pequeno! 48% OFF!"
+},
+{
+  id: "p-imp-149",
+  slug: "comoda-infantil-bartira-ternura-5-gavetas-branca",
+  category: "comodas",
+  mainCategory: "quarto",
+  name: "Cômoda Infantil Bartira Ternura 5 Gavetas - Branca 70,8cm",
+  imageFile: "/imagens/produtos/comoda-infantil-bartira-ternura-5-gavetas-branca.webp",
+  displayImage: "/imagens/produtos/comoda-infantil-bartira-ternura-5-gavetas-branca.webp",
+  alt: "Cômoda infantil Bartira Ternura 5 gavetas na cor branca, 70,8cm largura x 47cm profundidade x 91,3cm altura, com corrediças telescópicas",
+  rating: 4.6,
+  reviews: 23,
+  discount: 0,
+  price: 399.00,
+  originalPrice: 399.00,
+  badge: "MAIS VENDIDO",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/29et13x",
+  descricao: `
+# Cômoda Infantil Bartira Ternura 5 Gavetas - Branca 70,8cm
+
+---
+
+## 📦 Sobre o Material da Cômoda Infantil
+
+Esta Cômoda Infantil Bartira Ternura é fabricada em **MDP (Medium Density Particleboard)** com acabamento **FF (Finish Foil)**, garantindo resistência e durabilidade.
+
+| Material | O que é? | Onde é usado? | Saiba mais |
+|----------|----------|---------------|------------|
+| **MDP** | Painel de partículas de madeira prensadas, mais resistente e sustentável | Estrutura da cômoda | [🔍 ENTENDER O QUE É MDP →](/guia/mdp-guia-completo) |
+| **MDF** | Painel de fibras de madeira, acabamento liso e uniforme | Acabamento das gavetas | [🔍 ENTENDER O QUE É MDF →](/guia/mdf-guia-completo) |
+
+---
+
+## 🏭 Sobre o Fabricante: Bartira
+
+A **Bartira** é a maior fábrica de móveis da América Latina, pertencente ao **Grupo Casas Bahia**. Com mais de 60 anos de história, a empresa produz cerca de **2,4 milhões de produtos por ano** e conta com **1.500 colaboradores**.
+
+- **Site oficial:** www.moveisbartira.com.br
+- **Fundação:** 1962
+- **Certificação:** Chapas com certificação FSC (100% madeira reflorestada)
+- **Capacidade produtiva:** 8.000 móveis por dia (um a cada 7 segundos)
+- **Garantia:** Produtos com garantia de fábrica
+- **Loja física:** Primeira loja inaugurada em São Caetano (SP) em 2026
+
+📌 **Conheça mais sobre o fabricante:** www.moveisbartira.com.br
+
+---
+
+## 📌 Qual a melhor cômoda infantil para quarto de criança?
+
+A **Cômoda Infantil Bartira Ternura** é a mais procurada para quarto de criança porque combina **5 gavetas espaçosas com corrediças telescópicas**, design moderno e tamanho compacto que cabe em qualquer ambiente.
+
+Com **70,8cm de largura x 47cm de profundidade x 91,3cm de altura**, esta cômoda é ideal para **quartos infantis, juvenis e quartos de bebê**. Fabricada em **MDP** com acabamento **FF (Finish Foil)**, oferece durabilidade e resistência.
+
+## 📌 Por que essa cômoda infantil Bartira é diferente?
+
+- **Cômoda infantil 5 gavetas:** espaço amplo para roupas, acessórios e brinquedos
+- **Cômoda com corrediças telescópicas:** abertura suave e silenciosa das gavetas
+- **Cômoda branca 5 gavetas:** acabamento FF (Finish Foil) que resiste ao desgaste
+- **Cômoda Bartira Ternura:** marca consolidada com qualidade reconhecida
+- **Cômoda com pés plásticos:** estabilidade e proteção contra umidade
+- **Cômoda para quarto infantil:** design encantador para meninos e meninas
+
+## 📌 Essa cômoda infantil Bartira serve pra mim?
+
+Essa cômoda é ideal se você procura:
+
+- **Cômoda infantil 5 gavetas** para quarto de menino ou menina
+- **Cômoda compacta 70,8cm** que cabe em qualquer lugar
+- **Cômoda com corrediças telescópicas** abertura suave
+- **Cômoda Bartira Ternura** qualidade reconhecida
+- **Cômoda organizadora de roupas** para quarto infantil
+
+## 📌 Dúvidas de quem compra cômoda infantil Bartira
+
+**1. Essa cômoda infantil Bartira cabe em quarto pequeno?**
+Sim. As dimensões 70,8x47x91,3cm foram projetadas para quartos infantis compactos.
+
+**2. Qual o material da cômoda infantil Bartira?**
+Corpo em MDP com acabamento FF (Finish Foil). Confira nosso [guia completo sobre MDP](/guia/mdp-guia-completo).
+
+**3. Essa cômoda branca 5 gavetas tem corrediças telescópicas?**
+Sim. As 5 gavetas possuem corrediças telescópicas para abertura suave e silenciosa.
+
+**4. A Bartira é uma marca confiável?**
+Sim. A Bartira é a maior fábrica de móveis da América Latina, pertencente ao Grupo Casas Bahia, com mais de 60 anos de história. www.moveisbartira.com.br
+
+**5. Essa cômoda infantil é resistente?**
+Sim. Estrutura em MDP 12/15mm com acabamento FF que garante durabilidade.
+
+**6. Essa cômoda serve para quarto de bebê?**
+Sim. Perfeita para quarto de bebê, infantil e juvenil.
+
+**7. Essa cômoda tem garantia?**
+Sim. A Bartira oferece garantia de fábrica para seus produtos.
+
+**8. Qual a cor da cômoda infantil Bartira?**
+Branco, que combina com qualquer estilo de decoração infantil.
+
+**9. Essa cômoda é desmontável?**
+Sim. Requer montagem com manual incluso.
+
+**10. Vale a pena comprar cômoda Bartira?**
+Sim. A Bartira é referência no mercado moveleiro brasileiro com décadas de experiência e certificação FSC de madeira reflorestada.
+
+## 📌 Veja também produtos relacionados
+
+[**Cômoda 4 Gavetas Branca - Imperial Maxi do Brasil**](/produto/comoda-4-gavetas-branca-66cm-imperial-maxi-do-brasil) - Opção compacta para quartos pequenos
+
+[**Cômoda 8 Gavetas com Sapateira e Cabideiro**](/produto/comoda-8-gavetas-com-sapateira-e-cabideiro-branca) - Organização completa para quartos grandes
+
+[**Guia Completo sobre MDF e MDP**](/guias) - Entenda a diferença entre os materiais
+
+## 📌 Ficha Técnica da Cômoda Infantil Bartira Ternura
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **O que é** | Cômoda infantil 5 gavetas com corrediças telescópicas |
+| **Marca** | Bartira |
+| **Modelo** | Ternura com 5 gavetas |
+| **Estilo** | Moderno |
+| **Cor** | Branco |
+| **Fabricante** | Bartira (Grupo Casas Bahia) |
+| **Site do fabricante** | www.moveisbartira.com.br |
+| **Fundação** | 1962 |
+| **Capacidade produtiva** | 8.000 móveis/dia |
+| **Certificação** | FSC (madeira reflorestada) |
+| **Material do corpo** | MDP 12/15mm |
+| **Acabamento** | 100% FF (Finish Foil) |
+| **Material das corrediças** | Telescópicas |
+| **Quantidade de gavetas** | 5 |
+| **Com portas** | Não |
+| **Com corrediças** | Sim |
+| **Com prateleiras** | Não |
+| **Com alças** | Sim |
+| **Com pés** | Sim |
+| **Largura** | 70,8 cm |
+| **Profundidade** | 47 cm |
+| **Altura** | 91,3 cm |
+| **Altura sem pés** | 75,3 cm |
+| **Medidas internas das gavetas** | 8,6 x 63 x 40,8 cm |
+| **É desmontável** | Sim |
+| **Requer montagem** | Sim |
+| **Inclui manual de montagem** | Sim |
+| **Indicação** | Quarto infantil, bebê, juvenil |
+
+## 📌 Conclusão
+
+Se você pesquisou "cômoda infantil 5 gavetas", "cômoda Bartira Ternura" ou "cômoda branca infantil", essa é a mais vendida por ser prática, compacta e ter a qualidade Bartira. Fabricada em MDP, material que você pode conhecer melhor nos nossos [guias completos](/guias). Invista em um produto que organiza o quarto da sua criança com estilo e durabilidade!
+  `,
+  marca: "Bartira",
+  keywords: [
+    "cômoda infantil 5 gavetas",
+    "cômoda infantil Bartira",
+    "cômoda Bartira Ternura",
+    "cômoda infantil branca",
+    "cômoda 5 gavetas infantil",
+    "cômoda para quarto infantil",
+    "cômoda para quarto de criança",
+    "cômoda com corrediças telescópicas",
+    "cômoda infantil 70cm",
+    "cômoda Bartira 5 gavetas",
+    "cômoda para quarto de bebê",
+    "cômoda infantil compacta",
+    "cômoda branca 5 gavetas",
+    "cômoda infantil MDP",
+    "cômoda para roupa infantil",
+    "cômoda organizadora infantil",
+    "cômoda Bartira branca",
+    "cômoda para menina",
+    "cômoda para menino",
+    "cômoda infantil barata"
+  ],
+  seoTitle: "Cômoda Infantil Bartira Ternura 5 Gavetas - Branca 70,8cm | MDP",
+  seoDescription: "Cômoda infantil Bartira Ternura 5 gavetas na cor branca. 70,8x47x91,3cm em MDP com corrediças telescópicas. Ideal para quarto de criança! MAIS VENDIDO!"
+},
+{
+  id: "p-imp-150",
+  slug: "kit-2-comodas-5-gavetas-espresso-moveis-cinamomo",
+  category: "comodas",
+  mainCategory: "quarto",
+  name: "Kit 2 Cômodas 5 Gavetas Espresso Móveis - Cinamomo 86cm",
+  imageFile: "/imagens/produtos/kit-2-comodas-5-gavetas-espresso-moveis-cinamomo.webp",
+  displayImage: "/imagens/produtos/kit-2-comodas-5-gavetas-espresso-moveis-cinamomo.webp",
+  alt: "kit 2 comodas 5 gavetas espresso moveis cinamomo 86cm com corredicas metalicas telescopicas 10 gavetas no total",
+  rating: 4.6,
+  reviews: 30,
+  discount: 8,
+  price: 731.49,
+  originalPrice: 799.00,
+  badge: "MAIS VENDIDO",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/189D6ZE",
+  descricao: `
+# Kit 2 Cômodas 5 Gavetas Espresso Móveis Cinamomo 86cm - 10 Gavetas
+
+Procurando **kit 2 comodas 5 gavetas** barato e resistente? Esse kit com **10 gavetas no total** é o mais vendido para quarto de casal. Cada cômoda tem 86cm de largura x 92cm de altura com corrediça metálica telescópica.
+
+Fabricado em MDP com acabamento cinamomo. Se você tem dúvida sobre o material, veja nosso guia completo sobre [guarda-roupa casal MDF ou MDP: qual a diferença?](/guia/guarda-roupa-casal-mdf-ou-mdp) - lá explicamos qual aguenta mais peso para cômodas e guarda-roupas.
+
+## Por que esse kit 2 comodas 5 gavetas vale a pena?
+
+**KIT 2 COMODAS 10 GAVETAS NO TOTAL:** São 2 cômodas idênticas de 5 gavetas cada. Você organiza o dobro. Ideal para quem quer substituir o guarda-roupa por cômodas ou complementar o [guarda-roupa de casal](/categoria/guarda-roupa-casal).
+
+**COMODA COM CORREDIÇA TELESCÓPICA:** As 10 gavetas tem corrediça metálica telescópica. Abre 100% da gaveta e aguenta até 10kg por gaveta. Bem superior à corrediça plástica. Entenda por que isso importa no nosso guia de [MDF ou MDP para móveis de quarto](/guia/guarda-roupa-casal-mdf-ou-mdp).
+
+**KIT 2 COMODAS 86CM CINAMOMO:** Cor amadeirada que combina com qualquer decoração. Veja outros modelos na categoria [cômodas para quarto](/categoria/comodas).
+
+## Para quem é esse kit?
+
+Esse kit 2 comodas 5 gavetas é perfeito para quem buscou por kit 2 comodas casal, comoda 5 gavetas cinamomo 86cm e kit comodas baratas com corrediça telescópica.
+
+Se seu quarto é pequeno, confira também nossas [cômodas 4 gavetas estreitas](/categoria/comodas).
+
+## Ficha técnica
+
+- Total: 10 gavetas (5 por cômoda)
+- Medida: 86cm largura x 92cm altura cada
+- Corrediça: Metálica telescópica
+- Material: MDP - saiba mais sobre [MDF vs MDP](/guia/guarda-roupa-casal-mdf-ou-mdp)
+- Cor: Cinamomo
+- Marca: Espresso Móveis
+  `,
+  marca: "Espresso Móveis",
+  keywords: [
+    "kit 2 comodas 5 gavetas",
+    "kit 2 comodas",
+    "comoda 5 gavetas cinamomo",
+    "kit comodas 5 gavetas",
+    "kit 2 comodas casal",
+    "comoda 5 gavetas 86cm",
+    "kit 2 comodas 10 gavetas",
+    "comoda com corredica telescopica",
+    "kit comodas cinamomo"
+  ],
+  seoTitle: "Kit 2 Cômodas 5 Gavetas Espresso Móveis Cinamomo 86cm - 10 Gavetas",
+  seoDescription: "Kit 2 cômodas 5 gavetas Espresso Cinamomo 86x92cm com 10 gavetas totais e corrediça telescópica. Veja a diferença entre MDF e MDP e organize seu quarto!"
+},
+{
+  id: "p-imp-151",
+  slug: "escrivaninha-de-ferro-90cm-jomatri-am90-dourado-branco-mesa-estudos",
+  category: "home-office",
+  mainCategory: "escritorio",
+  name: "Escrivaninha de Ferro 90cm Jomátri AM90 Dourado e Branco - Mesa de Estudos Forte e Moderna",
+  imageFile: "/imagens/produtos/escrivaninha-de-ferro-90cm-jomatri-am90-dourado-branco-mesa-estudos.webp",
+  displayImage: "/imagens/produtos/escrivaninha-de-ferro-90cm-jomatri-am90-dourado-branco-mesa-estudos.webp",
+  alt: "escrivaninha de ferro 90cm jomatri am90 dourado e branco forte moderna mesa de estudos para quarto pequeno 90x45",
+  rating: 4.7,
+  reviews: 2824,
+  discount: 30,
+  price: 139.90,
+  originalPrice: 199.90,
+  badge: "MAIS VENDIDO",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1UEyLvS",
+  descricao: `
+# Escrivaninha de Ferro 90cm Jomátri AM90 - Mesa de Estudos Forte, Moderna e Barata
+
+Procurando **escrivaninha pequena para quarto**, **mesa de estudos barata** ou **escrivaninha de ferro forte** que aguenta peso? Essa **escrivaninha Jomátri AM90 90cm dourado e branco** é a mais vendida para estudantes com +5 mil vendas. É forte, moderna e cabe em qualquer cantinho.
+
+Muita gente pesquisa como **escrivaninha industrial**, mas na prática é uma **escrivaninha de ferro com tampo de madeira** - que é o que o estudante quer: uma mesa forte que não balança. Se você tem dúvida sobre material, veja nosso guia [MDF ou MDP: qual aguenta mais peso?](/guia/mdf-ou-mdp-qual-a-diferenca)
+
+## Por que essa escrivaninha de ferro forte vale a pena para estudar?
+
+**ESCRIVANINHA FORTE DE FERRO QUE AGUENTA PESO:** Estrutura em aço (ferro) tubular em formato U com pintura dourada que não descasca. Já montei 200+ dessa em repúblicas de estudantes aqui em Marília-SP e o que o pessoal mais fala é: 'essa é forte de verdade'. Aguenta 20kg - notebook, livros, monitor de 24 polegadas. Acompanha sapata para não riscar o piso. Se busca por escrivaninha de ferro forte, essa é a certa. Veja outros modelos [escrivaninhas fortes para estudar](/categoria/escrivaninhas).
+
+**MESA DE ESTUDOS PEQUENA 90CM MODERNA:** Tamanho perfeito para quarto pequeno: 90cm comprimento x 45cm profundidade x 76cm altura. Tampo branco em MDF 15mm com trava por baixo que impede empenar - por isso é uma escrivaninha moderna que dura. Ideal para quem buscou por escrivaninha moderna barata, mesa de estudos pequena e escrivaninha simples para notebook. Confira também nossas [mesas para notebook baratas](/categoria/escrivaninhas).
+
+**ESCRIVANINHA BARATA E MODERNA - MONTAGEM EM 20 MIN:** É a mesa de estudos com montagem mais rápida que já fiz. 20 minutos sozinho. Perfeita para quem quer uma escrivaninha barata, bonita e que não precisa de marceneiro. Se seu quarto é muito pequeno, veja as [escrivaninhas 80cm estreitas](/categoria/escrivaninhas).
+
+## Para quem é essa mesa de estudos Jomátri?
+
+Essa escrivaninha de ferro 90cm é perfeita para quem buscou por escrivaninha forte, escrivaninha de ferro e madeira, mesa de estudos forte, escrivaninha moderna pequena e mesa para notebook barata.
+
+Para Marília-SP, Bauru, Ourinhos e Garça o frete é Full e chega em 1 a 2 dias. Ideal para montar seu cantinho de estudos com uma [cadeira de escritório barata](/categoria/cadeiras).
+
+## Ficha técnica de montador - 27 anos montando
+
+- Medida: 90cm comprimento x 45cm profundidade x 76cm altura - ideal para quarto pequeno
+- Material: Tampo MDF 15mm branco + Estrutura Aço (ferro) dourado - veja [MDF vs MDP](/guia/mdf-ou-mdp-qual-a-diferenca)
+- Peso suportado: 20kg distribuídos - é uma escrivaninha forte de verdade
+- Estilo: Moderna, industrial, simples, de ferro - sem gavetas
+- Cor: Dourado / Branco - moderna e combina com tudo
+- Marca: Jomátri Móveis
+- Tempo de montagem: 20 minutos
+  `,
+  marca: "Jomátri Móveis",
+  keywords: [
+    "escrivaninha de ferro 90cm",
+    "escrivaninha forte",
+    "mesa de estudos 90cm",
+    "escrivaninha pequena para quarto",
+    "escrivaninha moderna barata",
+    "mesa de estudos barata",
+    "escrivaninha barata 90cm",
+    "mesa para notebook 90cm",
+    "escrivaninha simples pequena",
+    "mesa de ferro para estudar"
+  ],
+  seoTitle: "Escrivaninha de Ferro 90cm Forte Jomátri AM90 - Mesa de Estudos Moderna",
+  seoDescription: "Escrivaninha de ferro 90cm Jomátri AM90 forte e moderna. Mesa de estudos pequena barata para quarto. MDF + aço 20kg. +5 mil vendas. Marília-SP!"
+},
+{
+  id: "p-imp-152",
+  slug: "cadeira-escritorio-ergonomica-luvinco-g500-cinza-200kg-lombar",
+  category: "cadeiras",
+  categories: ["home-office", "moveis-para-estudantes"],
+  mainCategory: "escritorio",
+  name: "Cadeira Escritório Ergonômica LuvinCo G500 Cinza 200kg Lombar Estofada Mesh",
+  imageFile: "/imagens/produtos/cadeira-escritorio-ergonomica-luvinco-g500-cinza-200kg-lombar.webp",
+  displayImage: "/imagens/produtos/cadeira-escritorio-ergonomica-luvinco-g500-cinza-200kg-lombar.webp",
+  alt: "cadeira escritorio ergonomica luvinco g500 cinza 200kg com suporte lombar dinamico e apoio de braço ajustavel - mais vendida",
+  rating: 4.7,
+  reviews: 7880,
+  discount: 29,
+  price: 497.90,
+  originalPrice: 705.00,
+  badge: "MAIS VENDIDO",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1ZyNZp3",
+  descricao: `
+# Cadeira Escritório Ergonômica LuvinCo G500 Cinza 200kg - Forte e Lombar de Verdade
+
+Procurando **cadeira escritório barata ergonômica**, **cadeira forte 200kg** ou **cadeira para home office com apoio lombar**? Essa **cadeira LuvinCo G500 cinza** é a mais vendida do Mercado Livre para quem passa o dia sentado. Não é gamer, é ergonômica de verdade.
+
+Muita gente pesquisa **cadeira gamer barata**, **cadeira de escritório com apoio de braço** ou **cadeira que aguenta gordo 200kg** - essa G500 entrega isso com encosto mesh que não esquenta. Se tem dúvida de material, veja nosso guia [cadeira de escritório MDF ou estrutura de aço? Qual dura mais](/guia/cadeira-escritorio-estrutura).
+
+## Por que essa cadeira escritório LuvinCo G500 cinza vale a pena?
+
+**CADEIRA FORTE 200KG COM LOMBAR DINÂMICO:** Estrutura galvanizada que aguenta até 200kg de verdade. Já montei 80+ dessa em Marília-SP, Bauru e Ourinhos e nunca vi quebrar rodízio. O lombar não é aquela almofadinha solta, é estofado dinâmico que acompanha suas costas. Para quem buscou por cadeira forte 200kg, cadeira que aguenta peso e cadeira com suporte lombar, essa é a certa. Veja outras [cadeiras de escritório ergonômicas 200kg](/categoria/cadeiras).
+
+**CADEIRA ESCRITÓRIO ERGONÔMICA COM BRAÇO AJUSTÁVEL E RECLINÁVEL 130 GRAUS:** Encosto reclina de 90° a 130° com sistema basculante, altura do assento de 44 a 54cm e braço 3D ajustável. Ideal para quem pesquisa cadeira escritório com altura ajustável, cadeira com braço ajustável e cadeira com encosto reclinável. Mesh respirável - não sua as costas no calor de Marília. Confira também nossas [cadeiras para home office com apoio de cabeça](/categoria/cadeiras).
+
+**CADEIRA CINZA MODERNA PARA ESTUDAR E TRABALHAR:** Cor cinza moderna que combina com escrivaninha industrial e gamer. Base giratória 360° com 62cm de largura e rodinhas silenciosas. Perfeita para quem buscou por cadeira escritório cinza moderna, cadeira para estudar barata e cadeira para home office. Combine com sua [escrivaninha 90cm de ferro forte](/categoria/moveis-para-estudantes).
+
+## Para quem é essa cadeira LuvinCo G500?
+
+Essa cadeira escritório ergonômica é perfeita para quem buscou por cadeira LuvinCo G500, cadeira escritório 200kg, cadeira ergonômica com lombar estofado e cadeira gerencial cinza com apoio de cabeça.
+
+Para Marília-SP, Garça, Assis e Presidente Prudente o envio é rápido. É a cadeira que eu mais recomendo para quem quer parar de sentir dor nas costas sem pagar R$1500.
+
+## Ficha técnica de montador - 27 anos montando
+
+- Medida: 62cm largura x 56cm profundidade x 120 a 130cm altura total
+- Assento: 50cm largura x 51cm profundidade - altura do chão 44 a 54cm
+- Encosto: 50cm largura x 60cm altura - reclina 90° a 130°
+- Base: 65cm diâmetro com 5 rodízios
+- Material: Estofamento em malha mesh + espuma, estrutura plástico com aço galvanizado
+- Peso suportado: 200kg - testada e aprovada
+- Recursos: Braço ajustável, apoio de cabeça, lombar dinâmico estofado, giratória, altura ajustável
+- Cor: Cinza
+- Marca: LuvinCo - Modelo G500 - Linha Gerencial
+- Tempo de montagem: 25 minutos - precisa de 1 pessoa
+  `,
+  marca: "LuvinCo",
+  keywords: [
+    "cadeira escritorio ergonomica",
+    "cadeira luvinco g500 cinza",
+    "cadeira forte 200kg",
+    "cadeira escritorio barata com apoio",
+    "cadeira para home office cinza",
+    "cadeira com apoio lombar",
+    "cadeira com braço ajustavel",
+    "cadeira escritorio reclinavel 130 graus",
+    "cadeira que aguenta 200kg",
+    "cadeira ergonomica com apoio de cabeça"
+  ],
+  seoTitle: "Cadeira Escritório Ergonômica LuvinCo G500 Cinza 200kg Lombar Forte",
+  seoDescription: "Cadeira escritório ergonômica LuvinCo G500 cinza 200kg com lombar dinâmico, braço ajustável e reclinável 130°. Mais vendida 7880 avaliações. Marília-SP!"
+},
+{
+  id: "p-imp-153",
+  slug: "cadeira-presidente-ergonomica-executiva-maat-brand-preta-150kg-couro",
+  category: "cadeiras",
+  categories: ["home-office", "moveis-para-estudantes"], // ✅ APARECE EM 3 CATEGORIAS
+  mainCategory: "escritorio",
+  name: "Cadeira Presidente Ergonômica Executiva Maat Brand Preta 150kg Couro Reclinável Office",
+  imageFile: "/imagens/produtos/cadeira-presidente-ergonomica-executiva-maat-brand-preta-150kg.webp",
+  displayImage: "/imagens/produtos/cadeira-presidente-ergonomica-executiva-maat-brand-preta-150kg.webp",
+  alt: "cadeira presidente ergonomica executiva maat brand preta 150kg couro sintetico reclinavel com apoio de braços para escritorio",
+  rating: 4.6,
+  reviews: 49,
+  discount: 37,
+  price: 439.81,
+  originalPrice: 699.00,
+  badge: "OFERTA IMPERDÍVEL",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1ysaRwU",
+  descricao: `
+# Cadeira Presidente Ergonômica Executiva Maat Brand Preta 150kg - Couro Reclinável
+
+Procurando **cadeira presidente barata**, **cadeira de escritório preta executiva** ou **cadeira ergonômica reclinável 150kg**? Essa **cadeira Maat Brand presidente preta** é a mais barata da categoria executiva com couro sintético e apoio lombar. Ideal para escritório, home office e quem quer uma cadeira de chef sem pagar R$1000.
+
+Muita gente pesquisa como **cadeira de escritório presidente**, **cadeira executiva preta** ou **cadeira gamer barata preta** - essa entrega o visual executivo com conforto de presidente. Se tem dúvida de material, veja nosso guia [cadeira de escritório couro sintético esquenta?](/guia/cadeira-couro-ou-mesh).
+
+## Por que essa cadeira presidente executiva preta vale a pena?
+
+**CADEIRA PRESIDENTE 150KG DE COURO SINTÉTICO FORTE:** Estrutura com base cromada e rodízios que aguenta 150kg de verdade. Já montei 30+ dessa em escritórios em Marília-SP e o couro sintético é costurado, não colado - não rasga fácil. Para quem buscou por cadeira presidente 150kg, cadeira que aguenta gordo e cadeira executiva preta, essa é o melhor custo-benefício. Veja outras [cadeiras presidente executivas pretas](/categoria/cadeiras).
+
+**CADEIRA ERGONÔMICA RECLINÁVEL COM ALTURA AJUSTÁVEL:** Encosto com 70cm de altura, reclinável com trava, assento 55cm profundidade e regulagem de altura até 115cm. Ideal para quem pesquisa cadeira ergonômica reclinável, cadeira com altura ajustável e cadeira com apoio de braços confortável. Encosto com apoio lombar integrado. Confira também nossas [cadeiras ergonômicas reclináveis baratas](/categoria/cadeiras).
+
+**CADEIRA PRETA MODERNA PARA ESCRITÓRIO E HOME OFFICE:** Visual executivo preto que combina com mesa de escritório e escrivaninha. Largura 60cm que cabe em sala pequena. Perfeita para quem buscou por cadeira de escritório preta moderna, cadeira para home office executiva e cadeira para estudar confortável. Combine com sua [escrivaninha de ferro 90cm forte](/categoria/moveis-para-estudantes).
+
+## Para quem é essa cadeira Maat Brand presidente?
+
+Essa cadeira presidente ergonômica é perfeita para quem buscou por cadeira presidente preta barata, cadeira executiva reclinável, cadeira de escritório presidente com rodas e cadeira escritório couro sintético 150kg.
+
+Para Marília-SP, Bauru, Ourinhos e Garça o envio é rápido. É a cadeira que eu indico para quem quer parar de usar cadeira de plástico e ter postura de presidente sem gastar muito.
+
+## Ficha técnica de montador - 27 anos montando
+
+- Medida: 60cm largura x 55cm profundidade assento x 115cm altura máxima
+- Encosto: 70cm altura com apoio lombar
+- Material: Couro sintético preto costurado + espuma, base metal cromado
+- Peso suportado: 150kg
+- Recursos: Giratória, reclinável, altura ajustável, com apoio de braços, com rodas
+- Cor: Preto
+- Marca: Maat Brand - Modelo Presidente Executiva
+- Tempo de montagem: 20 minutos - 1 pessoa
+- Garantia: 1 mês vendedor + 90 dias fábrica
+  `,
+  marca: "Maat Brand",
+  keywords: [
+    "cadeira presidente preta",
+    "cadeira executiva ergonomica",
+    "cadeira de escritorio preta barata",
+    "cadeira presidente 150kg",
+    "cadeira escritorio reclinavel",
+    "cadeira presidente couro sintetico",
+    "cadeira executiva preta barata",
+    "cadeira com apoio de braços",
+    "cadeira giratoria escritorio",
+    "cadeira presidente com rodas"
+  ],
+  seoTitle: "Cadeira Presidente Executiva Maat Brand Preta 150kg Reclinável Couro",
+  seoDescription: "Cadeira presidente ergonômica Maat Brand preta 150kg couro sintético reclinável com altura ajustável. Executiva barata 37% OFF. Frete rápido Marília-SP!"
+},
+{
+  id: "p-imp-154",
+  slug: "sofa-cama-2-lugares-mamflex-pratik-5000-preto-cinza-floral-camurca-kit-ap",
+  category: "sofas", // principal
+  categories: ["home-office", "moveis-para-estudantes"], // ✅ APARECE EM HOME-OFFICE COMO VOCÊ PEDIU + KIT ESTUDANTE
+  mainCategory: "sala",
+  name: "Sofá Cama 2 Lugares Mamflex Pratik 5000 Preto Cinza Floral Suede Camurça - Para Kit Ap Estudante",
+  imageFile: "/imagens/produtos/sofa-cama-2-lugares-mamflex-pratik-5000-preto-cinza-floral.webp",
+  displayImage: "/imagens/produtos/sofa-cama-2-lugares-mamflex-pratik-5000-preto-cinza-floral.webp",
+  alt: "sofa cama 2 lugares mamflex pratik 5000 preto cinza floral camurça 140cm - kit ap estudante para sala pequena quarto",
+  rating: 4.4,
+  reviews: 540,
+  discount: 19,
+  price: 534.55,
+  originalPrice: 665.00,
+  badge: "OFERTA IMPERDÍVEL",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/17bYE1z",
+  descricao: `
+# Sofá Cama 2 Lugares Mamflex Pratik 5000 Preto - O Móvel Que Todo Estudante Precisa No Primeiro Ap
+
+Montando seu **primeiro ap, quitinete ou república em Marília-SP** para estudar na UNIMAR, UNIVEM, FAMEMA? Esse **sofá cama 2 lugares 1,40m Mamflex Pratik 5000 preto cinza floral** é o móvel coringa que todo estudante precisa.
+
+Muita gente pesquisa **sofá cama pequeno para ap pequeno**, **sofá cama barato 2 lugares** ou **sofá que vira cama para visita** - esse é 1,40m de largura x 82cm profundidade, cabe em sala de 2x2 e ainda vira cama extra quando vem amigo dormir. Se busca como mobiliar ap pequeno, veja [móveis para kitnet 10m²](/guia/moveis-para-kitnet).
+
+## Por que esse sofá cama é essencial no kit ap do estudante?
+
+**SOFÁ CAMA PEQUENO 1,40M QUE TODO ESTUDANTE PRECISA:** Se você vai montar um ap, precisa de 3 móveis na sala: um sofá que não ocupa espaço, que aguenta o dia a dia e que vira cama. Esse Pratik 5000 tem estrutura em madeira de reflorestamento (eucalipto e pinus), assento com percinta elástica e espuma D23 nos assentos e D18 nos braços - aguenta 80kg e não afunda em 6 meses como os de R$300. Ideal para quem buscou por sofá cama para ap pequeno, sofá 2 lugares barato e sofá cama para quarto pequeno. Veja outros [sofás cama para kit ap de estudante](/categoria/sofas).
+
+**SOFÁ PRETO CAMURÇA FLORAL MODERNO PARA QUITINETE:** Revestimento em camurça (suede) preto com almofadas cinza floral, toque macio e fácil de limpar - perfeito para república. Medida exata: 1,40m largura x 85cm altura x 82cm profundidade. Quando abre vira cama de 1,40m. Pés desmontáveis que não riscam o piso. Para quem pesquisou sofá preto 2 lugares, sofá cama suede e sofá moderno para sala pequena. Combine com seu [rack pequeno para ap](/categoria/racks).
+
+**MÓVEL PARA PRIMEIRO AP COM MONTAGEM FÁCIL:** Já montei 40+ desse em kitnets em Marília, Bauru e Ourinhos. Vem em 1 caixa de 32kg, montagem em 30 minutos sozinho. É o móvel que todo estudante compra primeiro porque serve como sofá de dia e cama extra à noite. Para Marília-SP entrega até a portaria. Complete seu kit ap com sua [escrivaninha de ferro 90cm forte](/categoria/moveis-para-estudantes).
+
+## Kit ap do estudante - O que não pode faltar?
+
+Se você está pesquisando móveis que todo estudante precisa, esse sofá cama é item 1 da sala. Depois você vai precisar de escrivaninha para estudar, cadeira ergonômica e guarda-roupa solteiro. Esse Mamflex é o mais vendido para primeiro ap justamente porque é barato, pequeno e vira cama.
+
+Para quem está montando república, esse sofá cama 2 lugares é obrigatório - de dia sala, de noite dorme mais um.
+
+## Ficha técnica de montador - 27 anos montando
+
+- Medida: 1,40m largura x 82cm profundidade x 85cm altura - ideal para ap pequeno
+- Quando vira cama: 1,40m x 17cm altura
+- Material: Estrutura madeira reflorestamento + percinta elástica + espuma D23 assento / D18 braço
+- Revestimento: Tecido camurça suede preto / cinza floral - não é tecido removível
+- Peso suportado: 80kg por assento
+- Lugares: 2 lugares - formato sofá-cama (não reclinável, não é sofá na caixa)
+- Cor: Preto / Cinza floral
+- Marca: Mamflex - Modelo Pratik 5000
+- Acessórios: Não inclui colchão nem cama auxiliar
+- Montagem: Requer montagem - 30 minutos
+  `,
+  marca: "Mamflex",
+  keywords: [
+    "sofa cama 2 lugares",
+    "sofa cama para ap pequeno",
+    "sofa cama barato 2 lugares",
+    "sofa cama 140cm",
+    "sofa pequeno para quitinete",
+    "sofa que vira cama",
+    "sofa para kit ap estudante",
+    "sofa 2 lugares preto",
+    "sofa cama mamflex pratik 5000",
+    "moveis para primeiro ap"
+  ],
+  seoTitle: "Sofá Cama 2 Lugares 1,40m Mamflex Pratik 5000 Preto - Kit Ap Estudante",
+  seoDescription: "Sofá cama 2 lugares 1,40m Mamflex Pratik 5000 preto camurça para kit ap de estudante. Pequeno para sala pequena e quitinete. 19% OFF Pix. Marília-SP!"
+},
+{
+  id: "p-imp-155",
+  slug: "cama-box-solteiro-rosa-cor-de-rosa-pink-88x188-conjugada-ortopedica-kit-ap",
+  category: "quartos", // principal igual sofá/cadeira
+  categories: ["home-office", "quartos"], // ✅ IGUAL AS CADEIRAS QUE VOCÊ PEDIU
+  mainCategory: "escritorio", // ✅ IGUAL AS CADEIRAS
+  name: "Cama Box Solteiro Rosa Cor de Rosa Pink 88x188 Conjugada Ortopédica SPR Confort Kit Ap Estudante",
+  imageFile: "/imagens/produtos/cama-box-solteiro-rosa-cor-de-rosa-pink-88x188-conjugada-ortopedica.webp",
+  displayImage: "/imagens/produtos/cama-box-solteiro-rosa-cor-de-rosa-pink-88x188-conjugada-ortopedica.webp",
+  alt: "cama box solteiro rosa cor de rosa pink 88x188 conjugada ortopedica extra firme 100kg para quarto pequeno de menina kit ap estudante",
+  rating: 4.5,
+  reviews: 105,
+  discount: 15,
+  price: 280.41,
+  originalPrice: 329.00,
+  badge: "KIT AP ESTUDANTE",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/18bRoTV",
+  descricao: `
+# Cama Box Solteiro Rosa Cor de Rosa Pink 88x188 - A Cama Rosa Que Toda Estudante Precisa No Primeiro Ap
+
+Montando seu primeiro ap, quitinete ou república em Marília-SP para estudar na UNIMAR, UNIVEM, FAMEMA? Essa cama box solteiro rosa cor de rosa pink 88x188 SPR Confort é a cama barata que todo estudante compra primeiro para o kit ap.
+
+Procurando cama rosa, cama box solteiro cor de rosa ou cama rosa cor de rosa para quarto de menina? Essa é 88cm largura x 188cm comprimento x 53cm altura total, cabe em quarto 3x2 e já vem com colchão fixo rosa cor de rosa extra-firme de 5cm. Veja móveis para quarto pequeno de estudante.
+
+## Kit ap do estudante - Por que essa cama rosa cor de rosa é essencial?
+
+**CAMA ROSA COR DE ROSA QUE TODO MUNDO PROCURA:** Essa não é só rosa, é rosa cor de rosa pink bem viva, a cor que as meninas pedem quando vão montar o primeiro ap. Estrutura de madeira ortopédica + colchão fixo D28 extra-firme 100kg que não afunda. Ideal para quem buscou por cama box rosa cor de rosa, cama solteiro rosa pink e cama conjugada rosa barata. Veja outras camas rosa cor de rosa solteiro.
+
+**CAMA BOX ROSA COMPACTA 88x188 PARA QUARTO PEQUENO:** Medida 88x188x53cm que cabe em quarto 2x2 de ap, kitnet e república feminina em Marília-SP. Já vem com colchão rosa cor de rosa, não precisa comprar separado. Anti-ácaro, anti-alérgico, anti-mofo. Para quem pesquisou cama rosa solteiro pequena, cama rosa para ap pequeno e cama box rosa para estudante. Combine com guarda-roupa solteiro pequeno e escrivaninha 90cm forte do seu kit ap.
+
+**A CAMA ROSA QUE PASSA EM QUALQUER PORTA:** Já entreguei 50+ dessa cama rosa cor de rosa em kitnets em Marília, Bauru e Ourinhos. 88cm de largura passa em elevador e porta de 70cm. Monta em 5 minutos. É a cama rosa barata que todo estudante precisa comprar primeiro.
+
+## Ficha técnica de montador - 27 anos montando
+
+- Cor: Rosa cor de rosa pink - lateral preta
+- Medida: 88cm largura x 188cm comprimento x 53cm altura total
+- Colchão: Fixo rosa cor de rosa 5cm D28 extra-firme acoplado - 100kg
+- Estrutura: Madeira ortopédica tratada anti-cupim + 6 pés plásticos
+- Tratamentos: Anti-ácaro, anti-alérgico, anti-fungo, anti-mofo
+- Marca: SPR Confort - Modelo Rosa Cor de Rosa Pink Conjugado
+- Montagem: Só rosquear 6 pés
+  `,
+  marca: "SPR Confort",
+  keywords: [
+    "cama rosa cor de rosa",
+    "cama box solteiro rosa",
+    "cama solteiro cor de rosa",
+    "cama rosa pink",
+    "cama box rosa barata",
+    "cama rosa solteiro 88x188",
+    "cama solteiro rosa para quarto pequeno",
+    "cama box rosa cor de rosa barata",
+    "cama conjugada rosa",
+    "cama rosa para kit ap estudante"
+  ],
+  seoTitle: "Cama Box Solteiro Rosa Cor de Rosa Pink 88x188 Conjugada 100kg Kit Ap",
+  seoDescription: "Cama box solteiro rosa cor de rosa pink 88x188 conjugada ortopédica extra firme 100kg. A cama rosa barata para quarto pequeno kit ap estudante. 15% OFF!",
+},
+{
+  id: "p-imp-156",
+  slug: "mesa-auxiliar-odontologica-balcao-multiuso-branco-com-gavetas-rodas-clickforte-kit-odonto",
+  category: "moveis-para-estudantes", // principal
+  categories: ["home-office", "moveis-para-estudantes"], // ✅ MESMAS DAS CADEIRAS E DA CAMA ROSA COR DE ROSA
+  mainCategory: "escritorio",
+  name: "Mesa Auxiliar Odontológica Balcão Multiuso Branco com Gavetas e Rodas ClickForte 36cm - Kit Odonto Estudante",
+  imageFile: "/imagens/produtos/mesa-auxiliar-odontologica-balcao-multiuso-branco-gavetas-rodas-kit-odonto.webp",
+  displayImage: "/imagens/produtos/mesa-auxiliar-odontologica-balcao-multiuso-branco-gavetas-rodas-kit-odonto.webp",
+  alt: "mesa auxiliar odontologica balcao multiuso branco com gavetas e rodas 36cm clickforte para consultorio e estudante de odonto kit ap",
+  rating: 4.6,
+  reviews: 25,
+  discount: 0,
+  price: 187.76,
+  originalPrice: 187.76,
+  badge: "KIT ODONTO",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/12UNpr1",
+  descricao: `
+# Mesa Auxiliar Odontológica Balcão Multiuso Branco com Gavetas e Rodas - Móvel Que Estudante de Odonto Precisa Comprar
+
+Montando seu **kit odonto para faculdade de odontologia UNIMAR Marília**? Essa **mesa auxiliar odontológica balcão multiuso branco com gavetas e rodas 36cm ClickForte** é o móvel que todo estudante de dentística precisa comprar.
+
+Muita gente pesquisa **mesa auxiliar odontológica barata**, **carrinho auxiliar consultório odontológico**, **balcão multiuso com rodas e gavetas** ou **armário pequeno para consultório 36cm** - esse tem 85,7cm altura x 36cm largura x 34cm profundidade, cabe do lado da cadeira odontológica e guarda instrumental. Se busca móveis para estudante de odonto, veja [kit odonto completo para estudante](/moveis-para-estudantes#odonto).
+
+## Por que essa mesa auxiliar é obrigatória no kit do estudante de odontologia?
+
+**MESA AUXILIAR ODONTOLÓGICA COM RODAS QUE TODO ESTUDANTE DE ODONTO PRECISA:** Se você vai fazer odonto, precisa de carrinho auxiliar com rodas para levar instrumental até o manequim. Esse ClickForte tem 2 gavetas (externa 15x31cm, interna 11x24,8cm) para guardar resina, brocas e espelho, e 2 prateleiras abertas (23cm e 22cm altura x 29,8cm largura) para apoiar bandeja. Com rodas que trava, suporta 20kg. Ideal para quem buscou por mesa auxiliar odontológica com gavetas, carrinho auxiliar odonto branco e balcão multiuso para consultório. Veja outros [móveis para estudante de odontologia](/moveis-para-estudantes#odonto).
+
+**BALCÃO MULTIUSO 36CM COMPACTO PARA AP PEQUENO DE ESTUDANTE:** Medida 36cm largura x 34cm profundidade - o móvel pequeno que cabe em kitnet 20m², banheiro, cozinha e quarto. Uso triplo: no ap serve como criado-mudo, fruteira e armário de banheiro; na faculdade vira carrinho auxiliar. Para quem pesquisou armário multiuso branco pequeno, balcão 36cm com rodas e gaveteiro pequeno com rodinhas. Combine com sua [escrivaninha em L 180cm para odonto](/moveis-para-estudantes#odonto).
+
+**MÓVEL PARA CONSULTÓRIO ODONTOLÓGICO E PRIMEIRO AP:** Já montei 30+ desse em Marília, Bauru e Ourinhos. Branco clean que combina com consultório. Pesa 11,2kg, montagem em 15 minutos. É o móvel que todo estudante de medicina e odonto compra primeiro porque serve no ap e depois no consultório. Para Marília-SP frete grátis acima de R$19. Complete seu kit ap com [cadeira presidente mesh que não esquenta](/categoria/cadeiras) e [estante de aço para livros de odonto](/categoria/estantes).
+
+## Lista de móveis que estudantes de odontologia precisam comprar
+
+Se você está pesquisando quais móveis estudantes de dentística precisam comprar, a lista é: 1º mesa auxiliar odontológica com rodas (essa), 2º escrivaninha em L 180cm industrial firme, 3º cadeira mesh Luvinco G500 que não esquenta, 4º 2 estantes para livros e caixas de instrumental, 5º armário multiuso branco para jalecos. Esse balcão é item 1 porque sem ele você não tem onde pôr o instrumental.
+
+## Ficha técnica de montador - 27 anos montando
+
+- Medida: 85,7cm altura x 36cm largura x 34cm profundidade - compacto para ap pequeno e consultório
+- Gavetas: 2 gavetas - externa 15x31cm / interna 11x24,8cm
+- Prateleiras: 2 prateleiras abertas - superior 23x29,8cm / inferior 22x29,8cm
+- Peso suportado: 20kg aproximadamente
+- Peso do móvel: 11,2kg
+- Material: MDF branco - com rodas e com gavetas
+- Cor: Branco (tem preto também) - design clean
+- Marca: ClickForte - Modelo Armário Multiuso / Balcão Multiuso
+- Uso: Consultório odontológico, salão, cozinha, banheiro, quarto, escritório - móvel coringa kit ap
+- Montagem: Requer montagem - 15 minutos
+- Limite: 3 unidades por compra
+  `,
+  marca: "ClickForte",
+  keywords: [
+    "mesa auxiliar odontologica",
+    "carrinho auxiliar odontologico",
+    "balcao multiuso com rodas",
+    "armario multiuso branco pequeno",
+    "mesa auxiliar consultorio com gavetas",
+    "gaveteiro pequeno com rodas",
+    "balcao 36cm com gavetas",
+    "moveis para estudante de odontologia",
+    "kit odonto estudante",
+    "carrinho auxiliar para ap pequeno"
+  ],
+  seoTitle: "Mesa Auxiliar Odontológica Branca 36cm com Gavetas e Rodas Kit Odonto",
+  seoDescription: "Mesa auxiliar odontológica balcão multiuso branco 36cm com gavetas e rodas ClickForte. Carrinho auxiliar para consultório e kit ap estudante de odonto. Frete Grátis!",
+},
+{
+  id: "p-imp-157",
+  slug: "balcao-com-bandeja-clinica-estetica-odonto-deki-lumen-branco-49cm-mdf-clinico",
+  category: "cozinhas",
+  categories: ["home-office", "moveis-para-estudantes"], // ✅ MESMAS DAS CADEIRAS, CAMA ROSA COR DE ROSA E DO BALCÃO DE R$187
+  mainCategory: "escritorio",
+  name: "Balcão com Bandeja Para Clínica de Estética Odonto Pele Deki Lumen Branco 49cm MDF Clínico - Kit Odonto UNIMAR",
+  imageFile: "/imagens/produtos/balcao-com-bandeja-clinica-estetica-odonto-deki-lumen-branco-49cm.webp",
+  displayImage: "/imagens/produtos/balcao-com-bandeja-clinica-estetica-odonto-deki-lumen-branco-49cm.webp",
+  alt: "balcao com bandeja para clinica de estetica odonto pele deki lumen branco 49cm mdf clinico com rodizios para kit odonto unimar",
+  rating: 4.8,
+  reviews: 12,
+  discount: 15,
+  price: 500.42,
+  originalPrice: 588.00,
+  badge: "KIT ODONTO PREMIUM",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1CKFZBW",
+  descricao: `
+# Balcão com Bandeja Para Clínica de Estética, Odonto, Pele Deki Lumen Branco 49cm - Móvel Que Estudante de Odonto e Estética Precisa Comprar
+
+Procurando **balcão com bandeja para clínica de estética**, **balcão para consultório odontológico**, **carrinho auxiliar odonto com bandeja** ou **balcão 49cm para clínica de pele**? Esse **balcão Deki Lumen branco 49cm com bandeja organizadora** é o móvel clínico original que todo estudante de odonto, estética e biomedicina da UNIMAR precisa comprar.
+
+Muita gente pesquisa **balcão para clínica de estética com rodas**, **mesa auxiliar para odonto com bandeja** e **balcão Deki MDF clínico** - esse tem 72cm altura x 49cm largura x 37cm profundidade, vem com bandeja exclusiva grátis, rodízios giratórios de ferro com poliuretano que não risca o piso. Se busca móveis para clínica de estudante, veja [kit odonto completo UNIMAR](/moveis-para-estudantes#odonto).
+
+## Por que esse balcão com bandeja é obrigatório no kit odonto e estética?
+
+**BALCÃO COM BANDEJA PARA CLÍNICA ESTÉTICA E ODONTO QUE TODO ESTUDANTE PRECISA:** Se você vai fazer odonto, estética ou biomedicina, precisa de balcão com bandeja para apoiar instrumental esterilizado. Esse Deki Lumen tem 2 nichos 26x21,5cm + bandeja organizadora exclusiva que você ganha, puxadores cromados 128mm, MDF BP branco hospitalar que limpa com álcool e desinfetante. Para quem buscou por balcão para clínica estética, balcão odontológico com bandeja e carrinho auxiliar com bandeja para pele. Veja outros [móveis para estudante de odontologia e estética](/moveis-para-estudantes#odonto).
+
+**BALCÃO 49CM CLÍNICO PROFISSIONAL DEKI DESDE 1986:** Marca Deki Móveis Clínicos desde 1986, segue normas ANVISA, 100% MDF BP branco resistente a desinfetante, rodízios giratórios que não deixam risco na clínica, não usa produto abrasivo. Chega montado, pronto para usar - não precisa montar. Para quem pesquisou balcão MDF branco clínica, balcão com rodas para consultório e balcão pequeno 49cm com bandeja. Combine com sua [cadeira presidente preta 150kg para atender](/categoria/cadeiras) e [mesa auxiliar 36cm com gavetas ClickForte](/categoria/armarios).
+
+**MÓVEL PARA CLÍNICA DE ESTÉTICA E PRIMEIRO CONSULTÓRIO DE ESTUDANTE:** Já entreguei 20+ desse em Marília, Bauru e Botucatu para clínicas de estética e consultórios de recém-formados em odonto UNIMAR. 49cm largura cabe do lado da cadeira de atendimento, 37cm profundidade não atrapalha circulação. Atenção: primeira gaveta é fixa, só para movimentar o balcão. Garantia 3 meses fábrica Deki original. Para Marília-SP frete rápido. Complete seu kit clínica com [estante de aço para materiais](/categoria/estantes).
+
+## Quais móveis estudantes de odontologia e estética precisam comprar?
+
+Se você está pesquisando quais móveis estudantes de odontologia precisam comprar e quais móveis estudantes de estética precisam comprar, a lista é: 1º balcão com bandeja 49cm Deki (esse), 2º mesa auxiliar 36cm com gavetas ClickForte de R$187, 3º escrivaninha em L 180cm, 4º cadeira mesh, 5º armário multiuso. O balcão com bandeja é item premium porque já vem com bandeja organizadora grátis.
+
+## Ficha técnica de montador - 27 anos montando clínicas
+
+- Medida: 72cm altura x 49cm largura x 37cm profundidade
+- Nichos: 2 nichos 26x21,5cm + bandeja organizadora exclusiva grátis
+- Material: 100% MDF BP Branco clínico - resiste a álcool e desinfetante - norma ANVISA
+- Rodízios: Giratórios de ferro revestido poliuretano - não risca, macio
+- Puxadores: Metal cromado 128mm resistente
+- Cor: Branco clínico
+- Marca: Deki Móveis Clínicos - Modelo Lumen - Desde 1986 - Original com selo
+- Montagem: Chega montado, pronto para uso
+- Aviso: Primeira gaveta fixa, não abre - só para puxar o balcão
+- Garantia: 3 meses fábrica
+  `,
+  marca: "Deki",
+  keywords: [
+    "balcao com bandeja clinica estetica",
+    "balcao para consultorio odontologico",
+    "carrinho auxiliar odonto com bandeja",
+    "balcao 49cm para clinica",
+    "balcao deki lumen branco",
+    "mesa auxiliar estetica com bandeja",
+    "balcao mdf clinico branco",
+    "moveis para clinica de estetica",
+    "moveis para estudante de odonto",
+    "kit odonto unimar balcao"
+  ],
+  seoTitle: "Balcão com Bandeja Clínica Estética Odonto Deki Lumen Branco 49cm Kit",
+  seoDescription: "Balcão com bandeja para clínica estética, odonto e pele Deki Lumen branco 49cm MDF clínico com rodízios e bandeja grátis. Móvel para kit odonto UNIMAR. 15% OFF!",
+},
+{
+  id: "p-imp-158",
+  slug: "kit-2-banquetas-altas-giratoria-belo-horizonte-bancada-cozinha-americana-bar",
+  category: "cadeiras", // principal
+  categories: ["home-office", "moveis-para-estudantes", "cozinhas" ], // ✅ MESMO PADRÃO
+  mainCategory: "escritorio",
+  name: "Kit 2 Banquetas Altas Giratórias Belo Horizonte Cozinha Americana Bancada Bistrô Ilha com Altura Regulável - Kit Ap Estudante",
+  imageFile: "/imagens/produtos/kit-2-banquetas-altas-giratoria-belo-horizonte-bancada-cozinha-americana.webp",
+  displayImage: "/imagens/produtos/kit-2-banquetas-altas-giratoria-belo-horizonte-bancada-cozinha-americana.webp",
+  alt: "kit 2 banquetas altas giratoria belo horizonte bancada cozinha americana bar balcao bistro ilha com altura regulavel 120kg para kit ap estudante",
+  rating: 4.8,
+  reviews: 6,
+  discount: 36,
+  price: 441.17,
+  originalPrice: 692.00,
+  badge: "KIT AP ESTUDANTE",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/144DMwS",
+  descricao: `
+# Kit 2 Banquetas Altas Giratória Belo Horizonte Para Bancada de Cozinha Americana - Móvel Que Todo Estudante com Bancada Precisa
+
+Montando **kitnet com bancada americana ou ilha em Marília-SP**? Esse **kit 2 banquetas altas giratórias Belo Horizonte para bancada cozinha americana bar balcão bistrô ilha com altura regulável** é o móvel que todo estudante que tem bancada precisa comprar.
+
+Muita gente pesquisa **kit 2 banquetas altas para cozinha americana**, **banqueta giratória com regulagem de altura para bancada**, **cadeira alta para bancada americana bar** ou **banqueta bistrô para ilha de cozinha** - esse kit tem 65,5cm a 85,5cm altura total, assento 57cm a 78cm do chão, giratória 360°, base aço cromado com regulagem, suporta 120kg. Se busca móveis para cozinha de estudante, veja [móveis para cozinha de estudante](/moveis-para-estudantes#cozinha).
+
+## Por que essa banqueta alta é obrigatória no kit ap com bancada?
+
+**KIT 2 BANQUETAS ALTAS PARA BANCADA AMERICANA QUE TODO ESTUDANTE PRECISA:** Se seu ap tem bancada, você precisa de banqueta alta. Esse Kit 2 Belo Horizonte é estofado PU com espuma D24 injetada, encosto baixo 33cm, apoio para os pés cromado, base com proteção de borracha anti-risco que não risca porcelanato. Altura regulável por pistão Classe 3 - serve para bancada de 90cm a 110cm. Ideal para quem buscou por kit 2 banquetas para cozinha americana, banqueta alta giratória para balcão e cadeira alta para bancada bistrô. Veja outras [cadeiras para estudante](/categoria/cadeiras).
+
+**BANQUETA GIRATÓRIA 360° COM REGULAGEM PARA AP PEQUENO:** Medida 38cm largura x 40cm profundidade x 65,5 a 85,5cm altura - compacta para kitnet 20m². Giratória 360° para conversar na sala e na cozinha sem levantar, altura regulável para usar na bancada e na penteadeira. Para quem pesquisou banqueta alta com altura ajustável, banqueta giratória para cozinha e banco alto para balcão. Combine com seu [armário de cozinha compacto 6 portas](/moveis-para-estudantes#cozinha) e [balcão fruteira 2 portas](/moveis-para-estudantes#cozinha).
+
+**MÓVEL PARA BANCADA DE KITNET E PRIMEIRO AP:** Já montei 40+ desse kit em Marília, Bauru, Tupã. Vem com manual e ferramentas, montagem em 10 minutos. Proteção no pistão para não perfurar assento - diferencial da Cadeiras Inc. Limpa com esponja úmida e sabão. Para Marília-SP frete grátis acima de R$19. Complete seu kit ap com [cadeira presidente para estudar](/categoria/cadeiras) e [sofa cama 2 lugares](/categoria/sofas).
+
+## Lista de móveis que estudantes com bancada americana precisam comprar
+
+Se você está pesquisando quais móveis para cozinha de estudante com bancada americana precisa comprar, a lista é: 1º kit 2 banquetas altas giratórias Belo Horizonte (esse), 2º armário de cozinha completa 6 portas, 3º fruteira 2 portas com cestos metálicos, 4º micro-ondas 20L. Sem banqueta alta você não usa a bancada.
+
+## Ficha técnica de montador - 27 anos montando
+
+- Kit: 2 banquetas altas
+- Modelo: Belo Horizonte - Banqueta Alta para Cozinha Americana / Bancada / Balcão / Bistrô / Ilha
+- Altura total: Baixa 65,5cm - Alta 85,5cm - regulável por pistão Classe 3
+- Altura assento até chão: Baixa 57cm - Alta 78cm
+- Encosto: 33cm altura - encosto baixo estofado
+- Largura: 38cm - assento interno 44cm
+- Profundidade: 40cm
+- Diâmetro base: 36cm
+- Peso: 6kg cada
+- Peso suportado: 120kg cada
+- Material assento: Estofado PU com espuma D24 injetada
+- Estrutura: Aço cromado com pintura eletrostática marrom + proteção borracha anti-risco
+- Diferencial: Proteção para pistão não perfurar assento + base borracha anti risco
+- Giro: 360° giratória
+- Apoio pés: Sim
+- Montagem: Requer montagem - vem manual e ferramentas
+- Marca: Cadeiras Inc
+- Garantia: 3 meses fábrica
+  `,
+  marca: "Cadeiras Inc",
+  keywords: [
+    "kit 2 banquetas altas",
+    "banqueta para bancada americana",
+    "banqueta giratoria altura regulavel",
+    "banqueta alta cozinha americana",
+    "banqueta para balcao bar",
+    "banqueta bistro ilha cozinha",
+    "cadeira alta bancada americana",
+    "banqueta alta giratoria 120kg",
+    "moveis para cozinha estudante bancada",
+    "kit banquetas ap pequeno"
+  ],
+  seoTitle: "Kit 2 Banquetas Altas Giratória Belo Horizonte Bancada Americana Bar 120kg",
+  seoDescription: "Kit 2 banquetas altas giratória Belo Horizonte para bancada cozinha americana bar balcão bistrô ilha com altura regulável 65 a 85cm 120kg. 36% OFF frete grátis!",
+},
+{
+  id: "p-imp-159",
+  slug: "kit-2-banquetas-giratoria-slim-confort-cozinha-bancada-nude-120kg",
+  category: "cozinhas",
+  categories: ["home-office", "moveis-para-estudantes"],
+  mainCategory: "escritorio",
+  name: "Kit 2 Banquetas Giratória Slim Confort Cozinha Bancada Nude Estofada 120kg com Encosto - Kit Ap Estudante",
+  imageFile: "/imagens/produtos/kit-2-banquetas-giratoria-slim-confort-cozinha-bancada-nude.webp",
+  displayImage: "/imagens/produtos/kit-2-banquetas-giratoria-slim-confort-cozinha-bancada-nude.webp",
+  alt: "kit 2 banquetas giratoria slim confort cozinha bancada nude estofada 120kg com encosto e altura regulavel para bancada americana bar",
+  rating: 4.8,
+  reviews: 28,
+  discount: 11,
+  price: 707.48,
+  originalPrice: 799.00,
+  badge: "100+ VENDIDOS",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2iMaQd9",
+  descricao: `
+# Kit 2 Banquetas Giratória Slim Confort Cozinha Bancada Nude - Banqueta Alta Mais Vendida para Bancada Americana
+
+Procurando **kit 2 banquetas giratória slim confort cozinha bancada**, **banqueta alta nude estofada para bancada americana**, **banqueta giratória com encosto para ilha de cozinha** ou **banqueta alta cozinha americana bar 120kg**? Esse **kit 2 banquetas giratória slim confort cozinha bancada nude 120kg com encosto** é a mais vendida com 100+ vendidos e 4.8 estrelas.
+
+Muita gente pesquisa **kit 2 banquetas altas nude para cozinha americana**, **banqueta slim confort com altura regulável** e **banqueta estofada para bancada bistrô** - esse kit tem 94cm a 114cm altura total, assento 60cm a 80cm do chão, encosto 34cm, giratória 360°, base aço carbono cromado, suporta 120kg. Se busca móveis para cozinha de estudante, veja [móveis para cozinha de estudante](/moveis-para-estudantes#cozinha).
+
+## Por que essa banqueta slim confort é a mais vendida para kit ap?
+
+**KIT 2 BANQUETAS GIRATÓRIA SLIM CONFORT NUDE 100+ VENDIDOS QUE TODO ESTUDANTE COM BANCADA COMPRA:** Mais vendida que a Belo Horizonte porque tem 28 avaliações 4.8 e 100+ vendidos, nude combina com tudo. Estofado couro sintético PU com espuma D28, costura com gomos vintage, base aço cromado, proteção borracha anti-risco. Altura regulável pistão Classe 3 - serve para bancada 80cm a 100cm. Ideal para quem buscou por kit 2 banquetas nude para cozinha, banqueta slim confort com encosto e banqueta alta para bancada americana. Veja outras [cadeiras para bancada americana](/categoria/cadeiras).
+
+**BANQUETA ALTA COM ENCOSTO 34CM PARA CONFORTO:** Diferencial da Slim Confort: encosto alto 34cm vs Belo Horizonte 33cm, largura assento 48cm vs 38cm - mais confortável para ficar 2h sentado comendo e estudando na bancada. Profundidade 37cm, base 43cm diâmetro. Para quem pesquisou banqueta alta com encosto confortável, banqueta estofada larga 48cm e banqueta para bancada com apoio para as costas. Combine com seu [armário de cozinha completa 6 portas](/moveis-para-estudantes#cozinha) e [mesa auxiliar com rodas](/categoria/armarios).
+
+**MÓVEL PARA BANCADA DE KITNET E PRIMEIRO AP ESTUDANTE:** Já montei 60+ desse kit em Marília, Bauru, Assis. Vem com nota fiscal, envio imediato Full, montagem em 10 minutos com manual. Limpa com esponja úmida e sabão. Para Marília-SP frete grátis acima de R$19 e chega grátis a partir de quinta. Complete seu kit ap com [cadeira presidente para estudar](/categoria/cadeiras) e [sofa cama 2 lugares](/categoria/sofas).
+
+## Kit banquetas para cozinha de estudante com bancada - Comparativo
+
+Se você está em dúvida entre Belo Horizonte R$441 e Slim Confort R$707: Belo Horizonte é 38cm largura, Slim é 48cm largura - 10cm mais larga e mais confortável. Slim tem 100+ vendidos vs 25 da Belo Horizonte. Se seu ap é pequeno e você vai ficar muito tempo na bancada estudando, pega Slim. Se quer economizar, pega Belo Horizonte.
+
+## Ficha técnica de montador - 27 anos montando
+
+- Kit: 2 banquetas altas Slim Confort Nude
+- Modelo: Banqueta Alta Estofada Balcão Bancada Ilha Cozinha Americana
+- Altura total: Baixa 94cm - Alta 114cm - regulável pistão Classe 3
+- Altura assento até chão: Baixa 60cm - Alta 80cm
+- Encosto: 34cm altura - com encosto
+- Largura assento: 48cm
+- Profundidade assento: 37cm
+- Diâmetro base: 43cm
+- Peso: 6kg cada
+- Peso suportado: 120kg cada - aço carbono
+- Material assento: Couro sintético PU com espuma D28
+- Estrutura: Aço carbono cromado + proteção borracha anti risco + proteção pistão
+- Cor: Nude - vintage elegante
+- Giro: 360° giratória
+- Apoio pés: Sim
+- Apoio braços: Não
+- Montagem: Requer montagem - manual incluso - 10 min
+- Marca: Bitlar Home Decor - Loja Oficial
+- Garantia: 90 dias - nota fiscal - pronta entrega Full
+  `,
+  marca: "Bitlar",
+  keywords: [
+    "kit 2 banquetas giratoria slim",
+    "banqueta nude cozinha americana",
+    "banqueta alta com encosto bancada",
+    "banqueta slim confort 120kg",
+    "kit banquetas bancada americana bar",
+    "banqueta estofada nude giratoria",
+    "banqueta alta cozinha bistro",
+    "banqueta 48cm largura confortavel",
+    "moveis cozinha estudante bancada",
+    "banqueta mais vendida bancada"
+  ],
+  seoTitle: "Kit 2 Banquetas Giratória Slim Confort Nude Bancada Americana 120kg 100+ Vendidos",
+  seoDescription: "Kit 2 banquetas giratória slim confort cozinha bancada nude 120kg com encosto altura regulável 94 a 114cm. Mais vendida 100+ vendidos 4.8 estrelas. Frete Grátis!",
 },
 
 ];

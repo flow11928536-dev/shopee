@@ -4,7 +4,7 @@
 // ============================================================================
 
 /** Plataforma de afiliados de origem do link */
-export type AffiliatePlatform = "Mercado Livre" | "Shopee";
+export type AffiliatePlatform = "Mercado Livre" | "Shopee" | "Amazon" | "Magalu" | "Madeira" | "Site Oficial" | "site_oficial" | (string & {});
 
 /** Categorias de cômodo / produto suportadas no site */
 export type MainCategory = 
@@ -31,6 +31,7 @@ export type ProductCategory =
   | "moveis-para-estudantes"
   | "mdf-mdp"
   | "moveis-para-bebe"
+  | "cabeceiras" // ✅ ADICIONADO
   // ===== ELETRODOMÉSTICOS =====
   | "liquidificadores"
   | "microondas"
@@ -38,24 +39,19 @@ export type ProductCategory =
   | "air-fryers"
   | "ar-condicionado"; // ✅ ADICIONADO
 
-
-export interface Product {
-  id: string;
-  slug: string;
-  category: ProductCategory;
-  mainCategory: MainCategory; // 👈 Isso faz referência ao tipo MainCategory
-  // ... outras propriedades
-}
-  
-
 /**
  * Estrutura OBRIGATÓRIA de cada produto.
+ * CORRIGIDO: Removida duplicação que quebrava o build (TS2300)
  */
 export interface Product {
   id: string;
   slug: string;
 
+  // Categoria principal (onde o produto mora)
   category: ProductCategory;
+
+  // ✅ NOVO: Para exibir em 2 categorias diferentes sem duplicar
+  // Ex: category: "cadeiras" + categories: ["home-office", "moveis-para-estudantes"]
   categories?: ProductCategory[];
 
   mainCategory: MainCategory;
@@ -152,3 +148,9 @@ export interface Guide {
   blocks: GuideBlock[];
   faq: FaqItem[];
 }
+//
+//
+//
+//
+//
+//

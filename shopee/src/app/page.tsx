@@ -18,7 +18,7 @@ const FONT_BODY =
 
 const CATEGORY_BANNERS: Record<string, string> = {
   cozinhas: "/banners/cozinhas.avif",
-  "guarda-roupas": "banners/banner_guarda-roupas.avif",
+  "guarda-roupas": "/banners/banner_guarda-roupas.avif",
   paineis: "/banners/Rack-com-Painel-Ripado-para-TV-ata-75-Polegadas-com-LED-100-MDF.webp",
   sofas: "/banners/sofa-modular-evo-270m-chaise-direita-creme-cama-inbox.webp",
   "home-office": "/banners/trabalhar-em-casa-home-office.webp",
@@ -31,7 +31,8 @@ const CATEGORY_BANNERS: Record<string, string> = {
   geladeiras: "/banners/geladeira-barata.webp",
   "air-fryers": "/banners/air-fryer-da-mondial.webp",
   "ar-condicionado": "/banners/ar-condicionado-split-inverter.webp",
-  racks:"/banners/rack-com-painel-liverpool-200cm-pinho-off-white-led-yescasa-75-polegadas.webp"
+  cabeceiras: "/banners/cabeceiras.webp",
+  racks: "/banners/rack-com-painel-liverpool-200cm-pinho-off-white-led-yescasa-75-polegadas.webp",
 };
 
 const heroBanner =
@@ -119,6 +120,11 @@ const storeSchema = {
     height: 512,
   },
   image: heroBanner,
+  founder: {
+    "@type": "Person",
+    "@id": "${SITE.url}/sobre/#person",
+    name: "Francisco Carlos Santana",
+  },
   priceRange: "R$ 500 - R$ 15.000",
   telephone: "(14) 99603-3296",
   address: {
@@ -382,7 +388,15 @@ export default function HomePage() {
                ============================================================ */}
           <section className="space-y-12 sm:space-y-16" aria-label="Produtos por categoria">
           
-
+            // app/page.tsx - Seção de grids
+          <ProductGrid
+            kicker="Conforto e Estilo"
+            title="Cabeceiras"
+            subtitle="Cabeceiras para todos os estilos de quarto"
+            category="cabeceiras"
+            limit={8}
+            gridClassName="grid-cols-2 gap-x-3 gap-y-6 sm:gap-x-4 sm:gap-y-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+          />
             {/* Sofás */}
             <ProductGrid
               kicker="Conforto e Estilo"

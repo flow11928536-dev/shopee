@@ -308,8 +308,7 @@ export default function GuidePage({ params }: Props) {
   // Calcular palavra-chave principal para speakable
   const mainKeyword = guide.keyword || "móveis";
 
-  const jsonLd = [
-    {
+  const articleSchema = {
       "@context": "https://schema.org",
       "@type": "Article",
       "@id": `${SITE.url}${path}/#article`,
@@ -326,18 +325,18 @@ export default function GuidePage({ params }: Props) {
       inLanguage: "pt-BR",
       datePublished: publishedDate,
       dateModified: modifiedDate,
-      author: {
-        "@type": "Person",
-        name: "Equipe Móveis Marília",
-        url: SITE.url,
-      },
+        author: {
+      "@id": `${SITE.url}/sobre/#person`,
+      name: "Francisco Carlos Santana",
+      url: `${SITE.url}/sobre/#person` 
+         },
       publisher: {
         "@type": "Organization",
-        name: SITE.name,
-        url: SITE.url,
+        name: "Loja de Móveis Marília",
+        url: "https://www.lojademoveismarilia.com.br",
         logo: {
           "@type": "ImageObject",
-          url: `${SITE.url}/logo.svg`,
+          url: "https://www.lojademoveismarilia.com.br/logo.svg",
         },
       },
       mainEntityOfPage: {
@@ -353,8 +352,7 @@ export default function GuidePage({ params }: Props) {
       },
       speakable: {
         "@type": "SpeakableSpecification",
-        cssSelector: ["h1", "h2", "p"],
-        xpath: ["/html/head/title"],
+        cssSelector: [".speakable-summary"],
       },
       wordCount: guide.blocks
         ? guide.blocks.reduce((count, block) => {
@@ -369,8 +367,9 @@ export default function GuidePage({ params }: Props) {
             return count;
           }, 0)
         : 0,
-    },
-    {
+    };
+
+  const breadcrumbSchema = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
@@ -378,21 +377,23 @@ export default function GuidePage({ params }: Props) {
         { "@type": "ListItem", position: 2, name: "Guias de Compra", item: `${SITE.url}/guias` },
         { "@type": "ListItem", position: 3, name: guide.keyword, item: `${SITE.url}${path}` },
       ],
-    },
-    {
+    };
+
+  const faqSchema = guide.faq && guide.faq.length > 0 ? {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "@id": `${SITE.url}${path}/#faq`,
-      mainEntity: guide.faq.map((f) => ({
+      mainEntity: guide.faq.map((item) => ({
         "@type": "Question",
-        name: f.question,
+        name: item.question,
         acceptedAnswer: {
           "@type": "Answer",
-          text: f.answer,
+          text: item.answer,
         },
       })),
-    },
-  ];
+    } : null;
+
+  const jsonLd = faqSchema ? [articleSchema, breadcrumbSchema, faqSchema] : [articleSchema, breadcrumbSchema];
 
   return (
     <>
@@ -477,6 +478,8 @@ export default function GuidePage({ params }: Props) {
                   category={block.category}
                   slugs={block.slugs}
                   limit={block.limit}
+                  hidePrice={true}
+                  compact={true}
                 />
               </div>
             </div>

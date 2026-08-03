@@ -3,7 +3,7 @@
     "name": "Loja de Móveis Marília",
     "url": "https://www.lojademoveismarilia.com.br",
     "description": "Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.",
-    "lastUpdated": "2026-07-31T06:01:24.932Z"
+    "lastUpdated": "2026-08-03T06:01:13.342Z"
   },
   "categories": [
     {
@@ -14,7 +14,7 @@
       "relatedGuides": [
         "melhores-guarda-roupas-casal-baratos"
       ],
-      "productCount": 32
+      "productCount": 36
     },
     {
       "slug": "cozinhas",
@@ -25,7 +25,7 @@
         "melhores-cozinhas-moduladas-baratas",
         "cozinhas"
       ],
-      "productCount": 10
+      "productCount": 12
     },
     {
       "slug": "mesas",
@@ -53,7 +53,7 @@
       "relatedGuides": [
         "quartos"
       ],
-      "productCount": 12
+      "productCount": 13
     },
     {
       "slug": "microondas",
@@ -103,7 +103,7 @@
       "relatedGuides": [
         "moveis-home-office-barato"
       ],
-      "productCount": 13
+      "productCount": 14
     },
     {
       "slug": "sofas",
@@ -114,7 +114,7 @@
         "melhores-sofas-retrateis-2026",
         "sofas"
       ],
-      "productCount": 15
+      "productCount": 16
     },
     {
       "slug": "racks",
@@ -131,6 +131,38 @@
       "description": "Encontre as melhores ofertas de Geladeiras e Refrigeradores com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
       "productCount": 5
+    },
+    {
+      "slug": "cabeceiras",
+      "label": "Cabeceiras",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/cabeceiras",
+      "description": "Encontre as melhores ofertas de Cabeceiras com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 7
+    },
+    {
+      "slug": "comodas",
+      "label": "Cômodas",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/comodas",
+      "description": "Encontre as melhores ofertas de Cômodas com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 5
+    },
+    {
+      "slug": "cadeiras",
+      "label": "Cadeiras",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/cadeiras",
+      "description": "Encontre as melhores ofertas de Cadeiras com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 3
+    },
+    {
+      "slug": "moveis-para-estudantes",
+      "label": "Móveis para Estudantes",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/moveis-para-estudantes",
+      "description": "Encontre as melhores ofertas de Móveis para Estudantes com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 1
     }
   ],
   "guides": [
@@ -676,12 +708,12 @@
     }
   ],
   "statistics": {
-    "totalCategories": 14,
+    "totalCategories": 18,
     "totalGuides": 52,
     "totalPages": 4,
-    "totalProducts": 135,
-    "generatedAt": "2026-07-31T06:01:24.923Z",
-    "lastUpdated": "2026-07-31T06:01:24.932Z"
+    "totalProducts": 160,
+    "generatedAt": "2026-08-03T06:01:13.339Z",
+    "lastUpdated": "2026-08-03T06:01:13.342Z"
   },
   "entities": {
     "materials": [
@@ -700,7 +732,8 @@
       "tecidos",
       "veludo",
       "laminado",
-      "temperado"
+      "temperado",
+      "resina"
     ],
     "environments": [
       "cozinha",
@@ -732,7 +765,9 @@
       "chaise",
       "sofá",
       "aparador",
-      "cadeira"
+      "cadeira",
+      "balança",
+      "carrinho"
     ],
     "brands": [
       "Panorama Móveis",
@@ -812,11 +847,29 @@
       "La Mobília",
       "Cel Móveis",
       "Electrolux",
-      "Philips Walita"
+      "Philips Walita",
+      "Flora",
+      "Henn",
+      "FD",
+      "KASABELA Interiores",
+      "Lyam Decor",
+      "Rodial",
+      "Albatroz",
+      "Bartira",
+      "Jomátri Móveis",
+      "LuvinCo",
+      "Maat Brand",
+      "Mamflex",
+      "SPR Confort",
+      "ClickForte",
+      "Deki",
+      "Cadeiras Inc",
+      "Bitlar"
     ],
     "platforms": [
       "Shopee",
-      "Mercado Livre"
+      "Mercado Livre",
+      "Site Oficial"
     ],
     "colors": [
       "branco",
@@ -829,7 +882,8 @@
       "azul",
       "vermelho",
       "pinho",
-      "prata"
+      "prata",
+      "dourado"
     ],
     "styles": [
       "moderno",
@@ -862,10 +916,10 @@
       "versátil",
       "para espaços compactos",
       "economia de espaço",
+      "montagem simples",
       "fácil limpeza",
       "personalizável",
       "sob medida",
-      "montagem simples",
       "para apartamento pequeno"
     ],
     "priceRanges": [],
@@ -1123,6 +1177,74 @@
         "Geladeiras e Refrigeradores sob medida",
         "o que é Geladeiras e Refrigeradores",
         "qual o melhor Geladeiras e Refrigeradores"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "cabeceiras",
+      "label": "Cabeceiras",
+      "searchTerms": [
+        "comprar Cabeceiras",
+        "melhor Cabeceiras",
+        "Cabeceiras barato",
+        "Cabeceiras preço",
+        "como escolher Cabeceiras",
+        "dicas de Cabeceiras",
+        "Cabeceiras para apartamento pequeno",
+        "Cabeceiras sob medida",
+        "o que é Cabeceiras",
+        "qual o melhor Cabeceiras"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "comodas",
+      "label": "Cômodas",
+      "searchTerms": [
+        "comprar Cômodas",
+        "melhor Cômodas",
+        "Cômodas barato",
+        "Cômodas preço",
+        "como escolher Cômodas",
+        "dicas de Cômodas",
+        "Cômodas para apartamento pequeno",
+        "Cômodas sob medida",
+        "o que é Cômodas",
+        "qual o melhor Cômodas"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "cadeiras",
+      "label": "Cadeiras",
+      "searchTerms": [
+        "comprar Cadeiras",
+        "melhor Cadeiras",
+        "Cadeiras barato",
+        "Cadeiras preço",
+        "como escolher Cadeiras",
+        "dicas de Cadeiras",
+        "Cadeiras para apartamento pequeno",
+        "Cadeiras sob medida",
+        "o que é Cadeiras",
+        "qual o melhor Cadeiras"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "moveis-para-estudantes",
+      "label": "Móveis para Estudantes",
+      "searchTerms": [
+        "comprar Móveis para Estudantes",
+        "melhor Móveis para Estudantes",
+        "Móveis para Estudantes barato",
+        "Móveis para Estudantes preço",
+        "como escolher Móveis para Estudantes",
+        "dicas de Móveis para Estudantes",
+        "Móveis para Estudantes para apartamento pequeno",
+        "Móveis para Estudantes sob medida",
+        "o que é Móveis para Estudantes",
+        "qual o melhor Móveis para Estudantes"
       ],
       "relatedGuides": []
     },
@@ -2047,6 +2169,38 @@
       "guideTitles": [],
       "count": 0,
       "depth": "baixo"
+    },
+    {
+      "category": "cabeceiras",
+      "label": "Cabeceiras",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "comodas",
+      "label": "Cômodas",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "cadeiras",
+      "label": "Cadeiras",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "moveis-para-estudantes",
+      "label": "Móveis para Estudantes",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
     }
   ],
   "contentOpportunities": [
@@ -2177,6 +2331,46 @@
       "gap": "Sem guias",
       "impact": "alto",
       "suggestion": "Criar guia definitivo sobre 'Geladeiras e Refrigeradores' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "cabeceiras",
+      "label": "Cabeceiras",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Cabeceiras' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "comodas",
+      "label": "Cômodas",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Cômodas' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "cadeiras",
+      "label": "Cadeiras",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Cadeiras' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "moveis-para-estudantes",
+      "label": "Móveis para Estudantes",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Móveis para Estudantes' abordando tipos, materiais, preços e dicas de compra",
       "estimatedEffort": "médio",
       "priority": "alta"
     },

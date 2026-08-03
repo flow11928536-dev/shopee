@@ -23,6 +23,10 @@
 - [Sofás](https://www.lojademoveismarilia.com.br/categoria/sofas)
 - [Racks](https://www.lojademoveismarilia.com.br/categoria/racks)
 - [Geladeiras e Refrigeradores](https://www.lojademoveismarilia.com.br/categoria/geladeiras)
+- [Cabeceiras](https://www.lojademoveismarilia.com.br/categoria/cabeceiras)
+- [Cômodas](https://www.lojademoveismarilia.com.br/categoria/comodas)
+- [Cadeiras](https://www.lojademoveismarilia.com.br/categoria/cadeiras)
+- [Móveis para Estudantes](https://www.lojademoveismarilia.com.br/categoria/moveis-para-estudantes)
 
 ## Guias
 - [Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo](https://www.lojademoveismarilia.com.br/guia/moveis-area-externa)
@@ -137,6 +141,22 @@ Guias:
 URL: https://www.lojademoveismarilia.com.br/categoria/geladeiras
 Guias:
 
+### Cabeceiras
+URL: https://www.lojademoveismarilia.com.br/categoria/cabeceiras
+Guias:
+
+### Cômodas
+URL: https://www.lojademoveismarilia.com.br/categoria/comodas
+Guias:
+
+### Cadeiras
+URL: https://www.lojademoveismarilia.com.br/categoria/cadeiras
+Guias:
+
+### Móveis para Estudantes
+URL: https://www.lojademoveismarilia.com.br/categoria/moveis-para-estudantes
+Guias:
 
 
-Última atualização: 2026-07-31T06:01:24
+
+Última atualização: 2026-08-03T06:01:13

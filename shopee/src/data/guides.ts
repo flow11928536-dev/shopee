@@ -2326,7 +2326,7 @@ const SEEDS: Record<string, GuideSeed> = {
     grid1Cat: "cozinhas",
     bestSlugs: [
       "cozinha-compacta-pop-com-armario-balcao-e-tampo-branco-madesa",
-      "cozinha-completa-madesa-reims-310001-com-armario-e-balco-preto",
+      "cozinha-completa-madesa-reims-310001-com-armario-e-balcao-preto",
       "armario-de-cozinha-compacta-229cm-rustic-emilly-pop-madesa",
     ],
     sub1: {
@@ -2398,7 +2398,7 @@ const SEEDS: Record<string, GuideSeed> = {
     grid1Cat: "cozinhas",
     bestSlugs: [
       "cozinha-compacta-pop-com-armario-balcao-e-tampo-branco-madesa",
-      "cozinha-completa-madesa-reims-310001-com-armario-e-balco-preto",
+      "cozinha-completa-madesa-reims-310001-com-armario-e-balcao-preto",
       "armario-de-cozinha-compacta-229cm-rustic-emilly-pop-madesa",
     ],
     sub1: {

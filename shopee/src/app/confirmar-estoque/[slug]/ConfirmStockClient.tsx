@@ -150,7 +150,7 @@ export default function ConfirmStockClient({ product }: Props) {
   return (
     <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-14" style={{ backgroundColor: "#EEEAE2" }}>
       <div
-        className="mb-4 flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] sm:mb-6 sm:text-xs"
+        className="mb-4 flex items-center gap-2 text- uppercase tracking-[0.2em] sm:mb-6 sm:text-xs"
         style={{ fontFamily: FONT_MONO, color: BRASS }}
       >
         <span className="h-1.5 w-1.5 rounded-full" style={{ backgroundColor: BRASS }} />
@@ -174,7 +174,7 @@ export default function ConfirmStockClient({ product }: Props) {
 
           <div className="flex flex-col justify-center p-6 sm:p-8">
             <p
-              className="text-[10px] font-semibold uppercase tracking-[0.2em] sm:text-xs"
+              className="text- font-semibold uppercase tracking-[0.2em] sm:text-xs"
               style={{ fontFamily: FONT_MONO, color: "#918466" }}
             >
               {product.marca}
@@ -189,7 +189,6 @@ export default function ConfirmStockClient({ product }: Props) {
               <StarRating rating={product.rating} reviews={product.reviews} size="md" />
             </div>
 
-            {/* Botão de oferta — ação principal, clique real do usuário */}
             <a
               href={product.affiliateLink}
               target="_blank"
@@ -203,16 +202,29 @@ export default function ConfirmStockClient({ product }: Props) {
                 <path d="M4 10h12M11 5l5 5-5 5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </a>
-            <p className="mt-2 text-[11px] text-stone-500">
-              Link de afiliado — o site pode receber uma pequena comissão, sem custo adicional para você.
-            </p>
+          </div>
+        </div>
+
+        {/* CAIXA NOVA - LINKAGEM INTERNA VISÍVEL */}
+        <div className="mx-6 mt-6 rounded-2xl p-4 sm:mx-8" style={{ backgroundColor: "#EFF6FF", border: `1px solid #BFDBFE` }}>
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex gap-3">
+              <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-blue-600 text-white">📖</div>
+              <div>
+                <p className="text-sm font-bold" style={{ color: INK }}>Dúvida: MDF ou MDP, qual dura mais?</p>
+                <p className="mt-0.5 text-xs leading-relaxed text-stone-600">Veja nosso guia completo antes de comprar sua cômoda.</p>
+              </div>
+            </div>
+            <Link href="/guia/guarda-roupa-casal-mdf-ou-mdp" className="inline-flex shrink-0 items-center justify-center rounded-full bg-blue-600 px-5 py-2.5 text-xs font-bold text-white shadow hover:bg-blue-700">
+              Ver guia completo →
+            </Link>
           </div>
         </div>
 
         {/* Descrição completa (Markdown renderizado) */}
         <div className="p-6 sm:p-8" style={{ borderTop: `1px solid ${BORDER}` }}>
           <span
-            className="text-[10px] uppercase tracking-[0.2em] sm:text-xs"
+            className="text- uppercase tracking-[0.2em] sm:text-xs"
             style={{ fontFamily: FONT_MONO, color: BRASS }}
           >
             Sobre este produto
@@ -225,7 +237,7 @@ export default function ConfirmStockClient({ product }: Props) {
         {/* Análise do produto */}
         <div className="p-6 sm:p-8" style={{ borderTop: `1px solid ${BORDER}` }}>
           <span
-            className="text-[10px] uppercase tracking-[0.2em] sm:text-xs"
+            className="text- uppercase tracking-[0.2em] sm:text-xs"
             style={{ fontFamily: FONT_MONO, color: BRASS }}
           >
             Análise
@@ -240,7 +252,7 @@ export default function ConfirmStockClient({ product }: Props) {
                 Pontos positivos
               </h3>
               <ul className="mt-2 space-y-1.5 text-sm text-stone-600">
-                {(pros.length > 0 ? pros : ["Produto bem avaliado pelos consumidores"]).map((p, i) => (
+                {(pros.length > 0? pros : ["Produto bem avaliado pelos consumidores"]).map((p, i) => (
                   <li key={i} className="flex gap-2">
                     <span className="mt-0.5 shrink-0" style={{ color: SAGE }}>
                       ✓
@@ -256,12 +268,12 @@ export default function ConfirmStockClient({ product }: Props) {
               </h3>
               <ul className="mt-2 space-y-1.5 text-sm text-stone-600">
                 {(cons.length > 0
-                  ? cons
+                 ? cons
                   : ["Verifique as especificações para garantir que atende às suas necessidades"]
                 ).map((c, i) => (
                   <li key={i} className="flex gap-2">
                     <span className="mt-0.5 shrink-0" style={{ color: ROSE }}>
-                      !
+                     !
                     </span>
                     {c}
                   </li>
@@ -293,7 +305,7 @@ export default function ConfirmStockClient({ product }: Props) {
                     style={{ backgroundColor: SURFACE }}
                   >
                     <span
-                      className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[10px] font-medium text-white"
+                      className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text- font-medium text-white"
                       style={{ backgroundColor: INK, fontFamily: FONT_MONO }}
                     >
                       {i + 1}
@@ -309,7 +321,7 @@ export default function ConfirmStockClient({ product }: Props) {
         {/* FAQ */}
         <div className="p-6 sm:p-8" style={{ borderTop: `1px solid ${BORDER}` }}>
           <span
-            className="text-[10px] uppercase tracking-[0.2em] sm:text-xs"
+            className="text- uppercase tracking-[0.2em] sm:text-xs"
             style={{ fontFamily: FONT_MONO, color: BRASS }}
           >
             Dúvidas
@@ -345,7 +357,7 @@ export default function ConfirmStockClient({ product }: Props) {
               </a>
             </div>
 
-            <p className="mt-4 text-[11px] text-stone-500">
+            <p className="mt-4 text- text-stone-500">
               Este é um link de afiliado. Ao comprar através dele, o site pode receber uma pequena comissão, sem
               custo adicional para você.
             </p>

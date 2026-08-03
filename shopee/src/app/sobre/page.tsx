@@ -1,54 +1,90 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { SITE } from "@/data/products";
 
-const LAST_UPDATED = new Date().toISOString().split("T")[0];
+const LAST_UPDATED = "2026-07-23"; // FIXO! Não usa new Date() senão o Google acha que muda todo dia
 
 export const metadata: Metadata = {
-  title: "Sobre Nós | Curadoria de Móveis e Eletrodomésticos",
+  title: "Sobre Francisco Santana - 27 Anos Montando Móveis | Móveis Marília",
   description:
-    "Conheça a metodologia por trás da curadoria de móveis da Loja de Móveis Marília. Selecionamos os melhores produtos com base em avaliações, preço, qualidade e marcas confiáveis.",
+    "Conheça Francisco Santana, montador com 27 anos de experiência em Casas Bahia e Ponto Frio. Curadoria de móveis baseada em milhares de montagens reais em Marília-SP.",
   alternates: {
     canonical: `${SITE.url}/sobre`,
   },
   openGraph: {
-    title: "Sobre Nós | Curadoria de Móveis e Eletrodomésticos",
+    title: "Sobre Francisco Santana - 27 Anos de Experiência em Móveis",
     description:
-      "Entenda como selecionamos os produtos para ajudar você a comprar com confiança.",
+      "Montador com 27 anos de experiência que já montou milhares de móveis. Conheça a metodologia por trás da curadoria da Loja de Móveis Marília.",
     url: `${SITE.url}/sobre`,
-    type: "website",
-    images: [{ url: `${SITE.url}/banners/og-image.png`, width: 1200, height: 630, alt: "Sobre a Loja de Móveis Marília" }],
+    type: "profile",
+    images: [{ url: `${SITE.url}/banners/og-image.png`, width: 1200, height: 630, alt: "Francisco Santana - Especialista em Móveis com 27 anos de experiência" }],
   },
 };
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "AboutPage",
-  "@id": `${SITE.url}/sobre/#webpage`,
-  name: "Sobre a Loja de Móveis Marília",
-  url: `${SITE.url}/sobre`,
-  description:
-    "Curadoria independente de móveis e eletrodomésticos com metodologia transparente e links de afiliado.",
-  isPartOf: { "@id": `${SITE.url}/#website` },
-  breadcrumb: {
+// SCHEMA CORRIGIDO - AGORA COM PERSON + ORGANIZATION (E-E-A-T)
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "@id": `${SITE.url}/sobre/#webpage`,
+    name: "Sobre Francisco Santana e a Loja de Móveis Marília",
+    url: `${SITE.url}/sobre`,
+    description: "Curadoria independente de móveis baseada em 27 anos de experiência prática como montador profissional.",
+    isPartOf: { "@id": `${SITE.url}/#website` },
+    about: { "@id": `${SITE.url}/sobre/#person` },
+    primaryImageOfPage: { "@type": "ImageObject", contentUrl: `${SITE.url}/banners/og-image.png` },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": `${SITE.url}/sobre/#person`,
+    name: "Francisco Carlos Santana",
+    jobTitle: "Especialista em Móveis e Montador Profissional",
+    description: "Montador de móveis com 27 anos de experiência, ex-Casas Bahia e Ponto Frio. Já montou milhares de móveis em Marília e região.",
+    image: `${SITE.url}/foto-francisco.jpg`,
+    url: `${SITE.url}/sobre`,
+    sameAs: [
+      // "https://www.facebook.com/seu.perfil",
+      // "https://www.instagram.com/lojademoveismarilia",
+    ],
+    worksFor: { "@id": `${SITE.url}/#organization` },
+    knowsAbout: ["Móveis", "Montagem de Móveis", "MDF", "MDP", "Guarda-roupas", "Cozinhas Planejadas", "Móveis para apartamento"],
+    hasOccupation: {
+      "@type": "Occupation",
+      name: "Montador de Móveis",
+      occupationLocation: { "@type": "City", name: "Marília, SP" },
+      experienceRequirements: "27 anos",
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${SITE.url}/#organization`,
+    name: "Loja de Móveis Marília",
+    url: SITE.url,
+    logo: { "@type": "ImageObject", url: `${SITE.url}/logo.svg` },
+    founder: { "@id": `${SITE.url}/sobre/#person` },
+    foundingDate: "1997",
+    description: "Curadoria independente de móveis baseada em experiência prática de montagem.",
+  },
+  {
+    "@context": "https://schema.org",
     "@type": "BreadcrumbList",
+    "@id": `${SITE.url}/sobre/#breadcrumb`,
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Início", item: SITE.url },
       { "@type": "ListItem", position: 2, name: "Sobre", item: `${SITE.url}/sobre` },
     ],
   },
-};
+];
 
 export default function AboutPage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
-        {/* Breadcrumb */}
         <nav aria-label="Trilha de navegação" className="mb-6 text-sm text-stone-500">
           <ol className="flex flex-wrap items-center gap-1.5">
             <li><Link href="/" className="hover:text-stone-900">Início</Link></li>
@@ -57,188 +93,66 @@ export default function AboutPage() {
           </ol>
         </nav>
 
-        <h1 className="text-3xl font-bold tracking-tight text-stone-900 sm:text-4xl">
-          Sobre a Loja de Móveis Marília
-        </h1>
-        <p className="mt-3 text-lg text-stone-600">
-          Curadoria independente de móveis e eletrodomésticos – com transparência, critério e foco em ajudar você a fazer a melhor escolha.
-        </p>
+        <div className="flex flex-col sm:flex-row gap-6 items-start mb-8">
+          {/* FOTO DO FRANCISCO */}
+          <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-full bg-stone-100 border-2 border-amber-200 shadow-sm">
+            <Image 
+              src="/banners/og-image.jpg" 
+              alt="Francisco Santana - Montador de móveis com 27 anos de experiência" 
+              fill 
+              className="object-cover" 
+              priority 
+            />
+          </div>
+          <div>
+            <h1 className="text-3xl font-bold tracking-tight text-stone-900 sm:text-4xl">
+              Francisco Santana, 27 anos montando móveis
+            </h1>
+            <p className="mt-3 text-lg text-stone-600">
+              Ex-Casas Bahia, Ponto Frio, Ponto Frio e outras grandes redes. Já montei <strong>milhares de móveis</strong> em Marília e hoje uso essa experiência pra te dizer o que realmente vale a pena comprar.
+            </p>
+            <p className="mt-2 text-sm text-stone-500">Marília - SP • Desde 1997</p>
+          </div>
+        </div>
 
-        <div className="prose prose-stone mt-8 max-w-none space-y-6 text-stone-700">
-          <section>
-            <h2 className="text-2xl font-semibold text-stone-900">Quem somos</h2>
-            <p>
-              A <strong>Loja de Móveis Marília</strong> é um site de curadoria e comparação de móveis e eletrodomésticos, 
-              criado e mantido por <strong>Francisco Carlos Santana</strong>, montador de móveis com <strong>27 anos de experiência</strong> 
-              no mercado moveleiro.
-            </p>
-            <p>
-              Francisco trabalhou em algumas das maiores redes do Brasil, incluindo:
-            </p>
-            <ul className="list-disc space-y-1 pl-6">
-              <li><strong>Casas Bahia</strong> – uma das maiores varejistas do país</li>
-              <li><strong>Jonei Móveis</strong> – loja especializada em móveis planejados</li>
-              <li><strong>Colchões Brasimac</strong> – referência em conforto e descanso</li>
-              <li><strong>Lar e Lazer</strong> – móveis para sala, cozinha e decoração</li>
-              <li><strong>Ponto Frio</strong> – eletrodomésticos e móveis</li>
-            </ul>
-            <p>
-              Ao longo desses anos, montou <strong>milhares de móveis</strong> – de guarda-roupas a cozinhas moduladas, 
-              de sofás a painéis de TV – e aprendeu na prática o que faz um móvel ser realmente bom ou uma dor de cabeça.
-            </p>
-            <p>
-              Hoje, ele usa todo esse conhecimento para selecionar e recomendar apenas produtos que ele mesmo compraria 
-              para sua própria casa.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold text-stone-900">Nossa metodologia de curadoria</h2>
-            <p>Para selecionar os produtos que recomendamos, seguimos um processo rigoroso e transparente:</p>
-            <ol className="list-decimal space-y-2 pl-6">
-              <li>
-                <strong>Análise de avaliações reais</strong> – Priorizamos produtos com centenas ou milhares de avaliações positivas de compradores verificados.
-              </li>
-              <li>
-                <strong>Comparação de preço e custo-benefício</strong> – Consideramos não apenas o valor, mas também a relação entre qualidade, durabilidade e preço.
-              </li>
-              <li>
-                <strong>Verificação de especificações técnicas</strong> – Checamos materiais, dimensões, garantia, peso, capacidade, e outros detalhes que fazem diferença no dia a dia.
-              </li>
-              <li>
-                <strong>Reputação da marca e do vendedor</strong> – Damos preferência a marcas consolidadas e vendedores com histórico de bom atendimento e entregas dentro do prazo.
-              </li>
-              <li>
-                <strong>Conteúdo informativo e honesto</strong> – Em cada guia e página de produto, destacamos pontos positivos e negativos, para que você tenha uma visão equilibrada antes de decidir.
-              </li>
-            </ol>
-          </section>
-
-          {/* Seção de experiência real */}
+        <div className="prose prose-stone mt-8 max-w-none space-y-8 text-stone-700">
+          
           <section className="rounded-2xl border border-stone-200 bg-stone-50 p-6">
-            <h2 className="text-2xl font-semibold text-stone-900">
-              🛠️ 27 anos montando móveis – experiência que faz a diferença
-            </h2>
-            <p>
-              <strong>Francisco Carlos Santana</strong> é montador de móveis há <strong>27 anos</strong>. 
-              Começou sua carreira em grandes lojas e, ao longo do tempo, desenvolveu um olhar crítico 
-              sobre a qualidade dos móveis vendidos no Brasil.
+            <h2 className="text-xl font-semibold text-stone-900">🛠 Por que minha opinião vale?</h2>
+            <p className="mt-2">
+              Enquanto muita gente recomenda móvel só olhando catálogo, eu montei na prática. Sei na hora quando um guarda-roupa vai dar problema na corrediças, quando um MDF é fraco ou quando a ferragem não aguenta 6 meses.
             </p>
-            <p>
-              Ele já montou centenas de <strong>guarda-roupas de todos os tamanhos</strong>, <strong>cozinhas moduladas</strong>, 
-              <strong>painéis para TV</strong>, <strong>racks</strong>, <strong>sofás retráteis</strong>, 
-              <strong>camas box</strong>, <strong>escrivaninhas</strong> e muito mais. 
-              Cada montagem ensinou algo novo sobre materiais, ferragens, design e durabilidade.
-            </p>
-            <p>
-              Essa experiência prática é o que torna a curadoria da Loja de Móveis Marília única. 
-              Quando recomendamos um produto, sabemos se ele:
-            </p>
-            <ul className="list-disc space-y-1 pl-6">
-              <li>
-                <strong>Vai resistir ao uso diário</strong> – ou se vai começar a se soltar em poucos meses.
-              </li>
-              <li>
-                <strong>É fácil de montar</strong> – ou se vai dar dor de cabeça com parafusos e encaixes.
-              </li>
-              <li>
-                <strong>Usa ferragens de qualidade</strong> – ou se as dobradiças e corrediças são frágeis.
-              </li>
-              <li>
-                <strong>Oferece bom custo-benefício</strong> – ou se o preço não justifica o material usado.
-              </li>
-            </ul>
-            <p className="mt-4 font-medium text-stone-800">
-              Cada guia e recomendação é baseada em <strong>anos de experiência prática</strong>, 
-              não em achismos ou leitura de catálogos.
-            </p>
-            <p className="text-sm text-stone-500">
-              🧰 Palavras-chave para entender nosso trabalho: 
-              &quot;montagem de móveis profissionais&quot;, &quot;dicas de montagem&quot;, &quot;móveis planejados ou modulados&quot;, 
-              &quot;qualidade de MDF e MDP&quot;, &quot;melhores marcas de móveis&quot;, &quot;como montar guarda-roupa&quot;, 
-              &quot;cozinha modulada fácil montagem&quot;, &quot;painel de TV montagem&quot;, &quot;móveis duráveis para apartamento&quot;.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold text-stone-900">Modelo de afiliado – transparência total</h2>
-            <p>
-              Este site participa dos programas de afiliados do <strong>Mercado Livre</strong> e da <strong>Shopee</strong>. 
-              Isso significa que, ao clicar em um link de produto e realizar uma compra, podemos receber uma pequena comissão – <strong>sem nenhum custo adicional para você</strong>.
-            </p>
-            <p>
-              A comissão não influencia nossas recomendações. Nossa curadoria é independente e baseada exclusivamente nos critérios descritos acima. 
-              Se um produto não for bom, não o recomendamos, independentemente da comissão.
-            </p>
-            <p className="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-amber-800">
-              💡 <strong>Dica:</strong> Você sempre pode comprar diretamente no Mercado Livre ou na Shopee sem passar pelos nossos links – mas, ao usar nossos links, você apoia nosso trabalho e nos ajuda a continuar produzindo conteúdo de qualidade.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold text-stone-900">Para quem é este site?</h2>
-            <p>
-              Este site é para você que:
-            </p>
-            <ul className="list-disc space-y-1 pl-6">
-              <li>Está mobiliando o primeiro apartamento e quer economizar.</li>
-              <li>Está reformando ou trocando móveis e quer comparar opções antes de comprar.</li>
-              <li>Não tem tempo ou paciência para ficar horas navegando em dezenas de sites.</li>
-              <li>Quer uma opinião honesta e baseada em dados reais sobre móveis e eletrodomésticos.</li>
-            </ul>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold text-stone-900">Compromisso com a atualização do conteúdo</h2>
-            <p>
-              Sabemos que o mercado de móveis e eletrodomésticos muda rapidamente – novos modelos surgem, preços variam, ofertas entram e saem.
-            </p>
-            <p>
-              Por isso, revisamos e atualizamos nossos guias e recomendações regularmente. 
-              A data da última atualização é sempre informada para que você saiba quando o conteúdo foi revisado pela última vez.
-            </p>
-            <div className="rounded-xl border border-stone-200 bg-stone-50 p-4 text-sm text-stone-600">
-              <span className="font-medium text-stone-800">📅 Última atualização:</span> {LAST_UPDATED}
+            <div className="mt-4 grid grid-cols-2 gap-4 text-sm">
+              <div className="rounded-xl bg-white p-3 border"><strong className="text-stone-900">Casas Bahia</strong><br/>Varejo nacional</div>
+              <div className="rounded-xl bg-white p-3 border"><strong className="text-stone-900">Ponto Frio</strong><br/>Eletro e móveis</div>
+              <div className="rounded-xl bg-white p-3 border"><strong className="text-stone-900">Jonei Móveis</strong><br/>Planejados</div>
+              <div className="rounded-xl bg-white p-3 border"><strong className="text-stone-900">Colchões Brasimac</strong><br/>Conforto e descanso</div>
             </div>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-stone-900">Contato e transparência</h2>
-            <p>
-              Você pode falar conosco pelo e-mail{" "}
-              <a href={`mailto:${SITE.email}`} className="text-amber-600 hover:underline">
-                {SITE.email}
-              </a>{" "}
-              ou pelo WhatsApp no número{" "}
-              <a href={`https://wa.me/${SITE.whatsapp}`} className="text-amber-600 hover:underline">
-                {SITE.whatsapp}
-              </a>
-              .
-            </p>
-            <p>
-              Estamos sempre abertos a sugestões, críticas e dúvidas. Se você tiver uma sugestão de produto para analisarmos, entre em contato conosco.
+            <h2 className="text-2xl font-semibold text-stone-900">Como eu escolho os móveis que recomendo</h2>
+            <ol className="list-decimal space-y-3 pl-6 mt-4">
+              <li><strong>Avaliações reais</strong> – Só produto com centenas de avaliações de quem comprou e montou.</li>
+              <li><strong>Material e ferragem</strong> – Eu olho MDF, MDP, dobradiça, corrediça. Se for fraco, eu não recomendo.</li>
+              <li><strong>Facilidade de montagem</strong> – Se precisa de 3 pessoas e 5 horas, já aviso. Se é fácil, falo também.</li>
+              <li><strong>Marca e pós-venda</strong> – Prefiro marca que responde quando dá defeito.</li>
+            </ol>
+          </section>
+
+          <section className="rounded-2xl border border-amber-200 bg-amber-50 p-5">
+            <h3 className="font-semibold text-amber-900">Modelo de afiliado - Transparência total</h3>
+            <p className="mt-2 text-sm text-amber-800">
+              Participo dos programas do <strong>Mercado Livre e Shopee</strong>. Se você comprar pelo meu link, ganho uma comissão pequena <strong>sem pagar nada a mais</strong>. Isso mantém o site no ar. Se o produto for ruim, não recomendo, mesmo com comissão alta.
             </p>
           </section>
 
-          <section className="mt-8 border-t border-stone-200 pt-8">
-            <h2 className="text-2xl font-semibold text-stone-900">Leia também</h2>
-            <ul className="mt-4 space-y-2">
-              <li>
-                <Link href="/guias" className="text-amber-600 hover:underline">
-                  Todos os guias de compra
-                </Link>
-              </li>
-              <li>
-                <Link href="/politicas" className="text-amber-600 hover:underline">
-                  Políticas de privacidade e transparência
-                </Link>
-              </li>
-              <li>
-                <Link href="/contato" className="text-amber-600 hover:underline">
-                  Fale conosco
-                </Link>
-              </li>
-            </ul>
+          <section className="border-t border-stone-200 pt-8">
+            <p className="text-sm text-stone-500">📅 Conteúdo revisado em: <strong className="text-stone-700">{LAST_UPDATED}</strong></p>
+            <div className="mt-4 flex gap-4 text-sm">
+              <Link href="/guias" className="text-amber-700 hover:underline font-medium">→ Ver todos os guias</Link>
+              <Link href="/contato" className="text-stone-600 hover:underline">Falar comigo</Link>
+            </div>
           </section>
         </div>
       </div>

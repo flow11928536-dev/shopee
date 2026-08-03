@@ -9,140 +9,98 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ product, priority = false }: ProductCardProps) {
-  const {
-    slug,
-    name,
-    imageFile,
-    alt,
-    rating,
-    reviews,
-    discount,
-    badge,
-    platform,
-    affiliateLink,
-    marca,
-    price,
-    originalPrice,
-  } = product;
-
+  const { slug, name, imageFile, alt, rating, reviews, discount, badge, platform, affiliateLink, marca, price, originalPrice } = product;
   const productUrl = `/confirmar-estoque/${slug}`;
-  const ariaLabel = `Ver oferta de ${name}${platform ? ` na ${platform}` : ""}`;
-
-  // ✅ CALCULA PARCELAS COM JUROS (~9,2%)
   const maxParcelas = 12;
   const taxaJuros = 1.092;
   const valorParcela = (price * taxaJuros) / maxParcelas;
 
-  return (
-    <article
-      className="group relative flex flex-col overflow-hidden rounded-xl border border-stone-200 bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
-      aria-labelledby={`product-title-${slug}`}
-    >
-      {/* ============================================================
-          BADGES - AJUSTADOS PARA MOBILE (MENORES)
-          ============================================================ */}
-      <div className="absolute left-1.5 top-1.5 z-10 flex flex-col gap-0.5">
-  {discount > 0 && (
-    <span className="rounded-full bg-red-500 px-1 py-0.5 text-[6px] font-bold text-white leading-none sm:text-xs sm:px-2.5 sm:py-0.5">
-      -{discount}%
-    </span>
-  )}
-  {badge && !discount && (
-    <span className="rounded-full bg-amber-600 px-1 py-0.5 text-[6px] font-bold uppercase text-white leading-none sm:text-xs sm:px-2.5 sm:py-0.5">
-      {badge}
-    </span>
-  )}
-  {badge && discount > 0 && (
-    <span className="rounded-full bg-amber-600 px-1 py-0.5 text-[6px] font-bold uppercase text-white leading-none sm:text-xs sm:px-2.5 sm:py-0.5">
-      {badge}
-    </span>
-  )}
-</div>
+  const cleanBadge = badge
+   ?.replace("KIT ODONTO PREMIUM", "KIT ODONTO")
+   .replace("OFERTA IMPERDÍVEL", "OFERTA")
+   .replace("MAIS VENDIDO", "MAIS VENDIDO")
+   .toUpperCase();
 
-      {/* Imagem */}
-      <Link
-        href={productUrl}
-        prefetch={false}
-        className="relative block w-full overflow-hidden bg-stone-100"
-        style={{ aspectRatio: "1 / 1" }}
-        aria-label={`Ver detalhes de ${name}`}
-      >
+  return (
+    <article className="group relative flex flex-col overflow-hidden rounded- bg-white border border-stone-100 transition-all duration-300 hover:border-stone-200 hover:shadow-[0_8px_30px_rgba(0,0,0,0.06)]">
+
+      {/* IMAGEM - FUNDO CLARO CLEAN */}
+      <Link href={productUrl} prefetch={false} className="relative block w-full overflow-hidden bg-[#fafaf9]" style={{ aspectRatio: "1 / 1" }}>
         <Image
           src={imageFile}
           alt={alt}
           fill
-          sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
-          className="object-contain transition-transform duration-500 group-hover:scale-105"
+          sizes="(max-width: 640px) 50vw, 33vw"
+          className="object-contain p-6 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-[1.05]"
           priority={priority}
         />
+
+        {/* BADGE DESCONTO - MINIMAL PRETO */}
+        {discount > 0 && (
+          <div className="absolute left-3 top-3">
+            <span className="inline-flex rounded-full bg-stone-900 px-2.5 py-1 text- font-medium tracking-wide text-white">
+              -{discount}%
+            </span>
+          </div>
+        )}
+
+        {/* BADGE PLATAFORMA - GLASS CLEAN */}
         {platform && (
-          <span className="absolute bottom-2 right-2 rounded bg-black/70 px-2 py-0.5 text-[10px] font-medium text-white backdrop-blur-sm">
-            {platform}
-          </span>
+          <div className="absolute right-3 top-3">
+            <span className="inline-flex rounded-full bg-white/80 backdrop-blur-md border border-stone-200/60 px-2.5 py-1 text- font-medium tracking-wide text-stone-600">
+              {platform}
+            </span>
+          </div>
         )}
       </Link>
 
-      {/* Conteúdo */}
+      {/* CONTEÚDO - MAIS RESPIRO */}
       <div className="flex flex-1 flex-col p-4">
-        {marca && (
-          <span className="text-xs font-medium uppercase tracking-wider text-stone-500">
-            {marca}
-          </span>
-        )}
-        <h3
-          id={`product-title-${slug}`}
-          className="mt-1 line-clamp-2 text-sm font-medium text-stone-800"
-        >
-          <Link href={productUrl} prefetch={false} className="hover:underline">
-            {name}
-          </Link>
+
+        {/* MARCA + CATEGORIA */}
+        <div className="flex items-center justify-between">
+          {marca && <span className="text- font-medium uppercase tracking-[0.14em] text-stone-400">{marca}</span>}
+          {cleanBadge &&!discount && (
+            <span className="text- font-medium uppercase tracking-wide text-stone-500">{cleanBadge}</span>
+          )}
+        </div>
+
+        {/* NOME */}
+        <h3 className="mt-2 line-clamp-2 min-h- text-[13.5px] font-[450] leading-[1.35] text-stone-900">
+          <Link href={productUrl} className="hover:text-stone-600 transition-colors">{name}</Link>
         </h3>
 
-        {/* Preços */}
-        <div className="mt-2">
-          {price > 0 && (
-            <div className="flex items-baseline gap-1">
-              <span className="text-sm font-medium text-stone-500">{maxParcelas}x</span>
-              <span className="text-2xl font-bold text-emerald-600">
-                {formatBRL(valorParcela)}
-              </span>
-            </div>
-          )}
-          <div className="mt-0.5 flex flex-wrap items-center gap-2 text-xs text-stone-400">
-            <span>à vista {formatBRL(price)}</span>
-            {originalPrice > 0 && (
-              <span className="line-through">{formatBRL(originalPrice)}</span>
-            )}
-            {discount > 0 && (
-              <span className="text-red-500 font-medium">-{discount}%</span>
+        {/* AVALIAÇÃO - MINIMAL */}
+        <div className="mt-2.5 flex items-center gap-1.5">
+          <div className="flex">
+            {[...Array(5)].map((_, i) => (
+              <span key={i} className={`text- ${i < Math.round(rating)? "text-stone-900" : "text-stone-200"}`}>★</span>
+            ))}
+          </div>
+          <span className="text- text-stone-500">({reviews})</span>
+        </div>
+
+        {/* PREÇO - HIERARQUIA LIMPA */}
+        <div className="mt-auto pt-4">
+          <div className="flex items-baseline gap-2">
+            <span className="text- font-semibold tracking-tight text-stone-900">{formatBRL(price)}</span>
+            {originalPrice > price && (
+              <span className="text- text-stone-400 line-through">{formatBRL(originalPrice)}</span>
             )}
           </div>
+          <p className="mt-1 text- leading-none text-stone-500">
+            {maxParcelas}x de {formatBRL(valorParcela)} com juros
+          </p>
         </div>
 
-        {/* Avaliação */}
-        <div
-          className="mt-2 flex items-center gap-1 text-sm"
-          role="img"
-          aria-label={`Avaliação ${rating.toFixed(1)} de 5 estrelas, baseada em ${reviews} avaliações`}
-        >
-          <span className="font-medium text-stone-700" aria-hidden="true">
-            {rating.toFixed(1)}
-          </span>
-          <span className="text-amber-400" aria-hidden="true">★</span>
-          <span className="text-xs text-stone-500" aria-hidden="true">
-            ({reviews})
-          </span>
-        </div>
-
-        {/* Botão de afiliado */}
+        {/* BOTÃO - GHOST PREMIUM */}
         <a
           href={affiliateLink}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label={ariaLabel}
-          className="mt-3 flex w-full items-center justify-center rounded-lg bg-stone-900 px-4 py-3 text-sm font-semibold text-white transition-colors hover:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-stone-900 focus:ring-offset-2"
+          className="mt-4 flex w-full items-center justify-center rounded-full border border-stone-900 bg-stone-900 px-4 py-2.5 text-[12.5px] font-medium tracking-wide text-white transition-all duration-200 hover:bg-white hover:text-stone-900"
         >
-          Ver melhor oferta
+          Ver oferta
         </a>
       </div>
     </article>
