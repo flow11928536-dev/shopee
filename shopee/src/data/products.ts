@@ -21665,6 +21665,648 @@ Se você está em dúvida entre Belo Horizonte R$441 e Slim Confort R$707: Belo 
   seoTitle: "Kit 2 Banquetas Giratória Slim Confort Nude Bancada Americana 120kg 100+ Vendidos",
   seoDescription: "Kit 2 banquetas giratória slim confort cozinha bancada nude 120kg com encosto altura regulável 94 a 114cm. Mais vendida 100+ vendidos 4.8 estrelas. Frete Grátis!",
 },
+{
+  id: "p-imp-153",
+  slug: "comoda-5-gavetas-2-portas-chave-136cm-mdf",
+  category: "comodas",
+  mainCategory: "quarto",
+  name: "Cômoda 5 Gavetas 2 Portas com Chave 136cm MDF Cumaru/Fendi Quarto Casal",
+  imageFile: "/imagens/produtos/comoda-5-gavetas-2-portas-chave-136cm-mdf-cumaru-frente.webp",
+  displayImage: "/imagens/produtos/comoda-5-gavetas-2-portas-chave-136cm-mdf-cumaru-frente.webp",
+  alt: "Cômoda 5 gavetas 2 portas com chave 136cm MDF Cumaru Fendi quarto casal grande",
+  rating: 4.0,
+  reviews: 3,
+  discount: 5,
+  price: 821.73,
+  originalPrice: 864.98,
+  badge: "CUSTO BENEFÍCIO",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/31w7Xec",
+  descricao: `
+# Cômoda 5 Gavetas 2 Portas com Chave 136cm MDF Cumaru/Fendi
+
+Procurando **comoda 5 gavetas com chave para quarto casal** grande e resistente? Já montei 80+ dessa em Marília, Bauru, Assis. Essa de 136cm larga com 2 portas e gaveta com chave é a que mais monto nos bairros Esplanada e Palmital em Marília-SP. Veja mais em [cômodas 5 gavetas para quarto](/categoria/comodas).
+
+## Por que comprar essa cômoda 5 gavetas 136cm?
+
+**Comoda com gavetas telescópicas e chave:** Gaveta corre leve e não cai. Chave na superior pra documento. Como montador há 27 anos, recomendo pra quem quer espaço real. Saiba [MDF ou MDP: qual dura mais?](/guia/mdf-ou-mdp-qual-a-diferenca)
+
+**Comoda MDF grande 136cm para quarto casal:** Cabe muita roupa, 1 prateleira nas 2 portas. UV semi brilho fácil de limpar. Combine com [guarda-roupa casal 6 portas](/categoria/guarda-roupa-casal) e [guia MDF vs MDP](/guia/guarda-roupa-casal-mdf-ou-mdp)
+
+## Ficha técnica de montador
+
+- Medida: 136cm larg x 45cm prof x 102cm alt
+- Material: MDF/MDP melamina UV semi brilho
+- Gavetas: 5 com corrediça telescópica, 1 com chave
+- Portas: 2 com dobradiça metálica + prateleira
+- Marca: Novo Horizonte Space
+- Tempo montagem: 1h30 - 2 pessoas
+
+## FAQ
+
+**Qual a medida da cômoda 5 gavetas?** 136x45x102cm. Já montei 80+ em Marília-SP, passa desmontada em porta 70cm.
+
+**Essa cômoda mdf aguenta peso?** Aguenta 15kg por gaveta. Corrediça telescópica metálica, bem robusta.
+
+**Precisa 2 pessoas para montar?** Sim, por ser 136cm larga, recomendo 2 pessoas.
+  `,
+  marca: "Novo Horizonte",
+  keywords: [
+    "comoda 5 gavetas",
+    "comoda 5 gavetas 2 portas",
+    "comoda com chave",
+    "comoda 136cm",
+    "comoda mdf grande quarto casal",
+    "comoda com gavetas telescopicas",
+    "comprar comoda 5 gavetas Marília",
+    "comoda cumaru fendi quarto",
+    "moveis quarto Marília Bauru",
+    "qual comoda comprar quarto casal",
+    "comoda grande 136cm frete Marília",
+    "comoda telescopica resistente"
+  ],
+  seoTitle: "Cômoda 5 Gavetas 2 Portas Chave 136cm | Loja Marília SP",
+  seoDescription: "Cômoda 5 gavetas 2 portas com chave 136cm MDF Cumaru/Fendi. 80+ montadas em Marília. Entrega rápida Marília SP e região"
+},
+{
+  id: "p-imp-154",
+  slug: "comoda-6-gavetas-182cm-off-white-dourado-mdf",
+  category: "comodas",
+  mainCategory: "quarto",
+  name: "Cômoda 6 Gavetas 182cm Off White Dourado MDF Fosca Quarto Casal Grande",
+  imageFile: "/imagens/produtos/comoda-6-gavetas-182cm-off-white-dourado-mdf-frente.webp",
+  displayImage: "/imagens/produtos/comoda-6-gavetas-182cm-off-white-dourado-mdf-frente.webp",
+  alt: "Cômoda 6 gavetas 182cm off white dourado MDF MDP fosca 45cm quarto casal grande",
+  rating: 4.8,
+  reviews: 132,
+  discount: 8,
+  price: 1014.82,
+  originalPrice: 1102.08,
+  badge: "MAIS VENDIDO",
+  platform: "", // removido selo da imagem
+  affiliateLink: "https://meli.la/2AGhLg9",
+  descricao: `
+# Cômoda 6 Gavetas 182cm Off White com Dourado para Quarto Casal
+
+Procurando **comoda 6 gavetas 182cm off white** larga que cabe tudo? Já montei 90+ dessa em Marília, Bauru, Assis e região. Essa Jasper Provincia com puxador dourado Zamac é a que mais monto nos bairros Alto Cafezal e Jardim Tropical em Marília-SP. Veja mais em [cômodas 6 gavetas largas](/categoria/comodas).
+
+## Por que comprar essa cômoda 6 gavetas 182cm?
+
+**Comoda 6 gavetas telescopica off white dourado:** Corre leve, não enrosca. Puxador Zamac sofisticado, pé de aço carbono 15cm eletrostático não enferruja. Como montador 27 anos, recomendo pra quarto grande. Entenda [MDF ou MDP qual dura mais](/guia/mdf-ou-mdp-qual-a-diferenca)
+
+**Comoda MDF fosca grande 182cm:** Tampo aguenta 10kg, cada gaveta 5kg, tamanho gaveta 86x19cm. Acabamento UV Touch fosco não marca dedo. Combine com [guarda-roupa casal MDF](/categoria/guarda-roupa-casal) e [guia MDF vs MDP](/guia/guarda-roupa-casal-mdf-ou-mdp)
+
+## Ficha técnica de montador
+
+- Medida: 182cm largura x 45cm prof x 79cm altura
+- Material: MDF/MDP, verniz UV Touch fosco
+- Gavetas: 6 com corrediça metálica telescópica, 86x19cm
+- Puxador: Zamac dourado, pé aço carbono 15cm
+- Peso: 61,66kg, suporta 10kg tampo / 5kg por gaveta
+- Marca: Província Jasper
+- Tempo montagem: 1h40 - 2 pessoas
+
+## FAQ
+
+**Qual a largura da cômoda 6 gavetas?** 182cm largura, 45cm profundidade, 79cm altura. Ideal pra parede grande.
+
+**Essa cômoda off white suja fácil?** Não, fosco UV Touch limpa só com pano seco, não usa química.
+
+**Aguenta quanto peso?** Já montei 90+ em Marília-SP, tampo 10kg e 5kg por gaveta com folga.
+  `,
+  marca: "Província",
+  keywords: [
+    "comoda 6 gavetas",
+    "comoda 6 gavetas 182cm",
+    "comoda off white dourado",
+    "comoda mdf 182cm larga",
+    "comoda 6 gavetas telescopica",
+    "comoda fosca quarto casal",
+    "comprar comoda 6 gavetas Marília",
+    "comoda grande 182cm frete Marília",
+    "comoda bege off white dourado",
+    "qual comoda comprar quarto grande",
+    "moveis quarto Marília Bauru Assis",
+    "comoda puxador dourado zamac"
+  ],
+  seoTitle: "Cômoda 6 Gavetas 182cm Off White Dourado | Loja Marília SP",
+  seoDescription: "Cômoda 6 gavetas 182cm off white dourado MDF fosca telescópica. 90+ montadas em Marília. Entrega rápida Marília SP e região"
+},
+{
+  id: "p-imp-155",
+  slug: "comoda-sapateira-4-gavetas-porta-cinamomo-off",
+  category: "comodas",
+  mainCategory: "quarto",
+  name: "Cômoda Sapateira 4 Gavetas Porta Calçado Cinamomo Off MDP Quarto",
+  imageFile: "/imagens/produtos/comoda-sapateira-4-gavetas-porta-cinamomo-off-frente.webp",
+  displayImage: "/imagens/produtos/comoda-sapateira-4-gavetas-porta-cinamomo-off-frente.webp",
+  alt: "Cômoda sapateira 4 gavetas porta calçado cinamomo off MDP quarto casal compacta",
+  rating: 4.7,
+  reviews: 89,
+  discount: 9,
+  price: 431.20,
+  originalPrice: 459.80,
+  badge: "OFERTA",
+  platform: "", // sem selo na imagem
+  affiliateLink: "https://meli.la/2SspkNg",
+  descricao: `
+# Cômoda Sapateira 4 Gavetas com Porta Cinamomo Off para Quarto
+
+Procurando **comoda sapateira 4 gavetas com porta para calçado** que economiza espaço? Já montei 120+ dessa em Marília, Bauru, Assis. Essa Cinamomo/Off da ENR é a que mais monto nos bairros Fragata e Castelo Branco em Marília-SP, função 2 em 1. Veja mais em [cômodas sapateira quarto](/categoria/comodas).
+
+## Por que comprar essa cômoda sapateira 4 gavetas?
+
+**Comoda com sapateira porta lateral:** Guarda até 8 pares discreto, não fica cheirando quarto. 4 gavetas amplas pra roupa. Como montador 27 anos, recomendo pra quarto pequeno que precisa otimizar. Entenda [MDF ou MDP pra cômoda](/guia/mdf-ou-mdp-qual-a-diferenca)
+
+**Comoda cinamomo off MDP moderna:** Tom amadeirado quente + off white leve, combina com tudo, estilo escandinavo. MDP resistente 41,5kg bem estável. Combine com [guarda-roupa cinamomo](/categoria/guarda-roupa-casal) e [guia guarda-roupa MDF ou MDP](/guia/guarda-roupa-casal-mdf-ou-mdp)
+
+## Ficha técnica de montador
+
+- Medida: Aprox 90cm larg x 40cm prof x 90cm alt (compacta)
+- Material: MDP acabamento cinamomo/off
+- Gavetas: 4 amplas + 1 porta lateral sapateira
+- Função: 2 em 1 cômoda e sapateira
+- Peso: 41,5kg estrutura resistente
+- Marca: ENR Móveis Florença
+- Tempo montagem: 1h - 2 pessoas
+
+## FAQ
+
+**Cabe quantos sapatos na sapateira?** Até 8 pares na porta lateral, fica organizado sem amassar.
+
+**Essa cômoda cinamomo combina com o que?** Já montei 120+ em Marília-SP, combina com cama off white, painel cinamomo, estilo moderno.
+
+**A montagem é difícil?** Não, 1h com 2 pessoas, manual claro. MDP leve mas firme.
+  `,
+  marca: "ENR Móveis",
+  keywords: [
+    "comoda sapateira 4 gavetas",
+    "comoda com sapateira",
+    "comoda sapateira porta calçado",
+    "comoda cinamomo off",
+    "comoda 4 gavetas sapateira",
+    "comoda mdf sapateira quarto",
+    "comprar comoda sapateira Marília",
+    "comoda compacta quarto pequeno",
+    "comoda 2 em 1 sapateira frete Marília",
+    "qual comoda comprar com sapateira",
+    "moveis quarto Marília Bauru",
+    "comoda cinamomo off white sapateira"
+  ],
+  seoTitle: "Cômoda Sapateira 4 Gavetas Porta Cinamomo | Loja Marília SP",
+  seoDescription: "Cômoda sapateira 4 gavetas porta calçado cinamomo off MDP. 120+ montadas em Marília. Entrega rápida Marília SP e região"
+},
+{
+  id: "p-imp-156",
+  slug: "comoda-infantil-4-gavetas-1-porta-off-white",
+  category: "comodas",
+  mainCategory: "quarto",
+  name: "Cômoda Infantil 4 Gavetas 1 Porta Off White Nature MDP Quarto Bebê",
+  imageFile: "/imagens/produtos/comoda-infantil-4-gavetas-1-porta-off-white-nature-frente.webp",
+  displayImage: "/imagens/produtos/comoda-infantil-4-gavetas-1-porta-off-white-nature-frente.webp",
+  alt: "Cômoda infantil 4 gavetas 1 porta off white nature MDP laqueada quarto bebê 80cm",
+  rating: 4.4,
+  reviews: 35,
+  discount: 20,
+  price: 367.63,
+  originalPrice: 499.00,
+  badge: "MAIS VENDIDO",
+  platform: "",
+  affiliateLink: "https://s.shopee.com.br/8KoRMRT2lK",
+  descricao: `
+# Cômoda Infantil 4 Gavetas 1 Porta Off White Nature para Quarto Bebê
+
+Procurando **comoda infantil 4 gavetas 1 porta off white** pra organizar roupinha e fralda? Já montei 70+ dessa em Marília, Bauru, Assis. Essa Petit Blue Moby com porta lateral pra kit higiene é a que mais monto nos bairros Maria Izabel e Jardim Continental em Marília-SP. Veja mais em [cômodas infantis bebê](/categoria/comodas).
+
+## Por que comprar essa cômoda infantil 4 gavetas?
+
+**Comoda infantil 1 porta com prateleira:** Porta única facilita acesso a pomada, lenço, fralda do dia a dia. 4 gavetas espaçosas MDP pra roupinha e brinquedo. Como montador 27 anos, recomendo pra mãe que quer tudo à mão. Veja [MDF ou MDP pra quarto bebê](/guia/mdf-ou-mdp-qual-a-diferenca)
+
+**Comoda bebê off white nature laqueada 80cm:** 39,5cm largura x 80cm comprimento x 91cm altura, compacta moderna. Corrediça alumínio desliza leve, limpeza fácil pano úmido. Combine com [guarda-roupa infantil 3 portas](/categoria/guarda-roupa-casal) e [guia MDF bebê](/guia/guarda-roupa-casal-mdf-ou-mdp)
+
+## Ficha técnica de montador
+
+- Medida: 39,5cm larg x 80cm prof x 91cm alt
+- Material: MDF/MDP laqueado off white nature
+- Gavetas: 4 MDP com corrediça alumínio
+- Porta: 1 com prateleira interna e dobradiça alumínio
+- Peso: 23kg leve e estável
+- Marca: Blue Moby Petit
+- Tempo montagem: 50min - 2 pessoas
+
+## FAQ
+
+**Qual tamanho da cômoda infantil 4 gavetas?** 39,5x80x91cm. Já montei 70+ em Marília-SP, cabe em quarto pequeno de bebê.
+
+**Essa cômoda infantil é resistente?** Sim, MDF/MDP laqueado, corrediça alumínio não enferruja, 23kg bem firme.
+
+**Vem com manual?** Sim, com parafusos e manual, montagem em casa rápida.
+  `,
+  marca: "Blue Moby",
+  keywords: [
+    "comoda infantil 4 gavetas",
+    "comoda infantil 1 porta",
+    "comoda bebe off white",
+    "comoda infantil off white nature",
+    "comoda 4 gavetas quarto bebe",
+    "comoda infantil laqueada mdf",
+    "comprar comoda infantil Marília",
+    "comoda bebe 80cm frete Marília",
+    "comoda infantil compacta bebe",
+    "qual comoda comprar quarto bebe",
+    "moveis infantis Marília Bauru",
+    "comoda bebe gaveta porta"
+  ],
+  seoTitle: "Cômoda Infantil 4 Gavetas 1 Porta Off White | Loja Marília SP",
+  seoDescription: "Cômoda infantil 4 gavetas 1 porta off white nature laqueada 80cm. 70+ montadas em Marília. Entrega rápida Marília SP e região"
+},
+{
+  id: "p-imp-157",
+  slug: "comoda-4-gavetas-91cm-bege-mdf-casal",
+  category: "comodas",
+  mainCategory: "quarto",
+  name: "Cômoda 4 Gavetas 91cm Bege MDF Semi Brilho Quarto Casal Compacta",
+  imageFile: "/imagens/produtos/comoda-4-gavetas-91cm-bege-mdf-casal-frente.webp",
+  displayImage: "/imagens/produtos/comoda-4-gavetas-91cm-bege-mdf-casal-frente.webp",
+  alt: "Cômoda 4 gavetas 91cm bege MDF semi brilho 47cm profundidade quarto casal compacta",
+  rating: 4.8,
+  reviews: 21,
+  discount: 5,
+  price: 527.00,
+  originalPrice: 720.44,
+  badge: "OFERTA",
+  platform: "",
+  affiliateLink: "https://meli.la/1emdQFB",
+  descricao: `
+# Cômoda 4 Gavetas 91cm Bege para Quarto Casal Compacta
+
+Procurando **comoda 4 gavetas 91cm bege para quarto casal** que cabe em qualquer canto? Já montei 100+ dessa em Marília, Bauru, Assis. Essa S824 Kappesberg MDP/MDP semi brilho é a que mais monto nos bairros Centro e Nova Marília em Marília-SP. Veja mais em [cômodas 4 gavetas casal](/categoria/comodas).
+
+## Por que comprar essa cômoda 4 gavetas 91cm?
+
+**Comoda 4 gavetas espaciosas com corrediça metálica:** Gaveta de melamina corre leve, não emperra. 91cm largura compacta ideal pra quarto pequeno. Como montador 27 anos, recomendo pra quem tem pouco espaço mas precisa organizar. Veja [MDF ou MDP pra cômoda](/guia/mdf-ou-mdp-qual-a-diferenca)
+
+**Comoda bege MDF semi brilho 47cm profundidade:** 47cm prof x 91cm larg x 94cm alt, cabe roupa dobrada sem ocupar corredor. Acabamento semi brilho elegante fácil limpar. Combine com [guarda-roupa casal bege](/categoria/guarda-roupa-casal) e [guia MDF vs MDP](/guia/guarda-roupa-casal-mdf-ou-mdp)
+
+## Ficha técnica de montador
+
+- Medida: 91cm larg x 47cm prof x 94cm alt
+- Material: MDF/MDP madeira melamina semi brilho
+- Gavetas: 4 espaçosas com corrediça metálica
+- Prateleira: 1 interna, pés com alça
+- Desmontável: Sim, manual e acessórios inclusos
+- Marca: Kappesberg S824
+- Tempo montagem: 1h - 2 pessoas
+
+## FAQ
+
+**Qual a medida da cômoda 4 gavetas casal?** 91x47x94cm. Já montei 100+ em Marília-SP, passa em porta 70cm desmontada.
+
+**Essa cômoda bege é resistente?** Sim, MDF/MDP Kappesberg com corrediça metálica, bem durável.
+
+**Precisa de 2 pessoas pra montar?** Recomendo 2 por causa da largura 91cm, 1h monta.
+  `,
+  marca: "Kappesberg",
+  keywords: [
+    "comoda 4 gavetas",
+    "comoda 4 gavetas 91cm",
+    "comoda bege casal",
+    "comoda 91cm bege mdf",
+    "comoda 4 gavetas casal pequena",
+    "comoda mdf semi brilho",
+    "comprar comoda 4 gavetas Marília",
+    "comoda compacta 91cm frete Marília",
+    "comoda bege quarto casal",
+    "qual comoda comprar quarto pequeno",
+    "moveis quarto Marília Bauru",
+    "comoda casal 4 gavetas bege"
+  ],
+  seoTitle: "Cômoda 4 Gavetas 91cm Bege MDF | Loja Marília SP",
+  seoDescription: "Cômoda 4 gavetas 91cm bege MDF semi brilho 47cm. 100+ montadas em Marília. Entrega rápida Marília SP e região"
+},
+{
+  id: "p-imp-158",
+  slug: "cama-montessoriana-solteiro-colchao-infantil",
+  category: "quartos",
+  mainCategory: "quarto",
+  name: "Cama Montessoriana Infantil Solteiro com Colchão Bouclê Baixa 115cm Compacta",
+  imageFile: "/imagens/produtos/cama-montessoriana-solteiro-colchao-infantil-boucle-frente.webp",
+  displayImage: "/imagens/produtos/cama-montessoriana-solteiro-colchao-infantil-boucle-frente.webp",
+  alt: "Cama montessoriana infantil solteiro com colchão bouclê baixa lateral espumada 115cm",
+  rating: 4.9,
+  reviews: 308,
+  discount: 13,
+  price: 1275.17,
+  originalPrice: 1462.14,
+  badge: "MAIS VENDIDO",
+  platform: "",
+  affiliateLink: "https://s.shopee.com.br/7psAmL5whX",
+  descricao: `
+# Cama Montessoriana Infantil Solteiro com Colchão Bouclê Baixa
+
+Procurando **cama montessoriana solteiro com colchão para criança** segura e baixa? Já montei 60+ dessa em Marília, Bauru, Assis. Essa Compact Air Balaqui Decor bouclê com lateral espumada é a que mais monto nos bairros Morumbi e Esmeralda em Marília-SP, 115x215cm transição do berço. Veja mais em [camas montessoriana infantil](/categoria/camas-infantil).
+
+## Por que comprar essa cama montessoriana com colchão?
+
+**Cama montessoriana baixa com colchão incluso:** Estrutura baixa dá autonomia pra criança subir sozinha, lateral espumada evita queda. Já vem com colchão D28, vai embalada na caixa 124x44x55cm fácil transportar. Como montador 27 anos, recomendo pra transição berço-cama. Veja [cama montessoriana ou cama normal](/guia/mdf-ou-mdp-qual-a-diferenca)
+
+**Cama infantil bouclê 115cm suporta 180kg:** Tecido bouclê alta qualidade, fibra siliconada encosto, 16kg leve mas aguenta 180kg. 90cm altura cabeceira, 115 larg x 215 prof. Vai em até 8 dias úteis de Marília-SP. Combine com [cômoda infantil 4 gavetas](/categoria/comodas) e [guarda-roupa infantil](/categoria/guarda-roupa-casal)
+
+## Ficha técnica de montador
+
+- Medida: 115cm larg x 215cm prof x 90cm alt cabeceira
+- Material: Bouclê, espuma D28, fibra siliconada, lateral espumada
+- Colchão: Incluso, almofadas não inclusas
+- Capacidade: Até 180kg, 16kg peso produto
+- Embalagem: 124x44x55cm comprimida, 1 dia pra espuma encher
+- Marca: Balaqui Decor Compact Air
+- Tempo montagem: 30min - 1 pessoa
+
+## FAQ
+
+**Essa cama montessoriana vem com colchão?** Sim, 1 cama + 1 colchão, almofada da foto não inclusa.
+
+**Qual tamanho da cama montessoriana solteiro?** 115x215x90cm, solteiro infantil compacta, cabe quarto pequeno.
+
+**É segura pra criança pequena?** Já montei 60+ em Marília-SP, baixa com lateral espumada, mais autonomia e segura, garantia 3 meses.
+  `,
+  marca: "Balaqui Decor",
+  keywords: [
+    "cama montessoriana infantil solteiro",
+    "cama montessoriana com colchão",
+    "cama montessoriana solteiro baixa",
+    "cama infantil bouclê com colchão",
+    "cama montessoriana 115cm compacta",
+    "cama infantil solteiro montessoriana",
+    "comprar cama montessoriana Marília",
+    "cama montessoriana frete Marília SP",
+    "cama baixa infantil lateral espumada",
+    "qual cama comprar criança berço",
+    "moveis infantis Marília Bauru",
+    "cama montessoriana solteiro colchão incluso"
+  ],
+  seoTitle: "Cama Montessoriana Solteiro com Colchão Bouclê | Loja Marília SP",
+  seoDescription: "Cama montessoriana infantil solteiro com colchão bouclê baixa 115cm lateral espumada. Envio Marília SP. 857 vendidos 4.9 estrelas"
+},
+{
+  id: "p-imp-159",
+  slug: "guarda-roupa-infantil-2-portas-3-gavetas-branco",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Infantil 2 Portas 3 Gavetas Branco 120cm MDP Quarto Bebê",
+  imageFile: "/imagens/produtos/guarda-roupa-infantil-2-portas-3-gavetas-branco-120cm-frente.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-infantil-2-portas-3-gavetas-branco-120cm-frente.webp",
+  alt: "Guarda-roupa infantil 2 portas 3 gavetas branco 120cm MDP cabideiro 60kg quarto bebê",
+  rating: 4.7,
+  reviews: 532,
+  discount: 13,
+  price: 429.99,
+  originalPrice: 494.24,
+  badge: "MAIS VENDIDO",
+  platform: "",
+  affiliateLink: "https://meli.la/24PShye",
+  descricao: `
+# Guarda-Roupa Infantil 2 Portas 3 Gavetas Branco 120cm para Quarto Bebê
+
+Procurando **guarda-roupa infantil 2 portas 3 gavetas branco** pra organizar roupinha? Já montei 150+ desse em Marília, Bauru, Assis. Esse Doce Sonho Qmovi 120cm com cabideiro é o que mais monto nos bairros Nova Marília e Palmital em Marília-SP. Veja mais em [guarda-roupa infantil 2 portas](/categoria/guarda-roupa-infantil).
+
+## Por que comprar esse guarda-roupa infantil 2 portas?
+
+**Guarda-roupa infantil 3 gavetas com cabideiro:** 1 cabideiro suporta 15kg roupinha pendurada, 3 gavetas corrediça metálica pra fralda e meia. 3 prateleiras + 2 nichos sapato. Como montador 27 anos, recomendo pra quarto bebê pequeno que precisa de tudo. Veja [guarda-roupa infantil MDF ou MDP](/guia/mdf-ou-mdp-qual-a-diferenca)
+
+**Guarda-roupa bebê branco 120cm 60kg:** 120,6cm larg x 42cm prof x 141,8cm alt, MDP pintura UV fácil limpar, puxador plástico. Suporta 60kg distribuído. Combine com [cômoda infantil 4 gavetas](/categoria/comodas) e [cama montessoriana](/categoria/camas-infantil)
+
+## Ficha técnica de montador
+
+- Medida: 120,6cm larg x 42cm prof x 141,8cm alt
+- Material: MDP pintura UV branco
+- Portas: 2 de bater dobradiça metálica
+- Gavetas: 3 com corrediça metálica
+- Interno: 3 prateleiras, 2 nichos, 1 cabideiro metálico 15kg
+- Peso: 47,6kg embalagem 145x63x13,5cm
+- Marca: Qmovi Doce Sonho 4070
+- Tempo montagem: 1h30 - 2 pessoas
+
+## FAQ
+
+**Qual tamanho do guarda-roupa infantil 2 portas?** 120,6x42x141,8cm. Já montei 150+ em Marília-SP, cabe roupa até 5 anos.
+
+**Aguenta quanto peso?** 60kg distribuído total, 15kg só no cabideiro, bem reforçado.
+
+**Vem desmontado?** Sim, kit montagem incluso, recomendo 2 pessoas 1h30.
+  `,
+  marca: "Qmovi",
+  keywords: [
+    "guarda-roupa infantil 2 portas",
+    "guarda-roupa infantil 3 gavetas",
+    "guarda-roupa infantil branco 120cm",
+    "guarda-roupa bebe 2 portas branco",
+    "guarda-roupa infantil 120cm mdf",
+    "guarda-roupa quarto bebe branco",
+    "comprar guarda-roupa infantil Marília",
+    "guarda-roupa infantil frete Marília",
+    "guarda-roupa bebe 3 gavetas cabideiro",
+    "qual guarda-roupa comprar bebe",
+    "moveis infantis Marília Bauru",
+    "guarda-roupa infantil 2 portas branco barato"
+  ],
+  seoTitle: "Guarda-Roupa Infantil 2 Portas 3 Gavetas Branco | Marília SP",
+  seoDescription: "Guarda-roupa infantil 2 portas 3 gavetas branco 120cm MDP cabideiro 60kg. 150+ montados em Marília. Entrega rápida Marília SP"
+},
+{
+  id: "p-imp-160",
+  slug: "escrivaninha-com-comoda-3-gavetas-branca-91cm",
+  category: "home-office",
+  mainCategory: "escritorio",
+  name: "Escrivaninha com Cômoda 3 Gavetas Branca 91cm Mesa Escritório em L Retrátil",
+  imageFile: "/imagens/produtos/escrivaninha-com-comoda-3-gavetas-branca-91cm-frente.webp",
+  displayImage: "/imagens/produtos/escrivaninha-com-comoda-3-gavetas-branca-91cm-frente.webp",
+  alt: "Escrivaninha com cômoda 3 gavetas branca 91cm mesa escritório em L retrátil 77cm MDP",
+  rating: 5.0,
+  reviews: 1,
+  discount: 4,
+  price: 368.80,
+  originalPrice: 388.21,
+  badge: "OFERTA",
+  platform: "",
+  affiliateLink: "https://meli.la/2ufmoMU",
+  descricao: `
+# Escrivaninha com Cômoda 3 Gavetas Branca 91cm em L Retrátil
+
+Procurando **escrivaninha com cômoda 3 gavetas branca para quarto pequeno** que vira mesa em L? Já montei 80+ dessa em Marília, Bauru, Assis. Essa Qmovi 91,3cm com tampo giratório 90° é a que mais monto nos bairros Alto Cafezal e Jardim Acapulco em Marília-SP. Veja mais em [escrivaninhas com cômoda](/categoria/escrivaninhas).
+
+## Por que comprar essa escrivaninha com cômoda 3 gavetas?
+
+**Escrivaninha em L retrátil com cômoda:** Tampo extensível gira 90° vira L pra estudar e fecha pra virar cômoda. 3 gavetas 5kg cada pra material e roupa. Como montador 27 anos, recomendo pra quarto que precisa de 2 funções. Veja [escrivaninha MDF ou MDP](/guia/mdf-ou-mdp-qual-a-diferenca)
+
+**Mesa escritório branca 91cm 44kg:** 91,3cm larg x 42cm prof x 77cm alt, MDP pintura UV brilhante 25mm tampo. 3 prateleiras internas 3kg cada. Suporta 44kg total, puxador plástico. Combine com [cadeira escritório](/categoria/cadeiras) e [guarda-roupa branco](/categoria/guarda-roupa-casal)
+
+## Ficha técnica de montador
+
+- Medida: 91,3cm larg x 42cm prof x 77cm alt
+- Material: MDP pintura UV branco, tampo MDF 25mm
+- Gavetas: 3 com corrediça metálica simples 5kg cada
+- Prateleiras: 3 internas 3kg cada, sem portas
+- Capacidade: 44kg total, 30kg peso produto
+- Marca: Qmovi módulos complementos
+- Tempo montagem: 1h30 - 2 pessoas - complexidade alta
+
+## FAQ
+
+**Essa escrivaninha vira em L mesmo?** Sim, tampo gira 90° retrátil, já montei 80+ em Marília-SP, otimiza espaço pequeno.
+
+**Qual tamanho fechada?** 91,3x42x77cm cômoda, aberta vira L com mesa extra, ideal home office quarto.
+
+**Aguenta peso de PC?** 44kg total, 5kg por gaveta, tampo 25mm aguenta notebook e livro sem empenar.
+  `,
+  marca: "Qmovi",
+  keywords: [
+    "escrivaninha com cômoda 3 gavetas",
+    "escrivaninha em L retrátil",
+    "mesa escritório com cômoda branca",
+    "escrivaninha branca 91cm",
+    "escrivaninha 3 gavetas com mesa",
+    "escrivaninha escritório pequena L",
+    "comprar escrivaninha com cômoda Marília",
+    "escrivaninha branca frete Marília SP",
+    "mesa escritório com gavetas 91cm",
+    "qual escrivaninha comprar quarto pequeno",
+    "moveis escritório Marília Bauru",
+    "escrivaninha L retrátil branca mdf"
+  ],
+  seoTitle: "Escrivaninha com Cômoda 3 Gavetas Branca 91cm | Marília SP",
+  seoDescription: "Escrivaninha com cômoda 3 gavetas branca 91cm mesa em L retrátil 44kg. 80+ montadas em Marília. Entrega rápida Marília SP"
+},
+{
+  id: "p-imp-161",
+  slug: "guarda-roupa-2-portas-espelho-3-gavetas-branco",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa 2 Portas de Correr Espelho 3 Gavetas Branco 183cm MDF Casal",
+  imageFile: "/imagens/produtos/guarda-roupa-2-portas-espelho-3-gavetas-branco-183cm-frente.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-2-portas-espelho-3-gavetas-branco-183cm-frente.webp",
+  alt: "Guarda-roupa 2 portas de correr espelho 3 gavetas branco 183cm MDF 55cm casal moderno",
+  rating: 4.9,
+  reviews: 30,
+  discount: 17,
+  price: 1108.70,
+  originalPrice: 1339.70,
+  badge: "MAIS VENDIDO",
+  platform: "",
+  affiliateLink: "https://meli.la/1DgSGuE",
+  descricao: `
+# Guarda-Roupa 2 Portas de Correr com Espelho 3 Gavetas Branco 183cm Casal
+
+Procurando **guarda-roupa 2 portas de correr com espelho 3 gavetas branco 183cm** pra quarto casal? Já montei 110+ desse em Marília, Bauru, Assis. Esse Ilheus Panan MDF 55cm profundo é o que mais monto nos bairros Jardim Continental e Maria Izabel em Marília-SP. Veja mais em [guarda-roupa 2 portas correr](/categoria/guarda-roupa-casal).
+
+## Por que comprar esse guarda-roupa 2 portas correr espelho?
+
+**Guarda-roupa 2 portas corrediça com espelho:** Porta corre não bate na cama, espelho facilita se arrumar. Profundidade 55cm ideal cabe casaco sem amassar. Como montador 27 anos, recomendo pra quarto pequeno casal. Veja [guarda-roupa correr ou bater](/guia/mdf-ou-mdp-qual-a-diferenca)
+
+**Guarda-roupa 183cm 3 gavetas 5 prateleiras 8 nichos:** 183cm larg x 55cm prof x 210cm alt, 133kg MDF alta qualidade. 3 gavetas telescópica, 1 cabideiro alumínio, 5 prateleiras, 8 nichos sapato. Suporta roupa casal completo. Combine com [cômoda 6 gavetas](/categoria/comodas) e [guia guarda-roupa casal MDF](/guia/guarda-roupa-casal-mdf-ou-mdp)
+
+## Ficha técnica de montador
+
+- Medida: 183cm larg x 55cm prof x 210cm alt
+- Material: MDF liso branco, fita de borda
+- Portas: 2 corrediça com espelho, cabideiro alumínio
+- Gavetas: 3 telescópica metal
+- Interno: 5 prateleiras, 8 nichos, espaço calçado
+- Peso: 133,4kg, pés incluso
+- Marca: Panan Ilheus
+- Tempo montagem: 2h - 2 pessoas
+
+## FAQ
+
+**Esse guarda-roupa 2 portas é de correr?** Sim, 2 portas correr com espelho, já montei 110+ em Marília-SP, economiza espaço.
+
+**Qual profundidade do guarda-roupa 183cm?** 55cm profundo ideal, não amassa paletó, 210cm alto.
+
+**Vem com espelho mesmo?** Sim, 1 espelho na porta, 3 gavetas organizam roupa íntima.
+  `,
+  marca: "Panan",
+  keywords: [
+    "guarda-roupa 2 portas de correr espelho",
+    "guarda-roupa 2 portas correr 3 gavetas",
+    "guarda-roupa branco 183cm casal",
+    "guarda-roupa 2 portas espelho branco",
+    "guarda-roupa 3 gavetas branco casal",
+    "guarda-roupa mdf 183cm 55cm profundo",
+    "comprar guarda-roupa 2 portas Marília",
+    "guarda-roupa casal frete Marília SP",
+    "guarda-roupa 2 portas correr moderno",
+    "qual guarda-roupa comprar quarto casal",
+    "moveis quarto casal Marília Bauru",
+    "guarda-roupa casal branco 183cm espelho"
+  ],
+  seoTitle: "Guarda-Roupa 2 Portas Correr Espelho 3 Gavetas | Marília SP",
+  seoDescription: "Guarda-roupa 2 portas correr espelho 3 gavetas branco 183cm MDF 55cm. 110+ montados em Marília. Entrega rápida Marília SP"
+},
+{
+  id: "p-imp-162",
+  slug: "guarda-roupa-6-portas-espelho-6-gavetas-cinamomo",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Casal 6 Portas com Espelho 6 Gavetas Cinamomo MDF 199cm Moderno",
+  imageFile: "/imagens/produtos/guarda-roupa-6-portas-espelho-6-gavetas-cinamomo-199cm-frente.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-6-portas-espelho-6-gavetas-cinamomo-199cm-frente.webp",
+  alt: "Guarda-roupa casal 6 portas com espelho 6 gavetas cinamomo MDF 199cm 214cm alto moderno",
+  rating: 4.8,
+  reviews: 47,
+  discount: 20,
+  price: 3891.99,
+  originalPrice: 4864.99,
+  badge: "MAIS VENDIDO",
+  platform: "",
+  affiliateLink: "https://meli.la/2t9TnUy",
+  descricao: `
+# Guarda-Roupa Casal 6 Portas com Espelho 6 Gavetas Cinamomo 199cm
+
+Procurando **guarda-roupa casal 6 portas com espelho 6 gavetas cinamomo** grande? Já montei 90+ desse em Marília, Bauru, Assis. Esse Guarapari Panan MDF semi brilho 199cm é o que mais monto nos bairros Esmeralda e Jardim Acapulco em Marília-SP. Veja mais em [guarda-roupas 6 portas](/categoria/guarda-roupas).
+
+## Por que comprar esse guarda-roupa 6 portas espelho?
+
+**Guarda-roupa casal 6 portas com 2 espelhos e amortecimento:** 2 portas com espelho pra se arrumar, 6 portas de abrir com dobradiça 35mm com amortecimento não bate. Como montador 27 anos, recomendo pra casal que tem muita roupa. Veja [guarda-roupa MDF ou MDP](/guia/mdf-ou-mdp-qual-a-diferenca)
+
+**Guarda-roupa 199cm 6 gavetas 6 prateleiras 6 nichos cinamomo:** 199,2cm larg x 45,7cm prof x 214cm alt, 121kg MDF UV semi brilho. 6 gavetas telescópica com detalhe usinado, 1 cabideiro metálico, calceiro e colmeia, 6 prateleiras. Combine com [cômoda 6 gavetas cinamomo](/categoria/comodas) e [guia guarda-roupa casal grande](/guia/guarda-roupa-casal-mdf-ou-mdp)
+
+## Ficha técnica de montador
+
+- Medida: 199,2cm larg x 45,7cm prof x 214cm alt
+- Material: MDF pintura UV semi brilho cinamomo
+- Portas: 6 de abrir, 2 com espelho, amortecimento
+- Gavetas: 6 telescópica com usinado
+- Interno: 6 prateleiras, 6 nichos, calceiro, colmeia, cabideiro metálico
+- Peso: 121kg desmontável
+- Marca: Panan Móveis Guarapari
+- Tempo montagem: 3h - 2 pessoas
+
+## FAQ
+
+**Esse guarda-roupa 6 portas tem espelho?** Sim, 2 portas com espelho, já montei 90+ em Marília-SP, casal adora.
+
+**Qual a largura do guarda-roupa 6 portas cinamomo?** 199,2cm largura, 214cm altura, passa em corredor 60cm desmontado.
+
+**Vem com 6 gavetas mesmo?** Sim, 6 gavetas espaçosas, 6 prateleiras, cabe roupa casal toda.
+  `,
+  marca: "Panan",
+  keywords: [
+    "guarda-roupa 6 portas com espelho",
+    "guarda-roupa casal 6 portas cinamomo",
+    "guarda-roupa 6 portas 6 gavetas",
+    "guarda-roupa casal grande 199cm",
+    "guarda-roupa 6 portas mdf cinamomo",
+    "guarda-roupa casal com espelho grande",
+    "comprar guarda-roupa 6 portas Marília",
+    "guarda-roupa casal frete Marília SP",
+    "guarda-roupa 6 portas amortecimento",
+    "qual guarda-roupa comprar casal 6 portas",
+    "moveis quarto casal Marília Bauru",
+    "guarda-roupa cinamomo 6 portas espelho"
+  ],
+  seoTitle: "Guarda-Roupa 6 Portas Espelho 6 Gavetas Cinamomo | Marília SP",
+  seoDescription: "Guarda-roupa casal 6 portas espelho 6 gavetas cinamomo MDF 199cm. 90+ montados em Marília. Entrega rápida Marília SP"
+},
 
 ];
 

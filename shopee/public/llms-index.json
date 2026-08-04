@@ -3,7 +3,7 @@
     "name": "Loja de Móveis Marília",
     "url": "https://www.lojademoveismarilia.com.br",
     "description": "Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.",
-    "lastUpdated": "2026-08-03T06:01:13.342Z"
+    "lastUpdated": "2026-08-04T04:13:47.799Z"
   },
   "categories": [
     {
@@ -14,7 +14,7 @@
       "relatedGuides": [
         "melhores-guarda-roupas-casal-baratos"
       ],
-      "productCount": 36
+      "productCount": 39
     },
     {
       "slug": "cozinhas",
@@ -53,7 +53,7 @@
       "relatedGuides": [
         "quartos"
       ],
-      "productCount": 13
+      "productCount": 14
     },
     {
       "slug": "microondas",
@@ -103,7 +103,7 @@
       "relatedGuides": [
         "moveis-home-office-barato"
       ],
-      "productCount": 14
+      "productCount": 15
     },
     {
       "slug": "sofas",
@@ -146,7 +146,7 @@
       "url": "https://www.lojademoveismarilia.com.br/categoria/comodas",
       "description": "Encontre as melhores ofertas de Cômodas com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
-      "productCount": 5
+      "productCount": 10
     },
     {
       "slug": "cadeiras",
@@ -711,9 +711,9 @@
     "totalCategories": 18,
     "totalGuides": 52,
     "totalPages": 4,
-    "totalProducts": 160,
-    "generatedAt": "2026-08-03T06:01:13.339Z",
-    "lastUpdated": "2026-08-03T06:01:13.342Z"
+    "totalProducts": 170,
+    "generatedAt": "2026-08-04T04:13:47.798Z",
+    "lastUpdated": "2026-08-04T04:13:47.799Z"
   },
   "entities": {
     "materials": [
@@ -733,7 +733,8 @@
       "veludo",
       "laminado",
       "temperado",
-      "resina"
+      "resina",
+      "melamina"
     ],
     "environments": [
       "cozinha",
@@ -743,8 +744,8 @@
       "estudo",
       "escritório",
       "home office",
-      "varanda",
-      "jardim"
+      "jardim",
+      "varanda"
     ],
     "types": [
       "guarda-roupa",
@@ -864,7 +865,14 @@
       "ClickForte",
       "Deki",
       "Cadeiras Inc",
-      "Bitlar"
+      "Bitlar",
+      "Província",
+      "ENR Móveis",
+      "Blue Moby",
+      "Kappesberg",
+      "Balaqui Decor",
+      "Qmovi",
+      "Panan"
     ],
     "platforms": [
       "Shopee",

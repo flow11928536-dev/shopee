@@ -44,14 +44,7 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
           </div>
         )}
 
-        {/* BADGE PLATAFORMA - GLASS CLEAN */}
-        {platform && (
-          <div className="absolute right-3 top-3">
-            <span className="inline-flex rounded-full bg-white/80 backdrop-blur-md border border-stone-200/60 px-2.5 py-1 text- font-medium tracking-wide text-stone-600">
-              {platform}
-            </span>
-          </div>
-        )}
+        
       </Link>
 
       {/* CONTEÚDO - MAIS RESPIRO */}
@@ -89,7 +82,7 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
             )}
           </div>
           <p className="mt-1 text- leading-none text-stone-500">
-            {maxParcelas}x de {formatBRL(valorParcela)} com juros
+            {maxParcelas}x de {formatBRL(valorParcela)} 
           </p>
         </div>
 

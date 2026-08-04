@@ -33,6 +33,8 @@ const CATEGORY_BANNERS: Record<string, string> = {
   "ar-condicionado": "/banners/ar-condicionado-split-inverter.webp",
   cabeceiras: "/banners/cabeceiras.webp",
   racks: "/banners/rack-com-painel-liverpool-200cm-pinho-off-white-led-yescasa-75-polegadas.webp",
+   comodas: "/banners/comodas.webp",
+  cadeiras: "/banners/cadeiras.webp",
 };
 
 const heroBanner =
