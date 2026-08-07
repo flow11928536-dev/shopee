@@ -322,12 +322,18 @@ function generateLlmsTxt(site, categories, guides, entities) {
     '- Guarda-roupas e quartos completos',
     '- Cozinhas moduladas e eletrodomésticos',
     '- Home office e móveis para estudantes',
+    '- Setup Gamer e móveis para gamers',  // ✅ ADICIONADO
     '',
     '## Categorias',
     ...categories.map(cat => `- [${cat.label}](${cat.url})`),
     '',
     '## Guias',
     ...guides.map(g => `- [${g.h1}](${guideUrl(site.url, g.slug)})`),
+    '',
+    '## Páginas Especiais',  // ✅ ADICIONADO
+    `- [Guia de Móveis Gamer](${site.url}/moveis-gamer)`,  // ✅ ADICIONADO
+    `- [Móveis para Estudantes](${site.url}/moveis-para-estudantes)`,  // ✅ ADICIONADO
+    `- [Móveis para Bebê](${site.url}/moveis-para-bebe)`,  // ✅ ADICIONADO
     '',
     '## AI Navigation',
     ...Object.entries(nav).map(([slug, n]) => `### ${n.category}\nURL: ${n.categoryUrl}\nGuias:\n${n.guides.map(g => `- ${g.title}`).join('\n')}`),
@@ -350,8 +356,13 @@ function generateLlmsFullTxt(site, categories, guides, products, pages, entities
     '## Guias',
     ...guides.map(g => `- ${g.h1}: ${g.description || 'Guia completo'}`),
     '',
-    '## Páginas',
+    '## Páginas',  // ✅ ADICIONADO
     ...pages.map(p => `- ${p.title}: ${p.description}`),
+    '',
+    '## Páginas Especiais',  // ✅ ADICIONADO
+    `- Guia de Móveis Gamer: Guia completo para montar seu setup gamer com as melhores ofertas`,
+    `- Móveis para Estudantes: Móveis compactos e funcionais para universitários`,
+    `- Móveis para Bebê: Móveis seguros e adequados para o quarto do bebê`,
     '',
     `Gerado em: ${new Date().toISOString()}`,
   ];
@@ -383,6 +394,14 @@ function generateLlmsIndexJson(site, categories, guides, products, pages, stats,
       wordCount: (g.content || '').split(' ').length,
     })),
     pages: pages,
+    specialPages: [  // ✅ ADICIONADO
+      {
+        slug: 'moveis-gamer',
+        title: 'Guia de Móveis Gamer',
+        url: `${site.url}/moveis-gamer`,
+        description: 'Guia completo para montar seu setup gamer com as melhores ofertas do Mercado Livre e Shopee.'
+      }
+    ],
     statistics: stats,
     entities: entities,
     searchIntents: searchIntents,
@@ -392,7 +411,7 @@ function generateLlmsIndexJson(site, categories, guides, products, pages, stats,
 }
 
 // ============================================================
-// FUNÇÃO CORRIGIDA: GERAR SITEMAP COM TODOS OS PRODUTOS
+// FUNÇÃO CORRIGIDA: GERAR SITEMAP COM TODOS OS PRODUTOS + MOVEIS-GAMER
 // ============================================================
 function generateSitemap(site, categories, guides, products, pages) {
   const urls = [];
@@ -433,7 +452,23 @@ function generateSitemap(site, categories, guides, products, pages) {
     });
   });
 
-  // ✅ TODOS OS PRODUTOS (SEM LIMITE)
+  // ✅ ADICIONADO: PÁGINA MÓVEIS GAMER
+  urls.push({
+    loc: `${site.url}/moveis-gamer`,
+    lastmod: today,
+    changefreq: 'weekly',
+    priority: '0.9',
+  });
+
+  // ✅ ADICIONADO: PÁGINA MÓVEIS PARA BEBÊ
+  urls.push({
+    loc: `${site.url}/moveis-para-bebe`,
+    lastmod: today,
+    changefreq: 'weekly',
+    priority: '0.8',
+  });
+
+  // TODOS OS PRODUTOS (SEM LIMITE)
   products.forEach(p => {
     urls.push({
       loc: productUrl(site.url, p.slug),
@@ -448,6 +483,7 @@ function generateSitemap(site, categories, guides, products, pages) {
   console.log(`   - ${guides.length} guias`);
   console.log(`   - ${pages.length} páginas`);
   console.log(`   - ${products.length} produtos`);
+  console.log(`   - 1 página especial: /moveis-gamer`);
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -580,8 +616,11 @@ async function generateFiles() {
     description: `Encontre as melhores ofertas de ${CATEGORY_LABELS[cat] || cat} com preços competitivos e frete para todo Brasil.`,
   }));
 
+  // ✅ ADICIONADO: PÁGINA MÓVEIS GAMER NAS PÁGINAS
   const pages = [
+    { slug: 'moveis-gamer', title: 'Guia de Móveis Gamer', url: pageUrl(SITE.url, 'moveis-gamer'), description: 'Guia completo para montar seu setup gamer com as melhores ofertas do Mercado Livre e Shopee. Cadeiras, mesas, iluminação e acessórios gamers.' },
     { slug: 'moveis-para-estudantes', title: 'Móveis para Estudantes', url: pageUrl(SITE.url, 'moveis-para-estudantes'), description: 'Guia completo para estudantes universitários sobre móveis compactos, baratos e funcionais.' },
+    { slug: 'moveis-para-bebe', title: 'Móveis para Bebê', url: pageUrl(SITE.url, 'moveis-para-bebe'), description: 'Guia de móveis seguros e adequados para o quarto do bebê.' },
     { slug: 'politicas', title: 'Políticas e Transparência', url: pageUrl(SITE.url, 'politicas'), description: 'Políticas de privacidade, termos de uso e transparência do site.' },
     { slug: 'contato', title: 'Contato', url: pageUrl(SITE.url, 'contato'), description: 'Entre em contato conosco por e-mail ou WhatsApp.' },
   ];
@@ -612,6 +651,7 @@ async function generateFiles() {
   console.log('✅ Arquivos de SEO gerados com sucesso!');
   console.log(`📁 Pasta: ${publicDir}`);
   console.log(`📊 ${stats.totalCategories} categorias, ${stats.totalGuides} guias, ${stats.totalProducts} produtos.`);
+  console.log(`📄 Páginas especiais: moveis-gamer, moveis-para-estudantes, moveis-para-bebe`);
 }
 
 generateFiles().catch(console.error);

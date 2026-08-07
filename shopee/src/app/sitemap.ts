@@ -70,6 +70,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.7,
     },
+    // ============================================================
+    // ✅ ADICIONADO: PÁGINA MÓVEIS GAMER
+    // ============================================================
+    {
+      url: `${baseUrl}/moveis-gamer`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
   ];
 
   // ============================================================
@@ -90,7 +99,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // GUIAS (Filtrando as URLs que redirecionam)
   // ============================================================
   const guidePages: MetadataRoute.Sitemap = getAllGuidesMeta()
-    .filter((g) => !excludeSlugs.includes(g.slug)) // REMOVE AS URLs ANTIGAS AQUI
+    .filter((g) => !excludeSlugs.includes(g.slug))
     .map((g) => ({
       url: `${baseUrl}/guia/${g.slug}`,
       lastModified: now,
@@ -123,7 +132,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // ============================================================
   // SITEMAP FINAL (Sem duplicatas e sem redirecionamentos)
   // ============================================================
-  // Removendo duplicatas da página de Marília que estava aparecendo duas vezes
   const combinedPages = [
     ...staticPages,
     ...categoryPages,

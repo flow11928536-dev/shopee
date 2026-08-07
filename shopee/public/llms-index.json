@@ -3,7 +3,7 @@
     "name": "Loja de Móveis Marília",
     "url": "https://www.lojademoveismarilia.com.br",
     "description": "Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.",
-    "lastUpdated": "2026-08-07T15:50:58.753Z"
+    "lastUpdated": "2026-08-07T16:44:49.072Z"
   },
   "categories": [
     {
@@ -697,10 +697,22 @@
   ],
   "pages": [
     {
+      "slug": "moveis-gamer",
+      "title": "Guia de Móveis Gamer",
+      "url": "https://www.lojademoveismarilia.com.br/moveis-gamer",
+      "description": "Guia completo para montar seu setup gamer com as melhores ofertas do Mercado Livre e Shopee. Cadeiras, mesas, iluminação e acessórios gamers."
+    },
+    {
       "slug": "moveis-para-estudantes",
       "title": "Móveis para Estudantes",
       "url": "https://www.lojademoveismarilia.com.br/moveis-para-estudantes",
       "description": "Guia completo para estudantes universitários sobre móveis compactos, baratos e funcionais."
+    },
+    {
+      "slug": "moveis-para-bebe",
+      "title": "Móveis para Bebê",
+      "url": "https://www.lojademoveismarilia.com.br/moveis-para-bebe",
+      "description": "Guia de móveis seguros e adequados para o quarto do bebê."
     },
     {
       "slug": "politicas",
@@ -715,13 +727,21 @@
       "description": "Entre em contato conosco por e-mail ou WhatsApp."
     }
   ],
+  "specialPages": [
+    {
+      "slug": "moveis-gamer",
+      "title": "Guia de Móveis Gamer",
+      "url": "https://www.lojademoveismarilia.com.br/moveis-gamer",
+      "description": "Guia completo para montar seu setup gamer com as melhores ofertas do Mercado Livre e Shopee."
+    }
+  ],
   "statistics": {
     "totalCategories": 19,
     "totalGuides": 52,
-    "totalPages": 4,
+    "totalPages": 6,
     "totalProducts": 185,
-    "generatedAt": "2026-08-07T15:50:58.750Z",
-    "lastUpdated": "2026-08-07T15:50:58.753Z"
+    "generatedAt": "2026-08-07T16:44:49.071Z",
+    "lastUpdated": "2026-08-07T16:44:49.072Z"
   },
   "entities": {
     "materials": [

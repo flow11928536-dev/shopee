@@ -7,6 +7,7 @@
 - Guarda-roupas e quartos completos
 - Cozinhas moduladas e eletrodomésticos
 - Home office e móveis para estudantes
+- Setup Gamer e móveis para gamers
 
 ## Categorias
 - [Guarda-Roupas](https://www.lojademoveismarilia.com.br/categoria/guarda-roupas)
@@ -82,6 +83,11 @@
 - [Quanto Custam Móveis Planejados em 2026: Tabela de Preços por Cômodo](https://www.lojademoveismarilia.com.br/guia/quanto-custa-moveis-planejados)
 - [Móveis de Pallet: Como Fazer do Zero com Segurança e Bom Resultado](https://www.lojademoveismarilia.com.br/guia/moveis-de-pallet-como-fazer)
 - [Móveis Industriais para Sala: Estilo Urbano com Aço e Madeira](https://www.lojademoveismarilia.com.br/guia/moveis-industriais-sala)
+
+## Páginas Especiais
+- [Guia de Móveis Gamer](https://www.lojademoveismarilia.com.br/moveis-gamer)
+- [Móveis para Estudantes](https://www.lojademoveismarilia.com.br/moveis-para-estudantes)
+- [Móveis para Bebê](https://www.lojademoveismarilia.com.br/moveis-para-bebe)
 
 ## AI Navigation
 ### Guarda-Roupas
@@ -164,4 +170,4 @@ Guias:
 
 
 
-Última atualização: 2026-08-07T15:50:58
+Última atualização: 2026-08-07T16:44:49
