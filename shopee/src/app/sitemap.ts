@@ -9,6 +9,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = SITE.url.replace('http://', 'https://');
 
   // ============================================================
+  // LISTA DE EXCLUSÃO (URLs que redirecionam)
+  // ============================================================
+  const excludeSlugs = [
+    'guarda-roupa-mdf-mdp',
+    'como-limpar-moveis-mdf-mdp',
+    'limpar-moveis-mdf-mdp',
+    'como-limpar-moveis-madeira'
+  ];
+
+  // ============================================================
   // PÁGINAS ESTÁTICAS (com prioridades otimizadas)
   // ============================================================
   const staticPages: MetadataRoute.Sitemap = [
@@ -77,14 +87,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
   });
 
   // ============================================================
-  // GUIAS (conteúdo evergreen com prioridade média-alta)
+  // GUIAS (Filtrando as URLs que redirecionam)
   // ============================================================
-  const guidePages: MetadataRoute.Sitemap = getAllGuidesMeta().map((g) => ({
-    url: `${baseUrl}/guia/${g.slug}`,
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.85,
-  }));
+  const guidePages: MetadataRoute.Sitemap = getAllGuidesMeta()
+    .filter((g) => !excludeSlugs.includes(g.slug)) // REMOVE AS URLs ANTIGAS AQUI
+    .map((g) => ({
+      url: `${baseUrl}/guia/${g.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.85,
+    }));
 
   // ============================================================
   // PRODUTOS (páginas de conversão com prioridade média)
@@ -92,14 +104,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const productPages: MetadataRoute.Sitemap = products.map((p) => ({
     url: `${baseUrl}/produto/${p.slug}`,
     lastModified: now,
-    changeFrequency: "daily", // Produtos podem mudar de estoque/preço diariamente
+    changeFrequency: "daily",
     priority: 0.75,
   }));
 
   // ============================================================
   // PÁGINAS DE MONTADORES (se houver mais cidades)
   // ============================================================
-  // Adicione aqui outras cidades se tiver
   const montadorPages: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/montadores/marilia`,
@@ -110,13 +121,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   // ============================================================
-  // SITEMAP INDEX (com URLs canônicas)
+  // SITEMAP FINAL (Sem duplicatas e sem redirecionamentos)
   // ============================================================
-  return [
+  // Removendo duplicatas da página de Marília que estava aparecendo duas vezes
+  const combinedPages = [
     ...staticPages,
     ...categoryPages,
     ...guidePages,
     ...productPages,
-    ...montadorPages,
   ];
+
+  return combinedPages;
 }
