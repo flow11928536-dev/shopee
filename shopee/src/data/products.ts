@@ -19664,7 +19664,7 @@ Se você procura uma solução prática e estilosa para valorizar sua cama King,
   originalPrice: 1449.90,
   badge: "MAIS VENDIDA",
   platform: "Site Oficial",
-  affiliateLink: "/cabeceira-casal-queen-mabel-272cm-2-mesas-led-tomadas-castanho",
+  affiliateLink: "https://meli.la/1FS8kFS",
   descricao: `
 # Cabeceira Casal Queen Mabel 272cm com 2 Mesas de Cabeceira, LED 3000K e Tomadas - 100% MDF Castanho
 

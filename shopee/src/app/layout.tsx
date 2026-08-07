@@ -98,12 +98,7 @@ const organizationSchema = {
   "@id": `${SITE.url}/#organization`,
   name: "Loja de Móveis Marília",
   url: SITE.url,
-  logo: {
-    "@type": "ImageObject",
-    url: `${SITE.url}/logo.svg`,
-    width: 512,
-    height: 512,
-  },
+  logo: `${SITE.url}/logo.svg`,
   description: "Loja de móveis premium em Marília SP com frete grátis. Especialistas em móveis planejados, sofás, cozinhas e home office.",
   address: {
     "@type": "PostalAddress",
@@ -115,7 +110,7 @@ const organizationSchema = {
   },
   contactPoint: {
     "@type": "ContactPoint",
-    telephone: "(14) 99603-3296",
+    telephone: "+55-14-99603-3296",
     contactType: "sales",
     availableLanguage: ["Portuguese"],
   },
@@ -125,11 +120,6 @@ const organizationSchema = {
     "https://www.youtube.com/@lojademoveismarilia",
   ],
   foundingDate: "2015",
-  numberOfEmployees: {
-    "@type": "QuantitativeValue",
-    value: 12,
-  },
-  inLanguage: "pt-BR",
 };
 
 const websiteSchema = {

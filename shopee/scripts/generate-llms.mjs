@@ -322,7 +322,7 @@ function generateLlmsTxt(site, categories, guides, entities) {
     '- Guarda-roupas e quartos completos',
     '- Cozinhas moduladas e eletrodomésticos',
     '- Home office e móveis para estudantes',
-    '- Setup Gamer e móveis para gamers',  // ✅ ADICIONADO
+    '- Setup Gamer e móveis para gamers',
     '',
     '## Categorias',
     ...categories.map(cat => `- [${cat.label}](${cat.url})`),
@@ -330,10 +330,10 @@ function generateLlmsTxt(site, categories, guides, entities) {
     '## Guias',
     ...guides.map(g => `- [${g.h1}](${guideUrl(site.url, g.slug)})`),
     '',
-    '## Páginas Especiais',  // ✅ ADICIONADO
-    `- [Guia de Móveis Gamer](${site.url}/moveis-gamer)`,  // ✅ ADICIONADO
-    `- [Móveis para Estudantes](${site.url}/moveis-para-estudantes)`,  // ✅ ADICIONADO
-    `- [Móveis para Bebê](${site.url}/moveis-para-bebe)`,  // ✅ ADICIONADO
+    '## Páginas Especiais',
+    `- [Guia de Móveis Gamer](${site.url}/moveis-gamer)`,
+    `- [Móveis para Estudantes](${site.url}/moveis-para-estudantes)`,
+    `- [Móveis para Bebê](${site.url}/moveis-para-bebe)`,
     '',
     '## AI Navigation',
     ...Object.entries(nav).map(([slug, n]) => `### ${n.category}\nURL: ${n.categoryUrl}\nGuias:\n${n.guides.map(g => `- ${g.title}`).join('\n')}`),
@@ -356,10 +356,10 @@ function generateLlmsFullTxt(site, categories, guides, products, pages, entities
     '## Guias',
     ...guides.map(g => `- ${g.h1}: ${g.description || 'Guia completo'}`),
     '',
-    '## Páginas',  // ✅ ADICIONADO
+    '## Páginas',
     ...pages.map(p => `- ${p.title}: ${p.description}`),
     '',
-    '## Páginas Especiais',  // ✅ ADICIONADO
+    '## Páginas Especiais',
     `- Guia de Móveis Gamer: Guia completo para montar seu setup gamer com as melhores ofertas`,
     `- Móveis para Estudantes: Móveis compactos e funcionais para universitários`,
     `- Móveis para Bebê: Móveis seguros e adequados para o quarto do bebê`,
@@ -394,7 +394,7 @@ function generateLlmsIndexJson(site, categories, guides, products, pages, stats,
       wordCount: (g.content || '').split(' ').length,
     })),
     pages: pages,
-    specialPages: [  // ✅ ADICIONADO
+    specialPages: [
       {
         slug: 'moveis-gamer',
         title: 'Guia de Móveis Gamer',
@@ -411,19 +411,26 @@ function generateLlmsIndexJson(site, categories, guides, products, pages, stats,
 }
 
 // ============================================================
-// FUNÇÃO CORRIGIDA: GERAR SITEMAP COM TODOS OS PRODUTOS + MOVEIS-GAMER
+// FUNÇÃO CORRIGIDA: SITEMAP SEM CATEGORIAS EXCLUÍDAS
 // ============================================================
 function generateSitemap(site, categories, guides, products, pages) {
   const urls = [];
   const today = new Date().toISOString().split('T')[0];
+
+  // ✅ Categorias que já têm página especial (não devem aparecer como /categoria/)
+  const categoriasExcluidas = ['moveis-para-estudantes'];
 
   console.log(`📊 Gerando sitemap com ${products.length} produtos`);
 
   // Home
   urls.push({ loc: site.url, lastmod: today, changefreq: 'daily', priority: '1.0' });
 
-  // Categorias
+  // Categorias (exceto as excluídas)
   categories.forEach(cat => {
+    if (categoriasExcluidas.includes(cat.slug)) {
+      console.log(`   ⏭️ Pulando categoria excluída: ${cat.slug}`);
+      return;
+    }
     urls.push({
       loc: cat.url,
       lastmod: today,
@@ -452,7 +459,7 @@ function generateSitemap(site, categories, guides, products, pages) {
     });
   });
 
-  // ✅ ADICIONADO: PÁGINA MÓVEIS GAMER
+  // ✅ PÁGINA MÓVEIS GAMER
   urls.push({
     loc: `${site.url}/moveis-gamer`,
     lastmod: today,
@@ -460,7 +467,7 @@ function generateSitemap(site, categories, guides, products, pages) {
     priority: '0.9',
   });
 
-  // ✅ ADICIONADO: PÁGINA MÓVEIS PARA BEBÊ
+  // ✅ PÁGINA MÓVEIS PARA BEBÊ
   urls.push({
     loc: `${site.url}/moveis-para-bebe`,
     lastmod: today,
@@ -468,7 +475,7 @@ function generateSitemap(site, categories, guides, products, pages) {
     priority: '0.8',
   });
 
-  // TODOS OS PRODUTOS (SEM LIMITE)
+  // TODOS OS PRODUTOS
   products.forEach(p => {
     urls.push({
       loc: productUrl(site.url, p.slug),
@@ -479,11 +486,11 @@ function generateSitemap(site, categories, guides, products, pages) {
   });
 
   console.log(`✅ Sitemap gerado com ${urls.length} URLs no total`);
-  console.log(`   - ${categories.length} categorias`);
+  console.log(`   - ${categories.length} categorias (${categoriasExcluidas.length} excluídas)`);
   console.log(`   - ${guides.length} guias`);
   console.log(`   - ${pages.length} páginas`);
   console.log(`   - ${products.length} produtos`);
-  console.log(`   - 1 página especial: /moveis-gamer`);
+  console.log(`   - Páginas especiais: moveis-gamer, moveis-para-bebe`);
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -541,28 +548,22 @@ function generateRobotsTxt(site) {
   return lines.join('\n');
 }
 
-// ============================================================
-// FUNÇÃO CORRIGIDA: CARREGAR DADOS COM DIAGNÓSTICO
-// ============================================================
 async function loadData() {
   const { SITE, allCategories, CATEGORY_LABELS, products } = await import('../src/data/products.ts');
   const { getAllGuidesMeta } = await import('../src/data/guides.ts');
   const guides = getAllGuidesMeta();
   
-  // 🔍 DIAGNÓSTICO COMPLETO
   console.log('='.repeat(60));
   console.log('🔍 DIAGNÓSTICO DE PRODUTOS');
   console.log('='.repeat(60));
   console.log(`📦 Total de produtos no products.ts: ${products.length}`);
   
-  // Verificar produtos com slug vazio
   const missingSlug = products.filter(p => !p.slug);
   if (missingSlug.length > 0) {
     console.warn(`\n⚠️ Produtos SEM SLUG (${missingSlug.length}):`);
     missingSlug.forEach(p => console.warn(`   - ID: ${p.id || 'Sem ID'} | Nome: ${p.name || 'Sem nome'}`));
   }
   
-  // Verificar produtos com slug duplicado
   const slugs = products.map(p => p.slug);
   const duplicateSlugs = slugs.filter((s, i) => slugs.indexOf(s) !== i);
   if (duplicateSlugs.length > 0) {
@@ -570,33 +571,23 @@ async function loadData() {
     duplicateSlugs.forEach(s => console.warn(`   - ${s}`));
   }
   
-  // Verificar produtos sem ID
   const missingId = products.filter(p => !p.id);
   if (missingId.length > 0) {
     console.warn(`\n⚠️ Produtos SEM ID (${missingId.length}):`);
     missingId.forEach(p => console.warn(`   - Slug: ${p.slug || 'Sem slug'} | Nome: ${p.name || 'Sem nome'}`));
   }
   
-  // Verificar produtos sem category
   const missingCategory = products.filter(p => !p.category);
   if (missingCategory.length > 0) {
     console.warn(`\n⚠️ Produtos SEM CATEGORY (${missingCategory.length}):`);
     missingCategory.forEach(p => console.warn(`   - Slug: ${p.slug || 'Sem slug'} | Nome: ${p.name || 'Sem nome'}`));
   }
   
-  // Verificar produtos sem mainCategory
   const missingMainCategory = products.filter(p => !p.mainCategory);
   if (missingMainCategory.length > 0) {
     console.warn(`\n⚠️ Produtos SEM MAIN CATEGORY (${missingMainCategory.length}):`);
     missingMainCategory.forEach(p => console.warn(`   - Slug: ${p.slug || 'Sem slug'} | Nome: ${p.name || 'Sem nome'}`));
   }
-  
-  // Listar TODOS os slugs para debug
-  console.log(`\n📋 LISTA COMPLETA DE SLUGS (${products.length}):`);
-  products.forEach((p, i) => {
-    const num = String(i + 1).padStart(3, '0');
-    console.log(`   ${num}. ${p.slug || '❌ SEM SLUG'}`);
-  });
   
   console.log('\n' + '='.repeat(60));
   console.log(`📦 Carregados ${products.length} produtos do products.ts`);
@@ -616,7 +607,6 @@ async function generateFiles() {
     description: `Encontre as melhores ofertas de ${CATEGORY_LABELS[cat] || cat} com preços competitivos e frete para todo Brasil.`,
   }));
 
-  // ✅ ADICIONADO: PÁGINA MÓVEIS GAMER NAS PÁGINAS
   const pages = [
     { slug: 'moveis-gamer', title: 'Guia de Móveis Gamer', url: pageUrl(SITE.url, 'moveis-gamer'), description: 'Guia completo para montar seu setup gamer com as melhores ofertas do Mercado Livre e Shopee. Cadeiras, mesas, iluminação e acessórios gamers.' },
     { slug: 'moveis-para-estudantes', title: 'Móveis para Estudantes', url: pageUrl(SITE.url, 'moveis-para-estudantes'), description: 'Guia completo para estudantes universitários sobre móveis compactos, baratos e funcionais.' },
@@ -640,7 +630,6 @@ async function generateFiles() {
   const opps = generateContentOpportunities(categories, guides, products);
   const graph = buildKnowledgeGraph(categories, guides, products, entities);
 
-  // Gerar arquivos
   fs.writeFileSync(path.join(publicDir, 'llms.txt'), generateLlmsTxt(SITE, categories, guides, entities));
   fs.writeFileSync(path.join(publicDir, 'llms-full.txt'), generateLlmsFullTxt(SITE, categories, guides, products, pages, entities));
   fs.writeFileSync(path.join(publicDir, 'llms-index.json'), JSON.stringify(generateLlmsIndexJson(SITE, categories, guides, products, pages, stats, entities, searchIntents, clusters, opps), null, 2));
