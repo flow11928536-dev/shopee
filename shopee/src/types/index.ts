@@ -13,7 +13,8 @@ export type MainCategory =
   | "cozinha"
   | "escritorio"
   | "area-externa"
-  | "eletrodomesticos";
+  | "eletrodomesticos"
+  | "gamer";
 
 export type ProductCategory =
   | "cozinhas"
@@ -31,31 +32,26 @@ export type ProductCategory =
   | "moveis-para-estudantes"
   | "mdf-mdp"
   | "moveis-para-bebe"
-  | "cabeceiras" // ✅ ADICIONADO
+  | "cabeceiras"
+  | "gamer"
   // ===== ELETRODOMÉSTICOS =====
   | "liquidificadores"
   | "microondas"
   | "geladeiras"
   | "air-fryers"
-  | "ar-condicionado"; // ✅ ADICIONADO
+  | "ar-condicionado";
 
 /**
  * Estrutura OBRIGATÓRIA de cada produto.
  * CORRIGIDO: Removida duplicação que quebrava o build (TS2300)
+ * CORRIGIDO: Adicionado campos opcionais para compatibilidade total
  */
 export interface Product {
   id: string;
   slug: string;
-
-  // Categoria principal (onde o produto mora)
   category: ProductCategory;
-
-  // ✅ NOVO: Para exibir em 2 categorias diferentes sem duplicar
-  // Ex: category: "cadeiras" + categories: ["home-office", "moveis-para-estudantes"]
   categories?: ProductCategory[];
-
   mainCategory: MainCategory;
-
   name: string;
   imageFile: string;
   displayImage: string;
@@ -68,11 +64,17 @@ export interface Product {
   badge: string;
   platform: AffiliatePlatform;
   affiliateLink: string;
+  shopeeLink?: string;           // ✅ JÁ ESTAVA CORRETO
   descricao: string;
   marca: string;
   keywords: string[];
   seoTitle: string;
   seoDescription: string;
+
+  // ✅ CAMPOS OPCIONAIS (já existentes)
+  caracteristicas?: string[];
+  recomendacao?: string;
+  contras?: string[];
 }
 
 /** Props estritas do componente reutilizável ProductGrid */
@@ -148,9 +150,19 @@ export interface Guide {
   blocks: GuideBlock[];
   faq: FaqItem[];
 }
-//
-//
-//
-//
-//
-//
+
+// ============================================================================
+// EXPORTAÇÕES PARA FACILITAR O USO
+// ============================================================================
+
+// Re-exportação do tipo Product para uso em outros arquivos
+export type { Product as ProductType };
+
+// Função auxiliar para buscar produtos por categoria (se já existir)
+// Se não existir, adicione:
+
+// const produtos: Product[] = []; // ← Seus produtos aqui
+
+// export function getProductsByMainCategory(category: MainCategory): Product[] {
+//   return produtos.filter((produto) => produto.mainCategory === category);
+// }

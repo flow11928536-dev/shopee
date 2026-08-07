@@ -3,7 +3,7 @@
     "name": "Loja de Móveis Marília",
     "url": "https://www.lojademoveismarilia.com.br",
     "description": "Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.",
-    "lastUpdated": "2026-08-04T04:13:47.799Z"
+    "lastUpdated": "2026-08-07T15:50:58.753Z"
   },
   "categories": [
     {
@@ -14,7 +14,7 @@
       "relatedGuides": [
         "melhores-guarda-roupas-casal-baratos"
       ],
-      "productCount": 39
+      "productCount": 40
     },
     {
       "slug": "cozinhas",
@@ -25,7 +25,7 @@
         "melhores-cozinhas-moduladas-baratas",
         "cozinhas"
       ],
-      "productCount": 12
+      "productCount": 13
     },
     {
       "slug": "mesas",
@@ -146,7 +146,7 @@
       "url": "https://www.lojademoveismarilia.com.br/categoria/comodas",
       "description": "Encontre as melhores ofertas de Cômodas com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
-      "productCount": 10
+      "productCount": 11
     },
     {
       "slug": "cadeiras",
@@ -163,6 +163,14 @@
       "description": "Encontre as melhores ofertas de Móveis para Estudantes com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
       "productCount": 1
+    },
+    {
+      "slug": "gamer",
+      "label": "Móveis Gamer",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/gamer",
+      "description": "Encontre as melhores ofertas de Móveis Gamer com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 12
     }
   ],
   "guides": [
@@ -708,12 +716,12 @@
     }
   ],
   "statistics": {
-    "totalCategories": 18,
+    "totalCategories": 19,
     "totalGuides": 52,
     "totalPages": 4,
-    "totalProducts": 170,
-    "generatedAt": "2026-08-04T04:13:47.798Z",
-    "lastUpdated": "2026-08-04T04:13:47.799Z"
+    "totalProducts": 185,
+    "generatedAt": "2026-08-07T15:50:58.750Z",
+    "lastUpdated": "2026-08-07T15:50:58.753Z"
   },
   "entities": {
     "materials": [
@@ -872,12 +880,25 @@
       "Kappesberg",
       "Balaqui Decor",
       "Qmovi",
-      "Panan"
+      "Panan",
+      "Made Marcs",
+      "Gelius",
+      "NSY",
+      "Python Fly",
+      "Eagle Force",
+      "Mancer",
+      "Aitek",
+      "Zetra",
+      "Innovatech21",
+      "BRK Racing",
+      "Playstation",
+      "DT3"
     ],
     "platforms": [
       "Shopee",
       "Mercado Livre",
-      "Site Oficial"
+      "Site Oficial",
+      "shopee"
     ],
     "colors": [
       "branco",
@@ -891,7 +912,8 @@
       "vermelho",
       "pinho",
       "prata",
-      "dourado"
+      "dourado",
+      "verde"
     ],
     "styles": [
       "moderno",
@@ -1253,6 +1275,23 @@
         "Móveis para Estudantes sob medida",
         "o que é Móveis para Estudantes",
         "qual o melhor Móveis para Estudantes"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "gamer",
+      "label": "Móveis Gamer",
+      "searchTerms": [
+        "comprar Móveis Gamer",
+        "melhor Móveis Gamer",
+        "Móveis Gamer barato",
+        "Móveis Gamer preço",
+        "como escolher Móveis Gamer",
+        "dicas de Móveis Gamer",
+        "Móveis Gamer para apartamento pequeno",
+        "Móveis Gamer sob medida",
+        "o que é Móveis Gamer",
+        "qual o melhor Móveis Gamer"
       ],
       "relatedGuides": []
     },
@@ -2209,6 +2248,14 @@
       "guideTitles": [],
       "count": 0,
       "depth": "baixo"
+    },
+    {
+      "category": "gamer",
+      "label": "Móveis Gamer",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
     }
   ],
   "contentOpportunities": [
@@ -2379,6 +2426,16 @@
       "gap": "Sem guias",
       "impact": "alto",
       "suggestion": "Criar guia definitivo sobre 'Móveis para Estudantes' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "gamer",
+      "label": "Móveis Gamer",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Móveis Gamer' abordando tipos, materiais, preços e dicas de compra",
       "estimatedEffort": "médio",
       "priority": "alta"
     },

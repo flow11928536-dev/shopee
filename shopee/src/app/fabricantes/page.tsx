@@ -151,7 +151,7 @@ export default function FabricantesPage() {
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#A9701F] opacity-60" />
                 <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-[#A9701F]" />
               </span>
-              Laudo técnico nº {LAST_UPDATED.replace(/-/g, "")}
+              
             </span>
 
             <h1

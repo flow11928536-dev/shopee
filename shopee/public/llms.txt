@@ -27,6 +27,7 @@
 - [Cômodas](https://www.lojademoveismarilia.com.br/categoria/comodas)
 - [Cadeiras](https://www.lojademoveismarilia.com.br/categoria/cadeiras)
 - [Móveis para Estudantes](https://www.lojademoveismarilia.com.br/categoria/moveis-para-estudantes)
+- [Móveis Gamer](https://www.lojademoveismarilia.com.br/categoria/gamer)
 
 ## Guias
 - [Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo](https://www.lojademoveismarilia.com.br/guia/moveis-area-externa)
@@ -157,6 +158,10 @@ Guias:
 URL: https://www.lojademoveismarilia.com.br/categoria/moveis-para-estudantes
 Guias:
 
+### Móveis Gamer
+URL: https://www.lojademoveismarilia.com.br/categoria/gamer
+Guias:
 
 
-Última atualização: 2026-08-04T04:13:47
+
+Última atualização: 2026-08-07T15:50:58

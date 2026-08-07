@@ -74,6 +74,7 @@ export const metadata: Metadata = {
     "geo.position": "-22.2103;-49.9399",
     "ICBM": "-22.2103, -49.9399",
     "theme-color": "#1A1614",
+    "p:domain_verify": "880750888dee14eafd9092943bb81f49",
   },
 };
 
@@ -170,6 +171,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(graphSchema) }}
         />
+        <meta name="p:domain_verify" content="880750888dee14eafd9092943bb81f49"/>
       </head>
       
       <body className="bg-gradient-to-br from-[#FDFCFA] via-[#F8F6F1] to-[#F0EDE5] text-[#1A1614] antialiased">

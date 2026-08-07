@@ -6,7 +6,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { CATEGORY_LABELS, allCategories } from "@/data/products";
 
-// ✅ CORREÇÃO — definir quais categorias têm guia
+// ✅ CORREÇÃO — definir quais categorias têm guia + gamer
 const catsComGuia = [
   "guarda-roupas",
   "cozinhas",
@@ -16,22 +16,25 @@ const catsComGuia = [
   "area-externa",
   "quartos",
   "mesas",
+  "gamer",
 ];
 
 const navCats = allCategories
   .filter((c) => (c as string) !== "eletrodomesticos" && (c as string) !== "microondas" && (c as string) !== "eletro" && (c as string) !== "ar-condicionado")
-  .slice(0, 6);
+  .slice(0, 5);
 
+const gamerLink = { href: "/moveis-gamer", label: "🎮 Gamer" };
 const primaryLink = { href: "/guias", label: "Guias de Móveis" };
 
 const moreLinks = [
   { href: "/fabricantes", label: "Fabricantes" },
   { href: "/sobre", label: "Sobre Nós" },
   { href: "/moveis-para-estudantes", label: "Móveis para Estudantes" },
+  { href: "/moveis-gamer", label: "🎮 Móveis Gamer" },
   { href: "/contato", label: "Contato" },
 ];
 
-const secondaryLinks = [primaryLink, ...moreLinks];
+const secondaryLinks = [primaryLink, gamerLink, ...moreLinks];
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -44,8 +47,10 @@ export default function Header() {
       if (href === "/fabricantes") return pathname === "/fabricantes";
       if (href === "/sobre") return pathname === "/sobre";
       if (href === "/moveis-para-estudantes") return pathname === "/moveis-para-estudantes";
+      if (href === "/moveis-gamer") return pathname === "/moveis-gamer";
       if (href === "/contato") return pathname === "/contato";
       if (href === "/montadores/marilia") return pathname === "/montadores/marilia" || pathname.startsWith("/montadores");
+      
       return pathname === `/categoria/${href}`;
     },
     [pathname]
@@ -107,6 +112,9 @@ export default function Header() {
             </div>
           ))}
 
+          {/* DESTAQUE GAMER DESKTOP */}
+          <Link href={gamerLink.href} className={`ml-1 rounded-full border px-3 py-1.5 text-sm font-bold transition ${isActiveLink(gamerLink.href) ? "border-violet-600 bg-violet-600 text-white" : "border-violet-300 bg-violet-50 text-violet-700 hover:bg-violet-600 hover:text-white"}`}>{gamerLink.label}</Link>
+
           <div className="mx-1 h-5 w-px bg-[#E1D3AE]" />
 
           <Link href={primaryLink.href} className={`border-b-2 px-3 py-2 text-sm font-semibold ${isActiveLink(primaryLink.href) ? "border-[#A9701F] text-[#241A0E]" : "border-transparent text-[#241A0E] hover:border-[#CBB98C]"}`}>{primaryLink.label}</Link>
@@ -133,7 +141,12 @@ export default function Header() {
 
         {/* MOBILE - Botão Montadores + Hamburguer */}
         <div className="flex items-center gap-2 lg:hidden">
-          {/* ✅ BOTÃO MONTADORES SEMPRE VISÍVEL NO CELULAR */}
+          <Link
+            href="/moveis-gamer"
+            className="relative flex items-center gap-1 rounded-full border border-violet-600 bg-violet-600 px-2.5 py-1.5 font-mono text-[10px] font-bold uppercase tracking-wider text-white shadow-sm"
+          >
+            🎮 Gamer
+          </Link>
           <Link
             href="/montadores/marilia"
             className="relative flex items-center gap-1.5 rounded-full border border-[#A9701F] bg-[#A9701F] px-3 py-1.5 font-mono text-[10px] font-bold uppercase tracking-wider text-white shadow-sm"
@@ -163,17 +176,26 @@ export default function Header() {
       {open && (
         <div className="absolute inset-x-0 top-16 z-40 max-h-[85vh] overflow-y-auto border-b border-[#E1D3AE] bg-[#FBF6E8] shadow-2xl lg:hidden">
           <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6">
-            {/* Destaque Montadores no topo do menu */}
-            <Link
-              href="/montadores/marilia"
-              className="mb-4 flex items-center justify-between rounded-xl bg-[#241A0E] px-4 py-3 text-white"
-            >
-              <span className="flex items-center gap-2 text-sm font-bold">
-                <span className="flex h-2 w-2 rounded-full bg-emerald-400"></span>
-                Montadores em Marília-SP
-              </span>
-              <span className="text-xs opacity-70">Ver lista →</span>
-            </Link>
+            {/* Destaque Gamer + Montadores no topo do menu */}
+            <div className="mb-4 grid grid-cols-2 gap-2">
+              <Link
+                href="/moveis-gamer"
+                className="flex items-center justify-between rounded-xl bg-gradient-to-br from-violet-600 to-indigo-600 px-4 py-3 text-white"
+              >
+                <span className="flex items-center gap-2 text-sm font-bold">🎮 Área Gamer</span>
+                <span className="text-xs opacity-80">Ver →</span>
+              </Link>
+              <Link
+                href="/montadores/marilia"
+                className="flex items-center justify-between rounded-xl bg-[#241A0E] px-4 py-3 text-white"
+              >
+                <span className="flex items-center gap-2 text-sm font-bold">
+                  <span className="flex h-2 w-2 rounded-full bg-emerald-400"></span>
+                  Montadores
+                </span>
+                <span className="text-xs opacity-70">Ver →</span>
+              </Link>
+            </div>
 
             <div className="grid gap-1">
               {navCats.map((cat) => (
