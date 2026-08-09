@@ -1,0 +1,15 @@
+# Nunca cachear HTML das páginas (sempre buscar versão nova após deploy)
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Assets estáticos com hash no nome - cache longo e seguro
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Imagens e mídia - cache moderado
+/images/*
+  Cache-Control: public, max-age=86400

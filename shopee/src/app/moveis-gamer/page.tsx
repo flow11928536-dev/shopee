@@ -34,8 +34,6 @@ import {
   Star,
 } from "lucide-react";
 // Força a página a ser dinâmica (SSR), impedindo a Vercel e o Cloudflare de cachearem o HTML por longos períodos
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
 
 
 // ✅ Datas em ISO 8601 com fuso horário de São Paulo (best practice para Rich Results)
