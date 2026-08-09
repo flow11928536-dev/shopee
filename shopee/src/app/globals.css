@@ -2,52 +2,87 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  scroll-behavior: smooth;
-  -webkit-font-smoothing: antialiased;
-}
-
-body {
-  font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-}
-
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(16px);
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-/* app/globals.css */
 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
+  body {
+    /* O Tailwind já cuida disso via className no layout, mas mantemos como fallback */
+    font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
-.animate-fadeInUp {
-  animation: fadeInUp 0.6s ease-out both;
-}
-
-@keyframes shimmer {
-  0% {
-    transform: translateX(-100%);
+  /* Detalhe Premium 2026: Cor de seleção de texto */
+  ::selection {
+    background-color: rgba(197, 168, 128, 0.3); /* Dourado #C5A880 com opacidade */
+    color: #1E1B18;
   }
-  100% {
-    transform: translateX(100%);
+
+  /* Detalhe Premium 2026: Scrollbar personalizada */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FAF8F5; /* Fundo creme do seu site */
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #C5A880; /* Dourado */
+    border-radius: 5px;
+    border: 2px solid #FAF8F5;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a2845e; /* Dourado mais escuro no hover */
   }
 }
 
-/* Respeita usuários que preferem menos movimento (acessibilidade) */
+@layer utilities {
+  /* Animação de Scroll Reveal (Apenas CSS, leve e perfeita para SEO) */
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-up {
+    opacity: 0; /* Começa invisível */
+    animation: fadeUp 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+
+  /* Mantivemos a fadeInUp caso use em algum componente específico */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fadeInUp {
+    animation: fadeInUp 0.6s ease-out both;
+  }
+
+  /* Animação para esqueletos de carregamento (shimmer) */
+  @keyframes shimmer {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+}
+
+/* Acessibilidade: Respeita usuários que preferem menos movimento */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

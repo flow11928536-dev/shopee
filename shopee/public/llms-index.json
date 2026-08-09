@@ -3,7 +3,7 @@
     "name": "Loja de Móveis Marília",
     "url": "https://www.lojademoveismarilia.com.br",
     "description": "Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.",
-    "lastUpdated": "2026-08-07T20:49:42.918Z"
+    "lastUpdated": "2026-08-09T00:03:11.697Z"
   },
   "categories": [
     {
@@ -69,7 +69,7 @@
       "url": "https://www.lojademoveismarilia.com.br/categoria/liquidificadores",
       "description": "Encontre as melhores ofertas de Liquidificadores com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
-      "productCount": 7
+      "productCount": 6
     },
     {
       "slug": "air-fryers",
@@ -85,7 +85,7 @@
       "url": "https://www.lojademoveismarilia.com.br/categoria/eletrodomesticos",
       "description": "Encontre as melhores ofertas de Eletrodomésticos com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
-      "productCount": 22
+      "productCount": 21
     },
     {
       "slug": "ar-condicionado",
@@ -739,46 +739,47 @@
     "totalCategories": 19,
     "totalGuides": 52,
     "totalPages": 6,
-    "totalProducts": 185,
-    "generatedAt": "2026-08-07T20:49:42.917Z",
-    "lastUpdated": "2026-08-07T20:49:42.918Z"
+    "totalProducts": 184,
+    "generatedAt": "2026-08-09T00:03:11.696Z",
+    "lastUpdated": "2026-08-09T00:03:11.697Z"
   },
   "entities": {
     "materials": [
       "mdf",
-      "vidro",
-      "madeira",
       "mdp",
+      "vidro",
+      "temperado",
+      "madeira",
       "aço",
       "plástico",
       "ferro",
       "couro",
-      "alumínio",
       "tecido",
-      "suede",
       "linho",
       "tecidos",
       "veludo",
+      "alumínio",
       "laminado",
-      "temperado",
+      "suede",
       "resina",
       "melamina"
     ],
     "environments": [
+      "quarto",
       "cozinha",
       "sala",
-      "quarto",
       "banheiro",
-      "estudo",
-      "escritório",
       "home office",
+      "escritório",
+      "estudo",
       "jardim",
       "varanda"
     ],
     "types": [
       "guarda-roupa",
-      "cozinha",
+      "cama",
       "armário",
+      "cozinha",
       "balcão",
       "mesa",
       "painel",
@@ -789,7 +790,6 @@
       "cômoda",
       "bancada",
       "escrivaninha",
-      "cama",
       "sof",
       "chaise",
       "sofá",
@@ -815,7 +815,6 @@
       "Aramóveis",
       "Philco",
       "Consul",
-      "Wap",
       "COMFCASA",
       "Mondial",
       "Brastemp",
@@ -937,40 +936,40 @@
     ],
     "styles": [
       "moderno",
-      "industrial",
+      "clássico",
       "contemporâneo",
       "minimalista",
+      "industrial",
       "boho",
       "rústico",
-      "clássico",
       "vintage"
     ],
     "benefits": [
-      "resistente",
       "durável",
+      "resistente",
       "confortável",
-      "ecológico",
       "fácil de montar",
-      "com rodas",
+      "ecológico",
       "sustentável",
-      "impermeável",
+      "com rodas",
       "ergonômico",
       "reclinável",
+      "impermeável",
       "ajustável",
       "com usb",
       "com iluminação",
       "giratório"
     ],
     "problems": [
-      "multifuncional",
       "versátil",
+      "fácil limpeza",
+      "para apartamento pequeno",
+      "multifuncional",
       "para espaços compactos",
       "economia de espaço",
-      "montagem simples",
-      "fácil limpeza",
       "personalizável",
       "sob medida",
-      "para apartamento pequeno"
+      "montagem simples"
     ],
     "priceRanges": [],
     "targetAudiences": [],

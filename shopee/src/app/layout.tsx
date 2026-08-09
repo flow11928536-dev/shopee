@@ -1,29 +1,38 @@
 ﻿import React from "react";
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
-import { Inter, Playfair_Display, Space_Grotesk } from "next/font/google";
 import "@/app/globals.css";
 import { SITE } from "@/data/products";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { Inter, Fraunces, JetBrains_Mono, Rajdhani } from "next/font/google";
 
 /* ============================================================
    FONTES MODERNAS 2026 (COMBINAÇÃO EDITORIAL PREMIUM)
+   - Inter: corpo do texto
+   - Fraunces: títulos editoriais
+   - JetBrains Mono: tags, preços e botões
    ============================================================ */
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
   display: "swap",
 });
-
-const playfair = Playfair_Display({
+const rajdhani = Rajdhani({
   subsets: ["latin"],
   variable: "--font-display",
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+});
+
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  variable: "--font-fraunces",
   display: "swap",
   style: ["normal", "italic"],
 });
 
-const spaceGrotesk = Space_Grotesk({
+const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
   variable: "--font-mono",
   display: "swap",
@@ -72,7 +81,7 @@ export const metadata: Metadata = {
     "geo.region": "BR-SP",
     "geo.placename": "Marília",
     "geo.position": "-22.2103;-49.9399",
-    "ICBM": "-22.2103, -49.9399",
+    ICBM: "-22.2103, -49.9399",
     "theme-color": "#1A1614",
     "p:domain_verify": "880750888dee14eafd9092943bb81f49",
   },
@@ -88,9 +97,7 @@ export const viewport: Viewport = {
 };
 
 // ============================================================
-// SCHEMAS GLOBAIS - Apenas Organization e WebSite
-// (FurnitureStore com aggregateRating está na homepage)
-// (FAQ Schema está apenas nas páginas que têm FAQ)
+// SCHEMAS GLOBAIS - Organization e WebSite em @graph
 // ============================================================
 const organizationSchema = {
   "@context": "https://schema.org",
@@ -140,9 +147,6 @@ const websiteSchema = {
   },
 };
 
-// ============================================================
-// SCHEMA COMBINADO (@graph) PARA MELHOR ORGANIZAÇÃO
-// ============================================================
 const graphSchema = {
   "@context": "https://schema.org",
   "@graph": [organizationSchema, websiteSchema],
@@ -152,7 +156,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html 
       lang="pt-BR" 
-      className={`${inter.variable} ${playfair.variable} ${spaceGrotesk.variable}`}
+      className={`${inter.variable} ${fraunces.variable} ${jetbrainsMono.variable}`}
       suppressHydrationWarning
     >
       <head>

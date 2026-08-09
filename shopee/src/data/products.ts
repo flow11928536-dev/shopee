@@ -95,238 +95,1848 @@ export type { Product, ProductCategory, MainCategory };
 // ============================================================
 export const products: Product[] = [
   // ===================== GUARDA-ROUPAS =====================
+  // ============================================================
+// PRODUTOS REWRITE - Mantendo links e imagens intactos
+// ============================================================
+
+// ===================== GUARDA-ROUPAS =====================
+
+{
+  id: "p-imp-001",
+  slug: "guarda-roupa-casal-easy-slim-8-portas-com-espelho-amendoa-clean-off-white",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Casal 8 Portas com Espelho Premium",
+  imageFile: "/imagens/produtos/Guarda-roupa-Casal-Easy-Slim-8-Portas-Com-Espelho-Amendoa-Clean-Off-White.webp",
+  displayImage: "/imagens/produtos/Guarda-roupa-Casal-Easy-Slim-8-Portas-Com-Espelho-Amendoa-Clean-Off-White.webp",
+  alt: "Guarda-Roupa Casal 8 Portas com Espelho Premium — oferta Loja de Móveis Marília",
+  rating: 4.8,
+  reviews: 1234,
+  discount: 35,
+  price: 1035.21,
+  originalPrice: 1299.9,
+  badge: "",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/7fWWhndLoP",
+  descricao: `
+# Guarda-Roupa Casal 8 Portas com Espelho Premium
+
+## 📌 Introdução
+
+O **Guarda-Roupa Casal 8 Portas com Espelho Premium** é a solução definitiva para quem busca organização, estilo e funcionalidade no quarto. Desenvolvido para atender as necessidades de casais que valorizam praticidade e elegância, este guarda-roupa oferece amplo espaço de armazenamento com um design moderno e sofisticado que transforma qualquer ambiente.
+
+Com 8 portas generosas, este móvel foi projetado para acomodar todo o vestuário de um casal com total organização. O acabamento premium em Off White e Amendoa Clean confere um visual elegante e atemporal, enquanto os espelhos integrados ampliam a sensação de espaço e luminosidade no quarto.
+
+## 📌 Principais Benefícios
+
+**Ampla capacidade de armazenamento:** Com 8 portas, este guarda-roupa oferece espaço suficiente para organizar roupas, calçados, acessórios e roupas de cama de forma prática e eficiente, ideal para casais que precisam de espaço extra.
+
+**Espelhos integrados:** Os espelhos nas portas não apenas facilitam a rotina de se arrumar, mas também ampliam visualmente o ambiente, criando uma sensação de maior amplitude e luminosidade no quarto.
+
+**Design moderno e sofisticado:** O acabamento em Off White e Amendoa Clean confere um visual elegante e versátil, que combina perfeitamente com diferentes estilos de decoração, do clássico ao contemporâneo.
+
+**Organização interna inteligente:** Com prateleiras ajustáveis e espaços dedicados para diferentes tipos de peças, este guarda-roupa oferece uma organização eficiente para todo o seu vestuário.
+
+**Estrutura robusta e durável:** Fabricado com materiais de alta qualidade, este guarda-roupa garante durabilidade e resistência para o uso diário, mantendo sua beleza por muitos anos.
+
+**Produto nacional:** Fabricado no Brasil com padrões de qualidade rigorosos, este guarda-roupa oferece a confiabilidade de um produto nacional.
+
+## 📌 Design
+
+O design do Guarda-Roupa Casal 8 Portas foi pensado para impressionar e valorizar o ambiente. O acabamento em Off White e Amendoa Clean cria um visual sofisticado e atemporal, que se adapta a diferentes estilos de decoração.
+
+Os espelhos integrados nas portas são um dos grandes destaques do modelo, proporcionando funcionalidade e ampliando visualmente o espaço. O design clean e as linhas modernas tornam este guarda-roupa uma peça versátil que combina com diferentes propostas decorativas.
+
+## 📌 Organização
+
+A organização interna do guarda-roupa foi cuidadosamente planejada para otimizar cada centímetro disponível:
+
+- **8 portas:** Acesso amplo a todo o conteúdo interno
+- **Prateleiras ajustáveis:** Permitem personalizar o espaço conforme sua necessidade
+- **Espaço para cabideiros:** Organize camisas, vestidos e calças sem amassar
+- **Compartimentos para calçados:** Espaço dedicado para sapatos e tênis
+
+## 📌 Ideal para
+
+- **Quartos de casal:** Espaço amplo para duas pessoas
+- **Suítes:** Design sofisticado para o quarto principal
+- **Apartamentos modernos:** Estilo que valoriza o ambiente
+- **Quem valoriza organização:** Múltiplos compartimentos para diferentes tipos de peças
+- **Quem busca design:** Acabamento premium e espelhos integrados
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este guarda-roupa é altamente recomendado para:
+
+**Casais que buscam espaço e organização:** Com 8 portas, este guarda-roupa oferece espaço suficiente para acomodar o vestuário de duas pessoas com total organização.
+
+**Pessoas que valorizam design sofisticado:** O acabamento em Off White e Amendoa Clean, combinado com os espelhos integrados, oferece um visual premium e elegante.
+
+**Quem busca durabilidade:** Fabricado com materiais de alta qualidade, este guarda-roupa garante resistência e longevidade.
+
+**Admiradores de decoração moderna:** O design clean e atemporal combina com diferentes estilos de decoração.
+
+## 📌 Diferenciais
+
+O que torna este Guarda-Roupa Casal 8 Portas único no mercado:
+
+**8 portas de ampla capacidade:** Diferente dos modelos com menos portas, este guarda-roupa oferece espaço generoso para organizar todo o vestuário do casal.
+
+**Espelhos integrados de alta qualidade:** Os espelhos não apenas facilitam a rotina de se arrumar, mas também ampliam visualmente o ambiente.
+
+**Acabamento premium Off White e Amendoa Clean:** Combinação de cores sofisticada e versátil que valoriza qualquer decoração.
+
+**Design moderno e atemporal:** Linhas clean e design elegante que não sai de moda.
+
+**Estrutura robusta e durável:** Materiais de alta qualidade que garantem longevidade.
+
+## 📌 Motivos para Comprar
+
+✅ **8 portas** - amplo espaço para organizar todo o vestuário do casal
+
+✅ **Espelhos integrados** - praticidade e amplitude visual
+
+✅ **Acabamento premium Off White e Amendoa Clean** - sofisticação e versatilidade
+
+✅ **Design moderno e atemporal** - combina com diferentes estilos
+
+✅ **Organização interna inteligente** - prateleiras ajustáveis e espaços dedicados
+
+✅ **Estrutura robusta e durável** - materiais de alta qualidade
+
+✅ **Produto nacional** - confiabilidade e padrões de qualidade
+
+✅ **Mais de 1000 vendidos** - produto testado e aprovado
+
+✅ **Avaliação 4.8 estrelas** - alta satisfação dos clientes
+
+✅ **35% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias para a instalação.
+
+**3. Quantas portas o guarda-roupa tem?**
+O guarda-roupa possui 8 portas, oferecendo amplo acesso a todo o conteúdo interno.
+
+**4. O guarda-roupa tem espelhos?**
+Sim, possui espelhos integrados nas portas, que facilitam a rotina de se arrumar e ampliam visualmente o ambiente.
+
+**5. Qual o material do guarda-roupa?**
+O guarda-roupa é fabricado com materiais de alta qualidade, garantindo durabilidade e resistência.
+
+**6. Qual a capacidade do guarda-roupa?**
+Com 8 portas, este guarda-roupa oferece espaço generoso para organizar todo o vestuário de um casal.
+
+**7. O guarda-roupa tem prateleiras ajustáveis?**
+Sim, as prateleiras são ajustáveis, permitindo personalizar o espaço conforme sua necessidade.
+
+**8. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política do vendedor.
+
+**9. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete disponível na página do anúncio.
+
+**10. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**11. Como devo fazer a limpeza do guarda-roupa?**
+Recomenda-se limpar o produto com pano seco ou levemente umedecido. Evite o uso de produtos abrasivos e o contato direto com a umidade.
+
+**12. O guarda-roupa é indicado para quartos de casal?**
+Sim, as dimensões e a capacidade de armazenamento são ideais para quartos de casal.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Tipo** | Guarda-Roupa Casal |
+| **Quantidade de Portas** | 8 portas |
+| **Cor** | Off White / Amendoa Clean |
+| **Material** | MDF/MDP de alta qualidade |
+| **Acabamento** | Premium |
+| **Espelhos** | Sim (integrados) |
+| **Prateleiras** | Ajustáveis |
+| **Origem** | Nacional |
+| **Requer Montagem** | Sim |
+| **Garantia** | Conforme política do vendedor |
+| **Indicado para** | Quarto de casal, suíte |
+
+## 📌 Conclusão
+
+O **Guarda-Roupa Casal 8 Portas com Espelho Premium** é a escolha perfeita para casais que buscam um móvel espaçoso, funcional e com design sofisticado. Com 8 portas, espelhos integrados, acabamento premium e organização interna inteligente, este guarda-roupa oferece tudo o que você precisa para manter seu quarto organizado e elegante.
+
+Aproveite o desconto de 35% e garanta já o seu Guarda-Roupa Casal 8 Portas com entrega em todo o Brasil!
+  `,
+  marca: "Panorama Móveis",
+  keywords: [
+    "guarda-roupa casal",
+    "guarda-roupa 8 portas",
+    "guarda-roupa com espelho",
+    "guarda-roupa off white",
+    "guarda-roupa amendoa clean",
+    "guarda-roupa casal premium",
+    "guarda-roupa com espelho casal",
+    "armário de casal 8 portas",
+    "guarda-roupa grande casal",
+    "móvel para quarto de casal"
+  ],
+  seoTitle: "Guarda-Roupa Casal 8 Portas com Espelho Premium | Oferta",
+  seoDescription: "Guarda-Roupa Casal 8 Portas com Espelho Premium com 35% de desconto. Frete para todo Brasil. Confira a oferta!",
+},
+
   {
-    id: "p-imp-001",
-    slug: "guarda-roupa-casal-easy-slim-8-portas-com-espelho-amendoa-clean-off-white",
-    category: "guarda-roupas",
-    mainCategory: "quarto",
-    name: "Guarda-Roupa Casal 8 Portas com Espelho Premium",
-    imageFile: "/imagens/produtos/Guarda-roupa-Casal-Easy-Slim-8-Portas-Com-Espelho-Amendoa-Clean-Off-White.webp",
-    displayImage: "/imagens/produtos/Guarda-roupa-Casal-Easy-Slim-8-Portas-Com-Espelho-Amendoa-Clean-Off-White.webp",
-    alt: "Guarda-Roupa Casal 8 Portas com Espelho Premium — oferta Loja de Móveis Marília",
-    rating: 4.8,
-    reviews: 1234,
-    discount: 35,
-    price: 1035.21,
-    originalPrice: 999.9,
-    badge: "",
-    platform: "Shopee",
-    affiliateLink: "https://s.shopee.com.br/7fWWhndLoP",
-    descricao: "Guarda-Roupa Casal 8 Portas com Espelho Premium. Produto selecionado com custo-benefício e qualidade garantida. Frete para todo Brasil.",
-    marca: "Panorama Móveis",
-    keywords: ["guarda-roupa casal", "guarda-roupa 8 portas", "guarda-roupa com espelho"],
-    seoTitle: "Guarda-Roupa Casal 8 Portas com Espelho Premium | Oferta",
-    seoDescription: "Guarda-Roupa Casal 8 Portas com Espelho Premium com 35% de desconto. Frete para todo Brasil. Confira a oferta!",
-  },
+  id: "p-imp-002",
+  slug: "guarda-roupa-casal-ripado-com-espelhos-2-portas-e-4-gavetas-suburban-gold-espresso-moveis",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-roupa Casal Ripado com Espelhos 2 Portas e 4 Gavetas Suburban Gold Espresso Móveis",
+  imageFile: "/imagens/produtos/Guarda-roupa-Casal-Ripado-com-Espelhos-2-Portas-e-4-Gavetas-Suburban-Gold-Espresso-Moveis.webp",
+  displayImage: "/imagens/produtos/Guarda-roupa-Casal-Ripado-com-Espelhos-2-Portas-e-4-Gavetas-Suburban-Gold-Espresso-Moveis.webp",
+  alt: "Guarda-roupa Casal Ripado com Espelhos 2 Portas e 4 Gavetas Suburban Gold Espresso Móveis — oferta Loja de Móveis Marília",
+  rating: 4.6,
+  reviews: 892,
+  discount: 25,
+  price: 1296.21,
+  originalPrice: 999.9,
+  badge: "",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/1qYk6uPWyn",
+  descricao: `
+# Guarda-roupa Casal Ripado com Espelhos 2 Portas e 4 Gavetas Suburban Gold Espresso Móveis
+
+## 📌 Introdução
+
+O **Guarda-roupa Casal Ripado com Espelhos da Suburban Gold** é a escolha perfeita para quem busca um móvel que une design moderno, funcionalidade e sofisticação. Com acabamento ripado texturizado, espelhos integrados e uma organização interna completa, este guarda-roupa foi projetado para transformar seu quarto em um ambiente elegante e perfeitamente organizado.
+
+Ideal para casais que valorizam estilo e praticidade, o modelo Suburban Gold combina a beleza do design ripado com a funcionalidade de 4 gavetas espaçosas, oferecendo amplo espaço para armazenar roupas, acessórios e objetos pessoais com total organização.
+
+## 📌 Principais Benefícios
+
+**Design ripado moderno e sofisticado:** O acabamento ripado texturizado é uma tendência forte na decoração de interiores, adicionando profundidade, elegância e personalidade ao ambiente. Este design diferenciado torna o guarda-roupa uma peça de destaque no quarto.
+
+**Espelhos integrados para praticidade:** Os espelhos nas portas permitem que você confira seu visual antes de sair, eliminando a necessidade de um espelho separado. Além disso, os espelhos ampliam a sensação de espaço e luminosidade no quarto.
+
+**Organização completa para o casal:** Com 4 gavetas espaçosas e cabideiros para roupas penduradas, este guarda-roupa oferece organização eficiente para todo o vestuário do casal, mantendo tudo em ordem e de fácil acesso.
+
+**Estrutura em MDF de alta qualidade:** Fabricado em MDF de alta densidade, este guarda-roupa oferece durabilidade, resistência e estabilidade para o uso diário, mantendo sua beleza por muitos anos.
+
+**Design versátil e atemporal:** O acabamento Suburban Gold combina perfeitamente com diferentes estilos de decoração, do clássico ao contemporâneo, adaptando-se a diferentes propostas decorativas.
+
+## 📌 Design
+
+O design do Guarda-roupa Suburban Gold foi pensado para impressionar. O acabamento ripado texturizado cria um visual moderno e sofisticado, enquanto os espelhos integrados nas portas adicionam funcionalidade e amplitude ao ambiente.
+
+A combinação de cores e texturas valoriza a decoração do quarto, criando um ponto focal elegante e contemporâneo. O design clean e as linhas retas tornam este guarda-roupa uma peça versátil que combina com diferentes estilos de decoração.
+
+## 📌 Organização
+
+A organização interna do guarda-roupa foi cuidadosamente planejada para otimizar cada centímetro disponível:
+
+- **2 portas com espelhos:** Acesso prático e funcionalidade
+- **4 gavetas espaçosas:** Para organizar roupas íntimas, meias e acessórios
+- **Cabideiros:** Para pendurar camisas, vestidos e calças sem amassar
+- **Design ripado:** Acabamento texturizado moderno e sofisticado
+
+## 📌 Ideal para
+
+- **Quartos de casal:** Espaço e organização para duas pessoas
+- **Ambientes modernos:** Design ripado contemporâneo
+- **Quem valoriza estilo:** Acabamento texturizado e espelhos integrados
+- **Quem busca organização:** 4 gavetas e cabideiros
+- **Apartamentos:** Design que valoriza qualquer ambiente
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este guarda-roupa é altamente recomendado para:
+
+**Casais que buscam um móvel com design moderno e sofisticado:** O acabamento ripado texturizado e os espelhos integrados oferecem um visual premium e elegante.
+
+**Pessoas que valorizam organização:** Com 4 gavetas e cabideiros, este guarda-roupa oferece organização eficiente para todo o vestuário.
+
+**Quem busca durabilidade:** Fabricado em MDF de alta qualidade, este guarda-roupa garante resistência e longevidade.
+
+**Admiradores de decoração moderna:** O design ripado é uma tendência forte na decoração de interiores.
+
+## 📌 Diferenciais
+
+O que torna este Guarda-roupa Suburban Gold único no mercado:
+
+**Design ripado texturizado:** Acabamento moderno e sofisticado que valoriza a decoração do quarto.
+
+**Espelhos integrados:** Funcionalidade e amplitude visual.
+
+**4 gavetas espaçosas:** Organização eficiente para roupas íntimas e acessórios.
+
+**Estrutura em MDF de alta qualidade:** Durabilidade e resistência.
+
+**Design versátil:** Combina com diferentes estilos de decoração.
+
+## 📌 Motivos para Comprar
+
+✅ **Design ripado moderno e sofisticado** - tendência em decoração de interiores
+
+✅ **Espelhos integrados** - praticidade e amplitude visual
+
+✅ **4 gavetas espaçosas** - organização para roupas íntimas e acessórios
+
+✅ **Cabideiros** - para camisas, vestidos e calças sem amassar
+
+✅ **Estrutura em MDF de alta qualidade** - durabilidade e resistência
+
+✅ **Design versátil** - combina com diferentes estilos de decoração
+
+✅ **Produto nacional** - confiabilidade e padrões de qualidade
+
+✅ **25% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias.
+
+**3. Quantas portas o guarda-roupa tem?**
+O guarda-roupa possui 2 portas com espelhos integrados.
+
+**4. O guarda-roupa tem gavetas?**
+Sim, possui 4 gavetas espaçosas para organizar roupas íntimas e acessórios.
+
+**5. O que é design ripado?**
+É um acabamento texturizado que cria profundidade e elegância, sendo uma tendência forte na decoração de interiores.
+
+**6. Qual o material do guarda-roupa?**
+Fabricado em MDF de alta qualidade, garantindo durabilidade e resistência.
+
+**7. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política do vendedor.
+
+**8. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete.
+
+**9. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**10. Como devo fazer a limpeza do guarda-roupa?**
+Recomenda-se limpar com pano seco ou levemente umedecido. Evite produtos abrasivos.
+
+**11. O guarda-roupa é indicado para quartos de casal?**
+Sim, a capacidade de armazenamento é ideal para casais.
+
+**12. Qual a capacidade das gavetas?**
+As gavetas são espaçosas e ideais para organizar roupas íntimas, meias e acessórios.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Tipo** | Guarda-Roupa Casal |
+| **Quantidade de Portas** | 2 portas com espelhos |
+| **Quantidade de Gavetas** | 4 gavetas |
+| **Material** | MDF de alta qualidade |
+| **Acabamento** | Ripado texturizado |
+| **Cor** | Suburban Gold |
+| **Origem** | Nacional |
+| **Requer Montagem** | Sim |
+| **Garantia** | Conforme política do vendedor |
+| **Indicado para** | Quarto de casal |
+
+## 📌 Conclusão
+
+O **Guarda-roupa Casal Ripado com Espelhos Suburban Gold** é a escolha perfeita para quem busca um móvel moderno, funcional e sofisticado. Com design ripado texturizado, espelhos integrados, 4 gavetas e estrutura em MDF de alta qualidade, este guarda-roupa oferece organização e estilo para seu quarto.
+
+Aproveite o desconto de 25% e garanta já o seu Guarda-roupa Suburban Gold com entrega em todo o Brasil!
+  `,
+  marca: "Suburban Gold",
+  keywords: [
+    "guarda-roupa ripado",
+    "guarda-roupa casal",
+    "guarda-roupa com espelho",
+    "guarda-roupa suburban gold",
+    "guarda-roupa 2 portas",
+    "guarda-roupa 4 gavetas",
+    "guarda-roupa mdf",
+    "armário de casal",
+    "guarda-roupa moderno",
+    "móvel para quarto de casal"
+  ],
+  seoTitle: "Guarda-roupa Casal Ripado com Espelhos 2 Portas e 4 Gavetas Suburban Gold | Oferta",
+  seoDescription: "Guarda-roupa Casal Ripado com Espelhos 2 Portas e 4 Gavetas Suburban Gold com 25% de desconto. Frete para todo Brasil. Confira a oferta!",
+},
+
   {
-    id: "p-imp-002",
-    slug: "guarda-roupa-casal-ripado-com-espelhos-2-portas-e-4-gavetas-suburban-gold-espresso-moveis",
-    category: "guarda-roupas",
-    mainCategory: "quarto",
-    name: "Guarda-roupa Casal Ripado com Espelhos 2 Portas e 4 Gavetas Suburban Gold Espresso Móveis",
-    imageFile: "/imagens/produtos/Guarda-roupa-Casal-Ripado-com-Espelhos-2-Portas-e-4-Gavetas-Suburban-Gold-Espresso-Moveis.webp",
-    displayImage: "/imagens/produtos/Guarda-roupa-Casal-Ripado-com-Espelhos-2-Portas-e-4-Gavetas-Suburban-Gold-Espresso-Moveis.webp",
-    alt: "Guarda-roupa Casal Ripado com Espelhos 2 Portas e 4 Gavetas Suburban Gold Espresso Móveis — oferta Loja de Móveis Marília",
-    rating: 4.6,
-    reviews: 892,
-    discount: 25,
-    price: 1296.21,
-    originalPrice: 999.9,
-    badge: "",
-    platform: "Shopee",
-    affiliateLink: "https://s.shopee.com.br/1qYk6uPWyn",
-    descricao: "Guarda-roupa Casal Ripado com Espelhos 2 Portas e 4 Gavetas Suburban Gold Espresso Móveis. Produto selecionado com custo-benefício e qualidade garantida. Frete para todo Brasil.",
-    marca: "Suburban Gold",
-    keywords: ["guarda-roupa ripado", "guarda-roupa casal", "guarda-roupa espelho"],
-    seoTitle: "Guarda-roupa Casal Ripado com Espelhos 2 Portas e 4 Gavetas Suburban Gold Espresso Móveis | Oferta",
-    seoDescription: "Guarda-roupa Casal Ripado com Espelhos 2 Portas e 4 Gavetas Suburban Gold Espresso Móveis com 25% de desconto. Frete para todo Brasil. Confira a oferta!",
-  },
+  id: "p-imp-003",
+  slug: "guarda-roupa-casal-classic-6-portas-6-gavetas-100-mdf",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Casal Classic 6 Portas 6 Gavetas 100% MDF - Panorama Móveis",
+  imageFile: "/imagens/produtos/Guarda-Roupa-Casal-Classic-6-Portas-6-Gavetas-100-MDF.webp",
+  displayImage: "/imagens/produtos/Guarda-Roupa-Casal-Classic-6-Portas-6-Gavetas-100-MDF.webp",
+  alt: "Guarda-Roupa Casal Classic 6 Portas 6 Gavetas 100% MDF - Panorama Móveis — oferta Loja de Móveis Marília",
+  rating: 4.9,
+  reviews: 2156,
+  discount: 40,
+  price: 1468.43,
+  originalPrice: 999.9,
+  badge: "",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/9fHbUMBpHO",
+  descricao: `
+# Guarda-Roupa Casal Classic 6 Portas 6 Gavetas 100% MDF - Panorama Móveis
+
+## 📌 Introdução
+
+O **Guarda-Roupa Casal Classic 6 Portas 6 Gavetas da Panorama Móveis** é a escolha definitiva para quem busca um móvel que une elegância atemporal, funcionalidade excepcional e durabilidade incomparável. Fabricado em 100% MDF de alta qualidade, este guarda-roupa foi projetado para atender as necessidades de casais que valorizam organização, estilo e praticidade no dia a dia.
+
+Com 6 portas amplas e 6 gavetas espaçosas, este móvel oferece uma das melhores divisões internas disponíveis no mercado, permitindo organizar todo o vestuário do casal de forma eficiente e personalizada. O acabamento clássico e sofisticado garante que este guarda-roupa se adapte perfeitamente a diferentes estilos de decoração, do mais tradicional ao mais contemporâneo.
+
+## 📌 Principais Benefícios
+
+**Fabricado em 100% MDF de alta qualidade:** O MDF é um material superior que oferece maior densidade, estabilidade e durabilidade em comparação com outros materiais. Ele não empena, não deforma e mantém sua integridade estrutural por muitos anos, garantindo um investimento duradouro.
+
+**Organização completa com 6 gavetas:** As 6 gavetas espaçosas oferecem organização eficiente para roupas íntimas, meias, acessórios e itens pessoais, mantendo tudo em ordem e de fácil acesso. Cada gaveta foi projetada para deslizar suavemente, facilitando o uso diário.
+
+**Ampla capacidade de armazenamento:** Com 6 portas, este guarda-roupa oferece espaço generoso para organizar todo o vestuário do casal, incluindo roupas de cama, toalhas e objetos pessoais, mantendo o quarto sempre organizado e funcional.
+
+**Design clássico e atemporal:** O acabamento clássico e as linhas elegantes tornam este guarda-roupa uma peça versátil que combina com diferentes estilos de decoração, do mais tradicional ao mais contemporâneo, sem sair de moda.
+
+**Produto nacional:** Fabricado no Brasil com padrões de qualidade rigorosos, este guarda-roupa oferece a confiabilidade de um produto nacional, garantindo durabilidade e excelente custo-benefício.
+
+## 📌 Design
+
+O design do Guarda-Roupa Classic foi pensado para impressionar e valorizar o ambiente. O acabamento clássico e as linhas elegantes criam um visual sofisticado e atemporal, que se adapta a diferentes estilos de decoração.
+
+A combinação de 6 portas e 6 gavetas cria um equilíbrio visual harmonioso, enquanto os puxadores elegantes complementam o design com um toque de requinte. O design clean e as proporções equilibradas tornam este guarda-roupa uma peça versátil que valoriza qualquer ambiente.
+
+## 📌 Organização
+
+A organização interna do guarda-roupa foi cuidadosamente planejada para otimizar cada centímetro disponível:
+
+- **6 portas:** Acesso amplo a todo o conteúdo interno
+- **6 gavetas:** Organização para roupas íntimas, meias e acessórios
+- **Cabideiros:** Para pendurar camisas, vestidos e calças sem amassar
+- **Prateleiras ajustáveis:** Permitem personalizar o espaço conforme sua necessidade
+
+## 📌 Ideal para
+
+- **Quartos de casal:** Espaço amplo e organização para duas pessoas
+- **Suítes:** Design sofisticado para o quarto principal
+- **Ambientes clássicos e contemporâneos:** Design que se adapta a diferentes estilos
+- **Quem valoriza organização:** 6 gavetas e múltiplos compartimentos
+- **Quem busca durabilidade:** 100% MDF de alta qualidade
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este guarda-roupa é altamente recomendado para:
+
+**Casais que buscam organização e espaço:** Com 6 portas e 6 gavetas, este guarda-roupa oferece amplo espaço para organizar todo o vestuário do casal de forma eficiente.
+
+**Pessoas que valorizam qualidade e durabilidade:** Fabricado em 100% MDF de alta qualidade, este guarda-roupa garante resistência e longevidade superiores.
+
+**Quem busca um design clássico e atemporal:** O acabamento sofisticado e as linhas elegantes combinam com diferentes estilos de decoração.
+
+**Admiradores de móveis nacionais:** Produto fabricado no Brasil com padrões de qualidade rigorosos.
+
+## 📌 Diferenciais
+
+O que torna este Guarda-Roupa Classic 6 Portas único no mercado:
+
+**100% MDF de alta qualidade:** Material superior que oferece maior densidade, estabilidade e durabilidade em comparação com outros materiais.
+
+**6 portas e 6 gavetas:** Organização completa para todo o vestuário do casal.
+
+**Design clássico e atemporal:** Acabamento sofisticado que combina com diferentes estilos de decoração.
+
+**Estrutura robusta e durável:** Garante resistência e longevidade para o uso diário.
+
+**Produto nacional:** Fabricado no Brasil com padrões de qualidade rigorosos.
+
+## 📌 Motivos para Comprar
+
+✅ **Fabricado em 100% MDF de alta qualidade** - durabilidade e resistência superiores
+
+✅ **6 portas** - amplo acesso a todo o conteúdo interno
+
+✅ **6 gavetas** - organização para roupas íntimas e acessórios
+
+✅ **Cabideiros** - para camisas, vestidos e calças sem amassar
+
+✅ **Prateleiras ajustáveis** - personalização do espaço conforme sua necessidade
+
+✅ **Design clássico e atemporal** - combina com diferentes estilos de decoração
+
+✅ **Produto nacional** - confiabilidade e padrões de qualidade
+
+✅ **Avaliação 4.9 estrelas** - excelente satisfação dos clientes
+
+✅ **40% de desconto** - oferta imperdível
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias.
+
+**3. O que significa 100% MDF?**
+Significa que todo o guarda-roupa é fabricado em MDF (Medium Density Fiberboard), um material de alta qualidade que oferece maior densidade, estabilidade e durabilidade.
+
+**4. Quantas portas o guarda-roupa tem?**
+O guarda-roupa possui 6 portas, oferecendo amplo acesso a todo o conteúdo interno.
+
+**5. O guarda-roupa tem gavetas?**
+Sim, possui 6 gavetas espaçosas para organizar roupas íntimas, meias e acessórios.
+
+**6. Qual a capacidade do guarda-roupa?**
+Com 6 portas e 6 gavetas, este guarda-roupa oferece amplo espaço para organizar todo o vestuário do casal.
+
+**7. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política do vendedor.
+
+**8. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete.
+
+**9. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**10. Como devo fazer a limpeza do guarda-roupa?**
+Recomenda-se limpar com pano seco ou levemente umedecido. Evite produtos abrasivos e o contato direto com a umidade.
+
+**11. O guarda-roupa é indicado para quartos de casal?**
+Sim, a capacidade de armazenamento é ideal para casais.
+
+**12. Qual a diferença entre MDF e MDP?**
+O MDF é mais denso e durável que o MDP, oferecendo maior resistência e estabilidade para o uso diário.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Tipo** | Guarda-Roupa Casal |
+| **Quantidade de Portas** | 6 portas |
+| **Quantidade de Gavetas** | 6 gavetas |
+| **Material** | 100% MDF de alta qualidade |
+| **Acabamento** | Clássico |
+| **Origem** | Nacional |
+| **Requer Montagem** | Sim |
+| **Garantia** | Conforme política do vendedor |
+| **Indicado para** | Quarto de casal, suíte |
+
+## 📌 Conclusão
+
+O **Guarda-Roupa Casal Classic 6 Portas 6 Gavetas da Panorama Móveis** é a escolha perfeita para casais que buscam um móvel espaçoso, funcional e com design clássico. Fabricado em 100% MDF de alta qualidade, com 6 portas, 6 gavetas e organização interna inteligente, este guarda-roupa oferece tudo o que você precisa para manter seu quarto organizado e elegante.
+
+Aproveite o desconto de 40% e garanta já o seu Guarda-Roupa Classic com entrega em todo o Brasil!
+  `,
+  marca: "Panorama Móveis",
+  keywords: [
+    "guarda-roupa casal",
+    "guarda-roupa 6 portas",
+    "guarda-roupa 6 gavetas",
+    "guarda-roupa classic",
+    "guarda-roupa mdf",
+    "guarda-roupa casal mdf",
+    "armário de casal 6 portas",
+    "guarda-roupa panorama moveis",
+    "guarda-roupa 100% mdf",
+    "móvel para quarto de casal"
+  ],
+  seoTitle: "Guarda-Roupa Casal Classic 6 Portas 6 Gavetas 100% MDF - Panorama Móveis | Oferta",
+  seoDescription: "Guarda-Roupa Casal Classic 6 Portas 6 Gavetas 100% MDF - Panorama Móveis com 40% de desconto. Frete para todo Brasil. Confira a oferta!",
+},
+
   {
-    id: "p-imp-003",
-    slug: "guarda-roupa-casal-classic-6-portas-6-gavetas-100-mdf",
-    category: "guarda-roupas",
-    mainCategory: "quarto",
-    name: "Guarda-Roupa Casal Classic 6 Portas 6 Gavetas 100% MDF - Panorama Móveis",
-    imageFile: "/imagens/produtos/Guarda-Roupa-Casal-Classic-6-Portas-6-Gavetas-100-MDF.webp",
-    displayImage: "/imagens/produtos/Guarda-Roupa-Casal-Classic-6-Portas-6-Gavetas-100-MDF.webp",
-    alt: "Guarda-Roupa Casal Classic 6 Portas 6 Gavetas 100% MDF - Panorama Móveis — oferta Loja de Móveis Marília",
-    rating: 4.9,
-    reviews: 2156,
-    discount: 40,
-    price: 1468.43,
-    originalPrice: 999.9,
-    badge: "",
-    platform: "Shopee",
-    affiliateLink: "https://s.shopee.com.br/9fHbUMBpHO",
-    descricao: "Guarda-Roupa Casal Classic 6 Portas 6 Gavetas 100% MDF - Panorama Móveis. Produto selecionado com custo-benefício e qualidade garantida. Frete para todo Brasil.",
-    marca: "Panorama Móveis",
-    keywords: ["guarda-roupa 6 portas", "guarda-roupa mdf", "guarda-roupa casal"],
-    seoTitle: "Guarda-Roupa Casal Classic 6 Portas 6 Gavetas 100% MDF - Panorama Móveis | Oferta",
-    seoDescription: "Guarda-Roupa Casal Classic 6 Portas 6 Gavetas 100% MDF - Panorama Móveis com 40% de desconto. Frete para todo Brasil. Confira a oferta!",
-  },
-  {
-    id: "p-imp-004",
-    slug: "guarda-roupa-casal-harvard-3-portas-2-gavetas-com-espelho-100-mdf",
-    category: "guarda-roupas",
-    mainCategory: "quarto",
-    name: "Guarda-Roupa Casal Harvard 3 Portas 2 Gavetas com Espelho 100% MDF - Panorama Móveis",
-    imageFile: "/imagens/produtos/Guarda-Roupa-Casal-Harvard-3-Portas-2-Gavetas-com-Espelho-100-Mdf.webp",
-    displayImage: "/imagens/produtos/Guarda-Roupa-Casal-Harvard-3-Portas-2-Gavetas-com-Espelho-100-Mdf.webp",
-    alt: "Guarda-Roupa Casal Harvard 3 Portas 2 Gavetas com Espelho 100% MDF - Panorama Móveis — oferta Loja de Móveis Marília",
-    rating: 4.7,
-    reviews: 756,
-    discount: 30,
-    price: 794.91,
-    originalPrice: 999.9,
-    badge: "",
-    platform: "Shopee",
-    affiliateLink: "https://s.shopee.com.br/5VS2X3RbKn",
-    descricao: "Guarda-Roupa Casal Harvard 3 Portas 2 Gavetas com Espelho 100% MDF - Panorama Móveis. Produto selecionado com custo-benefício e qualidade garantida. Frete para todo Brasil.",
-    marca: "Panorama Móveis",
-    keywords: ["guarda-roupa harvard", "guarda-roupa 3 portas", "guarda-roupa espelho"],
-    seoTitle: "Guarda-Roupa Casal Harvard 3 Portas 2 Gavetas com Espelho 100% MDF - Panorama Móveis | Oferta",
-    seoDescription: "Guarda-Roupa Casal Harvard 3 Portas 2 Gavetas com Espelho 100% MDF - Panorama Móveis com 30% de desconto. Frete para todo Brasil. Confira a oferta!",
-  },
-  {
-    id: "p-imp-005",
-    slug: "guarda-roupa-casal-severo-6-portas-6-gavetas-com-espelho",
-    category: "guarda-roupas",
-    mainCategory: "quarto",
-    name: "Guarda-Roupa Casal Severo 6 Portas 6 Gavetas com Espelho",
-    imageFile: "/imagens/produtos/Guarda-Roupa-Casal-Severo-6-Portas-6-Gavetas-com-Espelho.webp",
-    displayImage: "/imagens/produtos/Guarda-Roupa-Casal-Severo-6-Portas-6-Gavetas-com-Espelho.webp",
-    alt: "Guarda-Roupa Casal Severo 6 Portas 6 Gavetas com Espelho — oferta Loja de Móveis Marília",
-    rating: 4.5,
-    reviews: 634,
-    discount: 20,
-    price: 1388.43,
-    originalPrice: 999.9,
-    badge: "",
-    platform: "Shopee",
-    affiliateLink: "https://s.shopee.com.br/1qYkAXDuDJ",
-    descricao: "Guarda-Roupa Casal Severo 6 Portas 6 Gavetas com Espelho. Produto selecionado com custo-benefício e qualidade garantida. Frete para todo Brasil.",
-    marca: "Móveis Marília",
-    keywords: ["guarda-roupa severo", "guarda-roupa 6 gavetas", "guarda-roupa espelho"],
-    seoTitle: "Guarda-Roupa Casal Severo 6 Portas 6 Gavetas com Espelho | Oferta",
-    seoDescription: "Guarda-Roupa Casal Severo 6 Portas 6 Gavetas com Espelho com 20% de desconto. Frete para todo Brasil. Confira a oferta!",
-  },
+  id: "p-imp-004",
+  slug: "guarda-roupa-casal-harvard-3-portas-2-gavetas-com-espelho-100-mdf",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Casal Harvard 3 Portas 2 Gavetas com Espelho 100% MDF - Panorama Móveis",
+  imageFile: "/imagens/produtos/Guarda-Roupa-Casal-Harvard-3-Portas-2-Gavetas-com-Espelho-100-Mdf.webp",
+  displayImage: "/imagens/produtos/Guarda-Roupa-Casal-Harvard-3-Portas-2-Gavetas-com-Espelho-100-Mdf.webp",
+  alt: "Guarda-Roupa Casal Harvard 3 Portas 2 Gavetas com Espelho 100% MDF - Panorama Móveis — oferta Loja de Móveis Marília",
+  rating: 4.7,
+  reviews: 756,
+  discount: 30,
+  price: 794.91,
+  originalPrice: 999.9,
+  badge: "",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/5VS2X3RbKn",
+  descricao: `
+# Guarda-Roupa Casal Harvard 3 Portas 2 Gavetas com Espelho 100% MDF - Panorama Móveis
+
+## 📌 Introdução
+
+O **Guarda-Roupa Casal Harvard da Panorama Móveis** é a escolha perfeita para quem busca um móvel que une design sofisticado, funcionalidade inteligente e durabilidade excepcional. Com 3 portas, 2 gavetas e espelho integrado, este guarda-roupa foi projetado para atender as necessidades de casais que valorizam organização, estilo e praticidade em um único produto.
+
+Fabricado em 100% MDF de alta qualidade, o modelo Harvard oferece uma combinação equilibrada de espaços de armazenamento, com áreas dedicadas para roupas penduradas, dobradas e acessórios. O espelho integrado nas portas adiciona funcionalidade e amplitude visual ao ambiente, tornando este guarda-roupa uma peça versátil e elegante para qualquer quarto de casal.
+
+## 📌 Principais Benefícios
+
+**Fabricado em 100% MDF de alta qualidade:** O MDF é um material superior que oferece maior densidade, estabilidade e durabilidade em comparação com outros materiais. Ele não empena, não deforma e mantém sua integridade estrutural por muitos anos, garantindo um investimento duradouro.
+
+**Espelho integrado para praticidade:** O espelho na porta permite que você confira seu visual antes de sair, eliminando a necessidade de um espelho separado no quarto. Além disso, o espelho amplia a sensação de espaço e luminosidade, tornando o ambiente mais arejado e agradável.
+
+**Organização inteligente com 2 gavetas:** As 2 gavetas espaçosas oferecem organização eficiente para roupas íntimas, meias e acessórios, mantendo tudo em ordem e de fácil acesso. As gavetas deslizam suavemente, facilitando o uso diário.
+
+**Design sofisticado e versátil:** O acabamento elegante e as linhas modernas tornam este guarda-roupa uma peça versátil que combina com diferentes estilos de decoração, do minimalista ao contemporâneo.
+
+**Estrutura robusta e durável:** Fabricado com materiais de alta qualidade, este guarda-roupa garante durabilidade e resistência para o uso diário, mantendo sua beleza por muitos anos.
+
+**Produto nacional:** Fabricado no Brasil com padrões de qualidade rigorosos, este guarda-roupa oferece a confiabilidade de um produto nacional.
+
+## 📌 Design
+
+O design do Guarda-Roupa Harvard foi pensado para impressionar e valorizar o ambiente. O acabamento elegante e as linhas modernas criam um visual sofisticado e contemporâneo, que se adapta a diferentes estilos de decoração.
+
+O espelho integrado na porta é um dos grandes destaques do modelo, proporcionando funcionalidade e ampliando visualmente o espaço. O design clean e as proporções equilibradas tornam este guarda-roupa uma peça versátil que valoriza qualquer ambiente.
+
+## 📌 Organização
+
+A organização interna do guarda-roupa foi cuidadosamente planejada para otimizar cada centímetro disponível:
+
+- **3 portas:** Acesso amplo a todo o conteúdo interno
+- **2 gavetas:** Organização para roupas íntimas, meias e acessórios
+- **Cabideiros:** Para pendurar camisas, vestidos e calças sem amassar
+- **Prateleiras:** Espaço para roupas dobradas e acessórios
+- **Espelho integrado:** Funcionalidade e amplitude visual
+
+## 📌 Ideal para
+
+- **Quartos de casal:** Organização e estilo para duas pessoas
+- **Suítes:** Design sofisticado para o quarto principal
+- **Quem busca funcionalidade:** Espelho integrado e organização inteligente
+- **Quem valoriza qualidade:** 100% MDF de alta qualidade
+- **Apartamentos modernos:** Design que valoriza qualquer ambiente
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este guarda-roupa é altamente recomendado para:
+
+**Casais que buscam um móvel funcional e elegante:** Com espelho integrado, 2 gavetas e cabideiros, este guarda-roupa oferece organização eficiente com design sofisticado.
+
+**Pessoas que valorizam qualidade e durabilidade:** Fabricado em 100% MDF de alta qualidade, este guarda-roupa garante resistência e longevidade superiores.
+
+**Quem busca um design versátil:** O acabamento elegante e as linhas modernas combinam com diferentes estilos de decoração.
+
+**Admiradores de móveis nacionais:** Produto fabricado no Brasil com padrões de qualidade rigorosos.
+
+## 📌 Diferenciais
+
+O que torna este Guarda-Roupa Harvard 3 Portas único no mercado:
+
+**100% MDF de alta qualidade:** Material superior que oferece maior densidade, estabilidade e durabilidade.
+
+**Espelho integrado:** Funcionalidade e amplitude visual em um único produto.
+
+**2 gavetas espaçosas:** Organização eficiente para roupas íntimas e acessórios.
+
+**Design sofisticado e versátil:** Acabamento elegante que combina com diferentes estilos de decoração.
+
+**Estrutura robusta e durável:** Garante resistência e longevidade para o uso diário.
+
+## 📌 Motivos para Comprar
+
+✅ **Fabricado em 100% MDF de alta qualidade** - durabilidade e resistência superiores
+
+✅ **Espelho integrado** - praticidade e amplitude visual
+
+✅ **3 portas** - amplo acesso a todo o conteúdo interno
+
+✅ **2 gavetas** - organização para roupas íntimas e acessórios
+
+✅ **Cabideiros** - para camisas, vestidos e calças sem amassar
+
+✅ **Design sofisticado e versátil** - combina com diferentes estilos de decoração
+
+✅ **Produto nacional** - confiabilidade e padrões de qualidade
+
+✅ **Avaliação 4.7 estrelas** - alta satisfação dos clientes
+
+✅ **30% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias.
+
+**3. O que significa 100% MDF?**
+Significa que todo o guarda-roupa é fabricado em MDF (Medium Density Fiberboard), um material de alta qualidade que oferece maior densidade, estabilidade e durabilidade.
+
+**4. O guarda-roupa tem espelho?**
+Sim, possui espelho integrado na porta, que facilita a rotina de se arrumar e amplia visualmente o ambiente.
+
+**5. Quantas portas o guarda-roupa tem?**
+O guarda-roupa possui 3 portas, oferecendo amplo acesso a todo o conteúdo interno.
+
+**6. O guarda-roupa tem gavetas?**
+Sim, possui 2 gavetas espaçosas para organizar roupas íntimas, meias e acessórios.
+
+**7. Qual a capacidade do guarda-roupa?**
+Com 3 portas e 2 gavetas, este guarda-roupa oferece espaço adequado para organizar o vestuário de um casal.
+
+**8. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política do vendedor.
+
+**9. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete.
+
+**10. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**11. Como devo fazer a limpeza do guarda-roupa?**
+Recomenda-se limpar com pano seco ou levemente umedecido. Evite produtos abrasivos e o contato direto com a umidade.
+
+**12. O guarda-roupa é indicado para quartos de casal?**
+Sim, a capacidade de armazenamento é ideal para casais.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Tipo** | Guarda-Roupa Casal |
+| **Quantidade de Portas** | 3 portas |
+| **Quantidade de Gavetas** | 2 gavetas |
+| **Espelho** | Sim (integrado) |
+| **Material** | 100% MDF de alta qualidade |
+| **Acabamento** | Elegante |
+| **Origem** | Nacional |
+| **Requer Montagem** | Sim |
+| **Garantia** | Conforme política do vendedor |
+| **Indicado para** | Quarto de casal, suíte |
+
+## 📌 Conclusão
+
+O **Guarda-Roupa Casal Harvard 3 Portas 2 Gavetas com Espelho da Panorama Móveis** é a escolha perfeita para casais que buscam um móvel funcional, elegante e com excelente custo-benefício. Fabricado em 100% MDF de alta qualidade, com espelho integrado, 2 gavetas e design sofisticado, este guarda-roupa oferece organização e estilo para seu quarto.
+
+Aproveite o desconto de 30% e garanta já o seu Guarda-Roupa Harvard com entrega em todo o Brasil!
+  `,
+  marca: "Panorama Móveis",
+  keywords: [
+    "guarda-roupa casal",
+    "guarda-roupa harvard",
+    "guarda-roupa 3 portas",
+    "guarda-roupa com espelho",
+    "guarda-roupa 2 gavetas",
+    "guarda-roupa mdf",
+    "guarda-roupa casal mdf",
+    "armário de casal com espelho",
+    "guarda-roupa panorama moveis",
+    "móvel para quarto de casal"
+  ],
+  seoTitle: "Guarda-Roupa Casal Harvard 3 Portas 2 Gavetas com Espelho - Panorama Móveis | Oferta",
+  seoDescription: "Guarda-Roupa Casal Harvard 3 Portas 2 Gavetas com Espelho - Panorama Móveis com 30% de desconto. Frete para todo Brasil. Confira a oferta!",
+},
+
+ {
+  id: "p-imp-005",
+  slug: "guarda-roupa-casal-severo-6-portas-6-gavetas-com-espelho",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Casal Severo 6 Portas 6 Gavetas com Espelho",
+  imageFile: "/imagens/produtos/Guarda-Roupa-Casal-Severo-6-Portas-6-Gavetas-com-Espelho.webp",
+  displayImage: "/imagens/produtos/Guarda-Roupa-Casal-Severo-6-Portas-6-Gavetas-com-Espelho.webp",
+  alt: "Guarda-Roupa Casal Severo 6 Portas 6 Gavetas com Espelho — oferta Loja de Móveis Marília",
+  rating: 4.5,
+  reviews: 634,
+  discount: 20,
+  price: 1388.43,
+  originalPrice: 999.9,
+  badge: "",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/1qYkAXDuDJ",
+  descricao: `
+# Guarda-Roupa Casal Severo 6 Portas 6 Gavetas com Espelho
+
+## 📌 Introdução
+
+O **Guarda-Roupa Casal Severo** é a solução completa para quem busca um móvel imponente, funcional e com design moderno para o quarto. Com 6 portas, 6 gavetas e espelho integrado, este guarda-roupa foi projetado para atender as necessidades de casais que valorizam organização, estilo e praticidade em um único produto.
+
+Com capacidade generosa e divisão interna inteligente, o modelo Severo oferece amplo espaço para organizar todo o vestuário do casal, mantendo cada peça em seu devido lugar. O espelho integrado nas portas adiciona funcionalidade e amplitude visual, tornando este guarda-roupa uma peça versátil e elegante para qualquer quarto de casal.
+
+## 📌 Principais Benefícios
+
+**6 gavetas para organização completa:** As 6 gavetas espaçosas oferecem organização eficiente para roupas íntimas, meias, acessórios e itens pessoais, mantendo tudo em ordem e de fácil acesso. Cada gaveta foi projetada para deslizar suavemente, facilitando o uso diário.
+
+**Espelho integrado para praticidade:** O espelho na porta permite que você confira seu visual antes de sair, eliminando a necessidade de um espelho separado no quarto. Além disso, o espelho amplia a sensação de espaço e luminosidade, tornando o ambiente mais arejado e agradável.
+
+**Design moderno e sofisticado:** O acabamento elegante e as linhas contemporâneas tornam este guarda-roupa uma peça versátil que combina com diferentes estilos de decoração, do minimalista ao clássico.
+
+**Ampla capacidade de armazenamento:** Com 6 portas e 6 gavetas, este guarda-roupa oferece espaço generoso para organizar todo o vestuário do casal, incluindo roupas de cama, toalhas e objetos pessoais.
+
+**Estrutura robusta e durável:** Fabricado com materiais de alta qualidade, este guarda-roupa garante durabilidade e resistência para o uso diário, mantendo sua beleza por muitos anos.
+
+**Produto nacional:** Fabricado no Brasil com padrões de qualidade rigorosos, este guarda-roupa oferece a confiabilidade de um produto nacional.
+
+## 📌 Design
+
+O design do Guarda-Roupa Severo foi pensado para impressionar e valorizar o ambiente. O acabamento moderno e as linhas contemporâneas criam um visual sofisticado e elegante, que se adapta a diferentes estilos de decoração.
+
+O espelho integrado na porta é um dos grandes destaques do modelo, proporcionando funcionalidade e ampliando visualmente o espaço. O design clean e as proporções equilibradas tornam este guarda-roupa uma peça versátil que valoriza qualquer ambiente.
+
+## 📌 Organização
+
+A organização interna do guarda-roupa foi cuidadosamente planejada para otimizar cada centímetro disponível:
+
+- **6 portas:** Acesso amplo a todo o conteúdo interno
+- **6 gavetas:** Organização para roupas íntimas, meias e acessórios
+- **Cabideiros:** Para pendurar camisas, vestidos e calças sem amassar
+- **Prateleiras:** Espaço para roupas dobradas e acessórios
+- **Espelho integrado:** Funcionalidade e amplitude visual
+
+## 📌 Ideal para
+
+- **Quartos de casal:** Espaço e organização para duas pessoas
+- **Suítes:** Design sofisticado para o quarto principal
+- **Quem busca funcionalidade:** Espelho integrado e organização completa
+- **Quem valoriza espaço:** 6 portas e 6 gavetas
+- **Apartamentos modernos:** Design que valoriza qualquer ambiente
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este guarda-roupa é altamente recomendado para:
+
+**Casais que buscam um móvel completo e funcional:** Com 6 portas, 6 gavetas e espelho integrado, este guarda-roupa oferece organização eficiente com design sofisticado.
+
+**Pessoas que valorizam espaço e organização:** Com 6 gavetas e amplo espaço para roupas penduradas, este guarda-roupa atende todas as necessidades de armazenamento do casal.
+
+**Quem busca um design moderno:** O acabamento elegante e as linhas contemporâneas combinam com diferentes estilos de decoração.
+
+**Admiradores de móveis nacionais:** Produto fabricado no Brasil com padrões de qualidade rigorosos.
+
+## 📌 Diferenciais
+
+O que torna este Guarda-Roupa Severo 6 Portas único no mercado:
+
+**6 portas e 6 gavetas:** Organização completa para todo o vestuário do casal.
+
+**Espelho integrado:** Funcionalidade e amplitude visual em um único produto.
+
+**Design moderno e sofisticado:** Acabamento elegante que combina com diferentes estilos de decoração.
+
+**Estrutura robusta e durável:** Garante resistência e longevidade para o uso diário.
+
+**Ampla capacidade de armazenamento:** Espaço generoso para organizar todo o vestuário do casal.
+
+## 📌 Motivos para Comprar
+
+✅ **6 portas** - amplo acesso a todo o conteúdo interno
+
+✅ **6 gavetas** - organização para roupas íntimas e acessórios
+
+✅ **Espelho integrado** - praticidade e amplitude visual
+
+✅ **Cabideiros** - para camisas, vestidos e calças sem amassar
+
+✅ **Design moderno e sofisticado** - combina com diferentes estilos de decoração
+
+✅ **Ampla capacidade de armazenamento** - espaço para todo o vestuário do casal
+
+✅ **Produto nacional** - confiabilidade e padrões de qualidade
+
+✅ **20% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias.
+
+**3. O guarda-roupa tem espelho?**
+Sim, possui espelho integrado na porta, que facilita a rotina de se arrumar e amplia visualmente o ambiente.
+
+**4. Quantas portas o guarda-roupa tem?**
+O guarda-roupa possui 6 portas, oferecendo amplo acesso a todo o conteúdo interno.
+
+**5. O guarda-roupa tem gavetas?**
+Sim, possui 6 gavetas espaçosas para organizar roupas íntimas, meias e acessórios.
+
+**6. Qual a capacidade do guarda-roupa?**
+Com 6 portas e 6 gavetas, este guarda-roupa oferece amplo espaço para organizar todo o vestuário do casal.
+
+**7. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política do vendedor.
+
+**8. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete.
+
+**9. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**10. Como devo fazer a limpeza do guarda-roupa?**
+Recomenda-se limpar com pano seco ou levemente umedecido. Evite produtos abrasivos e o contato direto com a umidade.
+
+**11. O guarda-roupa é indicado para quartos de casal?**
+Sim, a capacidade de armazenamento é ideal para casais.
+
+**12. As gavetas são resistentes?**
+Sim, as gavetas são fabricadas com materiais de alta qualidade e deslizam suavemente.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Tipo** | Guarda-Roupa Casal |
+| **Quantidade de Portas** | 6 portas |
+| **Quantidade de Gavetas** | 6 gavetas |
+| **Espelho** | Sim (integrado) |
+| **Material** | MDP/MDF de alta qualidade |
+| **Acabamento** | Moderno |
+| **Origem** | Nacional |
+| **Requer Montagem** | Sim |
+| **Garantia** | Conforme política do vendedor |
+| **Indicado para** | Quarto de casal, suíte |
+
+## 📌 Conclusão
+
+O **Guarda-Roupa Casal Severo 6 Portas 6 Gavetas com Espelho** é a escolha perfeita para casais que buscam um móvel completo, funcional e com design moderno. Com 6 portas, 6 gavetas, espelho integrado e ampla capacidade de armazenamento, este guarda-roupa oferece organização e estilo para seu quarto.
+
+Aproveite o desconto de 20% e garanta já o seu Guarda-Roupa Severo com entrega em todo o Brasil!
+  `,
+  marca: "Móveis Marília",
+  keywords: [
+    "guarda-roupa casal",
+    "guarda-roupa severo",
+    "guarda-roupa 6 portas",
+    "guarda-roupa 6 gavetas",
+    "guarda-roupa com espelho",
+    "guarda-roupa casal com espelho",
+    "armário de casal 6 portas",
+    "guarda-roupa moderno",
+    "móvel para quarto de casal",
+    "guarda-roupa espaçoso"
+  ],
+  seoTitle: "Guarda-Roupa Casal Severo 6 Portas 6 Gavetas com Espelho | Oferta",
+  seoDescription: "Guarda-Roupa Casal Severo 6 Portas 6 Gavetas com Espelho com 20% de desconto. Frete para todo Brasil. Confira a oferta!",
+},
+
 
   // ===================== COZINHAS =====================
   {
-    id: "p-imp-006",
-    slug: "cozinha-compacta-pop-com-armário-balcao-e-tampo-branco-madesa",
-    category: "cozinhas",
-    mainCategory: "cozinha",
-    name: "Cozinha Compacta Pop com Armário, Balcão e Tampo Branco Madesa",
-    imageFile: "/imagens/produtos/Cozinha-Compacta-Pop-com-Armario-Balcao-e-Tampo-Branco-Madesa.webp",
-    displayImage: "/imagens/produtos/Cozinha-Compacta-Pop-com-Armario-Balcao-e-Tampo-Branco-Madesa.webp",
-    alt: "Cozinha Compacta Pop com Armário, Balcão e Tampo Branco Madesa — oferta Loja de Móveis Marília",
-    rating: 4.8,
-    reviews: 1445,
-    discount: 45,
-    price: 936.19,
-    originalPrice: 999.9,
-    badge: "",
-    platform: "Shopee",
-    affiliateLink: "https://s.shopee.com.br/6L19YLB7yP",
-    descricao: "Cozinha Compacta Pop com Armário, Balcão e Tampo Branco Madesa. Produto selecionado com custo-benefício e qualidade garantida. Frete para todo Brasil.",
-    marca: "Madesa",
-    keywords: ["cozinha compacta", "cozinha madesa", "cozinha pop"],
-    seoTitle: "Cozinha Compacta Pop com Armário, Balcão e Tampo Branco Madesa | Oferta",
-    seoDescription: "Cozinha Compacta Pop com Armário, Balcão e Tampo Branco Madesa com 45% de desconto. Frete para todo Brasil. Confira a oferta!",
-  },
+  id: "p-imp-006",
+  slug: "cozinha-compacta-pop-com-armario-balcao-e-tampo-branco-madesa",
+  category: "cozinhas",
+  mainCategory: "cozinha",
+  name: "Cozinha Compacta Pop com Armário, Balcão e Tampo Branco Madesa",
+  imageFile: "/imagens/produtos/Cozinha-Compacta-Pop-com-Armario-Balcao-e-Tampo-Branco-Madesa.webp",
+  displayImage: "/imagens/produtos/Cozinha-Compacta-Pop-com-Armario-Balcao-e-Tampo-Branco-Madesa.webp",
+  alt: "Cozinha Compacta Pop com Armário, Balcão e Tampo Branco Madesa — oferta Loja de Móveis Marília",
+  rating: 4.8,
+  reviews: 1445,
+  discount: 45,
+  price: 936.19,
+  originalPrice: 999.9,
+  badge: "",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/6L19YLB7yP",
+  descricao: `
+# Cozinha Compacta Pop com Armário, Balcão e Tampo Branco Madesa
+
+## 📌 Introdução
+
+A **Cozinha Compacta Pop da Madesa** é a solução inteligente para quem busca funcionalidade, estilo e praticidade em espaços reduzidos. Projetada para otimizar cada centímetro disponível, esta cozinha compacta oferece tudo o que você precisa para preparar refeições deliciosas com organização e elegância.
+
+Com design moderno e acabamento em branco, a Cozinha Pop se adapta perfeitamente a apartamentos, kitnets, studios e cozinhas pequenas. O conjunto inclui armário superior com portas, balcão com tampo e gavetas, oferecendo amplo espaço de armazenamento para utensílios, panelas e mantimentos.
+
+## 📌 Principais Benefícios
+
+**Design compacto que otimiza espaços:** Com dimensões pensadas para ambientes reduzidos, esta cozinha compacta aproveita cada centímetro disponível, oferecendo funcionalidade completa sem ocupar espaço excessivo.
+
+**Organização inteligente:** Com armário superior, balcão e tampo, esta cozinha oferece espaços dedicados para diferentes tipos de utensílios e mantimentos, mantendo tudo em ordem e de fácil acesso.
+
+**Acabamento em pintura UV de alta qualidade:** O acabamento em pintura UV confere ao móvel uma superfície extremamente resistente a riscos, manchas e desgaste, facilitando a limpeza e mantendo o aspecto bonito por muito mais tempo.
+
+**Design moderno e versátil:** A cor branca e o design clean tornam esta cozinha versátil, combinando perfeitamente com diferentes estilos de decoração, do minimalista ao contemporâneo.
+
+**Estrutura robusta e durável:** Fabricada em MDP de alta qualidade, esta cozinha oferece durabilidade e resistência para o uso diário, mantendo sua beleza por muitos anos.
+
+**Produto nacional:** Fabricado no Brasil com padrões de qualidade rigorosos, este produto oferece a confiabilidade de uma marca consolidada no mercado.
+
+## 📌 Design
+
+O design da Cozinha Compacta Pop foi pensado para impressionar e valorizar o ambiente. O acabamento em branco confere um visual clean e moderno, que se adapta a diferentes estilos de decoração.
+
+O design funcional e as linhas retas tornam esta cozinha uma peça versátil que valoriza qualquer ambiente. A combinação de armário superior, balcão e tampo cria um conjunto harmonioso e equilibrado.
+
+## 📌 Organização
+
+A organização da cozinha foi cuidadosamente planejada para otimizar cada centímetro disponível:
+
+- **Armário superior:** Espaço para armazenar utensílios, copos e mantimentos
+- **Balcão:** Superfície de trabalho para preparo de alimentos
+- **Tampo:** Espaço adicional para apoio e organização
+- **Gavetas:** Para organizar talheres e utensílios pequenos
+
+## 📌 Ideal para
+
+- **Apartamentos pequenos:** Design compacto que otimiza espaços
+- **Kitnets e studios:** Solução completa para espaços integrados
+- **Cozinhas compactas:** Funcionalidade em ambientes reduzidos
+- **Quem busca praticidade:** Organização inteligente e fácil limpeza
+- **Decoração moderna:** Design clean que combina com diferentes estilos
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Esta cozinha compacta é altamente recomendada para:
+
+**Pessoas que moram em apartamentos pequenos:** O design compacto e funcional é perfeito para otimizar espaços reduzidos.
+
+**Quem busca praticidade e organização:** Com armário, balcão e tampo, esta cozinha oferece tudo o que você precisa para o dia a dia.
+
+**Admiradores de design moderno:** O acabamento branco e as linhas clean combinam com diferentes estilos de decoração.
+
+**Quem valoriza qualidade:** Fabricada em MDP de alta qualidade com pintura UV, esta cozinha garante durabilidade e resistência.
+
+## 📌 Diferenciais
+
+O que torna esta Cozinha Compacta Pop única no mercado:
+
+**Design compacto e funcional:** Otimiza espaços sem comprometer a funcionalidade.
+
+**Acabamento em pintura UV:** Superfície resistente a riscos, manchas e desgaste.
+
+**Organização inteligente:** Armário, balcão, tampo e gavetas para diferentes tipos de itens.
+
+**Design moderno e versátil:** Cor branca que combina com diferentes estilos de decoração.
+
+**Marca Madesa:** Reconhecida pela qualidade e durabilidade de seus produtos.
+
+## 📌 Motivos para Comprar
+
+✅ **Design compacto** - otimiza espaços reduzidos
+
+✅ **Acabamento em pintura UV** - resistente a riscos e manchas
+
+✅ **Armário superior** - espaço para utensílios e mantimentos
+
+✅ **Balcão e tampo** - superfície de trabalho e organização
+
+✅ **Design moderno** - combina com diferentes estilos de decoração
+
+✅ **Estrutura robusta** - durabilidade e resistência
+
+✅ **Marca Madesa** - qualidade e confiabilidade
+
+✅ **45% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias.
+
+**3. Qual o material da cozinha?**
+Fabricada em MDP de alta qualidade com acabamento em pintura UV.
+
+**4. A cozinha é indicada para apartamentos pequenos?**
+Sim, o design compacto é perfeito para otimizar espaços reduzidos.
+
+**5. A cozinha tem gavetas?**
+Sim, possui gavetas para organizar talheres e utensílios pequenos.
+
+**6. Qual a cor da cozinha?**
+A cozinha está disponível na cor branca, um tom clean e versátil.
+
+**7. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política do vendedor.
+
+**8. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete.
+
+**9. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**10. Como devo fazer a limpeza da cozinha?**
+Recomenda-se limpar com pano seco ou levemente umedecido. Evite produtos abrasivos.
+
+**11. A cozinha é resistente?**
+Sim, fabricada em MDP de alta qualidade com pintura UV, oferece durabilidade e resistência.
+
+**12. Qual a capacidade de armazenamento?**
+Com armário, balcão, tampo e gavetas, oferece amplo espaço para utensílios e mantimentos.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Tipo** | Cozinha Compacta |
+| **Cor** | Branco |
+| **Material** | MDP de alta qualidade |
+| **Acabamento** | Pintura UV |
+| **Componentes** | Armário, Balcão, Tampo, Gavetas |
+| **Origem** | Nacional |
+| **Requer Montagem** | Sim |
+| **Garantia** | Conforme política do vendedor |
+| **Indicado para** | Apartamentos, kitnets, studios |
+
+## 📌 Conclusão
+
+A **Cozinha Compacta Pop da Madesa** é a escolha perfeita para quem busca um móvel funcional, moderno e com excelente custo-benefício para espaços reduzidos. Com design compacto, acabamento em pintura UV, armário superior, balcão e tampo, esta cozinha oferece organização e estilo para seu ambiente.
+
+Aproveite o desconto de 45% e garanta já a sua Cozinha Compacta Pop com entrega em todo o Brasil!
+  `,
+  marca: "Madesa",
+  keywords: [
+    "cozinha compacta",
+    "cozinha pop",
+    "cozinha madesa",
+    "cozinha com armário",
+    "cozinha com balcão",
+    "cozinha pequena",
+    "cozinha para apartamento",
+    "cozinha kitnet",
+    "móvel para cozinha",
+    "cozinha branca"
+  ],
+  seoTitle: "Cozinha Compacta Pop com Armário, Balcão e Tampo Branco Madesa | Oferta",
+  seoDescription: "Cozinha Compacta Pop com Armário, Balcão e Tampo Branco Madesa com 45% de desconto. Frete para todo Brasil. Confira a oferta!",
+},
+
   {
-    id: "p-imp-007",
-    slug: "cozinha-completa-madesa-reims-310001-com-armário-e-balcao-preto",
-    category: "cozinhas",
-    mainCategory: "cozinha",
-    name: "Cozinha Completa Madesa Reims 310001 com Armário e Balcão - Preto",
-    imageFile: "/imagens/produtos/Cozinha-Completa-Madesa-Reims-310001-com-Armario-e-Balcao-Preto.webp",
-    displayImage: "/imagens/produtos/Cozinha-Completa-Madesa-Reims-310001-com-Armario-e-Balcao-Preto.webp",
-    alt: "Cozinha Completa Madesa Reims 310001 com Armário e Balcão - Preto — oferta Loja de Móveis Marília",
-    rating: 4.7,
-    reviews: 523,
-    discount: 28,
-    price: 1456.29,
-    originalPrice: 999.9,
-    badge: "",
-    platform: "Shopee",
-    affiliateLink: "https://s.shopee.com.br/gMmo5B3st",
-    descricao: "Cozinha Completa Madesa Reims 310001 com Armário e Balcão - Preto. Produto selecionado com custo-benefício e qualidade garantida. Frete para todo Brasil.",
-    marca: "Madesa",
-    keywords: ["cozinha completa", "cozinha reims", "cozinha preta"],
-    seoTitle: "Cozinha Completa Madesa Reims 310001 com Armário e Balcão - Preto | Oferta",
-    seoDescription: "Cozinha Completa Madesa Reims 310001 com Armário e Balcão - Preto com 28% de desconto. Frete para todo Brasil. Confira a oferta!",
-  },
+  id: "p-imp-007",
+  slug: "cozinha-completa-madesa-reims-310001-com-armario-e-balcao-preto",
+  category: "cozinhas",
+  mainCategory: "cozinha",
+  name: "Cozinha Completa Madesa Reims 310001 com Armário e Balcão - Preto",
+  imageFile: "/imagens/produtos/Cozinha-Completa-Madesa-Reims-310001-com-Armario-e-Balcao-Preto.webp",
+  displayImage: "/imagens/produtos/Cozinha-Completa-Madesa-Reims-310001-com-Armario-e-Balcao-Preto.webp",
+  alt: "Cozinha Completa Madesa Reims 310001 com Armário e Balcão - Preto — oferta Loja de Móveis Marília",
+  rating: 4.7,
+  reviews: 523,
+  discount: 28,
+  price: 1456.29,
+  originalPrice: 999.9,
+  badge: "",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/gMmo5B3st",
+  descricao: `
+# Cozinha Completa Madesa Reims 310001 com Armário e Balcão - Preto
+
+## 📌 Introdução
+
+A **Cozinha Completa Madesa Reims 310001** é a escolha definitiva para quem busca um móvel que une design sofisticado, funcionalidade completa e durabilidade excepcional. Com acabamento em preto elegante, esta cozinha foi projetada para transformar seu ambiente em um espaço moderno, organizado e funcional.
+
+Ideal para quem valoriza estilo e praticidade, a Cozinha Reims oferece amplo espaço de armazenamento com armário superior, balcão e gavetas, permitindo organizar utensílios, panelas e mantimentos de forma eficiente. O design contemporâneo e o acabamento em preto conferem um visual sofisticado que valoriza qualquer ambiente.
+
+## 📌 Principais Benefícios
+
+**Design sofisticado em preto:** O acabamento em preto confere um visual moderno e elegante, que combina perfeitamente com diferentes estilos de decoração, do minimalista ao contemporâneo.
+
+**Ampla capacidade de armazenamento:** Com armário superior, balcão e gavetas, esta cozinha oferece amplo espaço para organizar utensílios, panelas e mantimentos, mantendo tudo em ordem e de fácil acesso.
+
+**Organização inteligente:** Com espaços dedicados para diferentes tipos de itens, esta cozinha oferece uma organização eficiente, facilitando o dia a dia na cozinha.
+
+**Acabamento de alta qualidade:** O acabamento em pintura UV confere ao móvel uma superfície resistente a riscos, manchas e desgaste, facilitando a limpeza e mantendo o aspecto bonito por muito mais tempo.
+
+**Estrutura robusta e durável:** Fabricada em MDP de alta qualidade, esta cozinha oferece durabilidade e resistência para o uso diário, mantendo sua beleza por muitos anos.
+
+**Produto nacional:** Fabricado no Brasil com padrões de qualidade rigorosos, este produto oferece a confiabilidade de uma marca consolidada no mercado.
+
+## 📌 Design
+
+O design da Cozinha Reims foi pensado para impressionar e valorizar o ambiente. O acabamento em preto confere um visual moderno e sofisticado, que se adapta a diferentes estilos de decoração.
+
+O design funcional e as linhas retas tornam esta cozinha uma peça versátil que valoriza qualquer ambiente. A combinação de armário superior, balcão e gavetas cria um conjunto harmonioso e equilibrado.
+
+## 📌 Organização
+
+A organização da cozinha foi cuidadosamente planejada para otimizar cada centímetro disponível:
+
+- **Armário superior:** Espaço para armazenar utensílios, copos e mantimentos
+- **Balcão:** Superfície de trabalho para preparo de alimentos
+- **Gavetas:** Para organizar talheres e utensílios pequenos
+- **Espaço para eletrodomésticos:** Compartimento dedicado para micro-ondas ou outros eletrodomésticos
+
+## 📌 Ideal para
+
+- **Cozinhas modernas:** Design sofisticado que valoriza o ambiente
+- **Apartamentos:** Design que se adapta a diferentes espaços
+- **Quem busca estilo:** Acabamento em preto elegante
+- **Quem valoriza organização:** Armário, balcão e gavetas
+- **Quem busca durabilidade:** MDP de alta qualidade com pintura UV
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Esta cozinha completa é altamente recomendado para:
+
+**Pessoas que buscam um design sofisticado e moderno:** O acabamento em preto confere um visual elegante e contemporâneo.
+
+**Quem valoriza organização e funcionalidade:** Com armário, balcão e gavetas, esta cozinha oferece tudo o que você precisa para o dia a dia.
+
+**Admiradores de móveis nacionais:** Fabricado no Brasil com padrões de qualidade rigorosos.
+
+**Quem busca durabilidade:** Fabricada em MDP de alta qualidade com pintura UV, esta cozinha garante resistência e longevidade.
+
+## 📌 Diferenciais
+
+O que torna esta Cozinha Completa Reims única no mercado:
+
+**Design sofisticado em preto:** Acabamento moderno e elegante que valoriza o ambiente.
+
+**Ampla capacidade de armazenamento:** Armário, balcão e gavetas para diferentes tipos de itens.
+
+**Acabamento em pintura UV:** Superfície resistente a riscos, manchas e desgaste.
+
+**Organização inteligente:** Espaços dedicados para diferentes tipos de itens.
+
+**Marca Madesa:** Reconhecida pela qualidade e durabilidade de seus produtos.
+
+## 📌 Motivos para Comprar
+
+✅ **Design sofisticado em preto** - visual moderno e elegante
+
+✅ **Ampla capacidade de armazenamento** - armário, balcão e gavetas
+
+✅ **Acabamento em pintura UV** - resistente a riscos e manchas
+
+✅ **Organização inteligente** - espaços dedicados para diferentes itens
+
+✅ **Estrutura robusta** - durabilidade e resistência
+
+✅ **Marca Madesa** - qualidade e confiabilidade
+
+✅ **28% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias.
+
+**3. Qual o material da cozinha?**
+Fabricada em MDP de alta qualidade com acabamento em pintura UV.
+
+**4. A cozinha é indicada para apartamentos?**
+Sim, o design se adapta a diferentes espaços, incluindo apartamentos.
+
+**5. A cozinha tem gavetas?**
+Sim, possui gavetas para organizar talheres e utensílios pequenos.
+
+**6. Qual a cor da cozinha?**
+A cozinha está disponível na cor preta, um tom elegante e versátil.
+
+**7. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política do vendedor.
+
+**8. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete.
+
+**9. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**10. Como devo fazer a limpeza da cozinha?**
+Recomenda-se limpar com pano seco ou levemente umedecido. Evite produtos abrasivos.
+
+**11. A cozinha é resistente?**
+Sim, fabricada em MDP de alta qualidade com pintura UV, oferece durabilidade e resistência.
+
+**12. Qual a capacidade de armazenamento?**
+Com armário, balcão e gavetas, oferece amplo espaço para utensílios e mantimentos.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Tipo** | Cozinha Completa |
+| **Modelo** | Reims 310001 |
+| **Cor** | Preto |
+| **Material** | MDP de alta qualidade |
+| **Acabamento** | Pintura UV |
+| **Componentes** | Armário, Balcão, Gavetas |
+| **Origem** | Nacional |
+| **Requer Montagem** | Sim |
+| **Garantia** | Conforme política do vendedor |
+| **Indicado para** | Cozinhas modernas, apartamentos |
+
+## 📌 Conclusão
+
+A **Cozinha Completa Madesa Reims 310001** é a escolha perfeita para quem busca um móvel sofisticado, funcional e com excelente custo-benefício. Com design em preto, acabamento em pintura UV, armário, balcão e gavetas, esta cozinha oferece organização e estilo para seu ambiente.
+
+Aproveite o desconto de 28% e garanta já a sua Cozinha Reims com entrega em todo o Brasil!
+  `,
+  marca: "Madesa",
+  keywords: [
+    "cozinha completa",
+    "cozinha reims",
+    "cozinha madesa",
+    "cozinha preta",
+    "cozinha com armário",
+    "cozinha com balcão",
+    "cozinha moderna",
+    "móvel para cozinha",
+    "cozinha 310001",
+    "cozinha preta moderna"
+  ],
+  seoTitle: "Cozinha Completa Madesa Reims 310001 com Armário e Balcão - Preto | Oferta",
+  seoDescription: "Cozinha Completa Madesa Reims 310001 com Armário e Balcão - Preto com 28% de desconto. Frete para todo Brasil. Confira a oferta!",
+},
+
+ {
+  id: "p-imp-008",
+  slug: "armario-de-cozinha-compacta-emilly-pop-madesa",
+  category: "cozinhas",
+  mainCategory: "cozinha",
+  name: "Armário de Cozinha Compacta Emilly Top Madesa",
+  imageFile: "/imagens/produtos/Armário-de-Cozinha-Compacta-Emilly Top-Madesa.webp",
+  displayImage: "/imagens/produtos/Armário-de-Cozinha-Compacta-Emilly Top-Madesa.webp",
+  alt: "Armário de Cozinha Compacta Emilly Top Madesa — oferta Loja de Móveis Marília",
+  rating: 4.6,
+  reviews: 891,
+  discount: 32,
+  price: 655.00,
+  originalPrice: 999.9,
+  badge: "",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/5VS2Z4B4HM",
+  descricao: `
+# Armário de Cozinha Compacta Emilly Top Madesa
+
+## 📌 Introdução
+
+O **Armário de Cozinha Compacta Emilly Top da Madesa** é a solução perfeita para quem busca funcionalidade, estilo e organização em espaços reduzidos. Projetado para otimizar cada centímetro disponível, este armário compacto oferece tudo o que você precisa para manter sua cozinha organizada e elegante.
+
+Com design moderno e acabamento de alta qualidade, o Armário Emilly Top se adapta perfeitamente a apartamentos, kitnets, studios e cozinhas pequenas. Seu design inteligente oferece amplo espaço de armazenamento para utensílios, panelas e mantimentos, mantendo tudo em ordem e de fácil acesso.
+
+## 📌 Principais Benefícios
+
+**Design compacto que otimiza espaços:** Com dimensões pensadas para ambientes reduzidos, este armário compacto aproveita cada centímetro disponível, oferecendo funcionalidade completa sem ocupar espaço excessivo.
+
+**Organização inteligente:** Com portas, gavetas e prateleiras, este armário oferece espaços dedicados para diferentes tipos de utensílios e mantimentos, mantendo tudo em ordem e de fácil acesso.
+
+**Acabamento em pintura UV de alta qualidade:** O acabamento em pintura UV confere ao móvel uma superfície extremamente resistente a riscos, manchas e desgaste, facilitando a limpeza e mantendo o aspecto bonito por muito mais tempo.
+
+**Design moderno e versátil:** O design clean e o acabamento de qualidade tornam este armário versátil, combinando perfeitamente com diferentes estilos de decoração, do minimalista ao contemporâneo.
+
+**Estrutura robusta e durável:** Fabricado em MDP de alta qualidade, este armário oferece durabilidade e resistência para o uso diário, mantendo sua beleza por muitos anos.
+
+**Produto nacional:** Fabricado no Brasil com padrões de qualidade rigorosos, este produto oferece a confiabilidade de uma marca consolidada no mercado.
+
+## 📌 Design
+
+O design do Armário Emilly Top foi pensado para impressionar e valorizar o ambiente. O acabamento de qualidade e as linhas modernas criam um visual clean e sofisticado, que se adapta a diferentes estilos de decoração.
+
+O design funcional e as linhas retas tornam este armário uma peça versátil que valoriza qualquer ambiente. A combinação de portas, gavetas e prateleiras cria um conjunto harmonioso e equilibrado.
+
+## 📌 Organização
+
+A organização do armário foi cuidadosamente planejada para otimizar cada centímetro disponível:
+
+- **Portas:** Espaço para armazenar utensílios, copos e mantimentos
+- **Gavetas:** Para organizar talheres e utensílios pequenos
+- **Prateleiras:** Espaço para panelas, travessas e outros itens
+
+## 📌 Ideal para
+
+- **Cozinhas pequenas:** Design compacto que otimiza espaços
+- **Apartamentos:** Funcionalidade em ambientes reduzidos
+- **Kitnets e studios:** Solução prática para espaços integrados
+- **Quem busca praticidade:** Organização inteligente e fácil acesso
+- **Decoração moderna:** Design clean que combina com diferentes estilos
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este armário compacto é altamente recomendado para:
+
+**Pessoas que moram em apartamentos pequenos:** O design compacto e funcional é perfeito para otimizar espaços reduzidos.
+
+**Quem busca praticidade e organização:** Com portas, gavetas e prateleiras, este armário oferece tudo o que você precisa para o dia a dia.
+
+**Admiradores de design moderno:** O acabamento de qualidade e as linhas clean combinam com diferentes estilos de decoração.
+
+**Quem valoriza qualidade:** Fabricado em MDP de alta qualidade com pintura UV, este armário garante durabilidade e resistência.
+
+## 📌 Diferenciais
+
+O que torna este Armário Emilly Top único no mercado:
+
+**Design compacto e funcional:** Otimiza espaços sem comprometer a funcionalidade.
+
+**Acabamento em pintura UV:** Superfície resistente a riscos, manchas e desgaste.
+
+**Organização inteligente:** Portas, gavetas e prateleiras para diferentes tipos de itens.
+
+**Design moderno e versátil:** Combina com diferentes estilos de decoração.
+
+**Marca Madesa:** Reconhecida pela qualidade e durabilidade de seus produtos.
+
+## 📌 Motivos para Comprar
+
+✅ **Design compacto** - otimiza espaços reduzidos
+
+✅ **Acabamento em pintura UV** - resistente a riscos e manchas
+
+✅ **Portas e gavetas** - organização para diferentes tipos de itens
+
+✅ **Prateleiras** - espaço para panelas e travessas
+
+✅ **Design moderno** - combina com diferentes estilos de decoração
+
+✅ **Estrutura robusta** - durabilidade e resistência
+
+✅ **Marca Madesa** - qualidade e confiabilidade
+
+✅ **32% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias.
+
+**3. Qual o material do armário?**
+Fabricado em MDP de alta qualidade com acabamento em pintura UV.
+
+**4. O armário é indicado para cozinhas pequenas?**
+Sim, o design compacto é perfeito para otimizar espaços reduzidos.
+
+**5. O armário tem gavetas?**
+Sim, possui gavetas para organizar talheres e utensílios pequenos.
+
+**6. O armário tem prateleiras?**
+Sim, possui prateleiras para panelas e travessas.
+
+**7. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política do vendedor.
+
+**8. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete.
+
+**9. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**10. Como devo fazer a limpeza do armário?**
+Recomenda-se limpar com pano seco ou levemente umedecido. Evite produtos abrasivos.
+
+**11. O armário é resistente?**
+Sim, fabricado em MDP de alta qualidade com pintura UV, oferece durabilidade e resistência.
+
+**12. Qual a capacidade de armazenamento?**
+Com portas, gavetas e prateleiras, oferece amplo espaço para utensílios e mantimentos.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Tipo** | Armário de Cozinha Compacta |
+| **Modelo** | Emilly Top |
+| **Material** | MDP de alta qualidade |
+| **Acabamento** | Pintura UV |
+| **Componentes** | Portas, Gavetas, Prateleiras |
+| **Origem** | Nacional |
+| **Requer Montagem** | Sim |
+| **Garantia** | Conforme política do vendedor |
+| **Indicado para** | Cozinhas pequenas, apartamentos, kitnets |
+
+## 📌 Conclusão
+
+O **Armário de Cozinha Compacta Emilly Top da Madesa** é a escolha perfeita para quem busca um móvel funcional, moderno e com excelente custo-benefício para espaços reduzidos. Com design compacto, acabamento em pintura UV, portas, gavetas e prateleiras, este armário oferece organização e estilo para sua cozinha.
+
+Aproveite o desconto de 32% e garanta já o seu Armário Emilly Top com entrega em todo o Brasil!
+  `,
+  marca: "Madesa",
+  keywords: [
+    "armário cozinha",
+    "cozinha compacta",
+    "armário emilly top",
+    "armário madesa",
+    "cozinha pequena",
+    "armário com gavetas",
+    "armário com prateleiras",
+    "móvel para cozinha",
+    "cozinha apartamento",
+    "armário compacto"
+  ],
+  seoTitle: "Armário de Cozinha Compacta Emilly Top Madesa | Oferta",
+  seoDescription: "Armário de Cozinha Compacta Emilly Top Madesa com 32% de desconto. Frete para todo Brasil. Confira a oferta!",
+},
+
   {
-    id: "p-imp-008",
-    slug: "armario-de-cozinha-compacta-emilly-pop-madesa",
-    category: "cozinhas",
-    mainCategory: "cozinha",
-    name: "Armário de Cozinha Compacta Emilly Top Madesa",
-    imageFile: "/imagens/produtos/Armário-de-Cozinha-Compacta-Emilly Top-Madesa.webp",
-    displayImage: "/imagens/produtos/Armário-de-Cozinha-Compacta-Emilly Top-Madesa.webp",
-    alt: "Armário de Cozinha Compacta Emilly Top Madesa — oferta Loja de Móveis Marília",
-    rating: 4.6,
-    reviews: 891,
-    discount: 32,
-    price: 655.00,
-    originalPrice: 999.9,
-    badge: "",
-    platform: "Shopee",
-    affiliateLink: "https://s.shopee.com.br/5VS2Z4B4HM",
-    descricao: "Armário de Cozinha Compacta Emilly Top Madesa. Produto selecionado com custo-benefício e qualidade garantida. Frete para todo Brasil.",
-    marca: "Madesa",
-    keywords: ["armário cozinha", "cozinha emilly", "armário compacto"],
-    seoTitle: "Armário de Cozinha Compacta Emilly Top Madesa | Oferta",
-    seoDescription: "Armário de Cozinha Compacta Emilly Top Madesa com 32% de desconto. Frete para todo Brasil. Confira a oferta!",
-  },
+  id: "p-imp-009",
+  slug: "armario-de-cozinha-compacta-rustic-preto-emilly-top-madesa",
+  category: "cozinhas",
+  mainCategory: "cozinha",
+  name: "Armário de Cozinha Compacta Rustic Preto Emilly Top Madesa",
+  imageFile: "/imagens/produtos/Armario-de-Cozinha-Compacta-Rustic-Preto-Emilly-Top-Madesa.webp",
+  displayImage: "/imagens/produtos/Armario-de-Cozinha-Compacta-Rustic-Preto-Emilly-Top-Madesa.webp",
+  alt: "Armário de Cozinha Compacta Rustic Preto Emilly Top Madesa — oferta Loja de Móveis Marília",
+  rating: 4.6,
+  reviews: 678,
+  discount: 26,
+  price: 907.82,
+  originalPrice: 999.9,
+  badge: "",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/7AbXv4pDRm",
+  descricao: `
+# Armário de Cozinha Compacta Rustic Preto Emilly Top Madesa
+
+## 📌 Introdução
+
+O **Armário de Cozinha Compacta Rustic Preto Emilly Top da Madesa** é a escolha perfeita para quem busca um móvel que une design sofisticado, funcionalidade e durabilidade para a cozinha. Com acabamento em preto rustic, este armário compacto foi projetado para transformar seu ambiente em um espaço moderno, organizado e cheio de personalidade.
+
+Ideal para apartamentos, kitnets e cozinhas pequenas, o Armário Emilly Top oferece amplo espaço de armazenamento com design inteligente, permitindo organizar utensílios, panelas e mantimentos de forma eficiente. O acabamento rustic preto confere um visual contemporâneo e sofisticado que valoriza qualquer ambiente.
+
+## 📌 Principais Benefícios
+
+**Design rustic preto sofisticado:** O acabamento em preto rustic confere um visual moderno e elegante, que combina perfeitamente com diferentes estilos de decoração, do industrial ao contemporâneo.
+
+**Organização inteligente:** Com portas, gavetas e prateleiras, este armário oferece espaços dedicados para diferentes tipos de utensílios e mantimentos, mantendo tudo em ordem e de fácil acesso.
+
+**Acabamento em pintura UV de alta qualidade:** O acabamento em pintura UV confere ao móvel uma superfície extremamente resistente a riscos, manchas e desgaste, facilitando a limpeza e mantendo o aspecto bonito por muito mais tempo.
+
+**Design compacto que otimiza espaços:** Com dimensões pensadas para ambientes reduzidos, este armário compacto aproveita cada centímetro disponível, oferecendo funcionalidade completa sem ocupar espaço excessivo.
+
+**Estrutura robusta e durável:** Fabricado em MDP de alta qualidade, este armário oferece durabilidade e resistência para o uso diário, mantendo sua beleza por muitos anos.
+
+**Produto nacional:** Fabricado no Brasil com padrões de qualidade rigorosos, este produto oferece a confiabilidade de uma marca consolidada no mercado.
+
+## 📌 Design
+
+O design do Armário Emilly Top Rustic foi pensado para impressionar e valorizar o ambiente. O acabamento em preto rustic confere um visual moderno e sofisticado, que se adapta a diferentes estilos de decoração.
+
+O design funcional e as linhas retas tornam este armário uma peça versátil que valoriza qualquer ambiente. A combinação de portas, gavetas e prateleiras cria um conjunto harmonioso e equilibrado.
+
+## 📌 Organização
+
+A organização do armário foi cuidadosamente planejada para otimizar cada centímetro disponível:
+
+- **Portas:** Espaço para armazenar utensílios, copos e mantimentos
+- **Gavetas:** Para organizar talheres e utensílios pequenos
+- **Prateleiras:** Espaço para panelas, travessas e outros itens
+
+## 📌 Ideal para
+
+- **Cozinhas modernas:** Design rustic preto sofisticado
+- **Apartamentos:** Funcionalidade em ambientes reduzidos
+- **Kitnets e studios:** Solução prática para espaços integrados
+- **Quem busca estilo:** Acabamento preto rustic elegante
+- **Quem valoriza organização:** Portas, gavetas e prateleiras
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este armário compacto é altamente recomendado para:
+
+**Pessoas que buscam um design sofisticado e moderno:** O acabamento em preto rustic confere um visual elegante e contemporâneo.
+
+**Quem busca praticidade e organização:** Com portas, gavetas e prateleiras, este armário oferece tudo o que você precisa para o dia a dia.
+
+**Admiradores de design industrial e contemporâneo:** O acabamento preto rustic combina perfeitamente com estilos industriais e modernos.
+
+**Quem valoriza qualidade:** Fabricado em MDP de alta qualidade com pintura UV, este armário garante durabilidade e resistência.
+
+## 📌 Diferenciais
+
+O que torna este Armário Emilly Top Rustic único no mercado:
+
+**Design rustic preto sofisticado:** Acabamento moderno e elegante que valoriza o ambiente.
+
+**Acabamento em pintura UV:** Superfície resistente a riscos, manchas e desgaste.
+
+**Organização inteligente:** Portas, gavetas e prateleiras para diferentes tipos de itens.
+
+**Design compacto e funcional:** Otimiza espaços sem comprometer a funcionalidade.
+
+**Marca Madesa:** Reconhecida pela qualidade e durabilidade de seus produtos.
+
+## 📌 Motivos para Comprar
+
+✅ **Design rustic preto sofisticado** - visual moderno e elegante
+
+✅ **Acabamento em pintura UV** - resistente a riscos e manchas
+
+✅ **Portas e gavetas** - organização para diferentes tipos de itens
+
+✅ **Prateleiras** - espaço para panelas e travessas
+
+✅ **Design compacto** - otimiza espaços reduzidos
+
+✅ **Estrutura robusta** - durabilidade e resistência
+
+✅ **Marca Madesa** - qualidade e confiabilidade
+
+✅ **26% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias.
+
+**3. Qual o material do armário?**
+Fabricado em MDP de alta qualidade com acabamento em pintura UV.
+
+**4. O armário é indicado para cozinhas pequenas?**
+Sim, o design compacto é perfeito para otimizar espaços reduzidos.
+
+**5. O armário tem gavetas?**
+Sim, possui gavetas para organizar talheres e utensílios pequenos.
+
+**6. O armário tem prateleiras?**
+Sim, possui prateleiras para panelas e travessas.
+
+**7. Qual a cor do armário?**
+O armário está disponível na cor preto rustic, um tom elegante e moderno.
+
+**8. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política do vendedor.
+
+**9. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete.
+
+**10. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**11. Como devo fazer a limpeza do armário?**
+Recomenda-se limpar com pano seco ou levemente umedecido. Evite produtos abrasivos.
+
+**12. O armário é resistente?**
+Sim, fabricado em MDP de alta qualidade com pintura UV, oferece durabilidade e resistência.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Tipo** | Armário de Cozinha Compacta |
+| **Modelo** | Emilly Top |
+| **Cor** | Preto Rustic |
+| **Material** | MDP de alta qualidade |
+| **Acabamento** | Pintura UV |
+| **Componentes** | Portas, Gavetas, Prateleiras |
+| **Origem** | Nacional |
+| **Requer Montagem** | Sim |
+| **Garantia** | Conforme política do vendedor |
+| **Indicado para** | Cozinhas modernas, apartamentos, kitnets |
+
+## 📌 Conclusão
+
+O **Armário de Cozinha Compacta Rustic Preto Emilly Top da Madesa** é a escolha perfeita para quem busca um móvel sofisticado, funcional e com excelente custo-benefício para espaços reduzidos. Com design rustic preto, acabamento em pintura UV, portas, gavetas e prateleiras, este armário oferece organização e estilo para sua cozinha.
+
+Aproveite o desconto de 26% e garanta já o seu Armário Emilly Top Rustic com entrega em todo o Brasil!
+  `,
+  marca: "Madesa",
+  keywords: [
+    "armário cozinha rustic",
+    "cozinha compacta preta",
+    "armário emilly top",
+    "armário madesa",
+    "cozinha preta rustic",
+    "armário com gavetas",
+    "armário com prateleiras",
+    "móvel para cozinha",
+    "cozinha apartamento",
+    "armário compacto preto"
+  ],
+  seoTitle: "Armário de Cozinha Compacta Rustic Preto Emilly Top Madesa | Oferta",
+  seoDescription: "Armário de Cozinha Compacta Rustic Preto Emilly Top Madesa com 26% de desconto. Frete para todo Brasil. Confira a oferta!",
+},
+
   {
-    id: "p-imp-009",
-    slug: "armario-de-cozinha-compacta-rustic-preto-emilly-top-madesa",
-    category: "cozinhas",
-    mainCategory: "cozinha",
-    name: "Armário de Cozinha Compacta Rustic Preto Emilly Top Madesa",
-    imageFile: "/imagens/produtos/Armario-de-Cozinha-Compacta-Rustic-Preto-Emilly-Top-Madesa.webp",
-    displayImage: "/imagens/produtos/Armario-de-Cozinha-Compacta-Rustic-Preto-Emilly-Top-Madesa.webp",
-    alt: "Armário de Cozinha Compacta Rustic Preto Emilly Top Madesa — oferta Loja de Móveis Marília",
-    rating: 4.6,
-    reviews: 678,
-    discount: 26,
-    price: 907.82,
-    originalPrice: 999.9,
-    badge: "",
-    platform: "Shopee",
-    affiliateLink: "https://s.shopee.com.br/7AbXv4pDRm",
-    descricao: "Armário de Cozinha Compacta Rustic Preto Emilly Top Madesa. Produto selecionado com custo-benefício e qualidade garantida. Frete para todo Brasil.",
-    marca: "Madesa",
-    keywords: ["cozinha rustic", "armário preto", "cozinha madesa"],
-    seoTitle: "Armário de Cozinha Compacta Rustic Preto Emilly Top Madesa | Oferta",
-    seoDescription: "Armário de Cozinha Compacta Rustic Preto Emilly Top Madesa com 26% de desconto. Frete para todo Brasil. Confira a oferta!",
-  },
-  {
-    id: "p-imp-010",
-    slug: "armario-de-cozinha-compacta-229cm-rustic-emilly-pop-madesa",
-    category: "cozinhas",
-    mainCategory: "cozinha",
-    name: "Armário de Cozinha Compacta 229cm Rustic Emilly Pop Madesa",
-    imageFile: "/imagens/produtos/cozinha-madesa.webp",
-    displayImage: "/imagens/produtos/cozinha-madesa",
-    alt: "Armário de Cozinha Compacta 229cm Rustic Emilly Pop Madesa — oferta Loja de Móveis Marília",
-    rating: 4.7,
-    reviews: 543,
-    discount: 24,
-    price: 655.00,
-    originalPrice: 999.9,
-    badge: "",
-    platform: "Shopee",
-    affiliateLink: "https://s.shopee.com.br/6fdzyI2jHU",
-    descricao: "Armário de Cozinha Compacta 229cm Rustic Emilly Pop Madesa. Produto selecionado com custo-benefício e qualidade garantida. Frete para todo Brasil.",
-    marca: "Madesa",
-    keywords: ["cozinha 229cm", "armário rustic", "cozinha pop"],
-    seoTitle: "Armário de Cozinha Compacta 229cm Rustic Emilly Pop Madesa | Oferta",
-    seoDescription: "Armário de Cozinha Compacta 229cm Rustic Emilly Pop Madesa com 24% de desconto. Frete para todo Brasil. Confira a oferta!",
-  },
+  id: "p-imp-010",
+  slug: "armario-de-cozinha-compacta-229cm-rustic-emilly-pop-madesa",
+  category: "cozinhas",
+  mainCategory: "cozinha",
+  name: "Armário de Cozinha Compacta 229cm Rustic Emilly Pop Madesa",
+  imageFile: "/imagens/produtos/cozinha-madesa.webp",
+  displayImage: "/imagens/produtos/cozinha-madesa",
+  alt: "Armário de Cozinha Compacta 229cm Rustic Emilly Pop Madesa — oferta Loja de Móveis Marília",
+  rating: 4.7,
+  reviews: 543,
+  discount: 24,
+  price: 655.00,
+  originalPrice: 999.9,
+  badge: "",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/6fdzyI2jHU",
+  descricao: `
+# Armário de Cozinha Compacta 229cm Rustic Emilly Pop Madesa
+
+## 📌 Introdução
+
+O **Armário de Cozinha Compacta 229cm Rustic Emilly Pop da Madesa** é a solução definitiva para quem busca um móvel que une design sofisticado, funcionalidade completa e ampla capacidade de armazenamento. Com 229cm de altura, este armário foi projetado para aproveitar ao máximo o espaço vertical disponível, oferecendo organização eficiente para cozinhas de diferentes tamanhos.
+
+Ideal para apartamentos, kitnets e cozinhas que precisam de otimização de espaço, o Armário Emilly Pop Rustic combina a beleza do acabamento rustic com a funcionalidade de múltiplos compartimentos, permitindo organizar utensílios, panelas e mantimentos de forma prática e eficiente.
+
+## 📌 Principais Benefícios
+
+**Aproveitamento vertical de 229cm:** Com 229cm de altura, este armário utiliza todo o espaço vertical disponível, oferecendo maior capacidade de armazenamento sem ocupar área adicional no chão da cozinha.
+
+**Design rustic sofisticado:** O acabamento rustic confere um visual moderno e elegante, que combina perfeitamente com diferentes estilos de decoração, do industrial ao contemporâneo.
+
+**Organização inteligente:** Com portas, gavetas e prateleiras, este armário oferece espaços dedicados para diferentes tipos de utensílios e mantimentos, mantendo tudo em ordem e de fácil acesso.
+
+**Acabamento em pintura UV de alta qualidade:** O acabamento em pintura UV confere ao móvel uma superfície extremamente resistente a riscos, manchas e desgaste, facilitando a limpeza e mantendo o aspecto bonito por muito mais tempo.
+
+**Estrutura robusta e durável:** Fabricado em MDP de alta qualidade, este armário oferece durabilidade e resistência para o uso diário, mantendo sua beleza por muitos anos.
+
+**Produto nacional:** Fabricado no Brasil com padrões de qualidade rigorosos, este produto oferece a confiabilidade de uma marca consolidada no mercado.
+
+## 📌 Design
+
+O design do Armário Emilly Pop Rustic foi pensado para impressionar e valorizar o ambiente. O acabamento rustic confere um visual moderno e sofisticado, que se adapta a diferentes estilos de decoração.
+
+A altura de 229cm permite aproveitar todo o espaço vertical, criando um móvel imponente e funcional. O design funcional e as linhas retas tornam este armário uma peça versátil que valoriza qualquer ambiente.
+
+## 📌 Organização
+
+A organização do armário foi cuidadosamente planejada para otimizar cada centímetro disponível:
+
+- **Portas:** Espaço para armazenar utensílios, copos e mantimentos
+- **Gavetas:** Para organizar talheres e utensílios pequenos
+- **Prateleiras:** Espaço para panelas, travessas e outros itens
+- **Compartimentos superiores:** Para itens de uso menos frequente
+- **Espaço para eletrodomésticos:** Compartimento dedicado para micro-ondas ou outros eletrodomésticos
+
+## 📌 Ideal para
+
+- **Cozinhas que precisam de otimização:** Aproveitamento vertical de 229cm
+- **Apartamentos:** Funcionalidade em ambientes reduzidos
+- **Kitnets e studios:** Solução prática para espaços integrados
+- **Quem busca estilo:** Acabamento rustic elegante
+- **Quem valoriza organização:** Múltiplos compartimentos
+
+## 📌 Para Quem Este Produto é Recomendado
+
+Este armário compacto é altamente recomendado para:
+
+**Pessoas que buscam aproveitar o espaço vertical:** Com 229cm de altura, este armário utiliza todo o espaço disponível, oferecendo maior capacidade de armazenamento.
+
+**Quem busca praticidade e organização:** Com portas, gavetas e prateleiras, este armário oferece tudo o que você precisa para o dia a dia.
+
+**Admiradores de design rustic e contemporâneo:** O acabamento rustic combina perfeitamente com diferentes estilos de decoração.
+
+**Quem valoriza qualidade:** Fabricado em MDP de alta qualidade com pintura UV, este armário garante durabilidade e resistência.
+
+## 📌 Diferenciais
+
+O que torna este Armário Emilly Pop Rustic único no mercado:
+
+**Altura de 229cm:** Aproveitamento máximo do espaço vertical.
+
+**Design rustic sofisticado:** Acabamento moderno e elegante que valoriza o ambiente.
+
+**Acabamento em pintura UV:** Superfície resistente a riscos, manchas e desgaste.
+
+**Organização inteligente:** Portas, gavetas e prateleiras para diferentes tipos de itens.
+
+**Marca Madesa:** Reconhecida pela qualidade e durabilidade de seus produtos.
+
+## 📌 Motivos para Comprar
+
+✅ **Altura de 229cm** - aproveitamento máximo do espaço vertical
+
+✅ **Design rustic sofisticado** - visual moderno e elegante
+
+✅ **Acabamento em pintura UV** - resistente a riscos e manchas
+
+✅ **Portas e gavetas** - organização para diferentes tipos de itens
+
+✅ **Prateleiras** - espaço para panelas e travessas
+
+✅ **Múltiplos compartimentos** - organização eficiente
+
+✅ **Estrutura robusta** - durabilidade e resistência
+
+✅ **Marca Madesa** - qualidade e confiabilidade
+
+✅ **24% de desconto** - excelente custo-benefício
+
+## 📌 Dúvidas Frequentes (FAQ)
+
+**1. O produto é novo ou usado?**
+Todos os produtos são novos, enviados diretamente de nossos fornecedores para a sua casa, em embalagem original e lacrada.
+
+**2. O produto vem montado?**
+O produto é enviado desmontado para facilitar o transporte. Acompanha manual de montagem e todas as ferragens necessárias.
+
+**3. Qual a altura do armário?**
+O armário tem 229cm de altura, aproveitando ao máximo o espaço vertical.
+
+**4. Qual o material do armário?**
+Fabricado em MDP de alta qualidade com acabamento em pintura UV.
+
+**5. O armário é indicado para cozinhas pequenas?**
+Sim, o design compacto com aproveitamento vertical é perfeito para otimizar espaços reduzidos.
+
+**6. O armário tem gavetas?**
+Sim, possui gavetas para organizar talheres e utensílios pequenos.
+
+**7. O armário tem prateleiras?**
+Sim, possui prateleiras para panelas e travessas.
+
+**8. Qual a cor do armário?**
+O armário está disponível na cor rustic, um tom elegante e versátil.
+
+**9. O produto tem garantia?**
+Sim, o produto possui garantia contra defeitos de fabricação, conforme política do vendedor.
+
+**10. Qual o prazo de entrega?**
+O prazo de entrega varia de acordo com o CEP de destino. Você pode consultar o prazo exato no simulador de frete.
+
+**11. Entregam em todo o Brasil?**
+Sim, entregamos em todo o território nacional através de transportadoras parceiras.
+
+**12. Como devo fazer a limpeza do armário?**
+Recomenda-se limpar com pano seco ou levemente umedecido. Evite produtos abrasivos.
+
+## 📌 Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Tipo** | Armário de Cozinha Compacta |
+| **Modelo** | Emilly Pop |
+| **Altura** | 229cm |
+| **Cor** | Rustic |
+| **Material** | MDP de alta qualidade |
+| **Acabamento** | Pintura UV |
+| **Componentes** | Portas, Gavetas, Prateleiras |
+| **Origem** | Nacional |
+| **Requer Montagem** | Sim |
+| **Garantia** | Conforme política do vendedor |
+| **Indicado para** | Cozinhas, apartamentos, kitnets |
+
+## 📌 Conclusão
+
+O **Armário de Cozinha Compacta 229cm Rustic Emilly Pop da Madesa** é a escolha perfeita para quem busca um móvel que une design sofisticado, funcionalidade completa e excelente aproveitamento de espaço. Com 229cm de altura, acabamento em pintura UV, portas, gavetas e prateleiras, este armário oferece organização e estilo para sua cozinha.
+
+Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com entrega em todo o Brasil!
+  `,
+  marca: "Madesa",
+  keywords: [
+    "armário cozinha 229cm",
+    "cozinha compacta rustic",
+    "armário emilly pop",
+    "armário madesa",
+    "cozinha rustic",
+    "armário alto 229cm",
+    "armário com gavetas",
+    "armário com prateleiras",
+    "móvel para cozinha",
+    "aproveitamento vertical"
+  ],
+  seoTitle: "Armário de Cozinha Compacta 229cm Rustic Emilly Pop Madesa | Oferta",
+  seoDescription: "Armário de Cozinha Compacta 229cm Rustic Emilly Pop Madesa com 24% de desconto. Frete para todo Brasil. Confira a oferta!",
+},
+
   {
     id: "p-imp-011",
     slug: "armario-de-cozinha-completa-240-cm-suspenso-nice-madesa",
@@ -374,28 +1984,37 @@ export const products: Product[] = [
     seoDescription: "Cozinha Modulada Completa Móveis Home 100% MDF 10 Portas e 6 Gavetas com 37% de desconto. Frete para todo Brasil. Confira a oferta!",
   },
   {
-    id: "p-imp-013",
-    slug: "conjunto-sala-de-jantar-mesa-tampo-de-vidro-4-cadeiras-rustic-cinza-silver-anaju-madesa",
-    category: "mesas",
-    mainCategory: "cozinha",
-    name: "Conjunto Sala de Jantar Mesa Tampo de Vidro 4 Cadeiras Rustic/Cinza/Silver Anaju Madesa",
-    imageFile: "/imagens/produtos/Conjunto-Sala-de-Jantar-Mesa-Tampo-de-Vidro-4-Cadeiras-Rustic-Cinza-Silver-Anaju-Madesa.webp",
-    displayImage: "/imagens/produtos/Conjunto-Sala-de-Jantar-Mesa-Tampo-de-Vidro-4-Cadeiras-Rustic-Cinza-Silver-Anaju-Madesa.webp",
-    alt: "Conjunto Sala de Jantar Mesa Tampo de Vidro 4 Cadeiras Rustic/Cinza/Silver Anaju Madesa — oferta Loja de Móveis Marília",
-    rating: 4.9,
-    reviews: 1876,
-    discount: 38,
-    price: 804.37,
-    originalPrice: 999.9,
-    badge: "",
-    platform: "Shopee",
-    affiliateLink: "https://s.shopee.com.br/4AweynlW63",
-    descricao: "Conjunto Sala de Jantar Mesa Tampo de Vidro 4 Cadeiras Rustic/Cinza/Silver Anaju Madesa. Produto selecionado com custo-benefício e qualidade garantida. Frete para todo Brasil.",
-    marca: "Madesa",
-    keywords: ["sala de jantar", "mesa vidro", "conjunto jantar"],
-    seoTitle: "Conjunto Sala de Jantar Mesa Tampo de Vidro 4 Cadeiras Rustic/Cinza/Silver Anaju Madesa | Oferta",
-    seoDescription: "Conjunto Sala de Jantar Mesa Tampo de Vidro 4 Cadeiras Rustic/Cinza/Silver Anaju Madesa com 38% de desconto. Frete para todo Brasil. Confira a oferta!",
-  },
+  id: "p-imp-013",
+  slug: "conjunto-sala-de-jantar-mesa-tampo-de-vidro-4-cadeiras-rustic-cinza-silver-anaju-madesa",
+  category: "mesas",
+  mainCategory: "cozinha",
+  name: "Conjunto Sala de Jantar Mesa Tampo de Vidro 4 Cadeiras Rustic/Cinza/Silver Anaju Madesa",
+  imageFile: "/imagens/produtos/Conjunto-Sala-de-Jantar-Mesa-Tampo-de-Vidro-4-Cadeiras-Rustic-Cinza-Silver-Anaju-Madesa.webp",
+  displayImage: "/imagens/produtos/Conjunto-Sala-de-Jantar-Mesa-Tampo-de-Vidro-4-Cadeiras-Rustic-Cinza-Silver-Anaju-Madesa.webp",
+  alt: "Conjunto Sala de Jantar Mesa Tampo de Vidro 4 Cadeiras Rustic/Cinza/Silver Anaju Madesa — oferta Loja de Móveis Marília",
+  rating: 4.9,
+  reviews: 1876,
+  discount: 38,
+  price: 804.37,
+  originalPrice: 999.9,
+  badge: "",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/4AweynlW63",
+  descricao: ` # Conjunto Sala de Jantar Mesa Tampo de Vidro 4 Cadeiras Anaju Madesa ## 📌 Introdução O **Conjunto Sala de Jantar Mesa Tampo de Vidro com 4 Cadeiras Anaju da Madesa** é a escolha perfeita para quem busca unir sofisticação, modernidade e praticidade no ambiente da cozinha ou sala de jantar. Desenvolvido com materiais de alta qualidade, este conjunto é ideal para apartamentos compactos, kitnets e casas que precisam otimizar o espaço sem abrir mão de um visual elegante e contemporâneo. ## 📌 Principais Benefícios **Tampo de vidro temperado:** Além de trazer um visual leve e amplo ao ambiente, o vidro temperado é altamente resistente a impactos, fácil de limpar e não absorve odores ou manchas. **Estrutura em MDP com acabamento Rustic/Cinza/Silver:** O acabamento sofisticado e as cores neutras permitem que a mesa se integre perfeitamente a qualquer estilo de decoração, do industrial ao minimalista. **4 Cadeiras Confortáveis:** As cadeiras acompanham o mesmo padrão de acabamento da mesa, garantindo um conjunto harmonioso, com estrutura reforçada e assento confortável para o dia a dia. **Design que otimiza espaços:** Com dimensões inteligentes, este conjunto de jantar foi pensado para não atrapalhar a circulação do ambiente, sendo perfeito para áreas integradas. ## 📌 Ideal para - **Apartamentos e Kitnets:** Design compacto e leve - **Salas Integradas:** Tampo de vidro não "pesa" visualmente o ambiente - **Quem busca praticidade:** Fácil de limpar e manter - **Decoração Moderna e Industrial:** Cores Rustic e Silver combinam com o estilo ## 📌 Dúvidas Frequentes (FAQ) **1. O tampo de vidro é resistente?** Sim, o tampo é feito de vidro temperado, projetado para suportar o peso do dia a dia e resistir a impactos comuns em uso doméstico. **2. As cadeiras acompanham a mesa?** Sim, o anúncio se refere ao conjunto completo: 1 Mesa e 4 Cadeiras. **3. É fácil de montar?** Sim, o produto é enviado com manual de montagem e todas as ferragens necessárias. A montagem é simples e rápida. **4. Qual a cor exata do conjunto?** O conjunto possui o acabamento Rustic com detalhes em Cinza e Silver, proporcionando um visual moderno e sofisticado. ## 📌 Especificações Técnicas | Especificação | Detalhe | |---------------|---------| | **Tipo** | Conjunto Sala de Jantar | | **Marca** | Madesa | | **Modelo** | Anaju | | **Componentes** | 1 Mesa + 4 Cadeiras | | **Tampo da Mesa** | Vidro Temperado | | **Material da Estrutura** | MDP de alta qualidade | | **Acabamento** | Rustic / Cinza / Silver | | **Origem** | Nacional | | **Requer Montagem** | Sim | | **Garantia** | Conforme política do vendedor | ## 📌 Conclusão O **Conjunto Sala de Jantar Anaju Madesa** com tampo de vidro é a solução ideal para quem deseja um ambiente elegante, moderno e funcional. Com 38% de desconto e frete para todo o Brasil, é a oportunidade perfeita para renovar sua sala de jantar com qualidade e economia! `,
+  marca: "Madesa",
+  keywords: [
+    "conjunto sala de jantar", 
+    "mesa tampo de vidro", 
+    "conjunto jantar 4 cadeiras",
+    "mesa de vidro madesa",
+    "conjunto jantar rustic",
+    "mesa para apartamento pequeno",
+    "sala de jantar moderna"
+  ],
+  seoTitle: "Conjunto Sala de Jantar Mesa Vidro 4 Cadeiras Anaju Madesa | Oferta",
+  seoDescription: "Conjunto Sala de Jantar com tampo de vidro e 4 cadeiras Anaju Madesa com 38% OFF. Design moderno e ideal para apartamentos. Frete para todo Brasil!",
+},
+
   {
     id: "p-imp-014",
     slug: "conjunto-sala-de-jantar-talita-madesa-mesa-tampo-madeira-4-cadeiras-rustic-preto",
@@ -779,7 +2398,7 @@ export const products: Product[] = [
     originalPrice: 999.9,
     badge: "",
     platform: "Shopee",
-    affiliateLink: "",
+    affiliateLink: "https://meli.la/2h2pmQP",
     descricao: "Cômoda Grécia 8 Gavetas com Corrediças Telescópicas Multiuso para Quarto MDP/MDF. Produto selecionado com custo-benefício e qualidade garantida. Frete para todo Brasil.",
     marca: "Móveis Marília",
     keywords: ["cômoda 8 gavetas", "cômoda grécia", "corrediças telescópicas"],
@@ -842,33 +2461,36 @@ export const products: Product[] = [
 
   // ===================== ELETRODOMÉSTICOS =====================
   {
-    id: "p-imp-032",
-    slug: "micro-ondas-philco-28l-limpa-facil-1100w-preto-pmo30p",
-    category: "microondas",
-    mainCategory: "eletrodomesticos",
-    name: "Micro-ondas Philco 28L Limpa Fácil 1100W Preto PMO30P",
-    imageFile: "/imagens/produtos/micro-ondas-philco-28l-limpa-facil-1100w-preto-pmo30p.webp",
-    displayImage: "/imagens/produtos/micro-ondas-philco-28l-limpa-facil-1100w-preto-pmo30p.webp",
-    alt: "Micro-ondas Philco 28L Limpa Fácil 1100W Preto PMO30P",
-    rating: 4.8,
-    reviews: 126,
-    discount: 64,
-    price: 649.99,
-    originalPrice: 1387.00,
-    badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1s7KGZG",
-    descricao: "Micro-ondas Philco 28 Litros Limpa Fácil 1100W Preto PMO30P. Micro-ondas Philco 28L PMO30P Limpa Fácil 1100W, com capacidade de 28L, ideal para qualquer ambiente. - Maior economia Classificação energética A. - Melhor desempenho, Potência de 1100W. - Função Tira Odor, retira o cheiro dos alimentos, mantendo a higiene durante um preparo e outro. - Função Manter Aquecido, mantém alimentos na temperatura ideal para consumo. - Descongela Fácil, ideal para carnes, que levam maior tempo para serem descongeladas. - Pintura Limpa Fácil, praticidade na hora da limpeza. - 6 receitas pré-programadas: Brigadeiro, pipoca, lasanha, pizza, bolo de caneca e menu fit. - Facilidade em um único clique, Função +30 segundos. - Função Timer, desligamento automático. Especificações Técnicas Marca: Philco Modelo: PMO30P Cor: Preto Tensão (V): 127V ou 220V (Não é Bivolt) Potência (W): 1100 Capacidade (L): 28 Classificação Energética: A Tipo: Bancada Prato com diâmetro: 27 cm Tamanho do cordão: 1 m Função Manter Aquecido: Sim Função Tira odor: Sim Função Timer: Sim Pintura Limpa Fácil: Sim Desligamento automático: Sim Função +30 segundos: Sim Receitas pré-programadas: Brigadeiro, pipoca, lasanha, pizza, bolo de caneca e menu fit. Dimensões e Peso Altura: 28 cm Largura: 49 cm Largura com porta aberta: 75,5 cm Profundidade: 39,5 cm Peso: 12 kg",
-    marca: "Philco",
-    keywords: [
-      "micro-ondas philco 28l",
-      "micro-ondas 1100w",
-      "micro-ondas limpa fácil",
-      "micro-ondas preto"
-    ],
-    seoTitle: "Micro-ondas Philco 28L 1100W | Oferta",
-    seoDescription: "Micro-ondas Philco 28L Limpa Fácil 1100W preto com 64% OFF. Economia A, 6 receitas e função tira odor. Compre agora!",
-  },
+  id: "p-imp-032",
+  slug: "micro-ondas-philco-28l-limpa-facil-1100w-preto-pmo30p",
+  category: "microondas",
+  mainCategory: "eletrodomesticos",
+  name: "Micro-ondas Philco 28L Limpa Fácil 1100W Preto PMO30P",
+  imageFile: "/imagens/produtos/micro-ondas-philco-28l-limpa-facil-1100w-preto-pmo30p.webp",
+  displayImage: "/imagens/produtos/micro-ondas-philco-28l-limpa-facil-1100w-preto-pmo30p.webp",
+  alt: "Micro-ondas Philco 28L Limpa Fácil 1100W Preto PMO30P",
+  rating: 4.8,
+  reviews: 126,
+  discount: 64,
+  price: 649.99,
+  originalPrice: 1387.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1s7KGZG",
+  descricao: ` # Micro-ondas Philco 28L Limpa Fácil 1100W Preto PMO30P ## 📌 Introdução O **Micro-ondas Philco 28L PMO30P Limpa Fácil 1100W** é o aparelho perfeito para quem busca praticidade, economia e desempenho na cozinha. Com capacidade de 28 litros e design preto elegante, ele se adapta a qualquer ambiente e oferece o que há de melhor em tecnologia para o seu dia a dia. ## 📌 Principais Benefícios **Economia e Desempenho:** Classificação energética A e potência de 1100W, garantindo refeições aquecidas mais rápido e com menor gasto de energia. **Função Tira Odor:** Retira o cheiro forte dos alimentos entre um preparo e outro, mantendo a higiene impecável. **Manter Aquecido:** Mantém a temperatura ideal dos alimentos até o momento de consumir. **Descongela Fácil:** Ideal para descongelar carnes e alimentos de forma rápida e segura. **Pintura Limpa Fácil:** Acabamento interno que facilita a limpeza de respingos com apenas um pano úmido. ## 📌 Receitas Pré-Programadas Possui **6 receitas pré-programadas** para facilitar seu dia a dia: - Brigadeiro - Pipoca - Lasanha - Pizza - Bolo de caneca - Menu Fit Além da função **+30 segundos** e **Timer** com desligamento automático para maior comodidade. ## 📌 Especificações Técnicas - **Marca:** Philco - **Modelo:** PMO30P - **Cor:** Preto - **Tensão:** 127V ou 220V (Verificar versão) - **Potência:** 1100W - **Capacidade:** 28 Litros - **Diâmetro do Prato:** 27 cm - **Classificação Energética:** A - **Peso:** 12 kg - **Dimensões:** 28 cm (A) x 49 cm (L) x 39,5 cm (P) ## 📌 Conclusão O **Micro-ondas Philco 28L Limpa Fácil** é a escolha ideal para agilizar sua rotina na cozinha. Com 64% de desconto e entrega para todo o Brasil, garanta agora o seu! `,
+  marca: "Philco",
+  keywords: [
+    "micro-ondas philco 28l", 
+    "micro-ondas 1100w", 
+    "micro-ondas limpa fácil",
+    "micro-ondas preto philco",
+    "melhor micro-ondas custo benefício",
+    "micro-ondas com receitas programadas"
+  ],
+  seoTitle: "Micro-ondas Philco 28L Limpa Fácil 1100W | Oferta Imperdível",
+  seoDescription: "Micro-ondas Philco 28L 1100W preto com função Limpa Fácil, Tira Odor e 6 receitas. Classificação A. 64% OFF e frete para todo Brasil!",
+},
+
   {
     id: "p-imp-033",
     slug: "micro-ondas-consul-20l-espelhado-cm020bf",
@@ -898,203 +2520,176 @@ export const products: Product[] = [
     seoDescription: "Micro-ondas Consul 20L espelhado com função descongelar, 6 receitas e eficiência A. Trava de segurança e +30s. Compre agora!",
   },
   {
-    id: "p-imp-034",
-    slug: "liquidificador-wap-wb2000-2l-900w-vidro-cinza",
-    category: "liquidificadores",
-    mainCategory: "eletrodomesticos",
-    name: "Liquidificador Com Copo De Vidro Wap Wb2000 2l 900w Cinza",
-    imageFile: "/imagens/produtos/liquidificador-wap-wb2000-2l-900w-vidro-cinza.webp",
-    displayImage: "/imagens/produtos/liquidificador-wap-wb2000-2l-900w-vidro-cinza.webp",
-    alt: "Liquidificador Wap WB2000 2L 900W com copo de vidro cinza",
-    rating: 4.9,
-    reviews: 1413,
-    discount: 37,
-    price: 439.99,
-    originalPrice: 459.99,
-    badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2TJNFKj",
-    descricao: "Um produto, muitas possibilidades! O WAP LIQUIDIFICADOR PROSDÓCIMO WB2000 combina potência, versatilidade e um design moderno para proporcionar confiança na experiência culinária diária. Potente, ele enfrenta qualquer desafio na cozinha e garante resultados homogêneos para as receitas. O jarro de vidro de 2L do liquidificador mistura alimentos em grandes quantidades sem manchar ou absorver odores. Sua tampa emborrachada garante o fechamento e evita vazamentos, enquanto a alça com travamento previne acidentes durante o preparo. As lâminas serrilhadas em aço inox garantem um desempenho excelente, cortando rapidamente desde frutas macias até gelo. Elas também são removíveis e fáceis de limpar. Ajuste a velocidade variável do processo de preparo com autonomia e aproveite os quatro modos de trabalho pré-programados do aparelho: - Função Vitamina: ideal para smoothies e vitaminas cremosas e saborosas. - Função Pulsar: tritura alimentos em intervalos curtos. - Função Gelo: projetada para triturar cubos de gelo com facilidade. - Função Limpar: torna a manutenção do aparelho prática e rápida. O LIQUIDIFICADOR PROSDÓCIMO WB2000 possui pés antiderrapantes e porta fio para mais estabilidade e organização durante o preparo das receitas. Acompanha copo medidor para a adição exata dos ingredientes. Compatível com lava-louças e BPA FREE, o equipamento é feito com materiais seguros para a saúde, garantindo uma alimentação mais saudável para toda a família. Prepare suas receitas favoritas com facilidade e autonomia, sem perder versatilidade ou sabor. O WAP LIQUIDIFICADOR PROSDÓCIMO WB2000 está sempre pronto para o próximo desafio com potência máxima. WAP | Deixa tudo mais fácil.",
-    marca: "Wap",
-    keywords: [
-      "liquidificador wap 2l",
-      "liquidificador de vidro",
-      "liquidificador 900w",
-      "liquidificador profissional"
-    ],
-    seoTitle: "Liquidificador Wap 2L 900W | Oferta",
-    seoDescription: "Liquidificador Wap WB2000 com copo de vidro 2L, 900W, 4 funções e 37% OFF. Ideal para smoothies, gelo e mais. Compre agora!",
-  },
+  id: "p-imp-035",
+  slug: "liquidificador-individual-moedor-cafe-1200w-1-5l",
+  category: "liquidificadores",
+  mainCategory: "eletrodomesticos",
+  name: "Liquidificador COMFCASA 3 em 1 1200W com Moedor de Café e Jarro de Vidro 1,5L",
+  imageFile: "/imagens/produtos/liquidificador-individual-moedor-cafe-1200w-1-5l.webp",
+  displayImage: "/imagens/produtos/liquidificador-individual-moedor-cafe-1200w-1-5l.webp",
+  alt: "Liquidificador COMFCASA 3 em 1 com 1200W, moedor de café e jarro de vidro de 1,5 litros",
+  rating: 3.8,
+  reviews: 4,
+  discount: 36,
+  price: 269.40,
+  originalPrice: 459.00,
+  badge: "",
+  platform: "",
+  affiliateLink: "https://meli.la/2YoxeuQ",
+  descricao: ` # Liquidificador COMFCASA 3 em 1 com Moedor de Café e Jarro de Vidro ## 📌 Introdução O **Liquidificador COMFCASA 3 em 1** é uma estação de trabalho multifuncional para a cozinha. Com motor de 1200W e lâminas em aço inoxidável 304, ele foi desenvolvido para preparar sucos, triturar gelo e moer grãos de café. O diferencial deste modelo é o conjunto de acessórios que o transforma em liquidificador, moedor e copo de viagem, otimizando espaço na bancada. ## 📌 Principais Benefícios e Funcionalidades - **Potência e Versatilidade:** Motor de 1200W com 2 velocidades e função Pulse, ideal para triturar ingredientes mais duros como gelo e frutas congeladas. - **Jarro em Vidro:** O copo principal de 1,5 litros é feito em vidro, material que não retém odores e facilita a higienização. - **Acessórios Inclusos:** Além do jarro principal, acompanha um copo de viagem (600ml), um recipiente multiuso (800ml) e um moedor para café e temperos (150ml). - **Função Autolimpante:** Permite limpeza rápida adicionando água morna e detergente no jarro e acionando a função Pulse. - **Design Compacto:** Estrutura com dimensões reduzidas (230 x 185 x 315 mm) e porta-fio integrado para manter a bancada organizada. ## 📌 O Que Vem na Embalagem Para garantir transparência sobre o produto, é importante destacar que a base do liquidificador conta com acabamento em aço inoxidável, enquanto os acessórios complementares (copo de viagem, recipiente multiuso e moedor) são fabricados em plástico resistente. O conjunto completo inclui: 1. Liquidificador com jarro de vidro (1,5L) 2. Moedor de café e temperos (150ml) 3. Copo de viagem (600ml) 4. Recipiente multiuso (800ml) 5. Manual de instruções ## 📌 Ideal para - Quem busca um aparelho multifuncional para economizar espaço na cozinha. - Entusiastas de café que desejam moer grãos frescos antes do preparo. - Pessoas com rotina corrida que precisam do copo de viagem para levar bebidas para o trabalho ou academia. - Preparo de smoothies, vitaminas e molhos no dia a dia. ## 📌 Dúvidas Frequentes (FAQ) **1. O liquidificador é potente o suficiente para triturar gelo?** Sim. Com 1200W de potência, lâminas em aço inoxidável 304 e a função Pulse, ele tritura gelo e frutas congeladas com eficiência. **2. O moedor serve apenas para café?** Não. O compartimento de 150ml também é indicado para moer especiarias, sementes e temperos secos. **3. Os copos e o moedor são de vidro ou plástico?** Apenas o jarro principal do liquidificador é de vidro (1,5L). O copo de viagem (600ml), o recipiente multiuso (800ml) e o moedor (150ml) são de plástico. **4. Como funciona a função autolimpante?** Para limpar o aparelho, basta adicionar água morna e detergente no jarro e acionar a função Pulse por alguns segundos. Os acessórios também são compatíveis com lava-louças. **5. Qual é a voltagem do aparelho?** O produto está disponível nas versões 110V e 220V. Verifique a voltagem no anúncio antes de finalizar a compra. ## 📌 Especificações Técnicas | Especificação | Detalhe | |---------------|---------| | **Marca** | COMFCASA | | **Potência** | 1200W | | **Capacidade do Jarro** | 1,5 Litros (Vidro) | | **Lâminas** | Aço Inoxidável 304 | | **Velocidades** | 2 + Função Pulse | | **Acessórios** | Copo viagem (600ml), Recipiente (800ml), Moedor (150ml) | | **Peso Líquido** | 2,85 kg | | **Dimensões** | 230 x 185 x 315 mm | | **Voltagem** | 110V ou 220V | | **Garantia** | Conforme política do vendedor | ## 📌 Conclusão O **Liquidificador COMFCASA 3 em 1** é uma opção prática para quem precisa de versatilidade na cozinha e quer múltiplos utensílios pagando por um único aparelho. Embora seja um produto com poucas avaliações no mercado, seu custo-benefício e a inclusão do moedor de café e copo de viagem o tornam uma alternativa interessante para rotinas dinâmicas. Aproveite o desconto de 36% e garanta o seu com entrega para todo o Brasil. `,
+  marca: "COMFCASA",
+  keywords: [
+    "liquidificador 3 em 1 com moedor de café",
+    "liquidificador 1200w com jarro de vidro",
+    "liquidificador com copo de viagem",
+    "liquidificador multifuncional comfcasa",
+    "melhor liquidificador para cozinha compacta",
+    "liquidificador com moedor de temperos",
+    "liquidificador autolimpante vidro"
+  ],
+  seoTitle: "Liquidificador 3 em 1 1200W com Moedor de Café e Jarro Vidro",
+  seoDescription: "Liquidificador COMFCASA 3 em 1 com 1200W, jarro de vidro 1,5L, moedor de café e copo de viagem. 36% OFF no Mercado Livre. Veja avaliações e preço!",
+},
+
+
   {
-    id: "p-imp-035",
-    slug: "liquidificador-individual-moedor-cafe-1200w-1-5l",
-    category: "liquidificadores",
-    mainCategory: "eletrodomesticos",
-    name: "Liquidificador Individual E Moedor De Café 1200w 1.5l 200v",
-    imageFile: "/imagens/produtos/liquidificador-individual-moedor-cafe-1200w-1-5l.webp",
-    displayImage: "/imagens/produtos/liquidificador-individual-moedor-cafe-1200w-1-5l.webp",
-    alt: "Liquidificador COMFCASA 3 em 1 com moedor de café 1200W 1.5L",
-    rating: 3.8,
-    reviews: 4,
-    discount: 36,
-    price: 269.40,
-    originalPrice: 459.00,
-    badge: "",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2YoxeuQ",
-    descricao: "A COMFCASA se dedica a criar produtos de alta qualidade para cada cliente, combinando excelência e calor humano; a qualidade cria clássicos, e o atendimento conquista a confiança. Especificações Voltagem: 110V/ 220V Potência: 1200W Capacidade do extrator de suco: 1500 ml Peso líquido: 2,85 kg Dimensões: 230 × 185 × 315 mm Liquidificador potente de 1200 W Com um potente motor de 1200 W, combinado com 6 lâminas afiadas e resistentes de aço inoxidável 304, tritura gelo e frutas congeladas de forma rápida e eficiente para criar deliciosos sucos, smoothies, milkshakes e muito mais. Liquidificador 3 em 1 para conveniência na cozinha O COMFCASA vem com um jarro de vidro de 1,5 L, um copo de viagem de 600ML (plástico) Copo para moer carne de 800 ml e um moedor de 150ML(plástico), oferecendo soluções versáteis de liquidificação para uso doméstico e para desfrutar em qualquer lugar. Projetado para uso na cozinha, é perfeito para qualquer ocasião. 2 velocidades e função Pulse Este liquidificador foi projetado com 2 configurações de velocidade para você manter o controle sobre suas criações de misturas e sucos. E com a função 'Pulse', oferece a opção de usar a velocidade máxima das lâminas para triturar gelo e ingredientes duros e em pedaços mais rapidamente. Jarro de vidro de grande capacidade (1,5 L) O jarro de vidro de 54 oz é feito de um material de vidro resistente e durável, forte o suficiente para qualquer tarefa de mistura ou processamento de alimentos. Sua grande capacidade permite preparar até 6 batidos de uma vez, tornando-o perfeito para uso doméstico e para receber amigos. Autolimpante Despeje um pouco de água morna com sabão no jarro e gire o botão para a posição 'P' por alguns segundos para desfrutar da conveniência da limpeza sem usar as mãos. Design compacto e ideal para viagens Projetado para oferecer conveniência, este liquidificador portátil para shakes e smoothies é leve e compacto, tornando-o ideal para entusiastas do fitness e viajantes. Prepare suas bebidas favoritas em qualquer lugar. Atendimento pós-venda Contamos com uma equipe profissional de atendimento pós-venda. Se você tiver alguma dúvida sobre o liquidificador COMFCASA, responderemos em até 24 horas. Garantia do vendedor: 30 dias",
-    marca: "COMFCASA",
-    keywords: [
-      "liquidificador 3 em 1",
-      "liquidificador com moedor de café",
-      "liquidificador 1200w",
-      "liquidificador individual"
-    ],
-    seoTitle: "Liquidificador 3 em 1 1200W com Moedor | Oferta",
-    seoDescription: "Liquidificador COMFCASA 3 em 1 com moedor, 1200W, jarro de vidro 1.5L e 36% OFF. Frete grátis e autolimpante. Compre agora!",
-  },
+  id: "p-imp-036",
+  slug: "fritadeira-eletrica-mondial-oven-12l-preta",
+  category: "air-fryers",
+  mainCategory: "eletrodomesticos",
+  name: "Fritadeira Elétrica AFON-12L-BG Forno Oven 12 Litros Preta Mondial",
+  imageFile: "/imagens/produtos/fritadeira-eletrica-mondial-oven-12l-preta.webp",
+  displayImage: "/imagens/produtos/fritadeira-eletrica-mondial-oven-12l-preta.webp",
+  alt: "Fritadeira Elétrica Mondial Oven 12L Preta com forno e air fryer",
+  rating: 4.9,
+  reviews: 39843,
+  discount: 49,
+  price: 475.20,
+  originalPrice: 899.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1rToNS9",
+  descricao: ` # Fritadeira Elétrica Mondial Oven 12L Air Fryer + Forno ## 📌 Introdução A **Fritadeira Elétrica Mondial Oven AFON-12L-BG** é um aparelho 2 em 1 que combina a tecnologia da Air Fryer com o espaço e a versatilidade de um forno elétrico. Com capacidade de 12 litros, ela permite assar, cozinhar e fritar sem óleo, sendo ideal para preparar grandes porções em famílias grandes. ## 📌 Principais Benefícios **Capacidade de 12 Litros:** Diferente das Air Fryers convencionais, este modelo comporta grandes porções de uma só vez, acomodando até 3 assadeiras simultaneamente. **3 Assadeiras Antiaderentes:** Acompanha 2 assadeiras perfuradas e 1 fechada, permitindo preparar 3 receitas diferentes ao mesmo tempo, economizando tempo e energia. **Painel Digital com 10 Funções:** Receitas predefinidas para batata, frango, carne, peixe, camarão, pão de queijo, pizza, bolo, legumes e a função reaquecer. Cozinhe com apenas 1 clique. **Iluminação Interna e Visor:** Porta com amplo visor de vidro e luz interna para acompanhar o preparo sem precisar abrir a porta. **Sem Óleo e Mais Saudável:** Sistema de circulação de ar quente que dispensa o uso de óleo, resultando em refeições mais saudáveis e sem cheiro de fritura na cozinha. ## 📌 Especificações Técnicas - **Marca:** Mondial - **Modelo:** AFON-12L-BG (Oven) - **Cor:** Preta - **Capacidade:** 12 Litros - **Funções Predefinidas:** 10 receitas - **Timer:** Até 90 minutos - **Controle de Temperatura:** Sim - **Acessórios Inclusos:** 3 Assadeiras antiaderentes - **Garantia:** 12 meses ## 📌 Conclusão A **Mondial Oven 12L** é a escolha definitiva para quem busca a praticidade de uma Air Fryer com a capacidade de um forno elétrico. Com 49% de desconto e selo de "Mais Vendido", é um aparelho robusto, econômico e perfeito para a rotina agitada. `,
+  marca: "Mondial",
+  keywords: [
+    "air fryer mundial 12l", 
+    "fritadeira sem óleo forno", 
+    "fritadeira elétrica grande",
+    "air fryer oven mondial",
+    "fritadeira com 3 assadeiras",
+    "melhor air fryer para família grande"
+  ],
+  seoTitle: "Air Fryer Mondial 12L Forno Oven | Oferta Imperdível",
+  seoDescription: "Fritadeira elétrica Mondial Oven 12L, 2 em 1 (air fryer + forno), 10 funções e 3 assadeiras. 49% OFF e frete para todo Brasil. Compre agora!",
+},
+{
+  id: "p-imp-037",
+  slug: "lava-loucas-brastemp-8-servicos-preta-blf08ae",
+  category: "eletrodomesticos",
+  mainCategory: "eletrodomesticos",
+  name: "Lava-Louças Brastemp 8 Serviços Preta BLF08AE",
+  imageFile: "/imagens/produtos/lava-loucas-brastemp-8-servicos-preta-blf08ae.webp",
+  displayImage: "/imagens/produtos/lava-loucas-brastemp-8-servicos-preta-blf08ae.webp",
+  alt: "Lava-Louças Brastemp 8 Serviços Preta BLF08AE",
+  rating: 4.9,
+  reviews: 361,
+  discount: 10,
+  price: 1795.20,
+  originalPrice: 2059.99,
+  badge: "Mais Vendido",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/3qL6V6vUSZ",
+  descricao: ` # Lava-Louças Brastemp 8 Serviços Preta BLF08AE ## 📌 Introdução A **Lava-Louças Brastemp 8 Serviços (BLF08AE)** é líder de vendas no Brasil e a escolha ideal para quem busca praticidade, economia e design moderno na cozinha. Com capacidade para 8 serviços, ela remove sujeiras difíceis com alta pressão de água, poupando seu tempo e reduzindo o consumo de recursos. ## 📌 Principais Benefícios **Economia de Água e Energia:** Consome até 97 litros a menos de água por lavagem em comparação à lavagem manual, além de ter o menor consumo de energia entre os concorrentes. **Alta Performance de Limpeza:** Jatos de água em alta pressão potencializam a ação dos detergentes, removendo gorduras pesadas e alimentos queimados. **Capacidade para 8 Serviços:** Ideal para famílias de até 4 pessoas, comportando pratos, talheres e panelas do dia a dia. **Design Compacto e Elegante:** Acabamento na cor preta com dimensões otimizadas (63x51x65 cm) para se adaptar a diferentes espaços na cozinha. ## 📌 Especificações Técnicas - **Marca:** Brastemp - **Modelo:** BLF08AE - **Cor:** Preta - **Capacidade:** 8 serviços (até 4 pessoas) - **Economia de água:** Até 97 litros por ciclo vs. manual - **Dimensões:** 63 cm (A) x 51 cm (L) x 65 cm (P) - **Garantia:** 12 meses ## 📌 Conclusão A **Lava-Louças Brastemp BLF08AE** é um investimento em tempo e higiene para a sua casa. Com excelente avaliação (4.9 estrelas) e design premium, ela é a melhor custo-benefício do mercado nacional. `,
+  marca: "Brastemp",
+  keywords: [
+    "lava louças brastemp 8 serviços", 
+    "blf08ae", 
+    "lava louças preta",
+    "melhor lava louças custo benefício",
+    "lava louças para família pequena",
+    "lava louças que economiza água"
+  ],
+  seoTitle: "Lava-Louças Brastemp 8 Serviços Preta BLF08AE | Oferta",
+  seoDescription: "Lava-Louças Brastemp 8 serviços pretas BLF08AE: economia de água e energia, design moderno, 4.9 estrelas. Aproveite a oferta com 10% OFF!",
+},
+{
+  id: "p-imp-038",
+  slug: "ar-condicionado-split-hq-9000-btu-frio",
+  category: "ar-condicionado",
+  mainCategory: "eletrodomesticos",
+  name: "Ar Condicionado Split HQ Inverter 9.000 BTU/h Frio Branco 220V",
+  imageFile: "/imagens/produtos/ar-condicionado-split-hq-9000-btu-frio.webp",
+  displayImage: "/imagens/produtos/ar-condicionado-split-hq-9000-btu-frio.webp",
+  alt: "Ar Condicionado Split HQ Inverter 9.000 BTU/h Frio Branco 220V",
+  rating: 4.8,
+  reviews: 677,
+  discount: 11,
+  price: 1429.00,
+  originalPrice: 1623.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/19cEKNX",
+  descricao: ` # Ar Condicionado Split HQ Inverter 9.000 BTUs Frio 220V ## 📌 Introdução O **Ar Condicionado Split HQ Inverter 9.000 BTUs** é projetado para oferecer conforto térmico com máxima economia de energia. Ideal para quartos, salas e escritórios de até 15m², o aparelho utiliza tecnologia Inverter de última geração, garantindo refrigeração rápida, temperatura estável e operação silenciosa. ## 📌 Principais Benefícios **Tecnologia Inverter:** O compressor ajusta a potência continuamente, evitando picos de energia. Isso resulta em consumo até 40% menor que modelos convencionais e maior durabilidade. **Operação Silenciosa:** A evaporadora emite apenas 35 dB, proporcionando noites de sono tranquilas sem ruídos incômodos. **Classe Energética A:** Consumo anual de apenas 380 kWh, garantindo economia na conta de luz. **Ar Mais Saudável:** Conta com sistema de Auto Limpeza para evitar fungos e bactérias, além de Filtro Múltiplo que retém impurezas, melhorando a qualidade do ar. **Gás R32:** Mais ecológico e com maior eficiência energética. ## 📌 Funcionalidades - Modo Turbo: Resfriamento rápido em poucos minutos. - Modo Silêncio: Operação ainda mais baixa para a noite. - Modo Desumidificação: Remove o excesso de umidade do ar. - Swing Vertical: Distribuição uniforme do ar. ## 📌 Especificações Técnicas - **Marca:** HQ - **Modelo:** VIHT9KCO3S2S13 - **Tipo:** Split Hi-Wall Inverter - **Ciclo:** Frio - **Cor:** Branca - **Voltagem:** 220V - **Capacidade:** 9.000 BTUs/h - **Classe Energética:** A - **Consumo:** 380 kWh/ano - **Área recomendada:** Até 15 m² - **Nível de Ruído:** 35 dB (Evaporadora) - **Gás Refrigerante:** R32 - **Garantia:** 12 meses ## 📌 Dúvidas Frequentes (FAQ) **1. Qual a metragem que ele atende?** É ideal para ambientes de até 15m², como quartos, salas pequenas e escritórios. **2. Ele gasta muita energia?** Não. Com tecnologia Inverter e classe A, ele consome apenas 380 kWh por ano, sendo um dos mais econômicos da categoria. **3. Este modelo é quente e frio?** Não, este modelo é exclusivamente ciclo frio. **4. Qual a voltagem?** Este modelo é exclusivo para 220V. ## 📌 Conclusão O **Ar Condicionado HQ 9.000 BTUs Inverter** é a união perfeita entre economia, silêncio e eficiência. Avaliado em 4.8 estrelas por mais de 670 clientes, é a escolha inteligente para climatizar seu ambiente com baixo custo operacional. `,
+  marca: "HQ",
+  keywords: [
+    "ar condicionado 9000 btus inverter", 
+    "split frio economico", 
+    "ar condicionado silencioso 35db",
+    "melhor ar condicionado para quarto",
+    "ar condicionado gás r32",
+    "ar condicionado hq 9000 btus"
+  ],
+  seoTitle: "Ar Condicionado Split 9000 BTU Inverter Frio 220V | HQ",
+  seoDescription: "Ar Condicionado Split HQ Inverter 9.000 BTU/h frio com classe A, economia de energia, silencioso (35 dB) e ideal para até 15m². 11% OFF. Compre agora!",
+},
+
   {
-    id: "p-imp-036",
-    slug: "fritadeira-eletrica-mondial-oven-12l-preta",
-    category: "air-fryers",
-    mainCategory: "eletrodomesticos",
-    name: "Fritadeira Elétrica AFON-12L-BG Forno Oven 12 Litros Preta Mondial",
-    imageFile: "/imagens/produtos/fritadeira-eletrica-mondial-oven-12l-preta.webp",
-    displayImage: "/imagens/produtos/fritadeira-eletrica-mondial-oven-12l-preta.webp",
-    alt: "Fritadeira Elétrica Mondial Oven 12L Preta com forno e air fryer",
-    rating: 4.9,
-    reviews: 39843,
-    discount: 49,
-    price: 475.20,
-    originalPrice: 899.00,
-    badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1rToNS9",
-    descricao: "A Air Fryer Forno Mondial é 2 em 1: fritadeira a ar com o espaço e a versatilidade de um forno. Você pode assar, cozinhar e fritar sem óleo, produzindo receitas muito mais saudáveis! Com 12 litros de capacidade, possui 3 assadeiras para preparar pão de queijo, nuggets, legumes, peixes e muito mais. Conta com painel digital com 10 funções predefinidas, controle de temperatura e timer de 90 minutos. Experimente a praticidade e versatilidade da Air Fryer Forno AFON-12L-BG da Mondial e transforme suas receitas! 2 EM 1 - AIR FRYER + FORNO A família de Air Fryers Mondial continua crescendo! O modelo OVEN une as vantagens da tecnologia da Air Fryer ao espaço e versatilidade do forno. Você pode assar, cozinhar e fritar sem óleo e com excelentes resultados. CAPACIDADE TOTAL DE 12 LITROS Prepare grandes porções e de uma só vez. São 12 litros de capacidade: a Air Fryer Forno da Mondial é uma gigante na categoria! 3 ASSADEIRAS ANTIADERENTES São 2 assadeiras perfuradas e 1 assadeira fechada, perfeitas para o preparo de diferentes receitas. Tudo fácil de usar e limpar. PREPARE ATÉ 3 RECEITAS DE UMA VEZ Com as 3 assadeiras, dispostas em prateleiras, a OVEN é multifuncional e permite o preparo de até 3 receitas de uma só vez. Você ganha mais versatilidade e tempo na hora de cozinhar. PAINEL DIGITAL COM 10 FUNÇÕES PREDEFINIDAS Prepare receitas com apenas 1 clique! As funções predefinidas são: batata, frango, carne, peixe, camarão, pão de queijo, pizza, bolo, legumes e a função reaquecer. PORTA COM AMPLO VISOR + ILUMINAÇÃO INTERNA Praticidade para visualizar as receitas durante o preparo. ALIMENTAÇÃO MAIS SAUDÁVEL Por não precisar de óleo no preparo das receitas, a Air Fryer permite uma rotina alimentar com mais sabor e saúde. MAIS ECONÔMICA A Air Fryer é uma opção mais econômica devido ao seu sistema de termostato, que regula a temperatura de forma eficiente e evita que o aparelho permaneça ligado constantemente. É a escolha inteligente para uma cozinha econômica e eficiente! PRATICIDADE E RAPIDEZ NA COZINHA A Tecnologia de Circulação de Ar Quente e a alta potência possibilitam rapidez no preparo das receitas. Aliado a isso, a função Timer de 90 minutos proporciona a liberdade para você se dedicar a outras tarefas enquanto a Air Fryer trabalha para você. FACILIDADE NA LIMPEZA Já imaginou fazer uma fritura sem deixar a cozinha completamente suja? A Fritadeira Elétrica te proporciona isso: evita um ambiente engordurado, com fumaça e cheiro de fritura. MUITO MAIS QUE BATATA FRITA. INVISTA EM MAIS RECEITAS! A Air Fryer Forno é versátil e permite que você prepare pratos que vão muito além da clássica batata frita. É possível preparar legumes, parmegianas, picanha ao alho, carne assada, rocamboles, peixes, além de receitas doces, como tortinhas de banana, cheesecakes, pudim de leite condensado e cookies. Use sua criatividade e mãos à obra! A Mondial é a escolha de milhões de consumidores. Mondial, a escolha inteligente!",
-    marca: "Mondial",
-    keywords: [
-      "air fryer mondial 12l",
-      "fritadeira sem óleo forno",
-      "fritadeira elétrica grande",
-      "air fryer oven mondial"
-    ],
-    seoTitle: "Air Fryer Mondial 12L Forno Oven | Oferta",
-    seoDescription: "Fritadeira elétrica Mondial Oven 12L, 2 em 1 (air fryer + forno), 10 funções, 49% OFF. Sem óleo e mais saudável. Compre agora!",
-  },
-  // ===================== NOVOS ELETRODOMÉSTICOS (2025) =====================
-  {
-    id: "p-imp-037",
-    slug: "lava-loucas-brastemp-8-servicos-preta-blf08ae",
-    category: "eletrodomesticos",
-    mainCategory: "eletrodomesticos",
-    name: "Lava-Louças Brastemp 8 Serviços Preta BLF08AE",
-    imageFile: "/imagens/produtos/lava-loucas-brastemp-8-servicos-preta-blf08ae.webp",
-    displayImage: "/imagens/produtos/lava-loucas-brastemp-8-servicos-preta-blf08ae.webp",
-    alt: "Lava-Louças Brastemp 8 Serviços Preta BLF08AE",
-    rating: 4.9,
-    reviews: 361,
-    discount: 10,
-    price: 1795.20,
-    originalPrice: 2059.99,
-    badge: "Mais Vendido",
-    platform: "Shopee",
-    affiliateLink: "https://s.shopee.com.br/3qL6V6vUSZ",
-    descricao: "A Lava-Louças Brastemp 8 Serviços Preta (BLF08AE) é a escolha número um dos brasileiros que buscam praticidade, economia e design moderno para a cozinha. Líder de vendas no país, este modelo combina alta pressão de jatos de água com tecnologia que potencializa a ação dos detergentes, removendo até as sujeiras mais difíceis, como gorduras de panelas e alimentos queimados. Econômica, garante o menor consumo de energia elétrica entre os principais concorrentes e proporciona uma economia de água 5 vezes maior (até 97 litros por lavagem) em comparação com a lavagem manual. Com capacidade para 8 serviços, é ideal para famílias de até 4 pessoas. Seu design em preto e dimensões compactas (63 cm de altura, 51 cm de largura e 65 cm de profundidade) se adaptam a diferentes espaços. Dúvidas? Sim, ela é excelente e muito confiável, com uma das melhores avaliações do mercado. Vale a pena pelo custo-benefício, durabilidade e economia.",
-    marca: "Brastemp",
-    keywords: [
-      "lava louças brastemp 8 serviços",
-      "blf08ae",
-      "lava louças preta",
-      "melhor lava louças"
-    ],
-    seoTitle: "Lava-Louças Brastemp 8 Serviços Preta | Mais Vendida",
-    seoDescription: "Lava-Louças Brastemp 8 serviços pretas BLF08AE: economia de água e energia, design moderno, 4.9 estrelas. Aproveite a oferta!",
-  },
-  {
-    id: "p-imp-038",
-    slug: "ar-condicionado-split-hq-9000-btu-frio",
-    category: "ar-condicionado",
-    mainCategory: "eletrodomesticos",
-    name: "Ar Condicionado Split HQ Inverter 9.000 BTU/h Frio Branco 220V",
-    imageFile: "/imagens/produtos/ar-condicionado-split-hq-9000-btu-frio.webp",
-    displayImage: "/imagens/produtos/ar-condicionado-split-hq-9000-btu-frio.webp",
-    alt: "Ar Condicionado Split HQ Inverter 9.000 BTU/h Frio Branco 220V",
-    rating: 4.8,
-    reviews: 677,
-    discount: 11,
-    price: 1429.00,
-    originalPrice: 1623.00,
-    badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/19cEKNX",
-    descricao: "O Ar Condicionado Split HQ Inverter 9.000 BTU/h Frio é a escolha inteligente para quem busca conforto térmico, economia de energia e alto desempenho em ambientes residenciais ou comerciais. Com tecnologia Inverter de última geração, este aparelho oferece refrigeração rápida e eficiente, mantendo a temperatura estável mesmo nos dias mais quentes, com um consumo de energia muito menor que os modelos convencionais. Ideal para quartos, salas e escritórios de até 15m², ele entrega potência de sobra para garantir o seu bem-estar. Com classificação energética A, o Ar Condicionado HQ 9.000 BTUs é sinônimo de economia na conta de luz, consumindo apenas 380 kWh por ano. Sua operação é extremamente silenciosa — a evaporadora emite apenas 35 dB, proporcionando noites de sono tranquilas e ambientes de trabalho sem ruídos incômodos. O design moderno e discreto na cor branca valoriza qualquer decoração, e a instalação é prática e segura, seguindo todos os padrões técnicos. Tecnologia Inverter de alto desempenho com compressor que ajusta a potência continuamente, evitando picos de energia e garantindo maior durabilidade. Função Turbo para resfriamento rápido em poucos minutos, ideal para aqueles dias de calor extremo. Modo Silêncio para operação ainda mais silenciosa durante a noite. Modo Desumidificação que remove o excesso de umidade do ar, tornando o ambiente mais saudável e confortável. Sistema de Auto Limpeza que mantém o aparelho livre de fungos e bactérias, garantindo ar puro e qualidade para sua respiração. Filtro Múltiplo que retém impurezas e partículas, melhorando a qualidade do ar. Swing Vertical com oscilação automática das aletas para distribuir o ar de forma uniforme por todo o ambiente. Gás Refrigerante R32, mais ecológico e com maior eficiência energética. Dúvidas Frequentes dos Nossos Clientes: - Este ar condicionado é bom mesmo? Vale a pena comprar? Sim! É um dos modelos mais vendidos do Brasil, com nota 4.8 estrelas em mais de 670 avaliações. Os clientes destacam a economia de energia, o silêncio e a eficiência da refrigeração. - Ele gasta muita luz? Não. Com classificação A e tecnologia Inverter, ele consome até 40% menos energia que os modelos convencionais. O consumo anual é de apenas 380 kWh, um dos menores da categoria. - Qual a área que ele atende? Ideal para ambientes de até 15m², como quartos, salas pequenas e escritórios. - Ele funciona em 220V? Sim, este modelo é exclusivo para 220V, com instalação monofásica. - Qual o nível de ruído? A evaporadora opera com apenas 35 dB, um dos mais silenciosos do mercado — perfeito para quartos e ambientes que exigem tranquilidade. - Ele tem função quente? Este modelo é apenas frio. Se você precisa de aquecimento, recomendamos o modelo com ciclo quente/frio da mesma linha. Especificações Técnicas: Marca: HQ, Modelo: VIHT9KCO3S2S13, Tipo: Split Hi-Wall, Tecnologia: Inverter, Ciclo: Frio, Cor: Branca, Voltagem: 220V, Classe Energética: A, Consumo: 380 kWh/ano, Capacidade: 9.000 BTUs/h, Potência Elétrica: 1.250 W, Ideal até: 15 m², Vazão de Ar: 500 m³/h, Gás Refrigerante: R32, Nível de Ruído Evaporadora: 35 dB, Condensadora: 53 dB, Swing Vertical: Sim, Modo Silêncio: Sim, Filtro Múltiplo: Sim, Modo Desumidificação: Sim, Auto Limpeza: Sim, Modo Turbo: Sim. Dimensões Evaporadora (AxLxP): 19 x 69,8 x 25,5 cm. Dimensões Condensadora (AxLxP): 45,9 x 71,2 x 27,6 cm. Conteúdo da Embalagem: 1 Evaporadora + Kit de acessórios e 1 Condensadora.",
-    marca: "HQ",
-    keywords: [
-      "ar condicionado 9000 btus inverter",
-      "split frio economico",
-      "ar condicionado silencioso",
-      "melhor ar condicionado 2025"
-    ],
-    seoTitle: "Ar Condicionado Split 9000 BTU Inverter Frio | Oferta",
-    seoDescription: "Ar Condicionado Split HQ Inverter 9.000 BTU/h frio com classificação A, economia de energia, silencioso (35 dB) e ideal para até 15m². 11% OFF. Compre agora!",
-  },
-  {
-    id: "p-imp-039",
-    slug: "ar-condicionado-midea-airvolution-9000-btu-frio",
-    category: "ar-condicionado",
-    mainCategory: "eletrodomesticos",
-    name: "Ar Condicionado Split Inverter Midea Airvolution 9.000 BTUs Frio Branco 220V",
-    imageFile: "/imagens/produtos/ar-condicionado-midea-airvolution-9000-btu-frio.webp",
-    displayImage: "/imagens/produtos/ar-condicionado-midea-airvolution-9000-btu-frio.webp",
-    alt: "Ar Condicionado Split Inverter Midea Airvolution 9.000 BTUs Frio Branco 220V",
-    rating: 4.8,
-    reviews: 70,
-    discount: 12,
-    price: 1699.00,
-    originalPrice: 1949.00,
-    badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2Br5TZe",
-    descricao: "O Ar Condicionado Split Inverter Midea Airvolution 9.000 BTUs Frio é a solução ideal para quem busca conforto térmico, economia de energia e tecnologia de ponta para quartos, home offices e salas de até 15m². Com design moderno e compacto — ocupando até 35% menos espaço que alguns concorrentes — este modelo da Midea entrega refrigeração eficiente com operação silenciosa, perfeita para noites de sono tranquilas. Tecnologia Inverter de Alto Desempenho: o compressor Inverter ajusta a potência continuamente, eliminando picos de energia e proporcionando estabilidade térmica, além de maior durabilidade. A exclusiva tecnologia Black Fin torna a condensadora 12,5x mais resistente à corrosão, ideal para regiões litorâneas ou com alta umidade. O gás refrigerante R-32 é mais ecológico e eficiente. Funções Inteligentes para o Seu Conforto: Modo Turbo para refrigeração ultrarrápida em até 30 segundos, Modo Silêncio para operação com baixo nível de ruído, Modo Desumidificação para remover o excesso de umidade do ar, Modo Brisa Indireta para evitar que o ar frio incida diretamente sobre você, Função Siga-me para o controle remoto priorizar a temperatura onde você está, Sistema de Autolimpeza para manter o aparelho livre de fungos e bactérias, Função Timer para programar o desligamento automático, Swing vertical com oscilação automática das aletas para distribuição uniforme do ar. Dúvidas Frequentes dos Nossos Clientes: Este ar condicionado Midea é bom mesmo? Vale a pena comprar? Sim! Os usuários elogiam a excelente qualidade, a operação silenciosa e a economia de energia. É um dos modelos com melhor custo-benefício de 2025. Qual a área que ele atende? Ideal para ambientes de até 15m², como quartos, home offices ou salas pequenas. Ele gasta muita energia? O consumo anual é de 473,9 kWh. Na prática, o uso apenas para dormir não fica caro na conta de luz. Ele é silencioso? Sim! É amplamente elogiado por sua operação silenciosa. A evaporadora é projetada para funcionar com baixo ruído. Como funciona a garantia? São 3 meses de garantia legal + 21 meses de garantia estendida, totalizando 2 anos a partir da nota fiscal, desde que instalado por empresa credenciada Midea. Especificações Técnicas: Marca: Midea, Modelo Evaporadora: 42EBVCA09M5, Modelo Condensadora: 38TBVCA09M5, Tecnologia: Split Inverter, Ciclo: Frio, Capacidade: 9.000 BTUs, Voltagem: 220V, Classe Energética: D, Consumo: 473,9 kWh/ano, Vazão de Ar: 629 m³/h, Gás Refrigerante: R-32, Serpentina: Cobre, Desnível Máximo: 10m, Bitola: Sucção 3/8\" - Expansão 1/4\", Funções: Turbo, Brisa indireta, Timer, Autolimpeza, Swing, Siga-me, Conectividade Wi-Fi: Não, Dimensões Evaporadora (LxAxP): 72,3 x 28,6 x 19,9 cm, Dimensões Condensadora (LxAxP): 38,6 x 55,8 x 46,1 cm, Peso Evaporadora: 8,12 Kg, Peso Condensadora: 19,6 Kg, Nível de Ruído: 50-60 dB",
-    marca: "Midea",
-    keywords: [
-      "ar condicionado midea 9000 btus",
-      "split inverter midea airvolution",
-      "ar condicionado silencioso",
-      "melhor ar condicionado custo beneficio"
-    ],
-    seoTitle: "Ar Condicionado Midea 9000 BTUs Inverter | Oferta",
-    seoDescription: "Ar Condicionado Split Midea Airvolution 9.000 BTUs Inverter frio, silencioso, com economia de energia. Ideal para quartos até 15m². 12% OFF. Compre agora!",
-  },
-  {
-    id: "p-imp-040",
-    slug: "ar-condicionado-gree-9000-btu-frio-wifi",
-    category: "ar-condicionado",
-    mainCategory: "eletrodomesticos",
-    name: "Ar Condicionado Split Gree G-Top Inverter 9000 BTU Frio Wi-Fi 220V",
-    imageFile: "/imagens/produtos/arcondicionado_gree_gtop_9000btus_frio_wifi.webp",
-    displayImage: "/imagens/produtos/arcondicionado_gree_gtop_9000btus_frio_wifi.webp",
-    alt: "Ar Condicionado Split Gree G-Top Inverter 9000 BTU Frio Wi-Fi 220V",
-    rating: 4.9,
-    reviews: 442,
-    discount: 6,
-    price: 2149.00,
-    originalPrice: 2289.00,
-    badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1jgvCxw",
-    descricao: "O Ar Condicionado Split Gree G-Top Auto Inverter 9000 BTU Frio com Wi-Fi é o topo de linha da Gree. Com a maior garantia do mercado (10 anos no compressor, 5 anos nas peças), ele une tecnologia Inverter, classificação energética A e consumo anual de apenas 363 kWh. O sistema Ion Clean e Auto Clean elimina 99,99% de fungos, bactérias e vírus, garantindo ar puro. A conectividade Wi-Fi permite controle remoto pelo celular. Design com proteção anticorrosão Blue Fin e Golden Fin, ideal para regiões litorâneas. Dúvidas frequentes: Vale a pena? Sim! Melhor custo-benefício com garantia estendida e alta eficiência. Gasta pouca energia. Área atendida: 12 a 18m². Wi-Fi funciona bem. Garantia real: 10 anos no compressor e 5 anos nas peças funcionais. Especificações: Gree | G-Top Auto Inverter | 9000 BTUs | 220V | Monofásico | Classe A | R32 | Wi-Fi | Ion Clean | Auto Clean | Turbo | Blue Fin / Golden Fin.",
-    marca: "Gree",
-    keywords: [
-      "ar condicionado gree 9000 btus inverter",
-      "gree g-top auto inverter",
-      "ar condicionado com wifi",
-      "melhor ar condicionado custo beneficio 2025"
-    ],
-    seoTitle: "Ar Condicionado Gree 9000 BTU Inverter Wi-Fi | Oferta",
-    seoDescription: "Ar Condicionado Split Gree G-Top Inverter 9000 BTU frio com Wi-Fi, R32, classe A e maior garantia do mercado. Ideal para 18m². 6% OFF. Compre agora!",
-  },
-  {
+  id: "p-imp-039",
+  slug: "ar-condicionado-midea-airvolution-9000-btu-frio",
+  category: "ar-condicionado",
+  mainCategory: "eletrodomesticos",
+  name: "Ar Condicionado Split Inverter Midea Airvolution 9.000 BTUs Frio Branco 220V",
+  imageFile: "/imagens/produtos/ar-condicionado-midea-airvolution-9000-btu-frio.webp",
+  displayImage: "/imagens/produtos/ar-condicionado-midea-airvolution-9000-btu-firo.webp",
+  alt: "Ar Condicionado Split Inverter Midea Airvolution 9.000 BTUs Frio Branco 220V",
+  rating: 4.8,
+  reviews: 70,
+  discount: 12,
+  price: 1699.00,
+  originalPrice: 1949.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2Br5TZe",
+  descricao: ` # Ar Condicionado Split Inverter Midea Airvolution 9.000 BTUs Frio ## 📌 Introdução O **Ar Condicionado Midea Airvolution 9.000 BTUs** com tecnologia Inverter é projetado para quem busca conforto térmico, economia e silêncio em ambientes de até 15m². Com design compacto e tecnologias exclusivas, ele entrega refrigeração eficiente com baixo consumo de energia. ## 📌 Principais Benefícios **Tecnologia Inverter:** Compressor que ajusta a potência continuamente, oferecendo estabilidade térmica, menor consumo de energia e maior durabilidade. **Black Fin (Anti-Corrosão):** A condensadora é 12,5x mais resistente à corrosão, sendo ideal para regiões litorâneas ou com alta umidade. **Gás R-32:** Mais ecológico e com maior eficiência energética. **Operação Silenciosa:** Projetada para funcionar com baixo nível de ruído, perfeita para quartos e home offices. ## 📌 Funcionalidades Inteligentes - **Modo Turbo:** Refrigeração ultrarrápida em até 30 segundos. - **Brisa Indireta:** Evita que o ar frio incida diretamente sobre o corpo. - **Siga-me:** O controle remoto prioriza a temperatura do ambiente onde você está. - **Autolimpeza:** Mantém o aparelho livre de fungos e bactérias. ## 📌 Especificações Técnicas - **Marca:** Midea - **Capacidade:** 9.000 BTUs (Ciclo Frio) - **Voltagem:** 220V - **Classe Energética:** D - **Consumo:** 473,9 kWh/ano - **Gás Refrigerante:** R-32 - **Área recomendada:** Até 15 m² - **Garantia:** 3 meses legal + 21 meses estendida (instalação credenciada) ## 📌 Conclusão O **Midea Airvolution** é uma excelente opção para quem busca custo-benefício, durabilidade e tecnologia em climatização. Ideal para garantir noites de sono tranquilas e ambientes de trabalho produtivos. `,
+  marca: "Midea",
+  keywords: [ "ar condicionado midea 9000 btus", "split inverter midea airvolution", "ar condicionado silencioso", "melhor ar condicionado custo beneficio" ],
+  seoTitle: "Ar Condicionado Midea 9000 BTUs Inverter | Oferta",
+  seoDescription: "Ar Condicionado Split Midea Airvolution 9.000 BTUs Inverter frio, silencioso, com economia de energia. Ideal para quartos até 15m². 12% OFF!",
+},
+{
+  id: "p-imp-040",
+  slug: "ar-condicionado-gree-9000-btu-frio-wifi",
+  category: "ar-condicionado",
+  mainCategory: "eletrodomesticos",
+  name: "Ar Condicionado Split Gree G-Top Inverter 9000 BTU Frio Wi-Fi 220V",
+  imageFile: "/imagens/produtos/arcondicionado_gree_gtop_9000btus_frio_wifi.webp",
+  displayImage: "/imagens/produtos/arcondicionado_gree_gtop_9000btus_frio_wifi.webp",
+  alt: "Ar Condicionado Split Gree G-Top Inverter 9000 BTU Frio Wi-Fi 220V",
+  rating: 4.9,
+  reviews: 442,
+  discount: 6,
+  price: 2149.00,
+  originalPrice: 2289.00,
+  badge: "Mais Vendido",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1jgvCxw",
+  descricao: ` # Ar Condicionado Split Gree G-Top Inverter 9000 BTU Frio Wi-Fi ## 📌 Introdução O **Ar Condicionado Gree G-Top Inverter 9.000 BTUs** é o topo de linha da marca, focado em máxima eficiência energética (Classe A), conectividade e saúde do ar. Ideal para ambientes de 12 a 18m², ele une design sofisticado à maior garantia do mercado. ## 📌 Principais Benefícios **Maior Garantia do Mercado:** 10 anos de garantia no compressor e 5 anos nas peças funcionais. **Eficiência Energética:** Classe A no INMETRO, consumindo apenas 363 kWh por ano. **Tecnologia Wi-Fi:** Controle o ar condicionado de onde estiver pelo smartphone. **Ar Puro:** Sistema Ion Clean elimina 99,99% de fungos, bactérias e vírus. ## 📌 Funcionalidades e Proteção - **Auto Clean:** Secomponentes internos para evitar mofo. - **Blue Fin / Golden Fin:** Revestimento anticorrosão nas serpentinas, ideal para áreas litorâneas. - **Gás R32:** Mais sustentável e eficiente. ## 📌 Especificações Técnicas - **Marca:** Gree - **Modelo:** G-Top Auto Inverter - **Capacidade:** 9.000 BTUs (Ciclo Frio) - **Voltagem:** 220V - **Classe Energética:** A - **Gás Refrigerante:** R32 - **Área recomendada:** 12 a 18 m² - **Garantia:** 10 anos (compressor) / 5 anos (peças) ## 📌 Conclusão O **Gree G-Top Wi-Fi** é o investimento definitivo para quem não abre mão da melhor tecnologia, economia na conta de luz e tranquilidade a longo prazo. `,
+  marca: "Gree",
+  keywords: [ "ar condicionado gree 9000 btus inverter", "gree g-top auto inverter", "ar condicionado com wifi", "melhor ar condicionado custo beneficio 2025" ],
+  seoTitle: "Ar Condicionado Gree 9000 BTU Inverter Wi-Fi | Oferta",
+  seoDescription: "Ar Condicionado Split Gree G-Top Inverter 9000 BTU frio com Wi-Fi, R32, classe A e maior garantia do mercado. Ideal para 18m². 6% OFF!",
+},
+{
   id: "p-imp-043",
   slug: "escrivaninha-mesa-giratoria-3-gavetas-home-office-branco",
   category: "home-office",
@@ -1111,43 +2706,11 @@ export const products: Product[] = [
   badge: "Oferta Imperdível",
   platform: "Mercado Livre",
   affiliateLink: "https://meli.la/2NipbPe",
-  descricao: `A Escrivaninha Mesa Giratória da Móveis Bela é a escolha perfeita para quem busca funcionalidade, organização e estilo no ambiente de trabalho ou estudo. Com design moderno e elegante na cor branca, esta mesa se adapta a qualquer decoração, desde home offices profissionais até quartos de estudantes.
-
-Com dimensões de 91 cm de comprimento, 76 cm de altura e 42 cm de profundidade, a mesa oferece espaço suficiente para computadores, notebooks, livros e materiais de escritório. Sua estrutura giratória permite ajustar a posição conforme sua necessidade, proporcionando mais conforto e versatilidade durante o dia a dia.
-
-Possui três gavetas espaçosas com corrediças suaves que garantem fácil acesso a documentos, canetas, cadernos e outros itens essenciais. As prateleiras adicionais ampliam a capacidade de armazenamento, mantendo tudo organizado e ao alcance das mãos.
-
-Fabricada em MDP de alta qualidade, esta escrivaninha é resistente e suporta até 25 kg, ideal para suportar monitores, impressoras e todos os equipamentos do seu setup. A montagem é simples e rápida — acompanha manual de instruções e kit completo de instalação.
-
-**Por que escolher esta escrivaninha?**
-- Espaço inteligente: 3 gavetas + prateleiras para máxima organização
-- Design versátil: cor branca combina com qualquer ambiente
-- Resistente: suporta até 25 kg, ideal para computadores e monitores
-- Prática: estrutura giratória e dobrável para otimizar espaços
-- Montagem facilitada: manual e kit de instalação inclusos
-
-**Dúvidas frequentes dos nossos clientes:**
-- Esta escrivaninha é boa para home office? Sim! Com 91 cm de comprimento e estrutura giratória, ela é perfeita para quem trabalha em casa, oferecendo espaço para notebooks e monitores.
-- Cabe um monitor grande? Sim, a mesa suporta até 25 kg, comportando monitores de até 32 polegadas com tranquilidade.
-- É fácil de montar? Sim, acompanha manual ilustrado e kit de montagem. Em média, leva 30 minutos para montar.
-- As gavetas são espaçosas? Sim, três gavetas com corrediças suaves, ideais para organizar documentos, canetas e materiais de escritório.
-- Serve para quarto de estudante? Perfeitamente! Seu design compacto e funcional é ideal para quartos de estudantes, repúblicas e kitnets.
-- Qual o material? É fabricada em MDP de alta qualidade, resistente e durável.
-- O que vem incluso na embalagem? A mesa, as gavetas, prateleiras, kit de montagem e manual de instruções.
-- Vale a pena comprar? Sim! Excelente custo-benefício, com estrutura resistente, design moderno e ótima capacidade de armazenamento.
-
-**Especificações Técnicas:**
-Marca: Móveis Bela | Material: MDP | Cor: Branco | Dimensões: 91 cm (L) x 76 cm (A) x 42 cm (P) | Capacidade: 25 kg | Gavetas: 3 | Prateleiras: Sim | Estrutura: Giratória e dobrável | Uso: Home Office, Escritório, Estudo, Quarto |
-Montagem: Manual + Kit de instalação incluso | Garantia: 3 meses contra defeitos de fabricação.`,
+  descricao: ` # Escrivaninha Mesa Giratória com 3 Gavetas para Home Office ## 📌 Introdução A **Escrivaninha Mesa Giratória** da Móveis Bela é a escolha inteligente para quem precisa de funcionalidade e organização em espaços reduzidos. Seu design em L permite ajustar a posição da mesa conforme a necessidade do ambiente, sendo perfeita para home offices, quartos de estudante e kitnets. ## 📌 Principais Benefícios **Estrutura Giratória:** Permite dobrar a mesa para otimizar espaço quando não estiver em uso ou ajustar o ângulo para melhor ergonomia. **Organização Completa:** Conta com 3 gavetas espaçosas com corrediças suaves e prateleiras laterais para livros e materiais. **Resistência:** Fabricada em MDP de alta qualidade, suportando até 25 kg no tampo, ideal para monitores e notebooks. ## 📌 Especificações Técnicas - **Marca:** Móveis Bela - **Material:** MDP - **Cor:** Branco - **Dimensões:** 91 cm (L) x 76 cm (A) x 42 cm (P) - **Capacidade:** 25 kg - **Gavetas:** 3 - **Garantia:** 3 meses ## 📌 Conclusão Praticidade e organização em um único móvel. Com 24% OFF, esta escrivaninha é ideal para montar seu setup sem comprometer o espaço do quarto. `,
   marca: "Móveis Bela",
-  keywords: [
-    "escrivaninha para home office",
-    "mesa giratória com gavetas",
-    "escrivaninha para estudante",
-    "mesa para computador e escritório"
-  ],
+  keywords: [ "escrivaninha para home office", "mesa giratória com gavetas", "escrivaninha para estudante", "mesa para computador e escritório" ],
   seoTitle: "Escrivaninha Mesa Giratória 3 Gavetas Home Office | Oferta",
-  seoDescription: "Escrivaninha mesa giratória com 3 gavetas e prateleiras para home office, estudo e computador. MDP resistente, design branco, 24% OFF. Frete para todo Brasil."
+  seoDescription: "Escrivaninha mesa giratória com 3 gavetas e prateleiras. MDP resistente, design branco, 24% OFF. Frete para todo Brasil.",
 },
 {
   id: "p-imp-044",
@@ -1166,46 +2729,11 @@ Montagem: Manual + Kit de instalação incluso | Garantia: 3 meses contra defeit
   badge: "Oferta Imperdível",
   platform: "Mercado Livre",
   affiliateLink: "https://meli.la/1STtcbb",
-  descricao: `A Escrivaninha de Canto Estilo Industrial é a solução definitiva para quem busca otimizar espaços sem abrir mão do design e da funcionalidade. Com um formato em U inteligente, esta mesa foi projetada para aproveitar ao máximo os cantos do ambiente, liberando espaço central e criando uma área de trabalho ampla e organizada.
-
-Com impressionantes 180 cm de comprimento, 45 cm de largura e 75 cm de altura, esta escrivaninha oferece uma superfície generosa para acomodar computadores, monitores, impressoras, scanners e todos os equipamentos do seu setup profissional ou de estudo.
-
-**Design Industrial que Transforma seu Ambiente**
-O estilo industrial com estrutura metálica aparente e acabamento em MDF branco traz um ar moderno e sofisticado para qualquer espaço. A combinação de materiais — MDF de alta densidade (1,2 cm de espessura) com estrutura de ferro de alta qualidade — garante estabilidade, resistência e durabilidade excepcionais, suportando até 50 kg.
-
-**Organização Inteligente para Máxima Produtividade**
-As prateleiras laterais (13,5 x 7 cm) são perfeitas para organizar documentos, livros, cadernos e itens de papelaria, mantendo tudo ao alcance das mãos. O design em U permite que você posicione o monitor centralmente e tenha espaço sobrando para anotações, livros e outros materiais.
-
-**Por que escolher esta escrivaninha?**
-- Espaço otimizado: design de canto em U aproveita melhor o ambiente
-- Superfície ampla: 180 cm de comprimento para múltiplos monitores e equipamentos
-- Material premium: MDF de 1,2 cm com estrutura metálica reforçada
-- Capacidade de 50 kg: suporta facilmente todo o seu setup
-- Prateleiras inclusas: organização extra para documentos e acessórios
-- Pés ajustáveis: estabilidade em qualquer tipo de piso
-- Montagem simplificada: acompanha manual e kit de instalação
-
-**Dúvidas frequentes dos nossos clientes:**
-- Esta escrivaninha é boa para home office? Sim! Com 180 cm de comprimento e estrutura robusta, ela é perfeita para quem trabalha em casa e precisa de espaço para múltiplos monitores, impressora e documentos.
-- Cabe em um quarto pequeno? Sim, o design de canto otimiza o espaço, sendo ideal para quartos, repúblicas e kitnets.
-- É resistente? Sim, a estrutura metálica de alta qualidade e o MDF de 1,2 cm suportam até 50 kg — comporta monitores grandes, computadores e impressoras com tranquilidade.
-- É fácil de montar? Sim, acompanha manual ilustrado e kit completo de montagem. Em média, leva 30 a 40 minutos para montar.
-- Serve para estudante? Perfeitamente! O formato em U e o espaço generoso são ideais para quem precisa de área para livros, cadernos e notebook.
-- Qual o material? A mesa é feita de MDF (placa de fibra de média densidade) com estrutura metálica de ferro de alta qualidade.
-- O que vem incluso na embalagem? A mesa, as prateleiras, estrutura metálica, kit de montagem e manual de instruções.
-- Vale a pena comprar? Sim! Excelente custo-benefício, com design moderno, estrutura resistente e ótima capacidade de organização.
-
-**Especificações Técnicas:**
-Marca: Genérica | Material: MDF (1,2 cm) + Estrutura Metálica | Cor: Branco | Dimensões: 180 cm (C) x 45 cm (L) x 75 cm (A) | Prateleiras: 13,5 x 7 cm | Capacidade: 50 kg | Estilo: Industrial | Uso: Home Office, Escritório, Estudo, Quarto | Montagem: Manual + Kit de instalação incluso | Pés: Ajustáveis para estabilidade | Garantia: 3 meses contra defeitos de fabricação.`,
+  descricao: ` # Escrivaninha de Canto Industrial 180cm para Home Office ## 📌 Introdução A **Escrivaninha de Canto Estilo Industrial** é projetada para maximizar o espaço de trabalho. Com formato em U e 180cm de comprimento, ela oferece uma superfície generosa para múltiplos monitores, impressoras e documentos, sendo a peça central para um home office profissional. ## 📌 Principais Benefícios **Formato em U:** Aproveita os cantos do ambiente, liberando espaço central e criando uma área de trabalho ampla e envolvente. **Design Industrial:** Combinação de MDF de alta densidade (1,2 cm) com estrutura metálica de ferro, garantindo estabilidade e suporte de até 50 kg. **Prateleiras Inclusas:** Laterais com prateleiras (13,5 x 7 cm) para organizar documentos, livros e itens de papelaria ao alcance das mãos. ## 📌 Especificações Técnicas - **Material:** MDF (1,2 cm) + Estrutura Metálica - **Cor:** Branco - **Dimensões:** 180 cm (C) x 45 cm (L) x 75 cm (A) - **Prateleiras:** 2 laterais - **Capacidade:** 50 kg - **Pés:** Ajustáveis ## 📌 Conclusão Para quem leva o trabalho a sério, esta escrivaninha oferece robustez e espaço de sobra. O estilo industrial traz um ar moderno e sofisticado para o ambiente. `,
   marca: "Perfin",
-  keywords: [
-    "escrivaninha de canto industrial",
-    "mesa escritório 180cm",
-    "escrivaninha para home office",
-    "mesa para computador e estudo"
-  ],
+  keywords: [ "escrivaninha de canto industrial", "mesa escritório 180cm", "escrivaninha para home office", "mesa para computador e estudo" ],
   seoTitle: "Escrivaninha de Canto Industrial 180cm | Home Office",
-  seoDescription: "Escrivaninha de canto estilo industrial com 180cm, estrutura metálica e prateleiras. Ideal para home office, estudo e escritório. 37% OFF. Frete para todo Brasil."
+  seoDescription: "Escrivaninha de canto estilo industrial com 180cm, estrutura metálica e prateleiras. Ideal para home office, estudo e escritório. 37% OFF!",
 },
 {
   id: "p-imp-045",
@@ -1223,46 +2751,12 @@ Marca: Genérica | Material: MDF (1,2 cm) + Estrutura Metálica | Cor: Branco | 
   originalPrice: 499.90,
   badge: "Mais Vendido",
   platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2qdzjwE", // Substitua pelo link correto
-  descricao: `A Escrivaninha Paris 115 cm da Maxi do Brasil é a escolha perfeita para quem busca praticidade, organização e um visual moderno para compor o ambiente. Ideal para home office, escritório, quarto ou espaço de estudos, ela foi desenvolvida para atender bem a rotina de quem precisa de uma mesa funcional para computador, notebook, livros, cadernos e materiais de trabalho ou estudo.
-
-Com 115 cm de largura, oferece uma área confortável para acomodar os itens essenciais do dia a dia sem ocupar espaço em excesso no ambiente. Sua profundidade de 45 cm contribui para um bom aproveitamento da área disponível, tornando esta escrivaninha uma escolha muito interessante para espaços compactos. Já a altura de 71 cm favorece uma utilização prática e confortável, ajudando na composição de um local mais organizado e produtivo.
-
-Produzida em MDF e MDP, a Escrivaninha Paris reúne resistência e durabilidade para o uso diário. Seu armário lateral com 1 porta e prateleira interna amplia a funcionalidade do móvel, permitindo guardar livros, documentos, objetos de escritório e itens pessoais com mais discrição e organização. Isso ajuda a manter o tampo sempre mais livre para o uso, deixando o ambiente visualmente mais limpo e agradável.
-
-Outro destaque é o puxador em couro, que agrega um toque contemporâneo ao design e valoriza o acabamento da peça. A Escrivaninha Paris combina muito bem com propostas de decoração modernas, funcionais e elegantes, sendo uma ótima escolha para quem procura um móvel versátil, bonito e eficiente para a rotina.
-
-**Principais Benefícios:**
-- Ampla área de apoio para computador, notebook e materiais de estudo
-- Ideal para home office, escritório e quarto
-- Armário lateral com porta para melhor organização
-- Prateleira interna que ajuda no armazenamento de objetos
-- Estrutura produzida em MDF e MDP
-- Boa solução para ambientes compactos
-- Visual moderno e funcional para diferentes estilos de decoração
-- Puxador em couro que valoriza o design do produto
-
-**Dúvidas Frequentes dos Nossos Clientes:**
-- Esta escrivaninha é boa para home office? Sim! Com 115 cm de largura e estrutura robusta, ela é perfeita para quem trabalha em casa e precisa de espaço para monitor e documentos.
-- Cabe em um quarto pequeno? Sim, suas dimensões compactas (115x45x71 cm) são ideais para quartos, repúblicas e kitnets.
-- É resistente? Sim, produzida em MDF e MDP, é resistente e durável para o uso diário.
-- Serve para estudante? Perfeitamente! O espaço para livros, cadernos e notebook é ideal para estudantes de todas as idades.
-- Como é o armário lateral? Possui uma porta e uma prateleira interna, perfeito para organizar livros, documentos e objetos pessoais.
-- Qual o material do puxador? Puxador em couro, que agrega um toque contemporâneo e sofisticado ao design.
-- É fácil de montar? Sim, acompanha manual de instruções e kit de montagem.
-- Vale a pena comprar? Sim! Excelente custo-benefício, com design moderno, estrutura resistente e ótima capacidade de organização.
-
-**Especificações Técnicas:**
-Marca: Maxi do Brasil | Modelo: Paris | Material: MDF e MDP | Cor: Branco Nature | Dimensões: 115 cm (L) x 45 cm (P) x 71 cm (A) | Porta: 1 | Prateleira interna: Sim | Puxador: Couro | Uso: Home Office, Escritório, Estudo, Quarto | Montagem: Manual + Kit incluso | Garantia: 3 meses contra defeitos de fabricação.`,
+  affiliateLink: "https://meli.la/2qdzjwE",
+  descricao: ` # Escrivaninha Home Office Paris 115cm com Puxador de Couro ## 📌 Introdução A **Escrivaninha Paris** da Maxi do Brasil é ideal para quem busca um móvel compacto, funcional e com visual moderno. Com 115cm de largura, ela acomoda computadores e materiais de estudo sem ocupar espaço excessivo no ambiente, sendo perfeita para quartos e home offices compactos. ## 📌 Principais Benefícios **Armário Lateral:** Possui 1 porta com prateleira interna, ideal para guardar livros, documentos e objetos discretamente. **Puxador em Couro:** Detalhe contemporâneo que agrega sofisticação e valoriza o design. **Material Resistente:** Produzida em MDF e MDP, garante durabilidade para o uso diário. ## 📌 Especificações Técnicas - **Marca:** Maxi do Brasil - **Modelo:** Paris - **Material:** MDF e MDP - **Cor:** Branco Nature - **Dimensões:** 115 cm (L) x 45 cm (P) x 71 cm (A) - **Compartimentos:** 1 Porta com prateleira interna ## 📌 Conclusão Com 64% de desconto, a mesa Paris oferece excelente custo-benefício, unindo design elegante e funcionalidade para o seu dia a dia de estudos ou trabalho. `,
   marca: "Maxi do Brasil",
-  keywords: [
-    "escrivaninha home office 115cm",
-    "mesa para computador com porta",
-    "escrivaninha paris maxi do brasil",
-    "mesa para estudos e escritório"
-  ],
+  keywords: [ "escrivaninha home office 115cm", "mesa para computador com porta", "escrivaninha paris maxi do brasil", "mesa para estudos e escritório" ],
   seoTitle: "Escrivaninha Paris 115cm Home Office com Porta e Puxador de Couro",
-  seoDescription: "Mesa Escrivaninha Paris 115cm da Maxi do Brasil com porta e puxador de couro. Ideal para home office, computador e estudos. 64% OFF. Frete para todo Brasil."
+  seoDescription: "Mesa Escrivaninha Paris 115cm da Maxi do Brasil com porta e puxador de couro. Ideal para home office e estudos. 64% OFF!",
 },
 {
   id: "p-imp-046",
@@ -1281,43 +2775,11 @@ Marca: Maxi do Brasil | Modelo: Paris | Material: MDF e MDP | Cor: Branco Nature
   badge: "",
   platform: "Mercado Livre",
   affiliateLink: "https://meli.la/1rHTCbH",
-  descricao: `O Livreiro de Mesa Porta Livros Revistas Organizador Nicho Deco é a solução perfeita para quem busca organização, estilo e funcionalidade em um único móvel. Com 177 cm de altura, este versátil organizador é ideal para quartos infantis, escritórios, home offices, salas de estar e até mesmo para lojas e comércios.
-
-**Organize seu Ambiente com Estilo**
-Este livreiro foi projetado para acomodar livros, revistas, cadernos, materiais escolares, brinquedos, tênis, roupas e diversos outros itens do dia a dia. Sua altura de 177 cm permite que crianças tenham autonomia para pegar e guardar seus pertences, estimulando a organização desde cedo, enquanto adultos aproveitam a praticidade de ter tudo ao alcance das mãos.
-
-**Qualidade e Durabilidade Garantidas**
-Produzido com chapas de alta qualidade e acessórios premium, este livreiro recebe pintura UV que assegura excelente acabamento, resistência e durabilidade ao produto. A embalagem é feita de maneira atenciosa e protegida, garantindo que o produto chegue até você com total segurança.
-
-**Por que escolher este livreiro?**
-- Multifuncional: organiza livros, revistas, brinquedos, roupas e muito mais
-- Altura ideal: 177 cm, permitindo fácil acesso para crianças e adultos
-- Acabamento premium: pintura UV de alta qualidade e resistência
-- Design moderno: combina com qualquer decoração de ambiente
-- Fácil montagem: acompanha manual de instruções de fácil compreensão
-- Versátil: perfeito para quartos, escritórios, salas e comércios
-
-**Dúvidas Frequentes dos Nossos Clientes:**
-- Para que serve este livreiro? É um organizador versátil que pode ser usado para guardar livros, revistas, brinquedos, roupas, materiais escolares e diversos outros itens.
-- Qual a altura do produto? Tem 177 cm de altura, 53 cm de largura e 30 cm de profundidade.
-- Serve para quarto infantil? Sim! A altura permite que as crianças tenham autonomia para pegar e guardar seus brinquedos e livros.
-- Qual o material? Produzido com chapa de alta qualidade e pintura UV, garantindo resistência e durabilidade.
-- Vem montado ou desmontado? O produto é entregue desmontado na caixa, acompanhando manual de montagem de fácil compreensão.
-- Combina com decoração moderna? Sim, o design é versátil e combina com diferentes estilos de decoração.
-- Qual a garantia do produto? 30 dias de garantia de fábrica contra defeitos de fabricação.
-- Vale a pena comprar? Sim! Excelente custo-benefício para quem busca organização e funcionalidade.
-
-**Especificações Técnicas:**
-Marca: Loja do Tesouro | Material: Chapa de alta qualidade com pintura UV | Cor: Branco | Altura: 177 cm | Largura: 53 cm | Profundidade: 30 cm | Uso: Quarto, Escritório, Home Office, Sala de Estar, Comércio | Montagem: Manual + Kit incluso | Garantia: 30 dias contra defeitos de fabricação.`,
+  descricao: ` # Livreiro de Mesa Organizador 177cm Branco ## 📌 Introdução O **Livreiro de Mesa Organizador** é uma solução versátil para quartos infantis, escritórios e salas de estar. Com 177cm de altura, ele estimula a organização e permite fácil acesso a livros, revistas, brinquedos e materiais escolares. ## 📌 Principais Benefícios **Multifuncional:** Além de livros e revistas, acomoda tênis, roupas e brinquedos. **Altura Acessível:** 177cm de altura permite que crianças tenham autonomia para pegar e guardar seus pertences. **Acabamento Premium:** Chapa de alta qualidade com pintura UV, garantindo resistência a riscos e desgaste diário. ## 📌 Especificações Técnicas - **Material:** Chapa com pintura UV - **Cor:** Branco - **Dimensões:** 177 cm (A) x 53 cm (L) x 30 cm (P) - **Montagem:** Desmontado (kit e manual inclusos) ## 📌 Conclusão Um organizador prático e moderno que se adapta a qualquer ambiente. Ideal para manter o espaço arrumado e valorizar a decoração. `,
   marca: "Loja do Tesouro",
-  keywords: [
-    "livreiro de mesa",
-    "porta livros organizador",
-    "estante para livros e revistas",
-    "organizador de quarto infantil"
-  ],
+  keywords: [ "livreiro de mesa", "porta livros organizador", "estante para livros e revistas", "organizador de quarto infantil" ],
   seoTitle: "Livreiro de Mesa Porta Livros Organizador 177cm | Oferta",
-  seoDescription: "Livreiro organizador de livros e revistas com 177cm, pintura UV, design moderno. Perfeito para quarto, escritório e home office. 11% OFF. Frete para todo Brasil."
+  seoDescription: "Livreiro organizador de livros e revistas com 177cm, pintura UV e design moderno. Perfeito para quarto e home office. 11% OFF!",
 },
 {
   id: "p-imp-047",
@@ -1336,46 +2798,11 @@ Marca: Loja do Tesouro | Material: Chapa de alta qualidade com pintura UV | Cor:
   badge: "",
   platform: "Mercado Livre",
   affiliateLink: "https://meli.la/1f33TYG",
-  descricao: `A Estante Prateleira de Aço Multiuso com 6 Bandejas é a solução definitiva para quem busca organização, resistência e durabilidade em um único produto. Com dimensões de 204 cm de altura, 90 cm de largura e 26 cm de profundidade, esta estante oferece amplo espaço para armazenar livros, pastas, documentos, brinquedos, bolsas, roupas, utensílios de cozinha e muito mais.
-
-**Versatilidade em Todos os Ambientes**
-Ideal tanto para ambientes domésticos — quarto, cozinha, sala, banheiro, lavanderia — quanto para ambientes de trabalho como escolas, escritórios, lojas e mercados. Seu design multiuso se adapta a qualquer necessidade de organização.
-
-**Resistência e Durabilidade Garantidas**
-Fabricada em aço de alta qualidade com pintura eletrostática de alta resistência, esta estante não enferruja, não descasca e é resistente a água e maresia, garantindo uma vida útil prolongada mesmo em ambientes úmidos. As prateleiras possuem estrutura reforçada que não enverga com o tempo, suportando peso considerável sem deformações.
-
-**Design e Praticidade**
-O acabamento moderno e a cor preta conferem um visual contemporâneo que combina com qualquer decoração. Acompanha sapatas de borracha para manter seu piso livre de riscos e danos, garantindo estabilidade total. O produto é entregue desmontado com parafusos e porcas, tornando a montagem prática e simples com o manual incluso.
-
-**Por que escolher esta estante?**
-- Multiuso: organiza livros, pastas, brinquedos, roupas, documentos e muito mais
-- Super resistente: estrutura em aço reforçado com pintura eletrostática
-- Durabilidade: não enferruja, não descasca, resistente a água e maresia
-- Design moderno: acabamento em preto que combina com qualquer ambiente
-- Prática: acompanha sapatas de borracha para proteção do piso
-- Fácil montagem: manual e kit de instalação inclusos
-
-**Dúvidas Frequentes dos Nossos Clientes:**
-- Esta estante é resistente? Sim! Fabricada em aço com pintura eletrostática de alta resistência, as prateleiras não envergam com o tempo.
-- Serve para ambientes úmidos? Sim, a pintura eletrostática garante resistência à água e maresia, sendo ideal para lavanderias e cozinhas.
-- Qual a capacidade de peso? A estrutura reforçada suporta peso considerável, sendo perfeita para livros, pastas e documentos.
-- Vem montada ou desmontada? O produto é entregue desmontado com manual de montagem e kit de parafusos e porcas para fácil instalação.
-- O que posso guardar nela? Livros, pastas, brinquedos, roupas, bolsas, utensílios de cozinha, documentos e muito mais.
-- Onde posso usar? Em quartos, cozinhas, salas, banheiros, lavanderias, escritórios, lojas, mercados e escolas.
-- O piso fica protegido? Sim, acompanha sapatas de borracha que evitam riscos e danos ao piso.
-- Vale a pena comprar? Sim! Excelente custo-benefício para quem busca organização e durabilidade.
-
-**Especificações Técnicas:**
-Material: Aço com pintura eletrostática | Cor: Preto | Bandejas: 6 | Altura: 204 cm | Largura: 90 cm | Profundidade: 26 cm | Acabamento: Pintura eletrostática de alta resistência | Acompanha: Sapatas de borracha para proteção do piso | Montagem: Desmontado (manual e kit incluso) | Uso: Doméstico, Escritório, Comercial | Garantia: 30 dias contra defeitos de fabricação.`,
+  descricao: ` # Estante Prateleira de Aço Multiuso 6 Bandejas ## 📌 Introdução A **Estante de Aço Multiuso** é a solução definitiva para quem busca resistência e durabilidade. Com 6 bandejas reforçadas, ela é ideal para ambientes domésticos e comerciais, suportando peso considerável sem deformar. ## 📌 Principais Benefícios **Super Resistente:** Estrutura em aço com pintura eletrostática, não enferruja e é resistente a água e maresia. **Multiuso:** Ideal para cozinhas, lavanderias, escritórios, lojas e quartos. Organize livros, pastas, utensílios e ferramentas. **Estabilidade:** Acompanha sapatas de borracha para proteger o piso e garantir firmeza total. ## 📌 Especificações Técnicas - **Material:** Aço com pintura eletrostática - **Cor:** Preto - **Bandejas:** 6 - **Dimensões:** 204 cm (A) x 90 cm (L) x 26 cm (P) - **Montagem:** Desmontada (kit incluso) ## 📌 Conclusão Se você precisa de organização robusta que dure anos, esta estante de aço é a escolha perfeita. Fácil de limpar e extremamente durável. `,
   marca: "Estate",
-  keywords: [
-    "estante de aço multiuso",
-    "prateleira resistente 6 bandejas",
-    "estante para livros e pastas",
-    "organizador de escritório e quarto"
-  ],
+  keywords: [ "estante de aço multiuso", "prateleira resistente 6 bandejas", "estante para livros e pastas", "organizador de escritório e quarto" ],
   seoTitle: "Estante Prateleira Aço Multiuso 6 Bandejas 90x198 | Organização",
-  seoDescription: "Estante de aço multiuso com 6 bandejas super resistentes, pintura eletrostática. Ideal para livros, pastas, documentos e muito mais. Frete grátis. Compre agora!"
+  seoDescription: "Estante de aço multiuso com 6 bandejas super resistentes, pintura eletrostática. Ideal para livros e documentos. Frete grátis!",
 },
 {
   id: "p-imp-048",
@@ -1394,42 +2821,11 @@ Material: Aço com pintura eletrostática | Cor: Preto | Bandejas: 6 | Altura: 2
   badge: "",
   platform: "Mercado Livre",
   affiliateLink: "https://meli.la/1W2keyy",
-  descricao: `Transforme seu espaço com a qualidade e sofisticação dos móveis planejados da Móveis Albergoni. Com 24 anos de experiência no mercado, somos especialistas em criar ambientes que combinam funcionalidade e design exclusivo. Utilizamos MDF 100% de alta qualidade das renomadas marcas, garantindo durabilidade e um acabamento impecável.
-
-O Armário Multiuso MDF é a solução versátil que você estava procurando. Com dimensões de 90 cm de largura, 185 cm de altura e 30 cm de profundidade, este móvel se adapta perfeitamente a qualquer ambiente, seja para organizar livros, pastas, roupas, acessórios, itens de decoração ou expor produtos em lojas e comércios.
-
-**Design e Funcionalidade**
-Produzido em MDF de alta qualidade, este armário possui portas que protegem seus pertences da poeira e da luz, mantendo tudo sempre organizado e com aspecto limpo. O espaço interno com prateleiras (87 cm de largura, 32 cm de altura e 35 cm de profundidade) oferece ampla capacidade para acomodar objetos de diferentes tamanhos, sendo ideal para exposição de livros, revistas, peças de decoração e roupas.
-
-**Diferenciais do Produto**
-- Material premium: MDF 100% de alta qualidade
-- Design sofisticado: cores neutras que combinam com qualquer decoração
-- Multiuso: perfeito para livros, decoração, roupas e exposição de produtos
-- Acabamento impecável: pintura e detalhes de alta qualidade
-- Sapatas reguladoras de nível: garantem estabilidade em qualquer piso
-- Fácil montagem: acompanha manual e kit de montagem completo
-
-**Dúvidas Frequentes dos Nossos Clientes:**
-- Este armário é bom para guardar livros? Sim! As prateleiras internas são ideais para organizar livros, pastas e documentos de forma organizada e visível.
-- Serve para guardar roupas? Sim, o espaço interno com 90 cm de largura e 185 cm de altura permite pendurar cabides ou dobrar roupas com facilidade.
-- Qual o material do armário? É fabricado em MDF 100% de alta qualidade, garantindo durabilidade e acabamento impecável.
-- É fácil de montar? Sim, acompanha manual de montagem com instruções claras e kit completo de parafusos e acessórios.
-- O que é MDF? MDF (Medium Density Fiberboard) é uma chapa de fibra de madeira de média densidade, muito resistente e durável, com acabamento liso e uniforme.
-- Serve para loja ou comércio? Sim, é perfeito como expositor de produtos em lojas, boutiques e comércios em geral.
-- Como limpar o armário? Basta usar um pano levemente úmido e secar em seguida. Evite produtos abrasivos.
-- Vale a pena comprar? Sim! Excelente custo-benefício, com materiais de qualidade, design moderno e versatilidade para diferentes ambientes.
-
-**Especificações Técnicas:**
-Marca: Móveis Albergoni | Material: MDF 100% | Cor: Branco | Dimensões: 90 cm (L) x 185 cm (A) x 30 cm (P) | Dimensões Internas: 87 cm (L) x 32 cm (A) x 35 cm (P) | Portas: Sim | Prateleiras: Em MDF | Painel Traseiro: Sim | Sapatas Reguladoras: Sim | Montagem: Manual + Kit incluso | Garantia: 90 dias contra defeitos de fabricação.`,
+  descricao: ` # Armário Multiuso MDF 90cm para Livros e Decoração ## 📌 Introdução O **Armário Multiuso MDF** da Móveis Albergoni é a peça versátil que faltava na sua casa. Com design sofisticado e portas que protegem do pó, ele é ideal para organizar livros, roupas, documentos ou expor produtos em lojas. ## 📌 Principais Benefícios **Material Premium:** Fabricado em MDF 100% de alta qualidade, garantindo acabamento impecável e durabilidade. **Espaço Interno Versátil:** Prateleiras com medidas de 87x32x35 cm acomodam objetos de diferentes tamanhos. **Design Sofisticado:** Cores neutras que se adaptam a quartos, escritórios e salas de estar. ## 📌 Especificações Técnicas - **Marca:** Móveis Albergoni - **Material:** MDF 100% - **Cor:** Branco - **Dimensões Externas:** 90 cm (L) x 185 cm (A) x 30 cm (P) - **Sapatas Reguladoras:** Sim ## 📌 Conclusão Excelente custo-benefício para quem busca um móvel elegante e funcional. Perfeito para manter o ambiente organizado com estilo. `,
   marca: "Móveis Albergoni",
-  keywords: [
-    "armário multiuso mdf para livros",
-    "móveis para guardar livros e decoração",
-    "expositor de roupas e acessórios",
-    "armário organizador de escritório e quarto"
-  ],
+  keywords: [ "armário multiuso mdf para livros", "móveis para guardar livros e decoração", "expositor de roupas e acessórios", "armário organizador de escritório e quarto" ],
   seoTitle: "Armário Multiuso MDF para Livros e Decoração 90cm Branco | Oferta",
-  seoDescription: "Armário multiuso em MDF 100% com portas para guardar livros, roupas e decoração. Design moderno, 17% OFF. Frete para todo Brasil."
+  seoDescription: "Armário multiuso em MDF 100% com portas para guardar livros e decoração. Design moderno, 17% OFF. Frete para todo Brasil.",
 },
 {
   id: "p-imp-049",
@@ -1448,44 +2844,11 @@ Marca: Móveis Albergoni | Material: MDF 100% | Cor: Branco | Dimensões: 90 cm 
   badge: "",
   platform: "Mercado Livre",
   affiliateLink: "https://meli.la/2zkEpH7",
-  descricao: `O Kit 2 Estantes para Livros com 5 Prateleiras 188cm x 121cm Office é a solução definitiva para quem busca organização, versatilidade e estilo para bibliotecas, escritórios, salas de estudo, lojas e ambientes comerciais. Com 5 prateleiras em cada unidade (sendo 3 removíveis), este kit oferece amplo espaço para armazenar livros, pastas, documentos, revistas, objetos de decoração e muito mais.
-
-**Versatilidade em Ambientes**
-Este produto versátil se adapta a uma variedade de ambientes — desde uma estante para livros em um escritório até uma área de serviços para otimização do espaço. Oferece diversas configurações, com prateleiras fixas e móveis, sendo destinado a 3 tipos de uso: como livreiro tradicional, livreiro com porta grande ou livreiro com porta pequena (acessórios não inclusos).
-
-**Estrutura Robusta e Durável**
-Fabricado em MDP de alta qualidade com pintura UV texturizada semi-fosca, cada estante possui estrutura robusta de 15mm e 4 pés de PVC que garantem estabilidade e proteção ao piso. As prateleiras suportam até 20 kg cada, ideais para livros pesados e coleções completas. O acabamento fosco e a cor Branco TX conferem um visual moderno e sofisticado que combina com qualquer decoração.
-
-**Por que escolher este kit?**
-- Duas estantes em um único kit: maximize sua organização
-- 5 prateleiras por unidade (3 removíveis): personalização e flexibilidade
-- Estrutura robusta de 15mm: resistência e durabilidade
-- Pés de PVC: estabilidade e proteção ao piso
-- Acabamento semi-fosco: design moderno e elegante
-- Multiuso: perfeito para livros, decoração e documentos
-- Nacional: produto fabricado no Brasil
-
-**Dúvidas Frequentes dos Nossos Clientes:**
-- Este kit de estantes é bom para guardar livros pesados? Sim! Cada prateleira suporta até 20 kg, sendo ideal para coleções de livros e pastas pesadas.
-- Serve para escritório ou home office? Perfeitamente! O design office e as dimensões de 188 cm de altura e 121 cm de largura são ideais para ambientes profissionais.
-- As prateleiras são fixas ou móveis? Das 5 prateleiras, 3 são removíveis, permitindo ajustar o espaço conforme sua necessidade.
-- Qual o material do produto? É fabricado em MDP com pintura UV texturizada, garantindo resistência e durabilidade.
-- É fácil de montar? Sim, acompanha manual e kit de montagem. As prateleiras móveis facilitam a instalação.
-- Serve para loja ou comércio? Sim, o design versátil é perfeito para expositores de produtos em lojas e comércios.
-- O que significa Branco TX? É um tom de branco com acabamento texturizado, mais moderno e sofisticado que o branco tradicional.
-- Vale a pena comprar? Sim! Excelente custo-benefício, com duas estantes em um único kit, qualidade superior e versatilidade para diferentes ambientes.
-
-**Especificações Técnicas:**
-Marca: Office | Material: MDP com pintura UV texturizada | Cor: Branco TX | Acabamento: Semi-fosco | Prateleiras: 5 por unidade (3 removíveis) | Estrutura: 15 mm | Pés: 4 de PVC | Altura: 188 cm | Largura: 121 cm | Suporte: 20 kg por prateleira | Uso: Escritório, Home Office, Sala de Estudo, Lojas | Montagem: Manual + Kit incluso | Garantia: 30 dias contra defeitos de fabricação.`,
+  descricao: ` # Kit 2 Estantes para Livros Office 188cm x 121cm ## 📌 Introdução O **Kit com 2 Estantes Office** é a solução completa para bibliotecas, escritórios e home offices. Com 5 prateleiras em cada unidade (3 removíveis), este conjunto oferece amplo espaço de armazenamento e flexibilidade de organização. ## 📌 Principais Benefícios **Estrutura Robusta:** Fabricada em MDP de 15mm com pintura UV texturizada semi-fosca, suportando até 20 kg por prateleira. **Prateleiras Removíveis:** Ajuste a altura conforme a necessidade dos seus livros ou pastas. **Design Moderno:** Cor Branco TX com acabamento fosco que valoriza qualquer decoração. ## 📌 Especificações Técnicas - **Marca:** Office - **Material:** MDP com pintura UV texturizada - **Cor:** Branco TX - **Prateleiras:** 5 por estante (3 removíveis) - **Dimensões:** 188 cm (A) x 121 cm (L) - **Capacidade:** 20 kg por prateleira ## 📌 Conclusão Dupla organização e resistência. Ideal para quem precisa de espaço generoso para livros pesados, documentos e decoração. `,
   marca: "Office",
-  keywords: [
-    "kit estante para livros com 5 prateleiras",
-    "estante office 188cm",
-    "organizador de biblioteca e escritório",
-    "estante para documentos e decoração"
-  ],
+  keywords: [ "kit estante para livros com 5 prateleiras", "estante office 188cm", "organizador de biblioteca e escritório", "estante para documentos e decoração" ],
   seoTitle: "Kit 2 Estantes para Livros 5 Prateleiras 188cm Office | Oferta",
-  seoDescription: "Kit 2 estantes para livros com 5 prateleiras removíveis, estrutura robusta de 15mm e pés de PVC. Ideal para escritório e home office. 15% OFF. Frete para todo Brasil."
+  seoDescription: "Kit 2 estantes para livros com 5 prateleiras removíveis, estrutura robusta de 15mm e pés de PVC. Ideal para escritório. 15% OFF!",
 },
 {
   id: "p-imp-050",
@@ -1504,46 +2867,11 @@ Marca: Office | Material: MDP com pintura UV texturizada | Cor: Branco TX | Acab
   badge: "Mais Vendido",
   platform: "Mercado Livre",
   affiliateLink: "https://meli.la/2ZtYknu",
-  descricao: `O Guarda-roupa Solteiro Madesa Denver 2 Portas de Correr Preto é a solução perfeita para quem busca organização, estilo e funcionalidade em quartos de solteiro, apartamentos compactos ou ambientes que precisam otimizar espaço. Com design moderno e sofisticado na cor preta, este guarda-roupa une a qualidade da marca Madesa com acabamento impecável e durabilidade garantida.
-
-**Design e Funcionalidade**
-Com duas portas de correr de deslizamento suave, trilhos em alumínio e dobradiças metálicas de alta qualidade, este móvel oferece excelente sustentação e praticidade no dia a dia. O cabideiro metálico resistente de 105 cm permite pendurar roupas de forma organizada, enquanto as duas prateleiras e quatro nichos internos proporcionam espaço ideal para armazenar roupas dobradas, acessórios e objetos pessoais.
-
-**Acabamento Premium e Durabilidade**
-O processo de Pintura Poliéster de 7 camadas exclusiva da Madesa garante um acabamento ecológico e de alta resistência, aumentando a durabilidade do móvel e protegendo contra riscos e desgastes do uso diário. O acabamento interno é branco, enquanto a parte externa e as portas são pretas, criando um contraste elegante que combina com diferentes estilos de decoração.
-
-**Medidas Ideais para Quartos Compactos**
-Com 205 cm de altura, 117 cm de largura e 51 cm de profundidade, este guarda-roupa foi pensado na medida certa para quartos de solteiro, oferecendo amplo espaço de armazenamento sem ocupar área desnecessária. Perfeito para apartamentos, repúblicas, kitnets e quartos de estudantes.
-
-**Por que escolher este guarda-roupa?**
-- Marca Madesa: referência em móveis de qualidade no Brasil
-- Portas de correr: economizam espaço, ideais para quartos compactos
-- Cabideiro de 105 cm: espaço diferenciado para roupas longas
-- Pintura Poliéster de 7 camadas: durabilidade e resistência
-- Design preto com interno branco: visual moderno e sofisticado
-- Fácil montagem: acompanha manual e kit de ferragens
-
-**Dúvidas Frequentes dos Nossos Clientes:**
-- Este guarda-roupa é bom para quarto de solteiro? Sim! Com 117 cm de largura, é a medida ideal para quartos de solteiro, apartamentos compactos e repúblicas.
-- Qual a capacidade de peso? Suporta até 15 kg, sendo resistente para roupas e acessórios.
-- As portas são de correr? Sim, duas portas de correr com deslizamento suave em trilhos de alumínio, economizando espaço.
-- O material é resistente? Sim, fabricado em MDP de alta qualidade com pintura poliéster de 7 camadas, garantindo durabilidade.
-- Vem com cabideiro? Sim, acompanha um cabideiro metálico grande de 105 cm, ideal para roupas longas.
-- As prateleiras são ajustáveis? O produto contempla duas prateleiras fixas e quatro nichos, perfeitos para organizar roupas e acessórios.
-- É fácil de montar? Sim, a embalagem acompanha ferragens e manual com todos os passos para a montagem.
-- Vale a pena comprar? Sim! Excelente custo-benefício, com qualidade Madesa, design moderno e ótima capacidade de organização.
-
-**Especificações Técnicas:**
-Marca: Madesa | Modelo: Denver 10946E | Material: MDP | Cor Externa/Portas: Preto | Acabamento Interno: Branco | Pintura: Poliéster de 7 camadas | Portas: 2 de correr (trilhos em alumínio) | Cabideiro: Metálico 105 cm | Prateleiras: 2 | Nichos: 4 | Ferragens: Metálicas (dobradiças e puxadores em PVC) | Dimensões: 205 cm (A) x 117 cm (L) x 51 cm (P) | Peso Suportado: 15 kg | Código do Produto: 10948N | Montagem: Manual + Kit de ferragens incluso | Uso: Quarto de solteiro, apartamentos, repúblicas, kitnets | Garantia: 3 meses contra defeitos de fabricação.`,
+  descricao: ` # Guarda-roupa Solteiro Madesa Denver 2 Portas de Correr ## 📌 Introdução O **Guarda-roupa Solteiro Denver da Madesa** é a solução ideal para quartos compactos, repúblicas e kitnets. Com portas de correr, ele economiza espaço abrindo, oferecendo organização completa e visual moderno na cor preta. ## 📌 Principais Benefícios **Portas de Correr:** Eliminam a necessidade de espaço extra para abertura das portas, otimizando a circulação do quarto. **Acabamento Premium:** Pintura Poliéster de 7 camadas exclusiva Madesa, protegendo contra riscos e desgaste diário. **Organização Inteligente:** Conta com cabideiro metálico de 105 cm, 2 prateleiras e 4 nichos internos. ## 📌 Especificações Técnicas - **Marca:** Madesa | Modelo: Denver 10946E - **Material:** MDP - **Cor:** Preto externo / Branco interno - **Dimensões:** 205 cm (A) x 117 cm (L) x 51 cm (P) - **Cabideiro:** 105 cm ## 📌 Conclusão Qualidade Madesa com design inteligente para espaços reduzidos. Suporta até 15 kg, ideal para a organização do dia a dia de solteiros e estudantes. `,
   marca: "Madesa",
-  keywords: [
-    "guarda roupas solteiro madesa denver 2 portas",
-    "guarda roupas preto com portas de correr",
-    "moveis para quarto compacto e organizacao",
-    "guarda roupas para estudante e apartamento"
-  ],
+  keywords: [ "guarda roupas solteiro madesa denver 2 portas", "guarda roupas preto com portas de correr", "moveis para quarto compacto e organizacao", "guarda roupas para estudante e apartamento" ],
   seoTitle: "Guarda-roupa Solteiro Madesa Denver 2 Portas de Correr Preto | Oferta",
-  seoDescription: "Guarda-roupa solteiro Madesa Denver com 2 portas de correr preto, cabideiro 105cm e pintura poliéster. Ideal para quartos compactos. 19% OFF. Frete para todo Brasil."
+  seoDescription: "Guarda-roupa solteiro Madesa Denver com 2 portas de correr preto, cabideiro 105cm e pintura poliéster. Ideal para quartos compactos. 19% OFF!",
 },
 {
   id: "p-imp-051",
@@ -1562,46 +2890,11 @@ Marca: Madesa | Modelo: Denver 10946E | Material: MDP | Cor Externa/Portas: Pret
   badge: "",
   platform: "Mercado Livre",
   affiliateLink: "https://meli.la/2gAcXhJ",
-  descricao: `O Guarda-Roupa Solteiro Roma é a solução perfeita para quem busca organização, funcionalidade e estilo em um móvel compacto. Com 2 portas de correr, ele economiza espaço e oferece fácil acesso aos seus pertences, sendo ideal para quartos de solteiro, apartamentos, repúblicas e kitnets. Seu design moderno e bem estruturado permite uma organização eficiente com gavetas, prateleiras e cabideiro.
-
-**Design e Funcionalidade**
-As 2 portas de correr com deslizamento suave otimizam o espaço, eliminando a necessidade de área para abertura das portas. O móvel conta com 2 gavetas equipadas com corrediças metálicas que garantem abertura suave e segura, além de um cabideiro para organização de roupas. Acompanha um kit com 4 lâminas de espelho (53,2 cm x 45 cm) que agregam funcionalidade e ampliam a sensação de espaço no ambiente.
-
-**Acabamento Premium e Durabilidade**
-Fabricado em MDP de alta durabilidade, o Guarda-Roupa Roma possui acabamento Touch Alto-Relevo ou Alto Brilho UV, disponível na cor Ônix (preto fosco), que confere um visual sofisticado e moderno. As portas são flexíveis na cor Chocolate/Offwhite, oferecendo versatilidade para diferentes estilos de decoração.
-
-**Medidas Ideais para Espaços Compactos**
-Com 200 cm de altura, 114 cm de largura e 45 cm de profundidade, este guarda-roupa foi projetado para se adaptar perfeitamente a quartos de solteiro e ambientes menores, oferecendo excelente capacidade de armazenamento sem ocupar espaço excessivo. Pesa 63 kg, garantindo estabilidade e robustez.
-
-**Por que escolher este guarda-roupa?**
-- Portas de correr: economia de espaço e praticidade
-- 2 gavetas com corrediças metálicas: abertura suave e segura
-- Kit com 4 espelhos: funcionalidade e ampliação do ambiente
-- Acabamento Touch ou Alto Brilho UV: design sofisticado
-- Fabricado em MDP: durabilidade e resistência
-- Fácil montagem: manual de montagem incluso
-
-**Dúvidas Frequentes dos Nossos Clientes:**
-- Este guarda-roupa é bom para quarto de solteiro? Sim! Com 114 cm de largura, é a medida ideal para quartos de solteiro, repúblicas e kitnets.
-- As gavetas são espaçosas? Sim, as gavetas têm 49,5 cm de largura, 14 cm de altura e 33,8 cm de profundidade, perfeitas para roupas e acessórios.
-- O espelho já vem incluso? Sim, acompanha um kit com 4 lâminas de espelho (53,2 cm x 45 cm) para instalação nas portas.
-- Qual o material do produto? Fabricado em MDP de alta durabilidade com acabamento Touch Alto-Relevo ou Alto Brilho UV.
-- É fácil de montar? Sim, acompanha manual de montagem com instruções claras e kit de ferragens.
-- As portas são de correr? Sim, duas portas de correr com deslizamento suave, ideais para economizar espaço.
-- O que significa cor Ônix? É um preto fosco, elegante e moderno que combina com diferentes decorações.
-- Vale a pena comprar? Sim! Excelente custo-benefício, com design moderno, ótima organização e qualidade garantida.
-
-**Especificações Técnicas:**
-Marca: Roma | Modelo: Guarda-Roupa Solteiro | Material: MDP | Acabamento: Touch Alto-Relevo / Alto Brilho UV | Cor: Ônix (preto fosco) / Chocolate/Offwhite | Portas: 2 de correr | Gavetas: 2 com corrediças metálicas | Cabideiro: 1 | Espelho: Kit com 4 lâminas (53,2 x 45 cm) | Dimensões: 200 cm (A) x 114 cm (L) x 45 cm (P) | Peso: 63 kg | Dimensões das Gavetas: 49,5 cm (L) x 14 cm (A) x 33,8 cm (P) | Montagem: Manual + Kit de ferragens incluso | Garantia: 3 meses contra defeitos de fabricação.`,
+  descricao: ` # Guarda Roupa Solteiro Roma com Espelho e 2 Gavetas ## 📌 Introdução O **Guarda-Roupa Solteiro Roma** é perfeito para quem busca funcionalidade e design em espaços compactos. Com 2 portas de correr e um kit de espelhos incluso, ele oferece organização prática e ainda amplia visualmente o ambiente. ## 📌 Principais Benefícios **Portas de Correr com Deslizamento Suave:** Otimizam o espaço do quarto, dispensando área de abertura. **Kit com 4 Espelhos:** Acompanha lâminas de espelho para fixação nas portas, agregando funcionalidade e elegância. **2 Gavetas com Corrediças Metálicas:** Abertura suave e segura para organizar roupas íntimas e acessórios. ## 📌 Especificações Técnicas - **Marca:** Roma - **Material:** MDP - **Acabamento:** Touch Alto-Relevo / Alto Brilho UV - **Cor:** Ônix (Preto Fosco) - **Dimensões:** 200 cm (A) x 114 cm (L) x 45 cm (P) - **Espelho:** Kit com 4 lâminas (53,2 x 45 cm) ## 📌 Conclusão Um móvel completo que une design moderno, otimização de espaço e utilidade. O acabamento preto fosco traz sofisticação para qualquer quarto. `,
   marca: "Roma",
-  keywords: [
-    "guarda roupa solteiro roma com espelho e 2 gavetas",
-    "guarda roupa de correr com espelho para quarto compacto",
-    "moveis para estudante com organizacao",
-    "guarda roupa preto fosco com portas de correr"
-  ],
+  keywords: [ "guarda roupa solteiro roma com espelho e 2 gavetas", "guarda roupa de correr com espelho para quarto compacto", "moveis para estudante com organizacao", "guarda roupa preto fosco com portas de correr" ],
   seoTitle: "Guarda Roupa Solteiro Roma 2 Portas Correr com Espelho e 2 Gavetas | Oferta",
-  seoDescription: "Guarda-roupa solteiro Roma com 2 portas de correr, 2 gavetas, espelho e acabamento Touch. Ideal para quartos compactos. 13% OFF. Frete para todo Brasil."
+  seoDescription: "Guarda-roupa solteiro Roma com 2 portas de correr, 2 gavetas, espelho e acabamento Touch. Ideal para quartos compactos. 13% OFF!",
 },
 {
   id: "p-imp-052",
@@ -1620,46 +2913,11 @@ Marca: Roma | Modelo: Guarda-Roupa Solteiro | Material: MDP | Acabamento: Touch 
   badge: "Mais Vendido",
   platform: "Mercado Livre",
   affiliateLink: "https://meli.la/11gTJMD",
-  descricao: `O Armário Para Lavanderia Multiuso 2 Portas com Rodinhas é a solução perfeita para organizar e otimizar o espaço da sua lavanderia, área de serviço, dispensa ou até mesmo cozinha. Com sua estrutura compacta e funcional, este móvel foi projetado para se adaptar a ambientes reduzidos, aproveitando cada centímetro disponível com inteligência.
-
-**Design e Funcionalidade**
-Com duas portas de fácil abertura, você terá acesso rápido aos seus itens de limpeza, produtos de lavanderia, detergentes, amaciantes, vassouras e utensílios domésticos. O armário conta com quatro prateleiras internas que oferecem amplo espaço para organizar tudo de forma prática e funcional, mantendo o ambiente sempre arrumado e agradável.
-
-**Mobilidade e Praticidade**
-As rodinhas inclusas permitem que você mova o armário com facilidade, facilitando a limpeza do ambiente e permitindo reposicioná-lo conforme sua necessidade. Ideal para quem busca versatilidade e funcionalidade no dia a dia.
-
-**Resistência e Durabilidade**
-Fabricado em madeira de alta qualidade (MDP), este armário é resistente e durável, garantindo sua satisfação por muito tempo. O acabamento em branco confere um visual clean e moderno que combina com qualquer decoração, seja em lavanderias, áreas de serviço, cozinhas ou escritórios.
-
-**Por que escolher este armário?**
-- Multiuso: perfeito para lavanderia, cozinha, dispensa e escritório
-- 2 portas com rodinhas: praticidade e mobilidade
-- 4 prateleiras internas: organização completa
-- Design compacto: ideal para espaços reduzidos
-- Acabamento branco: moderno e versátil
-- Material resistente: MDP de alta qualidade
-
-**Dúvidas Frequentes dos Nossos Clientes:**
-- Este armário é bom para lavanderia? Sim! Foi projetado especialmente para organizar produtos de limpeza, detergentes e utensílios de lavanderia.
-- As rodinhas são resistentes? Sim, as rodinhas permitem movimentar o armário com facilidade e segurança, facilitando a limpeza do ambiente.
-- Quantas prateleiras tem? Possui quatro prateleiras internas, oferecendo amplo espaço para organização.
-- Serve para cozinha? Sim, pode ser usado para organizar produtos de limpeza, panos, sacolas e utensílios domésticos.
-- Qual a profundidade do armário? Tem 34 cm de profundidade, sendo compacto e ideal para espaços reduzidos.
-- É fácil de montar? Sim, acompanha manual de montagem e kit de ferragens.
-- O material é resistente? Sim, fabricado em madeira de alta qualidade (MDP), garantindo durabilidade.
-- Vale a pena comprar? Sim! Excelente custo-benefício para quem busca organização e praticidade em ambientes compactos.
-
-**Especificações Técnicas:**
-Marca: Genérica | Material: MDP | Cor: Branco | Portas: 2 | Prateleiras: 4 | Rodinhas: Sim (inclusas) | Profundidade: 34 cm | Uso: Lavanderia, Área de Serviço, Cozinha, Dispensa, Escritório | Montagem: Manual + Kit incluso | Garantia: 3 meses contra defeitos de fabricação.`,
+  descricao: ` # Armário Para Lavanderia Multiuso com Rodinhas ## 📌 Introdução O **Armário Multiuso para Lavanderia** é a solução perfeita para organizar produtos de limpeza e utensílios domésticos. Com design compacto, 4 prateleiras internas e rodinhas, ele transforma áreas de serviço e cozinhas em ambientes arrumados e funcionais. ## 📌 Principais Benefícios **Mobilidade Prática:** As rodinhas inclusas permitem mover o armário com facilidade, facilitando a limpeza do chão e o reposicionamento. **Organização Completa:** 4 prateleiras internas oferecem amplo espaço para detergentes, panos e vassouras. **Estrutura Resistente:** Fabricado em MDP de alta qualidade, suportando o peso do dia a dia. ## 📌 Especificações Técnicas - **Material:** MDP - **Cor:** Branco - **Portas:** 2 - **Prateleiras:** 4 internas - **Rodinhas:** Sim (4 inclusas) - **Profundidade:** 34 cm ## 📌 Conclusão Mantenha sua lavanderia ou cozinha impecável. Este armário oferece excelente custo-benefício e mobilidade para otimizar espaços reduzidos. `,
   marca: "Móveis Marília",
-  keywords: [
-    "armario para lavanderia 2 portas com rodinhas",
-    "armario multiuso para organizar produtos de limpeza",
-    "moveis para area de servico e cozinha",
-    "armario compacto com prateleiras e rodinhas"
-  ],
+  keywords: [ "armario para lavanderia 2 portas com rodinhas", "armario multiuso para organizar produtos de limpeza", "moveis para area de servico e cozinha", "armario compacto com prateleiras e rodinhas" ],
   seoTitle: "Armário para Lavanderia 2 Portas com Rodinhas Multiuso Branco | Oferta",
-  seoDescription: "Armário multiuso para lavanderia com 2 portas, 4 prateleiras e rodinhas. Compacto, resistente e ideal para organizar produtos de limpeza. 7% OFF. Frete para todo Brasil."
+  seoDescription: "Armário multiuso para lavanderia com 2 portas, 4 prateleiras e rodinhas. Compacto, resistente e ideal para organizar. 7% OFF!",
 },
 {
   id: "p-imp-053",
@@ -1678,43 +2936,11 @@ Marca: Genérica | Material: MDP | Cor: Branco | Portas: 2 | Prateleiras: 4 | Ro
   badge: "",
   platform: "Mercado Livre",
   affiliateLink: "https://meli.la/1BQAm7B",
-  descricao: `O Armário de Cozinha Completa Pop Zanzini é a escolha ideal para transformar sua cozinha em um ambiente perfeitamente organizado e cheio de charme. Com design moderno nas cores Nature e Off White, este móvel combina funcionalidade, qualidade e estilo para atender todas as suas necessidades do dia a dia.
-
-**Espaço e Organização**
-Com 6 portas e 2 gavetas de deslizamento suave, este armário oferece amplo espaço para armazenar panelas, utensílios, mantimentos e louças de forma organizada. As 4 prateleiras internas permitem otimizar ainda mais o espaço, enquanto o compartimento dedicado para forno micro-ondas garante praticidade no preparo das refeições.
-
-**Acabamento Premium e Durabilidade**
-Fabricado em MDP de 12mm com acabamento texturizado UV Verniz, disponível nas versões fosca e brilho, este armário é resistente e durável. As dobradiças e corrediças metálicas garantem movimento suave e longa vida útil, enquanto os pés reguláveis em PVC protegem o piso e oferecem estabilidade.
-
-**Por que escolher este armário?**
-- 6 portas e 2 gavetas: organização completa
-- 4 prateleiras internas: versatilidade de armazenamento
-- Acabamento texturizado UV: resistência e design moderno
-- Dimensões: 174 cm de altura x 120,2 cm de largura x 37,8 cm de profundidade
-- Capacidade: suporta até 35 kg, com prateleiras suportando 10 kg e gavetas 3 kg
-- Pés reguláveis em PVC: estabilidade e proteção ao piso
-
-**Dúvidas Frequentes dos Nossos Clientes:**
-- Este armário é bom para cozinhas compactas? Sim! Com 120,2 cm de largura e 37,8 cm de profundidade, ele se adapta perfeitamente a cozinhas pequenas e médias.
-- O que é MDP? MDP (Medium Density Particleboard) é um material de alta resistência e durabilidade, muito utilizado em móveis planejados.
-- As gavetas deslizam bem? Sim, as gavetas possuem corrediças metálicas que garantem abertura suave e segura.
-- Posso usar para guardar panelas pesadas? Sim, o armário suporta até 35 kg de peso total, sendo ideal para panelas e utensílios.
-- Qual o acabamento do produto? Acabamento texturizado UV Verniz, disponível em fosco ou brilho, conferindo um visual sofisticado.
-- É fácil de montar? Sim, acompanha manual de montagem e kit de ferragens.
-- O espaço para micro-ondas é grande o suficiente? Sim, o armário foi projetado com um espaço dedicado para forno micro-ondas.
-- Vale a pena comprar? Sim! Excelente custo-benefício, com qualidade Zanzini, design moderno e ótima capacidade de organização.
-
-**Especificações Técnicas:**
-Marca: Zanzini | Modelo: Pop | Material: MDP 12mm | Acabamento: Texturizado UV Verniz (fosco/brilho) | Cor: Nature / Off White | Portas: 6 (tipo bater) | Gavetas: 2 com corrediças metálicas | Prateleiras: 4 | Dobradiças: Metálicas | Puxadores: Plástico | Pés: 5 em PVC (reguláveis) | Dimensões: 174 cm (A) x 120,2 cm (L) x 37,8 cm (P) | Peso: 42,50 kg | Capacidade: 35 kg | Prateleiras: 10 kg | Gavetas: 3 kg | Montagem: Manual + Kit incluso | Garantia: 3 meses contra defeitos de fabricação.`,
+  descricao: ` # Armário de Cozinha Completa Pop Zanzini 6 Portas e 2 Gavetas ## 📌 Introdução O **Armário de Cozinha Completa Pop da Zanzini** é a solução para organizar panelas, mantimentos e eletrodomésticos com estilo. Com design moderno nas cores Nature e Off White, ele combina funcionalidade e acabamento premium. ## 📌 Principais Benefícios **Espaço para Micro-ondas:** Conta com compartimento dedicado para acomodar o forno micro-ondas ou bebedouro. **Organização Completa:** 6 portas, 2 gavetas com corrediças metálicas e 4 prateleiras internas. **Acabamento Premium:** Estrutura em MDP 12mm com texturizado UV Verniz (fosco/brilho), resistente e sofisticado. ## 📌 Especificações Técnicas - **Marca:** Zanzini | Modelo: Pop - **Material:** MDP 12mm - **Acabamento:** Texturizado UV Verniz - **Cor:** Nature / Off White - **Dimensões:** 174 cm (A) x 120,2 cm (L) x 37,8 cm (P) - **Capacidade Total:** 35 kg ## 📌 Conclusão Renove sua cozinha com elegância e organização inteligente. O armário Pop Zanzini oferece excelente custo-benefício e qualidade comprovada. `,
   marca: "Zanzini",
-  keywords: [
-    "armario de cozinha completa pop zanzini 6 portas 2 gavetas",
-    "cozinha compacta com 6 portas e gavetas nature off white",
-    "moveis para cozinha organizada e funcional",
-    "armario mdf texturizado uv para cozinha moderna"
-  ],
+  keywords: [ "armario de cozinha completa pop zanzini 6 portas 2 gavetas", "cozinha compacta com 6 portas e gavetas nature off white", "moveis para cozinha organizada e funcional", "armario mdf texturizado uv para cozinha moderna" ],
   seoTitle: "Armário de Cozinha Completa Pop Zanzini 6 Portas 2 Gavetas | Oferta",
-  seoDescription: "Armário de cozinha completa Pop Zanzini com 6 portas, 2 gavetas e 4 prateleiras. Acabamento texturizado UV, design nature/off white. 37% OFF. Frete para todo Brasil."
+  seoDescription: "Armário de cozinha completa Pop Zanzini com 6 portas, 2 gavetas e 4 prateleiras. Acabamento texturizado UV, design nature/off white. 37% OFF!",
 },
 {
   id: "p-imp-054",
@@ -1733,54 +2959,18 @@ Marca: Zanzini | Modelo: Pop | Material: MDP 12mm | Acabamento: Texturizado UV V
   badge: "",
   platform: "Mercado Livre",
   affiliateLink: "https://meli.la/1muEACH",
-  descricao: `O Rack para TV até 50 Polegadas é a peça perfeita para transformar sua sala com um móvel elegante, funcional e cheio de estilo. Ideal para quem busca praticidade no dia a dia sem abrir mão de um visual moderno e sofisticado, este rack foi projetado para acomodar televisores de até 50 polegadas com total segurança e estabilidade.
-
-**Design Moderno e Funcional**
-Produzido em madeira com acabamento de ótimo padrão, o rack conta com um design clean e contemporâneo que se adapta perfeitamente a diversos estilos de decoração — desde ambientes mais clássicos até os mais modernos. Possui 2 portas laterais disponíveis na cor preta, além de nichos centrais com prateleira, perfeitos para acomodar aparelhos eletrônicos, controles, livros, objetos decorativos e muito mais.
-
-**Diferenciais que Fazem a Diferença**
-Os pés elevados em estilo retrô trazem charme ao ambiente e ainda facilitam a limpeza do espaço, permitindo que você mantenha sua sala sempre impecável. Com 1,20 m de largura, 60 cm de altura e 34 cm de profundidade, este rack oferece espaço generoso para organizar todo o seu equipamento de entretenimento.
-
-**Por que escolher este rack?**
-- Ideal para TVs de até 50 polegadas
-- Design moderno, elegante e funcional
-- 2 portas laterais para organização discreta
-- Nichos centrais com prateleira para eletrônicos e decoração
-- Pés elevados estilo retrô: charme e facilidade de limpeza
-- Estrutura em madeira com ótimo acabamento
-- Perfeito para sala, quarto ou área de lazer
-
-**Dúvidas Frequentes dos Nossos Clientes:**
-- Este rack suporta TVs de até 50 polegadas? Sim! Foi projetado para acomodar televisores de até 50 polegadas com segurança e estabilidade.
-- Qual o material do produto? É fabricado em madeira com acabamento de alta qualidade, garantindo durabilidade e resistência.
-- As portas são na cor preta? Sim, as portas laterais estão disponíveis na cor preta, combinando com diferentes decorações.
-- O que posso colocar nos nichos centrais? Aparelhos eletrônicos, controles, livros, objetos decorativos e muito mais.
-- Os pés são elevados? Sim, os pés em estilo retrô elevam o móvel, facilitando a limpeza e trazendo charme ao ambiente.
-- Serve para quarto ou área de lazer? Sim, o design versátil se adapta a diferentes ambientes da casa.
-- É fácil de montar? Sim, acompanha manual de montagem e kit de ferragens.
-- Vale a pena comprar? Sim! Excelente custo-benefício para quem busca um rack moderno, funcional e com ótimo acabamento.
-
-**Especificações Técnicas:**
-Marca: Acacia | Modelo: Venus | Material: Madeira | Cor: Preto | Portas: 2 laterais (cor preta) | Nichos: Centrais com prateleira | Pés: Elevados estilo retrô | Dimensões: 120 cm (L) x 60 cm (A) x 34 cm (P) | Uso: Sala, Quarto, Área de Lazer | Montagem: Manual + Kit incluso | Garantia: 3 meses contra defeitos de fabricação.`,
+  descricao: ` # Rack para TV até 50 Polegadas Acacia Venus ## 📌 Introdução O **Rack Acacia Venus** é a peça perfeita para transformar sua sala com elegância e funcionalidade. Produzido em madeira com acabamento de ótimo padrão e pés elevados estilo retrô, ele acomoda televisores de até 50 polegadas com segurança. ## 📌 Principais Benefícios **Design Moderno e Limpo:** Estrutura em madeira com 2 portas laterais na cor preta e nichos centrais com prateleira. **Facilidade de Limpeza:** Os pés elevados em estilo retrô facilitam a limpeza do chão, mantendo o ambiente impecável. **Espaço Generoso:** 1,20m de largura oferece amplo espaço para aparelhos eletrônicos, controles e objetos decorativos. ## 📌 Especificações Técnicas - **Marca:** Acacia | Modelo: Venus - **Material:** Madeira - **Cor:** Preto - **Portas:** 2 laterais - **Dimensões:** 120 cm (L) x 60 cm (A) x 34 cm (P) ## 📌 Conclusão Um rack versátil que combina com decorações clássicas e contemporâneas. Ideal para quem busca organização e estilo sem abrir mão do acabamento de qualidade. `,
   marca: "Acacia",
-  keywords: [
-    "rack para tv ate 50 polegadas moderno com portas",
-    "rack de madeira preto com nichos e prateleiras",
-    "moveis para sala de estar e quarto",
-    "rack para tv com design retrô e organizacao"
-  ],
+  keywords: [ "rack para tv ate 50 polegadas moderno com portas", "rack de madeira preto com nichos e prateleiras", "moveis para sala de estar e quarto", "rack para tv com design retrô e organizacao" ],
   seoTitle: "Rack para TV até 50 Polegadas Moderno com Portas e Nichos 120cm | Oferta",
-  seoDescription: "Rack para TV até 50 polegadas com design moderno, 2 portas laterais e nichos centrais. Estrutura em madeira, pés retrô e acabamento preto. Frete para todo Brasil."
+  seoDescription: "Rack para TV até 50 polegadas com design moderno, 2 portas laterais e nichos centrais. Estrutura em madeira e pés retrô. Frete para todo Brasil!",
 },
 {
   id: "p-imp-055",
   slug: "armario-cozinha-ajl-preto-com-rodas-porta-microondas-2-portas",
   category: "cozinhas",
   mainCategory: "cozinha",
-  categories: [
-  "cozinhas",
-  "home-office"
-],
+  categories: [ "cozinhas", "home-office" ],
   name: "Armário Cozinha AJL Preto Fruteira com Rodas Porta Microondas 2 Portas",
   imageFile: "/imagens/produtos/armario-cozinha-ajl-preto-com-rodas-porta-microondas-2-portas-92cm-organizacao.webp",
   displayImage: "/imagens/produtos/armario-cozinha-ajl-preto-com-rodas-porta-microondas-2-portas-92cm-organizacao.webp",
@@ -1793,53 +2983,18 @@ Marca: Acacia | Modelo: Venus | Material: Madeira | Cor: Preto | Portas: 2 later
   badge: "Mais Vendido",
   platform: "Mercado Livre",
   affiliateLink: "https://meli.la/29URzoX",
-  descricao: `O Armário Cozinha AJL Fruteira com Rodas e Porta Microondas é a solução perfeita para quem busca praticidade, organização e estilo em espaços reduzidos. Ideal para cozinhas compactas, dispensas, lavanderias e até mesmo escritórios, este móvel versátil foi projetado para otimizar cada centímetro do ambiente.
-
-**Design Inteligente e Funcional**
-Com 2 portas espaçosas, 1 nicho para utensílios domésticos e 2 compartimentos superiores para armazenar frutas, legumes e verduras, este armário mantém tudo organizado e ao alcance das mãos. O diferencial está nos rodízios (rodinhas) que facilitam a locomoção, permitindo mover o móvel para limpeza ou reposicionamento conforme sua necessidade.
-
-**Versatilidade que Surpreende**
-Comporta perfeitamente um forno micro-ondas ou bebedouro, sendo uma peça coringa para diferentes ambientes. Fabricado em MDP de alta qualidade, com puxadores em PVC cromado, este armário é resistente, durável e fácil de limpar.
-
-**Por que escolher este armário?**
-- Fruteira integrada: organização para frutas e legumes
-- Rodinhas: mobilidade e facilidade de limpeza
-- Porta microondas: espaço dedicado para eletrodomésticos
-- 2 portas: armazenamento discreto para utensílios
-- Material MDP: resistência e durabilidade
-- Design preto: moderno e versátil
-
-**Dúvidas Frequentes dos Nossos Clientes:**
-- Este armário cabe microondas? Sim, o espaço superior foi projetado para comportar forno microondas ou bebedouro.
-- As rodinhas são resistentes? Sim, as rodinhas permitem movimentação suave e facilitam a limpeza do ambiente.
-- O que significa "fruteira"? São 2 compartimentos superiores para armazenar frutas, legumes e verduras de forma organizada.
-- Qual o material do armário? Fabricado em MDP de alta qualidade, garantindo resistência e durabilidade.
-- Serve para lavanderia? Sim, pode ser usado para organizar produtos de limpeza e utensílios domésticos.
-- É fácil de montar? Sim, acompanha manual de montagem e kit de ferragens.
-- As portas são na cor preta? Sim, o acabamento preto confere um visual moderno e sofisticado.
-- Vale a pena comprar? Sim! Excelente custo-benefício, com design funcional e ótima capacidade de organização.
-
-**Especificações Técnicas:**
-Marca: AJL | Material: MDP | Cor: Preto | Portas: 2 | Compartimento para Frutas: 2 | Nicho para Utensílios: 1 | Rodízios: Sim (4 rodinhas) | Comporta: Microondas e Bebedouro | Puxadores: PVC Cromado | Dimensões: 72 cm (A) x 92 cm (L) x 34 cm (P) | Montagem: Manual + Kit incluso | Garantia: 3 meses contra defeitos de fabricação.`,
+  descricao: ` # Armário Cozinha AJL Preto com Rodas e Porta Microondas ## 📌 Introdução O **Armário Cozinha AJL** é a solução versátil para espaços compactos. Compartimentado para fruteira, micro-ondas e utensílios, ele é perfeito para cozinhas, dispensas e lavanderias. O grande diferencial são as rodinhas, que facilitam a limpeza e a mobilidade. ## 📌 Principais Benefícios **Compartimento para Micro-ondas:** Espaço superior projetado para comportar o forno micro-ondas ou bebedouro. **Fruteira Integrada:** 2 compartimentos superiores abertos para armazenar frutas e legumes. **Mobilidade:** Rodízios resistentes que permitem mover o móvel com facilidade. **Design Preto Sofisticado:** Visual moderno que combina com qualquer decoração. ## 📌 Especificações Técnicas - **Marca:** AJL - **Material:** MDP - **Cor:** Preto - **Portas:** 2 - **Rodinhas:** 4 - **Dimensões:** 72 cm (A) x 92 cm (L) x 34 cm (P) ## 📌 Conclusão Praticidade e mobilidade em um só móvel. Excelente custo-benefício para organizar a cozinha sem comprometer o espaço. `,
   marca: "AJL",
-  keywords: [
-    "armario cozinha com rodas e fruteira preto",
-    "armario porta microondas com rodinhas",
-    "moveis para cozinha compacta com organizacao",
-    "armario mdf com fruteira para legumes e frutas"
-  ],
+  keywords: [ "armario cozinha com rodas e fruteira preto", "armario porta microondas com rodinhas", "moveis para cozinha compacta com organizacao", "armario mdf com fruteira para legumes e frutas" ],
   seoTitle: "Armário Cozinha AJL Preto com Rodas e Fruteira Porta Microondas | Oferta",
-  seoDescription: "Armário cozinha AJL preto com rodas, fruteira integrada e porta microondas. Compacto, resistente e prático para organizar cozinha, dispensa ou lavanderia. 18% OFF. Frete para todo Brasil."
+  seoDescription: "Armário cozinha AJL preto com rodas, fruteira integrada e porta microondas. Compacto e resistente. Ideal para cozinhas e lavanderias. 18% OFF!",
 },
 {
   id: "p-imp-056",
   slug: "balcao-fruteira-isis-2-portas-1-gaveta-com-cestos-metalicos-92cm",
   category: "cozinhas",
   mainCategory: "cozinha",
- categories: [
-  "cozinhas",
-  "home-office"
-],
+  categories: [ "cozinhas", "home-office" ],
   name: "Balcão Fruteira Isis 2 Portas 1 Gaveta com Cestos Metálicos 92cm Branco",
   imageFile: "/imagens/produtos/balcao-fruteira-isis-2-portas-1-gaveta-com-cestos-metalicos-92cm-branco-cozinha-home-office.webp",
   displayImage: "/imagens/produtos/balcao-fruteira-isis-2-portas-1-gaveta-com-cestos-metalicos-92cm-branco-cozinha-home-office.webp",
@@ -1852,54 +3007,18 @@ Marca: AJL | Material: MDP | Cor: Preto | Portas: 2 | Compartimento para Frutas:
   badge: "Oferta do Dia",
   platform: "Mercado Livre",
   affiliateLink: "https://meli.la/13ZeTQX",
-  descricao: `O Balcão Fruteira Isis é um móvel versátil e funcional projetado para transformar a organização da sua cozinha, dispensas, áreas de serviço e até mesmo home office. Com design moderno e acabamento de alto padrão, ele combina elegância, praticidade e mobilidade para atender às suas necessidades diárias.
-
-**Versatilidade que Surpreende**
-Com 2 portas que revelam um amplo espaço interno com uma prateleira, 1 gaveta com corrediça metálica e 3 cestos metálicos aramados, este balcão oferece organização completa para frutas, legumes, verduras, talheres e utensílios de cozinha. O tampo resistente suporta até 20 kg, sendo ideal para colocar forno micro-ondas, galão de água ou até mesmo itens de escritório, tornando-o perfeito para diferentes ambientes.
-
-**Mobilidade e Praticidade**
-Acompanha 4 rodízios que facilitam a movimentação do móvel, permitindo limpeza prática ou reposicionamento conforme sua necessidade. Fabricado em MDP de alta qualidade, com puxadores em PVC cromado e acabamento Touch Alto-Relevo ou Alto Brilho UV, o Balcão Fruteira Isis é resistente, durável e fácil de limpar.
-
-**Por que escolher este balcão?**
-- 3 cestos metálicos aramados: organização para frutas e legumes
-- 2 portas com prateleira interna: armazenamento discreto
-- 1 gaveta com corrediça metálica: ideal para talheres e utensílios
-- Tampo resistente: suporta até 20 kg (microondas ou galão de água)
-- 4 rodízios: mobilidade e facilidade de limpeza
-- Acabamento Touch/Alto Brilho UV: design moderno e sofisticado
-- Multiuso: cozinha, home office, dispensa e áreas de serviço
-
-**Dúvidas Frequentes dos Nossos Clientes:**
-- Este balcão cabe microondas? Sim, o tampo suporta até 20 kg, sendo ideal para forno micro-ondas ou galão de água.
-- Os cestos são resistentes? Sim, são em metal aramado, projetados para armazenar frutas e legumes de forma organizada.
-- Para que serve a gaveta? Ideal para talheres, guardanapos, pequenos utensílios de cozinha ou itens de escritório.
-- As rodinhas facilitam a movimentação? Sim, os 4 rodízios permitem mover o móvel com facilidade para limpeza ou reposicionamento.
-- Qual o material do produto? Fabricado em MDP de alta qualidade, com puxadores em PVC cromado.
-- Serve para home office? Sim, o design versátil e o tampo resistente permitem usar como apoio para impressora, documentos e utensílios de escritório.
-- É fácil de montar? Sim, acompanha manual de montagem e kit de ferragens.
-- Vale a pena comprar? Sim! Excelente custo-benefício, com design funcional, organização inteligente e mobilidade.
-
-**Especificações Técnicas:**
-Marca: Isis | Material: MDP | Acabamento: Touch Alto-Relevo / Alto Brilho UV | Cor: Branco | Portas: 2 com 1 prateleira interna | Gaveta: 1 com corrediça metálica | Cestos: 3 metálicos aramados | Puxadores: PVC Cromado | Rodízios: 4 (inclusos) | Capacidade do Tampo: 20 kg | Dimensões: 82 cm (A) x 92 cm (L) x 37 cm (P) | Peso: 24 kg | Dimensões da Gaveta: 53,2 cm (L) x 13,2 cm (A) x 30 cm (P) | Uso: Cozinha, Home Office, Dispensa, Área de Serviço | Montagem: Manual + Kit incluso | Garantia: 3 meses contra defeitos de fabricação.`,
+  descricao: ` # Balcão Fruteira Isis com Cestos Metálicos 92cm ## 📌 Introdução O **Balcão Fruteira Isis** é um móvel versátil projetado para organizar a cozinha e o home office. Com design moderno e rodízios para mobilidade, ele combina 3 cestos metálicos, gavetas e um tampo robusto que suporta eletrodomésticos e objetos pesados. ## 📌 Principais Benefícios **3 Cestos Metálicos Aramados:** Ideais para organizar frutas, legumes e verduras de forma arejada. **Tampo Super Resistente:** Suporta até 20 kg, perfeito para apoiar um forno micro-ondas, galão de água ou impressora. **Mobilidade Total:** 4 rodízios inclusos para fácil locomoção e limpeza do ambiente. ## 📌 Especificações Técnicas - **Marca:** Isis - **Material:** MDP com acabamento Touch/Alto Brilho UV - **Cor:** Branco - **Portas:** 2 (1 prateleira interna) - **Gavetas:** 1 com corrediça metálica - **Cestos:** 3 metálicos - **Rodinhas:** 4 - **Capacidade do Tampo:** 20 kg - **Dimensões:** 82 cm (A) x 92 cm (L) x 37 cm (P) ## 📌 Conclusão Design inteligente e funcionalidade no mesmo móvel. Com 38% de desconto, é a escolha ideal para quem busca organização prática e elegante. `,
   marca: "Isis",
-  keywords: [
-    "balcao fruteira com 2 portas 1 gaveta e cestos metalicos",
-    "moveis para cozinha e home office com rodizios",
-    "fruteira com suporte para microondas e organizacao",
-    "balcao mdf com gaveta e portas branco 92cm"
-  ],
+  keywords: [ "balcao fruteira com 2 portas 1 gaveta e cestos metalicos", "moveis para cozinha e home office com rodizios", "fruteira com suporte para microondas e organizacao", "balcao mdf com gaveta e portas branco 92cm" ],
   seoTitle: "Balcão Fruteira Isis 2 Portas 1 Gaveta com Cestos Metálicos 92cm Branco | Oferta",
-  seoDescription: "Balcão fruteira Isis com 2 portas, 1 gaveta e 3 cestos metálicos. Tampo resistente para microondas, rodízios e acabamento UV. Ideal para cozinha e home office. 38% OFF. Frete para todo Brasil."
+  seoDescription: "Balcão fruteira Isis com 2 portas, 1 gaveta e 3 cestos metálicos. Tampo resistente para microondas, rodízios e acabamento UV. 38% OFF!",
 },
 {
   id: "p-imp-057",
   slug: "cama-box-conjugada-solteiro-ortopedica-sleep-prime-88x188cm-probel",
   category: "quartos",
   mainCategory: "quarto",
-  categories: [
-  "quartos",
-  "home-office",
-],
+  categories: [ "quartos", "home-office" ],
   name: "Cama Box Conjugada Solteiro Ortopédica Sleep Prime 88x188cm Branco Probel",
   imageFile: "/imagens/produtos/cama-box-conjugada-solteiro-ortopedica-sleep-prime-88x188cm-probel-branco-conforto-quarto.webp",
   displayImage: "/imagens/produtos/cama-box-conjugada-solteiro-ortopedica-sleep-prime-88x188cm-probel-branco-conforto-quarto.webp",
@@ -1912,54 +3031,17 @@ Marca: Isis | Material: MDP | Acabamento: Touch Alto-Relevo / Alto Brilho UV | C
   badge: "Oferta",
   platform: "Mercado Livre",
   affiliateLink: "https://meli.la/2F7XvNb",
-  descricao: `A Cama Box Conjugada Solteiro Ortopédica Sleep Prime da Probel foi desenvolvida para oferecer o máximo de conforto, praticidade e qualidade de sono para o seu dia a dia. Com sistema conjugado que integra colchão e base em uma única peça, este móvel facilita a organização do ambiente, economiza espaço e garante maior estabilidade durante o uso, sendo a escolha perfeita para quartos de solteiro, repúblicas, kitnets e apartamentos compactos.
-
-**Conforto e Tecnologia para noites de sono reparadoras**
-Produzida com espuma D28 de alta qualidade, dentro dos rigorosos padrões ABNT, a cama proporciona suporte ideal com firmeza na medida certa, alinhando a coluna e relaxando os músculos para noites de sono mais tranquilas e revigorantes. O pillow Euro Pillow adiciona uma camada extra de conforto, oferecendo maciez superior e uma sensação acolhedora a cada noite. O revestimento superior e lateral em tecido 100% poliéster proporciona toque macio, resistência e melhor adaptação aos movimentos do corpo, garantindo que você acorde renovado todas as manhãs.
-
-**Estrutura Resistente e Durável**
-A estrutura é fabricada com madeira de reflorestamento, garantindo durabilidade e segurança para o uso diário. Os 6 pés em plástico de alta resistência oferecem estabilidade e proteção ao piso, enquanto a altura de 49 cm (com pés) proporciona conforto ao sentar e levantar, facilitando o dia a dia.
-
-**Por que escolher esta cama box?**
-- Sistema conjugado: colchão fixado à base, praticidade e estabilidade
-- Espuma D28 de alta qualidade: suporte ideal e conforto
-- Euro Pillow: camada extra de maciez e acolhimento
-- Certificação INMETRO: qualidade e segurança garantidas
-- Estrutura em madeira de reflorestamento: resistência e durabilidade
-- Suporta até 110 kg: robustez para diferentes biotipos
-- Design clean: cor branca que combina com qualquer decoração
-
-**Dúvidas Frequentes dos Nossos Clientes:**
-- O que significa cama box conjugada? É um modelo onde o colchão já vem fixado à base, formando uma peça única, o que facilita a arrumação e garante maior estabilidade.
-- Esta cama é boa para quem tem problemas de coluna? Sim, a espuma D28 oferece suporte firme e alinhamento adequado da coluna, sendo indicada para quem busca conforto e saúde.
-- Qual o peso máximo suportado? Suporta até 110 kg por pessoa, garantindo durabilidade e segurança.
-- A cama precisa de montagem? Não, o produto é conjugado e já vem pronto para uso. Apenas areje antes de utilizar.
-- Qual a certificação do produto? Possui certificação INMETRO, garantindo qualidade e segurança.
-- O revestimento é resistente? Sim, o tecido 100% poliéster é macio e resistente, proporcionando conforto e durabilidade.
-- Serve para quarto de estudante? Sim, o tamanho solteiro (88x188cm) é ideal para quartos de estudantes, repúblicas e apartamentos compactos.
-- Como deve ser feita a limpeza? Utilize pano úmido e seco. Manter em local arejado. Antes do primeiro uso, deixe arejar fora do ambiente de repouso.
-- Vale a pena comprar? Sim! Excelente custo-benefício, com qualidade Probel, conforto ortopédico e durabilidade garantida.
-
-**Especificações Técnicas:**
-Marca: Probel | Modelo: Sleep Prime | Tipo: Cama Box Conjugada Solteiro | Dimensões: 88 cm (L) x 188 cm (P) x 49 cm (A) ou 43 cm (sem pés) | Altura dos Pés: 6 cm | Peso: 21,34 kg | Capacidade: 110 kg | Espuma: D28 (ABNT) | Revestimento: 100% poliéster | Pillow: Euro Pillow | Estrutura: Madeira de reflorestamento | Pés: 6 unidades em plástico de alta resistência | Certificação INMETRO: 000222/2025 | Uso: Quarto de solteiro, república, kitnet, apartamento compacto | Garantia: 6 meses pelo fabricante.`,
+  descricao: ` # Cama Box Conjugada Solteiro Ortopédica Sleep Prime Probel ## 📌 Introdução A **Cama Box Conjugada Solteiro Sleep Prime** da Probel foi desenvolvida para máximo conforto e praticidade. Por ser conjugada, o colchão já vem fixado à base, formando uma peça única que facilita a organização do ambiente e economiza espaço. ## 📌 Principais Benefícios **Sistema Conjugado:** Colchão e base integrados em uma única peça, dispensando a compra separada e facilitando a arrumação. **Conforto Ortopédico:** Espuma D28 de alta densidade dentro dos padrões ABNT, oferecendo suporte firme e alinhamento adequado da coluna. **Euro Pillow Top:** Camada extra de maciez que proporciona uma sensação acolhedora e confortável ao deitar. **Estrutura Resistente:** Base em madeira de reflorestamento com 6 pés plásticos de alta resistência, suportando até 110 kg. ## 📌 Especificações Técnicas - **Marca:** Probel | Modelo: Sleep Prime - **Material:** Espuma D28, Madeira, Tecido 100% poliéster - **Dimensões:** 88 cm (L) x 188 cm (P) x 49 cm (A) (com pés) - **Capacidade:** 110 kg - **Certificação:** INMETRO 000222/2025 ## 📌 Conclusão Com 49% de desconto, esta cama box conjugada é a escolha ideal para quartos de solteiro, repúblicas e kitnets, oferecendo conforto ortopédico e qualidade Probel. `,
   marca: "Probel",
-  keywords: [
-    "cama box conjugada solteiro ortopedica sleep prime",
-    "cama box com espuma d28 para conforto e saude",
-    "moveis para quarto de estudante e apartamento",
-    "cama solteiro 88x188 com pillow euro pillow"
-  ],
+  keywords: [ "cama box conjugada solteiro ortopedica sleep prime", "cama box com espuma d28 para conforto e saude", "moveis para quarto de estudante e apartamento", "cama solteiro 88x188 com pillow euro pillow" ],
   seoTitle: "Cama Box Conjugada Solteiro Ortopédica Sleep Prime 88x188cm Probel | Oferta",
-  seoDescription: "Cama box conjugada solteiro Sleep Prime Probel com espuma D28, Euro Pillow e estrutura em madeira. Suporta 110kg, certificada INMETRO. 49% OFF. Frete para todo Brasil."
+  seoDescription: "Cama box conjugada solteiro Sleep Prime Probel com espuma D28, Euro Pillow e estrutura em madeira. Suporta 110kg, INMETRO. 49% OFF!",
 },
 {
   id: "p-imp-058",
   slug: "cama-box-colchao-solteiro-espuma-d33-new-millennium-hellen-88x188x57cm",
   category: "quartos",
-    categories: [
-  "quartos",
-  "home-office",
-],
+  categories: [ "quartos", "home-office" ],
   mainCategory: "quarto",
   name: "Cama Box Colchão Solteiro Espuma D33 New Millennium 88x188x57cm Branco / Bege Hellen - Suporta até 120kg por Pessoa",
   imageFile: "/imagens/produtos/cama-box-colchao-solteiro-espuma-d33-new-millennium-hellen-88x188x57cm-branco-bege-conforto-ortopedico.webp",
@@ -1973,56 +3055,18 @@ Marca: Probel | Modelo: Sleep Prime | Tipo: Cama Box Conjugada Solteiro | Dimens
   badge: "Mais Vendido",
   platform: "Mercado Livre",
   affiliateLink: "https://meli.la/2xPpeM2",
-  descricao: `O Conjunto Solteiro New Millennium da Hellen foi desenvolvido para proporcionar mais conforto, qualidade e bem-estar para suas noites de sono. Com colchão em espuma de alta densidade D33, este conjunto oferece suporte firme e equilibrado, ideal para quem busca uma noite de sono reparadora e alinhamento adequado da coluna.
-
-**Conforto e Tecnologia para noites de sono tranquilas**
-A espuma D33, dentro dos rigorosos padrões ABNT, proporciona suporte adequado e estabilidade para o dia a dia, com firmeza na medida certa que se adapta ao corpo e reduz pontos de pressão, garantindo que você acorde renovado todas as manhãs. O colchão conta com uma base em EPS, material resistente, leve e de alta durabilidade, que garante maior firmeza e prolonga a vida útil do produto. O revestimento superior e lateral em tecido de poliéster permite melhor ventilação, proporcionando conforto e sensação agradável ao toque, enquanto o box com acabamento em tecido Suede confere um toque sofisticado e moderno.
-
-**Estrutura Resistente e Durável**
-A estrutura do box é fabricada com madeira de Eucalipto Pinus, resistente e duradoura, garantindo segurança e estabilidade para o uso diário. Os 6 pés em plástico de alta resistência oferecem estabilidade e proteção ao piso, enquanto a altura de 57 cm (com pés) proporciona conforto ao sentar e levantar, facilitando o dia a dia.
-
-**Por que escolher este conjunto?**
-- Espuma D33 de alta qualidade: suporte firme e conforto
-- Base em EPS: resistência e durabilidade prolongada
-- Revestimento em poliéster: ventilação e toque agradável
-- Box em tecido Suede: acabamento sofisticado
-- Estrutura em madeira de eucalipto: resistência e durabilidade
-- Suporta até 120 kg por pessoa: robustez para diferentes biotipos
-- Marca Hellen: referência em qualidade e conforto
-
-**Dúvidas Frequentes dos Nossos Clientes:**
-- O que significa densidade D33? É uma classificação que indica a firmeza da espuma. A densidade D33 oferece um suporte firme e equilibrado, ideal para quem busca conforto e alinhamento da coluna durante o sono.
-- Esta cama é boa para quem tem dores nas costas? Sim, a espuma D33 é recomendada para quem busca firmeza e suporte adequado, ajudando a aliviar dores nas costas e melhorar a postura.
-- Qual o peso máximo suportado? Suporta até 120 kg por pessoa, garantindo durabilidade e segurança.
-- O que significa "New Millennium"? É a linha do produto, que combina design moderno e tecnologia em conforto.
-- O colchão vem com o box? Sim, o produto é um conjunto completo: colchão + box.
-- Como deve ser feita a manutenção? Utilizar em local seco e arejado, não dobrar o colchão e fazer giro quinzenalmente no sentido pés/cabeceira.
-- Qual a garantia do produto? Garantia de 3 meses pelo fabricante.
-- Serve para quarto de estudante? Sim, o tamanho solteiro (88x188cm) é ideal para quartos de estudantes, repúblicas e apartamentos compactos.
-- Vale a pena comprar? Sim! Excelente custo-benefício, com qualidade Hellen, conforto ortopédico e durabilidade garantida.
-
-**Especificações Técnicas:**
-Marca do Colchão: Hellen | Marca do Box: Prince | Linha: New Millennium | Tipo: Cama Box Solteiro | Dimensões: 88 cm (L) x 188 cm (P) x 57 cm (A) ou 45 cm (sem pés) | Peso: 26,24 kg | Capacidade: 120 kg por pessoa | Espuma: D33 (ABNT) | Base: EPS | Revestimento Superior: Tecido poliéster | Revestimento do Box: Suede | Estrutura: Madeira de Eucalipto Pinus | Pés: 6 unidades em plástico de alta resistência | Itens Inclusos: 1 colchão de 0,88m e 1 box de 0,88m | Uso: Quarto de solteiro, república, kitnet, apartamento compacto | Garantia: 3 meses pelo fabricante.`,
+  descricao: ` # Cama Box Solteiro Espuma D33 New Millennium Hellen ## 📌 Introdução O **Conjunto Cama Box Solteiro New Millennium** da Hellen oferece suporte firme e durabilidade para quem busca noites de sono reparador. Com colchão em espuma D33 e base EPS, este conjunto é ideal para quem precisa de firmeza e alinhamento da coluna. ## 📌 Principais Benefícios **Espuma D33 de Alta Densidade:** Oferece suporte superior, recomendada para pessoas com peso acima de 80 kg, garantindo maior durabilidade e resistência à deformação. **Base em EPS:** Material leve, resistente e durável, que protege o colchão e prolonga sua vida útil. **Conforto Térmico:** Revestimento superior em tecido de poliéster que permite ventilação e toque agradável. **Estrutura Robusta:** Box em madeira de Eucalipto Pinus com 6 pés plásticos resistentes. Suporta até 120 kg. ## 📌 Especificações Técnicas - **Marca do Colchão:** Hellen | Marca do Box: Prince - **Material:** Espuma D33, Base EPS, Estrutura Eucalipto - **Dimensões:** 88 cm (L) x 188 cm (P) x 57 cm (A) - **Capacidade:** 120 kg por pessoa ## 📌 Conclusão Para quem busca firmeza e durabilidade, este conjunto com espuma D33 é a escolha ideal. Suporta até 120 kg e oferece o equilíbrio perfeito entre suporte e conforto. `,
   marca: "Hellen",
-  keywords: [
-    "cama box colchao solteiro espuma d33 new millennium",
-    "conjunto cama box ortopedico com espuma d33",
-    "moveis para quarto de solteiro com conforto e durabilidade",
-    "cama box com colchao d33 para quem tem dor nas costas"
-  ],
+  keywords: [ "cama box colchao solteiro espuma d33 new millennium", "conjunto cama box ortopedico com espuma d33", "moveis para quarto de solteiro com conforto e durabilidade", "cama box com colchao d33 para quem tem dor nas costas" ],
   seoTitle: "Cama Box Colchão Solteiro Espuma D33 New Millennium 88x188x57cm Hellen | Oferta",
-  seoDescription: "Conjunto cama box solteiro New Millennium com espuma D33, base EPS e estrutura resistente. Suporta 120kg. Ideal para quartos e repúblicas. 9% OFF. Frete para todo Brasil."
+  seoDescription: "Conjunto cama box solteiro New Millennium com espuma D33, base EPS e estrutura resistente. Suporta 120kg. Ideal para quartos e repúblicas. 9% OFF!",
 },
-
 {
   id: "p-imp-059",
   slug: "conjunto-4-pecas-escrivaninha-gaveteiro-2-estantes-freijo-marrom",
   category: "home-office",
   mainCategory: "escritorio",
-    categories: [
-  "quartos",
-  "home-office",
-],
+  categories: [ "quartos", "home-office" ],
   name: "Conjunto 4 Peças com Escrivaninha, Gaveteiro e 2 Estantes Livreiros Freijó Marrom Marrom",
   imageFile: "/imagens/produtos/conjunto-4-pecas-escrivaninha-gaveteiro-2-estantes-freijo-marrom-home-office-estudante.webp",
   displayImage: "/imagens/produtos/conjunto-4-pecas-escrivaninha-gaveteiro-2-estantes-freijo-marrom-home-office-estudante.webp",
@@ -2035,46 +3079,11 @@ Marca do Colchão: Hellen | Marca do Box: Prince | Linha: New Millennium | Tipo:
   badge: "",
   platform: "Shopee",
   affiliateLink: "https://s.shopee.com.br/4fuDl1UsNO",
-  descricao: `O Conjunto 4 Peças com Escrivaninha, Gaveteiro e 2 Estantes Livreiros é a solução completa para transformar seu home office, quarto de estudante ou escritório em um ambiente funcional, organizado e com estilo. Este conjunto versátil foi projetado para atender às necessidades de quem busca praticidade, durabilidade e design moderno.
-
-**Escrivaninha: O Centro do seu Espaço de Trabalho**
-Moderna e versátil, nossa Escrivaninha se encaixa perfeitamente em uma variedade de ambientes, desde um simples local de estudos até um escritório profissional. Fabricada em MDP de 25mm, é resistente e durável, disponível na cor Freijó Marrom. Você pode escolher entre a versão com ou sem gaveta, de acordo com suas necessidades de armazenamento.
-
-**Gaveteiro Gávea: Organização e Mobilidade**
-O Gaveteiro Gávea é prático e versátil, podendo ser utilizado em vários ambientes — do escritório ou local de estudo até o quarto como mesa de cabeceira. Todo em MDP 15mm, conta com 4 gavetas, sendo 1 com chave para segurança, e rodízios para fácil movimentação.
-
-**Estantes Livreiros: Versatilidade e Espaço**
-Os 2 estantes livreiro são produtos versáteis, capazes de se adaptar a uma variedade de ambientes, desde uma estante para livros em um escritório até uma área de serviços para otimização do espaço. Com estrutura robusta de 15mm, 5 prateleiras (sendo 3 removíveis) e 4 pés de PVC, oferecem diversas configurações para atender diferentes necessidades de organização.
-
-**Por que escolher este conjunto?**
-- Completo: escrivaninha, gaveteiro e 2 estantes em um único conjunto
-- Material Premium: MDP de 25mm (escrivaninha) e 15mm (gaveteiro e estantes)
-- Design versátil: combina com diferentes estilos de decoração
-- Organização: gavetas com chave, prateleiras removíveis e rodízios
-- Multiuso: perfeito para home office, quarto de estudante e escritório
-- Durabilidade: estrutura robusta e acabamento de qualidade
-
-**Dúvidas Frequentes dos Nossos Clientes:**
-- Este conjunto é bom para home office? Sim! A escrivaninha espaçosa, o gaveteiro organizador e as estantes versáteis tornam este conjunto ideal para home office e trabalho remoto.
-- Serve para quarto de estudante? Perfeitamente! O conjunto foi projetado para atender estudantes que precisam de um espaço funcional para estudos, com organização e praticidade.
-- O gaveteiro tem rodízios? Sim, o gaveteiro Gávea possui rodízios para fácil movimentação, permitindo reposicioná-lo conforme sua necessidade.
-- As estantes têm prateleiras removíveis? Sim, das 5 prateleiras de cada estante, 3 são removíveis, permitindo ajustar o espaço conforme sua necessidade.
-- Qual o material do produto? Escrivaninha em MDP 25mm, gaveteiro e estantes em MDP 15mm, garantindo resistência e durabilidade.
-- O gaveteiro possui chave? Sim, uma das 4 gavetas possui chave para segurança de documentos e objetos pessoais.
-- É fácil de montar? Sim, os produtos acompanham manual de montagem e kit de ferragens.
-- Vale a pena comprar? Sim! Excelente custo-benefício para quem busca um conjunto completo, com qualidade e versatilidade para diferentes ambientes.
-
-**Especificações Técnicas:**
-Marca: Espresso Móveis | Linha: Office | Material: MDP (25mm na escrivaninha, 15mm no gaveteiro e estantes) | Cor: Freijó Marrom | Acabamento: Marrom | Gaveteiro: 4 gavetas (1 com chave) + rodízios | Estantes: 5 prateleiras cada (3 removíveis) + pés de PVC | Ambiente Principal: Escritório | Uso: Home Office, Quarto de Estudante, Escritório | Montagem: Manual + Kit incluso | Garantia: 3 meses contra defeitos de fabricação.`,
+  descricao: ` # Conjunto 4 Peças Escrivaninha e Estantes Freijó Marrom ## 📌 Introdução O **Conjunto 4 Peças** da Espresso Móveis é a solução completa para montar seu home office ou espaço de estudos. Composto por escrivaninha, gaveteiro móvel e 2 estantes livreiras, ele entrega tudo o que você precisa para organizar livros, documentos e equipamentos em um único ambiente. ## 📌 Principais Benefícios **Escrivaninha Espaçosa:** Produzida em MDP de 25mm, oferece alta resistência para apoiar monitores e notebooks. **Gaveteiro com Rodízios:** Gaveteiro Gávea com 4 gavetas (1 com chave) e rodízios para fácil movimentação e armazenamento de documentos. **2 Estantes Robustas:** Estrutura de 15mm com 5 prateleiras cada (3 removíveis), suportando até 20 kg por prateleira. **Design Versátil:** Cor Freijó Marrom que se adapta a escritórios, quartos de estudante e salas de estudo. ## 📌 Especificações Técnicas - **Marca:** Espresso Móveis - **Material:** MDP (25mm escrivaninha, 15mm gaveteiro e estantes) - **Cor:** Freijó Marrom - **Componentes:** 1 Escrivaninha, 1 Gaveteiro, 2 Estantes ## 📌 Conclusão Montar um ambiente de trabalho ou estudo nunca foi tão prático. Este conjunto oferece estrutura, mobilidade e espaço de armazenamento com excelente custo-benefício. `,
   marca: "Espresso Móveis",
-  keywords: [
-    "conjunto 4 peças escrivaninha gaveteiro estante home office",
-    "moveis para estudante com escrivaninha e gaveteiro",
-    "conjunto de escritorio com estantes e gavetas",
-    "escrivaninha mdf 25mm com gaveteiro e livreiro"
-  ],
+  keywords: [ "conjunto 4 peças escrivaninha gaveteiro estante home office", "moveis para estudante com escrivaninha e gaveteiro", "conjunto de escritorio com estantes e gavetas", "escrivaninha mdf 25mm com gaveteiro e livreiro" ],
   seoTitle: "Conjunto 4 Peças Escrivaninha Gaveteiro e 2 Estantes Freijó Marrom | Oferta",
-  seoDescription: "Conjunto completo com escrivaninha, gaveteiro e 2 estantes livreiro em MDF. Ideal para home office, quarto de estudante e escritório. 12% OFF. Frete para todo Brasil."
+  seoDescription: "Conjunto completo com escrivaninha, gaveteiro e 2 estantes livreiro em MDF. Ideal para home office, quarto de estudante e escritório. 12% OFF!",
 },
 {
   id: "p-imp-060",
@@ -2093,119 +3102,13 @@ Marca: Espresso Móveis | Linha: Office | Material: MDP (25mm na escrivaninha, 1
   badge: "ÚLTIMAS 3 UNIDADES",
   platform: "Mercado Livre",
   affiliateLink: "https://meli.la/2QUPkNC",
-  descricao: `
-# Sofá de Canto 6 Lugares 320cm com Chaise Modulado Linho Bege Dominique Yescasa
-
-## 📌 Qual o melhor sofá de canto 6 lugares 320cm com chaise para sala grande?
-
-O **Sofá de Canto 6 Lugares 320cm com Chaise Dominique Linha Prime Yescasa** é o mais buscado para quem tem sala grande e família grande. Com **320cm de largura x 205cm de profundidade na chaise x 95cm de altura**, ele acomoda **6 pessoas de verdade** com conforto.
-
-É um **sofá de canto modulado com chaise esquerda** - você monta e adapta conforme sua sala. Tem **assento pillow top de 18cm com molas Bonnel + espuma D-28**, encosto com fibra siliconada fofa, estrutura em **madeira de eucalipto** que aguenta **120kg por assento** e 4 almofadas inclusas.
-
-Revestido em **linho bege**, cor tendência 2026 que combina com tudo e deixa a sala mais clara e sofisticada.
-
-## 📌 Por que esse sofá de canto 6 lugares 320cm é diferente?
-
-- **Sofá de canto 6 lugares 320cm grande de verdade:** 320cm de largura, não é 240cm disfarçado de 6 lugares. Ideal para sala grande 20m²+
-- **Sofá de canto com chaise 205cm:** chaise profunda de 205cm para deitar, esticar as pernas e tirar cochilo - não é chaise curta
-- **Sofá modulado com pillow top molas Bonnel:** assento de 18cm com molas Bonnel + espuma D-28 firme, não afunda e não deforma com o tempo
-- **Sofá de canto linho bege modulado:** tecido linho bege atemporal, textura natural, combina com decor minimalista, escandinava e boho
-- **Sofá de canto com estrutura de eucalipto:** madeira de eucalipto sustentável, mais resistente que pinus, com percintas elásticas e pés de madeira maciça
-
-## 📌 Vantagens desse sofá de canto modulado
-
-- **Design modular que se adapta:** monta conforme sua sala, chaise esquerda vista de frente
-- **Conforto superior:** assento pillow top 18cm + encosto fibra siliconada macia para longas horas
-- **Altura ergonômica:** 62cm de altura do assento até o chão, fácil de sentar e levantar para idosos
-- **Vem com 4 almofadas:** já vem decorado, não precisa comprar a parte
-- **Montagem simples:** 1 pessoa monta, acompanha manual e kit de ferragens
-
-## 📌 Esse sofá de canto serve pra mim?
-
-Esse sofá de canto é ideal se você procura:
-
-- **Sofá de canto 6 lugares 320cm** para sala grande
-- **Sofá de canto com chaise grande** 205cm para deitar
-- **Sofá modulado linho bege** 6 lugares que não deforma
-- **Sofá de canto com molas Bonnel e espuma D-28** firme e durável
-- **Sofá de canto Yescasa Dominique** com estrutura de madeira eucalipto
-
-## 📌 Dúvidas de quem compra sofá de canto 6 lugares
-
-**1. Qual o tamanho desse sofá de canto 6 lugares?**
-320cm largura x 205cm profundidade na chaise x 95cm altura total x 62cm altura do assento. Pesa 116kg. É sofá de canto grande para sala grande.
-
-**2. Esse sofá de canto com chaise pode inverter o lado da chaise?**
-Não. É modelo fixo com quina esquerda vista de frente. A chaise fica à esquerda quando você olha de frente para o sofá.
-
-**3. O assento desse sofá de canto é firme ou mole?**
-Firme. Assento pillow top 18cm com molas Bonnel + espuma D-28 densidade alta + fibra siliconada. Não afunda, ideal para quem tem dor nas costas.
-
-**4. Esse sofá de canto linho bege é pet friendly e impermeável?**
-Não. Linho bege não é pet friendly e não é impermeável. Se tem pet ou criança pequena, use capa protetora e evite líquidos.
-
-**5. Esse sofá de canto 6 lugares aguenta quanto peso?**
-120kg por assento, estrutura em madeira de eucalipto com percintas elásticas reforçadas. Alta resistência e durabilidade.
-
-**6. Precisa montar esse sofá modulado?**
-Sim, mas montagem de baixa complexidade. Vem com kit de ferragens e manual. Uma pessoa monta.
-
-## 📌 Ficha Técnica do Sofá de Canto Dominique
-
-| Especificação | Detalhe |
-|---------------|---------|
-| **O que é** | Sofá de canto 6 lugares 320cm com chaise modulado |
-| **Modelo** | Dominique Linha Prime M201 |
-| **Lugares** | 6 lugares |
-| **Medida** | 320cm Largura x 205cm Profundidade chaise x 95cm Altura |
-| **Altura Assento** | 62cm até o chão - ergonômico |
-| **Altura Encosto** | 50cm |
-| **Cor** | Linho Bege / Bege |
-| **Tecido** | Linho Bege |
-| **Assento** | Pillow Top 18cm - Molas Bonnel + Espuma D-28 + Fibra Siliconada - Firme |
-| **Encosto** | Fibra Siliconada - Fixo |
-| **Estrutura** | Madeira de Eucalipto reflorestada |
-| **Pés** | Madeira maciça |
-| **Suporte** | 120kg por assento |
-| **Braço** | Um braço |
-| **Quina** | Esquerda vista de frente |
-| **Percintas** | Sim, elásticas |
-| **Baú/Gaveta** | Não possui |
-| **Almofadas** | 4 inclusas |
-| **Pet Friendly** | Não |
-| **Impermeável** | Não |
-| **Peso** | 116 kg |
-| **Origem** | Nacional |
-| **Garantia** | 6 meses |
-| **Montagem** | Sim, baixa complexidade - kit incluso |
-
-## 📌 Conclusão
-
-Se você pesquisou "sofá de canto 6 lugares 320cm", "sofá de canto com chaise grande", "sofá modulado 6 lugares linho bege" ou "sofá de canto com molas Bonnel D-28", o Dominique Yescasa é o custo-benefício que não deforma.
-
-Um sofá de canto 6 lugares 320cm com chaise 205cm, pillow top de 18cm, estrutura de eucalipto e linho bege atemporal. Últimas 3 unidades com 15% OFF.
-  `,
+  descricao: ` # Sofá de Canto 6 Lugares 320cm Dominique Yescasa ## 📌 Introdução O **Sofá de Canto 6 Lugares Dominique** da Yescasa é projetado para salas grandes e famílias numerosas. Com 320cm de largura e chaise profunda de 205cm, ele acomoda 6 pessoas com conforto impecável. O design modular e o acabamento em linho bege trazem sofisticação e versatilidade para qualquer decoração. ## 📌 Principais Benefícios **Assento Pillow Top de 18cm:** Conforto superior com molas Bonnel + espuma D-28 firme que não afunda e não deforma com o tempo. **Estrutura em Madeira de Eucalipto:** Sustentável e altamente resistente, suportando até 120 kg por assento. **Chaise Profunda de 205cm:** Perfeita para deitar, esticar as pernas e relaxar. **Tecido Linho Bege:** Cor atemporal que ilumina o ambiente e combina com estilos minimalistas, escandinavos e boho. ## 📌 Especificações Técnicas - **Marca:** Yescasa | Modelo: Dominique Linha Prime M201 - **Lugares:** 6 - **Medidas:** 320 cm (L) x 205 cm (P) x 95 cm (A) - **Altura do Assento:** 62 cm - **Cor:** Linho Bege - **Assento:** Pillow Top 18cm (Molas Bonnel + D-28) - **Encosto:** Fibra Siliconada - **Acessórios:** 4 almofadas inclusas - **Garantia:** 6 meses ## 📌 Conclusão Se você tem sala grande e precisa de um sofá imponente, confortável e que não deforme, o Dominique Yescasa é a escolha ideal. Últimas 3 unidades com 15% de desconto! `,
   marca: "Yescasa",
-  keywords: [
-    "sofa de canto 6 lugares 320cm",
-    "sofa de canto 6 lugares com chaise",
-    "sofa de canto com chaise 320cm",
-    "sofa de canto grande 6 lugares",
-    "sofa de canto modulado 6 lugares",
-    "sofa de canto linho bege",
-    "sofa de canto 320cm bege",
-    "sofa canto 6 lugares molas Bonnel",
-    "sofa de canto pillow top D-28",
-    "sofa de canto com chaise esquerda",
-    "sofa de canto para sala grande",
-    "sofa Dominique Yescasa 320cm",
-    "sofa de canto 6 lugares com almofadas",
-    "sofa de canto estrutura eucalipto",
-    "sofa de canto 320x205"
-  ],
+  keywords: [ "sofa de canto 6 lugares 320cm", "sofa de canto 6 lugares com chaise", "sofa de canto com chaise 320cm", "sofa de canto grande 6 lugares", "sofa de canto modulado 6 lugares", "sofa de canto linho bege", "sofa de canto 320cm bege", "sofa canto 6 lugares molas Bonnel", "sofa de canto pillow top D-28", "sofa de canto com chaise esquerda", "sofa de canto para sala grande", "sofa Dominique Yescasa 320cm", "sofa de canto 6 lugares com almofadas", "sofa de canto estrutura eucalipto", "sofa de canto 320x205" ],
   seoTitle: "Sofá de Canto 6 Lugares 320cm com Chaise Modulado Linho Bege Dominique Yescasa",
-  seoDescription: "Sofá de canto 6 lugares 320cm com chaise 205cm Dominique Yescasa. Linho bege, pillow top 18cm molas Bonnel + espuma D-28, estrutura eucalipto 120kg por lugar. 15% OFF!"
+  seoDescription: "Sofá de canto 6 lugares 320cm com chaise 205cm Dominique Yescasa. Linho bege, pillow top 18cm molas Bonnel + espuma D-28, estrutura eucalipto. 15% OFF!",
 },
+
 {
   "id": "p-imp-061",
   "slug": "sofa-canto-9-lugares-com-puff-cancun-montreal-branco",
@@ -2238,6 +3141,7 @@ Um sofá de canto 6 lugares 320cm com chaise 205cm, pillow top de 18cm, estrutur
   "seoTitle": "Sofá de Canto 9 Lugares com Puff Cancun Montreal Branco | Oferta",
   "seoDescription": "Sofá de canto 9 lugares com puff na cor branca, modelo Cancun Montreal. Design contemporâneo, estrutura firme e conforto superior. Ideal para salas de estar e reuniões. Entrega para todo Brasil."
 },
+
 {
   "id": "p-imp-062",
   "slug": "sofa-canto-luna-organico-265cm-bege-claro-celflex",
@@ -2285,7 +3189,7 @@ Um sofá de canto 6 lugares 320cm com chaise 205cm, pillow top de 18cm, estrutur
   "originalPrice": 5339.00,
   "badge": "Novo | +25 vendidos",
   "platform": "Mercado Livre",
-  "affiliateLink": "https://meli.la/",
+  "affiliateLink": "https://meli.la/27rMoMF",
   "descricao": "**Sofá Modular Evo 2,70m com Chaise Direita – A Revolução em Conforto e Praticidade para sua Sala**\n\nApresentamos o **Sofá Modular Evo da Cama inBox**, um modelo que une tecnologia de ponta, design inteligente e conforto excepcional para transformar completamente a experiência de ter um sofá em casa. Com **2,70 metros de largura**, chaise direita e acabamento em **tecido Velourê na cor creme**, este sofá foi projetado para quem valoriza inovação, versatilidade e bem-estar.\n\n**Tecnologia Boost Tech: O Sofá que Chega a Vácuo**\nO grande diferencial do Sofá Evo é a **tecnologia Boost Tech**, que permite que o produto seja embalado a vácuo em uma caixa compacta[reference:0]. Isso resolve de vez o problema clássico de transportar móveis grandes por elevadores, escadas e portas apertadas. Ao receber o sofá, basta abrir a embalagem e rasgar o plástico: em instantes, ele se expande e retoma sua forma original, como num passe de mágica[reference:1]. Uma solução logística inovadora que facilita a entrega e a montagem[reference:2].\n\n**Molas Ensacadas: Conforto e Durabilidade que se Destacam**\nDiferente dos sofás convencionais que utilizam molas Bonnel ou espuma maciça, o Sofá Evo é equipado com **molas ensacadas**[reference:3]. Cada mola trabalha de forma independente, o que proporciona um suporte personalizado ao corpo, adaptando-se às curvas sem transferir movimentos[reference:4]. Isso significa que, ao sentar, você não sente os movimentos de outra pessoa no sofá – ideal para famílias e momentos de descontração. Além disso, as molas ensacadas oferecem **alta resistência ao afundamento** e **durabilidade prolongada**, mantendo a firmeza e a forma do estofado por muitos anos[reference:5].\n\n**Espuma D33: Firmeza e Maciez na Medida Certa**\nO Sofá Evo utiliza **espuma de alta performance D33**[reference:6], uma densidade superior que garante o equilíbrio perfeito entre firmeza e conforto. Enquanto a espuma D28 é padrão em muitos sofás, a D33 é indicada para quem busca maior resistência ao peso corporal e ao uso frequente[reference:7]. Ela oferece suporte ideal para o corpo, evitando deformações e garantindo que o sofá mantenha a aparência de novo por muito mais tempo[reference:8].\n\n**Design Modular e Inteligente**\nCom **2,70m de largura** e chaise com **1,70m de profundidade**, o Sofá Evo foi pensado para otimizar o espaço de apartamentos, studios, salas compactas e lofts[reference:9]. Seu sistema modular permite que você **adicione ou remova módulos** conforme a necessidade, tornando-o um móvel que acompanha o crescimento da família. A tecnologia **Connect Tech** (velcro exclusivo) facilita a conexão entre os módulos, garantindo estabilidade e praticidade[reference:10]. O **porta-copos incluso** é um detalhe a mais que faz toda a diferença no dia a dia.\n\n**Tecido Velourê: Sofisticação e Resistência**\nO revestimento em **Velourê** é um dos grandes destaques do Sofá Evo[reference:11]. Este tecido premium oferece um **toque ultra macio** e uma estética sofisticada, com um brilho sutil que valoriza qualquer ambiente[reference:12]. Além de bonito, o Velourê é **altamente resistente ao uso contínuo**, suportando o desgaste do dia a dia sem perder a beleza. Sua tonalidade **creme** é atemporal e versátil, combinando perfeitamente com diferentes estilos de decoração – do minimalismo ao contemporâneo.\n\n**Por que escolher o Sofá Modular Evo?**\n- **Tecnologia Boost Tech** – embalagem a vácuo que facilita o transporte e a montagem[reference:13]\n- **Molas ensacadas** – suporte personalizado, durabilidade e independência de movimento[reference:14]\n- **Espuma D33** – alta densidade para maior resistência e conforto duradouro[reference:15]\n- **Design modular** – adaptável a diferentes espaços e necessidades[reference:16]\n- **Tecido Velourê** – toque macio, sofisticação e resistência[reference:17]\n- **Porta-copos incluso** – praticidade para o dia a dia\n- **Garantia de 12 meses** – 3 meses legal + 9 meses de fábrica[reference:18]\n\n**Dúvidas Frequentes dos Nossos Clientes:**\n\n**1 – O que é a tecnologia Boost Tech?**\nÉ um sistema inovador que permite que o sofá seja embalado a vácuo em uma caixa compacta. Ao abrir a embalagem, ele se expande automaticamente, retomando sua forma original em instantes[reference:19]. Isso facilita o transporte e elimina a necessidade de içamentos ou manobras complicadas.\n\n**2 – Qual a diferença entre molas ensacadas e molas Bonnel?**\nAs molas ensacadas são independentes, cada uma dentro de seu próprio tecido. Isso proporciona suporte personalizado, melhor adaptação ao corpo e menor transferência de movimento[reference:20]. Já as molas Bonnel são interligadas, o que pode transmitir movimentos e causar afundamentos com o tempo.\n\n**3 – O que significa espuma D33?**\nA espuma D33 tem densidade de 33 kg/m³, sendo mais firme e resistente que a D28[reference:21]. É indicada para pessoas com peso acima de 80 kg e para sofás de uso frequente, garantindo maior durabilidade e suporte[reference:22].\n\n**4 – O sofá vem montado?**\nNão. O Sofá Evo chega em uma caixa compacta com os módulos separados. A montagem é simples e pode ser feita por uma pessoa, conectando os módulos pelo sistema Connect Tech (velcro)[reference:23].\n\n**5 – O tecido Velourê é resistente?**\nSim. O Velourê é um tecido premium que oferece alta resistência ao uso contínuo, além de um toque ultra macio e sofisticação visual[reference:24].\n\n**6 – O sofá é pet friendly?**\nRecomenda-se cautela com animais de estimação, pois o tecido pode arranhar com mais facilidade. O uso de capas protetoras é altamente recomendado.\n\n**7 – Como limpar o sofá?**\nRecomenda-se aspiração regular para remover poeira e sujeira superficial. Para manchas, utilize um pano úmido com água e sabão neutro, ou produtos específicos para limpeza de tecidos. Evite alvejantes e produtos abrasivos.\n\n**8 – O sofá tem garantia?**\nSim. O Sofá Evo possui garantia de **12 meses** (3 meses de garantia legal + 9 meses de garantia de fábrica)[reference:25].\n\n**9 – O produto acompanha Nota Fiscal?**\nSim. O produto é entregue com sua respectiva Nota Fiscal, e uma cópia é enviada por e-mail no momento da postagem.\n\n**10 – Como funciona o frete?**\nO valor do frete varia de acordo com o CEP de destino. Você pode calcular o prazo e valor no simulador de entrega disponível na página do produto.\n\n**11 – É possível agendar a entrega?**\nNão realizamos agendamento. O prazo de entrega é baseado na localização do fornecedor e no CEP de destino, e nos comprometemos a cumprir o prazo informado no ato da compra.\n\n**12 – Qual o horário de atendimento?**\nNosso atendimento é de segunda a sexta-feira, das 8h às 18h (exceto feriados).\n\n**Especificações Técnicas:**\nMarca: Cama inBox | Modelo: Evo | Tipo de Sofá: Sofá Modular com Chaise Direita | Quantidade de Lugares: 3 | Cor: Creme | Material do Estofado: Tecido Velourê | Tecnologia: Boost Tech (embalagem a vácuo) | Sistema de Molas: Molas Ensacadas | Espuma: D33 (alta densidade) | Largura: 270 cm | Profundidade da Chaise: 170 cm | Altura: 90 cm | Peso: 110 kg[reference:26] | Capacidade: 3 lugares | Design: Modular, com porta-copos incluso | Sistema de Conexão: Connect Tech (velcro) | Possui Pés: Sim | Possui Rodízio: Não | Possui Baú: Não | Possui Gavetas: Não | Tecido Impermeável: Não | É Reclinável: Não | Itens Inclusos: 1 Sofá (módulos), manual de instruções | Origem: Nacional | Garantia: 12 meses (3 meses legal + 9 meses fábrica)[reference:27] | Necessita Montagem: Sim (simples, com encaixe por velcro) | Ambiente Principal: Sala de Estar.",
   "marca": "Cama inBox",
   "keywords": [
