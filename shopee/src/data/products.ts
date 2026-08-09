@@ -3190,7 +3190,7 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   "badge": "Novo | +25 vendidos",
   "platform": "Mercado Livre",
   "affiliateLink": "https://meli.la/27rMoMF",
-  "descricao": "**Sofá Modular Evo 2,70m com Chaise Direita – A Revolução em Conforto e Praticidade para sua Sala**\n\nApresentamos o **Sofá Modular Evo da Cama inBox**, um modelo que une tecnologia de ponta, design inteligente e conforto excepcional para transformar completamente a experiência de ter um sofá em casa. Com **2,70 metros de largura**, chaise direita e acabamento em **tecido Velourê na cor creme**, este sofá foi projetado para quem valoriza inovação, versatilidade e bem-estar.\n\n**Tecnologia Boost Tech: O Sofá que Chega a Vácuo**\nO grande diferencial do Sofá Evo é a **tecnologia Boost Tech**, que permite que o produto seja embalado a vácuo em uma caixa compacta[reference:0]. Isso resolve de vez o problema clássico de transportar móveis grandes por elevadores, escadas e portas apertadas. Ao receber o sofá, basta abrir a embalagem e rasgar o plástico: em instantes, ele se expande e retoma sua forma original, como num passe de mágica[reference:1]. Uma solução logística inovadora que facilita a entrega e a montagem[reference:2].\n\n**Molas Ensacadas: Conforto e Durabilidade que se Destacam**\nDiferente dos sofás convencionais que utilizam molas Bonnel ou espuma maciça, o Sofá Evo é equipado com **molas ensacadas**[reference:3]. Cada mola trabalha de forma independente, o que proporciona um suporte personalizado ao corpo, adaptando-se às curvas sem transferir movimentos[reference:4]. Isso significa que, ao sentar, você não sente os movimentos de outra pessoa no sofá – ideal para famílias e momentos de descontração. Além disso, as molas ensacadas oferecem **alta resistência ao afundamento** e **durabilidade prolongada**, mantendo a firmeza e a forma do estofado por muitos anos[reference:5].\n\n**Espuma D33: Firmeza e Maciez na Medida Certa**\nO Sofá Evo utiliza **espuma de alta performance D33**[reference:6], uma densidade superior que garante o equilíbrio perfeito entre firmeza e conforto. Enquanto a espuma D28 é padrão em muitos sofás, a D33 é indicada para quem busca maior resistência ao peso corporal e ao uso frequente[reference:7]. Ela oferece suporte ideal para o corpo, evitando deformações e garantindo que o sofá mantenha a aparência de novo por muito mais tempo[reference:8].\n\n**Design Modular e Inteligente**\nCom **2,70m de largura** e chaise com **1,70m de profundidade**, o Sofá Evo foi pensado para otimizar o espaço de apartamentos, studios, salas compactas e lofts[reference:9]. Seu sistema modular permite que você **adicione ou remova módulos** conforme a necessidade, tornando-o um móvel que acompanha o crescimento da família. A tecnologia **Connect Tech** (velcro exclusivo) facilita a conexão entre os módulos, garantindo estabilidade e praticidade[reference:10]. O **porta-copos incluso** é um detalhe a mais que faz toda a diferença no dia a dia.\n\n**Tecido Velourê: Sofisticação e Resistência**\nO revestimento em **Velourê** é um dos grandes destaques do Sofá Evo[reference:11]. Este tecido premium oferece um **toque ultra macio** e uma estética sofisticada, com um brilho sutil que valoriza qualquer ambiente[reference:12]. Além de bonito, o Velourê é **altamente resistente ao uso contínuo**, suportando o desgaste do dia a dia sem perder a beleza. Sua tonalidade **creme** é atemporal e versátil, combinando perfeitamente com diferentes estilos de decoração – do minimalismo ao contemporâneo.\n\n**Por que escolher o Sofá Modular Evo?**\n- **Tecnologia Boost Tech** – embalagem a vácuo que facilita o transporte e a montagem[reference:13]\n- **Molas ensacadas** – suporte personalizado, durabilidade e independência de movimento[reference:14]\n- **Espuma D33** – alta densidade para maior resistência e conforto duradouro[reference:15]\n- **Design modular** – adaptável a diferentes espaços e necessidades[reference:16]\n- **Tecido Velourê** – toque macio, sofisticação e resistência[reference:17]\n- **Porta-copos incluso** – praticidade para o dia a dia\n- **Garantia de 12 meses** – 3 meses legal + 9 meses de fábrica[reference:18]\n\n**Dúvidas Frequentes dos Nossos Clientes:**\n\n**1 – O que é a tecnologia Boost Tech?**\nÉ um sistema inovador que permite que o sofá seja embalado a vácuo em uma caixa compacta. Ao abrir a embalagem, ele se expande automaticamente, retomando sua forma original em instantes[reference:19]. Isso facilita o transporte e elimina a necessidade de içamentos ou manobras complicadas.\n\n**2 – Qual a diferença entre molas ensacadas e molas Bonnel?**\nAs molas ensacadas são independentes, cada uma dentro de seu próprio tecido. Isso proporciona suporte personalizado, melhor adaptação ao corpo e menor transferência de movimento[reference:20]. Já as molas Bonnel são interligadas, o que pode transmitir movimentos e causar afundamentos com o tempo.\n\n**3 – O que significa espuma D33?**\nA espuma D33 tem densidade de 33 kg/m³, sendo mais firme e resistente que a D28[reference:21]. É indicada para pessoas com peso acima de 80 kg e para sofás de uso frequente, garantindo maior durabilidade e suporte[reference:22].\n\n**4 – O sofá vem montado?**\nNão. O Sofá Evo chega em uma caixa compacta com os módulos separados. A montagem é simples e pode ser feita por uma pessoa, conectando os módulos pelo sistema Connect Tech (velcro)[reference:23].\n\n**5 – O tecido Velourê é resistente?**\nSim. O Velourê é um tecido premium que oferece alta resistência ao uso contínuo, além de um toque ultra macio e sofisticação visual[reference:24].\n\n**6 – O sofá é pet friendly?**\nRecomenda-se cautela com animais de estimação, pois o tecido pode arranhar com mais facilidade. O uso de capas protetoras é altamente recomendado.\n\n**7 – Como limpar o sofá?**\nRecomenda-se aspiração regular para remover poeira e sujeira superficial. Para manchas, utilize um pano úmido com água e sabão neutro, ou produtos específicos para limpeza de tecidos. Evite alvejantes e produtos abrasivos.\n\n**8 – O sofá tem garantia?**\nSim. O Sofá Evo possui garantia de **12 meses** (3 meses de garantia legal + 9 meses de garantia de fábrica)[reference:25].\n\n**9 – O produto acompanha Nota Fiscal?**\nSim. O produto é entregue com sua respectiva Nota Fiscal, e uma cópia é enviada por e-mail no momento da postagem.\n\n**10 – Como funciona o frete?**\nO valor do frete varia de acordo com o CEP de destino. Você pode calcular o prazo e valor no simulador de entrega disponível na página do produto.\n\n**11 – É possível agendar a entrega?**\nNão realizamos agendamento. O prazo de entrega é baseado na localização do fornecedor e no CEP de destino, e nos comprometemos a cumprir o prazo informado no ato da compra.\n\n**12 – Qual o horário de atendimento?**\nNosso atendimento é de segunda a sexta-feira, das 8h às 18h (exceto feriados).\n\n**Especificações Técnicas:**\nMarca: Cama inBox | Modelo: Evo | Tipo de Sofá: Sofá Modular com Chaise Direita | Quantidade de Lugares: 3 | Cor: Creme | Material do Estofado: Tecido Velourê | Tecnologia: Boost Tech (embalagem a vácuo) | Sistema de Molas: Molas Ensacadas | Espuma: D33 (alta densidade) | Largura: 270 cm | Profundidade da Chaise: 170 cm | Altura: 90 cm | Peso: 110 kg[reference:26] | Capacidade: 3 lugares | Design: Modular, com porta-copos incluso | Sistema de Conexão: Connect Tech (velcro) | Possui Pés: Sim | Possui Rodízio: Não | Possui Baú: Não | Possui Gavetas: Não | Tecido Impermeável: Não | É Reclinável: Não | Itens Inclusos: 1 Sofá (módulos), manual de instruções | Origem: Nacional | Garantia: 12 meses (3 meses legal + 9 meses fábrica)[reference:27] | Necessita Montagem: Sim (simples, com encaixe por velcro) | Ambiente Principal: Sala de Estar.",
+  "descricao": "**Sofá Modular Evo 2,70m com Chaise Direita – A Revolução em Conforto e Praticidade para sua Sala**\n\nApresentamos o **Sofá Modular Evo da Cama inBox**, um modelo que une tecnologia de ponta, design inteligente e conforto excepcional para transformar completamente a experiência de ter um sofá em casa. Com **2,70 metros de largura**, chaise direita e acabamento em **tecido Velourê na cor creme**, este sofá foi projetado para quem valoriza inovação, versatilidade e bem-estar.\n\n**Tecnologia Boost Tech: O Sofá que Chega a Vácuo**\nO grande diferencial do Sofá Evo é a **tecnologia Boost Tech**, que permite que o produto seja embalado a vácuo em uma caixa compacta[reference:0]. Isso resolve de vez o problema clássico de transportar móveis grandes por elevadores, escadas e portas apertadas. Ao receber o sofá, basta abrir a embalagem e rasgar o plástico: em instantes, ele se expande e retoma sua forma original, como num passe de mágica[reference:1]. Uma solução logística inovadora que facilita a entrega e a montagem[reference:2].\n\n**Molas Ensacadas: Conforto e Durabilidade que se Destacam**\nDiferente dos sofás convencionais que utilizam molas Bonnel ou espuma macica, o Sofá Evo é equipado com **molas ensacadas**[reference:3]. Cada mola trabalha de forma independente, o que proporciona um suporte personalizado ao corpo, adaptando-se às curvas sem transferir movimentos[reference:4]. Isso significa que, ao sentar, você não sente os movimentos de outra pessoa no sofá – ideal para famílias e momentos de descontração. Além disso, as molas ensacadas oferecem **alta resistência ao afundamento** e **durabilidade prolongada**, mantendo a firmeza e a forma do estofado por muitos anos[reference:5].\n\n**Espuma D33: Firmeza e Maciez na Medida Certa**\nO Sofá Evo utiliza **espuma de alta performance D33**[reference:6], uma densidade superior que garante o equilíbrio perfeito entre firmeza e conforto. Enquanto a espuma D28 é padrão em muitos sofás, a D33 é indicada para quem busca maior resistência ao peso corporal e ao uso frequente[reference:7]. Ela oferece suporte ideal para o corpo, evitando deformações e garantindo que o sofá mantenha a aparência de novo por muito mais tempo[reference:8].\n\n**Design Modular e Inteligente**\nCom **2,70m de largura** e chaise com **1,70m de profundidade**, o Sofá Evo foi pensado para otimizar o espaço de apartamentos, studios, salas compactas e lofts[reference:9]. Seu sistema modular permite que você **adicione ou remova módulos** conforme a necessidade, tornando-o um móvel que acompanha o crescimento da família. A tecnologia **Connect Tech** (velcro exclusivo) facilita a conexão entre os módulos, garantindo estabilidade e praticidade[reference:10]. O **porta-copos incluso** é um detalhe a mais que faz toda a diferença no dia a dia.\n\n**Tecido Velourê: Sofisticação e Resistência**\nO revestimento em **Velourê** é um dos grandes destaques do Sofá Evo[reference:11]. Este tecido premium oferece um **toque ultra macio** e uma estética sofisticada, com um brilho sutil que valoriza qualquer ambiente[reference:12]. Além de bonito, o Velourê é **altamente resistente ao uso contínuo**, suportando o desgaste do dia a dia sem perder a beleza. Sua tonalidade **creme** é atemporal e versátil, combinando perfeitamente com diferentes estilos de decoração – do minimalismo ao contemporâneo.\n\n**Por que escolher o Sofá Modular Evo?**\n- **Tecnologia Boost Tech** – embalagem a vácuo que facilita o transporte e a montagem[reference:13]\n- **Molas ensacadas** – suporte personalizado, durabilidade e independência de movimento[reference:14]\n- **Espuma D33** – alta densidade para maior resistência e conforto duradouro[reference:15]\n- **Design modular** – adaptável a diferentes espaços e necessidades[reference:16]\n- **Tecido Velourê** – toque macio, sofisticação e resistência[reference:17]\n- **Porta-copos incluso** – praticidade para o dia a dia\n- **Garantia de 12 meses** – 3 meses legal + 9 meses de fábrica[reference:18]\n\n**Dúvidas Frequentes dos Nossos Clientes:**\n\n**1 – O que é a tecnologia Boost Tech?**\nÉ um sistema inovador que permite que o sofá seja embalado a vácuo em uma caixa compacta. Ao abrir a embalagem, ele se expande automaticamente, retomando sua forma original em instantes[reference:19]. Isso facilita o transporte e elimina a necessidade de içamentos ou manobras complicadas.\n\n**2 – Qual a diferença entre molas ensacadas e molas Bonnel?**\nAs molas ensacadas são independentes, cada uma dentro de seu próprio tecido. Isso proporciona suporte personalizado, melhor adaptação ao corpo e menor transferência de movimento[reference:20]. Já as molas Bonnel são interligadas, o que pode transmitir movimentos e causar afundamentos com o tempo.\n\n**3 – O que significa espuma D33?**\nA espuma D33 tem densidade de 33 kg/m³, sendo mais firme e resistente que a D28[reference:21]. É indicada para pessoas com peso acima de 80 kg e para sofás de uso frequente, garantindo maior durabilidade e suporte[reference:22].\n\n**4 – O sofá vem montado?**\nNão. O Sofá Evo chega em uma caixa compacta com os módulos separados. A montagem é simples e pode ser feita por uma pessoa, conectando os módulos pelo sistema Connect Tech (velcro)[reference:23].\n\n**5 – O tecido Velourê é resistente?**\nSim. O Velourê é um tecido premium que oferece alta resistência ao uso contínuo, além de um toque ultra macio e sofisticação visual[reference:24].\n\n**6 – O sofá é pet friendly?**\nRecomenda-se cautela com animais de estimação, pois o tecido pode arranhar com mais facilidade. O uso de capas protetoras é altamente recomendado.\n\n**7 – Como limpar o sofá?**\nRecomenda-se aspiração regular para remover poeira e sujeira superficial. Para manchas, utilize um pano úmido com água e sabão neutro, ou produtos específicos para limpeza de tecidos. Evite alvejantes e produtos abrasivos.\n\n**8 – O sofá tem garantia?**\nSim. O Sofá Evo possui garantia de **12 meses** (3 meses de garantia legal + 9 meses de garantia de fábrica)[reference:25].\n\n**9 – O produto acompanha Nota Fiscal?**\nSim. O produto é entregue com sua respectiva Nota Fiscal, e uma cópia é enviada por e-mail no momento da postagem.\n\n**10 – Como funciona o frete?**\nO valor do frete varia de acordo com o CEP de destino. Você pode calcular o prazo e valor no simulador de entrega disponível na página do produto.\n\n**11 – É possível agendar a entrega?**\nNão realizamos agendamento. O prazo de entrega é baseado na localização do fornecedor e no CEP de destino, e nos comprometemos a cumprir o prazo informado no ato da compra.\n\n**12 – Qual o horário de atendimento?**\nNosso atendimento é de segunda a sexta-feira, das 8h às 18h (exceto feriados).\n\n**Especificações Técnicas:**\nMarca: Cama inBox | Modelo: Evo | Tipo de Sofá: Sofá Modular com Chaise Direita | Quantidade de Lugares: 3 | Cor: Creme | Material do Estofado: Tecido Velourê | Tecnologia: Boost Tech (embalagem a vácuo) | Sistema de Molas: Molas Ensacadas | Espuma: D33 (alta densidade) | Largura: 270 cm | Profundidade da Chaise: 170 cm | Altura: 90 cm | Peso: 110 kg[reference:26] | Capacidade: 3 lugares | Design: Modular, com porta-copos incluso | Sistema de Conexão: Connect Tech (velcro) | Possui Pés: Sim | Possui Rodízio: Não | Possui Baú: Não | Possui Gavetas: Não | Tecido Impermeável: Não | É Reclinável: Não | Itens Inclusos: 1 Sofá (módulos), manual de instruções | Origem: Nacional | Garantia: 12 meses (3 meses legal + 9 meses fábrica)[reference:27] | Necessita Montagem: Sim (simples, com encaixe por velcro) | Ambiente Principal: Sala de Estar.",
   "marca": "Cama inBox",
   "keywords": [
     "sofá modular evo 2,70m",
@@ -3934,7 +3934,7 @@ O Guarda-roupa Solteiro 4 Portas com Bicama e Baú da Espresso Móveis é a solu
 
 Com dimensões de 160 cm de largura, 200 cm de altura e 45 cm de profundidade, este guarda-roupa foi projetado para atender quartos compactos sem comprometer a capacidade de armazenamento. O design clean e contemporâneo é valorizado pelo acabamento em pintura UV semi-brilho, que confere um toque sofisticado e facilita a limpeza. A estrutura robusta em MDF garante estabilidade e longa vida útil, com capacidade de peso de até 90 kg.
 
-O grande diferencial deste modelo está na bicama integrada, que pode ser montada para os dois lados (direito e esquerdo) ou removida para utilização com cama box solteiro. Os estrados e barrotes são fabricados em madeira maciça Pinus, garantindo resistência e durabilidade para o uso diário. A bicama suporta até 90 kg, sendo ideal para receber visitas ou irmãos.
+O grande diferencial deste modelo está na bicama integrada, que pode ser montada para os dois lados (direito e esquerdo) ou removida para utilização com cama box solteiro. Os estrados e barrotes são fabricados em madeira macica Pinus, garantindo resistência e durabilidade para o uso diário. A bicama suporta até 90 kg, sendo ideal para receber visitas ou irmãos.
 
 ## Organização Inteligente
 
@@ -3972,7 +3972,7 @@ Diferente de outros guarda-roupas infantis, o modelo Bemzi da Espresso Móveis o
 - 3 em 1: guarda-roupa, bicama e baú em um único móvel
 - Otimização de espaço em quartos pequenos
 - Estrutura em 100% MDF resistente e durável
-- Bicama com estrados de madeira maciça Pinus
+- Bicama com estrados de madeira macica Pinus
 - Acabamento em pintura UV semi-brilho
 - Suportes bicolor para personalização (branco, rosa, azul, lilás)
 - 2 gavetas com corrediças telescópicas
@@ -3986,7 +3986,7 @@ Diferente de outros guarda-roupas infantis, o modelo Bemzi da Espresso Móveis o
 
 **2. A bicama pode ser removida?** Sim, a bicama pode ser montada para os dois lados (direito e esquerdo) ou removida para utilização com cama box solteiro.
 
-**3. Qual o material da bicama?** Os estrados e barrotes são de madeira maciça Pinus, garantindo resistência e durabilidade.
+**3. Qual o material da bicama?** Os estrados e barrotes são de madeira macica Pinus, garantindo resistência e durabilidade.
 
 **4. Qual a capacidade de peso da bicama?** Suporta até 90 kg, sendo segura para crianças e adolescentes.
 
@@ -4015,7 +4015,7 @@ Diferente de outros guarda-roupas infantis, o modelo Bemzi da Espresso Móveis o
 | **Prateleiras** | 2 |
 | **Cabideiro** | 1 em alumínio |
 | **Baú** | Sim (na cabeceira, com abertura auxiliada por dobradiças) |
-| **Bicama** | Sim (estrados de madeira maciça Pinus) |
+| **Bicama** | Sim (estrados de madeira macica Pinus) |
 | **Indicado para colchão** | 88 cm x 188 cm |
 | **Garantia** | 3 meses contra defeitos de fabricação |
 
@@ -7782,7 +7782,7 @@ O **sofá retrátil sem caixa** da Cama Inbox foi projetado para oferecer benef�
 
 **Encosto reclinável em 180°:** O encosto ergonômico é reclinável em 5 posições ajustáveis, podendo chegar a 180°, permitindo que você encontre a posição perfeita para assistir TV, ler um livro ou descansar. As almofadas são removíveis, compostas por 80% de fibra siliconada e 20% de flocos de espuma, oferecendo apoio confortável e ajustável.
 
-**Estrutura robusta e durável:** Fabricado com madeira maciça de eucalipto de reflorestamento e reforçado com grampos galvanizados, o sofá garante durabilidade e resistência para uso diário intenso.
+**Estrutura robusta e durável:** Fabricado com madeira macica de eucalipto de reflorestamento e reforçado com grampos galvanizados, o sofá garante durabilidade e resistência para uso diário intenso.
 
 **Tecido Boucle de alta qualidade:** O tecido boucle possui textura felpuda e prazerosa ao toque, conferindo sofisticação e estilo ao ambiente. É um tecido elegante, durável e de fácil manutenção.
 
@@ -7836,7 +7836,7 @@ Este **sofá retrátil Cama Inbox** é especialmente recomendado para:
 
 **Admiradores do design boucle.** O tecido boucle é uma tendência forte e confere sofisticação e estilo ao ambiente.
 
-**Quem busca durabilidade e qualidade.** A estrutura em madeira maciça de reflorestamento e as percintas Extra Support garantem um produto durável e resistente.
+**Quem busca durabilidade e qualidade.** A estrutura em madeira macica de reflorestamento e as percintas Extra Support garantem um produto durável e resistente.
 
 **Famílias que recebem visitas frequentemente.** O sofá se transforma em uma cama de casal confortável, ideal para acomodar hóspedes com conforto.
 
@@ -7850,7 +7850,7 @@ O **Sofá Sem Caixa Retrátil Cama Inbox** se destaca da concorrência por diver
 
 **Encosto reclinável em 180° com 5 posições:** A possibilidade de ajustar o encosto em 5 posições diferentes, incluindo 180°, oferece versatilidade e conforto para diferentes momentos de uso.
 
-**Estrutura em madeira maciça de reflorestamento:** A utilização de madeira maciça de eucalipto de reflorestamento garante maior durabilidade e resistência, além de ser uma escolha sustentável.
+**Estrutura em madeira macica de reflorestamento:** A utilização de madeira macica de eucalipto de reflorestamento garante maior durabilidade e resistência, além de ser uma escolha sustentável.
 
 **Tecido boucle de alta qualidade:** O tecido boucle é uma tendência de decoração, com textura felpuda e prazerosa ao toque, que confere sofisticação e estilo ao ambiente.
 
@@ -7872,7 +7872,7 @@ O **Sofá Sem Caixa Retrátil Cama Inbox** se destaca da concorrência por diver
 
 ✅ **Tecido boucle felpudo e prazeroso** - sofisticação e estilo
 
-✅ **Estrutura em madeira maciça de reflorestamento** - durabilidade e sustentabilidade
+✅ **Estrutura em madeira macica de reflorestamento** - durabilidade e sustentabilidade
 
 ✅ **Percintas Extra Support** - maior resistência e longevidade
 
@@ -7952,7 +7952,7 @@ Sim, o tecido boucle utilizado pela Cama Inbox é de alta qualidade, durável e 
 | **Desenho do Tecido** | Liso |
 | **Material do Estofamento** | Madeira reflorestada / Espuma / Tecido |
 | **Tipo de Espuma** | SoftGel D40 com ThermoGel |
-| **Estrutura** | Madeira maciça de eucalipto de reflorestamento |
+| **Estrutura** | Madeira macica de eucalipto de reflorestamento |
 | **Reclinável** | Sim (5 posições, até 180°) |
 | **Almofadas** | Removíveis (80% fibra siliconada, 20% flocos de espuma) |
 | **Braços** | Espuma D33 + Manta siliconada |
@@ -7974,7 +7974,7 @@ Sim, o tecido boucle utilizado pela Cama Inbox é de alta qualidade, durável e 
 
 ## 📌 Conclusão
 
-O **Sofá Sem Caixa Retrátil 2,00m Soft Petit Boucle Cama Inbox** é a escolha perfeita para quem busca um móvel que una funcionalidade excepcional, conforto superior e design sofisticado. Com o modelo 3 em 1 (sofá, cama de casal e baú), tecnologia de espuma SoftGel D40 com ThermoGel, encosto reclinável em 5 posições, estrutura em madeira maciça de reflorestamento e tecido boucle de alta qualidade, este sofá atende todas as necessidades de uma sala moderna e multifuncional.
+O **Sofá Sem Caixa Retrátil 2,00m Soft Petit Boucle Cama Inbox** é a escolha perfeita para quem busca um móvel que una funcionalidade excepcional, conforto superior e design sofisticado. Com o modelo 3 em 1 (sofá, cama de casal e baú), tecnologia de espuma SoftGel D40 com ThermoGel, encosto reclinável em 5 posições, estrutura em madeira macica de reflorestamento e tecido boucle de alta qualidade, este sofá atende todas as necessidades de uma sala moderna e multifuncional.
 
 A marca Cama Inbox, com mais de 50 vendas e avaliação perfeita de 5,0 estrelas, comprova a qualidade excepcional e a satisfação dos clientes. O design versátil e as opções de cores disponíveis permitem que o sofá se adapte perfeitamente a diferentes estilos de decoração.
 
@@ -8290,7 +8290,7 @@ O **sofá retrátil e reclinável Spazus** foi projetado para oferecer benefíci
 
 **Tecido Velusoft com bordado 3D:** O tecido Suede Velusoft oferece um toque macio e aconchegante, enquanto o bordado pantográfico 3D nos assentos e laterais adiciona um toque de sofisticação e exclusividade ao design.
 
-**Estrutura em madeira maciça de eucalipto:** A estrutura é fabricada com madeira maciça de eucalipto 100% de reflorestamento, garantindo durabilidade e sustentabilidade.
+**Estrutura em madeira macica de eucalipto:** A estrutura é fabricada com madeira macica de eucalipto 100% de reflorestamento, garantindo durabilidade e sustentabilidade.
 
 **Design bipartido para fácil transporte:** O sofá é enviado desmontado e embalado por módulo, sendo bipartido (dividido em 2 módulos) para facilitar o transporte em corredores estreitos e escadas. Cada módulo tem altura 161cm, largura 65cm e profundidade 127cm, entrando facilmente em qualquer porta acima de 65cm de largura.
 
@@ -8306,7 +8306,7 @@ O **Sofá Spazus** apresenta um design sofisticado e moderno que valoriza qualqu
 
 **Dimensões generosas:** Com 2,75m de largura, 1,08m de altura e 1,22m de profundidade (fechado), o sofá oferece amplo espaço para até 4 pessoas, sendo a peça central da sala.
 
-**Braços largos e macios:** Os braços com 25cm de largura e madeira maciça proporcionam conforto e estabilidade, além de um visual robusto e elegante.
+**Braços largos e macios:** Os braços com 25cm de largura e madeira macica proporcionam conforto e estabilidade, além de um visual robusto e elegante.
 
 ## 📌 Funcionalidade e Praticidade
 
@@ -8359,7 +8359,7 @@ O **Sofá Retrátil e Reclinável Spazus Cama Inbox** se destaca da concorrênci
 
 **Design bipartido para fácil transporte:** O sofá é dividido em 2 módulos que cabem em portas acima de 65cm de largura, facilitando a entrega e instalação em apartamentos e casas com acessos estreitos.
 
-**Estrutura em madeira maciça de reflorestamento:** A utilização de madeira de eucalipto 100% de reflorestamento garante durabilidade e sustentabilidade.
+**Estrutura em madeira macica de reflorestamento:** A utilização de madeira de eucalipto 100% de reflorestamento garante durabilidade e sustentabilidade.
 
 **Almofadas com fibra siliconada:** As almofadas do encosto são compostas por 80% de fibra siliconada e 20% de flocos de espuma, proporcionando maior conforto e maciez.
 
@@ -8381,7 +8381,7 @@ O **Sofá Retrátil e Reclinável Spazus Cama Inbox** se destaca da concorrênci
 
 ✅ **Tecido Velusoft macio e aconchegante** - acabamento premium
 
-✅ **Estrutura em madeira maciça de reflorestamento** - durabilidade e sustentabilidade
+✅ **Estrutura em madeira macica de reflorestamento** - durabilidade e sustentabilidade
 
 ✅ **Design bipartido para fácil transporte** - entra em portas acima de 65cm
 
@@ -8439,7 +8439,7 @@ Recomenda-se limpar o tecido Velusoft com pano seco ou levemente umedecido para 
 
 **11. O sofá é resistente para uso diário?**
 
-Sim, a estrutura em madeira maciça, molas ensacadas de molejo duplo e percintas italianas garantem um produto extremamente resistente e durável para uso diário intenso.
+Sim, a estrutura em madeira macica, molas ensacadas de molejo duplo e percintas italianas garantem um produto extremamente resistente e durável para uso diário intenso.
 
 **12. O sofá passa por portas estreitas?**
 
@@ -8457,8 +8457,8 @@ Sim, o sofá é bipartido em 2 módulos com altura 161cm, largura 65cm e profund
 | **Bordado** | Pantográfico 3D |
 | **Assentos** | Espuma D33 + Molas ensacadas de molejo duplo + Fibra siliconada + Percintas italianas |
 | **Encosto** | Reclinável em 5 níveis, almofadas parcialmente removíveis (80% fibra siliconada, 20% flocos de espuma) |
-| **Braços** | Madeira maciça de eucalipto, 25cm de largura cada, com bordado 3D |
-| **Estrutura** | Madeira maciça de eucalipto 100% de reflorestamento, grampos galvanizados |
+| **Braços** | Madeira macica de eucalipto, 25cm de largura cada, com bordado 3D |
+| **Estrutura** | Madeira macica de eucalipto 100% de reflorestamento, grampos galvanizados |
 | **Altura** | 1,08m |
 | **Profundidade Fechado** | 1,22m |
 | **Profundidade Aberto** | 1,75m |
@@ -8475,7 +8475,7 @@ Sim, o sofá é bipartido em 2 módulos com altura 161cm, largura 65cm e profund
 
 ## 📌 Conclusão
 
-O **Sofá Retrátil e Reclinável 2,75m Molas Ensacadas Spazus Cama Inbox** é a escolha perfeita para quem busca um móvel que una conforto excepcional, design sofisticado e funcionalidade completa. Com sistema retrátil e reclinável em 5 níveis, molas ensacadas de molejo duplo, espuma D33, percintas italianas, tecido Velusoft com bordado 3D e estrutura em madeira maciça de reflorestamento, este sofá atende todas as necessidades de uma sala moderna e sofisticada.
+O **Sofá Retrátil e Reclinável 2,75m Molas Ensacadas Spazus Cama Inbox** é a escolha perfeita para quem busca um móvel que una conforto excepcional, design sofisticado e funcionalidade completa. Com sistema retrátil e reclinável em 5 níveis, molas ensacadas de molejo duplo, espuma D33, percintas italianas, tecido Velusoft com bordado 3D e estrutura em madeira macica de reflorestamento, este sofá atende todas as necessidades de uma sala moderna e sofisticada.
 
 A marca Cama Inbox, com mais de 100 vendas e avaliação de 4,7 estrelas com 248 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. O design bipartido facilita o transporte e a montagem, tornando a experiência de compra ainda mais prática.
 
@@ -8500,7 +8500,7 @@ Se você procura um sofá que una tecnologia de conforto superior, design exclus
     "sofá retrátil grande",
     "sofá com percintas italianas",
     "sofá espuma D33",
-    "sofá madeira maciça",
+    "sofá madeira macica",
     "sofá bipartido",
     "sofá premium"
   ],
@@ -8972,7 +8972,7 @@ O Sofá Thunder está disponível nas cores: Azul, Bege, Café, Castor, Cinza, P
 | **Acabamento** | SoftBlend 3D (bordado pantográfico em alto-relevo) |
 | **Assento** | Manta siliconada + Espuma D33 com ThermoGel + Molas Bonnel + Percintas Extra Support |
 | **Encosto** | Reclinável em 5 posições, almofadas parcialmente removíveis (80% fibra siliconada, 20% flocos de espuma) |
-| **Braços** | Madeira maciça de eucalipto, 25cm de largura, almofadados |
+| **Braços** | Madeira macica de eucalipto, 25cm de largura, almofadados |
 | **Estrutura** | Madeira de eucalipto 100% reflorestada (Sistema EcoFlorest), grampos galvanizados |
 | **Tecnologia** | ThermoGel (frescor inteligente) |
 | **Altura** | 1,05m |
@@ -9061,7 +9061,7 @@ O **sofá retrátil e reclinável Eureka** foi projetado para oferecer benefíci
 
 **Revestimento em Velosuede:** O tecido Velosuede é macio, resistente e de fácil limpeza, oferecendo toque agradável e durabilidade para o uso diário.
 
-**Estrutura em Madeira Maciça de Eucalipto 100% reflorestada:** Produto ecologicamente correto, a estrutura em madeira maciça garante resistência e durabilidade, além de demonstrar compromisso com a sustentabilidade.
+**Estrutura em Madeira macica de Eucalipto 100% reflorestada:** Produto ecologicamente correto, a estrutura em madeira macica garante resistência e durabilidade, além de demonstrar compromisso com a sustentabilidade.
 
 **Espuma D-28 e D-33 com percinta elástica:** A combinação de espumas de alta densidade no assento com percinta elástica proporciona mais firmeza, conforto e durabilidade, mantendo a qualidade mesmo após anos de uso.
 
@@ -9134,7 +9134,7 @@ O **Sofá Retrátil e Reclinável Eureka Netsofas** se destaca da concorrência 
 
 **Revestimento em Velosuede:** O tecido é macio, resistente e de fácil limpeza, oferecendo durabilidade e conforto.
 
-**Estrutura em madeira maciça de eucalipto reflorestada:** A utilização de madeira 100% reflorestada demonstra compromisso com a sustentabilidade, além de garantir durabilidade.
+**Estrutura em madeira macica de eucalipto reflorestada:** A utilização de madeira 100% reflorestada demonstra compromisso com a sustentabilidade, além de garantir durabilidade.
 
 **Espuma D-28 e D-33 com percinta elástica:** A combinação de espumas de alta densidade garante firmeza, conforto e durabilidade superiores.
 
@@ -9154,7 +9154,7 @@ O **Sofá Retrátil e Reclinável Eureka Netsofas** se destaca da concorrência 
 
 ✅ **Revestimento em Velosuede** - toque macio, resistente e fácil de limpar
 
-✅ **Estrutura em madeira maciça de eucalipto reflorestada** - sustentabilidade e durabilidade
+✅ **Estrutura em madeira macica de eucalipto reflorestada** - sustentabilidade e durabilidade
 
 ✅ **Espuma D-28 e D-33 com percinta elástica** - firmeza e conforto prolongado
 
@@ -9214,7 +9214,7 @@ Aspire o sofá regularmente para eliminar a poeira. Para limpeza, utilize pano l
 
 **11. O sofá é resistente para uso diário?**
 
-Sim, a estrutura em madeira maciça de eucalipto reflorestada, espuma D-28 e D-33 com percinta elástica garantem um produto extremamente resistente e durável para uso diário intenso.
+Sim, a estrutura em madeira macica de eucalipto reflorestada, espuma D-28 e D-33 com percinta elástica garantem um produto extremamente resistente e durável para uso diário intenso.
 
 **12. O USB é compatível com todos os dispositivos?**
 
@@ -9232,7 +9232,7 @@ Sim, a porta USB é compatível com a maioria dos dispositivos móveis, incluind
 | **Revestimento** | Velosuede |
 | **Assento** | Espuma D-28, D-33, Fibra de Poliéster Siliconada e Percinta Elástica |
 | **Encosto** | Flocos de Espuma e Fibra de Poliéster Siliconada |
-| **Estrutura** | Madeira Maciça de Eucalipto 100% reflorestada |
+| **Estrutura** | Madeira macica de Eucalipto 100% reflorestada |
 | **Pés** | Plástico desmontável |
 | **Porta USB** | Sim (integrada no braço) |
 | **Porta-copos** | 4 (2 em cada braço) |
@@ -9250,7 +9250,7 @@ Sim, a porta USB é compatível com a maioria dos dispositivos móveis, incluind
 
 ## 📌 Conclusão
 
-O **Sofá Retrátil Reclinável 4 Lugares Eureka 2,30m Velosuede USB Porta Copos Cinza** é a escolha perfeita para quem busca um móvel que una conforto excepcional, design sofisticado e funcionalidades modernas. Com 4 lugares, porta USB integrada, 4 porta-copos, sistema retrátil e reclinável, revestimento em Velosuede e estrutura em madeira maciça de eucalipto reflorestada, este sofá atende todas as necessidades de uma sala moderna e conectada.
+O **Sofá Retrátil Reclinável 4 Lugares Eureka 2,30m Velosuede USB Porta Copos Cinza** é a escolha perfeita para quem busca um móvel que una conforto excepcional, design sofisticado e funcionalidades modernas. Com 4 lugares, porta USB integrada, 4 porta-copos, sistema retrátil e reclinável, revestimento em Velosuede e estrutura em madeira macica de eucalipto reflorestada, este sofá atende todas as necessidades de uma sala moderna e conectada.
 
 A marca Netsofas, com mais de 1000 vendas e avaliação de 4,6 estrelas com 650 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. As funcionalidades integradas como USB e porta-copos tornam o Eureka um dos sofás mais práticos e completos do mercado.
 
@@ -9279,7 +9279,7 @@ Se você procura um sofá que una tecnologia, conforto e design a um preço aces
     "sofá 4 lugares retrátil",
     "sofá cama"
   ],
-  seoTitle: "Sofá Retrátil 4 Lugares Eureka com USB e Porta Copos | Netsofas",
+  seoTitle: "Sofá Retrátil 4 Lugares Cinza Eureka com USB e Porta Copos | Netsofas",
   seoDescription: "Sofá retrátil e reclinável Eureka com 4 lugares, porta USB e 4 porta-copos. Velosuede, madeira reflorestada. 4.6★ (650 reviews)."
 },
 {
@@ -9570,7 +9570,7 @@ O **sofá retrátil e reclinável Eureka** foi projetado para oferecer benefíci
 
 **Revestimento em Velosuede:** O tecido Velosuede na cor areia é macio, resistente e de fácil limpeza, oferecendo toque agradável e durabilidade para o uso diário. A cor areia é versátil e traz aconchego ao ambiente.
 
-**Estrutura em Madeira Maciça de Eucalipto 100% reflorestada:** Produto ecologicamente correto, a estrutura em madeira maciça garante resistência e durabilidade, além de demonstrar compromisso com a sustentabilidade.
+**Estrutura em Madeira macica de Eucalipto 100% reflorestada:** Produto ecologicamente correto, a estrutura em madeira macica garante resistência e durabilidade, além de demonstrar compromisso com a sustentabilidade.
 
 **Espuma D-28 e D-33 com percinta elástica:** A combinação de espumas de alta densidade no assento com percinta elástica proporciona mais firmeza, conforto e durabilidade, mantendo a qualidade mesmo após anos de uso.
 
@@ -9647,7 +9647,7 @@ O **Sofá Retrátil e Reclinável Eureka Netsofas** se destaca da concorrência 
 
 **Revestimento em Velosuede:** O tecido é macio, resistente e de fácil limpeza, oferecendo durabilidade e conforto.
 
-**Estrutura em madeira maciça de eucalipto reflorestada:** A utilização de madeira 100% reflorestada demonstra compromisso com a sustentabilidade, além de garantir durabilidade.
+**Estrutura em madeira macica de eucalipto reflorestada:** A utilização de madeira 100% reflorestada demonstra compromisso com a sustentabilidade, além de garantir durabilidade.
 
 **Espuma D-28 e D-33 com percinta elástica:** A combinação de espumas de alta densidade garante firmeza, conforto e durabilidade superiores.
 
@@ -9667,7 +9667,7 @@ O **Sofá Retrátil e Reclinável Eureka Netsofas** se destaca da concorrência 
 
 ✅ **Revestimento em Velosuede areia** - toque macio, resistente e fácil de limpar
 
-✅ **Estrutura em madeira maciça de eucalipto reflorestada** - sustentabilidade e durabilidade
+✅ **Estrutura em madeira macica de eucalipto reflorestada** - sustentabilidade e durabilidade
 
 ✅ **Espuma D-28 e D-33 com percinta elástica** - firmeza e conforto prolongado
 
@@ -9727,7 +9727,7 @@ Aspire o sofá regularmente para eliminar a poeira. Para limpeza, utilize pano l
 
 **11. O sofá é resistente para uso diário?**
 
-Sim, a estrutura em madeira maciça de eucalipto reflorestada, espuma D-28 e D-33 com percinta elástica garantem um produto extremamente resistente e durável para uso diário intenso.
+Sim, a estrutura em madeira macica de eucalipto reflorestada, espuma D-28 e D-33 com percinta elástica garantem um produto extremamente resistente e durável para uso diário intenso.
 
 **12. O USB é compatível com todos os dispositivos?**
 
@@ -9745,7 +9745,7 @@ Sim, a porta USB é compatível com a maioria dos dispositivos móveis, incluind
 | **Revestimento** | Velosuede |
 | **Assento** | Espuma D-28, D-33, Fibra de Poliéster Siliconada e Percinta Elástica |
 | **Encosto** | Flocos de Espuma e Fibra de Poliéster Siliconada |
-| **Estrutura** | Madeira Maciça de Eucalipto 100% reflorestada |
+| **Estrutura** | Madeira macica de Eucalipto 100% reflorestada |
 | **Pés** | Plástico desmontável |
 | **Porta USB** | Sim (integrada no braço) |
 | **Porta-copos** | 4 (2 em cada braço) |
@@ -9764,7 +9764,7 @@ Sim, a porta USB é compatível com a maioria dos dispositivos móveis, incluind
 
 ## 📌 Conclusão
 
-O **Sofá Retrátil Reclinável 4 Lugares Eureka 2,30m Velosuede USB Porta Copos Areia** é a escolha perfeita para quem busca um móvel que una conforto excepcional, design sofisticado e funcionalidades modernas. Com 4 lugares, porta USB integrada, 4 porta-copos, sistema retrátil e reclinável, revestimento em Velosuede na cor areia, estrutura em madeira maciça de eucalipto reflorestada e capacidade de até 200 kg, este sofá atende todas as necessidades de uma sala moderna e conectada.
+O **Sofá Retrátil Reclinável 4 Lugares Eureka 2,30m Velosuede USB Porta Copos Areia** é a escolha perfeita para quem busca um móvel que una conforto excepcional, design sofisticado e funcionalidades modernas. Com 4 lugares, porta USB integrada, 4 porta-copos, sistema retrátil e reclinável, revestimento em Velosuede na cor areia, estrutura em madeira macica de eucalipto reflorestada e capacidade de até 200 kg, este sofá atende todas as necessidades de uma sala moderna e conectada.
 
 A marca Netsofas, com mais de 500 vendas e 8ª colocação entre os sofás da marca, e avaliação de 4,6 estrelas com 673 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. As funcionalidades integradas como USB e porta-copos tornam o Eureka um dos sofás mais práticos e completos do mercado.
 
@@ -10097,7 +10097,7 @@ O **sofá retrátil e reclinável Spazus** foi projetado para oferecer benefíci
 
 **Tecido Suede Velusoft:** O revestimento em Suede Velusoft na cor bege oferece toque macio e aconchegante, com acabamento premium que confere elegância e sofisticação.
 
-**Estrutura em madeira maciça de eucalipto reflorestada:** A estrutura é fabricada com madeira maciça de eucalipto 100% de reflorestamento, garantindo durabilidade e sustentabilidade.
+**Estrutura em madeira macica de eucalipto reflorestada:** A estrutura é fabricada com madeira macica de eucalipto 100% de reflorestamento, garantindo durabilidade e sustentabilidade.
 
 **Encosto reclinável em 5 níveis:** O encosto reclinável em 5 níveis de estágios permite encontrar a posição perfeita para assistir TV, ler um livro ou descansar.
 
@@ -10115,7 +10115,7 @@ O **Sofá Spazus** apresenta um design sofisticado e moderno que valoriza qualqu
 
 **Dimensões impressionantes:** Com 3,15m de largura, 1,08m de altura e 1,22m de profundidade (fechado), o sofá oferece amplo espaço para até 5 pessoas, sendo a peça central da sala.
 
-**Braços largos e macios:** Os braços com 25cm de largura e madeira maciça proporcionam conforto e estabilidade, além de um visual robusto e elegante.
+**Braços largos e macios:** Os braços com 25cm de largura e madeira macica proporcionam conforto e estabilidade, além de um visual robusto e elegante.
 
 ## 📌 Funcionalidade e Praticidade
 
@@ -10170,7 +10170,7 @@ O **Sofá Retrátil e Reclinável Spazus Cama Inbox** se destaca da concorrênci
 
 **Design bipartido para fácil transporte:** O sofá é dividido em 2 módulos que cabem em portas acima de 65cm de largura, facilitando a entrega e instalação.
 
-**Estrutura em madeira maciça de reflorestamento:** A utilização de madeira de eucalipto 100% de reflorestamento garante durabilidade e sustentabilidade.
+**Estrutura em madeira macica de reflorestamento:** A utilização de madeira de eucalipto 100% de reflorestamento garante durabilidade e sustentabilidade.
 
 **Marca Cama Inbox com mais de 100 vendas:** A marca é referência em tecnologia a vácuo no Brasil, com 14ª colocação entre os sofás da marca.
 
@@ -10190,7 +10190,7 @@ O **Sofá Retrátil e Reclinável Spazus Cama Inbox** se destaca da concorrênci
 
 ✅ **Tecido Suede Velusoft bege** - toque macio e acabamento premium
 
-✅ **Estrutura em madeira maciça de reflorestamento** - durabilidade e sustentabilidade
+✅ **Estrutura em madeira macica de reflorestamento** - durabilidade e sustentabilidade
 
 ✅ **Encosto reclinável em 5 níveis** - versatilidade para diferentes momentos
 
@@ -10250,7 +10250,7 @@ Recomenda-se limpar o tecido Suede Velusoft com pano seco ou levemente umedecido
 
 **11. O sofá é resistente para uso diário?**
 
-Sim, a estrutura em madeira maciça, molas ensacadas de molejo duplo e percintas italianas garantem um produto extremamente resistente e durável para uso diário intenso.
+Sim, a estrutura em madeira macica, molas ensacadas de molejo duplo e percintas italianas garantem um produto extremamente resistente e durável para uso diário intenso.
 
 **12. O sofá passa por portas estreitas?**
 
@@ -10268,8 +10268,8 @@ Sim, o sofá é bipartido em 2 módulos com altura 161cm, largura 65cm e profund
 | **Bordado** | Pantográfico 3D |
 | **Assentos** | Espuma D33 + Molas ensacadas de molejo duplo + Fibra siliconada + Percintas italianas |
 | **Encosto** | Reclinável em 5 níveis, almofadas parcialmente removíveis (80% fibra siliconada, 20% flocos de espuma) |
-| **Braços** | Madeira maciça de eucalipto, 25cm de largura cada, com bordado 3D |
-| **Estrutura** | Madeira maciça de eucalipto 100% de reflorestamento, grampos galvanizados |
+| **Braços** | Madeira macica de eucalipto, 25cm de largura cada, com bordado 3D |
+| **Estrutura** | Madeira macica de eucalipto 100% de reflorestamento, grampos galvanizados |
 | **Pés** | PVC |
 | **Altura** | 1,08m |
 | **Profundidade Fechado** | 1,22m |
@@ -10287,7 +10287,7 @@ Sim, o sofá é bipartido em 2 módulos com altura 161cm, largura 65cm e profund
 
 ## 📌 Conclusão
 
-O **Sofá Retrátil e Reclinável 3,15m Spazus com Bordado 3D Velusoft Bege Cama Inbox** é a escolha definitiva para quem busca um sofá que una conforto excepcional, design sofisticado e funcionalidade completa. Com impressionantes 3,15m de largura, molas ensacadas de molejo duplo, espuma D33, percintas italianas, bordado pantográfico 3D, tecido Suede Velusoft na cor bege e estrutura em madeira maciça de eucalipto reflorestada, este sofá atende todas as necessidades de salas grandes e famílias numerosas.
+O **Sofá Retrátil e Reclinável 3,15m Spazus com Bordado 3D Velusoft Bege Cama Inbox** é a escolha definitiva para quem busca um sofá que una conforto excepcional, design sofisticado e funcionalidade completa. Com impressionantes 3,15m de largura, molas ensacadas de molejo duplo, espuma D33, percintas italianas, bordado pantográfico 3D, tecido Suede Velusoft na cor bege e estrutura em madeira macica de eucalipto reflorestada, este sofá atende todas as necessidades de salas grandes e famílias numerosas.
 
 A marca Cama Inbox, com mais de 100 vendas e 14ª colocação entre os sofás da marca, e avaliação de 4,7 estrelas com 371 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. O design bipartido facilita o transporte e a montagem, tornando a experiência de compra ainda mais prática.
 
@@ -10344,7 +10344,7 @@ Se você procura um sofá que una tecnologia de conforto superior, design exclus
 
 Conheça o **Sofá Beny**, modelo de referência em elegância e segurança. O Sofá Beny é um luxo e vai tornar o seu ambiente ainda mais lindo e aconchegante. Com design moderno e acabamento refinado, este sofá de 3 lugares é a peça perfeita para quem busca conforto, estilo e sofisticação na sala de estar.
 
-Com 180cm de largura, o Sofá Beny se adapta perfeitamente a diferentes tamanhos de sala, oferecendo espaço generoso para 3 pessoas. Seu revestimento em linho na cor bege, pés em madeira maciça e almofadas decorativas inclusas fazem deste modelo uma escolha versátil e elegante para qualquer ambiente.
+Com 180cm de largura, o Sofá Beny se adapta perfeitamente a diferentes tamanhos de sala, oferecendo espaço generoso para 3 pessoas. Seu revestimento em linho na cor bege, pés em madeira macica e almofadas decorativas inclusas fazem deste modelo uma escolha versátil e elegante para qualquer ambiente.
 
 ## 📌 Principais Benefícios
 
@@ -10354,7 +10354,7 @@ O **Sofá Beny** foi projetado para oferecer benefícios reais que transformam a
 
 **Revestimento em linho de alta qualidade:** O tecido de linho oferece toque natural e sofisticado, com durabilidade e resistência para o uso diário. A cor bege é versátil e combina com diferentes paletas de cores.
 
-**Pés em madeira maciça:** A base e os pés em madeira trazem a sustentação necessária e adicionam um toque de elegância e naturalidade ao sofá. A madeira confere robustez e durabilidade.
+**Pés em madeira macica:** A base e os pés em madeira trazem a sustentação necessária e adicionam um toque de elegância e naturalidade ao sofá. A madeira confere robustez e durabilidade.
 
 **Almofadas no encosto para maior conforto:** As almofadas do encosto são removíveis e proporcionam maior conforto, permitindo ajustar a posição de acordo com sua preferência.
 
@@ -10372,7 +10372,7 @@ O **Sofá Beny** apresenta um design moderno e sofisticado que valoriza qualquer
 
 **Revestimento em linho bege:** O tecido de linho oferece um toque natural e sofisticado, com acabamento premium que confere elegância ao sofá. A cor bege é versátil e combina com diferentes estilos de decoração, trazendo aconchego e sofisticação.
 
-**Pés em madeira maciça:** Os pés em madeira com 13cm de altura adicionam um toque de elegância e naturalidade ao sofá, além de facilitar a limpeza do piso.
+**Pés em madeira macica:** Os pés em madeira com 13cm de altura adicionam um toque de elegância e naturalidade ao sofá, além de facilitar a limpeza do piso.
 
 **Design clean e contemporâneo:** As linhas retas e o design moderno tornam o sofá versátil, combinando com diferentes estilos de decoração, do minimalista ao clássico.
 
@@ -10413,11 +10413,11 @@ Este **sofá 3 lugares Beny** é especialmente recomendado para:
 
 **Pessoas que buscam um sofá elegante e confortável com excelente custo-benefício.** O design moderno e o revestimento em linho conferem um visual sofisticado a um preço acessível.
 
-**Quem valoriza design natural e atemporal.** A combinação de linho bege com pés de madeira maciça é uma escolha elegante que nunca sai de moda.
+**Quem valoriza design natural e atemporal.** A combinação de linho bege com pés de madeira macica é uma escolha elegante que nunca sai de moda.
 
 **Pessoas com espaços compactos.** Com 180cm de largura, o Beny é ideal para apartamentos e salas menores.
 
-**Admiradores de móveis com acabamento em madeira.** Os pés em madeira maciça adicionam um toque de elegância e naturalidade ao sofá.
+**Admiradores de móveis com acabamento em madeira.** Os pés em madeira macica adicionam um toque de elegância e naturalidade ao sofá.
 
 **Quem busca um sofá com almofadas inclusas.** As 4 almofadas decorativas acompanham o produto, oferecendo mais valor e versatilidade.
 
@@ -10427,7 +10427,7 @@ Este **sofá 3 lugares Beny** é especialmente recomendado para:
 
 O **Sofá Beny Madeira Prima** se destaca da concorrência por diversos motivos:
 
-**Pés em madeira maciça:** Diferente de muitos sofás com pés de plástico ou MDF, o Beny utiliza pés em madeira maciça, garantindo maior durabilidade e um visual mais elegante e natural.
+**Pés em madeira macica:** Diferente de muitos sofás com pés de plástico ou MDF, o Beny utiliza pés em madeira macica, garantindo maior durabilidade e um visual mais elegante e natural.
 
 **4 almofadas decorativas inclusas:** O sofá acompanha 4 almofadas extras, oferecendo mais valor ao produto e permitindo personalizar a decoração.
 
@@ -10449,7 +10449,7 @@ O **Sofá Beny Madeira Prima** se destaca da concorrência por diversos motivos:
 
 ✅ **Revestimento em linho bege** - toque natural e sofisticado
 
-✅ **Pés em madeira maciça** - durabilidade e elegância
+✅ **Pés em madeira macica** - durabilidade e elegância
 
 ✅ **4 almofadas decorativas inclusas** - mais valor e versatilidade
 
@@ -10515,7 +10515,7 @@ Recomenda-se aspirar o sofá regularmente para eliminar a poeira. Para limpeza, 
 
 **11. O sofá é resistente para uso diário?**
 
-Sim, a estrutura com molas Bonnel, espuma D-26 e pés em madeira maciça garantem um produto resistente e durável para uso diário.
+Sim, a estrutura com molas Bonnel, espuma D-26 e pés em madeira macica garantem um produto resistente e durável para uso diário.
 
 **12. O sofá suporta quanto peso?**
 
@@ -10553,7 +10553,7 @@ O sofá suporta até 300kg no total, garantindo segurança e durabilidade para d
 
 ## 📌 Conclusão
 
-O **Sofá 3 Lugares Beny 180cm Linho Bege com Pés de Madeira** é a escolha perfeita para quem busca um móvel que una design moderno, conforto excepcional e elegância natural. Com revestimento em linho de alta qualidade, pés em madeira maciça, 4 almofadas decorativas inclusas, sistema de molas Bonnel e espuma D-26, este sofá atende todas as necessidades de uma sala moderna e acolhedora.
+O **Sofá 3 Lugares Beny 180cm Linho Bege com Pés de Madeira** é a escolha perfeita para quem busca um móvel que una design moderno, conforto excepcional e elegância natural. Com revestimento em linho de alta qualidade, pés em madeira macica, 4 almofadas decorativas inclusas, sistema de molas Bonnel e espuma D-26, este sofá atende todas as necessidades de uma sala moderna e acolhedora.
 
 A marca Madeira Prima, com mais de 500 vendas, comprova a qualidade, durabilidade e satisfação dos clientes. O design atemporal e a combinação de cores neutras tornam o Beny versátil, combinando com diferentes estilos de decoração.
 
@@ -10617,13 +10617,13 @@ O **Rack Aparador Turim** foi projetado para oferecer benefícios reais que tran
 
 **Design moderno e versátil:** Com linhas retas e acabamento em pintura UV texturizada, o rack Turim apresenta um visual contemporâneo que combina perfeitamente com diferentes estilos de decoração, do minimalista ao clássico. Sua cor branca (Off White/Naturale) traz luminosidade e sensação de amplitude ao ambiente.
 
-**Suporte seguro para TVs de até 65 polegadas:** Com estrutura robusta em MDP/MDF de 15mm, o rack suporta até 55 kg de peso distribuídos, garantindo estabilidade e segurança para televisores de grande porte. Os pés em madeira maciça (Pinus) elevam o móvel e proporcionam maior estabilidade.
+**Suporte seguro para TVs de até 65 polegadas:** Com estrutura robusta em MDP/MDF de 15mm, o rack suporta até 55 kg de peso distribuídos, garantindo estabilidade e segurança para televisores de grande porte. Os pés em madeira macica (Pinus) elevam o móvel e proporcionam maior estabilidade.
 
 **Organização inteligente:** Com 2 portas com dobradiças metálicas e 1 prateleira interna, o rack oferece espaço para organizar aparelhos eletrônicos, controles, revistas, livros e objetos decorativos. Os nichos abertos e os detalhes chanfrados adicionam um toque de sofisticação e funcionalidade.
 
 **Acabamento premium em pintura UV texturizada:** A pintura UV confere ao móvel uma superfície extremamente resistente a riscos, manchas e desgaste, mantendo o aspecto bonito e bem cuidado por muito mais tempo. A textura adiciona um toque sofisticado e agradável ao toque.
 
-**Pés em madeira maciça:** Os pés em madeira maciça (Pinus) elevam o rack a 59,5 cm de altura, facilitando a limpeza do piso e criando uma sensação de leveza visual. A madeira maciça garante maior durabilidade e estabilidade ao móvel.
+**Pés em madeira macica:** Os pés em madeira macica (Pinus) elevam o rack a 59,5 cm de altura, facilitando a limpeza do piso e criando uma sensação de leveza visual. A madeira macica garante maior durabilidade e estabilidade ao móvel.
 
 ## 📌 Design
 
@@ -10633,7 +10633,7 @@ O **Rack Turim** apresenta um design moderno e sofisticado que valoriza qualquer
 
 **Detalhes chanfrados:** Os detalhes chanfrados nas bordas e superfícies adicionam um toque de sofisticação e modernidade ao design, criando um visual mais dinâmico e elegante.
 
-**Pés em madeira maciça Pinus:** Os pés em madeira maciça elevam o móvel, proporcionando estabilidade e um contraste natural com o acabamento branco. A madeira maciça garante durabilidade e resistência.
+**Pés em madeira macica Pinus:** Os pés em madeira macica elevam o móvel, proporcionando estabilidade e um contraste natural com o acabamento branco. A madeira macica garante durabilidade e resistência.
 
 **Dimensões ideais:** Com 160 cm de largura, o rack se adapta perfeitamente a diferentes tamanhos de sala, oferecendo espaço suficiente para acomodar uma TV de até 65 polegadas e outros objetos decorativos.
 
@@ -10660,7 +10660,7 @@ O **Rack Turim** foi cuidadosamente planejado para oferecer organização eficie
 - **Apartamentos modernos:** Design clean que combina com decorações contemporâneas
 - **Ambientes minimalistas:** Linhas retas e acabamento sofisticado
 - **Espaços compactos:** Dimensões que otimizam espaços sem comprometer a funcionalidade
-- **Decoração com estilo natural:** Pés em madeira maciça que adicionam um toque de natureza
+- **Decoração com estilo natural:** Pés em madeira macica que adicionam um toque de natureza
 
 ## 📌 Para Quem Este Produto é Recomendado
 
@@ -10684,7 +10684,7 @@ O **Rack Aparador Turim Móveis Bechara** se destaca da concorrência por divers
 
 **Detalhes chanfrados:** Os detalhes chanfrados nas bordas e superfícies são um diferencial que adiciona sofisticação e modernidade ao design, criando um visual mais dinâmico e elegante.
 
-**Pés em madeira maciça Pinus:** A utilização de madeira maciça nos pés garante maior durabilidade e estabilidade, além de adicionar um toque natural e elegante ao móvel.
+**Pés em madeira macica Pinus:** A utilização de madeira macica nos pés garante maior durabilidade e estabilidade, além de adicionar um toque natural e elegante ao móvel.
 
 **Estrutura em MDP/MDF de 15mm:** A espessura superior garante maior resistência e durabilidade em comparação com móveis que utilizam MDP mais fino (geralmente 12mm).
 
@@ -10706,7 +10706,7 @@ O **Rack Aparador Turim Móveis Bechara** se destaca da concorrência por divers
 
 ✅ **1 prateleira interna** - organização inteligente
 
-✅ **Pés em madeira maciça Pinus** - estabilidade e elegância
+✅ **Pés em madeira macica Pinus** - estabilidade e elegância
 
 ✅ **Detalhes chanfrados** - sofisticação e modernidade
 
@@ -10782,9 +10782,9 @@ Ao receber a mercadoria, verifique as condições da embalagem. Caso haja alguma
 | **Cor** | Off White/Naturale (Branco) |
 | **Acabamento** | Pintura UV Texturizada |
 | **Material Principal** | MDP/MDF (15mm) |
-| **Material dos Pés** | Madeira Maciça (Pinus) |
+| **Material dos Pés** | Madeira macica (Pinus) |
 | **Dobradiças** | Metálicas |
-| **Pés** | Sim (em madeira maciça) |
+| **Pés** | Sim (em madeira macica) |
 | **Altura** | 59,5 cm |
 | **Largura** | 160 cm |
 | **Profundidade** | 36 cm |
@@ -10803,7 +10803,7 @@ Ao receber a mercadoria, verifique as condições da embalagem. Caso haja alguma
 
 ## 📌 Conclusão
 
-O **Rack Aparador Turim Móveis Bechara** é a escolha inteligente para quem busca um móvel que una design moderno, funcionalidade completa e excelente custo-benefício para a sala de estar. Com acabamento em pintura UV texturizada, estrutura em MDP/MDF de 15mm, 2 portas com dobradiças metálicas, prateleira interna, nichos abertos e pés em madeira maciça, este rack oferece organização eficiente e um visual sofisticado para qualquer ambiente.
+O **Rack Aparador Turim Móveis Bechara** é a escolha inteligente para quem busca um móvel que una design moderno, funcionalidade completa e excelente custo-benefício para a sala de estar. Com acabamento em pintura UV texturizada, estrutura em MDP/MDF de 15mm, 2 portas com dobradiças metálicas, prateleira interna, nichos abertos e pés em madeira macica, este rack oferece organização eficiente e um visual sofisticado para qualquer ambiente.
 
 A marca Móveis Bechara, com mais de 1000 vendas e avaliação de 4,7 estrelas com 826 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. O design versátil e as dimensões compactas tornam o Turim uma peça que se adapta a diferentes estilos de decoração e tamanhos de sala.
 
@@ -10819,7 +10819,7 @@ Se você procura um rack que una design sofisticado, funcionalidade completa e d
     "móvel para tv 65 polegadas",
     "rack com prateleira e portas",
     "rack pintura uv texturizada",
-    "rack madeira maciça",
+    "rack madeira macica",
     "rack 160cm de largura",
     "rack para home theater",
     "móvel moderno para sala",
@@ -11849,7 +11849,7 @@ Se você procura um rack que una design exclusivo, funcionalidade completa e dur
 
 O **Rack Bancada Fortaleza** da Colibri é a escolha definitiva para quem busca um móvel que una design contemporâneo, elegância e funcionalidade excepcional para a sala de estar. Com estrutura robusta em MDP/MDF (25 e 15 mm) e acabamento em pintura UV texturizada, este rack foi projetado para acomodar televisores de até 75 polegadas com total segurança, oferecendo amplo espaço de armazenamento e organização.
 
-Com 220 cm de largura, 57 cm de altura e 40 cm de profundidade, o modelo Fortaleza se destaca pela presença imponente e pelo design sofisticado. As 4 portas de giro com dobradiças metálicas, os detalhes em ripados artesanal (baixo relevo), as prateleiras internas, os nichos centrais e os 5 pés em madeira maciça de 20 cm de altura criam um móvel completo que transforma qualquer ambiente.
+Com 220 cm de largura, 57 cm de altura e 40 cm de profundidade, o modelo Fortaleza se destaca pela presença imponente e pelo design sofisticado. As 4 portas de giro com dobradiças metálicas, os detalhes em ripados artesanal (baixo relevo), as prateleiras internas, os nichos centrais e os 5 pés em madeira macica de 20 cm de altura criam um móvel completo que transforma qualquer ambiente.
 
 ## 📌 Principais Benefícios
 
@@ -11863,7 +11863,7 @@ O **Rack Bancada Fortaleza** foi projetado para oferecer benefícios reais que t
 
 **4 portas de giro com dobradiças metálicas:** As quatro portas com dobradiças metálicas abrem-se suavemente, oferecendo amplo espaço interno para organizar aparelhos eletrônicos, controles, DVDs, livros e outros objetos.
 
-**Pés em madeira maciça (20 cm):** Os 5 pés em madeira maciça elevam o rack, facilitando a limpeza do piso e criando uma sensação de leveza visual. A madeira maciça garante maior durabilidade e estabilidade.
+**Pés em madeira macica (20 cm):** Os 5 pés em madeira macica elevam o rack, facilitando a limpeza do piso e criando uma sensação de leveza visual. A madeira macica garante maior durabilidade e estabilidade.
 
 **Prateleiras internas e nichos centrais:** Com 3 prateleiras internas e nichos centrais, o rack oferece organização inteligente para diferentes tipos de itens, mantendo tudo em ordem e de fácil acesso.
 
@@ -11875,7 +11875,7 @@ O **Rack Fortaleza** apresenta um design contemporâneo e elegante que valoriza 
 
 **Detalhes em ripados artesanal (baixo relevo):** Os ripados artesanal em baixo relevo adicionam um toque de sofisticação e exclusividade ao design, criando textura e profundidade que valorizam o móvel.
 
-**Pés em madeira maciça:** Os 5 pés em madeira maciça com 20 cm de altura elevam o rack, proporcionando estabilidade e um contraste natural com o acabamento Freijó. A madeira maciça garante durabilidade e resistência.
+**Pés em madeira macica:** Os 5 pés em madeira macica com 20 cm de altura elevam o rack, proporcionando estabilidade e um contraste natural com o acabamento Freijó. A madeira macica garante durabilidade e resistência.
 
 **Dimensões generosas:** Com 220 cm de largura, 57 cm de altura e 40 cm de profundidade, o rack oferece uma presença imponente na sala, com espaço suficiente para acomodar uma TV de até 75 polegadas.
 
@@ -11910,7 +11910,7 @@ O **Rack Fortaleza** foi cuidadosamente planejado para oferecer organização ef
 
 Este **rack bancada Fortaleza Colibri** é especialmente recomendado para:
 
-**Pessoas que buscam um rack com design contemporâneo e elegante.** O acabamento em pintura UV texturizada, os detalhes em ripados artesanal e os pés em madeira maciça conferem um visual premium e exclusivo.
+**Pessoas que buscam um rack com design contemporâneo e elegante.** O acabamento em pintura UV texturizada, os detalhes em ripados artesanal e os pés em madeira macica conferem um visual premium e exclusivo.
 
 **Quem possui uma TV de até 75 polegadas e busca um suporte seguro e estável.** Com capacidade de 74 kg e estrutura robusta em MDP/MDF, o rack Fortaleza oferece segurança para televisores de grande porte.
 
@@ -11930,7 +11930,7 @@ O **Rack Bancada Fortaleza Colibri** se destaca da concorrência por diversos mo
 
 **Detalhes em ripados artesanal (baixo relevo):** Os ripados em baixo relevo adicionam um toque de sofisticação e exclusividade ao design, criando textura e profundidade que valorizam o móvel.
 
-**Pés em madeira maciça (20 cm):** A utilização de madeira maciça nos pés garante maior durabilidade e estabilidade, além de adicionar um toque natural e elegante ao design.
+**Pés em madeira macica (20 cm):** A utilização de madeira macica nos pés garante maior durabilidade e estabilidade, além de adicionar um toque natural e elegante ao design.
 
 **Suporte para TVs de até 75 polegadas:** Com capacidade de 74 kg, o rack oferece suporte seguro para televisores de grande porte, atendendo às necessidades da maioria dos lares brasileiros.
 
@@ -11952,7 +11952,7 @@ O **Rack Bancada Fortaleza Colibri** se destaca da concorrência por diversos mo
 
 ✅ **Nichos centrais** - espaço para objetos decorativos
 
-✅ **Pés em madeira maciça (20 cm)** - estabilidade e elegância
+✅ **Pés em madeira macica (20 cm)** - estabilidade e elegância
 
 ✅ **Estrutura em MDP/MDF 25 e 15 mm** - resistência e durabilidade
 
@@ -12026,7 +12026,7 @@ Ao receber a mercadoria, verifique as condições da embalagem. Caso haja alguma
 | **Cor** | Freijó |
 | **Acabamento** | Pintura UV Texturizada |
 | **Material Principal** | MDP/MDF (25 e 15 mm) |
-| **Material dos Pés** | Madeira Maciça |
+| **Material dos Pés** | Madeira macica |
 | **Dobradiças** | Metálicas |
 | **Altura** | 57 cm |
 | **Largura** | 220 cm |
@@ -12036,7 +12036,7 @@ Ao receber a mercadoria, verifique as condições da embalagem. Caso haja alguma
 | **Quantidade de Prateleiras** | 3 prateleiras |
 | **Nichos Centrais** | Sim |
 | **Detalhes** | Ripados artesanal (baixo relevo) |
-| **Pés** | 5 pés em madeira maciça (20 cm) |
+| **Pés** | 5 pés em madeira macica (20 cm) |
 | **Suporte para TV** | Até 75 polegadas |
 | **Origem** | Nacional |
 | **Montagem Necessária** | Sim (manual incluso) |
@@ -12047,7 +12047,7 @@ Ao receber a mercadoria, verifique as condições da embalagem. Caso haja alguma
 
 ## 📌 Conclusão
 
-O **Rack Bancada Fortaleza 220cm 4 Portas Freijó Colibri** é a escolha definitiva para quem busca um móvel que una design contemporâneo, elegância e funcionalidade completa para a sala de estar. Com estrutura em MDP/MDF de 25 e 15 mm, acabamento em pintura UV texturizada, 4 portas de giro, 3 prateleiras internas, nichos centrais, detalhes em ripados artesanal e pés em madeira maciça, este rack oferece organização eficiente e um visual sofisticado para qualquer ambiente.
+O **Rack Bancada Fortaleza 220cm 4 Portas Freijó Colibri** é a escolha definitiva para quem busca um móvel que una design contemporâneo, elegância e funcionalidade completa para a sala de estar. Com estrutura em MDP/MDF de 25 e 15 mm, acabamento em pintura UV texturizada, 4 portas de giro, 3 prateleiras internas, nichos centrais, detalhes em ripados artesanal e pés em madeira macica, este rack oferece organização eficiente e um visual sofisticado para qualquer ambiente.
 
 A marca Colibri, com mais de 1000 vendas e avaliação de 4,8 estrelas com 334 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. O design versátil e as dimensões generosas tornam o Fortaleza uma peça que se adapta a diferentes estilos de decoração e tamanhos de sala.
 
@@ -12058,7 +12058,7 @@ Se você procura um rack que una design exclusivo, funcionalidade completa e dur
     "rack bancada fortaleza 220cm",
     "rack colibri 4 portas freijó",
     "rack para tv 75 polegadas",
-    "rack com pés de madeira maciça",
+    "rack com pés de madeira macica",
     "rack com 4 portas e prateleiras",
     "rack design contemporâneo",
     "rack pintura uv texturizada",
@@ -12077,7 +12077,7 @@ Se você procura um rack que una design exclusivo, funcionalidade completa e dur
     "rack para home theater"
   ],
   seoTitle: "Rack Bancada Fortaleza 220cm 4 Portas Freijó para TV 75\" | Colibri",
-  seoDescription: "Rack bancada Fortaleza com 4 portas, 3 prateleiras e pés em madeira maciça. Suporte para TV até 75 polegadas. 4.8★ (334 reviews). Oferta 26% OFF!"
+  seoDescription: "Rack bancada Fortaleza com 4 portas, 3 prateleiras e pés em madeira macica. Suporte para TV até 75 polegadas. 4.8★ (334 reviews). Oferta 26% OFF!"
 },
 {
   id: "p-imp-107",
@@ -12359,13 +12359,13 @@ Se você procura um rack que una design exclusivo, funcionalidade completa e dur
 
 Eleve o nível da sua sala de estar com o **Rack Nobre** da Gelius Móveis, uma peça que une a tendência do design orgânico à robustez necessária para grandes eletrônicos. Se você busca modernidade, este móvel com formas curvas e acabamento impecável é a escolha certa para transformar sua decoração.
 
-O grande destaque deste modelo são seus **pés em vidro maciço**, que conferem leveza e uma estética flutuante ao móvel. Além disso, o rack conta com **iluminação LED em luz quente**, criando uma atmosfera aconchegante e destacando os detalhes da peça e do ambiente. Fabricado em 100% MDF, o Rack Nobre é estruturado para suportar TVs de até 85 polegadas.
+O grande destaque deste modelo são seus **pés em vidro macico**, que conferem leveza e uma estética flutuante ao móvel. Além disso, o rack conta com **iluminação LED em luz quente**, criando uma atmosfera aconchegante e destacando os detalhes da peça e do ambiente. Fabricado em 100% MDF, o Rack Nobre é estruturado para suportar TVs de até 85 polegadas.
 
 ## 📌 Principais Benefícios
 
 O **Rack Nobre** foi projetado para oferecer benefícios reais que transformam a experiência de organização e decoração da sua sala de estar.
 
-**Design orgânico com pés em vidro maciço:** As formas curvas e os pés em vidro maciço conferem leveza e uma estética flutuante ao móvel, criando um visual moderno e sofisticado que impressiona. O vidro traz elegância e transparência, valorizando o ambiente.
+**Design orgânico com pés em vidro macico:** As formas curvas e os pés em vidro macico conferem leveza e uma estética flutuante ao móvel, criando um visual moderno e sofisticado que impressiona. O vidro traz elegância e transparência, valorizando o ambiente.
 
 **Iluminação LED em luz quente integrada:** A fita de LED inclusa em luz quente cria uma atmosfera aconchegante e destaca os detalhes da peça e do ambiente. A iluminação valoriza o design curvo e os pés de vidro, criando um efeito visual incrível.
 
@@ -12383,7 +12383,7 @@ O **Rack Nobre** apresenta um design orgânico e sofisticado que valoriza qualqu
 
 **Design orgânico com formas curvas:** As formas curvas são uma tendência forte na decoração de interiores, trazendo suavidade e elegância ao ambiente. O design orgânico do Rack Nobre cria um visual moderno e acolhedor.
 
-**Pés em vidro maciço:** Os pés em vidro maciço conferem leveza e uma estética flutuante ao móvel, criando um efeito visual impressionante. O vidro adiciona elegância e transparência, valorizando o ambiente.
+**Pés em vidro macico:** Os pés em vidro macico conferem leveza e uma estética flutuante ao móvel, criando um efeito visual impressionante. O vidro adiciona elegância e transparência, valorizando o ambiente.
 
 **Iluminação LED em luz quente:** A fita de LED em luz quente integrada cria uma atmosfera aconchegante e destaca os detalhes da peça e do ambiente. A iluminação valoriza o design curvo e os pés de vidro.
 
@@ -12420,7 +12420,7 @@ O **Rack Nobre** foi cuidadosamente planejado para oferecer organização eficie
 
 Este **rack Nobre Gelius Móveis** é especialmente recomendado para:
 
-**Pessoas que buscam um rack com design exclusivo e sofisticado.** As formas curvas, os pés em vidro maciço e a iluminação LED integrada conferem um visual premium e diferenciado.
+**Pessoas que buscam um rack com design exclusivo e sofisticado.** As formas curvas, os pés em vidro macico e a iluminação LED integrada conferem um visual premium e diferenciado.
 
 **Quem possui uma TV de até 85 polegadas e busca um suporte seguro e elegante.** Com estrutura robusta em 100% MDF, o rack Nobre oferece segurança para televisores de grande porte.
 
@@ -12434,7 +12434,7 @@ Este **rack Nobre Gelius Móveis** é especialmente recomendado para:
 
 O **Rack Nobre Gelius Móveis** se destaca da concorrência por diversos motivos:
 
-**Pés em vidro maciço:** Os pés em vidro maciço conferem leveza e uma estética flutuante ao móvel, criando um efeito visual impressionante que poucos racks oferecem. O vidro adiciona elegância e transparência.
+**Pés em vidro macico:** Os pés em vidro macico conferem leveza e uma estética flutuante ao móvel, criando um efeito visual impressionante que poucos racks oferecem. O vidro adiciona elegância e transparência.
 
 **Iluminação LED em luz quente integrada:** A fita de LED em luz quente é um diferencial que cria uma atmosfera aconchegante e destaca os detalhes da peça, valorizando o design curvo e os pés de vidro.
 
@@ -12452,7 +12452,7 @@ O **Rack Nobre Gelius Móveis** se destaca da concorrência por diversos motivos
 
 ## 📌 Motivos para Comprar
 
-✅ **Pés em vidro maciço** - leveza e estética flutuante
+✅ **Pés em vidro macico** - leveza e estética flutuante
 
 ✅ **Iluminação LED em luz quente integrada** - atmosfera aconchegante
 
@@ -12564,7 +12564,7 @@ Ao receber a mercadoria, verifique as condições da embalagem. Caso haja alguma
 
 ## 📌 Conclusão
 
-O **Rack Nobre 209cm com LED e Pés de Vidro Off White/Naturale Gelius** é a escolha definitiva para quem busca um móvel que una design exclusivo, sofisticação e funcionalidade completa para a sala de estar. Com pés em vidro maciço, iluminação LED em luz quente, design orgânico com formas curvas, fabricado em 100% MDF, 2 portas, 1 gaveta com corrediças telescópicas e acabamento em pintura UV brilhante, este rack oferece organização eficiente e um visual premium para qualquer ambiente.
+O **Rack Nobre 209cm com LED e Pés de Vidro Off White/Naturale Gelius** é a escolha definitiva para quem busca um móvel que una design exclusivo, sofisticação e funcionalidade completa para a sala de estar. Com pés em vidro macico, iluminação LED em luz quente, design orgânico com formas curvas, fabricado em 100% MDF, 2 portas, 1 gaveta com corrediças telescópicas e acabamento em pintura UV brilhante, este rack oferece organização eficiente e um visual premium para qualquer ambiente.
 
 A marca Gelius Móveis, com mais de 100 vendas e avaliação de 4,7 estrelas com 158 reviews, comprova a qualidade, durabilidade e satisfação dos clientes. O design versátil e as dimensões generosas tornam o Nobre uma peça que se adapta a diferentes estilos de decoração e tamanhos de sala.
 
@@ -12584,7 +12584,7 @@ Se você procura um rack que una design exclusivo, funcionalidade completa e dur
     "rack para tv grande",
     "rack 209x60x40cm",
     "rack suporte 40kg",
-    "rack vidro maciço",
+    "rack vidro macico",
     "rack com 2 portas e gaveta",
     "rack nobre gelius",
     "rack pintura uv brilhante",
@@ -12805,13 +12805,13 @@ Os selos de "Mais Vendido" e "Oferta Imperdível" atestam a preferência dos con
 },
 {
   id: "p-imp-111",
-  slug: "mesa-jantar-retangular-vitalic-6-cadeiras-madeira-maciça-vegas-viero",
+  slug: "mesa-jantar-retangular-vitalic-6-cadeiras-madeira-macica-vegas-viero",
   category: "mesas",
   mainCategory: "cozinha",
-  name: "Mesa de Jantar Retangular Vitalic com 6 Cadeiras Madeira Maciça Vegas Viero - Mel/Cinza Brilho/Grafite",
-  imageFile: "/imagens/produtos/mesa-jantar-160cm-retangular-6-cadeiras-madeira-maciça-mel-vitalic-viero.webp",
-  displayImage: "/imagens/produtos/mesa-jantar-160cm-retangular-6-cadeiras-madeira-maciça-mel-vitalic-viero.webp",
-  alt: "Mesa de jantar retangular Vitalic com 6 cadeiras estofadas Vegas em madeira maciça da marca Viero nas cores mel, cinza brilho e grafite",
+  name: "Mesa de Jantar Retangular Vitalic com 6 Cadeiras Madeira macica Vegas Viero - Mel/Cinza Brilho/Grafite",
+  imageFile: "/imagens/produtos/mesa-jantar-160cm-retangular-6-cadeiras-madeira-macica-mel-vitalic-viero.webp",
+  displayImage: "/imagens/produtos/mesa-jantar-160cm-retangular-6-cadeiras-madeira-macica-mel-vitalic-viero.webp",
+  alt: "Mesa de jantar retangular Vitalic com 6 cadeiras estofadas Vegas em madeira macica da marca Viero nas cores mel, cinza brilho e grafite",
   rating: 4.5,
   reviews: 65,
   discount: 29,
@@ -12821,13 +12821,13 @@ Os selos de "Mais Vendido" e "Oferta Imperdível" atestam a preferência dos con
   platform: "Mercado Livre",
   affiliateLink: "https://meli.la/1ymFKka",
   descricao: `
-# Mesa de Jantar Retangular Vitalic com 6 Cadeiras Madeira Maciça Vegas Viero
+# Mesa de Jantar Retangular Vitalic com 6 Cadeiras Madeira macica Vegas Viero
 
 ## 📌 Introdução
 
 Transforme sua sala de jantar em um espaço de convívio sofisticado e acolhedor com a **Mesa de Jantar Retangular Vitalic com 6 Cadeiras Vegas da Viero**. Este conjunto elegante foi desenvolvido para se tornar a peça central da sua casa, unindo design contemporâneo, conforto excepcional e durabilidade incomparável.
 
-A marca Viero, reconhecida pela qualidade e inovação no mercado de móveis, apresenta este conjunto que combina perfeitamente a robustez da madeira maciça com o conforto do estofamento premium. A mesa de 160 cm de comprimento oferece espaço generoso para 6 pessoas, enquanto as cadeiras Vegas, com assento e encosto estofados em espuma D-26, garantem uma experiência aconchegante para você e seus convidados.
+A marca Viero, reconhecida pela qualidade e inovação no mercado de móveis, apresenta este conjunto que combina perfeitamente a robustez da madeira macica com o conforto do estofamento premium. A mesa de 160 cm de comprimento oferece espaço generoso para 6 pessoas, enquanto as cadeiras Vegas, com assento e encosto estofados em espuma D-26, garantem uma experiência aconchegante para você e seus convidados.
 
 Com acabamento em tons de mel e cinza brilho, este conjunto se adapta a diferentes estilos de decoração, do clássico ao contemporâneo, valorizando o ambiente com sua presença imponente e elegante.
 
@@ -12839,7 +12839,7 @@ Com acabamento em tons de mel e cinza brilho, este conjunto se adapta a diferent
 
 **Dimensões estratégicas:** Com 160 cm de largura, 80 cm de profundidade e 79,4 cm de altura, a mesa oferece o espaço ideal para acomodar seis pessoas de forma organizada e confortável.
 
-**Robustez e qualidade:** Fabricado com componentes em madeira maciça e MDP de alta qualidade, este conjunto oferece estabilidade e resistência para o uso intenso e diário da sua família.
+**Robustez e qualidade:** Fabricado com componentes em madeira macica e MDP de alta qualidade, este conjunto oferece estabilidade e resistência para o uso intenso e diário da sua família.
 
 **Montagem simplificada:** Com kit ferragem e manual de montagem incluso, a instalação é prática e descomplicada.
 
@@ -12853,7 +12853,7 @@ O design do Conjunto Vitalic Vegas é um verdadeiro destaque no mercado de móve
 
 **Design ergonômico das cadeiras:** As cadeiras Vegas foram projetadas com encosto e assento estofados, oferecendo conforto superior e suporte adequado para longas refeições.
 
-**Estrutura robusta em madeira maciça:** A base das cadeiras é fabricada em madeira maciça, garantindo estabilidade e durabilidade excepcionais.
+**Estrutura robusta em madeira macica:** A base das cadeiras é fabricada em madeira macica, garantindo estabilidade e durabilidade excepcionais.
 
 **Tampo em MDP de 25 mm:** A mesa conta com tampo em MDP com espessura de 25 mm, oferecendo superfície resistente e durável.
 
@@ -12889,7 +12889,7 @@ Este conjunto é altamente recomendado para:
 
 **Admiradores de decoração moderna:** O design contemporâneo com acabamento em mel e cinza brilho é perfeito para quem busca móveis com estética atual.
 
-**Quem busca durabilidade sem abrir mão da estética:** Os materiais de alta qualidade (madeira maciça e MDP) garantem um móvel que manterá sua beleza por muitos anos.
+**Quem busca durabilidade sem abrir mão da estética:** Os materiais de alta qualidade (madeira macica e MDP) garantem um móvel que manterá sua beleza por muitos anos.
 
 **Pessoas que recebem convidados com frequência:** Os 6 lugares oferecem espaço suficiente para acomodar amigos e familiares.
 
@@ -12897,7 +12897,7 @@ Este conjunto é altamente recomendado para:
 
 O que torna o Conjunto Vitalic Vegas Viero único no mercado?
 
-**Cadeiras em madeira maciça:** As cadeiras Vegas são fabricadas com estrutura em madeira maciça, oferecendo robustez e durabilidade superiores aos conjuntos com estrutura em MDF.
+**Cadeiras em madeira macica:** As cadeiras Vegas são fabricadas com estrutura em madeira macica, oferecendo robustez e durabilidade superiores aos conjuntos com estrutura em MDF.
 
 **Estofamento com espuma D-26:** A espuma de densidade 26 oferece conforto superior, mantendo a forma por mais tempo e proporcionando aconchego durante as refeições.
 
@@ -12917,7 +12917,7 @@ O que torna o Conjunto Vitalic Vegas Viero único no mercado?
 
 ✅ **Design contemporâneo** com acabamento em tons de mel e cinza brilho
 
-✅ **6 cadeiras com estrutura em madeira maciça** - robustez e durabilidade
+✅ **6 cadeiras com estrutura em madeira macica** - robustez e durabilidade
 
 ✅ **Assento e encosto estofados com espuma D-26** - conforto superior
 
@@ -12951,7 +12951,7 @@ O produto é enviado desmontado para facilitar o transporte. Acompanha kit ferra
 Sim, todas as 6 cadeiras Vegas possuem assento e encosto estofados com espuma de densidade D-26, proporcionando máximo conforto durante as refeições.
 
 **4. Qual o material das cadeiras?**
-As cadeiras possuem estrutura em madeira maciça, garantindo robustez e durabilidade superiores.
+As cadeiras possuem estrutura em madeira macica, garantindo robustez e durabilidade superiores.
 
 **5. Qual o material da mesa?**
 O tampo da mesa é em MDP com 25 mm de espessura, material de alta qualidade e resistência.
@@ -13004,8 +13004,8 @@ Sim, você tem até 7 dias após o recebimento para solicitar a devolução do p
 | **Cor** | Mel / Cinza Brilho / Grafite |
 | **Material do Tampo** | MDP (25 mm) |
 | **Material Base da Mesa** | MDF/MDP |
-| **Material Estrutura Cadeiras** | Madeira Maciça |
-| **Material Principal Cadeiras** | Madeira Maciça |
+| **Material Estrutura Cadeiras** | Madeira macica |
+| **Material Principal Cadeiras** | Madeira macica |
 | **Enchimento do Assento** | Espuma D-26 |
 | **Enchimento do Encosto** | Espuma |
 | **Cadeira Estofada** | Encosto e Assento |
@@ -13030,7 +13030,7 @@ Sim, você tem até 7 dias após o recebimento para solicitar a devolução do p
 
 ## 📌 Conclusão
 
-A **Mesa de Jantar Retangular Vitalic com 6 Cadeiras Vegas da Viero** é uma escolha excepcional para quem busca transformar a sala de jantar em um espaço elegante, funcional e acolhedor. Com seu design contemporâneo, conforto superior com espuma D-26, estrutura robusta em madeira maciça e acabamento em tons de mel e cinza brilho, este conjunto atende às necessidades das famílias modernas que valorizam momentos de convívio à mesa.
+A **Mesa de Jantar Retangular Vitalic com 6 Cadeiras Vegas da Viero** é uma escolha excepcional para quem busca transformar a sala de jantar em um espaço elegante, funcional e acolhedor. Com seu design contemporâneo, conforto superior com espuma D-26, estrutura robusta em madeira macica e acabamento em tons de mel e cinza brilho, este conjunto atende às necessidades das famílias modernas que valorizam momentos de convívio à mesa.
 
 O selo de "Mais Vendido" com mais de 500 unidades comercializadas atesta a preferência dos consumidores, enquanto as 65 avaliações com nota 4.5 estrelas confirmam a satisfação dos compradores. Aproveite esta oferta exclusiva com 29% de desconto no Pix e garanta já este conjunto que vai elevar o padrão estético e funcional da sua sala de jantar.
   `,
@@ -13041,7 +13041,7 @@ O selo de "Mais Vendido" com mais de 500 unidades comercializadas atesta a prefe
     "mesa com cadeiras Viero",
     "conjunto de jantar Vegas",
     "cadeiras estofadas Vitalic",
-    "mesa madeira maciça",
+    "mesa madeira macica",
     "conjunto sala de jantar",
     "mesa 160x80",
     "cadeiras com espuma D-26",
@@ -13053,12 +13053,12 @@ O selo de "Mais Vendido" com mais de 500 unidades comercializadas atesta a prefe
     "móvel para sala de jantar",
     "conjunto jantar com desconto",
     "mesa e 6 cadeiras",
-    "móvel de jantar madeira maciça",
+    "móvel de jantar madeira macica",
     "conjunto jantar Viero",
     "mesa jantar 6 lugares confortável"
   ],
   seoTitle: "Mesa Jantar Vitalic 160cm 6 Cadeiras Vegas Viero | Oferta",
-  seoDescription: "Conjunto jantar Viero com mesa 160x80cm e 6 cadeiras estofadas Vegas. Madeira maciça, espuma D-26, design moderno. 4.5★ (65 reviews). 29% OFF no Pix!"
+  seoDescription: "Conjunto jantar Viero com mesa 160x80cm e 6 cadeiras estofadas Vegas. Madeira macica, espuma D-26, design moderno. 4.5★ (65 reviews). 29% OFF no Pix!"
 },
 {
   id: "p-imp-112",
@@ -14374,13 +14374,13 @@ O selo de "Mais Vendido" com mais de 1000 unidades comercializadas e a excelente
 },
 {
   id: "p-imp-117",
-  slug: "jogo-mesa-dobravel-70x70-imbuia-4-cadeiras-madeira-maciça",
+  slug: "jogo-mesa-dobravel-70x70-imbuia-4-cadeiras-madeira-macica",
   category: "mesas",
   mainCategory: "cozinha",
-  name: "Jogo de Jantar Mesa Dobrável 70x70 Imbuia Madeira Maciça com 4 Cadeiras",
+  name: "Jogo de Jantar Mesa Dobrável 70x70 Imbuia Madeira macica com 4 Cadeiras",
   imageFile: "/imagens/produtos/mesa-dobravel-jantar-4-cadeiras-madeira-macica.webp",
   displayImage: "/imagens/mesa-dobravel-jantar-4-cadeiras-madeira-macica.webp",
-  alt: "Jogo de jantar com mesa dobrável 70x70 em madeira maciça imbuia e 4 cadeiras dobráveis de madeira",
+  alt: "Jogo de jantar com mesa dobrável 70x70 em madeira macica imbuia e 4 cadeiras dobráveis de madeira",
   rating: 4.4,
   reviews: 1469,
   discount: 17,
@@ -14390,13 +14390,13 @@ O selo de "Mais Vendido" com mais de 1000 unidades comercializadas e a excelente
   platform: "Mercado Livre",
   affiliateLink: "https://meli.la/2wUsJSJ",
   descricao: `
-# Jogo de Jantar Mesa Dobrável 70x70 Imbuia Madeira Maciça com 4 Cadeiras
+# Jogo de Jantar Mesa Dobrável 70x70 Imbuia Madeira macica com 4 Cadeiras
 
 ## 📌 Introdução
 
 Transforme seu espaço em um ambiente versátil e funcional com o **Jogo de Jantar Mesa Dobrável 70x70 Imbuia com 4 Cadeiras**. Este conjunto foi desenvolvido para quem busca praticidade, durabilidade e estilo em um único produto, sendo a solução perfeita para restaurantes, bares, áreas de lazer, festas e eventos.
 
-Com mais de 5 mil vendas e o selo de "Mais Vendido" na categoria Salas de Jantar, este conjunto se destaca pela qualidade excepcional da madeira maciça e pelo design dobrável que proporciona economia de espaço. O tampo é confeccionado com madeira maciça imbuia, uma das madeiras mais resistentes do mercado, enquanto os pés são produzidos com madeira mista (Cedrinho, Itaúba e Pinus), garantindo maior resistência e durabilidade.
+Com mais de 5 mil vendas e o selo de "Mais Vendido" na categoria Salas de Jantar, este conjunto se destaca pela qualidade excepcional da madeira macica e pelo design dobrável que proporciona economia de espaço. O tampo é confeccionado com madeira macica imbuia, uma das madeiras mais resistentes do mercado, enquanto os pés são produzidos com madeira mista (Cedrinho, Itaúba e Pinus), garantindo maior resistência e durabilidade.
 
 Ideal para quem busca móveis resistentes e sustentáveis, toda madeira utilizada é de reflorestamento legalizado, contribuindo para a preservação ambiental.
 
@@ -14404,7 +14404,7 @@ Ideal para quem busca móveis resistentes e sustentáveis, toda madeira utilizad
 
 **Design dobrável e prático:** Por serem dobráveis, a mesa e as cadeiras facilitam o manuseio e a limpeza, proporcionando economia de espaço quando não estão em uso. Ideal para ambientes que precisam de flexibilidade.
 
-**Madeira maciça de alta resistência:** O tampo é confeccionado com madeira maciça imbuia, uma das madeiras mais resistentes do mercado, garantindo durabilidade e robustez superiores aos modelos em MDF ou aglomerado.
+**Madeira macica de alta resistência:** O tampo é confeccionado com madeira macica imbuia, uma das madeiras mais resistentes do mercado, garantindo durabilidade e robustez superiores aos modelos em MDF ou aglomerado.
 
 **Estrutura reforçada:** Os pés são produzidos com madeira mista (Cedrinho, Itaúba e Pinus), que proporcionam maior resistência e durabilidade ao produto.
 
@@ -14420,7 +14420,7 @@ Ideal para quem busca móveis resistentes e sustentáveis, toda madeira utilizad
 
 O design do Jogo de Jantar Dobrável é pensado para unir funcionalidade e estética, oferecendo um produto versátil que se adapta a diferentes ambientes.
 
-**Tampo em madeira imbuia:** O tampo de 70 cm x 70 cm é confeccionado em madeira maciça imbuia, que possui uma coloração característica e um padrão de veios único, agregando beleza e sofisticação ao ambiente.
+**Tampo em madeira imbuia:** O tampo de 70 cm x 70 cm é confeccionado em madeira macica imbuia, que possui uma coloração característica e um padrão de veios único, agregando beleza e sofisticação ao ambiente.
 
 **Formato quadrado:** O design quadrado de 70 cm x 70 cm é perfeito para espaços compactos, permitindo acomodar 4 pessoas de forma confortável.
 
@@ -14468,7 +14468,7 @@ Este conjunto é altamente recomendado para:
 
 **Pessoas com espaços compactos:** Apartamentos e casas pequenas que precisam otimizar o espaço.
 
-**Quem busca durabilidade e resistência:** A madeira maciça imbuia é extremamente superior a MDF e aglomerado.
+**Quem busca durabilidade e resistência:** A madeira macica imbuia é extremamente superior a MDF e aglomerado.
 
 **Pessoas que valorizam sustentabilidade:** Toda madeira é de reflorestamento legalizado.
 
@@ -14480,7 +14480,7 @@ Este conjunto é altamente recomendado para:
 
 O que torna este Jogo de Jantar Dobrável único no mercado?
 
-**Madeira maciça imbuia:** O tampo é confeccionado com madeira maciça imbuia, uma das madeiras mais resistentes do mercado, garantindo durabilidade e robustez superiores aos modelos em MDF ou aglomerado.
+**Madeira macica imbuia:** O tampo é confeccionado com madeira macica imbuia, uma das madeiras mais resistentes do mercado, garantindo durabilidade e robustez superiores aos modelos em MDF ou aglomerado.
 
 **Madeira mista nos pés:** Os pés são produzidos com madeira mista (Cedrinho, Itaúba e Pinus), que proporcionam maior resistência e durabilidade ao produto.
 
@@ -14498,7 +14498,7 @@ O que torna este Jogo de Jantar Dobrável único no mercado?
 
 ## 📌 Motivos para Comprar
 
-✅ **Madeira maciça imbuia** - uma das madeiras mais resistentes do mercado
+✅ **Madeira macica imbuia** - uma das madeiras mais resistentes do mercado
 
 ✅ **Design dobrável** - facilita manuseio e economia de espaço
 
@@ -14531,13 +14531,13 @@ Todos os produtos são novos, enviados diretamente de nossos fornecedores para a
 Sim, tanto a mesa quanto as 4 cadeiras são dobráveis, facilitando o manuseio, a limpeza e o armazenamento.
 
 **3. Qual o material da mesa?**
-O tampo da mesa é confeccionado em madeira maciça imbuia, uma das madeiras mais resistentes do mercado.
+O tampo da mesa é confeccionado em madeira macica imbuia, uma das madeiras mais resistentes do mercado.
 
 **4. Qual o material dos pés da mesa?**
 Os pés são produzidos com madeira mista, sendo elas Cedrinho, Itaúba e Pinus, que proporcionam maior resistência e durabilidade.
 
 **5. Qual o material das cadeiras?**
-As cadeiras são fabricadas em madeira maciça de alta qualidade, com estrutura resistente.
+As cadeiras são fabricadas em madeira macica de alta qualidade, com estrutura resistente.
 
 **6. Qual o tamanho da mesa?**
 A mesa tem 70 cm x 70 cm (largura e comprimento) e 73,5 cm de altura.
@@ -14585,9 +14585,9 @@ A madeira imbuia é naturalmente resistente à umidade, mas recomenda-se evitar 
 | **Tipo de Produto** | Jogo de Jantar Dobrável |
 | **Forma da Mesa** | Quadrada |
 | **Cor** | Imbuia |
-| **Material do Tampo** | Madeira Maciça Imbuia |
+| **Material do Tampo** | Madeira macica Imbuia |
 | **Material dos Pés** | Madeira Mista (Cedrinho, Itaúba e Pinus) |
-| **Material das Cadeiras** | Madeira Maciça |
+| **Material das Cadeiras** | Madeira macica |
 | **Largura da Mesa** | 70 cm |
 | **Comprimento da Mesa** | 70 cm |
 | **Altura da Mesa** | 73,5 cm |
@@ -14606,7 +14606,7 @@ A madeira imbuia é naturalmente resistente à umidade, mas recomenda-se evitar 
 
 ## 📌 Conclusão
 
-O **Jogo de Jantar Mesa Dobrável 70x70 Imbuia com 4 Cadeiras** é uma escolha excepcional para quem busca praticidade, durabilidade e versatilidade em um único produto. Com sua estrutura em madeira maciça imbuia, uma das madeiras mais resistentes do mercado, e design dobrável que otimiza o espaço, este conjunto atende às necessidades de residências, restaurantes, bares e eventos.
+O **Jogo de Jantar Mesa Dobrável 70x70 Imbuia com 4 Cadeiras** é uma escolha excepcional para quem busca praticidade, durabilidade e versatilidade em um único produto. Com sua estrutura em madeira macica imbuia, uma das madeiras mais resistentes do mercado, e design dobrável que otimiza o espaço, este conjunto atende às necessidades de residências, restaurantes, bares e eventos.
 
 O selo de "Mais Vendido" com mais de 5 mil unidades comercializadas e a excelente avaliação de 4.4 estrelas com 1469 reviews atestam a qualidade do produto e a satisfação dos compradores. Aproveite esta oferta exclusiva com 17% de desconto e garanta já este conjunto que vai trazer praticidade e elegância ao seu ambiente.
   `,
@@ -14614,7 +14614,7 @@ O selo de "Mais Vendido" com mais de 5 mil unidades comercializadas e a excelent
   keywords: [
     "mesa dobrável 70x70",
     "jogo de jantar com 4 cadeiras",
-    "mesa de madeira maciça",
+    "mesa de madeira macica",
     "mesa dobrável imbuia",
     "cadeiras dobráveis de madeira",
     "jogo de jantar dobrável",
@@ -14627,25 +14627,25 @@ O selo de "Mais Vendido" com mais de 5 mil unidades comercializadas e a excelent
     "mesa para área de lazer",
     "cadeiras dobráveis",
     "mesa de jantar compacta",
-    "madeira maciça imbuia",
+    "madeira macica imbuia",
     "jogo de jantar versátil",
     "mesa para eventos",
     "conjunto de jantar sustentável",
     "mesa dobrável 4 lugares"
   ],
-  seoTitle: "Jogo Mesa Dobrável 70x70 Imbuia 4 Cadeiras | Madeira Maciça",
-  seoDescription: "Jogo de jantar com mesa dobrável 70x70 em madeira maciça imbuia e 4 cadeiras. Resistente, sustentável, prático. 4.4★ (1469 reviews). 17% OFF no Pix!"
+  seoTitle: "Jogo Mesa Dobrável 70x70 Imbuia 4 Cadeiras | Madeira macica",
+  seoDescription: "Jogo de jantar com mesa dobrável 70x70 em madeira macica imbuia e 4 cadeiras. Resistente, sustentável, prático. 4.4★ (1469 reviews). 17% OFF no Pix!"
 },
 
 {
   id: "p-imp-118",
-  slug: "jogo-mesa-dobravel-70x70-4-cadeiras-preto-madeira-maciça-bistro",
+  slug: "jogo-mesa-dobravel-70x70-4-cadeiras-preto-madeira-macica-bistro",
   category: "mesas",
   mainCategory: "cozinha",
-  name: "Jogo Mesa Dobrável 70x70 com 4 Cadeiras Preto Madeira Maciça Bistro Bar",
-  imageFile: "/imagens/produtos/jogo-mesa-jantar-70x70-dobravel-preto-4-cadeiras-madeira-maciça-bistro.webp",
-  displayImage: "/imagens/produtos/jogo-mesa-jantar-70x70-dobravel-preto-4-cadeiras-madeira-maciça-bistro.webp",
-  alt: "Jogo de mesa dobrável 70x70 em madeira maciça preta com 4 cadeiras dobráveis para bar e bistrô",
+  name: "Jogo Mesa Dobrável 70x70 com 4 Cadeiras Preto Madeira macica Bistro Bar",
+  imageFile: "/imagens/produtos/jogo-mesa-jantar-70x70-dobravel-preto-4-cadeiras-madeira-macica-bistro.webp",
+  displayImage: "/imagens/produtos/jogo-mesa-jantar-70x70-dobravel-preto-4-cadeiras-madeira-macica-bistro.webp",
+  alt: "Jogo de mesa dobrável 70x70 em madeira macica preta com 4 cadeiras dobráveis para bar e bistrô",
   rating: 4.3,
   reviews: 903,
   discount: 18,
@@ -14655,21 +14655,21 @@ O selo de "Mais Vendido" com mais de 5 mil unidades comercializadas e a excelent
   platform: "Mercado Livre",
   affiliateLink: "https://meli.la/1wYALm4",
   descricao: `
-# Jogo Mesa Dobrável 70x70 com 4 Cadeiras Preto Madeira Maciça Bistro Bar
+# Jogo Mesa Dobrável 70x70 com 4 Cadeiras Preto Madeira macica Bistro Bar
 
 ## 📌 Introdução
 
 Transforme seu espaço em um ambiente versátil e funcional com o **Jogo Mesa Dobrável 70x70 com 4 Cadeiras Preto Bistro Bar**. Este conjunto foi desenvolvido para quem busca praticidade, durabilidade e estilo em um único produto, sendo a solução perfeita para restaurantes, bares, áreas de lazer, festas e eventos.
 
-Com mais de 1000 vendas e o selo de "Mais Vendido" na categoria Salas de Jantar, este conjunto se destaca pela qualidade excepcional da madeira maciça, pelo design dobrável que proporciona economia de espaço e pela elegante cor preta que combina com qualquer decoração.
+Com mais de 1000 vendas e o selo de "Mais Vendido" na categoria Salas de Jantar, este conjunto se destaca pela qualidade excepcional da madeira macica, pelo design dobrável que proporciona economia de espaço e pela elegante cor preta que combina com qualquer decoração.
 
-O tampo é confeccionado com madeira maciça de alta resistência, enquanto os pés são produzidos com madeira mista (Cedrinho, Itaúba e Pinus), garantindo maior resistência e durabilidade. Toda madeira utilizada é de reflorestamento legalizado, contribuindo para a preservação ambiental.
+O tampo é confeccionado com madeira macica de alta resistência, enquanto os pés são produzidos com madeira mista (Cedrinho, Itaúba e Pinus), garantindo maior resistência e durabilidade. Toda madeira utilizada é de reflorestamento legalizado, contribuindo para a preservação ambiental.
 
 ## 📌 Principais Benefícios
 
 **Design dobrável e prático:** Por serem dobráveis, a mesa e as cadeiras facilitam o manuseio e a limpeza, proporcionando economia de espaço quando não estão em uso. Ideal para ambientes que precisam de flexibilidade.
 
-**Madeira maciça de alta resistência:** O tampo é confeccionado com madeira maciça, uma das madeiras mais resistentes do mercado, garantindo durabilidade e robustez superiores aos modelos em MDF ou aglomerado.
+**Madeira macica de alta resistência:** O tampo é confeccionado com madeira macica, uma das madeiras mais resistentes do mercado, garantindo durabilidade e robustez superiores aos modelos em MDF ou aglomerado.
 
 **Estrutura reforçada:** Os pés são produzidos com madeira mista (Cedrinho, Itaúba e Pinus), que proporcionam maior resistência e durabilidade ao produto.
 
@@ -14693,7 +14693,7 @@ O design do Jogo de Jantar Dobrável Preto é pensado para unir funcionalidade, 
 
 **Estrutura dobrável:** O mecanismo dobrável permite que a mesa e as cadeiras sejam facilmente armazenadas, otimizando o espaço quando não estão em uso.
 
-**Madeira maciça de alta qualidade:** O tampo é confeccionado com madeira maciça, garantindo durabilidade e robustez superiores aos modelos em MDF ou aglomerado.
+**Madeira macica de alta qualidade:** O tampo é confeccionado com madeira macica, garantindo durabilidade e robustez superiores aos modelos em MDF ou aglomerado.
 
 **Pés reforçados:** Os pés em madeira mista (Cedrinho, Itaúba e Pinus) oferecem estabilidade e durabilidade, suportando o uso intenso em ambientes comerciais.
 
@@ -14737,7 +14737,7 @@ Este conjunto é altamente recomendado para:
 
 **Pessoas com espaços compactos:** Apartamentos e casas pequenas que precisam otimizar o espaço.
 
-**Quem busca durabilidade e resistência:** A madeira maciça é extremamente superior a MDF e aglomerado.
+**Quem busca durabilidade e resistência:** A madeira macica é extremamente superior a MDF e aglomerado.
 
 **Pessoas que valorizam sustentabilidade:** Toda madeira é de reflorestamento legalizado.
 
@@ -14751,7 +14751,7 @@ O que torna este Jogo de Jantar Dobrável Preto único no mercado?
 
 **Design na cor preta:** O acabamento preto oferece um visual sofisticado e moderno, diferenciando-se dos modelos tradicionais em madeira natural.
 
-**Madeira maciça de alta qualidade:** O tampo é confeccionado com madeira maciça, garantindo durabilidade e robustez superiores aos modelos em MDF ou aglomerado.
+**Madeira macica de alta qualidade:** O tampo é confeccionado com madeira macica, garantindo durabilidade e robustez superiores aos modelos em MDF ou aglomerado.
 
 **Madeira mista nos pés:** Os pés são produzidos com madeira mista (Cedrinho, Itaúba e Pinus), que proporcionam maior resistência e durabilidade ao produto.
 
@@ -14769,7 +14769,7 @@ O que torna este Jogo de Jantar Dobrável Preto único no mercado?
 
 ✅ **Design elegante na cor preta** - sofisticação e modernidade
 
-✅ **Madeira maciça de alta resistência** - durabilidade superior
+✅ **Madeira macica de alta resistência** - durabilidade superior
 
 ✅ **Design dobrável** - facilita manuseio e economia de espaço
 
@@ -14807,13 +14807,13 @@ Sim, tanto a mesa quanto as 4 cadeiras são dobráveis, facilitando o manuseio, 
 Não, o produto não requer montagem. Ele é enviado pronto para uso, facilitando a instalação e uso imediato.
 
 **4. Qual o material da mesa?**
-O tampo da mesa é confeccionado em madeira maciça de alta resistência.
+O tampo da mesa é confeccionado em madeira macica de alta resistência.
 
 **5. Qual o material dos pés da mesa?**
 Os pés são produzidos com madeira mista, sendo elas Cedrinho, Itaúba e Pinus, que proporcionam maior resistência e durabilidade.
 
 **6. Qual o material das cadeiras?**
-As cadeiras são fabricadas em madeira maciça de alta qualidade, com estrutura resistente.
+As cadeiras são fabricadas em madeira macica de alta qualidade, com estrutura resistente.
 
 **7. Qual o tamanho da mesa?**
 A mesa tem 70 cm x 70 cm (largura e comprimento) e 73,5 cm de altura.
@@ -14865,9 +14865,9 @@ Sim, o conjunto é resistente e pode ser usado em áreas externas, como varandas
 | **Forma da Mesa** | Quadrada |
 | **Cor** | Preto |
 | **Desenho do Tecido** | Liso |
-| **Material do Tampo** | Madeira Maciça |
+| **Material do Tampo** | Madeira macica |
 | **Material dos Pés** | Madeira Mista (Cedrinho, Itaúba e Pinus) |
-| **Material das Cadeiras** | Madeira Maciça |
+| **Material das Cadeiras** | Madeira macica |
 | **Largura da Mesa** | 70 cm |
 | **Comprimento da Mesa** | 70 cm |
 | **Altura da Mesa** | 73,5 cm |
@@ -14887,7 +14887,7 @@ Sim, o conjunto é resistente e pode ser usado em áreas externas, como varandas
 
 ## 📌 Conclusão
 
-O **Jogo Mesa Dobrável 70x70 com 4 Cadeiras Preto Bistro Bar** é uma escolha excepcional para quem busca praticidade, durabilidade e estilo em um único produto. Com sua estrutura em madeira maciça de alta resistência, design dobrável que otimiza o espaço e elegante acabamento na cor preta, este conjunto atende às necessidades de residências, restaurantes, bares e eventos.
+O **Jogo Mesa Dobrável 70x70 com 4 Cadeiras Preto Bistro Bar** é uma escolha excepcional para quem busca praticidade, durabilidade e estilo em um único produto. Com sua estrutura em madeira macica de alta resistência, design dobrável que otimiza o espaço e elegante acabamento na cor preta, este conjunto atende às necessidades de residências, restaurantes, bares e eventos.
 
 O selo de "Mais Vendido" com mais de 1000 unidades comercializadas e a avaliação de 4.3 estrelas com 903 reviews atestam a qualidade do produto e a satisfação dos compradores. Aproveite esta oferta exclusiva com 18% de desconto e garanta já este conjunto que vai trazer praticidade, elegância e sofisticação ao seu ambiente.
   `,
@@ -14895,7 +14895,7 @@ O selo de "Mais Vendido" com mais de 1000 unidades comercializadas e a avaliaç�
   keywords: [
     "mesa dobrável 70x70",
     "jogo de mesa com 4 cadeiras",
-    "mesa de madeira maciça preta",
+    "mesa de madeira macica preta",
     "mesa dobrável preta",
     "cadeiras dobráveis de madeira",
     "jogo de jantar dobrável",
@@ -14908,14 +14908,14 @@ O selo de "Mais Vendido" com mais de 1000 unidades comercializadas e a avaliaç�
     "mesa para área de lazer",
     "cadeiras dobráveis pretas",
     "mesa de jantar compacta preta",
-    "madeira maciça preta",
+    "madeira macica preta",
     "jogo de jantar versátil",
     "mesa para eventos preta",
     "conjunto de jantar sustentável",
     "mesa dobrável 4 lugares preta"
   ],
-  seoTitle: "Jogo Mesa Dobrável 70x70 Preto 4 Cadeiras | Madeira Maciça",
-  seoDescription: "Jogo de jantar com mesa dobrável 70x70 em madeira maciça preta e 4 cadeiras. Não requer montagem, resistente e prático. 4.3★ (903 reviews). 18% OFF!"
+  seoTitle: "Jogo Mesa Dobrável 70x70 Preto 4 Cadeiras | Madeira macica",
+  seoDescription: "Jogo de jantar com mesa dobrável 70x70 em madeira macica preta e 4 cadeiras. Não requer montagem, resistente e prático. 4.3★ (903 reviews). 18% OFF!"
 },
 {
   id: "p-imp-119",
@@ -20241,7 +20241,7 @@ A **Cabeceira Box Casal Innova da Gelius Móveis** é o móvel ideal para transf
 
 Com mais de 500 unidades vendidas e uma avaliação de 4.8 estrelas, a cabeceira Innova já conquistou a confiança de centenas de consumidores que buscam um móvel que une design diferenciado, qualidade e praticidade. Suas dimensões generosas de **305 cm de largura (extensível de 272 cm a 305 cm) e 104,5 cm de altura** atendem perfeitamente camas dos tamanhos Casal, Queen e King.
 
-O acabamento em **Off White** com pintura UV brilhante, os pés em madeira maciça e o mecanismo telescópico das gavetas garantem um produto durável, funcional e de alto padrão estético.
+O acabamento em **Off White** com pintura UV brilhante, os pés em madeira macica e o mecanismo telescópico das gavetas garantem um produto durável, funcional e de alto padrão estético.
 
 ## 📌 Design e Acabamento
 
@@ -20256,7 +20256,7 @@ As **2 mesas de cabeceira** integradas são um dos grandes diferenciais do model
 A Cabeceira Innova foi projetada para oferecer resistência e durabilidade excepcionais:
 
 - **100% MDF:** material de alta densidade que garante estabilidade e longevidade
-- **Pés em madeira maciça (Pinus):** com acabamento em pintura, oferecem sustentação firme e elegante
+- **Pés em madeira macica (Pinus):** com acabamento em pintura, oferecem sustentação firme e elegante
 - **8 pés de sustentação:** distribuem o peso de forma equilibrada, garantindo estabilidade
 - **Pintura UV:** acabamento de alta resistência que preserva a cor e o brilho por mais tempo
 - **Peso de 63 kg:** estrutura robusta e sólida
@@ -20275,7 +20275,7 @@ A cabeceira Innova foi desenvolvida para facilitar o dia a dia:
 - **Design moderno e aconchegante:** linhas curvas e LED quente
 - **Versatilidade:** adequado para camas Casal, Queen e King
 - **Praticidade:** 2 mesas de cabeceira integradas
-- **Durabilidade:** MDF com pintura UV e pés em madeira maciça
+- **Durabilidade:** MDF com pintura UV e pés em madeira macica
 - **Funcionalidade:** gavetas com mecanismo telescópico
 - **Estabilidade:** 8 pés de sustentação
 - **Fácil limpeza:** pés elevados de 5 cm
@@ -20285,7 +20285,7 @@ A cabeceira Innova foi desenvolvida para facilitar o dia a dia:
 - **Quartos de casal:** design sofisticado para camas Casal, Queen e King
 - **Quem busca modernidade:** linhas curvas e LED quente
 - **Quem valoriza funcionalidade:** mesas de cabeceira integradas
-- **Quem quer durabilidade:** MDF e madeira maciça
+- **Quem quer durabilidade:** MDF e madeira macica
 - **Quem busca organização:** gavetas com mecanismo suave
 
 ## 📌 Dúvidas Frequentes (FAQ)
@@ -20306,13 +20306,13 @@ A cabeceira tem 104,5 cm de altura, 41 cm de profundidade e largura extensível 
 Sim, é ideal para cama box, oferecendo opção funcional e elegante.
 
 **6. Qual o material da cabeceira?**
-O móvel é fabricado em 100% MDF, com pés em madeira maciça (Pinus).
+O móvel é fabricado em 100% MDF, com pés em madeira macica (Pinus).
 
 **7. O acabamento é resistente?**
 Sim, a pintura UV oferece alta resistência a riscos e manchas, preservando a cor e o brilho.
 
 **8. A cabeceira tem pés?**
-Sim, possui 8 pés em madeira maciça com 5 cm de altura, facilitando a limpeza.
+Sim, possui 8 pés em madeira macica com 5 cm de altura, facilitando a limpeza.
 
 **9. Qual o peso da cabeceira?**
 O peso total é de 63 kg, garantindo uma estrutura robusta e estável.
@@ -20334,7 +20334,7 @@ Sim, o produto possui garantia contra defeitos de fabricação, conforme políti
 | **Linha** | Innova |
 | **Cor** | Off White |
 | **Material Principal** | 100% MDF |
-| **Material dos Pés** | Madeira Maciça (Pinus) |
+| **Material dos Pés** | Madeira macica (Pinus) |
 | **Acabamento** | Pintura UV (Brilhante) |
 | **Altura** | 104,5 cm |
 | **Largura Máxima** | 305 cm |
@@ -20354,7 +20354,7 @@ Sim, o produto possui garantia contra defeitos de fabricação, conforme políti
 
 ## 📌 Conclusão
 
-A **Cabeceira Box Casal Innova da Gelius Móveis** é a escolha perfeita para quem busca um móvel que une design moderno, funcionalidade e durabilidade no quarto. Com suas linhas curvas, iluminação em LED quente, 2 mesas de cabeceira integradas, estrutura em 100% MDF com pintura UV e pés em madeira maciça, este conjunto oferece tudo o que você precisa para transformar seu quarto em um espaço aconchegante e sofisticado.
+A **Cabeceira Box Casal Innova da Gelius Móveis** é a escolha perfeita para quem busca um móvel que une design moderno, funcionalidade e durabilidade no quarto. Com suas linhas curvas, iluminação em LED quente, 2 mesas de cabeceira integradas, estrutura em 100% MDF com pintura UV e pés em madeira macica, este conjunto oferece tudo o que você precisa para transformar seu quarto em um espaço aconchegante e sofisticado.
 
 Com mais de 500 unidades vendidas e uma avaliação de 4.8 estrelas, a Innova já conquistou a confiança de centenas de consumidores. Aproveite a oferta com 13% de desconto e eleve o padrão do seu quarto com a excelência Gelius Móveis.
   `,
@@ -20382,7 +20382,7 @@ Com mais de 500 unidades vendidas e uma avaliação de 4.8 estrelas, a Innova j�
     "cabeceira gelius"
   ],
   seoTitle: "Cabeceira Casal Innova 305cm com 2 Mesas e LED | Gelius Móveis",
-  seoDescription: "Cabeceira box casal Gelius Innova com 2 mesas de cabeceira, LED quente e acabamento off white. 100% MDF, pés em madeira maciça. 4.8★ (531 reviews). 13% OFF no Pix!"
+  seoDescription: "Cabeceira box casal Gelius Innova com 2 mesas de cabeceira, LED quente e acabamento off white. 100% MDF, pés em madeira macica. 4.8★ (531 reviews). 13% OFF no Pix!"
 },
 {
   id: "p-imp-142",
@@ -20773,7 +20773,7 @@ Vem a cabeceira estofada + 2 criados mudos já acoplados, cada um com 1 gaveta c
 115cm de altura total do chão ao topo. O estofado central tem 55cm.
 
 **5. Essa cabeceira para cama box aguenta peso?**
-Sim. Estrutura em MDF com pés de madeira maciça e pintura UV fosca. Cada gaveta suporta até 8kg.
+Sim. Estrutura em MDF com pés de madeira macica e pintura UV fosca. Cada gaveta suporta até 8kg.
 
 ## 📌 Ficha Técnica da Cabeceira para Cama Box
 
@@ -20789,7 +20789,7 @@ Sim. Estrutura em MDF com pés de madeira maciça e pintura UV fosca. Cada gavet
 | **Laterais** | Cabeceira ripada em MDF com pintura UV |
 | **Criado Mudo (cada)** | 43,5cm L x 46cm P - 1 gaveta + 1 nicho |
 | **Fixação** | Cabeceira para cama box autoportante - sem furo na parede |
-| **Material** | MDF + Madeira Maciça |
+| **Material** | MDF + Madeira macica |
 | **Garantia** | 3 meses |
 
 ## 📌 Conclusão: A melhor cabeceira para cama box queen 160cm com criado
@@ -23364,11 +23364,11 @@ Procurando **armario de cozinha 6 portas 2 gavetas 162cm cinamomo grafite** comp
 
 Procurando por **móveis de alto luxo** e **guarda roupa mais caro do Brasil**? Esse **guarda roupa casal de luxo Gelius Splendor 274cm off white** é considerado um dos guarda roupas mais caros do Brasil justamente por ser 100% MDF com acabamento de alto padrão. Se você pesquisou por **móveis de alto padrão**, **guarda roupa casal alto padrão** ou **guarda roupa de luxo casal**, achou o modelo que arquitetos de Marília-SP usam em casas de 2 milhões.
 
-Fabricado 100% em MDF (inclusive fundo de 6mm, não é Duratree fino), com LED externo tom quente, portas chanfradas 45° e pés em madeira maciça. Quem busca **móveis de alto luxo para quarto de casal** precisa entender a diferença de MDF vs MDP, veja nosso guia completo sobre [guarda-roupa casal MDF ou MDP: qual a diferença?](/guia/guarda-roupa-casal-mdf-ou-mdp) - lá explicamos por que móveis de alto padrão usam só MDF 18mm.
+Fabricado 100% em MDF (inclusive fundo de 6mm, não é Duratree fino), com LED externo tom quente, portas chanfradas 45° e pés em madeira macica. Quem busca **móveis de alto luxo para quarto de casal** precisa entender a diferença de MDF vs MDP, veja nosso guia completo sobre [guarda-roupa casal MDF ou MDP: qual a diferença?](/guia/guarda-roupa-casal-mdf-ou-mdp) - lá explicamos por que móveis de alto padrão usam só MDF 18mm.
 
 ## Por que esse é considerado o guarda roupa mais caro do Brasil e móveis de alto padrão?
 
-**MÓVEIS DE ALTO LUXO COM PÉS EM MADEIRA MACIÇA:** São 274cm largura x 242,8cm altura x 63cm profundidade, 284kg. Já montei 3 unidades desse Splendor em Marília-SP (2 no Esplanada e 1 no Jardim Aquarius) em casas de alto padrão e são necessárias 3 pessoas e 5 horas. Quando cliente busca por **móveis de alto padrão** e **móveis de alto luxo**, o detalhe dos pés em madeira maciça chanfrada 45° é o que diferencia de guarda roupa de R$ 2 mil. LED externo tom quente contorna o móvel inteiro - efeito de móveis de luxo que só vi acima de R$ 10 mil. Veja outros modelos de [guarda-roupa casal de luxo 6 portas](/categoria/guarda-roupa-casal) e [móveis de alto padrão para quarto](/categoria/quarto-completo).
+**MÓVEIS DE ALTO LUXO COM PÉS EM MADEIRA MACICA:** São 274cm largura x 242,8cm altura x 63cm profundidade, 284kg. Já montei 3 unidades desse Splendor em Marília-SP (2 no Esplanada e 1 no Jardim Aquarius) em casas de alto padrão e são necessárias 3 pessoas e 5 horas. Quando cliente busca por **móveis de alto padrão** e **móveis de alto luxo**, o detalhe dos pés em madeira macica chanfrada 45° é o que diferencia de guarda roupa de R$ 2 mil. LED externo tom quente contorna o móvel inteiro - efeito de móveis de luxo que só vi acima de R$ 10 mil. Veja outros modelos de [guarda-roupa casal de luxo 6 portas](/categoria/guarda-roupa-casal) e [móveis de alto padrão para quarto](/categoria/quarto-completo).
 
 **GUARDA ROUPA CASAL ALTO PADRÃO 6 PORTAS 8 GAVETAS:** 8 gavetas com corrediça telescópica, 3 nichos e 4 cabideiros alumínio dourado. Sistema push to open sem puxadores. Quem procura **guarda roupa casal alto padrão** e **guarda roupa casal de luxo** valoriza dobradiça slow motion e fundo MDF 6mm (a maioria usa Duratree 3mm). Entenda por que móveis de alto luxo usam MDF 6mm no fundo no nosso guia de [MDF ou MDP para móveis de quarto](/guia/guarda-roupa-casal-mdf-ou-mdp).
 
@@ -23384,7 +23384,7 @@ Para Marília-SP, Bauru, Ourinhos, Garça, Assis e Presidente Prudente entregamo
 - Gavetas: 8 gavetas telescópica 5kg cada
 - Nichos: 3 nichos + 4 cabideiros alumínio dourado
 - Iluminação: LED interno e externo tom quente
-- Pés: Madeira maciça chanfrada 45°
+- Pés: Madeira macica chanfrada 45°
 - Peso: 284kg - 3 pessoas
 - Cor: Off White
 - Marca: Gelius - referência em móveis de alto luxo no Brasil
@@ -24372,7 +24372,7 @@ Se você buscou por **escrivaninha gamer barata**, **mesa gamer com nichos**, **
 
 Se você buscou por **mesa gamer 200kg**, **mesa gamer com porta usb**, **mesa gamer 100cm reforçada**, **mesa gamer branca 100cm** ou **mesa gamer para pc resistente**, a Innovatech21 entrega capacidade de 200kg + porta USB integrada + tampo 16mm por R$ 327,04. Diferente da [Zetra 122cm com nichos](/produto/escrivaninha-gamer-zetra-122cm-3-nichos-azul-preto) que é mais larga mas tem material não especificado, e da [X Ray 100cm com LED RGB](/produto/mesa-gamer-x-ray-led-rgb-100cm-madeira-mdf-preto-headset) que tem iluminação mas suporta apenas 40kg, a Innovatech21 é a mesa de 100cm mais resistente do catálogo: 200kg de capacidade com estrutura de aço carbono.
 
-**PESQUISA REAL QUE FIZEMOS:** Fomos atrás de avaliações no Mercado Livre (nota 4.7 com 225 reviews e 1000+ vendidos - uma das amostras mais sólidas que já vimos), especificações do anúncio e histórico da marca. O que descobrimos: tampo em painel de partículas de madeira maciça com 16mm de espessura e revestimento em resina protetora (impermeável, resistente a riscos e altas temperaturas), estrutura de aço carbono com 3 tubos de 1,5cm, pés em formato K com barra transversal, porta USB com 2 pontos no tampo (carrega celular e periféricos sem ocupar tomadas). Capacidade de 200kg (a maior entre as mesas de 100cm). Dimensões 100x60x74cm. Disponível em preto e branco. Marca Innovatech21 é white label, mas o volume de vendas e avaliações positivas dão segurança.
+**PESQUISA REAL QUE FIZEMOS:** Fomos atrás de avaliações no Mercado Livre (nota 4.7 com 225 reviews e 1000+ vendidos - uma das amostras mais sólidas que já vimos), especificações do anúncio e histórico da marca. O que descobrimos: tampo em painel de partículas de madeira macica com 16mm de espessura e revestimento em resina protetora (impermeável, resistente a riscos e altas temperaturas), estrutura de aço carbono com 3 tubos de 1,5cm, pés em formato K com barra transversal, porta USB com 2 pontos no tampo (carrega celular e periféricos sem ocupar tomadas). Capacidade de 200kg (a maior entre as mesas de 100cm). Dimensões 100x60x74cm. Disponível em preto e branco. Marca Innovatech21 é white label, mas o volume de vendas e avaliações positivas dão segurança.
 
 ## Por que a Innovatech21 é a mesa de 100cm mais resistente?
 
@@ -24389,7 +24389,7 @@ Se você buscou por **mesa gamer 200kg**, **mesa gamer com porta usb**, **mesa g
 - Marca: Innovatech21 (white label - 1000+ vendidos)
 - Modelo: Mesa Gamer Moderna 100cm
 - Dimensões: 100cm largura x 60cm profundidade x 74cm altura
-- Tampo: Painel partículas madeira maciça 16mm + revestimento resina protetora
+- Tampo: Painel partículas madeira macica 16mm + revestimento resina protetora
 - Estrutura: Aço carbono 3 tubos 1,5cm + pés formato K + barra transversal
 - Capacidade: 200kg - mesa gamer 200kg
 - USB: 2 pontos integrados no tampo - mesa gamer com porta usb
@@ -24431,7 +24431,7 @@ Se você buscou por **mesa gamer 200kg**, **mesa gamer com porta usb**, **mesa g
   caracteristicas: [
     "Capacidade de 200kg — a maior entre mesas de 100cm (estrutura aço carbono com 3 tubos de 1,5cm)",
     "Porta USB com 2 pontos integrados no tampo — carrega celular e periféricos sem ocupar tomadas",
-    "Tampo de 16mm em painel de partículas de madeira maciça com revestimento em resina protetora",
+    "Tampo de 16mm em painel de partículas de madeira macica com revestimento em resina protetora",
     "Superfície impermeável, resistente a riscos e altas temperaturas",
     "Pés em formato K com barra transversal — estabilidade superior a pés retos simples",
     "Disponível em preto e branco — versatilidade para qualquer setup",

@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SITE } from "@/data/products";
 
+// ============================================================
+// CORREÇÃO: canonical removido — página 404 não deve ter
+// canonical apontando para /404. Sem canonical, o Google
+// entende que é uma página sem indexação (robots: noindex).
+// ============================================================
 export const metadata: Metadata = {
   title: "404 - Página não encontrada | Móveis Marília SP",
   description:
@@ -11,9 +16,6 @@ export const metadata: Metadata = {
     follow: false,
     "max-snippet": -1,
     "max-video-preview": -1,
-  },
-  alternates: {
-    canonical: `${SITE.url}/404`,
   },
   openGraph: {
     title: "404 - Página não encontrada | Móveis Marília SP",
@@ -97,9 +99,13 @@ export default function NotFound() {
       />
 
       <div className="mx-auto flex min-h-[60vh] max-w-lg flex-col items-center justify-center px-4 py-20 text-center">
-        {/* Código de status HTTP 404 visível para bots */}
-        <meta httpEquiv="status" content="404" />
-        
+        {/*
+          CORREÇÃO: <meta httpEquiv="status" content="404" /> removido.
+          Esta tag não define o status HTTP real — é ignorada por todos os
+          servidores e bots. O status 404 real é controlado pelo Cloudflare
+          Pages (ver arquivo public/_redirects).
+        */}
+
         <p className="text-7xl font-bold tracking-tight text-stone-900" aria-hidden="true">
           404
         </p>
@@ -109,7 +115,7 @@ export default function NotFound() {
         <p className="mt-3 text-stone-500">
           O produto ou guia que você procura pode ter saído de linha ou mudado de endereço.
         </p>
-        
+
         {/* Links úteis para navegação */}
         <div className="mt-8 flex flex-wrap justify-center gap-3">
           <Link
@@ -137,7 +143,7 @@ export default function NotFound() {
             Fale conosco
           </Link>
         </div>
-        
+
         {/* Sugestões de busca para AEO/GEO */}
         <div className="mt-8 border-t border-stone-200 pt-6">
           <p className="text-xs text-stone-400">

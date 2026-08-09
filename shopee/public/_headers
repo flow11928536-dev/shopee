@@ -1,15 +1,45 @@
-# Nunca cachear HTML das páginas (sempre buscar versão nova após deploy)
+# ============================================================
+# CLOUDFLARE PAGES — HEADERS DE SEGURANÇA E CACHE
+# ============================================================
+# Este arquivo substitui a função headers() do next.config.js,
+# que NÃO funciona quando output: "export" está ativo.
+#
+# Formato:
+#   /caminho
+#     Header-Name: valor
+# ============================================================
+
+# ===== Headers de segurança para todas as páginas =====
 /*
   X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
   Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
 
-/*.html
-  Cache-Control: public, max-age=0, must-revalidate
-
-# Assets estáticos com hash no nome - cache longo e seguro
+# ===== Cache para arquivos estáticos do Next.js (1 ano) =====
 /_next/static/*
   Cache-Control: public, max-age=31536000, immutable
 
-# Imagens e mídia - cache moderado
-/images/*
-  Cache-Control: public, max-age=86400
+# ===== Cache para imagens de banner (30 dias) =====
+/banners/*
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=86400
+
+# ===== Cache para imagens de produtos (30 dias) =====
+/imagens%20produtos/*
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=86400
+
+# ===== Cache para imagens de produtos (sem encoding alternativo) =====
+/imagens produtos/*
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=86400
+
+# ===== Cache para fontes e SVGs =====
+/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.svg
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=86400
+
+# ===== No-cache para HTML (sempre buscar a versão mais recente) =====
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate

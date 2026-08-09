@@ -4,18 +4,43 @@ import { getAllGuidesMeta } from "@/data/guides";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
-  
+
   // URLs base com https (garantindo segurança)
   const baseUrl = SITE.url.replace('http://', 'https://');
 
   // ============================================================
-  // LISTA DE EXCLUSÃO (URLs que redirecionam)
+  // LISTA DE EXCLUSÃO — URLs que redirecionam
   // ============================================================
   const excludeSlugs = [
     'guarda-roupa-mdf-mdp',
     'como-limpar-moveis-mdf-mdp',
     'limpar-moveis-mdf-mdp',
-    'como-limpar-moveis-madeira'
+    'como-limpar-moveis-madeira',
+  ];
+
+  // ============================================================
+  // LISTA DE EXCLUSÃO — Produtos mortos (removidos do catálogo)
+  // Estas URLs estavam no sitemap mas retornavam 404 (soft 404).
+  // Se os produtos voltarem com slug diferente, adicione um redirect
+  // no arquivo public/_redirects em vez de reativar aqui.
+  // ============================================================
+  const deadProductSlugs = [
+    'mesa-jantar-retangular-vitalic-6-cadeiras-madeira-macica-vegas-viero',
+    'jogo-mesa-dobravel-70x70-imbuia-4-cadeiras-madeira-macica',
+    'jogo-mesa-dobravel-70x70-4-cadeiras-preto-madeira-macica-bistro',
+  ];
+
+  // ============================================================
+  // LISTA DE EXCLUSÃO — Categorias que na verdade são páginas estáticas
+  // Estes slugs aparecem em allCategories mas têm página própria
+  // (ex: /moveis-para-estudantes, não /categoria/moveis-para-estudantes).
+  // Sem este filtro, o sitemap gera /categoria/moveis-para-estudantes
+  // que retorna 404 porque a rota /categoria/[slug] não encontra a categoria.
+  // ============================================================
+  const staticPageCategories = [
+    'moveis-para-estudantes',
+    'moveis-para-bebe',
+    'moveis-gamer',
   ];
 
   // ============================================================
@@ -83,17 +108,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // ============================================================
   // CATEGORIAS (prioridade alta - páginas de entrada)
+  // FILTRADO: remove slugs que são páginas estáticas
   // ============================================================
-  const categoryPages: MetadataRoute.Sitemap = allCategories.map((cat) => {
-    const slug = cat.toLowerCase().trim().replace(/\s+/g, "-");
-
-    return {
+  const categoryPages: MetadataRoute.Sitemap = allCategories
+    .map((cat) => cat.toLowerCase().trim().replace(/\s+/g, "-"))
+    .filter((slug) => !staticPageCategories.includes(slug))
+    .map((slug) => ({
       url: `${baseUrl}/categoria/${slug}`,
       lastModified: now,
       changeFrequency: "daily",
       priority: 0.9,
-    };
-  });
+    }));
 
   // ============================================================
   // GUIAS (Filtrando as URLs que redirecionam)
@@ -109,25 +134,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // ============================================================
   // PRODUTOS (páginas de conversão com prioridade média)
+  // FILTRADO: remove produtos mortos que retornam 404
   // ============================================================
-  const productPages: MetadataRoute.Sitemap = products.map((p) => ({
-    url: `${baseUrl}/produto/${p.slug}`,
-    lastModified: now,
-    changeFrequency: "daily",
-    priority: 0.75,
-  }));
-
-  // ============================================================
-  // PÁGINAS DE MONTADORES (se houver mais cidades)
-  // ============================================================
-  const montadorPages: MetadataRoute.Sitemap = [
-    {
-      url: `${baseUrl}/montadores/marilia`,
+  const productPages: MetadataRoute.Sitemap = products
+    .filter((p) => !deadProductSlugs.includes(p.slug))
+    .map((p) => ({
+      url: `${baseUrl}/produto/${p.slug}`,
       lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-  ];
+      changeFrequency: "daily",
+      priority: 0.75,
+    }));
 
   // ============================================================
   // SITEMAP FINAL (Sem duplicatas e sem redirecionamentos)

@@ -427,24 +427,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.lojademoveismarilia.com.br/moveis-gamer</loc>
-    <lastmod>2026-08-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.lojademoveismarilia.com.br/moveis-para-estudantes</loc>
-    <lastmod>2026-08-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.lojademoveismarilia.com.br/moveis-para-bebe</loc>
-    <lastmod>2026-08-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.lojademoveismarilia.com.br/politicas</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>monthly</changefreq>
@@ -464,6 +446,12 @@
   </url>
   <url>
     <loc>https://www.lojademoveismarilia.com.br/moveis-para-bebe</loc>
+    <lastmod>2026-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.lojademoveismarilia.com.br/moveis-para-estudantes</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1117,7 +1105,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lojademoveismarilia.com.br/produto/mesa-jantar-retangular-vitalic-6-cadeiras-madeira-maciça-vegas-viero</loc>
+    <loc>https://www.lojademoveismarilia.com.br/produto/mesa-jantar-retangular-vitalic-6-cadeiras-madeira-macica-vegas-viero</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1153,13 +1141,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lojademoveismarilia.com.br/produto/jogo-mesa-dobravel-70x70-imbuia-4-cadeiras-madeira-maciça</loc>
+    <loc>https://www.lojademoveismarilia.com.br/produto/jogo-mesa-dobravel-70x70-imbuia-4-cadeiras-madeira-macica</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lojademoveismarilia.com.br/produto/jogo-mesa-dobravel-70x70-4-cadeiras-preto-madeira-maciça-bistro</loc>
+    <loc>https://www.lojademoveismarilia.com.br/produto/jogo-mesa-dobravel-70x70-4-cadeiras-preto-madeira-macica-bistro</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

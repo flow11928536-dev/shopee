@@ -32,11 +32,53 @@ export async function generateStaticParams() {
   }));
 }
 
+// ============================================================
+// COR RECONHECIDA NO SLUG — para diferenciar variantes de cor
+// do mesmo produto (ex: sofá cinza vs sofá areia).
+// Sem isto, produtos com mesmo seoTitle geram <title> duplicado.
+// ============================================================
+const KNOWN_COLORS = [
+  "cinza", "areia", "preto", "preta", "branco", "branca",
+  "azul", "vermelho", "vermelha", "verde", "amarelo", "amarela",
+  "marrom", "bege", "rosa", "roxo", "roxa", "natural",
+  "escuro", "escura", "claro", "clara", "nude", "grafite",
+  "off-white", "offwhite", "creme", "terracotta", "vinho",
+];
+
+function extractVariantFromSlug(slug: string): string | null {
+  const parts = slug.split("-");
+  const lastPart = parts[parts.length - 1];
+  if (KNOWN_COLORS.includes(lastPart.toLowerCase())) {
+    return lastPart.charAt(0).toUpperCase() + lastPart.slice(1);
+  }
+  // Verifica também os 2 últimos segmentos (ex: "off-white")
+  if (parts.length >= 2) {
+    const lastTwo = parts.slice(-2).join("-");
+    if (KNOWN_COLORS.includes(lastTwo.toLowerCase())) {
+      return lastTwo.charAt(0).toUpperCase() + lastTwo.slice(1);
+    }
+  }
+  return null;
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = getProductBySlug(params.slug);
   if (!product) return {};
 
   let title = product.seoTitle || `${product.name} | Móveis Marília SP`;
+
+  // CORREÇÃO: adiciona a variante de cor no title se não estiver presente.
+  // Isto previne titles duplicados quando o mesmo produto tem múltiplas
+  // variantes de cor (ex: sofá eureka cinza vs areia).
+  const variant = extractVariantFromSlug(product.slug);
+  if (variant && !title.toLowerCase().includes(variant.toLowerCase())) {
+    if (title.includes(" | ")) {
+      title = title.replace(" | ", ` ${variant} | `);
+    } else {
+      title = `${title} ${variant}`;
+    }
+  }
+
   if (title.length > 60) {
     title = title.substring(0, 50) + " | Móveis Marília";
   }

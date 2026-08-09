@@ -8,7 +8,7 @@ const MODIFIED_DATE = "2026-08-03";
 
 export const metadata: Metadata = {
   title: "Como Escolher Mesa de Jantar 4 e 6 Cadeiras: Medidas Certas e 5 Erros que Entortam em 1 Ano | 2026",
-  description: "Guia de montador 27 anos: mesa 4 cadeiras 120-140cm precisa 3x2m, mesa 6 cadeiras 160-180cm precisa 3,5x2,5m. Altura 75-77cm, 75cm circulação, MDF 25mm vs madeira maciça. Veja mesa jantar + cadeiras + banquetas Slim Confort.",
+  description: "Guia de montador 27 anos: mesa 4 cadeiras 120-140cm precisa 3x2m, mesa 6 cadeiras 160-180cm precisa 3,5x2,5m. Altura 75-77cm, 75cm circulação, MDF 25mm vs madeira macica. Veja mesa jantar + cadeiras + banquetas Slim Confort.",
   alternates: { canonical: `${SITE.url}/guias/como-escolher-mesa` },
   openGraph: {
     title: "Como Escolher Mesa de Jantar 4 e 6 Cadeiras - Guia 2026",
@@ -31,7 +31,7 @@ const faqs = [
   { q: "Qual medida ideal para mesa de 4 cadeiras?", a: "120x80cm a 140x80cm. Ocupa 3m x 2m com circulação de 75cm para puxar a cadeira. Cabe em apartamento 50m²." },
   { q: "Qual medida ideal para mesa de 6 cadeiras?", a: "160x90cm a 180x90cm. Precisa 3,5m x 2,5m de sala. 180cm é melhor, cada pessoa tem 60cm de largura." },
   { q: "Mesa redonda ou retangular?", a: "Retangular: aproveita mais espaço e cabe 6. Redonda 120cm: só para 4 pessoas, mas conversa melhor. Quadrada 90cm: só kitnet, 2 pessoas." },
-  { q: "MDF ou madeira maciça?", a: "MDF 25mm com BP: aguenta 5 anos se não molhar, R$400-700. Madeira maciça: dura 15 anos, não estufa, R$1200+. Vidro: bonita mas marca dedo e pesa." },
+  { q: "MDF ou madeira macica?", a: "MDF 25mm com BP: aguenta 5 anos se não molhar, R$400-700. Madeira macica: dura 15 anos, não estufa, R$1200+. Vidro: bonita mas marca dedo e pesa." },
   { q: "Qual altura ideal da mesa de jantar?", a: "75 a 77cm. Cadeira estofada tem 45cm assento. Sobra 30cm para perna. Abaixo de 74cm a perna bate." },
 ];
 
@@ -170,7 +170,7 @@ export default function Page() {
               <tbody className="divide-y">
                 <tr><td className="px-4 py-3 font-medium">MDF 15mm</td><td className="px-4 py-3">1-2 anos</td><td className="px-4 py-3">R$300-500</td><td className="px-4 py-3 text-red-600">Entorta, não compre</td></tr>
                 <tr><td className="px-4 py-3 font-medium">MDF 25mm BP</td><td className="px-4 py-3">5 anos</td><td className="px-4 py-3">R$500-800</td><td className="px-4 py-3">Não molhar, boa</td></tr>
-                <tr className="bg-amber-50"><td className="px-4 py-3 font-bold">Madeira Maciça</td><td className="px-4 py-3 font-bold">15 anos+</td><td className="px-4 py-3 font-bold">R$1200+</td><td className="px-4 py-3">Melhor, não estufa</td></tr>
+                <tr className="bg-amber-50"><td className="px-4 py-3 font-bold">Madeira Macica</td><td className="px-4 py-3 font-bold">15 anos+</td><td className="px-4 py-3 font-bold">R$1200+</td><td className="px-4 py-3">Melhor, não estufa</td></tr>
                 <tr><td className="px-4 py-3 font-medium">Vidro + MDF</td><td className="px-4 py-3">5 anos</td><td className="px-4 py-3">R$700-1000</td><td className="px-4 py-3">Marca dedo, pesa 80kg</td></tr>
               </tbody>
             </table>

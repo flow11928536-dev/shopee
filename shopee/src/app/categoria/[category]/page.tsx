@@ -17,10 +17,23 @@ interface Props {
   params: { category: string };
 }
 
+// ============================================================
+// FILTRO: slugs que são páginas estáticas, não categorias.
+// Sem isto, o Next gera /categoria/moveis-para-estudantes.html
+// que retorna 404 dentro da página (soft 404 com HTTP 200).
+// ============================================================
+const STATIC_PAGE_SLUGS = [
+  "moveis-para-estudantes",
+  "moveis-para-bebe",
+  "moveis-gamer",
+];
+
 export async function generateStaticParams() {
-  return allCategorySlugs.map((slug) => ({
-    category: slug,
-  }));
+  return allCategorySlugs
+    .filter((slug) => !STATIC_PAGE_SLUGS.includes(slug))
+    .map((slug) => ({
+      category: slug,
+    }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

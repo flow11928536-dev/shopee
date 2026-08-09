@@ -651,7 +651,7 @@ const SEEDS: Record<string, GuideSeed> = {
         paragraphs: [
             "Antes de comprar, considere o tamanho do ambiente. Meça o espaço disponível e deixe pelo menos 60 cm de circulação ao redor da mesa. Isso garante que as pessoas possam se sentar e circular confortavelmente.",
             "Pense no número de pessoas que usarão a mesa diariamente. Uma mesa para 4 pessoas é ideal para famílias pequenas, enquanto mesas para 6 ou mais são melhores para quem recebe visitas com frequência.",
-            "O material é outro fator crucial. Mesas de madeira maciça são duráveis e atemporais, mas exigem manutenção. Mesas com tampo de vidro são elegantes e fáceis de limpar, mas podem ser menos resistentes a riscos. MDF e MDP oferecem bom custo-benefício e variedade de acabamentos."
+            "O material é outro fator crucial. Mesas de madeira macica são duráveis e atemporais, mas exigem manutenção. Mesas com tampo de vidro são elegantes e fáceis de limpar, mas podem ser menos resistentes a riscos. MDF e MDP oferecem bom custo-benefício e variedade de acabamentos."
         ],
         bullets: [
             "Medir o espaço disponível",
@@ -664,7 +664,7 @@ const SEEDS: Record<string, GuideSeed> = {
     sub2: {
         heading: "Materiais e acabamentos: qual escolher?",
         paragraphs: [
-            "As mesas de jantar podem ser feitas de diversos materiais. A madeira maciça (como freijó, pinus ou ipê) é a mais durável e oferece um visual rústico ou clássico. Já as mesas com tampo de MDF ou MDP são mais acessíveis e têm acabamento liso, ideais para estilos modernos e minimalistas.",
+            "As mesas de jantar podem ser feitas de diversos materiais. A madeira macica (como freijó, pinus ou ipê) é a mais durável e oferece um visual rústico ou clássico. Já as mesas com tampo de MDF ou MDP são mais acessíveis e têm acabamento liso, ideais para estilos modernos e minimalistas.",
             "O tampo de vidro temperado é uma opção sofisticada e fácil de limpar, mas é importante verificar a espessura e a qualidade do vidro para garantir segurança. As cadeiras podem ser estofadas, de madeira ou metal, combinando com o estilo da mesa.",
             "Cores neutras como branco, preto e tons de madeira são curingas e combinam com qualquer decoração. Cores mais ousadas podem ser usadas para dar personalidade ao ambiente."
         ]
@@ -686,8 +686,8 @@ const SEEDS: Record<string, GuideSeed> = {
             answer: "Uma mesa retangular de 120 cm x 80 cm é suficiente para 4 pessoas com conforto. Para 6 pessoas, o ideal é uma mesa de 160 cm x 90 cm."
         },
         {
-            question: "Mesa de madeira maciça ou MDF: qual é melhor?",
-            answer: "A madeira maciça é mais durável e resistente, mas tem preço mais alto. O MDF é mais acessível e oferece ótimo acabamento, sendo ideal para quem busca custo-benefício."
+            question: "Mesa de madeira macica ou MDF: qual é melhor?",
+            answer: "A madeira macica é mais durável e resistente, mas tem preço mais alto. O MDF é mais acessível e oferece ótimo acabamento, sendo ideal para quem busca custo-benefício."
         },
         {
             question: "Como limpar um tampo de vidro?",
@@ -952,8 +952,8 @@ const SEEDS: Record<string, GuideSeed> = {
         answer: "Normalmente não. Móveis novos passam por um período de acomodação onde o material se ajusta às condições de temperatura e umidade do ambiente. Se os estalos não diminuírem após 2-3 meses, vale contatar o fabricante.",
       },
       {
-        question: "Madeira maciça estala mais que MDF?",
-        answer: "Madeira maciça tende a estalar mais porque tem fibras naturais que reagem mais intensamente às variações climáticas. O MDF é mais uniforme e homogêneo, então os estalos costumam ser menos frequentes — mas acontecem também.",
+        question: "Madeira macica estala mais que MDF?",
+        answer: "Madeira macica tende a estalar mais porque tem fibras naturais que reagem mais intensamente às variações climáticas. O MDF é mais uniforme e homogêneo, então os estalos costumam ser menos frequentes — mas acontecem também.",
       },
       {
         question: "Como reduzir os estalos nos móveis?",
@@ -1037,7 +1037,7 @@ const SEEDS: Record<string, GuideSeed> = {
     h1: "Como Restaurar Móveis de Madeira: Do Arranhado ao Acabamento Novo",
     intro: "Uma cadeira com verniz gasto, uma mesa riscada ou um armário com manchas não precisam ir para o lixo. Restaurar móveis de madeira é mais simples do que parece — e o resultado final, quando bem feito, é melhor do que o original. Veja como fazer com as ferramentas certas.",
     heroImage: IMG.arranhados,
-    heroAlt: "Sala com móvel de madeira maciça restaurado com acabamento natural",
+    heroAlt: "Sala com móvel de madeira macica restaurado com acabamento natural",
     cross: CROSS_SELL["sala"],
     ctaSlug: "sofa-retratil-3-lugares-suede",
     grid1Cat: "sofas",
@@ -1071,7 +1071,7 @@ const SEEDS: Record<string, GuideSeed> = {
     sub3: {
       heading: "Quando vale restaurar e quando é hora de trocar",
       paragraphs: [
-        "Restaurar é vantajoso para peças com valor sentimental, madeira maciça de qualidade (que dificilmente encontramos no preço equivalente hoje) ou móveis com design diferenciado. Para móveis de MDF ou MDP danificados por umidade, a restauração raramente compensa — o material inchado não volta ao normal.",
+        "Restaurar é vantajoso para peças com valor sentimental, madeira macica de qualidade (que dificilmente encontramos no preço equivalente hoje) ou móveis com design diferenciado. Para móveis de MDF ou MDP danificados por umidade, a restauração raramente compensa — o material inchado não volta ao normal.",
       ],
     },
     faq: [
@@ -1367,7 +1367,7 @@ const SEEDS: Record<string, GuideSeed> = {
   "moveis-usados-perto-de-mim": {
     keyword: "móveis usados perto de mim",
     h1: "Móveis Usados Perto de Mim: Como Encontrar, Negociar e Não Se Arrepender",
-    intro: "Comprar móvel usado é inteligente quando você sabe o que está fazendo. Um guarda-roupa de madeira maciça de segunda mão pode ser infinitamente melhor que um MDF barato novo. O problema é saber avaliar o estado e negociar o preço certo. Veja o passo a passo.",
+    intro: "Comprar móvel usado é inteligente quando você sabe o que está fazendo. Um guarda-roupa de madeira macica de segunda mão pode ser infinitamente melhor que um MDF barato novo. O problema é saber avaliar o estado e negociar o preço certo. Veja o passo a passo.",
     heroImage: IMG.usados,
     heroAlt: "Sala com mix de móveis antigos restaurados e modernos",
     cross: CROSS_SELL["sala"],
@@ -1391,7 +1391,7 @@ const SEEDS: Record<string, GuideSeed> = {
     sub2: {
       heading: "Como avaliar um móvel usado antes de comprar",
       paragraphs: [
-        "Verifique os pontos críticos: gavetas abrem e fecham suaves? Portas fecham alinhadas sem esforço? Estrutura está firme sem balançar? Em móveis de madeira maciça, bata levemente — som oco pode indicar cupim. Em MDF, verifique as bordas e partes inferiores (próximas ao chão) por sinais de inchaço por umidade.",
+        "Verifique os pontos críticos: gavetas abrem e fecham suaves? Portas fecham alinhadas sem esforço? Estrutura está firme sem balançar? Em móveis de madeira macica, bata levemente — som oco pode indicar cupim. Em MDF, verifique as bordas e partes inferiores (próximas ao chão) por sinais de inchaço por umidade.",
         "Para sofás usados, sente e avalie a espuma — se afundar demais e não voltar, a espuma está cansada e não compensa. Cheire o tecido: cheiro de mofo não sai com limpeza simples. Para colchões e camas box, avalie o histórico de uso — esses itens têm limite de vida útil independente da aparência externa.",
       ],
     },
@@ -1403,7 +1403,7 @@ const SEEDS: Record<string, GuideSeed> = {
     sub3: {
       heading: "Quando vale mais comprar novo",
       paragraphs: [
-        "Para colchões, espumas e qualquer item de higiene (estofados muito usados), novo geralmente é mais seguro. Para peças estruturais de madeira maciça, uma peça usada de qualidade frequentemente supera em durabilidade um MDF barato novo. Abaixo, as melhores opções novas com custo-benefício real.",
+        "Para colchões, espumas e qualquer item de higiene (estofados muito usados), novo geralmente é mais seguro. Para peças estruturais de madeira macica, uma peça usada de qualidade frequentemente supera em durabilidade um MDF barato novo. Abaixo, as melhores opções novas com custo-benefício real.",
       ],
     },
     faq: [
@@ -1421,7 +1421,7 @@ const SEEDS: Record<string, GuideSeed> = {
       },
       {
         question: "Vale comprar guarda-roupa usado?",
-        answer: "Sim, se a estrutura estiver boa. Guarda-roupas antigos de madeira maciça frequentemente são mais sólidos que os de MDF novos e baratos. Verifique se as portas fecham direito, se os pés estão firmes e se não há sinal de umidade nas partes internas. Um bom guarda-roupa usado pode durar décadas.",
+        answer: "Sim, se a estrutura estiver boa. Guarda-roupas antigos de madeira macica frequentemente são mais sólidos que os de MDF novos e baratos. Verifique se as portas fecham direito, se os pés estão firmes e se não há sinal de umidade nas partes internas. Um bom guarda-roupa usado pode durar décadas.",
       },
       {
         question: "Como transportar móvel grande comprado de particular?",
@@ -1565,9 +1565,9 @@ const SEEDS: Record<string, GuideSeed> = {
   "tipos-madeira-para-moveis": {
     keyword: "tipos de madeira para móveis",
     h1: "Tipos de Madeira para Móveis: Qual Usar em Cada Situação",
-    intro: "Nem toda madeira é igual — e entender a diferença entre MDF, MDP, madeira maciça e compensado salva você de comprar um móvel que parece ótimo na loja mas decepciona em 2 anos. Aqui está o guia honesto sobre cada material.",
+    intro: "Nem toda madeira é igual — e entender a diferença entre MDF, MDP, madeira macica e compensado salva você de comprar um móvel que parece ótimo na loja mas decepciona em 2 anos. Aqui está o guia honesto sobre cada material.",
     heroImage: IMG.madeiras,
-    heroAlt: "Detalhe de acabamento em madeira maciça com veio natural visível",
+    heroAlt: "Detalhe de acabamento em madeira macica com veio natural visível",
     cross: CROSS_SELL["sala"],
     ctaSlug: "painel-rack-tv-65-polegadas",
     grid1Cat: "paineis",
@@ -1587,10 +1587,10 @@ const SEEDS: Record<string, GuideSeed> = {
       ],
     },
     sub2: {
-      heading: "Madeiras maciças: quando valem o investimento",
+      heading: "Madeiras macicas: quando valem o investimento",
       paragraphs: [
-        "Pinus, eucalipto, freijó, jatobá, teca e cumaru são madeiras maciças usadas em móveis. Pinus e eucalipto são mais baratos e muito usados em móveis rústicos, mas exigem tratamento regular contra cupim e umidade. Madeiras de lei como jatobá, teca e cumaru são muito mais resistentes naturalmente — ideais para áreas externas e peças que precisam durar décadas.",
-        "Madeira maciça de qualidade custa significativamente mais que MDF/MDP, mas tem capacidade de restauração que os derivados não têm. Um móvel de madeira maciça arranhado pode ser lixado e re-envernizado dezenas de vezes; MDF com a superfície danificada tem reparo limitado.",
+        "Pinus, eucalipto, freijó, jatobá, teca e cumaru são madeiras macicas usadas em móveis. Pinus e eucalipto são mais baratos e muito usados em móveis rústicos, mas exigem tratamento regular contra cupim e umidade. Madeiras de lei como jatobá, teca e cumaru são muito mais resistentes naturalmente — ideais para áreas externas e peças que precisam durar décadas.",
+        "Madeira macica de qualidade custa significativamente mais que MDF/MDP, mas tem capacidade de restauração que os derivados não têm. Um móvel de madeira macica arranhado pode ser lixado e re-envernizado dezenas de vezes; MDF com a superfície danificada tem reparo limitado.",
       ],
     },
     callout: {
@@ -1622,8 +1622,8 @@ const SEEDS: Record<string, GuideSeed> = {
         answer: "Compensado naval é feito de lâminas de madeira cruzadas, coladas com resina resistente à água. É muito mais resistente à umidade que MDF e MDP. Usado em móveis de barcos, móveis de piscina e cozinhas de alto padrão em áreas próximas a pias. Custa mais que MDF e tem aparência mais rústica na superfície.",
       },
       {
-        question: "Móvel de madeira maciça dura mais que MDF?",
-        answer: "Em condições normais, móveis de madeira maciça de boa qualidade duram mais — décadas com manutenção básica. MDF de qualidade em condições normais dura 10-20 anos facilmente, mas a madeira maciça tem margem de restauração que o MDF não tem quando danificado.",
+        question: "Móvel de madeira macica dura mais que MDF?",
+        answer: "Em condições normais, móveis de madeira macica de boa qualidade duram mais — décadas com manutenção básica. MDF de qualidade em condições normais dura 10-20 anos facilmente, mas a madeira macica tem margem de restauração que o MDF não tem quando danificado.",
       },
     ],
   },
@@ -1893,7 +1893,7 @@ const SEEDS: Record<string, GuideSeed> = {
       },
       {
         question: "Vale a pena investir em sofá retrátil com molas ensacadas?",
-        answer: "Sim. Molas ensacadas oferecem suporte individualizado, adaptam-se melhor ao corpo e evitam o afundamento com o tempo. Sofás com esse sistema são mais duráveis e confortáveis que os de espuma maciça ou molas Bonnel.",
+        answer: "Sim. Molas ensacadas oferecem suporte individualizado, adaptam-se melhor ao corpo e evitam o afundamento com o tempo. Sofás com esse sistema são mais duráveis e confortáveis que os de espuma macica ou molas Bonnel.",
       },
     ],
   },
