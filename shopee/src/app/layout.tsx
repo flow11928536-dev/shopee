@@ -154,8 +154,8 @@ const graphSchema = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html 
-      lang="pt-BR" 
+    <html
+      lang="pt-BR"
       className={`${inter.variable} ${fraunces.variable} ${jetbrainsMono.variable}`}
       suppressHydrationWarning
     >
@@ -166,10 +166,25 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(graphSchema) }}
         />
         <meta name="p:domain_verify" content="880750888dee14eafd9092943bb81f49"/>
+        {/* META PIXEL - ID 1568286774780420 */}
+        <Script id="fb-pixel" strategy="afterInteractive">
+          {`
+          !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '1568286774780420');
+            fbq('track', 'PageView');
+          `}
+        </Script>
       </head>
-      
+
       <body className="bg-gradient-to-br from-[#FDFCFA] via-[#F8F6F1] to-[#F0EDE5] text-[#1A1614] antialiased">
-        
+
         {/* ============================================================
              BARRA DE ANÚNCIO MODERNA COM GLASSMORPHISM
              ============================================================ */}
@@ -196,7 +211,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <div className="flex min-h-screen flex-col">
           <Header />
-          
+
           <main id="main" className="flex-1">
             {children}
           </main>
@@ -235,9 +250,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-TB069RRN2W', { 
+            gtag('config', 'G-TB069RRN2W', {
               page_path: window.location.pathname,
-              send_page_view: true 
+              send_page_view: true
             });
           `}
         </Script>
