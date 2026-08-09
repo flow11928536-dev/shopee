@@ -35,7 +35,6 @@ import {
 } from "lucide-react";
 // Força a página a ser dinâmica (SSR), impedindo a Vercel e o Cloudflare de cachearem o HTML por longos períodos
 
-
 // ✅ Datas em ISO 8601 com fuso horário de São Paulo (best practice para Rich Results)
 const PUBLISHED_DATE = "2026-08-03T08:00:00-03:00";
 const MODIFIED_DATE = "2026-08-07T10:00:00-03:00";
