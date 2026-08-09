@@ -5,6 +5,7 @@ import Link from "next/link";
 import { getProductBySlug, getAllProducts, formatBRL } from "@/data/products";
 import { SITE } from "@/data/products";
 import ProductDescription from "@/components/ProductDescription";
+import FbViewContent from "../../../components/FbViewContent";
 
 // Paleta consistente com o resto do site — sem next/font/google aqui de
 // propósito, pra essa página nunca depender de download externo pra compilar.
@@ -113,9 +114,6 @@ export default function ProductPage({ params }: Props) {
   priceValidUntil.setDate(priceValidUntil.getDate() + 30);
   const priceValidUntilStr = priceValidUntil.toISOString().split("T")[0];
 
-  // ============================================================
-  // ✅ SCHEMAS OTIMIZADOS PARA RICH SNIPPETS E AEO/GEO
-  // ============================================================
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -140,7 +138,7 @@ export default function ProductPage({ params }: Props) {
       price: price,
       priceValidUntil: priceValidUntilStr,
       availability: "https://schema.org/InStock",
-      url: product.affiliateLink,
+      url: `${SITE.url}/produto/${product.slug}`,
       itemCondition: "https://schema.org/NewCondition",
       seller: {
         "@type": "Organization",
@@ -224,6 +222,7 @@ export default function ProductPage({ params }: Props) {
 
   return (
     <>
+      <FbViewContent id={product.id} price={price} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
@@ -293,7 +292,7 @@ export default function ProductPage({ params }: Props) {
             <div className="flex flex-col p-6 sm:p-8">
               {product.marca && (
                 <span
-                  className="text-[10px] font-semibold uppercase tracking-[0.2em] sm:text-xs"
+                  className="text- font-semibold uppercase tracking-[0.2em] sm:text-xs"
                   style={{ fontFamily: FONT_MONO, color: "#918466" }}
                 >
                   {product.marca}
@@ -339,7 +338,7 @@ export default function ProductPage({ params }: Props) {
                 ].map((benefit) => (
                   <div key={benefit} className="flex items-center gap-2 text-sm text-stone-600">
                     <span
-                      className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[11px] text-white"
+                      className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text- text-white"
                       style={{ backgroundColor: SAGE }}
                     >
                       ✓
@@ -372,7 +371,7 @@ export default function ProductPage({ params }: Props) {
               {product.descricao && (
                 <div className="mt-6 rounded-2xl p-4 sm:p-5" style={{ border: `1px solid ${BORDER}` }}>
                   <span
-                    className="text-[10px] uppercase tracking-[0.2em] sm:text-xs"
+                    className="text- uppercase tracking-[0.2em] sm:text-xs"
                     style={{ fontFamily: FONT_MONO, color: BRASS }}
                   >
                     Sobre este produto
