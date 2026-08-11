@@ -5,14 +5,24 @@ import { getAllProducts } from '@/data/products'
 
 export async function GET() {
   const SITE = 'https://www.lojademoveismarilia.com.br'
-  const products = getAllProducts()
 
-  const items = products.map((p) => {
-    const price = (p as any).price || (p as any).salePrice || 0
-    const image = (p as any).images?.[0] || (p as any).image || `${SITE}/og-image.jpg`
-    const desc = (p as any).seoDescription || p.name
+  // remove duplicatas por slug
+  const uniqueProducts = Array.from(
+    new Map(getAllProducts().map(p => [p.slug, p])).values()
+  )
 
-    return `
+  const items = uniqueProducts.map((p) => {
+      const rawPrice = (p as any).price || (p as any).salePrice || 100
+      const price = Number(String(rawPrice).replace(',', '.')) || 100
+      let rawImage = (p as any).images?.[0] || (p as any).image || ''
+      let image = rawImage
+      if (image &&!image.startsWith('http')) {
+        image = `${SITE}${image.startsWith('/')? '' : '/'}${image}`
+      }
+      if (!image) image = `${SITE}/og-image.jpg`
+      const desc = (p as any).seoDescription || p.name
+
+      return `
     <item>
       <g:id>${p.slug}</g:id>
       <g:title><![CDATA[${p.name}]]></g:title>
@@ -22,24 +32,19 @@ export async function GET() {
       <g:brand>Loja de Móveis Marília</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>${Number(price).toFixed(2)} BRL</g:price>
-      <g:google_product_category>Home &amp; Garden &gt; Furniture</g:google_product_category>
+      <g:price>${price.toFixed(2)} BRL</g:price>
     </item>`
-  }).join('')
+    }).join('')
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
   <rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
     <channel>
       <title>Loja de Móveis Marília</title>
       <link>${SITE}</link>
-      <description>Catálogo de produtos</description>
+      <description>Catálogo</description>
       ${items}
     </channel>
   </rss>`
 
-  return new Response(xml, {
-    headers: {
-      'Content-Type': 'application/xml; charset=utf-8',
-    },
-  })
+  return new Response(xml, { headers: { 'Content-Type': 'application/xml; charset=utf-8' } })
 }
