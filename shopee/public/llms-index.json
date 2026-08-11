@@ -3,7 +3,7 @@
     "name": "Loja de Móveis Marília",
     "url": "https://www.lojademoveismarilia.com.br",
     "description": "Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.",
-    "lastUpdated": "2026-08-11T02:48:11.597Z"
+    "lastUpdated": "2026-08-11T15:30:26.976Z"
   },
   "categories": [
     {
@@ -14,7 +14,7 @@
       "relatedGuides": [
         "melhores-guarda-roupas-casal-baratos"
       ],
-      "productCount": 43
+      "productCount": 40
     },
     {
       "slug": "cozinhas",
@@ -25,7 +25,7 @@
         "melhores-cozinhas-moduladas-baratas",
         "cozinhas"
       ],
-      "productCount": 14
+      "productCount": 11
     },
     {
       "slug": "mesas",
@@ -53,7 +53,7 @@
       "relatedGuides": [
         "quartos"
       ],
-      "productCount": 14
+      "productCount": 12
     },
     {
       "slug": "microondas",
@@ -103,7 +103,7 @@
       "relatedGuides": [
         "moveis-home-office-barato"
       ],
-      "productCount": 15
+      "productCount": 14
     },
     {
       "slug": "sofas",
@@ -114,7 +114,7 @@
         "melhores-sofas-retrateis-2026",
         "sofas"
       ],
-      "productCount": 16
+      "productCount": 15
     },
     {
       "slug": "racks",
@@ -146,21 +146,13 @@
       "url": "https://www.lojademoveismarilia.com.br/categoria/comodas",
       "description": "Encontre as melhores ofertas de Cômodas com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
-      "productCount": 12
+      "productCount": 5
     },
     {
       "slug": "cadeiras",
       "label": "Cadeiras",
       "url": "https://www.lojademoveismarilia.com.br/categoria/cadeiras",
       "description": "Encontre as melhores ofertas de Cadeiras com preços competitivos e frete para todo Brasil.",
-      "relatedGuides": [],
-      "productCount": 3
-    },
-    {
-      "slug": "moveis-para-estudantes",
-      "label": "Móveis para Estudantes",
-      "url": "https://www.lojademoveismarilia.com.br/categoria/moveis-para-estudantes",
-      "description": "Encontre as melhores ofertas de Móveis para Estudantes com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
       "productCount": 1
     },
@@ -736,12 +728,12 @@
     }
   ],
   "statistics": {
-    "totalCategories": 19,
+    "totalCategories": 18,
     "totalGuides": 52,
     "totalPages": 6,
-    "totalProducts": 189,
-    "generatedAt": "2026-08-11T02:48:11.595Z",
-    "lastUpdated": "2026-08-11T02:48:11.597Z"
+    "totalProducts": 169,
+    "generatedAt": "2026-08-11T15:30:26.975Z",
+    "lastUpdated": "2026-08-11T15:30:26.976Z"
   },
   "entities": {
     "materials": [
@@ -761,8 +753,7 @@
       "alumínio",
       "laminado",
       "suede",
-      "resina",
-      "melamina"
+      "resina"
     ],
     "environments": [
       "quarto",
@@ -772,8 +763,8 @@
       "home office",
       "escritório",
       "estudo",
-      "jardim",
-      "varanda"
+      "varanda",
+      "jardim"
     ],
     "types": [
       "guarda-roupa",
@@ -794,9 +785,7 @@
       "chaise",
       "sofá",
       "aparador",
-      "cadeira",
-      "balança",
-      "carrinho"
+      "cadeira"
     ],
     "brands": [
       "Panorama Móveis",
@@ -881,27 +870,10 @@
       "FD",
       "KASABELA Interiores",
       "Lyam Decor",
-      "Rodial",
       "Albatroz",
       "Bartira",
       "Jomátri Móveis",
       "LuvinCo",
-      "Maat Brand",
-      "Mamflex",
-      "SPR Confort",
-      "ClickForte",
-      "Deki",
-      "Cadeiras Inc",
-      "Bitlar",
-      "Província",
-      "ENR Móveis",
-      "Blue Moby",
-      "Kappesberg",
-      "Balaqui Decor",
-      "Qmovi",
-      "Panan",
-      "Made Marcs",
-      "Gelius",
       "NSY",
       "Python Fly",
       "Eagle Force",
@@ -913,13 +885,13 @@
       "Playstation",
       "DT3",
       "Albatroz Móveis",
+      "Gelius",
       "MX Móveis"
     ],
     "platforms": [
       "Shopee",
       "Mercado Livre",
-      "Site Oficial",
-      "shopee"
+      "Site Oficial"
     ],
     "colors": [
       "branco",
@@ -930,11 +902,9 @@
       "creme",
       "rosa",
       "azul",
-      "vermelho",
       "pinho",
       "prata",
-      "dourado",
-      "verde"
+      "dourado"
     ],
     "styles": [
       "moderno",
@@ -958,9 +928,7 @@
       "reclinável",
       "impermeável",
       "ajustável",
-      "com usb",
-      "com iluminação",
-      "giratório"
+      "com usb"
     ],
     "problems": [
       "versátil",
@@ -970,7 +938,6 @@
       "para espaços compactos",
       "economia de espaço",
       "personalizável",
-      "sob medida",
       "montagem simples"
     ],
     "priceRanges": [],
@@ -1279,23 +1246,6 @@
         "Cadeiras sob medida",
         "o que é Cadeiras",
         "qual o melhor Cadeiras"
-      ],
-      "relatedGuides": []
-    },
-    {
-      "category": "moveis-para-estudantes",
-      "label": "Móveis para Estudantes",
-      "searchTerms": [
-        "comprar Móveis para Estudantes",
-        "melhor Móveis para Estudantes",
-        "Móveis para Estudantes barato",
-        "Móveis para Estudantes preço",
-        "como escolher Móveis para Estudantes",
-        "dicas de Móveis para Estudantes",
-        "Móveis para Estudantes para apartamento pequeno",
-        "Móveis para Estudantes sob medida",
-        "o que é Móveis para Estudantes",
-        "qual o melhor Móveis para Estudantes"
       ],
       "relatedGuides": []
     },
@@ -2263,14 +2213,6 @@
       "depth": "baixo"
     },
     {
-      "category": "moveis-para-estudantes",
-      "label": "Móveis para Estudantes",
-      "guides": [],
-      "guideTitles": [],
-      "count": 0,
-      "depth": "baixo"
-    },
-    {
       "category": "gamer",
       "label": "Móveis Gamer",
       "guides": [],
@@ -2437,16 +2379,6 @@
       "gap": "Sem guias",
       "impact": "alto",
       "suggestion": "Criar guia definitivo sobre 'Cadeiras' abordando tipos, materiais, preços e dicas de compra",
-      "estimatedEffort": "médio",
-      "priority": "alta"
-    },
-    {
-      "type": "missing-guide",
-      "category": "moveis-para-estudantes",
-      "label": "Móveis para Estudantes",
-      "gap": "Sem guias",
-      "impact": "alto",
-      "suggestion": "Criar guia definitivo sobre 'Móveis para Estudantes' abordando tipos, materiais, preços e dicas de compra",
       "estimatedEffort": "médio",
       "priority": "alta"
     },
