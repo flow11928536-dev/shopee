@@ -58,13 +58,14 @@ export interface Product {
   alt: string;
   rating: number;
   reviews: number;
-  discount: number;
-  price: number;
-  originalPrice: number;
+  discount: number | null; 
+  price: number   | null; 
+  originalPrice: number | null; 
   badge: string;
   platform: AffiliatePlatform;
   affiliateLink: string;
-  shopeeLink?: string;           // ✅ JÁ ESTAVA CORRETO
+  shopeeLink?: string;
+  imageHover?: string;            // ✅ JÁ ESTAVA CORRETO
   descricao: string;
   marca: string;
   keywords: string[];

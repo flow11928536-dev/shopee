@@ -81,60 +81,72 @@ const getShopeeLink = (produto: Product): string => {
 // JSON-LD Otimizado: Article + Breadcrumb + FAQ + Product (com offers)
 // ---------------------------------------------------------------------------
 
-// ✅ Gera Product schema dinamicamente para cada produto com badge ou rating
-const buildProductSchemas = (produtos: Product[]) =>
-  produtos
-    .filter((p) => p.affiliateLink && p.price > 0)
-    .map((produto) => {
-      const productSchema: Record<string, unknown> = {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "@id": `${SITE.url}/moveis-gamer#product-${produto.slug}`,
-        name: produto.name,
-        image: `${SITE.url}${produto.displayImage || produto.imageFile}`,
-        description:
-          produto.descricao?.replace(/<[^>]*>/g, "").slice(0, 300) ||
-          `${produto.name} - disponível no Mercado Livre e Shopee com frete grátis.`,
-        brand: { "@type": "Brand", name: "Móveis Marília" },
-        offers: [
-          {
-            "@type": "Offer",
-            url: addUtmParams(produto.affiliateLink, "moveis_marilia", "blog", `compra_mercado_livre`),
-            priceCurrency: "BRL",
-            price: produto.price.toFixed(2),
-            availability: "https://schema.org/InStock",
-            itemCondition: "https://schema.org/NewCondition",
-            seller: { "@type": "Organization", name: "Mercado Livre" },
-          },
-        ],
-      };
+// ✅ Gera Product schema dinamicamente para cada produto com badge ou rating.
+// Reestruturado para loop com verificação explícita de null, pois o
+// .filter() não estreia o tipo de `price` no .map() encadeado (TS não
+// propaga a verificação entre callbacks), o que causava o erro
+// 'produto.price is possibly null' ao chamar produto.price.toFixed(2).
+const buildProductSchemas = (produtos: Product[]): Record<string, unknown>[] => {
+  const schemas: Record<string, unknown>[] = [];
 
-      // Adiciona oferta da Shopee se existir
-      if (produto.shopeeLink) {
-        (productSchema.offers as Array<Record<string, unknown>>).push({
+  for (const produto of produtos) {
+    if (!produto.affiliateLink || produto.affiliateLink.trim() === "") continue;
+    // Verificação explícita de null antes de qualquer operação matemática
+    if (produto.price === null || produto.price <= 0) continue;
+
+    const price = produto.price; // estreitado para number
+    const productSchema: Record<string, unknown> = {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "@id": `${SITE.url}/moveis-gamer#product-${produto.slug}`,
+      name: produto.name,
+      image: `${SITE.url}${produto.displayImage || produto.imageFile}`,
+      description:
+        produto.descricao?.replace(/<[^>]*>/g, "").slice(0, 300) ||
+        `${produto.name} - disponível no Mercado Livre e Shopee com frete grátis.`,
+      brand: { "@type": "Brand", name: "Móveis Marília" },
+      offers: [
+        {
           "@type": "Offer",
-          url: addUtmParams(produto.shopeeLink, "moveis_marilia", "blog", `compra_shopee`),
+          url: addUtmParams(produto.affiliateLink, "moveis_marilia", "blog", `compra_mercado_livre`),
           priceCurrency: "BRL",
-          price: produto.price.toFixed(2),
+          price: price.toFixed(2),
           availability: "https://schema.org/InStock",
           itemCondition: "https://schema.org/NewCondition",
-          seller: { "@type": "Organization", name: "Shopee" },
-        });
-      }
+          seller: { "@type": "Organization", name: "Mercado Livre" },
+        },
+      ],
+    };
 
-      // Adiciona aggregateRating se houver avaliação
-      if (produto.rating && produto.reviews) {
-        productSchema.aggregateRating = {
-          "@type": "AggregateRating",
-          ratingValue: produto.rating,
-          reviewCount: produto.reviews,
-          bestRating: "5",
-          worstRating: "1",
-        };
-      }
+    // Adiciona oferta da Shopee se existir
+    if (produto.shopeeLink) {
+      (productSchema.offers as Array<Record<string, unknown>>).push({
+        "@type": "Offer",
+        url: addUtmParams(produto.shopeeLink, "moveis_marilia", "blog", `compra_shopee`),
+        priceCurrency: "BRL",
+        price: price.toFixed(2),
+        availability: "https://schema.org/InStock",
+        itemCondition: "https://schema.org/NewCondition",
+        seller: { "@type": "Organization", name: "Shopee" },
+      });
+    }
 
-      return productSchema;
-    });
+    // Adiciona aggregateRating se houver avaliação
+    if (produto.rating && produto.reviews) {
+      productSchema.aggregateRating = {
+        "@type": "AggregateRating",
+        ratingValue: produto.rating,
+        reviewCount: produto.reviews,
+        bestRating: "5",
+        worstRating: "1",
+      };
+    }
+
+    schemas.push(productSchema);
+  }
+
+  return schemas;
+};
 
 // Schema fixo da página (Article, Breadcrumb, FAQ, ItemList)
 const buildBaseSchemas = () => [
@@ -391,7 +403,8 @@ function DestaqueCard({ produto }: { produto: Product }) {
           {produto.name}
         </h3>
         <div className="text-3xl font-extrabold text-cyan-400 mb-4 font-mono">
-          R$ {produto.price.toFixed(2)}
+          {/* ✅ Verificação explícita de null antes de toFixed */}
+          {produto.price !== null ? `R$ ${produto.price.toFixed(2)}` : "Preço sob consulta"}
           {produto.originalPrice && (
             <span className="text-lg text-slate-500 line-through ml-2">
               R$ {produto.originalPrice.toFixed(2)}
@@ -552,6 +565,7 @@ export default function MoveisGamerPage() {
   const setupBaratoSlugs = todosProdutosGamer
     .filter(
       (p) =>
+        p.price !== null &&
         p.price <= 500 &&
         (p.slug.includes("cadeira") || p.slug.includes("mesa") || p.slug.includes("estante"))
     )
@@ -757,7 +771,7 @@ export default function MoveisGamerPage() {
                     nome={produto.name}
                     imagem={produto.displayImage || produto.imageFile}
                     alt={`${produto.name} - móvel gamer com design ergonômico para setup completo`}
-                    preco={`R$ ${produto.price.toFixed(2)}`}
+                    preco={produto.price !== null ? `R$ ${produto.price.toFixed(2)}` : "Preço sob consulta"}
                     linkMercadoLivre={produto.affiliateLink}
                     linkShopee={produto.shopeeLink}
                   />
@@ -881,7 +895,7 @@ export default function MoveisGamerPage() {
                         </h3>
                         <div className="mt-2">
                           <p className="text-2xl font-bold text-amber-400 font-mono">
-                            R$ {produto.price.toFixed(2)}
+                            {produto.price !== null ? `R$ ${produto.price.toFixed(2)}` : "Preço sob consulta"}
                           </p>
                           {produto.originalPrice && (
                             <p className="text-sm text-slate-500 line-through font-mono">

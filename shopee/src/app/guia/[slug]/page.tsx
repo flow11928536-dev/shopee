@@ -465,7 +465,7 @@ export default function GuidePage({ params }: Props) {
       <article className="mx-auto max-w-3xl space-y-12 px-4 py-12 sm:px-6">
         <TableOfContents blocks={guide.blocks} />
 
-        {guide.blocks.map((block, i) => {
+               {guide.blocks.map((block, i) => {
           if (block.type === "text") return <TextBlock key={i} block={block} />;
           if (block.type === "callout") return <Callout key={i} block={block} />;
           if (block.type === "video") return <VideoBlock key={i} block={block} />;
@@ -478,13 +478,12 @@ export default function GuidePage({ params }: Props) {
                   category={block.category}
                   slugs={block.slugs}
                   limit={block.limit}
-                  hidePrice={true}
-                  compact={true}
                 />
               </div>
             </div>
           );
         })}
+
 
         {guide.faq && guide.faq.length > 0 && (
           <section aria-labelledby="faq-heading">

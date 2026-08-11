@@ -12,8 +12,11 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
   const { slug, name, imageFile, alt, rating, reviews, discount, badge, platform, affiliateLink, marca, price, originalPrice } = product;
   const productUrl = `/confirmar-estoque/${slug}`;
   const maxParcelas = 12;
-  const taxaJuros = 1.092;
-  const valorParcela = (price * taxaJuros) / maxParcelas;
+const taxaJuros = 1.092;
+// ✅ Verifica null antes da operação aritmética e usa fallback 0
+const safePrice = price ?? 0;
+const valorParcela = (safePrice * taxaJuros) / maxParcelas;
+
 
   const cleanBadge = badge
    ?.replace("KIT ODONTO PREMIUM", "KIT ODONTO")
@@ -35,14 +38,14 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
           priority={priority}
         />
 
-        {/* BADGE DESCONTO - MINIMAL PRETO */}
-        {discount > 0 && (
-          <div className="absolute left-3 top-3">
-            <span className="inline-flex rounded-full bg-stone-900 px-2.5 py-1 text- font-medium tracking-wide text-white">
-              -{discount}%
-            </span>
-          </div>
-        )}
+       {/* BADGE DESCONTO - MINIMAL PRETO */}
+{discount !== null && discount > 0 && (
+  <div className="absolute left-3 top-3">
+    <span className="inline-flex rounded-full bg-stone-900 px-2.5 py-1 text- font-medium tracking-wide text-white">
+      -{discount}%
+    </span>
+  </div>
+)}
 
         
       </Link>
@@ -73,15 +76,19 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
           <span className="text- text-stone-500">({reviews})</span>
         </div>
 
-        {/* PREÇO - HIERARQUIA LIMPA */}
+               {/* PREÇO - HIERARQUIA LIMPA */}
         <div className="mt-auto pt-4">
           <div className="flex items-baseline gap-2">
-            <span className="text- font-semibold tracking-tight text-stone-900">{formatBRL(price)}</span>
-            {originalPrice > price && (
-              <span className="text- text-stone-400 line-through">{formatBRL(originalPrice)}</span>
+            <span className="text-base font-semibold tracking-tight text-stone-900">
+              {price !== null ? formatBRL(price) : "Preço sob consulta"}
+            </span>
+            {originalPrice !== null && originalPrice > 0 && (
+              <span className="text-sm line-through text-stone-500">
+                R$ {originalPrice.toFixed(2)}
+              </span>
             )}
           </div>
-          <p className="mt-1 text- leading-none text-stone-500">
+          <p className="mt-1 text-sm leading-none text-stone-500">
             {maxParcelas}x de {formatBRL(valorParcela)} 
           </p>
         </div>

@@ -30,12 +30,12 @@ function generateProductAnalysis(product: Product): {
   recommendation: string;
   tips: string[];
 } {
-  const pros = [];
-  const cons = [];
+  const pros: string[] = [];
+  const cons: string[] = [];
   let recommendation = "";
-  const tips = [];
+  const tips: string[] = [];
 
-  if (product.discount > 0) {
+  if (product.discount !== null && product.discount > 0) {
     pros.push(`Desconto de ${product.discount}% em relação ao preço original`);
   }
   if (product.rating >= 4.5) {
@@ -51,17 +51,18 @@ function generateProductAnalysis(product: Product): {
     pros.push(`Material resistente e durável (${product.descricao.match(/\b(MDF|MDP)\b/i)?.[0] || "MDF/MDP"})`);
   }
 
-  if (product.discount < 10) {
+  if (product.discount !== null && product.discount < 10) {
     cons.push("Desconto pequeno em relação ao preço original");
   }
   if (product.rating < 4.0) {
     cons.push(`Avaliação dos consumidores está abaixo da média (${product.rating.toFixed(1)})`);
   }
-  if (product.price > 1000) {
-    cons.push("Preço elevado, vale comparar com outras opções similares");
-  }
+  // ✅ Depois:
+if (product.price !== null && product.price > 1000) {
+  cons.push("Preço elevado, vale comparar com outras opções similares");
+}
 
-  if (product.rating >= 4.5 && product.discount > 20) {
+  if (product.rating >= 4.5 && product.discount !== null && product.discount > 20) {
     recommendation = `Este ${product.name} é uma excelente escolha para quem busca qualidade e bom preço. Com ${product.discount}% de desconto e avaliação ${product.rating.toFixed(1)}, é uma das melhores opções da categoria.`;
   } else if (product.rating >= 4.0) {
     recommendation = `O ${product.name} é uma boa opção, com avaliação positiva dos consumidores. Vale a pena considerar se atende às suas necessidades.`;
@@ -150,7 +151,7 @@ export default function ConfirmStockClient({ product }: Props) {
   return (
     <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-14" style={{ backgroundColor: "#EEEAE2" }}>
       <div
-        className="mb-4 flex items-center gap-2 text- uppercase tracking-[0.2em] sm:mb-6 sm:text-xs"
+        className="mb-4 flex items-center gap-2 text-xs uppercase tracking-[0.2em] sm:mb-6"
         style={{ fontFamily: FONT_MONO, color: BRASS }}
       >
         <span className="h-1.5 w-1.5 rounded-full" style={{ backgroundColor: BRASS }} />
@@ -162,7 +163,9 @@ export default function ConfirmStockClient({ product }: Props) {
         <div className="grid md:grid-cols-2">
           <div className="relative">
             <SmartImage src={product.displayImage} alt={product.alt} priority aspect="1 / 1" />
-            {product.discount > 0 && (
+            
+            {/* Verificação correta no JSX para evitar erros de nulo */}
+            {product.discount !== null && product.discount > 0 && (
               <span
                 className="absolute left-4 top-4 rounded-full px-3 py-1 text-xs font-bold text-white shadow"
                 style={{ backgroundColor: ROSE, fontFamily: FONT_MONO }}
@@ -174,7 +177,7 @@ export default function ConfirmStockClient({ product }: Props) {
 
           <div className="flex flex-col justify-center p-6 sm:p-8">
             <p
-              className="text- font-semibold uppercase tracking-[0.2em] sm:text-xs"
+              className="text-xs font-semibold uppercase tracking-[0.2em]"
               style={{ fontFamily: FONT_MONO, color: "#918466" }}
             >
               {product.marca}
@@ -192,7 +195,7 @@ export default function ConfirmStockClient({ product }: Props) {
             <a
               href={product.affiliateLink}
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-full px-6 py-3.5 text-sm font-bold text-white shadow-md transition-all hover:-translate-y-0.5 sm:w-auto sm:px-8"
               style={{ backgroundColor: INK }}
               aria-label={`Ver melhor oferta no ${product.platform}`}
@@ -224,7 +227,7 @@ export default function ConfirmStockClient({ product }: Props) {
         {/* Descrição completa (Markdown renderizado) */}
         <div className="p-6 sm:p-8" style={{ borderTop: `1px solid ${BORDER}` }}>
           <span
-            className="text- uppercase tracking-[0.2em] sm:text-xs"
+            className="text-xs uppercase tracking-[0.2em]"
             style={{ fontFamily: FONT_MONO, color: BRASS }}
           >
             Sobre este produto
@@ -237,7 +240,7 @@ export default function ConfirmStockClient({ product }: Props) {
         {/* Análise do produto */}
         <div className="p-6 sm:p-8" style={{ borderTop: `1px solid ${BORDER}` }}>
           <span
-            className="text- uppercase tracking-[0.2em] sm:text-xs"
+            className="text-xs uppercase tracking-[0.2em]"
             style={{ fontFamily: FONT_MONO, color: BRASS }}
           >
             Análise
@@ -252,7 +255,7 @@ export default function ConfirmStockClient({ product }: Props) {
                 Pontos positivos
               </h3>
               <ul className="mt-2 space-y-1.5 text-sm text-stone-600">
-                {(pros.length > 0? pros : ["Produto bem avaliado pelos consumidores"]).map((p, i) => (
+                {(pros.length > 0 ? pros : ["Produto bem avaliado pelos consumidores"]).map((p, i) => (
                   <li key={i} className="flex gap-2">
                     <span className="mt-0.5 shrink-0" style={{ color: SAGE }}>
                       ✓
@@ -268,12 +271,12 @@ export default function ConfirmStockClient({ product }: Props) {
               </h3>
               <ul className="mt-2 space-y-1.5 text-sm text-stone-600">
                 {(cons.length > 0
-                 ? cons
+                  ? cons
                   : ["Verifique as especificações para garantir que atende às suas necessidades"]
                 ).map((c, i) => (
                   <li key={i} className="flex gap-2">
                     <span className="mt-0.5 shrink-0" style={{ color: ROSE }}>
-                     !
+                      !
                     </span>
                     {c}
                   </li>
@@ -305,7 +308,7 @@ export default function ConfirmStockClient({ product }: Props) {
                     style={{ backgroundColor: SURFACE }}
                   >
                     <span
-                      className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text- font-medium text-white"
+                      className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-xs font-medium text-white"
                       style={{ backgroundColor: INK, fontFamily: FONT_MONO }}
                     >
                       {i + 1}
@@ -321,7 +324,7 @@ export default function ConfirmStockClient({ product }: Props) {
         {/* FAQ */}
         <div className="p-6 sm:p-8" style={{ borderTop: `1px solid ${BORDER}` }}>
           <span
-            className="text- uppercase tracking-[0.2em] sm:text-xs"
+            className="text-xs uppercase tracking-[0.2em]"
             style={{ fontFamily: FONT_MONO, color: BRASS }}
           >
             Dúvidas
@@ -345,19 +348,19 @@ export default function ConfirmStockClient({ product }: Props) {
               <a
                 href={product.affiliateLink}
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full px-8 py-3.5 text-sm font-bold text-white shadow-md transition-all hover:-translate-y-0.5"
                 style={{ backgroundColor: INK }}
-                aria-label={`Ver oferta  ${product.platform}`}
+                aria-label={`Ver oferta no ${product.platform}`}
               >
-                Ver oferta  {product.platform}
+                Ver oferta no {product.platform}
                 <svg className="h-4 w-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={2}>
                   <path d="M4 10h12M11 5l5 5-5 5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </a>
             </div>
 
-            <p className="mt-4 text- text-stone-500">
+            <p className="mt-4 text-xs text-stone-500">
               Este é um link de afiliado. Ao comprar através dele, o site pode receber uma pequena comissão, sem
               custo adicional para você.
             </p>

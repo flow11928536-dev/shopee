@@ -1,167 +1,237 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
-import type { ProductGridProps } from "@/types";
-import {
-  getProductsByCategory,
-  getProductsByCategoryInterleaved,
-  getProductsBySlugs,
-} from "@/data/products";
-import ProductCard from "./ProductCard";
-import StarRating from "./StarRating";
+import { memo, useState, useCallback } from 'react';
+import Link from 'next/link';
+import { Star, Heart } from 'lucide-react';
+import { products as allProducts, getProductsBySlugs } from '../data/products';
+import type { Product } from '../types';
 
-interface ExtraGridProps {
-  gridClassName?: string;
-  loadMore?: boolean;
-  pageSize?: number;
+interface ProductGridProps {
+  products?: Product[];
+  slugs?: string[];
+  category?: string | string[];
+  limit?: number;
+  title?: string;
+  subtitle?: string;
   kicker?: string;
-  hidePrice?: boolean;
-  compact?: boolean;
+  gridClassName?: string;
 }
 
-function ProductCardCompactGuide({ product }: { product: any }) {
+// ============================================================
+// CARD INDIVIDUAL COM HOVER IMAGE SWAP
+// ============================================================
+const ProductCard = memo(function ProductCard({
+  product,
+  isFavorite,
+  onToggleFavorite,
+}: {
+  product: Product;
+  isFavorite: boolean;
+  onToggleFavorite: (id: string) => void;
+}) {
+  const imagePath = product.displayImage || product.imageFile;
+  const hoverPath = product.imageHover;
+
   return (
-    <Link
-      href={`/confirmar-estoque/${product.slug}`}
-      className="group flex flex-col overflow-hidden rounded-2xl border border-stone-200 bg-white transition-all hover:-translate-y-0.5 hover:shadow-md"
+    <article
+      className="group relative bg-white rounded-lg border border-stone-200 transition-all duration-300 hover:border-stone-300 hover:shadow-lg overflow-hidden"
+      itemScope
+      itemType="https://schema.org/Product"
     >
-      <div className="relative aspect-square w-full overflow-hidden bg-stone-50">
-        <Image
-          src={product.displayImage || product.imageFile}
-          alt={product.alt || product.name}
-          fill
-          className="object-contain p-2 transition-transform group-hover:scale-105"
-          sizes="(max-width: 640px) 50vw, 20vw"
-        />
+      {/* BADGE + DESCONTO */}
+      <div className="absolute z-10 top-2 left-2 flex flex-col gap-1">
         {product.badge && (
-          <span className="absolute left-2 top-2 rounded-full bg-stone-900 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider text-white">
+          <span className="bg-[#0F0E0D] text-white text-[8px] sm:text-[10px] font-semibold px-2 py-0.5 rounded uppercase tracking-wider">
             {product.badge}
           </span>
         )}
+        {product.discount ? (
+          <span className="bg-[#A9701F] text-white text-[8px] sm:text-[10px] font-bold px-2 py-0.5 rounded">
+            -{product.discount}%
+          </span>
+        ) : null}
       </div>
-      <div className="flex flex-1 flex-col p-3">
-        <p className="text-[10px] uppercase tracking-wider text-stone-400 line-clamp-1">{product.marca}</p>
-        <h3 className="mt-0.5 line-clamp-2 text-[13px] font-medium leading-tight text-stone-800 group-hover:text-stone-950">
+
+      {/* FAVORITO */}
+      <button
+        onClick={() => onToggleFavorite(product.id)}
+        className="absolute z-10 top-2 right-2 w-6 h-6 sm:w-8 sm:h-8 flex items-center justify-center bg-white/80 backdrop-blur-sm rounded-full hover:bg-white transition-all"
+        aria-label={isFavorite ? `Remover ${product.name} dos favoritos` : `Adicionar ${product.name} aos favoritos`}
+        aria-pressed={isFavorite}
+      >
+        <Heart
+          size={14}
+          className={`transition-all ${isFavorite ? 'fill-red-500 text-red-500' : 'text-stone-400'}`}
+        />
+      </button>
+
+      {/* IMAGEM COM HOVER SWAP */}
+      <Link
+        href={`/produto/${product.slug}`}
+        className="block relative w-full overflow-hidden bg-stone-50"
+        style={{ aspectRatio: '1 / 1' }}
+        aria-label={`Ver oferta de ${product.name}`}
+      >
+        {/* IMAGEM PRINCIPAL */}
+        <img
+          src={imagePath}
+          alt={product.alt || product.name}
+          loading="lazy"
+          className={`absolute inset-0 w-full h-full object-contain p-2 sm:p-6 transition-opacity duration-500 ${
+            hoverPath ? 'group-hover:opacity-0' : 'group-hover:opacity-90'
+          }`}
+        />
+
+        {/* IMAGEM HOVER */}
+        {hoverPath && (
+          <img
+            src={hoverPath}
+            alt={`${product.alt || product.name} - segundo ângulo`}
+            loading="lazy"
+            className="absolute inset-0 w-full h-full object-contain p-2 sm:p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+          />
+        )}
+      </Link>
+
+      {/* INFO */}
+      <div className="p-2 sm:p-4 border-t border-stone-100">
+        {/* RATING */}
+        <div className="flex items-center gap-1 mb-1 sm:mb-2">
+          <Star size={10} className="text-amber-400 fill-amber-400 sm:w-3 sm:h-3" />
+          <span className="text-[8px] sm:text-xs font-bold text-stone-900 ml-1">
+            {product.rating}
+          </span>
+          <span className="text-[8px] sm:text-xs text-stone-400">
+            ({product.reviews})
+          </span>
+        </div>
+
+        {/* NOME */}
+        <h3
+          className="text-[10px] sm:text-sm font-medium text-stone-800 line-clamp-2 mb-2 min-h-[2.5em] sm:min-h-[2.5em]"
+          itemProp="name"
+        >
           {product.name}
         </h3>
-        <div className="mt-1.5">
-          <StarRating rating={product.rating} reviews={product.reviews} size="sm" />
-        </div>
-        <div className="mt-2 flex items-center gap-1 text-[11px] font-semibold text-stone-900">
-          Ver oferta
-          <svg className="h-3 w-3" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={2}>
-            <path d="M4 10h12M11 5l5 5-5 5" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
+
+        {/* CTA — dark, profissional */}
+        {product.affiliateLink ? (
+          <a
+            href={product.affiliateLink}
+            target="_blank"
+            rel="sponsored noopener noreferrer"
+            aria-label={`Aproveitar oferta de ${product.name}`}
+            className="block w-full mt-1 sm:mt-2"
+          >
+            <button className="w-full py-2 sm:py-2.5 text-[10px] sm:text-xs font-semibold uppercase tracking-wider bg-[#0F0E0D] text-white rounded-lg transition-all duration-300 hover:bg-[#A9701F] active:scale-95">
+              Ver Oferta
+            </button>
+          </a>
+        ) : (
+          <Link
+            href={`/produto/${product.slug}`}
+            aria-label={`Ver detalhes de ${product.name}`}
+            className="block w-full mt-1 sm:mt-2"
+          >
+            <button className="w-full py-2 sm:py-2.5 text-[10px] sm:text-xs font-semibold uppercase tracking-wider bg-[#0F0E0D] text-white rounded-lg transition-all duration-300 hover:bg-[#A9701F] active:scale-95">
+              Ver Produto
+            </button>
+          </Link>
+        )}
+
+        <div className="text-stone-500 text-[8px] sm:text-[10px] font-medium mt-1 sm:mt-2 text-center">
         </div>
       </div>
-    </Link>
+    </article>
   );
-}
+});
 
+// ============================================================
+// GRID PRINCIPAL
+// ============================================================
 export default function ProductGrid({
-  category,
+  products: inputProducts,
   slugs,
+  category,
   limit,
   title,
   subtitle,
   kicker,
-  priorityFirst = false,
-  gridClassName = "grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5",
-  products: productsProp,
-  loadMore = false,
-  pageSize = 24,
-  hidePrice = false,
-  compact = false,
-}: ProductGridProps & ExtraGridProps) {
-  const allProducts = productsProp
-    ? productsProp
-    : slugs
-      ? getProductsBySlugs(slugs)
-      : Array.isArray(category)
-        ? getProductsByCategoryInterleaved(category)
-        : getProductsByCategory(category);
+  gridClassName,
+  
+}: ProductGridProps) {
+  const [favorites, setFavorites] = useState<string[]>([]);
 
-  const [visibleCount, setVisibleCount] = useState(
-    loadMore ? pageSize : limit ?? allProducts.length
-  );
+  const toggleFavorite = useCallback((id: string) => {
+    setFavorites((prev) =>
+      prev.includes(id) ? prev.filter((f) => f !== id) : [...prev, id],
+    );
+  }, []);
 
-  const items = allProducts.slice(0, visibleCount);
-  const hasMore = loadMore && visibleCount < allProducts.length;
+  // Prioridade: slugs > products prop > allProducts
+  let displayProducts: Product[];
+  if (slugs && slugs.length > 0) {
+    displayProducts = getProductsBySlugs(slugs);
+  } else if (inputProducts) {
+    displayProducts = inputProducts;
+  } else {
+    displayProducts = allProducts ?? [];
+  }
+  if (category) {
+    const cats = Array.isArray(category) ? category : [category];
+    displayProducts = displayProducts.filter(
+      (p) =>
+        p.category === cats[0] ||
+        (p.mainCategory && cats.includes(p.mainCategory as any)) ||
+        (p.categories && p.categories.some((c: any) => cats.includes(c)))
+    );
+  }
+  if (limit) {
+    displayProducts = displayProducts.slice(0, limit);
+  }
 
-  if (items.length === 0) return null;
-
-  // Se for compact (uso nos guias), usa grid menor
-  const finalGridClass = compact 
-    ? "grid-cols-2 sm:grid-cols-3 gap-3" 
-    : gridClassName;
+  if (displayProducts.length === 0) {
+    return null;
+  }
 
   return (
     <section
-      aria-label={title ?? "Produtos"}
-      aria-labelledby={title ? `grid-title-${title.replace(/\s+/g, "-")}` : undefined}
-      className="w-full"
+      className={title ? "py-8 sm:py-16 px-2 sm:px-4 bg-white" : "bg-white"}
+      aria-labelledby={title ? "product-grid-title" : undefined}
     >
-      {(kicker || title || subtitle) && (
-        <header className="mb-4 flex flex-col justify-between border-b border-neutral-200 pb-3 sm:flex-row sm:items-end">
-          <div>
+      <div className="max-w-7xl mx-auto">
+        {title && (
+          <header className="text-center mb-8 sm:mb-12">
             {kicker && (
-              <span
-                className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#C5A880]"
-                style={{
-                  fontFamily:
-                    "'IBM Plex Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace",
-                }}
-              >
+              <p className="text-xs sm:text-sm font-semibold uppercase tracking-wider text-[#A9701F] mb-2">
                 {kicker}
-              </span>
+              </p>
             )}
-            {title && (
-              <h2
-                id={`grid-title-${title.replace(/\s+/g, "-")}`}
-                className={compact ? "mt-1 text-lg font-semibold tracking-tight text-[#1E1B18]" : "mt-1 text-2xl font-light tracking-tight text-[#1E1B18] sm:text-4xl"}
-                style={{
-                  fontFamily:
-                    "Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif",
-                }}
-              >
-                {title}
-              </h2>
+            <h2
+              id="product-grid-title"
+              className="text-2xl sm:text-4xl md:text-5xl font-bold text-stone-900 mb-4"
+            >
+              {title}
+            </h2>
+            {subtitle && (
+              <p className="text-stone-600 text-sm sm:text-lg max-w-2xl mx-auto">
+                {subtitle}
+              </p>
             )}
-          </div>
-          {subtitle && (
-            <p className="mt-1 text-xs text-neutral-400 sm:mt-0">{subtitle}</p>
-          )}
-        </header>
-      )}
+          </header>
+        )}
 
-      <div className={`grid ${finalGridClass}`}>
-        {items.map((product, index) => (
-          compact || hidePrice ? (
-            <ProductCardCompactGuide key={product.id} product={product} />
-          ) : (
+        <div className={`grid gap-2 sm:gap-6 ${gridClassName || "grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"}`}>
+          {displayProducts.map((product) => (
             <ProductCard
               key={product.id}
               product={product}
-              priority={priorityFirst && index === 0}
+              isFavorite={favorites.includes(product.id)}
+              onToggleFavorite={toggleFavorite}
             />
-          )
-        ))}
-      </div>
-
-      {hasMore && (
-        <div className="mt-10 flex justify-center">
-          <button
-            type="button"
-            onClick={() => setVisibleCount((count) => count + pageSize)}
-            className="inline-flex items-center gap-2 rounded-full border border-neutral-300 bg-white px-8 py-3 text-xs font-semibold uppercase tracking-wider text-[#1E1B18] transition-all duration-300 hover:border-[#C5A880] hover:bg-[#F4F1EC] active:scale-95"
-          >
-            Carregar mais produtos
-            <span className="text-[#C5A880]">↓</span>
-          </button>
+          ))}
         </div>
-      )}
+      </div>
     </section>
   );
 }

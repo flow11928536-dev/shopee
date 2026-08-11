@@ -109,6 +109,7 @@ export const products: Product[] = [
   name: "Guarda-Roupa Casal 8 Portas com Espelho Premium",
   imageFile: "/imagens/produtos/Guarda-roupa-Casal-Easy-Slim-8-Portas-Com-Espelho-Amendoa-Clean-Off-White.webp",
   displayImage: "/imagens/produtos/Guarda-roupa-Casal-Easy-Slim-8-Portas-Com-Espelho-Amendoa-Clean-Off-White.webp",
+  imageHover: "/imagens/produtos/guarda-roupa-casal-easy-slim-8-portas-com-espelho-amendoa-clean-off-whit.webp",
   alt: "Guarda-Roupa Casal 8 Portas com Espelho Premium — oferta Loja de Móveis Marília",
   rating: 4.8,
   reviews: 1234,
@@ -297,6 +298,7 @@ Aproveite o desconto de 35% e garanta já o seu Guarda-Roupa Casal 8 Portas com 
   name: "Guarda-roupa Casal Ripado com Espelhos 2 Portas e 4 Gavetas Suburban Gold Espresso Móveis",
   imageFile: "/imagens/produtos/Guarda-roupa-Casal-Ripado-com-Espelhos-2-Portas-e-4-Gavetas-Suburban-Gold-Espresso-Moveis.webp",
   displayImage: "/imagens/produtos/Guarda-roupa-Casal-Ripado-com-Espelhos-2-Portas-e-4-Gavetas-Suburban-Gold-Espresso-Moveis.webp",
+  imageHover: "/imagens/produtos/Guarda-roupa-Casal-Ripado-com-Espelhos-2-Portas-e-4-Gavetas-Suburban-Espresso-Moveis.webp",
   alt: "Guarda-roupa Casal Ripado com Espelhos 2 Portas e 4 Gavetas Suburban Gold Espresso Móveis — oferta Loja de Móveis Marília",
   rating: 4.6,
   reviews: 892,
@@ -1757,7 +1759,7 @@ Aproveite o desconto de 26% e garanta já o seu Armário Emilly Top Rustic com e
   mainCategory: "cozinha",
   name: "Armário de Cozinha Compacta 229cm Rustic Emilly Pop Madesa",
   imageFile: "/imagens/produtos/cozinha-madesa.webp",
-  displayImage: "/imagens/produtos/cozinha-madesa",
+  displayImage: "/imagens/produtos/cozinha-madesa.webp",
   alt: "Armário de Cozinha Compacta 229cm Rustic Emilly Pop Madesa — oferta Loja de Móveis Marília",
   rating: 4.7,
   reviews: 543,
@@ -25263,6 +25265,738 @@ A DT3 Heroica V2 não é apenas uma cadeira - é **um investimento em saúde, pr
     "Ajustes muitos detalhados podem exigir curva de aprendizado"
   ]
 },
+{
+  id: "p-imp-036",
+  slug: "penteadeira-camarim-sky-1-gaveta-albatroz",
+  category: "comodas",
+  mainCategory: "quarto",
+  name: "Penteadeira Camarim Sky 1 Gaveta com Espelho LED",
+  imageFile: "/imagens/produtos/penteadeira-camarim-sky-1-gaveta-albatroz.webp",
+  displayImage: "/imagens/produtos/penteadeira-camarim-sky-1-gaveta-albatroz.webp",
+  imageHover: "/imagens/produtos/penteadeira-camarim-imagem-h.webp",
+  alt: "Penteadeira Camarim Sky Albatroz Móveis com espelho iluminado por LED e 1 gaveta em Cinamomo/Off White",
+  rating: 5.0,
+  reviews: 5,
+  discount: 13,
+  price: 438.22,
+  originalPrice: 503.50,
+  badge: "⭐ 5.0 | 13 Vendidos",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/BSsmK7LhM",
+  descricao: `
+# Penteadeira Camarim Sky com Espelho e LED — Albatroz Móveis
+
+## O que é este produto?
+
+A Penteadeira Camarim Sky é um móvel versátil e moderno desenvolvido para criar um espaço funcional e elegante no seu quarto. Projetada pela renomada marca Albatroz Móveis, esta penteadeira combina design sofisticado com alta funcionalidade, oferecendo uma solução completa para organização de cosméticos, acessórios e itens de beleza.
+
+Com acabamento em Pintura UV na cor Cinamomo/Off White, o móvel apresenta um visual contemporâneo que se adapta a diferentes estilos de decoração. Sua estrutura é fabricada em MDP de alta qualidade (Medium Density Particleboard), garantindo durabilidade e resistência para o uso diário.
+
+## Por que este produto é diferente?
+
+O grande diferencial da Penteadeira Camarim Sky está em sua iluminação LED integrada. O espelho redondo é acompanhado por duas luminárias de LED que proporcionam uma iluminação perfeita para maquiagem e cuidados pessoais — um detalhe que faz toda a diferença na rotina de beleza.
+
+Além disso, o móvel oferece uma gaveta espaçosa com divisórias organizacionais, ideal para manter seus produtos sempre à mão e organizados. A porta lateral com prateleira interna amplia ainda mais a capacidade de armazenamento, permitindo guardar itens maiores como secadores e modeladores de cabelo.
+
+## Principais benefícios
+
+- **Iluminação LED Integrada:** Perfeita para maquiagem e skincare
+- **Organização Inteligente:** Gaveta com divisórias e porta lateral com prateleira
+- **Design Moderno:** Acabamento em Pintura UV com cores sofisticadas
+- **Espaço Otimizado:** Compacto mas funcional para quartos de todos os tamanhos
+- **Material Durável:** MDP de alta qualidade com pintura UV semi-brilho
+- **Fácil Manutenção:** Superfícies lisas que facilitam a limpeza
+- **Nacional:** Produto brasileiro com qualidade comprovada
+
+## Para quem é indicado?
+
+Este produto é perfeito para mulheres que desejam ter um espaço exclusivo para seus rituais de beleza no quarto. Seja para a maquiagem diária, a rotina de skincare ou simplesmente para organizar seus cosméticos com estilo, a Penteadeira Camarim Sky atende tanto iniciantes quanto entusiastas de beleza.
+
+É especialmente indicada para quem valoriza organização e praticidade, mas não abre mão de um design bonito e contemporâneo. O móvel também é excelente para espaços menores, pois otimiza o ambiente sem ocupar área excessiva.
+
+## Perguntas Frequentes
+
+**O que é este produto?**
+Uma penteadeira camarim com espelho e iluminação LED, fabricada em MDP pela Albatroz Móveis, com 1 gaveta organizadora e porta lateral com prateleira.
+
+**Para quem ele é indicado?**
+Para mulheres que desejam um espaço dedicado à beleza no quarto, com iluminação adequada e organização para cosméticos e acessórios.
+
+**Quais são os principais benefícios?**
+Iluminação LED perfeita para maquiagem, gaveta com divisórias organizacionais e porta lateral para itens maiores como secadores e modeladores.
+
+**O que diferencia este modelo?**
+A combinação de espelho redondo iluminado por LED com a porta lateral organizadora, oferecendo armazenamento versátil em um design compacto.
+
+**Qual é o material do produto?**
+O móvel é fabricado em MDP (Medium Density Particleboard) com acabamento em Pintura UV semi-brilho na cor Cinamomo/Off White.
+
+**Quais são as medidas do móvel?**
+A penteadeira tem 140 cm de altura, 91 cm de largura e 42 cm de profundidade, com peso de 27,7 kg.
+
+**É necessário montar o produto?**
+Sim, a montagem é necessária e possui alta complexidade. Recomenda-se contratar um montador especializado para garantir a instalação correta.
+
+**O produto acompanha lâmpadas?**
+Sim, a penteadeira acompanha 2 lâmpadas de LED já integradas ao espelho, prontas para uso.
+
+**Qual é a capacidade de peso suportada?**
+O móvel suporta até 18 kg no total, sendo 3 kg por gaveta e 5 kg por prateleira.
+
+**O produto tem garantia?**
+Sim, a Albatroz Móveis oferece 3 meses de garantia contra defeitos de fabricação.
+
+**O espelho tem iluminação?**
+Sim, o espelho redondo possui duas luminárias de LED integradas que proporcionam iluminação ideal para maquiagem.
+
+**Quais cores estão disponíveis?**
+A Penteadeira Camarim Sky está disponível na combinação Cinamomo/Off White (externo e interno).
+
+## Ficha Técnica
+
+| Especificação | Informação |
+|---------------|------------|
+| Marca | Albatroz Móveis |
+| Modelo | Sky |
+| Material Principal | MDP |
+| Acabamento | Pintura UV Semi-Brilho |
+| Cor | Cinamomo/Off White |
+| Altura | 140 cm |
+| Largura | 91 cm |
+| Profundidade | 42 cm |
+| Peso | 27,7 kg |
+| Capacidade Suportada | 18 kg |
+| Espelho | 1 (33x33 cm) |
+| Iluminação | 2 Lâmpadas LED |
+| Portas | 1 (tipo bater) |
+| Gavetas | 1 (com divisórias) |
+| Prateleiras | 1 (interna) |
+| Puxadores | Embutidos |
+| Corrediças | Metálica Telescópica |
+| Garantia | 3 meses |
+| Necessita Montagem | Sim (alta complexidade) |
+| Origem | Nacional |
+| Inclusos | 01 Camarim + Manual de Montagem |
+
+## Conclusão
+
+A Penteadeira Camarim Sky da Albatroz Móveis é a escolha certa para quem busca aliar funcionalidade, beleza e organização no quarto. Com seu design moderno em Cinamomo/Off White, iluminação LED estratégica e espaços inteligentes de armazenamento, ela se torna mais que um móvel — é um verdadeiro camarim pessoal.
+
+Invista na sua rotina de beleza com um produto que combina qualidade, durabilidade e estilo. Transforme seu quarto em um espaço ainda mais acolhedor e funcional com a Penteadeira Camarim Sky.
+`,
+  marca: "Albatroz Móveis",
+  keywords: [
+    "Penteadeira Camarim",
+    "Penteadeira com espelho",
+    "Penteadeira com LED",
+    "Penteadeira Albatroz Móveis",
+    "Camarim com iluminação",
+    "Penteadeira 1 gaveta",
+    "Móvel para quarto",
+    "Penteadeira moderna",
+    "Móvel para maquiagem",
+    "Penteadeira Cinamomo Off White"
+  ],
+  seoTitle: "Penteadeira Camarim com Espelho e LED | Sky Albatroz Móveis",
+  seoDescription: "Penteadeira Camarim Sky com espelho iluminado por LED, 1 gaveta com divisórias e porta lateral organizadora. Design moderno em cinamomo/off white. Perfeita para seu quarto."
+},
+{
+  id: "p-imp-037",
+  slug: "guarda-roupa-solteiro-armario-quarto-denver-madesa-2-pts-cor-espelho-branco",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda Roupa Solteiro Armário Quarto Denver Madesa 2 Portas Correr com Espelho Branco",
+  imageFile: "/imagens/produtos/guarda-roupa-solteiro-denver-madesa-branco.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-solteiro-denver-madesa-branco.webp",
+  alt: "Guarda roupa solteiro Denver Madesa com 2 portas de correr e espelho, branco fosco, 205x117x51 cm — armário moderno para quarto de solteiro",
+  rating: 4.6,
+  reviews: 1942,
+  discount: 34,
+  price: 620.49,
+  originalPrice: 941,
+  badge: "⭐ 4.6 | 1.9k+ Vendidos",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/15HS1tE",
+  caracteristicas: [
+    "2 portas de correr com deslizamento suave — otimiza espaço no quarto",
+    "1 cabideiro metálico grande (105 cm) para roupas longas",
+    "2 prateleiras e 4 nichos internos para organização",
+    "Espelho integrado que amplia o ambiente visualmente",
+    "Acabamento em MDP com Pintura Poliéster fosco — durável e ecológico",
+    "Medidas: 205 cm de altura × 117 cm de largura × 51 cm de profundidade"
+  ],
+  contras: [
+    "Montagem necessária — recomenda-se contratar profissional",
+    "Peso de 65 kg — requer ao menos 2 pessoas para instalação"
+  ],
+  recomendacao: "pessoas que buscam um armário moderno e espaçoso para quarto de solteiro, com organização inteligente e design clean",
+  descricao: `
+# Guarda Roupa Solteiro Armário Quarto Denver Madesa — Branco com Espelho
+
+## O que é este produto?
+
+O Guarda Roupa Denver da Madesa é um armário moderno projetado para otimizar o espaço em quartos de solteiro. Com design clean e acabamento em branco fosco, ele combina funcionalidade com estilo, oferecendo soluções inteligentes de organização para roupas, calçados e acessórios.
+
+Fabricado em MDP de alta qualidade com Pintura Poliéster exclusiva da Madesa, este móvel é resistente, durável e ecologicamente correto — perfeito para quem valoriza qualidade e sustentabilidade.
+
+## Por que este produto é diferente?
+
+O grande diferencial do Denver está em sua organização inteligente. Além das 2 portas de correr que economizam espaço, ele oferece:
+
+- **Cabideiro grande de metal resistente** (105 cm) para roupas longas
+- **2 prateleiras e 4 nichos** para separar roupas, calçados e acessórios
+- **Espelho integrado** que amplia visualmente o ambiente
+- **Portas de correr com trilhos de alumínio** — deslizamento suave e silencioso
+
+Tudo isso em um acabamento branco fosco que se adapta a qualquer decoração, desde minimalista até contemporânea.
+
+## Principais benefícios
+
+- **Economia de espaço:** Portas de correr otimizam o ambiente, ideal para quartos pequenos
+- **Organização completa:** Cabideiro, prateleiras e nichos para tudo o que você precisa
+- **Design moderno:** Acabamento branco fosco que never goes out of style
+- **Durabilidade garantida:** MDP com Pintura Poliéster — resistente a riscos e umidade
+- **Facilidade de limpeza:** Superfícies lisas que são fáceis de manter
+- **Ecológico:** Pintura Poliéster não agride o meio ambiente
+
+## Para quem é indicado?
+
+Este armário é perfeito para:
+
+- **Solteiros e universitários** que precisam de organização sem ocupar muito espaço
+- **Quartos de hóspedes** — design clean que combina com qualquer decoração
+- **Pessoas que valorizam praticidade** — tudo o que você precisa em um só lugar
+- **Quem busca durabilidade** — Madesa é marca conhecida pela qualidade
+
+## Perguntas Frequentes
+
+**Qual o tamanho do guarda roupa?**
+O Denver tem 205 cm de altura, 117 cm de largura e 51 cm de profundidade — ideal para quartos de solteiro.
+
+**As portas são de correr?**
+Sim, são 2 portas de correr com trilhos de alumínio, que deslizam suavemente e economizam espaço.
+
+**Ele vem com montagem?**
+Não, a Madesa não oferece serviço de montagem. O produto vem com manual e todas as ferragens necessárias.
+
+**Quantos cabideiros tem?**
+Tem 1 cabideiro metálico grande (105 cm) para roupas longas.
+
+**O espelho é resistente?**
+Sim, o espelho integrado é de boa qualidade e resistente ao uso diário.
+
+**Qual o peso do produto?**
+O guarda roupa pesa 65 kg — recomenda-se ao menos 2 pessoas para instalação.
+
+**Ele tem espaço para calçados?**
+Sim, os nichos internos são perfeitos para guardar sapatos e tênis.
+
+## Ficha Técnica
+
+| Especificação | Informação |
+|---------------|------------|
+| Marca | Madesa |
+| Linha | Denver |
+| Modelo | 1094091E |
+| Material | MDP (Medium Density Particleboard) |
+| Acabamento | Pintura Poliéster Fosco |
+| Cor | Branco |
+| Altura | 205 cm |
+| Largura | 117 cm |
+| Profundidade | 51 cm |
+| Peso | 65 kg |
+| Portas | 2 (de correr) |
+| Espelho | 1 (integrado) |
+| Cabideiros | 1 (metálico, 105 cm) |
+| Prateleiras | 2 |
+| Nichos | 4 |
+| Capacidade suportada | 15 kg |
+| Montagem | Requer montagem (manual incluso) |
+| Inclui | Manual de instruções, parafusos, chave Allen |
+| Garantia | 90 dias contra defeitos de fabricação |
+| Estilo | Moderno |
+| Origem | Nacional |
+
+## Conclusão
+
+O Guarda Roupa Solteiro Denver da Madesa é a escolha ideal para quem busca um armário moderno, espaçoso e bem organizado. Com seu design clean em branco fosco, ele se adapta a qualquer decoração, enquanto as portas de correr e a organização inteligente fazem dele um móvel prático para o dia a dia.
+
+Invista em qualidade e organização para o seu quarto — o Denver vai transformar seu espaço com estilo e funcionalidade.
+`,
+  marca: "Madesa",
+  keywords: [
+    "guarda roupa solteiro",
+    "armário quarto solteiro",
+    "guarda roupa madesa",
+    "armário denver madesa",
+    "guarda roupa 2 portas",
+    "armário com espelho",
+    "guarda roupa branco",
+    "armário madesa denver",
+    "guarda roupa moderno",
+    "armário para quarto",
+    "guarda roupa mdp",
+    "armário com portas de correr",
+    "guarda roupa com cabideiro"
+  ],
+  seoTitle: "Guarda Roupa Solteiro Armário Quarto Denver Madesa 2 Portas Correr com Espelho Branco",
+  seoDescription: "Armário moderno Madesa Denver para quarto de solteiro com 2 portas de correr, espelho integrado e organização inteligente. Branco fosco, MDP de alta qualidade. Economize espaço com design clean."
+},
+{
+  id: "p-imp-042",
+  slug: "armario-de-cozinha-de-parede-5-portas-2-gavetas-mx-moveis-marrocos-off-white",
+  category: "cozinhas",
+  mainCategory: "cozinha",
+  name: "Armário de Cozinha de Parede 5 Portas 2 Gavetas MX Móveis Marrocos/Off White",
+  imageFile: "/imagens/produtos/armario-de-cozinha-mx-moveis.webp",
+  displayImage: "/imagens/produtos/armario-de-cozinha-mx-moveis.webp",
+  imageHover: "/imagens/produtos/armario-de-cozinha-mx-moveis-h.webp",
+  alt: "Armário de cozinha de parede MX Móveis com 5 portas e 2 gavetas, acabamento marrocos/off white, design moderno com pés reguláveis",
+  rating: 4.9,
+  reviews: 876,
+  discount: null,
+  price: 719.90,
+  originalPrice: null,
+  badge: "⭐ 4.9 | 1mil+ Vendidos",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/4LITVUu6iG",
+  shopeeLink: "https://s.shopee.com.br/4LITVUu6iG",
+  caracteristicas: [
+    "5 portas mistas (bater e basculantes) com puxadores em MDF",
+    "2 gavetas internas com corrediças telescópicas metálicas",
+    "7 prateleiras e 3 nichos para organização completa",
+    "9 pés reguláveis em plástico para adaptação a diferentes pisos",
+    "Espaço dedicado para forno (36x54x38,1 cm)",
+    "Acabamento em MDP com pintura UV texturizada semi-brilho"
+  ],
+  contras: [
+    "Montagem necessária com grau médio de complexidade",
+    "Não acompanha tampo para cooktop ou pia - complemento necessário",
+    "Peso de 86 kg requer ao menos duas pessoas para instalação"
+  ],
+  recomendacao: "ideal para cozinhas compactas em apartamentos e casas pequenas que precisam de organização eficiente sem ocupar excesso de espaço",
+  descricao: `
+# Armário de Cozinha de Parede 5 Portas 2 Gavetas MX Móveis Marrocos/Off White
+
+## O que é este produto?
+
+O Armário de Cozinha de Parede da MX Móveis é um móvel projetado especificamente para otimizar o espaço em cozinhas pequenas e apartamentos. Com design moderno e acabamento em Marrocos/Off White, ele combina funcionalidade com estilo, oferecendo soluções inteligentes de organização para utensílios, panelas e alimentos.
+
+Fabricado em MDP de alta qualidade com pintura UV texturizada semi-brilho, este móvel é resistente, durável e perfeito para quem valoriza qualidade e praticidade no dia a dia.
+
+## Principais características
+
+Este armário apresenta uma estrutura completa com:
+
+- **5 portas mistas** (bater e basculantes) que proporcionam acesso fácil a diferentes itens
+- **2 gavetas internas** com corrediças telescópicas metálicas para pequenos utensílios
+- **7 prateleiras e 3 nichos** que criam múltiplos níveis de armazenamento
+- **9 pés reguláveis** em plástico que permitem adaptação a diferentes pisos e níveis
+- **Espaço dedicado para forno** com dimensões de 36x54x38,1 cm
+- **Acabamento texturizado** em Marrocos/Off White que combina com qualquer decoração
+
+## Como pode ser utilizado?
+
+Este armário de cozinha pode ser aplicado em diversos cenários:
+
+- Cozinhas compactas em apartamentos
+- Espaços reduzidos que precisam de organização eficiente
+- Cozinhas que requerem armazenamento para panelas, pratos e utensílios
+- Locais onde o espaço vertical é preferível ao horizontal
+- Cozinhas modernas com design clean e minimalista
+
+## Para quem é indicado?
+
+Este produto é perfeito para:
+
+- **Moradores de apartamentos** que buscam maximizar o espaço disponível
+- **Pessoas que valorizam organização** e precisam de múltiplos compartimentos
+- **Quem busca durabilidade** - MDP com pintura UV garante resistência
+- **Cozinhas com design contemporâneo** que combinam com o acabamento marrocos/off white
+- **Famílias pequenas** que precisam de armazenamento eficiente sem excesso de móveis
+
+## Pontos importantes antes da compra
+
+- A montagem requer conhecimento médio e é recomendada a contratação de profissional
+- O peso de 86 kg exige ao menos duas pessoas para instalação
+- Não acompanha tampo para cooktop ou pia - esses itens precisam ser adquiridos separadamente
+- As medidas exatas do móvel não foram fornecidas na fonte original
+- A garantia é de 90 dias contra defeitos de fabricação
+
+## Perguntas frequentes
+
+**O que é este produto?**
+Um armário de cozinha de parede com 5 portas, 2 gavetas e organização completa, fabricado em MDP pela MX Móveis.
+
+**Qual a marca e modelo?**
+Marca MX Móveis, modelo Sara.
+
+**Quais são as medidas?**
+As medidas exatas não foram fornecidas na fonte original.
+
+**Qual o material?**
+MDP (Medium Density Particleboard) com acabamento em pintura UV texturizada semi-brilho.
+
+**Quantas portas e gavetas tem?**
+5 portas (bater e basculantes) e 2 gavetas internas.
+
+**Precisa de montagem?**
+Sim, a montagem é necessária com grau médio de complexidade.
+
+**Acompanha tampo para pia?**
+Não, o produto não acompanha tampo para cooktop ou pia.
+
+**O que acompanha?**
+O armário acompanha kit de ferragens e manual de montagem.
+
+**Qual a garantia?**
+90 dias contra defeitos de fabricação.
+
+**Para quem é indicado?**
+Indicado para cozinhas compactas em apartamentos e casas pequenas.
+
+## Ficha técnica
+
+| Especificação | Informação |
+|---------------|------------|
+| Marca | MX Móveis |
+| Modelo | Sara |
+| Material | MDP (Medium Density Particleboard) |
+| Acabamento | Pintura UV Texturizada Semi-Brilho |
+| Cor | Marrocos/Off White |
+| Portas | 5 (bater e basculantes) |
+| Gavetas | 2 (com corrediças telescópicas) |
+| Prateleiras | 7 |
+| Nichos | 3 |
+| Pés | 9 (reguláveis em plástico) |
+| Espaço para forno | Sim (36x54x38,1 cm) |
+| Capacidade suportada | 3 kg por gaveta, 5 kg por prateleira |
+| Montagem | Requer montagem (grau médio) |
+| Inclui | Armário de cozinha, kit ferragens, manual de montagem |
+| Garantia | 90 dias contra defeitos de fabricação |
+| Estilo | Moderno |
+| Origem | Nacional |
+
+## Conclusão
+
+O Armário de Cozinha de Parede da MX Móveis representa uma solução inteligente para quem busca organizar sua cozinha de forma eficiente sem ocupar excesso de espaço. Com seu design moderno em Marrocos/Off White e múltiplos compartimentos, ele se adapta perfeitamente a cozinhas compactas e apartamentos.
+
+A combinação de portas mistas, gavetas e prateleiras oferece flexibilidade no armazenamento, enquanto os pés reguláveis garantem adaptação a diferentes pisos. Embora exija montagem profissional devido ao seu peso, o resultado final é um móvel durável e funcional que valoriza o espaço disponível.
+
+Invista em organização e praticidade para sua cozinha - este armário vai transformar seu ambiente com estilo e eficiência.
+`,
+  marca: "MX Móveis",
+  keywords: [
+    "armario de cozinha",
+    "armario de parede",
+    "armario de cozinha de parede",
+    "armario mx moveis",
+    "armario de cozinha 5 portas",
+    "armario cozinha com gavetas",
+    "armario marrocos off white",
+    "armario mx moveis sara",
+    "armario cozinha moderno",
+    "armario para cozinha",
+    "armario cozinha mdp",
+    "armario cozinha com portas"
+  ],
+  seoTitle: "Armário de Cozinha de Parede 5 Portas 2 Gavetas MX Móveis Marrocos/Off White",
+  seoDescription: "Armário de cozinha de parede MX Móveis com 5 portas, 2 gavetas e organização completa. Design moderno em marrocos/off white. Ideal para cozinhas compactas e apartamentos."
+},
+{
+  id: "p-imp-040",
+  slug: "guarda-roupa-casal-madesa-monaco-3-portas-correr-espelho-preto",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda Roupa Casal Madesa Mônaco 3 Portas Correr Espelho Preto",
+  imageFile: "/imagens/produtos/guarda-roupa-casal-madesa-monaco-preto.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-casal-madesa-monaco-preto.webp",
+  imageHover: "/imagens/produtos/guarda-roupa-casal-madesa-monaco-preto-h.webp",
+  alt: "Guarda roupa casal Madesa Mônaco com 3 portas de correr e espelho, preto, 205x170x46 cm — armário moderno para quarto de casal",
+  rating: 4.6,
+  reviews: 4537,
+  discount: 25,
+  price: 899.99,
+  originalPrice: 1199.99,
+  badge: "⭐ 4.6 | 4.5k+ Vendidos",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1y1sfS7",
+  shopeeLink: "https://s.shopee.com.br/xxxx", // Preencha se tiver link Shopee
+  caracteristicas: [
+    "3 portas de correr com uma porta espelhada — amplifica visualmente o ambiente",
+    "4 prateleiras e 7 nichos — organização completa para casal",
+    "1 cabideiro metálico grande — para roupas longas",
+    "Espaço para sapatos — nichos extras para calçados",
+    "Acabamento em MDP com pintura poliéster — durável e resistente",
+    "Medidas: 205 cm de altura × 170 cm de largura × 46 cm de profundidade"
+  ],
+  contras: [
+    "Montagem necessária — tempo estimado de 2 horas, recomenda-se profissional",
+    "Peso de 86 kg — requer ao menos 2 pessoas para instalação"
+  ],
+  recomendacao: "casais que buscam um armário espaçoso com organização inteligente, incluindo portas de correr e espelho, para quarto de casal",
+  descricao: `
+# Guarda Roupa Casal Madesa Mônaco 3 Portas Correr Espelho Preto
+
+## O que é este produto?
+
+O Guarda Roupa Casal Mônaco da Madesa é um armário moderno projetado para otimizar o espaço em quartos de casal. Com design elegante e acabamento em preto, ele combina funcionalidade com estilo, oferecendo soluções inteligentes de organização para roupas, calçados e acessórios de duas pessoas.
+
+Fabricado em MDP de alta qualidade com pintura poliéster de 7 camadas, este móvel é resistente, durável e perfeito para quem valoriza qualidade e design contemporâneo.
+
+## Por que este produto é diferente?
+
+O grande diferencial do Mônaco está em sua organização completa e design sofisticado:
+
+- **3 portas de correr com espelho** — uma porta é espelhada, conferindo amplitude visual ao quarto
+- **4 prateleiras e 7 nichos** — organização inteligente para casal, com espaço para tudo
+- **1 cabideiro metálico grande** — para roupas longas, com capacidade de até 20 kg
+- **Espaço para sapatos** — nichos extras para guardar calçados
+- **Acabamento em preto** — design moderno que combina com qualquer decoração
+
+Tudo isso em um design que se adapta a qualquer ambiente, desde minimalista até contemporâneo.
+
+## Principais benefícios
+
+- **Economia de espaço:** Portas de correr otimizam o ambiente, ideal para quartos pequenos
+- **Organização completa:** Prateleiras, nichos e cabideiro para tudo o que você precisa
+- **Design sofisticado:** Acabamento preto que nunca sai de moda
+- **Durabilidade garantida:** MDP com pintura poliéster — resistente a riscos e umidade
+- **Facilidade de limpeza:** Superfícies lisas que são fáceis de manter
+- **Garantia de fábrica:** 90 dias contra defeitos de fabricação
+
+## Para quem é indicado?
+
+Este armário é perfeito para:
+
+- **Casais** que precisam de organização sem ocupar muito espaço
+- **Quartos de casal** — design elegante que combina com qualquer decoração
+- **Pessoas que valorizam praticidade** — tudo o que você precisa em um só lugar
+- **Quem busca durabilidade** — Madesa é marca conhecida pela qualidade
+
+## Perguntas Frequentes
+
+**Qual o tamanho do guarda roupa?**
+O Mônaco tem 205 cm de altura, 170 cm de largura e 46 cm de profundidade — ideal para quartos de casal.
+
+**As portas são de correr?**
+Sim, são 3 portas de correr com trilhos de alumínio, que deslizam suavemente e economizam espaço.
+
+**Ele vem com montagem?**
+Não, a Madesa não oferece serviço de montagem. O produto vem com manual e todas as ferragens necessárias.
+
+**Quantas prateleiras tem?**
+Tem 4 prateleiras e 7 nichos para organização.
+
+**O espelho é resistente?**
+Sim, o espelho integrado é de boa qualidade e resistente ao uso diário.
+
+**Qual o peso do produto?**
+O guarda roupa pesa 86 kg — recomenda-se ao menos 2 pessoas para instalação.
+
+**Ele tem espaço para calçados?**
+Sim, os nichos extras são perfeitos para guardar sapatos e tênis.
+
+## Ficha Técnica
+
+| Especificação | Informação |
+|---------------|------------|
+| Marca | Madesa |
+| Linha | Mônaco |
+| Modelo | Mônaco |
+| Material | MDP (Medium Density Particleboard) |
+| Acabamento | Pintura Poliéster |
+| Cor | Preto |
+| Altura | 205 cm |
+| Largura | 170 cm |
+| Profundidade | 46 cm |
+| Peso | 86 kg |
+| Portas | 3 (de correr) |
+| Espelho | 1 (integrado) |
+| Prateleiras | 4 |
+| Nichos | 7 |
+| Cabideiros | 1 (metálico) |
+| Capacidade suportada | 20 kg |
+| Montagem | Requer montagem (tempo estimado: 2 horas) |
+| Inclui | Manual de instruções, parafusos, chave Allen |
+| Garantia | 90 dias contra defeitos de fabricação |
+| Estilo | Moderno |
+| Origem | Nacional |
+
+## Conclusão
+
+O Guarda Roupa Casal Madesa Mônaco é a escolha ideal para quem busca um armário moderno, espaçoso e bem organizado. Com seu design sofisticado em preto e organização inteligente, ele se adapta a qualquer decoração, enquanto as portas de correr e espaços para organização fazem dele um móvel prático para o dia a dia.
+
+Invista em qualidade e organização para o seu quarto de casal — o Mônaco vai transformar seu espaço com estilo e funcionalidade.
+`,
+  marca: "Madesa",
+  keywords: [
+    "guarda roupa casal",
+    "armário quarto casal",
+    "guarda roupa madesa",
+    "armário madesa monaco",
+    "guarda roupa 3 portas",
+    "armário com espelho",
+    "guarda roupa preto",
+    "armário madesa monaco",
+    "guarda roupa moderno",
+    "armário para quarto",
+    "guarda roupa mdp",
+    "armário com portas de correr",
+    "guarda roupa com espelho"
+  ],
+  seoTitle: "Guarda Roupa Casal Madesa Mônaco 3 Portas Correr Espelho Preto",
+  seoDescription: "Armário moderno Madesa Mônaco para quarto de casal com 3 portas de correr, espelho e organização completa. Preto, MDP de alta qualidade. Economize espaço com design sofisticado."
+},
+{
+  id: "p-imp-039",
+  slug: "guarda-roupa-solteiro-yescasa-com-espelho-2-portas-correr-2-gavetas-preto",
+  category: "guarda-roupas",
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Solteiro Yescasa com Espelho 2 Portas de Correr e 2 Gavetas Preto",
+  imageFile: "/imagens/produtos/guarda-roupa-solteiro-yescasa-preto.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-solteiro-yescasa-preto.webp",
+  imageHover: "/imagens/produtos/guarda-roupa-solteiro-yescasa-preto-h.webp",
+  alt: "Guarda roupa solteiro Yescasa com 2 portas de correr e espelho, 2 gavetas, preto Prime TX, 202x131x52 cm — armário moderno para quarto de solteiro",
+  rating: 4.6,
+  reviews: 868,
+  discount: 13,
+  price: 946.89,
+  originalPrice: 1094.99,
+  badge: "⭐ 4.6 | 1k+ Vendidos",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2JZYiVe",
+  shopeeLink: "https://s.shopee.com.br/xxxx", // Preencha se tiver link Shopee
+  caracteristicas: [
+    "2 portas de correr com espelho dividido em três painéis — amplifica visualmente o ambiente",
+    "2 gavetas internas com corrediças metálicas — espaço extra para organização",
+    "2 cabideiros em alumínio — para roupas longas e curtas",
+    "2 prateleiras internas — para otimizar o espaço de armazenamento",
+    "Acabamento em MDP com pintura UV texturizada — durável e resistente",
+    "Medidas: 202 cm de altura × 131 cm de largura × 52 cm de profundidade"
+  ],
+  contras: [
+    "Montagem necessária — tempo estimado de 2 horas, recomenda-se profissional",
+    "Peso de 92,95 kg — requer ao menos 2 pessoas para instalação"
+  ],
+  recomendacao: "pessoas que buscam um armário espaçoso com organização completa, incluindo gavetas e portas de correr, para quarto de solteiro",
+  descricao: `
+# Guarda-Roupa Solteiro Yescasa com Espelho 2 Portas de Correr e 2 Gavetas
+
+## O que é este produto?
+
+O Guarda-Roupa Solteiro Yescasa é um armário moderno projetado para otimizar o espaço em quartos de solteiro. Com design elegante e acabamento em Preto Prime TX, ele combina funcionalidade com estilo, oferecendo soluções inteligentes de organização para roupas, calçados e acessórios.
+
+Fabricado em MDP de alta qualidade com pintura UV texturizada, este móvel é resistente, durável e perfeito para quem valoriza qualidade e design contemporâneo.
+
+## Por que este produto é diferente?
+
+O grande diferencial deste guarda-roupa está em sua organização completa e design sofisticado:
+
+- **Portas de correr com espelho** — o espelho dividido em três painéis amplifica visualmente o ambiente, tornando o quarto mais amplo
+- **2 gavetas internas** — espaço extra para guardar roupas dobradas, caixas e outros itens
+- **2 cabideiros em alumínio** — para roupas longas e curtas, com capacidade de até 40 kg
+- **2 prateleiras internas** — para otimizar o espaço de armazenamento
+- **Acabamento texturizado** — Preto Prime TX que combina sofisticação com durabilidade
+
+Tudo isso em um design moderno que se adapta a qualquer decoração, desde minimalista até contemporânea.
+
+## Principais benefícios
+
+- **Economia de espaço:** Portas de correr otimizam o ambiente, ideal para quartos pequenos
+- **Organização completa:** Gavetas, cabideiros e prateleiras para tudo o que você precisa
+- **Design sofisticado:** Acabamento Preto Prime TX que nunca sai de moda
+- **Durabilidade garantida:** MDP com pintura UV — resistente a riscos e umidade
+- **Facilidade de limpeza:** Superfícies lisas que são fáceis de manter
+- **Garantia de fábrica:** 6 meses contra defeitos de fabricação
+
+## Para quem é indicado?
+
+Este armário é perfeito para:
+
+- **Solteiros e universitários** que precisam de organização sem ocupar muito espaço
+- **Quartos de hóspedes** — design elegante que combina com qualquer decoração
+- **Pessoas que valorizam praticidade** — tudo o que você precisa em um só lugar
+- **Quem busca durabilidade** — Yescasa é marca conhecida pela qualidade
+
+## Perguntas Frequentes
+
+**Qual o tamanho do guarda roupa?**
+O guarda-roupa tem 202 cm de altura, 131 cm de largura e 52 cm de profundidade — ideal para quartos de solteiro.
+
+**As portas são de correr?**
+Sim, são 2 portas de correr com trilhos de alumínio, que deslizam suavemente e economizam espaço.
+
+**Ele vem com montagem?**
+Não, a Yescasa não oferece serviço de montagem. O produto vem com manual e todas as ferragens necessárias.
+
+**Quantas gavetas tem?**
+Tem 2 gavetas internas com corrediças metálicas que deslizam suavemente.
+
+**O espelho é resistente?**
+Sim, o espelho dividido em três painéis é de boa qualidade e resistente ao uso diário.
+
+**Qual o peso do produto?**
+O guarda-roupa pesa 92,95 kg — recomenda-se ao menos 2 pessoas para instalação.
+
+**Ele tem espaço para calçados?**
+Sim, as prateleiras internas são perfeitas para guardar sapatos e tênis.
+
+## Ficha Técnica
+
+| Especificação | Informação |
+|---------------|------------|
+| Marca | Yescasa |
+| Linha | Peônia |
+| Modelo | Peônia |
+| Material | MDP (Medium Density Particleboard) |
+| Acabamento | Pintura UV Texturizada |
+| Cor | Preto Prime TX |
+| Altura | 202 cm |
+| Largura | 131 cm |
+| Profundidade | 52 cm |
+| Peso | 92,95 kg |
+| Portas | 2 (de correr) |
+| Espelho | 1 (dividido em 3 painéis) |
+| Gavetas | 2 (internas) |
+| Cabideiros | 2 (em alumínio) |
+| Prateleiras | 2 (internas) |
+| Capacidade suportada | 40 kg |
+| Montagem | Requer montagem (tempo estimado: 2 horas) |
+| Inclui | Manual de instruções, cavilhas, parafusos, pregos e porcas cilíndricas |
+| Garantia | 6 meses contra defeitos de fabricação |
+| Estilo | Moderno |
+| Origem | Nacional |
+
+## Conclusão
+
+O Guarda-Roupa Solteiro Yescasa é a escolha ideal para quem busca um armário moderno, espaçoso e bem organizado. Com seu design sofisticado em Preto Prime TX e espelho que amplifica o ambiente, ele se adapta a qualquer decoração, enquanto as portas de correr, gavetas e organização inteligente fazem dele um móvel prático para o dia a dia.
+
+Invista em qualidade e organização para o seu quarto — este guarda-roupa vai transformar seu espaço com estilo e funcionalidade.
+`,
+  marca: "Yescasa",
+  keywords: [
+    "guarda roupa solteiro",
+    "armário quarto solteiro",
+    "guarda roupa yescasa",
+    "armário peônia yescasa",
+    "guarda roupa 2 portas",
+    "armário com gavetas",
+    "guarda roupa preto",
+    "armário yescasa peônia",
+    "guarda roupa moderno",
+    "armário para quarto",
+    "guarda roupa mdp",
+    "armário com portas de correr",
+    "guarda roupa com espelho"
+  ],
+  seoTitle: "Guarda-Roupa Solteiro Yescasa com Espelho 2 Portas de Correr e 2 Gavetas Preto",
+  seoDescription: "Armário moderno Yescasa para quarto de solteiro com 2 portas de correr, 2 gavetas e espelho integrado. Preto Prime TX, MDP de alta qualidade. Economize espaço com design sofisticado."
+},
+
+
+
+
  // ← ÚLTIMO PRODUTO NÃO PRECISA DE VÍRGULA
 ];
 

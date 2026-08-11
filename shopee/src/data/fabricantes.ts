@@ -283,6 +283,19 @@ export const FABRICANTES: Fabricante[] = [
     destaque: "GAVETAS METÁLICAS",
     produtos: ["Guarda-roupa Casal"],
   },
+  {
+    slug: "carolina-baby",
+    nome: "Carolina Baby",
+    aliases: ["Carolina Baby", "Carolina"],
+    logo: "/logos/moveis-carolina-baby.webp",
+    site: "https://carolinababy.com.br",
+    cidade: "Ubá-MG",
+    categoria: "Móveis Infantis",
+    nota: "4.7",
+    desc: "Fundada em 1994 em Ubá (MG), referência nacional em móveis infantis. Pioneira em berços certificados pelo Inmetro. Prêmio Top Móbile.",
+    destaque: "BERÇO CERTIFICADO",
+    produtos: ["Berço", "Cômoda Infantil", "Guarda-roupa Bebê"],
+  },
 ];
 
 export function getFabricanteBySlug(slug: string): Fabricante | undefined {

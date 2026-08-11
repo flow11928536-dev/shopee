@@ -211,7 +211,7 @@ const productSchema = {
 };
 
 /* ============================================================
-   HOME PAGE PRINCIPAL - VERSÃO 2026 (BENTO + GLASS + FLUID)
+   HOME PAGE PRINCIPAL - VERSÃO 2026 (COMPACT & PROFESSIONAL)
    ============================================================ */
 export default function HomePage() {
   return (
@@ -229,28 +229,30 @@ export default function HomePage() {
       <main className="relative">
         <HeroSlider />
 
-        <div className="mx-auto max-w-[1400px] space-y-24 px-4 py-20 md:space-y-32 md:px-8 md:py-32">
-          
+        {/* ✅ Reduzido: py-20→py-8, space-y-24→space-y-10 */}
+        <div className="mx-auto max-w-[1400px] space-y-10 px-4 py-8 md:space-y-14 md:px-8 md:py-12">
+
           {/* ============================================================
                SEÇÃO 01: NAVEGAÇÃO POR AMBIENTE (BENTO GRID FOTOGRÁFICO)
                ============================================================ */}
           <section aria-label="Ambientes e Categorias" className="relative">
-            <div className="mb-12 flex flex-col gap-4 md:flex-row md:items-end md:justify-between animate-fade-up">
+            {/* ✅ Reduzido: mb-12→mb-6 */}
+            <div className="mb-6 flex flex-col gap-3 md:flex-row md:items-end md:justify-between animate-fade-up">
               <div>
                 <span className="text-xs font-semibold uppercase tracking-[0.2em] text-[#C5A880] font-mono">
                   Ambientes planejados
                 </span>
-                <h2 className="mt-4 text-4xl font-light tracking-tight text-[#1E1B18] font-serif sm:text-5xl md:text-6xl">
+                <h2 className="mt-2 text-3xl font-light tracking-tight text-[#1E1B18] font-serif sm:text-4xl md:text-5xl">
                   Encontre por <span className="italic font-normal">espaço</span>
                 </h2>
               </div>
-              <p className="max-w-sm text-base text-neutral-500 md:text-right">
+              <p className="max-w-sm text-sm text-neutral-500 md:text-right">
                 Linhas completas pensadas para otimizar espaço e elevar a estética do seu lar.
               </p>
             </div>
 
-            {/* Carrossel de Categorias */}
-            <div className="relative mb-6 rounded-3xl border border-neutral-200/50 bg-[#F4F1EC]/40 p-4 backdrop-blur-sm sm:p-6 md:p-8 md:mb-10 animate-fade-up" style={{ animationDelay: '0.1s' }}>
+            {/* ✅ Reduzido: p-4→p-3, mb-6→mb-4 */}
+            <div className="relative mb-4 rounded-2xl border border-neutral-200/50 bg-[#F4F1EC]/40 p-3 backdrop-blur-sm sm:p-4 md:p-5 md:mb-5 animate-fade-up" style={{ animationDelay: '0.1s' }}>
               <CategoryCarousel
                 items={allCategories.map((cat) => ({
                   slug: cat,
@@ -260,11 +262,11 @@ export default function HomePage() {
               />
             </div>
 
-            {/* Bento Grid Fotográfico */}
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:auto-rows-[280px] md:gap-6">
-              
+            {/* ✅ Reduzido: auto-rows 280→220, gap-4→gap-3 */}
+            <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:auto-rows-[220px] md:gap-4">
+
               {/* Card Grande - Esquerda */}
-              <Link href="/categoria/sofas" className="group relative flex h-[400px] w-full overflow-hidden rounded-3xl border border-neutral-200 md:col-span-2 md:row-span-2 md:h-full animate-fade-up" style={{ animationDelay: '0.2s' }}>
+              <Link href="/categoria/sofas" className="group relative flex h-[320px] w-full overflow-hidden rounded-2xl border border-neutral-200 md:col-span-2 md:row-span-2 md:h-full animate-fade-up" style={{ animationDelay: '0.2s' }}>
                 <Image
                   src="/banners/sofa-canto-luna-organico-265cm-bege-claro-celflex.webp"
                   alt="Sofás e Salas de Estar Premium"
@@ -274,12 +276,12 @@ export default function HomePage() {
                   priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
-                <div className="relative z-10 flex h-full flex-col justify-end p-8 md:p-12">
+                <div className="relative z-10 flex h-full flex-col justify-end p-6 md:p-10">
                   <span className="text-xs font-semibold uppercase tracking-[0.2em] text-[#C5A880] font-mono">Conforto & Design</span>
-                  <h3 className="mt-3 text-3xl font-light text-white font-serif md:text-5xl">Sofás & <span className="italic">Salas</span></h3>
-                  <p className="mt-2 max-w-sm text-sm text-white/80">Peças modulares, estofados premium e muito mais.</p>
-                  <span className="mt-6 inline-flex h-12 w-fit items-center gap-2 rounded-full bg-white px-6 text-xs font-semibold uppercase tracking-wider text-[#1E1B18] transition-all group-hover:gap-3 group-hover:bg-[#C5A880] font-mono">
-                    Ver Coleção 
+                  <h3 className="mt-2 text-2xl font-light text-white font-serif md:text-4xl">Sofás & <span className="italic">Salas</span></h3>
+                  <p className="mt-1 max-w-sm text-sm text-white/80">Peças modulares, estofados premium e muito mais.</p>
+                  <span className="mt-4 inline-flex h-10 w-fit items-center gap-2 rounded-full bg-white px-5 text-xs font-semibold uppercase tracking-wider text-[#1E1B18] transition-all group-hover:gap-3 group-hover:bg-[#C5A880] font-mono">
+                    Ver Coleção
                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
                       <path d="M1 7h12m0 0L7 1m6 6L7 13" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
@@ -288,7 +290,7 @@ export default function HomePage() {
               </Link>
 
               {/* Card Pequeno Top - Direita */}
-              <Link href="/categoria/cozinhas" className="group relative flex h-[280px] w-full overflow-hidden rounded-3xl border border-neutral-200 animate-fade-up" style={{ animationDelay: '0.3s' }}>
+              <Link href="/categoria/cozinhas" className="group relative flex h-[220px] w-full overflow-hidden rounded-2xl border border-neutral-200 animate-fade-up" style={{ animationDelay: '0.3s' }}>
                 <Image
                   src="/banners/cozinhas.avif"
                   alt="Cozinhas Planejadas"
@@ -297,14 +299,14 @@ export default function HomePage() {
                   className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
-                <div className="relative z-10 flex h-full flex-col justify-end p-6 md:p-8">
-                  <h3 className="text-2xl font-light text-white font-serif">Cozinhas</h3>
-                  <span className="mt-2 text-xs text-white/80 font-mono">Ver mais →</span>
+                <div className="relative z-10 flex h-full flex-col justify-end p-5 md:p-6">
+                  <h3 className="text-xl font-light text-white font-serif">Cozinhas</h3>
+                  <span className="mt-1 text-xs text-white/80 font-mono">Ver mais →</span>
                 </div>
               </Link>
 
               {/* Card Pequeno Bottom - Direita */}
-              <Link href="/categoria/guarda-roupas" className="group relative flex h-[280px] w-full overflow-hidden rounded-3xl border border-neutral-200 animate-fade-up" style={{ animationDelay: '0.4s' }}>
+              <Link href="/categoria/guarda-roupas" className="group relative flex h-[220px] w-full overflow-hidden rounded-2xl border border-neutral-200 animate-fade-up" style={{ animationDelay: '0.4s' }}>
                 <Image
                   src="/banners/quarto-completo_desk-400px.avif"
                   alt="Quartos Completos"
@@ -313,26 +315,27 @@ export default function HomePage() {
                   className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
-                <div className="relative z-10 flex h-full flex-col justify-end p-6 md:p-8">
-                  <h3 className="text-2xl font-light text-white font-serif">Quartos</h3>
-                  <span className="mt-2 text-xs text-white/80 font-mono">Ver mais →</span>
+                <div className="relative z-10 flex h-full flex-col justify-end p-5 md:p-6">
+                  <h3 className="text-xl font-light text-white font-serif">Quartos</h3>
+                  <span className="mt-1 text-xs text-white/80 font-mono">Ver mais →</span>
                 </div>
               </Link>
             </div>
           </section>
 
           {/* ============================================================
-               SEÇÃO 02: GRIDS DE PRODUTOS COM ANIMAÇÃO DE SCROLL
+               SEÇÃO 02: GRIDS DE PRODUTOS
+               ✅ Reduzido: space-y-24→space-y-8 entre os grids
                ============================================================ */}
-          <section className="space-y-24" aria-label="Produtos por categoria">
+          <section className="space-y-8" aria-label="Produtos por categoria">
             <div className="animate-fade-up">
               <ProductGrid
                 kicker="Conforto e Estilo"
                 title="Cabeceiras"
                 subtitle="Cabeceiras para todos os estilos de quarto"
                 category="cabeceiras"
-                limit={8}
-                gridClassName="grid-cols-2 gap-x-4 gap-y-10 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+                limit={15}
+                gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
               />
             </div>
 
@@ -342,8 +345,8 @@ export default function HomePage() {
                 title="Sofás"
                 subtitle="Sofás de canto, modulados e retos para todos os espaços"
                 category="sofas"
-                limit={8}
-                gridClassName="grid-cols-2 gap-x-4 gap-y-10 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+                limit={15}
+                gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
               />
             </div>
 
@@ -353,8 +356,8 @@ export default function HomePage() {
                 title="Cozinhas"
                 subtitle="Armários, balcões e conjuntos completos"
                 category="cozinhas"
-                limit={8}
-                gridClassName="grid-cols-2 gap-x-4 gap-y-10 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+                limit={15}
+                gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
               />
             </div>
 
@@ -364,8 +367,8 @@ export default function HomePage() {
                 title="Guarda-Roupas"
                 subtitle="Modelos de casal, solteiro e infantil"
                 category="guarda-roupas"
-                limit={8}
-                gridClassName="grid-cols-2 gap-x-4 gap-y-10 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+                limit={15}
+                gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
               />
             </div>
 
@@ -375,8 +378,8 @@ export default function HomePage() {
                 title="Painéis e Racks"
                 subtitle="Painéis para TV com LED, racks e estantes"
                 category="paineis"
-                limit={8}
-                gridClassName="grid-cols-2 gap-x-4 gap-y-10 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+                limit={15}
+                gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
               />
             </div>
 
@@ -386,27 +389,28 @@ export default function HomePage() {
                 title="Eletrodomésticos"
                 subtitle="Liquidificadores, micro-ondas, geladeiras, air fryers e ar condicionado"
                 category="eletrodomesticos"
-                limit={8}
-                gridClassName="grid-cols-2 gap-x-4 gap-y-10 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+                limit={15}
+                gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
               />
             </div>
           </section>
 
           {/* ============================================================
                SEÇÃO 03: SEO DE AUTORIDADE & INSTITUCIONAL (GLASS)
+               ✅ Reduzido: p-8→p-6, p-16→p-10, gap-10→gap-8
                ============================================================ */}
-          <section className="relative rounded-[2.5rem] border border-neutral-200/60 bg-white/30 p-8 backdrop-blur-md md:p-16 shadow-[0_8px_30px_rgb(0,0,0,0.04)] animate-fade-up">
-            <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-20">
+          <section className="relative rounded-[2rem] border border-neutral-200/60 bg-white/30 p-6 backdrop-blur-md md:p-10 shadow-[0_8px_30px_rgb(0,0,0,0.04)] animate-fade-up">
+            <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12">
               <div>
                 <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#C5A880] font-mono">Nossa Essência</span>
-                <h2 className="mt-4 text-4xl font-light leading-tight text-[#1E1B18] font-serif md:text-5xl">
+                <h2 className="mt-3 text-3xl font-light leading-tight text-[#1E1B18] font-serif md:text-4xl">
                   Curadoria de móveis em <span className="italic">Marília SP</span>
                 </h2>
-                <p className="mt-6 text-lg leading-relaxed text-neutral-600">
+                <p className="mt-4 text-base leading-relaxed text-neutral-600">
                   Acreditamos que design autoral e acessibilidade financeira andam de mãos dadas. Sem intermediários, conectamos você às melhores indústrias nacionais.
                 </p>
 
-                <div className="mt-8 space-y-4">
+                <div className="mt-6 space-y-3">
                   {[
                     { t: "Curadoria Rígida", d: "Testamos estrutura e materiais de cada fabricante.", color: "border-l-[#C5A880]" },
                     { t: "Logística Inteligente", d: "Entregas agendadas em Marília e municípios vizinhos.", color: "border-l-[#5E7A68]" },
@@ -414,9 +418,9 @@ export default function HomePage() {
                   ].map((diff) => (
                     <div
                       key={diff.t}
-                      className={`border-l-2 ${diff.color} bg-[#F4F1EC]/60 p-4 transition-all duration-300 hover:bg-[#F4F1EC] sm:p-5`}
+                      className={`border-l-2 ${diff.color} bg-[#F4F1EC]/60 p-3 transition-all duration-300 hover:bg-[#F4F1EC] sm:p-4`}
                     >
-                      <h4 className="text-base font-semibold text-[#1E1B18] sm:text-lg">{diff.t}</h4>
+                      <h4 className="text-sm font-semibold text-[#1E1B18] sm:text-base">{diff.t}</h4>
                       <p className="mt-1 text-sm text-neutral-500">{diff.d}</p>
                     </div>
                   ))}
@@ -424,24 +428,24 @@ export default function HomePage() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-light text-[#1E1B18] font-serif mb-6">Guia de Compra & <span className="italic">Dúvidas</span></h3>
-                <div className="space-y-4">
+                <h3 className="text-xl font-light text-[#1E1B18] font-serif mb-4">Guia de Compra & <span className="italic">Dúvidas</span></h3>
+                <div className="space-y-3">
                   {[
                     { q: "MDF ou MDP: qual a diferença?", a: "O MDF é homogêneo e denso, perfeito para cortes curvos e acabamentos em laca. O MDP possui camadas internas de maior espessura, oferecendo excelente resistência estrutural contra empenamentos e peso — ideal para bases, prateleiras e divisórias internas de armários." },
                     { q: "Qual o melhor sofá para salas compactas?", a: "Sofás retráteis compactos ou modelos com pés aparentes (que trazem leveza visual) são ótimos. Priorize modelos com profundidade fechada abaixo de 95cm e braços finos (de 10cm a 15cm) para maximizar a área útil de assento." },
                     { q: "Como funciona a política de frete grátis?", a: "Oferecemos frete gratuito para Marília-SP e condições altamente subsidiadas para cidades vizinhas (Bauru, Assis, Tupã, Ourinhos). A entrega é realizada por transportadoras parceiras especializadas no manuseio de móveis sensíveis." },
                     { q: "Os móveis possuem garantia?", a: "Sim. Todos os móveis de nossa curadoria contam com garantia legal de 90 dias, além da garantia estendida direto de fábrica que pode chegar a até 1 ano para defeitos estruturais e de fabricação." }
                   ].map((item) => (
-                    <details key={item.q} className="group rounded-2xl border border-neutral-200 bg-white/50 p-5 transition-all duration-300 open:border-[#C5A880] open:bg-white">
-                      <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-base font-medium text-[#1E1B18] sm:text-lg">
+                    <details key={item.q} className="group rounded-xl border border-neutral-200 bg-white/50 p-4 transition-all duration-300 open:border-[#C5A880] open:bg-white">
+                      <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-sm font-medium text-[#1E1B18] sm:text-base">
                         {item.q}
-                        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-neutral-300 text-[#1E1B18] transition-all duration-300 group-open:rotate-45 group-open:border-[#C5A880] group-open:bg-[#C5A880] group-open:text-white">
+                        <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-neutral-300 text-[#1E1B18] transition-all duration-300 group-open:rotate-45 group-open:border-[#C5A880] group-open:bg-[#C5A880] group-open:text-white">
                           <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
                             <path d="M6 1v10M1 6h10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
                           </svg>
                         </span>
                       </summary>
-                      <div className="mt-4 border-t border-neutral-100 pt-4 text-base leading-relaxed text-neutral-600">
+                      <div className="mt-3 border-t border-neutral-100 pt-3 text-sm leading-relaxed text-neutral-600">
                         {item.a}
                       </div>
                     </details>
@@ -453,34 +457,35 @@ export default function HomePage() {
 
           {/* ============================================================
                SEÇÃO 04: LOGÍSTICA LOCAL
+               ✅ Reduzido: p-8→p-6, p-16→p-10, mt-10→mt-6
                ============================================================ */}
-          <section className="rounded-3xl border border-neutral-200 bg-[#F4F1EC]/40 p-8 md:p-12 lg:p-16 animate-fade-up">
-            <h3 className="text-center text-3xl font-light text-[#1E1B18] font-serif sm:text-4xl md:text-5xl">
+          <section className="rounded-2xl border border-neutral-200 bg-[#F4F1EC]/40 p-6 md:p-10 animate-fade-up">
+            <h3 className="text-center text-2xl font-light text-[#1E1B18] font-serif sm:text-3xl md:text-4xl">
               Logística Simplificada para <span className="italic font-normal">Marília e Região</span>
             </h3>
-            
-            <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 md:mt-12 md:grid-cols-4 md:gap-6">
+
+            <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 md:mt-8 md:grid-cols-4 md:gap-4">
               {[
                 { step: "01", t: "Seleção Consultiva", d: "Navegue em nosso catálogo filtrado por qualidade técnica de produção." },
                 { step: "02", t: "Redirecionamento Seguro", d: "Finalize sua compra com as ofertas e condições de fábrica aplicadas." },
                 { step: "03", t: "Acompanhamento Ativo", d: "Receba atualizações do status de transporte direto pelo WhatsApp." },
                 { step: "04", t: "Entrega Garantida", d: "Receba de braços abertos seus novos produtos com frete grátis local." },
               ].map((item) => (
-                <div key={item.step} className="group relative rounded-2xl bg-white p-6 shadow-sm border border-neutral-200/50">
-                  <span className="absolute right-5 top-5 text-sm font-bold text-neutral-200 transition-colors group-hover:text-[#C5A880] font-mono sm:text-base">
+                <div key={item.step} className="group relative rounded-xl bg-white p-5 shadow-sm border border-neutral-200/50">
+                  <span className="absolute right-4 top-4 text-sm font-bold text-neutral-200 transition-colors group-hover:text-[#C5A880] font-mono sm:text-base">
                     {item.step}
                   </span>
-                  <h4 className="mt-4 text-base font-semibold text-[#1E1B18] sm:text-lg">{item.t}</h4>
-                  <p className="mt-2 text-sm leading-relaxed text-neutral-500">{item.d}</p>
+                  <h4 className="mt-3 text-sm font-semibold text-[#1E1B18] sm:text-base">{item.t}</h4>
+                  <p className="mt-1 text-sm leading-relaxed text-neutral-500">{item.d}</p>
                 </div>
               ))}
             </div>
 
-            <div className="mt-10 border-t border-neutral-300/60 pt-8 md:mt-12 md:pt-10">
+            <div className="mt-6 border-t border-neutral-300/60 pt-5 md:mt-8 md:pt-6">
               <p className="text-center text-sm text-neutral-500">
                 Atendemos com frota própria e equipe interna:
               </p>
-              <div className="mt-4 flex flex-wrap justify-center gap-2 text-[10px] uppercase tracking-wider text-neutral-400 font-mono sm:text-xs md:gap-3">
+              <div className="mt-3 flex flex-wrap justify-center gap-2 text-[10px] uppercase tracking-wider text-neutral-400 font-mono sm:text-xs md:gap-3">
                 <span>Centro</span> • <span>Jardim Tangará</span> • <span>Bairro Alto</span> • <span>Nova Marília</span> • <span>Jardim Itália</span> • <span>Bauru</span> • <span>Ourinhos</span> • <span>Assis</span> • <span>Tupã</span>
               </div>
             </div>
@@ -488,33 +493,34 @@ export default function HomePage() {
 
           {/* ============================================================
                SEÇÃO 05: NEWSLETTER
+               ✅ Reduzido: py-12→py-8, py-24→py-12
                ============================================================ */}
-          <section className="relative overflow-hidden rounded-3xl bg-[#1E1B18] px-6 py-12 text-center text-[#FAF8F5] md:px-12 md:py-16 lg:py-24 animate-fade-up">
+          <section className="relative overflow-hidden rounded-2xl bg-[#1E1B18] px-6 py-8 text-center text-[#FAF8F5] md:px-10 md:py-12 animate-fade-up">
             <div className="absolute inset-0 bg-gradient-to-r from-[#C5A880]/10 to-transparent opacity-40 pointer-events-none" />
             <div className="relative z-10 max-w-xl mx-auto">
               <span className="text-xs font-bold tracking-[0.25em] uppercase text-[#C5A880] font-mono sm:text-sm">
                 Clube de Benefícios
               </span>
-              <h3 className="mt-4 text-3xl font-light font-serif sm:text-4xl md:text-5xl">
+              <h3 className="mt-3 text-2xl font-light font-serif sm:text-3xl md:text-4xl">
                 Inscreva-se e receba <span className="italic text-[#C5A880]">ofertas exclusivas</span>
               </h3>
-              <p className="mt-4 text-base text-neutral-400">
+              <p className="mt-3 text-sm text-neutral-400">
                 Seja avisado sobre cupons regionais e a chegada de novos lotes de fábrica antes de todo mundo.
               </p>
-              <div className="mt-8 flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-                <input 
-                  type="email" 
-                  placeholder="Seu melhor e-mail" 
-                  className="w-full h-12 px-5 rounded-full text-sm bg-neutral-900 border border-neutral-800 text-[#FAF8F5] placeholder:text-neutral-500 focus:outline-none focus:border-[#C5A880] transition-colors"
+              <div className="mt-6 flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+                <input
+                  type="email"
+                  placeholder="Seu melhor e-mail"
+                  className="w-full h-11 px-5 rounded-full text-sm bg-neutral-900 border border-neutral-800 text-[#FAF8F5] placeholder:text-neutral-500 focus:outline-none focus:border-[#C5A880] transition-colors"
                 />
-                <button className="h-12 px-8 rounded-full bg-[#C5A880] text-[#1E1B18] text-xs font-bold uppercase tracking-wider transition-all hover:scale-105 active:scale-95 font-mono whitespace-nowrap">
+                <button className="h-11 px-8 rounded-full bg-[#C5A880] text-[#1E1B18] text-xs font-bold uppercase tracking-wider transition-all hover:scale-105 active:scale-95 font-mono whitespace-nowrap">
                   Cadastrar
                 </button>
               </div>
             </div>
           </section>
 
-          <p className="text-center text-xs text-neutral-400 sm:text-sm md:text-base">
+          <p className="text-center text-xs text-neutral-400 sm:text-sm">
             * Valores, disponibilidade e prazos de entrega estão sujeitos a confirmação no painel do parceiro logístico. Imagens puramente ilustrativas.
           </p>
 

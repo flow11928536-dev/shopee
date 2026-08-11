@@ -124,9 +124,20 @@ export async function GET() {
       // "price" = preço normal (o mais alto entre os dois, se houver desconto real)
       // "sale_price" = preço com desconto (só preenchido se realmente houver desconto)
       const hasRealDiscount =
-        p.originalPrice && p.originalPrice > p.price;
-      const price = formatPrice(hasRealDiscount ? p.originalPrice! : p.price);
-      const salePrice = hasRealDiscount ? formatPrice(p.price) : '';
+        p.originalPrice !== null &&
+        p.price !== null &&
+        p.originalPrice > p.price;
+        
+      const price = formatPrice(
+        hasRealDiscount && p.originalPrice !== null 
+          ? p.originalPrice 
+          : (p.price ?? 0)
+      );
+      
+      const salePrice =
+        hasRealDiscount && p.price !== null 
+          ? formatPrice(p.price) 
+          : '';
 
       const brand = escapeCsv(p.marca || SITE.name);
       const condition = 'new';

@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { Big_Shoulders_Display, Inter, IBM_Plex_Mono } from "next/font/google";
 import { SITE, products } from "@/data/products";
 import { FABRICANTES, fabricanteMatchesMarca } from "@/data/fabricantes";
 import FabricantesGrid from "./fabricantes-grid";
 
-const LAST_UPDATED = "2026-07-23";
+const LAST_UPDATED = "2026-08-10";
 
 const display = Big_Shoulders_Display({
   subsets: ["latin"],
@@ -33,13 +34,11 @@ export const metadata: Metadata = {
   },
 };
 
-
 const notaMedia = (
   FABRICANTES.reduce((acc, f) => acc + parseFloat(f.nota), 0) / FABRICANTES.length
 ).toFixed(1);
 const estadosAtendidos = new Set(FABRICANTES.map((f) => f.cidade.split("-").pop())).size;
 
-/** Contagem real de produtos por fabricante — recalculada a cada build a partir de data/products.ts */
 const productCounts: Record<string, number> = Object.fromEntries(
   FABRICANTES.map((f) => [
     f.slug,
@@ -92,180 +91,192 @@ export default function FabricantesPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <div
-        className={`${display.variable} ${body.variable} ${mono.variable} min-h-screen bg-[#F2EAD6] [font-family:var(--font-body)]`}
-      >
-        {/* blueprint grid backdrop */}
-        <div
-          className="pointer-events-none fixed inset-0 opacity-60"
-          style={{
-            backgroundImage:
-              "linear-gradient(rgba(36,26,14,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(36,26,14,0.06) 1px, transparent 1px)",
-            backgroundSize: "42px 42px",
-            maskImage: "radial-gradient(ellipse 80% 60% at 50% 0%, black 40%, transparent 90%)",
-          }}
-        />
+      <div className={`${display.variable} ${body.variable} ${mono.variable} [font-family:var(--font-body)]`}>
+        {/* ============================================================ */}
+        {/* HERO DARK                                                    */}
+        {/* ============================================================ */}
+        <section className="relative overflow-hidden bg-[#0F0E0D]">
+          {/* Background image no hero */}
+          <Image
+            src="/banners/fabricantes/hero-bg.jpg"
+            alt=""
+            fill
+            unoptimized
+            className="object-cover opacity-25"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#0F0E0D]/90 via-[#0F0E0D]/80 to-[#0F0E0D]/95" />
 
-        <div className="relative mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-          {/* Breadcrumb */}
-          <nav className="mb-10 flex items-center gap-2 [font-family:var(--font-mono)] text-xs uppercase tracking-widest">
-            <Link href="/" className="text-[#8A7A57] transition-colors hover:text-[#241A0E]">
-              Início
-            </Link>
-            <span className="text-[#CBB98C]">/</span>
-            <span className="text-[#A9701F]">Fabricantes</span>
-          </nav>
+          {/* Grid pattern */}
+          <div
+            className="pointer-events-none absolute inset-0 opacity-30"
+            style={{
+              backgroundImage:
+                "linear-gradient(rgba(169,112,31,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(169,112,31,0.06) 1px, transparent 1px)",
+              backgroundSize: "48px 48px",
+            }}
+          />
+          <div
+            className="pointer-events-none absolute left-1/2 top-0 h-[400px] w-[600px] -translate-x-1/2 rounded-full opacity-30 blur-[100px]"
+            style={{ background: "radial-gradient(circle, #A9701F 0%, transparent 70%)" }}
+          />
 
-          {/* Header */}
-          <div className="relative mb-14 border-b border-[#E1D3AE] pb-12">
-            {/* stamp signature element */}
-            <div className="pointer-events-none absolute right-0 top-0 hidden -rotate-6 text-[#A9701F]/60 mix-blend-multiply sm:block">
-              <svg viewBox="0 0 200 200" className="h-32 w-32 lg:h-40 lg:w-40">
-                <defs>
-                  <path id="stampArc" d="M 100,100 m -78,0 a 78,78 0 1,1 156,0 a 78,78 0 1,1 -156,0" />
-                  <filter id="rough">
-                    <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" result="noise" />
-                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="4" />
-                  </filter>
-                </defs>
-                <g filter="url(#rough)">
-                  <circle cx="100" cy="100" r="94" fill="none" stroke="currentColor" strokeWidth="2" strokeDasharray="3 4" />
-                  <circle cx="100" cy="100" r="78" fill="none" stroke="currentColor" strokeWidth="1.5" />
-                  <text fontSize="10.5" letterSpacing="3.5" fill="currentColor">
-                    <textPath href="#stampArc" startOffset="0%">
-                      • 27 ANOS MONTANDO MÓVEIS • MARÍLIA–SP • CURADORIA TÉCNICA
-                    </textPath>
-                  </text>
-                  <text x="100" y="94" textAnchor="middle" fontSize="34" fontWeight={900} fill="currentColor" style={{ fontFamily: "var(--font-display)" }}>
-                    FS
-                  </text>
-                  <text x="100" y="118" textAnchor="middle" fontSize="9" letterSpacing="2" fill="currentColor" style={{ fontFamily: "var(--font-mono)" }}>
-                    APROVADO
-                  </text>
-                </g>
-              </svg>
-            </div>
+          <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
+            <nav className="mb-12 flex items-center gap-2 [font-family:var(--font-mono)] text-xs uppercase tracking-widest">
+              <Link href="/" className="text-[#8A7A57] transition-colors hover:text-white">Início</Link>
+              <span className="text-[#5B4C34]">/</span>
+              <span className="text-[#A9701F]">Fabricantes</span>
+            </nav>
 
-            <span className="inline-flex items-center gap-2 border border-dashed border-[#A9701F]/50 bg-[#A9701F]/[0.08] px-3 py-1.5 [font-family:var(--font-mono)] text-[11px] uppercase tracking-[0.15em] text-[#8A5A18]">
-              <span className="relative flex h-1.5 w-1.5">
-                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#A9701F] opacity-60" />
-                <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-[#A9701F]" />
-              </span>
-              
-            </span>
-
-            <h1
-              className="mt-6 max-w-3xl text-5xl font-bold uppercase leading-[0.95] tracking-tight text-[#241A0E] sm:text-6xl lg:text-7xl"
-              style={{ fontFamily: "var(--font-display)" }}
-            >
-              Fabricantes
-              <span className="mt-1 block text-[#A9701F]">aprovados na bancada</span>
-            </h1>
-
-            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-[#5B4C34]">
-              Em 27 anos como montador nas{" "}
-              <span className="font-semibold text-[#241A0E]">Casas Bahia, Ponto Frio e Jonei Móveis</span>,
-              montei milhares de móveis. Aqui estão as marcas que sei na prática que usam materiais de
-              qualidade — testadas parafuso por parafuso, não só no catálogo.
-            </p>
-
-            <div className="mt-5 flex items-center gap-3 [font-family:var(--font-mono)] text-xs text-[#8A7A57]">
-              <div className="flex items-center gap-2">
-                <div className="flex h-8 w-8 items-center justify-center border border-[#A9701F]/40 bg-[#A9701F]/10 text-[11px] font-bold text-[#8A5A18]">
-                  FS
+            {/* Two-column: texto na esquerda, imagem na direita */}
+            <div className="grid gap-10 lg:grid-cols-[1fr_auto] lg:items-center lg:gap-16">
+              {/* Coluna texto */}
+              <div>
+                <div className="mb-8 inline-flex items-center gap-3 border border-[#A9701F]/30 bg-[#A9701F]/10 px-4 py-2 [font-family:var(--font-mono)] text-[11px] uppercase tracking-[0.15em] text-[#C9A961]">
+                  <span className="relative flex h-2 w-2">
+                    <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#A9701F] opacity-60" />
+                    <span className="relative inline-flex h-2 w-2 rounded-full bg-[#A9701F]" />
+                  </span>
+                  Curadoria técnica · 27 anos de bancada
                 </div>
-                <span>Francisco Santana · Marília-SP</span>
+
+                <h1
+                  className="text-5xl font-bold uppercase leading-[0.9] tracking-tight text-white sm:text-7xl lg:text-8xl"
+                  style={{ fontFamily: "var(--font-display)" }}
+                >
+                  Marcas que <span className="text-[#A9701F]">passaram</span><br />no teste real
+                </h1>
+
+                <p className="mt-8 max-w-2xl text-lg leading-relaxed text-[#A8A09A] sm:text-xl">
+                  Não é catálogo de fornecedor. São {FABRICANTES.length} fabricantes que eu montei
+                  milhares de vezes em 27 anos nas Casas Bahia, Ponto Frio e Jonei Móveis.
+                  Se tá aqui, aguenta parafuso.
+                </p>
+
+                <div className="mt-8 flex items-center gap-3 [font-family:var(--font-mono)] text-xs text-[#8A7A57]">
+                  <div className="flex h-10 w-10 items-center justify-center border border-[#A9701F]/40 bg-[#A9701F]/10 text-sm font-bold text-[#C9A961]">FS</div>
+                  <div>
+                    <div className="text-[#C9A961]">Francisco Santana</div>
+                    <div className="text-[#5B4C34]">Montador · Marília-SP · rev. {LAST_UPDATED}</div>
+                  </div>
+                </div>
               </div>
-              <span className="text-[#CBB98C]"></span>
-              <span>rev. {LAST_UPDATED}</span>
+
+              {/* Coluna imagem */}
+              <div className="hidden lg:block">
+                <div className="relative h-[420px] w-[420px] overflow-hidden rounded-2xl border border-[#A9701F]/20">
+                  <Image
+                    src="/logos/hero-fabricantes.jpg"
+                    alt="Francisco Santana montando móveis — 27 anos de experiência"
+                    fill
+                    unoptimized
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0F0E0D]/60 to-transparent" />
+                  <div className="absolute bottom-4 left-4 [font-family:var(--font-mono)] text-[10px] uppercase tracking-widest text-white/80">
+                    Bancada de montagem
+                  </div>
+                </div>
+              </div>
             </div>
 
-            {/* spec strip */}
-            <dl className="mt-10 grid grid-cols-2 divide-x divide-[#E1D3AE] border border-[#E1D3AE] bg-[#FBF6E8] sm:grid-cols-4">
+            <div className="mt-14 grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-[#2A2520] bg-[#2A2520] sm:grid-cols-4">
               {[
                 { label: "Fabricantes", value: String(FABRICANTES.length) },
                 { label: "Nota média", value: notaMedia },
                 { label: "Estados", value: String(estadosAtendidos) },
                 { label: "Anos de bancada", value: "27" },
               ].map((stat) => (
-                <div key={stat.label} className="px-5 py-4">
-                  <dt className="[font-family:var(--font-mono)] text-[10px] uppercase tracking-widest text-[#8A7A57]">
-                    {stat.label}
-                  </dt>
-                  <dd
-                    className="mt-1 text-3xl font-bold text-[#241A0E]"
-                    style={{ fontFamily: "var(--font-display)" }}
-                  >
+                <div key={stat.label} className="bg-[#0F0E0D] px-6 py-7">
+                  <div className="text-4xl font-bold text-[#A9701F] sm:text-5xl" style={{ fontFamily: "var(--font-display)" }}>
                     {stat.value}
-                  </dd>
+                  </div>
+                  <div className="mt-2 [font-family:var(--font-mono)] text-[10px] uppercase tracking-widest text-[#8A7A57]">
+                    {stat.label}
+                  </div>
                 </div>
               ))}
-            </dl>
+            </div>
           </div>
+        </section>
 
-          <FabricantesGrid fabricantes={FABRICANTES} productCounts={productCounts} />
+        {/* ============================================================ */}
+        {/* GRID SECTION                                                 */}
+        {/* ============================================================ */}
+        <section className="bg-[#F8F6F3]">
+          <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
+            <FabricantesGrid fabricantes={FABRICANTES} productCounts={productCounts} />
+          </div>
+        </section>
 
-          {/* Info Box */}
-          <div className="relative mt-16 border border-[#E1D3AE] bg-[#FBF6E8] p-8">
-            <div className="relative flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
-              <div>
-                <h3
-                  className="text-xl font-bold uppercase tracking-tight text-[#241A0E]"
-                  style={{ fontFamily: "var(--font-display)" }}
-                >
-                  Ficha de inspeção da curadoria
-                </h3>
-                <ul className="mt-4 space-y-3">
-                  {[
-                    { code: "EXP", text: "Experiência: 27 anos montando esses móveis na prática" },
-                    { code: "TEC", text: "Expertise: conheço cada ferragem, cada tipo de MDF e MDP" },
-                    { code: "AUT", text: "Autoridade: marcas que realmente entregam qualidade" },
-                    { code: "CNF", text: "Confiança: transparência total, com links diretos para o fabricante" },
-                  ].map((item) => (
-                    <li key={item.code} className="flex items-start gap-3 text-sm text-[#5B4C34]">
-                      <span
-                        className="mt-0.5 flex h-6 w-9 flex-shrink-0 items-center justify-center border border-[#A9701F]/40 bg-[#A9701F]/10 [font-family:var(--font-mono)] text-[10px] font-bold text-[#8A5A18]"
-                      >
-                        {item.code}
-                      </span>
-                      <span>{item.text}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+        {/* ============================================================ */}
+        {/* INSPEÇÃO BOX                                                 */}
+        {/* ============================================================ */}
+        <section className="bg-[#F8F6F3] pb-16">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="overflow-hidden rounded-2xl border border-[#E1D3AE] bg-white shadow-sm">
+              <div className="grid gap-8 p-8 sm:grid-cols-2 sm:p-12">
+                <div>
+                  <h3 className="text-2xl font-bold uppercase tracking-tight text-[#241A0E]" style={{ fontFamily: "var(--font-display)" }}>
+                    Ficha de inspeção
+                  </h3>
+                  <p className="mt-3 text-sm leading-relaxed text-[#5B4C34]">
+                    Cada fabricante aqui passou por 4 critérios técnicos antes de entrar na lista.
+                  </p>
+                  <ul className="mt-6 space-y-4">
+                    {[
+                      { code: "EXP", text: "27 anos montando esses móveis na prática" },
+                      { code: "TEC", text: "Conheço cada ferragem, cada tipo de MDF e MDP" },
+                      { code: "AUT", text: "Marcas que realmente entregam qualidade" },
+                      { code: "CNF", text: "Transparência total, com links diretos para o fabricante" },
+                    ].map((item) => (
+                      <li key={item.code} className="flex items-start gap-4">
+                        <span className="flex h-8 w-12 flex-shrink-0 items-center justify-center rounded-lg bg-[#A9701F]/10 [font-family:var(--font-mono)] text-[11px] font-bold text-[#A9701F]">
+                          {item.code}
+                        </span>
+                        <span className="text-sm text-[#5B4C34]">{item.text}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
 
-              <div className="flex flex-shrink-0 flex-col items-start gap-3 sm:items-end">
-                <div className="border border-dashed border-[#A9701F]/40 px-4 py-3 text-left sm:text-right">
-                  <div
-                    className="text-2xl font-bold text-[#8A5A18]"
-                    style={{ fontFamily: "var(--font-display)" }}
-                  >
-                    {FABRICANTES.length} marcas
-                  </div>
-                  <div className="[font-family:var(--font-mono)] text-[10px] uppercase tracking-widest text-[#8A7A57]">
-                    inspecionadas em campo
+                <div className="relative flex flex-col items-center justify-center overflow-hidden rounded-xl bg-[#0F0E0D] p-8 text-center sm:items-end sm:text-right">
+                  {/* Imagem no retângulo preto */}
+                  <Image
+                    src="/banners/fabricantes/inspecao.jpg"
+                    alt=""
+                    fill
+                    unoptimized
+                    className="object-cover opacity-20"
+                  />
+                  <div className="relative">
+                    <div className="text-6xl font-bold text-[#A9701F]" style={{ fontFamily: "var(--font-display)" }}>
+                      {FABRICANTES.length}
+                    </div>
+                    <div className="mt-2 [font-family:var(--font-mono)] text-xs uppercase tracking-widest text-[#C9A961]">
+                      marcas inspecionadas
+                    </div>
+                    <div className="mt-4 text-sm text-[#A8A09A]">em campo, parafuso por parafuso</div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          {/* Footer Links */}
-          <div className="mt-12 flex flex-col items-center gap-4 border-t border-[#E1D3AE] pt-8 text-center sm:flex-row sm:justify-between sm:text-left">
-            <p className="[font-family:var(--font-mono)] text-xs text-[#8A7A57]">
-              rev. <span className="text-[#5B4C34]">{LAST_UPDATED}</span> · avaliação técnica por{" "}
-              <span className="text-[#8A5A18]">Francisco Santana</span>
-            </p>
-            <div className="flex gap-6 [font-family:var(--font-mono)] text-xs uppercase tracking-wider">
-              <Link href="/sobre" className="text-[#8A5A18] transition-colors hover:text-[#241A0E]">
-                Conheça minha história →
-              </Link>
-              <Link href="/guias" className="text-[#8A7A57] transition-colors hover:text-[#5B4C34]">
-                Ver guias
-              </Link>
+            <div className="mt-10 flex flex-col items-center gap-4 border-t border-[#E1D3AE] pt-8 text-center sm:flex-row sm:justify-between sm:text-left">
+              <p className="[font-family:var(--font-mono)] text-xs text-[#8A7A57]">
+                rev. <span className="text-[#5B4C34]">{LAST_UPDATED}</span> · avaliação técnica por{" "}
+                <span className="text-[#A9701F]">Francisco Santana</span>
+              </p>
+              <div className="flex gap-6 [font-family:var(--font-mono)] text-xs uppercase tracking-wider">
+                <Link href="/sobre" className="text-[#A9701F] transition-colors hover:text-[#241A0E]">
+                  Conheça minha história →
+                </Link>
+                <Link href="/guias" className="text-[#8A7A57] transition-colors hover:text-[#5B4C34]">
+                  Ver guias
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </>
   );
