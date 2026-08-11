@@ -15,6 +15,14 @@ interface CategoryCarouselProps {
 }
 
 export default function CategoryCarousel({ items }: CategoryCarouselProps) {
+  // 🔥 FILTRA ITENS SEM IMAGEM - CORREÇÃO DO ERRO
+  const validItems = items.filter(item => item.image && item.image.trim() !== '');
+
+  // Se não houver itens válidos, não renderiza nada
+  if (validItems.length === 0) {
+    return null;
+  }
+
   const scrollRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
@@ -268,7 +276,8 @@ export default function CategoryCarousel({ items }: CategoryCarouselProps) {
         ref={scrollRef}
         className="mt-8 flex gap-6 overflow-x-auto scroll-smooth pb-6 pt-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
-        {items.map((item, index) => (
+        {/* USANDO validItems NO LUGAR DE items */}
+        {validItems.map((item, index) => (
           <Link
             key={item.slug}
             href={`/categoria/${item.slug}`}

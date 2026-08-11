@@ -1,19 +1,26 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { Big_Shoulders_Display, Inter, IBM_Plex_Mono } from "next/font/google";
+import { Inter, IBM_Plex_Mono } from "next/font/google";
 import { SITE, products } from "@/data/products";
 import { FABRICANTES, fabricanteMatchesMarca } from "@/data/fabricantes";
 import FabricantesGrid from "./fabricantes-grid";
 
 const LAST_UPDATED = "2026-08-10";
 
-const display = Big_Shoulders_Display({
+// Usando Inter para tudo (já disponível no Next.js)
+const display = Inter({
   subsets: ["latin"],
   weight: ["600", "700", "900"],
   variable: "--font-display",
 });
-const body = Inter({ subsets: ["latin"], variable: "--font-body" });
+
+const body = Inter({
+  subsets: ["latin"],
+  variable: "--font-body",
+  display: "swap",
+});
+
 const mono = IBM_Plex_Mono({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
@@ -33,6 +40,7 @@ export const metadata: Metadata = {
     type: "website",
   },
 };
+
 
 const notaMedia = (
   FABRICANTES.reduce((acc, f) => acc + parseFloat(f.nota), 0) / FABRICANTES.length
