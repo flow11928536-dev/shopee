@@ -8,7 +8,7 @@ import type { GuideBlock } from "@/types";
 import ProductGrid from "@/components/ProductGrid";
 
 interface Props {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 interface RelatedGuide {
@@ -23,19 +23,18 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const guide = getGuide(params.slug);
+  const { slug } = await params;
+  const guide = getGuide(slug);
   if (!guide) return {};
 
   const path = `/guia/${guide.slug}`;
   const publishedDate = (guide as unknown as Record<string, unknown>).datePublished as string || "2024-06-15";
   const modifiedDate = (guide as unknown as Record<string, unknown>).dateModified as string || new Date().toISOString().split("T")[0];
 
-  // Título otimizado com máximo de 60 caracteres
-  const optimizedTitle = guide.seoTitle.length > 60 
-    ? `${guide.seoTitle.substring(0, 50)} | Móveis Marília`
+  const optimizedTitle = guide.seoTitle.length > 60
+   ? `${guide.seoTitle.substring(0, 50)} | Móveis Marília`
     : guide.seoTitle;
 
-  // Meta description otimizada com 120-155 caracteres
   let optimizedDescription = guide.seoDescription;
   if (optimizedDescription.length > 155) {
     optimizedDescription = optimizedDescription.substring(0, 150) + "...";
@@ -120,7 +119,7 @@ function Breadcrumbs({ keyword }: { keyword: string }) {
           </Link>
         </li>
         <li aria-hidden="true" className="select-none">/</li>
-        <li className="font-medium text-stone-700 truncate max-w-[200px] sm:max-w-xs" aria-current="page">
+        <li className="font-medium text-stone-700 truncate max-w- sm:max-w-xs" aria-current="page">
           {keyword}
         </li>
       </ol>
@@ -130,14 +129,14 @@ function Breadcrumbs({ keyword }: { keyword: string }) {
 
 function TableOfContents({ blocks }: { blocks: GuideBlock[] }) {
   const headings = blocks
-    .filter((b) => b.type === "text" && b.heading)
-    .map((b) => ({
+   .filter((b) => b.type === "text" && b.heading)
+   .map((b) => ({
       id: (b as Extract<GuideBlock, { type: "text" }>).heading!
-        .toLowerCase()
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .replace(/[^a-z0-9]+/g, "-")
-        .replace(/^-|-$/g, ""),
+       .toLowerCase()
+       .normalize("NFD")
+       .replace(/[\u0300-\u036f]/g, "")
+       .replace(/[^a-z0-9]+/g, "-")
+       .replace(/^-|-$/g, ""),
       text: (b as Extract<GuideBlock, { type: "text" }>).heading!,
       level: (b as Extract<GuideBlock, { type: "text" }>).level || 2,
     }));
@@ -151,7 +150,7 @@ function TableOfContents({ blocks }: { blocks: GuideBlock[] }) {
       </h2>
       <ul className="mt-3 space-y-1.5">
         {headings.map((h) => (
-          <li key={h.id} className={h.level === 3 ? "ml-3" : ""}>
+          <li key={h.id} className={h.level === 3? "ml-3" : ""}>
             <a
               href={`#${h.id}`}
               className="text-sm text-stone-600 transition-colors hover:text-stone-900 hover:underline underline-offset-4"
@@ -166,14 +165,14 @@ function TableOfContents({ blocks }: { blocks: GuideBlock[] }) {
 }
 
 function TextBlock({ block }: { block: Extract<GuideBlock, { type: "text" }> }) {
-  const Heading = block.level === 3 ? "h3" : "h2";
+  const Heading = block.level === 3? "h3" : "h2";
   const headingId = block.heading
-    ? block.heading
-        .toLowerCase()
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .replace(/[^a-z0-9]+/g, "-")
-        .replace(/^-|-$/g, "")
+   ? block.heading
+       .toLowerCase()
+       .normalize("NFD")
+       .replace(/[\u0300-\u036f]/g, "")
+       .replace(/[^a-z0-9]+/g, "-")
+       .replace(/^-|-$/g, "")
     : undefined;
 
   return (
@@ -183,7 +182,7 @@ function TextBlock({ block }: { block: Extract<GuideBlock, { type: "text" }> }) 
           id={headingId}
           className={
             block.level === 3
-              ? "text-xl font-semibold tracking-tight text-stone-900 scroll-mt-24"
+             ? "text-xl font-semibold tracking-tight text-stone-900 scroll-mt-24"
               : "text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl scroll-mt-24"
           }
         >
@@ -191,14 +190,14 @@ function TextBlock({ block }: { block: Extract<GuideBlock, { type: "text" }> }) 
         </Heading>
       )}
       {block.paragraphs?.map((p, i) => (
-        <p key={i} className="text-[15px] leading-relaxed text-stone-700">
+        <p key={i} className="text- leading-relaxed text-stone-700">
           {p}
         </p>
       ))}
       {block.bullets && (
         <ul className="space-y-2.5" role="list">
           {block.bullets.map((b, i) => (
-            <li key={i} className="flex gap-3 text-[15px] leading-relaxed text-stone-700">
+            <li key={i} className="flex gap-3 text- leading-relaxed text-stone-700">
               <span
                 className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-stone-900"
                 aria-hidden="true"
@@ -227,7 +226,7 @@ function TextBlock({ block }: { block: Extract<GuideBlock, { type: "text" }> }) 
                     <td
                       key={ci}
                       className={`px-4 py-3 ${
-                        ci === 0 ? "font-medium text-stone-800" : "text-stone-600"
+                        ci === 0? "font-medium text-stone-800" : "text-stone-600"
                       }`}
                     >
                       {cell}
@@ -248,16 +247,16 @@ function Callout({ block }: { block: Extract<GuideBlock, { type: "callout" }> })
   return (
     <aside
       className={`rounded-2xl border-l-4 p-5 shadow-sm ${
-        isDica ? "border-emerald-500 bg-emerald-50/80" : "border-amber-500 bg-amber-50/80"
+        isDica? "border-emerald-500 bg-emerald-50/80" : "border-amber-500 bg-amber-50/80"
       }`}
-      role={isDica ? "note" : "alert"}
+      role={isDica? "note" : "alert"}
     >
-      <p className={`font-semibold ${isDica ? "text-emerald-800" : "text-amber-800"}`}>
-        {isDica ? "💡 " : "⚠️ "}{block.title}
+      <p className={`font-semibold ${isDica? "text-emerald-800" : "text-amber-800"}`}>
+        {isDica? "💡 " : "⚠ "}{block.title}
       </p>
       <p
         className={`mt-1.5 text-sm leading-relaxed ${
-          isDica ? "text-emerald-900/80" : "text-amber-900/80"
+          isDica? "text-emerald-900/80" : "text-amber-900/80"
         }`}
       >
         {block.text}
@@ -295,8 +294,9 @@ function VideoBlock({ block }: { block: Extract<GuideBlock, { type: "video" }> }
   );
 }
 
-export default function GuidePage({ params }: Props) {
-  const guide = getGuide(params.slug);
+export default async function GuidePage({ params }: Props) {
+  const { slug } = await params;
+  const guide = getGuide(slug);
   if (!guide) notFound();
 
   const ctaProduct = getProductBySlug(guide.ctaSlug);
@@ -305,7 +305,6 @@ export default function GuidePage({ params }: Props) {
   const publishedDate = (guide as unknown as Record<string, unknown>).datePublished as string || "2024-06-15";
   const modifiedDate = (guide as unknown as Record<string, unknown>).dateModified as string || new Date().toISOString().split("T")[0];
 
-  // Calcular palavra-chave principal para speakable
   const mainKeyword = guide.keyword || "móveis";
 
   const articleSchema = {
@@ -328,7 +327,7 @@ export default function GuidePage({ params }: Props) {
         author: {
       "@id": `${SITE.url}/sobre/#person`,
       name: "Francisco Carlos Santana",
-      url: `${SITE.url}/sobre/#person` 
+      url: `${SITE.url}/sobre/#person`
          },
       publisher: {
         "@type": "Organization",
@@ -355,12 +354,12 @@ export default function GuidePage({ params }: Props) {
         cssSelector: [".speakable-summary"],
       },
       wordCount: guide.blocks
-        ? guide.blocks.reduce((count, block) => {
+       ? guide.blocks.reduce((count, block) => {
             if (block.type === "text") {
               const text = [
                 block.heading || "",
-                ...(block.paragraphs || []),
-                ...(block.bullets || []),
+               ...(block.paragraphs || []),
+               ...(block.bullets || []),
               ].join(" ");
               return count + text.split(" ").length;
             }
@@ -379,7 +378,7 @@ export default function GuidePage({ params }: Props) {
       ],
     };
 
-  const faqSchema = guide.faq && guide.faq.length > 0 ? {
+  const faqSchema = guide.faq && guide.faq.length > 0? {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "@id": `${SITE.url}${path}/#faq`,
@@ -393,7 +392,7 @@ export default function GuidePage({ params }: Props) {
       })),
     } : null;
 
-  const jsonLd = faqSchema ? [articleSchema, breadcrumbSchema, faqSchema] : [articleSchema, breadcrumbSchema];
+  const jsonLd = faqSchema? [articleSchema, breadcrumbSchema, faqSchema] : [articleSchema, breadcrumbSchema];
 
   return (
     <>
@@ -443,12 +442,12 @@ export default function GuidePage({ params }: Props) {
             <span>
               {Math.ceil(
                 guide.blocks
-                  ? guide.blocks.reduce((count, block) => {
+                 ? guide.blocks.reduce((count, block) => {
                       if (block.type === "text") {
                         const text = [
                           block.heading || "",
-                          ...(block.paragraphs || []),
-                          ...(block.bullets || []),
+                         ...(block.paragraphs || []),
+                         ...(block.bullets || []),
                         ].join(" ");
                         return count + text.split(" ").length;
                       }
@@ -483,7 +482,6 @@ export default function GuidePage({ params }: Props) {
             </div>
           );
         })}
-
 
         {guide.faq && guide.faq.length > 0 && (
           <section aria-labelledby="faq-heading">

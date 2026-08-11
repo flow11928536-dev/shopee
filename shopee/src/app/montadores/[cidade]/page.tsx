@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 type Props = {
-  params: { cidade: string };
+  params: Promise<{ cidade: string }>;
 };
 
 export async function generateStaticParams() {
@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props) {
-  const cidade = params.cidade;
+  const { cidade } = await params;
   const montadores = montadoresPorCidade[cidade];
 
   if (!montadores || montadores.length === 0) {
@@ -39,8 +39,8 @@ export async function generateMetadata({ params }: Props) {
   };
 }
 
-export default function MontadorPage({ params }: Props) {
-  const cidade = params.cidade;
+export default async function MontadorPage({ params }: Props) {
+  const { cidade } = await params;
   const montadores = montadoresPorCidade[cidade];
 
   if (!montadores || montadores.length === 0) {
@@ -98,8 +98,8 @@ export default function MontadorPage({ params }: Props) {
       {/* ============================================================
            HERO BANNER RESPONSIVO
            ============================================================ */}
-      <section className="relative h-[280px] sm:h-[340px] md:h-[400px] lg:h-[460px] w-full overflow-hidden">
-        
+      <section className="relative h- sm:h- md:h- lg:h- w-full overflow-hidden">
+
         {/* Imagem de Fundo - Profissional Montando Móvel */}
         <Image
           src="https://images.pexels.com/photos/6311245/pexels-photo-6311245.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=1600"
@@ -113,23 +113,23 @@ export default function MontadorPage({ params }: Props) {
 
         {/* Gradiente Escuro Cinematográfico */}
         <div className="absolute inset-0 bg-gradient-to-t from-[#1A1614] via-[#1A1614]/70 to-transparent" />
-        
+
         {/* Conteúdo do Banner - Card Glassmorphism RESPONSIVO */}
         <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 md:p-8 lg:p-12">
           <div className="mx-auto max-w-7xl">
-            
+
             {/* Card Flutuante de Vidro - RESPONSIVO */}
             <div className="inline-block w-full max-w-2xl rounded-xl sm:rounded-2xl border border-white/20 bg-[#1A1614]/50 p-4 sm:p-6 md:p-8 backdrop-blur-xl shadow-2xl transition-all duration-500 hover:bg-[#1A1614]/60">
-              
+
               {/* Tag Superior Mono Tech - RESPONSIVO */}
               <div className="flex flex-wrap items-center gap-2 sm:gap-3">
-                <span 
-                  className="inline-block rounded-full bg-[#C5A880]/20 px-2.5 py-1 sm:px-3 sm:py-1.5 text-[9px] sm:text-[10px] font-bold uppercase tracking-[0.2em] text-[#C5A880]"
+                <span
+                  className="inline-block rounded-full bg-[#C5A880]/20 px-2.5 py-1 sm:px-3 sm:py-1.5 text- sm:text- font-bold uppercase tracking-[0.2em] text-[#C5A880]"
                   style={{ fontFamily: "var(--font-mono)" }}
                 >
                   Verificados • {estado}
                 </span>
-                <span className="flex items-center gap-1.5 text-[10px] sm:text-xs text-[#F5F0E8]/60" style={{ fontFamily: "var(--font-mono)" }}>
+                <span className="flex items-center gap-1.5 text- sm:text-xs text-[#F5F0E8]/60" style={{ fontFamily: "var(--font-mono)" }}>
                   <span className="relative flex h-2 w-2">
                     <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
                     <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
@@ -140,7 +140,7 @@ export default function MontadorPage({ params }: Props) {
               </div>
 
               {/* Título Editorial RESPONSIVO */}
-              <h1 
+              <h1
                 className="mt-3 sm:mt-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light leading-[1.1] tracking-tight text-[#FAF8F5]"
                 style={{ fontFamily: "var(--font-display)" }}
               >
@@ -158,7 +158,7 @@ export default function MontadorPage({ params }: Props) {
                   <div className="text-lg sm:text-xl font-bold text-[#C5A880]" style={{ fontFamily: "var(--font-mono)" }}>
                     {Math.round(montadores.reduce((acc, m) => acc + m.experiencia, 0) / montadores.length)} anos
                   </div>
-                  <div className="text-[9px] sm:text-[10px] uppercase tracking-wider text-[#F5F0E8]/60" style={{ fontFamily: "var(--font-mono)" }}>
+                  <div className="text- sm:text- uppercase tracking-wider text-[#F5F0E8]/60" style={{ fontFamily: "var(--font-mono)" }}>
                     Experiência Média
                   </div>
                 </div>
@@ -166,16 +166,16 @@ export default function MontadorPage({ params }: Props) {
                   <div className="text-lg sm:text-xl font-bold text-[#FAF8F5]" style={{ fontFamily: "var(--font-mono)" }}>
                     100%
                   </div>
-                  <div className="text-[9px] sm:text-[10px] uppercase tracking-wider text-[#F5F0E8]/60" style={{ fontFamily: "var(--font-mono)" }}>
+                  <div className="text- sm:text- uppercase tracking-wider text-[#F5F0E8]/60" style={{ fontFamily: "var(--font-mono)" }}>
                     Perfis Verificados
                   </div>
                 </div>
               </div>
 
               {/* Botão de Ação RESPONSIVO */}
-              <Link 
+              <Link
                 href="#montadores"
-                className="mt-4 sm:mt-6 inline-flex w-full xs:w-auto items-center justify-center gap-2 rounded-full bg-[#C5A880] px-5 sm:px-6 py-2.5 sm:py-3 text-[10px] sm:text-xs font-semibold uppercase tracking-wider text-[#1A1614] shadow-lg transition-all duration-300 hover:bg-[#FAF8F5] hover:scale-105 active:scale-95"
+                className="mt-4 sm:mt-6 inline-flex w-full xs:w-auto items-center justify-center gap-2 rounded-full bg-[#C5A880] px-5 sm:px-6 py-2.5 sm:py-3 text- sm:text-xs font-semibold uppercase tracking-wider text-[#1A1614] shadow-lg transition-all duration-300 hover:bg-[#FAF8F5] hover:scale-105 active:scale-95"
                 style={{ fontFamily: "var(--font-mono)" }}
               >
                 Ver profissionais
@@ -193,13 +193,13 @@ export default function MontadorPage({ params }: Props) {
            ============================================================ */}
       <main id="montadores" className="mx-auto max-w-7xl px-4 py-8 sm:py-12 md:py-16 sm:px-6 lg:px-8">
         <header className="mb-6 sm:mb-10">
-          <span 
-            className="text-[9px] sm:text-[10px] font-bold uppercase tracking-[0.3em] text-[#C5A880]"
+          <span
+            className="text- sm:text- font-bold uppercase tracking-[0.3em] text-[#C5A880]"
             style={{ fontFamily: "var(--font-mono)" }}
           >
             Curadoria Local
           </span>
-          <h2 
+          <h2
             className="mt-2 text-2xl sm:text-3xl md:text-4xl font-light tracking-tight text-[#1A1614]"
             style={{ fontFamily: "var(--font-display)" }}
           >
@@ -224,13 +224,13 @@ export default function MontadorPage({ params }: Props) {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:py-12 md:py-16 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10">
           <div>
-            <span 
-              className="text-[9px] sm:text-[10px] font-bold uppercase tracking-[0.3em] text-[#C5A880]"
+            <span
+              className="text- sm:text- font-bold uppercase tracking-[0.3em] text-[#C5A880]"
               style={{ fontFamily: "var(--font-mono)" }}
             >
               Serviços Disponíveis
             </span>
-            <h2 
+            <h2
               className="mt-2 text-2xl sm:text-3xl font-light tracking-tight text-[#1A1614]"
               style={{ fontFamily: "var(--font-display)" }}
             >
@@ -260,8 +260,8 @@ export default function MontadorPage({ params }: Props) {
                 desc: `Mudança em ${nomeCidade}? Desmonte e monte no novo endereço com segurança.`,
               },
             ].map((servico) => (
-              <div 
-                key={servico.title} 
+              <div
+                key={servico.title}
                 className="group rounded-xl border border-neutral-200/50 bg-white/60 p-4 sm:p-5 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#C5A880]/40 hover:bg-white hover:shadow-lg"
               >
                 <h3 className="text-sm sm:text-base font-semibold text-[#1A1614] transition-colors group-hover:text-[#C5A880]">
@@ -287,13 +287,13 @@ export default function MontadorPage({ params }: Props) {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:py-12 md:py-16 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10">
           <div>
-            <span 
-              className="text-[9px] sm:text-[10px] font-bold uppercase tracking-[0.3em] text-[#C5A880]"
+            <span
+              className="text- sm:text- font-bold uppercase tracking-[0.3em] text-[#C5A880]"
               style={{ fontFamily: "var(--font-mono)" }}
             >
               Seus Direitos
             </span>
-            <h2 
+            <h2
               className="mt-2 text-2xl sm:text-3xl font-light tracking-tight text-[#1A1614]"
               style={{ fontFamily: "var(--font-display)" }}
             >
@@ -330,13 +330,13 @@ export default function MontadorPage({ params }: Props) {
            ============================================================ */}
       <section className="bg-[#1A1614] py-8 sm:py-12 md:py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <span 
-            className="text-[9px] sm:text-[10px] font-bold uppercase tracking-[0.3em] text-[#C5A880]"
+          <span
+            className="text- sm:text- font-bold uppercase tracking-[0.3em] text-[#C5A880]"
             style={{ fontFamily: "var(--font-mono)" }}
           >
             Manutenção Preventiva
           </span>
-          <h2 
+          <h2
             className="mt-2 text-2xl sm:text-3xl md:text-4xl font-light tracking-tight text-[#FAF8F5]"
             style={{ fontFamily: "var(--font-display)" }}
           >
@@ -358,7 +358,7 @@ export default function MontadorPage({ params }: Props) {
                 desc: "Evite forçar portas nos primeiros dias. Reaperte parafusos após alguns meses.",
               },
             ].map((cuidado) => (
-              <div 
+              <div
                 key={cuidado.title}
                 className="rounded-xl border border-white/10 bg-white/5 p-4 sm:p-6 backdrop-blur-sm"
               >
@@ -380,13 +380,13 @@ export default function MontadorPage({ params }: Props) {
       <section className="py-8 sm:py-12 md:py-16">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-6 sm:mb-10">
-            <span 
-              className="text-[9px] sm:text-[10px] font-bold uppercase tracking-[0.3em] text-[#C5A880]"
+            <span
+              className="text- sm:text- font-bold uppercase tracking-[0.3em] text-[#C5A880]"
               style={{ fontFamily: "var(--font-mono)" }}
             >
               Dúvidas Frequentes
             </span>
-            <h2 
+            <h2
               className="mt-2 text-2xl sm:text-3xl font-light tracking-tight text-[#1A1614]"
               style={{ fontFamily: "var(--font-display)" }}
             >
@@ -396,8 +396,8 @@ export default function MontadorPage({ params }: Props) {
 
           <div className="space-y-2 sm:space-y-3">
             {faqItems.map((item) => (
-              <details 
-                key={item.question} 
+              <details
+                key={item.question}
                 className="group rounded-xl border border-neutral-200/50 bg-white/60 backdrop-blur-sm transition-all duration-300 open:border-[#C5A880]/40 open:bg-white"
               >
                 <summary className="flex cursor-pointer list-none items-center justify-between p-4 sm:p-5 font-semibold text-[#1A1614] transition-colors hover:text-[#C5A880]">

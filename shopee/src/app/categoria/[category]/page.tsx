@@ -14,7 +14,7 @@ import type { ProductCategory, Product } from "@/types";
 import ProductGrid from "@/components/ProductGrid";
 
 interface Props {
-  params: { category: string };
+  params: Promise<{ category: string }>;
 }
 
 // ============================================================
@@ -37,7 +37,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const slug = params.category;
+  const { category: slug } = await params;
 
   const main = MAIN_CATEGORIES.find((c) => c.slug === slug);
   if (main) {
@@ -93,8 +93,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default function CategoryPage({ params }: Props) {
-  const slug = params.category;
+export default async function CategoryPage({ params }: Props) {
+  const { category: slug } = await params;
 
   const main = MAIN_CATEGORIES.find((c) => c.slug === slug);
   const sub = SUB_CATEGORIES.find((c) => c.slug === slug);
@@ -217,17 +217,32 @@ export default function CategoryPage({ params }: Props) {
               ))}
             </>
           )}
-          {sub && (
-            <Link
-              href={`/categoria/${sub.parent}`}
-              className="rounded-full border border-stone-300 bg-white px-4 py-1.5 text-sm font-medium text-stone-700 hover:bg-stone-50"
-            >
-              ← Voltar para {MAIN_CATEGORIES.find((c) => c.slug === sub.parent)?.label || "categoria principal"}
-            </Link>
+          {sub && parent && (
+            <>
+              <Link
+                href={`/categoria/${parent.slug}`}
+                className="rounded-full border border-stone-300 bg-white px-4 py-1.5 text-sm font-medium text-stone-700 hover:bg-stone-50"
+              >
+                Ver todos em {parent.label}
+              </Link>
+              {SUB_CATEGORIES.filter((s) => s.parent === parent.slug).map((s) => (
+                <Link
+                  key={s.slug}
+                  href={`/categoria/${s.slug}`}
+                  className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
+                    s.slug === slug
+                      ? "bg-stone-900 text-white"
+                      : "border border-stone-300 bg-white text-stone-700 hover:bg-stone-50"
+                  }`}
+                >
+                  {s.label}
+                </Link>
+              ))}
+            </>
           )}
         </div>
 
-        <div className="mt-10">
+        <div className="mt-8">
           <ProductGrid products={items} />
         </div>
       </div>
