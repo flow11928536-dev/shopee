@@ -36,4 +36,3 @@ User-agent: Twitterbot
 Allow: /
 
 Sitemap: https://www.lojademoveismarilia.com.br/sitemap.xml
-Sitemap: https://www.lojademoveismarilia.com.br/sitemap-imagens.xml

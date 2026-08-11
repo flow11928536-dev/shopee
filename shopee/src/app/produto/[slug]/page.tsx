@@ -7,10 +7,8 @@ import { SITE } from "@/data/products";
 import ProductDescription from "@/components/ProductDescription";
 import FbViewContent from "../../../components/FbViewContent";
 
-const FONT_DISPLAY =
-  "Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif";
-const FONT_MONO =
-  "'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace";
+const FONT_DISPLAY = "Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif";
+const FONT_MONO = "'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace";
 const INK = "#221D17";
 const BRASS = "#9C7A3C";
 const SAGE = "#4B5D4C";
@@ -24,19 +22,10 @@ interface Props {
 
 export async function generateStaticParams() {
   const products = getAllProducts();
-  console.log(`🔍 Gerando ${products.length} páginas de produto`);
-  return products.map((product) => ({
-    slug: product.slug,
-  }));
+  return products.map((product) => ({ slug: product.slug }));
 }
 
-const KNOWN_COLORS = [
-  "cinza", "areia", "preto", "preta", "branco", "branca",
-  "azul", "vermelho", "vermelha", "verde", "amarelo", "amarela",
-  "marrom", "bege", "rosa", "roxo", "roxa", "natural",
-  "escuro", "escura", "claro", "clara", "nude", "grafite",
-  "off-white", "offwhite", "creme", "terracotta", "vinho",
-];
+const KNOWN_COLORS = ["cinza","areia","preto","preta","branco","branca","azul","vermelho","vermelha","verde","amarelo","amarela","marrom","bege","rosa","roxo","roxa","natural","escuro","escura","claro","clara","nude","grafite","off-white","offwhite","creme","terracotta","vinho"];
 
 function extractVariantFromSlug(slug: string): string | null {
   const parts = slug.split("-");
@@ -57,78 +46,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const product = getProductBySlug(slug);
   if (!product) return {};
-
   let title = product.seoTitle || `${product.name} | Móveis Marília SP`;
   const variant = extractVariantFromSlug(product.slug);
-  if (variant && !title.toLowerCase().includes(variant.toLowerCase())) {
-    if (title.includes(" | ")) {
-      title = title.replace(" | ", ` ${variant} | `);
-    } else {
-      title = `${title} ${variant}`;
-    }
+  if (variant &&!title.toLowerCase().includes(variant.toLowerCase())) {
+    title = title.includes(" | ")? title.replace(" | ", ` ${variant} | `) : `${title} ${variant}`;
   }
-  if (title.length > 60) {
-    title = title.substring(0, 50) + " | Móveis Marília";
-  }
-
-  let description = product.seoDescription || product.descricao?.slice(0, 150) || `Compre ${product.name} com frete grátis em Marília SP. Melhor preço e qualidade garantida.`;
-  if (description.length > 155) {
-    description = description.substring(0, 150) + "...";
-  } else if (description.length < 120) {
-    description = `${description} Frete grátis em Marília SP e região. Compre online com segurança.`;
-  }
-
+  if (title.length > 60) title = title.substring(0, 50) + " | Móveis Marília";
+  let description = product.seoDescription || product.descricao?.slice(0, 150) || `Compre ${product.name} com frete grátis em Marília SP.`;
+  if (description.length > 155) description = description.substring(0, 150) + "...";
+  else if (description.length < 120) description = `${description} Frete grátis em Marília SP e região.`;
   return {
-    title,
-    description,
-    alternates: {
-      canonical: `${SITE.url}/produto/${product.slug}`,
-    },
-    robots: {
-      index: true,
-      follow: true,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-      "max-video-preview": -1,
-      googleBot: {
-        index: true,
-        follow: true,
-        "max-image-preview": "large",
-        "max-snippet": -1,
-        "max-video-preview": -1,
-      },
-    },
+    title, description,
+    alternates: { canonical: `${SITE.url}/produto/${product.slug}` },
     openGraph: {
-      title,
-      description,
+      title, description,
       url: `${SITE.url}/produto/${product.slug}`,
       type: "website",
       siteName: SITE.name,
       locale: "pt_BR",
-      images: [
-        {
-          url: product.displayImage || product.imageFile,
-          secureUrl: product.displayImage || product.imageFile,
-          width: 800,
-          height: 800,
-          alt: product.alt || product.name,
-          type: "image/jpeg",
-        },
-      ],
+      images: [{ url: product.displayImage || product.imageFile, width: 800, height: 800, alt: product.alt || product.name }],
     },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      images: [product.displayImage || product.imageFile],
-    },
-    other: {
-      "product:price": product.price?.toString() || "0",
-      "product:availability": "in stock",
-      "product:brand": product.marca || "Móveis Marília",
-      "geo.region": "BR-SP",
-      "geo.placename": "Marília",
-    },
+    twitter: { card: "summary_large_image", title, description, images: [product.displayImage || product.imageFile] },
   };
 }
 
@@ -145,84 +83,34 @@ export default async function ProductPage({ params }: Props) {
   priceValidUntil.setDate(priceValidUntil.getDate() + 30);
   const priceValidUntilStr = priceValidUntil.toISOString().split("T")[0];
 
-  const productSchema = {
+  const hasReviews = (product.reviews || 0) > 0;
+  const hasPrice = price > 0;
+
+  const productSchema: any = {
     "@context": "https://schema.org",
     "@type": "Product",
     "@id": `${SITE.url}/produto/${product.slug}/#product`,
     name: product.name,
     description: product.descricao || product.seoDescription || product.name,
-    image: {
-      "@type": "ImageObject",
-      url: product.displayImage || product.imageFile,
-      width: 800,
-      height: 800,
-      caption: product.alt || product.name,
-    },
+    image: product.displayImage || product.imageFile,
     sku: product.slug,
-    brand: {
-      "@type": "Brand",
-      name: product.marca || "Móveis Marília",
-    },
+    brand: { "@type": "Brand", name: product.marca || "Móveis Marília" },
+   ...(hasReviews && {
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: (product.rating || 4.5).toString(),
+        reviewCount: product.reviews!.toString(),
+      },
+    }),
     offers: {
       "@type": "Offer",
       priceCurrency: "BRL",
-      price: price,
+      price: hasPrice? price.toFixed(2) : "0",
       priceValidUntil: priceValidUntilStr,
-      availability: "https://schema.org/InStock",
+      availability: hasPrice? "https://schema.org/InStock" : "https://schema.org/OnlineOnly",
       url: `${SITE.url}/produto/${product.slug}`,
       itemCondition: "https://schema.org/NewCondition",
-      seller: {
-        "@type": "Organization",
-        name: product.platform || "Móveis Marília",
-        url: SITE.url,
-      },
-      shippingDetails: {
-        "@type": "OfferShippingDetails",
-        shippingRate: {
-          "@type": "MonetaryAmount",
-          value: 0,
-          currency: "BRL",
-        },
-        deliveryTime: {
-          "@type": "ShippingDeliveryTime",
-          handlingTime: {
-            "@type": "QuantitativeValue",
-            minValue: 1,
-            maxValue: 3,
-            unitCode: "DAY",
-          },
-          transitTime: {
-            "@type": "QuantitativeValue",
-            minValue: 2,
-            maxValue: 7,
-            unitCode: "DAY",
-          },
-        },
-        shippingDestination: {
-          "@type": "DefinedRegion",
-          addressCountry: "BR",
-          addressRegion: "SP",
-        },
-      },
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: product.rating || 4.5,
-      reviewCount: product.reviews || 0,
-      bestRating: "5",
-      worstRating: "1",
-    },
-    speakable: {
-      "@type": "SpeakableSpecification",
-      cssSelector: ["h1", "h2", "p"],
-      xpath: ["/html/head/title"],
-    },
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": `${SITE.url}/produto/${product.slug}`,
-    },
-    isPartOf: {
-      "@id": `${SITE.url}/#website`,
+      seller: { "@type": "Organization", name: "Loja de Móveis Marília", url: SITE.url },
     },
   };
 
@@ -262,11 +150,11 @@ export default async function ProductPage({ params }: Props) {
             </div>
 
             <div className="flex flex-col p-6 sm:p-8">
-              {product.marca && <span className="text- font-semibold uppercase tracking-[0.2em] sm:text-xs" style={{ fontFamily: FONT_MONO, color: "#918466" }}>{product.marca}</span>}
+              {product.marca && <span className="font-semibold uppercase tracking-[0.2em] sm:text-xs" style={{ fontFamily: FONT_MONO, color: "#918466" }}>{product.marca}</span>}
               <h1 className="mt-2 text-xl italic leading-snug sm:text-3xl" style={{ fontFamily: FONT_DISPLAY, color: INK }}>{product.name}</h1>
               <div className="mt-3 flex items-center gap-2">
                 <span className="text-base font-bold" style={{ color: INK }}>{product.rating?.toFixed(1)}</span>
-                <span style={{ color: BRASS }} aria-hidden="true">★</span>
+                <span style={{ color: BRASS }}>★</span>
                 <span className="text-sm text-stone-500">({product.reviews} avaliações)</span>
               </div>
               <div className="mt-5 rounded-2xl p-4" style={{ backgroundColor: SURFACE }}>
@@ -274,14 +162,7 @@ export default async function ProductPage({ params }: Props) {
                 <div className="text-3xl font-bold" style={{ color: INK }}>{formatBRL(price)}</div>
                 {discount > 0 && <span className="text-sm font-medium" style={{ color: SAGE }}>Economize {formatBRL(originalPrice - price)}</span>}
               </div>
-              <div className="mt-4 space-y-2">
-                {["Frete grátis em Marília SP", "Entrega em até 7 dias úteis", "Garantia estendida do fabricante"].map((benefit) => (
-                  <div key={benefit} className="flex items-center gap-2 text-sm text-stone-600">
-                    <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text- text-white" style={{ backgroundColor: SAGE }}>✓</span>{benefit}
-                  </div>
-                ))}
-              </div>
-              <a href={product.affiliateLink} target="_blank" rel="noopener noreferrer" className="mt-6 flex w-full items-center justify-center gap-2 rounded-full px-6 py-4 text-base font-bold text-white shadow-md transition-all hover:-translate-y-0.5" style={{ backgroundColor: INK }}>
+              <a href={product.affiliateLink} target="_blank" rel="noopener noreferrer" className="mt-6 flex w-full items-center justify-center gap-2 rounded-full px-6 py-4 text-base font-bold text-white shadow-md" style={{ backgroundColor: INK }}>
                 Ver melhor oferta na {product.platform || "loja"}
               </a>
               <Link href="/" className="mt-3 text-center text-xs uppercase tracking-wide hover:underline" style={{ fontFamily: FONT_MONO, color: "#918466" }}>← Continuar comprando</Link>
@@ -289,7 +170,6 @@ export default async function ProductPage({ params }: Props) {
           </div>
           <div className="border-t p-6 sm:p-8" style={{ borderColor: BORDER }}>
             <ProductDescription content={product.descricao} />
-
           </div>
         </div>
       </main>
