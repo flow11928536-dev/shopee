@@ -134,8 +134,8 @@ function generateSearchIntents(categories, guides) {
   guides.forEach(guide => {
     if (guide.h1) {
       const cleanTitle = guide.h1.toLowerCase()
-        .replace(/guia|o que é|como escolher|dicas|tutorial|passo a passo/i, '')
-        .trim();
+       .replace(/guia|o que é|como escolher|dicas|tutorial|passo a passo/i, '')
+       .trim();
       if (cleanTitle) {
         intents.push({
           category: 'guide',
@@ -166,7 +166,7 @@ function generateContentClusters(categories, guides) {
       guides: relatedGuides.map(g => g.slug),
       guideTitles: relatedGuides.map(g => g.h1),
       count: relatedGuides.length,
-      depth: relatedGuides.length > 0 ? 'médio' : 'baixo',
+      depth: relatedGuides.length > 0? 'médio' : 'baixo',
     };
   });
 }
@@ -228,8 +228,8 @@ function generateContentOpportunities(categories, guides, products) {
 function buildKnowledgeGraph(categories, guides, products, entities) {
   return {
     entities: {
-      categories: categories.map(c => ({ ...c, type: 'Category', description: c.description || `Categoria de ${c.label}` })),
-      guides: guides.map(g => ({ ...g, type: 'Guide', description: g.description || `Guia sobre ${g.h1}` })),
+      categories: categories.map(c => ({...c, type: 'Category', description: c.description || `Categoria de ${c.label}` })),
+      guides: guides.map(g => ({...g, type: 'Guide', description: g.description || `Guia sobre ${g.h1}` })),
       products: products.slice(0, 30).map(p => ({ id: p.id, name: p.name, slug: p.slug, category: p.category, mainCategory: p.mainCategory, brand: p.marca, price: p.precoMax || 0, type: 'Product' })),
       materials: entities.materials.map(m => ({ name: m, type: 'Material' })),
       environments: entities.environments.map(e => ({ name: e, type: 'Environment' })),
@@ -262,7 +262,7 @@ function buildKnowledgeGraph(categories, guides, products, entities) {
         type: 'usesMaterial',
         weight: 1,
       })),
-      productToBrand: products.map(p => p.marca ? { source: p.slug, target: p.marca, type: 'madeBy', weight: 1 } : null).filter(Boolean),
+      productToBrand: products.map(p => p.marca? { source: p.slug, target: p.marca, type: 'madeBy', weight: 1 } : null).filter(Boolean),
       guideToBenefit: guides.map(g => {
         const text = (g.content || '') + ' ' + (g.h1 || '') + ' ' + (g.keyword || '') + ' ' + (g.seoDescription || '') + ' ' + (g.intro || '');
         const benefits = entities.benefits.filter(b => text.toLowerCase().includes(b));
@@ -273,10 +273,10 @@ function buildKnowledgeGraph(categories, guides, products, entities) {
 }
 
 function generateRichSummary(page, site) {
-  let summary = `${page.h1 || page.title} é uma página do ${site.name}. ${page.description || page.seoDescription || ''} ${page.category ? 'Relacionada à categoria ' + page.category + '.' : ''} ${page.objetivo ? 'Objetivo: ' + page.objetivo + '.' : ''}`;
+  let summary = `${page.h1 || page.title} é uma página do ${site.name}. ${page.description || page.seoDescription || ''} ${page.category? 'Relacionada à categoria ' + page.category + '.' : ''} ${page.objetivo? 'Objetivo: ' + page.objetivo + '.' : ''}`;
   const words = summary.split(' ');
   if (words.length < 80) summary += ` O ${site.name} oferece conteúdo especializado em móveis e decoração, ajudando consumidores com análises e recomendações.`;
-  return words.length > 120 ? words.slice(0, 120).join(' ') + '...' : summary;
+  return words.length > 120? words.slice(0, 120).join(' ') + '...' : summary;
 }
 
 function generateAINavigation(categories, guides, siteUrl) {
@@ -325,10 +325,10 @@ function generateLlmsTxt(site, categories, guides, entities) {
     '- Setup Gamer e móveis para gamers',
     '',
     '## Categorias',
-    ...categories.map(cat => `- [${cat.label}](${cat.url})`),
+   ...categories.map(cat => `- [${cat.label}](${cat.url})`),
     '',
     '## Guias',
-    ...guides.map(g => `- [${g.h1}](${guideUrl(site.url, g.slug)})`),
+   ...guides.map(g => `- [${g.h1}](${guideUrl(site.url, g.slug)})`),
     '',
     '## Páginas Especiais',
     `- [Guia de Móveis Gamer](${site.url}/moveis-gamer)`,
@@ -336,7 +336,7 @@ function generateLlmsTxt(site, categories, guides, entities) {
     `- [Móveis para Bebê](${site.url}/moveis-para-bebe)`,
     '',
     '## AI Navigation',
-    ...Object.entries(nav).map(([slug, n]) => `### ${n.category}\nURL: ${n.categoryUrl}\nGuias:\n${n.guides.map(g => `- ${g.title}`).join('\n')}`),
+   ...Object.entries(nav).map(([slug, n]) => `### ${n.category}\nURL: ${n.categoryUrl}\nGuias:\n${n.guides.map(g => `- ${g.title}`).join('\n')}`),
     `\n\nÚltima atualização: ${new Date().toISOString().slice(0, 19)}`,
   ];
   return lines.join('\n');
@@ -351,13 +351,13 @@ function generateLlmsFullTxt(site, categories, guides, products, pages, entities
     site.description,
     '',
     '## Categorias',
-    ...categories.map(c => `- ${c.label}: ${c.description} (${products.filter(p => p.category === c.slug || p.mainCategory === c.slug).length} produtos)`),
+   ...categories.map(c => `- ${c.label}: ${c.description} (${products.filter(p => p.category === c.slug || p.mainCategory === c.slug).length} produtos)`),
     '',
     '## Guias',
-    ...guides.map(g => `- ${g.h1}: ${g.description || 'Guia completo'}`),
+   ...guides.map(g => `- ${g.h1}: ${g.description || 'Guia completo'}`),
     '',
     '## Páginas',
-    ...pages.map(p => `- ${p.title}: ${p.description}`),
+   ...pages.map(p => `- ${p.title}: ${p.description}`),
     '',
     '## Páginas Especiais',
     `- Guia de Móveis Gamer: Guia completo para montar seu setup gamer com as melhores ofertas`,
@@ -390,7 +390,7 @@ function generateLlmsIndexJson(site, categories, guides, products, pages, stats,
       title: g.h1,
       url: guideUrl(site.url, g.slug),
       description: g.description || '',
-      keywords: g.keyword ? g.keyword.split(',').map(k => k.trim()) : [],
+      keywords: g.keyword? g.keyword.split(',').map(k => k.trim()) : [],
       wordCount: (g.content || '').split(' ').length,
     })),
     pages: pages,
@@ -410,96 +410,37 @@ function generateLlmsIndexJson(site, categories, guides, products, pages, stats,
   };
 }
 
-// ============================================================
-// FUNÇÃO CORRIGIDA: SITEMAP SEM CATEGORIAS EXCLUÍDAS
-// ============================================================
 function generateSitemap(site, categories, guides, products, pages) {
   const urls = [];
   const today = new Date().toISOString().split('T')[0];
-
-  // ✅ Categorias que já têm página especial (não devem aparecer como /categoria/)
-  // Adicionado moveis-gamer e moveis-para-bebe — têm página própria
   const categoriasExcluidas = [
     'moveis-para-estudantes',
     'moveis-gamer',
     'moveis-para-bebe',
   ];
-
   console.log(`📊 Gerando sitemap com ${products.length} produtos`);
-
-  // Home
   urls.push({ loc: site.url, lastmod: today, changefreq: 'daily', priority: '1.0' });
-
-  // Categorias (exceto as excluídas)
   categories.forEach(cat => {
     if (categoriasExcluidas.includes(cat.slug)) {
-      console.log(`   ⏭️ Pulando categoria excluída: ${cat.slug}`);
+      console.log(` ⏭ Pulando categoria excluída: ${cat.slug}`);
       return;
     }
-    urls.push({
-      loc: cat.url,
-      lastmod: today,
-      changefreq: 'weekly',
-      priority: '0.9',
-    });
+    urls.push({ loc: cat.url, lastmod: today, changefreq: 'weekly', priority: '0.9', });
   });
-
-  // Guias
   guides.forEach(g => {
-    urls.push({
-      loc: guideUrl(site.url, g.slug),
-      lastmod: today,
-      changefreq: 'monthly',
-      priority: '0.8',
-    });
+    urls.push({ loc: guideUrl(site.url, g.slug), lastmod: today, changefreq: 'monthly', priority: '0.8', });
   });
-
-  // Páginas estáticas (sem moveis-gamer, moveis-para-bebe, moveis-para-estudantes
-  // — essas têm entrada própria com prioridade maior mais abaixo)
   const paginasEspeciais = ['moveis-gamer', 'moveis-para-bebe', 'moveis-para-estudantes'];
   pages.forEach(p => {
-    if (paginasEspeciais.includes(p.slug)) return; // pula — adicionadas abaixo com prioridade maior
-    urls.push({
-      loc: p.url,
-      lastmod: today,
-      changefreq: 'monthly',
-      priority: '0.7',
-    });
+    if (paginasEspeciais.includes(p.slug)) return;
+    urls.push({ loc: p.url, lastmod: today, changefreq: 'monthly', priority: '0.7', });
   });
-
-  // ✅ PÁGINAS ESPECIAIS (com prioridade maior que as páginas estáticas comuns)
-  urls.push({
-    loc: `${site.url}/moveis-gamer`,
-    lastmod: today,
-    changefreq: 'weekly',
-    priority: '0.9',
-  });
-
-  urls.push({
-    loc: `${site.url}/moveis-para-bebe`,
-    lastmod: today,
-    changefreq: 'weekly',
-    priority: '0.8',
-  });
-
-  urls.push({
-    loc: `${site.url}/moveis-para-estudantes`,
-    lastmod: today,
-    changefreq: 'weekly',
-    priority: '0.8',
-  });
-
-  // TODOS OS PRODUTOS
+  urls.push({ loc: `${site.url}/moveis-gamer`, lastmod: today, changefreq: 'weekly', priority: '0.9', });
+  urls.push({ loc: `${site.url}/moveis-para-bebe`, lastmod: today, changefreq: 'weekly', priority: '0.8', });
+  urls.push({ loc: `${site.url}/moveis-para-estudantes`, lastmod: today, changefreq: 'weekly', priority: '0.8', });
   products.forEach(p => {
-    urls.push({
-      loc: productUrl(site.url, p.slug),
-      lastmod: today,
-      changefreq: 'weekly',
-      priority: '0.6',
-    });
+    urls.push({ loc: productUrl(site.url, p.slug), lastmod: today, changefreq: 'weekly', priority: '0.6', });
   });
-
-  // ✅ DEDUPLICAÇÃO FINAL — remove URLs duplicadas, mantém a de maior prioridade
   const seen = new Map();
   for (const u of urls) {
     const existing = seen.get(u.loc);
@@ -508,20 +449,10 @@ function generateSitemap(site, categories, guides, products, pages) {
     }
   }
   const finalUrls = Array.from(seen.values());
-
   console.log(`✅ Sitemap gerado com ${finalUrls.length} URLs no total`);
-  console.log(`   - ${categories.length} categorias (${categoriasExcluidas.length} excluídas)`);
-  console.log(`   - ${guides.length} guias`);
-  console.log(`   - ${pages.length} páginas`);
-  console.log(`   - ${products.length} produtos`);
-  console.log(`   - Páginas especiais: moveis-gamer, moveis-para-bebe, moveis-para-estudantes`);
-  if (urls.length !== finalUrls.length) {
-    console.log(`   - ${urls.length - finalUrls.length} duplicatas removidas`);
-  }
-
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${finalUrls.map(u => `  <url>
+${finalUrls.map(u => ` <url>
     <loc>${u.loc}</loc>
     <lastmod>${u.lastmod}</lastmod>
     <changefreq>${u.changefreq}</changefreq>
@@ -529,6 +460,36 @@ ${finalUrls.map(u => `  <url>
   </url>`).join('\n')}
 </urlset>`;
   return xml;
+}
+
+// ================== NOVA FUNÇÃO: SITEMAP DE IMAGENS - AFILIADO ==================
+function generateImageSitemap(site, products) {
+  const today = new Date().toISOString().split('T')[0];
+  let total = 0;
+  const urls = products.map(p => {
+    let lista = [];
+    if (p.imagens && Array.isArray(p.imagens)) lista = p.imagens;
+    else if (p.images && Array.isArray(p.images)) lista = p.images;
+    else if (p.imagem) lista = [p.imagem];
+    else if (p.image) lista = [p.image];
+    else if (p.foto) lista = [p.foto];
+    else lista = [`${p.slug}.webp`];
+
+    const imagensXml = lista.map(img => {
+      total++;
+      const nomeArquivo = img.split('/').pop();
+      const semExt = nomeArquivo.replace(/\.(webp|jpg|png|jpeg)$/i, '');
+      const titulo = semExt.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+      const caption = `${titulo} - modelo mais vendido com melhor preço, garantia e avaliações positivas para todo o Brasil.`;
+      const loc = img.startsWith('http')? img : `${site.url}/imagens/produtos/${nomeArquivo}`;
+      return ` <image:image>\n <image:loc>${loc}</image:loc>\n <image:title><![CDATA[${titulo}]]></image:title>\n <image:caption><![CDATA[${caption}]]></image:caption>\n </image:image>`;
+    }).join('\n');
+
+    return ` <url>\n <loc>${productUrl(site.url, p.slug)}</loc>\n <lastmod>${today}</lastmod>\n${imagensXml}\n </url>`;
+  }).join('\n');
+
+  console.log(`🖼️ Sitemap de imagens gerado: ${total} imagens`);
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${urls}\n</urlset>`;
 }
 
 function generateRobotsTxt(site) {
@@ -571,6 +532,7 @@ function generateRobotsTxt(site) {
     'Allow: /',
     '',
     `Sitemap: ${site.url}/sitemap.xml`,
+    `Sitemap: ${site.url}/sitemap-imagens.xml`,
   ];
   return lines.join('\n');
 }
@@ -579,48 +541,30 @@ async function loadData() {
   const { SITE, allCategories, CATEGORY_LABELS, products } = await import('../src/data/products.ts');
   const { getAllGuidesMeta } = await import('../src/data/guides.ts');
   const guides = getAllGuidesMeta();
-  
+
   console.log('='.repeat(60));
   console.log('🔍 DIAGNÓSTICO DE PRODUTOS');
   console.log('='.repeat(60));
   console.log(`📦 Total de produtos no products.ts: ${products.length}`);
-  
-  const missingSlug = products.filter(p => !p.slug);
+
+  const missingSlug = products.filter(p =>!p.slug);
   if (missingSlug.length > 0) {
-    console.warn(`\n⚠️ Produtos SEM SLUG (${missingSlug.length}):`);
-    missingSlug.forEach(p => console.warn(`   - ID: ${p.id || 'Sem ID'} | Nome: ${p.name || 'Sem nome'}`));
+    console.warn(`\n⚠ Produtos SEM SLUG (${missingSlug.length}):`);
+    missingSlug.forEach(p => console.warn(` - ID: ${p.id || 'Sem ID'} | Nome: ${p.name || 'Sem nome'}`));
   }
-  
+
   const slugs = products.map(p => p.slug);
-  const duplicateSlugs = slugs.filter((s, i) => slugs.indexOf(s) !== i);
+  const duplicateSlugs = slugs.filter((s, i) => slugs.indexOf(s)!== i);
   if (duplicateSlugs.length > 0) {
-    console.warn(`\n⚠️ Slugs DUPLICADOS (${duplicateSlugs.length}):`);
-    duplicateSlugs.forEach(s => console.warn(`   - ${s}`));
+    console.warn(`\n⚠ Slugs DUPLICADOS (${duplicateSlugs.length}):`);
+    duplicateSlugs.forEach(s => console.warn(` - ${s}`));
   }
-  
-  const missingId = products.filter(p => !p.id);
-  if (missingId.length > 0) {
-    console.warn(`\n⚠️ Produtos SEM ID (${missingId.length}):`);
-    missingId.forEach(p => console.warn(`   - Slug: ${p.slug || 'Sem slug'} | Nome: ${p.name || 'Sem nome'}`));
-  }
-  
-  const missingCategory = products.filter(p => !p.category);
-  if (missingCategory.length > 0) {
-    console.warn(`\n⚠️ Produtos SEM CATEGORY (${missingCategory.length}):`);
-    missingCategory.forEach(p => console.warn(`   - Slug: ${p.slug || 'Sem slug'} | Nome: ${p.name || 'Sem nome'}`));
-  }
-  
-  const missingMainCategory = products.filter(p => !p.mainCategory);
-  if (missingMainCategory.length > 0) {
-    console.warn(`\n⚠️ Produtos SEM MAIN CATEGORY (${missingMainCategory.length}):`);
-    missingMainCategory.forEach(p => console.warn(`   - Slug: ${p.slug || 'Sem slug'} | Nome: ${p.name || 'Sem nome'}`));
-  }
-  
+
   console.log('\n' + '='.repeat(60));
   console.log(`📦 Carregados ${products.length} produtos do products.ts`);
   console.log(`📦 Carregados ${guides.length} guias do guides.ts`);
   console.log('='.repeat(60) + '\n');
-  
+
   return { SITE, allCategories, CATEGORY_LABELS, products, guides };
 }
 
@@ -661,13 +605,15 @@ async function generateFiles() {
   fs.writeFileSync(path.join(publicDir, 'llms-full.txt'), generateLlmsFullTxt(SITE, categories, guides, products, pages, entities));
   fs.writeFileSync(path.join(publicDir, 'llms-index.json'), JSON.stringify(generateLlmsIndexJson(SITE, categories, guides, products, pages, stats, entities, searchIntents, clusters, opps), null, 2));
   fs.writeFileSync(path.join(publicDir, 'robots.txt'), generateRobotsTxt(SITE));
+  // CORRIGIDO AQUI: era path.Ajoin
   fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), generateSitemap(SITE, categories, guides, products, pages));
+  // NOVO: GERA O SITEMAP DE IMAGENS AUTOMATICAMENTE
+  fs.writeFileSync(path.join(publicDir, 'sitemap-imagens.xml'), generateImageSitemap(SITE, products));
   fs.writeFileSync(path.join(publicDir, 'content-opportunities.json'), JSON.stringify(opps, null, 2));
 
   console.log('✅ Arquivos de SEO gerados com sucesso!');
   console.log(`📁 Pasta: ${publicDir}`);
   console.log(`📊 ${stats.totalCategories} categorias, ${stats.totalGuides} guias, ${stats.totalProducts} produtos.`);
-  console.log(`📄 Páginas especiais: moveis-gamer, moveis-para-estudantes, moveis-para-bebe`);
 }
 
 generateFiles().catch(console.error);

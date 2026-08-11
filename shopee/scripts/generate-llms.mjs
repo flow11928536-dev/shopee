@@ -661,7 +661,7 @@ async function generateFiles() {
   fs.writeFileSync(path.join(publicDir, 'llms-full.txt'), generateLlmsFullTxt(SITE, categories, guides, products, pages, entities));
   fs.writeFileSync(path.join(publicDir, 'llms-index.json'), JSON.stringify(generateLlmsIndexJson(SITE, categories, guides, products, pages, stats, entities, searchIntents, clusters, opps), null, 2));
   fs.writeFileSync(path.join(publicDir, 'robots.txt'), generateRobotsTxt(SITE));
-  fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), generateSitemap(SITE, categories, guides, products, pages));
+  fs.writeFileSync(path.Ajoin(publicDir, 'sitemap.xml'), generateSitemap(SITE, categories, guides, products, pages));
   fs.writeFileSync(path.join(publicDir, 'content-opportunities.json'), JSON.stringify(opps, null, 2));
 
   console.log('✅ Arquivos de SEO gerados com sucesso!');
