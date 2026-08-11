@@ -5,22 +5,21 @@ import { getAllProducts } from '@/data/products'
 
 export async function GET() {
   const SITE = 'https://www.lojademoveismarilia.com.br'
-
-  // remove duplicatas por slug
   const uniqueProducts = Array.from(
     new Map(getAllProducts().map(p => [p.slug, p])).values()
   )
 
   const items = uniqueProducts.map((p) => {
-      const rawPrice = (p as any).price || (p as any).salePrice || 100
-      const price = Number(String(rawPrice).replace(',', '.')) || 100
-      let rawImage = (p as any).images?.[0] || (p as any).image || ''
+      const price = Number(String(p.price).replace(',', '.')) || 100
+      // AQUI ESTAVA O BUG - campo certo é imageFile / displayImage
+      let rawImage = (p as any).imageFile || (p as any).displayImage || ''
       let image = rawImage
       if (image &&!image.startsWith('http')) {
         image = `${SITE}${image.startsWith('/')? '' : '/'}${image}`
       }
       if (!image) image = `${SITE}/og-image.jpg`
-      const desc = (p as any).seoDescription || p.name
+
+      const desc = String((p as any).seoDescription || p.name).substring(0, 4000)
 
       return `
     <item>
@@ -29,10 +28,11 @@ export async function GET() {
       <g:description><![CDATA[${desc}]]></g:description>
       <g:link>${SITE}/produto/${p.slug}</g:link>
       <g:image_link>${image}</g:image_link>
-      <g:brand>Loja de Móveis Marília</g:brand>
+      <g:brand>${(p as any).marca || 'Loja de Móveis Marília'}</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>${price.toFixed(2)} BRL</g:price>
+      <g:quantity>10</g:quantity>
     </item>`
     }).join('')
 
