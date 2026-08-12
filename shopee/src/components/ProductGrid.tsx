@@ -18,7 +18,7 @@ interface ProductGridProps {
 }
 
 // ============================================================
-// CARD INDIVIDUAL COM HOVER IMAGE SWAP
+// CARD INDIVIDUAL COM HOVER IMAGE SWAP - CORRIGIDO SEM MICRODATA
 // ============================================================
 const ProductCard = memo(function ProductCard({
   product,
@@ -35,8 +35,6 @@ const ProductCard = memo(function ProductCard({
   return (
     <article
       className="group relative bg-white rounded-lg border border-stone-200 transition-all duration-300 hover:border-stone-300 hover:shadow-lg overflow-hidden"
-      itemScope
-      itemType="https://schema.org/Product"
     >
       {/* BADGE + DESCONTO */}
       <div className="absolute z-10 top-2 left-2 flex flex-col gap-1">
@@ -106,10 +104,9 @@ const ProductCard = memo(function ProductCard({
           </span>
         </div>
 
-        {/* NOME */}
+        {/* NOME - SEM itemProp */}
         <h3
           className="text-[10px] sm:text-sm font-medium text-stone-800 line-clamp-2 mb-2 min-h-[2.5em] sm:min-h-[2.5em]"
-          itemProp="name"
         >
           {product.name}
         </h3>
