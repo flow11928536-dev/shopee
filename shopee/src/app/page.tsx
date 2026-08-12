@@ -201,14 +201,6 @@ const faqSchema = {
   ],
 };
 
-const productSchema = {
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  name: "Produtos em Destaque - Loja de Móveis Marília",
-  description: "Seleção de móveis premium com frete grátis em Marília SP",
-  numberOfItems: 24,
-  url: SITE.url,
-};
 
 /* ============================================================
    HOME PAGE PRINCIPAL - VERSÃO 2026 (COMPACT & PROFESSIONAL)
@@ -220,8 +212,6 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(storeSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
-
       <h1 className="sr-only">
         Loja de Móveis Marília - Loja de Móveis em Marília SP | Design, Curadoria e Frete Grátis
       </h1>
