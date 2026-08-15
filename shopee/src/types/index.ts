@@ -14,7 +14,8 @@ export type MainCategory =
   | "escritorio"
   | "area-externa"
   | "eletrodomesticos"
-  | "gamer";
+  | "gamer"
+  | "cantinho-feminino"; // <-- NOVA
 
 export type ProductCategory =
   | "cozinhas"
@@ -34,13 +35,16 @@ export type ProductCategory =
   | "moveis-para-bebe"
   | "cabeceiras"
   | "gamer"
+  | "penteadeiras" // <-- NOVA CATEGORIA PRINCIPAL
+  | "sapateiras" // <-- COMPLEMENTO FEMININO
+  | "poltronas"
+  | "banquetas"
   // ===== ELETRODOMÉSTICOS =====
   | "liquidificadores"
   | "microondas"
   | "geladeiras"
   | "air-fryers"
   | "ar-condicionado";
-
 /**
  * Estrutura OBRIGATÓRIA de cada produto.
  * CORRIGIDO: Removida duplicação que quebrava o build (TS2300)

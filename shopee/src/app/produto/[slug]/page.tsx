@@ -162,7 +162,7 @@ export default async function ProductPage({ params }: Props) {
                 {discount > 0 && <span className="text-sm font-medium" style={{ color: SAGE }}>Economize {formatBRL(originalPrice - price)}</span>}
               </div>
               <a href={product.affiliateLink} target="_blank" rel="noopener noreferrer" className="mt-6 flex w-full items-center justify-center gap-2 rounded-full px-6 py-4 text-base font-bold text-white shadow-md" style={{ backgroundColor: INK }}>
-                Ver melhor oferta na {product.platform || "loja"}
+                Ver melhor oferta {product.platform || "loja"}
               </a>
               <Link href="/" className="mt-3 text-center text-xs uppercase tracking-wide hover:underline" style={{ fontFamily: FONT_MONO, color: "#918466" }}>← Continuar comprando</Link>
             </div>

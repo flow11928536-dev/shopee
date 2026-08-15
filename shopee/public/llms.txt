@@ -28,6 +28,7 @@
 - [Cômodas](https://www.lojademoveismarilia.com.br/categoria/comodas)
 - [Cadeiras](https://www.lojademoveismarilia.com.br/categoria/cadeiras)
 - [Móveis Gamer](https://www.lojademoveismarilia.com.br/categoria/gamer)
+- [Penteadeiras](https://www.lojademoveismarilia.com.br/categoria/penteadeiras)
 
 ## Guias
 - [Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo](https://www.lojademoveismarilia.com.br/guia/moveis-area-externa)
@@ -163,6 +164,10 @@ Guias:
 URL: https://www.lojademoveismarilia.com.br/categoria/gamer
 Guias:
 
+### Penteadeiras
+URL: https://www.lojademoveismarilia.com.br/categoria/penteadeiras
+Guias:
 
 
-Última atualização: 2026-08-12T01:41:43
+
+Última atualização: 2026-08-15T00:56:55

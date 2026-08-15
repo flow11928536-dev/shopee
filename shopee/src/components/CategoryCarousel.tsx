@@ -280,8 +280,7 @@ export default function CategoryCarousel({ items }: CategoryCarouselProps) {
         {validItems.map((item, index) => (
           <Link
             key={item.slug}
-            href={`/categoria/${item.slug}`}
-            className={`category-item group flex w-24 shrink-0 flex-col items-center gap-3 text-center sm:w-28 ${
+            href={item.slug === "penteadeira" || item.slug === "penteadeiras" ? "/cantinho-que-toda-mulher-merece" : `/categoria/${item.slug}`}            className={`category-item group flex w-24 shrink-0 flex-col items-center gap-3 text-center sm:w-28 ${
               isVisible ? "is-visible" : ""
             }`}
             style={{

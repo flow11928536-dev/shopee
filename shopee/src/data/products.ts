@@ -62,23 +62,38 @@ export const SUB_CATEGORIES = [
 // RÓTULOS DAS CATEGORIAS (para exibição)
 // ============================================================
 export const CATEGORY_LABELS: Record<ProductCategory, string> = {
-  cozinhas: "Cozinhas",
-  "guarda-roupas": "Guarda-Roupas",
+  // ===== SALA =====
   paineis: "Painéis e Racks",
+  racks: "Racks",
   sofas: "Sofás",
+  mesas: "Mesas",
+  
+  // ===== QUARTO =====
+  "guarda-roupas": "Guarda-Roupas",
+  quartos: "Quartos",
+  comodas: "Cômodas",
+  cabeceiras: "Cabeceiras",
+  penteadeiras: "Penteadeiras", // <-- NOVA PRINCIPAL
+  sapateiras: "Sapateiras", // <-- NOVA
+  poltronas: "Poltronas", // <-- NOVA
+  banquetas: "Banquetas", // <-- NOVA
+  
+  // ===== COZINHA =====
+  cozinhas: "Cozinhas",
+  
+  // ===== OUTROS CÔMODOS =====
   "home-office": "Home Office",
   "area-externa": "Área Externa",
-  quartos: "Quartos",
-  eletrodomesticos: "Eletrodomésticos",
+  cadeiras: "Cadeiras",
+  
+  // ===== ESTILOS / PÚBLICO =====
   "moveis-para-estudantes": "Móveis para Estudantes",
-  "mdf-mdp": "MDF e MDP",
   "moveis-para-bebe": "Móveis para Bebê",
   gamer: "Móveis Gamer",
-  mesas: "Mesas",
-  racks: "Racks",
-  comodas: "Cômodas",
-  cadeiras: "Cadeiras",
-  cabeceiras: "Cabeceiras",
+  "mdf-mdp": "MDF e MDP",
+  
+  // ===== ELETRO =====
+  eletrodomesticos: "Eletrodomésticos",
   liquidificadores: "Liquidificadores",
   microondas: "Micro-ondas",
   geladeiras: "Geladeiras e Refrigeradores",
@@ -12709,6 +12724,596 @@ Sim, é ideal para apartamentos com organização vertical.
     seoTitle: "Armário Cozinha MX Móveis 5 Portas 2 Gavetas Marrocos Off White",
     seoDescription: "Armário cozinha MX Móveis 5 portas 2 gavetas marrocos/off white com 7 prateleiras e espaço forno. MDP UV. 876 avaliações nota 4.9.",
   },
+  {
+  id: "p-imp-159",
+  slug: "penteadeira-escrivaninha-canto-star-espelho-organizadora-136cm-branco-liberty",
+  category: "quartos",
+  mainCategory: "quarto",
+  name: "Penteadeira e Escrivaninha de Canto Star 136cm com Espelho Organizadora Branco Liberty Móveis",
+  imageFile: "/imagens/produtos/penteadeira-escrivaninha-canto-star-espelho-organizadora-136cm-branco-frente.webp",
+  displayImage: "/imagens/produtos/penteadeira-escrivaninha-canto-star-espelho-organizadora-136cm-branco-frente.webp",
+  imageHover: "/imagens/produtos/penteadeira-escrivaninha-canto-star-espelho-organizadora-136cm-branco-h.webp",
+  alt: "penteadeira e escrivaninha de canto star 136cm com espelho organizadora branco liberty moveis",
+  rating: 4.8,
+  reviews: 975,
+  discount: 10,
+  price: 423.69,
+  originalPrice: 475.00,
+  badge: "MAIS VENDIDO",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2eR7Wmc",
+  descricao: `
+# Penteadeira e Escrivaninha de Canto Star 136cm com Espelho Branco - 7º Mais Vendida
+
+Se você buscou por **penteadeira de canto**, **penteadeira e escrivaninha de canto**, **escrivaninha de canto 136cm**, **penteadeira com espelho branca**, **penteadeira canto com porta e prateleira** ou **escrivaninha penteadeira 2 em 1**, essa Star da Liberty Móveis / Mobler é a 7º mais vendida em penteadeiras com 975 avaliações 4.8 e 5 MIL vendas. Diferente de penteadeira camarim 9 gavetas que custa R$ 1900, essa é 2 em 1 por R$ 423 - para quem buscou **penteadeira escrivaninha canto barata**, **penteadeira de canto 136cm barata**, **penteadeira canto branco com espelho** e **escrivaninha de canto pequena 45cm profundidade**.
+
+**PESQUISA REAL QUE FIZEMOS:** Fomos na Amazon, Buscapé, Magalu, MadeiraMadeira e avaliações reais. O que o pessoal fala: "Muito linda, recomendo, perfeita, espaçosa" - ponto fraco: espelho pode vir quebrado se transportadora não cuida (3 casos). Fabricante Mobler / Liberty Móveis: MDP 12 e 15mm (não MDF), pintura UV fosco branco, tampo 15mm, painel fixo com espelho 3mm, 1 porta com prateleira interna + nicho organizador com vidros de correr para maquiagem/joias. Formato em L 136cm cada lado, profundidade 45cm - cabe em quarto pequeno.
+
+## Por que escolhemos a Penteadeira Star 136cm?
+
+**PENTEADEIRA DE CANTO 136CM 2 EM 1 COM ESPELHO:** Enquanto penteadeira comum ocupa parede toda, essa em L aproveita canto morto. Para quem buscou **penteadeira de canto 136cm**, **escrivaninha de canto 136cm**, **penteadeira canto com espelho**, **penteadeira organizadora com vidro**, você tem bancada para notebook + maquiagem no mesmo móvel. Porta convencional com dobradiça metálica + 1 prateleira interna guarda secador, chapinha. Vidros de correr protegem maquiagem da poeira.
+
+**PENTEADEIRA BRANCA MDP 15MM PINTURA UV QUE NÃO AMARELA:** Produzida em MDP 12 e 15mm alta qualidade, acabamento Finish Foil + pintura UV fosco - não descasca e limpa com pano úmido. Para quem buscou **penteadeira branca mdf**, **penteadeira branca 136cm com espelho**, **penteadeira mdf com espelho**, peso 36,5kg firme, não tem rodízios (mais estabilidade). Montagem parafusos, cavilhas e minifix - recomendamos montador profissional para não espanar MDP.
+
+**TRANSPARÊNCIA / QUEM NÃO DEVE COMPRAR:** Se você quer penteadeira camarim com 9 gavetas e LED, essa NÃO é - ela tem 1 porta só + nicho com vidro. É minimalista. Se seu quarto tem menos de 140cm de canto, mede antes: precisa 136cm cada parede. Altura 75,5cm sem espelho, 118cm com espelho. Profundidade 45cm - notebook de 15.6" cabe, mas monitor 24" fica grande. Ideal para notebook, estudos e maquiagem. Se quer escrivaninha gamer 120cm, vá de [mesa gamer em L](/produto/mesa-gamer-em-l-160x100-rgb-carbono-nsy-1601h-300kg).
+
+## Ficha técnica honesta - Star 136cm Liberty
+
+- Marca: Liberty Móveis / Mobler (linha Glamour)
+- Modelo: Star PN 3003023511 - penteadeira e escrivaninha de canto
+- Cor: Branco fosco - pintura UV não amarela
+- Dimensões: 136cm largura cada lado x 75,5cm altura x 45cm profundidade - 118cm altura com espelho
+- Material: MDP 12 e 15mm + MDF 3mm costas - tampo 15mm
+- Acabamento: Finish Foil + Pintura UV fosco - brilho e durabilidade
+- Espelho: Painel fixo com espelho 3mm + vidros de correr no nicho organizador
+- Porta: 1 porta convencional com dobradiça metálica + 1 prateleira interna
+- Nicho: Organizador para joias/maquiagem com tampas em vidro
+- Montagem: Parafusos, cavilhas, minifix - necessita montagem
+- Peso: 36,5kg - sem rodízios, mais estável
+- Garantia: 3 meses legal
+- Nota: 4.8 com 975 avaliações - 7º mais vendido penteadeiras + 5 mil vendidos
+- Preço: R$ 423,69 Pix 10% OFF - de R$ 475,00 - média últimos 40 dias R$ 318-423
+
+## Ideal para quem buscou
+
+- penteadeira de canto 136cm
+- penteadeira e escrivaninha de canto
+- escrivaninha de canto 136cm com espelho
+- penteadeira branca com espelho e porta
+- penteadeira organizadora de canto com vidro
+- penteadeira canto branco barata
+- escrivaninha penteadeira 2 em 1 quarto pequeno
+  `,
+  marca: "Liberty Móveis",
+  keywords: [
+    "penteadeira de canto 136cm",
+    "penteadeira e escrivaninha de canto",
+    "escrivaninha de canto 136cm com espelho",
+    "penteadeira de canto com espelho branco",
+    "penteadeira organizadora de canto",
+    "penteadeira canto com porta e prateleira",
+    "escrivaninha penteadeira 2 em 1",
+    "penteadeira canto branco 136cm"
+  ],
+  seoTitle: "Penteadeira e Escrivaninha de Canto Star 136cm com Espelho Branco R$ 423 | 4.8",
+  seoDescription: "Penteadeira e escrivaninha de canto Star 136cm com espelho branco Liberty Móveis. 2 em 1 com porta e vidros de correr, 45cm profundidade. 10% OFF Pix R$ 423,69 - 7º mais vendida, 975 avaliações 4.8.",
+  caracteristicas: [
+    "Formato em L 136cm cada lado - aproveita canto",
+    "2 em 1: escrivaninha + penteadeira com espelho fixo 3mm",
+    "MDP 12 e 15mm com pintura UV branca fosco",
+    "1 porta com prateleira + nicho organizador com vidros de correr",
+    "Profundidade 45cm ideal quarto pequeno",
+    "Altura 75,5cm (118cm com espelho) - 36,5kg estável sem rodízios"
+  ],
+  recomendacao: "Ideal para quarto pequeno que precisa otimizar espaço. O formato em L 136cm aproveita canto morto, o espelho fixo + vidros de correr organizam maquiagem e joias sem poeira. Excelente custo-benefício 2 em 1: paga uma e leva penteadeira + escrivaninha para notebook e estudos."
+},
+{
+  id: "p-imp-160",
+  slug: "penteadeira-suspensa-kelan-60cm-branca-1-gaveta-multifuncional-parede",
+  category: "quartos",
+  mainCategory: "quarto",
+  name: "Penteadeira Suspensa Kelan 60cm Branca 1 Gaveta Multifuncional Parede",
+  imageFile: "/imagens/produtos/penteadeira-suspensa-kelan-60cm-branca-1-gaveta-frente.webp",
+  displayImage: "/imagens/produtos/penteadeira-suspensa-kelan-60cm-branca-1-gaveta-frente.webp",
+  imageHover: "/imagens/produtos/penteadeira-suspensa-kelan-60cm-branca-1-gaveta-frente-h.webp",
+  alt: "penteadeira suspensa kelan 60cm branca 1 gaveta multifuncional parede quarto pequeno",
+  rating: 4.7,
+  reviews: 9192,
+  discount: 26,
+  price: 57.87,
+  originalPrice: 78.00,
+  badge: "MAIS VENDIDO",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1waFksY",
+  descricao: `
+# Penteadeira Suspensa Kelan 60cm Branca 1 Gaveta - 1º Mais Vendida - R$ 57
+
+Se você buscou por **penteadeira suspensa**, **penteadeira pequena 60cm**, **penteadeira suspensa barata**, **penteadeira de parede 30cm profundidade**, **penteadeira pequena quarto pequeno** ou **penteadeira suspensa com gaveta branca**, essa Kelan é a 1º mais vendida em penteadeiras com 9192 avaliações 4.7 e +50 MIL vendidos. Diferente da [Star 136cm de canto R$ 423](/produto/penteadeira-escrivaninha-canto-star-espelho-organizadora-136cm-branco-liberty) que é 2 em 1 grande, essa é mini 60x30x13cm para quem buscou **penteadeira suspensa pequena barata**, **penteadeira 60cm branca**, **penteadeira de parede pequena**, **penteadeira suspensa 60cm 30cm** e **mini penteadeira suspensa**.
+
+**PESQUISA REAL QUE FIZEMOS:** Fomos na Amazon, Magalu e fabricante Kelan Indústria. O que o pessoal fala: "fácil de montar, só precisa furadeira, suporte invisível segura bem, madeira certificada, não acompanha espelho". Pontos de atenção: gaveta aguenta 5kg, móvel total 10kg distribuídos - não é escrivaninha para notebook pesado. Acabamento FF (Finish Foil) branco, MDF/MDP certificação ambiental, kit completo com suporte invisível, buchas, parafusos, tapa furos e nota fiscal. 2 tamanhos: 23,5cm e 30cm profundidade - mesma largura 60cm.
+
+## Por que escolhemos a Penteadeira Suspensa Kelan 60cm?
+
+**PENTEADEIRA SUSPENSA PEQUENA 60CM QUE ECONOMIZA ESPAÇO:** Enquanto penteadeira tradicional ocupa chão, essa suspensa libera circulação. Para quem buscou **penteadeira pequena para quarto pequeno**, **penteadeira suspensa 30cm profundidade**, **penteadeira de parede 60cm**, **penteadeira compacta quarto**, você fixa na altura que quiser (recomendado 75-80cm do chão). Ideal para [quarto pequeno 6m²](/quarto-pequeno), [kitnet](/moveis-quarto-pequeno) e [cantinho maquiagem](/penteadeira-suspensa). Combina com [espelho redondo 40cm](/produto/espelho-redondo-decorativo) + [cadeira baixa](/produto/cadeira-escritorio).
+
+**PENTEADEIRA BARATA COM GAVETA ORGANIZADORA MULTIFUNCIONAL:** 1 gaveta embutida com corrediça para maquiagem, joias, pincéis. Para quem buscou **penteadeira com gaveta barata**, **penteadeira suspensa com gaveta**, **penteadeira organizadora parede**, **mini penteadeira com gaveta**, serve também como mesinha lateral, apoio para TV 32", suporte para microondas 10kg, nicho para salão/studio. Cores: branco e preto - branco vende 90%.
+
+**TRANSPARÊNCIA / QUEM NÃO DEVE COMPRAR:** Se você quer penteadeira com espelho incluso, essa NÃO vem - compra espelho separado. Se precisa guardar muita maquiagem, essa tem só 1 gaveta - vá de [Star 136cm com porta e vidros](/produto/penteadeira-escrivaninha-canto-star-espelho-organizadora-136cm-branco-liberty). Suporta 10kg total distribuído, gaveta 5kg - não coloca TV 50" ou microondas grande. Montagem fácil com chave simples, mas precisa furar parede com bucha - alvenaria segura, drywall precisa bucha especial. Se quer penteadeira grande com 9 gavetas, essa não é - é mini para quem tem pouco espaço e pouco orçamento.
+
+## Ficha técnica honesta - Kelan 60cm
+
+- Marca: Kelan Indústria - Loja Oficial
+- Modelo: Penteadeira Suspensa Multifuncional 60cm com 1 Gaveta
+- Cor: Branco (tem preto também)
+- Dimensões: 60cm comprimento x 30cm largura (tem 23,5cm também) x 13cm altura - profundidade 30cm
+- Material: MDF/MDP madeira certificação ambiental - FF Finish Foil branco
+- Gaveta: 1 gaveta embutida com corrediça - suporta 5kg
+- Capacidade total: 10kg distribuídos - suporte invisível
+- Kit: Completo com suporte invisível, buchas, cavilhas, parafusos, tapa furos, nota fiscal
+- Montagem: Fácil e intuitiva - chave simples ou parafusadeira - manual incluso
+- Espelho: NÃO acompanha espelho nem vidro - compra separado
+- Cuidados: Pano seco ou levemente umedecido, não usar abrasivos
+- Garantia: 3 meses legal
+- Nota: 4.7 com 9192 avaliações - 1º mais vendida penteadeiras + 50 mil vendidos
+- Preço: R$ 57,87 Pix 26% OFF - de R$ 78,00 - ou R$ 62,90 outros meios
+
+## Ideal para quem buscou
+
+- penteadeira suspensa 60cm
+- penteadeira pequena barata 60cm
+- penteadeira de parede com gaveta
+- mini penteadeira suspensa quarto pequeno
+- penteadeira suspensa branca 30cm profundidade
+- penteadeira pequena para quarto pequeno
+- penteadeira com gaveta parede 60cm
+  `,
+  marca: "Kelan",
+  keywords: [
+    "penteadeira suspensa 60cm",
+    "penteadeira pequena com gaveta",
+    "penteadeira suspensa barata",
+    "penteadeira de parede 60cm",
+    "mini penteadeira suspensa",
+    "penteadeira suspensa branca 1 gaveta",
+    "penteadeira pequena quarto pequeno",
+    "penteadeira 60cm 30cm branca"
+  ],
+  seoTitle: "Penteadeira Suspensa Kelan 60cm Branca 1 Gaveta R$ 57 | 1º Mais Vendida 4.7",
+  seoDescription: "Penteadeira suspensa Kelan 60cm branca 1 gaveta multifuncional parede. 26% OFF Pix R$ 57,87 - 1º mais vendida, 9192 avaliações 4.7. 60x30x13cm, 10kg, MDF certificado. Quarto pequeno.",
+  caracteristicas: [
+    "60cm x 30cm x 13cm - profundidade 30cm ideal quarto pequeno",
+    "Suspensa na parede com suporte invisível - economiza espaço",
+    "1 gaveta embutida com corrediça - suporta 5kg",
+    "MDF/MDP madeira certificada com Finish Foil branco",
+    "Multifuncional: penteadeira, mesinha, apoio TV, microondas",
+    "Kit montagem completo + nota fiscal - montagem fácil"
+  ],
+  recomendacao: "Ideal para quem tem quarto pequeno e orçamento apertado. Com 60cm e 30cm de profundidade, libera circulação e organiza maquiagem na gaveta. Não vem com espelho, mas por R$ 57 é a mais vendida do Brasil. Excelente para kitnet, quarto de adolescente e cantinho de maquiagem."
+},
+{
+  id: "p-imp-161",
+  slug: "penteadeira-suspensa-camarim-mesa-multiuso-1-gaveta-100x30-mdf-branco",
+  category: "penteadeiras",
+  mainCategory: "quarto",
+  name: "Penteadeira Suspensa Camarim Mesa Multiuso 1 Gaveta 100x30 MDF/MDP Branco",
+  imageFile: "/imagens/produtos/penteadeira-rosa-suspensa-camarim-mesa-multiuso-1-gaveta-100x30-branco-frente.webp",
+  displayImage: "/imagens/produtos/penteadeira-rosa-suspensa-camarim-mesa-multiuso-1-gaveta-100x30-branco-frente.webp",
+  imageHover: "/imagens/produtos/penteadeira-rosa-suspensa-camarim-mesa-multiuso-1-gaveta-100x30-branco-frente-ih.webp",
+  alt: "penteadeira suspensa camarim mesa multiuso 1 gaveta 100x30 mdf branco quarto pequeno",
+  rating: 4.6,
+  reviews: 193,
+  discount: 14,
+  price: 162.36,
+  originalPrice: 199.00,
+  badge: "MAIS VENDIDO",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2rKZLNE",
+  descricao: `
+# Penteadeira Suspensa Camarim Mesa 100x30 1 Gaveta Branco - 18º Mais Vendida
+
+Se você buscou por **penteadeira suspensa 100cm**, **penteadeira camarim suspensa 100x30**, **penteadeira 100cm com gaveta**, **mesa suspensa 100cm branca**, **penteadeira suspensa 1 gaveta** ou **escrivaninha suspensa 100cm**, essa camarim 100x30x16cm é a 18º mais vendida com 193 avaliações 4.6 e +1000 vendas. Diferente da [Kelan 60cm R$ 57 mini](/produto/penteadeira-suspensa-kelan-60cm-branca-1-gaveta-multifuncional-parede) que é 60cm, essa tem 100cm de largura - para quem buscou **penteadeira suspensa 100cm barata**, **penteadeira 100x30 branca**, **mesa camarim suspensa 100cm**, **bancada suspensa 100cm multiuso** e **penteadeira suspensa grande 100cm**.
+
+**PESQUISA REAL QUE FIZEMOS:** Fomos na Amazon, Magalu, Leroy e avaliações. O que o pessoal fala: penteadeira camarim suspensa 100x30 é multiuso - usa como penteadeira, escrivaninha para notebook, aparador, suporte microondas, bancada estudo, painel TV. Fabricação MDF/MDP com corrediças metálicas (não de plástico), acabamento branco, suporta 10-15kg distribuídos. Frete FULL Mercado Livre - chega entre amanhã e sexta com frete grátis acima de R$ 19. Ponto fraco: só 1 gaveta, não vem espelho, profundidade 30cm é rasa para monitor grande.
+
+## Por que escolhemos a Penteadeira Suspensa 100x30 1 Gaveta?
+
+**PENTEADEIRA SUSPENSA 100CM QUE NÃO OCUPA CHÃO:** Enquanto penteadeira de chão 136cm precisa 2 paredes, essa 100cm fixa na parede na altura que quiser. Para quem buscou **penteadeira suspensa 100x30**, **penteadeira de parede 100cm**, **bancada suspensa 100cm**, **mesa suspensa quarto pequeno**, você ganha circulação e limpa embaixo fácil. Ideal para [quarto pequeno 8m²](/quarto-pequeno), [kitnet](/moveis-quarto-pequeno), [home office pequeno](/escrivaninha-100cm) e [salão beleza](/penteadeira-suspensa). Combina com [espelho camarim 60cm](/produto/espelho-camarim) + [cadeira eames](/produto/cadeira-eames).
+
+**MESA MULTIUSO 100CM COM GAVETA - 3 EM 1:** 1 gaveta com corrediça metálica guarda maquiagem, joias, material escritório. Para quem buscou **penteadeira com gaveta 100cm**, **mesa multiuso 100cm branca**, **bancada suspensa com gaveta**, **escrivaninha suspensa 100cm com gaveta**, serve como penteadeira + escrivaninha notebook + aparador corredor. Largura 100cm cabe 2 pessoas lado a lado para maquiagem, ou notebook 15.6" + caderno. Cores: branco, branco com detalhes, rosa claro.
+
+**TRANSPARÊNCIA / QUEM NÃO DEVE COMPRAR:** Se você quer penteadeira com espelho incluso, essa NÃO vem - compra espelho Joy ou Utility separado. Se precisa guardar muita coisa, 1 gaveta só é pouco - vá de [Star 136cm com porta e vidros](/produto/penteadeira-escrivaninha-canto-star-espelho-organizadora-136cm-branco-liberty). Profundidade 30cm é rasa - monitor 24" fica no limite, notebook ok. Suporta 10-15kg - não coloca TV 50" ou 2 monitores pesados. Precisa furar parede com bucha - alvenaria segura, drywall precisa reforço. Se quer penteadeira grande camarim com 9 gavetas e LED, essa não é - é minimalista multiuso barata.
+
+## Ficha técnica honesta - Suspensa 100x30
+
+- Marca: Genérica Premium (linha camarim)
+- Modelo: Penteadeira Suspensa Mesa Camarim Multiuso 1 Gaveta
+- Cor: Branco (tem variações branco com rosa/bege)
+- Dimensões: 100cm largura x 30cm profundidade x 16cm altura gaveta - bancada 100x30
+- Material: MDF/MDP branco com corrediças metálicas
+- Gaveta: 1 gaveta espaçosa com corredor metálico - suporta 5-7kg
+- Capacidade total: 10-15kg distribuídos na bancada
+- Fixação: Suspensa na parede - kit parafusos e buchas incluso
+- Espelho: NÃO acompanha espelho - compra separado
+- Montagem: Fácil - parafusos e cavilhas - manual incluso
+- Uso: Penteadeira, escrivaninha notebook, aparador, suporte microondas, bancada estudo
+- Garantia: 30 dias vendedor + FULL Mercado Livre
+- Nota: 4.6 com 193 avaliações - 18º mais vendida penteadeiras + 1000 vendas
+- Preço: R$ 162,36 Pix 14% OFF - de R$ 199,00 - ou R$ 170,91 outros meios - frete grátis
+
+## Ideal para quem buscou
+
+- penteadeira suspensa 100cm 30cm
+- penteadeira camarim suspensa 100x30
+- penteadeira 100cm com 1 gaveta branca
+- mesa suspensa multiuso 100cm branca
+- bancada suspensa 100cm quarto pequeno
+- escrivaninha suspensa 100cm com gaveta
+- penteadeira suspensa grande barata
+  `,
+  marca: "Genérica",
+  keywords: [
+    "penteadeira suspensa 100cm",
+    "penteadeira camarim suspensa 100x30",
+    "penteadeira 100cm com gaveta",
+    "mesa suspensa multiuso 100cm",
+    "penteadeira suspensa 1 gaveta branca",
+    "bancada suspensa 100cm 30cm",
+    "escrivaninha suspensa 100cm",
+    "penteadeira suspensa grande 100cm"
+  ],
+  seoTitle: "Penteadeira Suspensa 100x30 1 Gaveta Camarim Mesa Multiuso R$ 162 | 4.6",
+  seoDescription: "Penteadeira suspensa camarim mesa multiuso 1 gaveta 100x30 MDF branco. 14% OFF Pix R$ 162,36 - 18º mais vendida, 193 avaliações 4.6. 1000+ vendas, frete grátis FULL. Quarto pequeno.",
+  caracteristicas: [
+    "100cm largura x 30cm profundidade x 16cm altura - maior que 60cm",
+    "Suspensa na parede - libera chão e facilita limpeza",
+    "1 gaveta com corrediça metálica - suporta 5-7kg",
+    "MDF/MDP branco - acabamento moderno minimalista",
+    "Multiuso 3 em 1: penteadeira, escrivaninha, aparador",
+    "Kit montagem + frete FULL grátis - chega em 2 dias"
+  ],
+  recomendacao: "Ideal para quem achou a Kelan 60cm pequena e a Star 136cm grande demais. Com 100cm de largura, cabe notebook + maquiagem lado a lado. É a intermediária perfeita: mais espaço que 60cm, mas ainda compacta com 30cm profundidade. Por R$ 162 com frete FULL, melhor custo-benefício para quarto pequeno e kitnet."
+},
+{
+  id: "p-imp-162",
+  slug: "penteadeira-suspensa-jasmin-100x30-1-gaveta-lunim-preto",
+  category: "penteadeiras",
+  mainCategory: "quarto",
+  name: "Penteadeira Suspensa Jasmin 100x30 1 Gaveta Organizador Lunim Preto 10kg",
+  imageFile: "/imagens/produtos/penteadeira-suspensa-jasmin-100x30-1-gaveta-lunim-preto-frente.webp",
+  displayImage: "/imagens/produtos/penteadeira-suspensa-jasmin-100x30-1-gaveta-lunim-preto-frente.webp",
+  imageHover: "/imagens/produtos/penteadeira-suspensa-jasmin-100x30-1-gaveta-lunim-preto-frente-ih.webp",
+  alt: "penteadeira suspensa jasmin 100x30 1 gaveta lunim preto quarto pequeno",
+  rating: 4.4,
+  reviews: 17,
+  discount: 15,
+  price: 152.90,
+  originalPrice: 179.90,
+  badge: "15% OFF NO PIX",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1nxTEdZ",
+  descricao: `
+# Penteadeira Suspensa Jasmin 100x30 1 Gaveta Preto Lunim R$152 - 10kg
+
+Se você buscou por **penteadeira suspensa 100cm preta**, **penteadeira suspensa jasmin 100x30**, **penteadeira 100cm 1 gaveta**, **penteadeira suspensa camarim 100cm**, **mesa suspensa 100x30 preta** ou **penteadeira suspensa organizador maquiagem**, essa Jasmin Lunim 100cm é a mais barata da categoria com 4.4 estrelas e +50 vendidos. Diferente da [suspensa 100x30 branca multiuso R$162](/produto/penteadeira-suspensa-camarim-mesa-multiuso-1-gaveta-100x30-mdf-branco) que é genérica branca, essa é linha Jasmin Lunim na cor preta - para quem buscou **penteadeira suspensa preta 100cm**, **penteadeira 100x30 preto**, **penteadeira suspensa jasmin preta**, **bancada suspensa 100cm preta** e **mesa camarim suspensa 100cm preta**.
+
+**PESQUISA REAL QUE FIZEMOS:** Fomos no MadeiraMadeira, Magalu e Amazon. O que descobrimos: modelo Jasmin é fabricado em MDF/MDP 15mm, material usado em móveis planejados de alto padrão, com fita borda PVC que aumenta durabilidade. Medidas oficiais: largura 100cm, profundidade 30cm, altura 13,5cm com corrediças reforçadas. Fabricante Lunim informa suporte 10kg, peso do produto 7,02kg, estrutura MDP ou MDF com certificação ambiental. Ponto fraco que vendedor esconde: só 10kg distribuídos - não aguenta 2 monitores ou TV, gaveta sem divisória interna (precisa comprar organizador separado), não vem com espelho nem vidro, e é MDP misto não 100% MDF como a Sophia.
+
+## Por que escolhemos a Penteadeira Suspensa Jasmin 100x30?
+
+**PENTEADEIRA SUSPENSA 100CM PRETA QUE ECONOMIZA ESPAÇO:** Enquanto penteadeira de chão 136cm ocupa 0,4m², essa fixa na parede e libera chão. Para quem buscou **penteadeira suspensa 100x30**, **penteadeira de parede 100cm preta**, **bancada suspensa quarto pequeno**, **mesa suspensa organizadora**, ideal para [quarto pequeno 6m²](/moveis-quarto-pequeno), [kitnet](/kitnet), [salão beleza](/penteadeira-salao) e [closet](/closet-planejado). Combina com [espelho redondo 60cm](/produto/espelho-redondo) + [cadeira veludo preto](/produto/cadeira-veludo).
+
+**GAVETA ORGANIZADORA QUE MANTÉM SUPERFÍCIE LIVRE:** A gaveta integrada permite organizar acessórios e cosméticos mantendo superfície livre para manuseio. Para quem buscou **penteadeira com gaveta organizadora**, **penteadeira 1 gaveta 100cm**, **mesa suspensa com gaveta**, **bancada com gaveta 100cm**, guarda maquiagem, perfume, joias. Diferente da [Kelan 60cm R$57](/produto/penteadeira-suspensa-kelan-60cm-branca-1-gaveta-multifuncional-parede) que é 60cm mini, essa 100cm cabe 2x mais.
+
+**TRANSPARÊNCIA / QUEM NÃO DEVE COMPRAR:** Se você pesa maquiagem + notebook acima de 10kg, NÃO compre - suporte é 10kg máximo distribuídos. Se quer espelho incluso, essa NÃO vem - compre espelho separado. Se quer 2 gavetas ou gaveta com divisória e tampo de vidro, vá de [Sophia 100% MDF com vidro](/produto/penteadeira-100-mdf-suspensa-sophia-gaveta). Se precisa guardar muita coisa, 1 gaveta só é pouco - vá de [Star 136cm 7 gavetas](/produto/penteadeira-escrivaninha-canto-star-espelho-organizadora-136cm-branco-liberty). Precisa furar parede - drywall sem reforço não segura 10kg. Se quer penteadeira camarim com LED e 9 gavetas, essa não é - é minimalista barata organizadora.
+
+## Ficha técnica honesta - Jasmin 100x30 Lunim
+
+- Marca: Lunim
+- Modelo: Penteadeira Suspensa Camarim Jasmin 100cm Organizador Maquiagem
+- Cor: Preto (tem Branco, Off White, Off White com Nature)
+- Dimensões: 100cm largura x 30cm profundidade x 13,5cm altura - bancada 100x30
+- Material: MDP ou MDF 15mm com fita borda PVC - certificação ambiental
+- Gaveta: 1 gaveta organizadora integrada sem divisória - suporta 5kg
+- Capacidade total: 10kg distribuídos - fabricante informa 10kg máximo
+- Corrediças: Metálicas reforçadas tipo telescópica - não é corrediça plástica barata
+- Peso produto: 7,02kg
+- Fixação: Suspensa na parede - kit parafusos e buchas incluso - requer furar parede
+- Espelho: NÃO acompanha espelho, luzes ou banqueta
+- Montagem: Requer montagem - manual incluso - chave simples ou parafusadeira
+- Uso: Penteadeira, bancada estudo, aparador, suporte microondas, mesa notebook
+- Garantia: Mercado Livre + 30 dias vendedor
+- Nota: 4.4 com 17 avaliações - +50 vendidos - R$152,90 com 15% OFF Pix - 12x R$15,11
+- Preço: R$152,90 Pix 15% OFF - de R$179,90 - 20% OFF cartão Mercado Pago Visa
+
+## Ideal para quem buscou
+
+- penteadeira suspensa 100cm preta
+- penteadeira suspensa jasmin 100x30 1 gaveta
+- penteadeira 100cm com gaveta organizadora
+- mesa suspensa 100x30 preta camarim
+- bancada suspensa 100cm quarto pequeno
+- penteadeira suspensa lunim preto 10kg
+- penteadeira camarim suspensa 100cm sem espelho
+  `,
+  marca: "Lunim",
+  keywords: [
+    "penteadeira suspensa 100cm preta",
+    "penteadeira suspensa jasmin 100x30",
+    "penteadeira 100cm 1 gaveta organizadora",
+    "penteadeira suspensa camarim 100cm preta",
+    "mesa suspensa 100x30 preta",
+    "penteadeira suspensa lunim 10kg",
+    "bancada suspensa 100cm quarto pequeno",
+    "penteadeira suspensa sem espelho 100cm"
+  ],
+  seoTitle: "Penteadeira Suspensa Jasmin 100x30 Lunim Preto R$152 | 4.4",
+  seoDescription: "Penteadeira suspensa Jasmin 100cm Lunim preto 1 gaveta organizadora. 15% OFF Pix R$152,90 - 10kg, 100x30x13,5cm MDF/MDP. +50 vendidos, 4.4 estrelas, frete FULL. Sem espelho.",
+  caracteristicas: [
+    "100cm x 30cm x 13,5cm - MDF/MDP 15mm com borda PVC",
+    "1 gaveta organizadora integrada - mantém superfície livre",
+    "Suporta 10kg distribuídos - peso produto 7,02kg",
+    "Corrediças metálicas reforçadas - não plástica",
+    "Cor preto moderno + branco/off white disponíveis",
+    "Kit montagem incluso - fixa na parede libera chão"
+  ],
+  recomendacao: "Ideal para quem buscou penteadeira suspensa preta barata e achou a genérica branca 100cm por R$162. Essa Jasmin Lunim é R$10 mais barata, marca Lunim e cor preta que não marca maquiagem. Perfeita para quarto pequeno, kitnet e salão que precisa de bancada 100cm minimalista. Se precisa mais de 10kg ou 2 gavetas, suba para Sophia 100% MDF."
+},
+{
+  id: "p-imp-163",
+  slug: "penteadeira-camarim-livia-espelho-led-fixa-2-gavetas-banqueta-mdf",
+  category: "penteadeiras",
+  mainCategory: "quarto",
+  name: "Penteadeira Camarim Lívia com Espelho LED Fixa 2 Gavetas e Banqueta Almofadada MDF",
+  imageFile: "/imagens/produtos/penteadeira-camarim-livia-espelho-led-2-gavetas-banqueta-frente.webp",
+  displayImage: "/imagens/produtos/penteadeira-camarim-livia-espelho-led-2-gavetas-banqueta-frente.webp",
+  imageHover: "/imagens/produtos/penteadeira-camarim-livia-espelho-led-2-gavetas-banqueta-frente-ih.webp",
+  alt: "penteadeira camarim livia espelho led 2 gavetas banqueta almofadada mdf quarto",
+  rating: 4.9,
+  reviews: 69,
+  discount: 13,
+  price: 544.68,
+  originalPrice: 629.00,
+  badge: "13% OFF NO PIX",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/8V894qHVno",
+  descricao: `
+# Penteadeira Camarim Lívia com Espelho LED Fixa 2 Gavetas e Banqueta R$544 - 100% MDF
+
+Se você buscou por **penteadeira camarim com led**, **penteadeira camarim livia**, **penteadeira 2 gavetas com banqueta**, **penteadeira mdf com espelho led**, **penteadeira 84cm com banqueta** ou **penteadeira camarim 100% mdf**, essa Lívia com LED é a mais bem avaliada da Shopee com 4.9 estrelas e 158 vendidos. Diferente da [suspensa Jasmin 100x30 1 gaveta preta R$152](/produto/penteadeira-suspensa-jasmin-100x30-1-gaveta-lunim-preto) que é suspensa sem espelho e sem banqueta, essa é de chão completa - para quem buscou **penteadeira camarim completa com banqueta**, **penteadeira com espelho led fixo**, **penteadeira 2 gavetas mdf**, **penteadeira 84cm com led** e **penteadeira camarim com banqueta almofadada**.
+
+**PESQUISA REAL QUE FIZEMOS:** Fomos na Shopee, MadeiraMadeira e Magalu. O que descobrimos: modelo Lívia é fabricado em 100% MDF (não MDP misto), material de alto padrão que não empena, com LED embutido ao redor do espelho já incluso. Medidas oficiais: altura total 135cm, altura do tampo 74cm, largura 84cm, profundidade 39cm, banqueta 42cm altura x 47,5cm largura x 29cm profundidade. Fabricante informa estrutura MDF com pintura UV, 2 gavetas amplas com corrediça metálica, tampo espaçoso para perfumes e cosméticos. Ponto fraco que vendedor esconde: envio sob encomenda 8 dias após compra (não é pronta entrega), frete R$28,84 a R$68,84 (não é FULL), só 2 gavetas (se precisa 7 gavetas vá de Star), e é 84cm compacta (não 120cm).
+
+## Por que escolhemos a Penteadeira Camarim Lívia LED 2 Gavetas?
+
+**PENTEADEIRA 100% MDF COM LED EMBUTIDO QUE ILUMINA SEM SOMBRA:** Enquanto penteadeira sem led R$400 precisa comprar fita led separada R$80, essa já vem com LEDs embutidos no espelho. Para quem buscou **penteadeira camarim com led embutido**, **penteadeira com espelho led fixa**, **penteadeira led para maquiagem**, ideal para [quarto pequeno](/moveis-quarto-pequeno), [cantinho da mulher](/cantinho-que-toda-mulher-merece), [quarto casal](/quarto-casal) e [kitnet](/kitnet). Combina com [poltrona veludo rosa](/produto/poltrona-veludo-rosa) + [sapateira giratória com espelho](/produto/sapateira-giratoria-com-espelho).
+
+**2 GAVETAS AMPLAS + BANQUETA ALMOFADADA INCLUSA:** A Lívia já vem com banqueta estofada confortável (não precisa comprar separado R$180). Para quem buscou **penteadeira com banqueta inclusa**, **penteadeira 2 gavetas com banqueta**, **penteadeira camarim com banqueta almofadada**, **penteadeira 84cm com banqueta**, guarda maquiagem, joias, secador. Diferente da [Jasmin suspensa 100x30 R$152](/produto/penteadeira-suspensa-jasmin-100x30-1-gaveta-lunim-preto) que não vem banqueta nem espelho, essa é kit completo.
+
+**TRANSPARÊNCIA / QUEM NÃO DEVE COMPRAR:** Se você precisa de penteadeira pronta entrega, NÃO compre - essa é sob encomenda com envio após 8 dias. Se quer penteadeira suspensa para economizar espaço, essa NÃO é - ela é de chão 84cm. Se precisa de 7 ou 9 gavetas para muita maquiagem, 2 gavetas será pouco - vá de [penteadeira 7 gavetas Star](/produto/penteadeira-escrivaninha-canto-star-espelho-organizadora-136cm-branco-liberty). Se quer 100x30cm ou 120cm largura, essa tem 84cm compacta. Se quer pagar menos de R$300, vá de [Jasmin suspensa R$152](/produto/penteadeira-suspensa-jasmin-100x30-1-gaveta-lunim-preto). Enviado de Marília SP, frete R$28,84 com cupom até R$40 OFF.
+
+## Ficha técnica honesta - Lívia LED 2 Gavetas
+
+- Marca: Lívia (Fabricação 100% MDF)
+- Modelo: Penteadeira Camarim Lívia com Espelho LED Fixa 2 Gavetas e Banqueta Almofadada
+- Cor: Branco/Branco, Branco/Canela, Canela/Off White, Preto/Canela (4 opções)
+- Dimensões Penteadeira: 135cm altura total x 84cm largura x 39cm profundidade - tampo 74cm altura
+- Dimensões Banqueta: 42cm altura x 47,5cm largura x 29cm profundidade
+- Material: 100% MDF com pintura UV - não é MDP misto - acabamento impecável
+- Gavetas: 2 gavetas amplas com corrediça metálica - organiza cosméticos e acessórios
+- Espelho: Espelho com LED embutido ao redor - iluminação perfeita maquiagem/skincare
+- Banqueta: Banqueta estofada almofadada inclusa - conforto e charme
+- Tampo: Tampo amplo 84cm para perfumes, cosméticos e acessórios
+- Capacidade: Suporta perfumes, maquiagens, secador - 2 gavetas organizadoras
+- Peso: Estrutura MDF alta durabilidade - envio sob encomenda
+- Envio: Sob encomenda - envio após 8 dias da compra - enviado de Marília SP
+- Frete: R$28,84 a R$68,84 - até R$40 desconto frete com cupom Shopee
+- Garantia: 3 meses garantia vendedor + garantia Shopee
+- Nota: 4.9 com 69 avaliações - 158 vendidos - R$544,68 Pix com cupom - 12x R$57,73 cartão
+- Preço: R$544,68 Pix com cupom - de R$629,00 - 13% OFF - 12x R$57,73
+
+## Ideal para quem buscou
+
+- penteadeira camarim com led embutido
+- penteadeira camarim livia 2 gavetas banqueta
+- penteadeira 100% mdf com espelho led
+- penteadeira 84cm com banqueta almofadada
+- penteadeira camarim completa com banqueta
+- penteadeira com espelho led fixa
+- penteadeira 2 gavetas mdf marilia
+- penteadeira camarim 84cm led banqueta
+  `,
+  marca: "Lívia",
+  keywords: [
+    "penteadeira camarim livia led",
+    "penteadeira camarim 2 gavetas banqueta",
+    "penteadeira 100% mdf com espelho led",
+    "penteadeira 84cm com banqueta almofadada",
+    "penteadeira camarim completa com banqueta",
+    "penteadeira com espelho led fixa",
+    "penteadeira 2 gavetas mdf marilia sp",
+    "penteadeira camarim 84cm led"
+  ],
+  seoTitle: "Penteadeira Camarim Lívia LED 2 Gavetas Banqueta R$544 | 4.9",
+  seoDescription: "Penteadeira camarim Lívia com espelho LED fixa 2 gavetas e banqueta almofadada 100% MDF. 13% OFF Pix R$544,68 - 84x39cm, 4 cores, 4.9 estrelas 158 vendidos, envio Marília SP.",
+  caracteristicas: [
+    "84x39x135cm - 100% MDF com LED embutido no espelho - 4 cores",
+    "2 gavetas amplas + banqueta estofada almofadada inclusa",
+    "Tampo amplo 84cm - organiza perfumes e maquiagens",
+    "Enviado de Marília SP - frete R$28,84 com R$40 OFF cupom",
+    "4.9 estrelas 69 avaliações 158 vendidos - 3 meses garantia",
+    "Sob encomenda envio 8 dias - 12x R$57,73 cartão"
+  ],
+  recomendacao: "Ideal para quem buscou penteadeira camarim com led completa e achou a Jasmin suspensa R$152 sem espelho e sem banqueta. Essa Lívia é kit completo 100% MDF com LED já incluso, banqueta almofadada, 4.9 estrelas e enviada de Marília. Se precisa de penteadeira barata suspensa vá de Jasmin R$152, se quer completa premium com led vá de Lívia R$544."
+},
+{
+  id: "p-imp-164",
+  slug: "penteadeira-maquiagem-princesa-acessorios-4-gavetas-espelho-banqueta",
+  category: "penteadeiras",
+  mainCategory: "quarto",
+  name: "Penteadeira Maquiagem Princesa Acessórios 4 Gavetas Com Espelho e Banqueta 136x95",
+  imageFile: "/imagens/produtos/penteadeira-maquiagem-princesa-4-gavetas-espelho-banqueta-frente.webp",
+  displayImage: "/imagens/produtos/penteadeira-maquiagem-princesa-4-gavetas-espelho-banqueta-frente.webp",
+  imageHover: "/imagens/produtos/penteadeira-maquiagem-princesa-4-gavetas-espelho-banqueta-frente-ih.webp",
+  alt: "penteadeira maquiagem princesa 4 gavetas espelho banqueta 136x95 branca rosa quarto",
+  rating: 4.8,
+  reviews: 527,
+  discount: 15,
+  price: 447.41,
+  originalPrice: 524.90,
+  badge: "OFERTA RELÂMPAGO",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/2BE5Xrpb2T",
+  descricao: `
+# Penteadeira Maquiagem Princesa 4 Gavetas Com Espelho e Banqueta R$447 - Patrimar
+
+Se você buscou por **penteadeira princesa com banqueta**, **penteadeira maquiagem princesa**, **penteadeira 4 gavetas com espelho**, **penteadeira 136cm com banqueta**, **penteadeira classica 4 gavetas** ou **penteadeira princesa branca rosa**, essa Princesa Patrimar é a mais vendida da categoria com 4.8 estrelas, 527 avaliações e 1mil+ vendidos. Diferente da [Camarim Lívia 2 gavetas LED R$544](/produto/penteadeira-camarim-livia-espelho-led-fixa-2-gavetas-banqueta-mdf) que é camarim moderna com LED 84cm, essa é clássica princesa 136cm com 4 gavetas - para quem buscou **penteadeira princesa 4 gavetas**, **penteadeira 95cm largura**, **penteadeira com espelho modulado**, **penteadeira com pes torneados** e **penteadeira maquiagem com banco**.
+
+**PESQUISA REAL QUE FIZEMOS:** Fomos na Shopee, Magalu e MadeiraMadeira. O que descobrimos: modelo Princesa é fabricado em MDF, marca Patrimar, material madeira do Brasil, com 4 gavetas com corrediças metálicas, pés torneados clássico contemporâneo, espelho modulado incluso. Medidas oficiais: altura 136cm, largura 95cm, profundidade 36cm, sem caixa. Garantia 3 meses fabricante. Marca Patrimar informa necessita montagem sim, não dobrável, coleção antiguidade não. Ponto fraco que vendedor esconde: não é 100% MDF premium como Lívia, não tem LED embutido (é espelho comum modulado), profundidade 36cm é estreita (Lívia tem 39cm), e precisa montagem completa (espelho + pés + gavetas).
+
+## Por que escolhemos a Penteadeira Princesa 4 Gavetas Patrimar?
+
+**PENTEADEIRA PRINCESA 136CM COM 4 GAVETAS QUE ORGANIZA TUDO:** Enquanto penteadeira 2 gavetas R$544 guarda só maquiagem básica, essa 4 gavetas guarda maquiagem, joias, perfumes e acessórios. Para quem buscou **penteadeira 4 gavetas com espelho**, **penteadeira princesa organizadora**, **penteadeira 95cm 4 gavetas**, ideal para [quarto casal](/quarto-casal), [quarto pequeno 9m²](/moveis-quarto-pequeno), [cantinho da mulher](/cantinho-que-toda-mulher-merece) e [quarto solteiro feminino](/quarto-solteiro). Combina com [cadeira veludo branco](/produto/cadeira-veludo) + [espelho camarim led](/produto/espelho-camarim-led).
+
+**VISUAL CLASSICO CONTEMPORANEO COM PES TORNEADOS QUE ROUBA A CENA:** A Princesa tem design que as queridinhas de todos amam, charmosa e glamour. Para quem buscou **penteadeira princesa branca**, **penteadeira princesa rosa**, **penteadeira com pes torneados**, **penteadeira classica contemporanea**, **penteadeira que encanta decoracao**. Diferente da [suspensa Jasmin 100x30 R$152](/produto/penteadeira-suspensa-jasmin-100x30-1-gaveta-lunim-preto) que é minimalista preta sem charme, essa é princesa com espelho modulado e banqueta inclusa.
+
+**TRANSPARÊNCIA / QUEM NÃO DEVE COMPRAR:** Se você quer penteadeira camarim com LED embutido, essa NÃO tem LED - é espelho modulado comum, vá de [Lívia LED 2 gavetas R$544](/produto/penteadeira-camarim-livia-espelho-led-fixa-2-gavetas-banqueta-mdf). Se quer 100% MDF premium com pintura UV, essa é MDF padrão Patrimar. Se precisa de 84cm compacta para kitnet, essa tem 95cm largura e 136cm altura - é grande, precisa espaço. Se quer penteadeira suspensa 100x30 que não ocupa chão, essa é de chão com pés torneados. Precisa montagem sim - se não quer montar, não compre. Enviado de Marília SP, frete R$28,84 com R$40 OFF cupom, estoque promocional disponível.
+
+## Ficha técnica honesta - Princesa 4 Gavetas Patrimar
+
+- Marca: Patrimar
+- Modelo: Penteadeira Maquiagem Princesa Acessórios Com Banqueta
+- Cor: Branco, Rosa (2 opções)
+- Dimensões: 136cm altura x 95cm largura x 36cm profundidade - sem caixa
+- Material: Madeira MDF - país origem Brasil - garantia fabricante 3 meses
+- Gavetas: 4 gavetas com corrediças metálicas - organiza produtos beleza feminina
+- Pés: Pés torneados clássico contemporâneo - visual charmoso glamour
+- Espelho: Espelho modulado incluso - não é LED embutido, é espelho comum
+- Banqueta: Banqueta inclusa no kit - penteadeira + espelho + banqueta
+- Coleção: Não é antiguidade, não dobrável, necessita montagem sim
+- Envio: Enviado de Marília São Paulo - frete R$28,84 (de R$68,84) - até R$40 desconto com cupom
+- Estoque: Estoque promocional disponível - estoque total disponível
+- Garantia: 3 meses fabricante Patrimar + garantia Shopee
+- Nota: 4.8 com 527 avaliações - 1mil+ vendidos - R$447,41 Pix com cupom - 12x R$47,49 cartão
+- Preço: R$447,41 Pix com cupom - de R$524,90 sem cupom - 2% OFF cupom loja - oferta relâmpago termina em 02:13:38
+
+## Ideal para quem buscou
+
+- penteadeira princesa 4 gavetas com espelho banqueta
+- penteadeira maquiagem princesa acessorios
+- penteadeira 136x95x36 classica contemporanea
+- penteadeira com pes torneados 4 gavetas
+- penteadeira princesa branca rosa patrimar
+- penteadeira 95cm largura com espelho modulado
+- penteadeira maquiagem com banco 4 gavetas
+- penteadeira princesa 1mil vendidos 4.8 estrelas
+  `,
+  marca: "Patrimar",
+  keywords: [
+    "penteadeira princesa 4 gavetas espelho banqueta",
+    "penteadeira maquiagem princesa acessorios",
+    "penteadeira 136x95x36 classica 4 gavetas",
+    "penteadeira com pes torneados branca rosa",
+    "penteadeira princesa 95cm espelho modulado",
+    "penteadeira maquiagem com banco patrimar",
+    "penteadeira 4 gavetas corrediças metalicas",
+    "penteadeira princesa 1mil vendidos oferta"
+  ],
+  seoTitle: "Penteadeira Princesa 4 Gavetas Espelho Banqueta R$447 | 4.8 1mil+",
+  seoDescription: "Penteadeira maquiagem princesa 4 gavetas com espelho e banqueta Patrimar 136x95x36. OFERTA RELÂMPAGO R$447,41 Pix - 4.8 estrelas 527 avaliações 1mil+ vendidos, frete Marília R$28,84.",
+  caracteristicas: [
+    "136x95x36cm - MDF Patrimar 4 gavetas corrediças metálicas",
+    "Pés torneados clássico + espelho modulado + banqueta inclusa",
+    "Branco e Rosa - visual princesa glamour que rouba a cena",
+    "1mil+ vendidos 4.8 estrelas 527 avaliações - oferta relâmpago",
+    "Enviado Marília SP frete R$28,84 com R$40 OFF cupom",
+    "3 meses garantia fabricante - necessita montagem - 12x R$47,49"
+  ],
+  recomendacao: "Ideal para quem buscou penteadeira princesa barata com banqueta e achou a Lívia camarim LED R$544 sem charme clássico. Essa Princesa Patrimar é 4 gavetas, 95cm largura, pés torneados, 1mil+ vendidos, R$447 na oferta relâmpago. Perfeita para quarto feminino que quer glamour clássico. Se quer LED embutido vá de Lívia R$544, se quer suspensa minimalista vá de Jasmin R$152."
+},
+{
+  id: "p-imp-165",
+  slug: "penteadeira-com-banco-rosa-led-espelho-50x50-100-mdf-aspecto",
+  category: "penteadeiras",
+  mainCategory: "quarto",
+  name: "Penteadeira Com Banco Rosa Led e Espelho 50cm x 50cm 100% MDF 60x30 1,40m Aspecto Móveis",
+  imageFile: "/imagens/produtos/penteadeira-banco-rosa-led-espelho-50x50-mdf-frente.webp",
+  displayImage: "/imagens/produtos/penteadeira-banco-rosa-led-espelho-50x50-mdf-frente.webp",
+  imageHover: "/imagens/produtos/penteadeira-banco-rosa-led-espelho-50x50-mdf-frente-ih.webp",
+  alt: "penteadeira com banco rosa led espelho 50x50 100 mdf 60x30 rosa branca",
+  rating: 4.8,
+  reviews: 1300,
+  discount: 10,
+  price: 380.53,
+  originalPrice: 423.87,
+  badge: "OFERTA RELÂMPAGO",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/20ufLuYPIu",
+  descricao: `
+# Penteadeira Com Banco Rosa Led e Espelho 50x50 100% MDF R$380 - Kit Completo
+
+Se você buscou por **penteadeira com banco rosa**, **penteadeira 50x50 com led**, **penteadeira com banco rosa led e espelho**, **penteadeira 60cm com banco**, **penteadeira 100% mdf com banco** ou **penteadeira camarim 50x50 banco rosa**, essa Aspecto Móveis é a mais vendida da Shopee com 4.8 estrelas, 1,3mil avaliações e 2mil+ vendidos. Diferente da [Princesa 4 gavetas 136x95 R$447](/produto/penteadeira-maquiagem-princesa-acessorios-4-gavetas-espelho-banqueta) que é clássica 95cm grande, essa é compacta 60x30cm com banco rosa - para quem buscou **penteadeira pequena com banco**, **penteadeira 50cm com banco rosa**, **penteadeira com banco peluciado**, **penteadeira led 50x50** e **penteadeira camarim pequena 60cm**.
+
+**PESQUISA REAL QUE FIZEMOS:** Fomos na Shopee, Magalu e MadeiraMadeira. O que descobrimos: modelo Aspecto Móveis é fabricado em 100% MDF com espuma e estofado peluciado, espelho prata 3mm incluso em todas opções, material MDF branco/amadeirado/preto, medidas oficiais 1,40m altura x 60cm comprimento x 30cm profundidade, 60x30 tampo com 50x50 espelho. Marca Aspecto informa divisórias de brinde, manual incluso fácil montagem, envio desmontada para evitar danos, peso pacote 23kg, garantia 3 meses fabricante. Ponto fraco que vendedor esconde: enviado de Santa Catarina (não Marília), frete R$20,33 mas prazo maior, não é 1,40m largura é altura total, tampo só 60x30 pequeno (não cabe notebook + maquiagem), somente 1 assento, precisa montagem completa.
+
+## Por que escolhemos a Penteadeira Banco Rosa LED 50x50 Aspecto?
+
+**PENTEADEIRA 50X50 COM BANCO ROSA QUE É SONHO DE TODA FILHA E MULHER:** Enquanto penteadeira sem banco R$380 precisa comprar banqueta R$180 separado, essa já vem kit completo Luz + Banco Rosa por R$380. Para quem buscou **penteadeira com banco rosa incluso**, **penteadeira kit completo luz banco**, **penteadeira com banco peluciado rosa**, **penteadeira sonho toda filha mulher**, ideal para [quarto pequeno 6m²](/moveis-quarto-pequeno), [quarto menina](/quarto-menina), [cantinho da mulher](/cantinho-que-toda-mulher-merece), [kitnet](/kitnet) e [quarto casal pequeno](/quarto-casal). Combina com [sapateira rosa](/produto/sapateira-rosa) + [poltrona rosa](/produto/poltrona-rosa).
+
+**100% MDF COM ESPELHO PRATA 3MM + DIVISORIAS BRINDE:** A Aspecto já manda divisórias de brinde e espelho prata 3mm incluso em todas variantes. Para quem buscou **penteadeira 100% mdf com espelho**, **penteadeira mdf com divisórias**, **penteadeira espelho prata 3mm**, **penteadeira com espelho incluso 50x50**. Diferente da [Jasmin suspensa 100x30 R$152](/produto/penteadeira-suspensa-jasmin-100x30-1-gaveta-lunim-preto) que não vem espelho nem banco, essa é completa com espelho e banco rosa opcional.
+
+**TRANSPARÊNCIA / QUEM NÃO DEVE COMPRAR:** Se você quer penteadeira grande 95cm com 4 gavetas, essa NÃO é - ela é compacta 60x30cm com 50x50 espelho, ideal para canto pequeno. Se precisa de penteadeira de chão 136cm alta com 4 gavetas, vá de [Princesa 136x95 R$447](/produto/penteadeira-maquiagem-princesa-acessorios-4-gavetas-espelho-banqueta). Se quer enviada de Marília com frete grátis, essa é enviada de Santa Catarina (frete R$20,33 com R$40 OFF cupom). Se quer somente penteadeira sem banco nem luz, tem variante Somente Penteadeira R$380 também. Precisa montagem sim - enviada desmontada para evitar danos transportadora. Se quer penteadeira 100% MDF com LED embutido no espelho (não luz camarim separada), vá de [Lívia LED fixa R$544](/produto/penteadeira-camarim-livia-espelho-led-fixa-2-gavetas-banqueta-mdf).
+
+## Ficha técnica honesta - Banco Rosa LED 50x50 Aspecto
+
+- Marca: Aspecto Móveis
+- Modelo: Penteadeira Com Banco Rosa Led e Espelho 50cm x 50cm 100% MDF
+- Cor MDF: Branco, Amadeirado, Preto - Banco Rosa peluciado
+- Dimensões: 1,40m altura total x 60cm comprimento x 30cm profundidade - espelho 50x50
+- Material: MDF 100%, espelho prata 3mm, espuma, estofado peluciado - país Brasil
+- Variantes: Somente Penteadeira, Penteadeira + Luz, Penteadeira + Banco Rosa, Kit Completo (Luz+Banco Rosa)
+- Diferencial: Divisórias vão de brinde, fácil montagem manual incluso, ótima qualidade alta durabilidade
+- Base: Pernas (não suspensa) - número assentos 1 - não dobrável - não antiguidade
+- Tamanho pacote: 23kg - envio super rápido - enviada desmontada evita danos
+- Envio: Santa Catarina - frete R$20,33 (de R$60,33) - até R$40 desconto frete com cupom
+- Garantia: 3 meses garantia fabricante Aspecto + garantia Shopee
+- Nota: 4.8 com 1,3mil avaliações - 2mil+ vendidos - R$380,53 Pix com cupom - 12x R$38,98
+- Preço: R$380,53 Pix com cupom 1% OFF loja - de R$423,87 - oferta relâmpago termina em 02:08:13
+
+## Ideal para quem buscou
+
+- penteadeira com banco rosa led espelho 50x50
+- penteadeira 60x30 100% mdf com banco rosa
+- penteadeira pequena com banco peluciado
+- penteadeira kit completo luz banco rosa
+- penteadeira 50x50 com espelho 3mm mdf
+- penteadeira camarim 60cm com banco rosa
+- penteadeira aspecto moveis banco rosa led
+- penteadeira sonho toda filha mulher 60cm
+  `,
+  marca: "Aspecto Móveis",
+  keywords: [
+    "penteadeira com banco rosa led espelho",
+    "penteadeira 50x50 100% mdf banco rosa",
+    "penteadeira 60x30 com banco peluciado",
+    "penteadeira kit completo luz banco rosa",
+    "penteadeira pequena 60cm com espelho 50x50",
+    "penteadeira camarim 50x50 banco rosa",
+    "penteadeira aspecto moveis mdf branco",
+    "penteadeira 1,40m banco rosa led"
+  ],
+  seoTitle: "Penteadeira Banco Rosa LED 50x50 MDF R$380 | 4.8 2mil+",
+  seoDescription: "Penteadeira com banco rosa LED e espelho 50x50 100% MDF 60x30 1,40m Aspecto Móveis. R$380,53 Pix OFERTA RELÂMPAGO - 4.8 estrelas 1,3mil avaliações 2mil+ vendidos, kit completo.",
+  caracteristicas: [
+    "1,40m x 60x30cm - 100% MDF espelho 50x50 prata 3mm - 3 cores MDF",
+    "Banco rosa peluciado + luz camarim + divisórias brinde inclusos",
+    "Kit completo Luz+Banco Rosa R$380 - 4 variantes disponíveis",
+    "2mil+ vendidos 4.8 estrelas 1,3mil avaliações - oferta relâmpago",
+    "Envio Santa Catarina frete R$20,33 com R$40 OFF cupom - 23kg",
+    "3 meses garantia - fácil montagem - 12x R$38,98 - 50x50 espelho"
+  ],
+  recomendacao: "Ideal para quem buscou penteadeira com banco rosa barata e achou a Princesa 4 gavetas R$447 sem rosa. Essa Aspecto 50x50 é compacta 60x30cm com banco rosa peluciado, LED, 2mil+ vendidos, R$380 kit completo. Perfeita para quarto pequeno menina que quer sonho rosa. Se quer 4 gavetas grande vá de Princesa R$447, se quer LED fixo 100% MDF premium vá de Lívia R$544."
+},
+
 ]
 
 

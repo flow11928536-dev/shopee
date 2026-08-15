@@ -3,7 +3,7 @@
     "name": "Loja de Móveis Marília",
     "url": "https://www.lojademoveismarilia.com.br",
     "description": "Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.",
-    "lastUpdated": "2026-08-12T01:41:43.048Z"
+    "lastUpdated": "2026-08-15T00:56:55.300Z"
   },
   "categories": [
     {
@@ -53,7 +53,7 @@
       "relatedGuides": [
         "quartos"
       ],
-      "productCount": 12
+      "productCount": 14
     },
     {
       "slug": "microondas",
@@ -163,6 +163,14 @@
       "description": "Encontre as melhores ofertas de Móveis Gamer com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
       "productCount": 12
+    },
+    {
+      "slug": "penteadeiras",
+      "label": "Penteadeiras",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/penteadeiras",
+      "description": "Encontre as melhores ofertas de Penteadeiras com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 5
     }
   ],
   "guides": [
@@ -728,12 +736,12 @@
     }
   ],
   "statistics": {
-    "totalCategories": 18,
+    "totalCategories": 19,
     "totalGuides": 52,
     "totalPages": 6,
-    "totalProducts": 169,
-    "generatedAt": "2026-08-12T01:41:43.047Z",
-    "lastUpdated": "2026-08-12T01:41:43.048Z"
+    "totalProducts": 176,
+    "generatedAt": "2026-08-15T00:56:55.298Z",
+    "lastUpdated": "2026-08-15T00:56:55.300Z"
   },
   "entities": {
     "materials": [
@@ -886,7 +894,14 @@
       "DT3",
       "Albatroz Móveis",
       "Gelius",
-      "MX Móveis"
+      "MX Móveis",
+      "Liberty Móveis",
+      "Kelan",
+      "Genérica",
+      "Lunim",
+      "Lívia",
+      "Patrimar",
+      "Aspecto Móveis"
     ],
     "platforms": [
       "Shopee",
@@ -1263,6 +1278,23 @@
         "Móveis Gamer sob medida",
         "o que é Móveis Gamer",
         "qual o melhor Móveis Gamer"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "penteadeiras",
+      "label": "Penteadeiras",
+      "searchTerms": [
+        "comprar Penteadeiras",
+        "melhor Penteadeiras",
+        "Penteadeiras barato",
+        "Penteadeiras preço",
+        "como escolher Penteadeiras",
+        "dicas de Penteadeiras",
+        "Penteadeiras para apartamento pequeno",
+        "Penteadeiras sob medida",
+        "o que é Penteadeiras",
+        "qual o melhor Penteadeiras"
       ],
       "relatedGuides": []
     },
@@ -2219,6 +2251,14 @@
       "guideTitles": [],
       "count": 0,
       "depth": "baixo"
+    },
+    {
+      "category": "penteadeiras",
+      "label": "Penteadeiras",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
     }
   ],
   "contentOpportunities": [
@@ -2389,6 +2429,16 @@
       "gap": "Sem guias",
       "impact": "alto",
       "suggestion": "Criar guia definitivo sobre 'Móveis Gamer' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "penteadeiras",
+      "label": "Penteadeiras",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Penteadeiras' abordando tipos, materiais, preços e dicas de compra",
       "estimatedEffort": "médio",
       "priority": "alta"
     },

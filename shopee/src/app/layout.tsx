@@ -195,8 +195,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
               </span>
-              <span className="font-mono font-semibold tracking-wide">FRETE GRÁTIS</span>
-              <span className="hidden sm:inline text-[#F5F0E8]/70">• Marília e Região • Curadoria Premium 2026</span>
+              <span className="font-mono font-semibold tracking-wide"></span>
+              <span className="hidden sm:inline text-[#F5F0E8]/70"> Móveis selecionados Por um Montador de Móveis Profissional</span>
             </div>
           </div>
         </div>

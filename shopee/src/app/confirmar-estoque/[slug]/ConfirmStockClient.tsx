@@ -198,9 +198,9 @@ export default function ConfirmStockClient({ product }: Props) {
               rel="noopener noreferrer"
               className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-full px-6 py-3.5 text-sm font-bold text-white shadow-md transition-all hover:-translate-y-0.5 sm:w-auto sm:px-8"
               style={{ backgroundColor: INK }}
-              aria-label={`Ver melhor oferta no ${product.platform}`}
+              aria-label={`Ver melhor oferta  ${product.platform}`}
             >
-              Ver melhor oferta no {product.platform}
+              Ver melhor oferta {product.platform}
               <svg className="h-4 w-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={2}>
                 <path d="M4 10h12M11 5l5 5-5 5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
