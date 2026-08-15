@@ -134,8 +134,8 @@ function generateSearchIntents(categories, guides) {
   guides.forEach(guide => {
     if (guide.h1) {
       const cleanTitle = guide.h1.toLowerCase()
-       .replace(/guia|o que é|como escolher|dicas|tutorial|passo a passo/i, '')
-       .trim();
+      .replace(/guia|o que é|como escolher|dicas|tutorial|passo a passo/i, '')
+      .trim();
       if (cleanTitle) {
         intents.push({
           category: 'guide',
@@ -323,20 +323,22 @@ function generateLlmsTxt(site, categories, guides, entities) {
     '- Cozinhas moduladas e eletrodomésticos',
     '- Home office e móveis para estudantes',
     '- Setup Gamer e móveis para gamers',
+    '- Penteadeiras camarim e o cantinho da mulher',
     '',
     '## Categorias',
-   ...categories.map(cat => `- [${cat.label}](${cat.url})`),
+  ...categories.map(cat => `- [${cat.label}](${cat.url})`),
     '',
     '## Guias',
-   ...guides.map(g => `- [${g.h1}](${guideUrl(site.url, g.slug)})`),
+  ...guides.map(g => `- [${g.h1}](${guideUrl(site.url, g.slug)})`),
     '',
     '## Páginas Especiais',
     `- [Guia de Móveis Gamer](${site.url}/moveis-gamer)`,
     `- [Móveis para Estudantes](${site.url}/moveis-para-estudantes)`,
     `- [Móveis para Bebê](${site.url}/moveis-para-bebe)`,
+    `- [O Cantinho Que Toda Mulher Merece - Penteadeiras Camarim](${site.url}/cantinho-que-toda-mulher-merece)`,
     '',
     '## AI Navigation',
-   ...Object.entries(nav).map(([slug, n]) => `### ${n.category}\nURL: ${n.categoryUrl}\nGuias:\n${n.guides.map(g => `- ${g.title}`).join('\n')}`),
+  ...Object.entries(nav).map(([slug, n]) => `### ${n.category}\nURL: ${n.categoryUrl}\nGuias:\n${n.guides.map(g => `- ${g.title}`).join('\n')}`),
     `\n\nÚltima atualização: ${new Date().toISOString().slice(0, 19)}`,
   ];
   return lines.join('\n');
@@ -351,18 +353,19 @@ function generateLlmsFullTxt(site, categories, guides, products, pages, entities
     site.description,
     '',
     '## Categorias',
-   ...categories.map(c => `- ${c.label}: ${c.description} (${products.filter(p => p.category === c.slug || p.mainCategory === c.slug).length} produtos)`),
+  ...categories.map(c => `- ${c.label}: ${c.description} (${products.filter(p => p.category === c.slug || p.mainCategory === c.slug).length} produtos)`),
     '',
     '## Guias',
-   ...guides.map(g => `- ${g.h1}: ${g.description || 'Guia completo'}`),
+  ...guides.map(g => `- ${g.h1}: ${g.description || 'Guia completo'}`),
     '',
     '## Páginas',
-   ...pages.map(p => `- ${p.title}: ${p.description}`),
+  ...pages.map(p => `- ${p.title}: ${p.description}`),
     '',
     '## Páginas Especiais',
     `- Guia de Móveis Gamer: Guia completo para montar seu setup gamer com as melhores ofertas`,
     `- Móveis para Estudantes: Móveis compactos e funcionais para universitários`,
     `- Móveis para Bebê: Móveis seguros e adequados para o quarto do bebê`,
+    `- O Cantinho Que Toda Mulher Merece: Penteadeiras camarim com LED, sapateiras giratórias e banquetas mais vendidas`,
     '',
     `Gerado em: ${new Date().toISOString()}`,
   ];
@@ -400,6 +403,12 @@ function generateLlmsIndexJson(site, categories, guides, products, pages, stats,
         title: 'Guia de Móveis Gamer',
         url: `${site.url}/moveis-gamer`,
         description: 'Guia completo para montar seu setup gamer com as melhores ofertas do Mercado Livre e Shopee.'
+      },
+      {
+        slug: 'cantinho-que-toda-mulher-merece',
+        title: 'O Cantinho Que Toda Mulher Merece - Penteadeiras Camarim',
+        url: `${site.url}/cantinho-que-toda-mulher-merece`,
+        description: 'Curadoria das penteadeiras camarim com LED, sapateiras giratórias com espelho e banquetas mais vendidas de Marília SP.'
       }
     ],
     statistics: stats,
@@ -430,7 +439,8 @@ function generateSitemap(site, categories, guides, products, pages) {
   guides.forEach(g => {
     urls.push({ loc: guideUrl(site.url, g.slug), lastmod: today, changefreq: 'monthly', priority: '0.8', });
   });
-  const paginasEspeciais = ['moveis-gamer', 'moveis-para-bebe', 'moveis-para-estudantes'];
+  // CORRIGIDO: Adicionado cantinho-que-toda-mulher-merece nas páginas especiais
+  const paginasEspeciais = ['moveis-gamer', 'moveis-para-bebe', 'moveis-para-estudantes', 'cantinho-que-toda-mulher-merece'];
   pages.forEach(p => {
     if (paginasEspeciais.includes(p.slug)) return;
     urls.push({ loc: p.url, lastmod: today, changefreq: 'monthly', priority: '0.7', });
@@ -438,6 +448,7 @@ function generateSitemap(site, categories, guides, products, pages) {
   urls.push({ loc: `${site.url}/moveis-gamer`, lastmod: today, changefreq: 'weekly', priority: '0.9', });
   urls.push({ loc: `${site.url}/moveis-para-bebe`, lastmod: today, changefreq: 'weekly', priority: '0.8', });
   urls.push({ loc: `${site.url}/moveis-para-estudantes`, lastmod: today, changefreq: 'weekly', priority: '0.8', });
+  urls.push({ loc: `${site.url}/cantinho-que-toda-mulher-merece`, lastmod: today, changefreq: 'daily', priority: '0.95', });
   products.forEach(p => {
     urls.push({ loc: productUrl(site.url, p.slug), lastmod: today, changefreq: 'weekly', priority: '0.6', });
   });
@@ -488,7 +499,7 @@ function generateImageSitemap(site, products) {
     return ` <url>\n <loc>${productUrl(site.url, p.slug)}</loc>\n <lastmod>${today}</lastmod>\n${imagensXml}\n </url>`;
   }).join('\n');
 
-  console.log(`🖼️ Sitemap de imagens gerado: ${total} imagens`);
+  console.log(`🖼 Sitemap de imagens gerado: ${total} imagens`);
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${urls}\n</urlset>`;
 }
 
@@ -582,6 +593,7 @@ async function generateFiles() {
     { slug: 'moveis-gamer', title: 'Guia de Móveis Gamer', url: pageUrl(SITE.url, 'moveis-gamer'), description: 'Guia completo para montar seu setup gamer com as melhores ofertas do Mercado Livre e Shopee. Cadeiras, mesas, iluminação e acessórios gamers.' },
     { slug: 'moveis-para-estudantes', title: 'Móveis para Estudantes', url: pageUrl(SITE.url, 'moveis-para-estudantes'), description: 'Guia completo para estudantes universitários sobre móveis compactos, baratos e funcionais.' },
     { slug: 'moveis-para-bebe', title: 'Móveis para Bebê', url: pageUrl(SITE.url, 'moveis-para-bebe'), description: 'Guia de móveis seguros e adequados para o quarto do bebê.' },
+    { slug: 'cantinho-que-toda-mulher-merece', title: 'O Cantinho Que Toda Mulher Merece - Penteadeiras Camarim', url: pageUrl(SITE.url, 'cantinho-que-toda-mulher-merece'), description: 'Penteadeiras camarim com LED, sapateiras giratórias com espelho e banquetas mais vendidas de Marília SP. Curadoria premium com as melhores ofertas.' },
     { slug: 'politicas', title: 'Políticas e Transparência', url: pageUrl(SITE.url, 'politicas'), description: 'Políticas de privacidade, termos de uso e transparência do site.' },
     { slug: 'contato', title: 'Contato', url: pageUrl(SITE.url, 'contato'), description: 'Entre em contato conosco por e-mail ou WhatsApp.' },
   ];
@@ -605,15 +617,14 @@ async function generateFiles() {
   fs.writeFileSync(path.join(publicDir, 'llms-full.txt'), generateLlmsFullTxt(SITE, categories, guides, products, pages, entities));
   fs.writeFileSync(path.join(publicDir, 'llms-index.json'), JSON.stringify(generateLlmsIndexJson(SITE, categories, guides, products, pages, stats, entities, searchIntents, clusters, opps), null, 2));
   fs.writeFileSync(path.join(publicDir, 'robots.txt'), generateRobotsTxt(SITE));
-  // CORRIGIDO AQUI: era path.Ajoin
   fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), generateSitemap(SITE, categories, guides, products, pages));
-  // NOVO: GERA O SITEMAP DE IMAGENS AUTOMATICAMENTE
   fs.writeFileSync(path.join(publicDir, 'sitemap-imagens.xml'), generateImageSitemap(SITE, products));
   fs.writeFileSync(path.join(publicDir, 'content-opportunities.json'), JSON.stringify(opps, null, 2));
 
   console.log('✅ Arquivos de SEO gerados com sucesso!');
   console.log(`📁 Pasta: ${publicDir}`);
   console.log(`📊 ${stats.totalCategories} categorias, ${stats.totalGuides} guias, ${stats.totalProducts} produtos.`);
+  console.log(`✅ INCLUÍDO: /cantinho-que-toda-mulher-merece no sitemap.xml com prioridade 0.95`);
 }
 
 generateFiles().catch(console.error);

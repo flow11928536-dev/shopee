@@ -170,6 +170,16 @@
     "priority": "alta"
   },
   {
+    "type": "missing-guide",
+    "category": "penteadeiras",
+    "label": "Penteadeiras",
+    "gap": "Sem guias",
+    "impact": "alto",
+    "suggestion": "Criar guia definitivo sobre 'Penteadeiras' abordando tipos, materiais, preços e dicas de compra",
+    "estimatedEffort": "médio",
+    "priority": "alta"
+  },
+  {
     "type": "material-gap",
     "material": "madeira macica",
     "gap": "Material não coberto em guias",
