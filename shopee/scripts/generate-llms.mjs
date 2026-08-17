@@ -47,22 +47,16 @@ function extractEntities(products, guides) {
     const text = (p.descricao || '') + ' ' + (p.seoTitle || '') + ' ' + (p.seoDescription || '') + ' ' + (p.keywords || '');
     const materialMatches = text.match(/\b(MDF|MDP|madeira|aço|ferro|vidro|tecidos?|couro|suede|veludo|linho|bouclé|alumínio|plástico|resina|temperado|laminado|melamina)\b/gi);
     if (materialMatches) materialMatches.forEach(m => entities.materials.add(m.toLowerCase()));
-
     const envMatches = text.match(/\b(sala|quarto|cozinha|banheiro|varanda|jardim|área externa|home office|escritório|estudo|quarto de bebê|quarto de casal|suite|lavabo|despensa)\b/gi);
     if (envMatches) envMatches.forEach(e => entities.environments.add(e.toLowerCase()));
-
     const typeMatches = text.match(/\b(sofá?|guarda-roupa|cozinha|mesa|cadeira|painel|rack|cama|escrivaninha|estante|armário|balcão|cômoda|aparador|buffet|esqueleto|nicho|prateleira|divan|chaise|pufe|ottoma|bancada|balança|cesto|carrinho)\b/gi);
     if (typeMatches) typeMatches.forEach(t => entities.types.add(t.toLowerCase()));
-
     const colorMatches = text.match(/\b(preto|branco|cinza|marrom|bege|creme|marfim|âmbar|noz|cerejeira|pinho|mogno|azul|verde|vermelho|amarelo|rosa|roxo|dourado|prata|metalizado)\b/gi);
     if (colorMatches) colorMatches.forEach(c => entities.colors.add(c.toLowerCase()));
-
     const styleMatches = text.match(/\b(minimalista|moderno|contemporâneo|rústico|industrial|scandinavo|clássico|vintage|art decó|mid century|boho|provençal|colonial|neo clássico)\b/gi);
     if (styleMatches) styleMatches.forEach(s => entities.styles.add(s.toLowerCase()));
-
     const benefitMatches = text.match(/\b(confortável|durável|resistente|fácil de montar|ecológico|sustentável|antibacteriano|impermeável|resistente à água|isolante|acústico|ergonômico|ajustável|reclinável|giratório|com rodas|com iluminação|com tomadas|com USB)\b/gi);
     if (benefitMatches) benefitMatches.forEach(b => entities.benefits.add(b.toLowerCase()));
-
     const problemMatches = text.match(/\b(para apartamento pequeno|para espaços compactos|economia de espaço|multifuncional|versátil|personalizável|sob medida|fácil limpeza|montagem simples)\b/gi);
     if (problemMatches) problemMatches.forEach(pr => entities.problems.add(pr.toLowerCase()));
   });
@@ -71,22 +65,16 @@ function extractEntities(products, guides) {
     const text = (g.h1 || '') + ' ' + (g.keyword || '') + ' ' + (g.seoDescription || '') + ' ' + (g.intro || '') + ' ' + (g.content || '');
     const materialMatches = text.match(/\b(MDF|MDP|madeira|aço|ferro|vidro|tecidos?|couro|suede|veludo|linho|bouclé|alumínio|plástico|resina|temperado|laminado|melamina)\b/gi);
     if (materialMatches) materialMatches.forEach(m => entities.materials.add(m.toLowerCase()));
-
     const envMatches = text.match(/\b(sala|quarto|cozinha|banheiro|varanda|jardim|área externa|home office|escritório|estudo|quarto de bebê|quarto de casal|suite|lavabo|despensa)\b/gi);
     if (envMatches) envMatches.forEach(e => entities.environments.add(e.toLowerCase()));
-
     const typeMatches = text.match(/\b(sofá?|guarda-roupa|cozinha|mesa|cadeira|painel|rack|cama|escrivaninha|estante|armário|balcão|cômoda|aparador|buffet|esqueleto|nicho|prateleira|divan|chaise|pufe|ottoma|bancada|balança|cesto|carrinho)\b/gi);
     if (typeMatches) typeMatches.forEach(t => entities.types.add(t.toLowerCase()));
-
     const colorMatches = text.match(/\b(preto|branco|cinza|marrom|bege|creme|marfim|âmbar|noz|cerejeira|pinho|mogno|azul|verde|vermelho|amarelo|rosa|roxo|dourado|prata|metalizado)\b/gi);
     if (colorMatches) colorMatches.forEach(c => entities.colors.add(c.toLowerCase()));
-
     const styleMatches = text.match(/\b(minimalista|moderno|contemporâneo|rústico|industrial|scandinavo|clássico|vintage|art decó|mid century|boho|provençal|colonial|neo clássico)\b/gi);
     if (styleMatches) styleMatches.forEach(s => entities.styles.add(s.toLowerCase()));
-
     const benefitMatches = text.match(/\b(confortável|durável|resistente|fácil de montar|ecológico|sustentável|antibacteriano|impermeável|resistente à água|isolante|acústico|ergonômico|ajustável|reclinável|giratório|com rodas|com iluminação|com tomadas|com USB)\b/gi);
     if (benefitMatches) benefitMatches.forEach(b => entities.benefits.add(b.toLowerCase()));
-
     const problemMatches = text.match(/\b(para apartamento pequeno|para espaços compactos|economia de espaço|multifuncional|versátil|personalizável|sob medida|fácil limpeza|montagem simples)\b/gi);
     if (problemMatches) problemMatches.forEach(pr => entities.problems.add(pr.toLowerCase()));
   });
@@ -130,12 +118,9 @@ function generateSearchIntents(categories, guides) {
       relatedGuides: relatedGuides.map(g => g.slug),
     });
   });
-
   guides.forEach(guide => {
     if (guide.h1) {
-      const cleanTitle = guide.h1.toLowerCase()
-        .replace(/guia|o que é|como escolher|dicas|tutorial|passo a passo/i, '')
-        .trim();
+      const cleanTitle = guide.h1.toLowerCase().replace(/guia|o que é|como escolher|dicas|tutorial|passo a passo/i, '').trim();
       if (cleanTitle) {
         intents.push({
           category: 'guide',
@@ -153,7 +138,6 @@ function generateSearchIntents(categories, guides) {
       }
     }
   });
-
   return intents;
 }
 
@@ -176,7 +160,6 @@ function generateContentOpportunities(categories, guides, products) {
   categories.forEach(cat => {
     const relatedGuides = guides.filter(g => g.keyword?.includes(cat.slug) || g.h1?.toLowerCase().includes(cat.label.toLowerCase()));
     const relatedProducts = products.filter(p => p.category === cat.slug || p.mainCategory === cat.slug);
-
     if (relatedGuides.length === 0 && relatedProducts.length > 0) {
       opportunities.push({
         type: 'missing-guide',
@@ -201,7 +184,6 @@ function generateContentOpportunities(categories, guides, products) {
       });
     }
   });
-
   const materials = ['MDF', 'MDP', 'madeira macica', 'vidro temperado', 'aço inox', 'alumínio', 'couro sintético', 'linho'];
   materials.forEach(mat => {
     const exists = guides.some(g =>
@@ -221,7 +203,6 @@ function generateContentOpportunities(categories, guides, products) {
       });
     }
   });
-
   return opportunities;
 }
 
@@ -371,12 +352,7 @@ function generateLlmsFullTxt(site, categories, guides, products, pages, entities
 
 function generateLlmsIndexJson(site, categories, guides, products, pages, stats, entities, searchIntents, clusters, opps) {
   return {
-    site: {
-      name: site.name,
-      url: site.url,
-      description: site.description,
-      lastUpdated: stats.lastUpdated,
-    },
+    site: { name: site.name, url: site.url, description: site.description, lastUpdated: stats.lastUpdated },
     categories: categories.map(c => ({
       slug: c.slug,
       label: c.label,
@@ -394,14 +370,7 @@ function generateLlmsIndexJson(site, categories, guides, products, pages, stats,
       wordCount: (g.content || '').split(' ').length,
     })),
     pages: pages,
-    specialPages: [
-      {
-        slug: 'moveis-gamer',
-        title: 'Guia de Móveis Gamer',
-        url: `${site.url}/moveis-gamer`,
-        description: 'Guia completo para montar seu setup gamer com as melhores ofertas do Mercado Livre e Shopee.'
-      }
-    ],
+    specialPages: [{ slug: 'moveis-gamer', title: 'Guia de Móveis Gamer', url: `${site.url}/moveis-gamer`, description: 'Guia completo para montar seu setup gamer com as melhores ofertas do Mercado Livre e Shopee.' }],
     statistics: stats,
     entities: entities,
     searchIntents: searchIntents,
@@ -411,95 +380,61 @@ function generateLlmsIndexJson(site, categories, guides, products, pages, stats,
 }
 
 // ============================================================
-// FUNÇÃO CORRIGIDA: SITEMAP SEM CATEGORIAS EXCLUÍDAS
+// FUNÇÃO CORRIGIDA - SEM mdf-mdp E area-externa
 // ============================================================
 function generateSitemap(site, categories, guides, products, pages) {
   const urls = [];
   const today = new Date().toISOString().split('T')[0];
 
-  // ✅ Categorias que já têm página especial (não devem aparecer como /categoria/)
-  // Adicionado moveis-gamer e moveis-para-bebe — têm página própria
+  // ✅ LISTA COMPLETA DE EXCLUÍDOS - NÃO GERAM /categoria/
   const categoriasExcluidas = [
     'moveis-para-estudantes',
     'moveis-gamer',
     'moveis-para-bebe',
+    'area-externa',
+    'mdf-mdp',
+    'home-office',
+    'paineis',
+    'cozinhas',
+    'quartos',
+    'sofas',
+    'guarda-roupas',
   ];
 
   console.log(`📊 Gerando sitemap com ${products.length} produtos`);
 
-  // Home
   urls.push({ loc: site.url, lastmod: today, changefreq: 'daily', priority: '1.0' });
 
-  // Categorias (exceto as excluídas)
   categories.forEach(cat => {
     if (categoriasExcluidas.includes(cat.slug)) {
-      console.log(`   ⏭️ Pulando categoria excluída: ${cat.slug}`);
+      console.log(`   ⏭ Pulando categoria excluída: ${cat.slug}`);
       return;
     }
-    urls.push({
-      loc: cat.url,
-      lastmod: today,
-      changefreq: 'weekly',
-      priority: '0.9',
-    });
+    urls.push({ loc: cat.url, lastmod: today, changefreq: 'weekly', priority: '0.9' });
   });
 
-  // Guias
   guides.forEach(g => {
-    urls.push({
-      loc: guideUrl(site.url, g.slug),
-      lastmod: today,
-      changefreq: 'monthly',
-      priority: '0.8',
-    });
+    if (categoriasExcluidas.includes(g.slug)) {
+      console.log(`   ⏭ Pulando guia que conflita com categoria: ${g.slug}`);
+      return;
+    }
+    urls.push({ loc: guideUrl(site.url, g.slug), lastmod: today, changefreq: 'monthly', priority: '0.8' });
   });
 
-  // Páginas estáticas (sem moveis-gamer, moveis-para-bebe, moveis-para-estudantes
-  // — essas têm entrada própria com prioridade maior mais abaixo)
   const paginasEspeciais = ['moveis-gamer', 'moveis-para-bebe', 'moveis-para-estudantes'];
   pages.forEach(p => {
-    if (paginasEspeciais.includes(p.slug)) return; // pula — adicionadas abaixo com prioridade maior
-    urls.push({
-      loc: p.url,
-      lastmod: today,
-      changefreq: 'monthly',
-      priority: '0.7',
-    });
+    if (paginasEspeciais.includes(p.slug)) return;
+    urls.push({ loc: p.url, lastmod: today, changefreq: 'monthly', priority: '0.7' });
   });
 
-  // ✅ PÁGINAS ESPECIAIS (com prioridade maior que as páginas estáticas comuns)
-  urls.push({
-    loc: `${site.url}/moveis-gamer`,
-    lastmod: today,
-    changefreq: 'weekly',
-    priority: '0.9',
-  });
+  urls.push({ loc: `${site.url}/moveis-gamer`, lastmod: today, changefreq: 'weekly', priority: '0.9' });
+  urls.push({ loc: `${site.url}/moveis-para-bebe`, lastmod: today, changefreq: 'weekly', priority: '0.8' });
+  urls.push({ loc: `${site.url}/moveis-para-estudantes`, lastmod: today, changefreq: 'weekly', priority: '0.8' });
 
-  urls.push({
-    loc: `${site.url}/moveis-para-bebe`,
-    lastmod: today,
-    changefreq: 'weekly',
-    priority: '0.8',
-  });
-
-  urls.push({
-    loc: `${site.url}/moveis-para-estudantes`,
-    lastmod: today,
-    changefreq: 'weekly',
-    priority: '0.8',
-  });
-
-  // TODOS OS PRODUTOS
   products.forEach(p => {
-    urls.push({
-      loc: productUrl(site.url, p.slug),
-      lastmod: today,
-      changefreq: 'weekly',
-      priority: '0.6',
-    });
+    urls.push({ loc: productUrl(site.url, p.slug), lastmod: today, changefreq: 'weekly', priority: '0.6' });
   });
 
-  // ✅ DEDUPLICAÇÃO FINAL — remove URLs duplicadas, mantém a de maior prioridade
   const seen = new Map();
   for (const u of urls) {
     const existing = seen.get(u.loc);
@@ -514,10 +449,6 @@ function generateSitemap(site, categories, guides, products, pages) {
   console.log(`   - ${guides.length} guias`);
   console.log(`   - ${pages.length} páginas`);
   console.log(`   - ${products.length} produtos`);
-  console.log(`   - Páginas especiais: moveis-gamer, moveis-para-bebe, moveis-para-estudantes`);
-  if (urls.length !== finalUrls.length) {
-    console.log(`   - ${urls.length - finalUrls.length} duplicatas removidas`);
-  }
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -533,99 +464,53 @@ ${finalUrls.map(u => `  <url>
 
 function generateRobotsTxt(site) {
   const lines = [
-    'User-agent: *',
-    'Allow: /',
-    'Disallow: /admin/',
-    'Disallow: /api/',
-    'Disallow: /cdn-cgi/',
-    '',
-    'User-agent: GPTBot',
-    'Allow: /llms.txt',
-    'Allow: /llms-full.txt',
-    'Allow: /llms-index.json',
-    '',
-    'User-agent: Claude-Web',
-    'Allow: /llms.txt',
-    'Allow: /llms-full.txt',
-    'Allow: /llms-index.json',
-    '',
-    'User-agent: anthropic-ai',
-    'Allow: /llms.txt',
-    'Allow: /llms-full.txt',
-    'Allow: /llms-index.json',
-    '',
-    'User-agent: cohere-ai',
-    'Allow: /llms.txt',
-    'Allow: /llms-full.txt',
-    'Allow: /llms-index.json',
-    '',
-    'User-agent: CCBot',
-    'Allow: /llms.txt',
-    'Allow: /llms-full.txt',
-    'Allow: /llms-index.json',
-    '',
-    'User-agent: FacebookBot',
-    'Allow: /',
-    '',
-    'User-agent: Twitterbot',
-    'Allow: /',
-    '',
-    `Sitemap: ${site.url}/sitemap.xml`,
+    'User-agent: *', 'Allow: /', 'Disallow: /admin/', 'Disallow: /api/', 'Disallow: /cdn-cgi/', '',
+    'User-agent: GPTBot', 'Allow: /llms.txt', 'Allow: /llms-full.txt', 'Allow: /llms-index.json', '',
+    'User-agent: Claude-Web', 'Allow: /llms.txt', 'Allow: /llms-full.txt', 'Allow: /llms-index.json', '',
+    'User-agent: anthropic-ai', 'Allow: /llms.txt', 'Allow: /llms-full.txt', 'Allow: /llms-index.json', '',
+    'User-agent: cohere-ai', 'Allow: /llms.txt', 'Allow: /llms-full.txt', 'Allow: /llms-index.json', '',
+    'User-agent: CCBot', 'Allow: /llms.txt', 'Allow: /llms-full.txt', 'Allow: /llms-index.json', '',
+    'User-agent: FacebookBot', 'Allow: /', '', 'User-agent: Twitterbot', 'Allow: /', '', `Sitemap: ${site.url}/sitemap.xml`,
   ];
   return lines.join('\n');
 }
 
 async function loadData() {
-  const { SITE, allCategories, CATEGORY_LABELS, products } = await import('../src/data/products.ts');
+  const { SITE, uniqueCategories: allCategories, CATEGORY_LABELS, products } = await import('../src/data/products.ts');
   const { getAllGuidesMeta } = await import('../src/data/guides.ts');
   const guides = getAllGuidesMeta();
-  
   console.log('='.repeat(60));
   console.log('🔍 DIAGNÓSTICO DE PRODUTOS');
   console.log('='.repeat(60));
   console.log(`📦 Total de produtos no products.ts: ${products.length}`);
-  
   const missingSlug = products.filter(p => !p.slug);
   if (missingSlug.length > 0) {
-    console.warn(`\n⚠️ Produtos SEM SLUG (${missingSlug.length}):`);
+    console.warn(`\n⚠ Produtos SEM SLUG (${missingSlug.length}):`);
     missingSlug.forEach(p => console.warn(`   - ID: ${p.id || 'Sem ID'} | Nome: ${p.name || 'Sem nome'}`));
   }
-  
   const slugs = products.map(p => p.slug);
   const duplicateSlugs = slugs.filter((s, i) => slugs.indexOf(s) !== i);
   if (duplicateSlugs.length > 0) {
-    console.warn(`\n⚠️ Slugs DUPLICADOS (${duplicateSlugs.length}):`);
+    console.warn(`\n⚠ Slugs DUPLICADOS (${duplicateSlugs.length}):`);
     duplicateSlugs.forEach(s => console.warn(`   - ${s}`));
   }
-  
-  const missingId = products.filter(p => !p.id);
-  if (missingId.length > 0) {
-    console.warn(`\n⚠️ Produtos SEM ID (${missingId.length}):`);
-    missingId.forEach(p => console.warn(`   - Slug: ${p.slug || 'Sem slug'} | Nome: ${p.name || 'Sem nome'}`));
-  }
-  
-  const missingCategory = products.filter(p => !p.category);
-  if (missingCategory.length > 0) {
-    console.warn(`\n⚠️ Produtos SEM CATEGORY (${missingCategory.length}):`);
-    missingCategory.forEach(p => console.warn(`   - Slug: ${p.slug || 'Sem slug'} | Nome: ${p.name || 'Sem nome'}`));
-  }
-  
-  const missingMainCategory = products.filter(p => !p.mainCategory);
-  if (missingMainCategory.length > 0) {
-    console.warn(`\n⚠️ Produtos SEM MAIN CATEGORY (${missingMainCategory.length}):`);
-    missingMainCategory.forEach(p => console.warn(`   - Slug: ${p.slug || 'Sem slug'} | Nome: ${p.name || 'Sem nome'}`));
-  }
-  
   console.log('\n' + '='.repeat(60));
-  console.log(`📦 Carregados ${products.length} produtos do products.ts`);
-  console.log(`📦 Carregados ${guides.length} guias do guides.ts`);
+  console.log(`📦 Carregados ${products.length} produtos`);
+  console.log(`📦 Carregados ${guides.length} guias`);
   console.log('='.repeat(60) + '\n');
-  
   return { SITE, allCategories, CATEGORY_LABELS, products, guides };
 }
 
 async function generateFiles() {
-  const { SITE, allCategories, CATEGORY_LABELS, products, guides } = await loadData();
+  let { SITE, allCategories, CATEGORY_LABELS, products, guides } = await loadData();
+  if (!allCategories) allCategories = Object.keys(CATEGORY_LABELS);
+  console.log("allCategories:", allCategories);
+  console.log("CATEGORY_LABELS:", CATEGORY_LABELS ? Object.keys(CATEGORY_LABELS).length : "undefined");
+  if (!allCategories || !allCategories.length) {
+    console.log("⚠ allCategories vazio, usando CATEGORY_LABELS como fallback");
+    allCategories = Object.keys(CATEGORY_LABELS || {});
+  }
+  if (!CATEGORY_LABELS) throw new Error("CATEGORY_LABELS não foi exportado do products.ts");
 
   const categories = allCategories.map(cat => ({
     slug: cat,
@@ -666,8 +551,6 @@ async function generateFiles() {
 
   console.log('✅ Arquivos de SEO gerados com sucesso!');
   console.log(`📁 Pasta: ${publicDir}`);
-  console.log(`📊 ${stats.totalCategories} categorias, ${stats.totalGuides} guias, ${stats.totalProducts} produtos.`);
-  console.log(`📄 Páginas especiais: moveis-gamer, moveis-para-estudantes, moveis-para-bebe`);
 }
 
 generateFiles().catch(console.error);

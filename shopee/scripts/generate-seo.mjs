@@ -549,7 +549,7 @@ function generateRobotsTxt(site) {
 }
 
 async function loadData() {
-  const { SITE, allCategories, CATEGORY_LABELS, products } = await import('../src/data/products.ts');
+  const { SITE, uniqueCategories: allCategories, CATEGORY_LABELS, products } = await import('../src/data/products.ts');
   const { getAllGuidesMeta } = await import('../src/data/guides.ts');
   const guides = getAllGuidesMeta();
 

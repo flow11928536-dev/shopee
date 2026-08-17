@@ -3,9 +3,43 @@
     "name": "Loja de Móveis Brasil",
     "url": "https://www.lojademoveismarilia.com.br",
     "description": "Portal de curadoria de móveis e eletrodomésticos com as melhores ofertas do Mercado Livre e Shopee. Guias honestos, comparação de preços e ofertas selecionadas para todo o Brasil.",
-    "lastUpdated": "2026-08-17T15:43:14.155Z"
+    "lastUpdated": "2026-08-17T22:52:57.244Z"
   },
   "categories": [
+    {
+      "slug": "paineis",
+      "label": "Painéis e Racks",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/paineis",
+      "description": "Encontre as melhores ofertas de Painéis e Racks com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 5
+    },
+    {
+      "slug": "racks",
+      "label": "Racks",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/racks",
+      "description": "Encontre as melhores ofertas de Racks com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 8
+    },
+    {
+      "slug": "sofas",
+      "label": "Sofás",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/sofas",
+      "description": "Encontre as melhores ofertas de Sofás com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [
+        "melhores-sofas-retrateis-2026"
+      ],
+      "productCount": 15
+    },
+    {
+      "slug": "mesas",
+      "label": "Mesas",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/mesas",
+      "description": "Encontre as melhores ofertas de Mesas com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 18
+    },
     {
       "slug": "guarda-roupas",
       "label": "Guarda-Roupas",
@@ -17,118 +51,18 @@
       "productCount": 40
     },
     {
-      "slug": "cozinhas",
-      "label": "Cozinhas",
-      "url": "https://www.lojademoveismarilia.com.br/categoria/cozinhas",
-      "description": "Encontre as melhores ofertas de Cozinhas com preços competitivos e frete para todo Brasil.",
-      "relatedGuides": [
-        "melhores-cozinhas-moduladas-baratas",
-        "cozinhas"
-      ],
-      "productCount": 11
-    },
-    {
-      "slug": "mesas",
-      "label": "Mesas",
-      "url": "https://www.lojademoveismarilia.com.br/categoria/mesas",
-      "description": "Encontre as melhores ofertas de Mesas com preços competitivos e frete para todo Brasil.",
-      "relatedGuides": [],
-      "productCount": 18
-    },
-    {
-      "slug": "paineis",
-      "label": "Painéis e Racks",
-      "url": "https://www.lojademoveismarilia.com.br/categoria/paineis",
-      "description": "Encontre as melhores ofertas de Painéis e Racks com preços competitivos e frete para todo Brasil.",
-      "relatedGuides": [
-        "paineis"
-      ],
-      "productCount": 5
-    },
-    {
       "slug": "quartos",
       "label": "Quartos",
       "url": "https://www.lojademoveismarilia.com.br/categoria/quartos",
       "description": "Encontre as melhores ofertas de Quartos com preços competitivos e frete para todo Brasil.",
-      "relatedGuides": [
-        "quartos"
-      ],
+      "relatedGuides": [],
       "productCount": 14
     },
     {
-      "slug": "microondas",
-      "label": "Micro-ondas",
-      "url": "https://www.lojademoveismarilia.com.br/categoria/microondas",
-      "description": "Encontre as melhores ofertas de Micro-ondas com preços competitivos e frete para todo Brasil.",
-      "relatedGuides": [],
-      "productCount": 5
-    },
-    {
-      "slug": "liquidificadores",
-      "label": "Liquidificadores",
-      "url": "https://www.lojademoveismarilia.com.br/categoria/liquidificadores",
-      "description": "Encontre as melhores ofertas de Liquidificadores com preços competitivos e frete para todo Brasil.",
-      "relatedGuides": [],
-      "productCount": 6
-    },
-    {
-      "slug": "air-fryers",
-      "label": "Air Fryers",
-      "url": "https://www.lojademoveismarilia.com.br/categoria/air-fryers",
-      "description": "Encontre as melhores ofertas de Air Fryers com preços competitivos e frete para todo Brasil.",
-      "relatedGuides": [],
-      "productCount": 1
-    },
-    {
-      "slug": "eletrodomesticos",
-      "label": "Eletrodomésticos",
-      "url": "https://www.lojademoveismarilia.com.br/categoria/eletrodomesticos",
-      "description": "Encontre as melhores ofertas de Eletrodomésticos com preços competitivos e frete para todo Brasil.",
-      "relatedGuides": [],
-      "productCount": 21
-    },
-    {
-      "slug": "ar-condicionado",
-      "label": "Ar Condicionado",
-      "url": "https://www.lojademoveismarilia.com.br/categoria/ar-condicionado",
-      "description": "Encontre as melhores ofertas de Ar Condicionado com preços competitivos e frete para todo Brasil.",
-      "relatedGuides": [],
-      "productCount": 3
-    },
-    {
-      "slug": "home-office",
-      "label": "Home Office",
-      "url": "https://www.lojademoveismarilia.com.br/categoria/home-office",
-      "description": "Encontre as melhores ofertas de Home Office com preços competitivos e frete para todo Brasil.",
-      "relatedGuides": [
-        "moveis-home-office-barato"
-      ],
-      "productCount": 14
-    },
-    {
-      "slug": "sofas",
-      "label": "Sofás",
-      "url": "https://www.lojademoveismarilia.com.br/categoria/sofas",
-      "description": "Encontre as melhores ofertas de Sofás com preços competitivos e frete para todo Brasil.",
-      "relatedGuides": [
-        "melhores-sofas-retrateis-2026",
-        "sofas"
-      ],
-      "productCount": 15
-    },
-    {
-      "slug": "racks",
-      "label": "Racks",
-      "url": "https://www.lojademoveismarilia.com.br/categoria/racks",
-      "description": "Encontre as melhores ofertas de Racks com preços competitivos e frete para todo Brasil.",
-      "relatedGuides": [],
-      "productCount": 8
-    },
-    {
-      "slug": "geladeiras",
-      "label": "Geladeiras e Refrigeradores",
-      "url": "https://www.lojademoveismarilia.com.br/categoria/geladeiras",
-      "description": "Encontre as melhores ofertas de Geladeiras e Refrigeradores com preços competitivos e frete para todo Brasil.",
+      "slug": "comodas",
+      "label": "Cômodas",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/comodas",
+      "description": "Encontre as melhores ofertas de Cômodas com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
       "productCount": 5
     },
@@ -141,12 +75,66 @@
       "productCount": 7
     },
     {
-      "slug": "comodas",
-      "label": "Cômodas",
-      "url": "https://www.lojademoveismarilia.com.br/categoria/comodas",
-      "description": "Encontre as melhores ofertas de Cômodas com preços competitivos e frete para todo Brasil.",
+      "slug": "penteadeiras",
+      "label": "Penteadeiras",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/penteadeiras",
+      "description": "Encontre as melhores ofertas de Penteadeiras com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
       "productCount": 5
+    },
+    {
+      "slug": "sapateiras",
+      "label": "Sapateiras",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/sapateiras",
+      "description": "Encontre as melhores ofertas de Sapateiras com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 1
+    },
+    {
+      "slug": "poltronas",
+      "label": "Poltronas",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/poltronas",
+      "description": "Encontre as melhores ofertas de Poltronas com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 2
+    },
+    {
+      "slug": "banquetas",
+      "label": "Banquetas",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/banquetas",
+      "description": "Encontre as melhores ofertas de Banquetas com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 2
+    },
+    {
+      "slug": "cozinhas",
+      "label": "Cozinhas",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/cozinhas",
+      "description": "Encontre as melhores ofertas de Cozinhas com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [
+        "melhores-cozinhas-moduladas-baratas"
+      ],
+      "productCount": 11
+    },
+    {
+      "slug": "home-office",
+      "label": "Home Office",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/home-office",
+      "description": "Encontre as melhores ofertas de Home Office com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [
+        "moveis-home-office-barato"
+      ],
+      "productCount": 14
+    },
+    {
+      "slug": "area-externa",
+      "label": "Área Externa",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/area-externa",
+      "description": "Encontre as melhores ofertas de Área Externa com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [
+        "moveis-area-externa"
+      ],
+      "productCount": 1
     },
     {
       "slug": "cadeiras",
@@ -157,6 +145,22 @@
       "productCount": 1
     },
     {
+      "slug": "moveis-para-estudantes",
+      "label": "Móveis para Estudantes",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/moveis-para-estudantes",
+      "description": "Encontre as melhores ofertas de Móveis para Estudantes com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 0
+    },
+    {
+      "slug": "moveis-para-bebe",
+      "label": "Móveis para Bebê",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/moveis-para-bebe",
+      "description": "Encontre as melhores ofertas de Móveis para Bebê com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 0
+    },
+    {
       "slug": "gamer",
       "label": "Móveis Gamer",
       "url": "https://www.lojademoveismarilia.com.br/categoria/gamer",
@@ -165,12 +169,60 @@
       "productCount": 12
     },
     {
-      "slug": "penteadeiras",
-      "label": "Penteadeiras",
-      "url": "https://www.lojademoveismarilia.com.br/categoria/penteadeiras",
-      "description": "Encontre as melhores ofertas de Penteadeiras com preços competitivos e frete para todo Brasil.",
+      "slug": "mdf-mdp",
+      "label": "MDF e MDP",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/mdf-mdp",
+      "description": "Encontre as melhores ofertas de MDF e MDP com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 0
+    },
+    {
+      "slug": "eletrodomesticos",
+      "label": "Eletrodomésticos",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/eletrodomesticos",
+      "description": "Encontre as melhores ofertas de Eletrodomésticos com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 21
+    },
+    {
+      "slug": "liquidificadores",
+      "label": "Liquidificadores",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/liquidificadores",
+      "description": "Encontre as melhores ofertas de Liquidificadores com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 6
+    },
+    {
+      "slug": "microondas",
+      "label": "Micro-ondas",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/microondas",
+      "description": "Encontre as melhores ofertas de Micro-ondas com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
       "productCount": 5
+    },
+    {
+      "slug": "geladeiras",
+      "label": "Geladeiras e Refrigeradores",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/geladeiras",
+      "description": "Encontre as melhores ofertas de Geladeiras e Refrigeradores com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 5
+    },
+    {
+      "slug": "air-fryers",
+      "label": "Air Fryers",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/air-fryers",
+      "description": "Encontre as melhores ofertas de Air Fryers com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 1
+    },
+    {
+      "slug": "ar-condicionado",
+      "label": "Ar Condicionado",
+      "url": "https://www.lojademoveismarilia.com.br/categoria/ar-condicionado",
+      "description": "Encontre as melhores ofertas de Ar Condicionado com preços competitivos e frete para todo Brasil.",
+      "relatedGuides": [],
+      "productCount": 3
     }
   ],
   "guides": [
@@ -375,16 +427,6 @@
       "wordCount": 1
     },
     {
-      "slug": "guarda-roupas",
-      "title": "Guarda Roupas: Guia Prático e Honesto",
-      "url": "https://www.lojademoveismarilia.com.br/guia/guarda-roupas",
-      "description": "",
-      "keywords": [
-        "guarda roupas"
-      ],
-      "wordCount": 1
-    },
-    {
       "slug": "por-que-moveis-estalam",
       "title": "Por Que Móveis Estalam de Madrugada? A Explicação Real",
       "url": "https://www.lojademoveismarilia.com.br/guia/por-que-moveis-estalam",
@@ -555,46 +597,6 @@
       "wordCount": 1
     },
     {
-      "slug": "paineis",
-      "title": "Paineis: Guia Prático e Honesto",
-      "url": "https://www.lojademoveismarilia.com.br/guia/paineis",
-      "description": "",
-      "keywords": [
-        "paineis"
-      ],
-      "wordCount": 1
-    },
-    {
-      "slug": "cozinhas",
-      "title": "Cozinhas: Guia Prático e Honesto",
-      "url": "https://www.lojademoveismarilia.com.br/guia/cozinhas",
-      "description": "",
-      "keywords": [
-        "cozinhas"
-      ],
-      "wordCount": 1
-    },
-    {
-      "slug": "quartos",
-      "title": "Quartos: Guia Prático e Honesto",
-      "url": "https://www.lojademoveismarilia.com.br/guia/quartos",
-      "description": "",
-      "keywords": [
-        "quartos"
-      ],
-      "wordCount": 1
-    },
-    {
-      "slug": "sofas",
-      "title": "Sofas: Guia Prático e Honesto",
-      "url": "https://www.lojademoveismarilia.com.br/guia/sofas",
-      "description": "",
-      "keywords": [
-        "sofas"
-      ],
-      "wordCount": 1
-    },
-    {
       "slug": "melhores-lojas-moveis-online",
       "title": "Melhores Lojas de Móveis Online em 2026: Onde Comprar com Segurança",
       "url": "https://www.lojademoveismarilia.com.br/guia/melhores-lojas-moveis-online",
@@ -736,12 +738,12 @@
     }
   ],
   "statistics": {
-    "totalCategories": 19,
-    "totalGuides": 52,
+    "totalCategories": 26,
+    "totalGuides": 47,
     "totalPages": 6,
-    "totalProducts": 176,
-    "generatedAt": "2026-08-17T15:43:14.154Z",
-    "lastUpdated": "2026-08-17T15:43:14.155Z"
+    "totalProducts": 182,
+    "generatedAt": "2026-08-17T22:52:57.243Z",
+    "lastUpdated": "2026-08-17T22:52:57.244Z"
   },
   "entities": {
     "materials": [
@@ -901,7 +903,11 @@
       "Lunim",
       "Lívia",
       "Patrimar",
-      "Aspecto Móveis"
+      "Aspecto Móveis",
+      "Bosch",
+      "BelarStore",
+      "Acesse Móveis",
+      "Espaço Junco"
     ],
     "platforms": [
       "Shopee",
@@ -919,7 +925,10 @@
       "azul",
       "pinho",
       "prata",
-      "dourado"
+      "dourado",
+      "vermelho",
+      "amarelo",
+      "verde"
     ],
     "styles": [
       "moderno",
@@ -962,42 +971,56 @@
   },
   "searchIntents": [
     {
-      "category": "guarda-roupas",
-      "label": "Guarda-Roupas",
+      "category": "paineis",
+      "label": "Painéis e Racks",
       "searchTerms": [
-        "comprar Guarda-Roupas",
-        "melhor Guarda-Roupas",
-        "Guarda-Roupas barato",
-        "Guarda-Roupas preço",
-        "como escolher Guarda-Roupas",
-        "dicas de Guarda-Roupas",
-        "Guarda-Roupas para apartamento pequeno",
-        "Guarda-Roupas sob medida",
-        "o que é Guarda-Roupas",
-        "qual o melhor Guarda-Roupas"
+        "comprar Painéis e Racks",
+        "melhor Painéis e Racks",
+        "Painéis e Racks barato",
+        "Painéis e Racks preço",
+        "como escolher Painéis e Racks",
+        "dicas de Painéis e Racks",
+        "Painéis e Racks para apartamento pequeno",
+        "Painéis e Racks sob medida",
+        "o que é Painéis e Racks",
+        "qual o melhor Painéis e Racks"
       ],
-      "relatedGuides": [
-        "melhores-guarda-roupas-casal-baratos"
-      ]
+      "relatedGuides": []
     },
     {
-      "category": "cozinhas",
-      "label": "Cozinhas",
+      "category": "racks",
+      "label": "Racks",
       "searchTerms": [
-        "comprar Cozinhas",
-        "melhor Cozinhas",
-        "Cozinhas barato",
-        "Cozinhas preço",
-        "como escolher Cozinhas",
-        "dicas de Cozinhas",
-        "Cozinhas para apartamento pequeno",
-        "Cozinhas sob medida",
-        "o que é Cozinhas",
-        "qual o melhor Cozinhas"
+        "comprar Racks",
+        "melhor Racks",
+        "Racks barato",
+        "Racks preço",
+        "como escolher Racks",
+        "dicas de Racks",
+        "Racks para apartamento pequeno",
+        "Racks sob medida",
+        "o que é Racks",
+        "qual o melhor Racks"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "sofas",
+      "label": "Sofás",
+      "searchTerms": [
+        "comprar Sofás",
+        "melhor Sofás",
+        "Sofás barato",
+        "Sofás preço",
+        "como escolher Sofás",
+        "dicas de Sofás",
+        "Sofás para apartamento pequeno",
+        "Sofás sob medida",
+        "o que é Sofás",
+        "qual o melhor Sofás"
       ],
       "relatedGuides": [
-        "melhores-cozinhas-moduladas-baratas",
-        "cozinhas"
+        "melhores-sofas-retrateis-2026"
       ]
     },
     {
@@ -1018,22 +1041,22 @@
       "relatedGuides": []
     },
     {
-      "category": "paineis",
-      "label": "Painéis e Racks",
+      "category": "guarda-roupas",
+      "label": "Guarda-Roupas",
       "searchTerms": [
-        "comprar Painéis e Racks",
-        "melhor Painéis e Racks",
-        "Painéis e Racks barato",
-        "Painéis e Racks preço",
-        "como escolher Painéis e Racks",
-        "dicas de Painéis e Racks",
-        "Painéis e Racks para apartamento pequeno",
-        "Painéis e Racks sob medida",
-        "o que é Painéis e Racks",
-        "qual o melhor Painéis e Racks"
+        "comprar Guarda-Roupas",
+        "melhor Guarda-Roupas",
+        "Guarda-Roupas barato",
+        "Guarda-Roupas preço",
+        "como escolher Guarda-Roupas",
+        "dicas de Guarda-Roupas",
+        "Guarda-Roupas para apartamento pequeno",
+        "Guarda-Roupas sob medida",
+        "o que é Guarda-Roupas",
+        "qual o melhor Guarda-Roupas"
       ],
       "relatedGuides": [
-        "paineis"
+        "melhores-guarda-roupas-casal-baratos"
       ]
     },
     {
@@ -1050,183 +1073,6 @@
         "Quartos sob medida",
         "o que é Quartos",
         "qual o melhor Quartos"
-      ],
-      "relatedGuides": [
-        "quartos"
-      ]
-    },
-    {
-      "category": "microondas",
-      "label": "Micro-ondas",
-      "searchTerms": [
-        "comprar Micro-ondas",
-        "melhor Micro-ondas",
-        "Micro-ondas barato",
-        "Micro-ondas preço",
-        "como escolher Micro-ondas",
-        "dicas de Micro-ondas",
-        "Micro-ondas para apartamento pequeno",
-        "Micro-ondas sob medida",
-        "o que é Micro-ondas",
-        "qual o melhor Micro-ondas"
-      ],
-      "relatedGuides": []
-    },
-    {
-      "category": "liquidificadores",
-      "label": "Liquidificadores",
-      "searchTerms": [
-        "comprar Liquidificadores",
-        "melhor Liquidificadores",
-        "Liquidificadores barato",
-        "Liquidificadores preço",
-        "como escolher Liquidificadores",
-        "dicas de Liquidificadores",
-        "Liquidificadores para apartamento pequeno",
-        "Liquidificadores sob medida",
-        "o que é Liquidificadores",
-        "qual o melhor Liquidificadores"
-      ],
-      "relatedGuides": []
-    },
-    {
-      "category": "air-fryers",
-      "label": "Air Fryers",
-      "searchTerms": [
-        "comprar Air Fryers",
-        "melhor Air Fryers",
-        "Air Fryers barato",
-        "Air Fryers preço",
-        "como escolher Air Fryers",
-        "dicas de Air Fryers",
-        "Air Fryers para apartamento pequeno",
-        "Air Fryers sob medida",
-        "o que é Air Fryers",
-        "qual o melhor Air Fryers"
-      ],
-      "relatedGuides": []
-    },
-    {
-      "category": "eletrodomesticos",
-      "label": "Eletrodomésticos",
-      "searchTerms": [
-        "comprar Eletrodomésticos",
-        "melhor Eletrodomésticos",
-        "Eletrodomésticos barato",
-        "Eletrodomésticos preço",
-        "como escolher Eletrodomésticos",
-        "dicas de Eletrodomésticos",
-        "Eletrodomésticos para apartamento pequeno",
-        "Eletrodomésticos sob medida",
-        "o que é Eletrodomésticos",
-        "qual o melhor Eletrodomésticos"
-      ],
-      "relatedGuides": []
-    },
-    {
-      "category": "ar-condicionado",
-      "label": "Ar Condicionado",
-      "searchTerms": [
-        "comprar Ar Condicionado",
-        "melhor Ar Condicionado",
-        "Ar Condicionado barato",
-        "Ar Condicionado preço",
-        "como escolher Ar Condicionado",
-        "dicas de Ar Condicionado",
-        "Ar Condicionado para apartamento pequeno",
-        "Ar Condicionado sob medida",
-        "o que é Ar Condicionado",
-        "qual o melhor Ar Condicionado"
-      ],
-      "relatedGuides": []
-    },
-    {
-      "category": "home-office",
-      "label": "Home Office",
-      "searchTerms": [
-        "comprar Home Office",
-        "melhor Home Office",
-        "Home Office barato",
-        "Home Office preço",
-        "como escolher Home Office",
-        "dicas de Home Office",
-        "Home Office para apartamento pequeno",
-        "Home Office sob medida",
-        "o que é Home Office",
-        "qual o melhor Home Office"
-      ],
-      "relatedGuides": [
-        "moveis-home-office-barato"
-      ]
-    },
-    {
-      "category": "sofas",
-      "label": "Sofás",
-      "searchTerms": [
-        "comprar Sofás",
-        "melhor Sofás",
-        "Sofás barato",
-        "Sofás preço",
-        "como escolher Sofás",
-        "dicas de Sofás",
-        "Sofás para apartamento pequeno",
-        "Sofás sob medida",
-        "o que é Sofás",
-        "qual o melhor Sofás"
-      ],
-      "relatedGuides": [
-        "melhores-sofas-retrateis-2026",
-        "sofas"
-      ]
-    },
-    {
-      "category": "racks",
-      "label": "Racks",
-      "searchTerms": [
-        "comprar Racks",
-        "melhor Racks",
-        "Racks barato",
-        "Racks preço",
-        "como escolher Racks",
-        "dicas de Racks",
-        "Racks para apartamento pequeno",
-        "Racks sob medida",
-        "o que é Racks",
-        "qual o melhor Racks"
-      ],
-      "relatedGuides": []
-    },
-    {
-      "category": "geladeiras",
-      "label": "Geladeiras e Refrigeradores",
-      "searchTerms": [
-        "comprar Geladeiras e Refrigeradores",
-        "melhor Geladeiras e Refrigeradores",
-        "Geladeiras e Refrigeradores barato",
-        "Geladeiras e Refrigeradores preço",
-        "como escolher Geladeiras e Refrigeradores",
-        "dicas de Geladeiras e Refrigeradores",
-        "Geladeiras e Refrigeradores para apartamento pequeno",
-        "Geladeiras e Refrigeradores sob medida",
-        "o que é Geladeiras e Refrigeradores",
-        "qual o melhor Geladeiras e Refrigeradores"
-      ],
-      "relatedGuides": []
-    },
-    {
-      "category": "cabeceiras",
-      "label": "Cabeceiras",
-      "searchTerms": [
-        "comprar Cabeceiras",
-        "melhor Cabeceiras",
-        "Cabeceiras barato",
-        "Cabeceiras preço",
-        "como escolher Cabeceiras",
-        "dicas de Cabeceiras",
-        "Cabeceiras para apartamento pequeno",
-        "Cabeceiras sob medida",
-        "o que é Cabeceiras",
-        "qual o melhor Cabeceiras"
       ],
       "relatedGuides": []
     },
@@ -1248,6 +1094,148 @@
       "relatedGuides": []
     },
     {
+      "category": "cabeceiras",
+      "label": "Cabeceiras",
+      "searchTerms": [
+        "comprar Cabeceiras",
+        "melhor Cabeceiras",
+        "Cabeceiras barato",
+        "Cabeceiras preço",
+        "como escolher Cabeceiras",
+        "dicas de Cabeceiras",
+        "Cabeceiras para apartamento pequeno",
+        "Cabeceiras sob medida",
+        "o que é Cabeceiras",
+        "qual o melhor Cabeceiras"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "penteadeiras",
+      "label": "Penteadeiras",
+      "searchTerms": [
+        "comprar Penteadeiras",
+        "melhor Penteadeiras",
+        "Penteadeiras barato",
+        "Penteadeiras preço",
+        "como escolher Penteadeiras",
+        "dicas de Penteadeiras",
+        "Penteadeiras para apartamento pequeno",
+        "Penteadeiras sob medida",
+        "o que é Penteadeiras",
+        "qual o melhor Penteadeiras"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "sapateiras",
+      "label": "Sapateiras",
+      "searchTerms": [
+        "comprar Sapateiras",
+        "melhor Sapateiras",
+        "Sapateiras barato",
+        "Sapateiras preço",
+        "como escolher Sapateiras",
+        "dicas de Sapateiras",
+        "Sapateiras para apartamento pequeno",
+        "Sapateiras sob medida",
+        "o que é Sapateiras",
+        "qual o melhor Sapateiras"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "poltronas",
+      "label": "Poltronas",
+      "searchTerms": [
+        "comprar Poltronas",
+        "melhor Poltronas",
+        "Poltronas barato",
+        "Poltronas preço",
+        "como escolher Poltronas",
+        "dicas de Poltronas",
+        "Poltronas para apartamento pequeno",
+        "Poltronas sob medida",
+        "o que é Poltronas",
+        "qual o melhor Poltronas"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "banquetas",
+      "label": "Banquetas",
+      "searchTerms": [
+        "comprar Banquetas",
+        "melhor Banquetas",
+        "Banquetas barato",
+        "Banquetas preço",
+        "como escolher Banquetas",
+        "dicas de Banquetas",
+        "Banquetas para apartamento pequeno",
+        "Banquetas sob medida",
+        "o que é Banquetas",
+        "qual o melhor Banquetas"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "cozinhas",
+      "label": "Cozinhas",
+      "searchTerms": [
+        "comprar Cozinhas",
+        "melhor Cozinhas",
+        "Cozinhas barato",
+        "Cozinhas preço",
+        "como escolher Cozinhas",
+        "dicas de Cozinhas",
+        "Cozinhas para apartamento pequeno",
+        "Cozinhas sob medida",
+        "o que é Cozinhas",
+        "qual o melhor Cozinhas"
+      ],
+      "relatedGuides": [
+        "melhores-cozinhas-moduladas-baratas"
+      ]
+    },
+    {
+      "category": "home-office",
+      "label": "Home Office",
+      "searchTerms": [
+        "comprar Home Office",
+        "melhor Home Office",
+        "Home Office barato",
+        "Home Office preço",
+        "como escolher Home Office",
+        "dicas de Home Office",
+        "Home Office para apartamento pequeno",
+        "Home Office sob medida",
+        "o que é Home Office",
+        "qual o melhor Home Office"
+      ],
+      "relatedGuides": [
+        "moveis-home-office-barato"
+      ]
+    },
+    {
+      "category": "area-externa",
+      "label": "Área Externa",
+      "searchTerms": [
+        "comprar Área Externa",
+        "melhor Área Externa",
+        "Área Externa barato",
+        "Área Externa preço",
+        "como escolher Área Externa",
+        "dicas de Área Externa",
+        "Área Externa para apartamento pequeno",
+        "Área Externa sob medida",
+        "o que é Área Externa",
+        "qual o melhor Área Externa"
+      ],
+      "relatedGuides": [
+        "moveis-area-externa"
+      ]
+    },
+    {
       "category": "cadeiras",
       "label": "Cadeiras",
       "searchTerms": [
@@ -1261,6 +1249,40 @@
         "Cadeiras sob medida",
         "o que é Cadeiras",
         "qual o melhor Cadeiras"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "moveis-para-estudantes",
+      "label": "Móveis para Estudantes",
+      "searchTerms": [
+        "comprar Móveis para Estudantes",
+        "melhor Móveis para Estudantes",
+        "Móveis para Estudantes barato",
+        "Móveis para Estudantes preço",
+        "como escolher Móveis para Estudantes",
+        "dicas de Móveis para Estudantes",
+        "Móveis para Estudantes para apartamento pequeno",
+        "Móveis para Estudantes sob medida",
+        "o que é Móveis para Estudantes",
+        "qual o melhor Móveis para Estudantes"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "moveis-para-bebe",
+      "label": "Móveis para Bebê",
+      "searchTerms": [
+        "comprar Móveis para Bebê",
+        "melhor Móveis para Bebê",
+        "Móveis para Bebê barato",
+        "Móveis para Bebê preço",
+        "como escolher Móveis para Bebê",
+        "dicas de Móveis para Bebê",
+        "Móveis para Bebê para apartamento pequeno",
+        "Móveis para Bebê sob medida",
+        "o que é Móveis para Bebê",
+        "qual o melhor Móveis para Bebê"
       ],
       "relatedGuides": []
     },
@@ -1282,19 +1304,121 @@
       "relatedGuides": []
     },
     {
-      "category": "penteadeiras",
-      "label": "Penteadeiras",
+      "category": "mdf-mdp",
+      "label": "MDF e MDP",
       "searchTerms": [
-        "comprar Penteadeiras",
-        "melhor Penteadeiras",
-        "Penteadeiras barato",
-        "Penteadeiras preço",
-        "como escolher Penteadeiras",
-        "dicas de Penteadeiras",
-        "Penteadeiras para apartamento pequeno",
-        "Penteadeiras sob medida",
-        "o que é Penteadeiras",
-        "qual o melhor Penteadeiras"
+        "comprar MDF e MDP",
+        "melhor MDF e MDP",
+        "MDF e MDP barato",
+        "MDF e MDP preço",
+        "como escolher MDF e MDP",
+        "dicas de MDF e MDP",
+        "MDF e MDP para apartamento pequeno",
+        "MDF e MDP sob medida",
+        "o que é MDF e MDP",
+        "qual o melhor MDF e MDP"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "eletrodomesticos",
+      "label": "Eletrodomésticos",
+      "searchTerms": [
+        "comprar Eletrodomésticos",
+        "melhor Eletrodomésticos",
+        "Eletrodomésticos barato",
+        "Eletrodomésticos preço",
+        "como escolher Eletrodomésticos",
+        "dicas de Eletrodomésticos",
+        "Eletrodomésticos para apartamento pequeno",
+        "Eletrodomésticos sob medida",
+        "o que é Eletrodomésticos",
+        "qual o melhor Eletrodomésticos"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "liquidificadores",
+      "label": "Liquidificadores",
+      "searchTerms": [
+        "comprar Liquidificadores",
+        "melhor Liquidificadores",
+        "Liquidificadores barato",
+        "Liquidificadores preço",
+        "como escolher Liquidificadores",
+        "dicas de Liquidificadores",
+        "Liquidificadores para apartamento pequeno",
+        "Liquidificadores sob medida",
+        "o que é Liquidificadores",
+        "qual o melhor Liquidificadores"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "microondas",
+      "label": "Micro-ondas",
+      "searchTerms": [
+        "comprar Micro-ondas",
+        "melhor Micro-ondas",
+        "Micro-ondas barato",
+        "Micro-ondas preço",
+        "como escolher Micro-ondas",
+        "dicas de Micro-ondas",
+        "Micro-ondas para apartamento pequeno",
+        "Micro-ondas sob medida",
+        "o que é Micro-ondas",
+        "qual o melhor Micro-ondas"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "geladeiras",
+      "label": "Geladeiras e Refrigeradores",
+      "searchTerms": [
+        "comprar Geladeiras e Refrigeradores",
+        "melhor Geladeiras e Refrigeradores",
+        "Geladeiras e Refrigeradores barato",
+        "Geladeiras e Refrigeradores preço",
+        "como escolher Geladeiras e Refrigeradores",
+        "dicas de Geladeiras e Refrigeradores",
+        "Geladeiras e Refrigeradores para apartamento pequeno",
+        "Geladeiras e Refrigeradores sob medida",
+        "o que é Geladeiras e Refrigeradores",
+        "qual o melhor Geladeiras e Refrigeradores"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "air-fryers",
+      "label": "Air Fryers",
+      "searchTerms": [
+        "comprar Air Fryers",
+        "melhor Air Fryers",
+        "Air Fryers barato",
+        "Air Fryers preço",
+        "como escolher Air Fryers",
+        "dicas de Air Fryers",
+        "Air Fryers para apartamento pequeno",
+        "Air Fryers sob medida",
+        "o que é Air Fryers",
+        "qual o melhor Air Fryers"
+      ],
+      "relatedGuides": []
+    },
+    {
+      "category": "ar-condicionado",
+      "label": "Ar Condicionado",
+      "searchTerms": [
+        "comprar Ar Condicionado",
+        "melhor Ar Condicionado",
+        "Ar Condicionado barato",
+        "Ar Condicionado preço",
+        "como escolher Ar Condicionado",
+        "dicas de Ar Condicionado",
+        "Ar Condicionado para apartamento pequeno",
+        "Ar Condicionado sob medida",
+        "o que é Ar Condicionado",
+        "qual o melhor Ar Condicionado"
       ],
       "relatedGuides": []
     },
@@ -1600,21 +1724,6 @@
     },
     {
       "category": "guide",
-      "label": "Guarda Roupas: Guia Prático e Honesto",
-      "searchTerms": [
-        "Guarda Roupas: Guia Prático e Honesto",
-        "o que é guarda roupas:  prático e honesto",
-        "como fazer guarda roupas:  prático e honesto",
-        "dicas sobre guarda roupas:  prático e honesto",
-        "tutorial guarda roupas:  prático e honesto",
-        "guarda roupas:  prático e honesto passo a passo"
-      ],
-      "relatedGuides": [
-        "guarda-roupas"
-      ]
-    },
-    {
-      "category": "guide",
       "label": "Por Que Móveis Estalam de Madrugada? A Explicação Real",
       "searchTerms": [
         "Por Que Móveis Estalam de Madrugada? A Explicação Real",
@@ -1870,66 +1979,6 @@
     },
     {
       "category": "guide",
-      "label": "Paineis: Guia Prático e Honesto",
-      "searchTerms": [
-        "Paineis: Guia Prático e Honesto",
-        "o que é paineis:  prático e honesto",
-        "como fazer paineis:  prático e honesto",
-        "dicas sobre paineis:  prático e honesto",
-        "tutorial paineis:  prático e honesto",
-        "paineis:  prático e honesto passo a passo"
-      ],
-      "relatedGuides": [
-        "paineis"
-      ]
-    },
-    {
-      "category": "guide",
-      "label": "Cozinhas: Guia Prático e Honesto",
-      "searchTerms": [
-        "Cozinhas: Guia Prático e Honesto",
-        "o que é cozinhas:  prático e honesto",
-        "como fazer cozinhas:  prático e honesto",
-        "dicas sobre cozinhas:  prático e honesto",
-        "tutorial cozinhas:  prático e honesto",
-        "cozinhas:  prático e honesto passo a passo"
-      ],
-      "relatedGuides": [
-        "cozinhas"
-      ]
-    },
-    {
-      "category": "guide",
-      "label": "Quartos: Guia Prático e Honesto",
-      "searchTerms": [
-        "Quartos: Guia Prático e Honesto",
-        "o que é quartos:  prático e honesto",
-        "como fazer quartos:  prático e honesto",
-        "dicas sobre quartos:  prático e honesto",
-        "tutorial quartos:  prático e honesto",
-        "quartos:  prático e honesto passo a passo"
-      ],
-      "relatedGuides": [
-        "quartos"
-      ]
-    },
-    {
-      "category": "guide",
-      "label": "Sofas: Guia Prático e Honesto",
-      "searchTerms": [
-        "Sofas: Guia Prático e Honesto",
-        "o que é sofas:  prático e honesto",
-        "como fazer sofas:  prático e honesto",
-        "dicas sobre sofas:  prático e honesto",
-        "tutorial sofas:  prático e honesto",
-        "sofas:  prático e honesto passo a passo"
-      ],
-      "relatedGuides": [
-        "sofas"
-      ]
-    },
-    {
-      "category": "guide",
       "label": "Melhores Lojas de Móveis Online em 2026: Onde Comprar com Segurança",
       "searchTerms": [
         "Melhores Lojas de Móveis Online em 2026: Onde Comprar com Segurança",
@@ -2081,6 +2130,42 @@
   ],
   "contentClusters": [
     {
+      "category": "paineis",
+      "label": "Painéis e Racks",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "racks",
+      "label": "Racks",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "sofas",
+      "label": "Sofás",
+      "guides": [
+        "melhores-sofas-retrateis-2026"
+      ],
+      "guideTitles": [
+        "Melhores Sofás Retráteis para Apartamento Pequeno em 2026"
+      ],
+      "count": 1,
+      "depth": "médio"
+    },
+    {
+      "category": "mesas",
+      "label": "Mesas",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
       "category": "guarda-roupas",
       "label": "Guarda-Roupas",
       "guides": [
@@ -2093,136 +2178,8 @@
       "depth": "médio"
     },
     {
-      "category": "cozinhas",
-      "label": "Cozinhas",
-      "guides": [
-        "melhores-cozinhas-moduladas-baratas",
-        "cozinhas"
-      ],
-      "guideTitles": [
-        "Melhores Cozinhas Moduladas Baratas para Apartamento",
-        "Cozinhas: Guia Prático e Honesto"
-      ],
-      "count": 2,
-      "depth": "médio"
-    },
-    {
-      "category": "mesas",
-      "label": "Mesas",
-      "guides": [],
-      "guideTitles": [],
-      "count": 0,
-      "depth": "baixo"
-    },
-    {
-      "category": "paineis",
-      "label": "Painéis e Racks",
-      "guides": [
-        "paineis"
-      ],
-      "guideTitles": [
-        "Paineis: Guia Prático e Honesto"
-      ],
-      "count": 1,
-      "depth": "médio"
-    },
-    {
       "category": "quartos",
       "label": "Quartos",
-      "guides": [
-        "quartos"
-      ],
-      "guideTitles": [
-        "Quartos: Guia Prático e Honesto"
-      ],
-      "count": 1,
-      "depth": "médio"
-    },
-    {
-      "category": "microondas",
-      "label": "Micro-ondas",
-      "guides": [],
-      "guideTitles": [],
-      "count": 0,
-      "depth": "baixo"
-    },
-    {
-      "category": "liquidificadores",
-      "label": "Liquidificadores",
-      "guides": [],
-      "guideTitles": [],
-      "count": 0,
-      "depth": "baixo"
-    },
-    {
-      "category": "air-fryers",
-      "label": "Air Fryers",
-      "guides": [],
-      "guideTitles": [],
-      "count": 0,
-      "depth": "baixo"
-    },
-    {
-      "category": "eletrodomesticos",
-      "label": "Eletrodomésticos",
-      "guides": [],
-      "guideTitles": [],
-      "count": 0,
-      "depth": "baixo"
-    },
-    {
-      "category": "ar-condicionado",
-      "label": "Ar Condicionado",
-      "guides": [],
-      "guideTitles": [],
-      "count": 0,
-      "depth": "baixo"
-    },
-    {
-      "category": "home-office",
-      "label": "Home Office",
-      "guides": [
-        "moveis-home-office-barato"
-      ],
-      "guideTitles": [
-        "Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco"
-      ],
-      "count": 1,
-      "depth": "médio"
-    },
-    {
-      "category": "sofas",
-      "label": "Sofás",
-      "guides": [
-        "melhores-sofas-retrateis-2026",
-        "sofas"
-      ],
-      "guideTitles": [
-        "Melhores Sofás Retráteis para Apartamento Pequeno em 2026",
-        "Sofas: Guia Prático e Honesto"
-      ],
-      "count": 2,
-      "depth": "médio"
-    },
-    {
-      "category": "racks",
-      "label": "Racks",
-      "guides": [],
-      "guideTitles": [],
-      "count": 0,
-      "depth": "baixo"
-    },
-    {
-      "category": "geladeiras",
-      "label": "Geladeiras e Refrigeradores",
-      "guides": [],
-      "guideTitles": [],
-      "count": 0,
-      "depth": "baixo"
-    },
-    {
-      "category": "cabeceiras",
-      "label": "Cabeceiras",
       "guides": [],
       "guideTitles": [],
       "count": 0,
@@ -2237,8 +2194,100 @@
       "depth": "baixo"
     },
     {
+      "category": "cabeceiras",
+      "label": "Cabeceiras",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "penteadeiras",
+      "label": "Penteadeiras",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "sapateiras",
+      "label": "Sapateiras",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "poltronas",
+      "label": "Poltronas",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "banquetas",
+      "label": "Banquetas",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "cozinhas",
+      "label": "Cozinhas",
+      "guides": [
+        "melhores-cozinhas-moduladas-baratas"
+      ],
+      "guideTitles": [
+        "Melhores Cozinhas Moduladas Baratas para Apartamento"
+      ],
+      "count": 1,
+      "depth": "médio"
+    },
+    {
+      "category": "home-office",
+      "label": "Home Office",
+      "guides": [
+        "moveis-home-office-barato"
+      ],
+      "guideTitles": [
+        "Móveis para Home Office Barato: Monte um Escritório Produtivo Gastando Pouco"
+      ],
+      "count": 1,
+      "depth": "médio"
+    },
+    {
+      "category": "area-externa",
+      "label": "Área Externa",
+      "guides": [
+        "moveis-area-externa"
+      ],
+      "guideTitles": [
+        "Móveis para Área Externa: Como Escolher Peças Resistentes ao Tempo"
+      ],
+      "count": 1,
+      "depth": "médio"
+    },
+    {
       "category": "cadeiras",
       "label": "Cadeiras",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "moveis-para-estudantes",
+      "label": "Móveis para Estudantes",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "moveis-para-bebe",
+      "label": "Móveis para Bebê",
       "guides": [],
       "guideTitles": [],
       "count": 0,
@@ -2253,8 +2302,56 @@
       "depth": "baixo"
     },
     {
-      "category": "penteadeiras",
-      "label": "Penteadeiras",
+      "category": "mdf-mdp",
+      "label": "MDF e MDP",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "eletrodomesticos",
+      "label": "Eletrodomésticos",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "liquidificadores",
+      "label": "Liquidificadores",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "microondas",
+      "label": "Micro-ondas",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "geladeiras",
+      "label": "Geladeiras e Refrigeradores",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "air-fryers",
+      "label": "Air Fryers",
+      "guides": [],
+      "guideTitles": [],
+      "count": 0,
+      "depth": "baixo"
+    },
+    {
+      "category": "ar-condicionado",
+      "label": "Ar Condicionado",
       "guides": [],
       "guideTitles": [],
       "count": 0,
@@ -2263,22 +2360,32 @@
   ],
   "contentOpportunities": [
     {
-      "type": "thin-content",
-      "category": "guarda-roupas",
-      "label": "Guarda-Roupas",
-      "gap": "Poucos guias (apenas 1)",
-      "impact": "médio",
-      "suggestion": "Expandir conteúdo com guias específicos como 'Guarda-Roupas para ambientes pequenos' ou 'Guia de manutenção de Guarda-Roupas'",
-      "estimatedEffort": "baixo",
-      "priority": "média"
+      "type": "missing-guide",
+      "category": "paineis",
+      "label": "Painéis e Racks",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Painéis e Racks' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "racks",
+      "label": "Racks",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Racks' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
     },
     {
       "type": "thin-content",
-      "category": "cozinhas",
-      "label": "Cozinhas",
-      "gap": "Poucos guias (apenas 2)",
+      "category": "sofas",
+      "label": "Sofás",
+      "gap": "Poucos guias (apenas 1)",
       "impact": "médio",
-      "suggestion": "Expandir conteúdo com guias específicos como 'Cozinhas para ambientes pequenos' ou 'Guia de manutenção de Cozinhas'",
+      "suggestion": "Expandir conteúdo com guias específicos como 'Sofás para ambientes pequenos' ou 'Guia de manutenção de Sofás'",
       "estimatedEffort": "baixo",
       "priority": "média"
     },
@@ -2294,101 +2401,31 @@
     },
     {
       "type": "thin-content",
+      "category": "guarda-roupas",
+      "label": "Guarda-Roupas",
+      "gap": "Poucos guias (apenas 1)",
+      "impact": "médio",
+      "suggestion": "Expandir conteúdo com guias específicos como 'Guarda-Roupas para ambientes pequenos' ou 'Guia de manutenção de Guarda-Roupas'",
+      "estimatedEffort": "baixo",
+      "priority": "média"
+    },
+    {
+      "type": "missing-guide",
       "category": "quartos",
       "label": "Quartos",
-      "gap": "Poucos guias (apenas 1)",
-      "impact": "médio",
-      "suggestion": "Expandir conteúdo com guias específicos como 'Quartos para ambientes pequenos' ou 'Guia de manutenção de Quartos'",
-      "estimatedEffort": "baixo",
-      "priority": "média"
-    },
-    {
-      "type": "missing-guide",
-      "category": "microondas",
-      "label": "Micro-ondas",
       "gap": "Sem guias",
       "impact": "alto",
-      "suggestion": "Criar guia definitivo sobre 'Micro-ondas' abordando tipos, materiais, preços e dicas de compra",
+      "suggestion": "Criar guia definitivo sobre 'Quartos' abordando tipos, materiais, preços e dicas de compra",
       "estimatedEffort": "médio",
       "priority": "alta"
     },
     {
       "type": "missing-guide",
-      "category": "liquidificadores",
-      "label": "Liquidificadores",
+      "category": "comodas",
+      "label": "Cômodas",
       "gap": "Sem guias",
       "impact": "alto",
-      "suggestion": "Criar guia definitivo sobre 'Liquidificadores' abordando tipos, materiais, preços e dicas de compra",
-      "estimatedEffort": "médio",
-      "priority": "alta"
-    },
-    {
-      "type": "missing-guide",
-      "category": "air-fryers",
-      "label": "Air Fryers",
-      "gap": "Sem guias",
-      "impact": "alto",
-      "suggestion": "Criar guia definitivo sobre 'Air Fryers' abordando tipos, materiais, preços e dicas de compra",
-      "estimatedEffort": "médio",
-      "priority": "alta"
-    },
-    {
-      "type": "missing-guide",
-      "category": "eletrodomesticos",
-      "label": "Eletrodomésticos",
-      "gap": "Sem guias",
-      "impact": "alto",
-      "suggestion": "Criar guia definitivo sobre 'Eletrodomésticos' abordando tipos, materiais, preços e dicas de compra",
-      "estimatedEffort": "médio",
-      "priority": "alta"
-    },
-    {
-      "type": "missing-guide",
-      "category": "ar-condicionado",
-      "label": "Ar Condicionado",
-      "gap": "Sem guias",
-      "impact": "alto",
-      "suggestion": "Criar guia definitivo sobre 'Ar Condicionado' abordando tipos, materiais, preços e dicas de compra",
-      "estimatedEffort": "médio",
-      "priority": "alta"
-    },
-    {
-      "type": "thin-content",
-      "category": "home-office",
-      "label": "Home Office",
-      "gap": "Poucos guias (apenas 1)",
-      "impact": "médio",
-      "suggestion": "Expandir conteúdo com guias específicos como 'Home Office para ambientes pequenos' ou 'Guia de manutenção de Home Office'",
-      "estimatedEffort": "baixo",
-      "priority": "média"
-    },
-    {
-      "type": "thin-content",
-      "category": "sofas",
-      "label": "Sofás",
-      "gap": "Poucos guias (apenas 2)",
-      "impact": "médio",
-      "suggestion": "Expandir conteúdo com guias específicos como 'Sofás para ambientes pequenos' ou 'Guia de manutenção de Sofás'",
-      "estimatedEffort": "baixo",
-      "priority": "média"
-    },
-    {
-      "type": "missing-guide",
-      "category": "racks",
-      "label": "Racks",
-      "gap": "Sem guias",
-      "impact": "alto",
-      "suggestion": "Criar guia definitivo sobre 'Racks' abordando tipos, materiais, preços e dicas de compra",
-      "estimatedEffort": "médio",
-      "priority": "alta"
-    },
-    {
-      "type": "missing-guide",
-      "category": "geladeiras",
-      "label": "Geladeiras e Refrigeradores",
-      "gap": "Sem guias",
-      "impact": "alto",
-      "suggestion": "Criar guia definitivo sobre 'Geladeiras e Refrigeradores' abordando tipos, materiais, preços e dicas de compra",
+      "suggestion": "Criar guia definitivo sobre 'Cômodas' abordando tipos, materiais, preços e dicas de compra",
       "estimatedEffort": "médio",
       "priority": "alta"
     },
@@ -2404,13 +2441,63 @@
     },
     {
       "type": "missing-guide",
-      "category": "comodas",
-      "label": "Cômodas",
+      "category": "penteadeiras",
+      "label": "Penteadeiras",
       "gap": "Sem guias",
       "impact": "alto",
-      "suggestion": "Criar guia definitivo sobre 'Cômodas' abordando tipos, materiais, preços e dicas de compra",
+      "suggestion": "Criar guia definitivo sobre 'Penteadeiras' abordando tipos, materiais, preços e dicas de compra",
       "estimatedEffort": "médio",
       "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "sapateiras",
+      "label": "Sapateiras",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Sapateiras' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "poltronas",
+      "label": "Poltronas",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Poltronas' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "banquetas",
+      "label": "Banquetas",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Banquetas' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "thin-content",
+      "category": "cozinhas",
+      "label": "Cozinhas",
+      "gap": "Poucos guias (apenas 1)",
+      "impact": "médio",
+      "suggestion": "Expandir conteúdo com guias específicos como 'Cozinhas para ambientes pequenos' ou 'Guia de manutenção de Cozinhas'",
+      "estimatedEffort": "baixo",
+      "priority": "média"
+    },
+    {
+      "type": "thin-content",
+      "category": "home-office",
+      "label": "Home Office",
+      "gap": "Poucos guias (apenas 1)",
+      "impact": "médio",
+      "suggestion": "Expandir conteúdo com guias específicos como 'Home Office para ambientes pequenos' ou 'Guia de manutenção de Home Office'",
+      "estimatedEffort": "baixo",
+      "priority": "média"
     },
     {
       "type": "missing-guide",
@@ -2434,11 +2521,61 @@
     },
     {
       "type": "missing-guide",
-      "category": "penteadeiras",
-      "label": "Penteadeiras",
+      "category": "eletrodomesticos",
+      "label": "Eletrodomésticos",
       "gap": "Sem guias",
       "impact": "alto",
-      "suggestion": "Criar guia definitivo sobre 'Penteadeiras' abordando tipos, materiais, preços e dicas de compra",
+      "suggestion": "Criar guia definitivo sobre 'Eletrodomésticos' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "liquidificadores",
+      "label": "Liquidificadores",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Liquidificadores' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "microondas",
+      "label": "Micro-ondas",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Micro-ondas' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "geladeiras",
+      "label": "Geladeiras e Refrigeradores",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Geladeiras e Refrigeradores' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "air-fryers",
+      "label": "Air Fryers",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Air Fryers' abordando tipos, materiais, preços e dicas de compra",
+      "estimatedEffort": "médio",
+      "priority": "alta"
+    },
+    {
+      "type": "missing-guide",
+      "category": "ar-condicionado",
+      "label": "Ar Condicionado",
+      "gap": "Sem guias",
+      "impact": "alto",
+      "suggestion": "Criar guia definitivo sobre 'Ar Condicionado' abordando tipos, materiais, preços e dicas de compra",
       "estimatedEffort": "médio",
       "priority": "alta"
     },

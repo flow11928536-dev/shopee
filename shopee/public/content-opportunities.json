@@ -1,21 +1,31 @@
 [
   {
-    "type": "thin-content",
-    "category": "guarda-roupas",
-    "label": "Guarda-Roupas",
-    "gap": "Poucos guias (apenas 1)",
-    "impact": "médio",
-    "suggestion": "Expandir conteúdo com guias específicos como 'Guarda-Roupas para ambientes pequenos' ou 'Guia de manutenção de Guarda-Roupas'",
-    "estimatedEffort": "baixo",
-    "priority": "média"
+    "type": "missing-guide",
+    "category": "paineis",
+    "label": "Painéis e Racks",
+    "gap": "Sem guias",
+    "impact": "alto",
+    "suggestion": "Criar guia definitivo sobre 'Painéis e Racks' abordando tipos, materiais, preços e dicas de compra",
+    "estimatedEffort": "médio",
+    "priority": "alta"
+  },
+  {
+    "type": "missing-guide",
+    "category": "racks",
+    "label": "Racks",
+    "gap": "Sem guias",
+    "impact": "alto",
+    "suggestion": "Criar guia definitivo sobre 'Racks' abordando tipos, materiais, preços e dicas de compra",
+    "estimatedEffort": "médio",
+    "priority": "alta"
   },
   {
     "type": "thin-content",
-    "category": "cozinhas",
-    "label": "Cozinhas",
-    "gap": "Poucos guias (apenas 2)",
+    "category": "sofas",
+    "label": "Sofás",
+    "gap": "Poucos guias (apenas 1)",
     "impact": "médio",
-    "suggestion": "Expandir conteúdo com guias específicos como 'Cozinhas para ambientes pequenos' ou 'Guia de manutenção de Cozinhas'",
+    "suggestion": "Expandir conteúdo com guias específicos como 'Sofás para ambientes pequenos' ou 'Guia de manutenção de Sofás'",
     "estimatedEffort": "baixo",
     "priority": "média"
   },
@@ -31,101 +41,31 @@
   },
   {
     "type": "thin-content",
+    "category": "guarda-roupas",
+    "label": "Guarda-Roupas",
+    "gap": "Poucos guias (apenas 1)",
+    "impact": "médio",
+    "suggestion": "Expandir conteúdo com guias específicos como 'Guarda-Roupas para ambientes pequenos' ou 'Guia de manutenção de Guarda-Roupas'",
+    "estimatedEffort": "baixo",
+    "priority": "média"
+  },
+  {
+    "type": "missing-guide",
     "category": "quartos",
     "label": "Quartos",
-    "gap": "Poucos guias (apenas 1)",
-    "impact": "médio",
-    "suggestion": "Expandir conteúdo com guias específicos como 'Quartos para ambientes pequenos' ou 'Guia de manutenção de Quartos'",
-    "estimatedEffort": "baixo",
-    "priority": "média"
-  },
-  {
-    "type": "missing-guide",
-    "category": "microondas",
-    "label": "Micro-ondas",
     "gap": "Sem guias",
     "impact": "alto",
-    "suggestion": "Criar guia definitivo sobre 'Micro-ondas' abordando tipos, materiais, preços e dicas de compra",
+    "suggestion": "Criar guia definitivo sobre 'Quartos' abordando tipos, materiais, preços e dicas de compra",
     "estimatedEffort": "médio",
     "priority": "alta"
   },
   {
     "type": "missing-guide",
-    "category": "liquidificadores",
-    "label": "Liquidificadores",
+    "category": "comodas",
+    "label": "Cômodas",
     "gap": "Sem guias",
     "impact": "alto",
-    "suggestion": "Criar guia definitivo sobre 'Liquidificadores' abordando tipos, materiais, preços e dicas de compra",
-    "estimatedEffort": "médio",
-    "priority": "alta"
-  },
-  {
-    "type": "missing-guide",
-    "category": "air-fryers",
-    "label": "Air Fryers",
-    "gap": "Sem guias",
-    "impact": "alto",
-    "suggestion": "Criar guia definitivo sobre 'Air Fryers' abordando tipos, materiais, preços e dicas de compra",
-    "estimatedEffort": "médio",
-    "priority": "alta"
-  },
-  {
-    "type": "missing-guide",
-    "category": "eletrodomesticos",
-    "label": "Eletrodomésticos",
-    "gap": "Sem guias",
-    "impact": "alto",
-    "suggestion": "Criar guia definitivo sobre 'Eletrodomésticos' abordando tipos, materiais, preços e dicas de compra",
-    "estimatedEffort": "médio",
-    "priority": "alta"
-  },
-  {
-    "type": "missing-guide",
-    "category": "ar-condicionado",
-    "label": "Ar Condicionado",
-    "gap": "Sem guias",
-    "impact": "alto",
-    "suggestion": "Criar guia definitivo sobre 'Ar Condicionado' abordando tipos, materiais, preços e dicas de compra",
-    "estimatedEffort": "médio",
-    "priority": "alta"
-  },
-  {
-    "type": "thin-content",
-    "category": "home-office",
-    "label": "Home Office",
-    "gap": "Poucos guias (apenas 1)",
-    "impact": "médio",
-    "suggestion": "Expandir conteúdo com guias específicos como 'Home Office para ambientes pequenos' ou 'Guia de manutenção de Home Office'",
-    "estimatedEffort": "baixo",
-    "priority": "média"
-  },
-  {
-    "type": "thin-content",
-    "category": "sofas",
-    "label": "Sofás",
-    "gap": "Poucos guias (apenas 2)",
-    "impact": "médio",
-    "suggestion": "Expandir conteúdo com guias específicos como 'Sofás para ambientes pequenos' ou 'Guia de manutenção de Sofás'",
-    "estimatedEffort": "baixo",
-    "priority": "média"
-  },
-  {
-    "type": "missing-guide",
-    "category": "racks",
-    "label": "Racks",
-    "gap": "Sem guias",
-    "impact": "alto",
-    "suggestion": "Criar guia definitivo sobre 'Racks' abordando tipos, materiais, preços e dicas de compra",
-    "estimatedEffort": "médio",
-    "priority": "alta"
-  },
-  {
-    "type": "missing-guide",
-    "category": "geladeiras",
-    "label": "Geladeiras e Refrigeradores",
-    "gap": "Sem guias",
-    "impact": "alto",
-    "suggestion": "Criar guia definitivo sobre 'Geladeiras e Refrigeradores' abordando tipos, materiais, preços e dicas de compra",
+    "suggestion": "Criar guia definitivo sobre 'Cômodas' abordando tipos, materiais, preços e dicas de compra",
     "estimatedEffort": "médio",
     "priority": "alta"
   },
@@ -141,13 +81,63 @@
   },
   {
     "type": "missing-guide",
-    "category": "comodas",
-    "label": "Cômodas",
+    "category": "penteadeiras",
+    "label": "Penteadeiras",
     "gap": "Sem guias",
     "impact": "alto",
-    "suggestion": "Criar guia definitivo sobre 'Cômodas' abordando tipos, materiais, preços e dicas de compra",
+    "suggestion": "Criar guia definitivo sobre 'Penteadeiras' abordando tipos, materiais, preços e dicas de compra",
     "estimatedEffort": "médio",
     "priority": "alta"
+  },
+  {
+    "type": "missing-guide",
+    "category": "sapateiras",
+    "label": "Sapateiras",
+    "gap": "Sem guias",
+    "impact": "alto",
+    "suggestion": "Criar guia definitivo sobre 'Sapateiras' abordando tipos, materiais, preços e dicas de compra",
+    "estimatedEffort": "médio",
+    "priority": "alta"
+  },
+  {
+    "type": "missing-guide",
+    "category": "poltronas",
+    "label": "Poltronas",
+    "gap": "Sem guias",
+    "impact": "alto",
+    "suggestion": "Criar guia definitivo sobre 'Poltronas' abordando tipos, materiais, preços e dicas de compra",
+    "estimatedEffort": "médio",
+    "priority": "alta"
+  },
+  {
+    "type": "missing-guide",
+    "category": "banquetas",
+    "label": "Banquetas",
+    "gap": "Sem guias",
+    "impact": "alto",
+    "suggestion": "Criar guia definitivo sobre 'Banquetas' abordando tipos, materiais, preços e dicas de compra",
+    "estimatedEffort": "médio",
+    "priority": "alta"
+  },
+  {
+    "type": "thin-content",
+    "category": "cozinhas",
+    "label": "Cozinhas",
+    "gap": "Poucos guias (apenas 1)",
+    "impact": "médio",
+    "suggestion": "Expandir conteúdo com guias específicos como 'Cozinhas para ambientes pequenos' ou 'Guia de manutenção de Cozinhas'",
+    "estimatedEffort": "baixo",
+    "priority": "média"
+  },
+  {
+    "type": "thin-content",
+    "category": "home-office",
+    "label": "Home Office",
+    "gap": "Poucos guias (apenas 1)",
+    "impact": "médio",
+    "suggestion": "Expandir conteúdo com guias específicos como 'Home Office para ambientes pequenos' ou 'Guia de manutenção de Home Office'",
+    "estimatedEffort": "baixo",
+    "priority": "média"
   },
   {
     "type": "missing-guide",
@@ -171,11 +161,61 @@
   },
   {
     "type": "missing-guide",
-    "category": "penteadeiras",
-    "label": "Penteadeiras",
+    "category": "eletrodomesticos",
+    "label": "Eletrodomésticos",
     "gap": "Sem guias",
     "impact": "alto",
-    "suggestion": "Criar guia definitivo sobre 'Penteadeiras' abordando tipos, materiais, preços e dicas de compra",
+    "suggestion": "Criar guia definitivo sobre 'Eletrodomésticos' abordando tipos, materiais, preços e dicas de compra",
+    "estimatedEffort": "médio",
+    "priority": "alta"
+  },
+  {
+    "type": "missing-guide",
+    "category": "liquidificadores",
+    "label": "Liquidificadores",
+    "gap": "Sem guias",
+    "impact": "alto",
+    "suggestion": "Criar guia definitivo sobre 'Liquidificadores' abordando tipos, materiais, preços e dicas de compra",
+    "estimatedEffort": "médio",
+    "priority": "alta"
+  },
+  {
+    "type": "missing-guide",
+    "category": "microondas",
+    "label": "Micro-ondas",
+    "gap": "Sem guias",
+    "impact": "alto",
+    "suggestion": "Criar guia definitivo sobre 'Micro-ondas' abordando tipos, materiais, preços e dicas de compra",
+    "estimatedEffort": "médio",
+    "priority": "alta"
+  },
+  {
+    "type": "missing-guide",
+    "category": "geladeiras",
+    "label": "Geladeiras e Refrigeradores",
+    "gap": "Sem guias",
+    "impact": "alto",
+    "suggestion": "Criar guia definitivo sobre 'Geladeiras e Refrigeradores' abordando tipos, materiais, preços e dicas de compra",
+    "estimatedEffort": "médio",
+    "priority": "alta"
+  },
+  {
+    "type": "missing-guide",
+    "category": "air-fryers",
+    "label": "Air Fryers",
+    "gap": "Sem guias",
+    "impact": "alto",
+    "suggestion": "Criar guia definitivo sobre 'Air Fryers' abordando tipos, materiais, preços e dicas de compra",
+    "estimatedEffort": "médio",
+    "priority": "alta"
+  },
+  {
+    "type": "missing-guide",
+    "category": "ar-condicionado",
+    "label": "Ar Condicionado",
+    "gap": "Sem guias",
+    "impact": "alto",
+    "suggestion": "Criar guia definitivo sobre 'Ar Condicionado' abordando tipos, materiais, preços e dicas de compra",
     "estimatedEffort": "médio",
     "priority": "alta"
   },

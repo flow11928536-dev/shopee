@@ -7,13 +7,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.lojademoveismarilia.com.br/categoria/guarda-roupas</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.lojademoveismarilia.com.br/categoria/cozinhas</loc>
+    <loc>https://www.lojademoveismarilia.com.br/categoria/racks</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -25,67 +19,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.lojademoveismarilia.com.br/categoria/paineis</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.lojademoveismarilia.com.br/categoria/quartos</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.lojademoveismarilia.com.br/categoria/microondas</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.lojademoveismarilia.com.br/categoria/liquidificadores</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.lojademoveismarilia.com.br/categoria/air-fryers</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.lojademoveismarilia.com.br/categoria/eletrodomesticos</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.lojademoveismarilia.com.br/categoria/ar-condicionado</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.lojademoveismarilia.com.br/categoria/home-office</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.lojademoveismarilia.com.br/categoria/sofas</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.lojademoveismarilia.com.br/categoria/racks</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.lojademoveismarilia.com.br/categoria/geladeiras</loc>
+    <loc>https://www.lojademoveismarilia.com.br/categoria/comodas</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -97,7 +31,25 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.lojademoveismarilia.com.br/categoria/comodas</loc>
+    <loc>https://www.lojademoveismarilia.com.br/categoria/penteadeiras</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.lojademoveismarilia.com.br/categoria/sapateiras</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.lojademoveismarilia.com.br/categoria/poltronas</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.lojademoveismarilia.com.br/categoria/banquetas</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -115,7 +67,37 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.lojademoveismarilia.com.br/categoria/penteadeiras</loc>
+    <loc>https://www.lojademoveismarilia.com.br/categoria/eletrodomesticos</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.lojademoveismarilia.com.br/categoria/liquidificadores</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.lojademoveismarilia.com.br/categoria/microondas</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.lojademoveismarilia.com.br/categoria/geladeiras</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.lojademoveismarilia.com.br/categoria/air-fryers</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.lojademoveismarilia.com.br/categoria/ar-condicionado</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -241,12 +223,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.lojademoveismarilia.com.br/guia/guarda-roupas</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.lojademoveismarilia.com.br/guia/por-que-moveis-estalam</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -344,30 +320,6 @@
   </url>
   <url>
     <loc>https://www.lojademoveismarilia.com.br/guia/colchao-cama-box</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.lojademoveismarilia.com.br/guia/paineis</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.lojademoveismarilia.com.br/guia/cozinhas</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.lojademoveismarilia.com.br/guia/quartos</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.lojademoveismarilia.com.br/guia/sofas</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -1514,6 +1466,42 @@
   </url>
   <url>
     <loc>https://www.lojademoveismarilia.com.br/produto/penteadeira-com-banco-rosa-led-espelho-50x50-100-mdf-aspecto</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.lojademoveismarilia.com.br/produto/poltrona-opala-estofada-moderna-design-sofisticado-4-cores</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.lojademoveismarilia.com.br/produto/kit-2-poltronas-mila-suede-moderna-confortavel-16-cores</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.lojademoveismarilia.com.br/produto/conjunto-mesa-ripada-4-cadeiras-aluminio-area-externa-salinas</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.lojademoveismarilia.com.br/produto/armario-sapateira-safira-4-portas-40-pares-mdp</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.lojademoveismarilia.com.br/produto/kit-3-banquetas-altas-cozinha-area-gourmet-aco-napa-10-cores</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.lojademoveismarilia.com.br/produto/kit-2-banquetas-altas-encapadas-aco-napa-capuccino-12-cores</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

@@ -13315,6 +13315,575 @@ Se você buscou por **penteadeira com banco rosa**, **penteadeira 50x50 com led*
   ],
   recomendacao: "Ideal para quem buscou penteadeira com banco rosa barata e achou a Princesa 4 gavetas R$447 sem rosa. Essa Aspecto 50x50 é compacta 60x30cm com banco rosa peluciado, LED, 2mil+ vendidos, R$380 kit completo. Perfeita para quarto pequeno menina que quer sonho rosa. Se quer 4 gavetas grande vá de Princesa R$447, se quer LED fixo 100% MDF premium vá de Lívia R$544."
 },
+{
+  id: "p-imp-163",
+  slug: "poltrona-opala-estofada-moderna-design-sofisticado-4-cores",
+  category: "poltronas",
+  categories: ["home-office", "cadeiras"],
+  mainCategory: "sala",
+  name: "Poltrona Opala Estofada Design Moderno 4 Cores com Estrutura Reforçada",
+  imageFile: "/imagens/produtos/poltrona-opala-bege.webp",
+  displayImage: "/imagens/produtos/poltrona-opala-bege.webp",
+  imageHover: "/imagens/produtos/poltrona-opala-bege-hover.webp",
+  alt: "Poltrona Opala estofada bege com estrutura de madeira para sala moderna",
+  rating: 4.5,
+  reviews: 223,
+  discount: 10,
+  price: 323.91,
+  originalPrice: 359.90,
+  badge: "4.5 ESTRELAS | 4 CORES",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/6L3ipUyaUL",
+  descricao: `
+# Poltrona Opala Estofada: Conforto e Design para sua Sala
+
+A **Poltrona Opala** é a escolha perfeita para quem busca unir conforto, elegância e funcionalidade em um único móvel. Com seu design moderno e acabamento sofisticado, esta poltrona estofada se adapta facilmente a diferentes ambientes, como sala de estar, quarto, home office ou escritório.
+
+Seu estofamento macio, com espuma de alta densidade, proporciona uma experiência de conforto superior, ideal para momentos de descanso, leitura ou relaxamento. A estrutura reforçada, feita em madeira maciça, garante durabilidade e segurança no uso diário, enquanto o seu visual contemporâneo valoriza a decoração do ambiente.
+
+## Por que escolher a Poltrona Opala?
+
+- **Design moderno e versátil:** Linhas retas e acabamento impecável combinam com diversos estilos de decoração (minimalista, clássico, contemporâneo).
+- **Conforto superior:** Estofamento macio com espuma D-26 e tecido de alta qualidade (jacquard/suede) que não desbota.
+- **Estrutura resistente:** Pés e estrutura em madeira maciça de reflorestamento, garantindo estabilidade e longa vida útil.
+- **4 cores disponíveis:** Escolha entre Bege, Preto, Vermelho ou Azul para combinar com sua paleta de cores.
+- **Fácil montagem:** O produto não requer montagem, apenas a fixação dos pés (inclusos).
+
+## Para quem é esta poltrona?
+
+A Poltrona Opala é ideal para quem procura um móvel para sala de estar, um complemento para o quarto ou uma cadeira confortável para o home office. Seu design atemporal e cores neutras a tornam uma peça coringa na decoração.
+
+## Diferenciais e Motivos para Comprar
+
+- **Estrutura em madeira maciça:** Mais resistente e durável que MDF ou MDP.
+- **Estofamento de alta qualidade:** Mantém a forma e o conforto por muitos anos.
+- **Pés com acabamento em madeira:** Toque final elegante que valoriza o produto.
+- **Sem necessidade de montagem:** Chega pronto para usar (após encaixar os pés).
+- **Nota 4.5 estrelas com 223 avaliações:** Aprovado por centenas de clientes.
+
+## Dúvidas Frequentes
+
+**1. A poltrona é confortável para passar horas sentado?**
+Sim, a Poltrona Opala possui espuma de alta densidade que proporciona suporte adequado e conforto prolongado, sendo ideal para leitura ou trabalho.
+
+**2. Qual a altura total da poltrona?**
+A altura total com os pés é de 90 cm, com assento a 45 cm do chão e encosto de 46 cm de altura. A largura é de 80 cm.
+
+## Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Modelo** | Opala |
+| **Marca** | Bosch |
+| **Cor** | Bege, Preto, Vermelho, Azul |
+| **Material da Estrutura** | Madeira Maciça (Pinus/Eucalipto) |
+| **Revestimento** | Tecido (Jacquard/Suede) |
+| **Altura Total** | 90 cm |
+| **Largura** | 80 cm |
+| **Altura do Assento** | 45 cm |
+| **Altura do Encosto** | 46 cm |
+| **Garantia** | 3 meses |
+| **Montagem** | Não requer (após encaixar pés) |
+  `,
+  marca: "Bosch",
+  keywords: [
+    "poltrona estofada",
+    "poltrona opala",
+    "poltrona para sala",
+    "poltrona moderna",
+    "cadeira de descanso",
+  ],
+  seoTitle: "Poltrona Opala Estofada Moderna 4 Cores | Bosch",
+  seoDescription: "Poltrona Opala estofada com estrutura de madeira, disponível em 4 cores. Conforto e design moderno para sala, quarto ou home office. 4.5★, 10% OFF!",
+},
+{
+  id: "p-imp-164",
+  slug: "kit-2-poltronas-mila-suede-moderna-confortavel-16-cores",
+  category: "poltronas",
+  categories: ["home-office", "cadeiras"],
+  mainCategory: "sala",
+  name: "Kit 2 Poltronas Mila Suede Moderna Confortável 16 Cores",
+  imageFile: "/imagens/produtos/poltronas-mila-suede-bege.webp",
+  displayImage: "/imagens/produtos/poltronas-mila-suede-bege.webp",
+  imageHover: "/imagens/produtos/poltronas-mila-suede-bege-hover.webp",
+  alt: "Kit 2 poltronas Mila estofadas em suede bege com pés de madeira para sala moderna",
+  rating: 4.8,
+  reviews: 2300,
+  discount: 10,
+  price: 360.36,
+  originalPrice: 400.41,
+  badge: "4.8 ESTRELAS | 16 CORES",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/1Lf2tu8DuB",
+  descricao: `
+# Kit 2 Poltronas Mila Suede: Conforto e Estilo para sua Sala
+
+O **Kit Poltrona Mila** é a combinação perfeita de conforto, elegância e versatilidade para transformar qualquer ambiente. Feita de madeira reflorestada, a poltrona une sustentabilidade e durabilidade com um design moderno e sofisticado. Revestida em tecido suede macio e com espuma de alta densidade, ela proporciona um assento confortável e resistente, ideal para o seu dia a dia.
+
+Com encosto detalhado em linhas verticais, pés de madeira no estilo palito e braços ergonômicos com curvas suaves, a Poltrona Mila oferece suporte e charme em cada detalhe. Versátil, é perfeita para compor salas de estar, quartos, recepções, escritórios ou até clínicas, adaptando-se com facilidade ao seu espaço.
+
+## Por que escolher o Kit Poltrona Mila?
+
+- **Sustentabilidade:** Estrutura em madeira de eucalipto reflorestada.
+- **Conforto superior:** Assento com espuma D23 e percintas elásticas de 50mm que garantem suporte e maciez.
+- **Design moderno:** Linhas verticais no encosto, braços com curvas suaves e pés palito em madeira maciça.
+- **Versatilidade:** Disponível em 16 cores para combinar com qualquer decoração.
+- **Alta capacidade:** Suporta até 120kg por poltrona.
+- **Fácil montagem:** Chega montada, bastando rosquear os pés.
+
+## Para quem é este kit?
+
+Este kit é ideal para quem busca renovar a sala de estar, criar um cantinho de leitura aconchegante no quarto, ou adicionar um toque de sofisticação em escritórios e recepções. As 16 opções de cores permitem personalizar o ambiente conforme seu estilo.
+
+## Diferenciais e Motivos para Comprar
+
+- **Kit com 2 poltronas:** Perfeito para compor ambientes simétricos ou criar um conjunto harmônico.
+- **Tecido Suede:** Toque macio e agradável, com alta resistência ao uso diário.
+- **Estrutura em madeira de eucalipto:** Sustentável e durável.
+- **Pés em madeira maciça:** Estabilidade e elegância.
+- **Avaliação 4.8 estrelas com mais de 2.300 avaliações:** Aprovado por milhares de clientes.
+- **Mais de 4.000 unidades vendidas:** Produto consolidado no mercado.
+
+## Dúvidas Frequentes
+
+**1. As poltronas vêm montadas?**
+Sim, as poltronas chegam montadas. Você só precisa rosquear os 4 pés de madeira que acompanham o produto.
+
+**2. As poltronas são resistentes para uso diário?**
+Sim, a estrutura em madeira de eucalipto, a espuma D23 e as percintas elásticas garantem alta resistência e durabilidade para o uso diário.
+
+**3. Quais cores estão disponíveis?**
+O kit está disponível em 16 cores: Bege, Amarelo, Azul, Azul Tiffany, Bordô, Capuccino, Cinza, Cinza Chumbo, Marrom, Preto, Rosa, Rosa Bebê, Rose, Terracota, Verde e Vermelho.
+
+## Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Modelo** | Mila |
+| **Marca** | BelarStore |
+| **Material da Estrutura** | Madeira de Eucalipto (reflorestada) |
+| **Revestimento** | Suede |
+| **Espuma do Assento** | D23 com percintas elásticas de 50mm |
+| **Espuma do Encosto** | D23 |
+| **Pés** | Madeira Maciça (estilo palito) |
+| **Altura Total** | 82 cm |
+| **Largura** | 63 cm |
+| **Profundidade** | 58 cm |
+| **Peso** | 10 kg (por poltrona) |
+| **Peso Suportado** | 120 kg (por poltrona) |
+| **Garantia** | 3 meses |
+| **Montagem** | Não requer (após encaixar pés) |
+  `,
+  marca: "BelarStore",
+  keywords: [
+    "poltrona mila",
+    "kit 2 poltronas",
+    "poltrona suede",
+    "poltrona para sala",
+    "poltrona moderna",
+  ],
+  seoTitle: "Kit 2 Poltronas Mila Suede Moderna 16 Cores | BelarStore",
+  seoDescription: "Kit 2 poltronas Mila estofadas em suede, estrutura de madeira reflorestada, 16 cores disponíveis. Conforto e design para sala, quarto ou escritório. 4.8★",
+},
+{
+  id: "p-imp-165",
+  slug: "conjunto-mesa-ripada-4-cadeiras-aluminio-area-externa-salinas",
+  category: "area-externa",
+  categories: ["area-externa"],
+  mainCategory: "area-externa",
+  name: "Conjunto Mesa Ripada e 4 Cadeiras Alumínio Salinas para Área Externa",
+  imageFile: "/imagens/produtos/conjunto-salinas-mesa-cadeiras-aluminio-preto.webp",
+  displayImage: "/imagens/produtos/conjunto-salinas-mesa-cadeiras-aluminio-preto.webp",
+  imageHover: "/imagens/produtos/conjunto-salinas-mesa-cadeiras-aluminio-preto-hover.webp",
+  alt: "Conjunto mesa ripada alumínio preto com 4 cadeiras para área externa e piscina",
+  rating: 0,
+  reviews: 0,
+  discount: 15,
+  price: 2456.99,
+  originalPrice: 2780.42,
+  badge: "RESISTENTE | ALUMÍNIO",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/9V0kdEMFrc",
+  descricao: `
+# Conjunto Salinas: Mesa e Cadeiras em Alumínio para Área Externa
+
+O **Conjunto para Área Externa Salinas** é a escolha ideal para quem busca durabilidade, conforto e um visual moderno para áreas de lazer, piscina, varanda, edícula, hotéis, resorts e muito mais. Fabricado com materiais de alta qualidade, é 100% resistente ao tempo – pode ficar exposto ao sol e à chuva sem perder sua beleza e funcionalidade.
+
+Com design elegante e toque artesanal, este conjunto é perfeito para quem procura um móvel funcional, durável e de ótimo custo-benefício. Somos fábrica, vendemos direto da indústria.
+
+## Características do Conjunto Salinas
+
+**Mesa:**
+- Estrutura em alumínio com pintura eletrostática preta
+- Tampo ripado também em alumínio
+- Diâmetro: 90 cm | Altura: 75 cm
+- Enviada montada
+- Alta resistência ao tempo, não enferruja
+
+**Cadeiras (4 unidades):**
+- Estrutura em alumínio com pintura eletrostática preta
+- Assento e encosto em fibra sintética de alta durabilidade
+- Altura total: 75 cm | Altura do assento: 45 cm
+- Largura: 56 cm | Profundidade: 64 cm
+- Suporta até 120 kg
+- Enviadas montadas
+- Empilháveis: fácil de armazenar
+
+## Por que escolher o Conjunto Salinas?
+
+- **Materiais próprios para uso externo:** Incluindo locais descobertos, sem preocupação com chuva ou sol.
+- **Alumínio de alta qualidade:** Não enferruja, é leve e extremamente durável.
+- **Design elegante e confortável:** Linhas modernas com toque artesanal.
+- **Empilhável:** As cadeiras podem ser empilhadas para otimizar o espaço quando não estiverem em uso.
+- **Fácil limpeza:** Basta usar pano macio com água e sabão neutro (não utilize produtos químicos).
+- **Garantia de 3 meses:** Contra defeitos de fabricação.
+- **Acompanha ponteiras protetoras:** Nos pés para proteger o piso.
+
+## Para quem é este conjunto?
+
+Ideal para quem tem área externa, piscina, varanda gourmet, churrasqueira ou edícula. Também é perfeito para estabelecimentos comerciais como hotéis, resorts, bares e restaurantes que buscam móveis resistentes e de fácil manutenção.
+
+## Diferenciais e Motivos para Comprar
+
+- **Fabricação própria:** Venda direta da indústria, garantindo qualidade e melhor preço.
+- **Resistência superior:** Alumínio com pintura eletrostática que não enferruja e não desbota.
+- **Montagem zero:** Produto enviado já montado, pronto para uso.
+- **Design atemporal:** Combina com diferentes estilos de decoração.
+- **Aceitamos encomendas em grandes quantidades:** Ideal para projetos comerciais.
+
+## Dúvidas Frequentes
+
+**1. O conjunto pode ficar exposto à chuva?**
+Sim! O conjunto Salinas é fabricado em alumínio com pintura eletrostática e fibra sintética, materiais 100% resistentes ao tempo, podendo ficar exposto ao sol e à chuva sem problemas.
+
+**2. As cadeiras são confortáveis?**
+Sim, as cadeiras possuem design ergonômico com assento em fibra sintética que se adapta ao corpo, proporcionando conforto mesmo por longos períodos.
+
+**3. O conjunto vem montado?**
+Sim! A mesa e as cadeiras são enviadas já montadas. Você só precisa posicionar no local desejado.
+
+## Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Modelo** | Salinas |
+| **Marca** | Acesse Móveis |
+| **Material da Estrutura** | Alumínio com pintura eletrostática preta |
+| **Material do Tampo** | Alumínio ripado |
+| **Material do Assento** | Fibra sintética de alta durabilidade |
+| **Diâmetro da Mesa** | 90 cm |
+| **Altura da Mesa** | 75 cm |
+| **Altura da Cadeira** | 75 cm |
+| **Altura do Assento** | 45 cm |
+| **Largura da Cadeira** | 56 cm |
+| **Profundidade da Cadeira** | 64 cm |
+| **Peso Suportado** | 120 kg (por cadeira) |
+| **Garantia** | 3 meses |
+| **Montagem** | Não requer (enviado montado) |
+| **Empilhável** | Sim |
+  `,
+  marca: "Acesse Móveis",
+  keywords: [
+    "conjunto area externa",
+    "mesa ripada aluminio",
+    "cadeiras aluminio externa",
+    "conjunto piscina",
+    "mesa 90cm cadeiras",
+  ],
+  seoTitle: "Conjunto Mesa Ripada 4 Cadeiras Alumínio Área Externa Salinas",
+  seoDescription: "Conjunto Salinas com mesa ripada e 4 cadeiras em alumínio para área externa. Resistente a sol e chuva, empilhável, 120kg por cadeira. 15% OFF!",
+},
+{
+  id: "p-imp-166",
+  slug: "armario-sapateira-safira-4-portas-40-pares-mdp",
+  category: "sapateiras",
+  categories: ["quartos"],
+  mainCategory: "quarto",
+  name: "Armário Sapateira Safira 4 Portas MDP até 40 Pares com Kit Anti-Tombamento",
+  imageFile: "/imagens/produtos/sapateira-safira-4-portas-branca.webp",
+  displayImage: "/imagens/produtos/sapateira-safira-4-portas-branca.webp",
+  imageHover: "/imagens/produtos/sapateira-safira-4-portas-branca-hover.webp",
+  alt: "Sapateira Safira 4 portas branca com estrutura MDP para organizar sapatos no quarto",
+  rating: 4.8,
+  reviews: 7600,
+  discount: 10,
+  price: 242.91,
+  originalPrice: 269.90,
+  badge: "4.8 ESTRELAS | 4 CORES",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/AAGRSOX2vi",
+  descricao: `
+# Sapateira Safira 4 Portas: Organize seus Sapatos com Estilo
+
+A **Sapateira Safira de 4 portas** é a escolha perfeita para quem busca organizar sapatos com praticidade e manter o ambiente sempre limpo e funcional. Com design moderno, ela combina funcionalidade, segurança e estética, sendo ideal para quartos, corredores ou closets.
+
+Com capacidade para organizar sapatos até o número 40 (BR), esta sapateira é a solução definitiva para quem quer acabar com a bagunça de calçados espalhados pela casa.
+
+## Características da Sapateira Safira
+
+- **4 portas articuláveis:** Excelente abertura para fácil acesso aos sapatos.
+- **Puxadores modernos em PVC:** Facilitam o uso no dia a dia.
+- **Kit anti-tombamento incluso:** Proporciona mais segurança para sua família.
+- **Estrutura em MDP:** Resistente e de longa durabilidade.
+- **Acabamento com pintura UV:** Alto Brilho (Branco) ou Fosco (Chocolate, Onix e Teka Madrid).
+- **Capacidade:** Ideal para sapatos até o número 40 (BR).
+- **Manual de montagem detalhado:** Acompanha o produto.
+
+## Por que escolher a Sapateira Safira?
+
+- **Design moderno:** Combina com qualquer decoração.
+- **Praticidade:** Mantém os sapatos organizados e protegidos da poeira.
+- **Segurança:** Kit anti-tombamento incluso para maior estabilidade.
+- **Durabilidade:** Estrutura em MDP com pintura UV de alta qualidade.
+- **Versatilidade:** Disponível em 4 cores (Branco, Teka Madrid, Onix e Chocolate).
+
+## Para quem é esta sapateira?
+
+Ideal para quem busca organização no quarto, corredor ou closet. Perfeita para famílias que querem manter os calçados organizados e protegidos, ou para quem tem espaço limitado e precisa de uma solução prática e elegante.
+
+## Diferenciais e Motivos para Comprar
+
+- **Capacidade para até 40 pares:** Organize toda a coleção de calçados.
+- **Acabamento premium:** Pintura UV que não descasca e é fácil de limpar.
+- **Kit anti-tombamento:** Segurança extra para sua família.
+- **Fácil montagem:** Manual detalhado incluso (vídeo tutorial disponível no canal da marca).
+- **Mais de 10.000 unidades vendidas:** Produto consolidado e aprovado por milhares de clientes.
+- **Avaliação 4.8 estrelas com 7.600 avaliações:** Excelente satisfação dos clientes.
+
+## Dúvidas Frequentes
+
+**1. A sapateira vem montada?**
+Não, a sapateira é enviada desmontada para facilitar o transporte. Acompanha manual de montagem detalhado. Não oferecemos serviço de montagem, mas disponibilizamos vídeo tutorial no canal da marca.
+
+**2. Quantos pares de sapato cabem?**
+A sapateira comporta sapatos até o número 40 (BR), com capacidade para organizar uma grande quantidade de calçados.
+
+**3. Quais cores estão disponíveis?**
+A Sapateira Safira está disponível em 4 cores: Branco (alto brilho), Teka Madrid (fosco), Onix (fosco) e Chocolate (fosco).
+
+## Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Modelo** | Safira |
+| **Marca** | Tonielque Móveis |
+| **Material** | MDP com pintura UV |
+| **Acabamento** | Alto Brilho (Branco) / Fosco (demais cores) |
+| **Portas** | 4 portas articuláveis |
+| **Puxadores** | PVC |
+| **Capacidade** | Sapatos até número 40 (BR) |
+| **Altura** | 147 cm |
+| **Largura** | 67 cm |
+| **Profundidade** | 22,4 cm |
+| **Peso** | 26 kg |
+| **Incluso** | Kit anti-tombamento + manual de montagem |
+| **Garantia** | 3 meses |
+| **Montagem** | Não requer profissional (manual incluso) |
+  `,
+  marca: "Tonielque Móveis",
+  keywords: [
+    "sapateira 4 portas",
+    "armario sapateira",
+    "sapateira MDP",
+    "organizador de sapatos",
+    "sapateira quarto",
+  ],
+  seoTitle: "Sapateira Safira 4 Portas MDP até 40 Pares | Tonielque",
+  seoDescription: "Sapateira Safira 4 portas em MDP com pintura UV, kit anti-tombamento e capacidade para 40 pares. 4 cores disponíveis. 4.8★, 10mil+ vendidos!",
+},
+{
+  id: "p-imp-167",
+  slug: "kit-3-banquetas-altas-cozinha-area-gourmet-aco-napa-10-cores",
+  category: "banquetas",
+  categories: ["cozinhas", "area-externa", "moveis-para-estudantes"],
+  mainCategory: "cozinha",
+  name: "Kit 3 Banquetas Altas Aço com Assento Napa 10 Cores para Cozinha e Área Gourmet",
+  imageFile: "/imagens/produtos/kit-3-banquetas-junco-preto.webp",
+  displayImage: "/imagens/produtos/kit-3-banquetas-junco-preto.webp",
+  imageHover: "/imagens/produtos/kit-3-banquetas-junco-preto-hover.webp",
+  alt: "Kit 3 banquetas altas com estrutura de aço preto e assento napa para cozinha gourmet",
+  rating: 4.8,
+  reviews: 985,
+  discount: 10,
+  price: 230.19,
+  originalPrice: 255.76,
+  badge: "4.8 ESTRELAS | 10 CORES",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/30nGvbWpR1",
+  descricao: `
+# Kit 3 Banquetas Junco: Design Exclusivo para sua Cozinha ou Área Gourmet
+
+Nossa banqueta possui design exclusivo, oferecendo o toque necessário de beleza e modernidade para a decoração da sua casa. Além disso, as banquetas são versáteis e podem ser usadas em diversos ambientes como: salas, bares, balcões, cozinhas, áreas externas e onde sua criatividade mandar.
+
+O assento redondo de 33 cm de diâmetro revestido em napa é o tamanho perfeito para que o produto atenda a todas as necessidades a que é destinado e estão disponíveis em diversas cores.
+
+## Características do Kit de Banquetas
+
+- **Estrutura em aço tubular 7/8":** Resistente e durável, com pintura eletrostática preta.
+- **Assento em napa:** Confortável e fácil de limpar, com diâmetro de 33 cm.
+- **Altura total de 93 cm:** Altura do assento de 70 cm, ideal para balcões e ilhas.
+- **Suporta até 120 kg:** Estrutura reforçada para maior segurança.
+- **Design exclusivo:** Toque de beleza e modernidade para sua decoração.
+- **10 cores disponíveis:** Escolha a que melhor combina com seu ambiente.
+
+## Por que escolher o Kit de Banquetas Junco?
+
+- **Versatilidade:** Perfeito para cozinhas, áreas gourmet, bares, salas e áreas externas.
+- **Qualidade e durabilidade:** Tratamento exclusivo de fosfato e pintura eletrostática que oferecem resistência.
+- **Design moderno:** Linhas elegantes que valorizam qualquer ambiente.
+- **Fácil montagem:** As banquetas já vêm praticamente montadas, necessitando apenas da fixação dos assentos.
+- **Frete grátis com cupom:** Para todo o Brasil.
+
+## Para quem é este kit?
+
+Ideal para quem tem cozinha com balcão, área gourmet, ilha, bar residencial ou espaço de lazer. Perfeito para quem busca móveis com design moderno e funcionalidade.
+
+## Diferenciais e Motivos para Comprar
+
+- **Kit com 3 banquetas:** Perfeito para compor ambientes e receber visitas.
+- **Assento em napa:** Conforto e sofisticação.
+- **Estrutura em aço:** Leve, resistente e com pintura que não descasca.
+- **10 cores disponíveis:** Personalize seu ambiente.
+- **Avaliação 4.8 estrelas com 985 avaliações:** Produto aprovado pelos clientes.
+- **Mais de 1.000 unidades vendidas:** Sucesso no mercado.
+
+## Dúvidas Frequentes
+
+**1. O produto vem montado?**
+Sim! As banquetas já vêm montadas, necessitando apenas da fixação dos assentos, que é simples e rápida.
+
+**2. Quais as dimensões da banqueta?**
+Altura total: 93 cm, Altura do assento: 70 cm, Diâmetro do assento: 33 cm. Os pés têm 37x29 cm e o encosto mede 25 x 33 cm.
+
+**3. Posso comprar mais de um kit na mesma compra?**
+Recomendamos realizar uma única compra por vez, por questões de logística de entrega. Para mais de um kit, faça compras separadas.
+
+## Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Modelo** | Junco |
+| **Marca** | Espaço Junco |
+| **Material da Estrutura** | Aço Tubular 7/8" com pintura eletrostática |
+| **Material do Assento** | Napa |
+| **Altura Total** | 93 cm |
+| **Altura do Assento** | 70 cm |
+| **Diâmetro do Assento** | 33 cm |
+| **Dimensão dos Pés** | 37 x 29 cm |
+| **Encosto** | 25 x 33 cm |
+| **Peso Máximo** | 120 kg |
+| **Garantia** | 30 dias |
+| **Montagem** | Sim (fixação dos assentos) |
+| **Cor da Estrutura** | Preto |
+  `,
+  marca: "Espaço Junco",
+  keywords: [
+    "banqueta alta cozinha",
+    "kit 3 banquetas",
+    "banqueta area gourmet",
+    "banco alto balcao",
+    "banqueta napa",
+  ],
+  seoTitle: "Kit 3 Banquetas Altas Aço Napa 10 Cores | Espaço Junco",
+  seoDescription: "Kit 3 banquetas altas com estrutura em aço e assento napa. Ideal para cozinha, área gourmet e balcões. 10 cores, 120kg, 4.8★ com 985 avaliações!",
+},
+{
+  id: "p-imp-168",
+  slug: "kit-2-banquetas-altas-encapadas-aco-napa-capuccino-12-cores",
+  category: "banquetas",
+  categories: ["cozinhas", "area-externa", "moveis-para-estudantes"],
+  mainCategory: "cozinha",
+  name: "Kit 2 Banquetas Altas Encapadas Aço Napa 12 Cores para Cozinha e Área Gourmet",
+  imageFile: "/imagens/produtos/kit-2-banquetas-encapadas-capuccino.webp",
+  displayImage: "/imagens/produtos/kit-2-banquetas-encapadas-capuccino.webp",
+  imageHover: "/imagens/produtos/kit-2-banquetas-encapadas-capuccino-hover.webp",
+  alt: "Kit 2 banquetas altas encapadas na cor capuccino com estrutura de aço para cozinha gourmet",
+  rating: 4.8,
+  reviews: 956,
+  discount: 10,
+  price: 226.08,
+  originalPrice: 251.19,
+  badge: " | 12 CORES",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/9zx1WojxWO",
+  descricao: `
+# Kit 2 Banquetas Altas Encapadas: Estilo e Conforto para sua Cozinha
+
+Nossa banqueta possui design exclusivo, oferecendo o toque necessário de beleza e modernidade para a decoração da sua casa. Além disso, as banquetas são versáteis e podem ser usadas em diversos ambientes como: salas, bares, balcões, cozinhas, áreas externas e onde sua criatividade mandar.
+
+O assento redondo de 33 cm de diâmetro revestido em napa é o tamanho perfeito para que o produto atenda a todas as necessidades a que é destinado e estão disponíveis em diversas cores.
+
+## Características do Kit de Banquetas
+
+- **Estrutura em aço com pintura eletrostática:** Resistente e durável, na cor preta.
+- **Assento e encosto em napa:** Confortáveis e fáceis de limpar, com diâmetro de 33 cm.
+- **Altura total de 93 cm:** Altura do assento de 70 cm, ideal para balcões e ilhas.
+- **Suporta até 120 kg:** Estrutura reforçada para maior segurança.
+- **Design exclusivo:** Toque de beleza e modernidade para sua decoração.
+- **12 cores disponíveis:** Escolha a que melhor combina com seu ambiente.
+
+## Por que escolher o Kit de Banquetas Encapadas?
+
+- **Versatilidade:** Perfeito para cozinhas, áreas gourmet, bares, salas e áreas externas.
+- **Qualidade e durabilidade:** Tratamento exclusivo de fosfato e pintura eletrostática que oferecem resistência.
+- **Design moderno:** Linhas elegantes que valorizam qualquer ambiente.
+- **Fácil montagem:** As banquetas já vêm praticamente montadas, necessitando apenas da fixação dos assentos.
+- **Frete grátis com cupom:** Para todo o Brasil.
+
+## Para quem é este kit?
+
+Ideal para quem tem cozinha com balcão, área gourmet, ilha, bar residencial ou espaço de lazer. Perfeito para quem busca móveis com design moderno e funcionalidade.
+
+## Diferenciais e Motivos para Comprar
+
+- **Kit com 2 banquetas:** Perfeito para compor ambientes e receber visitas.
+- **Assento e encosto em napa:** Conforto e sofisticação.
+- **Estrutura em aço:** Leve, resistente e com pintura que não descasca.
+- **12 cores disponíveis:** Personalize seu ambiente.
+- **Avaliação 4.8 estrelas com 956 avaliações:** Produto aprovado pelos clientes.
+- **Mais de 2.000 unidades vendidas:** Sucesso no mercado.
+
+## Dúvidas Frequentes
+
+**1. O produto vem montado?**
+Sim! As banquetas já vêm montadas, necessitando apenas da fixação dos assentos, que é simples e rápida.
+
+**2. Quais as dimensões da banqueta?**
+Altura total: 93 cm, Altura do assento: 70 cm, Diâmetro do assento: 33 cm. Os pés têm 37x29 cm e o encosto mede 25 x 33 cm.
+
+**3. Posso comprar mais de um kit na mesma compra?**
+Recomendamos realizar uma única compra por vez, por questões de logística de entrega. Para mais de um kit, faça compras separadas.
+
+## Especificações Técnicas
+
+| Especificação | Detalhe |
+|---------------|---------|
+| **Modelo** | Encapada |
+| **Marca** | Espaço Junco |
+| **Material da Estrutura** | Aço com pintura eletrostática |
+| **Material do Assento** | Napa |
+| **Altura Total** | 93 cm |
+| **Altura do Assento** | 70 cm |
+| **Diâmetro do Assento** | 33 cm |
+| **Dimensão dos Pés** | 37 x 29 cm |
+| **Encosto** | 25 x 33 cm |
+| **Peso Máximo** | 120 kg |
+| **Garantia** | 30 dias |
+| **Montagem** | Sim (fixação dos assentos) |
+| **Cor da Estrutura** | Preto |
+  `,
+  marca: "Espaço Junco",
+  keywords: [
+    "banqueta alta encapada",
+    "kit 2 banquetas",
+    "banqueta area gourmet",
+    "banco alto balcao",
+    "banqueta napa capuccino",
+  ],
+  seoTitle: "Kit 2 Banquetas Altas Encapadas Aço Napa 12 Cores | Espaço Junco",
+  seoDescription: "Kit 2 banquetas altas encapadas com estrutura em aço e assento napa. Ideal para cozinha, área gourmet e balcões. 12 cores, 120kg, 4.8★ com 956 avaliações!",
+},
+
 
 ]
 
@@ -13337,7 +13906,7 @@ export const getProductsByCategory = (
 ): Product[] => {
   if (!category) return products;
 
-  const cats = Array.isArray(category) ? category : [category];
+  const cats = Array.isArray(category)? category : [category];
 
   return products.filter((p) => {
     // Categoria principal
@@ -13353,25 +13922,21 @@ export const getProductsByCategory = (
 export const getProductsByMainCategory = (main: string): Product[] => {
   return products.filter((p) => p.mainCategory === main);
 };
+
 // Retorna produtos intercalando entre as categorias (round-robin),
-// em vez de respeitar a ordem crua do array `products`.
-// Use quando `category` for um array de várias categorias (ex: grid da home),
-// para garantir que nenhuma categoria fique escondida ao aplicar um `limit`.
 export const getProductsByCategoryInterleaved = (
   category?: ProductCategory | ProductCategory[]
 ): Product[] => {
   if (!category) return products;
 
-  const cats = Array.isArray(category) ? category : [category];
+  const cats = Array.isArray(category)? category : [category];
 
-  // Agrupa os produtos por categoria, mantendo a ordem interna de cada uma
   const buckets: Product[][] = cats.map((cat) =>
     products.filter(
       (p) => p.category === cat || p.categories?.includes(cat)
     )
   );
 
-  // Intercala: 1 produto de cada categoria por vez, até esgotar todas
   const result: Product[] = [];
   const maxLen = Math.max(...buckets.map((b) => b.length), 0);
 
@@ -13381,7 +13946,6 @@ export const getProductsByCategoryInterleaved = (
     }
   }
 
-  // Remove duplicados (caso um produto pertença a mais de uma categoria da lista)
   const seen = new Set<string>();
   return result.filter((p) => {
     if (seen.has(p.id)) return false;
@@ -13392,18 +13956,24 @@ export const getProductsByCategoryInterleaved = (
 
 export const getProductsBySlugs = (slugs: string[]): Product[] =>
   slugs
-    .map((slug) => products.find((p) => p.slug === slug))
-    .filter((p): p is Product => Boolean(p));
+   .map((slug) => products.find((p) => p.slug === slug))
+   .filter((p): p is Product => Boolean(p));
+
+// SLUGS QUE NÃO SÃO CATEGORIA, SÃO GUIA - NÃO VÃO PARA /categoria/
+const EXCLUDED_FROM_CATEGORY = ["area-externa", "mdf-mdp", "home-office"];
 
 export const allCategorySlugs = [
-  ...MAIN_CATEGORIES.map((c) => c.slug),
-  ...SUB_CATEGORIES.map((c) => c.slug),
+ ...MAIN_CATEGORIES.map((c) => c.slug).filter(
+    (slug) =>!EXCLUDED_FROM_CATEGORY.includes(slug)
+  ),
+ ...SUB_CATEGORIES.map((c) => c.slug),
 ];
 
 export const allCategories = Array.from(
   new Set(products.map((p) => p.category))
+).filter(
+  (cat) =>!EXCLUDED_FROM_CATEGORY.includes(cat as string)
 ) as ProductCategory[];
 
 export const formatBRL = (value: number): string =>
   value.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
-
