@@ -14,6 +14,57 @@
 /index             /                   301
 /index.html        /                   301
 
+# ============================================================
+# REDIRECIONAMENTOS /confirmar-estoque/ → /produto/
+# ============================================================
+/confirmar-estoque/*   /produto/:splat   301
+
+# ============================================================
+# CATEGORIAS COM NOMES ERRADOS
+# ============================================================
+/categoria/quarto-completo      /categoria/quartos          301
+/categoria/escrivaninhas        /categoria/home-office      301
+/categoria/guarda-roupa-infantil /categoria/guarda-roupas   301
+/categoria/camas-infantil       /categoria/quartos          301
+/categoria/armarios             /categoria/guarda-roupas    301
+/categoria/estantes             /categoria/home-office      301
+/categoria/guarda-roupa-casal   /categoria/guarda-roupas    301
+
+# ============================================================
+# PÁGINAS QUE NÃO EXISTEM → HOME OU CATEGORIA CORRETA
+# ============================================================
+/ofertas                    /                           301
+/ofertas-mercado-livre      /                           301
+/setup-completo             /                           301
+/mesas-gamer                /categoria/gamer            301
+/cadeiras-gamer             /categoria/gamer            301
+
+# ============================================================
+# GUIAS QUE NÃO EXISTEM → /guias
+# ============================================================
+/guia/comparativo-lojas-moveis          /guias  301
+/guia/comprar-moveis-online             /guias  301
+/guia/cadeira-gamer-150kg-vs-200kg      /guias  301
+/guia/cozinha-compacta-6-portas         /guias  301
+/guia/moveis-para-kitnet                /guias  301
+/guia/mdf-ou-mdp-qual-a-diferenca       /guias  301
+/guia/mdp-guia-completo                 /guias  301
+/guia/mdf-guia-completo                 /guias  301
+/guia/cadeira-escritorio-estrutura      /guias  301
+/guia/cadeira-couro-ou-mesh             /guias  301
+/guia/como-comprar-moveis-lojas-100     /guias  301
+/guia/moveis-baratos-com-qualidade      /guias  301
+/guia/moveis-baratos-qualidade          /guias  301
+/guia/como-limpar-moveis-mdf-mdp        /guias  301
+/guia/limpar-moveis-mdf-mdp             /guias  301
+/guia/colchao-cama-box                  /guias  301
+/guia/rack-painel-tv-medidas            /guias  301
+
+# ============================================================
+# QUALQUER OUTRO /guia/* QUE NÃO EXISTA → /guias
+# ============================================================
+/guia/*                                 /guias  301
+
 # ===== Redirecionamentos de categorias antigas =====
 /cozinhas          /categoria/cozinhas        301
 /guarda-roupas     /categoria/guarda-roupas   301
