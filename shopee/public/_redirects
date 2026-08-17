@@ -81,11 +81,5 @@
 # ===== Categoria inexistente — redirecionar pra página estática =====
 /categoria/moveis-para-estudantes   /moveis-para-estudantes   301
 
-# ===== Trailing slash removal — Cloudflare Pages =====
-# Redireciona qualquer URL com barra final para sem barra
-/*/  /:splat  301
-
-# ============================================================
-# FALLBACK 404 — CORRIGIDO (usa 200 para servir a página)
-# ============================================================
+# ===== Fallback 404 =====
 /*  /404.html  200
