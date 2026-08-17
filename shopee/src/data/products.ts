@@ -29,6 +29,7 @@ export const MAIN_CATEGORIES = [
   { slug: "gamer", label: "Gamer" },
   { slug: "moveis-para-estudantes", label: "Móveis para Estudantes", parent: "escritorio" },
   { slug: "mdf-mdp", label: "MDF e MDP", parent: "escritorio" },
+  { slug: "cantinho-que-toda-mulher-merece", label: "Cantinho Que Toda Mulher Merece" },
 ] as const;
 
 // ============================================================
@@ -53,6 +54,10 @@ export const SUB_CATEGORIES = [
   { slug: "geladeiras", label: "Geladeiras e Refrigeradores", parent: "eletrodomesticos" },
   { slug: "air-fryers", label: "Air Fryers", parent: "eletrodomesticos" },
   { slug: "ar-condicionado", label: "Ar Condicionado", parent: "eletrodomesticos" },
+  { slug: "penteadeiras", label: "Penteadeiras", parent: "cantinho-que-toda-mulher-merece" },
+{ slug: "sapateiras", label: "Sapateiras", parent: "cantinho-que-toda-mulher-merece" },
+{ slug: "poltronas", label: "Poltronas", parent: "sala" },
+{ slug: "banquetas", label: "Banquetas", parent: "sala" },
 ] as const;
 
 // ============================================================
