@@ -7,9 +7,9 @@ import { SITE } from "@/data/products";
 const LAST_UPDATED = "2026-07-23";
 
 export const metadata: Metadata = {
-  title: "Guias de Compra de Móveis | Guias Completos para Escolher Melhor | Móveis Marília",
+  title: "Guias de Compra de Móveis | Conteúdo Especializado para Escolher Melhor | Móveis Brasil",
   description:
-    "Guias especializados sobre móveis e eletrodomésticos. Aprenda a escolher sofá, guarda-roupa, cozinha planejada, home office e muito mais. Comparativos, dicas de materiais e análises honestas.",
+    "Guias especializados sobre móveis e eletrodomésticos. Aprenda a escolher sofá, guarda-roupa, cozinha planejada, home office e muito mais. Comparativos, dicas de materiais e análises honestas para todo o Brasil.",
   keywords: [
     "guias de compra de móveis",
     "como escolher móveis",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "móveis para apartamento pequeno",
     "guia de móveis baratos",
     "como comprar móveis online",
-    "móveis Marília",
+    "guias de móveis Brasil",
   ].join(", "),
   alternates: {
     canonical: `${SITE.url}/guias`,
@@ -42,30 +42,30 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Guias de Compra de Móveis | Conteúdo Especializado | Móveis Marília",
+    title: "Guias de Compra de Móveis | Conteúdo Especializado | Móveis Brasil",
     description:
-      "Guias completos para escolher móveis com confiança. Sofás, guarda-roupas, cozinhas, home office. Comparativos, análises de materiais e dicas práticas de especialistas.",
+      "Guias completos para escolher móveis com confiança. Sofás, guarda-roupas, cozinhas, home office. Comparativos, análises de materiais e dicas práticas de especialistas para todo o Brasil.",
     url: `${SITE.url}/guias`,
     type: "website",
-    siteName: "Móveis Marília",
+    siteName: "Móveis Brasil",
     locale: "pt_BR",
     images: [
       {
         url: `${SITE.url}/banners/og-image.png`,
         width: 1200,
         height: 630,
-        alt: "Guias de Compra de Móveis — Conteúdo especializado da Móveis Marília",
+        alt: "Guias de Compra de Móveis — Conteúdo especializado da Móveis Brasil",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Guias de Compra de Móveis | Conteúdo Especializado | Móveis Marília",
+    title: "Guias de Compra de Móveis | Conteúdo Especializado | Móveis Brasil",
     description:
       "Guias completos para escolher móveis com confiança. Comparativos, análises de materiais e dicas práticas de especialistas.",
     images: [`${SITE.url}/banners/og-image.png`],
-    creator: "@moveismarilia",
-    site: "@moveismarilia",
+    creator: "@moveisbrasil",
+    site: "@moveisbrasil",
   },
 };
 
@@ -80,7 +80,7 @@ const jsonLd = [
     name: "Guias de Compra de Móveis — Conteúdo Especializado",
     url: `${SITE.url}/guias`,
     description:
-      "Portal com guias completos para ajudar você a escolher móveis com confiança. Sofás, guarda-roupas, cozinhas, home office e mais. Análises de materiais, comparativos e dicas práticas.",
+      "Portal com guias completos para ajudar você a escolher móveis com confiança. Sofás, guarda-roupas, cozinhas, home office e mais. Análises de materiais, comparativos e dicas práticas para todo o Brasil.",
     inLanguage: "pt-BR",
     datePublished: "2024-01-15",
     dateModified: LAST_UPDATED,
@@ -122,7 +122,7 @@ const jsonLd = [
     publisher: {
       "@type": "Organization",
       "@id": `${SITE.url}/#organization`,
-      name: "Móveis Marília",
+      name: "Móveis Brasil",
     },
   },
   {

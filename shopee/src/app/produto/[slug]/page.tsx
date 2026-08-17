@@ -46,15 +46,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const product = getProductBySlug(slug);
   if (!product) return {};
-  let title = product.seoTitle || `${product.name} | Móveis Marília SP`;
+  let title = product.seoTitle || `${product.name} | Móveis Brasil`;
   const variant = extractVariantFromSlug(product.slug);
   if (variant &&!title.toLowerCase().includes(variant.toLowerCase())) {
     title = title.includes(" | ")? title.replace(" | ", ` ${variant} | `) : `${title} ${variant}`;
   }
-  if (title.length > 60) title = title.substring(0, 50) + " | Móveis Marília";
-  let description = product.seoDescription || product.descricao?.slice(0, 150) || `Compre ${product.name} com frete grátis em Marília SP.`;
+  if (title.length > 60) title = title.substring(0, 50) + " | Móveis Brasil";
+  let description = product.seoDescription || product.descricao?.slice(0, 150) || `Confira ${product.name} com as melhores ofertas do Mercado Livre e Shopee. Entrega para todo o Brasil.`;
   if (description.length > 155) description = description.substring(0, 150) + "...";
-  else if (description.length < 120) description = `${description} Frete grátis em Marília SP e região.`;
+  else if (description.length < 120) description = `${description} Encontre as melhores ofertas com entrega para todo o Brasil.`;
   return {
     title, description,
     alternates: { canonical: `${SITE.url}/produto/${product.slug}` },
@@ -62,7 +62,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title, description,
       url: `${SITE.url}/produto/${product.slug}`,
       type: "website",
-      siteName: SITE.name,
+      siteName: "Móveis Brasil",
       locale: "pt_BR",
       images: [{ url: product.displayImage || product.imageFile, width: 800, height: 800, alt: product.alt || product.name }],
     },
@@ -94,7 +94,7 @@ export default async function ProductPage({ params }: Props) {
     description: product.descricao || product.seoDescription || product.name,
     image: [product.displayImage || product.imageFile], // TEM QUE SER ARRAY
     sku: product.slug,
-    brand: { "@type": "Brand", name: product.marca || "Móveis Marília" },
+    brand: { "@type": "Brand", name: product.marca || "Móveis Brasil" },
     // SEMPRE MANDA aggregateRating, mesmo que fake - Google exige
     aggregateRating: {
       "@type": "AggregateRating",
@@ -109,7 +109,7 @@ export default async function ProductPage({ params }: Props) {
       availability: "https://schema.org/InStock", // SEMPRE InStock
       url: `${SITE.url}/produto/${product.slug}`,
       itemCondition: "https://schema.org/NewCondition",
-      seller: { "@type": "Organization", name: "Loja de Móveis Marília", url: SITE.url },
+      seller: { "@type": "Organization", name: "Móveis Brasil", url: SITE.url },
     },
   };
 
@@ -162,8 +162,11 @@ export default async function ProductPage({ params }: Props) {
                 {discount > 0 && <span className="text-sm font-medium" style={{ color: SAGE }}>Economize {formatBRL(originalPrice - price)}</span>}
               </div>
               <a href={product.affiliateLink} target="_blank" rel="noopener noreferrer" className="mt-6 flex w-full items-center justify-center gap-2 rounded-full px-6 py-4 text-base font-bold text-white shadow-md" style={{ backgroundColor: INK }}>
-                Ver melhor oferta {product.platform || "loja"}
+                Ver oferta no {product.platform || "marketplace"}
               </a>
+              <p className="mt-2 text-center text-xs text-stone-400">
+                Você será redirecionado para {product.platform || "o marketplace"} para finalizar a compra com segurança.
+              </p>
               <Link href="/" className="mt-3 text-center text-xs uppercase tracking-wide hover:underline" style={{ fontFamily: FONT_MONO, color: "#918466" }}>← Continuar comprando</Link>
             </div>
           </div>

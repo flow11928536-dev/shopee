@@ -1,5 +1,5 @@
-# Loja de Móveis Marília
-> Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.
+# Loja de Móveis Brasil
+> Portal de curadoria de móveis e eletrodomésticos com as melhores ofertas do Mercado Livre e Shopee. Guias honestos, comparação de preços e ofertas selecionadas para todo o Brasil.
 
 ## Especialidades
 - Móveis planejados e modulados
@@ -170,4 +170,4 @@ Guias:
 
 
 
-Última atualização: 2026-08-15T01:08:29
+Última atualização: 2026-08-17T01:35:21

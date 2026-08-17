@@ -42,12 +42,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const main = MAIN_CATEGORIES.find((c) => c.slug === slug);
   if (main) {
     return {
-      title: `${main.label} em Oferta | Móveis Marília`,
-      description: `Ofertas selecionadas de ${main.label} com os melhores preços do Mercado Livre e Shopee. Cozinhas, sofás, guarda-roupas e muito mais.`,
+      title: `${main.label} em Oferta | Móveis Brasil`,
+      description: `Ofertas selecionadas de ${main.label} com os melhores preços do Mercado Livre e Shopee. Compare cozinhas, sofás, guarda-roupas e muito mais com entrega para todo o Brasil.`,
       alternates: { canonical: `${SITE.url}/categoria/${slug}` },
       openGraph: {
-        title: `${main.label} em Oferta | Móveis Marília`,
-        description: `Ofertas selecionadas de ${main.label} com os melhores preços.`,
+        title: `${main.label} em Oferta | Móveis Brasil`,
+        description: `Ofertas selecionadas de ${main.label} com os melhores preços. Entrega para todo o Brasil.`,
         url: `${SITE.url}/categoria/${slug}`,
         type: "website",
         images: [
@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             url: `${SITE.url}/banners/og-image.png`,
             width: 1200,
             height: 630,
-            alt: `${main.label} em oferta - Móveis Marília`,
+            alt: `${main.label} em oferta - Móveis Brasil`,
           },
         ],
       },
@@ -67,12 +67,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const parent = MAIN_CATEGORIES.find((c) => c.slug === sub.parent);
     const parentLabel = parent ? parent.label : "";
     return {
-      title: `${sub.label} em Oferta | Móveis Marília`,
-      description: `Ofertas selecionadas de ${sub.label} para ${parentLabel} com os melhores preços do Mercado Livre e Shopee.`,
+      title: `${sub.label} em Oferta | Móveis Brasil`,
+      description: `Ofertas selecionadas de ${sub.label} para ${parentLabel} com os melhores preços do Mercado Livre e Shopee. Compare modelos com entrega para todo o Brasil.`,
       alternates: { canonical: `${SITE.url}/categoria/${slug}` },
       openGraph: {
-        title: `${sub.label} em Oferta | Móveis Marília`,
-        description: `Ofertas selecionadas de ${sub.label} para ${parentLabel}.`,
+        title: `${sub.label} em Oferta | Móveis Brasil`,
+        description: `Ofertas selecionadas de ${sub.label} para ${parentLabel}. Entrega para todo o Brasil.`,
         url: `${SITE.url}/categoria/${slug}`,
         type: "website",
         images: [
@@ -80,7 +80,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             url: `${SITE.url}/banners/og-image.png`,
             width: 1200,
             height: 630,
-            alt: `${sub.label} em oferta - Móveis Marília`,
+            alt: `${sub.label} em oferta - Móveis Brasil`,
           },
         ],
       },
@@ -88,8 +88,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: "Categoria em Oferta | Móveis Marília",
-    description: "Ofertas selecionadas de móveis e eletrodomésticos.",
+    title: "Categoria em Oferta | Móveis Brasil",
+    description: "Ofertas selecionadas de móveis e eletrodomésticos com entrega para todo o Brasil.",
   };
 }
 
@@ -144,7 +144,7 @@ export default async function CategoryPage({ params }: Props) {
       "@id": `${SITE.url}${path}/#webpage`,
       name: `${label} em oferta`,
       url: `${SITE.url}${path}`,
-      description: `Ofertas selecionadas de ${label} com os melhores preços.`,
+      description: `Ofertas selecionadas de ${label} com os melhores preços. Entrega para todo o Brasil.`,
       numberOfItems: items.length,
       isPartOf: { "@id": `${SITE.url}/#website` },
     },
@@ -195,7 +195,7 @@ export default async function CategoryPage({ params }: Props) {
           </h1>
           <p className="mt-3 text-stone-500">
             {items.length} {items.length === 1 ? "produto selecionado" : "produtos selecionados"} com
-            os melhores preços e avaliações.
+            os melhores preços e avaliações. Entrega para todo o Brasil.
           </p>
         </header>
 

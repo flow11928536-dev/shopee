@@ -41,12 +41,12 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "Loja de Móveis Marília SP | Loja Premium com Frete Grátis",
-    template: "%s | Loja de Móveis Marília SP",
+    default: "Loja de Móveis Brasil | Curadoria Premium com Ofertas Exclusivas",
+    template: "%s | Loja de Móveis Brasil",
   },
   description:
-    "Loja de móveis em Marília SP com frete grátis. Sofás, cozinhas planejadas, guarda-roupas e home office. Curadoria premium com até 50% OFF. Compre online!",
-  keywords: "móveis marília, loja moveis marilia sp, sofá marília, cozinha planejada marília, guarda roupa marília, home office marília",
+    "Portal de curadoria de móveis e eletrodomésticos com os melhores preços do Mercado Livre e Shopee. Sofás, cozinhas, guarda-roupas e home office com até 50% OFF. Compare e compre com segurança!",
+  keywords: "móveis, loja de móveis, sofá, cozinha planejada, guarda roupa, home office, móveis para quarto, móveis para sala, eletrodomésticos, air fryer, geladeira, micro-ondas",
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   icons: {
     icon: [
@@ -58,18 +58,18 @@ export const metadata: Metadata = {
   manifest: "/manifest.json",
   openGraph: {
     type: "website",
-    siteName: "Loja de Móveis Marília",
+    siteName: "Loja de Móveis Brasil",
     locale: "pt_BR",
     url: SITE.url,
-    title: "Loja de Móveis Marília | #1 em Curadoria Premium em Marília SP",
-    description: "Frete Grátis em Marília SP + Ofertas Exclusivas + Guias de Design. Sofás, Cozinhas, Guarda-roupas e Home Office com até 50% OFF.",
+    title: "Loja de Móveis Brasil | Guia de Compras com Ofertas Exclusivas",
+    description: "Encontre as melhores ofertas de móveis e eletrodomésticos do Brasil. Curadoria independente com links diretos para Mercado Livre e Shopee.",
     images: [
       {
         url: `${SITE.url}/og-hero-2026.jpg`,
         secureUrl: `${SITE.url}/og-hero-2026.jpg`,
         width: 1200,
         height: 630,
-        alt: "Loja de Móveis Marília - Loja Premium em Marília SP",
+        alt: "Loja de Móveis Brasil - Guia de Compras de Móveis",
         type: "image/jpeg",
       },
     ],
@@ -78,10 +78,6 @@ export const metadata: Metadata = {
     canonical: `${SITE.url}`,
   },
   other: {
-    "geo.region": "BR-SP",
-    "geo.placename": "Marília",
-    "geo.position": "-22.2103;-49.9399",
-    ICBM: "-22.2103, -49.9399",
     "theme-color": "#1A1614",
     "p:domain_verify": "880750888dee14eafd9092943bb81f49",
   },
@@ -103,24 +99,10 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": `${SITE.url}/#organization`,
-  name: "Loja de Móveis Marília",
+  name: "Loja de Móveis Brasil",
   url: SITE.url,
   logo: `${SITE.url}/logo.svg`,
-  description: "Loja de móveis premium em Marília SP com frete grátis. Especialistas em móveis planejados, sofás, cozinhas e home office.",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "Av. das Esmeraldas, Próximo ao nº 2700 - Jardim Tangará",
-    addressLocality: "Marília",
-    addressRegion: "SP",
-    postalCode: "17516-000",
-    addressCountry: "BR",
-  },
-  contactPoint: {
-    "@type": "ContactPoint",
-    telephone: "+55-14-99603-3296",
-    contactType: "sales",
-    availableLanguage: ["Portuguese"],
-  },
+  description: "Portal independente de curadoria de móveis e eletrodomésticos. Redirecionamos para as melhores ofertas do Mercado Livre e Shopee.",
   sameAs: [
     "https://www.instagram.com/lojademoveismarilia/",
     "https://www.facebook.com/lojademoveismarilia",
@@ -133,9 +115,9 @@ const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "@id": `${SITE.url}/#website`,
-  name: "Loja de Móveis Marília",
+  name: "Loja de Móveis Brasil",
   url: SITE.url,
-  description: "Loja de móveis premium em Marília SP. Frete grátis, curadoria exclusiva e guias de design.",
+  description: "Portal de curadoria de móveis e eletrodomésticos. Encontre as melhores ofertas do Mercado Livre e Shopee em um só lugar.",
   inLanguage: "pt-BR",
   potentialAction: {
     "@type": "SearchAction",
@@ -196,7 +178,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
               </span>
               <span className="font-mono font-semibold tracking-wide"></span>
-              <span className="hidden sm:inline text-[#F5F0E8]/70"> Móveis selecionados Por um Montador de Móveis Profissional</span>
+              <span className="hidden sm:inline text-[#F5F0E8]/70"> Portal independente de curadoria | Compare ofertas do Mercado Livre e Shopee</span>
             </div>
           </div>
         </div>

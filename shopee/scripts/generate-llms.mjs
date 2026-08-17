@@ -305,7 +305,7 @@ function generateFAQ(categories) {
   ];
   categories.forEach(cat => {
     faq.push({ id: `cat-${cat.slug}-1`, question: `Qual é o melhor material para ${cat.label}?`, answer: `Para ${cat.label}, recomenda-se MDF para acabamentos superiores ou MDP para economia. Madeira macica oferece durabilidade superior.` });
-    faq.push({ id: `cat-${cat.slug}-2`, question: `Onde encontrar ${cat.label} com bom custo-benefício?`, answer: `No Móveis Marília você encontra opções filtradas por preço, comparando vendedores do Mercado Livre e Shopee.` });
+    faq.push({ id: `cat-${cat.slug}-2`, question: `Onde encontrar ${cat.label} com bom custo-benefício?`, answer: `No Móveis Brasil você encontra opções filtradas por preço, comparando vendedores do Mercado Livre e Shopee.` });
   });
   return faq;
 }
@@ -661,7 +661,7 @@ async function generateFiles() {
   fs.writeFileSync(path.join(publicDir, 'llms-full.txt'), generateLlmsFullTxt(SITE, categories, guides, products, pages, entities));
   fs.writeFileSync(path.join(publicDir, 'llms-index.json'), JSON.stringify(generateLlmsIndexJson(SITE, categories, guides, products, pages, stats, entities, searchIntents, clusters, opps), null, 2));
   fs.writeFileSync(path.join(publicDir, 'robots.txt'), generateRobotsTxt(SITE));
-  fs.writeFileSync(path.Ajoin(publicDir, 'sitemap.xml'), generateSitemap(SITE, categories, guides, products, pages));
+  fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), generateSitemap(SITE, categories, guides, products, pages));
   fs.writeFileSync(path.join(publicDir, 'content-opportunities.json'), JSON.stringify(opps, null, 2));
 
   console.log('✅ Arquivos de SEO gerados com sucesso!');

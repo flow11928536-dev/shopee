@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const modifiedDate = (guide as unknown as Record<string, unknown>).dateModified as string || new Date().toISOString().split("T")[0];
 
   const optimizedTitle = guide.seoTitle.length > 60
-   ? `${guide.seoTitle.substring(0, 50)} | Móveis Marília`
+   ? `${guide.seoTitle.substring(0, 50)} | Móveis Brasil`
     : guide.seoTitle;
 
   let optimizedDescription = guide.seoDescription;
@@ -70,8 +70,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "article",
       publishedTime: publishedDate,
       modifiedTime: modifiedDate,
-      authors: ["Móveis Marília"],
-      siteName: "Móveis Marília",
+      authors: ["Móveis Brasil"],
+      siteName: "Móveis Brasil",
       locale: "pt_BR",
       images: [
         {
@@ -89,16 +89,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: optimizedTitle,
       description: optimizedDescription,
       images: [guide.heroImage],
-      creator: "@moveismarilia",
-      site: "@moveismarilia",
+      creator: "@moveisbrasil",
+      site: "@moveisbrasil",
     },
     other: {
       "article:published_time": publishedDate,
       "article:modified_time": modifiedDate,
       "article:author": SITE.name,
       "article:section": guide.keyword || "Móveis",
-      "geo.region": "BR-SP",
-      "geo.placename": "Marília",
     },
   };
 }
@@ -331,11 +329,11 @@ export default async function GuidePage({ params }: Props) {
          },
       publisher: {
         "@type": "Organization",
-        name: "Loja de Móveis Marília",
-        url: "https://www.lojademoveismarilia.com.br",
+        name: "Móveis Brasil",
+        url: SITE.url,
         logo: {
           "@type": "ImageObject",
-          url: "https://www.lojademoveismarilia.com.br/logo.svg",
+          url: `${SITE.url}/logo.svg`,
         },
       },
       mainEntityOfPage: {
@@ -464,7 +462,7 @@ export default async function GuidePage({ params }: Props) {
       <article className="mx-auto max-w-3xl space-y-12 px-4 py-12 sm:px-6">
         <TableOfContents blocks={guide.blocks} />
 
-               {guide.blocks.map((block, i) => {
+        {guide.blocks.map((block, i) => {
           if (block.type === "text") return <TextBlock key={i} block={block} />;
           if (block.type === "callout") return <Callout key={i} block={block} />;
           if (block.type === "video") return <VideoBlock key={i} block={block} />;
@@ -477,6 +475,7 @@ export default async function GuidePage({ params }: Props) {
                   category={block.category}
                   slugs={block.slugs}
                   limit={block.limit}
+                  gridClassName="grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3"
                 />
               </div>
             </div>

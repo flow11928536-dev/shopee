@@ -1,9 +1,9 @@
 {
   "site": {
-    "name": "Loja de Móveis Marília",
+    "name": "Loja de Móveis Brasil",
     "url": "https://www.lojademoveismarilia.com.br",
-    "description": "Curadoria de móveis e eletrodomésticos de alto padrão com os melhores preços do Mercado Livre e Shopee. Guias honestos e ofertas selecionadas.",
-    "lastUpdated": "2026-08-15T01:08:29.952Z"
+    "description": "Portal de curadoria de móveis e eletrodomésticos com as melhores ofertas do Mercado Livre e Shopee. Guias honestos, comparação de preços e ofertas selecionadas para todo o Brasil.",
+    "lastUpdated": "2026-08-17T01:35:21.004Z"
   },
   "categories": [
     {
@@ -740,8 +740,8 @@
     "totalGuides": 52,
     "totalPages": 6,
     "totalProducts": 176,
-    "generatedAt": "2026-08-15T01:08:29.950Z",
-    "lastUpdated": "2026-08-15T01:08:29.952Z"
+    "generatedAt": "2026-08-17T01:35:21.003Z",
+    "lastUpdated": "2026-08-17T01:35:21.004Z"
   },
   "entities": {
     "materials": [

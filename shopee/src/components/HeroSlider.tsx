@@ -36,7 +36,7 @@ const slides: Slide[] = [
   },
   {
     image:
-      "/banners/loja-dem-moveis-usados-em-marilia.webp",
+      "/banners/banner-quarto-promocao.webp",
       imageMobile: "/banners/banner-mobile-loja-de-moveis-03.avif",
     alt: "Durma melhor sem gastar uma fortuna",
     title: "Durma melhor sem gastar uma fortuna",
@@ -44,7 +44,7 @@ const slides: Slide[] = [
   },
   {
     image:
-      "/banners/moveis-para-escritorio-em-marilia-sao-paulo.webp",
+      "/banners/banner-home-office-promocao.webp",
       imageMobile: "/banners/banner-mobile-loja-de-moveis-04.avif",
     alt: "Trabalhe em casa com estilo e conforto",
     title: "Trabalhe em casa com estilo e conforto",

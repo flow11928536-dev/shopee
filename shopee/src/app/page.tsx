@@ -29,96 +29,86 @@ const CATEGORY_BANNERS: Record<string, string> = {
   sapateiras: "/banners/sapateira-giratoria-com-espelho.webp",
   poltronas: "/banners/poltrona-veludo-rosa-boucle.webp",
   banquetas: "/banners/banqueta-veludo-rosa-penteadeira.webp",
-  "moveis-gamers": "/banners/moveis-gamers.webp", // <-- ADICIONA ESSE
-  gamers: "/banners/moveis-gamers.webp", // <-- e esse também por garantia
+  "moveis-gamers": "/banners/moveis-gamers.webp",
+  gamers: "/banners/moveis-gamers.webp",
 };
 
 const heroBanner = "/imagens/estante-home-soberano-227cm-led-marrom-gelius-90-polegadas.webp";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  title: "Loja de Móveis Marília SP | Loja Premium com Frete Grátis",
-  description: "Loja de móveis em Marília SP com frete grátis. Sofás, cozinhas planejadas, guarda-roupas, penteadeiras camarim e home office. Curadoria premium com até 50% OFF. Compre online!",
-  keywords: ["móveis marília","loja de móveis marília sp","sofá marília","guarda roupa marília","cozinha planejada marília","penteadeira camarim marília"].join(", "),
+  title: "Móveis Online: Compare Sofás, Guarda-Roupas, Cozinhas e Ofertas em Todo o Brasil",
+  description: "Portal de curadoria de móveis com as melhores ofertas do Mercado Livre e Shopee. Compare sofás, guarda-roupas, cozinhas, racks e quartos completos com entrega para todo o Brasil.",
+  keywords: ["móveis online", "sofá online", "guarda roupa online", "cozinha planejada", "móveis para casa", "loja de móveis online", "compare móveis"].join(", "),
   alternates: { canonical: `${SITE.url}` },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },
   openGraph: {
-    title: "Loja de Móveis Marília SP | Loja Premium com Frete Grátis em Marília",
-    description: "Loja de móveis em Marília SP com frete grátis. Sofás, cozinhas planejadas, penteadeiras camarim e home office com curadoria premium e até 50% OFF.",
-    url: SITE.url, siteName: "Loja de Móveis Marília",
-    images: [{ url: heroBanner, secureUrl: heroBanner, width: 1600, height: 900, alt: "Loja de Móveis Marília", type: "image/jpeg" }],
-    type: "website", locale: "pt_BR",
+    title: "Móveis Online: Compare Modelos, Preços e Ofertas em Todo o Brasil",
+    description: "Portal de curadoria de móveis com ofertas exclusivas do Mercado Livre e Shopee. Compare sofás, guarda-roupas, cozinhas e mais. Entrega para todo o Brasil.",
+    url: SITE.url,
+    siteName: "Loja de Móveis Brasil",
+    images: [{ url: heroBanner, secureUrl: heroBanner, width: 1600, height: 900, alt: "Loja de Móveis Brasil - portal de curadoria de móveis", type: "image/webp" }],
+    type: "website",
+    locale: "pt_BR",
   },
-  twitter: { card: "summary_large_image", title: "Loja de Móveis Marília SP | Loja Premium com Frete Grátis", description: "Sofás, cozinhas planejadas, guarda-roupas, penteadeiras camarim e home office em Marília SP.", images: [heroBanner] },
+  twitter: { card: "summary_large_image", title: "Móveis Online: Compare Modelos, Preços e Ofertas", description: "Portal de curadoria de móveis com as melhores ofertas do Mercado Livre e Shopee. Entrega para todo o Brasil.", images: [heroBanner] },
 };
 
 export const viewport = { width: "device-width", initialScale: 1, maximumScale: 5, themeColor: "#1a1612" };
 
-const storeSchema = {
-  "@context": "https://schema.org", "@type": "FurnitureStore", "@id": `${SITE.url}/#store`,
-  name: "Loja de Móveis Marília", url: SITE.url, description: "Loja de móveis premium em Marília SP com frete grátis.", logo: { "@type": "ImageObject", url: `${SITE.url}/logo.svg`, width: 512, height: 512 }, image: heroBanner,
-  founder: { "@type": "Person", "@id": "${SITE.url}/sobre/#person", name: "Francisco Carlos Santana" },
-  priceRange: "R$ 500 - R$ 15.000", telephone: "(14) 99603-3296",
-  address: { "@type": "PostalAddress", streetAddress: "Av. das Esmeraldas, Próximo ao nº 2700 - Jardim Tangará,", addressLocality: "Marília", addressRegion: "SP", postalCode: "17516-000", addressCountry: "BR" },
-  geo: { "@type": "GeoCoordinates", latitude: -22.2139, longitude: -49.9458 },
-  areaServed: ["Marília", "Bauru", "Ourinhos", "Assis", "Tupã"],
-  aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "523", bestRating: "5", worstRating: "1" },
-  openingHoursSpecification: [{ "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], opens: "00:00", closes: "23:59" }],
-  paymentAccepted: ["Cartão de Crédito", "Boleto", "Pix", "Transferência"],
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": `${SITE.url}/#organization`,
+  name: "Loja de Móveis Brasil",
+  url: SITE.url,
+  description: "Portal independente de curadoria de móveis e eletrodomésticos. Selecionamos as melhores ofertas do Mercado Livre e Shopee para você comparar e comprar com segurança.",
+  logo: { "@type": "ImageObject", url: `${SITE.url}/logo.svg`, width: 512, height: 512 },
+  areaServed: [
+    { "@type": "Country", name: "Brasil" }
+  ],
 };
 
-const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Início", item: SITE.url }, { "@type": "ListItem", position: 2, name: "Loja de Móveis Marília SP", item: `${SITE.url}/loja-de-moveis-marilia` }] };
-
 const faqSchema = {
-  "@context": "https://schema.org", "@type": "FAQPage",
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
   mainEntity: [
-    { "@type": "Question", name: "Qual loja de móveis em Marília SP tem frete grátis?", acceptedAnswer: { "@type": "Answer", text: "A Loja de Móveis Marília oferece frete grátis para toda a região de Marília SP em compras acima de R$ 500,00." } },
-    { "@type": "Question", name: "Quais tipos de móveis a Loja de Móveis Marília vende?", acceptedAnswer: { "@type": "Answer", text: "Vendemos sofás, cozinhas planejadas, guarda-roupas, penteadeiras camarim, móveis para home office, móveis para bebê, estudantes e muito mais." } },
-    { "@type": "Question", name: "A Loja de Móveis Marília entrega em toda a região de Marília?", acceptedAnswer: { "@type": "Answer", text: "Sim, entregamos em Marília e região. Consulte nossas condições de frete para outras cidades de São Paulo." } },
-    { "@type": "Question", name: "Qual a diferença entre MDF e MDP nos móveis?", acceptedAnswer: { "@type": "Answer", text: "O MDF é homogêneo e denso, perfeito para cortes curvos e acabamentos em laca. O MDP possui camadas internas de maior espessura, oferecendo excelente resistência estrutural contra empenamentos e peso." } },
+    { "@type": "Question", name: "Como funciona a compra?", acceptedAnswer: { "@type": "Answer", text: "Você escolhe o móvel no portal e finaliza diretamente no Mercado Livre ou Shopee, com frete, pagamento e garantia informados pelo vendedor no marketplace." } },
+    { "@type": "Question", name: "Vocês entregam em todo o Brasil?", acceptedAnswer: { "@type": "Answer", text: "Sim. O frete e o prazo são definidos pelo vendedor no Mercado Livre ou Shopee e variam conforme seu CEP, em qualquer estado do país. Você confere tudo no checkout ao clicar em Ver Oferta." } },
+    { "@type": "Question", name: "Qual a diferença entre MDF e MDP?", acceptedAnswer: { "@type": "Answer", text: "MDF é mais homogêneo e permite acabamentos curvos e laqueados. MDP tem boa resistência estrutural para prateleiras e bases. Ambos são comuns em móveis de qualidade." } },
   ],
 };
 
 export default function HomePage() {
   return (
     <div className="bg-[#FAF8F5] text-[#1E1B18] antialiased selection:bg-[#C5A880]/30 selection:text-[#1E1B18] overflow-x-hidden font-sans">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(storeSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <h1 className="sr-only">Loja de Móveis Marília - Loja de Móveis em Marília SP | Design, Curadoria e Frete Grátis</h1>
 
       <main className="relative">
         <HeroSlider />
 
-        {/* ===== BANNER SUTIL PROFISSIONAL - VERSÃO CORRIGIDA ===== */}
-        <div className="mx-auto max-w-[1400px] px-4 md:px-8 mt-6">
-          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 rounded-2xl border border-neutral-200 bg-white px-5 py-4 shadow-[0_4px_20px_rgba(0,0,0,0.04)] sm:px-6">
-            <div className="flex items-center gap-4">
-              <span className="hidden sm:flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#F4F1EC] text-[13px]">✦</span>
-              <div>
-                <p className="text-[13px] font-medium tracking-tight sm:text-[14px] leading-tight">
-                  Novo: O Cantinho Que Toda Mulher Merece <span className="font-light text-neutral-500 hidden sm:inline">— penteadeiras camarim e sapateiras mais vendidas</span>
-                </p>
-                <p className="mt-0.5 text-[11px] uppercase tracking-widest text-neutral-400">Curadoria com as melhores ofertas • 10x sem juros</p>
-              </div>
-            </div>
-            <Link href="/cantinho-que-toda-mulher-merece" className="shrink-0 self-stretch sm:self-auto flex items-center justify-center rounded-full bg-[#1E1B18] px-6 py-2.5 text-[11px] font-semibold uppercase tracking-widest text-white transition hover:bg-black">
-              VER PREÇO
-            </Link>
+        <section className="mx-auto max-w-6xl px-4 md:px-8 pt-8 md:pt-10">
+          <div className="max-w-3xl">
+            <h1 className="text-4xl leading-[1.08] tracking-tight font-serif font-light text-[#1E1B18] md:text-6xl">
+              Móveis online: <span className="italic font-normal">compare modelos, preços e ofertas em todo o Brasil</span>
+            </h1>
+            <p className="mt-3 max-w-2xl text-base leading-relaxed text-neutral-600 md:text-lg">
+              Portal de curadoria independente com as melhores ofertas de móveis e eletrodomésticos do Mercado Livre e Shopee. Compare sofás, guarda-roupas, cozinhas, racks, mesas e quartos completos com entrega para todo o Brasil.
+            </p>
+            <p className="mt-3 text-xs uppercase tracking-widest text-neutral-400">
+              Portal independente • Preço e compra no marketplace
+            </p>
           </div>
-        </div>
+        </section>
 
-        <div className="mx-auto max-w-[1400px] space-y-10 px-4 py-8 md:space-y-14 md:px-8 md:py-12">
-          <section aria-label="Ambientes e Categorias" className="relative">
-            <div className="mb-6 flex flex-col gap-3 md:flex-row md:items-end md:justify-between animate-fade-up">
-              <div>
-                <span className="text-xs font-semibold uppercase tracking-[0.2em] text-[#C5A880] font-mono">Ambientes planejados</span>
-                <h2 className="mt-2 text-3xl font-light tracking-tight text-[#1E1B18] font-serif sm:text-4xl md:text-5xl">Encontre por <span className="italic font-normal">espaço</span></h2>
-              </div>
-              <p className="max-w-sm text-sm text-neutral-500 md:text-right">Linhas completas pensadas para otimizar espaço e elevar a estética do seu lar.</p>
+        <div className="mx-auto max-w-6xl space-y-12 px-4 py-8 md:space-y-16 md:px-8 md:py-10">
+          <section aria-label="Categorias principais">
+            <div className="mb-4 flex items-end justify-between">
+              <h2 className="text-xl font-light font-serif md:text-2xl">Navegue por categoria</h2>
+              <span className="hidden text-xs uppercase tracking-widest text-neutral-400 md:block">Entrega para todo o Brasil</span>
             </div>
-
-            <div className="relative mb-4 rounded-2xl border border-neutral-200/50 bg-[#F4F1EC]/40 p-3 backdrop-blur-sm sm:p-4 md:p-5 md:mb-5 animate-fade-up" style={{ animationDelay: '0.1s' }}>
+            <div className="relative rounded-2xl border border-neutral-200/50 bg-[#F4F1EC]/40 p-3 backdrop-blur-sm sm:p-4 md:p-5">
               <CategoryCarousel
                 items={allCategories.map((cat) => ({
                   slug: cat,
@@ -127,120 +117,119 @@ export default function HomePage() {
                 }))}
               />
             </div>
-
-            <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:auto-rows-[220px] md:gap-4">
-              <Link href="/categoria/sofas" className="group relative flex h-[320px] w-full overflow-hidden rounded-2xl border border-neutral-200 md:col-span-2 md:row-span-2 md:h-full animate-fade-up" style={{ animationDelay: '0.2s' }}>
-                <Image src="/banners/sofa-canto-luna-organico-265cm-bege-claro-celflex.webp" alt="Sofás e Salas de Estar Premium" fill sizes="(max-width: 768px) 100vw, 66vw" className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-105" priority />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
-                <div className="relative z-10 flex h-full flex-col justify-end p-6 md:p-10">
-                  <span className="text-xs font-semibold uppercase tracking-[0.2em] text-[#C5A880] font-mono">Conforto & Design</span>
-                  <h3 className="mt-2 text-2xl font-light text-white font-serif md:text-4xl">Sofás & <span className="italic">Salas</span></h3>
-                  <p className="mt-1 max-w-sm text-sm text-white/80">Peças modulares, estofados premium e muito mais.</p>
-                  <span className="mt-4 inline-flex h-10 w-fit items-center gap-2 rounded-full bg-white px-5 text-xs font-semibold uppercase tracking-wider text-[#1E1B18] transition-all group-hover:gap-3 group-hover:bg-[#C5A880] font-mono">Ver Coleção<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M1 7h12m0 0L7 1m6 6L7 13" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
-                </div>
-              </Link>
-
-              <Link href="/categoria/cozinhas" className="group relative flex h-[220px] w-full overflow-hidden rounded-2xl border border-neutral-200 animate-fade-up" style={{ animationDelay: '0.3s' }}>
-                <Image src="/banners/cozinhas.avif" alt="Cozinhas Planejadas" fill sizes="33vw" className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-105" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
-                <div className="relative z-10 flex h-full flex-col justify-end p-5 md:p-6"><h3 className="text-xl font-light text-white font-serif">Cozinhas</h3><span className="mt-1 text-xs text-white/80 font-mono">Ver mais →</span></div>
-              </Link>
-
-              <Link href="/categoria/guarda-roupas" className="group relative flex h-[220px] w-full overflow-hidden rounded-2xl border border-neutral-200 animate-fade-up" style={{ animationDelay: '0.4s' }}>
-                <Image src="/banners/quarto-completo_desk-400px.avif" alt="Quartos Completos" fill sizes="33vw" className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-105" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
-                <div className="relative z-10 flex h-full flex-col justify-end p-5 md:p-6"><h3 className="text-xl font-light text-white font-serif">Quartos</h3><span className="mt-1 text-xs text-white/80 font-mono">Ver mais →</span></div>
-              </Link>
-            </div>
           </section>
 
-          <section className="space-y-8" aria-label="Produtos por categoria">
-            <div className="animate-fade-up">
-              <ProductGrid kicker="O Cantinho Que Toda Mulher Merece" title="Penteadeiras Camarim" subtitle="Branca com espelho e banqueta, para quarto pequeno e escrivaninha 2 em 1 - as mais vendidas" category="penteadeiras" limit={15} gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5" />
-              <div className="mt-4 text-center"><Link href="/cantinho-que-toda-mulher-merece" className="inline-block rounded-full border border-stone-900 px-8 py-3 text-[11px] uppercase tracking-widest hover:bg-stone-900 hover:text-white transition">Ver todos os cantinhos →</Link></div>
-            </div>
-
-            <div className="animate-fade-up"><ProductGrid kicker="Conforto e Estilo" title="Cabeceiras" subtitle="Cabeceiras para todos os estilos de quarto" category="cabeceiras" limit={15} gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5" /></div>
-            <div className="animate-fade-up"><ProductGrid kicker="Conforto e Estilo" title="Sofás" subtitle="Sofás de canto, modulados e retos para todos os espaços" category="sofas" limit={15} gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5" /></div>
-            <div className="animate-fade-up"><ProductGrid kicker="Planejados para seu lar" title="Cozinhas" subtitle="Armários, balcões e conjuntos completos" category="cozinhas" limit={15} gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5" /></div>
-            <div className="animate-fade-up"><ProductGrid kicker="Organização e Design" title="Guarda-Roupas" subtitle="Modelos de casal, solteiro e infantil" category="guarda-roupas" limit={15} gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5" /></div>
-            <div className="animate-fade-up"><ProductGrid kicker="Tecnologia e Estilo" title="Painéis e Racks" subtitle="Painéis para TV com LED, racks e estantes" category="paineis" limit={15} gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5" /></div>
-            <div className="animate-fade-up"><ProductGrid kicker="Organização que é decor" title="Sapateiras Giratórias" subtitle="Com espelho, 12 pares, banco 2 em 1 - as mais buscadas" category="sapateiras" limit={15} gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5" /></div>
-            <div className="animate-fade-up"><ProductGrid kicker="Curadoria Exclusiva" title="Eletrodomésticos" subtitle="Liquidificadores, micro-ondas, geladeiras, air fryers e ar condicionado" category="eletrodomesticos" limit={15} gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5" /></div>
-          </section>
-
-          <section className="relative rounded-[2rem] border border-neutral-200/60 bg-white/30 p-6 backdrop-blur-md md:p-10 shadow-[0_8px_30px_rgb(0,0,0,0.04)] animate-fade-up">
-            <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12">
+          <div className="flex flex-col items-start justify-between gap-3 rounded-2xl border border-neutral-200 bg-white px-5 py-4 shadow-[0_4px_20px_rgba(0,0,0,0.04)] sm:flex-row sm:items-center sm:px-6">
+            <div className="flex items-center gap-4">
+              <span className="hidden h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#F4F1EC] text-lg sm:flex">✦</span>
               <div>
-                <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#C5A880] font-mono">Nossa Essência</span>
-                <h2 className="mt-3 text-3xl font-light leading-tight text-[#1E1B18] font-serif md:text-4xl">Curadoria de móveis em <span className="italic">Marília SP</span></h2>
-                <p className="mt-4 text-base leading-relaxed text-neutral-600">Acreditamos que design autoral e acessibilidade financeira andam de mãos dadas. Sem intermediários, conectamos você às melhores indústrias nacionais.</p>
-                <div className="mt-6 space-y-3">
-                  {[
-                    { t: "Curadoria Rígida", d: "Testamos estrutura e materiais de cada fabricante.", color: "border-l-[#C5A880]" },
-                    { t: "Logística Inteligente", d: "Entregas agendadas em Marília e municípios vizinhos.", color: "border-l-[#5E7A68]" },
-                    { t: "Atendimento Humanizado", d: "Suporte consultivo via WhatsApp com especialistas.", color: "border-l-[#8A5E68]" },
-                  ].map((diff) => (
-                    <div key={diff.t} className={`border-l-2 ${diff.color} bg-[#F4F1EC]/60 p-3 transition-all duration-300 hover:bg-[#F4F1EC] sm:p-4`}>
-                      <h4 className="text-sm font-semibold text-[#1E1B18] sm:text-base">{diff.t}</h4><p className="mt-1 text-sm text-neutral-500">{diff.d}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <div>
-                <h3 className="text-xl font-light text-[#1E1B18] font-serif mb-4">Guia de Compra & <span className="italic">Dúvidas</span></h3>
-                <div className="space-y-3">
-                  {[
-                    { q: "MDF ou MDP: qual a diferença?", a: "O MDF é homogêneo e denso, perfeito para cortes curvos e acabamentos em laca. O MDP possui camadas internas de maior espessura, oferecendo excelente resistência estrutural contra empenamentos e peso — ideal para bases, prateleiras e divisórias internas de armários." },
-                    { q: "Qual o melhor sofá para salas compactas?", a: "Sofás retráteis compactos ou modelos com pés aparentes (que trazem leveza visual) são ótimos. Priorize modelos com profundidade fechada abaixo de 95cm e braços finos (de 10cm a 15cm) para maximizar a área útil de assento." },
-                    { q: "Como funciona a política de frete grátis?", a: "Oferecemos frete gratuito para Marília-SP e condições altamente subsidiadas para cidades vizinhas (Bauru, Assis, Tupã, Ourinhos). A entrega é realizada por transportadoras parceiras especializadas no manuseio de móveis sensíveis." },
-                    { q: "Os móveis possuem garantia?", a: "Sim. Todos os móveis de nossa curadoria contam com garantia legal de 90 dias, além da garantia estendida direto de fábrica que pode chegar a até 1 ano para defeitos estruturais e de fabricação." }
-                  ].map((item) => (
-                    <details key={item.q} className="group rounded-xl border border-neutral-200 bg-white/50 p-4 transition-all duration-300 open:border-[#C5A880] open:bg-white">
-                      <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-sm font-medium text-[#1E1B18] sm:text-base">{item.q}<span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-neutral-300 text-[#1E1B18] transition-all duration-300 group-open:rotate-45 group-open:border-[#C5A880] group-open:bg-[#C5A880] group-open:text-white"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M6 1v10M1 6h10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/></svg></span></summary>
-                      <div className="mt-3 border-t border-neutral-100 pt-3 text-sm leading-relaxed text-neutral-600">{item.a}</div>
-                    </details>
-                  ))}
-                </div>
+                <p className="text-sm font-medium leading-tight tracking-tight sm:text-base">Penteadeiras camarim e sapateiras giratórias</p>
+                <p className="mt-0.5 text-xs uppercase tracking-widest text-neutral-400">Seleção para quartos pequenos</p>
               </div>
             </div>
+            <Link href="/cantinho-que-toda-mulher-merece" className="flex shrink-0 items-center justify-center self-stretch rounded-full bg-[#1E1B18] px-6 py-2.5 text-xs font-semibold uppercase tracking-widest text-white transition hover:bg-black sm:self-auto">
+              Ver modelos
+            </Link>
+          </div>
+
+          <section className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4">
+            <Link href="/categoria/sofas" className="group relative flex h-72 w-full overflow-hidden rounded-2xl border border-neutral-200 md:col-span-2 md:row-span-2 md:h-[500px]">
+              <Image src="/banners/sofa-canto-luna-organico-265cm-bege-claro-celflex.webp" alt="Sofás - canto, retrátil e modular" fill sizes="(max-width: 768px) 100vw, 66vw" className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-105" priority />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+              <div className="relative z-10 flex h-full flex-col justify-end p-6 md:p-10">
+                <span className="text-xs font-semibold uppercase tracking-[0.2em] text-[#C5A880]">Sala de estar</span>
+                <h3 className="mt-2 text-2xl font-light text-white md:text-4xl">Sofás</h3>
+                <p className="mt-1 max-w-sm text-sm text-white/80">Canto, retrátil, 2 e 3 lugares para comparar.</p>
+                <span className="mt-4 inline-flex h-10 w-fit items-center gap-2 rounded-full bg-white px-5 text-xs font-semibold uppercase tracking-wider text-[#1E1B18]">Ver todos os sofás →</span>
+              </div>
+            </Link>
+            <Link href="/categoria/cozinhas" className="group relative flex h-56 w-full overflow-hidden rounded-2xl border border-neutral-200 md:h-60">
+              <Image src="/banners/cozinhas.avif" alt="Cozinhas completas e compactas" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-105" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+              <div className="relative z-10 flex h-full flex-col justify-end p-5 md:p-6"><h3 className="text-xl font-light text-white">Cozinhas</h3><span className="mt-1 text-xs text-white/80">Ver todas →</span></div>
+            </Link>
+            <Link href="/categoria/guarda-roupas" className="group relative flex h-56 w-full overflow-hidden rounded-2xl border border-neutral-200 md:h-60">
+              <Image src="/banners/quarto-completo_desk-400px.avif" alt="Guarda-roupas casal e solteiro" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-105" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+              <div className="relative z-10 flex h-full flex-col justify-end p-5 md:p-6"><h3 className="text-xl font-light text-white">Guarda-Roupas</h3><span className="mt-1 text-xs text-white/80">Ver todos →</span></div>
+            </Link>
           </section>
 
-          <section className="rounded-2xl border border-neutral-200 bg-[#F4F1EC]/40 p-6 md:p-10 animate-fade-up">
-            <h3 className="text-center text-2xl font-light text-[#1E1B18] font-serif sm:text-3xl md:text-4xl">Logística Simplificada para <span className="italic font-normal">Marília e Região</span></h3>
-            <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 md:mt-8 md:grid-cols-4 md:gap-4">
+          <section className="space-y-10" aria-label="Ofertas em destaque">
+            <div className="flex items-end justify-between">
+              <h2 className="text-2xl font-light md:text-3xl">Ofertas para comparar</h2>
+              <span className="text-xs text-neutral-400">Entrega para todo o Brasil</span>
+            </div>
+
+            <div>
+              <ProductGrid kicker="Sofás" title="Sofás para sala pequena e grande" subtitle="Retráteis, de canto e modulados para comparar tamanho e conforto" category="sofas" limit={8} gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4" />
+              <div className="mt-4"><Link href="/categoria/sofas" className="inline-flex rounded-full border border-neutral-300 px-6 py-2.5 text-xs uppercase tracking-widest transition hover:border-[#1E1B18] hover:bg-[#1E1B18] hover:text-white">Ver todos os sofás</Link></div>
+            </div>
+
+            <div>
+              <ProductGrid kicker="Quartos" title="Guarda-roupas casal e solteiro" subtitle="6 portas, com espelho e compactos para comparar" category="guarda-roupas" limit={8} gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4" />
+              <div className="mt-4"><Link href="/categoria/guarda-roupas" className="inline-flex rounded-full border border-neutral-300 px-6 py-2.5 text-xs uppercase tracking-widest transition hover:border-[#1E1B18] hover:bg-[#1E1B18] hover:text-white">Ver todos os guarda-roupas</Link></div>
+            </div>
+
+            <div>
+              <ProductGrid kicker="Cozinhas" title="Cozinhas completas e compactas" subtitle="Com balcão, armários e kits para comparar" category="cozinhas" limit={8} gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4" />
+              <div className="mt-4"><Link href="/categoria/cozinhas" className="inline-flex rounded-full border border-neutral-300 px-6 py-2.5 text-xs uppercase tracking-widest transition hover:border-[#1E1B18] hover:bg-[#1E1B18] hover:text-white">Ver todas as cozinhas</Link></div>
+            </div>
+          </section>
+
+          <section className="rounded-[1.5rem] border border-neutral-200 bg-white p-6 md:p-8">
+            <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+              <div>
+                <h2 className="text-xl font-light md:text-2xl">Guias para escolher melhor</h2>
+                <p className="mt-1 text-sm text-neutral-500">Conteúdo prático para quem está comparando móveis.</p>
+              </div>
+              <Link href="/guias" className="w-fit rounded-full border border-neutral-200 px-5 py-2.5 text-xs uppercase tracking-widest transition hover:bg-[#1E1B18] hover:text-white">Ver todos os guias</Link>
+            </div>
+            <div className="mt-6 grid grid-cols-1 gap-3 md:grid-cols-3">
               {[
-                { step: "01", t: "Seleção Consultiva", d: "Navegue em nosso catálogo filtrado por qualidade técnica de produção." },
-                { step: "02", t: "Redirecionamento Seguro", d: "Finalize sua compra com as ofertas e condições de fábrica aplicadas." },
-                { step: "03", t: "Acompanhamento Ativo", d: "Receba atualizações do status de transporte direto pelo WhatsApp." },
-                { step: "04", t: "Entrega Garantida", d: "Receba de braços abertos seus novos produtos com frete grátis local." },
-              ].map((item) => (
-                <div key={item.step} className="group relative rounded-xl bg-white p-5 shadow-sm border border-neutral-200/50">
-                  <span className="absolute right-4 top-4 text-sm font-bold text-neutral-200 transition-colors group-hover:text-[#C5A880] font-mono sm:text-base">{item.step}</span>
-                  <h4 className="mt-3 text-sm font-semibold text-[#1E1B18] sm:text-base">{item.t}</h4><p className="mt-1 text-sm leading-relaxed text-neutral-500">{item.d}</p>
-                </div>
+                { title: "MDF ou MDP: qual escolher?", href: "/guia/mdf-ou-mdp", desc: "Diferenças práticas para guarda-roupa, cozinha e painel." },
+                { title: "Sofá para sala compacta", href: "/guia/sofa-para-sala-pequena", desc: "Medidas e modelos que otimizam espaço." },
+                { title: "Móveis da Shopee são bons?", href: "/guia/moveis-shopee-sao-bons", desc: "Quando vale a pena e o que verificar antes." },
+              ].map(card => (
+                <Link key={card.href} href={card.href} className="group rounded-xl border border-neutral-200 bg-[#FAF8F5] p-5 transition hover:border-[#C5A880]">
+                  <h3 className="text-base font-medium">{card.title}</h3>
+                  <p className="mt-1 text-sm text-neutral-500">{card.desc}</p>
+                  <span className="mt-3 inline-block text-xs uppercase tracking-widest group-hover:text-[#C5A880]">Ler guia →</span>
+                </Link>
               ))}
             </div>
-            <div className="mt-6 border-t border-neutral-300/60 pt-5 md:mt-8 md:pt-6">
-              <p className="text-center text-sm text-neutral-500">Atendemos com frota própria e equipe interna:</p>
-              <div className="mt-3 flex flex-wrap justify-center gap-2 text-[10px] uppercase tracking-wider text-neutral-400 font-mono sm:text-xs md:gap-3"><span>Centro</span> • <span>Jardim Tangará</span> • <span>Bairro Alto</span> • <span>Nova Marília</span> • <span>Jardim Itália</span> • <span>Bauru</span> • <span>Ourinhos</span> • <span>Assis</span> • <span>Tupã</span></div>
+          </section>
+
+          <section className="space-y-8">
+            <h2 className="text-xl font-light md:text-2xl">Mais opções para sua casa</h2>
+            <div>
+              <ProductGrid kicker="Painéis" title="Racks e painéis para TV" subtitle="Com LED e para até 75 polegadas" category="paineis" limit={4} gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-4" />
+              <div className="mt-3"><Link href="/categoria/paineis" className="text-xs uppercase tracking-widest text-neutral-500 hover:text-[#1E1B18]">Ver todos os painéis →</Link></div>
+            </div>
+            <div>
+              <ProductGrid kicker="Mesas" title="Mesas de jantar" subtitle="4, 6 cadeiras e compactas" category="mesas" limit={4} gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-4" />
+              <div className="mt-3"><Link href="/categoria/mesas" className="text-xs uppercase tracking-widest text-neutral-500 hover:text-[#1E1B18]">Ver todas as mesas →</Link></div>
+            </div>
+            <div>
+              <ProductGrid kicker="Cabeceiras" title="Cabeceiras casal e solteiro" subtitle="Estofadas e com baú" category="cabeceiras" limit={4} gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-4" />
+              <div className="mt-3"><Link href="/categoria/cabeceiras" className="text-xs uppercase tracking-widest text-neutral-500 hover:text-[#1E1B18]">Ver todas as cabeceiras →</Link></div>
             </div>
           </section>
 
-          <section className="relative overflow-hidden rounded-2xl bg-[#1E1B18] px-6 py-8 text-center text-[#FAF8F5] md:px-10 md:py-12 animate-fade-up">
-            <div className="absolute inset-0 bg-gradient-to-r from-[#C5A880]/10 to-transparent opacity-40 pointer-events-none" />
-            <div className="relative z-10 max-w-xl mx-auto">
-              <span className="text-xs font-bold tracking-[0.25em] uppercase text-[#C5A880] font-mono sm:text-sm">Clube de Benefícios</span>
-              <h3 className="mt-3 text-2xl font-light font-serif sm:text-3xl md:text-4xl">Inscreva-se e receba <span className="italic text-[#C5A880]">ofertas exclusivas</span></h3>
-              <p className="mt-3 text-sm text-neutral-400">Seja avisado sobre cupons regionais e a chegada de novos lotes de fábrica antes de todo mundo.</p>
-              <div className="mt-6 flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-                <input type="email" placeholder="Seu melhor e-mail" className="w-full h-11 px-5 rounded-full text-sm bg-neutral-900 border border-neutral-800 text-[#FAF8F5] placeholder:text-neutral-500 focus:outline-none focus:border-[#C5A880] transition-colors" />
-                <button className="h-11 px-8 rounded-full bg-[#C5A880] text-[#1E1B18] text-xs font-bold uppercase tracking-wider transition-all hover:scale-105 active:scale-95 font-mono whitespace-nowrap">Cadastrar</button>
-              </div>
+          <section className="rounded-2xl border border-neutral-200/60 bg-white/50 p-6 md:p-8">
+            <h2 className="text-xl font-light">Dúvidas frequentes</h2>
+            <div className="mt-5 grid gap-6 text-sm md:grid-cols-3">
+              <div><h3 className="font-medium">Como funciona a compra?</h3><p className="mt-1 leading-relaxed text-neutral-600">Você navega no portal e, ao clicar em Ver Oferta, é redirecionado para o Mercado Livre ou Shopee. Lá você vê preço final, frete para seu CEP e finaliza com segurança diretamente no marketplace.</p></div>
+              <div><h3 className="font-medium">Vocês entregam em todo o Brasil?</h3><p className="mt-1 leading-relaxed text-neutral-600">Sim! O frete é definido pelo vendedor no marketplace e chega em qualquer estado do país. Confira o valor exato no checkout do Mercado Livre ou Shopee informando seu CEP.</p></div>
+              <div><h3 className="font-medium">MDF ou MDP?</h3><p className="mt-1 leading-relaxed text-neutral-600">MDF é melhor para curvas e laca. MDP tem boa resistência para bases e prateleiras. Ambos são comuns em móveis de qualidade e aparecem bastante em nossas ofertas.</p></div>
             </div>
           </section>
 
-          <p className="text-center text-xs text-neutral-400 sm:text-sm">* Valores, disponibilidade e prazos de entrega estão sujeitos a confirmação no painel do parceiro logístico. Imagens puramente ilustrativas.</p>
+          <section className="border-t border-neutral-200/60 py-6 text-center">
+            <p className="mx-auto max-w-2xl text-xs leading-relaxed text-neutral-500">
+              <strong className="font-medium text-neutral-700">Transparência:</strong> Este é um portal independente de curadoria de móveis. Alguns links são de afiliado e podem gerar comissão, sem custo extra para você. A venda, entrega e garantia são realizadas pelo vendedor no Mercado Livre ou Shopee.
+            </p>
+          </section>
         </div>
       </main>
     </div>
