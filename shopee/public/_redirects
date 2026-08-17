@@ -1,6 +1,9 @@
 # ============================================================
 # CLOUDFLARE PAGES — REDIRECIONAMENTOS 301
 # ============================================================
+# Este arquivo substitui a função redirects() do next.config.js,
+# que NÃO funciona quando output: "export" está ativo.
+#
 # Formato: origem destino código
 # Processado de cima para baixo — primeira correspondência vence.
 # ============================================================
@@ -10,55 +13,6 @@
 /montadores         /montadores/marilia  301
 /index             /                   301
 /index.html        /                   301
-
-# ============================================================
-# REDIRECIONAMENTOS /confirmar-estoque/ → /produto/
-# ============================================================
-/confirmar-estoque/*   /produto/:splat   301
-
-# ============================================================
-# CATEGORIAS COM NOMES ERRADOS
-# ============================================================
-/categoria/quarto-completo      /categoria/quartos          301
-/categoria/escrivaninhas        /categoria/home-office      301
-/categoria/guarda-roupa-infantil /categoria/guarda-roupas   301
-/categoria/camas-infantil       /categoria/quartos          301
-/categoria/armarios             /categoria/guarda-roupas    301
-/categoria/estantes             /categoria/home-office      301
-/categoria/guarda-roupa-casal   /categoria/guarda-roupas    301
-
-# ============================================================
-# PÁGINAS QUE NÃO EXISTEM → HOME OU CATEGORIA CORRETA
-# ============================================================
-/ofertas                    /                           301
-/ofertas-mercado-livre      /                           301
-/setup-completo             /                           301
-/mesas-gamer                /categoria/gamer            301
-/cadeiras-gamer             /categoria/gamer            301
-
-# ============================================================
-# GUIAS QUE NÃO EXISTEM → /guias
-# ============================================================
-/guia/comparativo-lojas-moveis          /guias  301
-/guia/comprar-moveis-online             /guias  301
-/guia/cadeira-gamer-150kg-vs-200kg      /guias  301
-/guia/cozinha-compacta-6-portas         /guias  301
-/guia/moveis-para-kitnet                /guias  301
-/guia/mdf-ou-mdp-qual-a-diferenca       /guias  301
-/guia/mdp-guia-completo                 /guias  301
-/guia/mdf-guia-completo                 /guias  301
-/guia/cadeira-escritorio-estrutura      /guias  301
-/guia/cadeira-couro-ou-mesh             /guias  301
-/guia/como-comprar-moveis-lojas-100     /guias  301
-/guia/moveis-baratos-com-qualidade      /guias  301
-/guia/moveis-baratos-qualidade          /guias  301
-/guia/colchao-cama-box                  /guias  301
-/guia/rack-painel-tv-medidas            /guias  301
-
-# ============================================================
-# QUALQUER OUTRO /guia/* QUE NÃO EXISTA → /guias
-# ============================================================
-/guia/*                                 /guias  301
 
 # ===== Redirecionamentos de categorias antigas =====
 /cozinhas          /categoria/cozinhas        301
@@ -70,10 +24,13 @@
 /guia/o-que-e-mdp              /guia/mdf-vs-mdp-diferenca              301
 /guia/mdf-ou-mdp               /guia/mdf-vs-mdp-diferenca              301
 /guia/guarda-roupa-mdf-mdp     /guia/mdf-vs-mdp-diferenca              301
+/guia/como-limpar-moveis-mdf-mdp  /guia/como-restaurar-moveis-madeira  301
+/guia/limpar-moveis-mdf-mdp       /guia/como-restaurar-moveis-madeira  301
 /guia/como-limpar-moveis-madeira  /guia/como-restaurar-moveis-madeira  301
 /guia/cozinha-compacta            /guia/moveis-cozinha-pequena          301
 
 # ===== Produtos mortos — redirecionar pra categoria relevante =====
+# Estes produtos saíram do catálogo. O redirect preserva link equity.
 /produto/mesa-jantar-retangular-vitalic-6-cadeiras-madeira-maciça-vegas-viero   /categoria/mesas   301
 /produto/jogo-mesa-dobravel-70x70-imbuia-4-cadeiras-madeira-maciça               /categoria/mesas   301
 /produto/jogo-mesa-dobravel-70x70-4-cadeiras-preto-madeira-maciça-bistro         /categoria/mesas   301
@@ -81,5 +38,11 @@
 # ===== Categoria inexistente — redirecionar pra página estática =====
 /categoria/moveis-para-estudantes   /moveis-para-estudantes   301
 
+# ===== Trailing slash removal — Cloudflare Pages =====
+# Redireciona qualquer URL com barra final para sem barra
+# Ex: /guias/ → /guias
+/*/  /:splat  301
+
 # ===== Fallback 404 =====
-/*  /404.html  200
+# Garante que páginas inexistentes sirvam o 404.html com status 404
+/*  /404.html  404
