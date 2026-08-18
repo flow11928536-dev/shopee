@@ -221,10 +221,10 @@
   },
   {
     "type": "material-gap",
-    "material": "madeira macica",
+    "material": "madeira maciça",
     "gap": "Material não coberto em guias",
     "impact": "médio",
-    "suggestion": "Criar guia sobre 'Vantagens e desvantagens do madeira macica em móveis' ou 'madeira macica vs outros materiais: comparação completa'",
+    "suggestion": "Criar guia sobre 'Vantagens e desvantagens do madeira maciça em móveis' ou 'madeira maciça vs outros materiais: comparação completa'",
     "estimatedEffort": "médio",
     "priority": "média"
   },

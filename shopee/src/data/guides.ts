@@ -65,7 +65,7 @@ export const GUIDE_CLUSTERS: { cluster: number; titulo: string; slugs: string[] 
       "moveis-shopee-sao-bons",
       "como-comprar-moveis-ojas-100",
       "como-limpar-moveis-mdf-mdp",
-      "limpar-moveis-mdf-mdp",
+      //"limpar-moveis-mdf-mdp",//
       "colchao-cama-box",
 
     ],

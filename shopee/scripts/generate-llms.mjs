@@ -6,17 +6,44 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const publicDir = path.join(__dirname, '../public');
 
+// FIX 1: trailingSlash: true no next.config exige barra final em TODAS as URLs internas.
+// Sem a barra, o Google encontra um redirect 301 em cada URL do sitemap.
 function categoryUrl(base, slug) {
-  return `${base}/categoria/${slug}`;
+  return `${base}/categoria/${slug}/`;
 }
 function guideUrl(base, slug) {
-  return `${base}/guia/${slug}`;
+  return `${base}/guia/${slug}/`;
 }
 function pageUrl(base, slug) {
-  return `${base}/${slug}`;
+  return `${base}/${slug}/`;
 }
 function productUrl(base, slug) {
-  return `${base}/produto/${slug}`;
+  return `${base}/produto/${slug}/`;
+}
+
+// FIX 5: escape de caracteres especiais para XML válido (caso algum slug tenha & < > " ')
+function escapeXml(s) {
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
+// FIX 3: lastmod baseado na data real de modificação dos arquivos de dados,
+// não na data de hoje. Google perde confiança em lastmod que muda sem mudança de conteúdo.
+function getDataLastMod() {
+  try {
+    const files = [
+      path.join(__dirname, '../src/data/products.ts'),
+      path.join(__dirname, '../src/data/guides.ts'),
+    ];
+    const mtimes = files.map(f => fs.statSync(f).mtime.getTime());
+    return new Date(Math.max(...mtimes)).toISOString().split('T')[0];
+  } catch {
+    return new Date().toISOString().split('T')[0];
+  }
 }
 
 function extractEntities(products, guides) {
@@ -69,7 +96,7 @@ function extractEntities(products, guides) {
     if (envMatches) envMatches.forEach(e => entities.environments.add(e.toLowerCase()));
     const typeMatches = text.match(/\b(sofá?|guarda-roupa|cozinha|mesa|cadeira|painel|rack|cama|escrivaninha|estante|armário|balcão|cômoda|aparador|buffet|esqueleto|nicho|prateleira|divan|chaise|pufe|ottoma|bancada|balança|cesto|carrinho)\b/gi);
     if (typeMatches) typeMatches.forEach(t => entities.types.add(t.toLowerCase()));
-    const colorMatches = text.match(/\b(preto|branco|cinza|marrom|bege|creme|marfim|âmbar|noz|cerejeira|pinho|mogno|azul|verde|vermelho|amarelo|rosa|roxo|dourado|prata|metalizado)\b/gi);
+    const colorMatches = text.match(/\b(preto|branco|cinza|marrom|bege|creme|marfiv|âmbar|noz|cerejeira|pinho|mogno|azul|verde|vermelho|amarelo|rosa|roxo|dourado|prata|metalizado)\b/gi);
     if (colorMatches) colorMatches.forEach(c => entities.colors.add(c.toLowerCase()));
     const styleMatches = text.match(/\b(minimalista|moderno|contemporâneo|rústico|industrial|scandinavo|clássico|vintage|art decó|mid century|boho|provençal|colonial|neo clássico)\b/gi);
     if (styleMatches) styleMatches.forEach(s => entities.styles.add(s.toLowerCase()));
@@ -184,7 +211,7 @@ function generateContentOpportunities(categories, guides, products) {
       });
     }
   });
-  const materials = ['MDF', 'MDP', 'madeira macica', 'vidro temperado', 'aço inox', 'alumínio', 'couro sintético', 'linho'];
+  const materials = ['MDF', 'MDP', 'madeira maciça', 'vidro temperado', 'aço inox', 'alumínio', 'couro sintético', 'linho'];
   materials.forEach(mat => {
     const exists = guides.some(g =>
       g.h1?.toLowerCase().includes(mat.toLowerCase()) ||
@@ -260,7 +287,9 @@ function generateRichSummary(page, site) {
   return words.length > 120 ? words.slice(0, 120).join(' ') + '...' : summary;
 }
 
-function generateAINavigation(categories, guides, siteUrl) {
+function generateAINavigation(categories, guides, siteUrl, siteName) {
+  // FIX 4: recebe siteName para não hardcoded "Móveis Brasil"
+  const domain = siteUrl.split('//')[1];
   const navigation = {};
   categories.forEach(cat => {
     const relatedGuides = guides.filter(g => g.keyword?.includes(cat.slug) || g.h1?.toLowerCase().includes(cat.label.toLowerCase()));
@@ -270,7 +299,7 @@ function generateAINavigation(categories, guides, siteUrl) {
       guides: relatedGuides.map(g => ({ title: g.h1, url: guideUrl(siteUrl, g.slug), description: g.description || `Guia sobre ${g.h1}` })),
       faq: [
         { question: `Qual é o melhor ${cat.label} para comprar?`, answer: `Depende do seu orçamento e necessidades. Consulte nossos guias especializados.` },
-        { question: `Onde comprar ${cat.label} com bom preço?`, answer: `No ${siteUrl.split('//')[1]} você encontra as melhores ofertas do Mercado Livre e Shopee.` },
+        { question: `Onde comprar ${cat.label} com bom preço?`, answer: `No ${domain} você encontra as melhores ofertas do Mercado Livre e Shopee.` },
         { question: `Como escolher o ${cat.label} ideal?`, answer: `Considere ambiente, medidas, material preferido e funcionalidades.` }
       ],
       relatedTopics: relatedGuides.map(g => g.h1),
@@ -279,20 +308,22 @@ function generateAINavigation(categories, guides, siteUrl) {
   return navigation;
 }
 
-function generateFAQ(categories) {
+// FIX 4: recebe site para usar site.name em vez de "Móveis Brasil" hardcoded
+function generateFAQ(site, categories) {
   const faq = [
     { id: 'geral-1', question: 'Qual é a diferença entre MDF e MDP?', answer: 'MDF é feito de fibras finas, superfície lisa ideal para pintura. MDP usa partículas maiores, mais econômico mas menos resistente à umidade.' },
     { id: 'geral-2', question: 'Como escolher móveis para apartamento pequeno?', answer: 'Priorize peças multifuncionais, pés elevados, cores claras e materiais leves. Sofás-cama, mesas dobráveis e armários com portas de correr são ótimos.' }
   ];
   categories.forEach(cat => {
-    faq.push({ id: `cat-${cat.slug}-1`, question: `Qual é o melhor material para ${cat.label}?`, answer: `Para ${cat.label}, recomenda-se MDF para acabamentos superiores ou MDP para economia. Madeira macica oferece durabilidade superior.` });
-    faq.push({ id: `cat-${cat.slug}-2`, question: `Onde encontrar ${cat.label} com bom custo-benefício?`, answer: `No Móveis Brasil você encontra opções filtradas por preço, comparando vendedores do Mercado Livre e Shopee.` });
+    faq.push({ id: `cat-${cat.slug}-1`, question: `Qual é o melhor material para ${cat.label}?`, answer: `Para ${cat.label}, recomenda-se MDF para acabamentos superiores ou MDP para economia. Madeira maciça oferece durabilidade superior.` });
+    faq.push({ id: `cat-${cat.slug}-2`, question: `Onde encontrar ${cat.label} com bom custo-benefício?`, answer: `No ${site.name} você encontra opções filtradas por preço, comparando vendedores do Mercado Livre e Shopee.` });
   });
   return faq;
 }
 
+// FIX 6: links com descrição após ":" (spec do llms.txt recomenda annotated links)
 function generateLlmsTxt(site, categories, guides, entities) {
-  const nav = generateAINavigation(categories, guides, site.url);
+  const nav = generateAINavigation(categories, guides, site.url, site.name);
   const lines = [
     `# ${site.name}`,
     `> ${site.description}`,
@@ -306,15 +337,15 @@ function generateLlmsTxt(site, categories, guides, entities) {
     '- Setup Gamer e móveis para gamers',
     '',
     '## Categorias',
-    ...categories.map(cat => `- [${cat.label}](${cat.url})`),
+    ...categories.map(cat => `- [${cat.label}](${cat.url}): ${cat.description}`),
     '',
     '## Guias',
-    ...guides.map(g => `- [${g.h1}](${guideUrl(site.url, g.slug)})`),
+    ...guides.map(g => `- [${g.h1}](${guideUrl(site.url, g.slug)}): ${g.description || 'Guia completo sobre ' + g.h1}`),
     '',
     '## Páginas Especiais',
-    `- [Guia de Móveis Gamer](${site.url}/moveis-gamer)`,
-    `- [Móveis para Estudantes](${site.url}/moveis-para-estudantes)`,
-    `- [Móveis para Bebê](${site.url}/moveis-para-bebe)`,
+    `- [Guia de Móveis Gamer](${site.url}/moveis-gamer/): Guia completo para montar seu setup gamer com as melhores ofertas`,
+    `- [Móveis para Estudantes](${site.url}/moveis-para-estudantes/): Móveis compactos e funcionais para universitários`,
+    `- [Móveis para Bebê](${site.url}/moveis-para-bebe/): Móveis seguros e adequados para o quarto do bebê`,
     '',
     '## AI Navigation',
     ...Object.entries(nav).map(([slug, n]) => `### ${n.category}\nURL: ${n.categoryUrl}\nGuias:\n${n.guides.map(g => `- ${g.title}`).join('\n')}`),
@@ -370,7 +401,7 @@ function generateLlmsIndexJson(site, categories, guides, products, pages, stats,
       wordCount: (g.content || '').split(' ').length,
     })),
     pages: pages,
-    specialPages: [{ slug: 'moveis-gamer', title: 'Guia de Móveis Gamer', url: `${site.url}/moveis-gamer`, description: 'Guia completo para montar seu setup gamer com as melhores ofertas do Mercado Livre e Shopee.' }],
+    specialPages: [{ slug: 'moveis-gamer', title: 'Guia de Móveis Gamer', url: `${site.url}/moveis-gamer/`, description: 'Guia completo para montar seu setup gamer com as melhores ofertas do Mercado Livre e Shopee.' }],
     statistics: stats,
     entities: entities,
     searchIntents: searchIntents,
@@ -380,29 +411,28 @@ function generateLlmsIndexJson(site, categories, guides, products, pages, stats,
 }
 
 // ============================================================
-// FUNÇÃO CORRIGIDA - SEM mdf-mdp E area-externa
+// SITEMAP CORRIGIDO
 // ============================================================
 function generateSitemap(site, categories, guides, products, pages) {
   const urls = [];
+  // FIX 3: lastmod real baseado nos arquivos de dados (não hoje)
+  const contentLastMod = getDataLastMod();
   const today = new Date().toISOString().split('T')[0];
 
-  // ✅ LISTA COMPLETA DE EXCLUÍDOS - NÃO GERAM /categoria/
+  // FIX 2: apenas categorias que NÃO têm página /categoria/[slug] real.
+  // As páginas especiais (moveis-gamer, moveis-para-bebe, moveis-para-estudantes)
+  // são servidas em rotas próprias e adicionadas manualmente abaixo.
+  // ANTES estava excluindo sofas, cozinhas, guarda-roupas, paineis, quartos, home-office — ERRO.
   const categoriasExcluidas = [
     'moveis-para-estudantes',
     'moveis-gamer',
     'moveis-para-bebe',
-    'area-externa',
-    'mdf-mdp',
-    'home-office',
-    'paineis',
-    'cozinhas',
-    'quartos',
-    'sofas',
-    'guarda-roupas',
   ];
 
   console.log(`📊 Gerando sitemap com ${products.length} produtos`);
+  console.log(`📅 lastmod de conteúdo: ${contentLastMod}`);
 
+  // Home usa hoje (mudança estrutural)
   urls.push({ loc: site.url, lastmod: today, changefreq: 'daily', priority: '1.0' });
 
   categories.forEach(cat => {
@@ -410,7 +440,8 @@ function generateSitemap(site, categories, guides, products, pages) {
       console.log(`   ⏭ Pulando categoria excluída: ${cat.slug}`);
       return;
     }
-    urls.push({ loc: cat.url, lastmod: today, changefreq: 'weekly', priority: '0.9' });
+    // FIX 3: lastmod = data real do conteúdo
+    urls.push({ loc: cat.url, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.9' });
   });
 
   guides.forEach(g => {
@@ -418,23 +449,28 @@ function generateSitemap(site, categories, guides, products, pages) {
       console.log(`   ⏭ Pulando guia que conflita com categoria: ${g.slug}`);
       return;
     }
-    urls.push({ loc: guideUrl(site.url, g.slug), lastmod: today, changefreq: 'monthly', priority: '0.8' });
+    urls.push({ loc: guideUrl(site.url, g.slug), lastmod: contentLastMod, changefreq: 'monthly', priority: '0.8' });
   });
 
   const paginasEspeciais = ['moveis-gamer', 'moveis-para-bebe', 'moveis-para-estudantes'];
   pages.forEach(p => {
     if (paginasEspeciais.includes(p.slug)) return;
-    urls.push({ loc: p.url, lastmod: today, changefreq: 'monthly', priority: '0.7' });
+    urls.push({ loc: p.url, lastmod: contentLastMod, changefreq: 'monthly', priority: '0.7' });
   });
 
-  urls.push({ loc: `${site.url}/moveis-gamer`, lastmod: today, changefreq: 'weekly', priority: '0.9' });
-  urls.push({ loc: `${site.url}/moveis-para-bebe`, lastmod: today, changefreq: 'weekly', priority: '0.8' });
-  urls.push({ loc: `${site.url}/moveis-para-estudantes`, lastmod: today, changefreq: 'weekly', priority: '0.8' });
+  // FIX 1: URLs com trailing slash
+  urls.push({ loc: `${site.url}/moveis-gamer/`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.9' });
+  urls.push({ loc: `${site.url}/moveis-para-bebe/`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.8' });
+  urls.push({ loc: `${site.url}/moveis-para-estudantes/`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.8' });
+  urls.push({ loc: `${site.url}/guias/`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.8' });
+
+
 
   products.forEach(p => {
-    urls.push({ loc: productUrl(site.url, p.slug), lastmod: today, changefreq: 'weekly', priority: '0.6' });
+    urls.push({ loc: productUrl(site.url, p.slug), lastmod: contentLastMod, changefreq: 'weekly', priority: '0.6' });
   });
 
+  // Dedup mantendo a prioridade mais alta
   const seen = new Map();
   for (const u of urls) {
     const existing = seen.get(u.loc);
@@ -450,10 +486,11 @@ function generateSitemap(site, categories, guides, products, pages) {
   console.log(`   - ${pages.length} páginas`);
   console.log(`   - ${products.length} produtos`);
 
+  // FIX 5: escapeXml no loc
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${finalUrls.map(u => `  <url>
-    <loc>${u.loc}</loc>
+    <loc>${escapeXml(u.loc)}</loc>
     <lastmod>${u.lastmod}</lastmod>
     <changefreq>${u.changefreq}</changefreq>
     <priority>${u.priority}</priority>
@@ -470,7 +507,8 @@ function generateRobotsTxt(site) {
     'User-agent: anthropic-ai', 'Allow: /llms.txt', 'Allow: /llms-full.txt', 'Allow: /llms-index.json', '',
     'User-agent: cohere-ai', 'Allow: /llms.txt', 'Allow: /llms-full.txt', 'Allow: /llms-index.json', '',
     'User-agent: CCBot', 'Allow: /llms.txt', 'Allow: /llms-full.txt', 'Allow: /llms-index.json', '',
-    'User-agent: FacebookBot', 'Allow: /', '', 'User-agent: Twitterbot', 'Allow: /', '', `Sitemap: ${site.url}/sitemap.xml`,
+    'User-agent: FacebookBot', 'Allow: /', '', 'User-agent: Twitterbot', 'Allow: /', '',
+    `Sitemap: ${site.url}/sitemap.xml`,
   ];
   return lines.join('\n');
 }

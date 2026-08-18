@@ -1,20 +1,4 @@
-/categoria/penteadeiras  /cantinho-que-toda-mulher-merece/  301
-/categoria/penteadeiras/  /cantinho-que-toda-mulher-merece/  301
-/categoria/sapateiras  /cantinho-que-toda-mulher-merece/  301
-/categoria/sapateiras/  /cantinho-que-toda-mulher-merece/  301
-/categoria/guarda-roupa-casal  /categoria/guarda-roupas/  301
-/categoria/estantes  /categoria/home-office/  301
-/categoria/guarda-roupa-infantil  /categoria/guarda-roupas/  301
-/categoria/armarios  /categoria/cozinhas/  301
-/categoria/quarto-completo  /categoria/quartos/  301
-/categoria/escrivaninhas  /categoria/home-office/  301
-/categoria/camas-infantil  /categoria/quartos/  301
-/produto/comoda-grecia-8-gavetas-com-corredias-telescopicas-multiuso-para-quarto-mdp-mdf  /produto/comoda-grecia-8-gavetas-com-corredicas-telescopicas-multiuso-para-quarto-mdp-mdf/  301
-/produto/quarto-bebe-completo-bero-americano-ben-3-em1-guarda-roupa-4-portas-e-cmoda  /produto/quarto-bebe-completo-berco-americano-ben-3-em1-guarda-roupa-4-portas-e-comoda/  301
-/produto/comoda-8-gavetas-com-sapateira-e-cabideiro-branca  /produto/comoda-8-gavetas-com-sapateira-e-cabideiro-branca-125cm/  301
-/cabeceira-casal-queen-mabel-272cm-2-mesas-led-tomadas-castanho  /produto/cabeceira-casal-queen-mabel-272cm-2-mesas-led-tomadas-castanho-mdf/  301
-/ofertas  /  301
-/ofertas-mercado-livre  /  301
-/mesas-gamer  /categoria/gamer/  301
-/cadeiras-gamer  /categoria/gamer/  301
-/setup-completo  /categoria/gamer/  301
+> /confirmar-estoque/*  /produto/:splat  301
+> /guia/mdf-ou-mdp-qual-a-diferenca  /guia/mdf-ou-mdp/  301
+> /guia/COLOQUE_O_LINK_DO_SEU_VIDEO_DE_MESA_AQUI  /guias/  301
+> /guia/limpar-moveis-mdf-mdp/  /guia/como-limpar-moveis-mdf-mdp/  301
