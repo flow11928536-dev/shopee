@@ -1,4 +1,4 @@
-> /confirmar-estoque/*  /produto/:splat  301
-> /guia/mdf-ou-mdp-qual-a-diferenca  /guia/mdf-ou-mdp/  301
-> /guia/COLOQUE_O_LINK_DO_SEU_VIDEO_DE_MESA_AQUI  /guias/  301
-> /guia/limpar-moveis-mdf-mdp/  /guia/como-limpar-moveis-mdf-mdp/  301
+/confirmar-estoque/*  /produto/:splat  301
+/guia/mdf-ou-mdp-qual-a-diferenca  /guia/mdf-ou-mdp/  301
+/guia/COLOQUE_O_LINK_DO_SEU_VIDEO_DE_MESA_AQUI  /guias/  301
+/guia/limpar-moveis-mdf-mdp/  /guia/como-limpar-moveis-mdf-mdp/  301
