@@ -41,12 +41,12 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "Loja de Móveis Brasil | Curadoria Premium com Ofertas Exclusivas",
-    template: "%s | Loja de Móveis Brasil",
+    default: "Móvel na Prova | Curadoria Técnica de Móveis do Mercado Livre",
+    template: "%s | Móvel na Prova",
   },
   description:
-    "Portal de curadoria de móveis e eletrodomésticos com os melhores preços do Mercado Livre e Shopee. Sofás, cozinhas, guarda-roupas e home office com até 50% OFF. Compare e compre com segurança!",
-  keywords: "móveis, loja de móveis, sofá, cozinha planejada, guarda roupa, home office, móveis para quarto, móveis para sala, eletrodomésticos, air fryer, geladeira, micro-ondas",
+    "Curadoria técnica e independente de móveis do Mercado Livre. Analisamos estrutura, medidas e custo-benefício de sofás, guarda-roupas, cozinhas e cabeceiras para compra segura via Mercado Livre.",
+  keywords: "móveis mercado livre, sofá mercado livre, guarda roupa mercado livre, rack mercado livre, curadoria de móveis, review de móveis, móveis Marília",
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   icons: {
     icon: [
@@ -58,18 +58,18 @@ export const metadata: Metadata = {
   manifest: "/manifest.json",
   openGraph: {
     type: "website",
-    siteName: "Loja de Móveis Brasil",
+    siteName: "Móvel na Prova - Curadoria Técnica",
     locale: "pt_BR",
     url: SITE.url,
-    title: "Loja de Móveis Brasil | Guia de Compras com Ofertas Exclusivas",
-    description: "Encontre as melhores ofertas de móveis e eletrodomésticos do Brasil. Curadoria independente com links diretos para Mercado Livre e Shopee.",
+    title: "Móvel na Prova | Curadoria Técnica de Móveis do Mercado Livre",
+    description: "Análises técnicas, medidas reais e comparativos de móveis do Mercado Livre. Conteúdo independente e transparente.",
     images: [
       {
         url: `${SITE.url}/og-hero-2026.jpg`,
         secureUrl: `${SITE.url}/og-hero-2026.jpg`,
         width: 1200,
         height: 630,
-        alt: "Loja de Móveis Brasil - Guia de Compras de Móveis",
+        alt: "Móvel na Prova - Curadoria Técnica de Móveis do Mercado Livre",
         type: "image/jpeg",
       },
     ],
@@ -99,25 +99,24 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": `${SITE.url}/#organization`,
-  name: "Loja de Móveis Brasil",
+  name: "Móvel na Prova - Curadoria Técnica",
   url: SITE.url,
   logo: `${SITE.url}/logo.svg`,
-  description: "Portal independente de curadoria de móveis e eletrodomésticos. Redirecionamos para as melhores ofertas do Mercado Livre e Shopee.",
+  description: "Portal independente de curadoria técnica de móveis. Analisamos e selecionamos ofertas do Mercado Livre. Site afiliado - recebemos comissão sem custo extra para o comprador.",
   sameAs: [
+    "https://www.instagram.com/movelnaprova/",
     "https://www.instagram.com/lojademoveismarilia/",
-    "https://www.facebook.com/lojademoveismarilia",
-    "https://www.youtube.com/@lojademoveismarilia",
   ],
-  foundingDate: "2015",
+  foundingDate: "2025",
 };
 
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "@id": `${SITE.url}/#website`,
-  name: "Loja de Móveis Brasil",
+  name: "Móvel na Prova",
   url: SITE.url,
-  description: "Portal de curadoria de móveis e eletrodomésticos. Encontre as melhores ofertas do Mercado Livre e Shopee em um só lugar.",
+  description: "Curadoria técnica de móveis do Mercado Livre. Comparativos, medidas e análise de estrutura para compra segura.",
   inLanguage: "pt-BR",
   potentialAction: {
     "@type": "SearchAction",
@@ -151,7 +150,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* META PIXEL - ID 1568286774780420 */}
         <Script id="fb-pixel" strategy="afterInteractive">
           {`
-          !function(f,b,e,v,n,t,s)
+         !function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
             n.callMethod.apply(n,arguments):n.queue.push(arguments)};
             if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
@@ -168,7 +167,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="bg-gradient-to-br from-[#FDFCFA] via-[#F8F6F1] to-[#F0EDE5] text-[#1A1614] antialiased">
 
         {/* ============================================================
-             BARRA DE ANÚNCIO MODERNA COM GLASSMORPHISM
+             BARRA SUPERIOR PROFISSIONAL - SEM ACHADINHO
              ============================================================ */}
         <div className="sticky top-0 z-50 border-b border-white/20 bg-gradient-to-r from-[#1A1614] via-[#2D2925] to-[#1A1614] backdrop-blur-xl">
           <div className="mx-auto flex max-w-7xl items-center justify-center px-4 py-2.5">
@@ -177,8 +176,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
               </span>
-              <span className="font-mono font-semibold tracking-wide"></span>
-              <span className="hidden sm:inline text-[#F5F0E8]/70"> Portal independente de curadoria | Compare ofertas do Mercado Livre e Shopee</span>
+              <span className="font-mono font-semibold tracking-wide">MÓVEL NA PROVA • CURADORIA TÉCNICA</span>
+              <span className="hidden sm:inline text-[#F5F0E8]/70"> | Afiliado Mercado Livre - Análise de medidas e estrutura</span>
             </div>
           </div>
         </div>

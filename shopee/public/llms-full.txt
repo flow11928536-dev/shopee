@@ -1,8 +1,8 @@
-# Loja de Móveis Brasil – Documentação Completa
+# Loja de Móveis Marília – Documentação Completa
 URL: https://www.lojademoveismarilia.com.br
 
 ## Sobre
-Portal de curadoria de móveis e eletrodomésticos com as melhores ofertas do Mercado Livre e Shopee. Guias honestos, comparação de preços e ofertas selecionadas para todo o Brasil.
+Portal de curadoria da Loja de Móveis Marília com as melhores ofertas de móveis e eletrodomésticos do Mercado Livre e Shopee. Guias honestos e comparação de preços para todo o Brasil.
 
 ## Categorias
 - Painéis e Racks: Encontre as melhores ofertas de Painéis e Racks com preços competitivos e frete para todo Brasil. (5 produtos)
@@ -92,4 +92,4 @@ Portal de curadoria de móveis e eletrodomésticos com as melhores ofertas do Me
 - Móveis para Estudantes: Móveis compactos e funcionais para universitários
 - Móveis para Bebê: Móveis seguros e adequados para o quarto do bebê
 
-Gerado em: 2026-08-18T19:35:43.520Z
+Gerado em: 2026-08-21T18:21:04.448Z

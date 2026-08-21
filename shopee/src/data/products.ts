@@ -2,18 +2,17 @@ import type { Product, ProductCategory, MainCategory } from "../types";
 
 export const SITE = {
   url: "https://www.lojademoveismarilia.com.br",
-  name: "Loja de Móveis Brasil",
-  shortName: "Móveis Brasil",
-  description: "Portal de curadoria de móveis e eletrodomésticos com as melhores ofertas do Mercado Livre e Shopee. Guias honestos, comparação de preços e ofertas selecionadas para todo o Brasil.",
+  name: "Loja de Móveis Marília",
+  shortName: "Móveis Marília",
+  description: "Portal de curadoria da Loja de Móveis Marília com as melhores ofertas de móveis e eletrodomésticos do Mercado Livre e Shopee. Guias honestos e comparação de preços para todo o Brasil.",
   whatsapp: "5514996033296",
-  // ✅ RESTAURAR com valores genéricos
   email: "contato@lojademoveismarilia.com.br",
-  city: "Brasil",
-  region: "Nacional",
+  city: "Marília",
+  region: "SP",
   country: "BR",
   geo: {
-    lat: -14.2350,
-    lng: -51.9253,
+    lat: -22.2171,
+    lng: -49.9501,
   },
 } as const;
 // ============================================================
