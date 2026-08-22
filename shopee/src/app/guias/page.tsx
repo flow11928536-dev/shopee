@@ -84,7 +84,7 @@ const jsonLd = [
     inLanguage: "pt-BR",
     datePublished: "2024-01-15",
     dateModified: LAST_UPDATED,
-    numberOfItems: totalGuides,
+    numberOfItems: totalGuides + 2,
     isPartOf: {
       "@type": "WebSite",
       "@id": `${SITE.url}/#website`,
@@ -97,27 +97,45 @@ const jsonLd = [
     },
     mainEntity: {
       "@type": "ItemList",
-      numberOfItems: totalGuides,
-      itemListElement: GUIDE_CLUSTERS.flatMap((cluster, clusterIndex) =>
-        cluster.slugs.map((slug, itemIndex) => {
-          const guide = getGuide(slug);
-          const globalPosition =
-            GUIDE_CLUSTERS.slice(0, clusterIndex).reduce(
-              (acc, c) => acc + c.slugs.length,
-              0
-            ) +
-            itemIndex +
-            1;
-          return {
-            "@type": "ListItem",
-            position: globalPosition,
-            name: guide?.h1 || slug,
-            url: `${SITE.url}/guia/${slug}`,
-            description: guide?.intro?.slice(0, 160) || "",
-            image: guide?.heroImage || undefined,
-          };
-        })
-      ),
+      numberOfItems: totalGuides + 2,
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Sofá retrátil para sala pequena: qual não trava sua porta?",
+          url: `${SITE.url}/guias/sofa-retratil-sala-pequena`,
+          description: "5 modelos de 1,80m a 2,30m comparados + madeira, tecido, medida de porta e limpeza a seco",
+          image: `${SITE.url}/imagens/produtos/sofa-retratil-reclinavel-180m-veludo-cappuccino-livia-adonai.webp`,
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Guarda-roupa casal 6 portas: qual não estufa e cabe no quarto 3x3?",
+          url: `${SITE.url}/guias/guarda-roupa-casal-6-portas`,
+          description: "5 modelos de 3 a 8 portas comparados + MDF vs MDP, medida pra quarto pequeno e como limpar mofo sem estragar",
+          image: `${SITE.url}/imagens/produtos/Guarda-Roupa-Casal-Classic-6-Portas-6-Gavetas-100-MDF.webp`,
+        },
+       ...GUIDE_CLUSTERS.flatMap((cluster, clusterIndex) =>
+          cluster.slugs.map((slug, itemIndex) => {
+            const guide = getGuide(slug);
+            const globalPosition =
+              GUIDE_CLUSTERS.slice(0, clusterIndex).reduce(
+                (acc, c) => acc + c.slugs.length,
+                0
+              ) +
+              itemIndex +
+              3;
+            return {
+              "@type": "ListItem",
+              position: globalPosition,
+              name: guide?.h1 || slug,
+              url: `${SITE.url}/guia/${slug}`,
+              description: guide?.intro?.slice(0, 160) || "",
+              image: guide?.heroImage || undefined,
+            };
+          })
+        ),
+      ],
     },
     publisher: {
       "@type": "Organization",
@@ -160,16 +178,16 @@ export default function GuidesIndexPage() {
 
       {/* Container Principal */}
       <div className="min-h-screen bg-gradient-to-br from-[#FDFCFA] via-[#F8F6F1] to-[#F0EDE5]">
-        
+
         {/* ============================================================
              HERO SECTION COMPACTO E ELEGANTE
              ============================================================ */}
         <section className="relative overflow-hidden border-b border-neutral-200/50 bg-[#1A1614] py-12 sm:py-16 md:py-20">
           {/* Textura de Grain */}
           <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "url('/noise.svg')", backgroundRepeat: "repeat" }} />
-          
+
           <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            
+
             {/* Breadcrumb Editorial */}
             <nav aria-label="Breadcrumb" className="mb-8 text-xs sm:text-sm">
               <ol className="flex flex-wrap items-center gap-2 text-[#F5F0E8]/60" style={{ fontFamily: "var(--font-mono)" }}>
@@ -192,20 +210,20 @@ export default function GuidesIndexPage() {
 
             {/* Header Hero */}
             <div className="max-w-3xl">
-              <span 
-                className="inline-block rounded-full bg-[#C5A880]/20 px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.2em] text-[#C5A880]"
+              <span
+                className="inline-block rounded-full bg-[#C5A880]/20 px-3 py-1.5 text- font-bold uppercase tracking-[0.2em] text-[#C5A880]"
                 style={{ fontFamily: "var(--font-mono)" }}
               >
                 Conteúdo Especializado
               </span>
-              
-              <h1 
+
+              <h1
                 className="mt-4 text-3xl font-light leading-[1.1] tracking-tight text-[#FAF8F5] sm:text-4xl md:text-5xl"
                 style={{ fontFamily: "var(--font-display)" }}
               >
                 Guias de Compra de <span className="italic text-[#C5A880]">Móveis</span>
               </h1>
-              
+
               <p className="mt-4 text-sm leading-relaxed text-[#F5F0E8]/80 sm:text-base">
                 Conteúdo técnico para escolher móveis com inteligência. Material ideal, medidas corretas e análises honestas sobre produtos e fabricantes.
               </p>
@@ -214,9 +232,9 @@ export default function GuidesIndexPage() {
               <div className="mt-6 flex flex-wrap items-center gap-4">
                 <div className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 backdrop-blur-sm">
                   <div className="text-2xl font-bold text-[#C5A880]" style={{ fontFamily: "var(--font-mono)" }}>
-                    {totalGuides}
+                    {totalGuides + 2}
                   </div>
-                  <div className="text-[10px] uppercase tracking-wider text-[#F5F0E8]/60" style={{ fontFamily: "var(--font-mono)" }}>
+                  <div className="text- uppercase tracking-wider text-[#F5F0E8]/60" style={{ fontFamily: "var(--font-mono)" }}>
                     Guias Disponíveis
                   </div>
                 </div>
@@ -237,10 +255,106 @@ export default function GuidesIndexPage() {
              GRADE DE GUIAS (BENTO CARDS COM ANIMAÇÃO)
              ============================================================ */}
         <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-16 lg:px-8">
+
+          {/* ============================================================
+               NOVOS GUIAS EM DESTAQUE
+               ============================================================ */}
+          <div className="mb-12 sm:mb-16">
+            <div className="mb-6 flex items-baseline justify-between border-b border-neutral-200/50 pb-4">
+              <div>
+                <span
+                  className="text- font-bold uppercase tracking-[0.3em] text-[#C5A880]"
+                  style={{ fontFamily: "var(--font-mono)" }}
+                >
+                  Novos
+                </span>
+                <h2
+                  className="mt-1 text-xl font-light tracking-tight text-[#1A1614] sm:text-2xl"
+                  style={{ fontFamily: "var(--font-display)" }}
+                >
+                  Guias em destaque
+                </h2>
+              </div>
+              <span
+                className="text-xs font-semibold text-neutral-400"
+                style={{ fontFamily: "var(--font-mono)" }}
+              >
+                Mais buscados
+              </span>
+            </div>
+
+            <div className="grid gap-6">
+
+              <Link href="/guias/sofa-retratil-sala-pequena" className="group block">
+                <div className="overflow-hidden rounded-2xl border border-[#C5A880]/30 bg-white shadow-lg transition-all duration-500 hover:-translate-y-1 hover:border-[#C5A880]/50 hover:shadow-xl hover:shadow-[#C5A880]/10">
+                  <div className="md:flex">
+                    <div className="relative aspect-[4/3] overflow-hidden bg-neutral-100 md:w- md:aspect-square">
+                      <Image
+                        src="/imagens/produtos/sofa-retratil-reclinavel-180m-veludo-cappuccino-livia-adonai.webp"
+                        alt="Sofá retrátil 1,80m para sala pequena"
+                        fill
+                        sizes="(max-width: 768px) 100vw, 400px"
+                        className="object-cover transition-transform duration-700 group-hover:scale-105"
+                        priority
+                      />
+                      <span className="absolute left-3 top-3 rounded-full bg-zinc-900 px-3 py-1 text- font-bold uppercase tracking-wider text-white">
+                        Guia novo • 2026
+                      </span>
+                    </div>
+                    <div className="flex flex-1 flex-col justify-center p-6 md:p-8">
+                      <h3 className="text-xl font-semibold leading-tight text-[#1A1614] transition-colors group-hover:text-[#C5A880] md:text-2xl">
+                        Sofá retrátil para sala pequena: qual não trava sua porta?
+                      </h3>
+                      <p className="mt-3 text-sm leading-relaxed text-neutral-600">
+                        5 modelos de 1,80m a 2,30m comparados + tipos de madeira (pinus vs eucalipto), melhor tecido para pet e criança, como medir porta e limpeza a seco sem pagar R$300.
+                      </p>
+                      <div className="mt-5 inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#1A1614]">
+                        Ler guia completo
+                        <span className="transition-transform group-hover:translate-x-1">→</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+
+              <Link href="/guias/guarda-roupa-casal-6-portas" className="group block">
+                <div className="overflow-hidden rounded-2xl border border-[#C5A880]/30 bg-white shadow-lg transition-all duration-500 hover:-translate-y-1 hover:border-[#C5A880]/50 hover:shadow-xl hover:shadow-[#C5A880]/10">
+                  <div className="md:flex">
+                    <div className="relative aspect-[4/3] overflow-hidden bg-neutral-100 md:w- md:aspect-square">
+                      <Image
+                        src="/imagens/produtos/Guarda-Roupa-Casal-Classic-6-Portas-6-Gavetas-100-MDF.webp"
+                        alt="Guarda-roupa casal 6 portas 100% MDF"
+                        fill
+                        sizes="(max-width: 768px) 100vw, 400px"
+                        className="object-cover transition-transform duration-700 group-hover:scale-105"
+                      />
+                      <span className="absolute left-3 top-3 rounded-full bg-zinc-900 px-3 py-1 text- font-bold uppercase tracking-wider text-white">
+                        Guia novo • MDF 100%
+                      </span>
+                    </div>
+                    <div className="flex flex-1 flex-col justify-center p-6 md:p-8">
+                      <h3 className="text-xl font-semibold leading-tight text-[#1A1614] transition-colors group-hover:text-[#C5A880] md:text-2xl">
+                        Guarda-roupa casal 6 portas: qual não estufa e cabe no 3x3?
+                      </h3>
+                      <p className="mt-3 text-sm leading-relaxed text-neutral-600">
+                        5 modelos de 3 a 8 portas comparados + MDF vs MDP, medida pra quarto pequeno e como limpar mofo sem estragar.
+                      </p>
+                      <div className="mt-5 inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#1A1614]">
+                        Ler guia completo
+                        <span className="transition-transform group-hover:translate-x-1">→</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+
+            </div>
+          </div>
+
           <div className="space-y-12 sm:space-y-16">
             {GUIDE_CLUSTERS.map((cluster, clusterIndex) => (
-              <section 
-                key={cluster.cluster} 
+              <section
+                key={cluster.cluster}
                 aria-labelledby={`cluster-${cluster.cluster}`}
                 className="animate-fadeInUp"
                 style={{ animationDelay: `${clusterIndex * 100}ms` }}
@@ -248,8 +362,8 @@ export default function GuidesIndexPage() {
                 {/* Header do Cluster */}
                 <div className="mb-6 flex items-baseline justify-between border-b border-neutral-200/50 pb-4">
                   <div>
-                    <span 
-                      className="text-[9px] font-bold uppercase tracking-[0.3em] text-[#C5A880]"
+                    <span
+                      className="text- font-bold uppercase tracking-[0.3em] text-[#C5A880]"
                       style={{ fontFamily: "var(--font-mono)" }}
                     >
                       Categoria
@@ -262,11 +376,11 @@ export default function GuidesIndexPage() {
                       {cluster.titulo}
                     </h2>
                   </div>
-                  <span 
+                  <span
                     className="text-xs font-semibold text-neutral-400"
                     style={{ fontFamily: "var(--font-mono)" }}
                   >
-                    {cluster.slugs.length} {cluster.slugs.length === 1 ? "guia" : "guias"}
+                    {cluster.slugs.length} {cluster.slugs.length === 1? "guia" : "guias"}
                   </span>
                 </div>
 
@@ -275,7 +389,7 @@ export default function GuidesIndexPage() {
                   {cluster.slugs.map((slug, itemIndex) => {
                     const g = getGuide(slug); // ← MANTIDO: Busca o guia completo
                     if (!g) return null; // ← MANTIDO: Proteção contra guia inexistente
-                    
+
                     return (
                       <Link
                         key={slug}
@@ -285,7 +399,7 @@ export default function GuidesIndexPage() {
                       >
                         {/* Card Container */}
                         <div className="overflow-hidden rounded-2xl border border-neutral-200/50 bg-white/60 backdrop-blur-sm transition-all duration-500 hover:-translate-y-2 hover:border-[#C5A880]/40 hover:bg-white hover:shadow-xl hover:shadow-[#C5A880]/10">
-                          
+
                           {/* Imagem do Guia - MANTENDO g.heroImage */}
                           <div className="relative aspect-[4/3] overflow-hidden bg-neutral-100">
                             <Image
@@ -298,9 +412,9 @@ export default function GuidesIndexPage() {
                             />
                             {/* Overlay gradiente no hover */}
                             <div className="absolute inset-0 bg-gradient-to-t from-[#1A1614]/60 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
-                            
+
                             {/* Tag flutuante de keyword - MANTENDO g.keyword */}
-                            <span className="absolute right-2 top-2 rounded-full bg-[#C5A880]/90 px-2.5 py-1 text-[9px] font-bold uppercase tracking-wider text-[#1A1614] backdrop-blur-sm" style={{ fontFamily: "var(--font-mono)" }}>
+                            <span className="absolute right-2 top-2 rounded-full bg-[#C5A880]/90 px-2.5 py-1 text- font-bold uppercase tracking-wider text-[#1A1614] backdrop-blur-sm" style={{ fontFamily: "var(--font-mono)" }}>
                               {g.keyword} {/* ← MANTIDO */}
                             </span>
                           </div>
@@ -315,7 +429,7 @@ export default function GuidesIndexPage() {
                                 {g.intro} {/* ← MANTIDO: Descrição curta */}
                               </p>
                             )}
-                            
+
                             {/* Seta de navegação que desliza no hover */}
                             <div className="mt-3 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-[#1A1614] opacity-0 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100" style={{ fontFamily: "var(--font-mono)" }}>
                               Ler guia
@@ -348,7 +462,7 @@ export default function GuidesIndexPage() {
 
                 {/* Conteúdo */}
                 <div className="flex-1">
-                  <h2 
+                  <h2
                     className="text-xl font-light text-[#1A1614] sm:text-2xl"
                     style={{ fontFamily: "var(--font-display)" }}
                   >
