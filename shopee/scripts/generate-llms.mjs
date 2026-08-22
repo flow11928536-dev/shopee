@@ -463,6 +463,9 @@ function generateSitemap(site, categories, guides, products, pages) {
   urls.push({ loc: `${site.url}/moveis-para-bebe/`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.8' });
   urls.push({ loc: `${site.url}/moveis-para-estudantes/`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.8' });
   urls.push({ loc: `${site.url}/guias/`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.8' });
+  // NOVAS GUIAS PREMIUM 2026
+  urls.push({ loc: `${site.url}/guias/sofa-retratil-sala-pequena/`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.9' });
+  urls.push({ loc: `${site.url}/guias/guarda-roupa-casal-6-portas/`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.9' });
 
 
 
