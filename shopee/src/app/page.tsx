@@ -132,7 +132,7 @@ export default function HomePage() {
 
           <section className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4">
             <Link href="/categoria/sofas" className="group relative flex h-72 w-full overflow-hidden rounded-2xl border border-neutral-200 md:col-span-2 md:row-span-2 md:h-">
-              <Image src="/banners/sofa-canto-luna-organico-265cm-bege-claro-celflex.webp" alt="Sofás - canto, retrátil e modular" fill sizes="(max-width: 768px) 100vw, 66vw" className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-105" priority />
+              <Image src="/banners/sofa-canto-luna-organico-265cm-bege-claro-celflex.webp" alt="Sofás - canto, retrátil e modular" fill sizes="(max-width: 768px) 100vw, 66vw" className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-105" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
               <div className="relative z-10 flex h-full flex-col justify-end p-6 md:p-10">
                 <span className="text-xs font-semibold uppercase tracking-[0.2em] text-[#C5A880]">Sala de estar</span>

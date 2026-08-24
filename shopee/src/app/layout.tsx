@@ -23,6 +23,7 @@ const rajdhani = Rajdhani({
   variable: "--font-display",
   weight: ["400", "500", "600", "700"],
   display: "swap",
+  preload: false,
 });
 
 const fraunces = Fraunces({

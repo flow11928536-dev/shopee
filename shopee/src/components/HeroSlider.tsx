@@ -2,7 +2,6 @@
 
 import { useEffect, useState, useRef, useCallback } from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 // ============================================================
 // 📦 TIPOS
@@ -138,30 +137,18 @@ export default function HeroSlider() {
             >
               {/* Versão DESKTOP/TABLET - só renderiza se necessário */}
               {shouldLoad && (
-                <Image
-                  src={s.image}
-                  alt={s.alt}
-                  fill
-                  priority={index === 0}
-                  loading={index === 0 ? "eager" : "lazy"}
-                  fetchPriority={index === 0 ? "high" : "low"}
-                  sizes="(max-width: 768px) 0vw, 100vw"
-                  className="hidden md:block object-cover"
-                />
+                <picture>
+                  <source media="(max-width: 767px)" srcSet={s.imageMobile ?? s.image} />
+                  <img
+                    src={s.image}
+                    alt={s.alt}
+                    loading={index === 0 ? "eager" : "lazy"}
+                    fetchPriority={index === 0 ? "high" : "low"}
+                    className="absolute inset-0 h-full w-full object-cover"
+                  />
+                </picture>
               )}
               {/* Versão MOBILE - só renderiza se necessário */}
-              {shouldLoad && (
-                <Image
-                  src={s.imageMobile ?? s.image}
-                  alt={s.alt}
-                  fill
-                  priority={index === 0}
-                  loading={index === 0 ? "eager" : "lazy"}
-                  fetchPriority={index === 0 ? "high" : "low"}
-                  sizes="(max-width: 768px) 100vw, 0vw"
-                  className="block md:hidden object-cover"
-                />
-              )}
             </div>
           );
         })}
