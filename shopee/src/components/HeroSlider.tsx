@@ -120,6 +120,9 @@ export default function HeroSlider() {
       <div className="absolute inset-0">
         {slides.map((s, index) => {
           const isActive = index === current;
+          const isNext = index === (current + 1) % totalSlides;
+          const shouldLoad = index === 0 || isActive || isNext; // Só carrega o primeiro, o atual e o próximo
+          
           return (
             <div
               key={index}
@@ -133,26 +136,32 @@ export default function HeroSlider() {
               }}
               aria-hidden={!isActive}
             >
-              {/* Versão DESKTOP/TABLET */}
-              <Image
-                src={s.image}
-                alt={s.alt}
-                fill
-                priority={index === 0}
-                loading={index === 0 ? "eager" : "lazy"}
-                sizes="100vw"
-                className="hidden md:block object-contain"
-              />
-              {/* Versão MOBILE */}
-              <Image
-                src={s.imageMobile ?? s.image}
-                alt={s.alt}
-                fill
-                priority={index === 0}
-                loading={index === 0 ? "eager" : "lazy"}
-                sizes="100vw"
-                className="block md:hidden object-cover"
-              />
+              {/* Versão DESKTOP/TABLET - só renderiza se necessário */}
+              {shouldLoad && (
+                <Image
+                  src={s.image}
+                  alt={s.alt}
+                  fill
+                  priority={index === 0}
+                  loading={index === 0 ? "eager" : "lazy"}
+                  fetchPriority={index === 0 ? "high" : "low"}
+                  sizes="(max-width: 768px) 0vw, 100vw"
+                  className="hidden md:block object-cover"
+                />
+              )}
+              {/* Versão MOBILE - só renderiza se necessário */}
+              {shouldLoad && (
+                <Image
+                  src={s.imageMobile ?? s.image}
+                  alt={s.alt}
+                  fill
+                  priority={index === 0}
+                  loading={index === 0 ? "eager" : "lazy"}
+                  fetchPriority={index === 0 ? "high" : "low"}
+                  sizes="(max-width: 768px) 100vw, 0vw"
+                  className="block md:hidden object-cover"
+                />
+              )}
             </div>
           );
         })}
