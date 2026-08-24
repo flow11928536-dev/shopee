@@ -41,12 +41,12 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "Móvel na Prova | Curadoria Técnica de Móveis do Mercado Livre",
-    template: "%s | Móvel na Prova",
+    default: "Loja de Móveis Marília | Móveis Indicados por Montador Profissional",
+    template: "%s | Loja de Móveis Marília",
   },
   description:
-    "Curadoria técnica e independente de móveis do Mercado Livre. Analisamos estrutura, medidas e custo-benefício de sofás, guarda-roupas, cozinhas e cabeceiras para compra segura via Mercado Livre.",
-  keywords: "móveis mercado livre, sofá mercado livre, guarda roupa mercado livre, rack mercado livre, curadoria de móveis, review de móveis, móveis Marília",
+    "Móveis escolhidos a dedo por montador profissional. Compare ofertas reais de sofás, guarda-roupas, cozinhas e racks do Mercado Livre e Shopee. Entrega para todo o Brasil. Compre sem medo de se arrepender.",
+  keywords: "móveis online, sofá mercado livre, guarda roupa mercado livre, rack mercado livre, comprar móveis online, móveis baratos, ofertas de móveis, móveis com entrega nacional, móveis indicados por montador",
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   icons: {
     icon: [
@@ -58,18 +58,18 @@ export const metadata: Metadata = {
   manifest: "/manifest.json",
   openGraph: {
     type: "website",
-    siteName: "Móvel na Prova - Curadoria Técnica",
+    siteName: "Loja de Móveis Marília",
     locale: "pt_BR",
     url: SITE.url,
-    title: "Móvel na Prova | Curadoria Técnica de Móveis do Mercado Livre",
-    description: "Análises técnicas, medidas reais e comparativos de móveis do Mercado Livre. Conteúdo independente e transparente.",
+    title: "Loja de Móveis Marília | Móveis Indicados por Montador Profissional",
+    description: "Móveis escolhidos a dedo por montador profissional. Compare ofertas reais do Mercado Livre e Shopee com entrega para todo o Brasil. Compre sem medo.",
     images: [
       {
         url: `${SITE.url}/og-hero-2026.jpg`,
         secureUrl: `${SITE.url}/og-hero-2026.jpg`,
         width: 1200,
         height: 630,
-        alt: "Móvel na Prova - Curadoria Técnica de Móveis do Mercado Livre",
+        alt: "Loja de Móveis Marília - Móveis indicados por montador profissional",
         type: "image/jpeg",
       },
     ],
@@ -99,24 +99,27 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": `${SITE.url}/#organization`,
-  name: "Móvel na Prova - Curadoria Técnica",
+  name: "Loja de Móveis Marília",
   url: SITE.url,
   logo: `${SITE.url}/logo.svg`,
-  description: "Portal independente de curadoria técnica de móveis. Analisamos e selecionamos ofertas do Mercado Livre. Site afiliado - recebemos comissão sem custo extra para o comprador.",
+  description: "Loja de Móveis Marília - Móveis escolhidos a dedo por montador profissional. Analisamos e testamos as melhores ofertas do Mercado Livre e Shopee para você comprar sem medo. Site afiliado - recebemos comissão sem custo extra.",
   sameAs: [
     "https://www.instagram.com/movelnaprova/",
-    "https://www.instagram.com/lojademoveismarilia/",
   ],
   foundingDate: "2025",
+  areaServed: {
+    "@type": "Country",
+    name: "Brasil"
+  }
 };
 
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "@id": `${SITE.url}/#website`,
-  name: "Móvel na Prova",
+  name: "Loja de Móveis Marília",
   url: SITE.url,
-  description: "Curadoria técnica de móveis do Mercado Livre. Comparativos, medidas e análise de estrutura para compra segura.",
+  description: "Móveis escolhidos a dedo por montador profissional. Compare ofertas do Mercado Livre e Shopee com entrega para todo o Brasil. Compre sem medo de se arrepender.",
   inLanguage: "pt-BR",
   potentialAction: {
     "@type": "SearchAction",
@@ -167,7 +170,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="bg-gradient-to-br from-[#FDFCFA] via-[#F8F6F1] to-[#F0EDE5] text-[#1A1614] antialiased">
 
         {/* ============================================================
-             BARRA SUPERIOR PROFISSIONAL - SEM ACHADINHO
+             BARRA SUPERIOR - COMUNICAÇÃO CLARA E DIRETA
              ============================================================ */}
         <div className="sticky top-0 z-50 border-b border-white/20 bg-gradient-to-r from-[#1A1614] via-[#2D2925] to-[#1A1614] backdrop-blur-xl">
           <div className="mx-auto flex max-w-7xl items-center justify-center px-4 py-2.5">
@@ -176,8 +179,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
               </span>
-              <span className="font-mono font-semibold tracking-wide">MÓVEL NA PROVA • CURADORIA TÉCNICA</span>
-              <span className="hidden sm:inline text-[#F5F0E8]/70"> | Afiliado Mercado Livre - Análise de medidas e estrutura</span>
+              <span className="font-mono font-semibold tracking-wide">LOJA DE MÓVEIS MARÍLIA • MÓVEIS INDICADOS POR MONTADOR PROFISSIONAL</span>
+              <span className="hidden sm:inline text-[#F5F0E8]/70"> | Compra online • Entrega em todo o Brasil</span>
             </div>
           </div>
         </div>

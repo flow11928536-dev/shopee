@@ -1,6 +1,6 @@
 // ============================================================================
 // INTERFACES TYPESCRIPT ESTRITAS — Fonte única de tipagem do projeto
-// Loja de Móveis Marília — https://www.lojademoveismarilia.com.br
+// Móvel na Prova — https://www.lojademoveismarilia.com.br
 // ============================================================================
 
 /** Plataforma de afiliados de origem do link */
@@ -45,10 +45,12 @@ export type ProductCategory =
   | "geladeiras"
   | "air-fryers"
   | "ar-condicionado";
+
 /**
  * Estrutura OBRIGATÓRIA de cada produto.
  * CORRIGIDO: Removida duplicação que quebrava o build (TS2300)
  * CORRIGIDO: Adicionado campos opcionais para compatibilidade total
+ * ADICIONADO: Campo opcional notaMontador para dica técnica do montador
  */
 export interface Product {
   id: string;
@@ -80,7 +82,16 @@ export interface Product {
   caracteristicas?: string[];
   recomendacao?: string;
   contras?: string[];
+  
+  // ✅ NOVO CAMPO: Nota do Montador (dica técnica opcional)
+  notaMontador?: string;
 }
+
+/**
+ * Mapa de notas do montador por slug de produto.
+ * Arquivo separado para manter products.ts menor e facilitar edição manual.
+ */
+export type NotasMontadorMap = Record<string, string>;
 
 /** Props estritas do componente reutilizável ProductGrid */
 export interface ProductGridProps {

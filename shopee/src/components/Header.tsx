@@ -66,7 +66,7 @@ export default function Header() {
           <Link href="/" className="flex shrink-0 items-center gap-3">
             <Image 
               src="/loja-moveis-jardim-esmeralda-marilia-moveis-de-alto-padrao-marilia-logo.png" 
-              alt="Loja de Móveis Marília" 
+              alt="Loja de Móveis Marília - Móveis indicados por montador profissional" 
               width={40} 
               height={40} 
               priority 
@@ -77,7 +77,7 @@ export default function Header() {
                 Loja de Móveis Marília
               </span>
               <span className="font-mono text-[10px] font-medium uppercase tracking-[0.2em] text-neutral-400 mt-1">
-              Seus Móveis em boas Mãoe
+                Indicado por montador profissional
               </span>
             </div>
           </Link>
@@ -95,7 +95,7 @@ export default function Header() {
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
               </span>
-              Montadores
+              Montadores em Marília
             </Link>
 
             {/* Versão mobile compacta do botão montadores */}
@@ -104,7 +104,7 @@ export default function Header() {
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-emerald-500"></span>
               </span>
-              <span className="text-xs font-semibold text-neutral-700">Montadores</span>
+              <span className="text-xs font-semibold text-neutral-700">Montadores Marília</span>
             </Link>
           </div>
         </div>

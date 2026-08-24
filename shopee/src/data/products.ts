@@ -3,8 +3,8 @@ import type { Product, ProductCategory, MainCategory } from "../types";
 export const SITE = {
   url: "https://www.lojademoveismarilia.com.br",
   name: "Loja de Móveis Marília",
-  shortName: "Móveis Marília",
-  description: "Portal de curadoria da Loja de Móveis Marília com as melhores ofertas de móveis e eletrodomésticos do Mercado Livre e Shopee. Guias honestos e comparação de preços para todo o Brasil.",
+  shortName: "Móveis Indicado Por um Montador Profissional",
+  description: "Móveis escolhidos a dedo por montador profissional. Compare ofertas reais de sofás, guarda-roupas, cozinhas e racks do Mercado Livre e Shopee. Entrega para todo o Brasil. Compre sem medo de se arrepender.",
   whatsapp: "5514996033296",
   email: "contato@lojademoveismarilia.com.br",
   city: "Marília",

@@ -2,8 +2,8 @@
   "site": {
     "name": "Loja de Móveis Marília",
     "url": "https://www.lojademoveismarilia.com.br",
-    "description": "Portal de curadoria da Loja de Móveis Marília com as melhores ofertas de móveis e eletrodomésticos do Mercado Livre e Shopee. Guias honestos e comparação de preços para todo o Brasil.",
-    "lastUpdated": "2026-08-22T01:23:20.316Z"
+    "description": "Móveis escolhidos a dedo por montador profissional. Compare ofertas reais de sofás, guarda-roupas, cozinhas e racks do Mercado Livre e Shopee. Entrega para todo o Brasil. Compre sem medo de se arrepender.",
+    "lastUpdated": "2026-08-24T16:49:59.217Z"
   },
   "categories": [
     {
@@ -707,6 +707,12 @@
       "description": "Guia de móveis seguros e adequados para o quarto do bebê."
     },
     {
+      "slug": "montadores-marilia",
+      "title": "Montadores em Marília",
+      "url": "https://www.lojademoveismarilia.com.br/montadores/marilia/",
+      "description": "Serviço de montagem de móveis em Marília e região. Montador profissional com experiência."
+    },
+    {
       "slug": "politicas",
       "title": "Políticas e Transparência",
       "url": "https://www.lojademoveismarilia.com.br/politicas/",
@@ -725,15 +731,21 @@
       "title": "Guia de Móveis Gamer",
       "url": "https://www.lojademoveismarilia.com.br/moveis-gamer/",
       "description": "Guia completo para montar seu setup gamer com as melhores ofertas do Mercado Livre e Shopee."
+    },
+    {
+      "slug": "montadores-marilia",
+      "title": "Montadores em Marília",
+      "url": "https://www.lojademoveismarilia.com.br/montadores/marilia/",
+      "description": "Serviço de montagem de móveis em Marília e região."
     }
   ],
   "statistics": {
     "totalCategories": 26,
     "totalGuides": 46,
-    "totalPages": 6,
+    "totalPages": 7,
     "totalProducts": 182,
-    "generatedAt": "2026-08-22T01:23:20.315Z",
-    "lastUpdated": "2026-08-22T01:23:20.316Z"
+    "generatedAt": "2026-08-24T16:49:59.216Z",
+    "lastUpdated": "2026-08-24T16:49:59.217Z"
   },
   "entities": {
     "materials": [

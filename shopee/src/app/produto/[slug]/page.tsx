@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { getProductBySlug, getAllProducts, formatBRL } from "@/data/products";
 import { SITE } from "@/data/products";
+import { notasMontador } from "@/data/notas-montador";
 import ProductDescription from "@/components/ProductDescription";
 import FbViewContent from "../../../components/FbViewContent";
 
@@ -46,12 +47,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const product = getProductBySlug(slug);
   if (!product) return {};
-  let title = product.seoTitle || `${product.name} | Móveis Brasil`;
+  let title = product.seoTitle || `${product.name} | Móvel na Prova`;
   const variant = extractVariantFromSlug(product.slug);
   if (variant &&!title.toLowerCase().includes(variant.toLowerCase())) {
     title = title.includes(" | ")? title.replace(" | ", ` ${variant} | `) : `${title} ${variant}`;
   }
-  if (title.length > 60) title = title.substring(0, 50) + " | Móveis Brasil";
+  if (title.length > 60) title = title.substring(0, 50) + " | Móvel na Prova";
   let description = product.seoDescription || product.descricao?.slice(0, 150) || `Confira ${product.name} com as melhores ofertas do Mercado Livre e Shopee. Entrega para todo o Brasil.`;
   if (description.length > 155) description = description.substring(0, 150) + "...";
   else if (description.length < 120) description = `${description} Encontre as melhores ofertas com entrega para todo o Brasil.`;
@@ -62,7 +63,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title, description,
       url: `${SITE.url}/produto/${product.slug}`,
       type: "website",
-      siteName: "Móveis Brasil",
+      siteName: "Móvel na Prova",
       locale: "pt_BR",
       images: [{ url: product.displayImage || product.imageFile, width: 800, height: 800, alt: product.alt || product.name }],
     },
@@ -78,6 +79,7 @@ export default async function ProductPage({ params }: Props) {
   const price = product.price || 0;
   const originalPrice = product.originalPrice || 0;
   const discount = product.discount || 0;
+  const notaMontador = notasMontador[product.slug] || product.notaMontador;
 
   const priceValidUntil = new Date();
   priceValidUntil.setDate(priceValidUntil.getDate() + 30);
@@ -94,7 +96,7 @@ export default async function ProductPage({ params }: Props) {
     description: product.descricao || product.seoDescription || product.name,
     image: [product.displayImage || product.imageFile], // TEM QUE SER ARRAY
     sku: product.slug,
-    brand: { "@type": "Brand", name: product.marca || "Móveis Brasil" },
+    brand: { "@type": "Brand", name: product.marca || "Móvel na Prova" },
     // SEMPRE MANDA aggregateRating, mesmo que fake - Google exige
     aggregateRating: {
       "@type": "AggregateRating",
@@ -109,7 +111,7 @@ export default async function ProductPage({ params }: Props) {
       availability: "https://schema.org/InStock", // SEMPRE InStock
       url: `${SITE.url}/produto/${product.slug}`,
       itemCondition: "https://schema.org/NewCondition",
-      seller: { "@type": "Organization", name: "Móveis Brasil", url: SITE.url },
+      seller: { "@type": "Organization", name: "Móvel na Prova", url: SITE.url },
     },
   };
 
@@ -170,6 +172,31 @@ export default async function ProductPage({ params }: Props) {
               <Link href="/" className="mt-3 text-center text-xs uppercase tracking-wide hover:underline" style={{ fontFamily: FONT_MONO, color: "#918466" }}>← Continuar comprando</Link>
             </div>
           </div>
+          
+          {/* ============ NOTA DO MONTADOR ============ */}
+          {notaMontador && (
+            <div className="border-t p-6 sm:p-8" style={{ borderColor: BORDER, backgroundColor: "#FAF8F3" }}>
+              <div className="flex gap-4">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full" style={{ backgroundColor: BRASS }}>
+                  <svg className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                  </svg>
+                </div>
+                <div>
+                  <h2 className="text-lg font-bold" style={{ fontFamily: FONT_DISPLAY, color: INK }}>
+                    Nota do Montador
+                  </h2>
+                  <p className="mt-2 text-sm leading-relaxed" style={{ color: "#4A4238" }}>
+                    {notaMontador}
+                  </p>
+                  <p className="mt-3 text-xs italic" style={{ color: "#918466" }}>
+                    Dica técnica de quem já montou este tipo de móvel.
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
+          
           <div className="border-t p-6 sm:p-8" style={{ borderColor: BORDER }}>
             <ProductDescription content={product.descricao} />
           </div>

@@ -37,21 +37,21 @@ const heroBanner = "/imagens/estante-home-soberano-227cm-led-marrom-gelius-90-po
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  title: "Loja de Móveis Marília | Curadoria de Móveis do Mercado Livre e Shopee",
-  description: "Loja de Móveis Marília - Portal de curadoria independente com as melhores ofertas de móveis e eletrodomésticos do Mercado Livre e Shopee. Compare sofás, guarda-roupas, cozinhas e racks com entrega para todo o Brasil.",
-  keywords: ["loja de móveis marília", "móveis online", "sofá mercado livre", "guarda roupa shopee", "loja de móveis", "móveis baratos", "curadoria de móveis"].join(", "),
+  title: "Loja de Móveis Marília | Móveis Indicados por Montador Profissional",
+  description: "Móveis escolhidos a dedo por montador profissional. Compare ofertas reais de sofás, guarda-roupas, cozinhas e racks do Mercado Livre e Shopee. Entrega para todo o Brasil. Compre sem medo de se arrepender.",
+  keywords: ["móveis online", "sofá mercado livre", "guarda roupa shopee", "comprar móveis online", "móveis baratos", "ofertas de móveis", "móveis com entrega nacional", "móveis indicados por montador"].join(", "),
   alternates: { canonical: `${SITE.url}` },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },
   openGraph: {
-    title: "Loja de Móveis Marília | Curadoria de Móveis do Mercado Livre e Shopee",
-    description: "Portal de curadoria da Loja de Móveis Marília com ofertas selecionadas do Mercado Livre e Shopee. Compare modelos e compre com segurança no marketplace.",
+    title: "Loja de Móveis Marília | Móveis Indicados por Montador Profissional",
+    description: "Móveis escolhidos a dedo por montador profissional. Compare ofertas reais do Mercado Livre e Shopee com entrega para todo o Brasil. Compre sem medo.",
     url: SITE.url,
     siteName: "Loja de Móveis Marília",
-    images: [{ url: heroBanner, secureUrl: heroBanner, width: 1600, height: 900, alt: "Loja de Móveis Marília - curadoria de móveis Mercado Livre e Shopee", type: "image/webp" }],
+    images: [{ url: heroBanner, secureUrl: heroBanner, width: 1600, height: 900, alt: "Loja de Móveis Marília - Móveis indicados por montador profissional", type: "image/webp" }],
     type: "website",
     locale: "pt_BR",
   },
-  twitter: { card: "summary_large_image", title: "Loja de Móveis Marília | Curadoria de Móveis", description: "Curadoria independente da Loja de Móveis Marília com ofertas do Mercado Livre e Shopee.", images: [heroBanner] },
+  twitter: { card: "summary_large_image", title: "Loja de Móveis Marília | Móveis Indicados por Montador Profissional", description: "Móveis escolhidos a dedo. Ofertas do Mercado Livre e Shopee com entrega em todo o Brasil.", images: [heroBanner] },
 };
 
 export const viewport = { width: "device-width", initialScale: 1, maximumScale: 5, themeColor: "#1a1612" };
@@ -62,7 +62,7 @@ const organizationSchema = {
   "@id": `${SITE.url}/#organization`,
   name: "Loja de Móveis Marília",
   url: SITE.url,
-  description: "Loja de Móveis Marília - Portal independente de curadoria de móveis e eletrodomésticos do Mercado Livre e Shopee. Site afiliado.",
+  description: "Loja de Móveis Marília - Móveis escolhidos a dedo por montador profissional. Analisamos e testamos as melhores ofertas do Mercado Livre e Shopee para você comprar sem medo. Site afiliado.",
   logo: { "@type": "ImageObject", url: `${SITE.url}/logo.svg`, width: 512, height: 512 },
   areaServed: [{ "@type": "Country", name: "Brasil" }],
 };
@@ -71,9 +71,9 @@ const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
-    { "@type": "Question", name: "Como funciona a compra na Loja de Móveis Marília?", acceptedAnswer: { "@type": "Answer", text: "A Loja de Móveis Marília é um portal de curadoria afiliado. Você escolhe o móvel no portal e finaliza diretamente no Mercado Livre ou Shopee, com frete, pagamento e garantia informados pelo vendedor no marketplace." } },
-    { "@type": "Question", name: "Vocês entregam em Marília e região? O frete é grátis?", acceptedAnswer: { "@type": "Answer", text: "A venda e a entrega são feitas pelos vendedores do Mercado Livre e Shopee. Muitos oferecem frete grátis para Marília e região, mas o valor final do frete e o prazo são calculados no checkout do marketplace ao informar seu CEP. Não possuímos frota própria de entrega." } },
-    { "@type": "Question", name: "Qual a diferença entre MDF e MDP?", acceptedAnswer: { "@type": "Answer", text: "MDF é mais homogêneo e permite acabamentos curvos e laqueados. MDP tem boa resistência estrutural para prateleiras e bases. Ambos são comuns em móveis de qualidade." } },
+    { "@type": "Question", name: "Como funciona a compra?", acceptedAnswer: { "@type": "Answer", text: "Você escolhe o móvel aqui no site e clica em Ver Oferta. Você é redirecionado para o Mercado Livre ou Shopee, onde finaliza a compra com frete, pagamento e garantia informados pelo vendedor. A entrega é feita em todo o Brasil." } },
+    { "@type": "Question", name: "Vocês entregam em todo o Brasil? O frete é grátis?", acceptedAnswer: { "@type": "Answer", text: "Sim! A venda e a entrega são feitas pelos vendedores do Mercado Livre e Shopee, que atendem todo o território nacional. Muitos oferecem frete grátis, mas o valor final e o prazo são calculados no checkout do marketplace com seu CEP." } },
+    { "@type": "Question", name: "Qual a diferença entre MDF e MDP?", acceptedAnswer: { "@type": "Answer", text: "MDF é mais liso e permite acabamentos curvos e laqueados. MDP tem boa resistência para prateleiras e bases. Ambos são comuns em móveis de qualidade." } },
   ],
 };
 
@@ -89,13 +89,13 @@ export default function HomePage() {
         <section className="mx-auto max-w-6xl px-4 md:px-8 pt-8 md:pt-10">
           <div className="max-w-3xl">
             <h1 className="text-4xl leading-[1.08] tracking-tight font-serif font-light text-[#1E1B18] md:text-6xl">
-              Loja de Móveis Marília: <span className="italic font-normal">compare móveis do Mercado Livre e Shopee</span>
+              Móveis indicados por um montador profissional: <span className="italic font-normal">compare ofertas do Mercado Livre e Shopee</span>
             </h1>
             <p className="mt-3 max-w-2xl text-base leading-relaxed text-neutral-600 md:text-lg">
-              Portal de curadoria independente da Loja de Móveis Marília com as melhores ofertas de móveis e eletrodomésticos do Mercado Livre e Shopee. Compare sofás, guarda-roupas, cozinhas, racks e quartos completos.
+              Chega de comprar móvel fraco e se arrepender. Aqui você encontra móveis escolhidos a dedo por quem já montou milhares de móveis na vida. Compare ofertas reais do Mercado Livre e Shopee, com medidas e preços de verdade.
             </p>
             <p className="mt-3 text-xs uppercase tracking-widest text-neutral-400">
-              Portal independente • Curadoria • Compra no Mercado Livre e Shopee
+              Compra 100% online • Entrega em todo o Brasil • Indicado por montador
             </p>
           </div>
         </section>
@@ -179,7 +179,7 @@ export default function HomePage() {
             <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
               <div>
                 <h2 className="text-xl font-light md:text-2xl">Guias para escolher melhor</h2>
-                <p className="mt-1 text-sm text-neutral-500">Conteúdo prático da Loja de Móveis Marília para quem está comparando móveis.</p>
+                <p className="mt-1 text-sm text-neutral-500">Dicas práticas de quem entende de móvel, para você não errar na compra.</p>
               </div>
               <Link href="/guias" className="w-fit rounded-full border border-neutral-200 px-5 py-2.5 text-xs uppercase tracking-widest transition hover:bg-[#1E1B18] hover:text-white">Ver todos os guias</Link>
             </div>
@@ -201,15 +201,15 @@ export default function HomePage() {
           <section className="rounded-2xl border border-neutral-200/60 bg-white/50 p-6 md:p-8">
             <h2 className="text-xl font-light">Dúvidas frequentes</h2>
             <div className="mt-5 grid gap-6 text-sm md:grid-cols-3">
-              <div><h3 className="font-medium">Como funciona a compra?</h3><p className="mt-1 leading-relaxed text-neutral-600">Você navega no portal da Loja de Móveis Marília e, ao clicar em Ver Oferta, é redirecionado para o Mercado Livre ou Shopee. Lá você vê preço final, frete para seu CEP e finaliza com segurança diretamente no marketplace.</p></div>
-              <div><h3 className="font-medium">Vocês entregam em Marília? Frete grátis?</h3><p className="mt-1 leading-relaxed text-neutral-600">A entrega é feita pelos vendedores do Mercado Livre e Shopee. Muitos oferecem frete grátis para Marília e região, mas o valor exato e o prazo são calculados no checkout do marketplace com seu CEP. Não temos frota própria.</p></div>
-              <div><h3 className="font-medium">MDF ou MDP?</h3><p className="mt-1 leading-relaxed text-neutral-600">MDF é melhor para curvas e laca. MDP tem boa resistência para bases e prateleiras. Ambos são comuns em móveis de qualidade.</p></div>
+              <div><h3 className="font-medium">Como funciona a compra?</h3><p className="mt-1 leading-relaxed text-neutral-600">Você navega pelo site e, ao clicar em Ver Oferta, é redirecionado para o Mercado Livre ou Shopee. Lá você vê preço final, frete para seu CEP e finaliza com segurança diretamente no marketplace.</p></div>
+              <div><h3 className="font-medium">Entrega em todo o Brasil? Frete grátis?</h3><p className="mt-1 leading-relaxed text-neutral-600">Sim! A entrega é feita pelos vendedores do Mercado Livre e Shopee em todo o território nacional. Muitos oferecem frete grátis, mas o valor exato e o prazo são calculados no checkout do marketplace com seu CEP.</p></div>
+              <div><h3 className="font-medium">MDF ou MDP?</h3><p className="mt-1 leading-relaxed text-neutral-600">MDF é mais liso e permite curvas e pintura. MDP tem boa resistência para prateleiras e bases. Ambos são comuns em móveis de qualidade.</p></div>
             </div>
           </section>
 
           <section className="border-t border-neutral-200/60 py-6 text-center">
             <p className="mx-auto max-w-2xl text-xs leading-relaxed text-neutral-500">
-              <strong className="font-medium text-neutral-700">Transparência:</strong> A Loja de Móveis Marília é um portal independente de curadoria. Alguns links são de afiliado do Mercado Livre e Shopee e podem gerar comissão, sem custo extra para você. A venda, entrega e garantia são realizadas pelo vendedor no marketplace.
+              <strong className="font-medium text-neutral-700">Transparência:</strong> Somos um site independente de móveis escolhidos a dedo. Alguns links são de afiliado do Mercado Livre e Shopee e podem gerar comissão, sem custo extra para você. A venda, entrega e garantia são realizadas pelo vendedor no marketplace.
             </p>
           </section>
         </div>

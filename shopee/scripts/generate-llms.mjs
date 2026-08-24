@@ -38,6 +38,7 @@ function getDataLastMod() {
     const files = [
       path.join(__dirname, '../src/data/products.ts'),
       path.join(__dirname, '../src/data/guides.ts'),
+      path.join(__dirname, '../src/app/montadores/marilia/page.tsx'),
     ];
     const mtimes = files.map(f => fs.statSync(f).mtime.getTime());
     return new Date(Math.max(...mtimes)).toISOString().split('T')[0];
@@ -346,6 +347,7 @@ function generateLlmsTxt(site, categories, guides, entities) {
     `- [Guia de Móveis Gamer](${site.url}/moveis-gamer/): Guia completo para montar seu setup gamer com as melhores ofertas`,
     `- [Móveis para Estudantes](${site.url}/moveis-para-estudantes/): Móveis compactos e funcionais para universitários`,
     `- [Móveis para Bebê](${site.url}/moveis-para-bebe/): Móveis seguros e adequados para o quarto do bebê`,
+    `- [Montadores em Marília](${site.url}/montadores/marilia/): Serviço de montagem de móveis em Marília e região`,
     '',
     '## AI Navigation',
     ...Object.entries(nav).map(([slug, n]) => `### ${n.category}\nURL: ${n.categoryUrl}\nGuias:\n${n.guides.map(g => `- ${g.title}`).join('\n')}`),
@@ -375,6 +377,7 @@ function generateLlmsFullTxt(site, categories, guides, products, pages, entities
     `- Guia de Móveis Gamer: Guia completo para montar seu setup gamer com as melhores ofertas`,
     `- Móveis para Estudantes: Móveis compactos e funcionais para universitários`,
     `- Móveis para Bebê: Móveis seguros e adequados para o quarto do bebê`,
+    `- Montadores em Marília: Serviço de montagem de móveis em Marília e região`,
     '',
     `Gerado em: ${new Date().toISOString()}`,
   ];
@@ -401,7 +404,10 @@ function generateLlmsIndexJson(site, categories, guides, products, pages, stats,
       wordCount: (g.content || '').split(' ').length,
     })),
     pages: pages,
-    specialPages: [{ slug: 'moveis-gamer', title: 'Guia de Móveis Gamer', url: `${site.url}/moveis-gamer/`, description: 'Guia completo para montar seu setup gamer com as melhores ofertas do Mercado Livre e Shopee.' }],
+    specialPages: [
+      { slug: 'moveis-gamer', title: 'Guia de Móveis Gamer', url: `${site.url}/moveis-gamer/`, description: 'Guia completo para montar seu setup gamer com as melhores ofertas do Mercado Livre e Shopee.' },
+      { slug: 'montadores-marilia', title: 'Montadores em Marília', url: `${site.url}/montadores/marilia/`, description: 'Serviço de montagem de móveis em Marília e região.' }
+    ],
     statistics: stats,
     entities: entities,
     searchIntents: searchIntents,
@@ -466,6 +472,8 @@ function generateSitemap(site, categories, guides, products, pages) {
   // NOVAS GUIAS PREMIUM 2026
   urls.push({ loc: `${site.url}/guias/sofa-retratil-sala-pequena/`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.9' });
   urls.push({ loc: `${site.url}/guias/guarda-roupa-casal-6-portas/`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.9' });
+  // PÁGINA DE MONTADORES (SERVIÇO LOCAL)
+  urls.push({ loc: `${site.url}/montadores/marilia/`, lastmod: contentLastMod, changefreq: 'monthly', priority: '0.8' });
 
 
 
@@ -488,6 +496,7 @@ function generateSitemap(site, categories, guides, products, pages) {
   console.log(`   - ${guides.length} guias`);
   console.log(`   - ${pages.length} páginas`);
   console.log(`   - ${products.length} produtos`);
+  console.log(`   - 1 página de montadores`);
 
   // FIX 5: escapeXml no loc
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
@@ -564,6 +573,7 @@ async function generateFiles() {
     { slug: 'moveis-gamer', title: 'Guia de Móveis Gamer', url: pageUrl(SITE.url, 'moveis-gamer'), description: 'Guia completo para montar seu setup gamer com as melhores ofertas do Mercado Livre e Shopee. Cadeiras, mesas, iluminação e acessórios gamers.' },
     { slug: 'moveis-para-estudantes', title: 'Móveis para Estudantes', url: pageUrl(SITE.url, 'moveis-para-estudantes'), description: 'Guia completo para estudantes universitários sobre móveis compactos, baratos e funcionais.' },
     { slug: 'moveis-para-bebe', title: 'Móveis para Bebê', url: pageUrl(SITE.url, 'moveis-para-bebe'), description: 'Guia de móveis seguros e adequados para o quarto do bebê.' },
+    { slug: 'montadores-marilia', title: 'Montadores em Marília', url: pageUrl(SITE.url, 'montadores/marilia'), description: 'Serviço de montagem de móveis em Marília e região. Montador profissional com experiência.' },
     { slug: 'politicas', title: 'Políticas e Transparência', url: pageUrl(SITE.url, 'politicas'), description: 'Políticas de privacidade, termos de uso e transparência do site.' },
     { slug: 'contato', title: 'Contato', url: pageUrl(SITE.url, 'contato'), description: 'Entre em contato conosco por e-mail ou WhatsApp.' },
   ];
