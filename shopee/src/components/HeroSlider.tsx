@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useRef, useCallback } from "react";
+import { useState, useCallback } from "react";
 import Link from "next/link";
 
 // ============================================================
@@ -62,12 +62,8 @@ const slides: Slide[] = [
 // ============================================================
 // ⚙️ CONFIGURAÇÕES
 // ============================================================
-const SLIDE_INTERVAL = 6000;
-
 export default function HeroSlider() {
   const [current, setCurrent] = useState(0);
-  const [isPaused, setIsPaused] = useState(false);
-  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   const totalSlides = slides.length;
   const slide = slides[current];
@@ -84,43 +80,16 @@ export default function HeroSlider() {
     setCurrent(index);
   }, []);
 
-  // Só pausa em hover de MOUSE de verdade. Em telas de toque, o navegador simula
-  // um "mouseenter" ao tocar mas nunca dispara o "mouseleave" correspondente —
-  // isso travava isPaused em true pra sempre e o carrossel parava de trocar
-  // sozinho depois do primeiro toque. Checando pointerType evitamos isso.
-  const handlePointerEnter = useCallback((e: { pointerType: string }) => {
-    if (e.pointerType === "mouse") setIsPaused(true);
-  }, []);
-  const handlePointerLeave = useCallback((e: { pointerType: string }) => {
-    if (e.pointerType === "mouse") setIsPaused(false);
-  }, []);
-
-  useEffect(() => {
-    if (isPaused) {
-      if (intervalRef.current) clearInterval(intervalRef.current);
-      return;
-    }
-
-    intervalRef.current = setInterval(nextSlide, SLIDE_INTERVAL);
-
-    return () => {
-      if (intervalRef.current) clearInterval(intervalRef.current);
-    };
-  }, [isPaused, nextSlide]);
-
   return (
     <section
       className="relative overflow-hidden bg-stone-950 w-full min-h-[220px] sm:min-h-[260px] md:aspect-[1920/415] md:min-h-0 md:max-h-[340px]"
-      onPointerEnter={handlePointerEnter}
-      onPointerLeave={handlePointerLeave}
       aria-roledescription="Carrossel de destaques"
       aria-label="Destaques da loja"
     >
       <div className="absolute inset-0">
         {slides.map((s, index) => {
           const isActive = index === current;
-          const isNext = index === (current + 1) % totalSlides;
-          const shouldLoad = index === 0 || isActive || isNext; // Só carrega o primeiro, o atual e o próximo
+          const shouldLoad = index === 0 || isActive;
           
           return (
             <div
