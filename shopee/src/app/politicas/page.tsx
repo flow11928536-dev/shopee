@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: `${SITE.url}/imagens/og-image.jpg`,
+        url: `${SITE.url}/banners/og-image.jpg`,
         width: 1200,
         height: 630,
         alt: "Políticas e Transparência - Loja de Móveis Marília",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     title: "Políticas e Transparência | Loja de Móveis Marília",
     description:
       "Conheça nossa política de privacidade, transparência sobre links de afiliados, termos de uso e compromisso editorial.",
-    images: [`${SITE.url}/imagens/og-image.jpg`],
+    images: [`${SITE.url}/banners/og-image.jpg`],
   },
 };
 

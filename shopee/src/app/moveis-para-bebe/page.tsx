@@ -15,46 +15,46 @@ const LAST_REVIEWED = "2026-07-27";
 // METADATA
 // ============================================================
 export const metadata: Metadata = {
-  title: "Móveis para Bebê e Quarto Infantil | Guia 2026 | Berços, Cômodas e Kits",
+  title: "MÃ³veis para BebÃª e Quarto Infantil | Guia 2026 | BerÃ§os, CÃ´modas e Kits",
   description:
-    "Descubra como escolher o melhor berço, cômoda e guarda-roupa infantil. Compare modelos, veja dicas de segurança, preços e encontre kits completos para montar o quarto do bebê.",
+    "Descubra como escolher o melhor berÃ§o, cÃ´moda e guarda-roupa infantil. Compare modelos, veja dicas de seguranÃ§a, preÃ§os e encontre kits completos para montar o quarto do bebÃª.",
   keywords: [
-    "móveis para bebê",
+    "mÃ³veis para bebÃª",
     "quarto infantil",
-    "berço",
-    "berço americano",
-    "cômoda infantil",
+    "berÃ§o",
+    "berÃ§o americano",
+    "cÃ´moda infantil",
     "guarda-roupa infantil",
     "quarto montessoriano",
-    "quarto de bebê completo",
-    "móveis infantis",
-    "kit quarto bebê",
+    "quarto de bebÃª completo",
+    "mÃ³veis infantis",
+    "kit quarto bebÃª",
   ],
   alternates: {
     canonical: `${SITE.url}/moveis-para-bebe`,
   },
   openGraph: {
-    title: "Móveis para Bebê e Quarto Infantil | Guia 2026",
+    title: "MÃ³veis para BebÃª e Quarto Infantil | Guia 2026",
     description:
-      "Guia completo de móveis para bebê e quarto infantil. Berços, cômodas, guarda-roupas e kits completos com os melhores preços.",
+      "Guia completo de mÃ³veis para bebÃª e quarto infantil. BerÃ§os, cÃ´modas, guarda-roupas e kits completos com os melhores preÃ§os.",
     url: `${SITE.url}/moveis-para-bebe`,
     type: "article",
-    siteName: "Loja de Móveis Marília",
+    siteName: "Loja de MÃ³veis MarÃ­lia",
     locale: "pt_BR",
     images: [
       {
         url: `${SITE.url}/banners/bebe-quarto-infantil-fundo.webp`,
         width: 1200,
         height: 630,
-        alt: "Quarto de bebê completo com berço americano, cômoda infantil, guarda-roupa branco e decoração montessoriana",
+        alt: "Quarto de bebÃª completo com berÃ§o americano, cÃ´moda infantil, guarda-roupa branco e decoraÃ§Ã£o montessoriana",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Móveis para Bebê e Quarto Infantil | Guia 2026",
+    title: "MÃ³veis para BebÃª e Quarto Infantil | Guia 2026",
     description:
-      "Guia completo de móveis para bebê e quarto infantil. Berços, cômodas, guarda-roupas e kits completos.",
+      "Guia completo de mÃ³veis para bebÃª e quarto infantil. BerÃ§os, cÃ´modas, guarda-roupas e kits completos.",
     images: [`${SITE.url}/banners/bebe-quarto-infantil-fundo.webp`],
   },
 };
@@ -99,21 +99,21 @@ const KITS_SLUGS = [
 // ============================================================
 const ENTIDADES = {
   inmetro: "INMETRO - Instituto Nacional de Metrologia, Qualidade e Tecnologia",
-  montessori: "Maria Montessori - Educadora e médica italiana",
-  mdf: "MDF - Medium Density Fiberboard (Fibra de Média Densidade)",
-  mdp: "MDP - Medium Density Particleboard (Painel de Partículas de Média Densidade)",
-  voc: "VOC - Compostos Orgânicos Voláteis",
+  montessori: "Maria Montessori - Educadora e mÃ©dica italiana",
+  mdf: "MDF - Medium Density Fiberboard (Fibra de MÃ©dia Densidade)",
+  mdp: "MDP - Medium Density Particleboard (Painel de PartÃ­culas de MÃ©dia Densidade)",
+  voc: "VOC - Compostos OrgÃ¢nicos VolÃ¡teis",
 };
 
 // ============================================================
 // TABELA COMPARATIVA
 // ============================================================
 const tabelaProdutos = [
-  { produto: "Berço Americano 3 em 1", material: "MDF 100%", gavetas: "Não", idade: "0-10 anos", melhorPara: "Crescimento", slug: BERCO_SLUGS[0] },
-  { produto: "Berço Capitonê", material: "MDF 100%", gavetas: "Não", idade: "0-3 anos", melhorPara: "Estilo clássico", slug: BERCO_SLUGS[1] },
-  { produto: "Cômoda 4 Gavetas", material: "MDF 100%", gavetas: "4", idade: "0-5 anos", melhorPara: "Espaço médio", slug: COMODA_SLUGS[0] },
-  { produto: "Cômoda Grécia 8 Gavetas", material: "MDP/MDF", gavetas: "8", idade: "0-8 anos", melhorPara: "Muito espaço", slug: COMODA_SLUGS[1] },
-  { produto: "Kit Quarto Bebê Completo", material: "MDF 100%", gavetas: "4-6", idade: "0-10 anos", melhorPara: "Design harmonizado", slug: KITS_SLUGS[0] },
+  { produto: "BerÃ§o Americano 3 em 1", material: "MDF 100%", gavetas: "NÃ£o", idade: "0-10 anos", melhorPara: "Crescimento", slug: BERCO_SLUGS[0] },
+  { produto: "BerÃ§o CapitonÃª", material: "MDF 100%", gavetas: "NÃ£o", idade: "0-3 anos", melhorPara: "Estilo clÃ¡ssico", slug: BERCO_SLUGS[1] },
+  { produto: "CÃ´moda 4 Gavetas", material: "MDF 100%", gavetas: "4", idade: "0-5 anos", melhorPara: "EspaÃ§o mÃ©dio", slug: COMODA_SLUGS[0] },
+  { produto: "CÃ´moda GrÃ©cia 8 Gavetas", material: "MDP/MDF", gavetas: "8", idade: "0-8 anos", melhorPara: "Muito espaÃ§o", slug: COMODA_SLUGS[1] },
+  { produto: "Kit Quarto BebÃª Completo", material: "MDF 100%", gavetas: "4-6", idade: "0-10 anos", melhorPara: "Design harmonizado", slug: KITS_SLUGS[0] },
 ];
 
 // ============================================================
@@ -123,15 +123,15 @@ const reviewData = {
   nota: 9.7,
   totalReviews: 152,
   pontosPositivos: [
-    "Móveis com certificação INMETRO e pintura atóxica",
+    "MÃ³veis com certificaÃ§Ã£o INMETRO e pintura atÃ³xica",
     "Kits completos com design harmonizado",
-    "Preços competitivos com desconto de até 48%",
+    "PreÃ§os competitivos com desconto de atÃ© 48%",
     "Frete para todo Brasil",
-    "Produtos com alta avaliação dos compradores (4.5+ estrelas)",
+    "Produtos com alta avaliaÃ§Ã£o dos compradores (4.5+ estrelas)",
   ],
   pontosNegativos: [
-    "Alguns produtos podem ter prazo de entrega maior para regiões distantes",
-    "Montagem não está inclusa (recomendamos contratar montador parceiro)",
+    "Alguns produtos podem ter prazo de entrega maior para regiÃµes distantes",
+    "Montagem nÃ£o estÃ¡ inclusa (recomendamos contratar montador parceiro)",
   ],
 };
 
@@ -139,78 +139,78 @@ const reviewData = {
 // FAQ (30 PERGUNTAS)
 // ============================================================
 const faqs = [
-  { q: "Qual o melhor berço para bebê?", a: "O melhor berço é aquele que atende às normas do INMETRO, com grades de espaçamento entre 4,5cm e 6,5cm, pintura atóxica e regulagem de altura. O berço americano 3 em 1 é a opção mais recomendada por sua versatilidade, transformando-se em minicama e cama de solteiro, acompanhando o crescimento da criança por até 10 anos." },
-  { q: "O que comprar para montar o quarto do bebê?", a: "Os itens essenciais são: berço certificado INMETRO, cômoda com trocador, guarda-roupa infantil, cortina blackout e abajur com dimerizador. Itens complementares incluem poltrona de amamentação, tapete macio, móbile e caixas organizadoras para manter o ambiente funcional e seguro." },
-  { q: "Qual a melhor cômoda para bebê?", a: "Uma cômoda com 4 a 6 gavetas, tampo para trocador, altura entre 80cm e 90cm e corrediças metálicas telescópicas. O material ideal é MDF 100% com pintura atóxica, garantindo durabilidade e segurança para o bebê." },
-  { q: "Qual a altura ideal do guarda-roupa infantil?", a: "Guarda-roupas com 1,50m a 1,80m de altura são ideais para quartos infantis. Portas com abertura suave, puxadores embutidos e divisórias internas facilitam a organização por tamanho e tipo de roupa." },
-  { q: "Vale a pena comprar kit quarto de bebê completo?", a: "Sim! Kits completos oferecem design harmonizado, preço reduzido em até 20% comparado à compra avulsa e garantem que os móveis combinem entre si. É a opção mais econômica e prática para os pais." },
-  { q: "Qual material é melhor para móveis de bebê?", a: "MDF 100% com pintura atóxica é o mais indicado, sendo resistente, durável e sem emissão de substâncias tóxicas. O MDP é uma alternativa mais econômica, mas menos resistente à umidade e com bordas menos duráveis." },
-  { q: "Berço americano ou berço tradicional?", a: "O berço americano é mais versátil e econômico a longo prazo, transformando-se em minicama e cama de solteiro. O berço tradicional é mais simples e barato, mas tem vida útil limitada de 2 a 3 anos." },
-  { q: "Como escolher a pintura do quarto de bebê?", a: "Prefira tintas à base de água com baixa emissão de VOC. Cores suaves como branco, bege, rosa claro, azul claro ou verde menta são as mais recomendadas por transmitirem tranquilidade e serem atemporais." },
-  { q: "Quarto montessoriano: o que é e como montar?", a: "Baseado na filosofia de Maria Montessori, o quarto montessoriano utiliza móveis baixos e acessíveis para estimular a autonomia da criança. Inclui cama baixa, espelho no chão, prateleiras ao alcance e berço no chão, permitindo que o bebê explore o ambiente livremente." },
-  { q: "Móveis infantis baratos: onde encontrar?", a: "Aqui na Loja de Móveis Marília você encontra os melhores preços. Marketplaces como Shopee e Mercado Livre também oferecem ótimas promoções, especialmente com cupons de desconto e frete grátis." },
-  { q: "Qual a melhor cortina para quarto de bebê?", a: "A cortina blackout é a melhor opção, bloqueando 100% da luz externa para garantir sonecas tranquilas durante o dia. Também ajuda a regular a temperatura do ambiente, mantendo o quarto fresco no verão e aquecido no inverno." },
-  { q: "Como escolher a poltrona de amamentação?", a: "A poltrona deve ter braços largos, encosto alto, altura entre 40cm e 45cm para apoio dos pés e, se possível, mecanismo de balanço. Modelos com tecido lavável facilitam a manutenção." },
-  { q: "Qual a melhor iluminação para o quarto do bebê?", a: "A iluminação ideal combina luz quente (2700K a 3000K), abajur dimerizador ao lado da poltrona, cortina blackout e iluminação indireta para criar um ambiente aconchegante e propício ao sono." },
-  { q: "Como organizar um quarto infantil pequeno?", a: "Priorize móveis multifuncionais (berço com baú, cômoda com trocador), utilize prateleiras na parede, prefira guarda-roupas com portas de correr e mantenha o chão livre. Caixas organizadoras empilháveis otimizam o espaço vertical." },
-  { q: "Quando devo começar a montar o quarto do bebê?", a: "O ideal é começar entre a 20ª e 24ª semana de gestação, dando tempo para pesquisar, comprar, receber os móveis e fazer ajustes antes do nascimento." },
-  { q: "Preciso de um trocador separado da cômoda?", a: "Não necessariamente. Cômodas com tampo para trocador são mais práticas, ocupam menos espaço e são mais seguras por não correrem risco de tombamento durante o uso." },
-  { q: "Quais são os principais cuidados de segurança no quarto do bebê?", a: "Proteja tomadas com tampas, fixe móveis altos à parede, utilize protetores de quina, mantenha o chão livre de objetos e garanta ventilação adequada com temperatura entre 20°C e 22°C." },
-  { q: "Berço com rodízios é seguro?", a: "Sim, desde que os rodízios tenham travas de segurança sempre acionadas durante o uso. Os rodízios facilitam a movimentação para limpeza e reorganização do quarto." },
-  { q: "Como escolher o colchão ideal para o berço?", a: "O colchão deve ser firme, respirável, ter o tamanho exato do berço sem folgas. Espuma D28 é a mais indicada para bebês, e a capa impermeável facilita a limpeza e protege contra alergias." },
-  { q: "O quarto montessoriano é indicado para recém-nascidos?", a: "Sim, pode ser adaptado para recém-nascidos utilizando colchão no chão ou cama baixa com grades removíveis. Acompanhe o desenvolvimento da criança para ajustar o ambiente conforme ela cresce." },
-  { q: "Quais são os melhores puxadores para móveis infantis?", a: "Puxadores embutidos ou de superfície lisa são os mais seguros, evitando que roupas fiquem presas. Puxadores em formato de arco são os mais indicados por sua segurança e facilidade de uso." },
-  { q: "Devo pintar o quarto do bebê antes ou depois de comprar os móveis?", a: "O ideal é comprar os móveis primeiro para garantir a combinação de cores e planejar melhor a distribuição dos móveis no ambiente antes da pintura." },
-  { q: "Como evitar excesso de poeira no quarto do bebê?", a: "Utilize cortinas blackout laváveis, tapetes de fácil limpeza, mantenha rotina de limpeza semanal e evite excesso de bichinhos de pelúcia. Aspirador com filtro HEPA melhora a qualidade do ar." },
-  { q: "Qual é a melhor cor para um quarto de bebê?", a: "Cores neutras e suaves como branco, bege, cinza claro, rosa claro e azul claro são as mais recomendadas por transmitirem tranquilidade. Acessórios coloridos podem ser usados para dar personalidade." },
-  { q: "Móveis planejados ou modulados para quarto infantil?", a: "Móveis planejados são indicados para espaços com medidas irregulares. Para a maioria dos quartos, os modulados oferecem excelente custo-benefício, são mais fáceis de montar e podem ser rearranjados." },
-  { q: "Preciso de móveis fixados na parede?", a: "Sim, todos os móveis altos como guarda-roupas e estantes devem ser fixados na parede para evitar tombamentos. Este é um dos itens de segurança mais importantes para o quarto infantil." },
-  { q: "Qual a melhor altura para a poltrona de amamentação?", a: "A altura ideal é entre 40cm e 45cm para que os pés fiquem apoiados no chão ou em um apoio. O encosto alto e os braços largos são importantes para o conforto durante longas horas de amamentação." },
-  { q: "Como montar um quarto de bebê moderno?", a: "Invista em móveis de linhas retas e cores neutras, utilizando acessórios coloridos para dar personalidade. Quartos modernos combinam design clean com toques de cor e elementos naturais como madeira." },
-  { q: "Qual o valor médio para montar um quarto de bebê completo?", a: "O valor médio varia entre R$ 3.000 e R$ 6.000 para móveis de boa qualidade, podendo chegar a R$ 10.000 com móveis planejados, dependendo da marca e dos materiais escolhidos." },
-  { q: "Berço com pintura atóxica: por que é importante?", a: "A pintura atóxica é essencial porque os bebês levam tudo à boca. Tintas com chumbo ou metais pesados podem causar intoxicação. Prefira tintas à base de água com certificação de baixa emissão de VOC." },
-  { q: "Qual a temperatura ideal para o quarto do bebê?", a: "A temperatura ideal é entre 20°C e 22°C. Temperaturas muito altas aumentam o risco de morte súbita, enquanto temperaturas muito baixas causam desconforto. Use um termômetro para monitorar." },
+  { q: "Qual o melhor berÃ§o para bebÃª?", a: "O melhor berÃ§o Ã© aquele que atende Ã s normas do INMETRO, com grades de espaÃ§amento entre 4,5cm e 6,5cm, pintura atÃ³xica e regulagem de altura. O berÃ§o americano 3 em 1 Ã© a opÃ§Ã£o mais recomendada por sua versatilidade, transformando-se em minicama e cama de solteiro, acompanhando o crescimento da crianÃ§a por atÃ© 10 anos." },
+  { q: "O que comprar para montar o quarto do bebÃª?", a: "Os itens essenciais sÃ£o: berÃ§o certificado INMETRO, cÃ´moda com trocador, guarda-roupa infantil, cortina blackout e abajur com dimerizador. Itens complementares incluem poltrona de amamentaÃ§Ã£o, tapete macio, mÃ³bile e caixas organizadoras para manter o ambiente funcional e seguro." },
+  { q: "Qual a melhor cÃ´moda para bebÃª?", a: "Uma cÃ´moda com 4 a 6 gavetas, tampo para trocador, altura entre 80cm e 90cm e corrediÃ§as metÃ¡licas telescÃ³picas. O material ideal Ã© MDF 100% com pintura atÃ³xica, garantindo durabilidade e seguranÃ§a para o bebÃª." },
+  { q: "Qual a altura ideal do guarda-roupa infantil?", a: "Guarda-roupas com 1,50m a 1,80m de altura sÃ£o ideais para quartos infantis. Portas com abertura suave, puxadores embutidos e divisÃ³rias internas facilitam a organizaÃ§Ã£o por tamanho e tipo de roupa." },
+  { q: "Vale a pena comprar kit quarto de bebÃª completo?", a: "Sim! Kits completos oferecem design harmonizado, preÃ§o reduzido em atÃ© 20% comparado Ã  compra avulsa e garantem que os mÃ³veis combinem entre si. Ã‰ a opÃ§Ã£o mais econÃ´mica e prÃ¡tica para os pais." },
+  { q: "Qual material Ã© melhor para mÃ³veis de bebÃª?", a: "MDF 100% com pintura atÃ³xica Ã© o mais indicado, sendo resistente, durÃ¡vel e sem emissÃ£o de substÃ¢ncias tÃ³xicas. O MDP Ã© uma alternativa mais econÃ´mica, mas menos resistente Ã  umidade e com bordas menos durÃ¡veis." },
+  { q: "BerÃ§o americano ou berÃ§o tradicional?", a: "O berÃ§o americano Ã© mais versÃ¡til e econÃ´mico a longo prazo, transformando-se em minicama e cama de solteiro. O berÃ§o tradicional Ã© mais simples e barato, mas tem vida Ãºtil limitada de 2 a 3 anos." },
+  { q: "Como escolher a pintura do quarto de bebÃª?", a: "Prefira tintas Ã  base de Ã¡gua com baixa emissÃ£o de VOC. Cores suaves como branco, bege, rosa claro, azul claro ou verde menta sÃ£o as mais recomendadas por transmitirem tranquilidade e serem atemporais." },
+  { q: "Quarto montessoriano: o que Ã© e como montar?", a: "Baseado na filosofia de Maria Montessori, o quarto montessoriano utiliza mÃ³veis baixos e acessÃ­veis para estimular a autonomia da crianÃ§a. Inclui cama baixa, espelho no chÃ£o, prateleiras ao alcance e berÃ§o no chÃ£o, permitindo que o bebÃª explore o ambiente livremente." },
+  { q: "MÃ³veis infantis baratos: onde encontrar?", a: "Aqui na Loja de MÃ³veis MarÃ­lia vocÃª encontra os melhores preÃ§os. Marketplaces como Shopee e Mercado Livre tambÃ©m oferecem Ã³timas promoÃ§Ãµes, especialmente com cupons de desconto e frete grÃ¡tis." },
+  { q: "Qual a melhor cortina para quarto de bebÃª?", a: "A cortina blackout Ã© a melhor opÃ§Ã£o, bloqueando 100% da luz externa para garantir sonecas tranquilas durante o dia. TambÃ©m ajuda a regular a temperatura do ambiente, mantendo o quarto fresco no verÃ£o e aquecido no inverno." },
+  { q: "Como escolher a poltrona de amamentaÃ§Ã£o?", a: "A poltrona deve ter braÃ§os largos, encosto alto, altura entre 40cm e 45cm para apoio dos pÃ©s e, se possÃ­vel, mecanismo de balanÃ§o. Modelos com tecido lavÃ¡vel facilitam a manutenÃ§Ã£o." },
+  { q: "Qual a melhor iluminaÃ§Ã£o para o quarto do bebÃª?", a: "A iluminaÃ§Ã£o ideal combina luz quente (2700K a 3000K), abajur dimerizador ao lado da poltrona, cortina blackout e iluminaÃ§Ã£o indireta para criar um ambiente aconchegante e propÃ­cio ao sono." },
+  { q: "Como organizar um quarto infantil pequeno?", a: "Priorize mÃ³veis multifuncionais (berÃ§o com baÃº, cÃ´moda com trocador), utilize prateleiras na parede, prefira guarda-roupas com portas de correr e mantenha o chÃ£o livre. Caixas organizadoras empilhÃ¡veis otimizam o espaÃ§o vertical." },
+  { q: "Quando devo comeÃ§ar a montar o quarto do bebÃª?", a: "O ideal Ã© comeÃ§ar entre a 20Âª e 24Âª semana de gestaÃ§Ã£o, dando tempo para pesquisar, comprar, receber os mÃ³veis e fazer ajustes antes do nascimento." },
+  { q: "Preciso de um trocador separado da cÃ´moda?", a: "NÃ£o necessariamente. CÃ´modas com tampo para trocador sÃ£o mais prÃ¡ticas, ocupam menos espaÃ§o e sÃ£o mais seguras por nÃ£o correrem risco de tombamento durante o uso." },
+  { q: "Quais sÃ£o os principais cuidados de seguranÃ§a no quarto do bebÃª?", a: "Proteja tomadas com tampas, fixe mÃ³veis altos Ã  parede, utilize protetores de quina, mantenha o chÃ£o livre de objetos e garanta ventilaÃ§Ã£o adequada com temperatura entre 20Â°C e 22Â°C." },
+  { q: "BerÃ§o com rodÃ­zios Ã© seguro?", a: "Sim, desde que os rodÃ­zios tenham travas de seguranÃ§a sempre acionadas durante o uso. Os rodÃ­zios facilitam a movimentaÃ§Ã£o para limpeza e reorganizaÃ§Ã£o do quarto." },
+  { q: "Como escolher o colchÃ£o ideal para o berÃ§o?", a: "O colchÃ£o deve ser firme, respirÃ¡vel, ter o tamanho exato do berÃ§o sem folgas. Espuma D28 Ã© a mais indicada para bebÃªs, e a capa impermeÃ¡vel facilita a limpeza e protege contra alergias." },
+  { q: "O quarto montessoriano Ã© indicado para recÃ©m-nascidos?", a: "Sim, pode ser adaptado para recÃ©m-nascidos utilizando colchÃ£o no chÃ£o ou cama baixa com grades removÃ­veis. Acompanhe o desenvolvimento da crianÃ§a para ajustar o ambiente conforme ela cresce." },
+  { q: "Quais sÃ£o os melhores puxadores para mÃ³veis infantis?", a: "Puxadores embutidos ou de superfÃ­cie lisa sÃ£o os mais seguros, evitando que roupas fiquem presas. Puxadores em formato de arco sÃ£o os mais indicados por sua seguranÃ§a e facilidade de uso." },
+  { q: "Devo pintar o quarto do bebÃª antes ou depois de comprar os mÃ³veis?", a: "O ideal Ã© comprar os mÃ³veis primeiro para garantir a combinaÃ§Ã£o de cores e planejar melhor a distribuiÃ§Ã£o dos mÃ³veis no ambiente antes da pintura." },
+  { q: "Como evitar excesso de poeira no quarto do bebÃª?", a: "Utilize cortinas blackout lavÃ¡veis, tapetes de fÃ¡cil limpeza, mantenha rotina de limpeza semanal e evite excesso de bichinhos de pelÃºcia. Aspirador com filtro HEPA melhora a qualidade do ar." },
+  { q: "Qual Ã© a melhor cor para um quarto de bebÃª?", a: "Cores neutras e suaves como branco, bege, cinza claro, rosa claro e azul claro sÃ£o as mais recomendadas por transmitirem tranquilidade. AcessÃ³rios coloridos podem ser usados para dar personalidade." },
+  { q: "MÃ³veis planejados ou modulados para quarto infantil?", a: "MÃ³veis planejados sÃ£o indicados para espaÃ§os com medidas irregulares. Para a maioria dos quartos, os modulados oferecem excelente custo-benefÃ­cio, sÃ£o mais fÃ¡ceis de montar e podem ser rearranjados." },
+  { q: "Preciso de mÃ³veis fixados na parede?", a: "Sim, todos os mÃ³veis altos como guarda-roupas e estantes devem ser fixados na parede para evitar tombamentos. Este Ã© um dos itens de seguranÃ§a mais importantes para o quarto infantil." },
+  { q: "Qual a melhor altura para a poltrona de amamentaÃ§Ã£o?", a: "A altura ideal Ã© entre 40cm e 45cm para que os pÃ©s fiquem apoiados no chÃ£o ou em um apoio. O encosto alto e os braÃ§os largos sÃ£o importantes para o conforto durante longas horas de amamentaÃ§Ã£o." },
+  { q: "Como montar um quarto de bebÃª moderno?", a: "Invista em mÃ³veis de linhas retas e cores neutras, utilizando acessÃ³rios coloridos para dar personalidade. Quartos modernos combinam design clean com toques de cor e elementos naturais como madeira." },
+  { q: "Qual o valor mÃ©dio para montar um quarto de bebÃª completo?", a: "O valor mÃ©dio varia entre R$ 3.000 e R$ 6.000 para mÃ³veis de boa qualidade, podendo chegar a R$ 10.000 com mÃ³veis planejados, dependendo da marca e dos materiais escolhidos." },
+  { q: "BerÃ§o com pintura atÃ³xica: por que Ã© importante?", a: "A pintura atÃ³xica Ã© essencial porque os bebÃªs levam tudo Ã  boca. Tintas com chumbo ou metais pesados podem causar intoxicaÃ§Ã£o. Prefira tintas Ã  base de Ã¡gua com certificaÃ§Ã£o de baixa emissÃ£o de VOC." },
+  { q: "Qual a temperatura ideal para o quarto do bebÃª?", a: "A temperatura ideal Ã© entre 20Â°C e 22Â°C. Temperaturas muito altas aumentam o risco de morte sÃºbita, enquanto temperaturas muito baixas causam desconforto. Use um termÃ´metro para monitorar." },
 ];
 
 // ============================================================
 // ERROS MAIS COMUNS
 // ============================================================
 const errosComuns = [
-  "Comprar móveis muito pequenos que não acompanham o crescimento do bebê",
-  "Escolher berço sem certificação INMETRO, colocando a segurança do bebê em risco",
-  "Ignorar a cortina blackout, prejudicando o sono diurno do bebê",
-  "Colocar o berço perto da janela, expondo o bebê a correntes de ar e luz excessiva",
+  "Comprar mÃ³veis muito pequenos que nÃ£o acompanham o crescimento do bebÃª",
+  "Escolher berÃ§o sem certificaÃ§Ã£o INMETRO, colocando a seguranÃ§a do bebÃª em risco",
+  "Ignorar a cortina blackout, prejudicando o sono diurno do bebÃª",
+  "Colocar o berÃ§o perto da janela, expondo o bebÃª a correntes de ar e luz excessiva",
   "Esquecer de proteger as tomadas, criando riscos de acidentes",
-  "Exagerar na decoração, criando um ambiente visualmente poluído e estimulante demais",
-  "Não fixar os móveis à parede, aumentando o risco de tombamento",
-  "Não prever espaço para brincar e para o crescimento da criança",
-  "Iluminação inadequada, prejudicando a qualidade do sono do bebê",
-  "Móveis com quinas vivas, aumentando o risco de acidentes quando a criança começar a andar",
+  "Exagerar na decoraÃ§Ã£o, criando um ambiente visualmente poluÃ­do e estimulante demais",
+  "NÃ£o fixar os mÃ³veis Ã  parede, aumentando o risco de tombamento",
+  "NÃ£o prever espaÃ§o para brincar e para o crescimento da crianÃ§a",
+  "IluminaÃ§Ã£o inadequada, prejudicando a qualidade do sono do bebÃª",
+  "MÃ³veis com quinas vivas, aumentando o risco de acidentes quando a crianÃ§a comeÃ§ar a andar",
 ];
 
 // ============================================================
 // CHECKLIST
 // ============================================================
 const checklistItens = [
-  { item: "Berço certificado INMETRO", categoria: "Móveis" },
-  { item: "Colchão firme e respirável", categoria: "Móveis" },
-  { item: "Cômoda com trocador", categoria: "Móveis" },
-  { item: "Guarda-roupa infantil", categoria: "Móveis" },
-  { item: "Poltrona de amamentação", categoria: "Móveis" },
-  { item: "Caixas organizadoras", categoria: "Organização" },
-  { item: "Nichos ou prateleiras", categoria: "Organização" },
-  { item: "Cabideiros para roupas", categoria: "Organização" },
-  { item: "Abajur com dimerizador", categoria: "Iluminação" },
-  { item: "Cortina blackout", categoria: "Iluminação" },
-  { item: "Luminária de teto com luz quente", categoria: "Iluminação" },
-  { item: "Protetores de tomadas", categoria: "Segurança" },
-  { item: "Protetores de quina", categoria: "Segurança" },
-  { item: "Móveis fixados à parede", categoria: "Segurança" },
-  { item: "Tapete antiderrapante", categoria: "Segurança" },
-  { item: "Jogo de lençóis (pelo menos 2)", categoria: "Têxtil" },
-  { item: "Mantas e cobertores", categoria: "Têxtil" },
-  { item: "Tapete macio", categoria: "Decoração" },
-  { item: "Móbile", categoria: "Decoração" },
+  { item: "BerÃ§o certificado INMETRO", categoria: "MÃ³veis" },
+  { item: "ColchÃ£o firme e respirÃ¡vel", categoria: "MÃ³veis" },
+  { item: "CÃ´moda com trocador", categoria: "MÃ³veis" },
+  { item: "Guarda-roupa infantil", categoria: "MÃ³veis" },
+  { item: "Poltrona de amamentaÃ§Ã£o", categoria: "MÃ³veis" },
+  { item: "Caixas organizadoras", categoria: "OrganizaÃ§Ã£o" },
+  { item: "Nichos ou prateleiras", categoria: "OrganizaÃ§Ã£o" },
+  { item: "Cabideiros para roupas", categoria: "OrganizaÃ§Ã£o" },
+  { item: "Abajur com dimerizador", categoria: "IluminaÃ§Ã£o" },
+  { item: "Cortina blackout", categoria: "IluminaÃ§Ã£o" },
+  { item: "LuminÃ¡ria de teto com luz quente", categoria: "IluminaÃ§Ã£o" },
+  { item: "Protetores de tomadas", categoria: "SeguranÃ§a" },
+  { item: "Protetores de quina", categoria: "SeguranÃ§a" },
+  { item: "MÃ³veis fixados Ã  parede", categoria: "SeguranÃ§a" },
+  { item: "Tapete antiderrapante", categoria: "SeguranÃ§a" },
+  { item: "Jogo de lenÃ§Ã³is (pelo menos 2)", categoria: "TÃªxtil" },
+  { item: "Mantas e cobertores", categoria: "TÃªxtil" },
+  { item: "Tapete macio", categoria: "DecoraÃ§Ã£o" },
+  { item: "MÃ³bile", categoria: "DecoraÃ§Ã£o" },
 ];
 
 const checklistPorCategoria = checklistItens.reduce<Record<string, string[]>>((acc, cur) => {
@@ -225,10 +225,10 @@ const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "@id": `${SITE.url}/#website`,
-  name: "Loja de Móveis Marília",
+  name: "Loja de MÃ³veis MarÃ­lia",
   url: SITE.url,
   inLanguage: "pt-BR",
-  description: "Loja de móveis em Marília com curadoria de produtos de alto padrão",
+  description: "Loja de mÃ³veis em MarÃ­lia com curadoria de produtos de alto padrÃ£o",
   potentialAction: {
     "@type": "SearchAction",
     target: {
@@ -238,30 +238,30 @@ const websiteSchema = {
     "query-input": "required name=search_term_string",
   },
   isAccessibleForFree: true,
-  educationalUse: "Guia prático para montar quarto de bebê",
-  teaches: "Escolha de móveis infantis seguros e funcionais",
+  educationalUse: "Guia prÃ¡tico para montar quarto de bebÃª",
+  teaches: "Escolha de mÃ³veis infantis seguros e funcionais",
 };
 
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": `${SITE.url}/#organization`,
-  name: "Loja de Móveis Marília",
+  name: "Loja de MÃ³veis MarÃ­lia",
   url: SITE.url,
   logo: {
     "@type": "ImageObject",
-    url: `${SITE.url}/banners/logo.png`,
+    url: `${SITE.url}/banners/loja-moveis-jardim-esmeralda-marilia-moveis-de-alto-padrao-marilia-logo.png`,
     width: 200,
     height: 60,
   },
   foundingDate: "2024",
   areaServed: {
     "@type": "City",
-    name: "Marília",
+    name: "MarÃ­lia",
   },
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Marília",
+    addressLocality: "MarÃ­lia",
     addressRegion: "SP",
     addressCountry: "BR",
   },
@@ -279,16 +279,16 @@ const organizationSchema = {
     availableLanguage: "Portuguese",
   },
   knowsAbout: [
-    "Móveis",
+    "MÃ³veis",
     "Guarda-roupas",
     "Cozinhas",
-    "Sofás",
+    "SofÃ¡s",
     "Home Office",
     "Quartos",
-    "Decoração",
-    "Móveis infantis",
-    "Berços",
-    "Cômodas",
+    "DecoraÃ§Ã£o",
+    "MÃ³veis infantis",
+    "BerÃ§os",
+    "CÃ´modas",
     ENTIDADES.inmetro,
     ENTIDADES.montessori,
     ENTIDADES.mdf,
@@ -301,8 +301,8 @@ const authorSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
   "@id": `${SITE.url}/#author`,
-  name: "Equipe Loja de Móveis Marília",
-  jobTitle: "Especialistas em Móveis e Decoração Infantil",
+  name: "Equipe Loja de MÃ³veis MarÃ­lia",
+  jobTitle: "Especialistas em MÃ³veis e DecoraÃ§Ã£o Infantil",
   url: SITE.url,
   affiliation: {
     "@type": "Organization",
@@ -314,9 +314,9 @@ const webpageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "@id": `${SITE.url}/moveis-para-bebe/#webpage`,
-  name: "Móveis para Bebê e Quarto Infantil | Guia 2026",
+  name: "MÃ³veis para BebÃª e Quarto Infantil | Guia 2026",
   description:
-    "Guia completo de móveis para bebê e quarto infantil. Berços, cômodas, guarda-roupas e kits completos.",
+    "Guia completo de mÃ³veis para bebÃª e quarto infantil. BerÃ§os, cÃ´modas, guarda-roupas e kits completos.",
   url: `${SITE.url}/moveis-para-bebe`,
   inLanguage: "pt-BR",
   isPartOf: { "@id": `${SITE.url}/#website` },
@@ -328,10 +328,10 @@ const webpageSchema = {
     url: `${SITE.url}/banners/bebe-quarto-infantil-fundo.webp`,
     width: 1200,
     height: 630,
-    caption: "Quarto de bebê completo com berço americano, cômoda infantil e guarda-roupa branco",
+    caption: "Quarto de bebÃª completo com berÃ§o americano, cÃ´moda infantil e guarda-roupa branco",
     creator: { "@id": `${SITE.url}/#organization` },
     license: "https://creativecommons.org/licenses/by/4.0/",
-    copyrightNotice: "© Loja de Móveis Marília",
+    copyrightNotice: "Â© Loja de MÃ³veis MarÃ­lia",
     representativeOfPage: true,
   },
   thumbnailUrl: `${SITE.url}/banners/bebe-quarto-infantil-fundo.webp`,
@@ -342,18 +342,18 @@ const webpageSchema = {
     cssSelector: ["h1", "h2", ".intro-text", ".resumo-text"],
   },
   isAccessibleForFree: true,
-  learningResourceType: "Guia prático",
+  learningResourceType: "Guia prÃ¡tico",
   educationalUse: "Montagem de quarto infantil",
   audience: {
     "@type": "Audience",
     name: "Pais e gestantes",
   },
-  // ✅ REMOVIDA A DUPLICATA "about" - agora está apenas em "mentions"
+  // âœ… REMOVIDA A DUPLICATA "about" - agora estÃ¡ apenas em "mentions"
   mentions: [
-    "Móveis para bebê",
+    "MÃ³veis para bebÃª",
     "Quarto infantil",
-    "Berço",
-    "Cômoda infantil",
+    "BerÃ§o",
+    "CÃ´moda infantil",
     "Guarda-roupa infantil",
     "INMETRO",
     "MDF",
@@ -367,33 +367,33 @@ const webpageSchema = {
 const howToSchema = {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  name: "Como montar um quarto de bebê passo a passo",
-  description: "Guia prático para montar o quarto do seu bebê com segurança, conforto e estilo.",
+  name: "Como montar um quarto de bebÃª passo a passo",
+  description: "Guia prÃ¡tico para montar o quarto do seu bebÃª com seguranÃ§a, conforto e estilo.",
   step: [
     {
       "@type": "HowToStep",
-      name: "Escolha o berço ideal",
-      text: "Prefira berços com certificação INMETRO, grades com espaçamento entre 4,5cm e 6,5cm e pintura atóxica. Modelos com regulagem de altura são mais versáteis.",
+      name: "Escolha o berÃ§o ideal",
+      text: "Prefira berÃ§os com certificaÃ§Ã£o INMETRO, grades com espaÃ§amento entre 4,5cm e 6,5cm e pintura atÃ³xica. Modelos com regulagem de altura sÃ£o mais versÃ¡teis.",
     },
     {
       "@type": "HowToStep",
-      name: "Selecione a cômoda com trocador",
-      text: "Uma cômoda com 4 a 6 gavetas e tampo para trocador é essencial. Altura entre 80cm e 90cm é a mais confortável para os pais.",
+      name: "Selecione a cÃ´moda com trocador",
+      text: "Uma cÃ´moda com 4 a 6 gavetas e tampo para trocador Ã© essencial. Altura entre 80cm e 90cm Ã© a mais confortÃ¡vel para os pais.",
     },
     {
       "@type": "HowToStep",
       name: "Escolha o guarda-roupa infantil",
-      text: "Guarda-roupas com 1,50m a 1,80m de altura, portas suaves e puxadores acessíveis são os mais recomendados.",
+      text: "Guarda-roupas com 1,50m a 1,80m de altura, portas suaves e puxadores acessÃ­veis sÃ£o os mais recomendados.",
     },
     {
       "@type": "HowToStep",
-      name: "Monte a área de amamentação",
-      text: "Uma poltrona confortável, um abajur com luz amarelada e um apoio para os pés facilitam as mamadas noturnas.",
+      name: "Monte a Ã¡rea de amamentaÃ§Ã£o",
+      text: "Uma poltrona confortÃ¡vel, um abajur com luz amarelada e um apoio para os pÃ©s facilitam as mamadas noturnas.",
     },
     {
       "@type": "HowToStep",
-      name: "Decore com segurança",
-      text: "Tapete macio, cortina blackout, móbile e prateleiras baixas completam o ambiente com estilo e funcionalidade.",
+      name: "Decore com seguranÃ§a",
+      text: "Tapete macio, cortina blackout, mÃ³bile e prateleiras baixas completam o ambiente com estilo e funcionalidade.",
     },
   ],
 };
@@ -402,27 +402,27 @@ const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "@id": `${SITE.url}/moveis-para-bebe/#article`,
-  headline: "Móveis para Bebê e Quarto Infantil | Guia 2026",
+  headline: "MÃ³veis para BebÃª e Quarto Infantil | Guia 2026",
   description:
-    "Guia completo de móveis para bebê e quarto infantil. Berços, cômodas, guarda-roupas e kits completos.",
+    "Guia completo de mÃ³veis para bebÃª e quarto infantil. BerÃ§os, cÃ´modas, guarda-roupas e kits completos.",
   url: `${SITE.url}/moveis-para-bebe`,
   inLanguage: "pt-BR",
   datePublished: PUBLISHED_DATE,
   dateModified: MODIFIED_DATE,
   lastReviewed: LAST_REVIEWED,
-  articleSection: "Móveis para bebê e quarto infantil",
+  articleSection: "MÃ³veis para bebÃª e quarto infantil",
   about: {
     "@type": "Thing",
-    name: "Móveis para bebê",
-    description: "Guia completo de móveis para bebê e quarto infantil",
+    name: "MÃ³veis para bebÃª",
+    description: "Guia completo de mÃ³veis para bebÃª e quarto infantil",
   },
   mentions: [
-    "Berço",
-    "Cômoda",
+    "BerÃ§o",
+    "CÃ´moda",
     "Guarda-roupa infantil",
     "Quarto montessoriano",
-    "Kit quarto bebê",
-    "Móveis infantis",
+    "Kit quarto bebÃª",
+    "MÃ³veis infantis",
     ENTIDADES.inmetro,
     ENTIDADES.montessori,
     ENTIDADES.mdf,
@@ -430,10 +430,10 @@ const articleSchema = {
     ENTIDADES.voc,
   ],
   keywords: [
-    "móveis para bebê",
+    "mÃ³veis para bebÃª",
     "quarto infantil",
-    "berço",
-    "cômoda",
+    "berÃ§o",
+    "cÃ´moda",
     "guarda-roupa infantil",
   ],
   image: {
@@ -441,10 +441,10 @@ const articleSchema = {
     url: `${SITE.url}/banners/bebe-quarto-infantil-fundo.webp`,
     width: 1200,
     height: 630,
-    caption: "Quarto de bebê completo com berço americano, cômoda infantil e guarda-roupa branco",
+    caption: "Quarto de bebÃª completo com berÃ§o americano, cÃ´moda infantil e guarda-roupa branco",
     creator: { "@id": `${SITE.url}/#organization` },
     license: "https://creativecommons.org/licenses/by/4.0/",
-    copyrightNotice: "© Loja de Móveis Marília",
+    copyrightNotice: "Â© Loja de MÃ³veis MarÃ­lia",
   },
   author: { "@id": `${SITE.url}/#author` },
   publisher: { "@id": `${SITE.url}/#organization` },
@@ -454,7 +454,7 @@ const articleSchema = {
   },
   isPartOf: { "@id": `${SITE.url}/#website` },
   isAccessibleForFree: true,
-  learningResourceType: "Guia prático",
+  learningResourceType: "Guia prÃ¡tico",
   educationalUse: "Montagem de quarto infantil",
 };
 
@@ -470,8 +470,8 @@ const reviewSchema = {
     ratingValue: reviewData.nota,
     bestRating: 10,
   },
-  name: "Avaliação dos Móveis para Bebê",
-  reviewBody: "Análise detalhada dos melhores móveis para bebê disponíveis no mercado.",
+  name: "AvaliaÃ§Ã£o dos MÃ³veis para BebÃª",
+  reviewBody: "AnÃ¡lise detalhada dos melhores mÃ³veis para bebÃª disponÃ­veis no mercado.",
   positiveNotes: {
     "@type": "ItemList",
     itemListElement: reviewData.pontosPositivos.map((p, i) => ({
@@ -500,7 +500,7 @@ const aggregateRatingSchema = {
   worstRating: 1,
   itemReviewed: {
     "@type": "Thing",
-    name: "Móveis para Bebê - Loja de Móveis Marília",
+    name: "MÃ³veis para BebÃª - Loja de MÃ³veis MarÃ­lia",
   },
 };
 
@@ -509,8 +509,8 @@ const breadcrumbSchema = {
   "@type": "BreadcrumbList",
   "@id": `${SITE.url}/moveis-para-bebe/#breadcrumb`,
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Início", item: SITE.url },
-    { "@type": "ListItem", position: 2, name: "Móveis para Bebê", item: `${SITE.url}/moveis-para-bebe` },
+    { "@type": "ListItem", position: 1, name: "InÃ­cio", item: SITE.url },
+    { "@type": "ListItem", position: 2, name: "MÃ³veis para BebÃª", item: `${SITE.url}/moveis-para-bebe` },
   ],
 };
 
@@ -528,8 +528,8 @@ const itemListSchema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
   "@id": `${SITE.url}/moveis-para-bebe/#itemlist`,
-  name: "Móveis para Bebê - Lista de Produtos",
-  description: "Lista de produtos selecionados para quarto de bebê",
+  name: "MÃ³veis para BebÃª - Lista de Produtos",
+  description: "Lista de produtos selecionados para quarto de bebÃª",
   numberOfItems: BEBE_SLUGS.length,
   itemListElement: BEBE_SLUGS.map((slug, index) => ({
     "@type": "ListItem",
@@ -542,8 +542,8 @@ const videoSchema = {
   "@context": "https://schema.org",
   "@type": "VideoObject",
   "@id": `${SITE.url}/moveis-para-bebe/#video`,
-  name: "Como montar um quarto de bebê - Guia Completo",
-  description: "Vídeo guia com dicas de como escolher berço, cômoda, guarda-roupa e decorar o quarto do bebê com segurança e estilo.",
+  name: "Como montar um quarto de bebÃª - Guia Completo",
+  description: "VÃ­deo guia com dicas de como escolher berÃ§o, cÃ´moda, guarda-roupa e decorar o quarto do bebÃª com seguranÃ§a e estilo.",
   thumbnailUrl: `${SITE.url}/banners/bebe-quarto-infantil-fundo.webp`,
   uploadDate: PUBLISHED_DATE,
   duration: "PT10M",
@@ -555,8 +555,8 @@ const tableSchema = {
   "@context": "https://schema.org",
   "@type": "Dataset",
   "@id": `${SITE.url}/moveis-para-bebe/#table`,
-  name: "Tabela Comparativa de Móveis para Bebê",
-  description: "Comparação entre diferentes tipos de móveis infantis: berço americano, berço tradicional, cômodas e kits completos.",
+  name: "Tabela Comparativa de MÃ³veis para BebÃª",
+  description: "ComparaÃ§Ã£o entre diferentes tipos de mÃ³veis infantis: berÃ§o americano, berÃ§o tradicional, cÃ´modas e kits completos.",
   variableMeasured: [
     { "@type": "PropertyValue", name: "Produto" },
     { "@type": "PropertyValue", name: "Material" },
@@ -570,13 +570,13 @@ const prosConsSchema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
   "@id": `${SITE.url}/moveis-para-bebe/#proscons`,
-  name: "Prós e Contras dos Móveis para Bebê",
-  description: "Avaliação objetiva dos móveis infantis disponíveis no mercado.",
+  name: "PrÃ³s e Contras dos MÃ³veis para BebÃª",
+  description: "AvaliaÃ§Ã£o objetiva dos mÃ³veis infantis disponÃ­veis no mercado.",
   itemListElement: [
     {
       "@type": "ListItem",
       position: 1,
-      name: "Prós",
+      name: "PrÃ³s",
       item: {
         "@type": "ItemList",
         itemListElement: reviewData.pontosPositivos.map((p, i) => ({
@@ -658,19 +658,19 @@ function GuideSection({ id, step, title, children }: { id: string; step?: string
 }
 
 // ============================================================
-// ÍNDICE
+// ÃNDICE
 // ============================================================
 const Indice = () => (
-  <nav aria-label="Sumário do guia" className="mt-10 sm:mt-14">
+  <nav aria-label="SumÃ¡rio do guia" className="mt-10 sm:mt-14">
     <Eyebrow>Neste guia</Eyebrow>
     <div className="mt-3 flex gap-2 overflow-x-auto pb-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
       {[
-        ["#bercos", "Berço"],
-        ["#comodas", "Cômoda"],
+        ["#bercos", "BerÃ§o"],
+        ["#comodas", "CÃ´moda"],
         ["#guarda-roupas", "Guarda-roupa"],
         ["#montessoriano", "Montessoriano"],
-        ["#seguranca", "Segurança"],
-        ["#iluminacao", "Iluminação"],
+        ["#seguranca", "SeguranÃ§a"],
+        ["#iluminacao", "IluminaÃ§Ã£o"],
         ["#checklist", "Checklist"],
         ["#faq", "Perguntas"],
       ].map(([href, label]) => (
@@ -687,33 +687,33 @@ const Indice = () => (
 );
 
 // ============================================================
-// CONCLUSÃO
+// CONCLUSÃƒO
 // ============================================================
 const Conclusao = () => (
   <section className="mt-16 sm:mt-20">
     <Eyebrow>Para fechar</Eyebrow>
     <h2 className="mt-2 font-serif text-2xl leading-tight text-[#2B2622] sm:text-3xl">
-      Montar o quarto do bebê é um investimento em segurança e desenvolvimento
+      Montar o quarto do bebÃª Ã© um investimento em seguranÃ§a e desenvolvimento
     </h2>
     <div className="mt-4 space-y-3.5 text-[14px] leading-relaxed text-[#5B534B] sm:text-[15px]">
       <p>
-        Montar o quarto do bebê vai muito além de escolher móveis bonitos. É um investimento na{" "}
-        <strong className="text-[#2B2622]">segurança</strong>, no <strong className="text-[#2B2622]">conforto</strong> e no{" "}
+        Montar o quarto do bebÃª vai muito alÃ©m de escolher mÃ³veis bonitos. Ã‰ um investimento na{" "}
+        <strong className="text-[#2B2622]">seguranÃ§a</strong>, no <strong className="text-[#2B2622]">conforto</strong> e no{" "}
         <strong className="text-[#2B2622]">desenvolvimento</strong> do seu filho. Cada escolha tem um impacto direto na
-        qualidade do sono e no bem-estar do bebê.
+        qualidade do sono e no bem-estar do bebÃª.
       </p>
       <p>
-        Ao optar por um berço certificado pelo INMETRO, você garante um ambiente seguro. Ao escolher uma cômoda com
-        trocador na altura ideal, você preserva sua coluna e torna o dia a dia mais prático. E um guarda-roupa bem
-        planejado mantém tudo organizado por tamanho e tipo.
+        Ao optar por um berÃ§o certificado pelo INMETRO, vocÃª garante um ambiente seguro. Ao escolher uma cÃ´moda com
+        trocador na altura ideal, vocÃª preserva sua coluna e torna o dia a dia mais prÃ¡tico. E um guarda-roupa bem
+        planejado mantÃ©m tudo organizado por tamanho e tipo.
       </p>
       <p>
-        Se você está em Marília, Bauru, Botucatu, Assis, Tupã ou região, conte com a Loja de Móveis Marília para
-        encontrar os melhores produtos, com certificação de qualidade e os melhores preços do mercado.
+        Se vocÃª estÃ¡ em MarÃ­lia, Bauru, Botucatu, Assis, TupÃ£ ou regiÃ£o, conte com a Loja de MÃ³veis MarÃ­lia para
+        encontrar os melhores produtos, com certificaÃ§Ã£o de qualidade e os melhores preÃ§os do mercado.
       </p>
     </div>
     <div className="mt-6 rounded-2xl bg-[#2B2622] p-6 text-center sm:p-8">
-      <p className="font-serif text-lg text-white sm:text-xl">Pronto para começar?</p>
+      <p className="font-serif text-lg text-white sm:text-xl">Pronto para comeÃ§ar?</p>
       <Link href="#kits" className="mt-4 inline-flex items-center gap-2 rounded-full bg-[#C17A63] px-6 py-2.5 text-sm font-semibold text-white transition hover:bg-[#AD6A54]">
         Ver kits completos
       </Link>
@@ -722,7 +722,7 @@ const Conclusao = () => (
 );
 
 // ============================================================
-// PÁGINA PRINCIPAL
+// PÃGINA PRINCIPAL
 // ============================================================
 export default function MoveisParaBebePage() {
   return (
@@ -736,11 +736,11 @@ export default function MoveisParaBebePage() {
       ))}
 
       <article className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
-        <nav aria-label="Trilha de navegação" className="text-xs text-[#8A8078] sm:text-sm">
+        <nav aria-label="Trilha de navegaÃ§Ã£o" className="text-xs text-[#8A8078] sm:text-sm">
           <ol className="flex flex-wrap items-center gap-1.5">
-            <li><Link href="/" className="hover:text-[#2B2622]">Início</Link></li>
+            <li><Link href="/" className="hover:text-[#2B2622]">InÃ­cio</Link></li>
             <li aria-hidden="true">/</li>
-            <li className="font-medium text-[#5B534B]" aria-current="page">Móveis para Bebê</li>
+            <li className="font-medium text-[#5B534B]" aria-current="page">MÃ³veis para BebÃª</li>
           </ol>
         </nav>
 
@@ -749,7 +749,7 @@ export default function MoveisParaBebePage() {
           <div className="relative h-[380px] sm:h-[440px] lg:h-[500px]">
             <Image
               src="/banners/bebe-quarto-infantil-fundo.webp"
-              alt="Quarto de bebê completo com berço americano, cômoda infantil, guarda-roupa branco e decoração montessoriana"
+              alt="Quarto de bebÃª completo com berÃ§o americano, cÃ´moda infantil, guarda-roupa branco e decoraÃ§Ã£o montessoriana"
               fill
               className="object-cover"
               priority
@@ -758,13 +758,13 @@ export default function MoveisParaBebePage() {
           </div>
           <div className="absolute inset-x-0 bottom-0 p-5 sm:p-8 lg:p-10">
             <span className="inline-block rounded-full border border-white/30 bg-white/10 px-3 py-1 text-[10.5px] font-semibold uppercase tracking-[0.14em] text-white/90 backdrop-blur-sm">
-              Guia 2026 · Marília, SP
+              Guia 2026 Â· MarÃ­lia, SP
             </span>
             <h1 className="mt-3 max-w-xl font-serif text-[28px] leading-[1.08] text-white sm:text-4xl lg:text-[44px]">
-              Móveis para bebê, sem complicar.
+              MÃ³veis para bebÃª, sem complicar.
             </h1>
             <p className="mt-2.5 max-w-md text-[13.5px] leading-snug text-white/85 sm:text-base">
-              Berços, cômodas e kits completos com certificação INMETRO e o melhor preço da região.
+              BerÃ§os, cÃ´modas e kits completos com certificaÃ§Ã£o INMETRO e o melhor preÃ§o da regiÃ£o.
             </p>
             <Link href="#kits" className="mt-5 inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-[#2B2622] transition hover:bg-white/90">
               Ver produtos agora
@@ -774,7 +774,7 @@ export default function MoveisParaBebePage() {
 
         {/* TRUST BAR */}
         <div className="mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-[#E9E1D6] bg-[#E9E1D6] text-center sm:mt-5 sm:grid-cols-4">
-          {["Certificado INMETRO", "Frete p/ todo Brasil", "Em até 10x sem juros", "Garantia de fábrica"].map((label) => (
+          {["Certificado INMETRO", "Frete p/ todo Brasil", "Em atÃ© 10x sem juros", "Garantia de fÃ¡brica"].map((label) => (
             <div key={label} className="bg-white px-2 py-3">
               <p className="text-[11px] font-medium leading-tight text-[#5B534B] sm:text-xs">{label}</p>
             </div>
@@ -785,117 +785,117 @@ export default function MoveisParaBebePage() {
         <section id="kits" className="mt-10 scroll-mt-24 sm:mt-14">
           <Eyebrow>Comece por aqui</Eyebrow>
           <div className="mt-2 flex flex-wrap items-end justify-between gap-3">
-            <h2 className="font-serif text-2xl leading-tight text-[#2B2622] sm:text-3xl">Kits completos para o quarto do bebê</h2>
-            <p className="text-[13px] text-[#8A8078] sm:text-sm">Berço + cômoda + guarda-roupa, já combinando</p>
+            <h2 className="font-serif text-2xl leading-tight text-[#2B2622] sm:text-3xl">Kits completos para o quarto do bebÃª</h2>
+            <p className="text-[13px] text-[#8A8078] sm:text-sm">BerÃ§o + cÃ´moda + guarda-roupa, jÃ¡ combinando</p>
           </div>
           <div className="mt-5">
             <ProductGrid slugs={KITS_SLUGS} gridClassName="grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5" />
           </div>
           <div className="mt-4 flex flex-wrap gap-x-5 gap-y-1.5 text-[13px]">
-            <Link href="#bercos" className="text-[#C17A63] underline-offset-4 hover:underline">Só berços →</Link>
-            <Link href="#comodas" className="text-[#C17A63] underline-offset-4 hover:underline">Só cômodas →</Link>
-            <Link href="#guarda-roupas" className="text-[#C17A63] underline-offset-4 hover:underline">Só guarda-roupas →</Link>
+            <Link href="#bercos" className="text-[#C17A63] underline-offset-4 hover:underline">SÃ³ berÃ§os â†’</Link>
+            <Link href="#comodas" className="text-[#C17A63] underline-offset-4 hover:underline">SÃ³ cÃ´modas â†’</Link>
+            <Link href="#guarda-roupas" className="text-[#C17A63] underline-offset-4 hover:underline">SÃ³ guarda-roupas â†’</Link>
           </div>
         </section>
 
-        {/* INTRODUÇÃO */}
+        {/* INTRODUÃ‡ÃƒO */}
         <section className="mt-14 sm:mt-20">
           <Eyebrow>O guia</Eyebrow>
           <h2 className="mt-2 font-serif text-2xl leading-tight text-[#2B2622] sm:text-3xl">Como montar um quarto funcional, seguro e moderno</h2>
           <div className="mt-4 space-y-3.5 text-[14px] leading-relaxed text-[#5B534B] sm:text-[15px]">
             <p className="intro-text">
-              Montar o quarto do bebê é emocionante, mas exige planejamento. Não se trata só de escolher cores bonitas
-              — é um ambiente que precisa ser <strong className="text-[#2B2622]">funcional para os pais</strong>,{" "}
-              <strong className="text-[#2B2622]">seguro para o bebê</strong> e{" "}
-              <strong className="text-[#2B2622]">adaptável ao crescimento</strong> da criança.
+              Montar o quarto do bebÃª Ã© emocionante, mas exige planejamento. NÃ£o se trata sÃ³ de escolher cores bonitas
+              â€” Ã© um ambiente que precisa ser <strong className="text-[#2B2622]">funcional para os pais</strong>,{" "}
+              <strong className="text-[#2B2622]">seguro para o bebÃª</strong> e{" "}
+              <strong className="text-[#2B2622]">adaptÃ¡vel ao crescimento</strong> da crianÃ§a.
             </p>
             <p>
-              Nos primeiros meses, os pais passam horas ali — alimentando, trocando fraldas, acalmando o choro. Por
-              isso a praticidade importa tanto quanto a estética.
+              Nos primeiros meses, os pais passam horas ali â€” alimentando, trocando fraldas, acalmando o choro. Por
+              isso a praticidade importa tanto quanto a estÃ©tica.
             </p>
             <p className="resumo-text">
-              Neste guia você encontra tudo o que precisa: da escolha do berço à iluminação ideal, passando por
-              organização, decoração e segurança.
+              Neste guia vocÃª encontra tudo o que precisa: da escolha do berÃ§o Ã  iluminaÃ§Ã£o ideal, passando por
+              organizaÃ§Ã£o, decoraÃ§Ã£o e seguranÃ§a.
             </p>
           </div>
         </section>
 
         <Indice />
 
-        {/* BERÇO */}
-        <GuideSection id="bercos" step="01" title="Como escolher o berço ideal">
-          <p>O berço é o item mais importante do quarto e merece atenção especial — é onde o bebê passa a maior parte do tempo nos primeiros meses.</p>
-          <p><strong className="text-[#2B2622]">Certificação INMETRO:</strong> todo berço vendido no Brasil precisa do selo INMETRO, que garante espaçamento correto entre grades (4,5cm a 6,5cm), pintura atóxica e estrutura estável.</p>
-          <p><strong className="text-[#2B2622]">Pintura atóxica:</strong> como os bebês levam tudo à boca, prefira pintura à base de água, livre de chumbo e metais pesados.</p>
-          <p><strong className="text-[#2B2622]">Berço americano:</strong> se transforma em minicama e depois cama de solteiro — mais caro no início, mas acompanha a criança por até 10 anos.</p>
+        {/* BERÃ‡O */}
+        <GuideSection id="bercos" step="01" title="Como escolher o berÃ§o ideal">
+          <p>O berÃ§o Ã© o item mais importante do quarto e merece atenÃ§Ã£o especial â€” Ã© onde o bebÃª passa a maior parte do tempo nos primeiros meses.</p>
+          <p><strong className="text-[#2B2622]">CertificaÃ§Ã£o INMETRO:</strong> todo berÃ§o vendido no Brasil precisa do selo INMETRO, que garante espaÃ§amento correto entre grades (4,5cm a 6,5cm), pintura atÃ³xica e estrutura estÃ¡vel.</p>
+          <p><strong className="text-[#2B2622]">Pintura atÃ³xica:</strong> como os bebÃªs levam tudo Ã  boca, prefira pintura Ã  base de Ã¡gua, livre de chumbo e metais pesados.</p>
+          <p><strong className="text-[#2B2622]">BerÃ§o americano:</strong> se transforma em minicama e depois cama de solteiro â€” mais caro no inÃ­cio, mas acompanha a crianÃ§a por atÃ© 10 anos.</p>
           <Callout tone="clay" label="Dica dos especialistas">
-            Berços certificados pelo INMETRO oferecem mais segurança e devem sempre ser priorizados. Verifique também a data de validade da certificação.
+            BerÃ§os certificados pelo INMETRO oferecem mais seguranÃ§a e devem sempre ser priorizados. Verifique tambÃ©m a data de validade da certificaÃ§Ã£o.
           </Callout>
           <div className="mt-6">
-            <ProductGrid slugs={BERCO_SLUGS} title="Berços recomendados" subtitle="Modelos com certificação INMETRO e pintura atóxica" gridClassName="grid-cols-2 sm:grid-cols-3 md:grid-cols-4" />
+            <ProductGrid slugs={BERCO_SLUGS} title="BerÃ§os recomendados" subtitle="Modelos com certificaÃ§Ã£o INMETRO e pintura atÃ³xica" gridClassName="grid-cols-2 sm:grid-cols-3 md:grid-cols-4" />
           </div>
         </GuideSection>
 
-        {/* CÔMODA */}
-        <GuideSection id="comodas" step="02" title="Como escolher uma cômoda para bebê">
-          <p>A cômoda é um dos móveis mais versáteis do quarto infantil — armazena roupas e fraldas, e muitas vêm com tampo para trocador.</p>
-          <p><strong className="text-[#2B2622]">Altura ideal:</strong> entre 80cm e 90cm, para não precisar se curvar durante as trocas.</p>
-          <p><strong className="text-[#2B2622]">Gavetas:</strong> de 4 a 6 são o recomendado para a maioria das casas.</p>
-          <p><strong className="text-[#2B2622]">MDF ou MDP?</strong> <Link href="/guia/mdf-vs-mdp-diferenca" className="text-[#C17A63] underline-offset-4 hover:underline">MDF 100%</Link> com pintura atóxica é mais resistente e com melhor acabamento; <Link href="/guia/mdf-vs-mdp-diferenca" className="text-[#C17A63] underline-offset-4 hover:underline">MDP</Link> é mais econômico, com bordas menos duráveis.</p>
-          <Callout tone="ink" label="Importante">Evite posicionar a cômoda perto da janela ou abaixo de prateleiras. O trocador precisa de boa iluminação.</Callout>
+        {/* CÃ”MODA */}
+        <GuideSection id="comodas" step="02" title="Como escolher uma cÃ´moda para bebÃª">
+          <p>A cÃ´moda Ã© um dos mÃ³veis mais versÃ¡teis do quarto infantil â€” armazena roupas e fraldas, e muitas vÃªm com tampo para trocador.</p>
+          <p><strong className="text-[#2B2622]">Altura ideal:</strong> entre 80cm e 90cm, para nÃ£o precisar se curvar durante as trocas.</p>
+          <p><strong className="text-[#2B2622]">Gavetas:</strong> de 4 a 6 sÃ£o o recomendado para a maioria das casas.</p>
+          <p><strong className="text-[#2B2622]">MDF ou MDP?</strong> <Link href="/guia/mdf-vs-mdp-diferenca" className="text-[#C17A63] underline-offset-4 hover:underline">MDF 100%</Link> com pintura atÃ³xica Ã© mais resistente e com melhor acabamento; <Link href="/guia/mdf-vs-mdp-diferenca" className="text-[#C17A63] underline-offset-4 hover:underline">MDP</Link> Ã© mais econÃ´mico, com bordas menos durÃ¡veis.</p>
+          <Callout tone="ink" label="Importante">Evite posicionar a cÃ´moda perto da janela ou abaixo de prateleiras. O trocador precisa de boa iluminaÃ§Ã£o.</Callout>
           <div className="mt-6">
-            <ProductGrid slugs={COMODA_SLUGS} title="Cômodas infantis" subtitle="Com espaço para roupas, fraldas e acessórios" gridClassName="grid-cols-2 sm:grid-cols-3 md:grid-cols-4" />
+            <ProductGrid slugs={COMODA_SLUGS} title="CÃ´modas infantis" subtitle="Com espaÃ§o para roupas, fraldas e acessÃ³rios" gridClassName="grid-cols-2 sm:grid-cols-3 md:grid-cols-4" />
           </div>
         </GuideSection>
 
         {/* GUARDA-ROUPA */}
         <GuideSection id="guarda-roupas" step="03" title="Guarda-roupa infantil">
-          <p>O <Link href="/categoria/guarda-roupas" className="text-[#C17A63] underline-offset-4 hover:underline">guarda-roupa infantil</Link> precisa ser prático, com espaço para organizar roupas de diferentes tamanhos.</p>
+          <p>O <Link href="/categoria/guarda-roupas" className="text-[#C17A63] underline-offset-4 hover:underline">guarda-roupa infantil</Link> precisa ser prÃ¡tico, com espaÃ§o para organizar roupas de diferentes tamanhos.</p>
           <p><strong className="text-[#2B2622]">Tamanho ideal:</strong> entre 1,50m e 1,80m de altura.</p>
-          <p><strong className="text-[#2B2622]">Portas de correr:</strong> em quartos pequenos, economizam espaço e evitam batidas em outros móveis.</p>
+          <p><strong className="text-[#2B2622]">Portas de correr:</strong> em quartos pequenos, economizam espaÃ§o e evitam batidas em outros mÃ³veis.</p>
           <div className="mt-6">
-            <ProductGrid slugs={GUARDA_ROUPA_SLUGS} title="Guarda-roupas infantis" subtitle="Espaço e organização para o quarto do bebê" gridClassName="grid-cols-2 sm:grid-cols-3 md:grid-cols-4" />
+            <ProductGrid slugs={GUARDA_ROUPA_SLUGS} title="Guarda-roupas infantis" subtitle="EspaÃ§o e organizaÃ§Ã£o para o quarto do bebÃª" gridClassName="grid-cols-2 sm:grid-cols-3 md:grid-cols-4" />
           </div>
         </GuideSection>
 
         {/* MONTESSORIANO */}
-        <GuideSection id="montessoriano" step="04" title="Quarto montessoriano: o que é e como montar">
-          <p>Baseado na filosofia da educadora italiana Maria Montessori, o <Link href="/guia/quarto-montessoriano" className="text-[#C17A63] underline-offset-4 hover:underline">quarto montessoriano</Link> valoriza a autonomia da criança dentro de limites seguros.</p>
-          <p><strong className="text-[#2B2622]">Móveis baixos:</strong> o berço é substituído por um colchão no chão ou uma cama baixa, permitindo que o bebê explore o ambiente sozinho.</p>
-          <Callout tone="sage" label="Dica de especialista">Pode ser adaptado para recém-nascidos com colchão no chão ou cama baixa com grades removíveis. Ajuste conforme a criança cresce.</Callout>
+        <GuideSection id="montessoriano" step="04" title="Quarto montessoriano: o que Ã© e como montar">
+          <p>Baseado na filosofia da educadora italiana Maria Montessori, o <Link href="/guia/quarto-montessoriano" className="text-[#C17A63] underline-offset-4 hover:underline">quarto montessoriano</Link> valoriza a autonomia da crianÃ§a dentro de limites seguros.</p>
+          <p><strong className="text-[#2B2622]">MÃ³veis baixos:</strong> o berÃ§o Ã© substituÃ­do por um colchÃ£o no chÃ£o ou uma cama baixa, permitindo que o bebÃª explore o ambiente sozinho.</p>
+          <Callout tone="sage" label="Dica de especialista">Pode ser adaptado para recÃ©m-nascidos com colchÃ£o no chÃ£o ou cama baixa com grades removÃ­veis. Ajuste conforme a crianÃ§a cresce.</Callout>
           <div className="mt-6">
-            <Link href="#kits" className="inline-flex items-center gap-2 rounded-full bg-[#8A9A7E] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#79896E]">Ver kits para quarto montessoriano →</Link>
+            <Link href="#kits" className="inline-flex items-center gap-2 rounded-full bg-[#8A9A7E] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#79896E]">Ver kits para quarto montessoriano â†’</Link>
           </div>
         </GuideSection>
 
-        {/* ORGANIZAÇÃO / ILUMINAÇÃO / DECORAÇÃO / SEGURANÇA */}
+        {/* ORGANIZAÃ‡ÃƒO / ILUMINAÃ‡ÃƒO / DECORAÃ‡ÃƒO / SEGURANÃ‡A */}
         <GuideSection id="organizacao" title="Como organizar um quarto infantil">
-          <p>A organização mantém o quarto funcional. Com o tempo, roupas, brinquedos e acessórios se acumulam.</p>
-          <p><strong className="text-[#2B2622]">Caixas organizadoras:</strong> transparentes ou etiquetadas para achar tudo rápido.</p>
-          <p><strong className="text-[#2B2622]">Nichos e prateleiras:</strong> aproveitam o espaço vertical sem ocupar o piso.</p>
+          <p>A organizaÃ§Ã£o mantÃ©m o quarto funcional. Com o tempo, roupas, brinquedos e acessÃ³rios se acumulam.</p>
+          <p><strong className="text-[#2B2622]">Caixas organizadoras:</strong> transparentes ou etiquetadas para achar tudo rÃ¡pido.</p>
+          <p><strong className="text-[#2B2622]">Nichos e prateleiras:</strong> aproveitam o espaÃ§o vertical sem ocupar o piso.</p>
         </GuideSection>
 
-        <GuideSection id="iluminacao" title="Iluminação ideal para o quarto do bebê">
+        <GuideSection id="iluminacao" title="IluminaÃ§Ã£o ideal para o quarto do bebÃª">
           <p><strong className="text-[#2B2622]">Luz quente:</strong> entre 2700K e 3000K, mais aconchegante e sem interferir no sono.</p>
-          <p><strong className="text-[#2B2622]">Cortina blackout:</strong> indispensável para manter o quarto escuro durante o dia.</p>
+          <p><strong className="text-[#2B2622]">Cortina blackout:</strong> indispensÃ¡vel para manter o quarto escuro durante o dia.</p>
         </GuideSection>
 
-        <GuideSection id="decoracao" title="Decoração do quarto infantil">
-          <p><strong className="text-[#2B2622]">Cores:</strong> branco, bege, rosa claro, azul claro e verde menta são atemporais e funcionam para ambos os gêneros.</p>
+        <GuideSection id="decoracao" title="DecoraÃ§Ã£o do quarto infantil">
+          <p><strong className="text-[#2B2622]">Cores:</strong> branco, bege, rosa claro, azul claro e verde menta sÃ£o atemporais e funcionam para ambos os gÃªneros.</p>
           <p><strong className="text-[#2B2622]">Quarto masculino:</strong> azul marinho, verde militar e terracota com madeira natural.</p>
-          <p><strong className="text-[#2B2622]">Quarto feminino:</strong> rosa queimado, lilás e tons cítricos, sem cair no rosa-choque tradicional.</p>
+          <p><strong className="text-[#2B2622]">Quarto feminino:</strong> rosa queimado, lilÃ¡s e tons cÃ­tricos, sem cair no rosa-choque tradicional.</p>
         </GuideSection>
 
-        <GuideSection id="seguranca" title="Segurança no quarto do bebê">
-          <p><strong className="text-[#2B2622]">Tomadas:</strong> sempre com protetores de segurança.</p>
-          <p><strong className="text-[#2B2622]">Móveis fixados:</strong> guarda-roupas, estantes e cômodas presos à parede evitam tombamentos.</p>
-          <p><strong className="text-[#2B2622]">Temperatura:</strong> ideal entre 20°C e 22°C.</p>
+        <GuideSection id="seguranca" title="SeguranÃ§a no quarto do bebÃª">
+          <p><strong className="text-[#2B2622]">Tomadas:</strong> sempre com protetores de seguranÃ§a.</p>
+          <p><strong className="text-[#2B2622]">MÃ³veis fixados:</strong> guarda-roupas, estantes e cÃ´modas presos Ã  parede evitam tombamentos.</p>
+          <p><strong className="text-[#2B2622]">Temperatura:</strong> ideal entre 20Â°C e 22Â°C.</p>
         </GuideSection>
 
         {/* TABELA COMPARATIVA */}
         <section className="mt-14 sm:mt-20">
           <Eyebrow>Comparativo</Eyebrow>
-          <h2 className="mt-2 font-serif text-2xl leading-tight text-[#2B2622] sm:text-3xl">Tabela comparativa de móveis para bebê</h2>
+          <h2 className="mt-2 font-serif text-2xl leading-tight text-[#2B2622] sm:text-3xl">Tabela comparativa de mÃ³veis para bebÃª</h2>
           <div className="mt-5 space-y-3 md:hidden">
             {tabelaProdutos.map((item, i) => (
               <Link key={i} href={`/produto/${item.slug}`} className="block rounded-xl border border-[#E9E1D6] bg-white p-4">
@@ -929,7 +929,7 @@ export default function MoveisParaBebePage() {
                     <td className="px-4 py-3 text-[#5B534B]">{item.gavetas}</td>
                     <td className="px-4 py-3 text-[#5B534B]">{item.idade}</td>
                     <td className="px-4 py-3 text-[#5B534B]">{item.melhorPara}</td>
-                    <td className="px-4 py-3"><Link href={`/produto/${item.slug}`} className="font-medium text-[#C17A63] hover:underline">Ver opções →</Link></td>
+                    <td className="px-4 py-3"><Link href={`/produto/${item.slug}`} className="font-medium text-[#C17A63] hover:underline">Ver opÃ§Ãµes â†’</Link></td>
                   </tr>
                 ))}
               </tbody>
@@ -939,7 +939,7 @@ export default function MoveisParaBebePage() {
 
         {/* ERROS MAIS COMUNS */}
         <section className="mt-14 sm:mt-20">
-          <Eyebrow>Atenção</Eyebrow>
+          <Eyebrow>AtenÃ§Ã£o</Eyebrow>
           <h2 className="mt-2 font-serif text-2xl leading-tight text-[#2B2622] sm:text-3xl">10 erros comuns ao montar um quarto infantil</h2>
           <div className="mt-5 grid gap-2.5 sm:grid-cols-2">
             {errosComuns.map((erro, i) => (
@@ -978,21 +978,21 @@ export default function MoveisParaBebePage() {
             <div className="flex items-center gap-5">
               <span className="font-serif text-5xl leading-none text-[#2B2622] sm:text-6xl">{reviewData.nota}</span>
               <div>
-                <p className="text-sm font-semibold text-[#2B2622]">Nossa avaliação</p>
-                <p className="text-[13px] text-[#8A8078]">Baseada em {reviewData.totalReviews} avaliações de compradores</p>
+                <p className="text-sm font-semibold text-[#2B2622]">Nossa avaliaÃ§Ã£o</p>
+                <p className="text-[13px] text-[#8A8078]">Baseada em {reviewData.totalReviews} avaliaÃ§Ãµes de compradores</p>
               </div>
             </div>
             <div className="mt-6 grid gap-5 sm:grid-cols-2">
               <div>
                 <p className="text-[11px] font-semibold uppercase tracking-wide text-[#8A9A7E]">Pontos positivos</p>
                 <ul className="mt-2 space-y-1.5">
-                  {reviewData.pontosPositivos.map((ponto, i) => <li key={i} className="text-[13px] leading-snug text-[#5B534B]">— {ponto}</li>)}
+                  {reviewData.pontosPositivos.map((ponto, i) => <li key={i} className="text-[13px] leading-snug text-[#5B534B]">â€” {ponto}</li>)}
                 </ul>
               </div>
               <div>
                 <p className="text-[11px] font-semibold uppercase tracking-wide text-[#C17A63]">Pontos a considerar</p>
                 <ul className="mt-2 space-y-1.5">
-                  {reviewData.pontosNegativos.map((ponto, i) => <li key={i} className="text-[13px] leading-snug text-[#5B534B]">— {ponto}</li>)}
+                  {reviewData.pontosNegativos.map((ponto, i) => <li key={i} className="text-[13px] leading-snug text-[#5B534B]">â€” {ponto}</li>)}
                 </ul>
               </div>
             </div>
@@ -1001,8 +1001,8 @@ export default function MoveisParaBebePage() {
 
         {/* FAQ */}
         <section id="faq" className="mt-14 scroll-mt-24 sm:mt-20">
-          <Eyebrow>Dúvidas frequentes</Eyebrow>
-          <h2 className="mt-2 font-serif text-2xl leading-tight text-[#2B2622] sm:text-3xl">Perguntas frequentes sobre móveis para bebê</h2>
+          <Eyebrow>DÃºvidas frequentes</Eyebrow>
+          <h2 className="mt-2 font-serif text-2xl leading-tight text-[#2B2622] sm:text-3xl">Perguntas frequentes sobre mÃ³veis para bebÃª</h2>
           <div className="mt-5 divide-y divide-[#E9E1D6] rounded-2xl border border-[#E9E1D6] bg-white">
             {faqs.map((faq, i) => (
               <details key={i} className="group px-4 py-3.5 open:bg-[#FBF8F3] sm:px-5">
@@ -1021,14 +1021,14 @@ export default function MoveisParaBebePage() {
         {/* LINKAGEM INTERNA */}
         <section className="mt-14 rounded-2xl border border-[#E9E1D6] bg-white p-5 sm:mt-20 sm:p-6">
           <h2 className="text-base font-semibold text-[#2B2622] sm:text-lg">Explore mais</h2>
-          <p className="mt-1 text-[13px] text-[#8A8078] sm:text-sm">Confira nossos guias e categorias para montar o quarto do seu bebê.</p>
+          <p className="mt-1 text-[13px] text-[#8A8078] sm:text-sm">Confira nossos guias e categorias para montar o quarto do seu bebÃª.</p>
           <div className="mt-3.5 flex flex-wrap gap-2">
             {[
               ["/categoria/guarda-roupas", "Guarda-roupas"],
               ["/categoria/quartos", "Quartos"],
-              ["/categoria/sofas", "Sofás"],
+              ["/categoria/sofas", "SofÃ¡s"],
               ["/guias", "Guias"],
-              ["/moveis-para-estudantes", "Móveis para estudantes"],
+              ["/moveis-para-estudantes", "MÃ³veis para estudantes"],
               ["/montadores/marilia", "Montadores"],
             ].map(([href, label]) => (
               <Link key={href} href={href} className="rounded-lg border border-[#E9E1D6] px-3.5 py-1.5 text-[12.5px] font-medium text-[#5B534B] transition hover:border-[#C17A63] hover:text-[#C17A63]">
@@ -1040,15 +1040,15 @@ export default function MoveisParaBebePage() {
 
         {/* CALLOUT FINAL */}
         <section className="mt-14 overflow-hidden rounded-2xl bg-[#2B2622] p-6 text-center sm:mt-20 sm:rounded-3xl sm:p-12">
-          <h2 className="font-serif text-2xl text-white sm:text-3xl">Pronto para montar o quarto do seu bebê?</h2>
+          <h2 className="font-serif text-2xl text-white sm:text-3xl">Pronto para montar o quarto do seu bebÃª?</h2>
           <p className="mx-auto mt-2.5 max-w-xl text-[13.5px] text-white/70 sm:text-base">
-            Escolha os móveis com segurança e qualidade. Reunimos as melhores ofertas para você montar um quarto
+            Escolha os mÃ³veis com seguranÃ§a e qualidade. Reunimos as melhores ofertas para vocÃª montar um quarto
             aconchegante e funcional.
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-2.5">
             <Link href="#kits" className="rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-[#2B2622] transition hover:bg-white/90">Ver kits completos</Link>
-            <Link href="#bercos" className="rounded-full border border-white/25 bg-white/5 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-white/10">Ver berços</Link>
-            <Link href="#comodas" className="rounded-full border border-white/25 bg-white/5 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-white/10">Ver cômodas</Link>
+            <Link href="#bercos" className="rounded-full border border-white/25 bg-white/5 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-white/10">Ver berÃ§os</Link>
+            <Link href="#comodas" className="rounded-full border border-white/25 bg-white/5 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-white/10">Ver cÃ´modas</Link>
           </div>
         </section>
       </article>

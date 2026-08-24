@@ -63,7 +63,7 @@ const organizationSchema = {
   name: "Loja de Móveis Marília",
   url: SITE.url,
   description: "Loja de Móveis Marília - Móveis escolhidos a dedo por montador profissional. Analisamos e testamos as melhores ofertas do Mercado Livre e Shopee para você comprar sem medo. Site afiliado.",
-  logo: { "@type": "ImageObject", url: `${SITE.url}/logo.svg`, width: 512, height: 512 },
+  logo: { "@type": "ImageObject", url: `${SITE.url}/loja-moveis-jardim-esmeralda-marilia-moveis-de-alto-padrao-marilia-logo.png`, width: 512, height: 512 },
   areaServed: [{ "@type": "Country", name: "Brasil" }],
 };
 

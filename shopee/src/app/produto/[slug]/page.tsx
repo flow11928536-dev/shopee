@@ -81,14 +81,10 @@ export default async function ProductPage({ params }: Props) {
   const discount = product.discount || 0;
   const notaMontador = notasMontador[product.slug] || product.notaMontador;
 
-  const priceValidUntil = new Date();
-  priceValidUntil.setDate(priceValidUntil.getDate() + 30);
-  const priceValidUntilStr = priceValidUntil.toISOString().split("T")[0];
-
-  const hasReviews = (product.reviews || 0) > 0;
+  const hasReviews = Boolean(product.rating && (product.reviews || 0) > 0);
   const hasPrice = price > 0;
 
-    const productSchema: any = {
+  const productSchema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Product",
     "@id": `${SITE.url}/produto/${product.slug}/#product`,
@@ -97,22 +93,26 @@ export default async function ProductPage({ params }: Props) {
     image: [product.displayImage || product.imageFile], // TEM QUE SER ARRAY
     sku: product.slug,
     brand: { "@type": "Brand", name: product.marca || "Móvel na Prova" },
-    // SEMPRE MANDA aggregateRating, mesmo que fake - Google exige
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: (product.rating || 4.8).toString(),
-      reviewCount: (product.reviews || 24).toString(),
-    },
-    offers: {
-      "@type": "Offer",
-      priceCurrency: "BRL",
-      price: (price > 0 ? price : 1).toFixed(2), // NUNCA 0, mínimo 1
-      priceValidUntil: priceValidUntilStr,
-      availability: "https://schema.org/InStock", // SEMPRE InStock
-      url: `${SITE.url}/produto/${product.slug}`,
-      itemCondition: "https://schema.org/NewCondition",
-      seller: { "@type": "Organization", name: "Móvel na Prova", url: SITE.url },
-    },
+    ...(hasReviews
+      ? {
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: product.rating!.toString(),
+            reviewCount: product.reviews!.toString(),
+          },
+        }
+      : {}),
+    ...(hasPrice
+      ? {
+          offers: {
+            "@type": "Offer",
+            priceCurrency: "BRL",
+            price: price.toFixed(2),
+            url: `${SITE.url}/produto/${product.slug}`,
+            itemCondition: "https://schema.org/NewCondition",
+          },
+        }
+      : {}),
   };
 
   const breadcrumbSchema = {

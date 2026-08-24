@@ -49,10 +49,6 @@ export const metadata: Metadata = {
   keywords: "móveis online, sofá mercado livre, guarda roupa mercado livre, rack mercado livre, comprar móveis online, móveis baratos, ofertas de móveis, móveis com entrega nacional, móveis indicados por montador",
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   icons: {
-    icon: [
-      { url: "/favicon.svg", type: "image/svg+xml" },
-      { url: "/favicon.png", type: "image/png", sizes: "32x32" },
-    ],
     apple: "/apple-touch-icon.png",
   },
   manifest: "/manifest.json",
@@ -65,8 +61,8 @@ export const metadata: Metadata = {
     description: "Móveis escolhidos a dedo por montador profissional. Compare ofertas reais do Mercado Livre e Shopee com entrega para todo o Brasil. Compre sem medo.",
     images: [
       {
-        url: `${SITE.url}/og-hero-2026.jpg`,
-        secureUrl: `${SITE.url}/og-hero-2026.jpg`,
+        url: `${SITE.url}/banners/og-image.jpg`,
+        secureUrl: `${SITE.url}/banners/og-image.jpg`,
         width: 1200,
         height: 630,
         alt: "Loja de Móveis Marília - Móveis indicados por montador profissional",
@@ -101,7 +97,7 @@ const organizationSchema = {
   "@id": `${SITE.url}/#organization`,
   name: "Loja de Móveis Marília",
   url: SITE.url,
-  logo: `${SITE.url}/logo.svg`,
+  logo: `${SITE.url}/loja-moveis-jardim-esmeralda-marilia-moveis-de-alto-padrao-marilia-logo.png`,
   description: "Loja de Móveis Marília - Móveis escolhidos a dedo por montador profissional. Analisamos e testamos as melhores ofertas do Mercado Livre e Shopee para você comprar sem medo. Site afiliado - recebemos comissão sem custo extra.",
   sameAs: [
     "https://www.instagram.com/movelnaprova/",

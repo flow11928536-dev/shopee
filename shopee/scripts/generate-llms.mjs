@@ -6,19 +6,19 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const publicDir = path.join(__dirname, '../public');
 
-// FIX 1: trailingSlash: true no next.config exige barra final em TODAS as URLs internas.
-// Sem a barra, o Google encontra um redirect 301 em cada URL do sitemap.
+// O app publicado usa URLs sem barra final. O sitemap deve sempre listar a URL
+// canônica que responde 200, sem redirecionamento intermediário.
 function categoryUrl(base, slug) {
-  return `${base}/categoria/${slug}/`;
+  return `${base}/categoria/${slug}`;
 }
 function guideUrl(base, slug) {
-  return `${base}/guia/${slug}/`;
+  return `${base}/guia/${slug}`;
 }
 function pageUrl(base, slug) {
-  return `${base}/${slug}/`;
+  return `${base}/${slug}`;
 }
 function productUrl(base, slug) {
-  return `${base}/produto/${slug}/`;
+  return `${base}/produto/${slug}`;
 }
 
 // FIX 5: escape de caracteres especiais para XML válido (caso algum slug tenha & < > " ')
@@ -433,6 +433,9 @@ function generateSitemap(site, categories, guides, products, pages) {
     'moveis-para-estudantes',
     'moveis-gamer',
     'moveis-para-bebe',
+    'area-externa',
+    'mdf-mdp',
+    'home-office',
   ];
 
   console.log(`📊 Gerando sitemap com ${products.length} produtos`);
@@ -464,16 +467,15 @@ function generateSitemap(site, categories, guides, products, pages) {
     urls.push({ loc: p.url, lastmod: contentLastMod, changefreq: 'monthly', priority: '0.7' });
   });
 
-  // FIX 1: URLs com trailing slash
-  urls.push({ loc: `${site.url}/moveis-gamer/`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.9' });
-  urls.push({ loc: `${site.url}/moveis-para-bebe/`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.8' });
-  urls.push({ loc: `${site.url}/moveis-para-estudantes/`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.8' });
-  urls.push({ loc: `${site.url}/guias/`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.8' });
+  urls.push({ loc: `${site.url}/moveis-gamer`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.9' });
+  urls.push({ loc: `${site.url}/moveis-para-bebe`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.8' });
+  urls.push({ loc: `${site.url}/moveis-para-estudantes`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.8' });
+  urls.push({ loc: `${site.url}/guias`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.8' });
   // NOVAS GUIAS PREMIUM 2026
-  urls.push({ loc: `${site.url}/guias/sofa-retratil-sala-pequena/`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.9' });
-  urls.push({ loc: `${site.url}/guias/guarda-roupa-casal-6-portas/`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.9' });
+  urls.push({ loc: `${site.url}/guias/sofa-retratil-sala-pequena`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.9' });
+  urls.push({ loc: `${site.url}/guias/guarda-roupa-casal-6-portas`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.9' });
   // PÁGINA DE MONTADORES (SERVIÇO LOCAL)
-  urls.push({ loc: `${site.url}/montadores/marilia/`, lastmod: contentLastMod, changefreq: 'monthly', priority: '0.8' });
+  urls.push({ loc: `${site.url}/montadores/marilia`, lastmod: contentLastMod, changefreq: 'monthly', priority: '0.8' });
 
 
 

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     images: [
       {
-        url: `${SITE.url}/banners/og-default.jpg`,
+        url: `${SITE.url}/banners/og-image.jpg`,
         width: 1200,
         height: 630,
         alt: "Loja de Móveis Marília — Contato",

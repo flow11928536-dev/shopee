@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         type: "website",
         images: [
           {
-            url: `${SITE.url}/banners/og-image.png`,
+            url: `${SITE.url}/banners/og-image.jpg`,
             width: 1200,
             height: 630,
             alt: `${main.label} em oferta - Móveis Brasil`,
@@ -77,7 +77,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         type: "website",
         images: [
           {
-            url: `${SITE.url}/banners/og-image.png`,
+            url: `${SITE.url}/banners/og-image.jpg`,
             width: 1200,
             height: 630,
             alt: `${sub.label} em oferta - Móveis Brasil`,
