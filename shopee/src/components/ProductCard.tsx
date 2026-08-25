@@ -67,6 +67,7 @@ export default function ProductCard({
     }).format(v);
 
   const hasDiscount = discount != null && discount > 0 && originalPrice != null && originalPrice > price;
+  const currentImage = images[currentIdx] ?? displayImage;
 
   return (
     <div
@@ -76,24 +77,14 @@ export default function ProductCard({
     >
       {/* ===== Container de imagens (ratio 4:3 fixo) ===== */}
       <Link href={`/produto/${slug}`} className="relative block aspect-[4/3] overflow-hidden bg-[#F4F1EC]" aria-label={name}>
-        {images.map((img, idx) => (
-          <div
-            key={idx}
-            className="absolute inset-0 transition-all duration-700 ease-out"
-            style={{
-              opacity: idx === currentIdx ? 1 : 0,
-              transform: idx === currentIdx ? "scale(1)" : "scale(1.06)",
-            }}
-          >
-            <Image
-              src={img}
-              alt={`${name} - foto ${idx + 1}`}
-              fill
-              sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
-              className="object-contain p-4 transition-transform duration-700"
-            />
-          </div>
-        ))}
+        <Image
+          key={currentImage}
+          src={currentImage}
+          alt={`${name} - foto ${currentIdx + 1}`}
+          fill
+          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
+          className="object-contain p-4 transition-transform duration-700"
+        />
 
         {/* Badge de desconto - canto superior esquerdo */}
         {hasDiscount && (

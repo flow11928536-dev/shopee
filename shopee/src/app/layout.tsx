@@ -148,7 +148,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <meta name="p:domain_verify" content="880750888dee14eafd9092943bb81f49"/>
         {/* META PIXEL - ID 1568286774780420 */}
-        <Script id="fb-pixel" strategy="afterInteractive">
+        <Script id="fb-pixel" strategy="lazyOnload">
           {`
          !function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -225,8 +225,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </div>
 
         {/* ANALYTICS */}
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-TB069RRN2W" strategy="afterInteractive" />
-        <Script id="ga" strategy="afterInteractive">
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-TB069RRN2W" strategy="lazyOnload" />
+        <Script id="ga" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
