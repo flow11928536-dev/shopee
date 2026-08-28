@@ -29,10 +29,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const path = `/guia/${guide.slug}`;
   const publishedDate = (guide as unknown as Record<string, unknown>).datePublished as string || "2024-06-15";
-  const modifiedDate = (guide as unknown as Record<string, unknown>).dateModified as string || new Date().toISOString().split("T")[0];
+  const modifiedDate = (guide as unknown as Record<string, unknown>).dateModified as string || publishedDate;
 
   const optimizedTitle = guide.seoTitle.length > 60
-   ? `${guide.seoTitle.substring(0, 50)} | MÃ³veis Brasil`
+   ? `${guide.seoTitle.substring(0, 50)} | Móveis Brasil`
     : guide.seoTitle;
 
   let optimizedDescription = guide.seoDescription;
@@ -70,8 +70,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "article",
       publishedTime: publishedDate,
       modifiedTime: modifiedDate,
-      authors: ["MÃ³veis Brasil"],
-      siteName: "MÃ³veis Brasil",
+      authors: [SITE.name],
+      siteName: SITE.name,
       locale: "pt_BR",
       images: [
         {
@@ -96,7 +96,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       "article:published_time": publishedDate,
       "article:modified_time": modifiedDate,
       "article:author": SITE.name,
-      "article:section": guide.keyword || "MÃ³veis",
+      "article:section": guide.keyword || "Móveis",
     },
   };
 }
@@ -107,7 +107,7 @@ function Breadcrumbs({ keyword }: { keyword: string }) {
       <ol className="flex flex-wrap items-center gap-1.5">
         <li>
           <Link href="/" className="transition-colors hover:text-stone-900 hover:underline underline-offset-4">
-            InÃ­cio
+            Início
           </Link>
         </li>
         <li aria-hidden="true" className="select-none">/</li>
@@ -117,7 +117,7 @@ function Breadcrumbs({ keyword }: { keyword: string }) {
           </Link>
         </li>
         <li aria-hidden="true" className="select-none">/</li>
-        <li className="font-medium text-stone-700 truncate max-w- sm:max-w-xs" aria-current="page">
+        <li className="font-medium text-stone-700 truncate max-w-xs sm:max-w-xs" aria-current="page">
           {keyword}
         </li>
       </ol>
@@ -188,14 +188,14 @@ function TextBlock({ block }: { block: Extract<GuideBlock, { type: "text" }> }) 
         </Heading>
       )}
       {block.paragraphs?.map((p, i) => (
-        <p key={i} className="text- leading-relaxed text-stone-700">
+        <p key={i} className="text-base leading-relaxed text-stone-700">
           {p}
         </p>
       ))}
       {block.bullets && (
         <ul className="space-y-2.5" role="list">
           {block.bullets.map((b, i) => (
-            <li key={i} className="flex gap-3 text- leading-relaxed text-stone-700">
+            <li key={i} className="flex gap-3 text-base leading-relaxed text-stone-700">
               <span
                 className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-stone-900"
                 aria-hidden="true"
@@ -250,7 +250,7 @@ function Callout({ block }: { block: Extract<GuideBlock, { type: "callout" }> })
       role={isDica? "note" : "alert"}
     >
       <p className={`font-semibold ${isDica? "text-emerald-800" : "text-amber-800"}`}>
-        {isDica? "ðŸ’¡ " : "âš  "}{block.title}
+        {isDica? "💡 " : "⚠ "}{block.title}
       </p>
       <p
         className={`mt-1.5 text-sm leading-relaxed ${
@@ -281,7 +281,7 @@ function VideoBlock({ block }: { block: Extract<GuideBlock, { type: "video" }> }
       <div className="relative aspect-video w-full overflow-hidden rounded-2xl border border-stone-200 shadow-sm">
         <iframe
           src={embedUrl}
-          title={block.title || "VÃ­deo explicativo do guia"}
+          title={block.title || "Vídeo explicativo do guia"}
           className="absolute inset-0 h-full w-full"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -301,9 +301,9 @@ export default async function GuidePage({ params }: Props) {
   const relatedGuides: RelatedGuide[] = [];
   const path = `/guia/${guide.slug}`;
   const publishedDate = (guide as unknown as Record<string, unknown>).datePublished as string || "2024-06-15";
-  const modifiedDate = (guide as unknown as Record<string, unknown>).dateModified as string || new Date().toISOString().split("T")[0];
+  const modifiedDate = (guide as unknown as Record<string, unknown>).dateModified as string || publishedDate;
 
-  const mainKeyword = guide.keyword || "mÃ³veis";
+  const mainKeyword = guide.keyword || "Móveis";
 
   const articleSchema = {
       "@context": "https://schema.org",
@@ -329,7 +329,7 @@ export default async function GuidePage({ params }: Props) {
          },
       publisher: {
         "@type": "Organization",
-        name: "MÃ³veis Brasil",
+        name: "Móveis Brasil",
         url: SITE.url,
         logo: {
           "@type": "ImageObject",
@@ -370,7 +370,7 @@ export default async function GuidePage({ params }: Props) {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "InÃ­cio", item: SITE.url },
+        { "@type": "ListItem", position: 1, name: "Início", item: SITE.url },
         { "@type": "ListItem", position: 2, name: "Guias de Compra", item: `${SITE.url}/guias` },
         { "@type": "ListItem", position: 3, name: guide.keyword, item: `${SITE.url}${path}` },
       ],
@@ -398,7 +398,7 @@ export default async function GuidePage({ params }: Props) {
         <script
           key={i}
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }}
         />
       ))}
 
@@ -436,7 +436,7 @@ export default async function GuidePage({ params }: Props) {
                 })}
               </time>
             </span>
-            <span aria-hidden="true">Â·</span>
+            <span aria-hidden="true">·</span>
             <span>
               {Math.ceil(
                 guide.blocks
@@ -551,7 +551,7 @@ export default async function GuidePage({ params }: Props) {
               Pronto para garantir o seu?
             </h2>
             <p className="mx-auto mt-3 max-w-md text-stone-300">
-              Verifique o estoque, o frete grÃ¡tis e os cupons oficiais agora mesmo â€” direto no{" "}
+              Verifique o estoque, o frete grátis e os cupons oficiais agora mesmo — direto no{" "}
               {ctaProduct.platform}.
             </p>
             <Link

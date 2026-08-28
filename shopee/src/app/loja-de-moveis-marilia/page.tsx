@@ -5,28 +5,31 @@ import ProductGrid from "@/components/ProductGrid";
 import { getAllGuidesMeta } from "@/data/guides";
 
 export const metadata: Metadata = {
-  title: "Loja de MÃ³veis em MarÃ­lia | Ofertas e Entrega RÃ¡pida",
+  title: "Loja de Móveis em Marília | Ofertas e comparativos",
   description:
-    "Compre mÃ³veis em MarÃ­lia com os melhores preÃ§os do Mercado Livre e Shopee. SofÃ¡s, guarda-roupas, cozinhas e eletrodomÃ©sticos com entrega rÃ¡pida para toda a regiÃ£o.",
+    "Encontre ofertas de móveis no Mercado Livre e na Shopee, com comparativos de preços e opções para Marília e região. Sofás, guarda-roupas, cozinhas e eletrodomésticos em um só lugar.",
   alternates: {
     canonical: `${SITE.url}/loja-de-moveis-marilia`,
   },
   openGraph: {
-    title: "Loja de MÃ³veis em MarÃ­lia | Ofertas e Entrega RÃ¡pida",
+    title: "Loja de Móveis em Marília | Ofertas e comparativos",
     description:
-      "MÃ³veis em MarÃ­lia com curadoria especializada. SofÃ¡s, guarda-roupas, cozinhas e eletrodomÃ©sticos com os melhores preÃ§os.",
+      "Móveis em Marília com curadoria especializada. Compare categorias, produtos e ofertas no Mercado Livre e na Shopee.",
     url: `${SITE.url}/loja-de-moveis-marilia`,
     type: "website",
-    images: [{ url: `${SITE.url}/banners/og-image.jpg`, width: 1200, height: 630, alt: "MÃ³veis em MarÃ­lia" }],
+    images: [{ url: `${SITE.url}/banners/og-image.jpg`, width: 1200, height: 630, alt: "Móveis em Marília" }],
   },
 };
 
-export default function LojaMariliaPage() {
+export default function LojaMaríliaPage() {
   // Buscar guias relacionados
   const allGuides = getAllGuidesMeta();
+  const normalizar = (valor: string | undefined) =>
+    (valor ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
   const localGuides = allGuides.filter((g) =>
-    g.keyword?.toLowerCase().includes("marÃ­lia") ||
-    g.h1?.toLowerCase().includes("marÃ­lia")
+    normalizar(g.keyword).includes("marilia") ||
+    normalizar(g.h1).includes("marilia")
   ).slice(0, 3);
 
   // Selecionar 4 produtos para exibir como destaque local (primeiros da lista)
@@ -35,45 +38,45 @@ export default function LojaMariliaPage() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
       {/* Breadcrumb */}
-      <nav aria-label="Trilha de navegaÃ§Ã£o" className="mb-6 text-sm text-stone-500">
+      <nav aria-label="Trilha de navegação" className="mb-6 text-sm text-stone-500">
         <ol className="flex flex-wrap items-center gap-1.5">
-          <li><Link href="/" className="hover:text-stone-900">InÃ­cio</Link></li>
+          <li><Link href="/" className="hover:text-stone-900">Início</Link></li>
           <li aria-hidden="true">/</li>
-          <li className="font-medium text-stone-700" aria-current="page">Loja de MÃ³veis em MarÃ­lia</li>
+          <li className="font-medium text-stone-700" aria-current="page">Loja de Móveis em Marília</li>
         </ol>
       </nav>
 
       <header className="border-b border-stone-200 pb-6">
         <h1 className="text-3xl font-bold tracking-tight text-stone-900 sm:text-4xl">
-          Loja de MÃ³veis em MarÃ­lia â€“ Ofertas e Entrega RÃ¡pida
+          Loja de Móveis em Marília – Ofertas e comparativos
         </h1>
         <p className="mt-3 max-w-2xl text-lg text-stone-600">
-          Compre mÃ³veis em MarÃ­lia com os melhores preÃ§os do Mercado Livre e Shopee. 
-          Entregamos em todo o municÃ­pio e regiÃ£o com qualidade e pontualidade.
+          Encontre móveis para a sua casa no Mercado Livre e na Shopee.
+          Compare ofertas e confirme o preço, o frete e o prazo directamente na página de compra.
         </p>
       </header>
 
       <div className="mt-8 grid gap-8 lg:grid-cols-3">
-        {/* ConteÃºdo principal */}
+        {/* Conteúdo principal */}
         <div className="lg:col-span-2 space-y-6">
           <section>
-            <h2 className="text-2xl font-semibold text-stone-900">MÃ³veis em MarÃ­lia: Qualidade e PreÃ§o Justo</h2>
+            <h2 className="text-2xl font-semibold text-stone-900">Móveis em Marília: Qualidade e Preço Justo</h2>
             <p className="mt-2 text-stone-700">
-              Se vocÃª estÃ¡ procurando uma <strong>loja de mÃ³veis em MarÃ­lia</strong> que una qualidade, design e preÃ§o justo, 
-              chegou ao lugar certo. Nossa curadoria Ã© feita com carinho para quem quer transformar a casa sem pagar uma fortuna.
+              Se você está procurando uma <strong>loja de Móveis em Marília</strong> que una qualidade, design e preço justo, 
+              chegou ao lugar certo. Nossa curadoria é feita com carinho para quem quer transformar a casa sem pagar uma fortuna.
             </p>
             <p className="mt-2 text-stone-700">
-              Trabalhamos com as melhores marcas do mercado, como <strong>Madesa, Itatiaia, Henn, Kappesberg, Poliman, Lopas, Moval, DemÃ³bile</strong> e muitas outras. 
-              Cada produto Ã© selecionado com base em avaliaÃ§Ãµes reais, durabilidade e custo-benefÃ­cio.
+              Trabalhamos com as melhores marcas do mercado, como <strong>Madesa, Itatiaia, Henn, Kappesberg, Poliman, Lopas, Moval, Demóbile</strong> e muitas outras. 
+              Cada produto é selecionado com base em avaliações reais, durabilidade e custo-benefício.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-stone-900">ðŸ“¦ Entrega rÃ¡pida para MarÃ­lia e regiÃ£o</h2>
+            <h2 className="text-2xl font-semibold text-stone-900">📦 Prazos de entrega para Marília e região</h2>
             <ul className="mt-2 list-disc space-y-1 pl-6 text-stone-700">
-              <li><strong>Centro de MarÃ­lia:</strong> entrega em atÃ© 5 dias Ãºteis.</li>
-              <li><strong>Jardim TangarÃ¡, Bairro Alto, Nova MarÃ­lia, Jardim ItÃ¡lia:</strong> prazos de 5 a 7 dias Ãºteis.</li>
-              <li><strong>Zona rural e cidades vizinhas (Bauru, Ourinhos, Assis, TupÃ£):</strong> consulte o frete no momento da compra.</li>
+              <li><strong>Marília e bairros:</strong> confirme o prazo e o valor do frete na página do produto.</li>
+              <li><strong>Bauru, Ourinhos, Assis, Tupã e região:</strong> a disponibilidade e o prazo variam conforme o vendedor e o endereço.</li>
+              <li><strong>Compras online:</strong> use o CEP no Mercado Livre ou na Shopee para obter a estimativa actualizada.</li>
             </ul>
             <p className="mt-2 text-sm text-stone-500">
               *Os prazos podem variar conforme a disponibilidade do produto e a transportadora.
@@ -81,31 +84,31 @@ export default function LojaMariliaPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-stone-900">O que vocÃª encontra na nossa loja?</h2>
+            <h2 className="text-2xl font-semibold text-stone-900">O que você encontra na nossa loja?</h2>
             <ul className="mt-2 list-disc space-y-1 pl-6 text-stone-700">
-              <li><Link href="/categoria/sofas" className="text-amber-600 hover:underline">SofÃ¡s retrÃ¡teis e reclinÃ¡veis</Link> â€“ conforto e versatilidade para sua sala</li>
-              <li><Link href="/categoria/guarda-roupas" className="text-amber-600 hover:underline">Guarda-roupas de casal e solteiro</Link> â€“ com espelho, portas de correr ou ripado</li>
-              <li><Link href="/categoria/cozinhas" className="text-amber-600 hover:underline">Cozinhas moduladas</Link> â€“ compactas e funcionais para qualquer espaÃ§o</li>
-              <li><Link href="/categoria/paineis" className="text-amber-600 hover:underline">PainÃ©is para TV e racks</Link> â€“ modernos e elegantes para sua sala</li>
-              <li><Link href="/categoria/home-office" className="text-amber-600 hover:underline">MÃ³veis para home office</Link> â€“ escrivaninhas, cadeiras e estantes</li>
-              <li><Link href="/categoria/eletrodomesticos" className="text-amber-600 hover:underline">EletrodomÃ©sticos</Link> â€“ geladeiras, fogÃµes, micro-ondas, air fryer</li>
+              <li><Link href="/categoria/sofas" className="text-amber-600 hover:underline">Sofás retráteis e reclináveis</Link> – conforto e versatilidade para sua sala</li>
+              <li><Link href="/categoria/guarda-roupas" className="text-amber-600 hover:underline">Guarda-roupas de casal e solteiro</Link> – com espelho, portas de correr ou ripado</li>
+              <li><Link href="/categoria/cozinhas" className="text-amber-600 hover:underline">Cozinhas moduladas</Link> – compactas e funcionais para qualquer espaço</li>
+              <li><Link href="/categoria/paineis" className="text-amber-600 hover:underline">Painéis para TV e racks</Link> – modernos e elegantes para sua sala</li>
+              <li><Link href="/categoria/home-office" className="text-amber-600 hover:underline">Móveis para home office</Link> – escrivaninhas, cadeiras e estantes</li>
+              <li><Link href="/categoria/eletrodomesticos" className="text-amber-600 hover:underline">Eletrodomésticos</Link> – geladeiras, fogões, micro-ondas, air fryer</li>
             </ul>
           </section>
 
           <section className="rounded-2xl border border-stone-200 bg-stone-50 p-6">
-            <h2 className="text-xl font-semibold text-stone-900">ðŸ”Ž Por que comprar conosco?</h2>
+            <h2 className="text-xl font-semibold text-stone-900">🔎 Por que comprar conosco?</h2>
             <ul className="mt-3 space-y-2 text-stone-700">
               <li><strong>Curadoria especializada:</strong> selecionamos apenas os melhores produtos.</li>
-              <li><strong>PreÃ§os competitivos:</strong> comparamos ofertas para vocÃª pagar menos.</li>
-              <li><strong>Links de afiliado transparentes:</strong> vocÃª compra direto no Mercado Livre ou Shopee com seguranÃ§a.</li>
-              <li><strong>Atendimento local:</strong> tire suas dÃºvidas pelo WhatsApp ou e-mail.</li>
+              <li><strong>Preços competitivos:</strong> comparamos ofertas para você pagar menos.</li>
+              <li><strong>Links de afiliado transparentes:</strong> você compra direto no Mercado Livre ou Shopee com segurança.</li>
+              <li><strong>Atendimento local:</strong> tire suas dúvidas pelo WhatsApp ou e-mail.</li>
             </ul>
           </section>
 
           {/* Links para guias locais */}
           {localGuides.length > 0 && (
             <section>
-              <h2 className="text-2xl font-semibold text-stone-900">ðŸ“– Guias sobre mÃ³veis em MarÃ­lia</h2>
+              <h2 className="text-2xl font-semibold text-stone-900">📖 Guias sobre Móveis em Marília</h2>
               <ul className="mt-2 space-y-2">
                 {localGuides.map((guide) => (
                   <li key={guide.slug}>
@@ -122,29 +125,29 @@ export default function LojaMariliaPage() {
         {/* Sidebar */}
         <aside className="lg:col-span-1">
           <div className="rounded-2xl border border-stone-200 p-6">
-            <h3 className="text-lg font-semibold text-stone-900">Atendemos toda a regiÃ£o</h3>
+            <h3 className="text-lg font-semibold text-stone-900">Atendemos toda a região</h3>
             <ul className="mt-4 space-y-1 text-sm text-stone-600">
-              <li>ðŸ“ MarÃ­lia (todos os bairros)</li>
-              <li>ðŸ“ Bauru</li>
-              <li>ðŸ“ Ourinhos</li>
-              <li>ðŸ“ Assis</li>
-              <li>ðŸ“ TupÃ£</li>
-              <li>ðŸ“ RegiÃ£o de influÃªncia de MarÃ­lia</li>
+              <li>• Marília (todos os bairros)</li>
+              <li>• Bauru</li>
+              <li>• Ourinhos</li>
+              <li>• Assis</li>
+              <li>• Tupã</li>
+              <li>• Região de influência de Marília</li>
             </ul>
             <p className="mt-4 text-sm text-stone-500">
-              Entregas tambÃ©m disponÃ­veis para todo o Brasil â€“ consulte o frete.
+              Há opções de envio para todo o Brasil; confirme a cobertura e o frete na página do produto.
             </p>
           </div>
         </aside>
       </div>
 
-      {/* Produtos em destaque para MarÃ­lia */}
+      {/* Produtos em destaque para Marília */}
       <div className="mt-12 border-t border-stone-200 pt-8">
         <h2 className="text-2xl font-semibold tracking-tight text-stone-900">
-          Produtos recomendados para MarÃ­lia
+          Produtos recomendados para Marília
         </h2>
         <p className="mt-2 text-stone-500">
-          Selecionamos os melhores produtos com entrega rÃ¡pida para a regiÃ£o.
+          Selecionamos produtos para comparar ofertas no Mercado Livre e na Shopee.
         </p>
         <div className="mt-6">
           <ProductGrid products={localProducts} />
@@ -154,10 +157,10 @@ export default function LojaMariliaPage() {
       {/* Callout final */}
       <div className="mt-12 rounded-2xl border border-amber-200 bg-amber-50 p-6 text-center">
         <p className="text-lg font-semibold text-amber-800">
-          ðŸ›‹ï¸ Precisando de mÃ³veis em MarÃ­lia?
+          Precisando de móveis em Marília?
         </p>
         <p className="mt-1 text-amber-700">
-          Compare as ofertas no Mercado Livre e Shopee e compre com seguranÃ§a.
+          Compare as ofertas no Mercado Livre e Shopee e compre com segurança.
         </p>
         <Link
           href="/guias"

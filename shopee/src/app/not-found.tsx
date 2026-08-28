@@ -3,24 +3,24 @@ import Link from "next/link";
 import { SITE } from "@/data/products";
 
 // ============================================================
-// CORREÃ‡ÃƒO: canonical removido â€” pÃ¡gina 404 nÃ£o deve ter
+// CORREÇÃO: canonical removido — página 404 não deve ter
 // canonical apontando para /404. Sem canonical, o Google
-// entende que Ã© uma pÃ¡gina sem indexaÃ§Ã£o (robots: noindex).
+// entende que é uma página sem indexação (robots: noindex).
 // ============================================================
 export const metadata: Metadata = {
-  title: "404 - PÃ¡gina nÃ£o encontrada | MÃ³veis MarÃ­lia SP",
+  title: "404 - Página não encontrada | Móveis Marília SP",
   description:
-    "PÃ¡gina nÃ£o encontrada em MÃ³veis MarÃ­lia. Volte para a loja de mÃ³veis em MarÃ­lia SP e encontre sofÃ¡s, cozinhas planejadas e home office com frete grÃ¡tis.",
+    "Página não encontrada em Móveis Marília. Volte para a loja de Móveis em Marília SP e encontre sofás, cozinhas planejadas e home office com frete grátis.",
   robots: {
     index: false,
-    follow: false,
+    follow: true,
     "max-snippet": -1,
     "max-video-preview": -1,
   },
   openGraph: {
-    title: "404 - PÃ¡gina nÃ£o encontrada | MÃ³veis MarÃ­lia SP",
+    title: "404 - Página não encontrada | Móveis Marília SP",
     description:
-      "PÃ¡gina nÃ£o encontrada. Volte para a loja de mÃ³veis em MarÃ­lia SP e encontre sofÃ¡s, cozinhas planejadas e home office com frete grÃ¡tis.",
+      "Página não encontrada. Volte para a loja de Móveis em Marília SP e encontre sofás, cozinhas planejadas e home office com frete grátis.",
     url: `${SITE.url}/404`,
     siteName: SITE.name,
     locale: "pt_BR",
@@ -31,33 +31,34 @@ export const metadata: Metadata = {
         secureUrl: `${SITE.url}/loja-moveis-jardim-esmeralda-marilia-moveis-de-alto-padrao-marilia-logo.png`,
         width: 512,
         height: 512,
-        alt: "MÃ³veis MarÃ­lia - Loja de mÃ³veis em MarÃ­lia SP",
-        type: "image/svg+xml",
+        alt: "Móveis Marília - Loja de Móveis em Marília SP",
+        type: "image/png",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "404 - PÃ¡gina nÃ£o encontrada | MÃ³veis MarÃ­lia SP",
+    title: "404 - Página não encontrada | Móveis Marília SP",
     description:
-      "PÃ¡gina nÃ£o encontrada. Volte para a loja de mÃ³veis em MarÃ­lia SP e encontre ofertas exclusivas.",
+      "Página não encontrada. Volte para a loja de Móveis em Marília SP e encontre ofertas exclusivas.",
     images: [`${SITE.url}/loja-moveis-jardim-esmeralda-marilia-moveis-de-alto-padrao-marilia-logo.png`],
   },
   other: {
     "geo.region": "BR-SP",
-    "geo.placename": "MarÃ­lia",
+    "geo.placename": "Marília",
   },
 };
 
 export default function NotFound() {
+  /* O schema JSON-LD foi removido: páginas 404 não devem ser elegíveis para resultados enriquecidos.
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "@id": `${SITE.url}/404#webpage`,
     url: `${SITE.url}/404`,
-    name: "PÃ¡gina nÃ£o encontrada - MÃ³veis MarÃ­lia",
+    name: "Página não encontrada - Móveis Marília",
     description:
-      "PÃ¡gina nÃ£o encontrada. Volte para a loja de mÃ³veis em MarÃ­lia SP e encontre sofÃ¡s, cozinhas planejadas e home office com frete grÃ¡tis.",
+      "Página não encontrada. Volte para a loja de Móveis em Marília SP e encontre sofás, cozinhas planejadas e home office com frete grátis.",
     inLanguage: "pt-BR",
     isPartOf: {
       "@type": "WebSite",
@@ -73,13 +74,13 @@ export default function NotFound() {
         {
           "@type": "ListItem",
           position: 1,
-          name: "InÃ­cio",
+          name: "Início",
           item: SITE.url,
         },
         {
           "@type": "ListItem",
           position: 2,
-          name: "PÃ¡gina nÃ£o encontrada",
+          name: "Página não encontrada",
           item: `${SITE.url}/404`,
         },
       ],
@@ -90,19 +91,16 @@ export default function NotFound() {
       xpath: ["/html/head/title"],
     },
   };
+  */
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
 
       <div className="mx-auto flex min-h-[60vh] max-w-lg flex-col items-center justify-center px-4 py-20 text-center">
         {/*
-          CORREÃ‡ÃƒO: <meta httpEquiv="status" content="404" /> removido.
-          Esta tag nÃ£o define o status HTTP real â€” Ã© ignorada por todos os
-          servidores e bots. O status 404 real Ã© controlado pelo Cloudflare
+          CORREÇÃO: <meta httpEquiv="status" content="404" /> removido.
+          Esta tag não define o status HTTP real — é ignorada por todos os
+          servidores e bots. O status 404 real é controlado pelo Cloudflare
           Pages (ver arquivo public/_redirects).
         */}
 
@@ -110,27 +108,27 @@ export default function NotFound() {
           404
         </p>
         <h1 className="mt-4 text-2xl font-semibold text-stone-800">
-          PÃ¡gina nÃ£o encontrada
+          Página não encontrada
         </h1>
         <p className="mt-3 text-stone-500">
-          O produto ou guia que vocÃª procura pode ter saÃ­do de linha ou mudado de endereÃ§o.
+          O produto ou guia que você procura pode ter saído de linha ou mudado de endereço.
         </p>
 
-        {/* Links Ãºteis para navegaÃ§Ã£o */}
+        {/* Links úteis para navegação */}
         <div className="mt-8 flex flex-wrap justify-center gap-3">
           <Link
             href="/"
             prefetch={false}
             className="rounded-xl bg-stone-900 px-6 py-3 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-stone-800"
-            aria-label="Voltar para a pÃ¡gina inicial da MÃ³veis MarÃ­lia"
+            aria-label="Voltar para a página inicial da Móveis Marília"
           >
-            Voltar ao inÃ­cio
+            Voltar ao início
           </Link>
           <Link
             href="/guias"
             prefetch={false}
             className="rounded-xl border border-stone-300 bg-white px-6 py-3 text-sm font-semibold text-stone-800 transition-all hover:bg-stone-50"
-            aria-label="Ver guias de compra de mÃ³veis em MarÃ­lia"
+            aria-label="Ver guias de compra de Móveis em Marília"
           >
             Ver guias
           </Link>
@@ -138,23 +136,23 @@ export default function NotFound() {
             href="/contato"
             prefetch={false}
             className="rounded-xl border border-stone-300 bg-white px-6 py-3 text-sm font-semibold text-stone-800 transition-all hover:bg-stone-50"
-            aria-label="Entrar em contato com a MÃ³veis MarÃ­lia"
+            aria-label="Entrar em contato com a Móveis Marília"
           >
             Fale conosco
           </Link>
         </div>
 
-        {/* SugestÃµes de busca para AEO/GEO */}
+        {/* Sugestões de busca para AEO/GEO */}
         <div className="mt-8 border-t border-stone-200 pt-6">
           <p className="text-xs text-stone-400">
-            VocÃª pode estar procurando por:
+            Você pode estar procurando por:
           </p>
           <div className="mt-3 flex flex-wrap justify-center gap-2">
             <Link
               href="/categoria/sofas"
               className="rounded-full bg-stone-100 px-3 py-1.5 text-xs text-stone-600 transition-colors hover:bg-stone-200"
             >
-              SofÃ¡s em MarÃ­lia
+              Sofás em Marília
             </Link>
             <Link
               href="/categoria/cozinhas"
@@ -172,7 +170,7 @@ export default function NotFound() {
               href="/moveis-para-estudantes"
               className="rounded-full bg-stone-100 px-3 py-1.5 text-xs text-stone-600 transition-colors hover:bg-stone-200"
             >
-              MÃ³veis para Estudantes
+              Móveis para Estudantes
             </Link>
           </div>
         </div>

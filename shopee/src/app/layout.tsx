@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     template: "%s | Loja de Móveis Marília",
   },
   description:
-    "Móveis escolhidos a dedo por montador profissional. Compare ofertas reais de sofás, guarda-roupas, cozinhas e racks do Mercado Livre e Shopee. Entrega para todo o Brasil. Compre sem medo de se arrepender.",
+    "Móveis seleccionados por critérios de montagem e uso. Compare ofertas de sofás, guarda-roupas, cozinhas e racks no Mercado Livre e na Shopee. Confirme preço, frete e prazo no marketplace.",
   keywords: "móveis online, sofá mercado livre, guarda roupa mercado livre, rack mercado livre, comprar móveis online, móveis baratos, ofertas de móveis, móveis com entrega nacional, móveis indicados por montador",
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   icons: {
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     url: SITE.url,
     title: "Loja de Móveis Marília | Móveis Indicados por Montador Profissional",
-    description: "Móveis escolhidos a dedo por montador profissional. Compare ofertas reais do Mercado Livre e Shopee com entrega para todo o Brasil. Compre sem medo.",
+    description: "Móveis seleccionados por critérios de montagem e uso. Compare ofertas no Mercado Livre e na Shopee e confirme as condições directamente no marketplace.",
     images: [
       {
         url: `${SITE.url}/banners/og-image.jpg`,
@@ -76,7 +76,6 @@ export const metadata: Metadata = {
   },
   other: {
     "theme-color": "#1A1614",
-    "p:domain_verify": "880750888dee14eafd9092943bb81f49",
   },
 };
 
@@ -99,11 +98,7 @@ const organizationSchema = {
   name: "Loja de Móveis Marília",
   url: SITE.url,
   logo: `${SITE.url}/loja-moveis-jardim-esmeralda-marilia-moveis-de-alto-padrao-marilia-logo.png`,
-  description: "Loja de Móveis Marília - Móveis escolhidos a dedo por montador profissional. Analisamos e testamos as melhores ofertas do Mercado Livre e Shopee para você comprar sem medo. Site afiliado - recebemos comissão sem custo extra.",
-  sameAs: [
-    "https://www.instagram.com/movelnaprova/",
-  ],
-  foundingDate: "2025",
+  description: "Loja de Móveis Marília - Móveis seleccionados por critérios de montagem e uso. O site participa de programas de afiliados e pode receber comissão sem custo adicional para o comprador.",
   areaServed: {
     "@type": "Country",
     name: "Brasil"
@@ -116,13 +111,8 @@ const websiteSchema = {
   "@id": `${SITE.url}/#website`,
   name: "Loja de Móveis Marília",
   url: SITE.url,
-  description: "Móveis escolhidos a dedo por montador profissional. Compare ofertas do Mercado Livre e Shopee com entrega para todo o Brasil. Compre sem medo de se arrepender.",
+  description: "Móveis seleccionados por critérios de montagem e uso. Compare ofertas no Mercado Livre e na Shopee e confirme as condições directamente no marketplace.",
   inLanguage: "pt-BR",
-  potentialAction: {
-    "@type": "SearchAction",
-    target: `${SITE.url}/?q={search_term_string}`,
-    "query-input": "required name=search_term_string",
-  },
   publisher: {
     "@id": `${SITE.url}/#organization`,
   },
@@ -137,14 +127,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="pt-BR"
-      className={`${inter.variable} ${fraunces.variable} ${jetbrainsMono.variable}`}
+      className={`${inter.variable} ${fraunces.variable} ${jetbrainsMono.variable} ${rajdhani.variable}`}
       suppressHydrationWarning
     >
       <head>
         {/* SCHEMAS GLOBAIS COMBINADOS - Organization e WebSite */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(graphSchema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(graphSchema).replace(/</g, "\\u003c") }}
         />
         <meta name="p:domain_verify" content="880750888dee14eafd9092943bb81f49"/>
         {/* META PIXEL - ID 1568286774780420 */}
@@ -177,7 +167,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
               </span>
               <span className="font-mono font-semibold tracking-wide">LOJA DE MÓVEIS MARÍLIA • MÓVEIS INDICADOS POR MONTADOR PROFISSIONAL</span>
-              <span className="hidden sm:inline text-[#F5F0E8]/70"> | Compra online • Entrega em todo o Brasil</span>
+              <span className="hidden sm:inline text-[#F5F0E8]/70"> | Compra online • Consulte frete e prazo no marketplace</span>
             </div>
           </div>
         </div>
@@ -211,14 +201,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </svg>
             </div>
             <div>
-              <p className="text-xs font-bold text-[#1A1614]">Compra 100% Segura</p>
+              <p className="text-xs font-bold text-[#1A1614]">Ofertas comparadas</p>
               <div className="mt-0.5 flex items-center gap-1">
                 {[...Array(5)].map((_, i) => (
                   <svg key={i} className="h-3 w-3 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                   </svg>
                 ))}
-                <span className="ml-1 text-xs text-gray-600">4.9/5</span>
+                <span className="ml-1 text-xs text-gray-600">Veja avaliações no marketplace</span>
               </div>
             </div>
           </div>

@@ -51,26 +51,18 @@ const SLUGS_GUIA = [
 ];
 
 export default function GuiaSofaPremiumCompleto() {
-  const lista = products.filter((p) => SLUGS_GUIA.includes(p.slug));
+  const lista = products.filter((p) => SLUGS_GUIA.includes(p.slug) && Boolean(p.affiliateLink?.trim()));
 
-  const jsonLdLocalBusiness = {
+  const jsonLdArticle = {
     "@context": "https://schema.org",
-    "@type": "Store",
-    "@id": `${PAGE_URL}#business`,
-    name: SITE.name,
-    url: "https://www.lojademoveismarilia.com.br",
-    priceRange: "$$",
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Marília",
-      addressRegion: "SP",
-      addressCountry: "BR",
-    },
-    areaServed: [
-      { "@type": "City", name: "Marília" },
-      { "@type": "State", name: "São Paulo" },
-      { "@type": "Country", name: "Brasil" },
-    ],
+    "@type": "Article",
+    "@id": `${PAGE_URL}#article`,
+    headline: "Sofá retrátil para sala pequena: guia de medidas e modelos",
+    description: "Guia editorial para comparar sofás retráteis, medidas, materiais, tecidos e acesso ao ambiente.",
+    url: PAGE_URL,
+    inLanguage: "pt-BR",
+    author: { "@type": "Organization", name: SITE.name, url: "https://www.lojademoveismarilia.com.br/sobre" },
+    publisher: { "@type": "Organization", name: SITE.name, url: "https://www.lojademoveismarilia.com.br" },
   };
 
   const jsonLdBreadcrumb = {
@@ -153,7 +145,7 @@ export default function GuiaSofaPremiumCompleto() {
         name: "Qual espuma não afunda? D28 ou D33?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "D33 é mais firme e aguenta mais de 80kg por assento sem afundar. Todos os Cama inBox dessa lista são D33. O Lívia é D28 (mais macio, bom pra até 70kg).",
+          text: "D33 costuma ser mais firme do que D28, mas a resistência depende do projecto, da densidade declarada e do limite de peso do fabricante. Confirme no anúncio a densidade, a capacidade por assento e as condições de garantia.",
         },
       },
       {
@@ -187,19 +179,19 @@ export default function GuiaSofaPremiumCompleto() {
     <main className="min-h-screen bg-[#fafaf9] text-zinc-900 antialiased">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdLocalBusiness) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdArticle).replace(/</g, "\\u003c") }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumb) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumb).replace(/</g, "\\u003c") }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdHowTo) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdHowTo).replace(/</g, "\\u003c") }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFaq) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFaq).replace(/</g, "\\u003c") }}
       />
 
       {/* HERO */}
@@ -248,7 +240,7 @@ export default function GuiaSofaPremiumCompleto() {
             </div>
             <div className="flex items-center gap-2">
               <span className="h-2 w-2 rounded-full bg-zinc-900" />
-              5 modelos testados
+              5 modelos comparados
             </div>
             <p className="italic text-zinc-400">
               Aviso: links de afiliação. Comissão sem custo extra para você.
@@ -276,7 +268,7 @@ export default function GuiaSofaPremiumCompleto() {
               {lista.map((p, i) => (
                 <a
                   key={p.id}
-                  href={p.affiliateLink}
+                  href={p.affiliateLink!}
                   target="_blank"
                   rel="sponsored nofollow noopener noreferrer"
                   className="group flex items-center gap-4 rounded-2xl border border-transparent p-3 transition-all hover:border-zinc-200 hover:bg-zinc-50"
@@ -322,8 +314,7 @@ export default function GuiaSofaPremiumCompleto() {
               2. Tipo de madeira: Pinus ou Eucalipto?
             </h2>
             <p className="mt-2 text-sm leading-relaxed text-zinc-600">
-              99% dos sofás que você mandou são madeira de eucalipto de
-              reflorestamento. É melhor que pinus.
+              Nos modelos analisados, a estrutura declarada deve ser confirmada na ficha técnica do anúncio. Eucalipto e pinus podem ter características diferentes conforme o projecto e a fabricação.
             </p>
 
             <div className="mt-6 grid gap-3 md:grid-cols-2">
@@ -347,14 +338,13 @@ export default function GuiaSofaPremiumCompleto() {
                   </span>
                 </div>
                 <p className="mt-2 text-sm text-emerald-800/80">
-                  Mais pesado, aguenta 120-200kg por assento, não racha. Todos
-                  os 5 desta lista.
+                  Pode oferecer boa resistência, mas a capacidade e a composição devem ser confirmadas no anúncio. Não presuma que todos os modelos tenham a mesma estrutura.
                 </p>
               </div>
             </div>
 
             <p className="mt-4 text-xs text-zinc-400">
-              <b>Dica:</b> Se o anúncio não fala a madeira, é pinus. Fuja.
+              <b>Dica:</b> Se o anúncio não informa a madeira, não é possível concluir o material. Confirme a ficha técnica ou pergunte ao vendedor.
             </p>
           </section>
 
@@ -504,7 +494,7 @@ export default function GuiaSofaPremiumCompleto() {
 
                       <div className="mt-auto flex items-center gap-3 pt-5">
                         <a
-                          href={p.affiliateLink}
+                          href={p.affiliateLink!}
                           target="_blank"
                           rel="sponsored nofollow noopener noreferrer"
                           className="flex-1 rounded-full bg-zinc-900 py-3 text-center text-sm font-bold uppercase tracking-[0.14em] text-white transition hover:bg-black"
@@ -625,7 +615,7 @@ export default function GuiaSofaPremiumCompleto() {
                 </a>
                 <a href="#modelos" className="block text-zinc-600 hover:text-zinc-900">
                   6. Modelos detalhados
-                </a>
+                </a>a
                 <a href="#faq" className="block text-zinc-600 hover:text-zinc-900">
                   7. FAQ
                 </a>

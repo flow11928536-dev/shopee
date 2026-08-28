@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { SITE } from "@/data/products";
+import { products, SITE } from "@/data/products";
 import ProductGrid from "@/components/ProductGrid";
-import NextImage from "next/image";
 const PUBLISHED_DATE = "2026-08-12";
-const MODIFIED_DATE = "2026-08-12";
+const MODIFIED_DATE = "2026-08-28";
 
 export const metadata: Metadata = {
   title: "O Cantinho Que Toda Mulher Merece: 40 Penteadeiras Mais Vendidas | 2026",
-  description: "Selecionamos as penteadeiras camarim mais vendidas. Penteadeira camarim branca com espelho e banqueta, escrivaninha 2 em 1, sapateira giratória, cadeira veludo rosa. Guia com as melhores ofertas.",
+  description: "Guia editorial para comparar penteadeiras camarim, kits com banqueta, opções para quartos pequenos, cadeiras e organização. Confirme preço, stock e cupões no marketplace.",
   alternates: { canonical: `${SITE.url}/cantinho-que-toda-mulher-merece` },
 };
+
+const DESTAQUE_SLUG = "penteadeira-suspensa-jasmin-100x30-1-gaveta-lunim-preto";
 
 const PENTEADEIRA_CAMARIM_MAIS_VENDIDAS_SLUGS = [
   "penteadeira-suspensa-camarim-mesa-multiuso-1-gaveta-100x30-mdf-branco",
@@ -53,7 +54,7 @@ const SAPATEIRA_PRATELEIRA_ORGANIZACAO_SLUGS = [
 ];
 
 const faqs = [
-  { q: "Qual a penteadeira camarim mais vendida?", a: "As 3 mais vendidas são Planet Baby 9 Gavetas com LED e Banqueta, Studio Beauty 3 Gavetas e Ditália PE-80 7 Gavetas. Todas com mais de 1.600 avaliações 4.5+." },
+  { q: "Qual a penteadeira camarim mais vendida?", a: "Compare as avaliações, vendas e comentários dos anúncios antes de escolher; estes indicadores podem mudar entre vendedores e plataformas." },
   { q: "Penteadeira camarim branca com espelho e banqueta vale a pena?", a: "Sim, é a busca número 1. O kit já vem com banqueta estofada, não precisa comprar separado." },
   { q: "Vocês vendem as penteadeiras ou são afiliados?", a: "Somos curadoria afiliada. Garimpamos as melhores ofertas, você compra direto na loja oficial com garantia." },
 ];
@@ -64,10 +65,11 @@ const jsonLd = [
 ];
 
 export default function CantinhoMulherAfiliadoPage() {
+  const destaque = products.find((p) => p.slug === DESTAQUE_SLUG);
   return (
     <>
       {jsonLd.map((schema, i) => (
-        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }} />
       ))}
       <article className="bg-[#FFFBF8]">
         <style>{`@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Plus+Jakarta+Sans:wght@300;400;500&display=swap'); .font-serif{font-family:'Bodoni Moda',serif} .font-sans{font-family:'Plus Jakarta Sans',sans-serif}`}</style>
@@ -79,14 +81,14 @@ export default function CantinhoMulherAfiliadoPage() {
         <div className="mx-auto max-w-7xl px-6 py-12 sm:px-8 sm:py-20">
           <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
             <div>
-              <span className="rounded-full bg-[#F5EDE8] px-4 py-1.5 font-sans text-[10px] uppercase tracking-[0.25em] text-stone-600">Guia atualizado Agosto 2026 • Com cupons</span>
+              <span className="rounded-full bg-[#F5EDE8] px-4 py-1.5 font-sans text-[10px] uppercase tracking-[0.25em] text-stone-600">Guia actualizado • Confirme cupões e condições</span>
               <h1 className="font-serif mt-6 text-[40px] font-[400] leading-[0.9] tracking-[-0.02em] sm:text-[64px]">
                 O cantinho <br />
                 <span className="italic font-light text-[#D6A7A0]">que toda mulher</span><br />
                 merece.
               </h1>
               <p className="font-sans mt-6 max-w-[480px] text-[15px] font-light leading-relaxed text-stone-600">
-                Garimpamos as <strong>penteadeiras mais vendidas e bem avaliadas</strong>. Só o que tem nota 4.5+, milhares de vendas e cupom ativo.
+                Garimpamos as <strong>penteadeiras mais vendidas e bem avaliadas</strong>. Priorizamos anúncios com boas avaliações e volume de vendas; confirme sempre os dados e cupões no anúncio.
               </p>
 
               <div className="mt-8 flex gap-3">
@@ -96,28 +98,27 @@ export default function CantinhoMulherAfiliadoPage() {
             </div>
 
             {/* ===== OFERTA DO DIA - CARD PRINCIPAL ===== */}
-            <div className="rounded- border border-neutral-200 bg-white p-6 md:p-8">
+            <div className="rounded-2xl border border-neutral-200 bg-white p-6 md:p-8">
             <div className="flex items-center gap-2">
-                <span className="rounded-full bg-red-500 px-3 py-1 text- font-bold uppercase tracking-widest text-white">Oferta do dia</span>
-                <span className="text- uppercase tracking-widest text-neutral-400">15% OFF no Pix</span>
+                <span className="rounded-full bg-red-500 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-white">Oferta do dia</span>
+                <span className="text-[10px] uppercase tracking-widest text-neutral-400">Consulte cupão e condições</span>
             </div>
 
             <h3 className="mt-4 font-serif text-2xl leading-tight">
-                Penteadeira Suspensa Jasmin 100x30 1 Gaveta Preto
+                {destaque?.name || "Penteadeira suspensa Jasmin 100x30"}
             </h3>
-            <p className="mt-2 text-sm text-neutral-500">Lunim • 10kg • MDF/MDP 15mm • 4.4 estrelas</p>
+            <p className="mt-2 text-sm text-neutral-500">Consulte material, peso e avaliação no anúncio</p>
 
             <div className="mt-4 flex items-baseline gap-2">
-                <span className="text-2xl font-bold">R$ 423.69</span>
-                <span className="text-sm text-neutral-400 line-through">R$ 179,90</span>
+                <span className="text-sm font-medium text-neutral-600">Preço e cupão: confirmar no marketplace</span>
             </div>
 
             {/* IMAGEM DO CARD - TROCA AQUI */}
             <div className="mt-6 aspect-[4/3] overflow-hidden rounded-[1.5rem] bg-stone-100">
                 <img
-                src="/imagens/produtos/penteadeira-escrivaninha-canto-star-espelho-organizadora-136cm-branco-frente.webp"
+                src={destaque?.displayImage || "/imagens/produtos/penteadeira-escrivaninha-canto-star-espelho-organizadora-136cm-branco-frente.webp"}
                 
-                alt="Penteadeira Jasmin"
+                alt={destaque?.alt || destaque?.name || "Penteadeira suspensa Jasmin"}
                 className="h-full w-full object-cover"
                 />
             </div>
@@ -125,9 +126,9 @@ export default function CantinhoMulherAfiliadoPage() {
             {/* ===== BOTÃO VER PREÇO - COLOQUE SEU LINK AQUI EMBAIXO ===== */}
             {/* BOTÃO 2026 - DELICADO COM EFEITO */}
             <a
-              href="https://meli.la/2eR7Wmc"
-              target="_blank"
-              rel="nofollow"
+              href={destaque?.affiliateLink || "#mais-vendidas"}
+              target={destaque?.affiliateLink ? "_blank" : undefined}
+              rel={destaque?.affiliateLink ? "sponsored nofollow noopener noreferrer" : undefined}
               className="
                 group relative mt-6 inline-flex w-full items-center justify-center gap-2
                 overflow-visible rounded-full px-10 py-4
@@ -171,7 +172,7 @@ export default function CantinhoMulherAfiliadoPage() {
               <span className="pointer-events-none absolute top-1/2 -right-2 h-1 w-1 rounded-full bg-white opacity-0 group-hover:animate-ping [animation-delay:150ms]" />
               <span className="pointer-events-none absolute -bottom-2 left-[40%] h-1 w-1 rounded-full bg-white opacity-0 group-hover:animate-ping [animation-delay:300ms]" />
 
-              <span className="relative">Ver preço</span>
+              <span className="relative">{destaque?.affiliateLink ? "Ver preço" : "Ver modelos"}</span>
 
               <svg
                 width="14"
@@ -203,7 +204,7 @@ export default function CantinhoMulherAfiliadoPage() {
         </div>
 
         <section id="mais-vendidas" className="mx-auto max-w-7xl px-6 py-16 sm:px-8">
-          <span className="font-sans text-[11px] uppercase tracking-[0.3em] text-[#D6A7A0]">Baseado em 1.600+ avaliações reais</span>
+          <span className="font-sans text-[11px] uppercase tracking-[0.3em] text-[#D6A7A0]">Baseado em avaliações e dados visíveis nos anúncios</span>
           <h2 className="font-serif mt-3 text-[32px] leading-none sm:text-[44px]">As penteadeiras camarim <br /><span className="italic font-light">mais vendidas</span></h2>
           <p className="font-sans mt-4 max-w-2xl text-[14px] font-light text-stone-500">Planet Baby 9 gavetas, Ditália PE-80 7 gavetas e Studio Beauty 3 gavetas - as 3 mais vendidas.</p>
           <div className="mt-10"><ProductGrid slugs={PENTEADEIRA_CAMARIM_MAIS_VENDIDAS_SLUGS} gridClassName="grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8" /></div>
