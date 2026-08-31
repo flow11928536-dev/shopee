@@ -106,7 +106,20 @@ export default function Header() {
               </span>
               <span className="text-xs font-semibold text-neutral-700">Montadores Marília</span>
             </Link>
+
           </div>
+        </div>
+      </div>
+
+      {/* Botão Google Preferred Sources numa linha própria e responsiva */}
+      <div className="border-t border-neutral-100 bg-neutral-50/60 px-4 py-2">
+        <div className="mx-auto flex min-w-0 max-w-[1400px] justify-center overflow-hidden">
+          <div
+            google-add-preferred-source-btn="true"
+            data-theme="light"
+            data-lang="pt-BR"
+            className="max-w-full overflow-hidden"
+          />
         </div>
       </div>
 

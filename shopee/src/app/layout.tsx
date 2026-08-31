@@ -137,6 +137,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(graphSchema).replace(/</g, "\\u003c") }}
         />
         <meta name="p:domain_verify" content="880750888dee14eafd9092943bb81f49"/>
+        {/* Google Preferred Sources: biblioteca oficial do Google */}
+        <Script
+          src="https://news.google.com/swg/js/v1/publisher.js"
+          strategy="afterInteractive"
+        />
+
         {/* META PIXEL - ID 1568286774780420 */}
         <Script id="fb-pixel" strategy="lazyOnload">
           {`
