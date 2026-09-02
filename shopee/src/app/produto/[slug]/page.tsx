@@ -164,7 +164,7 @@ export default async function ProductPage({ params }: Props) {
                 {discount > 0 && <span className="text-sm font-medium" style={{ color: SAGE }}>Economize {formatBRL(originalPrice - price)}</span>}
               </div>
               <a href={product.affiliateLink} target="_blank" rel="noopener noreferrer" className="mt-6 flex w-full items-center justify-center gap-2 rounded-full px-6 py-4 text-base font-bold text-white shadow-md" style={{ backgroundColor: INK }}>
-                Ver oferta no {product.platform || "marketplace"}
+                Ver oferta  {product.platform || "marketplace"}
               </a>
               <p className="mt-2 text-center text-xs text-stone-400">
                 Você será redirecionado para {product.platform || "o marketplace"} para finalizar a compra com segurança.

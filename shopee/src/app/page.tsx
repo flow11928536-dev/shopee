@@ -38,13 +38,13 @@ const heroBanner = "/imagens/estante-home-soberano-227cm-led-marrom-gelius-90-po
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: "Loja de Móveis Marília | Móveis Indicados por Montador Profissional",
-  description: "Móveis escolhidos a dedo por montador profissional. Compare ofertas reais de sofás, guarda-roupas, cozinhas e racks do Mercado Livre e Shopee. Entrega para todo o Brasil. Compre sem medo de se arrepender.",
+  description: "Móveis seleccionados por montador profissional. Compare ofertas de sofás, guarda-roupas, cozinhas e racks do Mercado Livre e Shopee, conferindo medidas, materiais e condições antes de comprar.",
   keywords: ["móveis online", "sofá mercado livre", "guarda roupa shopee", "comprar móveis online", "móveis baratos", "ofertas de móveis", "móveis com entrega nacional", "móveis indicados por montador"].join(", "),
   alternates: { canonical: `${SITE.url}` },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },
   openGraph: {
     title: "Loja de Móveis Marília | Móveis Indicados por Montador Profissional",
-    description: "Móveis escolhidos a dedo por montador profissional. Compare ofertas reais do Mercado Livre e Shopee com entrega para todo o Brasil. Compre sem medo.",
+    description: "Móveis seleccionados por montador profissional. Compare ofertas do Mercado Livre e Shopee e confira medidas, materiais, vendedor, frete e condições antes de comprar.",
     url: SITE.url,
     siteName: "Loja de Móveis Marília",
     images: [{ url: heroBanner, secureUrl: heroBanner, width: 1600, height: 900, alt: "Loja de Móveis Marília - Móveis indicados por montador profissional", type: "image/webp" }],
@@ -62,7 +62,7 @@ const organizationSchema = {
   "@id": `${SITE.url}/#organization`,
   name: "Loja de Móveis Marília",
   url: SITE.url,
-  description: "Loja de Móveis Marília - Móveis escolhidos a dedo por montador profissional. Analisamos e testamos as melhores ofertas do Mercado Livre e Shopee para você comprar sem medo. Site afiliado.",
+  description: "Loja de Móveis Marília - curadoria editorial de móveis feita por montador profissional, com links de afiliado para ofertas do Mercado Livre e da Shopee.",
   logo: { "@type": "ImageObject", url: `${SITE.url}/loja-moveis-jardim-esmeralda-marilia-moveis-de-alto-padrao-marilia-logo.png`, width: 512, height: 512 },
   areaServed: [{ "@type": "Country", name: "Brasil" }],
 };
@@ -89,13 +89,13 @@ export default function HomePage() {
         <section className="mx-auto max-w-6xl px-4 md:px-8 pt-8 md:pt-10">
           <div className="max-w-3xl">
             <h1 className="text-4xl leading-[1.08] tracking-tight font-serif font-light text-[#1E1B18] md:text-6xl">
-              Móveis indicados por um montador profissional: <span className="italic font-normal">compare ofertas do Mercado Livre e Shopee</span>
+              Móveis indicados por um montador profissional: <span className="italic font-normal"></span>
             </h1>
             <p className="mt-3 max-w-2xl text-base leading-relaxed text-neutral-600 md:text-lg">
               Chega de comprar móvel fraco e se arrepender. Aqui você encontra móveis escolhidos a dedo por quem já montou milhares de móveis na vida. Compare ofertas reais do Mercado Livre e Shopee, com medidas e preços de verdade.
             </p>
             <p className="mt-3 text-xs uppercase tracking-widest text-neutral-400">
-              Compra 100% online • Entrega em todo o Brasil • Indicado por montador
+              Compra online  • Indicado por montador DE móveis
             </p>
           </div>
         </section>
@@ -131,7 +131,7 @@ export default function HomePage() {
           </div>
 
           <section className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4">
-            <Link href="/categoria/sofas" className="group relative flex h-72 w-full overflow-hidden rounded-2xl border border-neutral-200 md:col-span-2 md:row-span-2 md:h-">
+            <Link href="/categoria/sofas" className="group relative flex h-72 w-full overflow-hidden rounded-2xl border border-neutral-200 md:col-span-2 md:row-span-2 md:h-[38rem]">
               <Image src="/banners/sofa-canto-luna-organico-265cm-bege-claro-celflex.webp" alt="Sofás - canto, retrátil e modular" fill sizes="(max-width: 768px) 100vw, 66vw" className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-105" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
               <div className="relative z-10 flex h-full flex-col justify-end p-6 md:p-10">
@@ -151,6 +151,17 @@ export default function HomePage() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
               <div className="relative z-10 flex h-full flex-col justify-end p-5 md:p-6"><h3 className="text-xl font-light text-white">Guarda-Roupas</h3><span className="mt-1 text-xs text-white/80">Ver todos →</span></div>
             </Link>
+          </section>
+
+          <section className="rounded-[1.5rem] border border-[#C5A880]/40 bg-[#1E1B18] p-6 text-white shadow-sm md:p-8">
+            <div className="flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
+              <div className="max-w-3xl">
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#C5A880]">Guia de compra</p>
+                <h2 className="mt-2 text-2xl font-light md:text-3xl">Móveis baratos: como economizar sem comprar no escuro</h2>
+                <p className="mt-3 text-sm leading-relaxed text-white/75 md:text-base">Veja uma selecção de móveis em conta e aprenda a comparar materiais, ferragens, portas, gavetas, montagem, carga e manutenção com a orientação de um montador profissional.</p>
+              </div>
+              <Link href="/moveis-baratos" className="inline-flex shrink-0 items-center justify-center rounded-full bg-white px-6 py-3 text-xs font-semibold uppercase tracking-widest text-[#1E1B18] transition hover:bg-[#C5A880]">Ver o guia</Link>
+            </div>
           </section>
 
           <section className="space-y-10" aria-label="Ofertas em destaque">
