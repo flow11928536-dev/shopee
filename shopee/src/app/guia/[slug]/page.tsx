@@ -18,6 +18,26 @@ interface RelatedGuide {
   intro?: string;
 }
 
+const GUIDE_SEO_OVERRIDES: Record<string, { title: string; description: string }> = {
+  "por-que-moveis-estalam": {
+    title: "Por que os móveis estalam à noite? Causas e soluções",
+    description: "Descubra por que os móveis estalam à noite, quando isso é normal e quais sinais indicam problema de montagem, material ou estrutura.",
+  },
+  "moveis-shopee-sao-bons": {
+    title: "Móveis da Shopee são bons? Como comprar com segurança",
+    description: "Veja como avaliar vendedor, nota, comentários, frete, devolução e garantia antes de comprar móveis na Shopee.",
+  },
+};
+
+function slugifyHeading(value: string) {
+  return value
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\\u0300-\\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 export async function generateStaticParams() {
   return getAllGuidesMeta().map((g) => ({ slug: g.slug }));
 }
@@ -31,16 +51,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const publishedDate = (guide as unknown as Record<string, unknown>).datePublished as string || "2024-06-15";
   const modifiedDate = (guide as unknown as Record<string, unknown>).dateModified as string || publishedDate;
 
-  const optimizedTitle = guide.seoTitle.length > 60
-   ? `${guide.seoTitle.substring(0, 50)} | Móveis Brasil`
-    : guide.seoTitle;
+  const seoOverride = GUIDE_SEO_OVERRIDES[slug];
+  const baseTitle = seoOverride?.title || guide.seoTitle;
+  const optimizedTitle = baseTitle.length > 60
+    ? `${baseTitle.substring(0, 57).trimEnd()}...`
+    : baseTitle;
 
-  let optimizedDescription = guide.seoDescription;
-  if (optimizedDescription.length > 155) {
-    optimizedDescription = optimizedDescription.substring(0, 150) + "...";
-  } else if (optimizedDescription.length < 120) {
-    optimizedDescription = `${optimizedDescription} Guia completo com dicas de especialistas e ofertas exclusivas.`;
-  }
+  const baseDescription = seoOverride?.description || guide.seoDescription;
+  const optimizedDescription = baseDescription.length > 155
+    ? `${baseDescription.substring(0, 152).trimEnd()}...`
+    : baseDescription;
 
   return {
     title: optimizedTitle,
@@ -129,12 +149,7 @@ function TableOfContents({ blocks }: { blocks: GuideBlock[] }) {
   const headings = blocks
    .filter((b) => b.type === "text" && b.heading)
    .map((b) => ({
-      id: (b as Extract<GuideBlock, { type: "text" }>).heading!
-       .toLowerCase()
-       .normalize("NFD")
-       .replace(/[\u0300-\u036f]/g, "")
-       .replace(/[^a-z0-9]+/g, "-")
-       .replace(/^-|-$/g, ""),
+      id: slugifyHeading((b as Extract<GuideBlock, { type: "text" }>).heading!),
       text: (b as Extract<GuideBlock, { type: "text" }>).heading!,
       level: (b as Extract<GuideBlock, { type: "text" }>).level || 2,
     }));
@@ -164,14 +179,7 @@ function TableOfContents({ blocks }: { blocks: GuideBlock[] }) {
 
 function TextBlock({ block }: { block: Extract<GuideBlock, { type: "text" }> }) {
   const Heading = block.level === 3? "h3" : "h2";
-  const headingId = block.heading
-   ? block.heading
-       .toLowerCase()
-       .normalize("NFD")
-       .replace(/[\u0300-\u036f]/g, "")
-       .replace(/[^a-z0-9]+/g, "-")
-       .replace(/^-|-$/g, "")
-    : undefined;
+  const headingId = block.heading ? slugifyHeading(block.heading) : undefined;
 
   return (
     <div className="space-y-4">
@@ -298,7 +306,17 @@ export default async function GuidePage({ params }: Props) {
   if (!guide) notFound();
 
   const ctaProduct = getProductBySlug(guide.ctaSlug);
-  const relatedGuides: RelatedGuide[] = [];
+  const relatedGuides: RelatedGuide[] = getAllGuidesMeta()
+    .filter((related) => related.slug !== guide.slug)
+    .slice(0, 3)
+    .map((related) => getGuide(related.slug))
+    .filter((related): related is NonNullable<ReturnType<typeof getGuide>> => Boolean(related))
+    .map((related) => ({
+      slug: related.slug,
+      h1: related.h1,
+      description: related.seoDescription,
+      intro: related.intro,
+    }));
   const path = `/guia/${guide.slug}`;
   const publishedDate = (guide as unknown as Record<string, unknown>).datePublished as string || "2024-06-15";
   const modifiedDate = (guide as unknown as Record<string, unknown>).dateModified as string || publishedDate;
@@ -329,7 +347,7 @@ export default async function GuidePage({ params }: Props) {
          },
       publisher: {
         "@type": "Organization",
-        name: "Móveis Brasil",
+        name: SITE.name,
         url: SITE.url,
         logo: {
           "@type": "ImageObject",
@@ -545,21 +563,23 @@ export default async function GuidePage({ params }: Props) {
           </section>
         )}
 
-        {ctaProduct && (
+        {ctaProduct?.affiliateLink && (
           <section className="overflow-hidden rounded-3xl bg-gradient-to-br from-stone-900 to-stone-800 p-8 text-center shadow-2xl sm:p-12">
-            <h2 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">
-              Pronto para garantir o seu?
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-amber-300">Próximo passo</p>
+            <h2 className="mt-2 text-2xl font-bold tracking-tight text-white sm:text-3xl">
+              Compare este modelo antes de decidir
             </h2>
-            <p className="mx-auto mt-3 max-w-md text-stone-300">
-              Verifique o estoque, o frete grátis e os cupons oficiais agora mesmo — direto no{" "}
-              {ctaProduct.platform}.
+            <p className="mx-auto mt-3 max-w-lg text-stone-300">
+              Confira o preço, as avaliações, o vendedor, o frete e o prazo diretamente no {ctaProduct.platform || "marketplace"}. As condições podem mudar conforme o CEP e a disponibilidade.
             </p>
-            <Link
-              href={`/confirmar-estoque/${ctaProduct.slug}`}
+            <a
+              href={ctaProduct.affiliateLink}
+              target="_blank"
+              rel="sponsored noopener noreferrer"
               className="mt-7 inline-flex items-center gap-2 rounded-xl bg-white px-8 py-4 text-base font-bold text-stone-900 shadow-lg transition-all hover:-translate-y-0.5 hover:bg-stone-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-stone-900"
-              aria-label={`Verificar estoque e oferta de ${ctaProduct.name}`}
+              aria-label={`Ver oferta atual de ${ctaProduct.name}`}
             >
-              Verificar estoque e oferta
+              Ver oferta atual
               <svg
                 className="h-5 w-5"
                 viewBox="0 0 20 20"
@@ -574,7 +594,8 @@ export default async function GuidePage({ params }: Props) {
                   strokeLinejoin="round"
                 />
               </svg>
-            </Link>
+            </a>
+            <p className="mt-3 text-xs text-stone-400">Podemos receber comissão, sem custo adicional para você.</p>
           </section>
         )}
       </article>

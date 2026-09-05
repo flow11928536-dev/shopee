@@ -233,6 +233,58 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             });
           `}
         </Script>
+
+        {/* RASTREAMENTO DOS CLIQUES AFILIADOS */}
+        <Script id="affiliate-click-tracking" strategy="afterInteractive">
+          {`
+            (function () {
+              function getAffiliatePlatform(url) {
+                try {
+                  var hostname = new URL(url, window.location.href).hostname.toLowerCase();
+                  if (hostname.includes('shopee')) return 'shopee';
+                  if (hostname.includes('mercadolivre') || hostname.includes('mercadolibre')) return 'mercado_livre';
+                  return null;
+                } catch (error) {
+                  return null;
+                }
+              }
+
+              function sendAffiliateEvent(link) {
+                var href = link.getAttribute('href');
+                if (!href) return;
+
+                var platform = getAffiliatePlatform(href);
+                if (!platform) return;
+
+                var productSlug = link.getAttribute('data-product-slug') || window.location.pathname.split('/').filter(Boolean).pop() || 'desconhecido';
+                var productName = link.getAttribute('data-product-name') || document.title;
+                var eventData = {
+                  platform: platform,
+                  product_slug: productSlug,
+                  product_name: productName,
+                  source_page: window.location.pathname,
+                  link_url: href
+                };
+
+                if (typeof window.gtag === 'function') {
+                  window.gtag('event', 'affiliate_click', eventData);
+                }
+
+                if (typeof window.fbq === 'function') {
+                  window.fbq('trackCustom', 'AffiliateClick', eventData);
+                }
+              }
+
+              document.addEventListener('click', function (event) {
+                var target = event.target;
+                if (!(target instanceof Element)) return;
+
+                var link = target.closest('a[href]');
+                if (link) sendAffiliateEvent(link);
+              }, { passive: true });
+            })();
+          `}
+        </Script>
       </body>
     </html>
   );

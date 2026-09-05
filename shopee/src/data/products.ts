@@ -4,7 +4,7 @@ export const SITE = {
   url: "https://www.lojademoveismarilia.com.br",
   name: "Loja de Móveis Marília",
   shortName: "Móveis Indicado Por um Montador Profissional",
-  description: "Móveis escolhidos a dedo por montador profissional. Compare ofertas reais de sofás, guarda-roupas, cozinhas e racks do Mercado Livre e Shopee. Entrega para todo o Brasil. Compre sem medo de se arrepender.",
+  description: "Móveis escolhidos por montador profissional. Compare ofertas de sofás, guarda-roupas, cozinhas e racks do Mercado Livre e da Shopee, verificando medidas, materiais, avaliações, frete e condições antes de comprar.",
   whatsapp: "5514996033296",
   email: "contato@lojademoveismarilia.com.br",
   city: "Marília",
@@ -13895,7 +13895,7 @@ Recomendamos realizar uma única compra por vez, por questões de logística de 
 // ============================================================
 // FUNÇÕES AUXILIARES
 // ============================================================
-export const getAllProducts = (): Product[] => products;
+export const getAllProducts = (): Product[] => [...products];
 
 export const getProductBySlug = (slug: string): Product | undefined =>
   products.find((p) => p.slug === slug);
@@ -13908,10 +13908,13 @@ export const getProductsByCategory = (
   const cats = Array.isArray(category)? category : [category];
 
   return products.filter((p) => {
-    // Categoria principal
+    // Categoria principal do produto.
     if (cats.includes(p.category)) return true;
 
-    // Categorias adicionais
+    // Ambiente principal, por exemplo: quarto, sala ou cozinha.
+    if (p.mainCategory && cats.includes(p.mainCategory as ProductCategory)) return true;
+
+    // Categorias adicionais.
     if (p.categories?.some((c) => cats.includes(c))) return true;
 
     return false;
@@ -13932,7 +13935,10 @@ export const getProductsByCategoryInterleaved = (
 
   const buckets: Product[][] = cats.map((cat) =>
     products.filter(
-      (p) => p.category === cat || p.categories?.includes(cat)
+      (p) =>
+        p.category === cat ||
+        p.mainCategory === cat ||
+        p.categories?.includes(cat),
     )
   );
 
@@ -13953,20 +13959,28 @@ export const getProductsByCategoryInterleaved = (
   });
 };
 
-export const getProductsBySlugs = (slugs: string[]): Product[] =>
-  slugs
-   .map((slug) => products.find((p) => p.slug === slug))
-   .filter((p): p is Product => Boolean(p));
+export const getProductsBySlugs = (slugs: string[]): Product[] => {
+  const seen = new Set<string>();
+
+  return slugs
+    .filter((slug) => {
+      if (seen.has(slug)) return false;
+      seen.add(slug);
+      return true;
+    })
+    .map((slug) => products.find((product) => product.slug === slug))
+    .filter((product): product is Product => Boolean(product));
+};
 
 // SLUGS QUE NÃO SÃO CATEGORIA, SÃO GUIA - NÃO VÃO PARA /categoria/
 const EXCLUDED_FROM_CATEGORY = ["area-externa", "mdf-mdp", "home-office"];
 
-export const allCategorySlugs = [
- ...MAIN_CATEGORIES.map((c) => c.slug).filter(
-    (slug) =>!EXCLUDED_FROM_CATEGORY.includes(slug)
-  ),
- ...SUB_CATEGORIES.map((c) => c.slug),
-];
+export const allCategorySlugs = Array.from(
+  new Set([
+    ...MAIN_CATEGORIES.map((category) => category.slug),
+    ...SUB_CATEGORIES.map((category) => category.slug),
+  ]),
+).filter((slug) => !EXCLUDED_FROM_CATEGORY.includes(slug));
 
 export const allCategories = Array.from(
   new Set(products.map((p) => p.category))
@@ -13974,5 +13988,13 @@ export const allCategories = Array.from(
   (cat) =>!EXCLUDED_FROM_CATEGORY.includes(cat as string)
 ) as ProductCategory[];
 
-export const formatBRL = (value: number): string =>
-  value.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+export const formatBRL = (value: number | null | undefined): string => {
+  if (typeof value !== "number" || !Number.isFinite(value)) {
+    return "Preço não informado";
+  }
+
+  return value.toLocaleString("pt-BR", {
+    style: "currency",
+    currency: "BRL",
+  });
+};
