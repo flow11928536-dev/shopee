@@ -165,9 +165,9 @@ export default async function ProductPage({ params }: Props) {
                   rel="sponsored noopener noreferrer"
                   className="mt-6 flex min-h-14 w-full items-center justify-center gap-2 rounded-full px-6 py-4 text-base font-bold text-white shadow-md transition hover:brightness-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9C7A3C] focus-visible:ring-offset-2"
                   style={{ backgroundColor: INK }}
-                  aria-label={`Ver oferta atual de ${product.name} no ${product.platform || "marketplace"}`}
+                  aria-label={`Saiba mais sobre ${product.name}`}
                 >
-                  Consultar oferta atual no {product.platform || "marketplace"}
+                  Saiba mais
                   <span aria-hidden="true">↗</span>
                 </a>
               ) : (

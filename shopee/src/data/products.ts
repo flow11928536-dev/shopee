@@ -13882,6 +13882,1349 @@ Recomendamos realizar uma única compra por vez, por questões de logística de 
   seoTitle: "Kit 2 Banquetas Altas Encapadas Aço Napa 12 Cores | Espaço Junco",
   seoDescription: "Kit 2 banquetas altas encapadas com estrutura em aço e assento napa. Ideal para cozinha, área gourmet e balcões. 12 cores, 120kg, 4.8★ com 956 avaliações!",
 },
+{
+  id: "p-imp-169",
+  slug: "kit-2-poltronas-ibiza-estofadas-veludo-sala-escritorio-recepcao",
+  category: "poltronas",
+  categories: ["home-office", "cadeiras"],
+  mainCategory: "sala",
+  name: "Kit com 2 Poltronas Ibiza Estofadas em Veludo para Sala, Escritório e Recepção",
+  imageFile: "/imagens/produtos/kit-2-poltronas-ibiza-estofadas-veludo.webp",
+  displayImage: "/imagens/produtos/kit-2-poltronas-ibiza-estofadas-veludo.webp",
+  imageHover: "/imagens/produtos/kit-2-poltronas-ibiza-estofadas-veludo-hover.webp",
+  alt: "Kit com 2 poltronas Ibiza estofadas em veludo com braços e pés palito de madeira",
+  rating: 4.9,
+  reviews: 320,
+  discount: 6,
+  price: 525.00,
+  originalPrice: 559.57,
+  badge: "4.9 ESTRELAS | KIT COM 2",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/AKaM5QNwow",
+  descricao: `
+# Kit com 2 Poltronas Ibiza: conforto e estilo para transformar seu ambiente
+
+Renove a decoração da sua casa, escritório ou recepção com o **Kit com 2 Poltronas Ibiza**. Com visual moderno, braços fixos, estofamento macio e acabamento elegante em veludo, o conjunto foi pensado para criar um espaço mais confortável, acolhedor e visualmente sofisticado.
+
+As duas poltronas podem ser usadas lado a lado na sala de estar, em um cantinho de leitura, no quarto, no home office ou em ambientes comerciais. O design minimalista combina facilmente com diferentes estilos de decoração, enquanto os pés palito de madeira acrescentam um toque retrô e deixam a composição mais leve.
+
+## O que torna o Kit Ibiza uma ótima escolha?
+
+- **Conjunto com 2 poltronas:** ideal para criar uma composição equilibrada e funcional.
+- **Estofamento confortável:** a espuma D-23 oferece maciez equilibrada e bom suporte para o uso cotidiano.
+- **Revestimento em veludo:** tecido agradável ao toque, com aparência elegante e sensação de aconchego.
+- **Estrutura reforçada:** fabricada em madeira maciça de reflorestamento para proporcionar estabilidade.
+- **Braços fixos e encosto alto:** mais apoio e conforto durante momentos de descanso ou atendimento.
+- **Pés palito de eucalipto:** acabamento lixado e envernizado que valoriza a decoração.
+- **Instalação simples:** as poltronas já chegam montadas; basta rosquear os pés.
+- **Diversas opções de cores:** escolha a combinação que melhor conversa com o seu ambiente, conforme a disponibilidade do anúncio.
+
+## Onde usar as Poltronas Ibiza?
+
+O conjunto é versátil e pode ser usado como poltrona para sala, cadeira confortável para quarto, assento para home office, poltrona decorativa para consultório ou recepção, além de acomodar clientes em lojas e escritórios. Também é uma boa opção para montar um espaço de leitura ou criar um ponto de destaque na decoração.
+
+## Conforto pensado para o dia a dia
+
+A espuma D-23 foi escolhida para oferecer uma experiência confortável sem deixar o assento excessivamente mole. O encosto alto, os braços fixos e o assento bem estruturado ajudam a tornar a poltrona mais agradável para conversas, leituras, recepções e momentos de relaxamento.
+
+O revestimento de veludo acrescenta textura e um brilho discreto ao móvel. Para a manutenção, recomenda-se retirar o pó com cuidado e utilizar apenas um pano levemente úmido quando necessário, sempre evitando excesso de água e produtos abrasivos.
+
+## Cores disponíveis
+
+O anúncio apresenta opções como azul-marinho, bege, cappuccino, cinza, preto, rosa-escuro, rose, terracota, verde-musgo, vermelho e marrom. A disponibilidade pode variar conforme o estoque. Quando permitido pelo vendedor, é possível solicitar cores diferentes para cada poltrona após a compra.
+
+## Especificações do produto
+
+| Especificação | Informação |
+|---|---|
+| Produto | Kit com 2 Poltronas Ibiza |
+| Estilo | Moderno, minimalista e decorativo |
+| Estrutura | Madeira maciça de reflorestamento |
+| Revestimento | Tecido veludo |
+| Espuma | D-23 |
+| Braços | Fixos |
+| Pés | Madeira maciça de eucalipto, modelo palito |
+| Largura externa | 76 cm por poltrona |
+| Profundidade externa | 57 cm por poltrona |
+| Altura externa | 82 cm por poltrona |
+| Largura interna do assento | 44 cm |
+| Profundidade interna do assento | 41 cm |
+| Altura do assento ao chão | Aproximadamente 44 cm |
+| Altura do assento até o topo do encosto | 42 cm |
+| Altura dos pés | 30 cm |
+| Capacidade informada | Até 120 kg por poltrona |
+| Quantidade | 2 unidades |
+| Montagem | Não necessita montagem; apenas rosquear os pés |
+| Origem | Brasil |
+| Garantia | 90 dias contra defeitos de fabricação |
+
+## Perguntas frequentes
+
+**As poltronas já chegam montadas?**
+
+Sim. A estrutura chega montada, sendo necessário apenas rosquear os pés de madeira, de forma simples e rápida.
+
+**É possível escolher cores diferentes?**
+
+O anúncio informa que pode ser possível escolher uma cor para cada peça. Essa solicitação deve ser confirmada com o vendedor após a compra e depende da disponibilidade em estoque.
+
+**O veludo é fácil de conservar?**
+
+Sim, desde que sejam seguidas as orientações de cuidado. Para a limpeza cotidiana, remova o pó delicadamente e use um pano levemente úmido quando necessário. Não utilize produtos abrasivos nem deixe o tecido exposto à umidade excessiva.
+
+**As medidas podem variar?**
+
+Sim. Por se tratar de um produto estofado, as medidas podem apresentar uma variação de aproximadamente 3 cm. Antes da compra, confira também se as poltronas passarão por portas, corredores, escadas e elevadores do local de entrega.
+
+**As poltronas podem ficar em área externa?**
+
+Não. O produto é indicado para ambientes internos e deve ser protegido de sol direto, calor intenso e umidade excessiva.
+
+## Antes de comprar
+
+As tonalidades podem sofrer pequenas variações de acordo com o lote do tecido e as configurações do monitor. As imagens do anúncio são ilustrativas e não incluem objetos decorativos ou eletrônicos. Verifique as dimensões do produto e as condições de frete exibidas na Shopee antes de finalizar o pedido.
+
+Se você procura um conjunto de poltronas confortáveis, bonitas e versáteis, o **Kit Ibiza com 2 unidades** reúne praticidade, acabamento decorativo e ótimo potencial para renovar diferentes ambientes da casa ou do trabalho.
+  `,
+  marca: "Decoren",
+  keywords: [
+    "kit 2 poltronas ibiza",
+    "poltrona ibiza",
+    "kit de poltronas estofadas",
+    "poltrona de veludo",
+    "poltrona para sala",
+    "poltrona para escritório",
+    "poltrona para recepção",
+    "poltrona decorativa",
+    "poltrona com braço",
+    "poltrona com pé palito",
+    "poltrona confortável",
+    "móveis para sala",
+  ],
+  seoTitle: "Kit 2 Poltronas Ibiza em Veludo com Pé Palito | Decoren",
+  seoDescription: "Kit com 2 Poltronas Ibiza estofadas em veludo, com braços, espuma D-23 e pés palito de madeira. Ideal para sala, escritório e recepção. Diversas cores.",
+},
+{
+  id: "p-imp-170",
+  slug: "kit-2-cadeiras-lua-courino-courissimo-base-metalica-dourada",
+  category: "poltronas",
+  categories: ["home-office", "cadeiras"],
+  mainCategory: "sala",
+  name: "Kit com 2 Cadeiras Lua em Courino com Base Metálica Dourada",
+  imageFile: "/imagens/produtos/kit-2-cadeiras-lua-courino-base-metalica-dourada.webp",
+  displayImage: "/imagens/produtos/kit-2-cadeiras-lua-courino-base-metalica-dourada.webp",
+  imageHover: "/imagens/produtos/kit-2-cadeiras-lua-courino-base-metalica-dourada-hover.webp",
+  alt: "Kit com 2 cadeiras Lua estofadas em courino com encosto arredondado e base metálica dourada",
+  rating: 4.5,
+  reviews: 62,
+  discount: 6,
+  price: 425.57,
+  originalPrice: 451.96,
+  badge: "4.5 ESTRELAS | KIT COM 2",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/1LfXPbBnyD",
+  descricao: `
+# Kit com 2 Cadeiras Lua em Courino: presença marcante para sala, jantar e recepção
+
+Uma boa cadeira não precisa apenas acomodar: ela também participa da composição do ambiente. O **Kit com 2 Cadeiras Lua** foi pensado para quem busca unir conforto, personalidade e acabamento contemporâneo em uma única peça. O formato arredondado do encosto, o estofamento macio e a base metálica dourada criam uma presença elegante sem deixar o espaço visualmente pesado.
+
+O conjunto pode ser usado como **cadeira de jantar**, poltrona para sala de estar, assento para escritório, cadeira para recepção ou móvel decorativo para salão de beleza e espaço de estética. Por serem vendidas em dupla, as peças ajudam a criar uma composição simétrica em mesas, halls e áreas de atendimento, além de aproveitarem bem ambientes que precisam de conforto sem excesso de volume.
+
+## Por que escolher o Kit Cadeira Lua?
+
+O principal diferencial do modelo está no equilíbrio entre o desenho envolvente e a praticidade do revestimento sintético. O courino, também chamado de couríssimo em anúncios de móveis, apresenta superfície de fácil manutenção e visual semelhante ao couro, enquanto a espuma D-26 contribui para um assento mais estruturado no uso diário.
+
+A base fixa de ferro com acabamento dourado acrescenta contraste ao revestimento e combina com decorações modernas, contemporâneas, glam, minimalistas e industriais. Já o encosto de madeira dá sustentação ao conjunto e ajuda a preservar o formato curvo característico da cadeira Lua.
+
+## Um conjunto versátil para diferentes ambientes
+
+Na sala de jantar, as cadeiras podem ser posicionadas nas cabeceiras ou usadas em uma mesa compacta para criar um ponto de destaque. Na sala de estar, funcionam como poltronas auxiliares para conversas e visitas. Em escritórios, consultórios e recepções, oferecem uma solução decorativa para acomodar clientes sem recorrer a cadeiras corporativas convencionais.
+
+O modelo também pode ser utilizado em salões de beleza, barbearias e espaços de estética que desejam uma recepção mais elegante. Para ambientes comerciais, vale conferir previamente as dimensões, a circulação disponível e a política de entrega do anúncio, especialmente porque o produto é enviado sob encomenda.
+
+## Revestimento em courino: aparência elegante e manutenção prática
+
+O courino é um revestimento sintético à base de poliuretano que reproduz a aparência do couro em uma alternativa decorativa de fácil limpeza. Nas opções deste anúncio, o material aparece em tonalidades como preto, whisky, bege e caramelo, permitindo combinar a cadeira com mesas de madeira, tampos claros, detalhes dourados e paletas neutras.
+
+Para a conservação, remova o pó com um pano macio e, quando necessário, utilize um pano levemente umedecido. Evite excesso de água, produtos abrasivos, esponjas ásperas, solventes e exposição prolongada ao sol. Antes de aplicar qualquer produto de limpeza, teste em uma área discreta do revestimento.
+
+## Detalhes que valorizam o design
+
+O encosto curvo da Cadeira Lua cria uma sensação visual mais acolhedora e ajuda a envolver a região das costas. A base metálica dourada, por sua vez, funciona como um elemento decorativo e deixa a composição mais sofisticada. O conjunto é indicado para quem procura uma cadeira estofada com braço integrado, visual de poltrona e proporções adequadas para uso em mesa ou em áreas de espera.
+
+A espuma D-26 oferece uma densidade intermediária para o estofamento, buscando equilibrar maciez e suporte. A capacidade informada pelo anúncio é de até 110 kg por cadeira. Como ocorre com móveis estofados, a percepção de conforto pode variar conforme a postura, o tempo de uso e as características físicas de cada pessoa.
+
+## Cores disponíveis no anúncio
+
+As opções apresentadas são **preto couríssimo com ferro**, **whisky couríssimo com ferro**, **bege couríssimo com ferro** e **caramelo couríssimo**. A disponibilidade pode mudar conforme o estoque e a modalidade selecionada. Confira a cor escolhida antes de concluir o pedido, pois alterações posteriores podem gerar custos de frete de devolução e novo envio, conforme as regras do vendedor.
+
+## Especificações técnicas
+
+| Especificação | Detalhe |
+|---|---|
+| Produto | Kit com 2 Cadeiras Lua |
+| Tipo | Cadeira estofada com formato de poltrona |
+| Revestimento | Courino/couríssimo sintético à base de poliuretano |
+| Estrutura do encosto | Madeira |
+| Espuma | D-26 |
+| Base | Fixa, metálica, em ferro com acabamento dourado |
+| Quantidade | 2 unidades |
+| Altura total | 85 cm |
+| Comprimento/profundidade informada | 50 cm |
+| Largura | 60 cm |
+| Altura do assento ao chão | 47 cm |
+| Capacidade informada | Até 110 kg por cadeira |
+| Montagem | Uma base acompanha desmontada; a outra acompanha montada |
+| Fixação | Parafusos acompanham o produto |
+| Uso recomendado | Ambiente interno |
+| Envio | Produto sob encomenda; envio após 7 dias da compra, conforme anúncio |
+| Origem de envio exibida | Marília, São Paulo |
+
+## Montagem do kit
+
+O anúncio informa que uma das cadeiras acompanha a base desmontada e a outra é enviada montada. Os parafusos necessários para a fixação acompanham o produto, permitindo concluir a instalação de forma simples. Antes de montar, posicione a cadeira sobre uma superfície protegida, confira todas as peças e aperte os parafusos sem forçar a estrutura.
+
+Caso você não tenha familiaridade com montagem de móveis, pode solicitar auxílio profissional. A montagem, assim como eventuais custos para transportar o produto por escadas, elevadores ou guincho, é de responsabilidade do comprador quando não estiver incluída na modalidade de entrega.
+
+## Perguntas frequentes
+
+**O produto é vendido em par?**
+
+Sim. Este anúncio corresponde a um kit com duas Cadeiras Lua.
+
+**A Cadeira Lua pode ser usada na mesa de jantar?**
+
+Sim. O anúncio indica o uso em mesa de jantar. Para garantir uma boa experiência, confira a altura do tampo, o espaço entre os pés da mesa e a medida do assento antes de comprar.
+
+**A cadeira é indicada para recepção e salão de beleza?**
+
+Sim. O design decorativo e o revestimento de fácil manutenção tornam o conjunto uma opção para recepções, salões, espaços de estética, escritórios e outros ambientes internos de atendimento. Em locais de uso intenso, é importante respeitar a capacidade informada e realizar a limpeza adequada.
+
+**As duas cadeiras chegam montadas?**
+
+Não exatamente. Conforme a descrição do anúncio, uma das bases acompanha desmontada e a outra montada. Os parafusos de fixação acompanham o kit.
+
+**Como limpar o courino?**
+
+Use um pano macio, seco ou levemente umedecido. Não utilize produtos abrasivos, álcool, solventes ou excesso de água, pois eles podem alterar o acabamento do revestimento.
+
+**Quais são as medidas da Cadeira Lua?**
+
+A medida informada é de 85 cm de altura, 60 cm de largura, 50 cm de comprimento/profundidade e 47 cm do chão até o assento. Confirme as medidas na página de compra antes de finalizar o pedido.
+
+**A cor pode ser diferente da imagem?**
+
+Pode haver pequena variação de tonalidade devido à iluminação da fotografia, ao lote do revestimento, às configurações da tela e à percepção visual. As imagens do anúncio são ilustrativas.
+
+**O que devo fazer se a embalagem chegar avariada?**
+
+Inspecione a embalagem e o produto no momento da entrega. Se houver avaria, siga as orientações do vendedor e registre a ocorrência na documentação de entrega antes de aceitar o recebimento, conforme as regras informadas no anúncio.
+
+## Cuidados antes de finalizar a compra
+
+Confira se o conjunto passará por portas, corredores, escadas e elevadores do endereço de entrega. Também verifique o prazo de envio, pois o anúncio informa que o produto é enviado sob encomenda após sete dias da compra. O frete, os cupons, o preço final e a disponibilidade de cores podem variar na Shopee.
+
+Para escolher a melhor composição, compare a altura do assento com a mesa onde as cadeiras serão utilizadas. Em uma recepção ou sala de espera, considere também a área de circulação e a distância necessária entre os móveis. Essas verificações simples ajudam a evitar problemas de espaço e tornam a compra mais segura.
+
+## Conteúdos relacionados
+
+Para planejar melhor a circulação e a entrada de móveis em ambientes compactos, consulte o [guia sobre medidas e passagem de móveis em salas pequenas](/guias/sofa-retratil-sala-pequena). Se precisar de orientação antes da compra, acesse também a nossa [página de guias de compra de móveis](/guias). Para dúvidas sobre produtos, pedidos ou sugestões de conteúdo, visite a [página de contato](/contato).
+
+O **Kit com 2 Cadeiras Lua** é uma escolha para quem deseja transformar uma mesa, recepção ou sala de espera com um móvel de aparência sofisticada, assento estofado e acabamento dourado. Consulte as condições atuais no anúncio e escolha a cor que melhor combina com o seu projeto.
+  `,
+  marca: "Não informado no anúncio",
+  keywords: [
+    "kit 2 cadeiras lua",
+    "cadeira lua courino",
+    "cadeira lua courissimo",
+    "cadeira estofada com base dourada",
+    "cadeira com pé de ferro dourado",
+    "poltrona lua para sala",
+    "cadeira para sala de jantar",
+    "cadeira para recepção",
+    "cadeira para salão de beleza",
+    "cadeira para estética",
+    "cadeira para escritório",
+    "cadeira decorativa moderna",
+    "cadeira confortável com braço",
+    "cadeira de courino fácil de limpar",
+    "cadeira estofada para mesa de jantar",
+  ],
+  relatedGuides: [
+    {
+      title: "Como escolher móveis para ambientes compactos",
+      href: "/guias/sofa-retratil-sala-pequena",
+      anchor: "guia sobre medidas e passagem de móveis em salas pequenas",
+    },
+    {
+      title: "Guias de compra de móveis",
+      href: "/guias",
+      anchor: "página de guias de compra de móveis",
+    },
+    {
+      title: "Contato",
+      href: "/contato",
+      anchor: "página de contato",
+    },
+  ],
+  seoTitle: "Kit 2 Cadeiras Lua em Courino com Base Dourada | Sala e Recepção",
+  seoDescription: "Kit com 2 Cadeiras Lua estofadas em courino, espuma D-26 e base metálica dourada. Ideal para sala de jantar, escritório, salão, estética e recepção.",
+},
+{
+  id: "p-imp-171",
+  slug: "guarda-roupa-casal-odisseia-6-portas-2-gavetas-mdp-cinamomo-off-white",
+  category: "guarda-roupas",
+  categories: ["guarda-roupas", "quartos", "mdf-mdp"],
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Casal Odisseia 6 Portas e 2 Gavetas em MDP Cinamomo/Off White",
+  imageFile: "/imagens/produtos/guarda-roupa-casal-odisseia-6-portas-cinamomo-off-white.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-casal-odisseia-6-portas-cinamomo-off-white.webp",
+  imageHover: "/imagens/produtos/guarda-roupa-casal-odisseia-6-portas-cinamomo-off-white-hover.webp",
+  alt: "Guarda-roupa casal Odisseia com 6 portas e 2 gavetas em MDP cinamomo e off white para quarto",
+  rating: 4.4,
+  reviews: 10,
+  discount: 14,
+  price: 690.55,
+  originalPrice: 812.16,
+  badge: "MAIS VENDIDO | 6 PORTAS",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/2F3CdfU",
+  descricao: `
+# Guarda-Roupa Casal Odisseia: organização inteligente para o quarto
+
+O **Guarda-Roupa Casal Odisseia** foi desenvolvido para quem precisa organizar roupas, acessórios e peças de uso diário em um móvel amplo, funcional e visualmente equilibrado. Com seis portas de abrir, duas gavetas, seis prateleiras, dois cabideiros e um calceiro, ele cria diferentes áreas de armazenamento para separar roupas dobradas, peças penduradas e itens menores.
+
+O acabamento **Cinamomo com Off White** combina a aparência acolhedora da madeira com uma tonalidade clara que ajuda a compor quartos modernos, neutros e contemporâneos. Por não possuir espelho, pés ou rodízios, o móvel mantém uma proposta mais tradicional e pode ser integrado a diferentes projetos de dormitório sem competir com outros elementos da decoração.
+
+## Um guarda-roupa casal pensado para dividir a organização
+
+A distribuição interna do Odisseia favorece uma rotina mais organizada. As seis prateleiras podem acomodar roupas dobradas, jogos de cama, toalhas e caixas organizadoras. Os dois cabideiros permitem separar peças por pessoa, categoria ou frequência de uso, enquanto o calceiro oferece um espaço específico para calças e outras peças que precisam permanecer penduradas.
+
+As seis portas de bater dão acesso ao interior por diferentes módulos. Essa configuração facilita a visualização das áreas internas e permite que o casal distribua o espaço de acordo com seus hábitos. As duas gavetas complementam o armazenamento para roupas íntimas, acessórios, camisetas, documentos ou outros objetos que precisam ficar protegidos e ao alcance das mãos.
+
+## MDP de 12 mm e acabamento com pintura UV
+
+A estrutura do móvel é produzida em **MDP com espessura de 12 mm**, material amplamente utilizado na fabricação de móveis residenciais. As portas possuem 15 mm de espessura e recebem acabamento em pintura UV com escala de brilho, contribuindo para uma superfície uniforme e fácil de integrar à decoração.
+
+É importante observar que este produto é fabricado em MDP, e não em MDF. A escolha do material deve ser feita de acordo com o projeto, o orçamento e a forma de uso do quarto. Para preservar o acabamento, mantenha o móvel em ambiente interno, evite contato prolongado com umidade e não use produtos abrasivos na limpeza.
+
+## Gavetas com corrediças telescópicas
+
+As duas gavetas contam com **corrediças telescópicas metálicas**, que permitem maior abertura e um deslizamento mais controlado em comparação com sistemas simples. Esse recurso facilita a visualização do conteúdo e ajuda no acesso às partes mais profundas da gaveta.
+
+A capacidade informada é de até 3 kg por gaveta. Para manter o funcionamento adequado, distribua o peso sem concentrar objetos muito pesados em um único ponto e evite fechar a gaveta quando houver excesso de volume.
+
+## Profundidade de 47 cm para quartos com circulação reduzida
+
+Com profundidade informada de 47 cm, o Guarda-Roupa Odisseia pode ser uma alternativa para quartos nos quais cada centímetro de circulação precisa ser planejado. Antes da compra, é essencial comparar essa medida com o espaço disponível, a abertura das portas, a posição da cama e a área de passagem entre o móvel e os demais elementos do ambiente.
+
+A profundidade reduzida não elimina a necessidade de medir o local. Verifique também se as peças e as embalagens passarão por portas, corredores, escadas e elevadores. O produto possui montagem de dificuldade média, portanto é recomendável reservar uma área adequada para a instalação e seguir o manual do fabricante.
+
+## Organização interna para roupas dobradas e penduradas
+
+As seis prateleiras suportam até 6 kg cada, conforme as informações do anúncio. Elas podem ser usadas para separar roupas por estação, tipo de tecido, frequência de uso ou pessoa. Os cabideiros ajudam a reduzir amassados em camisas, vestidos, casacos e outras peças que devem permanecer penduradas.
+
+O calceiro acrescenta uma área específica para calças e peças compridas. Para aproveitar melhor o espaço, utilize caixas ou colmeias organizadoras nas prateleiras, deixe uma pequena folga entre as pilhas de roupas e evite sobrecarregar os compartimentos além da capacidade informada.
+
+## Detalhes do projeto
+
+O modelo tem design convencional, seis portas de abrir e puxadores em MDF. A parte interna é cinza, criando contraste com a composição externa Cinamomo/Off White. O móvel não acompanha espelho, vidro, nicho, pés ou rodízios; essa característica deve ser considerada na escolha do local e na composição com outros móveis do quarto.
+
+Por ser um guarda-roupa de casal com muitos compartimentos, o Odisseia atende tanto quartos compartilhados quanto ambientes em que uma pessoa precisa concentrar roupas, acessórios e itens de cama em um único armário. A divisão interna é mais adequada para quem prefere portas de abrir e acesso individualizado aos módulos.
+
+## Especificações técnicas
+
+| Especificação | Informação |
+|---|---|
+| Modelo | Odisseia |
+| Produto | Guarda-roupa casal |
+| Material principal | MDP |
+| Espessura da estrutura | 12 mm |
+| Espessura das portas | 15 mm |
+| Acabamento | Pintura UV com escala de brilho |
+| Cor externa | Cinamomo/Off White; variação exibida: Bege Claro |
+| Cor interna | Cinza |
+| Portas | 6 portas de abrir |
+| Gavetas | 2 gavetas |
+| Corrediças | Telescópicas metálicas |
+| Prateleiras | 6, com capacidade de até 6 kg cada |
+| Cabideiros | 2 |
+| Calceiro | 1 integrado |
+| Puxadores | MDF |
+| Profundidade informada | 47 cm |
+| Peso suportado nas gavetas | Até 3 kg por gaveta |
+| Sistema de montagem | Parafusos, cavilhas e Minifix |
+| Dificuldade de montagem | Média |
+| Montagem invertida | Não permitida |
+| Pés | Não possui |
+| Rodízios | Não possui |
+| Espelho | Não possui |
+| Vidro | Não possui |
+| Nicho | Não possui |
+| Acessórios | Kit de ferragens e manual de montagem |
+| Indicação de uso | Quarto |
+
+## Perguntas frequentes
+
+**Este guarda-roupa é indicado para casal?**
+
+Sim. O modelo possui seis portas, duas gavetas, seis prateleiras, dois cabideiros e um calceiro, oferecendo diferentes áreas para organizar roupas e acessórios de duas pessoas. A capacidade real de armazenamento dependerá do volume e do tipo de peças guardadas.
+
+**O Guarda-Roupa Odisseia é feito de MDF?**
+
+Não. De acordo com o anúncio, a estrutura é feita de MDP com 12 mm de espessura e as portas possuem 15 mm. A descrição não deve ser confundida com modelos fabricados em MDF.
+
+**Quantas portas e gavetas o móvel possui?**
+
+O produto possui seis portas de abrir e duas gavetas com corrediças telescópicas metálicas.
+
+**As gavetas abrem completamente?**
+
+As corrediças telescópicas permitem abertura ampliada e acesso facilitado ao interior. Respeite o limite informado de até 3 kg por gaveta e evite sobrecarregar o mecanismo.
+
+**Quantas prateleiras e cabideiros acompanham?**
+
+São seis prateleiras, dois cabideiros e um calceiro integrado. Cada prateleira suporta até 6 kg, conforme as informações do anúncio.
+
+**O móvel possui espelho ou pés?**
+
+Não. Este modelo não possui espelho, vidro, pés, rodízios ou nicho. Confira esses itens antes da compra caso sejam indispensáveis ao seu projeto.
+
+**A montagem está incluída?**
+
+O produto acompanha kit de ferragens e manual, mas a montagem é de responsabilidade do comprador. O anúncio classifica a dificuldade como média e informa que a montagem invertida não é permitida. Separe espaço adequado e, se necessário, contrate um montador.
+
+**Como limpar o Guarda-Roupa Odisseia?**
+
+Use um pano seco ou levemente umedecido. Não utilize produtos abrasivos, solventes, excesso de água ou materiais ásperos que possam comprometer a pintura UV e o acabamento das superfícies.
+
+**A profundidade de 47 cm é adequada para quarto pequeno?**
+
+Ela pode ajudar em projetos com circulação mais limitada, mas a adequação depende da largura e da disposição do quarto. Meça o espaço entre a parede, a cama e os demais móveis antes de comprar e considere a área necessária para abrir as portas.
+
+**A cor pode variar em relação à imagem?**
+
+Sim. A percepção do Cinamomo, Off White ou Bege Claro pode mudar conforme a iluminação, a tela utilizada e o lote de fabricação. Use as imagens como referência visual e confirme a variação selecionada no anúncio.
+
+## Como planejar o espaço antes da montagem
+
+Antes de receber o produto, escolha uma parede nivelada e deixe uma área livre para organizar as peças e montar a estrutura. Meça portas, corredores, elevadores e escadas do imóvel. Como o produto não possui rodízios, defina previamente sua posição final e evite arrastá-lo depois de montado para não danificar a base ou o piso.
+
+Também é importante observar a abertura das portas. Deixe espaço suficiente em frente ao móvel para acessar as prateleiras, retirar roupas dos cabideiros e abrir as gavetas sem bater na cama ou em outro armário. Essa etapa de planejamento melhora o uso diário e evita que a profundidade do quarto seja comprometida.
+
+## Conservação e uso adequado
+
+Mantenha o guarda-roupa em ambiente interno, protegido de umidade, infiltrações e contato direto com água. Distribua as roupas entre as prateleiras e cabideiros, respeite os limites de peso e não se apoie nas portas ou gavetas. Para manter o acabamento uniforme, remova o pó regularmente com pano macio e seco.
+
+Se o quarto tiver umidade elevada, garanta ventilação adequada e evite encostar o móvel em paredes com sinais de infiltração. A conservação do ambiente é tão importante quanto a limpeza do produto para preservar o MDP e o acabamento ao longo do tempo.
+
+## ⚠️ Dicas importantes do montador
+
+> **Deixe o espaço livre antes da montagem.** Reserve uma área ampla, limpa, nivelada e sem obstáculos para que o profissional consiga trabalhar com segurança e organizar as peças.
+>
+> **Não tente montar o guarda-roupa sozinho se não tiver experiência.** O ideal é contratar um montador profissional de sua preferência, com ferramentas adequadas e conhecimento para resolver imprevistos que podem surgir durante a instalação.
+>
+> **A cola deve ser utilizada nas gavetas.** A colagem das gavetas faz parte do processo correto de montagem e ajuda a preservar a firmeza e a durabilidade da estrutura. Os acessórios, parafusos, cavilhas, ferragens e demais componentes previstos no produto acompanham o guarda-roupa, portanto não é necessário comprar um kit separado.
+>
+> **O montador também pode solucionar pequenas faltas ou ajustes.** Se faltar um parafuso, uma cavilha ou outro acessório pequeno que não faça parte da estrutura principal, o profissional normalmente consegue providenciar a peça adequada. Isso também vale para pequenos complementos necessários durante a montagem, garantindo um resultado mais seguro e bem acabado.
+>
+> **A montagem interfere diretamente na vida útil do móvel.** Uma instalação sem experiência pode danificar a estrutura, comprometer a regulagem das portas e prejudicar o funcionamento das gavetas. O alinhamento, o nivelamento, o esquadro e a regulagem das portas precisam ser conferidos com precisão para evitar folgas, travamentos, desnivelamento e desgaste prematuro.
+>
+> **Recomendação profissional:** contrate sempre um montador capacitado e acompanhe a conferência final do móvel antes de começar a utilizá-lo.
+>
+> **Precisa de ajuda para montar?** Conheça os profissionais disponíveis na nossa [página de montadores de móveis](/montadores) e escolha um montador profissional para realizar a instalação com as ferramentas e os cuidados adequados.
+>
+> **Sobre as corrediças:** este modelo já informa corrediças telescópicas metálicas. Elas devem ser instaladas e reguladas corretamente; não force as gavetas, não exceda o limite de 3 kg por gaveta e faça reapertos ou ajustes somente quando necessário. Em modelos que tragam apenas corrediças metálicas simples, um montador pode avaliar a possibilidade de upgrade para corrediças telescópicas compatíveis.
+>
+> **Proteção contra umidade:** se a parede apresentar infiltração, mofo ou umidade, corrija o problema antes da instalação e evite encostar o móvel diretamente nela. Mantenha aproximadamente **8 a 10 cm de afastamento**, cerca de um palmo, para favorecer a ventilação e reduzir o risco de o MDP absorver umidade. Esse afastamento não substitui o reparo da infiltração.
+>
+> **Peso sobre o guarda-roupa:** **nunca sobrecarregue o topo do móvel.** Como orientação conservadora, evite ultrapassar aproximadamente **4 kg distribuídos**, salvo se o fabricante informar outro limite. Se for necessário guardar algo na parte superior, coloque os objetos mais pesados alinhados sobre divisores, pontaletes ou montantes estruturais do maleiro, quando identificados. Nos vãos sem apoio estrutural, coloque apenas itens leves e nunca concentre peso no centro de uma chapa.
+>
+> **Limpeza correta:** use apenas pano macio, seco ou muito levemente umedecido e seque a superfície imediatamente. **Não use lustra-móveis, ceras, produtos abrasivos, esponjas ásperas, álcool, solventes, cloro ou excesso de água.** Esses produtos podem manchar, riscar, estufar ou comprometer o acabamento do MDP e da pintura UV. Em caso de dúvida, siga o manual do fabricante e teste qualquer produto em uma área discreta.
+
+## Conteúdos relacionados
+
+Para aprofundar a escolha de um armário para quarto compartilhado, consulte o nosso [guia completo sobre guarda-roupa casal de 6 portas](/guias/guarda-roupa-casal-6-portas). Para comparar materiais e entender como escolher móveis para diferentes ambientes, acesse a [página de guias de compra de móveis](/guias). Se você também está planejando a circulação e a entrada de outros móveis no quarto, veja o [guia sobre medidas e passagem de móveis em ambientes compactos](/guias/sofa-retratil-sala-pequena). Em caso de dúvidas sobre produtos ou pedidos, utilize a [página de contato](/contato).
+
+O **Guarda-Roupa Casal Odisseia** reúne seis portas, duas gavetas telescópicas, seis prateleiras, dois cabideiros e um calceiro em uma proposta voltada à organização do quarto. Confira o preço, a variação de cor, o prazo e as condições de entrega no anúncio antes de finalizar a compra.
+  `,
+  marca: "Panorama Móveis",
+  keywords: [
+    "guarda-roupa casal Odisseia",
+    "guarda-roupa casal 6 portas",
+    "guarda-roupa 6 portas 2 gavetas",
+    "guarda-roupa MDP casal",
+    "guarda-roupa cinamomo off white",
+    "guarda-roupa bege claro",
+    "guarda-roupa com 6 prateleiras",
+    "guarda-roupa com 2 cabideiros",
+    "guarda-roupa com calceiro",
+    "guarda-roupa sem espelho",
+    "guarda-roupa compacto 47 cm",
+    "armário para quarto de casal",
+    "móvel para organizar roupas",
+    "guarda-roupa para quarto pequeno",
+    "guarda-roupa com gaveta telescópica",
+  ],
+  caracteristicas: [
+    "6 portas de abrir",
+    "2 gavetas com corrediças telescópicas metálicas",
+    "6 prateleiras com capacidade de até 6 kg cada",
+    "2 cabideiros e 1 calceiro integrado",
+    "Estrutura em MDP de 12 mm",
+    "Profundidade informada de 47 cm",
+    "Acabamento Cinamomo/Off White com pintura UV",
+  ],
+  recomendacao: "Indicado para quartos de casal que precisam de divisão interna para roupas dobradas, peças penduradas, calças e acessórios, especialmente quando a profundidade disponível é uma preocupação.",
+  contras: [
+    "Não possui espelho, pés, rodízios, vidro ou nicho.",
+    "A montagem é de dificuldade média e fica sob responsabilidade do comprador.",
+    "A montagem invertida não é permitida.",
+    "O anúncio enviado não informa altura e largura completas; confirme essas medidas antes da compra.",
+  ],
+  notaMontador: "Deixe o espaço onde será montado  livre para o montador. Não tente montar o guarda-roupa sem experiência. Contrate um profissional pois ele tem ferramentas adequadas; ele deverá colar todas as gavetas, conferir ferragens, esquadro, nivelamento, alinhamento, regulagem das portas e funcionamento das corrediças telescópicas. o Fundo do guarda roupa (costas) deverá ser pregado com espaço de 8 a 10 cm de distancia de um prego para outro; Os acessórios necessários já acompanham o produto, mas o montador pode providenciar pequenos itens faltantes ou complementos durante a montagem. Mantenha o móvel afastado de paredes úmidas minimo 5 cm da parede, não sobrecarregue em cima do guarda roupa, corre o risco de empenar — orientação conservadora de até 10 kg distribuídos, salvo limite do fabricante — e faça a limpeza apenas com pano macio, seco ou muito levemente umedecido. A montagem invertida não é permitida; Não arraste o produto com roupas dentro, caso precise mover o guarda roupa, faça em duas pessoas",
+  relatedGuides: [
+    {
+      title: "Guarda-roupa casal 6 portas: medidas, materiais e organização",
+      href: "/guias/guarda-roupa-casal-6-portas",
+      anchor: "guia completo sobre guarda-roupa casal de 6 portas",
+    },
+    {
+      title: "Guias de compra de móveis",
+      href: "/guias",
+      anchor: "página de guias de compra de móveis",
+    },
+    {
+      title: "Medidas e passagem de móveis em ambientes compactos",
+      href: "/guias/sofa-retratil-sala-pequena",
+      anchor: "guia sobre medidas e passagem de móveis em ambientes compactos",
+    },
+    {
+      title: "Contato",
+      href: "/contato",
+      anchor: "página de contato",
+    },
+    {
+      title: "Montadores de móveis profissionais",
+      href: "/montadores",
+      anchor: "página de montadores de móveis",
+    },
+  ],
+  seoTitle: "Guarda-Roupa Casal Odisseia 6 Portas e 2 Gavetas | MDP",
+  seoDescription: "Guarda-Roupa Casal Odisseia com 6 portas, 2 gavetas telescópicas, 6 prateleiras, 2 cabideiros e calceiro. MDP Cinamomo/Off White, profundidade de 47 cm.",
+},
+{
+  id: "p-imp-172",
+  slug: "guarda-roupa-infantil-6-portas-comoda-sapateira-4-gavetas-branco-flex-azul-rosa",
+  category: "guarda-roupas",
+  categories: ["guarda-roupas", "quartos"],
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Infantil 6 Portas com Cômoda Sapateira 4 Gavetas Branco Flex Azul e Rosa",
+  imageFile: "/imagens/produtos/guarda-roupa-infantil-6-portas-comoda-sapateira-branco-flex-azul-rosa.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-infantil-6-portas-comoda-sapateira-branco-flex-azul-rosa.webp",
+  imageHover: "/imagens/produtos/guarda-roupa-infantil-6-portas-comoda-sapateira-branco-flex-azul-rosa-hover.webp",
+  alt: "Guarda-roupa infantil com 6 portas, cômoda sapateira com 4 gavetas e detalhes Branco Flex azul e rosa",
+  rating: 4.7,
+  reviews: 489,
+  discount: 11,
+  price: 939.12,
+  originalPrice: 1050.78,
+  badge: "QUARTO INFANTIL | 6 PORTAS",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/5q7wyiKi21",
+  descricao: `
+# Conjunto infantil com guarda-roupa, cômoda e sapateira
+
+Montar o quarto da criança fica mais simples quando roupas, calçados e acessórios podem ser organizados em um conjunto coordenado. Este kit reúne um guarda-roupa infantil de 6 portas e uma cômoda sapateira com 1 porta e 4 gavetas, criando uma solução completa para aproveitar melhor o ambiente e manter os itens do dia a dia sempre acessíveis.
+
+O visual **Branco Flex** permite escolher a combinação das vistas e dos rodapés entre branco, azul e rosa. Essa possibilidade ajuda a personalizar o quarto infantil de acordo com a decoração escolhida pela família, sem depender de uma única composição de cores.
+
+## Organização para diferentes fases da infância
+
+O guarda-roupa oferece seis portas, duas gavetas e um cabideiro de madeira para distribuir peças dobradas, roupas penduradas e acessórios. A divisão interna pode ser organizada por estação, tamanho, frequência de uso ou tipo de roupa, facilitando a rotina dos responsáveis e a autonomia da criança conforme ela cresce.
+
+A cômoda amplia a capacidade do conjunto. Suas quatro gavetas externas podem receber roupas menores, itens de uso frequente, acessórios e objetos que precisam ficar ao alcance das mãos. A porta lateral funciona como espaço para calçados, ajudando a separar sapatos, sandálias e tênis das roupas guardadas nos demais compartimentos.
+
+## MDP, ferragens metálicas e gavetas telescópicas
+
+A estrutura principal do guarda-roupa é produzida em **MDP**, material utilizado em móveis residenciais e adequado para ambientes internos quando instalado e conservado corretamente. O produto também conta com cabideiro de madeira, dobradiças metálicas de 26 mm e gavetas com corrediças telescópicas.
+
+As corrediças telescópicas favorecem uma abertura mais ampla e ajudam a visualizar o interior das gavetas. Para preservar o funcionamento, evite excesso de peso, não force o fechamento e confirme se as gavetas estão alinhadas depois da montagem. O mesmo cuidado deve ser aplicado às gavetas da cômoda.
+
+As dobradiças metálicas de 26 mm devem ser reguladas durante a instalação para que as portas fiquem alinhadas e com abertura adequada. Pequenos ajustes feitos pelo montador ajudam a evitar folgas, portas desalinhadas e atrito entre os módulos.
+
+## Branco Flex: azul, rosa ou branco
+
+A proposta Branco Flex permite utilizar vistas e rodapés nas cores branco, azul e rosa. Essa característica é útil para criar uma decoração mais neutra ou acrescentar pontos de cor ao quarto infantil. A combinação escolhida deve ser conferida no momento da montagem, pois a configuração final depende das peças disponíveis e do manual do produto.
+
+A percepção das cores pode variar conforme a iluminação do quarto, a tela do dispositivo e o ambiente onde o móvel será instalado. Por isso, use as imagens como referência e confirme a variação disponível no anúncio antes de finalizar a compra.
+
+## Especificações informadas
+
+| Item | Informação |
+|---|---|
+| Tipo de produto | Conjunto para quarto infantil |
+| Composição | Guarda-roupa infantil + cômoda sapateira |
+| Guarda-roupa | 6 portas e 2 gavetas |
+| Cômoda sapateira | 1 porta e 4 gavetas |
+| Material principal informado | MDP |
+| Cabideiro | Madeira |
+| Dobradiças | Metálicas de 26 mm |
+| Corrediças | Telescópicas nas gavetas |
+| Acabamento flexível | Vistas e rodapés em branco, azul e rosa |
+| Indicação de uso | Quarto infantil ou quarto de bebê |
+| Montagem | Necessária; confira o manual e o anúncio |
+
+> **Importante:** dimensões, capacidade de peso, garantia, quantidade de pés e demais detalhes não informados na descrição recebida devem ser conferidos no anúncio antes da compra. Não coloque peso acima do limite indicado pelo fabricante.
+
+## Como aproveitar melhor o conjunto
+
+Use as gavetas do guarda-roupa para peças pequenas e as gavetas da cômoda para itens de troca frequente. Separe os calçados na sapateira para evitar contato com roupas e mantenha o cabideiro para peças que amassam com facilidade. Organizadores internos podem ajudar a dividir acessórios, meias e roupas de tamanho reduzido, mas não devem bloquear o fechamento das portas ou exceder a capacidade dos compartimentos.
+
+Como o conjunto ocupa uma área relevante do quarto, meça o local antes da compra. Confira a passagem por portas, corredores, elevadores e escadas e reserve espaço para abrir as portas e gavetas depois de montado. Evite posicionar o móvel em parede com infiltração, mofo ou umidade persistente.
+
+## ⚠️ Dicas importantes do montador
+
+> **Deixe o espaço completamente livre antes da montagem.** Separe uma área limpa, nivelada e sem obstáculos para organizar as peças e permitir que o profissional trabalhe com segurança.
+>
+> **Não tente montar o conjunto sem experiência.** Contrate um montador profissional com ferramentas adequadas. Ele deverá conferir ferragens, esquadro, nivelamento, alinhamento das portas, regulagem das dobradiças e funcionamento das corrediças telescópicas.
+>
+> **As gavetas devem ser coladas quando o sistema de montagem exigir.** A colagem correta contribui para a firmeza da estrutura. Os acessórios previstos acompanham o produto, mas o montador pode providenciar pequenos itens faltantes ou complementos durante a instalação.
+>
+> **Não arraste o móvel montado com roupas ou objetos dentro.** Se for necessário movimentar o conjunto, esvazie o guarda-roupa e a cômoda e faça o deslocamento com pelo menos duas pessoas, evitando torções na estrutura e danos ao piso.
+>
+> **Proteja o móvel contra umidade.** Instale o conjunto somente em ambiente interno, seco e ventilado. Se houver infiltração ou parede úmida, corrija o problema antes da montagem e mantenha o móvel afastado da parede conforme a orientação do montador.
+>
+> **Não sobrecarregue gavetas, prateleiras ou o topo do móvel.** Respeite os limites informados pelo fabricante e distribua os objetos. Na parte superior, coloque apenas itens leves e nunca concentre peso em uma área sem apoio estrutural.
+>
+> **Limpe com cuidado.** Use pano macio, seco ou muito levemente umedecido e seque logo depois. Não use lustra-móveis, ceras, álcool, solventes, cloro, esponjas ásperas, produtos abrasivos ou excesso de água, pois esses produtos podem comprometer o acabamento e o MDP.
+
+Precisa de ajuda para instalar? Consulte a nossa [página de montadores de móveis](/montadores) e veja profissionais indicados para realizar a montagem com mais segurança. Para conferir outros conteúdos de organização e escolha de móveis, acesse a [página de guias](/guias). Em caso de dúvidas sobre produtos ou pedidos, utilize a [página de contato](/contato).
+
+## Perguntas frequentes
+
+**O conjunto acompanha guarda-roupa e cômoda?**
+
+Sim. A composição informada reúne um guarda-roupa infantil com seis portas e duas gavetas e uma cômoda sapateira com uma porta e quatro gavetas.
+
+**As cores azul e rosa são fixas?**
+
+Não necessariamente. O sistema Branco Flex permite escolher a combinação das vistas e dos rodapés entre branco, azul e rosa, conforme a configuração disponível e a preferência de montagem.
+
+**As gavetas possuem corrediças telescópicas?**
+
+Sim. A descrição informa corrediças telescópicas nas gavetas do guarda-roupa e da cômoda. A instalação e a regulagem devem ser feitas com cuidado para preservar o deslizamento.
+
+**O produto é indicado para quarto infantil?**
+
+Sim. O conjunto foi descrito para quarto infantil ou quarto de bebê e reúne espaços para roupas, peças penduradas, acessórios e calçados. A instalação deve ser feita por adulto responsável e montador profissional.
+
+**É preciso contratar um montador?**
+
+A contratação é recomendada. O conjunto possui portas, gavetas, dobradiças e corrediças que precisam ser alinhadas e reguladas. Um profissional também consegue conferir o esquadro, o nivelamento e a estabilidade do móvel.
+
+**Como limpar o conjunto?**
+
+Use pano macio, seco ou muito levemente umedecido. Evite excesso de água, produtos abrasivos, lustra-móveis, solventes, álcool e cloro. Derramamentos devem ser secos rapidamente.
+
+**O conjunto pode ficar em qualquer parede?**
+
+Ele deve ser instalado em ambiente interno, seco e ventilado. Antes da montagem, verifique se o local não apresenta infiltração, mofo ou umidade. Também confira as medidas de passagem e o espaço necessário para abrir portas e gavetas.
+
+## Conteúdos relacionados
+
+Para consultar conteúdos sobre organização e escolha de móveis, visite a [página de guias](/guias). Para contratar ajuda especializada, acesse a [página de montadores de móveis profissionais](/montadores). Se precisar falar com a loja ou tirar dúvidas sobre o pedido, utilize a [página de contato](/contato).
+
+O **Guarda-Roupa Infantil com Cômoda Sapateira Branco Flex** combina capacidade de organização e personalização de cores em uma composição pensada para acompanhar a rotina do quarto infantil. Confira no anúncio a variação disponível, as medidas, o prazo e as condições de entrega antes de comprar.
+  `,
+  marca: "Não informado no anúncio",
+  keywords: [
+    "guarda-roupa infantil 6 portas",
+    "guarda roupa infantil com cômoda",
+    "guarda-roupa infantil com sapateira",
+    "conjunto quarto infantil",
+    "conjunto quarto de bebê",
+    "cômoda sapateira infantil",
+    "cômoda infantil 4 gavetas",
+    "guarda-roupa branco flex",
+    "guarda-roupa infantil azul e rosa",
+    "guarda-roupa MDP infantil",
+    "guarda-roupa com corrediça telescópica",
+    "guarda-roupa com cabideiro de madeira",
+    "guarda-roupa com dobradiça 26 mm",
+    "móveis para quarto infantil",
+    "kit quarto infantil completo",
+    "móvel infantil para organizar roupas",
+  ],
+  caracteristicas: [
+    "Guarda-roupa infantil com 6 portas",
+    "2 gavetas no guarda-roupa",
+    "Cômoda sapateira com 1 porta e 4 gavetas",
+    "Vistas e rodapés Branco Flex em branco, azul e rosa",
+    "Estrutura em MDP",
+    "Cabideiro de madeira",
+    "Dobradiças metálicas de 26 mm",
+    "Corrediças telescópicas nas gavetas",
+  ],
+  recomendacao: "Indicado para famílias que desejam organizar roupas, calçados e acessórios infantis em um conjunto coordenado, com possibilidade de personalizar as cores do quarto por meio das vistas e rodapés Branco Flex.",
+  contras: [
+    "As dimensões e capacidades não foram informadas na descrição recebida e devem ser confirmadas no anúncio.",
+    "A montagem é necessária e deve ser feita por profissional experiente.",
+    "O móvel deve ser protegido contra umidade, excesso de água, produtos abrasivos e sobrecarga.",
+    "As cores exibidas podem variar conforme iluminação, tela e configuração escolhida.",
+  ],
+  notaMontador: "Deixe o espaço livre e nivelado para a montagem. Não tente montar o conjunto sem experiência; contrate um profissional com ferramentas adequadas para conferir ferragens, esquadro, nivelamento, alinhamento, regulagem das dobradiças e funcionamento das corrediças telescópicas. Cole as gavetas quando o sistema exigir. Os acessórios acompanham o produto, mas o montador pode providenciar pequenos itens faltantes ou complementos. Não arraste o móvel com roupas dentro; se precisar movê-lo, esvazie o conjunto e faça o deslocamento com pelo menos duas pessoas. Mantenha-o afastado de paredes úmidas e limpe apenas com pano macio, seco ou muito levemente umedecido.",
+  relatedGuides: [
+    {
+      title: "Guias de organização e escolha de móveis",
+      href: "/guias",
+      anchor: "página de guias",
+    },
+    {
+      title: "Montadores de móveis profissionais",
+      href: "/montadores",
+      anchor: "Ver montadores indicados",
+    },
+    {
+      title: "Contato",
+      href: "/contato",
+      anchor: "página de contato",
+    },
+  ],
+  seoTitle: "Guarda-Roupa Infantil 6 Portas com Cômoda Sapateira | Branco Flex",
+  seoDescription: "Conjunto infantil com guarda-roupa de 6 portas, cômoda sapateira com 4 gavetas, MDP, corrediças telescópicas e Branco Flex azul e rosa.",
+},
+{
+  id: "p-imp-173",
+  slug: "guarda-roupa-casal-luana-3-portas-de-correr-9-gavetas-cinamomo-off-white",
+  category: "guarda-roupas",
+  categories: ["guarda-roupas", "quartos", "mdf-mdp"],
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Casal Luana 3 Portas de Correr e 9 Gavetas Cinamomo/Off White",
+  imageFile: "/imagens/produtos/guarda-roupa-casal-luana-3-portas-de-correr-9-gavetas-cinamomo-off-white.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-casal-luana-3-portas-de-correr-9-gavetas-cinamomo-off-white.webp",
+  imageHover: "/imagens/produtos/guarda-roupa-casal-luana-3-portas-de-correr-9-gavetas-cinamomo-off-white-hover.webp",
+  alt: "Guarda-roupa casal Luana com 3 portas de correr e 9 gavetas em Cinamomo e Off White",
+  rating: 4.6,
+  reviews: 1156,
+  discount: 26,
+  price: 854.99,
+  originalPrice: 1164.56,
+  badge: "MAIS VENDIDO | 3 PORTAS DE CORRER",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1kpFsMX",
+  descricao: `
+# Guarda-Roupa Casal Luana: grande capacidade em uma composição compacta
+
+O **Guarda-Roupa Casal Luana** foi pensado para quem precisa organizar muitas peças sem abrir mão de uma circulação mais confortável no quarto. A combinação de três portas de correr, nove gavetas e sete prateleiras cria uma estrutura versátil para distribuir roupas dobradas, peças penduradas, acessórios e objetos de uso diário.
+
+Com acabamento **Cinamomo/Off White**, o móvel combina uma tonalidade amadeirada com uma cor clara e neutra. Essa composição pode ser integrada a quartos modernos, contemporâneos ou de decoração mais clean, funcionando como uma base visual equilibrada para cama, criados-mudos e outros móveis do ambiente.
+
+## Três portas deslizantes para aproveitar melhor a circulação
+
+As portas de correr se movimentam lateralmente e não exigem a mesma área frontal de uma porta de abrir. Essa característica pode ajudar em quartos nos quais a cama ou outro móvel fica próximo ao guarda-roupa. Mesmo assim, é importante deixar espaço suficiente para manusear as portas e acessar o interior com segurança.
+
+A profundidade informada de **47 cm** favorece projetos em que o espaço precisa ser planejado com atenção. Antes da compra, compare altura, largura e profundidade do produto com a parede disponível, a posição da cama e a passagem no quarto. Reserve ainda a folga indicada no anúncio para posicionar o móvel sem apertos.
+
+## Nove gavetas para separar roupas e acessórios
+
+As nove gavetas externas ampliam as possibilidades de organização. Elas podem ser distribuídas por pessoa, tipo de roupa, frequência de uso ou categoria de acessórios. Roupas íntimas, camisetas, peças de academia, meias, documentos e objetos menores podem ficar separados das pilhas nas prateleiras.
+
+As gavetas utilizam **corrediças metálicas telescópicas**, que permitem abertura ampliada e acesso facilitado ao conteúdo. Cada gaveta suporta até **5 kg**, conforme a informação recebida. Para manter o deslizamento, distribua os objetos, evite excesso de volume e não force o fechamento quando houver peças ultrapassando a caixa.
+
+## Sete prateleiras para organizar roupas dobradas
+
+As sete prateleiras criam áreas independentes para roupas, cobertores, bolsas, caixas e acessórios. Como o limite informado é de **3 kg por prateleira**, distribua o peso e evite concentrar objetos pesados em um único ponto. Organizadores leves podem ajudar a separar itens pequenos, desde que não impeçam o fechamento das portas ou sobrecarreguem os compartimentos.
+
+O guarda-roupa também possui cabideiros, permitindo reservar um espaço para camisas, vestidos, casacos e outras peças que ficam melhor penduradas. A combinação de cabideiros, gavetas e prateleiras facilita a montagem de uma rotina de organização personalizada para o casal.
+
+## MDF e MDP com acabamento em pintura UV
+
+O produto combina **MDF e MDP** em sua composição, com portas em MDP, gavetas em MDF/MDP e prateleiras em MDP, conforme as informações recebidas. O acabamento com pintura UV contribui para a aparência uniforme das superfícies e deve ser protegido contra umidade, excesso de água, produtos abrasivos e impactos nas bordas.
+
+As portas possuem 15 mm de espessura, a estrutura tem 12 mm, as prateleiras têm 12 mm e o fundo informado possui 3 mm. Essas informações devem ser consideradas junto à forma correta de montagem, ao nivelamento do móvel e aos limites de peso apresentados no anúncio.
+
+## Dimensões para planejar o quarto
+
+O Luana tem **218 cm de altura, 180 cm de largura e 47 cm de profundidade**. Meça o local antes da compra e confira se o produto e a embalagem passarão por portas, corredores, escadas e elevadores. Como se trata de um móvel alto e largo, planeje também a área de montagem e o acesso para movimentação das peças.
+
+O produto não possui pés, espelho, chave nas gavetas, calceiro ou organizador interno de gaveta. Esses itens não devem ser considerados parte do conjunto. A porta possui puxador externo branco e textura lisa, mantendo uma aparência discreta na composição Cinamomo/Off White.
+
+## Especificações técnicas
+
+| Especificação | Informação |
+|---|---|
+| Linha | Luana |
+| Tipo | Guarda-roupa casal |
+| Material principal | MDF/MDP |
+| Acabamento | Pintura UV |
+| Cor | Cinamomo/Off White |
+| Portas | 3 portas de correr |
+| Material das portas | MDP |
+| Gavetas | 9 gavetas externas |
+| Material das gavetas | MDF/MDP |
+| Corrediças das gavetas | Metálicas telescópicas |
+| Peso máximo por gaveta | 5 kg |
+| Prateleiras | 7 |
+| Material das prateleiras | MDP |
+| Peso máximo por prateleira | 3 kg |
+| Cabideiros | Sim |
+| Altura | 218 cm |
+| Largura | 180 cm |
+| Profundidade | 47 cm |
+| Peso do produto | 114,8 kg |
+| Espessura das portas | 15 mm |
+| Espessura da estrutura | 12 mm |
+| Espessura das prateleiras | 12 mm |
+| Espessura do fundo | 3 mm |
+| Pés | Não possui |
+| Espelho | Não possui |
+| Calceiro | Não possui |
+| Organizador de gaveta | Não possui |
+| Montagem | Kit de ferragens e manual inclusos |
+| Origem | Nacional |
+
+## ⚠️ Dicas importantes do montador
+
+> **Deixe o espaço completamente livre antes da montagem.** Reserve uma área ampla, limpa e nivelada para separar as peças, montar o móvel e realizar a regulagem das portas e gavetas.
+>
+> **Não tente montar o guarda-roupa sem experiência.** Contrate um montador profissional com as ferramentas adequadas. Ele deverá conferir ferragens, esquadro, nivelamento, alinhamento, trilhos, portas, dobradiças e corrediças telescópicas.
+>
+> **As gavetas devem ser coladas quando o sistema de montagem exigir.** O profissional também precisa verificar o encaixe e o deslizamento de todas as gavetas antes de liberar o uso. Os acessórios previstos acompanham o produto, mas pequenos itens faltantes ou complementos podem ser providenciados pelo montador.
+>
+> **Portas de correr exigem trilhos limpos e nivelados.** Retire poeira e pequenos resíduos dos trilhos regularmente. Verifique as roldanas e o deslizamento; qualquer lubrificação deve utilizar produto compatível com o sistema e seguir o manual ou a orientação do profissional. Não aplique óleo indiscriminadamente, pois ele pode acumular sujeira.
+>
+> **Não force as portas nem as gavetas.** Se uma porta raspar, travar ou ficar inclinada, interrompa o uso e solicite a regulagem. Continuar forçando pode desgastar as roldanas, trilhos, puxadores e corrediças.
+>
+> **Proteja o móvel contra umidade.** Se a parede tiver infiltração, mofo ou umidade persistente, corrija o problema antes da instalação. Mantenha o guarda-roupa afastado da parede conforme a orientação do montador; em locais úmidos, um afastamento de aproximadamente 5 a 10 cm ajuda a favorecer a ventilação, mas não substitui o reparo da infiltração.
+>
+> **Não sobrecarregue o topo do guarda-roupa.** Como orientação conservadora, evite concentrar peso na parte superior e não ultrapasse aproximadamente 10 kg distribuídos, salvo limite diferente do fabricante. Se for necessário guardar algo sobre o móvel, deixe os itens mais pesados sobre divisores ou montantes estruturais e coloque objetos leves nos vãos.
+>
+> **Limpe sem encharcar.** Use pano macio, seco ou muito levemente umedecido e seque imediatamente. Não use lustra-móveis, ceras, álcool, solventes, cloro, esponjas ásperas, produtos abrasivos ou excesso de água, pois podem manchar o acabamento e danificar MDF, MDP e bordas.
+>
+> **Nunca arraste o guarda-roupa com roupas dentro.** Se for necessário mover o móvel, retire todo o conteúdo e faça o deslocamento com pelo menos duas pessoas. Por causa do peso de aproximadamente 114,8 kg, evite torções na estrutura e não tente transportar o produto sozinho.
+
+Precisa de ajuda para instalar? Acesse a nossa [página de montadores de móveis](/montadores) e veja profissionais indicados para realizar a montagem e a regulagem. Para aprender mais sobre escolha e conservação de móveis, visite a [página de guias](/guias). Em caso de dúvidas, utilize a [página de contato](/contato).
+
+## Perguntas frequentes
+
+**O Guarda-Roupa Luana possui portas de abrir?**
+
+Não. O modelo possui três portas de correr, que se deslocam lateralmente. Essa configuração ajuda a economizar área frontal, mas exige trilhos nivelados e livres de resíduos.
+
+**Quantas gavetas o guarda-roupa possui?**
+
+O produto possui nove gavetas externas com corrediças metálicas telescópicas. O limite informado é de até 5 kg por gaveta.
+
+**Quantas prateleiras acompanham?**
+
+São sete prateleiras, com capacidade informada de até 3 kg por prateleira. O peso deve ser distribuído e não concentrado em um único ponto.
+
+**O guarda-roupa possui espelho ou pés?**
+
+Não. Conforme os dados recebidos, o modelo não possui espelho nem pés. Também não possui calceiro, gaveta com chave ou organizador interno de gaveta.
+
+**Qual é o tamanho do produto?**
+
+As medidas informadas são 218 cm de altura, 180 cm de largura e 47 cm de profundidade. Meça o ambiente e as rotas de acesso antes da compra.
+
+**As corrediças das gavetas são telescópicas?**
+
+Sim. As nove gavetas utilizam corrediças metálicas telescópicas. A instalação, o nivelamento e a regulagem corretos são importantes para garantir o funcionamento adequado.
+
+**Como cuidar das portas de correr?**
+
+Mantenha os trilhos limpos, retire poeira e resíduos e observe se as roldanas deslizam sem esforço. Não force uma porta desalinhada e não use lubrificantes sem confirmar a compatibilidade com o sistema.
+
+**O móvel precisa de montagem?**
+
+Sim. O produto acompanha kit de ferragens e manual de montagem. A contratação de um montador profissional é recomendada para garantir esquadro, nivelamento, montagem do fundo, alinhamento das portas e regulagem das gavetas.
+
+## Conteúdos relacionados
+
+Para conhecer recomendações de organização, medidas e conservação, visite a [página de guias](/guias). Se quiser contratar ajuda especializada, acesse a [página de montadores de móveis profissionais](/montadores). Para atendimento e dúvidas sobre o pedido, utilize a [página de contato](/contato).
+
+O **Guarda-Roupa Casal Luana** combina três portas de correr, nove gavetas, sete prateleiras e cabideiros em uma estrutura de 218 cm por 180 cm, com profundidade de 47 cm. Confira no anúncio a disponibilidade, o prazo e as condições de entrega antes de finalizar a compra.
+  `,
+  marca: "Sallêto Móveis",
+  keywords: [
+    "guarda-roupa casal Luana",
+    "guarda-roupa casal 3 portas de correr",
+    "guarda-roupa 9 gavetas",
+    "guarda-roupa com 7 prateleiras",
+    "guarda-roupa Cinamomo Off White",
+    "guarda-roupa MDF e MDP",
+    "guarda-roupa com corrediça telescópica",
+    "guarda-roupa com portas deslizantes",
+    "guarda-roupa casal 218 cm",
+    "guarda-roupa 180 cm largura",
+    "guarda-roupa profundidade 47 cm",
+    "guarda-roupa sem espelho",
+    "guarda-roupa com gavetas externas",
+    "guarda-roupa para quarto de casal",
+    "armário casal com portas de correr",
+    "guarda-roupa grande para quarto",
+  ],
+  caracteristicas: [
+    "3 portas de correr",
+    "9 gavetas externas com corrediças telescópicas",
+    "7 prateleiras com capacidade informada de até 3 kg cada",
+    "Cabideiros para roupas penduradas",
+    "Estrutura em MDF/MDP com acabamento UV",
+    "Dimensões de 218 x 180 x 47 cm",
+    "Cor Cinamomo/Off White",
+  ],
+  recomendacao: "Indicado para casais que precisam de muitas gavetas e compartimentos, mas preferem portas de correr para aproveitar melhor a área frontal do quarto. A profundidade de 47 cm pode favorecer ambientes compactos, desde que as medidas e a abertura dos trilhos sejam conferidas antes da compra.",
+  contras: [
+    "Não possui espelho, pés, calceiro, chave nas gavetas ou organizador interno de gaveta.",
+    "As prateleiras têm limite informado de 3 kg cada e as gavetas de 5 kg cada.",
+    "A montagem e a regulagem das portas de correr exigem atenção profissional.",
+    "O móvel tem aproximadamente 114,8 kg; planeje a movimentação com ajuda e verifique as rotas de acesso.",
+  ],
+  notaMontador: "Deixe o espaço livre e nivelado para o montador. Não tente montar o guarda-roupa sem experiência. Contrate um profissional com ferramentas adequadas para colar as gavetas quando o sistema exigir, conferir ferragens, esquadro, nivelamento, alinhamento, trilhos, portas e corrediças telescópicas. Mantenha os trilhos limpos e regule as roldanas sem forçar as portas. Em paredes úmidas, mantenha afastamento conforme orientação profissional. Não sobrecarregue o topo; como orientação conservadora, evite ultrapassar 10 kg distribuídos, salvo limite do fabricante. Limpe apenas com pano macio, seco ou muito levemente umedecido. Nunca arraste o móvel com roupas dentro; se precisar movê-lo, esvazie-o e faça o deslocamento com pelo menos duas pessoas.",
+  relatedGuides: [
+    {
+      title: "Guias de organização e escolha de móveis",
+      href: "/guias",
+      anchor: "página de guias",
+    },
+    {
+      title: "Montadores de móveis profissionais",
+      href: "/montadores",
+      anchor: "Ver montadores indicados",
+    },
+    {
+      title: "Contato",
+      href: "/contato",
+      anchor: "página de contato",
+    },
+  ],
+  seoTitle: "Guarda-Roupa Casal Luana 3 Portas de Correr e 9 Gavetas",
+  seoDescription: "Guarda-Roupa Casal Luana com 3 portas de correr, 9 gavetas telescópicas, 7 prateleiras e cabideiros. MDF/MDP Cinamomo/Off White com 47 cm de profundidade.",
+},
+{
+  id: "p-imp-174",
+  slug: "guarda-roupa-casal-lopas-2-portas-de-correr-6-gavetas-mdf-branco",
+  category: "guarda-roupas",
+  categories: ["guarda-roupas", "quartos", "mdf-mdp"],
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Casal Lopas 2 Portas de Correr e 6 Gavetas em MDF Branco",
+  imageFile: "/imagens/produtos/guarda-roupa-casal-lopas-2-portas-de-correr-6-gavetas-mdf-branco.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-casal-lopas-2-portas-de-correr-6-gavetas-mdf-branco.webp",
+  imageHover: "/imagens/produtos/guarda-roupa-casal-lopas-2-portas-de-correr-6-gavetas-mdf-branco-hover.webp",
+  alt: "Guarda-roupa casal Lopas branco em MDF com 2 portas de correr, 6 gavetas, nichos e cabideiros",
+  rating: 4.8,
+  reviews: 1743,
+  discount: 28,
+  price: 1749.90,
+  originalPrice: 2449.90,
+  badge: "MAIS VENDIDO | 100% MDF",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/1UAuBAq",
+  descricao: `
+# Guarda-Roupa Casal Lopas Branco: organização completa em 100% MDF
+
+O **Guarda-Roupa Casal Lopas** é uma opção para quem precisa concentrar roupas, acessórios e peças penduradas em um único móvel, aproveitando bem a área do quarto. A composição reúne duas portas de correr, seis gavetas, sete prateleiras, oito nichos e quatro cabideiros, criando diferentes zonas para organizar o armário de acordo com a rotina do casal.
+
+Com acabamento branco e estrutura informada como **100% MDF**, o móvel apresenta uma proposta neutra e fácil de combinar com camas, criados-mudos, cômodas e outros elementos da decoração. As portas deslizantes ajudam a preservar a circulação frontal, enquanto a grande quantidade de compartimentos facilita a separação entre roupas dobradas, peças penduradas e objetos menores.
+
+## Duas portas de correr para aproveitar melhor o quarto
+
+As duas portas deslizantes se movimentam lateralmente e não precisam de uma área frontal equivalente à de portas convencionais de abrir. Essa característica pode ser interessante em quartos nos quais a cama, uma cômoda ou outro móvel fica próximo ao guarda-roupa.
+
+Para que o sistema funcione bem, a montagem precisa deixar o móvel nivelado e os trilhos corretamente posicionados. Poeira, pequenos objetos e desalinhamentos podem prejudicar o deslizamento. Se uma porta raspar, travar ou ficar inclinada, não force o movimento: interrompa o uso e solicite a regulagem das roldanas e do conjunto de portas.
+
+## Seis gavetas com corrediças telescópicas
+
+As seis gavetas oferecem áreas separadas para roupas íntimas, camisetas, acessórios, documentos, peças de academia e outros itens que precisam ficar protegidos e acessíveis. As **corrediças telescópicas** favorecem uma abertura mais ampla e facilitam a visualização do conteúdo.
+
+Para conservar o sistema, distribua os objetos dentro de cada gaveta, evite excesso de volume e não feche o compartimento quando alguma peça estiver impedindo o alinhamento. O limite de peso deve ser sempre conferido no manual ou no anúncio antes da organização definitiva.
+
+## Sete prateleiras e oito nichos para criar setores de organização
+
+As sete prateleiras podem receber roupas dobradas, jogos de cama, toalhas, bolsas e caixas organizadoras. Os oito nichos complementam a estrutura com áreas menores para acessórios, calçados, objetos decorativos e itens de uso frequente.
+
+Uma boa estratégia é reservar as prateleiras superiores para peças menos utilizadas e deixar os nichos mais acessíveis para os objetos da rotina. Evite preencher os compartimentos até pressionar as portas e distribua o peso para não concentrá-lo em uma única prateleira.
+
+## Quatro cabideiros para roupas penduradas
+
+Os quatro cabideiros, distribuídos em dois níveis superiores e dois inferiores, ampliam o espaço para camisas, vestidos, calças, casacos e outras peças que ficam melhor penduradas. A divisão pode ser feita por pessoa, tipo de roupa, estação ou frequência de uso.
+
+Deixe espaço entre os cabides para evitar amassados e não exceda a capacidade indicada pelo fabricante. Peças muito pesadas devem ser distribuídas, pois a concentração de carga pode prejudicar a estrutura e os suportes internos ao longo do tempo.
+
+## Estrutura 100% MDF e acabamento branco
+
+O produto é anunciado com estrutura **100% MDF**, material utilizado em móveis de maior nível de acabamento e estabilidade dimensional quando instalado em ambiente adequado. A conservação depende de montagem correta, proteção contra umidade, limpeza apropriada e respeito às capacidades indicadas para cada compartimento.
+
+Mantenha o guarda-roupa em ambiente interno, longe de infiltrações, paredes úmidas, calor excessivo e exposição solar direta. A limpeza deve ser feita com pouca umidade e sem produtos abrasivos, evitando que o acabamento branco fique manchado, riscado ou comprometido.
+
+## Como planejar o espaço antes da compra
+
+Antes de finalizar o pedido, meça a parede onde o móvel será instalado e confira as rotas de entrada: portas, corredores, escadas, elevadores e áreas de manobra. Reserve espaço para abrir as gavetas e movimentar as portas de correr sem bater na cama ou em outro móvel.
+
+Como o guarda-roupa tem duas portas deslizantes, não basta conferir apenas a largura da parede. Também é necessário analisar o nivelamento do piso, a existência de rodapé, possíveis ondulações na parede e o espaço necessário para o montador trabalhar e regular as portas.
+
+## Especificações informadas
+
+| Especificação | Informação |
+|---|---|
+| Marca | Móveis Lopas |
+| Tipo | Guarda-roupa casal |
+| Cor | Branco |
+| Material principal | 100% MDF |
+| Portas | 2 portas deslizantes |
+| Gavetas | 6 gavetas |
+| Corrediças das gavetas | Telescópicas |
+| Prateleiras | 7 |
+| Nichos | 8 |
+| Cabideiros | 4, sendo 2 superiores e 2 inferiores |
+| Indicação de uso | Quarto de casal |
+| Montagem | Necessária; consulte manual e anúncio |
+
+> **Importante:** a descrição recebida não informa dimensões, peso do produto, capacidade de cada gaveta, capacidade das prateleiras, tipo de roldana ou sistema detalhado do trilho. Confirme esses dados no anúncio ou no manual antes da compra e da montagem.
+
+## ⚠️ Dicas importantes do montador
+
+> **Deixe o espaço completamente livre antes da montagem.** Reserve uma área ampla, limpa e nivelada para separar peças, montar a estrutura e regular portas, trilhos e gavetas.
+>
+> **Não tente montar o guarda-roupa sem experiência.** Contrate um profissional com ferramentas adequadas. Ele deverá conferir ferragens, esquadro, nivelamento, alinhamento das portas, instalação dos trilhos, regulagem das roldanas e funcionamento das seis corrediças telescópicas.
+>
+> **As gavetas devem ser coladas quando o sistema de montagem exigir.** O montador também deve conferir o encaixe, o alinhamento e a abertura total das gavetas. Os acessórios previstos acompanham o produto, mas o profissional pode providenciar pequenos itens faltantes ou complementos durante a instalação.
+>
+> **Mantenha os trilhos limpos.** Retire poeira e resíduos regularmente. Verifique as roldanas e não force as portas quando houver travamento ou desalinhamento. Lubrificação somente deve ser feita com produto compatível com o sistema e conforme o manual ou orientação profissional; óleo inadequado pode acumular sujeira.
+>
+> **Proteja o móvel contra umidade.** Se a parede apresentar infiltração, mofo ou umidade persistente, corrija o problema antes da montagem. Mantenha o guarda-roupa afastado da parede conforme a orientação do montador; em ambientes úmidos, um afastamento aproximado de 5 a 10 cm pode favorecer a ventilação, mas não substitui o reparo da infiltração.
+>
+> **Não sobrecarregue o topo nem os compartimentos.** Respeite os limites informados pelo fabricante e distribua o peso nas sete prateleiras, oito nichos, quatro cabideiros e seis gavetas. Na parte superior, coloque apenas itens leves e nunca concentre peso em um vão sem apoio estrutural.
+>
+> **Limpe corretamente.** Use pano macio, seco ou muito levemente umedecido e seque logo depois. **Não use lustra-móveis, ceras, álcool, solventes, cloro, esponjas ásperas, produtos abrasivos ou excesso de água.**
+>
+> **Nunca arraste o móvel carregado.** Se precisar mover o guarda-roupa, retire roupas e objetos e faça o deslocamento com pelo menos duas pessoas. A movimentação com peso interno pode torcer a estrutura, desregular as portas e danificar trilhos e gavetas.
+
+Precisa de ajuda para montar? Acesse a nossa [página de montadores de móveis](/montadores) e veja profissionais indicados para realizar a montagem e a regulagem. Para conferir conteúdos de organização e conservação, visite a [página de guias](/guias). Em caso de dúvidas, utilize a [página de contato](/contato).
+
+## Perguntas frequentes
+
+**O guarda-roupa possui portas de abrir?**
+
+Não. O modelo possui duas portas deslizantes. Elas se movimentam lateralmente e precisam de trilhos nivelados e livres de resíduos para funcionar corretamente.
+
+**Quantas gavetas o produto possui?**
+
+São seis gavetas com corrediças telescópicas, indicadas para organizar roupas, acessórios e objetos menores.
+
+**O móvel possui nichos e prateleiras?**
+
+Sim. A descrição informa sete prateleiras e oito nichos, que podem ser usados para distribuir roupas dobradas, calçados, caixas e acessórios.
+
+**Quantos cabideiros acompanham?**
+
+O produto possui quatro cabideiros: dois na parte superior e dois na parte inferior. A distribuição facilita a separação de peças penduradas.
+
+**O guarda-roupa é realmente 100% MDF?**
+
+De acordo com os dados recebidos, a estrutura é anunciada como 100% MDF. Confira a ficha técnica e o manual do anúncio para confirmar a composição de cada componente.
+
+**Como cuidar das portas de correr?**
+
+Limpe os trilhos periodicamente, retire poeira e observe se as roldanas estão deslizando sem esforço. Não force portas desalinhadas e solicite regulagem profissional quando houver travamento, ruído ou raspagem.
+
+**Como limpar o guarda-roupa branco?**
+
+Use pano macio, seco ou muito levemente umedecido. Evite lustra-móveis, abrasivos, solventes, álcool, cloro, esponjas ásperas e excesso de água.
+
+**A montagem profissional é recomendada?**
+
+Sim. A instalação envolve portas deslizantes, trilhos, roldanas, seis gavetas, sete prateleiras e quatro cabideiros. Um montador consegue verificar esquadro, nivelamento, alinhamento e funcionamento do conjunto.
+
+## Conteúdos relacionados
+
+Para aprender mais sobre organização, medidas e conservação, acesse a [página de guias](/guias). Para contratar ajuda especializada, visite a [página de montadores de móveis profissionais](/montadores). Para atendimento e dúvidas sobre o pedido, utilize a [página de contato](/contato).
+
+O **Guarda-Roupa Casal Lopas Branco** combina estrutura anunciada como 100% MDF, duas portas de correr, seis gavetas telescópicas, sete prateleiras, oito nichos e quatro cabideiros. Confira no anúncio as medidas, capacidades, prazo e condições de entrega antes de finalizar a compra.
+  `,
+  marca: "Móveis Lopas",
+  keywords: [
+    "guarda-roupa casal Lopas",
+    "guarda-roupa MDF branco",
+    "guarda-roupa 100% MDF",
+    "guarda-roupa casal 2 portas de correr",
+    "guarda-roupa com 6 gavetas",
+    "guarda-roupa com corrediça telescópica",
+    "guarda-roupa com 7 prateleiras",
+    "guarda-roupa com 8 nichos",
+    "guarda-roupa com 4 cabideiros",
+    "guarda-roupa branco portas deslizantes",
+    "armário casal MDF branco",
+    "guarda-roupa para quarto de casal",
+    "guarda-roupa com nichos e gavetas",
+    "guarda-roupa grande branco",
+    "móvel Lopas para quarto",
+  ],
+  caracteristicas: [
+    "Estrutura anunciada como 100% MDF",
+    "2 portas deslizantes",
+    "6 gavetas com corrediças telescópicas",
+    "7 prateleiras",
+    "8 nichos",
+    "4 cabideiros, sendo 2 superiores e 2 inferiores",
+    "Acabamento branco",
+  ],
+  recomendacao: "Indicado para casais que desejam organizar roupas dobradas, peças penduradas, calçados e acessórios em um único móvel branco, com portas de correr e vários compartimentos internos.",
+  contras: [
+    "As dimensões e capacidades de peso não foram informadas nos dados recebidos e devem ser confirmadas no anúncio.",
+    "As portas de correr exigem trilhos nivelados, limpos e corretamente regulados.",
+    "A montagem profissional é recomendada para evitar desalinhamento, travamento e desgaste das portas e gavetas.",
+    "Não foram informados espelho, pés, calceiro, chave nas gavetas ou organizadores internos.",
+  ],
+  notaMontador: "Deixe o espaço livre e nivelado para o montador. Não tente montar o guarda-roupa sem experiência. Contrate um profissional com ferramentas adequadas para colar as gavetas quando o sistema exigir, conferir ferragens, esquadro, nivelamento, alinhamento, trilhos, roldanas e corrediças telescópicas. Mantenha os trilhos limpos, não force portas desalinhadas e lubrifique somente com produto compatível e orientação profissional. Mantenha o móvel afastado de paredes úmidas, não sobrecarregue o topo e limpe apenas com pano macio, seco ou muito levemente umedecido. Nunca arraste o produto com roupas dentro; se precisar movê-lo, esvazie-o e faça o deslocamento com pelo menos duas pessoas.",
+  relatedGuides: [
+    {
+      title: "Guias de organização e escolha de móveis",
+      href: "/guias",
+      anchor: "página de guias",
+    },
+    {
+      title: "Montadores de móveis profissionais",
+      href: "/montadores",
+      anchor: "Ver montadores indicados",
+    },
+    {
+      title: "Contato",
+      href: "/contato",
+      anchor: "página de contato",
+    },
+  ],
+  seoTitle: "Guarda-Roupa Casal Lopas Branco 2 Portas de Correr e 6 Gavetas",
+  seoDescription: "Guarda-Roupa Casal Lopas branco anunciado em 100% MDF, com 2 portas de correr, 6 gavetas telescópicas, 7 prateleiras, 8 nichos e 4 cabideiros.",
+},
+
+{
+  id: "p-imp-175",
+  slug: "guarda-roupa-casal-franca-6-portas-2-gavetas-mdp-cinamomo-off-white",
+  category: "guarda-roupas",
+  categories: ["guarda-roupas", "quartos", "mdf-mdp"],
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Casal França 6 Portas e 2 Gavetas em MDP Cinamomo/Off White",
+  imageFile: "/imagens/produtos/guarda-roupa-casal-franca-6-portas-2-gavetas-cinamomo-off-white.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-casal-franca-6-portas-2-gavetas-cinamomo-off-white.webp",
+  imageHover: "/imagens/produtos/guarda-roupa-casal-franca-6-portas-2-gavetas-cinamomo-off-white-hover.webp",
+  alt: "Guarda-roupa casal França com 6 portas, 2 gavetas, pés e cabideiro de alumínio em Cinamomo e Off White",
+  rating: 4.7,
+  reviews: 7004,
+  discount: 33,
+  price: 639.99,
+  originalPrice: 964.68,
+  badge: "MAIS VENDIDO | 6 PORTAS",
+  platform: "Mercado Livre",
+  affiliateLink: "https://meli.la/17otiHX",
+  descricao: `
+# Guarda-Roupa Casal França: espaço amplo com organização prática
+
+O **Guarda-Roupa Casal França** foi desenvolvido para quem busca um móvel espaçoso, funcional e fácil de integrar ao quarto. Com seis portas de bater, duas gavetas internas, seis prateleiras e cabideiro de alumínio, ele cria uma divisão simples para guardar roupas dobradas, peças penduradas, acessórios e itens de cama.
+
+A combinação **Cinamomo com Off White** equilibra o aspecto amadeirado com uma tonalidade clara, permitindo que o guarda-roupa participe de diferentes estilos de decoração. O conjunto possui oito pés de 4 cm, que ajudam a manter a estrutura afastada do piso e facilitam o planejamento da posição do móvel no ambiente.
+
+## Seis portas para dividir o espaço do casal
+
+As seis portas de bater organizam o interior em módulos independentes. Essa configuração facilita a divisão por pessoa, tipo de roupa ou frequência de uso. Antes da montagem, reserve espaço frontal suficiente para abrir as portas sem que elas encostem na cama, na cômoda ou em outro móvel.
+
+O produto não possui espelho, portanto sua frente mantém uma aparência mais discreta e pode ser combinada com um espelho de parede ou outro elemento decorativo escolhido separadamente. Os puxadores externos em MDF acompanham a proposta visual do móvel.
+
+## Gavetas telescópicas para peças menores
+
+As duas gavetas internas são úteis para roupas íntimas, acessórios, camisetas, meias e outros objetos que precisam ficar protegidos. As corrediças metálicas telescópicas permitem abertura ampliada, facilitando o acesso ao fundo da gaveta.
+
+O limite informado é de **3 kg por gaveta**. Distribua o conteúdo, evite excesso de volume e não force o fechamento. Quando o sistema de montagem exigir, as gavetas devem ser coladas pelo montador para garantir melhor firmeza e estabilidade da estrutura.
+
+## Seis prateleiras e cabideiro de alumínio
+
+As seis prateleiras oferecem áreas para roupas dobradas, toalhas, roupas de cama, caixas e bolsas. Cada prateleira tem capacidade informada de até **3 kg**, portanto o peso deve ser distribuído sem concentrar objetos pesados em um único compartimento.
+
+O cabideiro de alumínio cria uma área própria para camisas, vestidos, casacos e outras peças que devem permanecer penduradas. Organizar as roupas por pessoa, estação ou categoria ajuda a aproveitar melhor os módulos e reduz a necessidade de movimentar todas as peças para encontrar um item.
+
+## MDP com pintura UV e pés de 4 cm
+
+A estrutura, as portas, as gavetas e as prateleiras são informadas como produzidas em **MDP**, com acabamento de pintura UV nas superfícies descritas. O material deve ser protegido contra água, infiltração, umidade prolongada, impactos nas bordas e produtos de limpeza agressivos.
+
+Os oito pés têm 4 cm de altura. Durante a montagem, o profissional deve conferir se todos estão firmes e se o móvel está nivelado. Não arraste o guarda-roupa carregado, pois isso pode torcer a estrutura, soltar os pés e danificar o piso.
+
+## Medidas para planejar o quarto
+
+O Guarda-Roupa França possui **205 cm de altura, 180 cm de largura e 47 cm de profundidade**. Meça a parede, a posição da cama e a área de abertura das portas antes de comprar. Também confira portas, corredores, escadas e elevadores para garantir que o móvel e a embalagem possam chegar ao local de montagem.
+
+O peso informado é de aproximadamente **93,8 kg**. Por isso, planeje a movimentação com antecedência e não tente carregar ou deslocar o produto sozinho. A área de montagem deve estar livre para que o profissional possa organizar peças, ferragens e ferramentas.
+
+## Especificações técnicas
+
+| Especificação | Informação |
+|---|---|
+| Linha | França |
+| Marca | Espresso Móveis |
+| Tipo | Guarda-roupa casal |
+| Cor | Cinamomo/Off White |
+| Material principal | MDP |
+| Acabamento das portas | Pintura UV |
+| Portas | 6 portas de bater |
+| Gavetas | 2 gavetas internas |
+| Corrediças das gavetas | Metálicas telescópicas |
+| Prateleiras | 6, com até 3 kg por prateleira |
+| Cabideiro | Alumínio |
+| Puxadores | MDF, externos |
+| Pés | 8 pés de 4 cm |
+| Altura | 205 cm |
+| Largura | 180 cm |
+| Profundidade | 47 cm |
+| Peso do produto | 93,8 kg |
+| Espessura da estrutura | 12 mm |
+| Espessura do fundo | 3 mm |
+| Peso máximo por gaveta | 3 kg |
+| Peso máximo por prateleira | 3 kg |
+| Espelho | Não possui |
+| Calceiro | Não possui |
+| Organizador de gaveta | Não possui |
+| Gaveta com chave | Não possui |
+| Itens inclusos | Guarda-roupa, kit de ferragens e manual |
+
+## ⚠️ Dicas importantes do montador
+
+> **Deixe o espaço completamente livre antes da montagem.** Reserve uma área ampla, limpa e nivelada para separar as peças, instalar os oito pés e montar a estrutura com segurança.
+>
+> **Não tente montar o guarda-roupa sem experiência.** Contrate um profissional com ferramentas adequadas. Ele deverá conferir ferragens, esquadro, nivelamento, alinhamento das seis portas, regulagem das dobradiças e funcionamento das corrediças telescópicas.
+>
+> **As gavetas devem ser coladas quando o sistema exigir.** O montador também deve verificar o encaixe, o alinhamento e a abertura das gavetas antes de liberar o uso. Os acessórios previstos acompanham o produto, mas o profissional pode providenciar pequenos itens faltantes ou complementos durante a montagem.
+>
+> **Regule as portas de bater.** Se alguma porta ficar inclinada, raspando ou com folga irregular, não force o fechamento. Solicite ajuste das dobradiças e confira o nivelamento do móvel.
+>
+> **Atenção aos pés e ao piso.** Verifique se os oito pés estão firmes e apoiados. Não arraste o móvel montado com roupas dentro; se for necessário movê-lo, esvazie-o e faça o deslocamento com pelo menos duas pessoas.
+>
+> **Proteja o móvel contra umidade.** Se a parede apresentar infiltração, mofo ou umidade persistente, corrija o problema antes da instalação. Mantenha o guarda-roupa afastado da parede conforme a orientação do montador; em locais úmidos, um afastamento aproximado de 5 a 10 cm pode favorecer a ventilação, mas não substitui o reparo da infiltração.
+>
+> **Não sobrecarregue o topo nem as prateleiras.** Respeite o limite de até 3 kg por prateleira e por gaveta informado no anúncio. Na parte superior, coloque apenas itens leves e nunca concentre peso em áreas sem apoio estrutural.
+>
+> **Limpe com pouca umidade.** Use pano macio, seco ou muito levemente umedecido e seque logo depois. **Não use lustra-móveis, ceras, álcool, solventes, cloro, esponjas ásperas, produtos abrasivos ou excesso de água.**
+
+Precisa de ajuda para montar? Acesse a nossa [página de montadores de móveis](/montadores) e veja profissionais indicados para instalar, nivelar e regular o guarda-roupa. Para consultar conteúdos de organização e conservação, visite a [página de guias](/guias). Em caso de dúvidas, utilize a [página de contato](/contato).
+
+## Perguntas frequentes
+
+**O Guarda-Roupa França possui portas de correr?**
+
+Não. Este modelo possui seis portas de bater. Por isso, é importante reservar área frontal para abertura e manter as dobradiças corretamente reguladas.
+
+**Quantas gavetas e prateleiras o produto possui?**
+
+São duas gavetas internas e seis prateleiras. O limite informado é de até 3 kg por gaveta e até 3 kg por prateleira.
+
+**O guarda-roupa possui espelho?**
+
+Não. A descrição recebida informa que o produto não possui espelhos. Um espelho pode ser instalado separadamente, desde que a parede e o local sejam avaliados por profissional.
+
+**O modelo possui pés?**
+
+Sim. O guarda-roupa possui oito pés com altura informada de 4 cm. Confira a estabilidade e o nivelamento após a montagem.
+
+**Qual é o material do guarda-roupa?**
+
+O produto é informado como produzido em MDP, incluindo estrutura, portas, gavetas e prateleiras, com pintura UV nas superfícies descritas.
+
+**As gavetas possuem corrediças telescópicas?**
+
+Sim. As duas gavetas possuem corrediças metálicas telescópicas. A montagem, a colagem quando exigida pelo sistema e a regulagem devem ser feitas com cuidado.
+
+**Como limpar o móvel?**
+
+Use pano macio seco ou muito levemente umedecido. Evite excesso de água, lustra-móveis, ceras, álcool, solventes, cloro e produtos abrasivos.
+
+**A montagem profissional é recomendada?**
+
+Sim. O móvel tem seis portas, duas gavetas, seis prateleiras e oito pés. Um profissional pode verificar esquadro, nivelamento, montagem do fundo, firmeza dos pés e regulagem das portas e gavetas.
+
+## Conteúdos relacionados
+
+Para conferir conteúdos de organização, medidas e conservação, acesse a [página de guias](/guias). Para contratar um profissional, visite a [página de montadores de móveis](/montadores). Para atendimento e dúvidas sobre o pedido, utilize a [página de contato](/contato).
+
+O **Guarda-Roupa Casal França** combina seis portas, duas gavetas telescópicas, seis prateleiras, cabideiro de alumínio e oito pés em uma composição Cinamomo/Off White para quartos de casal. Confira no anúncio as condições de entrega e os detalhes do produto antes de finalizar a compra.
+  `,
+  marca: "Espresso Móveis",
+  keywords: [
+    "guarda-roupa casal França",
+    "guarda-roupa 6 portas 2 gavetas",
+    "guarda-roupa MDP cinamomo off white",
+    "guarda-roupa com corrediça telescópica",
+    "guarda-roupa com 6 prateleiras",
+    "guarda-roupa com cabideiro de alumínio",
+    "guarda-roupa com 8 pés",
+    "guarda-roupa 205 cm",
+    "guarda-roupa 180 cm de largura",
+    "guarda-roupa profundidade 47 cm",
+    "guarda-roupa casal com pés",
+    "guarda-roupa sem espelho",
+    "guarda-roupa com gavetas internas",
+    "armário casal cinamomo off white",
+    "guarda-roupa para quarto de casal",
+  ],
+  caracteristicas: [
+    "6 portas de bater",
+    "2 gavetas internas com corrediças telescópicas",
+    "6 prateleiras com capacidade informada de até 3 kg cada",
+    "Cabideiro de alumínio",
+    "8 pés com 4 cm de altura",
+    "Estrutura em MDP com pintura UV",
+    "Dimensões de 205 x 180 x 47 cm",
+  ],
+  recomendacao: "Indicado para casais que precisam de um guarda-roupa amplo, com seis portas, prateleiras e espaço para roupas penduradas, em uma composição Cinamomo/Off White com pés e profundidade de 47 cm.",
+  contras: [
+    "Não possui espelho, calceiro, chave nas gavetas ou organizador interno de gaveta.",
+    "As gavetas e prateleiras possuem limite informado de 3 kg cada.",
+    "As portas são de bater e exigem espaço frontal para abertura.",
+    "A montagem e a regulagem das portas precisam ser feitas com atenção profissional.",
+  ],
+  notaMontador: "Deixe o espaço livre e nivelado para o montador. Não tente montar o guarda-roupa sem experiência. Contrate um profissional com ferramentas adequadas para colar as gavetas quando o sistema exigir, conferir ferragens, esquadro, nivelamento, alinhamento, montagem dos oito pés, regulagem das portas e funcionamento das corrediças telescópicas. Mantenha o móvel afastado de paredes úmidas, não sobrecarregue o topo nem as prateleiras, respeite o limite de 3 kg informado e limpe apenas com pano macio, seco ou muito levemente umedecido. Nunca arraste o produto com roupas dentro; se precisar movê-lo, esvazie-o e faça o deslocamento com pelo menos duas pessoas.",
+  relatedGuides: [
+    {
+      title: "Guias de organização e escolha de móveis",
+      href: "/guias",
+      anchor: "página de guias",
+    },
+    {
+      title: "Montadores de móveis profissionais",
+      href: "/montadores",
+      anchor: "Ver montadores indicados",
+    },
+    {
+      title: "Contato",
+      href: "/contato",
+      anchor: "página de contato",
+    },
+  ],
+  seoTitle: "Guarda-Roupa Casal França 6 Portas e 2 Gavetas | Cinamomo Off White",
+  seoDescription: "Guarda-Roupa Casal França com 6 portas, 2 gavetas telescópicas, 6 prateleiras, cabideiro de alumínio e 8 pés. MDP Cinamomo/Off White.",
+},
+
+
+
+
+
+
+
+
+// Observação: substitua os caminhos de imageFile, displayImage e imageHover pelos nomes reais
+// dos arquivos existentes na sua pasta /imagens/produtos/.
+// Os valores de preço, avaliações e disponibilidade podem mudar na Shopee; mantenha-os
+// sincronizados com o anúncio antes de publicar.
+
+// Fonte dos dados: print e descrição do anúncio enviados pelo usuário.
+// Não foram mantidas frases promocionais copiadas do anúncio original; o texto foi reescrito.
+
+// Dados com possível divergência no anúncio:
+// - O anúncio informa 76 x 57 x 82 cm como medidas externas detalhadas.
+// - Também aparece uma linha genérica com 60 x 55 x 50 cm; ela foi omitida para evitar conflito.
+// - O preço exibido no print foi usado como R$ 525,00, com desconto informado de 6%.
+// - O rating, avaliações e vendidos foram usados apenas nos campos disponíveis no print.
+//   O número de vendidos não foi incluído porque o schema original não possui esse campo.
+// - A garantia foi normalizada para 90 dias, conforme a descrição do anúncio.
+// - O link de afiliado foi atualizado para o endereço enviado pelo usuário.
 
 
 ]

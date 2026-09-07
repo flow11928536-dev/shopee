@@ -1204,7 +1204,7 @@ const SEEDS: Record<string, GuideSeed> = {
     },
     faq: [
       {
-        question: "É seguro comprar móvel no Shopee?",
+        question: "É seguro comprar móvel na Shopee?",
         answer: "Sim, quando você compra de vendedores com avaliação acima de 4,5 estrelas e histórico de vendas. A plataforma tem proteção ao comprador e sistema de resolução de disputas. Sempre leia os comentários recentes e verifique se o vendedor responde reclamações.",
       },
       {
@@ -2430,7 +2430,7 @@ const SEEDS: Record<string, GuideSeed> = {
     faq: [
       {
         question: "Qual a cozinha modulada mais barata e boa?",
-        answer: "A Cozinha Compacta Pop da Madesa é a mais vendida, custando cerca de R$ 549. Tem 8 portas, balcão e tampo branco, ótima para apartamentos pequenos. Avaliação 4,8 no Shopee.",
+        answer: "A Cozinha Compacta Pop da Madesa é a mais vendida, custando cerca de R$ 549. Tem 8 portas, balcão e tampo branco, ótima para apartamentos pequenos. Avaliação 4,8 na Shopee.",
       },
       {
         question: "Quantos módulos preciso para uma cozinha de apartamento?",

@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { memo, useCallback, useEffect, useMemo, useState } from 'react';
-import Link from 'next/link';
-import { Heart, Star } from 'lucide-react';
-import { products as allProducts, getProductsBySlugs } from '../data/products';
-import type { Product } from '../types';
+import { memo, useCallback, useEffect, useMemo, useState } from "react";
+import Link from "next/link";
+import { Heart, Star, ExternalLink } from "lucide-react";
+import { products as allProducts, getProductsBySlugs } from "../data/products";
+import type { Product } from "../types";
 
 interface ProductGridProps {
   products?: Product[];
@@ -18,14 +18,49 @@ interface ProductGridProps {
 }
 
 function createHeadingId(kicker?: string, title?: string) {
-  const source = `${kicker ?? 'produtos'}-${title ?? 'selecionados'}`
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
+  const source = `${kicker ?? "produtos"}-${title ?? "selecionados"}`
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
 
-  return `product-grid-${source || 'selecionados'}`;
+  return `product-grid-${source || "selecionados"}`;
+}
+
+function getMarketplaceLabel(platform?: string) {
+  if (!platform) {
+    return "Marketplace";
+  }
+
+  const normalizedPlatform = platform.toLowerCase();
+
+  if (normalizedPlatform.includes("shopee")) {
+    return "Shopee";
+  }
+
+  if (
+    normalizedPlatform.includes("mercado") ||
+    normalizedPlatform.includes("meli")
+  ) {
+    return "Mercado Livre";
+  }
+
+  return platform;
+}
+
+function getOfferLabel(platform?: string) {
+  const marketplace = getMarketplaceLabel(platform);
+
+  if (marketplace === "Shopee") {
+    return "Ver oferta na Shopee";
+  }
+
+  if (marketplace === "Mercado Livre") {
+    return "Ver oferta no Mercado Livre";
+  }
+
+  return "Ver oferta atual";
 }
 
 const ProductGridCard = memo(function ProductGridCard({
@@ -70,33 +105,48 @@ const ProductGridCard = memo(function ProductGridCard({
 
   const currentImage = images[currentIdx];
   const showDetails = isHovering || isFocused;
+  const marketplace = getMarketplaceLabel(product.platform);
+  const offerLabel = getOfferLabel(product.platform);
 
   return (
     <article
-      className="group relative flex h-full flex-col overflow-hidden rounded-xl border border-stone-200 bg-white transition-all duration-500 hover:-translate-y-1 hover:border-[#A9701F]/30 hover:shadow-xl"
+      className="group relative flex h-full flex-col overflow-hidden rounded-xl border border-stone-200 bg-white transition-all duration-300 hover:-translate-y-1 hover:border-[#A9701F]/40 hover:shadow-lg"
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
     >
-      <div className="absolute left-2 top-2 z-20 flex flex-col gap-1">
-        {product.badge && product.badge.trim() !== '' && (
-          <span className="rounded bg-[#0F0E0D] px-2 py-0.5 text-[8px] font-semibold uppercase tracking-wider text-white sm:text-[10px]">
+      <div className="absolute left-2 top-2 z-20 flex max-w-[75%] flex-col gap-1">
+        {product.badge && product.badge.trim() !== "" && (
+          <span className="w-fit rounded bg-[#0F0E0D] px-2 py-0.5 text-[8px] font-semibold uppercase tracking-wider text-white sm:text-[10px]">
             {product.badge}
           </span>
         )}
 
+        {product.platform && (
+          <span className="w-fit rounded bg-white/95 px-2 py-0.5 text-[8px] font-semibold text-stone-700 shadow-sm sm:text-[10px]">
+            {marketplace}
+          </span>
+        )}
       </div>
 
       <button
         type="button"
         onClick={() => onToggleFavorite(product.id)}
-        className="absolute right-2 top-2 z-20 flex h-7 w-7 items-center justify-center rounded-full bg-white/85 backdrop-blur-sm transition-all hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A9701F] sm:h-8 sm:w-8"
-        aria-label={isFavorite ? `Remover ${product.name} dos favoritos` : `Adicionar ${product.name} aos favoritos`}
+        className="absolute right-2 top-2 z-20 flex h-7 w-7 items-center justify-center rounded-full bg-white/90 backdrop-blur-sm transition-all hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A9701F] sm:h-8 sm:w-8"
+        aria-label={
+          isFavorite
+            ? `Remover ${product.name} dos favoritos`
+            : `Adicionar ${product.name} aos favoritos`
+        }
         aria-pressed={isFavorite}
       >
         <Heart
           size={14}
           aria-hidden="true"
-          className={`transition-all ${isFavorite ? 'fill-red-500 text-red-500' : 'text-stone-400'}`}
+          className={`transition-all ${
+            isFavorite
+              ? "fill-red-500 text-red-500"
+              : "text-stone-400 hover:text-red-400"
+          }`}
         />
       </button>
 
@@ -114,7 +164,9 @@ const ProductGridCard = memo(function ProductGridCard({
             loading="lazy"
             decoding="async"
             className="absolute inset-0 h-full w-full object-contain p-2 transition-transform duration-700 ease-out sm:p-6"
-            style={{ transform: showDetails ? 'scale(1.02)' : 'scale(1)' }}
+            style={{
+              transform: showDetails ? "scale(1.03)" : "scale(1)",
+            }}
           />
         ) : (
           <div className="flex h-full items-center justify-center p-4 text-center text-xs text-stone-400">
@@ -124,39 +176,68 @@ const ProductGridCard = memo(function ProductGridCard({
 
         {images.length > 1 && (
           <div
-            className={`absolute bottom-2 left-1/2 flex -translate-x-1/2 gap-1 transition-opacity duration-300 ${showDetails ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`}
+            className={`absolute bottom-2 left-1/2 flex -translate-x-1/2 gap-1 transition-opacity duration-300 ${
+              showDetails
+                ? "opacity-100"
+                : "opacity-0 group-hover:opacity-100"
+            }`}
             aria-hidden="true"
           >
             {images.map((image, index) => (
               <span
                 key={`${image}-${index}`}
-                className={`h-1 rounded-full transition-all duration-300 ${index === currentIdx ? 'w-4 bg-[#A9701F]' : 'w-1.5 bg-stone-300'}`}
+                className={`h-1 rounded-full transition-all duration-300 ${
+                  index === currentIdx
+                    ? "w-4 bg-[#A9701F]"
+                    : "w-1.5 bg-stone-300"
+                }`}
               />
             ))}
           </div>
         )}
       </Link>
 
-      <div className="flex flex-1 flex-col border-t border-stone-100 p-2 sm:p-4">
+      <div className="flex flex-1 flex-col border-t border-stone-100 p-2.5 sm:p-4">
         {product.rating != null && product.rating > 0 && (
           <div
-            className="mb-1 flex items-center gap-1 sm:mb-2"
-            aria-label={`Avaliação ${product.rating.toFixed(1)} de 5${product.reviews && product.reviews > 0 ? `, ${product.reviews} avaliações` : ''}`}
+            className="mb-1.5 flex items-center gap-1 sm:mb-2"
+            aria-label={`Avaliação ${product.rating.toFixed(1)} de 5${
+              product.reviews && product.reviews > 0
+                ? `, ${product.reviews} avaliações`
+                : ""
+            }`}
           >
-            <Star size={12} aria-hidden="true" className="fill-amber-400 text-amber-400" />
-            <span className="ml-1 text-[9px] font-bold text-stone-900 sm:text-xs">{product.rating.toFixed(1)}</span>
+            <Star
+              size={12}
+              aria-hidden="true"
+              className="fill-amber-400 text-amber-400"
+            />
+
+            <span className="ml-1 text-[9px] font-bold text-stone-900 sm:text-xs">
+              {product.rating.toFixed(1)}
+            </span>
+
             {product.reviews != null && product.reviews > 0 && (
-              <span className="text-[9px] text-stone-400 sm:text-xs">({product.reviews.toLocaleString('pt-BR')})</span>
+              <span className="text-[9px] text-stone-400 sm:text-xs">
+                ({product.reviews.toLocaleString("pt-BR")})
+              </span>
             )}
           </div>
         )}
 
-        <h3 className="mb-2 line-clamp-2 min-h-[2.5em] text-[10px] font-medium text-stone-800 transition-colors group-hover:text-[#A9701F] sm:text-sm">
+        <h3 className="mb-2 line-clamp-2 min-h-[2.5em] text-[10px] font-medium leading-snug text-stone-800 transition-colors group-hover:text-[#A9701F] sm:text-sm">
           {product.name}
         </h3>
 
-        <div className="mb-3 rounded-lg bg-stone-50 px-2 py-2 text-center text-[9px] font-semibold uppercase tracking-wide text-[#5E7A68] sm:text-[10px]">
-          Consulte preço e frete atuais
+        <div className="mb-3 rounded-lg bg-[#F4F1EC] px-2 py-2 text-center text-[9px] leading-relaxed text-[#5E7A68] sm:text-[10px]">
+          <span className="font-semibold">
+            Veja preço, frete e prazo
+          </span>
+            
+
+          <span className="text-[8px] font-normal text-stone-500 sm:text-[9px]">
+            Atualizados no {marketplace.toLowerCase()}
+          </span>
         </div>
 
         <div className="mt-auto">
@@ -165,10 +246,15 @@ const ProductGridCard = memo(function ProductGridCard({
               href={product.affiliateLink}
               target="_blank"
               rel="sponsored noopener noreferrer"
-              aria-label={`Consultar oferta atual de ${product.name}${product.platform ? ` na ${product.platform}` : ''}`}
-              className="flex min-h-10 w-full items-center justify-center rounded-lg bg-[#0F0E0D] px-2 py-2 text-center text-[10px] font-semibold uppercase tracking-wider text-white transition-all duration-300 hover:bg-[#A9701F] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A9701F] focus-visible:ring-offset-2 active:scale-[0.98] sm:py-2.5 sm:text-xs"
+              aria-label={`${offerLabel} de ${product.name}`}
+              className="flex min-h-10 w-full items-center justify-center gap-1.5 rounded-lg bg-[#0F0E0D] px-2 py-2 text-center text-[9px] font-semibold uppercase leading-tight tracking-wide text-white transition-all duration-300 hover:bg-[#A9701F] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A9701F] focus-visible:ring-offset-2 active:scale-[0.98] sm:py-2.5 sm:text-xs"
             >
-              Consultar oferta atual
+              <span>{offerLabel}</span>
+              <ExternalLink
+                size={12}
+                aria-hidden="true"
+                className="shrink-0"
+              />
             </a>
           ) : (
             <Link
@@ -176,13 +262,13 @@ const ProductGridCard = memo(function ProductGridCard({
               aria-label={`Ver detalhes de ${product.name}`}
               className="flex min-h-10 w-full items-center justify-center rounded-lg bg-[#0F0E0D] px-2 py-2 text-center text-[10px] font-semibold uppercase tracking-wider text-white transition-all duration-300 hover:bg-[#A9701F] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A9701F] focus-visible:ring-offset-2 active:scale-[0.98] sm:py-2.5 sm:text-xs"
             >
-              Ver produto
+              Ver detalhes
             </Link>
           )}
         </div>
 
-        <p className="mt-2 text-center text-[9px] leading-relaxed text-stone-400 sm:text-[10px]">
-          Preço, frete e prazo são confirmados no marketplace.
+        <p className="mt-2 text-center text-[8px] leading-relaxed text-stone-400 sm:text-[10px]">
+          Compra finalizada diretamente no marketplace.
         </p>
       </div>
     </article>
@@ -222,12 +308,19 @@ export default function ProductGrid({
 
     if (category) {
       const categories = Array.isArray(category) ? category : [category];
+
       selectedProducts = selectedProducts.filter((product) => {
-        const productCategories = Array.isArray(product.categories) ? product.categories : [];
+        const productCategories = Array.isArray(product.categories)
+          ? product.categories
+          : [];
+
         return (
           categories.includes(product.category) ||
-          (product.mainCategory != null && categories.includes(String(product.mainCategory))) ||
-          productCategories.some((item) => categories.includes(String(item)))
+          (product.mainCategory != null &&
+            categories.includes(String(product.mainCategory))) ||
+          productCategories.some((item) =>
+            categories.includes(String(item)),
+          )
         );
       });
     }
@@ -244,27 +337,45 @@ export default function ProductGrid({
   }
 
   const headingId = title ? createHeadingId(kicker, title) : undefined;
-  const sectionClassName = title ? 'bg-white px-2 py-8 sm:px-4 sm:py-16' : 'bg-white';
-  const gridClass = gridClassName || 'grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5';
+
+  const sectionClassName = title
+    ? "bg-transparent px-0 py-2"
+    : "bg-transparent";
+
+  const gridClass =
+    gridClassName ||
+    "grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5";
 
   return (
-    <section className={sectionClassName} aria-labelledby={headingId}>
+    <section
+      className={sectionClassName}
+      aria-labelledby={headingId}
+    >
       <div className="mx-auto max-w-7xl">
         {title && (
-          <header className="mb-8 text-center sm:mb-12">
+          <header className="mb-6 text-left sm:mb-8">
             {kicker && (
               <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#A9701F] sm:text-sm">
                 {kicker}
               </p>
             )}
-            <h2 id={headingId} className="mb-4 text-2xl font-bold text-stone-900 sm:text-4xl md:text-5xl">
+
+            <h2
+              id={headingId}
+              className="mb-2 font-serif text-2xl font-light text-stone-900 sm:text-3xl"
+            >
               {title}
             </h2>
-            {subtitle && <p className="mx-auto max-w-2xl text-sm text-stone-600 sm:text-lg">{subtitle}</p>}
+
+            {subtitle && (
+              <p className="max-w-2xl text-sm text-stone-600 sm:text-base">
+                {subtitle}
+              </p>
+            )}
           </header>
         )}
 
-        <div className={`grid gap-2 sm:gap-6 ${gridClass}`}>
+        <div className={`grid gap-2 sm:gap-5 ${gridClass}`}>
           {displayProducts.map((product) => (
             <ProductGridCard
               key={product.id}

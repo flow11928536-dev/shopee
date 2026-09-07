@@ -514,18 +514,23 @@ ${finalUrls.map(u => `  <url>
 }
 
 function generateRobotsTxt(site) {
+  const siteUrl = site.url.replace(/\/+$/, "");
+
   const lines = [
-    'User-agent: *', 'Allow: /', 'Disallow: /admin/', 'Disallow: /api/', 'Disallow: /cdn-cgi/', '',
-    'User-agent: GPTBot', 'Allow: /llms.txt', 'Allow: /llms-full.txt', 'Allow: /llms-index.json', '',
-    'User-agent: Claude-Web', 'Allow: /llms.txt', 'Allow: /llms-full.txt', 'Allow: /llms-index.json', '',
-    'User-agent: anthropic-ai', 'Allow: /llms.txt', 'Allow: /llms-full.txt', 'Allow: /llms-index.json', '',
-    'User-agent: cohere-ai', 'Allow: /llms.txt', 'Allow: /llms-full.txt', 'Allow: /llms-index.json', '',
-    'User-agent: CCBot', 'Allow: /llms.txt', 'Allow: /llms-full.txt', 'Allow: /llms-index.json', '',
-    'User-agent: FacebookBot', 'Allow: /', '', 'User-agent: Twitterbot', 'Allow: /', '',
-    `Sitemap: ${site.url}/sitemap.xml`,
+    "User-agent: *",
+    "Content-Signal: search=yes,ai-input=yes,ai-train=no,use=reference",
+    "Allow: /",
+    "Disallow: /admin/",
+    "Disallow: /api/",
+    "Disallow: /cdn-cgi/",
+    "",
+    `Sitemap: ${siteUrl}/sitemap.xml`,
   ];
-  return lines.join('\n');
+
+  return lines.join("\n");
 }
+
+
 
 async function loadData() {
   const { SITE, uniqueCategories: allCategories, CATEGORY_LABELS, products } = await import('../src/data/products.ts');

@@ -1,178 +1,49 @@
-"use client";
-
-import { useState, useCallback } from "react";
+import Image from "next/image";
 import Link from "next/link";
 
-// ============================================================
-// 📦 TIPOS
-// ============================================================
-interface Slide {
-  image: string;       // imagem desktop
-  imageMobile?: string; // imagem mobile (opcional — se não tiver, usa a desktop)
-  alt: string;
-  title: string;
-  href: string;
-}
+const hero = {
+  image: "/banners/cozinhas-barata-promocao.webp",
+  imageMobile: "/banners/banner-mobile-loja-de-moveis-01.avif",
+  alt: "Móveis de alto padrão pelo melhor preço",
+  title: "Móveis de alto padrão pelo melhor preço",
+  href: "/categoria/cozinhas",
+};
 
-// ============================================================
-// 📦 DADOS DOS SLIDES
-// ============================================================
-const slides: Slide[] = [
-  {
-    image: "/banners/cozinhas-barata-promocao.webp",
-    imageMobile: "/banners/banner-mobile-loja-de-moveis-01.avif",
-    alt: "Móveis de alto padrão pelo melhor preço",
-    title: "Móveis de alto padrão pelo melhor preço",
-    href: "/categoria/cozinhas",
-  },
-  {
-    image:
-      "/banners/dia-dos-pais-madeira-madeira.avif",
-      imageMobile: "/banners/banner-mobile-loja-de-moveis-02.avif",
-    alt: "Salas que impressionam, preços que cabem",
-    title: "Salas que impressionam, preços que cabem",
-    href: "/categoria/sofas",
-  },
-  {
-    image:
-      "/banners/banner-quarto-promocao.webp",
-      imageMobile: "/banners/banner-mobile-loja-de-moveis-03.avif",
-    alt: "Durma melhor sem gastar uma fortuna",
-    title: "Durma melhor sem gastar uma fortuna",
-    href: "/categoria/quartos",
-  },
-  {
-    image:
-      "/banners/banner-home-office-promocao.webp",
-      imageMobile: "/banners/banner-mobile-loja-de-moveis-04.avif",
-    alt: "Trabalhe em casa com estilo e conforto",
-    title: "Trabalhe em casa com estilo e conforto",
-    href: "/categoria/home-office",
-  },
-  {
-    image:
-      "/banners/promocao-de-moveis-barato.webp",
-      imageMobile: "/banners/banner-mobile-loja-de-moveis-05.avif",
-    alt: "Sua área externa muito mais bonita",
-    title: "Sua área externa muito mais bonita",
-    href: "/moveis-para-estudantes",
-  },
-];
-
-// ============================================================
-// ⚙️ CONFIGURAÇÕES
-// ============================================================
 export default function HeroSlider() {
-  const [current, setCurrent] = useState(0);
-
-  const totalSlides = slides.length;
-  const slide = slides[current];
-
-  const nextSlide = useCallback(() => {
-    setCurrent((prev) => (prev + 1) % totalSlides);
-  }, [totalSlides]);
-
-  const prevSlide = useCallback(() => {
-    setCurrent((prev) => (prev - 1 + totalSlides) % totalSlides);
-  }, [totalSlides]);
-
-  const goToSlide = useCallback((index: number) => {
-    setCurrent(index);
-  }, []);
-
   return (
     <section
-      className="relative overflow-hidden bg-stone-950 w-full min-h-[220px] sm:min-h-[260px] md:aspect-[1920/415] md:min-h-0 md:max-h-[340px]"
-      aria-roledescription="Carrossel de destaques"
-      aria-label="Destaques da loja"
+      className="relative w-full overflow-hidden bg-stone-950"
+      aria-label="Destaque de ofertas"
     >
-      <div className="absolute inset-0">
-        {slides.map((s, index) => {
-          const isActive = index === current;
-          const shouldLoad = index === 0 || isActive;
-          
-          return (
-            <div
-              key={index}
-              id={`slide-${index}`}
-              role="tabpanel"
-              aria-labelledby={`tab-${index}`}
-              className="absolute inset-0 transition-opacity duration-1000 ease-in-out"
-              style={{
-                opacity: isActive ? 1 : 0,
-                zIndex: isActive ? 1 : 0,
-              }}
-              aria-hidden={!isActive}
-            >
-              {/* Versão DESKTOP/TABLET - só renderiza se necessário */}
-              {shouldLoad && (
-                <picture>
-                  <source media="(max-width: 767px)" srcSet={s.imageMobile ?? s.image} />
-                  <img
-                    src={s.image}
-                    alt={s.alt}
-                    loading={index === 0 ? "eager" : "lazy"}
-                    fetchPriority={index === 0 ? "high" : "low"}
-                    className="absolute inset-0 h-full w-full object-cover"
-                  />
-                </picture>
-              )}
-              {/* Versão MOBILE - só renderiza se necessário */}
-            </div>
-          );
-        })}
-      </div>
-
       <Link
-        href={slide.href}
-        aria-label={slide.title}
-        className="absolute inset-0 z-10"
-      />
+        href={hero.href}
+        aria-label={`${hero.title}. Ver cozinhas`}
+        className="group relative block aspect-[1920/415] min-h-[220px] w-full sm:min-h-[260px] md:max-h-[340px]"
+      >
+        <picture>
+          <source
+            media="(max-width: 767px)"
+            srcSet={hero.imageMobile}
+          />
 
-      <div
-        className="absolute bottom-3 left-1/2 z-20 flex -translate-x-1/2 gap-2"
-        role="tablist"
-        aria-label="Slides"
-      >
-        {slides.map((_, i) => {
-          const isActive = i === current;
-          return (
-            <button
-              key={i}
-              onClick={() => goToSlide(i)}
-              role="tab"
-              id={`tab-${i}`}
-              aria-selected={isActive}
-              aria-label={`Ir para o slide ${i + 1}`}
-              aria-controls={`slide-${i}`}
-              className="h-1.5 rounded-full bg-white/60 shadow transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-white"
-              style={{
-                width: isActive ? 36 : 12,
-                background: isActive ? "#ffffff" : "rgba(255,255,255,0.5)",
-              }}
-            />
-          );
-        })}
-      </div>
+          <Image
+            src={hero.image}
+            alt={hero.alt}
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+          />
+        </picture>
 
-      <button
-        onClick={prevSlide}
-        className="absolute left-3 top-1/2 z-20 -translate-y-1/2 rounded-full bg-white/10 p-2 text-white backdrop-blur transition hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white md:left-6"
-        aria-label="Slide anterior"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="h-5 w-5">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-        </svg>
-      </button>
-      <button
-        onClick={nextSlide}
-        className="absolute right-3 top-1/2 z-20 -translate-y-1/2 rounded-full bg-white/10 p-2 text-white backdrop-blur transition hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white md:right-6"
-        aria-label="Próximo slide"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="h-5 w-5">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-        </svg>
-      </button>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/25 via-transparent to-black/10" />
+
+        <div className="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 md:bottom-8 md:left-10">
+          <span className="inline-flex items-center rounded-full bg-white px-4 py-2 text-[10px] font-semibold uppercase tracking-widest text-[#1E1B18] shadow-lg transition group-hover:bg-[#C5A880] sm:px-5 sm:py-2.5 sm:text-xs">
+            Ver cozinhas →
+          </span>
+        </div>
+      </Link>
     </section>
   );
 }

@@ -85,6 +85,13 @@ export interface Product {
   
   // ✅ NOVO CAMPO: Nota do Montador (dica técnica opcional)
   notaMontador?: string;
+
+  /** Links internos relacionados ao produto */
+  relatedGuides?: {
+    title: string;
+    href: string;
+    anchor: string;
+  }[];
 }
 
 /**
