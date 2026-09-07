@@ -221,6 +221,24 @@
   },
   {
     "type": "material-gap",
+    "material": "MDF",
+    "gap": "Material não coberto em guias",
+    "impact": "médio",
+    "suggestion": "Criar guia sobre 'Vantagens e desvantagens do MDF em móveis' ou 'MDF vs outros materiais: comparação completa'",
+    "estimatedEffort": "médio",
+    "priority": "média"
+  },
+  {
+    "type": "material-gap",
+    "material": "MDP",
+    "gap": "Material não coberto em guias",
+    "impact": "médio",
+    "suggestion": "Criar guia sobre 'Vantagens e desvantagens do MDP em móveis' ou 'MDP vs outros materiais: comparação completa'",
+    "estimatedEffort": "médio",
+    "priority": "média"
+  },
+  {
+    "type": "material-gap",
     "material": "madeira maciça",
     "gap": "Material não coberto em guias",
     "impact": "médio",

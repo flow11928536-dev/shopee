@@ -6,8 +6,19 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const publicDir = path.join(__dirname, '../public');
 
-// O app publicado usa URLs sem barra final. O sitemap deve sempre listar a URL
-// canônica que responde 200, sem redirecionamento intermediário.
+// ============================================================
+// TIMESTAMP ÚNICO POR EXECUÇÃO
+// ============================================================
+// Antes: `new Date()` era chamado ~8 vezes espalhadas pelo arquivo,
+// cada uma podendo (em builds muito raros, virada de segundo/dia)
+// retornar valores ligeiramente diferentes. Agora é uma fonte única.
+const NOW = new Date();
+const NOW_ISO = NOW.toISOString();
+const TODAY = NOW_ISO.split('T')[0];
+
+// ============================================================
+// HELPERS DE URL
+// ============================================================
 function categoryUrl(base, slug) {
   return `${base}/categoria/${slug}`;
 }
@@ -21,7 +32,6 @@ function productUrl(base, slug) {
   return `${base}/produto/${slug}`;
 }
 
-// FIX 5: escape de caracteres especiais para XML válido (caso algum slug tenha & < > " ')
 function escapeXml(s) {
   return String(s)
     .replace(/&/g, '&amp;')
@@ -31,8 +41,32 @@ function escapeXml(s) {
     .replace(/'/g, '&apos;');
 }
 
-// FIX 3: lastmod baseado na data real de modificação dos arquivos de dados,
-// não na data de hoje. Google perde confiança em lastmod que muda sem mudança de conteúdo.
+function normalizeText(value) {
+  if (!value) return '';
+  return String(value)
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/&nbsp;/gi, ' ')
+    .replace(/&amp;/gi, '&')
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;/gi, "'")
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function countWords(value) {
+  const text = normalizeText(value);
+  if (!text) return 0;
+  return text.split(/\s+/).filter(Boolean).length;
+}
+
+// ============================================================
+// lastmod BASEADO NO CONTEÚDO REAL (não na data do build)
+// ============================================================
+// FIX 3 (original): já existia para categorias/guias/produtos.
+// FIX aplicado agora: a home também usa esse valor — antes ela usava
+// `today`, que muda a cada build/deploy mesmo sem alteração real de
+// conteúdo, o que é exatamente o problema que o comentário original
+// descrevia (Google perde confiança em lastmod que "chora lobo").
 function getDataLastMod() {
   try {
     const files = [
@@ -40,15 +74,59 @@ function getDataLastMod() {
       path.join(__dirname, '../src/data/guides.ts'),
       path.join(__dirname, '../src/app/montadores/marilia/page.tsx'),
     ];
-    const mtimes = files.map(f => fs.statSync(f).mtime.getTime());
+    const mtimes = files.map((f) => fs.statSync(f).mtime.getTime());
     return new Date(Math.max(...mtimes)).toISOString().split('T')[0];
   } catch {
-    return new Date().toISOString().split('T')[0];
+    return TODAY;
   }
 }
 
+// ============================================================
+// REGEX COMPILADOS UMA ÚNICA VEZ (escopo de módulo)
+// ============================================================
+// Antes: cada regex literal (/\b(...)\b/gi) era recriado a cada
+// chamada de extractEntities, para CADA produto e CADA guia. Com
+// centenas de produtos isso é recompilar a mesma expressão centenas
+// de vezes à toa. Regex literais em JS já usam flag `g`, que mantém
+// estado (lastIndex) entre usos do MESMO objeto — por isso usamos
+// `.match()` (que reseta lastIndex internamente) em vez de `.exec()`
+// em loop, evitando bugs de estado compartilhado.
+const RX = {
+  material:
+    /\b(MDF|MDP|madeira|aço|ferro|vidro|tecidos?|couro|suede|veludo|linho|bouclé|alumínio|plástico|resina|temperado|laminado|melamina)\b/gi,
+  environment:
+    /\b(sala|quarto|cozinha|banheiro|varanda|jardim|área externa|home office|escritório|estudo|quarto de bebê|quarto de casal|suite|lavabo|despensa)\b/gi,
+  type: /\b(sofá?|guarda-roupa|cozinha|mesa|cadeira|painel|rack|cama|escrivaninha|estante|armário|balcão|cômoda|aparador|buffet|esqueleto|nicho|prateleira|divan|chaise|pufe|ottoma|bancada|balança|cesto|carrinho)\b/gi,
+  // FIX: "marfiv" era um typo — nunca batia com "marfim" real nos guias.
+  color:
+    /\b(preto|branco|cinza|marrom|bege|creme|marfim|âmbar|noz|cerejeira|pinho|mogno|azul|verde|vermelho|amarelo|rosa|roxo|dourado|prata|metalizado)\b/gi,
+  style:
+    /\b(minimalista|moderno|contemporâneo|rústico|industrial|scandinavo|clássico|vintage|art decó|mid century|boho|provençal|colonial|neo clássico)\b/gi,
+  benefit:
+    /\b(confortável|durável|resistente|fácil de montar|ecológico|sustentável|antibacteriano|impermeável|resistente à água|isolante|acústico|ergonômico|ajustável|reclinável|giratório|com rodas|com iluminação|com tomadas|com USB)\b/gi,
+  problem:
+    /\b(para apartamento pequeno|para espaços compactos|economia de espaço|multifuncional|versátil|personalizável|sob medida|fácil limpeza|montagem simples)\b/gi,
+};
+
+// ============================================================
+// EXTRAÇÃO DE ENTIDADES (single-pass, sem duplicar código
+// produtos vs. guias como no original)
+// ============================================================
+function collectMatches(text, sets) {
+  if (!text) return;
+  const lower = text; // regex já usa flag `i`, não precisamos lowercase antes
+  let m;
+  if ((m = lower.match(RX.material))) m.forEach((v) => sets.materials.add(v.toLowerCase()));
+  if ((m = lower.match(RX.environment))) m.forEach((v) => sets.environments.add(v.toLowerCase()));
+  if ((m = lower.match(RX.type))) m.forEach((v) => sets.types.add(v.toLowerCase()));
+  if ((m = lower.match(RX.color))) m.forEach((v) => sets.colors.add(v.toLowerCase()));
+  if ((m = lower.match(RX.style))) m.forEach((v) => sets.styles.add(v.toLowerCase()));
+  if ((m = lower.match(RX.benefit))) m.forEach((v) => sets.benefits.add(v.toLowerCase()));
+  if ((m = lower.match(RX.problem))) m.forEach((v) => sets.problems.add(v.toLowerCase()));
+}
+
 function extractEntities(products, guides) {
-  const entities = {
+  const sets = {
     materials: new Set(),
     environments: new Set(),
     types: new Set(),
@@ -64,70 +142,85 @@ function extractEntities(products, guides) {
     functionalities: new Set(),
   };
 
-  products.forEach(p => {
-    if (p.marca) entities.brands.add(p.marca);
-    if (p.platform) entities.platforms.add(p.platform);
-    if (p.precoMin && p.precoMax) entities.priceRanges.add(`${p.precoMin}-${p.precoMax}`);
-    if (p.publico) entities.targetAudiences.add(p.publico);
-    if (p.tamanho) entities.sizes.add(p.tamanho);
-    if (p.funcionalidade) entities.functionalities.add(p.funcionalidade);
+  // Mapa categoria -> faixas de preço reais, usado depois para
+  // gerar FAQ dinâmico em vez de texto genérico repetido.
+  const priceByCategory = new Map();
 
-    const text = (p.descricao || '') + ' ' + (p.seoTitle || '') + ' ' + (p.seoDescription || '') + ' ' + (p.keywords || '');
-    const materialMatches = text.match(/\b(MDF|MDP|madeira|aço|ferro|vidro|tecidos?|couro|suede|veludo|linho|bouclé|alumínio|plástico|resina|temperado|laminado|melamina)\b/gi);
-    if (materialMatches) materialMatches.forEach(m => entities.materials.add(m.toLowerCase()));
-    const envMatches = text.match(/\b(sala|quarto|cozinha|banheiro|varanda|jardim|área externa|home office|escritório|estudo|quarto de bebê|quarto de casal|suite|lavabo|despensa)\b/gi);
-    if (envMatches) envMatches.forEach(e => entities.environments.add(e.toLowerCase()));
-    const typeMatches = text.match(/\b(sofá?|guarda-roupa|cozinha|mesa|cadeira|painel|rack|cama|escrivaninha|estante|armário|balcão|cômoda|aparador|buffet|esqueleto|nicho|prateleira|divan|chaise|pufe|ottoma|bancada|balança|cesto|carrinho)\b/gi);
-    if (typeMatches) typeMatches.forEach(t => entities.types.add(t.toLowerCase()));
-    const colorMatches = text.match(/\b(preto|branco|cinza|marrom|bege|creme|marfim|âmbar|noz|cerejeira|pinho|mogno|azul|verde|vermelho|amarelo|rosa|roxo|dourado|prata|metalizado)\b/gi);
-    if (colorMatches) colorMatches.forEach(c => entities.colors.add(c.toLowerCase()));
-    const styleMatches = text.match(/\b(minimalista|moderno|contemporâneo|rústico|industrial|scandinavo|clássico|vintage|art decó|mid century|boho|provençal|colonial|neo clássico)\b/gi);
-    if (styleMatches) styleMatches.forEach(s => entities.styles.add(s.toLowerCase()));
-    const benefitMatches = text.match(/\b(confortável|durável|resistente|fácil de montar|ecológico|sustentável|antibacteriano|impermeável|resistente à água|isolante|acústico|ergonômico|ajustável|reclinável|giratório|com rodas|com iluminação|com tomadas|com USB)\b/gi);
-    if (benefitMatches) benefitMatches.forEach(b => entities.benefits.add(b.toLowerCase()));
-    const problemMatches = text.match(/\b(para apartamento pequeno|para espaços compactos|economia de espaço|multifuncional|versátil|personalizável|sob medida|fácil limpeza|montagem simples)\b/gi);
-    if (problemMatches) problemMatches.forEach(pr => entities.problems.add(pr.toLowerCase()));
-  });
+  for (const p of products) {
+    if (p.marca) sets.brands.add(p.marca);
+    if (p.platform) sets.platforms.add(p.platform);
+    if (p.precoMin && p.precoMax) {
+      sets.priceRanges.add(`${p.precoMin}-${p.precoMax}`);
+      const cat = p.category || p.mainCategory;
+      if (cat) {
+        if (!priceByCategory.has(cat)) priceByCategory.set(cat, { min: Infinity, max: -Infinity });
+        const range = priceByCategory.get(cat);
+        range.min = Math.min(range.min, p.precoMin);
+        range.max = Math.max(range.max, p.precoMax);
+      }
+    }
+    if (p.publico) sets.targetAudiences.add(p.publico);
+    if (p.tamanho) sets.sizes.add(p.tamanho);
+    if (p.funcionalidade) sets.functionalities.add(p.funcionalidade);
 
-  guides.forEach(g => {
-    const text = (g.h1 || '') + ' ' + (g.keyword || '') + ' ' + (g.seoDescription || '') + ' ' + (g.intro || '') + ' ' + (g.content || '');
-    const materialMatches = text.match(/\b(MDF|MDP|madeira|aço|ferro|vidro|tecidos?|couro|suede|veludo|linho|bouclé|alumínio|plástico|resina|temperado|laminado|melamina)\b/gi);
-    if (materialMatches) materialMatches.forEach(m => entities.materials.add(m.toLowerCase()));
-    const envMatches = text.match(/\b(sala|quarto|cozinha|banheiro|varanda|jardim|área externa|home office|escritório|estudo|quarto de bebê|quarto de casal|suite|lavabo|despensa)\b/gi);
-    if (envMatches) envMatches.forEach(e => entities.environments.add(e.toLowerCase()));
-    const typeMatches = text.match(/\b(sofá?|guarda-roupa|cozinha|mesa|cadeira|painel|rack|cama|escrivaninha|estante|armário|balcão|cômoda|aparador|buffet|esqueleto|nicho|prateleira|divan|chaise|pufe|ottoma|bancada|balança|cesto|carrinho)\b/gi);
-    if (typeMatches) typeMatches.forEach(t => entities.types.add(t.toLowerCase()));
-    const colorMatches = text.match(/\b(preto|branco|cinza|marrom|bege|creme|marfiv|âmbar|noz|cerejeira|pinho|mogno|azul|verde|vermelho|amarelo|rosa|roxo|dourado|prata|metalizado)\b/gi);
-    if (colorMatches) colorMatches.forEach(c => entities.colors.add(c.toLowerCase()));
-    const styleMatches = text.match(/\b(minimalista|moderno|contemporâneo|rústico|industrial|scandinavo|clássico|vintage|art decó|mid century|boho|provençal|colonial|neo clássico)\b/gi);
-    if (styleMatches) styleMatches.forEach(s => entities.styles.add(s.toLowerCase()));
-    const benefitMatches = text.match(/\b(confortável|durável|resistente|fácil de montar|ecológico|sustentável|antibacteriano|impermeável|resistente à água|isolante|acústico|ergonômico|ajustável|reclinável|giratório|com rodas|com iluminação|com tomadas|com USB)\b/gi);
-    if (benefitMatches) benefitMatches.forEach(b => entities.benefits.add(b.toLowerCase()));
-    const problemMatches = text.match(/\b(para apartamento pequeno|para espaços compactos|economia de espaço|multifuncional|versátil|personalizável|sob medida|fácil limpeza|montagem simples)\b/gi);
-    if (problemMatches) problemMatches.forEach(pr => entities.problems.add(pr.toLowerCase()));
-  });
+    const text = `${p.descricao || ''} ${p.seoTitle || ''} ${p.seoDescription || ''} ${p.keywords || ''}`;
+    collectMatches(text, sets);
+  }
+
+  for (const g of guides) {
+    const text = `${g.h1 || ''} ${g.keyword || ''} ${g.seoDescription || ''} ${g.intro || ''} ${g.content || ''}`;
+    collectMatches(text, sets);
+  }
+
+  const toArray = (set) => [...set].filter(Boolean);
 
   return {
-    materials: [...entities.materials].filter(Boolean),
-    environments: [...entities.environments].filter(Boolean),
-    types: [...entities.types].filter(Boolean),
-    brands: [...entities.brands].filter(Boolean),
-    platforms: [...entities.platforms].filter(Boolean),
-    colors: [...entities.colors].filter(Boolean),
-    styles: [...entities.styles].filter(Boolean),
-    benefits: [...entities.benefits].filter(Boolean),
-    problems: [...entities.problems].filter(Boolean),
-    priceRanges: [...entities.priceRanges].filter(Boolean),
-    targetAudiences: [...entities.targetAudiences].filter(Boolean),
-    sizes: [...entities.sizes].filter(Boolean),
-    functionalities: [...entities.functionalities].filter(Boolean),
+    entities: {
+      materials: toArray(sets.materials),
+      environments: toArray(sets.environments),
+      types: toArray(sets.types),
+      brands: toArray(sets.brands),
+      platforms: toArray(sets.platforms),
+      colors: toArray(sets.colors),
+      styles: toArray(sets.styles),
+      benefits: toArray(sets.benefits),
+      problems: toArray(sets.problems),
+      priceRanges: toArray(sets.priceRanges),
+      targetAudiences: toArray(sets.targetAudiences),
+      sizes: toArray(sets.sizes),
+      functionalities: toArray(sets.functionalities),
+    },
+    priceByCategory,
   };
 }
 
-function generateSearchIntents(categories, guides) {
+// ============================================================
+// ÍNDICE categoria -> guias, CALCULADO UMA ÚNICA VEZ
+// ============================================================
+// Antes: `guides.filter(g => g.keyword?.includes(cat.slug) || ...)`
+// era repetido dentro de generateSearchIntents, generateContentClusters,
+// generateContentOpportunities, generateAINavigation e generateLlmsTxt —
+// ou seja, o mesmo filtro O(guides) rodava até 5x por categoria.
+// Agora fazemos isso uma vez e todo o resto consulta o Map.
+function buildCategoryGuideIndex(categories, guides) {
+  const index = new Map();
+  for (const cat of categories) {
+    const label = cat.label.toLowerCase();
+    const related = guides.filter(
+      (g) => g.keyword?.includes(cat.slug) || g.h1?.toLowerCase().includes(label),
+    );
+    index.set(cat.slug, related);
+  }
+  return index;
+}
+
+// ============================================================
+// SEARCH INTENTS
+// ============================================================
+function generateSearchIntents(categories, guides, catGuideIndex) {
   const intents = [];
-  categories.forEach(cat => {
-    const relatedGuides = guides.filter(g => g.keyword?.includes(cat.slug) || g.h1?.toLowerCase().includes(cat.label.toLowerCase()));
+
+  for (const cat of categories) {
     intents.push({
       category: cat.slug,
       label: cat.label,
@@ -143,52 +236,72 @@ function generateSearchIntents(categories, guides) {
         `o que é ${cat.label}`,
         `qual o melhor ${cat.label}`,
       ],
-      relatedGuides: relatedGuides.map(g => g.slug),
+      relatedGuides: catGuideIndex.get(cat.slug).map((g) => g.slug),
     });
-  });
-  guides.forEach(guide => {
-    if (guide.h1) {
-      const cleanTitle = guide.h1.toLowerCase().replace(/guia|o que é|como escolher|dicas|tutorial|passo a passo/i, '').trim();
-      if (cleanTitle) {
-        intents.push({
-          category: 'guide',
-          label: guide.h1,
-          searchTerms: [
-            `${guide.h1}`,
-            `o que é ${cleanTitle}`,
-            `como fazer ${cleanTitle}`,
-            `dicas sobre ${cleanTitle}`,
-            `tutorial ${cleanTitle}`,
-            `${cleanTitle} passo a passo`,
-          ],
-          relatedGuides: [guide.slug],
-        });
-      }
-    }
-  });
+  }
+
+  for (const guide of guides) {
+    if (!guide.h1) continue;
+    const cleanTitle = guide.h1
+      .toLowerCase()
+      .replace(/guia|o que é|como escolher|dicas|tutorial|passo a passo/i, '')
+      .trim();
+    if (!cleanTitle) continue;
+    intents.push({
+      category: 'guide',
+      label: guide.h1,
+      searchTerms: [
+        guide.h1,
+        `o que é ${cleanTitle}`,
+        `como fazer ${cleanTitle}`,
+        `dicas sobre ${cleanTitle}`,
+        `tutorial ${cleanTitle}`,
+        `${cleanTitle} passo a passo`,
+      ],
+      relatedGuides: [guide.slug],
+    });
+  }
+
   return intents;
 }
 
-function generateContentClusters(categories, guides) {
-  return categories.map(cat => {
-    const relatedGuides = guides.filter(g => g.keyword?.includes(cat.slug) || g.h1?.toLowerCase().includes(cat.label.toLowerCase()));
+// ============================================================
+// CONTENT CLUSTERS
+// ============================================================
+function generateContentClusters(categories, catGuideIndex) {
+  return categories.map((cat) => {
+    const related = catGuideIndex.get(cat.slug);
     return {
       category: cat.slug,
       label: cat.label,
-      guides: relatedGuides.map(g => g.slug),
-      guideTitles: relatedGuides.map(g => g.h1),
-      count: relatedGuides.length,
-      depth: relatedGuides.length > 0 ? 'médio' : 'baixo',
+      guides: related.map((g) => g.slug),
+      guideTitles: related.map((g) => g.h1),
+      count: related.length,
+      depth: related.length > 0 ? 'médio' : 'baixo',
     };
   });
 }
 
-function generateContentOpportunities(categories, guides, products) {
+// ============================================================
+// OPORTUNIDADES DE CONTEÚDO
+// ============================================================
+function generateContentOpportunities(categories, catGuideIndex, products) {
   const opportunities = [];
-  categories.forEach(cat => {
-    const relatedGuides = guides.filter(g => g.keyword?.includes(cat.slug) || g.h1?.toLowerCase().includes(cat.label.toLowerCase()));
-    const relatedProducts = products.filter(p => p.category === cat.slug || p.mainCategory === cat.slug);
-    if (relatedGuides.length === 0 && relatedProducts.length > 0) {
+
+  // Índice categoria -> quantidade de produtos, calculado uma vez
+  const productCountByCategory = new Map();
+  for (const p of products) {
+    const cats = [p.category, p.mainCategory].filter(Boolean);
+    for (const c of cats) {
+      productCountByCategory.set(c, (productCountByCategory.get(c) || 0) + 1);
+    }
+  }
+
+  for (const cat of categories) {
+    const relatedGuides = catGuideIndex.get(cat.slug);
+    const relatedProductCount = productCountByCategory.get(cat.slug) || 0;
+
+    if (relatedGuides.length === 0 && relatedProductCount > 0) {
       opportunities.push({
         type: 'missing-guide',
         category: cat.slug,
@@ -199,7 +312,7 @@ function generateContentOpportunities(categories, guides, products) {
         estimatedEffort: 'médio',
         priority: 'alta',
       });
-    } else if (relatedGuides.length < 3 && relatedProducts.length > 5) {
+    } else if (relatedGuides.length < 3 && relatedProductCount > 5) {
       opportunities.push({
         type: 'thin-content',
         category: cat.slug,
@@ -211,15 +324,20 @@ function generateContentOpportunities(categories, guides, products) {
         priority: 'média',
       });
     }
-  });
+  }
+
   const materials = ['MDF', 'MDP', 'madeira maciça', 'vidro temperado', 'aço inox', 'alumínio', 'couro sintético', 'linho'];
-  materials.forEach(mat => {
-    const exists = guides.some(g =>
-      g.h1?.toLowerCase().includes(mat.toLowerCase()) ||
-      g.keyword?.toLowerCase().includes(mat.toLowerCase()) ||
-      (g.content || '').toLowerCase().includes(mat.toLowerCase())
-    );
-    if (!exists) {
+  for (const mat of materials) {
+    const matLower = mat.toLowerCase();
+    const found = Array.from(catGuideIndex.values())
+      .flat()
+      .some(
+        (g) =>
+          g.h1?.toLowerCase().includes(matLower) ||
+          g.keyword?.toLowerCase().includes(matLower) ||
+          (g.content || '').toLowerCase().includes(matLower),
+      );
+    if (!found) {
       opportunities.push({
         type: 'material-gap',
         material: mat,
@@ -230,104 +348,186 @@ function generateContentOpportunities(categories, guides, products) {
         priority: 'média',
       });
     }
-  });
+  }
+
   return opportunities;
 }
 
-function buildKnowledgeGraph(categories, guides, products, entities) {
+// ============================================================
+// KNOWLEDGE GRAPH
+// ============================================================
+function buildKnowledgeGraph(categories, guides, products, entities, catGuideIndex) {
+  // Índice produto -> tipos mencionados, evita re-varrer `products`
+  // para cada guia dentro de guideToProduct (era O(guides * products)).
+  const typeToProductSlugs = new Map();
+  for (const p of products) {
+    const name = (p.name || '').toLowerCase();
+    for (const t of entities.types) {
+      if (name.includes(t)) {
+        if (!typeToProductSlugs.has(t)) typeToProductSlugs.set(t, []);
+        typeToProductSlugs.get(t).push(p.slug);
+      }
+    }
+  }
+
   return {
     entities: {
-      categories: categories.map(c => ({ ...c, type: 'Category', description: c.description || `Categoria de ${c.label}` })),
-      guides: guides.map(g => ({ ...g, type: 'Guide', description: g.description || `Guia sobre ${g.h1}` })),
-      products: products.slice(0, 30).map(p => ({ id: p.id, name: p.name, slug: p.slug, category: p.category, mainCategory: p.mainCategory, brand: p.marca, price: p.precoMax || 0, type: 'Product' })),
-      materials: entities.materials.map(m => ({ name: m, type: 'Material' })),
-      environments: entities.environments.map(e => ({ name: e, type: 'Environment' })),
-      brands: entities.brands.map(b => ({ name: b, type: 'Brand' })),
-      colors: entities.colors.map(c => ({ name: c, type: 'Color' })),
-      styles: entities.styles.map(s => ({ name: s, type: 'Style' })),
-      benefits: entities.benefits.map(b => ({ name: b, type: 'Benefit' })),
+      categories: categories.map((c) => ({ ...c, type: 'Category', description: c.description || `Categoria de ${c.label}` })),
+      guides: guides.map((g) => ({ ...g, type: 'Guide', description: g.description || `Guia sobre ${g.h1}` })),
+      products: products.slice(0, 30).map((p) => ({
+        id: p.id,
+        name: p.name,
+        slug: p.slug,
+        category: p.category,
+        mainCategory: p.mainCategory,
+        brand: p.marca,
+        price: p.precoMax || 0,
+        type: 'Product',
+      })),
+      materials: entities.materials.map((m) => ({ name: m, type: 'Material' })),
+      environments: entities.environments.map((e) => ({ name: e, type: 'Environment' })),
+      brands: entities.brands.map((b) => ({ name: b, type: 'Brand' })),
+      colors: entities.colors.map((c) => ({ name: c, type: 'Color' })),
+      styles: entities.styles.map((s) => ({ name: s, type: 'Style' })),
+      benefits: entities.benefits.map((b) => ({ name: b, type: 'Benefit' })),
     },
     relationships: {
-      categoryToGuide: categories.map(c => {
-        const relGuides = guides.filter(g => g.keyword?.includes(c.slug) || g.h1?.toLowerCase().includes(c.label.toLowerCase()));
-        return { source: c.slug, target: relGuides.map(g => g.slug), type: 'hasGuide', weight: relGuides.length };
+      categoryToGuide: categories.map((c) => {
+        const rel = catGuideIndex.get(c.slug);
+        return { source: c.slug, target: rel.map((g) => g.slug), type: 'hasGuide', weight: rel.length };
       }),
-      guideToProduct: guides.map(g => {
-        const productSlugs = [];
-        if (g.bestSlugs) productSlugs.push(...g.bestSlugs);
-        const text = (g.h1 || '') + ' ' + (g.keyword || '') + ' ' + (g.content || '');
-        const matches = text.match(/\b(guarda-roupa|sofá|cozinha|mesa|cadeira|painel|rack|escrivaninha|armário|balcão|cômoda|estante|nicho|prateleira|divan|chaise|pufe|ottoma|bancada)\b/gi);
-        if (matches) {
-          matches.forEach(m => {
-            const found = products.filter(p => p.name?.toLowerCase().includes(m.toLowerCase())).map(p => p.slug);
-            productSlugs.push(...found);
-          });
+      guideToProduct: guides.map((g) => {
+        const productSlugs = new Set(g.bestSlugs || []);
+        const text = `${g.h1 || ''} ${g.keyword || ''} ${g.content || ''}`.toLowerCase();
+        for (const [type, slugs] of typeToProductSlugs) {
+          if (text.includes(type)) slugs.forEach((s) => productSlugs.add(s));
         }
-        return { source: g.slug, target: [...new Set(productSlugs)].slice(0, 10), type: 'recommendsProduct', weight: 1 };
+        return { source: g.slug, target: [...productSlugs].slice(0, 10), type: 'recommendsProduct', weight: 1 };
       }),
-      categoryToMaterial: categories.map(c => ({
+      categoryToMaterial: categories.map((c) => ({
         source: c.slug,
-        target: entities.materials.filter(m => c.label.toLowerCase().includes(m) || m.includes(c.label.toLowerCase())),
+        target: entities.materials.filter((m) => c.label.toLowerCase().includes(m) || m.includes(c.label.toLowerCase())),
         type: 'usesMaterial',
         weight: 1,
       })),
-      productToBrand: products.map(p => p.marca ? { source: p.slug, target: p.marca, type: 'madeBy', weight: 1 } : null).filter(Boolean),
-      guideToBenefit: guides.map(g => {
-        const text = (g.content || '') + ' ' + (g.h1 || '') + ' ' + (g.keyword || '') + ' ' + (g.seoDescription || '') + ' ' + (g.intro || '');
-        const benefits = entities.benefits.filter(b => text.toLowerCase().includes(b));
+      productToBrand: products.filter((p) => p.marca).map((p) => ({ source: p.slug, target: p.marca, type: 'madeBy', weight: 1 })),
+      guideToBenefit: guides.map((g) => {
+        const text = `${g.content || ''} ${g.h1 || ''} ${g.keyword || ''} ${g.seoDescription || ''} ${g.intro || ''}`.toLowerCase();
+        const benefits = entities.benefits.filter((b) => text.includes(b));
         return { source: g.slug, target: benefits, type: 'highlightsBenefit', weight: benefits.length };
       }),
     },
   };
 }
 
-function generateRichSummary(page, site) {
-  let summary = `${page.h1 || page.title} é uma página do ${site.name}. ${page.description || page.seoDescription || ''} ${page.category ? 'Relacionada à categoria ' + page.category + '.' : ''} ${page.objetivo ? 'Objetivo: ' + page.objetivo + '.' : ''}`;
-  const words = summary.split(' ');
-  if (words.length < 80) summary += ` O ${site.name} oferece conteúdo especializado em móveis e decoração, ajudando consumidores com análises e recomendações.`;
-  return words.length > 120 ? words.slice(0, 120).join(' ') + '...' : summary;
+// ============================================================
+// FAQ DINÂMICO (substitui o texto genérico repetido)
+// ============================================================
+// Antes: a mesma resposta ("Depende do seu orçamento e necessidades...")
+// era usada, palavra por palavra, para todas as categorias — um padrão
+// de conteúdo programático de baixo valor, fácil de mecanismos de
+// qualidade (Google, motores de resposta de IA) deduplicarem ou
+// ignorarem. Agora usamos dados reais (faixa de preço, materiais
+// predominantes) quando disponíveis, com fallback genérico só se
+// realmente não houver dado.
+function buildCategoryFaq(cat, domain, priceByCategory, entities) {
+  const range = priceByCategory.get(cat.slug);
+  const priceLine = range
+    ? `No ${domain}, ${cat.label.toLowerCase()} custam entre R$${Math.round(range.min)} e R$${Math.round(range.max)}, dependendo de material, tamanho e marca.`
+    : `Depende do seu orçamento e necessidades — consulte nossos guias especializados para comparações detalhadas.`;
+
+  const relevantMaterials = entities.materials
+    .filter((m) => ['mdf', 'mdp', 'madeira', 'vidro', 'aço', 'tecido', 'suede', 'veludo', 'linho', 'couro'].includes(m))
+    .slice(0, 3);
+  const materialLine = relevantMaterials.length
+    ? `Os materiais mais comuns são ${relevantMaterials.join(', ')}. A escolha depende do ambiente e do uso pretendido.`
+    : `Considere o ambiente onde será usado, medidas disponíveis, material preferido e funcionalidades necessárias.`;
+
+  return [
+    { question: `Qual é o melhor ${cat.label} para comprar?`, answer: priceLine },
+    {
+      question: `Onde comprar ${cat.label} com bom preço?`,
+      answer: `No ${domain} você encontra ofertas de ${cat.label.toLowerCase()} do Mercado Livre e da Shopee, com curadoria por preço e frete.`,
+    },
+    { question: `Como escolher o ${cat.label} ideal?`, answer: materialLine },
+  ];
 }
 
-function generateAINavigation(categories, guides, siteUrl, siteName) {
-  // FIX 4: recebe siteName para não hardcoded "Móveis Brasil"
+function generateAINavigation(categories, catGuideIndex, siteUrl, priceByCategory, entities) {
   const domain = siteUrl.split('//')[1];
   const navigation = {};
-  categories.forEach(cat => {
-    const relatedGuides = guides.filter(g => g.keyword?.includes(cat.slug) || g.h1?.toLowerCase().includes(cat.label.toLowerCase()));
+
+  for (const cat of categories) {
+    const relatedGuides = catGuideIndex.get(cat.slug);
     navigation[cat.slug] = {
       category: cat.label,
       categoryUrl: categoryUrl(siteUrl, cat.slug),
-      guides: relatedGuides.map(g => ({ title: g.h1, url: guideUrl(siteUrl, g.slug), description: g.description || `Guia sobre ${g.h1}` })),
-      faq: [
-        { question: `Qual é o melhor ${cat.label} para comprar?`, answer: `Depende do seu orçamento e necessidades. Consulte nossos guias especializados.` },
-        { question: `Onde comprar ${cat.label} com bom preço?`, answer: `No ${domain} você encontra as melhores ofertas do Mercado Livre e Shopee.` },
-        { question: `Como escolher o ${cat.label} ideal?`, answer: `Considere ambiente, medidas, material preferido e funcionalidades.` }
-      ],
-      relatedTopics: relatedGuides.map(g => g.h1),
+      guides: relatedGuides.map((g) => ({
+        title: g.h1,
+        url: guideUrl(siteUrl, g.slug),
+        description: g.description || `Guia sobre ${g.h1}`,
+      })),
+      faq: buildCategoryFaq(cat, domain, priceByCategory, entities),
+      relatedTopics: relatedGuides.map((g) => g.h1),
     };
-  });
+  }
+
   return navigation;
 }
 
-// FIX 4: recebe site para usar site.name em vez de "Móveis Brasil" hardcoded
-function generateFAQ(site, categories) {
+function generateGlobalFaq(site, categories, priceByCategory, entities) {
+  const domain = site.url.replace(/^https?:\/\//, '');
   const faq = [
-    { id: 'geral-1', question: 'Qual é a diferença entre MDF e MDP?', answer: 'MDF é feito de fibras finas, superfície lisa ideal para pintura. MDP usa partículas maiores, mais econômico mas menos resistente à umidade.' },
-    { id: 'geral-2', question: 'Como escolher móveis para apartamento pequeno?', answer: 'Priorize peças multifuncionais, pés elevados, cores claras e materiais leves. Sofás-cama, mesas dobráveis e armários com portas de correr são ótimos.' }
+    {
+      id: 'geral-1',
+      question: 'Qual é a diferença entre MDF e MDP?',
+      answer:
+        'MDF é feito de fibras finas, superfície lisa ideal para pintura. MDP usa partículas maiores, mais econômico mas menos resistente à umidade.',
+    },
+    {
+      id: 'geral-2',
+      question: 'Como escolher móveis para apartamento pequeno?',
+      answer:
+        'Priorize peças multifuncionais, pés elevados, cores claras e materiais leves. Sofás-cama, mesas dobráveis e armários com portas de correr são ótimos.',
+    },
   ];
-  categories.forEach(cat => {
-    faq.push({ id: `cat-${cat.slug}-1`, question: `Qual é o melhor material para ${cat.label}?`, answer: `Para ${cat.label}, recomenda-se MDF para acabamentos superiores ou MDP para economia. Madeira maciça oferece durabilidade superior.` });
-    faq.push({ id: `cat-${cat.slug}-2`, question: `Onde encontrar ${cat.label} com bom custo-benefício?`, answer: `No ${site.name} você encontra opções filtradas por preço, comparando vendedores do Mercado Livre e Shopee.` });
-  });
+
+  for (const cat of categories) {
+    const [q1, , q3] = buildCategoryFaq(cat, domain, priceByCategory, entities);
+    faq.push({ id: `cat-${cat.slug}-1`, question: `Qual é o melhor material para ${cat.label}?`, answer: q3.answer });
+    faq.push({
+      id: `cat-${cat.slug}-2`,
+      question: `Onde encontrar ${cat.label} com bom custo-benefício?`,
+      answer: `No ${site.name} você encontra opções filtradas por preço, comparando vendedores do Mercado Livre e Shopee. ${q1.answer}`,
+    });
+  }
+
   return faq;
 }
 
-// FIX 6: links com descrição após ":" (spec do llms.txt recomenda annotated links)
-function generateLlmsTxt(site, categories, guides, entities) {
-  const nav = generateAINavigation(categories, guides, site.url, site.name);
+// ============================================================
+// llms.txt
+// ============================================================
+function generateLlmsTxt(site, categories, guides, catGuideIndex, priceByCategory, entities) {
+  const siteUrl = String(site.url || '').replace(/\/+$/, '');
+
+  const getGuideTitle = (guide) => normalizeText(guide.h1 || guide.title || guide.name || guide.slug || 'Guia de compra');
+
+  const getGuideDescription = (guide) => {
+    const content = normalizeText(guide.description || guide.excerpt || guide.summary || guide.content || '');
+    return content ? content.slice(0, 300) : `Guia completo sobre ${getGuideTitle(guide)}`;
+  };
+
+  const getCategoryDescription = (category) => {
+    const description = normalizeText(category.description);
+    return description || `Veja ofertas de ${normalizeText(category.label)} e compare medidas, avaliações e condições antes de comprar.`;
+  };
+
+  const nav = generateAINavigation(categories, catGuideIndex, siteUrl, priceByCategory, entities);
+
   const lines = [
-    `# ${site.name}`,
-    `> ${site.description}`,
+    `# ${normalizeText(site.name)}`,
+    `> ${normalizeText(site.description)}`,
     '',
     '## Especialidades',
     '- Móveis planejados e modulados',
@@ -335,153 +535,226 @@ function generateLlmsTxt(site, categories, guides, entities) {
     '- Guarda-roupas e quartos completos',
     '- Cozinhas moduladas e eletrodomésticos',
     '- Home office e móveis para estudantes',
-    '- Setup Gamer e móveis para gamers',
+    '- Setup gamer e móveis para gamers',
     '',
     '## Categorias',
-    ...categories.map(cat => `- [${cat.label}](${cat.url}): ${cat.description}`),
+    ...categories.map((category) => `- [${normalizeText(category.label)}](${category.url || categoryUrl(siteUrl, category.slug)}): ${getCategoryDescription(category)}`),
     '',
     '## Guias',
-    ...guides.map(g => `- [${g.h1}](${guideUrl(site.url, g.slug)}): ${g.description || 'Guia completo sobre ' + g.h1}`),
+    ...guides.map((guide) => `- [${getGuideTitle(guide)}](${guide.url || guideUrl(siteUrl, guide.slug)}): ${getGuideDescription(guide)}`),
     '',
     '## Páginas Especiais',
-    `- [Guia de Móveis Gamer](${site.url}/moveis-gamer/): Guia completo para montar seu setup gamer com as melhores ofertas`,
-    `- [Móveis para Estudantes](${site.url}/moveis-para-estudantes/): Móveis compactos e funcionais para universitários`,
-    `- [Móveis para Bebê](${site.url}/moveis-para-bebe/): Móveis seguros e adequados para o quarto do bebê`,
-    `- [Montadores em Marília](${site.url}/montadores/marilia/): Serviço de montagem de móveis em Marília e região`,
+    `- [Guia de Móveis Gamer](${siteUrl}/moveis-gamer): Guia completo para montar seu setup gamer com ofertas do Mercado Livre e da Shopee.`,
+    `- [Móveis para Estudantes](${siteUrl}/moveis-para-estudantes): Móveis compactos e funcionais para universitários.`,
+    `- [Móveis para Bebê](${siteUrl}/moveis-para-bebe): Móveis seguros e adequados para o quarto do bebê.`,
+    `- [Montadores em Marília](${siteUrl}/montadores/marilia): Serviço de montagem de móveis em Marília e região.`,
     '',
     '## AI Navigation',
-    ...Object.entries(nav).map(([slug, n]) => `### ${n.category}\nURL: ${n.categoryUrl}\nGuias:\n${n.guides.map(g => `- ${g.title}`).join('\n')}`),
-    `\n\nÚltima atualização: ${new Date().toISOString().slice(0, 19)}`,
+    ...Object.values(nav).flatMap((navigation) => {
+      const navigationGuides = Array.isArray(navigation.guides) ? navigation.guides : [];
+      return [
+        `### ${normalizeText(navigation.category)}`,
+        `URL: ${navigation.categoryUrl}`,
+        'Guias:',
+        ...(navigationGuides.length > 0 ? navigationGuides.map((guide) => `- ${normalizeText(guide.title)}`) : ['- Nenhum guia relacionado encontrado.']),
+        'FAQ:',
+        ...navigation.faq.map((f) => `- **${f.question}** ${f.answer}`),
+        '',
+      ];
+    }),
+    `Última atualização: ${NOW_ISO}`,
   ];
+
   return lines.join('\n');
 }
 
-function generateLlmsFullTxt(site, categories, guides, products, pages, entities) {
+// ============================================================
+// llms-full.txt
+// ============================================================
+function generateLlmsFullTxt(site, categories, guides, products, pages) {
+  const siteUrl = String(site.url || '').replace(/\/+$/, '');
+
+  // Contagem de produtos por categoria calculada uma vez (Map),
+  // em vez de `products.filter(...)` repetido dentro de `.map()`
+  // para cada categoria (era O(categories * products)).
+  const countByCategory = new Map();
+  for (const p of products) {
+    for (const c of [p.category, p.mainCategory, ...(Array.isArray(p.categories) ? p.categories : [])].filter(Boolean)) {
+      const key = String(c).toLowerCase();
+      countByCategory.set(key, (countByCategory.get(key) || 0) + 1);
+    }
+  }
+
+  const getGuideTitle = (guide) => normalizeText(guide.h1 || guide.title || guide.name || guide.slug || 'Guia de compra');
+  const getGuideDescription = (guide) => {
+    const description = normalizeText(guide.description || guide.excerpt || guide.summary || guide.content || '');
+    return description ? description.slice(0, 300) : `Guia completo sobre ${getGuideTitle(guide)}`;
+  };
+
   const lines = [
-    `# ${site.name} – Documentação Completa`,
-    `URL: ${site.url}`,
+    `# ${normalizeText(site.name)} – Documentação Completa`,
+    `URL: ${siteUrl}`,
     '',
     '## Sobre',
-    site.description,
+    normalizeText(site.description),
     '',
     '## Categorias',
-    ...categories.map(c => `- ${c.label}: ${c.description} (${products.filter(p => p.category === c.slug || p.mainCategory === c.slug).length} produtos)`),
+    ...categories.map((category) => {
+      const description = normalizeText(category.description);
+      const count = countByCategory.get(String(category.slug).toLowerCase()) || 0;
+      return `- ${normalizeText(category.label)}: ${description || `Ofertas de ${normalizeText(category.label)} para comparar.`} (${count} produtos)`;
+    }),
     '',
     '## Guias',
-    ...guides.map(g => `- ${g.h1}: ${g.description || 'Guia completo'}`),
+    ...guides.map((guide) => `- ${getGuideTitle(guide)}: ${getGuideDescription(guide)}`),
     '',
     '## Páginas',
-    ...pages.map(p => `- ${p.title}: ${p.description}`),
+    ...pages.map((page) => {
+      const title = normalizeText(page.title || page.name || page.slug);
+      const description = normalizeText(page.description);
+      return `- ${title}: ${description || `Página institucional da ${site.name}.`}`;
+    }),
     '',
     '## Páginas Especiais',
-    `- Guia de Móveis Gamer: Guia completo para montar seu setup gamer com as melhores ofertas`,
-    `- Móveis para Estudantes: Móveis compactos e funcionais para universitários`,
-    `- Móveis para Bebê: Móveis seguros e adequados para o quarto do bebê`,
-    `- Montadores em Marília: Serviço de montagem de móveis em Marília e região`,
+    '- Guia de Móveis Gamer: Guia completo para montar seu setup gamer com ofertas do Mercado Livre e da Shopee.',
+    '- Móveis para Estudantes: Móveis compactos e funcionais para universitários.',
+    '- Móveis para Bebê: Móveis seguros e adequados para o quarto do bebê.',
+    '- Montadores em Marília: Serviço de montagem de móveis em Marília e região.',
     '',
-    `Gerado em: ${new Date().toISOString()}`,
+    `Gerado em: ${NOW_ISO}`,
   ];
+
   return lines.join('\n');
 }
 
-function generateLlmsIndexJson(site, categories, guides, products, pages, stats, entities, searchIntents, clusters, opps) {
+// ============================================================
+// llms-index.json
+// ============================================================
+function generateLlmsIndexJson(site, categories, guides, products, pages, stats, entities, searchIntents, clusters, opps, catGuideIndex) {
+  const siteUrl = String(site.url || '').replace(/\/+$/, '');
+
+  const getGuideKeywords = (guide) => {
+    if (Array.isArray(guide.keywords)) return guide.keywords.map((k) => normalizeText(k).toLowerCase()).filter(Boolean);
+    if (guide.keyword) return String(guide.keyword).split(',').map((k) => normalizeText(k).toLowerCase()).filter(Boolean);
+    return [];
+  };
+
+  const countByCategory = new Map();
+  for (const p of products) {
+    for (const c of [p.category, p.mainCategory, ...(Array.isArray(p.categories) ? p.categories : [])].filter(Boolean)) {
+      const key = String(c).toLowerCase();
+      countByCategory.set(key, (countByCategory.get(key) || 0) + 1);
+    }
+  }
+
   return {
-    site: { name: site.name, url: site.url, description: site.description, lastUpdated: stats.lastUpdated },
-    categories: categories.map(c => ({
-      slug: c.slug,
-      label: c.label,
-      url: c.url,
-      description: c.description,
-      relatedGuides: guides.filter(g => g.keyword?.includes(c.slug) || g.h1?.toLowerCase().includes(c.label.toLowerCase())).map(g => g.slug),
-      productCount: products.filter(p => p.category === c.slug || p.mainCategory === c.slug).length,
+    site: {
+      name: site.name,
+      url: siteUrl,
+      description: normalizeText(site.description),
+      lastUpdated: stats.lastUpdated,
+    },
+    categories: categories.map((category) => ({
+      slug: category.slug,
+      label: category.label,
+      url: `${siteUrl}/categoria/${category.slug}`,
+      description: normalizeText(category.description),
+      relatedGuides: catGuideIndex.get(category.slug).map((g) => g.slug),
+      productCount: countByCategory.get(String(category.slug).toLowerCase()) || 0,
     })),
-    guides: guides.map(g => ({
-      slug: g.slug,
-      title: g.h1,
-      url: guideUrl(site.url, g.slug),
-      description: g.description || '',
-      keywords: g.keyword ? g.keyword.split(',').map(k => k.trim()) : [],
-      wordCount: (g.content || '').split(' ').length,
+    guides: guides.map((guide) => {
+      const content = normalizeText(guide.content || guide.body || guide.text || '');
+      const description = normalizeText(guide.description || guide.excerpt || guide.summary || content.slice(0, 240));
+      return {
+        slug: guide.slug,
+        title: guide.h1 || guide.title || guide.slug,
+        url: `${siteUrl}/guia/${guide.slug}`,
+        description,
+        keywords: getGuideKeywords(guide),
+        wordCount: countWords(content),
+      };
+    }),
+    pages: pages.map((page) => ({
+      ...page,
+      url: page.url ? String(page.url).replace(/\/+$/, '') : page.url,
+      description: normalizeText(page.description),
     })),
-    pages: pages,
     specialPages: [
-      { slug: 'moveis-gamer', title: 'Guia de Móveis Gamer', url: `${site.url}/moveis-gamer/`, description: 'Guia completo para montar seu setup gamer com as melhores ofertas do Mercado Livre e Shopee.' },
-      { slug: 'montadores-marilia', title: 'Montadores em Marília', url: `${site.url}/montadores/marilia/`, description: 'Serviço de montagem de móveis em Marília e região.' }
+      {
+        slug: 'moveis-gamer',
+        title: 'Guia de Móveis Gamer',
+        url: `${siteUrl}/moveis-gamer`,
+        description: 'Guia completo para montar seu setup gamer com ofertas do Mercado Livre e da Shopee.',
+      },
+      {
+        slug: 'montadores-marilia',
+        title: 'Montadores em Marília',
+        url: `${siteUrl}/montadores/marilia`,
+        description: 'Serviço de montagem de móveis em Marília e região.',
+      },
     ],
     statistics: stats,
-    entities: entities,
-    searchIntents: searchIntents,
+    entities,
+    searchIntents,
     contentClusters: clusters,
     contentOpportunities: opps,
   };
 }
 
 // ============================================================
-// SITEMAP CORRIGIDO
+// SITEMAP
 // ============================================================
-function generateSitemap(site, categories, guides, products, pages) {
+function generateSitemap(site, categories, guides, products, pages, contentLastMod) {
   const urls = [];
-  // FIX 3: lastmod real baseado nos arquivos de dados (não hoje)
-  const contentLastMod = getDataLastMod();
-  const today = new Date().toISOString().split('T')[0];
 
-  // FIX 2: apenas categorias que NÃO têm página /categoria/[slug] real.
-  // As páginas especiais (moveis-gamer, moveis-para-bebe, moveis-para-estudantes)
-  // são servidas em rotas próprias e adicionadas manualmente abaixo.
-  // ANTES estava excluindo sofas, cozinhas, guarda-roupas, paineis, quartos, home-office — ERRO.
-  const categoriasExcluidas = [
-    'moveis-para-estudantes',
-    'moveis-gamer',
-    'moveis-para-bebe',
-    'area-externa',
-    'mdf-mdp',
-    'home-office',
-  ];
+  // FIX: 'home-office' foi removido da lista de exclusão.
+  // O llms.txt/AI Navigation do próprio site referencia
+  // `/categoria/home-office` como página real — excluí-la do sitemap
+  // a tornava invisível para crawlers que descobrem páginas via
+  // sitemap.xml. Se essa rota NÃO existir de fato no seu app router,
+  // adicione o slug de volta aqui.
+  const categoriasExcluidas = new Set(['moveis-para-estudantes', 'moveis-gamer', 'moveis-para-bebe', 'area-externa', 'mdf-mdp']);
 
   console.log(`📊 Gerando sitemap com ${products.length} produtos`);
   console.log(`📅 lastmod de conteúdo: ${contentLastMod}`);
 
-  // Home usa hoje (mudança estrutural)
-  urls.push({ loc: site.url, lastmod: today, changefreq: 'daily', priority: '1.0' });
+  // FIX: home agora usa contentLastMod (não `today`), consistente
+  // com o resto do sitemap — evita lastmod "falso" a cada build.
+  urls.push({ loc: site.url, lastmod: contentLastMod, changefreq: 'daily', priority: '1.0' });
 
-  categories.forEach(cat => {
-    if (categoriasExcluidas.includes(cat.slug)) {
+  for (const cat of categories) {
+    if (categoriasExcluidas.has(cat.slug)) {
       console.log(`   ⏭ Pulando categoria excluída: ${cat.slug}`);
-      return;
+      continue;
     }
-    // FIX 3: lastmod = data real do conteúdo
     urls.push({ loc: cat.url, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.9' });
-  });
+  }
 
-  guides.forEach(g => {
-    if (categoriasExcluidas.includes(g.slug)) {
+  for (const g of guides) {
+    if (categoriasExcluidas.has(g.slug)) {
       console.log(`   ⏭ Pulando guia que conflita com categoria: ${g.slug}`);
-      return;
+      continue;
     }
     urls.push({ loc: guideUrl(site.url, g.slug), lastmod: contentLastMod, changefreq: 'monthly', priority: '0.8' });
-  });
+  }
 
-  const paginasEspeciais = ['moveis-gamer', 'moveis-para-bebe', 'moveis-para-estudantes'];
-  pages.forEach(p => {
-    if (paginasEspeciais.includes(p.slug)) return;
+  const paginasEspeciais = new Set(['moveis-gamer', 'moveis-para-bebe', 'moveis-para-estudantes']);
+  for (const p of pages) {
+    if (paginasEspeciais.has(p.slug)) continue;
     urls.push({ loc: p.url, lastmod: contentLastMod, changefreq: 'monthly', priority: '0.7' });
-  });
+  }
 
   urls.push({ loc: `${site.url}/moveis-gamer`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.9' });
   urls.push({ loc: `${site.url}/moveis-para-bebe`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.8' });
   urls.push({ loc: `${site.url}/moveis-para-estudantes`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.8' });
   urls.push({ loc: `${site.url}/guias`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.8' });
-  // NOVAS GUIAS PREMIUM 2026
   urls.push({ loc: `${site.url}/guias/sofa-retratil-sala-pequena`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.9' });
   urls.push({ loc: `${site.url}/guias/guarda-roupa-casal-6-portas`, lastmod: contentLastMod, changefreq: 'weekly', priority: '0.9' });
-  // PÁGINA DE MONTADORES (SERVIÇO LOCAL)
   urls.push({ loc: `${site.url}/montadores/marilia`, lastmod: contentLastMod, changefreq: 'monthly', priority: '0.8' });
 
-
-
-  products.forEach(p => {
+  for (const p of products) {
     urls.push({ loc: productUrl(site.url, p.slug), lastmod: contentLastMod, changefreq: 'weekly', priority: '0.6' });
-  });
+  }
 
   // Dedup mantendo a prioridade mais alta
   const seen = new Map();
@@ -491,85 +764,102 @@ function generateSitemap(site, categories, guides, products, pages) {
       seen.set(u.loc, u);
     }
   }
-  const finalUrls = Array.from(seen.values());
+  const finalUrls = [...seen.values()];
 
   console.log(`✅ Sitemap gerado com ${finalUrls.length} URLs no total`);
-  console.log(`   - ${categories.length} categorias (${categoriasExcluidas.length} excluídas)`);
+  console.log(`   - ${categories.length} categorias (${categoriasExcluidas.size} elegíveis a exclusão)`);
   console.log(`   - ${guides.length} guias`);
   console.log(`   - ${pages.length} páginas`);
   console.log(`   - ${products.length} produtos`);
   console.log(`   - 1 página de montadores`);
 
-  // FIX 5: escapeXml no loc
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${finalUrls.map(u => `  <url>
+${finalUrls
+  .map(
+    (u) => `  <url>
     <loc>${escapeXml(u.loc)}</loc>
     <lastmod>${u.lastmod}</lastmod>
     <changefreq>${u.changefreq}</changefreq>
     <priority>${u.priority}</priority>
-  </url>`).join('\n')}
+  </url>`,
+  )
+  .join('\n')}
 </urlset>`;
   return xml;
 }
 
+// ============================================================
+// robots.txt
+// ============================================================
 function generateRobotsTxt(site) {
-  const siteUrl = site.url.replace(/\/+$/, "");
-
-  const lines = [
-    "User-agent: *",
-    "Content-Signal: search=yes,ai-input=yes,ai-train=no,use=reference",
-    "Allow: /",
-    "Disallow: /admin/",
-    "Disallow: /api/",
-    "Disallow: /cdn-cgi/",
-    "",
+  const siteUrl = site.url.replace(/\/+$/, '');
+  return [
+    'User-agent: *',
+    'Content-Signal: search=yes,ai-input=yes,ai-train=no,use=reference',
+    'Allow: /',
+    'Disallow: /admin/',
+    'Disallow: /api/',
+    'Disallow: /cdn-cgi/',
+    '',
     `Sitemap: ${siteUrl}/sitemap.xml`,
-  ];
-
-  return lines.join("\n");
+  ].join('\n');
 }
 
-
-
+// ============================================================
+// CARREGAMENTO DE DADOS
+// ============================================================
 async function loadData() {
   const { SITE, uniqueCategories: allCategories, CATEGORY_LABELS, products } = await import('../src/data/products.ts');
   const { getAllGuidesMeta } = await import('../src/data/guides.ts');
   const guides = getAllGuidesMeta();
+
   console.log('='.repeat(60));
   console.log('🔍 DIAGNÓSTICO DE PRODUTOS');
   console.log('='.repeat(60));
   console.log(`📦 Total de produtos no products.ts: ${products.length}`);
-  const missingSlug = products.filter(p => !p.slug);
+
+  const missingSlug = products.filter((p) => !p.slug);
   if (missingSlug.length > 0) {
     console.warn(`\n⚠ Produtos SEM SLUG (${missingSlug.length}):`);
-    missingSlug.forEach(p => console.warn(`   - ID: ${p.id || 'Sem ID'} | Nome: ${p.name || 'Sem nome'}`));
+    missingSlug.forEach((p) => console.warn(`   - ID: ${p.id || 'Sem ID'} | Nome: ${p.name || 'Sem nome'}`));
   }
-  const slugs = products.map(p => p.slug);
-  const duplicateSlugs = slugs.filter((s, i) => slugs.indexOf(s) !== i);
+
+  const slugCounts = new Map();
+  for (const p of products) {
+    if (!p.slug) continue;
+    slugCounts.set(p.slug, (slugCounts.get(p.slug) || 0) + 1);
+  }
+  const duplicateSlugs = [...slugCounts.entries()].filter(([, count]) => count > 1).map(([slug]) => slug);
   if (duplicateSlugs.length > 0) {
     console.warn(`\n⚠ Slugs DUPLICADOS (${duplicateSlugs.length}):`);
-    duplicateSlugs.forEach(s => console.warn(`   - ${s}`));
+    duplicateSlugs.forEach((s) => console.warn(`   - ${s}`));
   }
+
   console.log('\n' + '='.repeat(60));
   console.log(`📦 Carregados ${products.length} produtos`);
   console.log(`📦 Carregados ${guides.length} guias`);
   console.log('='.repeat(60) + '\n');
+
   return { SITE, allCategories, CATEGORY_LABELS, products, guides };
 }
 
+// ============================================================
+// ORQUESTRAÇÃO PRINCIPAL
+// ============================================================
 async function generateFiles() {
   let { SITE, allCategories, CATEGORY_LABELS, products, guides } = await loadData();
-  if (!allCategories) allCategories = Object.keys(CATEGORY_LABELS);
-  console.log("allCategories:", allCategories);
-  console.log("CATEGORY_LABELS:", CATEGORY_LABELS ? Object.keys(CATEGORY_LABELS).length : "undefined");
-  if (!allCategories || !allCategories.length) {
-    console.log("⚠ allCategories vazio, usando CATEGORY_LABELS como fallback");
-    allCategories = Object.keys(CATEGORY_LABELS || {});
-  }
-  if (!CATEGORY_LABELS) throw new Error("CATEGORY_LABELS não foi exportado do products.ts");
 
-  const categories = allCategories.map(cat => ({
+  if (!CATEGORY_LABELS) throw new Error('CATEGORY_LABELS não foi exportado do products.ts');
+  if (!allCategories || !allCategories.length) {
+    console.log('⚠ allCategories vazio, usando CATEGORY_LABELS como fallback');
+    allCategories = Object.keys(CATEGORY_LABELS);
+  }
+
+  console.log('allCategories:', allCategories);
+  console.log('CATEGORY_LABELS:', Object.keys(CATEGORY_LABELS).length);
+
+  const categories = allCategories.map((cat) => ({
     slug: cat,
     label: CATEGORY_LABELS[cat] || cat,
     url: categoryUrl(SITE.url, cat),
@@ -585,26 +875,41 @@ async function generateFiles() {
     { slug: 'contato', title: 'Contato', url: pageUrl(SITE.url, 'contato'), description: 'Entre em contato conosco por e-mail ou WhatsApp.' },
   ];
 
+  const contentLastMod = getDataLastMod();
+
   const stats = {
     totalCategories: categories.length,
     totalGuides: guides.length,
     totalPages: pages.length + 1,
     totalProducts: products.length,
-    generatedAt: new Date().toISOString(),
-    lastUpdated: new Date().toISOString(),
+    generatedAt: NOW_ISO,
+    lastUpdated: NOW_ISO,
   };
 
-  const entities = extractEntities(products, guides);
-  const searchIntents = generateSearchIntents(categories, guides);
-  const clusters = generateContentClusters(categories, guides);
-  const opps = generateContentOpportunities(categories, guides, products);
-  const graph = buildKnowledgeGraph(categories, guides, products, entities);
+  // Todo o trabalho pesado (regex, agrupamentos) acontece uma vez aqui
+  // e é reaproveitado por todas as funções de geração abaixo.
+  const { entities, priceByCategory } = extractEntities(products, guides);
+  const catGuideIndex = buildCategoryGuideIndex(categories, guides);
 
-  fs.writeFileSync(path.join(publicDir, 'llms.txt'), generateLlmsTxt(SITE, categories, guides, entities));
-  fs.writeFileSync(path.join(publicDir, 'llms-full.txt'), generateLlmsFullTxt(SITE, categories, guides, products, pages, entities));
-  fs.writeFileSync(path.join(publicDir, 'llms-index.json'), JSON.stringify(generateLlmsIndexJson(SITE, categories, guides, products, pages, stats, entities, searchIntents, clusters, opps), null, 2));
+  const searchIntents = generateSearchIntents(categories, guides, catGuideIndex);
+  const clusters = generateContentClusters(categories, catGuideIndex);
+  const opps = generateContentOpportunities(categories, catGuideIndex, products);
+  // buildKnowledgeGraph fica disponível caso queira persistir separadamente;
+  // mantido aqui para paridade com o script original.
+  buildKnowledgeGraph(categories, guides, products, entities, catGuideIndex);
+
+  fs.writeFileSync(path.join(publicDir, 'llms.txt'), generateLlmsTxt(SITE, categories, guides, catGuideIndex, priceByCategory, entities));
+  fs.writeFileSync(path.join(publicDir, 'llms-full.txt'), generateLlmsFullTxt(SITE, categories, guides, products, pages));
+  fs.writeFileSync(
+    path.join(publicDir, 'llms-index.json'),
+    JSON.stringify(
+      generateLlmsIndexJson(SITE, categories, guides, products, pages, stats, entities, searchIntents, clusters, opps, catGuideIndex),
+      null,
+      2,
+    ),
+  );
   fs.writeFileSync(path.join(publicDir, 'robots.txt'), generateRobotsTxt(SITE));
-  fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), generateSitemap(SITE, categories, guides, products, pages));
+  fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), generateSitemap(SITE, categories, guides, products, pages, contentLastMod));
   fs.writeFileSync(path.join(publicDir, 'content-opportunities.json'), JSON.stringify(opps, null, 2));
 
   console.log('✅ Arquivos de SEO gerados com sucesso!');
