@@ -15384,6 +15384,210 @@ A **Mesa Dobrável de Parede Retrátil** combina economia de espaço, uso multiu
   seoTitle: "Mesa Dobrável de Parede Retrátil para Pequenos Espaços",
   seoDescription: "Mesa dobrável de parede em MDP com 70 cm de largura, 90 cm de altura e apenas 15 cm fechada. Ideal para home office, estudo, cozinha e apartamentos compactos.",
 },
+{
+  id: "p-imp-177",
+  slug: "guarda-roupa-casal-grande-marta-5-portas-2-gavetas-freijo-off-white",
+  category: "guarda-roupas",
+  categories: ["guarda-roupas", "quartos", "mdf-mdp"],
+  mainCategory: "quarto",
+  name: "Guarda-Roupa Casal Grande Marta 5 Portas e 2 Gavetas Freijó/Off White",
+  imageFile: "/imagens/produtos/guarda-roupa-casal-grande-marta-5-portas-2-gavetas-freijo-off-white.webp",
+  displayImage: "/imagens/produtos/guarda-roupa-casal-grande-marta-5-portas-2-gavetas-freijo-off-white.webp",
+  imageHover: "/imagens/produtos/guarda-roupa-casal-grande-marta-5-portas-2-gavetas-freijo-off-white-hover.webp",
+  alt: "Guarda-roupa casal grande Marta com 5 portas, 2 gavetas, 7 nichos e cabideiros de alumínio em Freijó e Off White",
+  rating: 4.9,
+  reviews: 148,
+  discount: null,
+  price: 852.18,
+  originalPrice: 1012.00,
+  badge: "LOJA OFICIAL | 5 PORTAS",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/7KworwHNuz",
+  descricao: `
+# Guarda-Roupa Casal Marta: organização ampla para o quarto
+
+O **Guarda-Roupa Casal Marta** foi pensado para quem precisa distribuir roupas, acessórios e peças penduradas em um móvel de grande capacidade. A composição reúne cinco portas, duas gavetas, sete prateleiras, sete nichos, nove repartições internas e dois cabideiros de alumínio, permitindo criar setores de organização para diferentes tipos de peças.
+
+Com acabamento **Freijó/Off White**, o móvel combina uma tonalidade amadeirada com uma cor clara e neutra. Essa composição pode harmonizar com quartos modernos, contemporâneos ou mais tradicionais, funcionando como uma peça central para organizar o ambiente sem depender de espelho ou elementos decorativos incorporados.
+
+## Nove repartições para organizar por categoria
+
+A divisão interna do Guarda-Roupa Casal Marta permite separar roupas de cama, peças dobradas, acessórios, caixas e itens de uso frequente. As sete prateleiras e sete nichos podem ser organizados por pessoa, estação do ano ou frequência de uso, evitando que todo o conteúdo fique misturado em um único espaço.
+
+As repartições inferiores e superiores possuem limite informado de **5 kg por compartimento**. Já as prateleiras suportam até **3 kg cada**, e as gavetas até **3 kg cada**. Distribua os objetos e evite concentrar peso em um ponto específico, principalmente nas áreas superiores.
+
+## Cinco portas e dois cabideiros de alumínio
+
+As cinco portas dão acesso aos diferentes módulos do guarda-roupa. Como o tipo de abertura não foi informado na descrição recebida, confira no anúncio ou no manual se o modelo adquirido utiliza portas de bater, correr ou outro sistema antes de planejar o espaço frontal.
+
+Os dois cabideiros de alumínio foram pensados para roupas que precisam permanecer penduradas, como camisas, vestidos, casacos e calças. Separe as peças por pessoa ou tipo de uso e deixe espaço suficiente entre os cabides para evitar amassados e facilitar o acesso.
+
+## MDP e HDF: estrutura e fundo do móvel
+
+A estrutura é informada como produzida em **MDP com 12 mm de espessura**, enquanto o fundo utiliza **HDF de 3 mm**. Esses materiais devem ser protegidos contra infiltrações, umidade constante, excesso de água, calor intenso e produtos de limpeza abrasivos.
+
+O guarda-roupa deve ser instalado em ambiente interno, seco e ventilado. Se houver mofo ou umidade na parede, corrija a origem do problema antes de montar o móvel. Quando necessário, mantenha uma pequena distância da parede, conforme avaliação do montador, para evitar contato direto com superfícies úmidas.
+
+## Medidas do produto e planejamento da entrega
+
+O Guarda-Roupa Casal Marta tem **207 cm de altura, 215,5 cm de largura e 47,4 cm de profundidade**, com peso aproximado de **119,4 kg**. É um móvel grande, portanto as rotas de acesso devem ser verificadas antes da compra e da entrega.
+
+O produto chega desmontado em três volumes. As medidas informadas são:
+
+| Volume | Medidas informadas |
+|---|---|
+| 1º volume | 8,3 × 248 × 45,9 cm |
+| 2º volume | 9 × 160,3 × 46,4 cm |
+| 3º volume | 9,5 × 188,9 × 43,7 cm |
+
+Confira portas, corredores, escadas, elevadores e áreas de manobra. Em prédios, a transportadora informa entrega na portaria, sem subida até o apartamento. Verifique previamente quem fará o transporte interno dos volumes e reserve uma área segura para armazená-los até a montagem.
+
+## Especificações técnicas
+
+| Especificação | Informação |
+|---|---|
+| Linha | Marta |
+| Marca exibida no anúncio | Caemmun |
+| Tipo | Guarda-roupa casal grande |
+| Cor | Freijó/Off White |
+| Portas | 5 |
+| Gavetas | 2 |
+| Nichos | 7 |
+| Prateleiras | 7 |
+| Repartições internas | 9 |
+| Cabideiros | 2 em alumínio |
+| Estrutura | MDP de 12 mm |
+| Fundo | HDF de 3 mm |
+| Altura | 207 cm |
+| Largura | 215,5 cm |
+| Profundidade | 47,4 cm |
+| Peso | 119,4 kg |
+| Limite por gaveta | 3 kg |
+| Limite por prateleira | 3 kg |
+| Limite por repartição superior | 5 kg |
+| Limite por repartição inferior | 5 kg |
+| Volumes | 3 |
+| Montagem | Necessária; manual incluso |
+| Garantia informada | 90 dias contra defeito de fabricação |
+
+## ⚠️ Dicas importantes do montador
+
+> **Deixe o espaço livre antes da montagem.** Reserve uma área ampla, limpa e nivelada para abrir os três volumes, organizar as peças e permitir que o profissional trabalhe com segurança.
+>
+> **Não tente montar o guarda-roupa sem experiência.** Contrate um montador profissional com ferramentas adequadas. Ele deverá conferir ferragens, esquadro, nivelamento, alinhamento das portas, fixação do fundo, encaixe das prateleiras e funcionamento das gavetas.
+>
+> **As gavetas devem ser coladas quando o sistema exigir.** O montador também deve conferir o alinhamento, a abertura e o fechamento antes de liberar o uso. Os acessórios previstos acompanham o produto, mas pequenos itens faltantes ou complementos podem ser providenciados pelo profissional.
+>
+> **Não ultrapasse os limites de peso.** Cada gaveta suporta até 3 kg, cada prateleira até 3 kg e as repartições superiores e inferiores até 5 kg, conforme os dados recebidos. Distribua os objetos e não concentre peso em um único ponto.
+>
+> **Atenção à movimentação.** O produto pesa aproximadamente 119,4 kg e chega dividido em três volumes. Não tente carregar ou deslocar as peças sozinho. Organize a entrega interna com ajuda suficiente e nunca arraste o móvel montado com roupas dentro.
+>
+> **Proteja contra umidade.** Não encoste o guarda-roupa em parede com infiltração, mofo ou umidade persistente. Corrija o problema antes da instalação e mantenha o móvel afastado da parede conforme a avaliação do montador; em ambientes úmidos, um afastamento aproximado de 5 a 10 cm pode favorecer a ventilação.
+>
+> **Não sobrecarregue o topo.** Coloque somente objetos leves na parte superior e nunca concentre peso em áreas sem apoio estrutural. Respeite os limites do manual e não use o móvel como prateleira para objetos pesados.
+>
+> **Limpe com cuidado.** Use pano macio, seco ou muito levemente umedecido e seque logo depois. **Não utilize lustra-móveis, ceras, álcool, solventes, cloro, esponjas ásperas, produtos abrasivos ou excesso de água.**
+
+Precisa de ajuda para montar? Acesse a nossa [página de montadores de móveis](/montadores) e veja profissionais indicados para realizar a montagem, o nivelamento e a regulagem. Para conferir conteúdos de organização e conservação, visite a [página de guias](/guias). Em caso de dúvidas, utilize a [página de contato](/contato).
+
+## Perguntas frequentes
+
+**Quantas portas possui o Guarda-Roupa Casal Marta?**
+
+O modelo possui cinco portas. Como o tipo de abertura não foi informado na descrição recebida, confirme no anúncio ou no manual se são portas de bater, correr ou outro sistema.
+
+**Quantas gavetas, prateleiras e nichos o móvel possui?**
+
+São duas gavetas, sete prateleiras e sete nichos, distribuídos em nove repartições internas.
+
+**Qual é o limite de peso?**
+
+A descrição informa limite de 3 kg por gaveta, 3 kg por prateleira e 5 kg por repartição superior ou inferior. Distribua o conteúdo e não ultrapasse esses valores.
+
+**O guarda-roupa possui cabideiros?**
+
+Sim. O produto possui dois cabideiros de alumínio para peças que precisam ficar penduradas.
+
+**Qual é o tamanho do produto?**
+
+As medidas informadas são 207 cm de altura, 215,5 cm de largura e 47,4 cm de profundidade. O peso aproximado é de 119,4 kg.
+
+**Como o produto é entregue?**
+
+Ele chega desmontado em três volumes. A transportadora informa entrega na portaria de prédios, sem subida até apartamentos. Verifique a logística local e organize o transporte interno antes da entrega.
+
+**É preciso contratar um montador?**
+
+A contratação é altamente recomendada. O móvel é grande, pesado e possui diversas divisões, prateleiras, portas e gavetas que precisam ser alinhadas e niveladas corretamente.
+
+**Como limpar o Guarda-Roupa Casal Marta?**
+
+Use pano macio, seco ou muito levemente umedecido. Não utilize produtos abrasivos, lustra-móveis, álcool, solventes, cloro ou excesso de água.
+
+## Conteúdos relacionados
+
+Para consultar dicas de organização, medidas e conservação, acesse a [página de guias](/guias). Para contratar ajuda profissional, visite a [página de montadores de móveis](/montadores). Para atendimento e dúvidas sobre o pedido, utilize a [página de contato](/contato).
+
+O **Guarda-Roupa Casal Marta** reúne cinco portas, sete nichos, sete prateleiras, duas gavetas, nove repartições e dois cabideiros de alumínio em uma composição Freijó/Off White de grande capacidade. Confira no anúncio as condições de entrega, as medidas dos volumes e os detalhes da montagem antes de finalizar a compra.
+  `,
+  marca: "Caemmun",
+  keywords: [
+    "guarda-roupa casal Marta",
+    "guarda-roupa 5 portas 2 gavetas",
+    "guarda-roupa Freijó Off White",
+    "guarda-roupa MDP HDF",
+    "guarda-roupa com 7 nichos",
+    "guarda-roupa com 7 prateleiras",
+    "guarda-roupa com 9 repartições",
+    "guarda-roupa com 2 cabideiros de alumínio",
+    "guarda-roupa casal 215 cm",
+    "guarda-roupa com 3 volumes",
+    "guarda-roupa com limite de 3 kg",
+    "guarda-roupa grande para quarto",
+    "armário casal Freijó Off White",
+    "guarda-roupa com nichos e prateleiras",
+    "móvel para quarto casal Caemmun",
+  ],
+  caracteristicas: [
+    "5 portas",
+    "2 gavetas com limite informado de 3 kg cada",
+    "7 nichos e 7 prateleiras",
+    "9 repartições internas",
+    "2 cabideiros de alumínio",
+    "Estrutura em MDP de 12 mm",
+    "Fundo em HDF de 3 mm",
+    "Dimensões de 207 x 215,5 x 47,4 cm",
+    "Envio desmontado em 3 volumes",
+  ],
+  recomendacao: "Indicado para casais que precisam de um guarda-roupa amplo, com diversos nichos, prateleiras e repartições para separar roupas, acessórios e peças penduradas. A composição Freijó/Off White combina com quartos modernos e neutros.",
+  contras: [
+    "O móvel possui 119,4 kg e chega em três volumes, exigindo planejamento para transporte e montagem.",
+    "Os limites são de 3 kg por gaveta e prateleira e 5 kg por repartição, conforme os dados recebidos.",
+    "O tipo de abertura das cinco portas não foi informado e deve ser confirmado no anúncio ou manual.",
+    "A entrega em prédios pode ocorrer somente na portaria, sem subida até o apartamento.",
+  ],
+  notaMontador: "Deixe o espaço livre e nivelado para abrir os três volumes. Não tente montar o guarda-roupa sem experiência; contrate um profissional com ferramentas adequadas para conferir ferragens, esquadro, nivelamento, fundo, portas, prateleiras e gavetas. Cole as gavetas quando o sistema exigir. Respeite 3 kg por gaveta e prateleira e 5 kg por repartição superior ou inferior. Não arraste o móvel carregado e movimente os volumes com ajuda suficiente. Mantenha afastamento de paredes úmidas, não sobrecarregue o topo e limpe apenas com pano macio, seco ou muito levemente umedecido.",
+  relatedGuides: [
+    {
+      title: "Guias de organização e escolha de móveis",
+      href: "/guias",
+      anchor: "página de guias",
+    },
+    {
+      title: "Montadores de móveis profissionais",
+      href: "/montadores",
+      anchor: "Ver montadores indicados",
+    },
+    {
+      title: "Contato",
+      href: "/contato",
+      anchor: "página de contato",
+    },
+  ],
+  seoTitle: "Guarda-Roupa Casal Grande 5 Portas e 2 Gavetas Freijó Off White",
+  seoDescription: "Guarda-Roupa Casal Grande com 5 portas, 2 gavetas, 7 nichos, 7 prateleiras, 9 repartições e 2 cabideiros de alumínio. MDP/HDF Freijó Off White.",
+},
+
 
 
 
