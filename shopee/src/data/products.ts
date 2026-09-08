@@ -15203,6 +15203,188 @@ O **Guarda-Roupa Casal França** combina seis portas, duas gavetas telescópicas
 },
 
 
+ {
+  id: "p-imp-176",
+  slug: "mesa-dobravel-parede-retratil-suspensa-mdp-pequenos-espacos",
+  category: "mesas",
+  categories: ["mesas", "home-office", "cozinhas", "moveis-para-estudantes"],
+  mainCategory: "escritorio",
+
+  name: "Mesa Dobrável de Parede Retrátil Suspensa em MDP para Pequenos Espaços",
+  imageFile: "/imagens/produtos/mesa-dobravel-parede-retratil-suspensa-mdp.webp",
+  displayImage: "/imagens/produtos/mesa-dobravel-parede-retratil-suspensa-mdp.webp",
+  imageHover: "/imagens/produtos/mesa-dobravel-parede-retratil-suspensa-mdp-hover.webp",
+  alt: "Mesa dobrável de parede retrátil em MDP para home office, cozinha e ambientes pequenos",
+  rating: 4.9,
+  reviews: 703,
+  discount: null,
+  price: 297.50,
+  originalPrice: 329.64,
+  badge: "MESA RETRÁTIL | PEQUENOS ESPAÇOS",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/5VV9mUCBFt",
+  descricao: `
+# Mesa Dobrável de Parede: uma bancada retrátil para aproveitar melhor o ambiente
+
+A **Mesa Dobrável de Parede Retrátil** é uma solução prática para quem precisa criar uma área de trabalho, estudo ou apoio sem ocupar permanentemente o espaço do cômodo. Presa à parede, ela pode ser aberta quando necessário e fechada depois do uso, liberando a circulação em apartamentos, cozinhas compactas, lavanderias, quartos e home offices.
+
+Com tampo em **MDP** e opções de cor branca, preta, freijó e cinza, o modelo pode acompanhar diferentes estilos de decoração. A proposta é transformar uma parede livre em uma bancada funcional para notebook, cadernos, refeições rápidas, pequenos preparos ou tarefas domésticas, sempre respeitando a capacidade indicada pelo fabricante e a qualidade da instalação.
+
+## Uma mesa que se adapta à rotina
+
+Quando aberta, a mesa alcança aproximadamente **100,5 cm de profundidade total até a parede**, criando uma superfície confortável para atividades do dia a dia. Fechada, ocupa cerca de **15 cm de profundidade**, o que ajuda a reduzir a interferência na circulação e facilita a organização do ambiente.
+
+A altura informada é de **90 cm** e a largura de **70 cm**. Essas medidas podem atender a diferentes usos, como estudo, trabalho remoto, apoio para pequenos eletrodomésticos ou bancada auxiliar. Antes da compra, confira a altura das cadeiras, banquetas e demais objetos que serão usados junto à mesa.
+
+## Onde usar a mesa retrátil
+
+No home office, o tampo pode funcionar como uma estação compacta para notebook, teclado, cadernos e materiais de trabalho. No quarto, pode criar um canto de estudos sem exigir uma escrivaninha tradicional. Em apartamentos pequenos, ajuda a montar uma área de apoio que desaparece visualmente quando não está em uso.
+
+Na cozinha ou área de serviço, pode servir como bancada auxiliar, desde que fique protegida de vapor excessivo, respingos, calor direto e água acumulada. Para esses ambientes, a parede precisa estar seca, firme e preparada para receber a fixação.
+
+O uso ideal depende do planejamento do espaço. Deixe área suficiente para abrir o tampo, movimentar a cadeira e circular com segurança. Evite instalar atrás de portas, em locais de passagem estreita ou onde o tampo aberto possa atingir pessoas e objetos.
+
+## MDP com acabamento fácil de conservar
+
+O produto é informado como produzido em **MDP**, material utilizado em móveis residenciais e que precisa ser protegido contra umidade prolongada, infiltrações, excesso de água e produtos abrasivos. Para a limpeza, use pano macio, seco ou muito levemente umedecido e seque logo depois.
+
+Não deixe copos, recipientes molhados ou objetos com vazamento diretamente sobre o tampo. Em uso na cozinha ou lavanderia, redobre o cuidado com respingos e vapor. A mesa não deve ser tratada como bancada molhada ou área de corte, a menos que o fabricante indique essa possibilidade.
+
+## Especificações informadas
+
+| Especificação | Informação |
+|---|---|
+| Tipo | Mesa dobrável de parede retrátil |
+| Material | MDP |
+| Altura | 90 cm |
+| Largura | 70 cm |
+| Profundidade aberta até a parede | 100,5 cm |
+| Profundidade fechada | 15 cm |
+| Cores disponíveis | Branco, preto, freijó e cinza |
+| Montagem | Enviada desmontada |
+| Acompanha | Mesa, kit de ferragens e manual |
+| Garantia informada | 3 meses contra defeitos de fabricação |
+| Indicações de uso | Escritório, estudo, cozinha, área de serviço e pequenos espaços |
+
+> **Atenção:** a descrição recebida não informa a capacidade máxima de peso do tampo. Confirme esse limite no manual ou no anúncio antes de apoiar notebook, eletrodomésticos, utensílios ou outros objetos. Nunca apoie o peso do corpo nem suba sobre a mesa.
+
+## ⚠️ Dicas importantes do montador para instalação na parede
+
+> **A instalação precisa ser feita por um profissional.** Não tente fixar a mesa sozinho sem experiência. Um montador poderá avaliar a parede, escolher a fixação adequada, utilizar as ferramentas corretas e conferir a estabilidade do sistema antes do uso.
+>
+> **Identifique o tipo de parede antes de furar.** Bloco, tijolo vazado, alvenaria maciça, concreto e drywall exigem buchas, parafusos e, em alguns casos, sistemas de reforço diferentes. **As ferragens que acompanham o produto não devem ser consideradas universais** sem confirmar sua compatibilidade com o substrato e a carga.
+>
+> **Verifique tubulações e fiação.** Antes da perfuração, confira se não existem canos, conduítes ou cabos elétricos passando no local. Em caso de dúvida, interrompa o serviço e peça avaliação profissional.
+>
+> **Observe a parede.** Não instale sobre superfície com infiltração, mofo, revestimento solto ou ondulação significativa. Uma parede irregular pode prejudicar o nivelamento, deixar a mesa instável e dificultar o fechamento do tampo. Corrija a origem da umidade e prepare a superfície antes da instalação.
+>
+> **Confira prumo, nível e pontos de fixação.** A mesa deve ficar alinhada e nivelada, com todos os pontos firmes. Depois da instalação, teste a abertura e o fechamento lentamente, sem colocar carga, e verifique se o tampo permanece estável nas posições previstas.
+>
+> **Não apoie o peso do corpo nem suba sobre o tampo.** Sem a capacidade máxima confirmada, use a mesa apenas para objetos compatíveis com o manual e distribua o peso. Evite impactos, movimentos bruscos e cargas concentradas em uma extremidade.
+>
+> **Mantenha o mecanismo limpo e sem esforço.** Remova poeira das articulações e confira periodicamente parafusos, suportes e dobradiças. Não aplique óleo ou lubrificante sem verificar se o produto é compatível com o sistema.
+>
+> **Deixe espaço livre para trabalhar.** Retire objetos do local, libere a área de abertura e confirme se a cadeira ou bancada não bloqueia o movimento. Se a mesa apresentar folga, ruído, inclinação ou dificuldade para fechar, suspenda o uso e solicite uma nova regulagem.
+
+Precisa de ajuda para instalar? Acesse a nossa [página de montadores de móveis](/montadores) e veja profissionais indicados para avaliar a parede e realizar a fixação com segurança. Para consultar conteúdos de organização e aproveitamento de ambientes, visite a [página de guias](/guias). Em caso de dúvidas, utilize a [página de contato](/contato).
+
+## Perguntas frequentes
+
+**A mesa ocupa muito espaço quando fechada?**
+
+Não. A profundidade fechada informada é de aproximadamente 15 cm, o que ajuda a liberar a circulação quando a bancada não está sendo utilizada.
+
+**Qual é o tamanho da mesa aberta?**
+
+A largura informada é de 70 cm, a altura é de 90 cm e a profundidade total aberta até a parede é de aproximadamente 100,5 cm.
+
+**A mesa serve para home office e estudos?**
+
+Sim. Ela pode funcionar como bancada compacta para notebook, cadernos e materiais de estudo, desde que a capacidade de peso seja respeitada e a parede esteja corretamente preparada.
+
+**Pode ser instalada em qualquer parede?**
+
+Não. É necessário identificar o substrato e escolher buchas e parafusos compatíveis. Bloco, tijolo vazado, concreto, alvenaria maciça e drywall possuem características diferentes. A instalação profissional é recomendada.
+
+**As ferragens que acompanham servem para toda parede?**
+
+Não presuma isso. O kit acompanha o produto, mas a compatibilidade deve ser conferida pelo montador de acordo com o tipo de parede, o sistema de fixação e a carga prevista.
+
+**A mesa pode ser usada na cozinha?**
+
+Pode funcionar como bancada auxiliar, desde que fique protegida contra água, vapor excessivo, calor direto e infiltrações. O tampo não deve ser usado como bancada molhada sem orientação específica do fabricante.
+
+**Qual é a capacidade de peso?**
+
+A capacidade máxima não foi informada nos dados recebidos. Confira o manual ou o anúncio antes de apoiar objetos e nunca apoie o peso do corpo sobre a mesa.
+
+**Como limpar a mesa?**
+
+Use pano macio, seco ou muito levemente umedecido e seque imediatamente. Evite excesso de água, lustra-móveis, ceras, álcool, solventes, cloro e produtos abrasivos.
+
+## Conteúdos relacionados
+
+Para conferir dicas de organização e soluções para ambientes compactos, acesse a [página de guias](/guias). Para contratar um profissional especializado, visite a [página de montadores de móveis](/montadores). Para atendimento e dúvidas sobre o pedido, utilize a [página de contato](/contato).
+
+A **Mesa Dobrável de Parede Retrátil** combina economia de espaço, uso multiuso e fechamento compacto em uma bancada de 70 cm de largura. Confira a cor, o limite de peso, o sistema de fixação e as condições de entrega no anúncio antes de finalizar a compra.
+  `,
+  marca: "Não informado no anúncio",
+  keywords: [
+    "mesa dobrável de parede",
+    "mesa retrátil de parede",
+    "mesa suspensa para pequenos espaços",
+    "bancada dobrável de parede",
+    "mesa dobrável para home office",
+    "mesa retrátil para estudo",
+    "mesa dobrável para apartamento pequeno",
+    "mesa de parede para cozinha",
+    "bancada retrátil para cozinha",
+    "mesa dobrável em MDP",
+    "mesa articulada de parede",
+    "escrivaninha dobrável de parede",
+    "mesa compacta para escritório",
+    "mesa dobrável branca preta freijó cinza",
+    "mesa que fecha na parede",
+  ],
+  caracteristicas: [
+    "Mesa dobrável e retrátil de parede",
+    "Material em MDP",
+    "Altura de 90 cm",
+    "Largura de 70 cm",
+    "Profundidade aberta de até 100,5 cm",
+    "Profundidade fechada de 15 cm",
+    "Cores branco, preto, freijó e cinza",
+    "Acompanha kit de ferragens e manual",
+  ],
+  recomendacao: "Indicada para home office, estudos, cozinha, área de serviço e apartamentos pequenos que precisam de uma bancada funcional sem ocupar espaço permanente. A instalação deve ser feita por profissional, com fixadores adequados ao tipo de parede.",
+  contras: [
+    "A capacidade máxima de peso não foi informada na descrição recebida e deve ser confirmada no manual ou no anúncio.",
+    "A fixação depende do tipo e da resistência da parede; as ferragens não devem ser tratadas como universais.",
+    "Não é indicada para apoiar o peso do corpo, receber impactos ou ser usada como bancada molhada sem orientação do fabricante.",
+    "A parede precisa estar firme, seca, nivelada e livre de tubulações ou fiação no ponto de perfuração.",
+  ],
+  notaMontador: "Por ser uma mesa fixada na parede, contrate um montador profissional. Antes de furar, identifique se a parede é de bloco, tijolo vazado, alvenaria maciça, concreto ou drywall e escolha buchas e parafusos compatíveis; as ferragens do kit não são universais. Verifique tubulações, fiação, infiltrações, revestimentos soltos e ondulações. Faça o nivelamento, confira o prumo, teste abertura e fechamento sem carga e não apoie o peso do corpo sobre o tampo. Mantenha o mecanismo limpo, não force o fechamento e suspenda o uso se houver folga, inclinação ou instabilidade.",
+  relatedGuides: [
+    {
+      title: "Guias de organização e aproveitamento de espaços",
+      href: "/guias",
+      anchor: "página de guias",
+    },
+    {
+      title: "Montadores de móveis profissionais",
+      href: "/montadores",
+      anchor: "Ver montadores indicados",
+    },
+    {
+      title: "Contato",
+      href: "/contato",
+      anchor: "página de contato",
+    },
+  ],
+  seoTitle: "Mesa Dobrável de Parede Retrátil para Pequenos Espaços",
+  seoDescription: "Mesa dobrável de parede em MDP com 70 cm de largura, 90 cm de altura e apenas 15 cm fechada. Ideal para home office, estudo, cozinha e apartamentos compactos.",
+},
+
 
 
 

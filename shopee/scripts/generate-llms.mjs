@@ -792,19 +792,23 @@ ${finalUrls
 // ============================================================
 // robots.txt
 // ============================================================
-function generateRobotsTxt(site) {
-  const siteUrl = site.url.replace(/\/+$/, '');
-  return [
-    'User-agent: *',
-    'Content-Signal: search=yes,ai-input=yes,ai-train=no,use=reference',
-    'Allow: /',
-    'Disallow: /admin/',
-    'Disallow: /api/',
-    'Disallow: /cdn-cgi/',
-    '',
+function generateRobotsTxt(site ) {
+  const siteUrl = String(site.url || "").replace(/\/+$/, "");
+
+  const lines = [
+    "User-agent: *",
+    "Content-Signal: search=yes,ai-input=yes,ai-train=no,use=reference",
+    "Allow: /",
+    "Disallow: /admin/",
+    "Disallow: /api/",
+    "Disallow: /cdn-cgi/",
+    "",
     `Sitemap: ${siteUrl}/sitemap.xml`,
-  ].join('\n');
+  ];
+
+  return lines.join("\n");
 }
+
 
 // ============================================================
 // CARREGAMENTO DE DADOS
