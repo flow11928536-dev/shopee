@@ -42,11 +42,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const main = MAIN_CATEGORIES.find((c) => c.slug === slug);
   if (main) {
     return {
-      title: `${main.label} em Oferta | Móveis Brasil`,
+      title: `${main.label} em Oferta | Loja de Móveis Marília`,
       description: `Ofertas selecionadas de ${main.label} com os melhores preços do Mercado Livre e Shopee. Compare cozinhas, sofás, guarda-roupas e muito mais com entrega para todo o Brasil.`,
       alternates: { canonical: `${SITE.url}/categoria/${slug}` },
       openGraph: {
-        title: `${main.label} em Oferta | Móveis Brasil`,
+        title: `${main.label} em Oferta | Loja de Móveis Marília`,
         description: `Ofertas selecionadas de ${main.label} com os melhores preços. Entrega para todo o Brasil.`,
         url: `${SITE.url}/categoria/${slug}`,
         type: "website",
@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             url: `${SITE.url}/banners/og-image.jpg`,
             width: 1200,
             height: 630,
-            alt: `${main.label} em oferta - Móveis Brasil`,
+            alt: `${main.label} em oferta - Loja de Móveis Marília`,
           },
         ],
       },
@@ -67,11 +67,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const parent = MAIN_CATEGORIES.find((c) => c.slug === sub.parent);
     const parentLabel = parent ? parent.label : "";
     return {
-      title: `${sub.label} em Oferta | Móveis Brasil`,
+      title: `${sub.label} em Oferta | Loja de Móveis Marília`,
       description: `Ofertas selecionadas de ${sub.label} para ${parentLabel} com os melhores preços do Mercado Livre e Shopee. Compare modelos com entrega para todo o Brasil.`,
       alternates: { canonical: `${SITE.url}/categoria/${slug}` },
       openGraph: {
-        title: `${sub.label} em Oferta | Móveis Brasil`,
+        title: `${sub.label} em Oferta | Loja de Móveis Marília`,
         description: `Ofertas selecionadas de ${sub.label} para ${parentLabel}. Entrega para todo o Brasil.`,
         url: `${SITE.url}/categoria/${slug}`,
         type: "website",
@@ -80,7 +80,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             url: `${SITE.url}/banners/og-image.jpg`,
             width: 1200,
             height: 630,
-            alt: `${sub.label} em oferta - Móveis Brasil`,
+            alt: `${sub.label} em oferta - Loja de Móveis Marília`,
           },
         ],
       },
@@ -88,7 +88,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: "Categoria em Oferta | Móveis Brasil",
+    title: "Categoria em Oferta | Loja de Móveis Marília",
     description: "Ofertas selecionadas de móveis e eletrodomésticos com entrega para todo o Brasil.",
   };
 }

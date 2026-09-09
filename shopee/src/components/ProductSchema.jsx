@@ -12,17 +12,17 @@ export default function ProductSchema({ product }) {
     },
     "offers": {
       "@type": "Offer",
-      "url": `https://lojademoveismarilia.com.br/produto/${product.slug}`,
+      "url": `https://www.lojademoveismarilia.com.br/produto/${product.slug}`,
       "priceCurrency": "BRL",
       "price": product.price.toString().replace(',','.'),
       "availability": product.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
       "itemCondition": "https://schema.org/NewCondition"
     },
-    "aggregateRating": {
+    ...(product.rating && product.reviewCount ? {"aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": product.rating || "4.8",
-      "reviewCount": product.reviewCount || "24"
-    }
+      "ratingValue": product.rating,
+      "reviewCount": product.reviewCount
+    }} : {})
   };
 
   return (

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import { getProductBySlug, getAllProducts, SITE } from "@/data/products";
+import { getProductBySlug, getAllProducts, SITE, CATEGORY_LABELS } from "@/data/products";
 import { notasMontador } from "@/data/notas-montador";
 import ProductDescription from "@/components/ProductDescription";
 import FbViewContent from "../../../components/FbViewContent";
@@ -83,7 +83,7 @@ export default async function ProductPage({ params }: Props) {
   const notaMontador = notasMontador[product.slug] || product.notaMontador;
   const hasReviews = typeof product.rating === "number" && product.rating > 0 && typeof product.reviews === "number" && product.reviews > 0;
   const categorySlug = product.category || "moveis";
-  const categoryLabel = product.category || "Móveis";
+  const categoryLabel = CATEGORY_LABELS[product.category] || product.category || "Móveis";
 
   const productSchema: Record<string, unknown> = {
     "@context": "https://schema.org",
@@ -167,7 +167,7 @@ export default async function ProductPage({ params }: Props) {
                   style={{ backgroundColor: INK }}
                   aria-label={`Saiba mais sobre ${product.name}`}
                 >
-                  Saiba mais
+                  Ver oferta no marketplace
                   <span aria-hidden="true">↗</span>
                 </a>
               ) : (
@@ -178,6 +178,11 @@ export default async function ProductPage({ params }: Props) {
                 >
                   Ver detalhes do produto
                 </Link>
+              )}
+              {product.affiliateLink && (
+                <p className="mt-3 text-center text-xs leading-relaxed text-stone-500">
+                  Link afiliado: podemos receber comissão, sem custo adicional para você. A compra, o pagamento, o frete, a entrega e a garantia são tratados pelo vendedor no marketplace.
+                </p>
               )}
               <p className="mt-2 text-center text-xs leading-relaxed text-stone-400">Você será encaminhado ao marketplace para consultar o preço e concluir a compra.</p>
               <Link href="/" className="mt-3 text-center text-xs uppercase tracking-wide hover:underline" style={{ fontFamily: FONT_MONO, color: "#918466" }}>← Continuar comprando</Link>
@@ -199,6 +204,33 @@ export default async function ProductPage({ params }: Props) {
                   <Link href="/sobre" className="mt-3 inline-block text-xs font-semibold uppercase tracking-wider hover:underline" style={{ color: BRASS }}>Conheça o método de análise →</Link>
                 </div>
               </div>
+            </div>
+          )}
+
+          {(product.caracteristicas?.length || product.contras?.length || product.recomendacao) && (
+            <div className="grid gap-6 border-t p-6 sm:grid-cols-2 sm:p-8" style={{ borderColor: BORDER }}>
+              {product.recomendacao && (
+                <div className="sm:col-span-2 rounded-2xl p-5" style={{ backgroundColor: SURFACE }}>
+                  <h2 className="text-lg font-bold" style={{ fontFamily: FONT_DISPLAY, color: INK }}>Para quem este móvel pode fazer sentido</h2>
+                  <p className="mt-2 text-sm leading-relaxed" style={{ color: "#4A4238" }}>{product.recomendacao}</p>
+                </div>
+              )}
+              {product.caracteristicas?.length ? (
+                <div>
+                  <h2 className="text-lg font-bold" style={{ fontFamily: FONT_DISPLAY, color: INK }}>Pontos para conferir</h2>
+                  <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-relaxed" style={{ color: "#4A4238" }}>
+                    {product.caracteristicas.map((item) => <li key={item}>{item}</li>)}
+                  </ul>
+                </div>
+              ) : null}
+              {product.contras?.length ? (
+                <div>
+                  <h2 className="text-lg font-bold" style={{ fontFamily: FONT_DISPLAY, color: INK }}>Limitações e cuidados</h2>
+                  <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-relaxed" style={{ color: "#4A4238" }}>
+                    {product.contras.map((item) => <li key={item}>{item}</li>)}
+                  </ul>
+                </div>
+              ) : null}
             </div>
           )}
 

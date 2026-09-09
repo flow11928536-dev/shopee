@@ -3,7 +3,7 @@
     "name": "Loja de Móveis Marília",
     "url": "https://www.lojademoveismarilia.com.br",
     "description": "Móveis escolhidos por montador profissional. Compare ofertas de sofás, guarda-roupas, cozinhas e racks do Mercado Livre e da Shopee, verificando medidas, materiais, avaliações, frete e condições antes de comprar.",
-    "lastUpdated": "2026-09-07T22:14:40.253Z"
+    "lastUpdated": "2026-09-09T21:53:11.774Z"
   },
   "categories": [
     {
@@ -38,7 +38,7 @@
       "url": "https://www.lojademoveismarilia.com.br/categoria/mesas",
       "description": "Encontre as melhores ofertas de Mesas com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
-      "productCount": 18
+      "productCount": 20
     },
     {
       "slug": "guarda-roupas",
@@ -48,7 +48,7 @@
       "relatedGuides": [
         "melhores-guarda-roupas-casal-baratos"
       ],
-      "productCount": 50
+      "productCount": 52
     },
     {
       "slug": "quartos",
@@ -56,7 +56,7 @@
       "url": "https://www.lojademoveismarilia.com.br/categoria/quartos",
       "description": "Encontre as melhores ofertas de Quartos com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
-      "productCount": 23
+      "productCount": 24
     },
     {
       "slug": "comodas",
@@ -114,7 +114,7 @@
       "relatedGuides": [
         "melhores-cozinhas-moduladas-baratas"
       ],
-      "productCount": 15
+      "productCount": 16
     },
     {
       "slug": "home-office",
@@ -124,7 +124,7 @@
       "relatedGuides": [
         "moveis-home-office-barato"
       ],
-      "productCount": 24
+      "productCount": 25
     },
     {
       "slug": "area-externa",
@@ -150,7 +150,7 @@
       "url": "https://www.lojademoveismarilia.com.br/categoria/moveis-para-estudantes",
       "description": "Encontre as melhores ofertas de Móveis para Estudantes com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
-      "productCount": 3
+      "productCount": 4
     },
     {
       "slug": "moveis-para-bebe",
@@ -174,7 +174,7 @@
       "url": "https://www.lojademoveismarilia.com.br/categoria/mdf-mdp",
       "description": "Encontre as melhores ofertas de MDF e MDP com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
-      "productCount": 4
+      "productCount": 5
     },
     {
       "slug": "eletrodomesticos",
@@ -743,9 +743,9 @@
     "totalCategories": 26,
     "totalGuides": 46,
     "totalPages": 7,
-    "totalProducts": 189,
-    "generatedAt": "2026-09-07T22:14:40.253Z",
-    "lastUpdated": "2026-09-07T22:14:40.253Z"
+    "totalProducts": 191,
+    "generatedAt": "2026-09-09T21:53:11.774Z",
+    "lastUpdated": "2026-09-09T21:53:11.774Z"
   },
   "entities": {
     "materials": [

@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CATEGORY_LABELS, SITE } from "@/data/products";
-import ProductGrid from "@/components/ProductGrid";
-import HeroSlider from "@/components/HeroSlider";
 import CategoryCarousel from "@/components/CategoryCarousel";
 
 const CATEGORY_BANNERS: Record<string, string> = {
@@ -37,7 +35,7 @@ const featuredCategories = [
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  title: "Móveis para comprar online | Mercado Livre e Shopee",
+  title: "Móveis recomendados por montador profissional | Loja de Móveis Marília",
   description:
     "Compare sofás, guarda-roupas, cozinhas e outros móveis do Mercado Livre e da Shopee. Veja medidas, avaliações e ofertas selecionadas antes de comprar.",
   keywords: [
@@ -64,7 +62,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Móveis para comprar online | Mercado Livre e Shopee",
+    title: "Móveis recomendados por montador profissional | Loja de Móveis Marília",
     description:
       "Compare medidas, avaliações e ofertas de móveis do Mercado Livre e da Shopee antes de comprar.",
     url: SITE.url,
@@ -84,7 +82,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Móveis para comprar online | Mercado Livre e Shopee",
+    title: "Móveis recomendados por montador profissional | Loja de Móveis Marília",
     description:
       "Compare móveis do Mercado Livre e da Shopee com orientação de montador profissional.",
     images: [heroBanner],
@@ -182,12 +180,11 @@ export default function HomePage( ) {
               id="home-title"
               className="max-w-4xl font-serif text-4xl font-light leading-[1.08] tracking-tight text-[#1E1B18] md:text-6xl"
             >
-              Encontre o móvel ideal para o seu espaço
+              Móveis recomendados por um montador profissional
             </h1>
 
             <p className="mt-5 max-w-2xl text-base leading-relaxed text-neutral-600 md:text-lg">
-              Compare medidas, materiais, avaliações e ofertas do Mercado Livre
-              e da Shopee antes de comprar.
+              Antes de recomendar um móvel, eu penso como montador. Compare estrutura, materiais, medidas, acabamento e facilidade de montagem para escolher melhor no Mercado Livre e na Shopee.
             </p>
 
             <div className="mt-6 flex flex-col gap-3 sm:flex-row">
@@ -248,67 +245,30 @@ export default function HomePage( ) {
             </div>
           </section>
 
-          <section aria-label="Ofertas de sofás">
-            <ProductGrid
-              kicker="Sala de estar"
-              title="Sofás para sala pequena e grande"
-              subtitle="Retráteis, de canto e modulados para diferentes espaços"
-              category="sofas"
-              limit={8}
-              gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4"
-            />
-
-            <div className="mt-5">
-              <Link
-                href="/categoria/sofas"
-                className="inline-flex rounded-full bg-[#1E1B18] px-6 py-3 text-xs font-semibold uppercase tracking-widest text-white transition hover:bg-black"
-              >
-                Ver todos os sofás
-              </Link>
-            </div>
-          </section>
-
-          <section aria-label="Destaque de ofertas">
-            <HeroSlider />
-          </section>
-
-          <section aria-label="Ofertas de guarda-roupas">
-            <ProductGrid
-              kicker="Quartos"
-              title="Guarda-roupas casal e solteiro"
-              subtitle="Modelos com espelho, portas de correr e opções compactas"
-              category="guarda-roupas"
-              limit={8}
-              gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4"
-            />
-
-            <div className="mt-5">
-              <Link
-                href="/categoria/guarda-roupas"
-                className="inline-flex rounded-full border border-neutral-300 px-6 py-3 text-xs font-semibold uppercase tracking-widest transition hover:border-[#1E1B18] hover:bg-[#1E1B18] hover:text-white"
-              >
-                Ver todos os guarda-roupas
-              </Link>
-            </div>
-          </section>
-
-          <section aria-label="Ofertas de cozinhas">
-            <ProductGrid
-              kicker="Cozinhas"
-              title="Cozinhas completas e compactas"
-              subtitle="Compare armários, balcões, medidas e composição dos kits"
-              category="cozinhas"
-              limit={8}
-              gridClassName="grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4"
-            />
-
-            <div className="mt-5">
-              <Link
-                href="/categoria/cozinhas"
-                className="inline-flex rounded-full border border-neutral-300 px-6 py-3 text-xs font-semibold uppercase tracking-widest transition hover:border-[#1E1B18] hover:bg-[#1E1B18] hover:text-white"
-              >
-                Ver todas as cozinhas
-              </Link>
+          <section
+            className="rounded-[1.5rem] border border-neutral-200 bg-white p-6 md:p-8"
+            aria-labelledby="catalog-title"
+          >
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#A08055]">
+              Catálogo organizado por ambiente
+            </p>
+            <h2 id="catalog-title" className="mt-2 max-w-2xl font-serif text-2xl font-light md:text-3xl">
+              Cada produto tem sua própria página de análise
+            </h2>
+            <p className="mt-3 max-w-3xl text-sm leading-relaxed text-neutral-600 md:text-base">
+              Em vez de concentrar todas as ofertas na página inicial, organizamos os móveis por categoria. Abra uma categoria para comparar os produtos e entre na página individual de cada item para conferir medidas, materiais, avaliações, observações de montagem e o link atualizado do marketplace.
+            </p>
+            <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-6">
+              {featuredCategories.map((category) => (
+                <Link
+                  key={category}
+                  href={`/categoria/${category}`}
+                  className="rounded-xl border border-neutral-200 bg-[#FAF8F5] px-3 py-4 text-center text-xs font-semibold text-neutral-700 transition hover:border-[#C5A880] hover:bg-white"
+                >
+                  {CATEGORY_LABELS[category] || category}
+                  <span className="mt-1 block text-[10px] font-normal text-neutral-400">Ver produtos →</span>
+                </Link>
+              ))}
             </div>
           </section>
 

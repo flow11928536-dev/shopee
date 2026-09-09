@@ -90,7 +90,7 @@ export default function LojaMaríliaPage() {
               <li><Link href="/categoria/guarda-roupas" className="text-amber-600 hover:underline">Guarda-roupas de casal e solteiro</Link> – com espelho, portas de correr ou ripado</li>
               <li><Link href="/categoria/cozinhas" className="text-amber-600 hover:underline">Cozinhas moduladas</Link> – compactas e funcionais para qualquer espaço</li>
               <li><Link href="/categoria/paineis" className="text-amber-600 hover:underline">Painéis para TV e racks</Link> – modernos e elegantes para sua sala</li>
-              <li><Link href="/categoria/home-office" className="text-amber-600 hover:underline">Móveis para home office</Link> – escrivaninhas, cadeiras e estantes</li>
+              <li><Link href="/categoria/escritorio" className="text-amber-600 hover:underline">Móveis para home office</Link> – escrivaninhas, cadeiras e estantes</li>
               <li><Link href="/categoria/eletrodomesticos" className="text-amber-600 hover:underline">Eletrodomésticos</Link> – geladeiras, fogões, micro-ondas, air fryer</li>
             </ul>
           </section>

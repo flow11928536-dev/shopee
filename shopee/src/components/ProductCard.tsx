@@ -139,6 +139,10 @@ export default function ProductCard({
           </span>
         </div>
 
+        <p className="mt-2 text-center text-[10px] leading-relaxed text-neutral-500">
+          Link afiliado: podemos receber comissão, sem custo adicional para você.
+        </p>
+
         <a
           href={affiliateLink}
           target="_blank"

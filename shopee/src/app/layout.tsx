@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     template: "%s | Loja de Móveis Marília",
   },
   description:
-    "Móveis seleccionados por critérios de montagem e uso. Compare ofertas de sofás, guarda-roupas, cozinhas e racks no Mercado Livre e na Shopee. Confirme preço, frete e prazo no marketplace.",
+    "Móveis selecionados por critérios de montagem e uso. Compare ofertas de sofás, guarda-roupas, cozinhas e racks no Mercado Livre e na Shopee. Confirme preço, frete e prazo no marketplace.",
   keywords: "móveis online, sofá mercado livre, guarda roupa mercado livre, rack mercado livre, comprar móveis online, móveis baratos, ofertas de móveis, móveis com entrega nacional, móveis indicados por montador",
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   icons: {
