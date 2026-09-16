@@ -131,6 +131,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       suppressHydrationWarning
     >
       <head>
+        <meta name="lomadee" content="2324685" />
+
         {/* SCHEMAS GLOBAIS COMBINADOS - Organization e WebSite */}
         <script
           type="application/ld+json"
