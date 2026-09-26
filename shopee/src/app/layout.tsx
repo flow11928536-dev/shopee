@@ -47,8 +47,13 @@ export const metadata: Metadata = {
   },
   description:
     "Móveis selecionados por critérios de montagem e uso. Compare ofertas de sofás, guarda-roupas, cozinhas e racks no Mercado Livre e na Shopee. Confirme preço, frete e prazo no marketplace.",
-  keywords: "móveis online, sofá mercado livre, guarda roupa mercado livre, rack mercado livre, comprar móveis online, móveis baratos, ofertas de móveis, móveis com entrega nacional, móveis indicados por montador",
-  robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  robots: {
+    index: true,
+    follow: true,
+    'max-image-preview': 'large',
+    'max-snippet': -1,
+    'max-video-preview': -1,
+  },
   icons: {
     apple: "/apple-touch-icon.png",
   },
@@ -59,7 +64,7 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     url: SITE.url,
     title: "Loja de Móveis Marília | Móveis Indicados por Montador Profissional",
-    description: "Móveis seleccionados por critérios de montagem e uso. Compare ofertas no Mercado Livre e na Shopee e confirme as condições directamente no marketplace.",
+    description: "Móveis selecionados por critérios de montagem e uso. Compare ofertas no Mercado Livre e na Shopee e confirme as condições diretamente no marketplace.",
     images: [
       {
         url: `${SITE.url}/banners/og-image.jpg`,
@@ -71,8 +76,14 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Loja de Móveis Marília | Móveis indicados por montador profissional',
+    description: 'Compare móveis selecionados por critérios de montagem, medidas, materiais e avaliações antes de comprar.',
+    images: [`${SITE.url}/banners/og-image.jpg`],
+  },
   alternates: {
-    canonical: `${SITE.url}`,
+    canonical: '/',
   },
   other: {
     "theme-color": "#1A1614",
@@ -98,7 +109,7 @@ const organizationSchema = {
   name: "Loja de Móveis Marília",
   url: SITE.url,
   logo: `${SITE.url}/loja-moveis-jardim-esmeralda-marilia-moveis-de-alto-padrao-marilia-logo.png`,
-  description: "Loja de Móveis Marília - Móveis seleccionados por critérios de montagem e uso. O site participa de programas de afiliados e pode receber comissão sem custo adicional para o comprador.",
+  description: "Portal independente de curadoria de móveis. As recomendações consideram montagem, materiais, medidas, avaliações e custo-benefício; alguns links podem gerar comissão sem custo adicional para o comprador.",
   areaServed: {
     "@type": "Country",
     name: "Brasil"
@@ -111,7 +122,7 @@ const websiteSchema = {
   "@id": `${SITE.url}/#website`,
   name: "Loja de Móveis Marília",
   url: SITE.url,
-  description: "Móveis seleccionados por critérios de montagem e uso. Compare ofertas no Mercado Livre e na Shopee e confirme as condições directamente no marketplace.",
+  description: "Móveis selecionados por critérios de montagem e uso. Compare ofertas no Mercado Livre e na Shopee e confirme as condições diretamente no marketplace.",
   inLanguage: "pt-BR",
   publisher: {
     "@id": `${SITE.url}/#organization`,
@@ -139,12 +150,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(graphSchema).replace(/</g, "\\u003c") }}
         />
         <meta name="p:domain_verify" content="880750888dee14eafd9092943bb81f49"/>
-        {/* Google Preferred Sources: biblioteca oficial do Google */}
-        <Script
-          src="https://news.google.com/swg/js/v1/publisher.js"
-          strategy="afterInteractive"
-        />
-
         {/* META PIXEL - ID 1568286774780420 */}
         <Script id="fb-pixel" strategy="lazyOnload">
           {`
@@ -198,29 +203,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Footer />
         </div>
 
-        {/* ============================================================
-             BADGE DE CONFIANÇA FLUTUANTE (SEM CONTATO)
-             ============================================================ */}
-        <div className="fixed bottom-6 right-6 z-40 hidden rounded-2xl border border-white/20 bg-white/80 p-4 shadow-xl backdrop-blur-xl lg:block">
-          <div className="flex items-center gap-3">
-            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-amber-500 to-orange-600">
-              <svg className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 012 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-              </svg>
-            </div>
-            <div>
-              <p className="text-xs font-bold text-[#1A1614]">Ofertas comparadas</p>
-              <div className="mt-0.5 flex items-center gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <svg key={i} className="h-3 w-3 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                  </svg>
-                ))}
-                <span className="ml-1 text-xs text-gray-600">Veja avaliações no marketplace</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        {/* Transparência editorial: não representa uma avaliação própria. */}
+        <aside
+          className="fixed bottom-6 right-6 z-40 hidden max-w-xs rounded-2xl border border-white/20 bg-white/90 p-4 text-sm shadow-xl backdrop-blur-xl lg:block"
+          aria-label="Transparência da curadoria"
+        >
+          <p className="font-bold text-[#1A1614]">Curadoria independente</p>
+          <p className="mt-1 text-xs leading-5 text-gray-600">
+            Compare medidas, materiais e avaliações no marketplace antes de comprar.
+          </p>
+        </aside>
 
         {/* ANALYTICS */}
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-TB069RRN2W" strategy="lazyOnload" />
