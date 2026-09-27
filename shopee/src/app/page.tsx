@@ -301,7 +301,7 @@ const faqSchema = {
   ],
 };
 
-export default function HomePage( ) {
+export default function HomePage() {
   return (
     <div className="overflow-x-hidden bg-[#FAF8F5] font-sans text-[#1E1B18] antialiased selection:bg-[#C5A880]/30 selection:text-[#1E1B18]">
       <script

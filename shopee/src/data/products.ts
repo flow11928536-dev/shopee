@@ -1,10 +1,15 @@
-import type { Product, ProductCategory, MainCategory } from "./types";
+import type {
+  Product,
+  ProductCategory,
+  MainCategory,
+} from "../types";
 
 export const SITE = {
   url: "https://www.lojademoveismarilia.com.br",
   name: "Loja de Móveis Marília",
   shortName: "Móveis Indicado Por um Montador Profissional",
-  description: "Móveis escolhidos por montador profissional. Compare ofertas de sofás, guarda-roupas, cozinhas e racks do Mercado Livre e da Shopee, verificando medidas, materiais, avaliações, frete e condições antes de comprar.",
+  description:
+    "Móveis escolhidos por montador profissional. Compare ofertas de sofás, guarda-roupas, cozinhas e racks do Mercado Livre e da Shopee, verificando medidas, materiais, avaliações, frete e condições antes de comprar.",
   whatsapp: "5514996033296",
   email: "contato@lojademoveismarilia.com.br",
   city: "Marília",
@@ -15625,99 +15630,170 @@ O **Guarda-Roupa Casal Marta** reúne cinco portas, sete nichos, sete prateleira
 // ============================================================
 export const getAllProducts = (): Product[] => [...products];
 
-export const getProductBySlug = (slug: string): Product | undefined =>
-  products.find((p) => p.slug === slug);
+export const getProductBySlug = (
+  slug: string,
+): Product | undefined => {
+  return products.find((p: Product) => p.slug === slug);
+};
 
 export const getProductsByCategory = (
-  category?: ProductCategory | ProductCategory[]
+  category?: ProductCategory | ProductCategory[],
 ): Product[] => {
-  if (!category) return products;
+  if (!category) {
+    return products;
+  }
 
-  const cats = Array.isArray(category)? category : [category];
+  const cats: ProductCategory[] = Array.isArray(category)
+    ? category
+    : [category];
 
-  return products.filter((p) => {
+  return products.filter((p: Product) => {
     // Categoria principal do produto.
-    if (cats.includes(p.category)) return true;
+    if (cats.includes(p.category)) {
+      return true;
+    }
 
-    // Ambiente principal, por exemplo: quarto, sala ou cozinha.
-    if (p.mainCategory && cats.includes(p.mainCategory as ProductCategory)) return true;
+    // Ambiente principal: quarto, sala, cozinha etc.
+    if (
+      p.mainCategory &&
+      cats.includes(p.mainCategory as ProductCategory)
+    ) {
+      return true;
+    }
 
     // Categorias adicionais.
-    if (p.categories?.some((c) => cats.includes(c))) return true;
+    if (
+      p.categories?.some((c: ProductCategory) =>
+        cats.includes(c),
+      )
+    ) {
+      return true;
+    }
 
     return false;
   });
 };
 
-export const getProductsByMainCategory = (main: string): Product[] => {
-  return products.filter((p) => p.mainCategory === main);
+export const getProductsByMainCategory = (
+  main: string,
+): Product[] => {
+  return products.filter(
+    (p: Product) => p.mainCategory === main,
+  );
 };
 
-// Retorna produtos intercalando entre as categorias (round-robin),
+// Retorna produtos intercalando entre as categorias (round-robin).
 export const getProductsByCategoryInterleaved = (
-  category?: ProductCategory | ProductCategory[]
+  category?: ProductCategory | ProductCategory[],
 ): Product[] => {
-  if (!category) return products;
+  if (!category) {
+    return products;
+  }
 
-  const cats = Array.isArray(category)? category : [category];
+  const cats: ProductCategory[] = Array.isArray(category)
+    ? category
+    : [category];
 
-  const buckets: Product[][] = cats.map((cat) =>
-    products.filter(
-      (p) =>
-        p.category === cat ||
-        p.mainCategory === cat ||
-        p.categories?.includes(cat),
-    )
+  const buckets: Product[][] = cats.map(
+    (cat: ProductCategory) =>
+      products.filter((p: Product) => {
+        return (
+          p.category === cat ||
+          p.mainCategory === cat ||
+          p.categories?.includes(cat) === true
+        );
+      }),
   );
 
   const result: Product[] = [];
-  const maxLen = Math.max(...buckets.map((b) => b.length), 0);
+  const maxLen = Math.max(
+    ...buckets.map((bucket: Product[]) => bucket.length),
+    0,
+  );
 
   for (let i = 0; i < maxLen; i++) {
     for (const bucket of buckets) {
-      if (bucket[i]) result.push(bucket[i]);
+      if (bucket[i]) {
+        result.push(bucket[i]);
+      }
     }
   }
 
   const seen = new Set<string>();
-  return result.filter((p) => {
-    if (seen.has(p.id)) return false;
+
+  return result.filter((p: Product) => {
+    if (seen.has(p.id)) {
+      return false;
+    }
+
     seen.add(p.id);
     return true;
   });
 };
 
-export const getProductsBySlugs = (slugs: string[]): Product[] => {
+export const getProductsBySlugs = (
+  slugs: string[],
+): Product[] => {
   const seen = new Set<string>();
 
   return slugs
-    .filter((slug) => {
-      if (seen.has(slug)) return false;
+    .filter((slug: string) => {
+      if (seen.has(slug)) {
+        return false;
+      }
+
       seen.add(slug);
       return true;
     })
-    .map((slug) => products.find((product) => product.slug === slug))
-    .filter((product): product is Product => Boolean(product));
+    .map((slug: string) =>
+      products.find(
+        (product: Product) => product.slug === slug,
+      ),
+    )
+    .filter(
+      (product): product is Product => Boolean(product),
+    );
 };
 
-// SLUGS QUE NÃO SÃO CATEGORIA, SÃO GUIA - NÃO VÃO PARA /categoria/
-const EXCLUDED_FROM_CATEGORY = ["area-externa", "mdf-mdp", "home-office"];
+// Slugs que não são categorias e não devem ir para /categoria/.
+const EXCLUDED_FROM_CATEGORY = [
+  "area-externa",
+  "mdf-mdp",
+  "home-office",
+];
 
 export const allCategorySlugs = Array.from(
   new Set([
-    ...MAIN_CATEGORIES.map((category) => category.slug),
-    ...SUB_CATEGORIES.map((category) => category.slug),
+    ...MAIN_CATEGORIES.map(
+      (category) => category.slug,
+    ),
+    ...SUB_CATEGORIES.map(
+      (category) => category.slug,
+    ),
   ]),
-).filter((slug) => !EXCLUDED_FROM_CATEGORY.includes(slug));
+).filter(
+  (slug: string) =>
+    !EXCLUDED_FROM_CATEGORY.includes(slug),
+);
 
 export const allCategories = Array.from(
-  new Set(products.map((p) => p.category))
+  new Set(
+    products.map(
+      (p: Product) => p.category,
+    ),
+  ),
 ).filter(
-  (cat) =>!EXCLUDED_FROM_CATEGORY.includes(cat as string)
-) as ProductCategory[];
+  (cat: ProductCategory) =>
+    !EXCLUDED_FROM_CATEGORY.includes(cat),
+);
 
-export const formatBRL = (value: number | null | undefined): string => {
-  if (typeof value !== "number" || !Number.isFinite(value)) {
+export const formatBRL = (
+  value: number | null | undefined,
+): string => {
+  if (
+    typeof value !== "number" ||
+    !Number.isFinite(value)
+  ) {
     return "Preço não informado";
   }
 
