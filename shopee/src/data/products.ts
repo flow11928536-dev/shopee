@@ -1,4 +1,4 @@
-import type { Product, ProductCategory, MainCategory } from "../types";
+import type { Product, ProductCategory, MainCategory } from "./types";
 
 export const SITE = {
   url: "https://www.lojademoveismarilia.com.br",
@@ -130,7 +130,7 @@ export const products: Product[] = [
   rating: 4.8,
   reviews: 1234,
   discount: 35,
-  price: 1035.21,
+  price: 1.07171,
   originalPrice: 1299.9,
   badge: "",
   platform: "Shopee",
@@ -2142,8 +2142,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
     price: 1066.67,
     originalPrice: 1474.00,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2FBubwM",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/905VwxWrMe",
     descricao: "Painel para TV até 90 Polegadas Impressão Ripada com LED com Gaveta 220cm 100% MDF Requinte. O Home Requinte é a peça que falta para complementar com leveza e elegância sua sala de estar. Possuindo três gavetas com corrediças telescópicas, prateleira e nicho com bordas chanfradas laqueadas e led em luz quente com difusor, esse móvel colabora para que seu ambiente se torne acolhedor e sofisticado. O produto contém ripas em imagem 3D e matéria prima 100% MDF. Estilo: Moderno. Peso (kg): 102. Garantia: 03 Meses. Altura (cm): 250. Acabamento: Pintura UV. Largura (cm): 224. Possui Vidro: Não. Possui Nichos: Não. Possui Portas: Não. Possui Gavetas: Sim. Suporta Até (kg): 50. Possui Espelhos: Não. Profundidade (cm): 34. Escala de Brilho: Fosco. Serviço Montagem: 114259443. Acabamento Ripado: Ripado Impressão 3D. Acompanha Lâmpada: Não. Origem do Produto: Nacional. Possui Iluminação: Sim. Ambiente Principal: Sala de Estar. Material Principal: MDF. Possui Prateleiras: Sim. Peso Máximo por Gaveta: 2. Tipo de Puxador da Gaveta: Embutido. Peso Máximo por Prateleira: 5. Ideal para TVs até (Polegadas): 90. Acompanha Manual de Instalação: Sim. Informações Complementares (Novo): Iluminação por fita LED. Suporte de TV Universal Incluso: Não. Marca: Gelius Móveis. Cor Flex: Não. Cor Interna: Naturale Ripado. Cor: Naturale. Cor do Produto: Naturale. Itens Inclusos: 1 Painel, Kit Ferragens e Manual de Montagem. Cor Predominante: Marrom. Linha ou Coleção: Requinte. Quantidade de Prateleiras: 01 Prateleira. PERGUNTAS FREQUENTES 1 – O produto é novo ou usado? R.: Todos os nossos produtos são novos, enviados de nossos fornecedores diretamente para as casas de nossos clientes. 2 – O produto vem montado? Se não, vocês realizam a montagem? R.: Todos nossos produtos acompanham seus respectivos manuais de montagem e instalação, que são simples e fáceis de serem seguidos, portanto não oferecemos a montagem. 3 – Vocês possuem loja física? Posso retirar meu produto em mãos? Vocês realizam pronta entrega? R.: Não trabalhamos com loja física, apenas loja virtual. Nos comprometemos em cumprir a entrega na data combinada no ato da compra e trabalhamos ao máximo para que seja entregue o quanto antes. 4 – Quanto é o valor de frete? Posso pagar o frete separadamente? R.: O valor do frete varia de acordo com o CEP de destino. Você pode calcular o valor e prazo de entrega do seu frete no simulador de entrega, abaixo das opções de pagamento, no lado direito do anúncio. 5 – Vocês entregam no Brasil inteiro? Como é feita a entrega? R.: Sim, entregamos no Brasil inteiro! A entrega é feita por nossas transportadoras parceiras. 6 – Eu tenho direito ao frete grátis pelo Mercado pontos, como faço para usar? R.: Infelizmente, não participamos do Mercado Pontos, portanto não podemos conceder tal benefício. 7 – Vocês fazem agendamento de entregas? R.: Infelizmente não, temos um prazo de entrega baseado na localização de nossos fornecedores e no CEP de destino. Nos comprometemos na entrega dentro do prazo limite. 8 – O produto acompanha Nota Fiscal? R.: Sim, os produtos são entregues com suas respectivas notas fiscais. Além disso, uma cópia da NF é enviada para você por e-mail no momento da postagem da entrega. 9 – Qual é o horário de atendimento de vocês? R.: Nosso horário de atendimento é de segunda à sexta-feira, das 8 até às 18h (exceto feriados). Garantia de fábrica: 3 meses",
     marca: "Gelius Móveis",
     keywords: [
@@ -2216,8 +2216,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
     price: 1242.00,
     originalPrice: 0,
     badge: "Novidade",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1EeaoEE",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/9AOw9PJioe",
     descricao: "Painel Plus para TV de até 60 polegadas (COM PÉS). Características: Estrutura em MDP de 15mm, 25mm e 40mm. Pintura com acabamento UV. 02 Portas deslizantes frisadas que se sobrepõem. Prateleiras de vidro 5mm. Espelhos. Luminária de LED. Sistema de fixação com girofix. Amplo espaço interno. Comporta TV de até 60 polegadas. *Não acompanha TV. OBJETOS DECORATIVOS NÃO ACOMPANHAM OS PRODUTOS. Dimensões: Altura 178,5 cm, Largura 200 cm, Profundidade 45,5 cm. Espaço para TV (LxA): 154 x 113 cm até 60 polegadas. Garantia: 3 meses. Montagem: Recomendamos que a montagem seja feita por um profissional. Recomendação de Limpeza: Utilize pano levemente úmido. Observações: - Nos responsabilizamos pela entrega dos produtos até onde as rodovias alcançam, entregas fluviais ou aéreas devem ser cotadas a parte - As imagens são ilustrativas, não acompanham objetos de decoração - A montagem será de responsabilidade do comprador. Não nos responsabilizamos, no ato da entrega, por subir escadas/elevadores ou transporte por guincho em apartamentos. Eventuais despesas são de responsabilidade do comprador. - Confira as dimensões do produto e certifique-se de que passará normalmente por supostos elevadores, portas, escadas e/ou corredores de sua residência.",
     marca: "",
     keywords: [
@@ -2416,7 +2416,7 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
     originalPrice: 999.9,
     badge: "",
     platform: "Shopee",
-    affiliateLink: "https://meli.la/2h2pmQP",
+    affiliateLink: "https://s.shopee.com.br/3LR9CpBxnW",
     descricao: "Cômoda Grécia 8 Gavetas com Corrediças Telescópicas Multiuso para Quarto MDP/MDF. Produto selecionado com custo-benefício e qualidade garantida. Frete para todo Brasil.",
     marca: "Móveis Marília",
     keywords: ["cômoda 8 gavetas", "cômoda grécia", "corrediças telescópicas"],
@@ -2463,8 +2463,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
     price: 394.79,
     originalPrice: 879.00,
     badge: "Oferta Imperdível",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1J3nbaG",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/AUuJgYeStK",
     descricao: "Cozinha Suspensa Nanda Cinamomo Grafite – Aramóveis. Cuidadosamente projetada para otimizar o uso do espaço, tornando um ambiente funcional e agradável, a Aramóveis desenvolveu a Cozinha Nanda, com um lindo design, possui um ótimo espaço interno para lhe auxiliar em deixar tudo sempre organizado durante o dia a dia. Com visual clean, esta cozinha é perfeita para quem está procurando uma cozinha moderna e compacta. Características Técnicas: - Produzida em MDP 12 mm - Puxadores em PVC - Corrediças metálicas - Dobradiças metálicas - Acabamento fosco e verniz brilho - Resistência e durabilidade. Dimensões: Altura: 136,2 cm, Largura: 179,4 cm, Profundidade: 35 cm. OBSERVAÇÕES IMPORTANTES - Produto para uso residencial em ambiente interno, não devendo ficar exposto diretamente ao sol, calor e umidades excessivas. - Pode haver alguma diferença de tonalidade entre a imagem e o produto real, por conta do tratamento de imagens e a calibração de cores do seu monitor. - As imagens são meramente ilustrativas, não acompanham objetos de decoração e eletrônicos. - Confira as dimensões do produto e certifique-se de que passará normalmente por supostos elevadores, portas, escadas e/ou corredores de sua residência. - Não nos responsabilizamos pela montagem dos produtos.",
     marca: "Aramóveis",
     keywords: [
@@ -2493,8 +2493,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 649.99,
   originalPrice: 1387.00,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1s7KGZG",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/20vlcPyIVI",
   descricao: ` # Micro-ondas Philco 28L Limpa Fácil 1100W Preto PMO30P ## 📌 Introdução O **Micro-ondas Philco 28L PMO30P Limpa Fácil 1100W** é o aparelho perfeito para quem busca praticidade, economia e desempenho na cozinha. Com capacidade de 28 litros e design preto elegante, ele se adapta a qualquer ambiente e oferece o que há de melhor em tecnologia para o seu dia a dia. ## 📌 Principais Benefícios **Economia e Desempenho:** Classificação energética A e potência de 1100W, garantindo refeições aquecidas mais rápido e com menor gasto de energia. **Função Tira Odor:** Retira o cheiro forte dos alimentos entre um preparo e outro, mantendo a higiene impecável. **Manter Aquecido:** Mantém a temperatura ideal dos alimentos até o momento de consumir. **Descongela Fácil:** Ideal para descongelar carnes e alimentos de forma rápida e segura. **Pintura Limpa Fácil:** Acabamento interno que facilita a limpeza de respingos com apenas um pano úmido. ## 📌 Receitas Pré-Programadas Possui **6 receitas pré-programadas** para facilitar seu dia a dia: - Brigadeiro - Pipoca - Lasanha - Pizza - Bolo de caneca - Menu Fit Além da função **+30 segundos** e **Timer** com desligamento automático para maior comodidade. ## 📌 Especificações Técnicas - **Marca:** Philco - **Modelo:** PMO30P - **Cor:** Preto - **Tensão:** 127V ou 220V (Verificar versão) - **Potência:** 1100W - **Capacidade:** 28 Litros - **Diâmetro do Prato:** 27 cm - **Classificação Energética:** A - **Peso:** 12 kg - **Dimensões:** 28 cm (A) x 49 cm (L) x 39,5 cm (P) ## 📌 Conclusão O **Micro-ondas Philco 28L Limpa Fácil** é a escolha ideal para agilizar sua rotina na cozinha. Com 64% de desconto e entrega para todo o Brasil, garanta agora o seu! `,
   marca: "Philco",
   keywords: [
@@ -2524,8 +2524,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
     price: 741.95,
     originalPrice: 857.95,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1aGbePi",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/50ZNBxdGl6",
     descricao: "Micro-ondas Consul 20 Litros Cor Inox Espelhado com Função Descongelar - CM020BF. Facilite seu dia a dia O Micro-ondas Espelhado Consul com 20 litros de capacidade é tudo o que você precisa para tornar seu cotidiano mais prático. Receitas pré-programadas Possui seis receitas pré-programadas: arroz, vegetais, massas, peixe, pipoca e aquecer bebidas em canecas, tudo no tempo e potências ideais para cada receita. Uso Fácil Ideal para aquecer ou descongelar pratos de acordo com a quantidade. Basta selecionar a função e o peso (250g, 500g e 1kg) e pronto. +30 segundos Com a tecla +30 segundos você pode adicionar mais tempo às suas receitas em apenas um toque, sem interromper o preparo. Trava de segurança Impede que o micro-ondas seja ativado acidentalmente durante a limpeza ou em contato indesejado. Com apenas um toque você tem 6 receitas pré-programadas, agilizand seu dia a dia! Função para aquecer ou descongelar alimentos de acordo com o peso, garantindo precisão e o melhor resultado. Aviso legal • Sua eficiência energética é de A.",
     marca: "Consul",
     keywords: [
@@ -2552,8 +2552,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 269.40,
   originalPrice: 459.00,
   badge: "",
-  platform: "",
-  affiliateLink: "https://meli.la/2YoxeuQ",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/1BMed7vPXM",
   descricao: ` # Liquidificador COMFCASA 3 em 1 com Moedor de Café e Jarro de Vidro ## 📌 Introdução O **Liquidificador COMFCASA 3 em 1** é uma estação de trabalho multifuncional para a cozinha. Com motor de 1200W e lâminas em aço inoxidável 304, ele foi desenvolvido para preparar sucos, triturar gelo e moer grãos de café. O diferencial deste modelo é o conjunto de acessórios que o transforma em liquidificador, moedor e copo de viagem, otimizando espaço na bancada. ## 📌 Principais Benefícios e Funcionalidades - **Potência e Versatilidade:** Motor de 1200W com 2 velocidades e função Pulse, ideal para triturar ingredientes mais duros como gelo e frutas congeladas. - **Jarro em Vidro:** O copo principal de 1,5 litros é feito em vidro, material que não retém odores e facilita a higienização. - **Acessórios Inclusos:** Além do jarro principal, acompanha um copo de viagem (600ml), um recipiente multiuso (800ml) e um moedor para café e temperos (150ml). - **Função Autolimpante:** Permite limpeza rápida adicionando água morna e detergente no jarro e acionando a função Pulse. - **Design Compacto:** Estrutura com dimensões reduzidas (230 x 185 x 315 mm) e porta-fio integrado para manter a bancada organizada. ## 📌 O Que Vem na Embalagem Para garantir transparência sobre o produto, é importante destacar que a base do liquidificador conta com acabamento em aço inoxidável, enquanto os acessórios complementares (copo de viagem, recipiente multiuso e moedor) são fabricados em plástico resistente. O conjunto completo inclui: 1. Liquidificador com jarro de vidro (1,5L) 2. Moedor de café e temperos (150ml) 3. Copo de viagem (600ml) 4. Recipiente multiuso (800ml) 5. Manual de instruções ## 📌 Ideal para - Quem busca um aparelho multifuncional para economizar espaço na cozinha. - Entusiastas de café que desejam moer grãos frescos antes do preparo. - Pessoas com rotina corrida que precisam do copo de viagem para levar bebidas para o trabalho ou academia. - Preparo de smoothies, vitaminas e molhos no dia a dia. ## 📌 Dúvidas Frequentes (FAQ) **1. O liquidificador é potente o suficiente para triturar gelo?** Sim. Com 1200W de potência, lâminas em aço inoxidável 304 e a função Pulse, ele tritura gelo e frutas congeladas com eficiência. **2. O moedor serve apenas para café?** Não. O compartimento de 150ml também é indicado para moer especiarias, sementes e temperos secos. **3. Os copos e o moedor são de vidro ou plástico?** Apenas o jarro principal do liquidificador é de vidro (1,5L). O copo de viagem (600ml), o recipiente multiuso (800ml) e o moedor (150ml) são de plástico. **4. Como funciona a função autolimpante?** Para limpar o aparelho, basta adicionar água morna e detergente no jarro e acionar a função Pulse por alguns segundos. Os acessórios também são compatíveis com lava-louças. **5. Qual é a voltagem do aparelho?** O produto está disponível nas versões 110V e 220V. Verifique a voltagem no anúncio antes de finalizar a compra. ## 📌 Especificações Técnicas | Especificação | Detalhe | |---------------|---------| | **Marca** | COMFCASA | | **Potência** | 1200W | | **Capacidade do Jarro** | 1,5 Litros (Vidro) | | **Lâminas** | Aço Inoxidável 304 | | **Velocidades** | 2 + Função Pulse | | **Acessórios** | Copo viagem (600ml), Recipiente (800ml), Moedor (150ml) | | **Peso Líquido** | 2,85 kg | | **Dimensões** | 230 x 185 x 315 mm | | **Voltagem** | 110V ou 220V | | **Garantia** | Conforme política do vendedor | ## 📌 Conclusão O **Liquidificador COMFCASA 3 em 1** é uma opção prática para quem precisa de versatilidade na cozinha e quer múltiplos utensílios pagando por um único aparelho. Embora seja um produto com poucas avaliações no mercado, seu custo-benefício e a inclusão do moedor de café e copo de viagem o tornam uma alternativa interessante para rotinas dinâmicas. Aproveite o desconto de 36% e garanta o seu com entrega para todo o Brasil. `,
   marca: "COMFCASA",
   keywords: [
@@ -2585,8 +2585,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 475.20,
   originalPrice: 899.00,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1rToNS9",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/5LCDasd7pU",
   descricao: ` # Fritadeira Elétrica Mondial Oven 12L Air Fryer + Forno ## 📌 Introdução A **Fritadeira Elétrica Mondial Oven AFON-12L-BG** é um aparelho 2 em 1 que combina a tecnologia da Air Fryer com o espaço e a versatilidade de um forno elétrico. Com capacidade de 12 litros, ela permite assar, cozinhar e fritar sem óleo, sendo ideal para preparar grandes porções em famílias grandes. ## 📌 Principais Benefícios **Capacidade de 12 Litros:** Diferente das Air Fryers convencionais, este modelo comporta grandes porções de uma só vez, acomodando até 3 assadeiras simultaneamente. **3 Assadeiras Antiaderentes:** Acompanha 2 assadeiras perfuradas e 1 fechada, permitindo preparar 3 receitas diferentes ao mesmo tempo, economizando tempo e energia. **Painel Digital com 10 Funções:** Receitas predefinidas para batata, frango, carne, peixe, camarão, pão de queijo, pizza, bolo, legumes e a função reaquecer. Cozinhe com apenas 1 clique. **Iluminação Interna e Visor:** Porta com amplo visor de vidro e luz interna para acompanhar o preparo sem precisar abrir a porta. **Sem Óleo e Mais Saudável:** Sistema de circulação de ar quente que dispensa o uso de óleo, resultando em refeições mais saudáveis e sem cheiro de fritura na cozinha. ## 📌 Especificações Técnicas - **Marca:** Mondial - **Modelo:** AFON-12L-BG (Oven) - **Cor:** Preta - **Capacidade:** 12 Litros - **Funções Predefinidas:** 10 receitas - **Timer:** Até 90 minutos - **Controle de Temperatura:** Sim - **Acessórios Inclusos:** 3 Assadeiras antiaderentes - **Garantia:** 12 meses ## 📌 Conclusão A **Mondial Oven 12L** é a escolha definitiva para quem busca a praticidade de uma Air Fryer com a capacidade de um forno elétrico. Com 49% de desconto e selo de "Mais Vendido", é um aparelho robusto, econômico e perfeito para a rotina agitada. `,
   marca: "Mondial",
   keywords: [
@@ -2645,8 +2645,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 1429.00,
   originalPrice: 1623.00,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/19cEKNX",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/1qcLRBTOqC",
   descricao: ` # Ar Condicionado Split HQ Inverter 9.000 BTUs Frio 220V ## 📌 Introdução O **Ar Condicionado Split HQ Inverter 9.000 BTUs** é projetado para oferecer conforto térmico com máxima economia de energia. Ideal para quartos, salas e escritórios de até 15m², o aparelho utiliza tecnologia Inverter de última geração, garantindo refrigeração rápida, temperatura estável e operação silenciosa. ## 📌 Principais Benefícios **Tecnologia Inverter:** O compressor ajusta a potência continuamente, evitando picos de energia. Isso resulta em consumo até 40% menor que modelos convencionais e maior durabilidade. **Operação Silenciosa:** A evaporadora emite apenas 35 dB, proporcionando noites de sono tranquilas sem ruídos incômodos. **Classe Energética A:** Consumo anual de apenas 380 kWh, garantindo economia na conta de luz. **Ar Mais Saudável:** Conta com sistema de Auto Limpeza para evitar fungos e bactérias, além de Filtro Múltiplo que retém impurezas, melhorando a qualidade do ar. **Gás R32:** Mais ecológico e com maior eficiência energética. ## 📌 Funcionalidades - Modo Turbo: Resfriamento rápido em poucos minutos. - Modo Silêncio: Operação ainda mais baixa para a noite. - Modo Desumidificação: Remove o excesso de umidade do ar. - Swing Vertical: Distribuição uniforme do ar. ## 📌 Especificações Técnicas - **Marca:** HQ - **Modelo:** VIHT9KCO3S2S13 - **Tipo:** Split Hi-Wall Inverter - **Ciclo:** Frio - **Cor:** Branca - **Voltagem:** 220V - **Capacidade:** 9.000 BTUs/h - **Classe Energética:** A - **Consumo:** 380 kWh/ano - **Área recomendada:** Até 15 m² - **Nível de Ruído:** 35 dB (Evaporadora) - **Gás Refrigerante:** R32 - **Garantia:** 12 meses ## 📌 Dúvidas Frequentes (FAQ) **1. Qual a metragem que ele atende?** É ideal para ambientes de até 15m², como quartos, salas pequenas e escritórios. **2. Ele gasta muita energia?** Não. Com tecnologia Inverter e classe A, ele consome apenas 380 kWh por ano, sendo um dos mais econômicos da categoria. **3. Este modelo é quente e frio?** Não, este modelo é exclusivamente ciclo frio. **4. Qual a voltagem?** Este modelo é exclusivo para 220V. ## 📌 Conclusão O **Ar Condicionado HQ 9.000 BTUs Inverter** é a união perfeita entre economia, silêncio e eficiência. Avaliado em 4.8 estrelas por mais de 670 clientes, é a escolha inteligente para climatizar seu ambiente com baixo custo operacional. `,
   marca: "HQ",
   keywords: [
@@ -2676,8 +2676,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 1699.00,
   originalPrice: 1949.00,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2Br5TZe",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/5fp40L7Zw4",
   descricao: ` # Ar Condicionado Split Inverter Midea Airvolution 9.000 BTUs Frio ## 📌 Introdução O **Ar Condicionado Midea Airvolution 9.000 BTUs** com tecnologia Inverter é projetado para quem busca conforto térmico, economia e silêncio em ambientes de até 15m². Com design compacto e tecnologias exclusivas, ele entrega refrigeração eficiente com baixo consumo de energia. ## 📌 Principais Benefícios **Tecnologia Inverter:** Compressor que ajusta a potência continuamente, oferecendo estabilidade térmica, menor consumo de energia e maior durabilidade. **Black Fin (Anti-Corrosão):** A condensadora é 12,5x mais resistente à corrosão, sendo ideal para regiões litorâneas ou com alta umidade. **Gás R-32:** Mais ecológico e com maior eficiência energética. **Operação Silenciosa:** Projetada para funcionar com baixo nível de ruído, perfeita para quartos e home offices. ## 📌 Funcionalidades Inteligentes - **Modo Turbo:** Refrigeração ultrarrápida em até 30 segundos. - **Brisa Indireta:** Evita que o ar frio incida diretamente sobre o corpo. - **Siga-me:** O controle remoto prioriza a temperatura do ambiente onde você está. - **Autolimpeza:** Mantém o aparelho livre de fungos e bactérias. ## 📌 Especificações Técnicas - **Marca:** Midea - **Capacidade:** 9.000 BTUs (Ciclo Frio) - **Voltagem:** 220V - **Classe Energética:** D - **Consumo:** 473,9 kWh/ano - **Gás Refrigerante:** R-32 - **Área recomendada:** Até 15 m² - **Garantia:** 3 meses legal + 21 meses estendida (instalação credenciada) ## 📌 Conclusão O **Midea Airvolution** é uma excelente opção para quem busca custo-benefício, durabilidade e tecnologia em climatização. Ideal para garantir noites de sono tranquilas e ambientes de trabalho produtivos. `,
   marca: "Midea",
   keywords: [ "ar condicionado midea 9000 btus", "split inverter midea airvolution", "ar condicionado silencioso", "melhor ar condicionado custo beneficio" ],
@@ -2699,8 +2699,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 2149.00,
   originalPrice: 2289.00,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1jgvCxw",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/5AsnPVtrKp",
   descricao: ` # Ar Condicionado Split Gree G-Top Inverter 9000 BTU Frio Wi-Fi ## 📌 Introdução O **Ar Condicionado Gree G-Top Inverter 9.000 BTUs** é o topo de linha da marca, focado em máxima eficiência energética (Classe A), conectividade e saúde do ar. Ideal para ambientes de 12 a 18m², ele une design sofisticado à maior garantia do mercado. ## 📌 Principais Benefícios **Maior Garantia do Mercado:** 10 anos de garantia no compressor e 5 anos nas peças funcionais. **Eficiência Energética:** Classe A no INMETRO, consumindo apenas 363 kWh por ano. **Tecnologia Wi-Fi:** Controle o ar condicionado de onde estiver pelo smartphone. **Ar Puro:** Sistema Ion Clean elimina 99,99% de fungos, bactérias e vírus. ## 📌 Funcionalidades e Proteção - **Auto Clean:** Secomponentes internos para evitar mofo. - **Blue Fin / Golden Fin:** Revestimento anticorrosão nas serpentinas, ideal para áreas litorâneas. - **Gás R32:** Mais sustentável e eficiente. ## 📌 Especificações Técnicas - **Marca:** Gree - **Modelo:** G-Top Auto Inverter - **Capacidade:** 9.000 BTUs (Ciclo Frio) - **Voltagem:** 220V - **Classe Energética:** A - **Gás Refrigerante:** R32 - **Área recomendada:** 12 a 18 m² - **Garantia:** 10 anos (compressor) / 5 anos (peças) ## 📌 Conclusão O **Gree G-Top Wi-Fi** é o investimento definitivo para quem não abre mão da melhor tecnologia, economia na conta de luz e tranquilidade a longo prazo. `,
   marca: "Gree",
   keywords: [ "ar condicionado gree 9000 btus inverter", "gree g-top auto inverter", "ar condicionado com wifi", "melhor ar condicionado custo beneficio 2025" ],
@@ -2722,8 +2722,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 320.15,
   originalPrice: 408.00,
   badge: "Oferta Imperdível",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2NipbPe",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/3qNPpCmdbF",
   descricao: ` # Escrivaninha Mesa Giratória com 3 Gavetas para Home Office ## 📌 Introdução A **Escrivaninha Mesa Giratória** da Móveis Bela é a escolha inteligente para quem precisa de funcionalidade e organização em espaços reduzidos. Seu design em L permite ajustar a posição da mesa conforme a necessidade do ambiente, sendo perfeita para home offices, quartos de estudante e kitnets. ## 📌 Principais Benefícios **Estrutura Giratória:** Permite dobrar a mesa para otimizar espaço quando não estiver em uso ou ajustar o ângulo para melhor ergonomia. **Organização Completa:** Conta com 3 gavetas espaçosas com corrediças suaves e prateleiras laterais para livros e materiais. **Resistência:** Fabricada em MDP de alta qualidade, suportando até 25 kg no tampo, ideal para monitores e notebooks. ## 📌 Especificações Técnicas - **Marca:** Móveis Bela - **Material:** MDP - **Cor:** Branco - **Dimensões:** 91 cm (L) x 76 cm (A) x 42 cm (P) - **Capacidade:** 25 kg - **Gavetas:** 3 - **Garantia:** 3 meses ## 📌 Conclusão Praticidade e organização em um único móvel. Com 24% OFF, esta escrivaninha é ideal para montar seu setup sem comprometer o espaço do quarto. `,
   marca: "Móveis Bela",
   keywords: [ "escrivaninha para home office", "mesa giratória com gavetas", "escrivaninha para estudante", "mesa para computador e escritório" ],
@@ -2745,8 +2745,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 650.00,
   originalPrice: 670.00,
   badge: "Oferta Imperdível",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1STtcbb",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/BU7SZSlRk",
   descricao: ` # Escrivaninha de Canto Industrial 180cm para Home Office ## 📌 Introdução A **Escrivaninha de Canto Estilo Industrial** é projetada para maximizar o espaço de trabalho. Com formato em U e 180cm de comprimento, ela oferece uma superfície generosa para múltiplos monitores, impressoras e documentos, sendo a peça central para um home office profissional. ## 📌 Principais Benefícios **Formato em U:** Aproveita os cantos do ambiente, liberando espaço central e criando uma área de trabalho ampla e envolvente. **Design Industrial:** Combinação de MDF de alta densidade (1,2 cm) com estrutura metálica de ferro, garantindo estabilidade e suporte de até 50 kg. **Prateleiras Inclusas:** Laterais com prateleiras (13,5 x 7 cm) para organizar documentos, livros e itens de papelaria ao alcance das mãos. ## 📌 Especificações Técnicas - **Material:** MDF (1,2 cm) + Estrutura Metálica - **Cor:** Branco - **Dimensões:** 180 cm (C) x 45 cm (L) x 75 cm (A) - **Prateleiras:** 2 laterais - **Capacidade:** 50 kg - **Pés:** Ajustáveis ## 📌 Conclusão Para quem leva o trabalho a sério, esta escrivaninha oferece robustez e espaço de sobra. O estilo industrial traz um ar moderno e sofisticado para o ambiente. `,
   marca: "Perfin",
   keywords: [ "escrivaninha de canto industrial", "mesa escritório 180cm", "escrivaninha para home office", "mesa para computador e estudo" ],
@@ -2768,8 +2768,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 299.90,
   originalPrice: 499.90,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2qdzjwE",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/30oIpqu66Q",
   descricao: ` # Escrivaninha Home Office Paris 115cm com Puxador de Couro ## 📌 Introdução A **Escrivaninha Paris** da Maxi do Brasil é ideal para quem busca um móvel compacto, funcional e com visual moderno. Com 115cm de largura, ela acomoda computadores e materiais de estudo sem ocupar espaço excessivo no ambiente, sendo perfeita para quartos e home offices compactos. ## 📌 Principais Benefícios **Armário Lateral:** Possui 1 porta com prateleira interna, ideal para guardar livros, documentos e objetos discretamente. **Puxador em Couro:** Detalhe contemporâneo que agrega sofisticação e valoriza o design. **Material Resistente:** Produzida em MDF e MDP, garante durabilidade para o uso diário. ## 📌 Especificações Técnicas - **Marca:** Maxi do Brasil - **Modelo:** Paris - **Material:** MDF e MDP - **Cor:** Branco Nature - **Dimensões:** 115 cm (L) x 45 cm (P) x 71 cm (A) - **Compartimentos:** 1 Porta com prateleira interna ## 📌 Conclusão Com 64% de desconto, a mesa Paris oferece excelente custo-benefício, unindo design elegante e funcionalidade para o seu dia a dia de estudos ou trabalho. `,
   marca: "Maxi do Brasil",
   keywords: [ "escrivaninha home office 115cm", "mesa para computador com porta", "escrivaninha paris maxi do brasil", "mesa para estudos e escritório" ],
@@ -2791,8 +2791,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 183.88,
   originalPrice: 235.20,
   badge: "",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1rHTCbH",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/9zy3B4yED7",
   descricao: ` # Livreiro de Mesa Organizador 177cm Branco ## 📌 Introdução O **Livreiro de Mesa Organizador** é uma solução versátil para quartos infantis, escritórios e salas de estar. Com 177cm de altura, ele estimula a organização e permite fácil acesso a livros, revistas, brinquedos e materiais escolares. ## 📌 Principais Benefícios **Multifuncional:** Além de livros e revistas, acomoda tênis, roupas e brinquedos. **Altura Acessível:** 177cm de altura permite que crianças tenham autonomia para pegar e guardar seus pertences. **Acabamento Premium:** Chapa de alta qualidade com pintura UV, garantindo resistência a riscos e desgaste diário. ## 📌 Especificações Técnicas - **Material:** Chapa com pintura UV - **Cor:** Branco - **Dimensões:** 177 cm (A) x 53 cm (L) x 30 cm (P) - **Montagem:** Desmontado (kit e manual inclusos) ## 📌 Conclusão Um organizador prático e moderno que se adapta a qualquer ambiente. Ideal para manter o espaço arrumado e valorizar a decoração. `,
   marca: "Loja do Tesouro",
   keywords: [ "livreiro de mesa", "porta livros organizador", "estante para livros e revistas", "organizador de quarto infantil" ],
@@ -2814,8 +2814,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 247.90,
   originalPrice: 267,
   badge: "",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1f33TYG",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/4LJgQkzZVw",
   descricao: ` # Estante Prateleira de Aço Multiuso 6 Bandejas ## 📌 Introdução A **Estante de Aço Multiuso** é a solução definitiva para quem busca resistência e durabilidade. Com 6 bandejas reforçadas, ela é ideal para ambientes domésticos e comerciais, suportando peso considerável sem deformar. ## 📌 Principais Benefícios **Super Resistente:** Estrutura em aço com pintura eletrostática, não enferruja e é resistente a água e maresia. **Multiuso:** Ideal para cozinhas, lavanderias, escritórios, lojas e quartos. Organize livros, pastas, utensílios e ferramentas. **Estabilidade:** Acompanha sapatas de borracha para proteger o piso e garantir firmeza total. ## 📌 Especificações Técnicas - **Material:** Aço com pintura eletrostática - **Cor:** Preto - **Bandejas:** 6 - **Dimensões:** 204 cm (A) x 90 cm (L) x 26 cm (P) - **Montagem:** Desmontada (kit incluso) ## 📌 Conclusão Se você precisa de organização robusta que dure anos, esta estante de aço é a escolha perfeita. Fácil de limpar e extremamente durável. `,
   marca: "Estate",
   keywords: [ "estante de aço multiuso", "prateleira resistente 6 bandejas", "estante para livros e pastas", "organizador de escritório e quarto" ],
@@ -2837,8 +2837,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 459.05,
   originalPrice: 572.00,
   badge: "",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1W2keyy",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/9zy3BOckAw",
   descricao: ` # Armário Multiuso MDF 90cm para Livros e Decoração ## 📌 Introdução O **Armário Multiuso MDF** da Móveis Albergoni é a peça versátil que faltava na sua casa. Com design sofisticado e portas que protegem do pó, ele é ideal para organizar livros, roupas, documentos ou expor produtos em lojas. ## 📌 Principais Benefícios **Material Premium:** Fabricado em MDF 100% de alta qualidade, garantindo acabamento impecável e durabilidade. **Espaço Interno Versátil:** Prateleiras com medidas de 87x32x35 cm acomodam objetos de diferentes tamanhos. **Design Sofisticado:** Cores neutras que se adaptam a quartos, escritórios e salas de estar. ## 📌 Especificações Técnicas - **Marca:** Móveis Albergoni - **Material:** MDF 100% - **Cor:** Branco - **Dimensões Externas:** 90 cm (L) x 185 cm (A) x 30 cm (P) - **Sapatas Reguladoras:** Sim ## 📌 Conclusão Excelente custo-benefício para quem busca um móvel elegante e funcional. Perfeito para manter o ambiente organizado com estilo. `,
   marca: "Móveis Albergoni",
   keywords: [ "armário multiuso mdf para livros", "móveis para guardar livros e decoração", "expositor de roupas e acessórios", "armário organizador de escritório e quarto" ],
@@ -2860,8 +2860,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 394.99,
   originalPrice: 468.73,
   badge: "",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2zkEpH7",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/60RuQ6UYz3",
   descricao: ` # Kit 2 Estantes para Livros Office 188cm x 121cm ## 📌 Introdução O **Kit com 2 Estantes Office** é a solução completa para bibliotecas, escritórios e home offices. Com 5 prateleiras em cada unidade (3 removíveis), este conjunto oferece amplo espaço de armazenamento e flexibilidade de organização. ## 📌 Principais Benefícios **Estrutura Robusta:** Fabricada em MDP de 15mm com pintura UV texturizada semi-fosca, suportando até 20 kg por prateleira. **Prateleiras Removíveis:** Ajuste a altura conforme a necessidade dos seus livros ou pastas. **Design Moderno:** Cor Branco TX com acabamento fosco que valoriza qualquer decoração. ## 📌 Especificações Técnicas - **Marca:** Office - **Material:** MDP com pintura UV texturizada - **Cor:** Branco TX - **Prateleiras:** 5 por estante (3 removíveis) - **Dimensões:** 188 cm (A) x 121 cm (L) - **Capacidade:** 20 kg por prateleira ## 📌 Conclusão Dupla organização e resistência. Ideal para quem precisa de espaço generoso para livros pesados, documentos e decoração. `,
   marca: "Office",
   keywords: [ "kit estante para livros com 5 prateleiras", "estante office 188cm", "organizador de biblioteca e escritório", "estante para documentos e decoração" ],
@@ -2883,8 +2883,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 640.19,
   originalPrice: 799.98,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2ZtYknu",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/6VOAhYniVM",
   descricao: ` # Guarda-roupa Solteiro Madesa Denver 2 Portas de Correr ## 📌 Introdução O **Guarda-roupa Solteiro Denver da Madesa** é a solução ideal para quartos compactos, repúblicas e kitnets. Com portas de correr, ele economiza espaço abrindo, oferecendo organização completa e visual moderno na cor preta. ## 📌 Principais Benefícios **Portas de Correr:** Eliminam a necessidade de espaço extra para abertura das portas, otimizando a circulação do quarto. **Acabamento Premium:** Pintura Poliéster de 7 camadas exclusiva Madesa, protegendo contra riscos e desgaste diário. **Organização Inteligente:** Conta com cabideiro metálico de 105 cm, 2 prateleiras e 4 nichos internos. ## 📌 Especificações Técnicas - **Marca:** Madesa | Modelo: Denver 10946E - **Material:** MDP - **Cor:** Preto externo / Branco interno - **Dimensões:** 205 cm (A) x 117 cm (L) x 51 cm (P) - **Cabideiro:** 105 cm ## 📌 Conclusão Qualidade Madesa com design inteligente para espaços reduzidos. Suporta até 15 kg, ideal para a organização do dia a dia de solteiros e estudantes. `,
   marca: "Madesa",
   keywords: [ "guarda roupas solteiro madesa denver 2 portas", "guarda roupas preto com portas de correr", "moveis para quarto compacto e organizacao", "guarda roupas para estudante e apartamento" ],
@@ -2906,8 +2906,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 671.51,
   originalPrice: 779.00,
   badge: "",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2gAcXhJ",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/7fa85oKNgB",
   descricao: ` # Guarda Roupa Solteiro Roma com Espelho e 2 Gavetas ## 📌 Introdução O **Guarda-Roupa Solteiro Roma** é perfeito para quem busca funcionalidade e design em espaços compactos. Com 2 portas de correr e um kit de espelhos incluso, ele oferece organização prática e ainda amplia visualmente o ambiente. ## 📌 Principais Benefícios **Portas de Correr com Deslizamento Suave:** Otimizam o espaço do quarto, dispensando área de abertura. **Kit com 4 Espelhos:** Acompanha lâminas de espelho para fixação nas portas, agregando funcionalidade e elegância. **2 Gavetas com Corrediças Metálicas:** Abertura suave e segura para organizar roupas íntimas e acessórios. ## 📌 Especificações Técnicas - **Marca:** Roma - **Material:** MDP - **Acabamento:** Touch Alto-Relevo / Alto Brilho UV - **Cor:** Ônix (Preto Fosco) - **Dimensões:** 200 cm (A) x 114 cm (L) x 45 cm (P) - **Espelho:** Kit com 4 lâminas (53,2 x 45 cm) ## 📌 Conclusão Um móvel completo que une design moderno, otimização de espaço e utilidade. O acabamento preto fosco traz sofisticação para qualquer quarto. `,
   marca: "Roma",
   keywords: [ "guarda roupa solteiro roma com espelho e 2 gavetas", "guarda roupa de correr com espelho para quarto compacto", "moveis para estudante com organizacao", "guarda roupa preto fosco com portas de correr" ],
@@ -2929,8 +2929,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 321.62,
   originalPrice: 345.83,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/11gTJMD",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/2qUsL3vknt",
   descricao: ` # Armário Para Lavanderia Multiuso com Rodinhas ## 📌 Introdução O **Armário Multiuso para Lavanderia** é a solução perfeita para organizar produtos de limpeza e utensílios domésticos. Com design compacto, 4 prateleiras internas e rodinhas, ele transforma áreas de serviço e cozinhas em ambientes arrumados e funcionais. ## 📌 Principais Benefícios **Mobilidade Prática:** As rodinhas inclusas permitem mover o armário com facilidade, facilitando a limpeza do chão e o reposicionamento. **Organização Completa:** 4 prateleiras internas oferecem amplo espaço para detergentes, panos e vassouras. **Estrutura Resistente:** Fabricado em MDP de alta qualidade, suportando o peso do dia a dia. ## 📌 Especificações Técnicas - **Material:** MDP - **Cor:** Branco - **Portas:** 2 - **Prateleiras:** 4 internas - **Rodinhas:** Sim (4 inclusas) - **Profundidade:** 34 cm ## 📌 Conclusão Mantenha sua lavanderia ou cozinha impecável. Este armário oferece excelente custo-benefício e mobilidade para otimizar espaços reduzidos. `,
   marca: "Móveis Marília",
   keywords: [ "armario para lavanderia 2 portas com rodinhas", "armario multiuso para organizar produtos de limpeza", "moveis para area de servico e cozinha", "armario compacto com prateleiras e rodinhas" ],
@@ -2952,8 +2952,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 523.48,
   originalPrice: 832.22,
   badge: "",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1BQAm7B",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/4B0G7hSfap",
   descricao: ` # Armário de Cozinha Completa Pop Zanzini 6 Portas e 2 Gavetas ## 📌 Introdução O **Armário de Cozinha Completa Pop da Zanzini** é a solução para organizar panelas, mantimentos e eletrodomésticos com estilo. Com design moderno nas cores Nature e Off White, ele combina funcionalidade e acabamento premium. ## 📌 Principais Benefícios **Espaço para Micro-ondas:** Conta com compartimento dedicado para acomodar o forno micro-ondas ou bebedouro. **Organização Completa:** 6 portas, 2 gavetas com corrediças metálicas e 4 prateleiras internas. **Acabamento Premium:** Estrutura em MDP 12mm com texturizado UV Verniz (fosco/brilho), resistente e sofisticado. ## 📌 Especificações Técnicas - **Marca:** Zanzini | Modelo: Pop - **Material:** MDP 12mm - **Acabamento:** Texturizado UV Verniz - **Cor:** Nature / Off White - **Dimensões:** 174 cm (A) x 120,2 cm (L) x 37,8 cm (P) - **Capacidade Total:** 35 kg ## 📌 Conclusão Renove sua cozinha com elegância e organização inteligente. O armário Pop Zanzini oferece excelente custo-benefício e qualidade comprovada. `,
   marca: "Zanzini",
   keywords: [ "armario de cozinha completa pop zanzini 6 portas 2 gavetas", "cozinha compacta com 6 portas e gavetas nature off white", "moveis para cozinha organizada e funcional", "armario mdf texturizado uv para cozinha moderna" ],
@@ -2975,8 +2975,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 266.30,
   originalPrice: 0,
   badge: "",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1muEACH",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/1Lg4kYXe9q",
   descricao: ` # Rack para TV até 50 Polegadas Acacia Venus ## 📌 Introdução O **Rack Acacia Venus** é a peça perfeita para transformar sua sala com elegância e funcionalidade. Produzido em madeira com acabamento de ótimo padrão e pés elevados estilo retrô, ele acomoda televisores de até 50 polegadas com segurança. ## 📌 Principais Benefícios **Design Moderno e Limpo:** Estrutura em madeira com 2 portas laterais na cor preta e nichos centrais com prateleira. **Facilidade de Limpeza:** Os pés elevados em estilo retrô facilitam a limpeza do chão, mantendo o ambiente impecável. **Espaço Generoso:** 1,20m de largura oferece amplo espaço para aparelhos eletrônicos, controles e objetos decorativos. ## 📌 Especificações Técnicas - **Marca:** Acacia | Modelo: Venus - **Material:** Madeira - **Cor:** Preto - **Portas:** 2 laterais - **Dimensões:** 120 cm (L) x 60 cm (A) x 34 cm (P) ## 📌 Conclusão Um rack versátil que combina com decorações clássicas e contemporâneas. Ideal para quem busca organização e estilo sem abrir mão do acabamento de qualidade. `,
   marca: "Acacia",
   keywords: [ "rack para tv ate 50 polegadas moderno com portas", "rack de madeira preto com nichos e prateleiras", "moveis para sala de estar e quarto", "rack para tv com design retrô e organizacao" ],
@@ -2999,8 +2999,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 179.84,
   originalPrice: 219.32,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/29URzoX",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/2Vs28nzylM",
   descricao: ` # Armário Cozinha AJL Preto com Rodas e Porta Microondas ## 📌 Introdução O **Armário Cozinha AJL** é a solução versátil para espaços compactos. Compartimentado para fruteira, micro-ondas e utensílios, ele é perfeito para cozinhas, dispensas e lavanderias. O grande diferencial são as rodinhas, que facilitam a limpeza e a mobilidade. ## 📌 Principais Benefícios **Compartimento para Micro-ondas:** Espaço superior projetado para comportar o forno micro-ondas ou bebedouro. **Fruteira Integrada:** 2 compartimentos superiores abertos para armazenar frutas e legumes. **Mobilidade:** Rodízios resistentes que permitem mover o móvel com facilidade. **Design Preto Sofisticado:** Visual moderno que combina com qualquer decoração. ## 📌 Especificações Técnicas - **Marca:** AJL - **Material:** MDP - **Cor:** Preto - **Portas:** 2 - **Rodinhas:** 4 - **Dimensões:** 72 cm (A) x 92 cm (L) x 34 cm (P) ## 📌 Conclusão Praticidade e mobilidade em um só móvel. Excelente custo-benefício para organizar a cozinha sem comprometer o espaço. `,
   marca: "AJL",
   keywords: [ "armario cozinha com rodas e fruteira preto", "armario porta microondas com rodinhas", "moveis para cozinha compacta com organizacao", "armario mdf com fruteira para legumes e frutas" ],
@@ -3023,8 +3023,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 208.17,
   originalPrice: 339.00,
   badge: "Oferta do Dia",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/13ZeTQX",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/LnXYvIrl3",
   descricao: ` # Balcão Fruteira Isis com Cestos Metálicos 92cm ## 📌 Introdução O **Balcão Fruteira Isis** é um móvel versátil projetado para organizar a cozinha e o home office. Com design moderno e rodízios para mobilidade, ele combina 3 cestos metálicos, gavetas e um tampo robusto que suporta eletrodomésticos e objetos pesados. ## 📌 Principais Benefícios **3 Cestos Metálicos Aramados:** Ideais para organizar frutas, legumes e verduras de forma arejada. **Tampo Super Resistente:** Suporta até 20 kg, perfeito para apoiar um forno micro-ondas, galão de água ou impressora. **Mobilidade Total:** 4 rodízios inclusos para fácil locomoção e limpeza do ambiente. ## 📌 Especificações Técnicas - **Marca:** Isis - **Material:** MDP com acabamento Touch/Alto Brilho UV - **Cor:** Branco - **Portas:** 2 (1 prateleira interna) - **Gavetas:** 1 com corrediça metálica - **Cestos:** 3 metálicos - **Rodinhas:** 4 - **Capacidade do Tampo:** 20 kg - **Dimensões:** 82 cm (A) x 92 cm (L) x 37 cm (P) ## 📌 Conclusão Design inteligente e funcionalidade no mesmo móvel. Com 38% de desconto, é a escolha ideal para quem busca organização prática e elegante. `,
   marca: "Isis",
   keywords: [ "balcao fruteira com 2 portas 1 gaveta e cestos metalicos", "moveis para cozinha e home office com rodizios", "fruteira com suporte para microondas e organizacao", "balcao mdf com gaveta e portas branco 92cm" ],
@@ -3047,8 +3047,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 459.83,
   originalPrice: 908.00,
   badge: "Oferta",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2F7XvNb",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/8fSfUUBwtt",
   descricao: ` # Cama Box Conjugada Solteiro Ortopédica Sleep Prime Probel ## 📌 Introdução A **Cama Box Conjugada Solteiro Sleep Prime** da Probel foi desenvolvida para máximo conforto e praticidade. Por ser conjugada, o colchão já vem fixado à base, formando uma peça única que facilita a organização do ambiente e economiza espaço. ## 📌 Principais Benefícios **Sistema Conjugado:** Colchão e base integrados em uma única peça, dispensando a compra separada e facilitando a arrumação. **Conforto Ortopédico:** Espuma D28 de alta densidade dentro dos padrões ABNT, oferecendo suporte firme e alinhamento adequado da coluna. **Euro Pillow Top:** Camada extra de maciez que proporciona uma sensação acolhedora e confortável ao deitar. **Estrutura Resistente:** Base em madeira de reflorestamento com 6 pés plásticos de alta resistência, suportando até 110 kg. ## 📌 Especificações Técnicas - **Marca:** Probel | Modelo: Sleep Prime - **Material:** Espuma D28, Madeira, Tecido 100% poliéster - **Dimensões:** 88 cm (L) x 188 cm (P) x 49 cm (A) (com pés) - **Capacidade:** 110 kg - **Certificação:** INMETRO 000222/2025 ## 📌 Conclusão Com 49% de desconto, esta cama box conjugada é a escolha ideal para quartos de solteiro, repúblicas e kitnets, oferecendo conforto ortopédico e qualidade Probel. `,
   marca: "Probel",
   keywords: [ "cama box conjugada solteiro ortopedica sleep prime", "cama box com espuma d28 para conforto e saude", "moveis para quarto de estudante e apartamento", "cama solteiro 88x188 com pillow euro pillow" ],
@@ -3071,8 +3071,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 759.01,
   originalPrice: 843.34,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2xPpeM2",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/9AOwCGVt2k",
   descricao: ` # Cama Box Solteiro Espuma D33 New Millennium Hellen ## 📌 Introdução O **Conjunto Cama Box Solteiro New Millennium** da Hellen oferece suporte firme e durabilidade para quem busca noites de sono reparador. Com colchão em espuma D33 e base EPS, este conjunto é ideal para quem precisa de firmeza e alinhamento da coluna. ## 📌 Principais Benefícios **Espuma D33 de Alta Densidade:** Oferece suporte superior, recomendada para pessoas com peso acima de 80 kg, garantindo maior durabilidade e resistência à deformação. **Base em EPS:** Material leve, resistente e durável, que protege o colchão e prolonga sua vida útil. **Conforto Térmico:** Revestimento superior em tecido de poliéster que permite ventilação e toque agradável. **Estrutura Robusta:** Box em madeira de Eucalipto Pinus com 6 pés plásticos resistentes. Suporta até 120 kg. ## 📌 Especificações Técnicas - **Marca do Colchão:** Hellen | Marca do Box: Prince - **Material:** Espuma D33, Base EPS, Estrutura Eucalipto - **Dimensões:** 88 cm (L) x 188 cm (P) x 57 cm (A) - **Capacidade:** 120 kg por pessoa ## 📌 Conclusão Para quem busca firmeza e durabilidade, este conjunto com espuma D33 é a escolha ideal. Suporta até 120 kg e oferece o equilíbrio perfeito entre suporte e conforto. `,
   marca: "Hellen",
   keywords: [ "cama box colchao solteiro espuma d33 new millennium", "conjunto cama box ortopedico com espuma d33", "moveis para quarto de solteiro com conforto e durabilidade", "cama box com colchao d33 para quem tem dor nas costas" ],
@@ -3143,7 +3143,7 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   "originalPrice": 0,
   "badge": "Novo | +5 vendidos",
   "platform": "Mercado Livre",
-  "affiliateLink": "https://meli.la/2eQ1A29",
+  "affiliateLink": "https://s.shopee.com.br/6L4kpClpv3",
   "descricao": "**Sofá de Canto 9 Lugares com Puff Cancun Montreal – Amplitude, Conforto e Estilo para sua Sala**\n\nTransforme sua sala de estar em um verdadeiro ponto de encontro com o **Sofá de Canto 9 Lugares com Puff Cancun Montreal**, da renomada marca Montreal. Este sofá foi projetado para quem busca um móvel imponente, confortável e versátil, capaz de acomodar toda a família e os amigos com estilo e sofisticação.\n\n**Design Contemporâneo e Elegante**\nCom linhas modernas e um acabamento impecável na cor **branca**, o sofá Cancun Montreal traz luz e sensação de amplitude ao ambiente, sendo perfeito para salas de estar de diferentes estilos – do minimalista ao escandinavo, passando pelo contemporâneo e industrial. O design de canto otimiza o aproveitamento do espaço, permitindo uma distribuição eficiente e confortável em ambientes grandes ou médios.\n\n**Capacidade Generosa para 9 Pessoas**\nIdeal para reuniões, encontros familiares ou momentos de relaxamento, este sofá comporta **até 9 pessoas** com total conforto. Sua estrutura ampla oferece espaço suficiente para que todos se acomodem sem apertos, tornando-o a peça central da sua sala de estar.\n\n**Puff Incluso – Versatilidade e Funcionalidade**\nO grande diferencial deste conjunto é o **puff acompanhante**, que não apenas complementa o design do sofá como também acrescenta funcionalidade. Ele pode ser utilizado como:\n- **Assento adicional** – ampliando a capacidade do sofá\n- **Apoio para os pés** – proporcionando relaxamento completo\n- **Mesa auxiliar** – com o uso de uma bandeja decorativa\n- **Mesa de canto** – para apoiar objetos e bebidas\n\n**Materiais de Alta Qualidade e Durabilidade**\nFabricado com **materiais premium**, o sofá Cancun Montreal garante durabilidade e resistência ao uso diário. Seu estofamento em tecido de alta qualidade é macio ao toque e fácil de limpar, enquanto sua estrutura firme e estável proporciona suporte ergonômico, prevenindo dores nas costas e garantindo conforto prolongado.\n\n**Conforto Superior para o Dia a Dia**\nO sofá conta com assentos estofados com **espuma de alta densidade**, que oferece o equilíbrio perfeito entre firmeza e maciez. O encosto é preenchido com fibra siliconada, proporcionando um apoio macio e aconchegante, ideal para longas horas de descanso.\n\n**Otimização do Espaço**\nGraças ao seu formato de canto, este sofá aproveita ao máximo o espaço disponível, criando um ambiente integrado e funcional. É a escolha perfeita para quem deseja uma sala de estar acolhedora, sem abrir mão da elegância e do conforto.\n\n**Por que escolher o Sofá Cancun Montreal?**\n- **Capacidade para 9 pessoas** – perfeito para famílias grandes e reuniões\n- **Puff incluso** – versátil e funcional, pode ser usado como assento ou apoio\n- **Design contemporâneo** – linhas modernas e elegantes para qualquer decoração\n- **Cor branca** – traz luminosidade e amplitude ao ambiente\n- **Materiais de alta qualidade** – durabilidade e resistência garantidas\n- **Conforto superior** – espuma de alta densidade e fibra siliconada\n- **Otimização do espaço** – formato de canto que aproveita cada centímetro\n- **Origem nacional** – qualidade e garantia de fábrica\n\n**Dúvidas Frequentes dos Nossos Clientes:**\n\n**1 – O sofá é novo ou usado?**\nTodos os nossos produtos são novos, enviados diretamente de nossos fornecedores para a casa dos clientes.\n\n**2 – O produto vem montado? Vocês realizam a montagem?**\nO produto acompanha manual de montagem e kit de ferragens. A montagem é simples e pode ser feita com auxílio de outra pessoa. Não oferecemos serviço de montagem.\n\n**3 – Vocês possuem loja física? Posso retirar o produto?**\nNão trabalhamos com loja física, apenas loja virtual. A entrega é feita por transportadoras parceiras diretamente no endereço informado.\n\n**4 – Como funciona o frete?**\nO valor do frete varia de acordo com o CEP de destino. Você pode calcular o prazo e valor no simulador de entrega disponível na página do produto.\n\n**5 – Entregam em todo o Brasil?**\nSim, entregamos em todo o território nacional por meio de nossas transportadoras parceiras.\n\n**6 – Posso usar Mercado Pontos para frete grátis?**\nInfelizmente, não participamos do programa Mercado Pontos, portanto não podemos conceder esse benefício.\n\n**7 – É possível agendar a entrega?**\nNão realizamos agendamento. O prazo de entrega é baseado na localização do fornecedor e no CEP de destino, e nos comprometemos a cumprir o prazo informado no ato da compra.\n\n**8 – O produto acompanha Nota Fiscal?**\nSim. O produto é entregue com sua respectiva Nota Fiscal, e uma cópia é enviada por e-mail no momento da postagem.\n\n**9 – Qual o horário de atendimento?**\nNosso atendimento é de segunda a sexta-feira, das 8h às 18h (exceto feriados).\n\n**10 – Como limpar o sofá branco?**\nRecomenda-se aspiração regular para remover poeira e sujeira superficial. Para manchas, utilize um pano úmido com água e sabão neutro, ou produtos específicos para limpeza de tecidos. Evite alvejantes e produtos abrasivos.\n\n**11 – O sofá é pet friendly?**\nRecomenda-se cautela com animais de estimação, pois o tecido claro pode manchar ou arranhar com mais facilidade. O uso de capas protetoras é altamente recomendado.\n\n**12 – Qual a garantia do produto?**\n3 meses contra defeitos de fabricação.\n\n**Especificações Técnicas:**\nMarca: Montreal | Modelo: Cancun | Tipo de Sofá: Sofá de Canto com Puff | Quantidade de Lugares: 9 | Cor: Branco | Material do Estofado: Tecido de alta qualidade | Material da Estrutura: Madeira (eucalipto ou pinus) | Puff: Incluso, multifuncional | Capacidade: 9 pessoas | Design: Contemporâneo, moderno | Formato: Canto, otimiza espaço | Origem: Nacional | Garantia: 3 meses | Necessita Montagem: Sim (manual incluso) | Ambiente Principal: Sala de Estar | Características: Conforto superior, versatilidade, durabilidade, design elegante.",
   "marca": "Montreal",
   "keywords": [
@@ -3176,7 +3176,7 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   "originalPrice": 0,
   "badge": "Novo | +5 vendidos",
   "platform": "Mercado Livre",
-  "affiliateLink": "https://meli.la/1k2GN4W",
+  "affiliateLink": "https://link.amazon/B01WW3Iv2",
   "descricao": "**Sofá de Canto Luna Orgânico 265cm – Design Contemporâneo e Conforto Envolvente para sua Sala**\n\nApresentamos o **Sofá de Canto Luna Orgânico**, da marca Celflex, uma peça que combina charme, elegância e um toque moderno para transformar sua sala de estar. Com um design que une modernidade e suavidade, este sofá é a escolha perfeita para quem busca sofisticação sem abrir mão do conforto.\n\n**Design Orgânico: A Tendência que Veio para Ficar**\nO design orgânico, com suas formas arredondadas e linhas fluidas, é uma das grandes tendências da decoração para 2025[reference:0]. O Sofá Luna segue essa proposta, trazendo um ar descolado e contemporâneo para qualquer ambiente. Sua silhueta suave e convidativa cria uma sensação de aconchego e fluidez, tornando-o o ponto focal da sua sala de estar.\n\n**Estrutura em Ferro: Estabilidade e Estilo Industrial**\nDiferente dos sofás convencionais com estrutura de madeira, o modelo Luna possui **base em ferro**, que garante estabilidade excepcional e um toque industrial chique[reference:1]. O metalon utilizado na estrutura não racha, não empena e aguenta bem o uso diário[reference:2], proporcionando durabilidade e segurança. Os **8 pés em ferro na cor preta** complementam o design, elevando o móvel e facilitando a limpeza.\n\n**Tecido Bouclé: Maciez e Sofisticação**\nO Sofá Luna é estofado em **tecido Bouclé**, um material que se destaca por sua textura diferenciada e toque extremamente macio[reference:3]. Com uma estrutura texturizada e superfície agradável ao toque, o Bouclé se tornou uma mega tendência na decoração de interiores[reference:4]. Disponível em diversas cores, este tecido confere um visual sofisticado e acolhedor ao móvel.\n\n**Conforto Superior para o Dia a Dia**\nO sofá conta com **assento pillow top de 10 cm**, que proporciona uma superfície macia e envolvente. O sistema de **molas Bonnel** garante um suporte uniforme e resiliente, enquanto a **espuma D-28** no assento oferece o equilíbrio perfeito entre firmeza e conforto, com excelente capacidade de recuperação. As **percíntas elásticas** reforçam a sustentação, prolongando a vida útil do estofado.\n\n**Dimensões Ideais para Diferentes Ambientes**\nCom **265 cm de largura**, **85 cm de profundidade** e **85 cm de altura**, o Sofá Luna se adapta perfeitamente a salas de estar de diferentes tamanhos. Sua capacidade para **4 lugares** e suporte de até **120 kg por assento** garantem conforto e segurança para toda a família. O formato de canto otimiza o aproveitamento do espaço, permitindo uma distribuição eficiente e confortável.\n\n**Versatilidade de Cores e Tecidos**\nO modelo Luna oferece múltiplas opções de revestimento, incluindo **Algodão, Chenille, Linho e Veludo**[reference:5], além do Bouclé. Essa variedade permite que você escolha o acabamento que melhor combina com a decoração do seu ambiente.\n\n**Por que escolher o Sofá de Canto Luna Orgânico?**\n- **Design orgânico e contemporâneo** – linhas arredondadas que seguem as tendências de 2025\n- **Estrutura em ferro** – estabilidade, durabilidade e toque industrial chique\n- **Tecido Bouclé** – maciez, textura diferenciada e sofisticação\n- **Conforto superior** – assento pillow top, molas Bonnel e espuma D-28\n- **Dimensões generosas** – 265cm de largura para 4 lugares\n- **Versatilidade** – múltiplas opções de tecidos e cores\n- **Origem nacional** – qualidade e garantia Celflex\n\n**Dúvidas Frequentes dos Nossos Clientes:**\n\n**1 – O sofá é novo ou usado?**\nTodos os nossos produtos são novos, enviados diretamente de nossos fornecedores para a casa dos clientes.\n\n**2 – O produto vem montado? Vocês realizam a montagem?**\nO produto acompanha manual de montagem e kit de ferragens. A montagem é simples e pode ser feita com auxílio de outra pessoa. Não oferecemos serviço de montagem.\n\n**3 – Qual a diferença entre o tecido Bouclé e o Linho?**\nO Bouclé tem uma textura mais macia e aconchegante, com aparência felpuda e toque envolvente. Já o linho é mais rústico e respirável, ideal para climas quentes. Ambos são excelentes opções, dependendo do estilo desejado.\n\n**4 – O sofá é reclinável?**\nNão. O modelo Luna possui encosto fixo, proporcionando estabilidade e suporte ergonômico.\n\n**5 – Como limpar o sofá?**\nRecomenda-se aspiração regular para remover poeira e sujeira superficial. Para manchas, utilize um pano úmido com água e sabão neutro, ou produtos específicos para limpeza de tecidos. Evite alvejantes e produtos abrasivos[reference:6].\n\n**6 – O sofá é pet friendly?**\nRecomenda-se cautela com animais de estimação, pois o tecido pode arranhar com mais facilidade. O uso de capas protetoras é recomendado.\n\n**7 – Qual a garantia do produto?**\n3 meses contra defeitos de fabricação.\n\n**8 – O produto acompanha Nota Fiscal?**\nSim. O produto é entregue com sua respectiva Nota Fiscal, e uma cópia é enviada por e-mail no momento da postagem.\n\n**9 – Qual o horário de atendimento?**\nNosso atendimento é de segunda a sexta-feira, das 8h às 18h (exceto feriados).\n\n**10 – O frete é calculado por CEP?**\nSim. O valor do frete varia de acordo com o CEP de destino. Você pode calcular o prazo e valor no simulador de entrega disponível na página do produto.\n\n**Especificações Técnicas:**\nMarca: Celflex | Linha/Coleção: Luna | Modelo: Orgânico | Tipo de Sofá: Sofá de Canto | Quantidade de Lugares: 4 | Cor: Bege Claro | Material do Estofado: Bouclé (opções em Algodão, Chenille, Linho e Veludo) | Material da Estrutura: Ferro | Material dos Pés: Ferro (8 pés, cor preta) | Largura: 265 cm | Profundidade: 85 cm | Altura: 85 cm | Altura do Assento: 45 cm | Altura do Encosto: 40 cm | Altura dos Pés: 15 cm | Peso: 83 kg | Suporte por Assento: 120 kg | Tipo de Mola: Molas Bonnel | Densidade do Assento: D-28 | Enchimento do Assento: Espuma | Firmeza do Assento: Macio | Tipo de Encosto: Fixo | Estilo de Braço: Sem Braços | Lado da Quina: Direito (visto de frente) | Possui Pés: Sim (8) | Possui Rodízio: Não | Possui Baú: Não | Possui Gavetas: Não | Possui Percintas Elásticas: Sim | Tecido Impermeável: Não | É Reclinável: Não | Itens Inclusos: 1 Sofá | Origem: Nacional | Garantia: 3 meses | Necessita Montagem: Sim (manual incluso) | Ambiente Principal: Sala de Estar.",
   "marca": "Celflex",
   "keywords": [
@@ -3207,7 +3207,7 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   "originalPrice": 5339.00,
   "badge": "Novo | +25 vendidos",
   "platform": "Mercado Livre",
-  "affiliateLink": "https://meli.la/27rMoMF",
+  "affiliateLink": "https://s.shopee.com.br/4fwWqPTmgO",
   "descricao": "**Sofá Modular Evo 2,70m com Chaise Direita – A Revolução em Conforto e Praticidade para sua Sala**\n\nApresentamos o **Sofá Modular Evo da Cama inBox**, um modelo que une tecnologia de ponta, design inteligente e conforto excepcional para transformar completamente a experiência de ter um sofá em casa. Com **2,70 metros de largura**, chaise direita e acabamento em **tecido Velourê na cor creme**, este sofá foi projetado para quem valoriza inovação, versatilidade e bem-estar.\n\n**Tecnologia Boost Tech: O Sofá que Chega a Vácuo**\nO grande diferencial do Sofá Evo é a **tecnologia Boost Tech**, que permite que o produto seja embalado a vácuo em uma caixa compacta[reference:0]. Isso resolve de vez o problema clássico de transportar móveis grandes por elevadores, escadas e portas apertadas. Ao receber o sofá, basta abrir a embalagem e rasgar o plástico: em instantes, ele se expande e retoma sua forma original, como num passe de mágica[reference:1]. Uma solução logística inovadora que facilita a entrega e a montagem[reference:2].\n\n**Molas Ensacadas: Conforto e Durabilidade que se Destacam**\nDiferente dos sofás convencionais que utilizam molas Bonnel ou espuma macica, o Sofá Evo é equipado com **molas ensacadas**[reference:3]. Cada mola trabalha de forma independente, o que proporciona um suporte personalizado ao corpo, adaptando-se às curvas sem transferir movimentos[reference:4]. Isso significa que, ao sentar, você não sente os movimentos de outra pessoa no sofá – ideal para famílias e momentos de descontração. Além disso, as molas ensacadas oferecem **alta resistência ao afundamento** e **durabilidade prolongada**, mantendo a firmeza e a forma do estofado por muitos anos[reference:5].\n\n**Espuma D33: Firmeza e Maciez na Medida Certa**\nO Sofá Evo utiliza **espuma de alta performance D33**[reference:6], uma densidade superior que garante o equilíbrio perfeito entre firmeza e conforto. Enquanto a espuma D28 é padrão em muitos sofás, a D33 é indicada para quem busca maior resistência ao peso corporal e ao uso frequente[reference:7]. Ela oferece suporte ideal para o corpo, evitando deformações e garantindo que o sofá mantenha a aparência de novo por muito mais tempo[reference:8].\n\n**Design Modular e Inteligente**\nCom **2,70m de largura** e chaise com **1,70m de profundidade**, o Sofá Evo foi pensado para otimizar o espaço de apartamentos, studios, salas compactas e lofts[reference:9]. Seu sistema modular permite que você **adicione ou remova módulos** conforme a necessidade, tornando-o um móvel que acompanha o crescimento da família. A tecnologia **Connect Tech** (velcro exclusivo) facilita a conexão entre os módulos, garantindo estabilidade e praticidade[reference:10]. O **porta-copos incluso** é um detalhe a mais que faz toda a diferença no dia a dia.\n\n**Tecido Velourê: Sofisticação e Resistência**\nO revestimento em **Velourê** é um dos grandes destaques do Sofá Evo[reference:11]. Este tecido premium oferece um **toque ultra macio** e uma estética sofisticada, com um brilho sutil que valoriza qualquer ambiente[reference:12]. Além de bonito, o Velourê é **altamente resistente ao uso contínuo**, suportando o desgaste do dia a dia sem perder a beleza. Sua tonalidade **creme** é atemporal e versátil, combinando perfeitamente com diferentes estilos de decoração – do minimalismo ao contemporâneo.\n\n**Por que escolher o Sofá Modular Evo?**\n- **Tecnologia Boost Tech** – embalagem a vácuo que facilita o transporte e a montagem[reference:13]\n- **Molas ensacadas** – suporte personalizado, durabilidade e independência de movimento[reference:14]\n- **Espuma D33** – alta densidade para maior resistência e conforto duradouro[reference:15]\n- **Design modular** – adaptável a diferentes espaços e necessidades[reference:16]\n- **Tecido Velourê** – toque macio, sofisticação e resistência[reference:17]\n- **Porta-copos incluso** – praticidade para o dia a dia\n- **Garantia de 12 meses** – 3 meses legal + 9 meses de fábrica[reference:18]\n\n**Dúvidas Frequentes dos Nossos Clientes:**\n\n**1 – O que é a tecnologia Boost Tech?**\nÉ um sistema inovador que permite que o sofá seja embalado a vácuo em uma caixa compacta. Ao abrir a embalagem, ele se expande automaticamente, retomando sua forma original em instantes[reference:19]. Isso facilita o transporte e elimina a necessidade de içamentos ou manobras complicadas.\n\n**2 – Qual a diferença entre molas ensacadas e molas Bonnel?**\nAs molas ensacadas são independentes, cada uma dentro de seu próprio tecido. Isso proporciona suporte personalizado, melhor adaptação ao corpo e menor transferência de movimento[reference:20]. Já as molas Bonnel são interligadas, o que pode transmitir movimentos e causar afundamentos com o tempo.\n\n**3 – O que significa espuma D33?**\nA espuma D33 tem densidade de 33 kg/m³, sendo mais firme e resistente que a D28[reference:21]. É indicada para pessoas com peso acima de 80 kg e para sofás de uso frequente, garantindo maior durabilidade e suporte[reference:22].\n\n**4 – O sofá vem montado?**\nNão. O Sofá Evo chega em uma caixa compacta com os módulos separados. A montagem é simples e pode ser feita por uma pessoa, conectando os módulos pelo sistema Connect Tech (velcro)[reference:23].\n\n**5 – O tecido Velourê é resistente?**\nSim. O Velourê é um tecido premium que oferece alta resistência ao uso contínuo, além de um toque ultra macio e sofisticação visual[reference:24].\n\n**6 – O sofá é pet friendly?**\nRecomenda-se cautela com animais de estimação, pois o tecido pode arranhar com mais facilidade. O uso de capas protetoras é altamente recomendado.\n\n**7 – Como limpar o sofá?**\nRecomenda-se aspiração regular para remover poeira e sujeira superficial. Para manchas, utilize um pano úmido com água e sabão neutro, ou produtos específicos para limpeza de tecidos. Evite alvejantes e produtos abrasivos.\n\n**8 – O sofá tem garantia?**\nSim. O Sofá Evo possui garantia de **12 meses** (3 meses de garantia legal + 9 meses de garantia de fábrica)[reference:25].\n\n**9 – O produto acompanha Nota Fiscal?**\nSim. O produto é entregue com sua respectiva Nota Fiscal, e uma cópia é enviada por e-mail no momento da postagem.\n\n**10 – Como funciona o frete?**\nO valor do frete varia de acordo com o CEP de destino. Você pode calcular o prazo e valor no simulador de entrega disponível na página do produto.\n\n**11 – É possível agendar a entrega?**\nNão realizamos agendamento. O prazo de entrega é baseado na localização do fornecedor e no CEP de destino, e nos comprometemos a cumprir o prazo informado no ato da compra.\n\n**12 – Qual o horário de atendimento?**\nNosso atendimento é de segunda a sexta-feira, das 8h às 18h (exceto feriados).\n\n**Especificações Técnicas:**\nMarca: Cama inBox | Modelo: Evo | Tipo de Sofá: Sofá Modular com Chaise Direita | Quantidade de Lugares: 3 | Cor: Creme | Material do Estofado: Tecido Velourê | Tecnologia: Boost Tech (embalagem a vácuo) | Sistema de Molas: Molas Ensacadas | Espuma: D33 (alta densidade) | Largura: 270 cm | Profundidade da Chaise: 170 cm | Altura: 90 cm | Peso: 110 kg[reference:26] | Capacidade: 3 lugares | Design: Modular, com porta-copos incluso | Sistema de Conexão: Connect Tech (velcro) | Possui Pés: Sim | Possui Rodízio: Não | Possui Baú: Não | Possui Gavetas: Não | Tecido Impermeável: Não | É Reclinável: Não | Itens Inclusos: 1 Sofá (módulos), manual de instruções | Origem: Nacional | Garantia: 12 meses (3 meses legal + 9 meses fábrica)[reference:27] | Necessita Montagem: Sim (simples, com encaixe por velcro) | Ambiente Principal: Sala de Estar.",
   "marca": "Cama inBox",
   "keywords": [
@@ -3238,8 +3238,8 @@ Aproveite o desconto de 24% e garanta já o seu Armário Emilly Pop Rustic com e
   price: 458.63,
   originalPrice: 654.99,
   badge: "Novo",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2oSYxrC", // Substitua pelo link real
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/1VzUxOxD8m", // Substitua pelo link real
   descricao: `A Penteadeira com Espelho Princesa da Oliart é a peça perfeita para quem busca elegância, funcionalidade e versatilidade no quarto. Com design moderno e sofisticado na cor branca, este móvel 3 em 1 foi projetado para atender diversas necessidades: funciona como penteadeira para sua rotina de beleza, como escrivaninha para momentos de estudo ou trabalho, e como sapateira para organizar seus calçados favoritos.
 
 Com 108 cm de largura e 129 cm de altura, a penteadeira oferece espaço generoso para acomodar seus objetos pessoais com praticidade e estilo. O tampo amplo permite apoiar cosméticos, perfumes, livros ou até mesmo um notebook, tornando-a uma peça versátil para diferentes momentos do dia.
@@ -3294,8 +3294,8 @@ Marca: Oliart | Modelo: Princesa | Material: MDP | Cor: Branco | Dimensões: 108
   price: 2574.99,
   originalPrice: 3149.99,
   badge: "Oferta Imperdível",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1Lx9ie4",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/4Vd6KEZFHi",
   descricao: `O Guarda-roupa Casal Branco com Espelho e 3 Portas de Correr da Espresso Móveis é a solução definitiva para quem busca organização, estilo e funcionalidade no quarto. Com design clean e moderno na cor branca, este móvel foi projetado para atender às necessidades de casais que valorizam praticidade e elegância no dia a dia.
 
 **Organização Completa para o seu Quarto**
@@ -3352,8 +3352,8 @@ Marca: Espresso Móveis | Material: MDF | Cor: Branco | Portas: 3 de correr | Ga
   price: 933.79,
   originalPrice: 1249.00,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1YzJP87",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/20vlLjOoDw",
   descricao: `O Guarda-roupa Casal 3 Portas Corrediça Espelhada Milão da Yescasa é a solução definitiva para transformar seu quarto em um ambiente de organização, estilo e sofisticação. Projetado para otimizar espaços, este móvel combina um design moderno com a funcionalidade essencial para o dia a dia, sendo a escolha ideal para casais que buscam praticidade e elegância.
 
 Com dimensões de 191,8 cm de largura, 45,7 cm de profundidade e 208 cm de altura, o guarda-roupa Milão oferece amplo espaço de armazenamento sem ocupar área excessiva no quarto. Sua estrutura 100% MDF garante robustez, durabilidade e acabamento superior, com pintura UV de alta qualidade que protege o móvel contra riscos e desgaste do uso diário.
@@ -3415,8 +3415,8 @@ Marca: Yescasa | Modelo: Milão | Material: 100% MDF | Cor: Branco | Portas: 3 d
   price: 1234.45,
   originalPrice: 1254.45,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1h6PwSr",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/9KiM5Hus65",
   descricao: `O Guarda Roupas Casal França da Santos Andirá é a escolha perfeita para quem busca funcionalidade, design moderno e organização eficiente para o quarto. Com acabamento em verniz brilhante e puxadores em ABS, este móvel garante um visual clean e elegante que combina com diferentes estilos de decoração.
 
 **Design Inteligente que Otimiza Espaço**
@@ -3476,8 +3476,8 @@ Marca: Santos Andirá | Modelo: França | Material: MDP/MDF (12/15mm) | Acabamen
   price: 1021.20,
   originalPrice: 1110.00,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1U4NSHj",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/3g3zKya1FJ",
   descricao: `O Guarda roupas Casal França com Espelho da Santos Andirá é a escolha perfeita para quem busca funcionalidade, design moderno e praticidade no dia a dia. Com acabamento em verniz brilhante e puxadores em ABS, este móvel oferece um visual clean e elegante que valoriza qualquer ambiente, enquanto os pés em PVC garantem estabilidade e durabilidade.
 
 **Design Inteligente com Espelho Integrado**
@@ -3539,8 +3539,8 @@ Marca: Santos Andirá | Modelo: França | Material: MDP/MDF (12/15mm) | Acabamen
   price: 5824.99,
   originalPrice: 6024.99,
   badge: "",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2z4tqDE",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/1gIuxNAkJu",
   descricao: `O Guarda-roupas Casal 6 Portas Reflecta com Pés da Gelius Móveis é a escolha definitiva para quem busca um móvel de alto padrão, com design clássico e acabamento impecável. Fabricado em MDF de alta qualidade com pintura UV, este guarda-roupa oferece durabilidade, resistência e um visual sofisticado na cor grafite que valoriza qualquer ambiente.
 
 **Design Premium que Transforma o Quarto**
@@ -3607,8 +3607,8 @@ Marca: Gelius Móveis | Modelo: Reflecta | Material: MDF | Acabamento: Pintura U
   price: 3179.00,
   originalPrice: 3749.00,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1EYBVF1",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/3g3zL8ENft",
   descricao: `O Guarda-Roupa Casal MDF Espelhado da D'Doro é a escolha definitiva para quem busca um móvel de alto padrão, com design moderno e acabamento impecável. Fabricado em MDF de alta qualidade com pintura texturizada UV, este guarda-roupa oferece durabilidade, resistência e um visual sofisticado na cor cinamomo que valoriza qualquer ambiente.
 
 **Design Moderno com Espelhos Integrados**
@@ -3672,8 +3672,8 @@ Marca: D'Doro | Linha: Guarda Roupa | Modelo: Grécia | Material: MDF | Acabamen
   price: 2109.99,
   originalPrice: 2499.00,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1koBoaB",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/9AOvtLUcGE",
   descricao: `O Guarda-roupa Casal MDF 6 Portas da Novo Horizonte é a escolha definitiva para quem busca um móvel imponente, com design moderno e capacidade de armazenamento incomparável. Com acabamento em pintura texturizada UV na cor Cumaru/Fendi, este guarda-roupa oferece durabilidade, resistência e um visual sofisticado que transforma qualquer quarto.
 
 **Design Imponente que Valoriza o Ambiente**
@@ -3739,8 +3739,8 @@ Marca: Novo Horizonte | Linha: Mesa Posta | Material: MDF | Acabamento: Pintura 
   price: 2099.99,
   originalPrice: 2499.00,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1GGoL8k",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/9zy2swGtIH",
   descricao: `O Guarda-Roupa Casal Ripado da Espresso Móveis é a escolha definitiva para quem busca um móvel com design contemporâneo, acabamento premium e organização inteligente. Com linhas modernas e o elegante contraste entre Cinamomo e Off White, este guarda-roupa é a peça central que transforma qualquer quarto em um ambiente sofisticado e funcional.
 
 **Design Contemporâneo com Acabamento Ripado**
@@ -3805,8 +3805,8 @@ Marca: Espresso Móveis | Linha: Nova York | Material: MDF/MDP | Acabamento: Pin
   price: 1954.99,
   originalPrice: 2612.00,
   badge: "",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/29AyGnK",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/50ZMvqOq7a",
   descricao: `O Guarda Roupa Casal Ripado 6 Portas 6 Gavetas 275cm da Espresso Móveis é a combinação perfeita de sofisticação, espaço e funcionalidade para o seu quarto. Com design contemporâneo e acabamento premium, este guarda-roupa foi projetado para transformar o dormitório em um ambiente moderno, bem organizado e cheio de estilo.
 
 **Design Imponente com Acabamento Ripado**
@@ -3875,8 +3875,8 @@ Marca: Espresso Móveis | Linha: Nueva York | Material: MDF/MDP | Acabamento: Pi
   price: 1214.00,
   originalPrice: 1574.00,
   badge: "",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2ivYRFb",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/7KxHiIyNoI",
   descricao: `O Guarda-roupa Solteiro 4 Portas 2 Gavetas da Manbel é a escolha perfeita para quem busca um móvel moderno, funcional e com excelente custo-benefício para o quarto. Fabricado em MDF de alta qualidade com acabamento em pintura UV, este guarda-roupa oferece durabilidade, resistência e um visual sofisticado na cor branca que valoriza qualquer ambiente.
 
 **Design Funcional que Otimiza Espaço**
@@ -3942,8 +3942,8 @@ Marca: Manbel | Modelo: 1007.09 | Material: MDF | Acabamento: Pintura UV | Cor: 
   price: 1434.99,
   originalPrice: 1624.00,
   badge: "",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1PK5Git",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/6q117RC8YG",
   descricao: `## Introdução
 
 O Guarda-roupa Solteiro 4 Portas com Bicama e Baú da Espresso Móveis é a solução definitiva para quem busca otimizar espaço sem abrir mão do design e da funcionalidade no quarto infantil ou de solteiro. Este móvel versátil combina três funções essenciais em um único produto: armário completo, cama auxiliar (bicama) e baú para organização extra. Produzido em 100% MDF com acabamento em pintura UV semi-brilho, oferece durabilidade, resistência e um visual moderno que se adapta a diferentes estilos de decoração.
@@ -4071,8 +4071,8 @@ O Guarda-roupa Solteiro 4 Portas com Bicama e Baú da Espresso Móveis é a solu
   price: 857.48,
   originalPrice: 974.00,
   badge: "",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2KkZbAB",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/AAHT5coxmh",
   descricao: `## Introdução
 
 O Guarda-Roupa Infantil com Cama 4 Portas 3 Gavetas Lisboa da Espresso Móveis é a solução perfeita para transformar o quarto das crianças em um ambiente funcional, organizado e cheio de estilo. Este móvel versátil combina duas funções essenciais em um único produto: armário completo e cama confortável. Com design moderno e acabamento de alta qualidade, o modelo Lisboa é ideal para otimizar espaços em quartos infantis, oferecendo praticidade no dia a dia e beleza na decoração.
@@ -4199,8 +4199,8 @@ O Guarda-Roupa Infantil com Cama 4 Portas 3 Gavetas Lisboa da Espresso Móveis �
   price: 1069.90,
   originalPrice: 1519.99,
   badge: "",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1iAyjQ5",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/5Asn8Yiu9r",
   descricao: `## Introdução
 
 O Closet Solteiro Premium 4 Gavetas da Amoudi Móveis é a solução definitiva para quem busca organização, estilo e funcionalidade no quarto. Projetado para otimizar espaços, este closet oferece ampla capacidade de armazenamento com design moderno e acabamento de alta qualidade. Ideal para quartos de solteiro, apartamentos compactos e ambientes que valorizam a praticidade sem abrir mão da elegância, o modelo da Amoudi Móveis é a escolha certa para quem deseja um móvel durável, bonito e funcional.
@@ -4326,8 +4326,8 @@ O Closet Solteiro Premium 4 Gavetas da Amoudi Móveis é a escolha ideal para qu
   price: 649.90,
   originalPrice: 799.00,
   badge: "Oferta Imperdível",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/13Q1oWA",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/3LR8xKYub0",
   descricao: `## Introdução
 
 O Guarda Roupa Solteiro Capri 2 Portas da Tonielque Móveis é a escolha perfeita para quem busca um móvel moderno, funcional e com excelente custo-benefício para o quarto. Com design clean e acabamento de alta qualidade, este guarda-roupa oferece ampla capacidade de armazenamento e organização inteligente, sendo ideal para quartos de solteiro, apartamentos compactos e ambientes que valorizam a praticidade sem abrir mão da elegância.
@@ -4452,8 +4452,8 @@ O Guarda Roupa Solteiro Capri 2 Portas da Tonielque Móveis é a solução ideal
   price: 743.80,
   originalPrice: 962.00,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1DZwXDS",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/905VhrfNW1",
   descricao: `
 # Guarda-Roupa Solteiro com Espelho 2 Portas de Correr e 2 Gavetas Peônia Yescasa Branco
 
@@ -4694,8 +4694,8 @@ Aproveite o desconto de 22% no pagamento via Pix e garanta já o seu guarda-roup
   price: 464.39,
   originalPrice: 635.00,
   badge: "Oferta Imperdível",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1v55uC8",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/3LR8xZker7",
   descricao: `
 # Guarda-Roupa Solteiro 4 Portas com Espelho Fortaleza Atualle Canelato Rústico com Off White
 
@@ -4946,8 +4946,8 @@ Aproveite a **Oferta Imperdível** com 26% de desconto no pagamento via Pix e ga
   price: 468.17,
   originalPrice: 600.00,
   badge: "",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2Ka7uha",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/6L4kXDVrtG",
   descricao: `
 # Guarda-Roupa 2 Portas com Espelho NT 5170 Freijó com Off White - Notável
 
@@ -5196,8 +5196,8 @@ Aproveite o desconto de 22% no pagamento via Pix e garanta já o seu guarda-roup
   price: 655.98,
   originalPrice: 941.00,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1B62pM4",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/1BMeNmf3LI",
   descricao: `
 # Guarda-Roupa Denver Madesa Solteiro 2 Portas de Correr com Espelho Preto 10948N1E
 
@@ -5452,8 +5452,8 @@ Aproveite a oferta imperdível com 30% de desconto no pagamento via Pix e garant
   price: 894.00,
   originalPrice: 1088.00,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/21VJuzm",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/9zy2u7R8cR",
   descricao: `
 # Guarda-Roupa Solteiro Ripado 4 Portas e 2 Gavetas Antony Marrom/Jatobá
 
@@ -5715,8 +5715,8 @@ Se você procura um guarda-roupa que una design autêntico, funcionalidade compl
   price: 328.23,
   originalPrice: 563.00,
   badge: "",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2m2NHMC",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/AUuJV61gjz",
   descricao: `
 # Guarda-Roupa Solteiro 4 Portas 2 Gavetas Panamá RP4020 Branco - Fellicci Móveis
 
@@ -5967,8 +5967,8 @@ Aproveite o desconto de 41% no pagamento via Pix e garanta já o seu Guarda-Roup
   price: 623.79,
   originalPrice: 897.00,
   badge: "",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/27tcsBP",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/1Lg4aKYQb2",
   descricao: `
 # Closet Industrial Ferro Preto com 2 Gavetas e 5 Prateleiras - UP Home Decor
 
@@ -6215,8 +6215,8 @@ Aproveite o desconto de 30% no pagamento via Pix e garanta já o seu Closet Indu
   price: 859.00,
   originalPrice: 976.00,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1J63r6a",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/9fLCViN1AE",
   descricao: `
 # Guarda-Roupa Modulado de Canto Madrid com 3 Portas Maxel Branco
 
@@ -6472,8 +6472,8 @@ Se você procura um guarda-roupa que una design inteligente, funcionalidade comp
   price: 1326.00,
   originalPrice: 1662.00,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2BiWx7E",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/4LJg9yOFER",
   descricao: `
 # Guarda-Roupa Dormitório Casal Canto com 4 Portas Versatille Yescasa Branco
 
@@ -6745,8 +6745,8 @@ Se você procura um guarda-roupa que una design inteligente, ampla capacidade de
   price: 1789.45,
   originalPrice: 2024.00,
   badge: "",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1BGHuFJ",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/113EBuquvg",
   descricao: `
 # Guarda-Roupa Solteiro 2 Portas de Correr com Espelho e 3 Gavetas RC2005 Emovell Branco
 
@@ -7002,8 +7002,8 @@ Se você procura um guarda-roupa que una design sofisticado, funcionalidade comp
   price: 1171.78,
   originalPrice: 1549.00,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2NPFcU6",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/AAHT6tWO77",
   descricao: `
 # Guarda-Roupa Montreal 2 Portas de Correr com 3 Gavetas Novo Horizonte Branco
 
@@ -7270,8 +7270,8 @@ Se você procura um guarda-roupa que una design premium, durabilidade excepciona
   price: 670.71,
   originalPrice: 979.90,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1fCx9rV",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/gQNnWqnEJ",
   descricao: `
 # Guarda-Roupa Solteiro Heros 4 Portas e 2 Gavetas Moderna Cor Naturalle - Rufato
 
@@ -7529,8 +7529,8 @@ Se você procura um guarda-roupa que una design sofisticado, organização compl
   price: 468.17,
   originalPrice: 600.00,
   badge: "",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2Ka7uha",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/AUuJeo95eW",
   descricao: `
 # Guarda-Roupa 2 Portas NT 5170 Freijó com Off White - Notável
 
@@ -7779,8 +7779,8 @@ Aproveite o desconto de 22% no pagamento via Pix e garanta já o seu guarda-roup
   price: 2609.10,
   originalPrice: 3979.00,
   badge: "Mais Vendido",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1Z8QrGg",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/7KxI1Ne5GC",
   descricao: `
 # Sofá Sem Caixa Retrátil 2,00m Soft Petit Boucle Cama Inbox Cor Cinza-escuro
 
@@ -8040,8 +8040,8 @@ Se você procura um sofá que una design sofisticado, funcionalidade completa e 
     price: 1452.92,
     originalPrice: 2399.00,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2Em4LmK",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/3g3zehPtMC",
     descricao: `
 # Sofá-Cama Nami 1,88m Xpand Tech Velourê | Cama Inbox
 
@@ -8103,8 +8103,8 @@ O prazo de entrega varia de acordo com o CEP de destino. Consulte o simulador de
     price: 3539.00,
     originalPrice: 4649.00,
     badge: "Molas Ensacadas",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2MjDQ7F",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/1BMegAOzeK",
     descricao: `
 # Sofá Retrátil e Reclinável Spazus 2,75m | Cama Inbox
 
@@ -8163,8 +8163,8 @@ O prazo de entrega varia de acordo com o CEP de destino. Consulte o simulador de
     price: 833.93,
     originalPrice: 1399.90,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2hsm5Qz",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/2gBST4oyxy",
     descricao: `
 # Sofá Retrátil e Reclinável Lívia 1,80m | Adonai Estofados
 
@@ -8222,8 +8222,8 @@ O prazo de entrega varia de acordo com o CEP de destino. Consulte o simulador de
     price: 1589.00,
     originalPrice: 2019.00,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2yprFj9",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/9AOwDDhOBX",
     descricao: `
 # Sofá Retrátil e Reclinável Thunder 2,10m | Cama Inbox
 
@@ -8281,8 +8281,8 @@ O prazo de entrega varia de acordo com o CEP de destino. Consulte o simulador de
     price: 1651.43,
     originalPrice: 2409.99,
     badge: "USB | 4 Porta-Copos",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1gg7vMB",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/1qcLTp7HoO",
     descricao: `
 # Sofá Retrátil e Reclinável Eureka 4 Lugares | Netsofas
 
@@ -8341,8 +8341,8 @@ O prazo de entrega varia de acordo com o CEP de destino. Consulte o simulador de
     price: 2461.51,
     originalPrice: 3002.00,
     badge: "Linha Premium",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1zofhaJ",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/LnXhDZl8z",
     descricao: `
 # Sofá Retrátil e Reclinável Aconchego 2,30m Bouclê | King House
 
@@ -8401,8 +8401,8 @@ O prazo de entrega varia de acordo com o CEP de destino. Consulte o simulador de
     price: 1707.10,
     originalPrice: 2409.99,
     badge: "4.6 ESTRELAS",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1MMZUj3",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/7KxI2EMw9n",
     descricao: `
 # Sofá Retrátil Reclinável Eureka 4 Lugares Areia | Netsofas
 
@@ -8462,8 +8462,8 @@ O prazo de entrega varia de acordo com o CEP de destino. Consulte o simulador de
     price: 2533.00,
     originalPrice: 4124.00,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1firzmj",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/7KxI2LXEv3",
     descricao: `
 # Conjunto Canto Amsterdam Marrom | King House
 
@@ -8522,8 +8522,8 @@ O prazo de entrega varia de acordo com o CEP de destino. Consulte o simulador de
     price: 3909.00,
     originalPrice: 5119.00,
     badge: "5 Lugares",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2He25DH",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/70KRdosh6U",
     descricao: `
 # Sofá Retrátil e Reclinável Spazus 3,15m | Cama Inbox
 
@@ -8581,8 +8581,8 @@ O prazo de entrega varia de acordo com o CEP de destino. Consulte o simulador de
     price: 869.00,
     originalPrice: 889.00,
     badge: "Pés de Madeira",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2UumA7n",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/70KRducrg9",
     descricao: `
 # Sofá 3 Lugares Beny 180cm Linho Bege | Madeira Prima
 
@@ -8641,8 +8641,8 @@ O prazo de entrega varia de acordo com o CEP de destino. Consulte o simulador de
     price: 406.29,
     originalPrice: 467.00,
     badge: "4.7 ESTRELAS",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1E9X9sG",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/8fSfd28yTj",
     descricao: `
 # Rack Aparador Turim 160cm | Móveis Bechara
 
@@ -8702,8 +8702,8 @@ Recomenda-se limpar com pano seco. Evite o uso de produtos abrasivos e o contato
     price: 379.00,
     originalPrice: 599.00,
     badge: "Com Painel",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/16Sedvq",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/4B0GGpgE5a",
     descricao: `
 # Rack com Painel Florida 175cm | Multimóveis
 
@@ -8762,8 +8762,8 @@ Ao receber, verifique as condições da embalagem. Caso haja avaria, não assine
     price: 787.19,
     originalPrice: 1124.00,
     badge: "Com LED",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1UUFZNP",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/8pm5pTMdeb",
     descricao: `
 # Rack com Painel Liverpool 200cm com LED | Yescasa
 
@@ -8821,8 +8821,8 @@ Recomenda-se limpar com pano seco para retirada do pó. Evite o uso de produtos 
     price: 713.00,
     originalPrice: 949.00,
     badge: "Portas Deslizantes",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1NRnwAh",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/8pm5pZXU1B",
     descricao: `
 # Rack Caemmun New Oscar com Painel 1,8m | Caemmun
 
@@ -8880,8 +8880,8 @@ Recomenda-se limpar com pano seco. Evite o uso de produtos abrasivos.
     price: 298.37,
     originalPrice: 325.00,
     badge: "Retrô Vintage",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2V75jtf",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/AKatcSos1V",
     descricao: `
 # Rack TV Berlin 130cm | By House
 
@@ -8939,8 +8939,8 @@ Recomenda-se limpar com pano seco. Evite o uso de produtos abrasivos.
     price: 634.49,
     originalPrice: 862.00,
     badge: "4.8 ESTRELAS",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1XcZYRY",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/2BFBtWrbxO",
     descricao: `
 # Rack Bancada Fortaleza 220cm | Colibri
 
@@ -9000,8 +9000,8 @@ Recomenda-se limpar com pano seco. Evite o uso de produtos abrasivos.
     price: 739.99,
     originalPrice: 874.00,
     badge: "100% MDF",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2q8chKG",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/3LR9Hmt8nS",
     descricao: `
 # Rack Ripado Valência 220cm | Mavaular
 
@@ -9060,8 +9060,8 @@ Ao receber, verifique as condições da embalagem. Caso haja avaria, não assine
     price: 819.00,
     originalPrice: 999.00,
     badge: "Design Orgânico",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1XcZYRY",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/905W2GwHZY",
     descricao: `
 # Rack Nobre 209cm com LED e Pés de Vidro | Gelius Móveis
 
@@ -9121,8 +9121,8 @@ Recomenda-se limpar com pano seco. Evite o uso de produtos abrasivos.
     price: 1219.99,
     originalPrice: 1424.00,
     badge: "4.6 ESTRELAS",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2KMPnQ3",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/7fa8RuYXLT",
     descricao: `
 # Conjunto Sala de Jantar Espanha 6 Cadeiras | Yescasa
 
@@ -9179,8 +9179,8 @@ O conjunto foi projetado para 6 lugares, garantindo espaço e conforto para todo
     price: 1183.99,
     originalPrice: 1687.00,
     badge: "Madeira Maciça",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1ymFKka",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/8pm5q76Y6E",
     descricao: `
 # Mesa de Jantar Vitalic 6 Cadeiras Vegas | Viero
 
@@ -9239,8 +9239,8 @@ Sim, o conjunto é enviado desmontado com todas as peças e manual incluso.
     price: 2164.95, // Preço recalculado com 15% de desconto
     originalPrice: 2547.00,
     badge: "4.8 ESTRELAS",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2cBCSEc",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/9zy3EJ9lQe",
     descricao: `
 # Conjunto Sala de Jantar Fênix 6 Cadeiras | Carraro
 
@@ -9298,8 +9298,8 @@ O conjunto está disponível na cor Rose, um tom sofisticado e versátil.
     price: 519.99,
     originalPrice: 635.00,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/24PjN2d",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/W6xuur75f",
     descricao: `
 # Conjunto Sala de Jantar Talita 4 Cadeiras | Madesa
 
@@ -9358,8 +9358,8 @@ Sim, as dimensões compactas são ideais para apartamentos e espaços reduzidos.
     price: 819.99,
     originalPrice: 1176.00,
     badge: "Tampo de Vidro",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1wuVhEX",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/6VOB40AzOP",
     descricao: `
 # Conjunto Sala Jantar Evelin 4 Cadeiras | Madesa
 
@@ -9418,8 +9418,8 @@ O vidro pode ser limpo com produtos específicos para vidros e um pano macio.
     price: 699.98,
     originalPrice: 847.00,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2wo73MS",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/8V9FRne90z",
     descricao: `
 # Conjunto Sala de Jantar Tifani 4 Cadeiras | Madesa
 
@@ -9478,8 +9478,8 @@ O vidro pode ser limpo com produtos específicos para vidros e um pano macio.
     price: 549.00,
     originalPrice: 899.00,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2M4nDji",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/2BFBuIuHyI",
     descricao: `
 # Conjunto de Jantar Sonetto 4 Cadeiras | Sonetto Móveis
 
@@ -9538,8 +9538,8 @@ Sim, as dimensões de 109cm x 68cm são ideais para apartamentos.
     price: 444.53,
     originalPrice: 539.00,
     badge: "Dobrável",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2wUsJSJ",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/6AlKfrMTNG",
     descricao: `
 # Jogo de Jantar Mesa Dobrável 70x70 | Maplan
 
@@ -9596,8 +9596,8 @@ Sim, é ideal para restaurantes, bares e eventos.
     price: 439.00,
     originalPrice: 539.00,
     badge: "Dobrável",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1wYALm4",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/2Vs2JDyc3r",
     descricao: `
 # Jogo Mesa Dobrável 70x70 Preto | Bistro
 
@@ -9655,8 +9655,8 @@ Sim, é resistente e pode ser usado em varandas e áreas de lazer.
     price: 1249.90,
     originalPrice: 1709.90,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/11LGarw",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/4qFx5aEJ2E",
     descricao: `
 # Sala de Jantar Olímpia 4 Cadeiras | Moderna Mobília
 
@@ -9714,8 +9714,8 @@ Sim, o produto acompanha manual de montagem para facilitar a instalação.
     price: 1018.25,
     originalPrice: 1092.00,
     badge: "Design Eames",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2yE15dv",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/70KRfd0FSf",
     descricao: `
 # Conjunto Mesa Eames 90cm | La Mobília
 
@@ -9773,8 +9773,8 @@ Sim, as cadeiras possuem design ergonômico em polipropileno.
     price: 1454.99,
     originalPrice: 1862.00,
     badge: "4.7 ESTRELAS",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1Ktc5JS",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/2BFBunqZ7L",
     descricao: `
 # Conjunto Sala de Jantar Nápoles 6 Cadeiras | Cel Móveis
 
@@ -9833,8 +9833,8 @@ Sim, o vidro é temperado, oferecendo maior resistência e segurança.
     price: 1814.99,
     originalPrice: 2349.00,
     badge: "4.7 ESTRELAS",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1r6rxCw",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/1Lg4vKrzCG",
     descricao: `
 # Conjunto Sala de Jantar Genova 6 Cadeiras | Cel Móveis
 
@@ -9893,8 +9893,8 @@ O vidro pode ser limpo com produtos específicos. O veludo requer limpeza a seco
     price: 1553.24,
     originalPrice: 1972.00,
     badge: "Vidro 60mm",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2oNGyLq",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/9zy3FNIMzv",
     descricao: `
 # Mesa de Jantar Luanda 180x90cm | Rufato
 
@@ -9952,8 +9952,8 @@ Sim, as dimensões de 180cm x 90cm são ideais para salas de jantar amplas.
     price: 239.00,
     originalPrice: 259.00,
     badge: "Com Filtro",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2kE9hMi",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/20vlimAnh9",
     descricao: `
 # Liquidificador Mondial Turbo Power 550W | Mondial
 
@@ -10011,8 +10011,8 @@ O liquidificador possui função autolimpeza para facilitar a manutenção.
     price: 291.35,
     originalPrice: 311.35,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2caBZBb",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/4LJgVAPga0",
     descricao: `
 # Liquidificador Electrolux 1500W Efficient | Electrolux
 
@@ -10070,8 +10070,8 @@ Sim, tritura gelo até 4x mais rápido que liquidificadores convencionais.
     price: 139.90,
     originalPrice: 169.90,
     badge: "Economia de Água",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/11Y9Fd5",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/3qNPuK86k4",
     descricao: `
 # Liquidificador Electrolux Efficient 600W | Electrolux
 
@@ -10130,8 +10130,8 @@ A função economiza até 730 litros de água por ano.
     price: 410.00,
     originalPrice: 430.00,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2nbmWFc",
+    platform: "Amazon",
+    affiliateLink: "https://link.amazon/B0akWh3IY",
     descricao: `
 # Liquidificador Philips Walita Série 3000 Turbo | Philips Walita
 
@@ -10190,8 +10190,8 @@ As peças são adequadas para lava-louças, facilitando a limpeza.
     price: 274.13,
     originalPrice: 419.00,
     badge: "Jarra Tritan",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1eaUnmG",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/2BFBvOg1FH",
     descricao: `
 # Liquidificador Philips Walita Série 5000 RI2242 | Philips Walita
 
@@ -10250,8 +10250,8 @@ Sim, a jarra Tritan é inquebrável, resistente e sem manchas.
     price: 711.55,
     originalPrice: 999.90,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1V7cWXj",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/8fSffQ27lC",
     descricao: `
 # Micro-ondas Electrolux 36L Inox Efficient | Electrolux
 
@@ -10370,8 +10370,8 @@ Sim, possui função de economia de energia.
     price: 1329.55,
     originalPrice: 1749.00,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1N79UgG",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/7Adrsj1opR",
     descricao: `
 # Micro-ondas Electrolux Embutir 34L Preto | Electrolux
 
@@ -10430,8 +10430,8 @@ Sim, a função Tira Odor mantém o produto livre de odores de preparos anterior
     price: 3684.12,
     originalPrice: 3849.00,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2rEQBt9",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/5VVdtixkTo",
     descricao: `
 # Geladeira Consul Frost Free 455L | Consul
 
@@ -10490,8 +10490,8 @@ Sim, o sistema Frost Free elimina a necessidade de descongelar.
     price: 2706.55,
     originalPrice: 3359.00,
     badge: "AutoSense",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2MZ5JyP",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/2gBSWaxiTU",
     descricao: `
 # Geladeira Electrolux Frost Free 400L | Electrolux
 
@@ -10549,8 +10549,8 @@ Sim, o Turbo Freezer é ideal para resfriamento rápido.
     price: 4781.33,
     originalPrice: 6879.00,
     badge: "Side by Side",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/22MvXs7",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/1AhLl6Fer",
     descricao: `
 # Geladeira Electrolux Side by Side 431L | Electrolux
 
@@ -10608,8 +10608,8 @@ Sim, a tecnologia SmartBivolt permite operação em 127V ou 220V.
     price: 4779.00,
     originalPrice: 4799.00,
     badge: "Máquina de Gelo",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2Ao9DQ4",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/8AWP4sC84s",
     descricao: `
 # Geladeira Electrolux Side by Side 435L IS4S | Electrolux
 
@@ -10667,8 +10667,8 @@ Sim, o sistema Frost Free elimina a formação de gelo.
     price: 2552.37,
     originalPrice: 3889.00,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1y9GxTw",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/20vljb7jEv",
     descricao: `
 # Geladeira Brastemp Frost Free 385L | Brastemp
 
@@ -10727,8 +10727,8 @@ A Safe Power mantém os alimentos congelados por até 12 horas após uma falta d
     price: 1799.97,
     originalPrice: 1799.97,
     badge: "2 Espelhos",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1HUVxkx",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/4fwWuaLon7",
     descricao: `
 # Guarda-roupa Casal 6 Portas Flora | Flora
 
@@ -10788,8 +10788,8 @@ O móvel conta com 3 gavetas internas com corrediças metálicas.
     price: 2039.38,
     originalPrice: 2519.00,
     badge: "4.7 ESTRELAS",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1HWpFGP",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/5LCDhsMCZ6",
     descricao: `
 # Guarda-roupa Casal Napoli 6 Portas | Henn
 
@@ -10849,8 +10849,8 @@ O móvel conta com 6 gavetas com corrediças telescópicas.
     price: 1814.49,
     originalPrice: 2312.00,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1EyaDkz",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/7ptYgXxXAQ",
     descricao: `
 # Guarda-roupa Nova York 6 Portas | Espresso Móveis
 
@@ -10909,8 +10909,8 @@ Sim, possui 2 cabideiros para pendurar roupas.
     price: 1011.75,
     originalPrice: 1176.45,
     badge: "Com LED",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1ro11Zs",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/7AdrtObus3",
     descricao: `
 # Cabeceira Box Casal Innova | Gelius Móveis
 
@@ -10969,8 +10969,8 @@ Sim, é ideal para cama box Casal, Queen e King.
     price: 474.90,
     originalPrice: 699.00,
     badge: "Com LED",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2hRDHTA",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/6L4ktwhOsZ",
     descricao: `
 # Cabeceira Modular Led Orgânica King | Sem Marca
 
@@ -11028,8 +11028,8 @@ Não. O produto acompanha manual de montagem e todos os acessórios necessários
     price: 899.90,
     originalPrice: 1449.90,
     badge: "Com Tomadas",
-    platform: "Site Oficial",
-    affiliateLink: "https://meli.la/1FS8kFS",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/9fLCsAWkrJ",
     descricao: `
 # Cabeceira Casal Queen Mabel 272cm | FD Móveis
 
@@ -11087,8 +11087,8 @@ Sim, são 2 tomadas embutidas na cabeceira.
     price: 576.81,
     originalPrice: 663.00,
     badge: "Autoportante",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1nrgtmy",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/3g3zjDINZI",
     descricao: `
 # Cabeceira para Cama Box Queen 160cm e Casal | Helena Estofada
 
@@ -11144,8 +11144,8 @@ Sim. É regulável, com largura ajustável para ambos os tamanhos.
     price: 897.90,
     originalPrice: 1120.00,
     badge: "Mais Vendida",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/24SHibC",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/BU7Yrpc5T",
     descricao: `
 # Cabeceira para Cama Box Queen 160cm | Painel Couríssimo Branco
 
@@ -11201,8 +11201,8 @@ Sim, esta é uma cabeceira com fixação na parede.
     price: 69.00,
     originalPrice: 86.25,
     badge: "Sem Furo",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1BuqwFr",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/7fa8UhmJgT",
     descricao: `
 # Cabeceira de Cama Infantil Menina Unicórnio | Sem Marca
 
@@ -11257,8 +11257,8 @@ Sim. O kit de 1,00m x 45cm serve tanto para cama solteiro infantil quanto para a
     price: 563.02,
     originalPrice: 658.00,
     badge: "Design Curvo",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2PgJcL4",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/AUuJrxjBd5",
     descricao: `
 # Cabeceira para Cama Box Casal 140cm Orgânica Lanna | Lyam Decor
 
@@ -11314,8 +11314,8 @@ Linho cru é claro mas prático. Limpe com pano levemente umedecido, sem esfrega
     price: 2035.26,
     originalPrice: 2544.07,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1cHqqS9",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/6AlKi7EWXN",
     descricao: `
 # Guarda-Roupa Casal 6 Portas Imperatriz | Gelius Móveis
 
@@ -11371,8 +11371,8 @@ Tem pés, mas recomenda-se fixação na parede para segurança.
     price: 622.00,
     originalPrice: 999.00,
     badge: "37% OFF",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1UKjNSo",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/1gIvLtHAuR",
     descricao: `
 # Cômoda 8 Gavetas com Sapateira e Cabideiro | Albatroz
 
@@ -11431,8 +11431,8 @@ Sim, requer montagem com manual incluso e ferragens.
     price: 358.80,
     originalPrice: 699.90,
     badge: "4.2 ESTRELAS",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1xFbxfq",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/80Cytb4iTs",
     descricao: `
 # Cômoda 4 Gavetas Branca 66cm | Maxi do Brasil
 
@@ -11491,8 +11491,8 @@ Sim. A estrutura em MDF/MDP com pés garante estabilidade e durabilidade.
     price: 399.00,
     originalPrice: 399.00,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/29et13x",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/40gqSXvH4L",
     descricao: `
 # Cômoda Infantil Bartira Ternura 5 Gavetas | Bartira
 
@@ -11550,8 +11550,8 @@ Sim, a Bartira oferece garantia de fábrica para seus produtos.
     price: 731.49,
     originalPrice: 799.00,
     badge: "Com Corrediça Telescópica",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/189D6ZE",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/40gqSga2bi",
     descricao: `
 # Kit 2 Cômodas 5 Gavetas | Espresso Móveis
 
@@ -11606,8 +11606,8 @@ Sim, as gavetas tem capacidade de até 10kg cada.
     price: 139.90,
     originalPrice: 199.90,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1UEyLvS",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/8fSg1JUC0t",
     descricao: `
 # Escrivaninha de Ferro 90cm Jomátri | Jomátri Móveis
 
@@ -11663,8 +11663,8 @@ Não, a montagem é simples e pode ser feita em 20 minutos.
     price: 497.90,
     originalPrice: 705.00,
     badge: "Mais Vendido",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1ZyNZp3",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/1qcLstdN9R",
     descricao: `
 # Cadeira Escritório Ergonômica LuvinCo G500 | LuvinCo
 
@@ -11720,8 +11720,8 @@ A cadeira suporta até 200kg.
     originalPrice: 777.00,
     badge: "4 Modos de Montagem",
     shopeeLink: "https://s.shopee.com.br/4LIODsBgeG",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2qNUG8h",
+    platform: "Amazon",
+    affiliateLink: "https://link.amazon/B0184RvdZ",
     descricao: `
 # Mesa Gamer Canto em L Nexus MP4781 | Multimóveis
 
@@ -12286,8 +12286,8 @@ Sim, até 360mm.
     price: 4999.00,
     originalPrice: 6248.75,
     badge: "Design Oficial",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/2UCj1gN",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/4qFxScnAPp",
     shopeeLink: "",
     descricao: `
 # Cadeira Gamer Playstation Camuflada | Playstation
@@ -12343,9 +12343,8 @@ Ajusta altura, profundidade, ângulo horizontal e vertical.
     price: 5999.99,
     originalPrice: 7499.99,
     badge: "Mesh Wintex",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1A9VDA7",
-    shopeeLink: "",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/2gBSsmVqnO",
     descricao: `
 # Cadeira Gamer DT3 Heroica V2 | DT3
 
@@ -12457,8 +12456,8 @@ Sim, complexidade alta, recomenda montador.
     price: 620.49,
     originalPrice: 941,
     badge: "1942 VENDIDOS",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/15HS1tE",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/9V1n1hW9C5",
     descricao: `
 # Guarda Roupa Solteiro Denver | Madesa
 
@@ -12569,8 +12568,8 @@ Não, foco em prateleiras e nichos.
     price: 4899.40,
     originalPrice: 6678.98,
     badge: "100% MDF",
-    platform: "Mercado Livre",
-    affiliateLink: "https://meli.la/1dxGfyg",
+    platform: "Shopee",
+    affiliateLink: "https://s.shopee.com.br/9fLDDuXw74",
     descricao: `
 # Guarda Roupa Casal Gelius Splendor | Gelius
 
@@ -12741,8 +12740,8 @@ Sim, é ideal para apartamentos com organização vertical.
   price: 423.69,
   originalPrice: 475.00,
   badge: "MAIS VENDIDO",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2eR7Wmc",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/4LJgs3KFnf",
   descricao: `
 # Penteadeira e Escrivaninha de Canto Star 136cm com Espelho Branco - 7º Mais Vendida
 
@@ -12824,8 +12823,8 @@ Se você buscou por **penteadeira de canto**, **penteadeira e escrivaninha de ca
   price: 57.87,
   originalPrice: 78.00,
   badge: "MAIS VENDIDO",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1waFksY",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/2Vs29OgQXR",
   descricao: `
 # Penteadeira Suspensa Kelan 60cm Branca 1 Gaveta - 1º Mais Vendida - R$ 57
 
@@ -12907,8 +12906,8 @@ Se você buscou por **penteadeira suspensa**, **penteadeira pequena 60cm**, **pe
   price: 162.36,
   originalPrice: 199.00,
   badge: "MAIS VENDIDO",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2rKZLNE",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/1AhB0FxoR",
   descricao: `
 # Penteadeira Suspensa Camarim Mesa 100x30 1 Gaveta Branco - 18º Mais Vendida
 
@@ -12990,8 +12989,8 @@ Se você buscou por **penteadeira suspensa 100cm**, **penteadeira camarim suspen
   price: 152.90,
   originalPrice: 179.90,
   badge: "15% OFF NO PIX",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1nxTEdZ",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/AAHTHnwZIu",
   descricao: `
 # Penteadeira Suspensa Jasmin 100x30 1 Gaveta Preto Lunim R$152 - 10kg
 
@@ -14187,8 +14186,8 @@ O **Kit com 2 Cadeiras Lua** é uma escolha para quem deseja transformar uma mes
   price: 690.55,
   originalPrice: 812.16,
   badge: "MAIS VENDIDO | 6 PORTAS",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/2F3CdfU",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/LnXYEwN4Z",
   descricao: `
 # Guarda-Roupa Casal Odisseia: organização inteligente para o quarto
 
@@ -14611,8 +14610,8 @@ O **Guarda-Roupa Infantil com Cômoda Sapateira Branco Flex** combina capacidade
   price: 854.99,
   originalPrice: 1164.56,
   badge: "MAIS VENDIDO | 3 PORTAS DE CORRER",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1kpFsMX",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/gQNwt35t0",
   descricao: `
 # Guarda-Roupa Casal Luana: grande capacidade em uma composição compacta
 
@@ -14819,8 +14818,8 @@ O **Guarda-Roupa Casal Luana** combina três portas de correr, nove gavetas, set
   price: 1749.90,
   originalPrice: 2449.90,
   badge: "MAIS VENDIDO | 100% MDF",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/1UAuBAq",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/50ZN6yNMr7",
   descricao: `
 # Guarda-Roupa Casal Lopas Branco: organização completa em 100% MDF
 
@@ -15016,8 +15015,8 @@ O **Guarda-Roupa Casal Lopas Branco** combina estrutura anunciada como 100% MDF,
   price: 639.99,
   originalPrice: 964.68,
   badge: "MAIS VENDIDO | 6 PORTAS",
-  platform: "Mercado Livre",
-  affiliateLink: "https://meli.la/17otiHX",
+  platform: "Shopee",
+  affiliateLink: "https://s.shopee.com.br/4B0G7bvhLC",
   descricao: `
 # Guarda-Roupa Casal França: espaço amplo com organização prática
 
@@ -15586,7 +15585,7 @@ O **Guarda-Roupa Casal Marta** reúne cinco portas, sete nichos, sete prateleira
   ],
   seoTitle: "Guarda-Roupa Casal Grande 5 Portas e 2 Gavetas Freijó Off White",
   seoDescription: "Guarda-Roupa Casal Grande com 5 portas, 2 gavetas, 7 nichos, 7 prateleiras, 9 repartições e 2 cabideiros de alumínio. MDP/HDF Freijó Off White.",
-},
+}
 
 
 

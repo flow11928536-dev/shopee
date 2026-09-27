@@ -53,7 +53,7 @@ function getOfferLabel(platform?: string) {
   const marketplace = getMarketplaceLabel(platform);
 
   if (marketplace === "Shopee") {
-    return "Ver oferta na Shopee";
+    return "Ver oferta";
   }
 
   if (marketplace === "Mercado Livre") {
