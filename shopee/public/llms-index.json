@@ -3,7 +3,7 @@
     "name": "Loja de Móveis Marília",
     "url": "https://www.lojademoveismarilia.com.br",
     "description": "Móveis escolhidos por montador profissional. Compare ofertas de sofás, guarda-roupas, cozinhas e racks do Mercado Livre e da Shopee, verificando medidas, materiais, avaliações, frete e condições antes de comprar.",
-    "lastUpdated": "2026-09-28T19:57:34.656Z"
+    "lastUpdated": "2026-09-28T20:12:25.402Z"
   },
   "categories": [
     {
@@ -743,6 +743,12 @@
       "description": "Seleção de geladeiras Frost Free para comparar antes da compra."
     },
     {
+      "slug": "geladeira-brastemp-ou-consul",
+      "title": "Geladeira Brastemp ou Consul",
+      "url": "https://www.lojademoveismarilia.com.br/comparativos/geladeira-brastemp-ou-consul",
+      "description": "Comparação prática entre os modelos Brastemp BRE66AK e Consul CRM53MK."
+    },
+    {
       "slug": "montadores-marilia",
       "title": "Montadores em Marília",
       "url": "https://www.lojademoveismarilia.com.br/montadores/marilia",
@@ -809,15 +815,21 @@
       "title": "Melhores geladeiras Frost Free",
       "url": "https://www.lojademoveismarilia.com.br/comparativos/melhores-geladeiras-frost-free",
       "description": "Seleção de geladeiras Frost Free para comparar antes da compra."
+    },
+    {
+      "slug": "geladeira-brastemp-ou-consul",
+      "title": "Geladeira Brastemp ou Consul",
+      "url": "https://www.lojademoveismarilia.com.br/comparativos/geladeira-brastemp-ou-consul",
+      "description": "Comparação prática entre os modelos Brastemp BRE66AK e Consul CRM53MK."
     }
   ],
   "statistics": {
     "totalCategories": 26,
     "totalGuides": 46,
-    "totalPages": 19,
+    "totalPages": 21,
     "totalProducts": 197,
-    "generatedAt": "2026-09-28T19:57:34.656Z",
-    "lastUpdated": "2026-09-28T19:57:34.656Z"
+    "generatedAt": "2026-09-28T20:12:25.402Z",
+    "lastUpdated": "2026-09-28T20:12:25.402Z"
   },
   "entities": {
     "materials": [
