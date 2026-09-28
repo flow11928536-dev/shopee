@@ -73,6 +73,7 @@ function getDataLastMod() {
       path.join(__dirname, '../src/data/products.ts'),
       path.join(__dirname, '../src/data/guides.ts'),
       path.join(__dirname, '../src/app/montadores/marilia/page.tsx'),
+      path.join(__dirname, '../src/app/geladeiras-brastemp/page.tsx'),
     ];
     const mtimes = files.map((f) => fs.statSync(f).mtime.getTime());
     return new Date(Math.max(...mtimes)).toISOString().split('T')[0];
@@ -692,6 +693,12 @@ function generateLlmsIndexJson(site, categories, guides, products, pages, stats,
         url: `${siteUrl}/montadores/marilia`,
         description: 'Serviço de montagem de móveis em Marília e região.',
       },
+      {
+        slug: 'geladeiras-brastemp',
+        title: 'Geladeiras Brastemp',
+        url: `${siteUrl}/geladeiras-brastemp`,
+        description: 'Seleção de geladeiras Brastemp com diferentes capacidades, configurações e tecnologias para a cozinha.',
+      },
     ],
     statistics: stats,
     entities,
@@ -874,6 +881,7 @@ async function generateFiles() {
     { slug: 'moveis-gamer', title: 'Guia de Móveis Gamer', url: pageUrl(SITE.url, 'moveis-gamer'), description: 'Guia completo para montar seu setup gamer com as melhores ofertas do Mercado Livre e Shopee. Cadeiras, mesas, iluminação e acessórios gamers.' },
     { slug: 'moveis-para-estudantes', title: 'Móveis para Estudantes', url: pageUrl(SITE.url, 'moveis-para-estudantes'), description: 'Guia completo para estudantes universitários sobre móveis compactos, baratos e funcionais.' },
     { slug: 'moveis-para-bebe', title: 'Móveis para Bebê', url: pageUrl(SITE.url, 'moveis-para-bebe'), description: 'Guia de móveis seguros e adequados para o quarto do bebê.' },
+    { slug: 'geladeiras-brastemp', title: 'Geladeiras Brastemp', url: pageUrl(SITE.url, 'geladeiras-brastemp'), description: 'Seleção de geladeiras Brastemp com diferentes capacidades, configurações e tecnologias para a cozinha.' },
     { slug: 'montadores-marilia', title: 'Montadores em Marília', url: pageUrl(SITE.url, 'montadores/marilia'), description: 'Serviço de montagem de móveis em Marília e região. Montador profissional com experiência.' },
     { slug: 'politicas', title: 'Políticas e Transparência', url: pageUrl(SITE.url, 'politicas'), description: 'Políticas de privacidade, termos de uso e transparência do site.' },
     { slug: 'contato', title: 'Contato', url: pageUrl(SITE.url, 'contato'), description: 'Entre em contato conosco por e-mail ou WhatsApp.' },
@@ -884,7 +892,7 @@ async function generateFiles() {
   const stats = {
     totalCategories: categories.length,
     totalGuides: guides.length,
-    totalPages: pages.length + 1,
+    totalPages: pages.length + 2,
     totalProducts: products.length,
     generatedAt: NOW_ISO,
     lastUpdated: NOW_ISO,

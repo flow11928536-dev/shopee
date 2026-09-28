@@ -3,7 +3,7 @@
     "name": "Loja de Móveis Marília",
     "url": "https://www.lojademoveismarilia.com.br",
     "description": "Móveis escolhidos por montador profissional. Compare ofertas de sofás, guarda-roupas, cozinhas e racks do Mercado Livre e da Shopee, verificando medidas, materiais, avaliações, frete e condições antes de comprar.",
-    "lastUpdated": "2026-09-27T03:47:02.963Z"
+    "lastUpdated": "2026-09-28T18:11:47.058Z"
   },
   "categories": [
     {
@@ -182,7 +182,7 @@
       "url": "https://www.lojademoveismarilia.com.br/categoria/eletrodomesticos",
       "description": "Encontre as melhores ofertas de Eletrodomésticos com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
-      "productCount": 22
+      "productCount": 28
     },
     {
       "slug": "liquidificadores",
@@ -206,7 +206,7 @@
       "url": "https://www.lojademoveismarilia.com.br/categoria/geladeiras",
       "description": "Encontre as melhores ofertas de Geladeiras e Refrigeradores com preços competitivos e frete para todo Brasil.",
       "relatedGuides": [],
-      "productCount": 5
+      "productCount": 11
     },
     {
       "slug": "air-fryers",
@@ -707,6 +707,12 @@
       "description": "Guia de móveis seguros e adequados para o quarto do bebê."
     },
     {
+      "slug": "geladeiras-brastemp",
+      "title": "Geladeiras Brastemp",
+      "url": "https://www.lojademoveismarilia.com.br/geladeiras-brastemp",
+      "description": "Seleção de geladeiras Brastemp com diferentes capacidades, configurações e tecnologias para a cozinha."
+    },
+    {
       "slug": "montadores-marilia",
       "title": "Montadores em Marília",
       "url": "https://www.lojademoveismarilia.com.br/montadores/marilia",
@@ -737,15 +743,21 @@
       "title": "Montadores em Marília",
       "url": "https://www.lojademoveismarilia.com.br/montadores/marilia",
       "description": "Serviço de montagem de móveis em Marília e região."
+    },
+    {
+      "slug": "geladeiras-brastemp",
+      "title": "Geladeiras Brastemp",
+      "url": "https://www.lojademoveismarilia.com.br/geladeiras-brastemp",
+      "description": "Seleção de geladeiras Brastemp com diferentes capacidades, configurações e tecnologias para a cozinha."
     }
   ],
   "statistics": {
     "totalCategories": 26,
     "totalGuides": 46,
-    "totalPages": 7,
-    "totalProducts": 191,
-    "generatedAt": "2026-09-27T03:47:02.963Z",
-    "lastUpdated": "2026-09-27T03:47:02.963Z"
+    "totalPages": 9,
+    "totalProducts": 197,
+    "generatedAt": "2026-09-28T18:11:47.058Z",
+    "lastUpdated": "2026-09-28T18:11:47.058Z"
   },
   "entities": {
     "materials": [
@@ -913,7 +925,9 @@
       "Decoren",
       "Não informado no anúncio",
       "Sallêto Móveis",
-      "Móveis Lopas"
+      "Móveis Lopas",
+      "HQ Screen",
+      "Samsung"
     ],
     "platforms": [
       "Shopee",

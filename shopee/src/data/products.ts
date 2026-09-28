@@ -10496,7 +10496,7 @@ Sim, o sistema Frost Free elimina a necessidade de descongelar.
     originalPrice: 3359.00,
     badge: "AutoSense",
     platform: "Shopee",
-    affiliateLink: "https://s.shopee.com.br/2gBSWaxiTU",
+    affiliateLink: "https://link.amazon/B0cnVnY5T",
     descricao: `
 # Geladeira Electrolux Frost Free 400L | Electrolux
 
@@ -10551,11 +10551,11 @@ Sim, o Turbo Freezer é ideal para resfriamento rápido.
     rating: 4.9,
     reviews: 131,
     discount: 30,
-    price: 4781.33,
-    originalPrice: 6879.00,
+    price: 2481.33,
+    originalPrice: 2879.00,
     badge: "Side by Side",
-    platform: "Shopee",
-    affiliateLink: "https://s.shopee.com.br/1AhLl6Fer",
+    platform: "Amazon",
+    affiliateLink: "https://link.amazon/B07QS53NP",
     descricao: `
 # Geladeira Electrolux Side by Side 431L | Electrolux
 
@@ -10610,11 +10610,11 @@ Sim, a tecnologia SmartBivolt permite operação em 127V ou 220V.
     rating: 4.9,
     reviews: 1955,
     discount: 0,
-    price: 4779.00,
+    price: 4229.00,
     originalPrice: 4799.00,
     badge: "Máquina de Gelo",
-    platform: "Shopee",
-    affiliateLink: "https://s.shopee.com.br/8AWP4sC84s",
+    platform: "Amazon",
+    affiliateLink: "https://link.amazon/B05H2jN2V",
     descricao: `
 # Geladeira Electrolux Side by Side 435L IS4S | Electrolux
 
@@ -10657,66 +10657,7 @@ Sim, o sistema Frost Free elimina a formação de gelo.
     seoTitle: "Geladeira Electrolux Side by Side 435L Inox IS4S | Máquina de Gelo",
     seoDescription: "Geladeira Electrolux 435L side by side inox com máquina de gelo, Inverter e Frost Free. Display digital. 4.9★ (1.955 reviews). Entrega rápida!",
   },
-  {
-    id: "p-imp-137",
-    slug: "geladeira-brastemp-frost-free-385l-duplex-branca-brm46mb-xpert-inverter",
-    category: "geladeiras",
-    mainCategory: "eletrodomesticos",
-    name: "Geladeira Brastemp Frost Free 385 Litros Duplex Branca BRM46MB com Xpert Inverter e Turbo Freezer",
-    imageFile: "/imagens/produtos/geladeira-brastemp-frost-free-385l-duplex-branca-brm46mb.webp",
-    displayImage: "/imagens/produtos/geladeira-brastemp-frost-free-385l-duplex-branca-brm46mb.webp",
-    alt: "Geladeira Brastemp Frost Free 385L na cor branca com tecnologia Xpert Inverter e prateleiras de vidro temperado",
-    rating: 4.9,
-    reviews: 3001,
-    discount: 34,
-    price: 2552.37,
-    originalPrice: 3889.00,
-    badge: "Mais Vendido",
-    platform: "Shopee",
-    affiliateLink: "https://s.shopee.com.br/20vljb7jEv",
-    descricao: `
-# Geladeira Brastemp Frost Free 385L | Brastemp
 
-A Geladeira Brastemp BRM46MB é a escolha número 1 entre os consumidores. Com tecnologia Xpert Inverter e sistema Frost Free, ela é perfeita para famílias que buscam economia e eficiência.
-
-## Diferenciais
-- Tecnologia Xpert Inverter com economia de até 33%.
-- Smart Cold para controle preciso de temperatura.
-- Turbo Freezer para resfriamento rápido.
-- Safe Power que mantém os alimentos congelados por até 12h.
-
-## Especificações Técnicas
-| Especificação | Detalhe |
-| :--- | :--- |
-| **Marca** | Brastemp |
-| **Modelo** | BRM46MB |
-| **Tipo** | Duplex (2 portas) |
-| **Cor** | Branca |
-| **Capacidade Total** | 385L |
-| **Tecnologia** | Xpert Inverter |
-| **Tipo de Degelo** | Frost Free |
-| **Controle de Temperatura** | Smart Cold |
-| **Turbo Freezer** | Sim |
-| **Safe Power** | Sim |
-
-## Dúvidas Frequentes
-**1. A geladeira tem tecnologia Inverter?**
-Sim, a tecnologia Xpert Inverter reduz o consumo de energia em até 33%.
-
-**2. O que é a tecnologia Safe Power?**
-A Safe Power mantém os alimentos congelados por até 12 horas após uma falta de energia.
-  `,
-    marca: "Brastemp",
-    keywords: [
-      "geladeira brastemp frost free",
-      "geladeira 385l duplex",
-      "geladeira brastemp branca",
-      "geladeira com xpert inverter",
-      "geladeira brm46mb"
-    ],
-    seoTitle: "Geladeira Brastemp Frost Free 385L Duplex BRM46MB | Xpert Inverter",
-    seoDescription: "Geladeira Brastemp 385L com Xpert Inverter, Frost Free e Turbo Freezer. Economia de até 33%, Safe Power. 4.9★ (3.001 reviews). 34% OFF!",
-  },
   {
     id: "p-imp-138",
     slug: "guarda-roupa-casal-6-portas-2-espelhos-flora-cinamomo-off-white",
@@ -15590,7 +15531,851 @@ O **Guarda-Roupa Casal Marta** reúne cinco portas, sete nichos, sete prateleira
   ],
   seoTitle: "Guarda-Roupa Casal Grande 5 Portas e 2 Gavetas Freijó Off White",
   seoDescription: "Guarda-Roupa Casal Grande com 5 portas, 2 gavetas, 7 nichos, 7 prateleiras, 9 repartições e 2 cabideiros de alumínio. MDP/HDF Freijó Off White.",
-}
+},
+{
+  id: "geladeira-brastemp-bre66ak-001",
+  slug: "geladeira-brastemp-b-smart-frost-free-inverse-500-litros-bre66ak",
+  category: "geladeiras",
+  mainCategory: "eletrodomesticos",
+  name: "Geladeira Brastemp B= Smart Frost Free Inverse 500 Litros BRE66AK",
+
+  // Substitua estes caminhos pelos nomes reais das imagens salvas em /public.
+  imageFile: "/imagens/produtos/geladeira-brastemp-b-smart-bre66ak.webp",
+  displayImage: "/imagens/produtos/geladeira-brastemp-b-smart-bre66ak.webp",
+  alt: "Geladeira Brastemp B= Smart Frost Free Inverse de 500 litros na cor inox",
+
+  // Dados informados no anúncio enviado. Atualize quando a avaliação mudar.
+  rating: 4.4,
+  reviews: 49,
+  discount: null,
+  price: null,
+  originalPrice: null,
+  badge: "B= Smart",
+  platform: "Amazon",
+  affiliateLink: "https://link.amazon/B0hgI3cGx",
+
+  descricao: `
+# Geladeira Brastemp B= Smart BRE66AK: espaço e tecnologia para quem compra com planejamento
+
+A BRE66AK é uma geladeira Brastemp Frost Free Inverse de 500 litros, com o freezer na parte inferior e acabamento inox. Ela foi pensada para casas que precisam de bastante espaço, mas também valorizam organização e recursos capazes de ajustar o funcionamento do aparelho ao uso da família.
+
+O ponto mais evidente é o tamanho: com cerca de 70,5 cm de largura, 74 cm de profundidade e 194,3 cm de altura, ela não é um modelo para escolher apenas pela foto. É preciso medir o nicho, conferir a abertura das portas e planejar o caminho até a cozinha. Em compensação, os 500 litros dão mais liberdade para guardar compras maiores, travessas e alimentos congelados.
+
+## O que a linha B= Smart tenta resolver
+
+A proposta desta linha é usar sensores e inteligência artificial para acompanhar o ritmo de uso da geladeira. Na prática, a ideia é reduzir oscilações de temperatura quando a porta é aberta com frequência e ajudar a preservar melhor os alimentos. É um recurso interessante para uma casa movimentada, mas não deve ser tratado como uma promessa de que todos os alimentos durarão o mesmo tempo em qualquer situação: acondicionamento, validade e temperatura continuam fazendo diferença.
+
+O compartimento Fresh Space com Smart Sensor é voltado para frutas e legumes. Já o Fresh Protein foi desenvolvido para ajudar na conservação de carnes e outros alimentos congelados. São recursos que podem ser úteis para quem faz compras maiores ou organiza refeições da semana, especialmente quando o freezer costuma ficar cheio.
+
+## Pontos positivos
+
+- Capacidade total de 500 litros, adequada para famílias que precisam de bastante espaço.
+- Configuração Inverse, com o freezer embaixo e o refrigerador na altura mais usada no dia a dia.
+- Sistema Frost Free, sem necessidade de descongelamento manual.
+- Tecnologia Xpert Inverter para funcionamento mais estável e eficiência energética, conforme a proposta do fabricante.
+- Fresh Space com Smart Sensor para frutas e legumes.
+- Fresh Protein com inteligência artificial para auxiliar na conservação de carnes congeladas.
+- Smart Flow para distribuir o ar frio de maneira mais uniforme entre os compartimentos.
+- Safe Power, recurso voltado à proteção contra oscilações e manutenção da temperatura em quedas de energia, conforme testes informados pela marca.
+- Modelo Bivolt, uma vantagem para quem pode mudar de residência ou tem dúvidas entre 127 V e 220 V.
+- Recursos extras como filtro de odores, Twist Ice, iluminação em LED e prateleiras de vidro com visão mais ampla.
+
+## O que merece atenção antes da compra
+
+- A altura de aproximadamente 1,94 m pode ser um problema em cozinhas com armários baixos, sancas ou vãos limitados.
+- A profundidade de 74 cm precisa ser comparada com a profundidade dos móveis planejados. A porta e a circulação lateral também exigem espaço.
+- Bivolt não significa que a instalação dispensa cuidados: confira a tomada, o aterramento e as orientações do manual.
+- Muitos recursos fazem mais sentido para quem realmente armazena frutas, legumes, carnes e refeições congeladas. Para uma pessoa ou casal que compra pouca comida, parte desse investimento pode não se pagar.
+- A proposta de conservação por mais tempo é baseada em testes e condições específicas informadas pela Brastemp. Não deve ser interpretada como garantia de validade fixa para qualquer alimento.
+- O preço é de uma categoria mais alta. Antes de comprar, compare a oferta na Amazon com outros modelos de 400 a 500 litros e veja se os recursos extras atendem à sua rotina.
+- Confirme no anúncio a condição de entrega, o vendedor, a instalação e a garantia disponíveis para o seu CEP.
+
+## Para quem eu recomendaria
+
+Eu olharia com bastante interesse para esta Brastemp se a família faz compras grandes, congela carnes e refeições ou precisa de uma organização interna mais confortável. O freezer embaixo também é prático para quem abre muito o refrigerador durante o dia e não quer ficar se abaixando para pegar itens de uso frequente.
+
+Ela também pode fazer sentido em uma cozinha planejada com espaço suficiente e para quem prefere investir em recursos de conservação em vez de escolher apenas pelo menor preço.
+
+## Para quem eu procuraria outro modelo
+
+Se o espaço vertical for limitado, se a cozinha for estreita ou se o orçamento estiver apertado, eu não escolheria este modelo sem comparar alternativas. Uma geladeira menor e mais simples pode atender melhor uma casa com poucas pessoas e reduzir o gasto inicial.
+
+Também vale procurar outra opção se você não costuma usar freezer, não faz compras grandes ou não tem interesse em recursos inteligentes. Nesse caso, pagar por 500 litros e tecnologias extras pode significar dinheiro parado.
+
+## Minha leitura sobre a compra
+
+A BRE66AK parece ser uma geladeira para quem quer subir de categoria: muito espaço, freezer inferior e uma série de recursos voltados à conservação. O diferencial não está apenas no acabamento inox, mas na combinação entre capacidade, sensores e organização interna.
+
+Ao mesmo tempo, eu não compraria sem medir o ambiente. A altura é o principal ponto de atenção, e a profundidade pode deixar o aparelho avançado em relação aos armários. Também conferiria a política de instalação e a garantia antes de finalizar.
+
+Meu veredito: **é uma opção interessante para famílias que realmente vão usar os 500 litros e os recursos de conservação, mas pode ser exagerada para uma casa pequena ou para quem busca apenas uma geladeira funcional e econômica**.
+
+Preço, frete, disponibilidade, vendedor, instalação e condições de garantia devem ser confirmados diretamente na Amazon antes da compra.
+  `,
+
+  marca: "Brastemp",
+  keywords: [
+    "geladeira Brastemp BRE66AK",
+    "Brastemp B= Smart",
+    "geladeira Brastemp 500 litros",
+    "geladeira Brastemp Inverse",
+    "geladeira Brastemp Frost Free",
+    "geladeira Brastemp inox",
+    "geladeira Brastemp bivolt",
+    "geladeira com Fresh Space",
+    "geladeira com Fresh Protein",
+    "geladeira Brastemp com inteligência artificial",
+  ],
+  seoTitle: "Geladeira Brastemp BRE66AK 500L: vale a pena?",
+  seoDescription:
+    "Análise da geladeira Brastemp B= Smart BRE66AK de 500 litros: recursos, medidas, pontos positivos, limitações e cuidados antes de comprar na Amazon.",
+
+  caracteristicas: [
+    "500 litros de capacidade total",
+    "Configuração Inverse, com freezer inferior",
+    "Sistema Frost Free",
+    "Tecnologia Xpert Inverter",
+    "Fresh Space com Smart Sensor",
+    "Fresh Protein com inteligência artificial",
+    "Smart Flow para distribuição de ar",
+    "Safe Power para proteção contra oscilações, conforme a marca",
+    "Bivolt",
+    "Dimensões informadas: 70,5 cm de largura, 74 cm de profundidade e 194,3 cm de altura",
+    "Acabamento inox",
+    "Filtro de odores, Twist Ice, LED e prateleiras de vidro",
+  ],
+
+  recomendacao:
+    "Recomendada para famílias que precisam de bastante espaço, fazem compras grandes e realmente vão aproveitar os recursos de conservação. Antes da compra, meça a cozinha e confirme instalação, entrega e garantia.",
+
+  contras: [
+    "Altura próxima de 1,94 m pode não caber em todos os projetos de cozinha.",
+    "Profundidade de 74 cm exige atenção em móveis planejados.",
+    "Preço mais alto do que modelos Frost Free convencionais.",
+    "Pode ser exagerada para casas pequenas ou para quem usa pouco o freezer.",
+    "Os resultados de conservação divulgados dependem de condições de teste e do uso correto.",
+  ],
+
+  notaMontador:
+    "Antes de fechar a compra, confira o vão da cozinha e o caminho de entrada. Para uma geladeira alta como esta, não basta medir apenas o espaço onde ela ficará: portas, elevador, corredor e altura dos armários também entram na conta.",
+},
+{
+  id: "geladeira-brastemp-brm46mb-001",
+  slug: "geladeira-brastemp-frost-free-duplex-385-litros-brm46mb",
+  category: "geladeiras",
+  mainCategory: "eletrodomesticos",
+  name: "Geladeira Brastemp Frost Free Duplex 385 Litros BRM46MB",
+
+  // Substitua pelos nomes reais das imagens salvas em /public.
+  imageFile: "/imagens/produtos/geladeira-brastemp-brm46mb-branca.webp",
+  displayImage: "/imagens/produtos/geladeira-brastemp-brm46mb-branca.webp",
+  alt: "Geladeira Brastemp Frost Free Duplex de 385 litros na cor branca",
+
+  // Dados informados no anúncio enviado. Atualize quando a avaliação mudar.
+  rating: 3.6,
+  reviews: 8,
+  discount: null,
+  price: null,
+  originalPrice: null,
+  badge: "Xpert Inverter",
+  platform: "Amazon",
+  affiliateLink: "https://link.amazon/B0a5fLSW8",
+
+  descricao: `
+# Geladeira Brastemp BRM46MB: uma duplex de 385 litros para a rotina da família
+
+A Brastemp BRM46MB é uma geladeira Frost Free duplex com freezer na parte superior, acabamento branco e capacidade total de 385 litros. É um modelo mais tradicional na organização do que as geladeiras Inverse: o congelador fica acima e o refrigerador concentra a maior parte do uso diário na parte inferior.
+
+Ela combina recursos voltados para economia e estabilidade de temperatura, como a tecnologia Xpert Inverter e o Smart Cold. Também traz Turbo Freezer para acelerar o resfriamento de bebidas e alimentos, além de compartimentos pensados para hortaliças e frios.
+
+Antes de comprar, eu prestaria atenção a duas coisas: as medidas do ambiente e a voltagem selecionada. O anúncio enviado é da versão 220 V, enquanto a linha também aparece em 110 V. São versões diferentes e não devem ser tratadas como se fossem intercambiáveis.
+
+## O que ela entrega no uso cotidiano
+
+Os 385 litros colocam a BRM46MB em uma faixa intermediária interessante para famílias que precisam de mais espaço do que uma geladeira compacta, mas não querem ocupar a cozinha com um modelo muito grande. A divisão duplex facilita separar congelados dos alimentos frescos, e o formato costuma ser familiar para quem já está acostumado com o freezer na parte superior.
+
+O Xpert Inverter foi desenvolvido para controlar o funcionamento do compressor com menos variação, enquanto o Smart Cold atua no controle da temperatura interna. Segundo a Brastemp, o modelo pode economizar até 33% de energia em uma comparação específica com outro aparelho da própria marca e com critérios determinados de teste. Esse número não deve ser entendido como uma economia garantida igual para todas as casas, pois consumo real depende do uso, temperatura ambiente, abertura das portas e instalação.
+
+## Pontos positivos
+
+- Capacidade total de 385 litros para uma família pequena ou média.
+- Sistema Frost Free, sem necessidade de descongelamento manual.
+- Formato duplex tradicional, simples de entender e organizar.
+- Tecnologia Xpert Inverter para funcionamento mais estável do compressor.
+- Smart Cold para ajudar no controle da temperatura interna.
+- Turbo Freezer para resfriar bebidas e alimentos mais rapidamente.
+- Fresh Zone para frutas e verduras, conforme a configuração divulgada para o modelo.
+- Compartimento extrafrio para alimentos que pedem uma temperatura mais baixa sem congelar.
+- Iluminação em LED e prateleiras ajustáveis, facilitando a visualização e a organização.
+- Acabamento branco fácil de combinar com diferentes cozinhas.
+
+## Pontos que merecem atenção
+
+- O freezer fica na parte superior. Se você prefere o congelador embaixo para deixar os alimentos mais usados na altura dos olhos, uma geladeira Inverse pode ser mais confortável.
+- As medidas informadas no anúncio são aproximadamente 65,2 cm de largura, 74,7 cm de profundidade e 180 cm de altura. Confira o manual e a página da oferta antes da compra, principalmente se houver móvel planejado.
+- A profundidade pode fazer a geladeira avançar em relação aos armários. Além do nicho, deixe espaço para ventilação e abertura das portas.
+- O anúncio enviado apresenta uma avaliação de 3,6 estrelas em 8 avaliações. É uma amostra pequena, mas eu não ignoraria esse sinal: vale ler os comentários mais recentes antes de decidir.
+- Confirme se a oferta é realmente da versão 220 V. A mesma linha pode aparecer em 110 V, e a tensão precisa ser compatível com a instalação da casa.
+- A economia de até 33% divulgada pela marca depende de uma comparação específica de laboratório. O consumo da sua casa pode ser diferente.
+- Os 385 litros são capacidade total; o espaço útil de cada compartimento é menor e deve ser comparado com a forma como sua família armazena panelas, travessas, garrafas e congelados.
+
+## Para quem eu recomendaria
+
+Eu consideraria a BRM46MB para uma família pequena ou média que quer uma geladeira de tamanho intermediário, prefere o freezer em cima e valoriza Frost Free sem abrir mão de recursos mais atuais de controle de temperatura.
+
+Ela também pode ser uma escolha equilibrada para quem prefere o acabamento branco, quer uma marca conhecida e não precisa de funções mais sofisticadas de uma geladeira inteligente ou Inverse.
+
+## Para quem eu procuraria outra opção
+
+Se você tem dificuldade para se abaixar, usa muito o refrigerador durante o dia ou prefere o freezer na parte inferior, eu compararia com uma Inverse. Se a casa faz compras grandes, armazena muitas marmitas ou congela bastante carne, talvez seja melhor olhar para modelos com freezer e capacidade maiores.
+
+Também não compraria apenas pelo desconto mostrado no anúncio. Como a página consultada apresenta poucas avaliações e uma nota inferior a outras páginas da mesma linha, eu verificaria comentários, vendedor, entrega e garantia antes de finalizar.
+
+## O que conferir antes de clicar em comprar
+
+1. Se a voltagem selecionada é 220 V e corresponde à tomada da sua casa.
+2. Largura, profundidade e altura do espaço onde ela será instalada.
+3. Espaço lateral e frontal para abrir as portas completamente.
+4. Caminho de entrada: portas, corredores, elevador e escadas.
+5. Prazo e custo de entrega para o seu CEP.
+6. Vendedor, política de devolução e garantia disponíveis na oferta.
+7. Avaliações mais recentes do anúncio e eventuais reclamações sobre ruído, refrigeração ou entrega.
+
+## Minha avaliação
+
+A BRM46MB parece uma opção sensata para quem procura uma duplex Frost Free de tamanho intermediário, com freezer superior e recursos de economia. Não é o modelo que eu escolheria automaticamente para todo mundo: a posição do freezer, a profundidade e a avaliação atual do anúncio precisam entrar na decisão.
+
+Meu veredito: **pode valer a pena para uma família pequena ou média que quer uma Brastemp branca, Frost Free e sem excesso de recursos, desde que a versão 220 V caiba na cozinha e as avaliações recentes confirmem uma boa experiência de compra**.
+
+Preço, frete, disponibilidade, vendedor, prazo e condições de garantia devem ser confirmados diretamente na Amazon antes da compra.
+  `,
+
+  marca: "Brastemp",
+  keywords: [
+    "geladeira Brastemp BRM46MB",
+    "geladeira Brastemp 385 litros",
+    "geladeira Brastemp Frost Free",
+    "geladeira Brastemp duplex",
+    "geladeira Brastemp branca",
+    "geladeira Brastemp Xpert Inverter",
+    "geladeira BRM46MB 220V",
+    "geladeira com Turbo Freezer",
+    "geladeira com Smart Cold",
+  ],
+  seoTitle: "Geladeira Brastemp BRM46MB 385L: vale a pena?",
+  seoDescription:
+    "Análise da geladeira Brastemp BRM46MB Frost Free Duplex de 385 litros: Xpert Inverter, Smart Cold, medidas, pontos positivos e cuidados antes de comprar.",
+
+  caracteristicas: [
+    "385 litros de capacidade total",
+    "Configuração duplex com freezer superior",
+    "Sistema Frost Free",
+    "Tecnologia Xpert Inverter",
+    "Smart Cold para controle da temperatura",
+    "Turbo Freezer para resfriamento rápido",
+    "Fresh Zone para frutas e verduras",
+    "Compartimento extrafrio",
+    "Iluminação em LED e prateleiras ajustáveis",
+    "Dimensões informadas: 65,2 cm de largura, 74,7 cm de profundidade e 180 cm de altura",
+    "Versão do anúncio: 220 V",
+  ],
+
+  recomendacao:
+    "Recomendada para famílias pequenas ou médias que preferem uma geladeira duplex tradicional, com freezer em cima, Frost Free e recursos de controle de temperatura.",
+
+  contras: [
+    "Freezer superior pode não ser o mais confortável para todos.",
+    "Profundidade de aproximadamente 74,7 cm exige atenção em cozinhas planejadas.",
+    "A avaliação informada no anúncio é 3,6 em 8 avaliações, uma amostra pequena que merece conferência.",
+    "A economia anunciada depende de uma comparação específica da fabricante.",
+    "A versão enviada é 220 V; confira a tensão antes da compra.",
+  ],
+
+  notaMontador:
+    "Meça o espaço e o caminho de entrada antes de comprar. Em geladeiras duplex, não basta o aparelho caber no nicho: as portas precisam abrir sem bater nos armários e o produto precisa passar por todos os acessos da casa.",
+},
+
+
+{
+  id: "geladeira-hq-460sbsff-001",
+  slug: "geladeira-hq-frost-free-side-by-side-460-litros-hq-460sbsff",
+  category: "geladeiras",
+  mainCategory: "eletrodomesticos",
+  name: "Geladeira HQ Frost Free Side by Side 460 Litros HQ-460SBSFF",
+
+  // Substitua estes dois caminhos pelos nomes reais das imagens salvas em /public.
+  imageFile: "/imagens/produtos/geladeira-hq-460sbsff.webp",
+  displayImage: "/imagens/produtos/geladeira-hq-460sbsff.webp",
+  alt: "Geladeira HQ Frost Free Side by Side de 460 litros na cor cinza",
+
+  rating: 4.3,
+  reviews: 40,
+  discount: null,
+  price: null,
+  originalPrice: null,
+  badge: "Side by Side",
+  platform: "Amazon",
+  affiliateLink: "https://link.amazon/A07ZiVrV9",
+
+  descricao: `
+# Geladeira HQ Side by Side 460 litros: uma opção espaçosa que merece atenção às medidas
+
+A HQ-460SBSFF é uma geladeira Side by Side pensada para quem gosta de visualizar melhor os alimentos e quer separar o freezer do refrigerador em compartimentos verticais. Com 460 litros de capacidade total, ela oferece uma divisão anunciada de 280 litros para o refrigerador e 180 litros para o congelador.
+
+O acabamento cinza com aparência de inox combina bem com cozinhas de visual mais moderno, e o painel eletrônico permite ajustar a temperatura sem precisar abrir a porta. O sistema Frost Free também elimina a necessidade de fazer descongelamentos manuais periódicos, algo que faz diferença na rotina.
+
+## O que chama atenção neste modelo
+
+O principal atrativo é o conjunto de espaço e formato. Os 460 litros atendem bem uma família que precisa guardar compras maiores, bebidas e recipientes de uso diário. O freezer de 180 litros é generoso para a categoria, mas o formato Side by Side divide os compartimentos na vertical: isso facilita a organização, embora alguns itens largos possam exigir mais planejamento do que em um freezer de gavetão.
+
+A fabricante informa compressor inverter, iluminação interna em LED, prateleiras de vidro, controle eletrônico, gás refrigerante R600a e consumo informado de 30,3 kWh por mês. Essas informações devem ser conferidas na ficha técnica da versão escolhida, principalmente porque o produto é oferecido em 127 V e 220 V.
+
+## Pontos positivos
+
+- Capacidade total de 460 litros, com boa divisão entre refrigerador e freezer.
+- Formato Side by Side, interessante para quem prefere os alimentos organizados em colunas.
+- Tecnologia Frost Free, sem necessidade de descongelamento manual.
+- Painel eletrônico com funções de resfriamento e congelamento rápido.
+- Prateleiras de vidro e iluminação interna em LED.
+- Compressor inverter informado pelo fabricante.
+- Acabamento cinza com visual próximo ao inox.
+- Pés ajustáveis para ajudar no nivelamento.
+
+## Pontos que merecem atenção
+
+- Com 70 cm de largura, 68 cm de profundidade e 178,5 cm de altura, ela não é uma geladeira para comprar sem medir o ambiente. Confira também portas, corredores, elevador e o espaço necessário para abrir as duas folhas.
+- O modelo não possui dispensador de água na porta. Para algumas pessoas isso não fará diferença; para outras, pode ser uma ausência importante em comparação com modelos mais completos.
+- O formato Side by Side oferece bastante espaço total, mas as prateleiras são mais estreitas do que em algumas geladeiras duplex tradicionais. Panelas e travessas largas podem exigir adaptação.
+- Há avaliação de comprador relatando que o congelador não deixava o sorvete tão firme. Isso é um relato individual, não uma conclusão geral, mas vale considerar se o desempenho do freezer é prioridade para você.
+- Também há relato de falha no painel antes de um ano de uso. O mesmo comprador mencionou atendimento rápido, mas relatou que a assistência era terceirizada. Por isso, recomendo verificar a política de garantia e a rede de atendimento antes da compra.
+- Confirme a voltagem correta: 127 V e 220 V são versões diferentes. Não ligue o produto em tensão incompatível.
+
+## Para quem ela pode fazer sentido
+
+Eu consideraria este modelo para uma família de médio porte, para quem cozinha com frequência ou para quem quer mais espaço de armazenamento sem partir imediatamente para uma geladeira muito maior. Também pode ser interessante para quem gosta do visual Side by Side e prefere manter refrigerador e freezer sempre separados.
+
+Ela faz mais sentido quando há espaço livre na cozinha e quando o comprador aceita conferir cuidadosamente a assistência e as condições de entrega. O tamanho e o peso tornam importante planejar o caminho até o local de instalação.
+
+## Para quem eu procuraria outra opção
+
+Eu procuraria outro modelo se a cozinha for estreita, se você precisar guardar travessas muito largas ou se fizer questão de dispensador de água. Também teria cautela se a prioridade for comprar uma marca com rede de assistência muito conhecida na sua região. Nesse caso, vale comparar a HQ com opções de fabricantes mais tradicionais antes de decidir.
+
+## O que conferir no anúncio antes de comprar
+
+1. A voltagem selecionada: 127 V ou 220 V.
+2. As medidas externas e o espaço de abertura das portas.
+3. O prazo e o custo de entrega para o seu CEP.
+4. A política de garantia e o canal de assistência disponível.
+5. A disponibilidade real da versão desejada.
+6. Se o consumo informado corresponde à versão anunciada.
+7. Se o vendedor e a página do anúncio continuam sendo os mesmos.
+
+## Veredito da curadoria
+
+A HQ-460SBSFF parece interessante pelo tamanho, pelo visual e pelo conjunto de recursos oferecidos. Eu não a classificaria como uma compra automática apenas porque tem 460 litros e acabamento bonito. O ponto decisivo é saber se as medidas cabem na sua cozinha e se você está confortável com as avaliações disponíveis sobre freezer e assistência.
+
+Minha recomendação é: pode valer a pena para quem busca uma Side by Side espaçosa e encontrou uma boa condição na Amazon, mas eu só fecharia a compra depois de confirmar a voltagem, medir todo o caminho de instalação e ler as avaliações mais recentes do anúncio.
+
+Preço, frete, estoque, prazo, vendedor e condições de garantia devem ser confirmados diretamente na Amazon antes da compra.
+  `,
+
+  marca: "HQ Screen",
+  keywords: [
+    "geladeira HQ",
+    "geladeira HQ 460 litros",
+    "HQ-460SBSFF",
+    "geladeira Side by Side",
+    "geladeira Frost Free 460 litros",
+    "refrigerador HQ Side by Side",
+    "geladeira com compressor inverter",
+    "geladeira cinza 460 litros",
+  ],
+  seoTitle: "Geladeira HQ 460L Side by Side: vale a pena?",
+  seoDescription:
+    "Análise da geladeira HQ-460SBSFF Side by Side de 460 litros: medidas, capacidade, recursos, pontos positivos e cuidados antes de comprar na Amazon.",
+
+  caracteristicas: [
+    "460 litros de capacidade total",
+    "280 litros no refrigerador e 180 litros no freezer",
+    "Sistema Frost Free",
+    "Formato Side by Side",
+    "Compressor inverter informado pelo fabricante",
+    "Painel eletrônico e funções rápidas",
+    "Prateleiras de vidro e iluminação LED",
+    "Dimensões: 70 cm de largura, 68 cm de profundidade e 178,5 cm de altura",
+    "Disponível em versões 127 V e 220 V",
+    "Garantia informada de 1 ano",
+  ],
+
+  recomendacao:
+    "Pode ser uma boa alternativa para quem quer bastante espaço e o formato Side by Side, desde que as medidas, a voltagem e a assistência sejam conferidas antes da compra.",
+
+  contras: [
+    "Não possui dispensador de água na porta.",
+    "As prateleiras verticais podem limitar recipientes muito largos.",
+    "É necessário conferir cuidadosamente o espaço de instalação.",
+    "Existem relatos pontuais sobre desempenho do freezer e falha no painel.",
+  ],
+
+  notaMontador:
+    "Antes de comprar, meça não só o nicho da cozinha, mas também o caminho completo até ele. Em uma Side by Side, alguns centímetros fazem diferença para passar por portas, elevadores e corredores.",
+},
+{
+  id: "geladeira-french-door-brastemp-bro85mk",
+  slug: "geladeira-french-door-brastemp-bro85mk",
+  category: "geladeiras",
+  mainCategory: "eletrodomesticos",
+  name: "Geladeira French Door 3 Portas Inox Design e Tecnologia Premium Brastemp - BRO85MK",
+
+  imageFile: "/imagens/produtos/geladeira-brastemp-bro85mk.webp",
+  displayImage: "/imagens/produtos/geladeira-brastemp-bro85mk.webp",
+  alt: "Geladeira French Door Brastemp BRO85MK em inox, com três portas e painel touch externo",
+
+  rating: 4.1,
+  reviews: 16,
+  discount: null,
+  price: null,
+  originalPrice: null,
+  badge: "",
+  platform: "Amazon",
+  affiliateLink: "https://link.amazon/B0baV4h19",
+
+  descricao: `
+# Geladeira French Door Brastemp BRO85MK
+
+A Brastemp BRO85MK é uma geladeira French Door de 3 portas, com acabamento inox e capacidade total de 559 litros. Ela chama atenção pelo espaço interno generoso, pelo compressor Inverter e por um conjunto de recursos que tentam facilitar a organização e a conservação dos alimentos. É um modelo voltado para quem precisa de bastante capacidade e está disposto a lidar com as exigências de espaço e instalação que uma geladeira desse porte impõe.
+
+## O que vale a pena conhecer
+
+O ponto mais forte é a capacidade: são 381 litros no compartimento refrigerador e 178 litros no freezer, o que ajuda bastante em casas com muita comida estocada ou famílias grandes. O compressor Inverter e a classe energética A indicam uma proposta de consumo mais controlado, embora a economia real dependa do uso e da comparação com o modelo antigo.
+
+O sistema Frost Free evita o acúmulo de gelo, e o Smart Flow promete distribuir o ar frio de maneira mais uniforme. A gaveta Fresh Box e o filtro Carbon AirFilter são recursos voltados para conservação e controle de odores, mas vale tratar as promessas da fabricante como informações do anúncio, não como garantia absoluta.
+
+O painel touch externo, o alarme de porta aberta, o Turbo Freezer e o fabricador de gelo Twist Ice Advanced são recursos práticos para o dia a dia. As prateleiras de vidro temperado e as gavetas removíveis facilitam a limpeza.
+
+## Pontos positivos
+
+- Capacidade total alta, com bom espaço tanto no refrigerador quanto no freezer.
+- Compressor Inverter e classe energética A, com proposta de consumo mais eficiente.
+- Frost Free, que evita a formação de gelo nas paredes.
+- Recursos úteis como Turbo Freezer, alarme de porta aberta e painel touch externo.
+- Acabamento inox e design French Door, que costumam agradar visualmente.
+
+## Pontos de atenção
+
+- É uma geladeira grande e profunda: 83,6 cm de largura, 79,3 cm de profundidade e 185,7 cm de altura. Medir o nicho não basta; é preciso conferir portas, corredores, elevador e espaço para abrir as portas.
+- Existem versões 110 V e 220 V. A voltagem precisa ser confirmada no anúncio antes da compra.
+- A economia de até 25% e a conservação por até 12 horas sem energia são condições específicas de teste da fabricante, não garantias para qualquer residência.
+- A avaliação e o número de avaliações podem variar conforme a página e o momento da consulta.
+- Preço, frete, estoque e garantia mudam com frequência e devem ser conferidos diretamente no anúncio.
+
+## Para quem pode fazer sentido
+
+Para famílias grandes ou casas que precisam de bastante espaço interno, especialmente quem já tem um nicho planejado para uma geladeira French Door e consegue lidar com as dimensões e a instalação.
+
+## Para quem eu procuraria outra opção
+
+Para quem tem cozinha pequena, corredores estreitos ou não quer lidar com uma geladeira tão profunda. Nesses casos, um modelo menor ou com portas reversíveis pode ser mais adequado. Também vale considerar outra opção se a voltagem disponível não bater com a versão encontrada.
+
+## O que conferir antes de comprar
+
+1. Confirme a voltagem no anúncio: 110 V ou 220 V.
+2. Meça largura, profundidade e altura do nicho, além do caminho de entrada e da abertura das portas.
+3. Verifique se há espaço para ventilação ao redor do produto.
+4. Confira frete, prazo, vendedor, garantia e política de devolução.
+5. Lembre-se de que preço e estoque mudam; confirme tudo na página do anúncio.
+
+## Minha avaliação
+
+É uma geladeira de capacidade alta e bons recursos, mas não é para qualquer cozinha. Se o espaço e a voltagem estiverem certos, ela pode ser uma escolha interessante para quem precisa de bastante espaço interno. Se o ambiente for apertado ou a instalação for complicada, provavelmente vale procurar um modelo menor.
+
+Este é um link de afiliado. Se você comprar pelo anúncio, o site pode receber uma comissão, sem custo adicional para você. A compra, o pagamento, a entrega, a devolução e a garantia são tratados diretamente com a Amazon ou com o vendedor indicado no anúncio.
+  `,
+
+  marca: "Brastemp",
+  keywords: [
+    "geladeira French Door Brastemp",
+    "Brastemp BRO85MK",
+    "geladeira inox 559 litros",
+    "geladeira French Door 3 portas",
+    "geladeira Frost Free Brastemp",
+  ],
+  seoTitle: "Geladeira French Door Brastemp BRO85MK: 559L, Inox e Frost Free",
+  seoDescription:
+    "Conheça a geladeira French Door Brastemp BRO85MK, com 559 litros, compressor Inverter, Frost Free e acabamento inox. Veja pontos positivos, cuidados e para quem vale a pena.",
+
+  caracteristicas: [
+    "Capacidade total de 559 litros",
+    "Configuração French Door com 3 portas",
+    "Acabamento inox",
+    "Compressor Inverter e classe energética A",
+    "Sistema Frost Free",
+    "Painel touch eletrônico externo",
+    "Fabricador de gelo Twist Ice Advanced",
+    "Dimensões: 83,6 cm de largura, 79,3 cm de profundidade e 185,7 cm de altura",
+  ],
+
+  recomendacao:
+    "Indicada para quem precisa de bastante espaço interno e tem ambiente planejado para uma geladeira French Door grande. Confirme a voltagem e as medidas antes de comprar.",
+
+  contras: [
+    "Dimensões grandes exigem atenção ao espaço de instalação e à abertura das portas",
+    "Existem versões 110 V e 220 V; é preciso confirmar a voltagem no anúncio",
+    "Promessas de economia e conservação são baseadas em condições específicas de teste da fabricante",
+  ],
+
+  notaMontador:
+    "Antes de comprar, meça o nicho, o caminho de entrada, portas, corredores e elevador. Deixe espaço para ventilação ao redor do produto e confirme a voltagem disponível na sua casa. A instalação deve seguir as orientações do manual da Brastemp.",
+},
+{
+  id: "geladeira-hq-426mdff-001",
+  slug: "geladeira-hq-frost-free-multidoor-426-litros-hq-426mdff",
+  category: "geladeiras",
+  mainCategory: "eletrodomesticos",
+  name: "Geladeira HQ Frost Free Inverter Multidoor 426 Litros Cinza HQ-426MDFF",
+
+  imageFile: "/imagens/produtos/geladeira-hq-426mdff.webp",
+  displayImage: "/imagens/produtos/geladeira-hq-426mdff.webp",
+  alt: "Geladeira HQ-426MDFF Multidoor Frost Free de 426 litros na cor cinza",
+
+  rating: 4.3,
+  reviews: 36,
+  discount: null,
+  price: null,
+  originalPrice: null,
+  badge: "",
+  platform: "Amazon",
+  affiliateLink: "https://link.amazon/B09hStty6",
+
+  descricao: `
+# Geladeira HQ Frost Free Multidoor 426 Litros
+
+A HQ-426MDFF é uma geladeira Multidoor de 426 litros, com acabamento cinza, tecnologia Inverter e painel digital touch. O modelo foi pensado para quem quer dividir melhor os alimentos entre refrigerador e freezer, sem ocupar o espaço de uma French Door maior.
+
+## O que vale a pena conhecer
+
+A capacidade total é distribuída entre 296 litros no refrigerador e 130 litros no freezer. As quatro portas ajudam na organização e podem facilitar o acesso aos compartimentos, mas também exigem atenção ao espaço disponível para abertura.
+
+O compressor Inverter ajusta o funcionamento de acordo com a necessidade de refrigeração. Na prática, essa tecnologia pode contribuir para um funcionamento mais estável e silencioso, mas o consumo real depende da instalação, da temperatura ambiente, da frequência de abertura das portas e dos hábitos de uso.
+
+O painel digital touch permite ajustar as temperaturas, enquanto as funções de resfriamento e congelamento rápido ajudam quando é necessário gelar bebidas ou alimentos em menos tempo. A gaveta Fresh Box foi projetada para armazenar frutas e verduras com mais organização.
+
+## Pontos positivos
+
+- Capacidade de 426 litros, dividida entre refrigerador e freezer.
+- Configuração Multidoor com quatro portas e melhor separação dos compartimentos.
+- Compressor Inverter, com proposta de funcionamento mais eficiente e silencioso.
+- Sistema Frost Free, que dispensa o degelo manual.
+- Painel digital touch e funções de resfriamento e congelamento rápido.
+- Gaveta Fresh Box para frutas e verduras.
+- Acabamento cinza com aparência moderna.
+
+## Pontos de atenção
+
+- O anúncio informa que o produto não é bivolt. A voltagem precisa ser confirmada antes da compra.
+- As dimensões são de aproximadamente 73 cm de largura, 70 cm de profundidade e 186 cm de altura. Meça também portas, corredores, elevador e escadas antes de fechar o pedido.
+- A abertura das quatro portas exige espaço livre na frente e nas laterais do aparelho.
+- A classificação energética, o consumo e as condições de garantia devem ser conferidos na versão e no anúncio selecionados.
+- A capacidade de 426 litros é total; a divisão informada é de 296 litros no refrigerador e 130 litros no freezer.
+- Preço, frete, estoque, prazo e vendedor podem mudar na Amazon.
+
+## Para quem pode fazer sentido
+
+Pode ser uma alternativa interessante para famílias que precisam de uma geladeira espaçosa, mas preferem uma configuração Multidoor em vez de uma geladeira convencional de duas portas. Também pode atender quem valoriza painel digital, freezer organizado e recursos de resfriamento rápido.
+
+## Para quem eu procuraria outra opção
+
+Eu procuraria outro modelo para quem tem pouco espaço na cozinha, precisa de uma geladeira mais estreita ou não consegue confirmar a voltagem disponível no imóvel. Também vale comparar outras marcas se o preço estiver próximo de modelos com assistência técnica mais conhecida na sua região.
+
+## O que conferir antes de comprar
+
+1. Confirme se a versão disponível é 127 V ou 220 V.
+2. Meça o local de instalação e o caminho completo até a cozinha.
+3. Reserve espaço para a abertura das quatro portas e para a ventilação.
+4. Confira as medidas e a capacidade diretamente no anúncio.
+5. Verifique vendedor, frete, prazo, garantia e política de devolução.
+6. Confirme o consumo de energia da voltagem escolhida.
+
+## Minha avaliação
+
+A HQ-426MDFF reúne uma capacidade interessante, configuração Multidoor e recursos úteis para a rotina. Ela pode valer a pena quando estiver com preço competitivo e houver assistência e garantia adequadas para a sua região. O principal cuidado é não comprar sem conferir a voltagem, as dimensões e o espaço necessário para abrir as quatro portas.
+
+Este é um link de afiliado. Se você comprar pelo anúncio, o site pode receber uma comissão, sem custo adicional para você. A compra, o pagamento, a entrega, a devolução e a garantia são tratados diretamente com a Amazon ou com o vendedor indicado no anúncio.
+  `,
+
+  marca: "HQ Screen",
+  keywords: [
+    "geladeira HQ 426 litros",
+    "geladeira HQ-426MDFF",
+    "geladeira Multidoor HQ",
+    "geladeira Frost Free Inverter",
+    "geladeira 4 portas",
+    "refrigerador HQ cinza",
+  ],
+  seoTitle: "Geladeira HQ-426MDFF Multidoor: 426 Litros, Frost Free e Inverter",
+  seoDescription:
+    "Conheça a geladeira HQ-426MDFF Multidoor de 426 litros, com Frost Free, compressor Inverter, painel digital touch e quatro portas. Veja medidas e cuidados antes de comprar.",
+
+  caracteristicas: [
+    "Capacidade total de 426 litros",
+    "296 litros no refrigerador e 130 litros no freezer",
+    "Configuração Multidoor com 4 portas",
+    "Sistema Frost Free",
+    "Compressor Inverter",
+    "Painel digital touch",
+    "Funções de resfriamento e congelamento rápido",
+    "Dimensões aproximadas: 73 cm de largura, 70 cm de profundidade e 186 cm de altura",
+  ],
+
+  recomendacao:
+    "Pode ser uma boa alternativa para quem procura uma geladeira Multidoor de 426 litros com Frost Free, painel digital e compressor Inverter. Confirme a voltagem, as medidas e as condições de assistência antes de comprar.",
+
+  contras: [
+    "Não é bivolt; a voltagem precisa ser escolhida corretamente",
+    "As quatro portas exigem espaço adequado para abertura",
+    "É importante conferir consumo, garantia e assistência técnica da região",
+    "As dimensões podem dificultar a entrada em cozinhas com corredores estreitos",
+  ],
+
+  notaMontador:
+    "Antes da compra, meça o nicho, portas, corredores, elevador e o espaço de abertura das quatro portas. Confirme a voltagem disponível e deixe a instalação seguir o manual do fabricante, incluindo o tempo de estabilização antes de ligar o aparelho, quando essa orientação for exigida.",
+},
+{
+  id: "geladeira-electrolux-im8b-001",
+  slug: "geladeira-electrolux-multidoor-efficient-autosense-590-litros-im8b",
+  category: "geladeiras",
+  mainCategory: "eletrodomesticos",
+  name: "Geladeira Electrolux Multidoor Efficient com AutoSense e Inverter 590 Litros Black Inox Look IM8B 127V",
+
+  imageFile: "/imagens/produtos/geladeira-electrolux-im8b.webp",
+  displayImage: "/imagens/produtos/geladeira-electrolux-im8b.webp",
+  alt: "Geladeira Electrolux IM8B Multidoor de 590 litros na cor Black Inox Look",
+
+  rating: 4.6,
+  reviews: 86,
+  discount: null,
+  price: null,
+  originalPrice: null,
+  badge: "",
+  platform: "Amazon",
+  affiliateLink: "https://link.amazon/B0gxPCiBc",
+
+  descricao: `
+# Geladeira Electrolux IM8B Multidoor 590 Litros
+
+A Electrolux IM8B é uma geladeira Multidoor de grande capacidade, com três portas, acabamento Black Inox Look e tecnologias voltadas para conservação dos alimentos. Com 590 litros no total, ela foi pensada para famílias que precisam armazenar bastante coisa e preferem um refrigerador espaçoso, com freezer separado e organização mais flexível.
+
+## O que vale a pena conhecer
+
+A capacidade é dividida em 390 litros no refrigerador e 200 litros no freezer. Esse espaço atende bem quem faz compras maiores ou costuma armazenar panelas, bebidas e alimentos congelados, mas também significa que o aparelho exige uma cozinha com espaço adequado para instalação e abertura das portas.
+
+O AutoSense ajusta a temperatura de acordo com os hábitos de uso. A tecnologia Inverter busca manter a temperatura mais estável e reduzir o consumo em comparação com sistemas convencionais, embora o resultado real dependa do ambiente, da instalação e da forma de uso.
+
+A gaveta HortiNatura foi desenvolvida para ajudar a preservar frutas e vegetais. O IceTwister facilita a produção e a retirada de gelo, enquanto as prateleiras FastAdapt permitem reorganizar o espaço interno. O sistema Frost Free elimina a necessidade de fazer o degelo manual.
+
+## Pontos positivos
+
+- Capacidade total de 590 litros, com 390 litros no refrigerador e 200 litros no freezer.
+- Configuração Multidoor com três portas e boa separação dos compartimentos.
+- Tecnologia AutoSense para ajuste automático da temperatura conforme o uso.
+- Compressor Inverter, com proposta de maior estabilidade e eficiência.
+- Sistema Frost Free, sem necessidade de descongelamento manual.
+- Gaveta HortiNatura para frutas e vegetais.
+- IceTwister, prateleiras FastAdapt e painel digital com trava.
+- Alarme de porta aberta e acabamento Black Inox Look.
+
+## Pontos de atenção
+
+- O link consultado corresponde à versão 127 V. Há também opção 220 V, mas a voltagem deve ser confirmada no anúncio antes da compra.
+- A geladeira é grande e precisa de espaço para instalação, ventilação e abertura das portas.
+- A descrição do anúncio usa o termo Black Inox Look, mas informa que o produto não possui inox em sua composição. O acabamento deve ser entendido conforme a descrição da fabricante.
+- As promessas de conservação por até 30% mais tempo, preservação de frutas e vegetais por até 2 vezes mais e redução de consumo são resultados de testes e comparações específicas; não são garantias iguais para toda casa.
+- Preço, frete, estoque, vendedor, prazo e condições de garantia podem mudar na Amazon.
+
+## Para quem pode fazer sentido
+
+Pode fazer sentido para famílias grandes, pessoas que armazenam muitos alimentos ou quem procura uma geladeira Multidoor com freezer espaçoso e recursos de organização. Também é uma opção para quem valoriza ajustes automáticos de temperatura e não quer fazer degelo manual.
+
+## Para quem eu procuraria outra opção
+
+Eu procuraria um modelo menor para cozinhas compactas, corredores estreitos ou ambientes sem espaço suficiente para abertura das portas. Também vale comparar outras geladeiras se o consumo, a assistência técnica ou o preço forem mais importantes do que a capacidade total.
+
+## O que conferir antes de comprar
+
+1. Confirme se a versão escolhida é 127 V ou 220 V.
+2. Meça o espaço disponível e o caminho completo até a cozinha.
+3. Verifique a área necessária para abrir as três portas e o freezer.
+4. Confirme largura, altura, profundidade e espaço de ventilação no anúncio.
+5. Confira vendedor, frete, prazo, garantia e política de devolução.
+6. Compare o consumo de energia da versão escolhida com outros modelos.
+
+## Minha avaliação
+
+A Electrolux IM8B é uma geladeira grande, completa e voltada para quem realmente precisa de muito espaço. Os recursos são interessantes, mas seu tamanho e preço fazem com que ela não seja uma escolha automática para qualquer cozinha. Se a família usa bastante o refrigerador, o espaço estiver preparado e a voltagem for compatível, pode ser uma alternativa forte entre os modelos Multidoor.
+
+Este é um link de afiliado. Se você comprar pelo anúncio, o site pode receber uma comissão, sem custo adicional para você. A compra, o pagamento, a entrega, a devolução e a garantia são tratados diretamente com a Amazon ou com o vendedor indicado no anúncio.
+  `,
+
+  marca: "Electrolux",
+  keywords: [
+    "geladeira Electrolux IM8B",
+    "geladeira Electrolux 590 litros",
+    "geladeira Multidoor Electrolux",
+    "geladeira Electrolux AutoSense",
+    "geladeira Electrolux Inverter",
+    "geladeira Black Inox Look",
+    "geladeira Frost Free Electrolux",
+  ],
+  seoTitle: "Geladeira Electrolux IM8B Multidoor: 590 Litros, AutoSense e Inverter",
+  seoDescription:
+    "Conheça a geladeira Electrolux IM8B Multidoor de 590 litros, com AutoSense, compressor Inverter, Frost Free, gaveta HortiNatura e acabamento Black Inox Look.",
+
+  caracteristicas: [
+    "Capacidade total de 590 litros",
+    "390 litros no refrigerador e 200 litros no freezer",
+    "Configuração Multidoor com 3 portas",
+    "Tecnologia AutoSense e compressor Inverter",
+    "Sistema Frost Free",
+    "Gaveta HortiNatura e IceTwister",
+    "Prateleiras FastAdapt de vidro temperado",
+    "Painel digital com trava e alarme de porta aberta",
+  ],
+
+  recomendacao:
+    "Indicada para famílias que precisam de muito espaço interno e têm uma cozinha preparada para uma geladeira Multidoor grande. Confirme a voltagem, as medidas e as condições do anúncio antes de comprar.",
+
+  contras: [
+    "Dimensões e capacidade elevadas exigem espaço adequado para instalação",
+    "O link consultado corresponde à versão 127 V; confirme a voltagem antes da compra",
+    "As promessas de economia e conservação dependem das condições dos testes da fabricante",
+    "O acabamento Black Inox Look não significa necessariamente aço inox em toda a composição",
+  ],
+
+  notaMontador:
+    "Antes de comprar, meça o local, portas, corredores, elevador e escadas. Reserve espaço para a abertura das três portas e para ventilação. Confirme a voltagem da instalação elétrica e siga o manual da Electrolux para nivelamento e primeira ligação do aparelho.",
+},
+{
+  id: "geladeira-samsung-rs58t5561b1-001",
+  slug: "geladeira-samsung-side-by-side-family-hub-rs58t5561b1-608-litros",
+  category: "geladeiras",
+  mainCategory: "eletrodomesticos",
+  name: "Geladeira Samsung Side by Side Black Premium RS58T5561B1/AZ 127V",
+
+  imageFile: "/imagens/produtos/geladeira-samsung-rs58t5561b1.webp",
+  displayImage: "/imagens/produtos/geladeira-samsung-rs58t5561b1.webp",
+  alt: "Geladeira Samsung Side by Side RS58T5561B1 em Black Inox Look com dispensador de água e gelo",
+
+  rating: 3.6,
+  reviews: 8,
+  discount: null,
+  price: null,
+  originalPrice: null,
+  badge: "",
+  platform: "Amazon",
+  affiliateLink: "https://link.amazon/B0fRQ2Ypr",
+
+  descricao: `
+# Geladeira Samsung Side by Side RS58T5561B1
+
+A Samsung RS58T5561B1 é uma geladeira Side by Side com acabamento Black Inox Look, dispensador externo de água e gelo e recursos inteligentes da linha Family Hub. É um modelo grande, voltado para quem quer organizar refrigerador e freezer lado a lado e valoriza conectividade, entretenimento e automação na cozinha.
+
+## O que vale a pena conhecer
+
+O anúncio apresenta o produto como uma geladeira de 608 litros, mas a descrição detalhada informa 585 litros, divididos em 392 litros no refrigerador e 193 litros no freezer. Essa diferença precisa ser confirmada na ficha técnica da variação escolhida antes da compra.
+
+O destaque da linha é a experiência Family Hub, com tela touch para exibir fotos, vídeos, anotações e agenda. O produto também é anunciado com Soundbar de 25 W, SmartView, Bluetooth, Wi-Fi e integração com o aplicativo SmartThings. Esses recursos podem ser interessantes para quem realmente pretende usar a conectividade; para quem busca apenas refrigeração e espaço, eles também tornam o produto mais complexo e caro.
+
+A geladeira tem sistema Frost Free, compressor Digital Inverter, controle digital de temperatura, alarme de porta aberta e dispensadores externos de água e gelo. O sistema All-around Cooling é apresentado para distribuir o ar frio pelos compartimentos.
+
+## Pontos positivos
+
+- Configuração Side by Side, com refrigerador e freezer lado a lado.
+- Dispensador externo de água e gelo.
+- Sistema Frost Free, sem necessidade de degelo manual.
+- Compressor Digital Inverter.
+- Tela Family Hub com recursos de organização e entretenimento.
+- SmartView, Bluetooth, Wi-Fi e integração com SmartThings, conforme o anúncio.
+- Prateleiras de vidro temperado e controle digital de temperatura.
+- Alarme de porta aberta e trava de segurança para crianças.
+
+## Pontos de atenção
+
+- O anúncio apresenta divergência de capacidade: 608 litros na ficha principal e 585 litros na descrição detalhada. Confirme esse dado antes de publicar como informação definitiva.
+- O link consultado corresponde à versão 127 V. Não compre sem conferir a voltagem selecionada.
+- As dimensões também aparecem de forma conflitante na página: uma tabela exibe medidas incompatíveis com uma geladeira grande, enquanto a descrição informa aproximadamente 178 cm de altura, 91,2 cm de largura e 72,6 cm de profundidade. Confirme as medidas no manual ou no anúncio antes da compra.
+- O modelo é grande, pesado e exige caminho de entrada compatível, além de espaço para abertura das portas.
+- A avaliação observada é de 3,6 estrelas com apenas 8 avaliações. A amostra é pequena, então não dá para tirar uma conclusão definitiva apenas pela nota.
+- Recursos como Family Hub, Soundbar e SmartView podem aumentar a complexidade de uso e precisam ser considerados na decisão.
+- Preço, frete, estoque, vendedor, prazo e garantia podem mudar na Amazon.
+
+## Para quem pode fazer sentido
+
+Pode fazer sentido para famílias que precisam de bastante espaço e desejam uma geladeira conectada, com tela, dispensadores e integração com outros dispositivos. Também é uma opção para quem prefere o formato Side by Side e tem uma cozinha preparada para um aparelho grande.
+
+## Para quem eu procuraria outra opção
+
+Eu procuraria um modelo mais simples para quem não pretende usar tela, aplicativos, Bluetooth ou recursos de entretenimento. Também compararia outras opções para cozinhas pequenas, corredores estreitos ou casas em que a assistência técnica local seja uma preocupação importante.
+
+## O que conferir antes de comprar
+
+1. Confirme a capacidade real da variação: 585 ou 608 litros.
+2. Confirme a voltagem: o link consultado mostra a versão 127 V.
+3. Verifique as dimensões corretas no anúncio, manual ou ficha técnica da Samsung.
+4. Meça portas, corredores, elevador, escadas e o espaço de abertura das duas portas.
+5. Confirme se há ponto de água adequado para o dispensador, quando exigido pela instalação.
+6. Confira vendedor, frete, prazo, garantia e política de devolução.
+7. Avalie se os recursos inteligentes realmente fazem sentido para sua rotina.
+
+## Minha avaliação
+
+A Samsung RS58T5561B1 é uma geladeira premium e bastante completa, mas o anúncio apresenta divergências de capacidade e dimensões que precisam ser esclarecidas antes da compra. A nota de 3,6 com oito avaliações também recomenda cautela. Eu só consideraria o modelo depois de confirmar a ficha técnica da versão 127 V, o tamanho real e a disponibilidade de assistência. Se esses pontos estiverem resolvidos e os recursos Family Hub forem úteis para você, ela pode ser uma opção diferenciada; caso contrário, uma Side by Side mais simples pode oferecer uma compra mais objetiva.
+
+Este é um link de afiliado. Se você comprar pelo anúncio, o site pode receber uma comissão, sem custo adicional para você. A compra, o pagamento, a entrega, a devolução e a garantia são tratados diretamente com a Amazon ou com o vendedor indicado no anúncio.
+  `,
+
+  marca: "Samsung",
+  keywords: [
+    "geladeira Samsung RS58T5561B1",
+    "geladeira Samsung Side by Side",
+    "geladeira Samsung Family Hub",
+    "geladeira Samsung 608 litros",
+    "geladeira Samsung 585 litros",
+    "geladeira com dispensador de água e gelo",
+    "geladeira Samsung Digital Inverter",
+  ],
+  seoTitle: "Geladeira Samsung RS58T5561B1 Side by Side: Family Hub e Dispensador",
+  seoDescription:
+    "Conheça a geladeira Samsung RS58T5561B1 Side by Side, com Family Hub, dispensador de água e gelo, Digital Inverter e recursos inteligentes. Veja os cuidados antes de comprar.",
+
+  caracteristicas: [
+    "Configuração Side by Side com 2 portas",
+    "Capacidade anunciada de 608 litros; descrição detalhada informa 585 litros",
+    "Sistema Frost Free",
+    "Compressor Digital Inverter",
+    "Tela touch Family Hub",
+    "Dispensador externo de água e gelo",
+    "Soundbar de 25 W, SmartView, Bluetooth, Wi-Fi e SmartThings, conforme o anúncio",
+    "Versão do link consultado: 127 V",
+  ],
+
+  recomendacao:
+    "Indicada para quem procura uma geladeira Side by Side premium com conectividade, dispensador de água e gelo e recursos Family Hub. Confirme a capacidade, as dimensões e a voltagem antes de comprar, pois o anúncio apresenta divergências nesses dados.",
+
+  contras: [
+    "O anúncio apresenta divergência entre 608 litros e 585 litros de capacidade",
+    "As dimensões exibidas em partes diferentes da página não são consistentes",
+    "Avaliação de 3,6 estrelas baseada em apenas 8 avaliações",
+    "Produto grande, pesado e com instalação mais exigente",
+    "Recursos inteligentes podem ser desnecessários para quem procura uma geladeira simples",
+  ],
+
+  notaMontador:
+    "Confirme as dimensões reais no manual e meça todo o caminho de entrada, incluindo portas, corredores, elevador e escadas. Verifique o espaço de abertura das duas portas, a voltagem 127 V e a necessidade de ponto de água para o dispensador antes da instalação.",
+},
+
+
+
+
 
 
 
