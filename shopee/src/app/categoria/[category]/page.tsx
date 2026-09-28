@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (main) {
     return {
       title: `${main.label} em Oferta | Loja de Móveis Marília`,
-      description: `Ofertas selecionadas de ${main.label} com os melhores preços do Mercado Livre e Shopee. Compare cozinhas, sofás, guarda-roupas e muito mais com entrega para todo o Brasil.`,
+      description: `Ofertas selecionadas de ${main.label} na Amazon, no Mercado Livre e na Shopee. Compare modelos, avaliações e condições de compra antes de abrir o anúncio.`,
       alternates: { canonical: `${SITE.url}/categoria/${slug}` },
       openGraph: {
         title: `${main.label} em Oferta | Loja de Móveis Marília`,
@@ -68,7 +68,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const parentLabel = parent ? parent.label : "";
     return {
       title: `${sub.label} em Oferta | Loja de Móveis Marília`,
-      description: `Ofertas selecionadas de ${sub.label} para ${parentLabel} com os melhores preços do Mercado Livre e Shopee. Compare modelos com entrega para todo o Brasil.`,
+      description: `Ofertas selecionadas de ${sub.label} para ${parentLabel} na Amazon, no Mercado Livre e na Shopee. Compare modelos, avaliações e condições de compra antes de abrir o anúncio.`,
       alternates: { canonical: `${SITE.url}/categoria/${slug}` },
       openGraph: {
         title: `${sub.label} em Oferta | Loja de Móveis Marília`,
@@ -89,7 +89,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: "Categoria em Oferta | Loja de Móveis Marília",
-    description: "Ofertas selecionadas de móveis e eletrodomésticos com entrega para todo o Brasil.",
+    description: "Compare móveis e eletrodomésticos da Amazon, do Mercado Livre e da Shopee antes de comprar.",
   };
 }
 
@@ -108,14 +108,26 @@ export default async function CategoryPage({ params }: Props) {
 
   if (main) {
     label = main.label;
-    items = products.filter((p) => p.mainCategory === main.slug);
+    items = products.filter((p) => {
+      const productCategories = [
+        p.category,
+        p.mainCategory,
+        ...(p.categories ?? []),
+      ].filter(Boolean);
+
+      return productCategories.includes(main.slug as ProductCategory);
+    });
   } else if (sub) {
     label = sub.label;
-    items = products.filter(
-      (p) =>
-        p.category === sub.slug ||
-        p.categories?.includes(sub.slug as ProductCategory)
-    );
+    items = products.filter((p) => {
+      const productCategories = [
+        p.category,
+        p.mainCategory,
+        ...(p.categories ?? []),
+      ].filter(Boolean);
+
+      return productCategories.includes(sub.slug as ProductCategory);
+    });
   }
 
   if (items.length === 0) {
@@ -194,9 +206,25 @@ export default async function CategoryPage({ params }: Props) {
             {label} em oferta
           </h1>
           <p className="mt-3 text-stone-500">
-            {items.length} {items.length === 1 ? "produto selecionado" : "produtos selecionados"} com
-            os melhores preços e avaliações. Entrega para todo o Brasil.
+            {items.length} {items.length === 1 ? "produto selecionado" : "produtos selecionados"}. Compare medidas, avaliações, materiais e condições atuais antes de abrir o anúncio.
           </p>
+
+          {slug === "geladeiras" && (
+            <div className="mt-5 flex flex-wrap gap-2">
+              <Link
+                href="/geladeiras-brastemp"
+                className="rounded-full bg-[#241E19] px-4 py-2 text-xs font-semibold uppercase tracking-wider text-white transition hover:bg-[#A08055]"
+              >
+                Ver seleção Brastemp
+              </Link>
+              <Link
+                href="/como-avaliamos-os-produtos"
+                className="rounded-full border border-[#D9CFC3] bg-white px-4 py-2 text-xs font-semibold uppercase tracking-wider text-[#51483F] transition hover:border-[#A08055]"
+              >
+                Como avaliamos
+              </Link>
+            </div>
+          )}
         </header>
 
         <div className="mt-6 flex flex-wrap gap-2">
@@ -245,6 +273,21 @@ export default async function CategoryPage({ params }: Props) {
         <div className="mt-8">
           <ProductGrid products={items} />
         </div>
+
+        <section className="mt-12 rounded-2xl border border-stone-200 bg-white p-6 sm:p-8">
+          <h2 className="text-xl font-semibold tracking-tight text-stone-900">
+            Antes de comprar, confira os detalhes que mudam a escolha
+          </h2>
+          <p className="mt-3 max-w-3xl text-sm leading-relaxed text-stone-600">
+            Preço, estoque, frete, prazo, voltagem e condições de pagamento podem mudar no marketplace. Use as informações desta página para comparar e confirme os dados no anúncio atual antes de finalizar. Alguns links podem gerar comissão, sem custo adicional para você.
+          </p>
+          <Link
+            href="/como-avaliamos-os-produtos"
+            className="mt-4 inline-block text-sm font-semibold text-[#8B6A43] hover:underline"
+          >
+            Conheça os critérios da curadoria →
+          </Link>
+        </section>
       </div>
     </>
   );

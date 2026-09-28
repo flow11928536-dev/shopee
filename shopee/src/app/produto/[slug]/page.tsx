@@ -16,6 +16,14 @@ const SURFACE = "#F5F2EA";
 const BORDER = "#DCD3BE";
 const FALLBACK_IMAGE = "/loja-moveis-jardim-esmeralda-marilia-moveis-de-alto-padrao-marilia-logo.png";
 
+function getMarketplaceLabel(link: string | null | undefined, platform: string | null | undefined) {
+  const value = `${link ?? ""} ${platform ?? ""}`.toLowerCase();
+  if (value.includes("amazon")) return "Amazon";
+  if (value.includes("shopee")) return "Shopee";
+  if (value.includes("mercadolivre") || value.includes("mercadolibre")) return "Mercado Livre";
+  return platform || "marketplace";
+}
+
 interface Props {
   params: Promise<{ slug: string }>;
 }
@@ -84,6 +92,7 @@ export default async function ProductPage({ params }: Props) {
   const hasReviews = typeof product.rating === "number" && product.rating > 0 && typeof product.reviews === "number" && product.reviews > 0;
   const categorySlug = product.category || "moveis";
   const categoryLabel = CATEGORY_LABELS[product.category] || product.category || "Móveis";
+  const marketplaceLabel = getMarketplaceLabel(product.affiliateLink, product.platform);
 
   const productSchema: Record<string, unknown> = {
     "@context": "https://schema.org",
@@ -155,19 +164,19 @@ export default async function ProductPage({ params }: Props) {
 
               <div className="mt-5 rounded-2xl p-4 text-center" style={{ backgroundColor: SURFACE }}>
                 <p className="text-sm font-semibold uppercase tracking-wider" style={{ color: SAGE }}>Consulte a oferta atual</p>
-                <p className="mt-1 text-xs leading-relaxed text-stone-500">Preço, frete, prazo, estoque e condições podem variar. Confira tudo diretamente no marketplace.</p>
+                <p className="mt-1 text-xs leading-relaxed text-stone-500">Preço, frete, prazo, estoque e condições podem variar. Confira tudo diretamente na {marketplaceLabel}.</p>
               </div>
 
               {product.affiliateLink ? (
                 <a
                   href={product.affiliateLink}
                   target="_blank"
-                  rel="sponsored noopener noreferrer"
+                  rel="sponsored nofollow noopener noreferrer"
                   className="mt-6 flex min-h-14 w-full items-center justify-center gap-2 rounded-full px-6 py-4 text-base font-bold text-white shadow-md transition hover:brightness-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9C7A3C] focus-visible:ring-offset-2"
                   style={{ backgroundColor: INK }}
-                  aria-label={`Saiba mais sobre ${product.name}`}
+                  aria-label={`Ver oferta de ${product.name} na ${marketplaceLabel}`}
                 >
-                  Ver oferta no marketplace
+                  Ver oferta na {marketplaceLabel}
                   <span aria-hidden="true">↗</span>
                 </a>
               ) : (
@@ -181,10 +190,10 @@ export default async function ProductPage({ params }: Props) {
               )}
               {product.affiliateLink && (
                 <p className="mt-3 text-center text-xs leading-relaxed text-stone-500">
-                  Link afiliado: podemos receber comissão, sem custo adicional para você. A compra, o pagamento, o frete, a entrega e a garantia são tratados pelo vendedor no marketplace.
+                  Link afiliado da {marketplaceLabel}: podemos receber comissão, sem custo adicional para você. A compra, o pagamento, o frete, a entrega e a garantia são tratados pelo vendedor.
                 </p>
               )}
-              <p className="mt-2 text-center text-xs leading-relaxed text-stone-400">Você será encaminhado ao marketplace para consultar o preço e concluir a compra.</p>
+              <p className="mt-2 text-center text-xs leading-relaxed text-stone-400">Você será encaminhado à {marketplaceLabel} para consultar o preço e concluir a compra.</p>
               <Link href="/" className="mt-3 text-center text-xs uppercase tracking-wide hover:underline" style={{ fontFamily: FONT_MONO, color: "#918466" }}>← Continuar comprando</Link>
             </div>
           </div>

@@ -49,8 +49,9 @@ function getFeaturedProducts(
     .filter((product) => {
       const productCategories = [
         product.category,
+        product.mainCategory,
         ...(product.categories ?? []),
-      ];
+      ].filter(Boolean);
 
       return productCategories.includes(category as ProductCategory);
     })
@@ -177,10 +178,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
 
   title:
-    "Móveis recomendados por montador profissional | Loja de Móveis Marília",
+    "Móveis e eletrodomésticos recomendados | Loja de Móveis Marília",
 
   description:
-    "Compare sofás, guarda-roupas, cozinhas, mesas e painéis do Mercado Livre e da Shopee. Veja medidas, avaliações e ofertas selecionadas antes de comprar.",
+    "Compare móveis e eletrodomésticos da Amazon, Mercado Livre e Shopee. Veja medidas, avaliações e ofertas selecionadas antes de comprar.",
 
   keywords: [
     "loja de móveis Marília",
@@ -188,6 +189,8 @@ export const metadata: Metadata = {
     "comprar móveis online",
     "sofá Mercado Livre",
     "guarda-roupa Shopee",
+    "geladeiras Amazon",
+    "eletrodomésticos Amazon",
     "móveis baratos",
     "móveis indicados por montador",
   ],
@@ -210,10 +213,10 @@ export const metadata: Metadata = {
 
   openGraph: {
     title:
-      "Móveis recomendados por montador profissional | Loja de Móveis Marília",
+      "Móveis e eletrodomésticos recomendados | Loja de Móveis Marília",
 
     description:
-      "Compare medidas, avaliações e ofertas de móveis do Mercado Livre e da Shopee antes de comprar.",
+      "Compare medidas, avaliações e ofertas de móveis e eletrodomésticos antes de comprar.",
 
     url: SITE.url,
     siteName: "Loja de Móveis Marília",
@@ -238,7 +241,7 @@ export const metadata: Metadata = {
     title:
       "Móveis recomendados por montador profissional | Loja de Móveis Marília",
     description:
-      "Compare móveis do Mercado Livre e da Shopee com orientação de montador profissional.",
+      "Compare móveis e eletrodomésticos com orientação de montador profissional.",
     images: [heroBanner],
   },
 };
@@ -257,7 +260,7 @@ const organizationSchema = {
   name: "Loja de Móveis Marília",
   url: SITE.url,
   description:
-    "Portal independente de curadoria de móveis com análise editorial de montador profissional e links de afiliado para ofertas do Mercado Livre e da Shopee.",
+    "Portal independente de curadoria de móveis e eletrodomésticos com análise editorial e links de afiliado para ofertas em marketplaces.",
   logo: {
     "@type": "ImageObject",
     url: `${SITE.url}/loja-moveis-jardim-esmeralda-marilia-moveis-de-alto-padrao-marilia-logo.png`,
@@ -279,7 +282,7 @@ const faqSchema = {
       name: "Como funciona a compra?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Você escolhe o móvel aqui no site e clica em Ver oferta. Depois é encaminhado para o Mercado Livre ou a Shopee, onde confere preço, frete, prazo, pagamento e garantia antes de finalizar a compra.",
+        text: "Você escolhe o produto aqui no site e clica em Ver oferta. Depois é encaminhado ao marketplace, onde confere preço, frete, prazo, pagamento e garantia antes de finalizar a compra.",
       },
     },
     {
@@ -287,7 +290,7 @@ const faqSchema = {
       name: "O site vende os móveis diretamente?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Não. A Loja de Móveis Marília é um portal independente de curadoria. A compra, o pagamento, a entrega e o atendimento são realizados pelo vendedor no Mercado Livre ou na Shopee.",
+        text: "Não. A Loja de Móveis Marília é um portal independente de curadoria. A compra, o pagamento, a entrega e o atendimento são realizados pelo vendedor no marketplace.",
       },
     },
     {
@@ -337,8 +340,8 @@ export default function HomePage() {
             </h1>
 
             <p className="mt-5 max-w-xl text-base leading-relaxed text-neutral-600 md:text-lg">
-              Compare medidas, materiais, avaliações e ofertas do Mercado Livre
-              e da Shopee antes de comprar.
+              Compare medidas, materiais, avaliações e ofertas da Amazon,
+              do Mercado Livre e da Shopee antes de comprar.
             </p>
 
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
@@ -358,7 +361,7 @@ export default function HomePage() {
             </div>
 
             <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-xs text-neutral-500">
-              <span>✓ Mercado Livre e Shopee</span>
+              <span>✓ Amazon, Mercado Livre e Shopee</span>
               <span>✓ Análise de montador</span>
               <span>✓ Compra no marketplace</span>
             </div>
@@ -471,6 +474,60 @@ export default function HomePage() {
                 Ver todas as categorias
               </Link>
             </div>
+          </section>
+
+          {/* Eletrodomésticos de maior intenção de compra */}
+          <section
+            id="eletrodomesticos-destaque"
+            aria-labelledby="appliances-title"
+            className="rounded-[1.5rem] border border-[#E3D7C8] bg-[#F5EFE7] p-5 md:p-8"
+          >
+            <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#A08055]">
+                  Compra de maior valor
+                </p>
+                <h2 id="appliances-title" className="mt-2 font-serif text-2xl font-light md:text-3xl">
+                  Eletrodomésticos para comparar com calma
+                </h2>
+                <p className="mt-2 max-w-2xl text-sm leading-relaxed text-[#756A5F]">
+                  Geladeiras e outros eletrodomésticos exigem atenção a medidas, capacidade, voltagem e condições de entrega. Veja a análise antes de abrir a oferta.
+                </p>
+              </div>
+              <Link
+                href="/geladeiras-brastemp"
+                className="w-fit rounded-full bg-[#241E19] px-5 py-3 text-xs font-semibold uppercase tracking-widest text-white transition hover:bg-[#A08055]"
+              >
+                Ver geladeiras
+              </Link>
+            </div>
+
+            {(() => {
+              const applianceProducts = products
+                .filter((product) => {
+                  const categories = [
+                    product.category,
+                    product.mainCategory,
+                    ...(product.categories ?? []),
+                  ].filter(Boolean);
+                  return categories.includes("geladeiras" as ProductCategory) || categories.includes("eletrodomesticos" as ProductCategory);
+                })
+                .filter((product) => Boolean(product.affiliateLink))
+                .sort((a, b) => b.rating - a.rating || b.reviews - a.reviews)
+                .slice(0, 3);
+
+              return applianceProducts.length > 0 ? (
+                <div className="mt-6 grid grid-cols-1 gap-5 md:grid-cols-3">
+                  {applianceProducts.map((product) => (
+                    <ProductCard key={`appliance-${product.id}`} product={product} />
+                  ))}
+                </div>
+              ) : (
+                <p className="mt-6 rounded-2xl border border-dashed border-[#D9CFC3] bg-white p-5 text-sm text-[#756A5F]">
+                  Em breve, novas opções de eletrodomésticos serão adicionadas.
+                </p>
+              );
+            })()}
           </section>
 
           {/* Confiança */}
@@ -608,8 +665,8 @@ export default function HomePage() {
 
                 <p className="mt-2 leading-relaxed text-neutral-600">
                   Você escolhe o móvel aqui no site e clica em Ver oferta.
-                  Depois é encaminhado para o Mercado Livre ou a Shopee, onde
-                  confere preço, frete e condições antes de finalizar.
+                  Depois é encaminhado ao marketplace, onde confere preço,
+                  frete e condições antes de finalizar.
                 </p>
               </div>
 
@@ -621,7 +678,7 @@ export default function HomePage() {
                 <p className="mt-2 leading-relaxed text-neutral-600">
                   Não. Somos um portal independente de curadoria. A venda, o
                   pagamento, a entrega, a devolução e a garantia são tratados
-                  pelo vendedor no marketplace.
+                  diretamente pelo vendedor no marketplace.
                 </p>
               </div>
 
@@ -645,8 +702,8 @@ export default function HomePage() {
                 Transparência:
               </strong>{" "}
               Somos um site independente de curadoria. Alguns links são de
-              afiliado do Mercado Livre e da Shopee e podem gerar comissão, sem
-              custo extra para você. A venda, o pagamento, a entrega e a
+              afiliado de marketplaces e podem gerar comissão, sem custo extra
+              para você. A venda, o pagamento, a entrega e a
               garantia são realizados pelo vendedor no marketplace.
             </p>
           </section>

@@ -5,9 +5,12 @@ import { usePathname } from "next/navigation";
 import { CATEGORY_LABELS, SITE, allCategories } from "@/data/products";
 
 const institutionalLinks = [
+  { href: "/geladeiras-brastemp", label: "Geladeiras" },
+  { href: "/categoria/eletrodomesticos", label: "Eletrodomésticos" },
   { href: "/guias", label: "Guias de Compra" },
   { href: "/moveis-para-estudantes", label: "Móveis para Estudantes" },
   { href: "/sobre", label: "Sobre Nós" },
+  { href: "/como-avaliamos-os-produtos", label: "Como avaliamos os produtos" },
   { href: "/contato", label: "Contato" },
   { href: "/politicas", label: "Políticas e Transparência" },
   { href: "/montadores/marilia", label: "Montadores em Marília" },
@@ -65,7 +68,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-stone-500">
-              Portal independente da Loja de Móveis Marília. Curadoria técnica de móveis do Mercado Livre e Shopee com guias especializados para ajudar você a comparar e comprar com segurança.
+              Portal independente da Loja de Móveis Marília. Curadoria técnica de móveis e eletrodomésticos da Amazon, Mercado Livre e Shopee com guias especializados para ajudar você a comparar e comprar com segurança.
             </p>
             <div className="mt-4 flex items-center gap-3">
               <a
@@ -157,7 +160,7 @@ export default function Footer() {
                 </a>
               </p>
               <p className="text-xs leading-relaxed text-stone-400">
-                Portal afiliado. Dúvidas sobre comparativos e guias. Venda, frete e garantia são do Mercado Livre e Shopee.
+                Portal afiliado. Dúvidas sobre comparativos e guias. Venda, frete e garantia são do marketplace.
               </p>
             </address>
           </div>
@@ -168,7 +171,7 @@ export default function Footer() {
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <p className="text-xs leading-relaxed text-stone-400">
-                <strong className="font-semibold text-stone-500">Transparência de afiliados:</strong> A Loja de Móveis Marília participa dos programas de afiliados do Mercado Livre e da Shopee. Ao comprar pelos nossos links, podemos receber comissão — sem custo adicional para você. Nossas recomendações são baseadas em análise de custo-benefício, reputação do vendedor e avaliações reais.
+                <strong className="font-semibold text-stone-500">Transparência de afiliados:</strong> A Loja de Móveis Marília participa dos programas de afiliados da Amazon, do Mercado Livre e da Shopee. Ao comprar pelos nossos links, podemos receber comissão — sem custo adicional para você. Nossas recomendações são baseadas em análise de custo-benefício, reputação do vendedor e avaliações reais.
               </p>
             </div>
           </div>

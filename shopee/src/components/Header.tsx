@@ -32,11 +32,13 @@ const navCats = allCategories
   .slice(0, 6);
 
 const moreLinks = [
+  { href: "/geladeiras-brastemp", label: "Geladeiras" },
   { href: "/guias", label: "Guias de Compra" },
-  { href: "/moveis-gamer", label: "Móveis Gamer" },
+  { href: "/categoria/eletrodomesticos", label: "Eletrodomésticos" },
   { href: "/fabricantes", label: "Fabricantes" },
   { href: "/moveis-para-estudantes", label: "Móveis para Estudantes" },
   { href: "/sobre", label: "Sobre Nós" },
+  { href: "/como-avaliamos-os-produtos", label: "Como avaliamos os produtos" },
   { href: "/contato", label: "Contato" },
 ];
 
@@ -82,7 +84,7 @@ export default function Header() {
             Curadoria de móveis para comprar melhor
             <span className="mx-2 hidden text-white/30 sm:inline">•</span>
             <span className="hidden font-normal normal-case tracking-normal text-white/65 sm:inline">
-              Compare ofertas no Mercado Livre e na Shopee
+              Compare ofertas na Amazon, no Mercado Livre e na Shopee
             </span>
           </p>
         </div>
@@ -327,8 +329,8 @@ export default function Header() {
                 </p>
 
                 <p className="mt-1 text-sm leading-relaxed text-[#4F463D]">
-                  Compare móveis e encontre ofertas no Mercado Livre e na
-                  Shopee.
+                  Compare móveis e eletrodomésticos e encontre ofertas na Amazon, no
+                  Mercado Livre e na Shopee.
                 </p>
 
                 <Link
