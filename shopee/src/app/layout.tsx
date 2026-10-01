@@ -42,11 +42,11 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "Loja de Móveis Marília | Móveis Indicados por Montador Profissional",
+    default: "Loja de Móveis Marília | Móveis indicados por um montador profissional",
     template: "%s | Loja de Móveis Marília",
   },
   description:
-    "Móveis selecionados por critérios de montagem e uso. Compare ofertas de sofás, guarda-roupas, cozinhas e racks no Mercado Livre e na Shopee. Confirme preço, frete e prazo no marketplace.",
+    "Móveis indicados por um montador profissional, com atenção a montagem, medidas e uso. Compare ofertas na Amazon, no Mercado Livre e na Shopee. Confirme preço, frete e prazo no marketplace.",
   robots: {
     index: true,
     follow: true,
@@ -63,8 +63,8 @@ export const metadata: Metadata = {
     siteName: "Loja de Móveis Marília",
     locale: "pt_BR",
     url: SITE.url,
-    title: "Loja de Móveis Marília | Móveis Indicados por Montador Profissional",
-    description: "Móveis selecionados por critérios de montagem e uso. Compare ofertas no Mercado Livre e na Shopee e confirme as condições diretamente no marketplace.",
+    title: "Loja de Móveis Marília | Móveis indicados por um montador profissional",
+    description: "Móveis indicados por um montador profissional. Compare ofertas na Amazon, no Mercado Livre e na Shopee e confirme as condições diretamente no marketplace.",
     images: [
       {
         url: `${SITE.url}/banners/og-image.jpg`,
@@ -109,7 +109,7 @@ const organizationSchema = {
   name: "Loja de Móveis Marília",
   url: SITE.url,
   logo: `${SITE.url}/loja-moveis-jardim-esmeralda-marilia-moveis-de-alto-padrao-marilia-logo.png`,
-  description: "Portal independente de curadoria de móveis. As recomendações consideram montagem, materiais, medidas, avaliações e custo-benefício; alguns links podem gerar comissão sem custo adicional para o comprador.",
+  description: "Portal independente de curadoria de móveis. Os produtos são indicados por um montador profissional, considerando montagem, materiais, medidas, avaliações e custo-benefício; alguns links podem gerar comissão sem custo adicional para o comprador.",
   areaServed: {
     "@type": "Country",
     name: "Brasil"
@@ -122,7 +122,7 @@ const websiteSchema = {
   "@id": `${SITE.url}/#website`,
   name: "Loja de Móveis Marília",
   url: SITE.url,
-  description: "Móveis selecionados por critérios de montagem e uso. Compare ofertas no Mercado Livre e na Shopee e confirme as condições diretamente no marketplace.",
+  description: "Móveis indicados por um montador profissional. Compare ofertas na Amazon, no Mercado Livre e na Shopee e confirme as condições diretamente no marketplace.",
   inLanguage: "pt-BR",
   publisher: {
     "@id": `${SITE.url}/#organization`,
@@ -179,7 +179,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
               </span>
-              <span className="font-mono font-semibold tracking-wide">LOJA DE MÓVEIS MARÍLIA • MÓVEIS INDICADOS POR MONTADOR PROFISSIONAL</span>
+              <span className="font-mono font-semibold tracking-wide">LOJA DE MÓVEIS MARÍLIA • MÓVEIS INDICADOS POR UM MONTADOR PROFISSIONAL</span>
               <span className="hidden sm:inline text-[#F5F0E8]/70"> | Compra online • Consulte frete e prazo no marketplace</span>
             </div>
           </div>

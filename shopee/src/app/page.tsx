@@ -336,7 +336,8 @@ export default function HomePage() {
               id="home-title"
               className="max-w-2xl font-serif text-4xl font-light leading-[1.08] tracking-tight text-[#1E1B18] md:text-6xl"
             >
-              Móveis escolhidos por montador profissional
+              Móveis indicados por um montador de Móveis profissional
+
             </h1>
 
             <p className="mt-5 max-w-xl text-base leading-relaxed text-neutral-600 md:text-lg">

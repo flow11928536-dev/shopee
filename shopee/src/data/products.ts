@@ -9,7 +9,7 @@ export const SITE = {
   name: "Loja de Móveis Marília",
   shortName: "Móveis Indicado Por um Montador Profissional",
   description:
-    "Móveis escolhidos por montador profissional. Compare ofertas de sofás, guarda-roupas, cozinhas e racks do Mercado Livre e da Shopee, verificando medidas, materiais, avaliações, frete e condições antes de comprar.",
+    "Móveis indicados por um montador de Móveis profissional. Compare ofertas de sofás, guarda-roupas, cozinhas e racks do Mercado Livre e da Shopee, verificando medidas, materiais, avaliações, frete e condições antes de comprar.",
   whatsapp: "5514996033296",
   email: "contato@lojademoveismarilia.com.br",
   city: "Marília",

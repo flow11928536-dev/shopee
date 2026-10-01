@@ -39,6 +39,8 @@ const moreLinks = [
   { href: "/moveis-para-estudantes", label: "Móveis para Estudantes" },
   { href: "/sobre", label: "Sobre Nós" },
   { href: "/como-avaliamos-os-produtos", label: "Como avaliamos os produtos" },
+  { href: "/comparativos", label: "Comparativos" },
+  { href: "/reviews", label: "Reviews" },
   { href: "/contato", label: "Contato" },
 ];
 
@@ -127,7 +129,7 @@ export default function Header() {
               </span>
 
               <span className="mt-1 block truncate text-[8px] font-semibold uppercase tracking-[0.16em] text-[#A08055] sm:text-[9px]">
-                Indicado por montador profissional
+                Móveis indicados por um montador profissional
               </span>
             </span>
           </Link>
