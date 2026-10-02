@@ -16154,7 +16154,7 @@ Este é um link de afiliado. Se você comprar pelo anúncio, o site pode receber
   rating: 4.6,
   reviews: 86,
   discount: null,
-  price: null,
+  price: 6399,
   originalPrice: null,
   badge: "",
   platform: "Amazon",
